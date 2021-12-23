@@ -1,0 +1,13 @@
+<reference anchor="I-D.lee-xcast-tunneling">
+  <front>
+    <title>Explicit Multicast Tunneling</title>
+    <seriesInfo name="Internet-Draft" value="draft-lee-xcast-tunneling-01"/>
+    <author fullname="Jiwoong Lee" initials="J." surname="Lee">
+      <organization>KTF</organization>
+    </author>
+    <date year="2002" month="August" day="9"/>
+    <abstract>
+      <t>Explicit multicast(Xcast)[1] is a new kind of Internet multicast,and encodes the list of destinations within its packet. Thisdocument specifies tunneling scheme of Xcast packets. Since asingle Xcast tunnel has multiple egress-nodes, the original Xcastpacket can be encapsulated either within a Xcast packet or within aunicast packet. When tunneled by Xcast-in-Xcast encapsulation, thebitmap of the original Xcast packet is overwritten by the bitmap ofthe tunnel Xcast packet at tunnel egress-nodes, in order to controlthe active destination set.</t>
+    </abstract>
+  </front>
+</reference>

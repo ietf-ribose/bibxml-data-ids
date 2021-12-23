@@ -1,0 +1,40 @@
+<reference anchor="I-D.ietf-bier-use-cases">
+  <front>
+    <title>BIER Use Cases</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bier-use-cases-12"/>
+    <author fullname="Nagendra Kumar">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Rajiv Asati">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Mach(Guoyi) Chen">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Xiaohu Xu">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Andrew Dolganow">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Tony Przygienda">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Arkadiy Gulko">
+      <organization>Thomson Reuters</organization>
+    </author>
+    <author fullname="Dom Robinson">
+      <organization>id3as-company Ltd</organization>
+    </author>
+    <author fullname="Vishal Arya">
+      <organization>DirecTV Inc</organization>
+    </author>
+    <author fullname="Caitlin Bestler">
+      <organization>Nexenta</organization>
+    </author>
+    <date year="2020" month="September" day="10"/>
+    <abstract>
+      <t>Bit Index Explicit Replication (BIER) is an architecture that provides optimal multicast forwarding through a "BIER domain" without requiring intermediate routers to maintain any multicast related per- flow state. BIER also does not require any explicit tree-building protocol for its operation. A multicast data packet enters a BIER domain at a "Bit-Forwarding Ingress Router" (BFIR), and leaves the BIER domain at one or more "Bit-Forwarding Egress Routers" (BFERs). The BFIR router adds a BIER header to the packet. The BIER header contains a bit-string in which each bit represents exactly one BFER to forward the packet to. The set of BFERs to which the multicast packet needs to be forwarded is expressed by setting the bits that correspond to those routers in the BIER header. This document describes some of the use cases for BIER.</t>
+    </abstract>
+  </front>
+</reference>

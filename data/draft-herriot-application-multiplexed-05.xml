@@ -1,0 +1,11 @@
+<reference anchor="I-D.herriot-application-multiplexed">
+  <front>
+    <title>The MIME Application/Vnd.pwg-multiplexed Content-Type</title>
+    <seriesInfo name="Internet-Draft" value="draft-herriot-application-multiplexed-05"/>
+    <author fullname="Robert G. Herriot" initials="R. G." surname="Herriot"/>
+    <date year="2002" month="April" day="8"/>
+    <abstract>
+      <t>The Application/Vnd.pwg-multiplexed content-type, like theMultipart/Related content-type, provides a mechanism for representingobjects that consist of multiple components. An Application/Vnd.pwg-multiplexed entity contains a sequence of chunks. Each chunk containsa MIME message or a part of a MIME message. Each MIME messagerepresents a component of the compound object, just as a body part ofa Multipart/Related entity represents a component. With aMultipart/Related entity, a body part and its reference in some otherbody part may be separated by many octets. With anApplication/Vnd.pwg-multiplexed entity, a message and its referencein some other message can be made quite close by chunking the messagecontaining the reference. For example, if a long message containsreferences to images and the producer does not know of the need foreach image until it generates the reference, thenApplication/Vnd.pwg-multiplexed allows the consumer to process thereference to the image and the image before it consumes the entirelong message. This ability is important in printing and scanningapplications. This document defines the Application/Vnd.pwg-multiplexed content-type. It also provides examples of its use.</t>
+    </abstract>
+  </front>
+</reference>

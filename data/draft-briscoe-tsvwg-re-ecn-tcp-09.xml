@@ -1,0 +1,14 @@
+<reference anchor="I-D.briscoe-tsvwg-re-ecn-tcp">
+  <front>
+    <title>Re-ECN: Adding Accountability for Causing Congestion to TCP/IP</title>
+    <seriesInfo name="Internet-Draft" value="draft-briscoe-tsvwg-re-ecn-tcp-09"/>
+    <author fullname="Bob Briscoe"/>
+    <author fullname="Arnaud Jacquet"/>
+    <author fullname="Toby Moncaster"/>
+    <author fullname="Alan Smith"/>
+    <date year="2010" month="October" day="25"/>
+    <abstract>
+      <t>This document introduces a new protocol for explicit congestionnotification (ECN), termed re-ECN, which can be deployedincrementally around unmodified routers. The protocol works byarranging an extended ECN field in each packet so that, as it crossesany interface in an internetwork, it will carry a truthful predictionof congestion on the remainder of its path. The purpose of thisdocument is to specify the re-ECN protocol at the IP layer and togive guidelines on any consequent changes required to transportprotocols. It includes the changes required to TCP both as anexample and as a specification. It briefly gives examples ofmechanisms that can use the protocol to ensure data sources respondcorrectly to congestion, but these are described more fully in acompanion document.</t>
+    </abstract>
+  </front>
+</reference>

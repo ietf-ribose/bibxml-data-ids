@@ -1,0 +1,15 @@
+<reference anchor="I-D.liu-epp-pa-notify">
+  <front>
+    <title>Uniform Treatment of Pending Action Notification in EPP
+A Strawman Proposal
+</title>
+    <seriesInfo name="Internet-Draft" value="draft-liu-epp-pa-notify-00"/>
+    <author fullname="Dr. Hong Liu" initials="H." surname="Liu">
+      <organization>NeuStar, Inc.</organization>
+    </author>
+    <date year="2002" month="July" day="30"/>
+    <abstract>
+      <t>Many domain registries, especially sponsored TLDs and ccTLDs, havespecific policy that calls for the server to perform additionalbackend processing before it completes a transform operation on anobject requested by a client. When the pending action is completed,the server must notify the client about the outcome. However, currentEPP core specifications do not address the notification messaging ina generic way. As a result, a registry has to resort to defining anew schema as extension to the object mapping concerned for thispurpose.Inspired by recent discussions on the 'ietf-provreg' mailing list onrelated topics, this draft presents a strawman proposal for uniformtreatment of server notification for pending action in the base EPPprotocol. A new OPTIONAL child element is added to &lt;poll&gt; response asbasic notification content, which consists of the transaction ID thattriggered the pending action and the outcome of the pending action.In addition, object specific data and extension information can bepiggybacked in existing child elements of &lt;response&gt;. The requiredmodification to the EPP base protocol is kept to the minimum andincurs no change to the EPP base object mappings. Most importantly,the proposed solution is applicable to any object mapping, ensuringEPP's extensibility beyond domain registry applications.Strong interests by the registry community in deploying this featurewarrant that it be best handled as a generic but optional feature inthe EPP base protocol. This allows any registry to handle pendingaction without the need to define a new schema, eliminating theproliferation of ad hoc object extensions repetitively defined bydisparate registries for the very same purpose.</t>
+    </abstract>
+  </front>
+</reference>

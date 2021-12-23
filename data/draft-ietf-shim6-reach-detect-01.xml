@@ -1,0 +1,11 @@
+<reference anchor="I-D.ietf-shim6-reach-detect">
+  <front>
+    <title>Shim6 Reachability Detection</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-shim6-reach-detect-01"/>
+    <author fullname="Iljitsch van Beijnum" initials="I." surname="van Beijnum"/>
+    <date year="2005" month="October" day="26"/>
+    <abstract>
+      <t>The shim6 working group is developing a mechanism that allowsmultihoming by using multiple addresses. When communication betweenthe initially chosen addresses for a transport session is no longerpossible, a "shim" layer makes it possible to switch to a differentset of addresses without breaking current transport protocolassumptions. This draft discusses the issues of detecting failuresin a currently used address pair between two hosts and picking anew address pair to be used when a failure occurs. The input forthese processes are ordered lists of local and remote addressesthat are reasonably likely to work. (I.e., not include addressesthat are known to be unreachable for local reasons.) These listsmust be available at both ends of the communication, although theordering may differ. Building these address lists from locallyavailable information and synchronizing them with the remote endare outside the scope of this document.This text is for the most part based on discussions on the multi6list, several multi6 design team lists and the shim6 list, withnotable contributions from Erik Nordmark, Marcelo Bagnulo and JariArkko. Suggestions and additions are more than welcome.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,13 @@
+<reference anchor="I-D.jaufeerally-bgp-lg-cap">
+  <front>
+    <title>An in-band BGP mechanism for looking-glass address discovery</title>
+    <seriesInfo name="Internet-Draft" value="draft-jaufeerally-bgp-lg-cap-01"/>
+    <author fullname="Rayhaan Jaufeerally">
+      <organization>TBD</organization>
+    </author>
+    <date year="2021" month="July" day="25"/>
+    <abstract>
+      <t>Autonomous Systems (ASes) that peer with one another using the Border Gateway Protocol (BGP) RFC 4271 [RFC4271] do not have an automated way to tell if the prefixes announced over a particular peering link are acceped by the peer. One way in which an AS operator can verify acceptance of routes by a peer is using a looking glass which may be provided by the peer, however this introduces manual toil in the operation and turnup of peering links, and does not allow for continued validation to ensure there are no regressions. Looking glasses are often manually found by browsing the website of the peer or via a database of peering participants. This document proposes a new in-band mechanism for transmitting administrative data between BGP peers, and defines one such use case for propagating looking glass addresses. This is done via a new Address Family Identifier (AFI) which carries a message that we define here, inside the Multi Protocol (MP_REACH and MP_UNREACH) path attribute The looking glass that we expose via the proposed mechanism conforms to that defined in RFC 8522 [RFC8522].</t>
+    </abstract>
+  </front>
+</reference>

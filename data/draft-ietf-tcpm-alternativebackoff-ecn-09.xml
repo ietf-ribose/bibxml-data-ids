@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-tcpm-alternativebackoff-ecn">
+  <front>
+    <title>TCP Alternative Backoff with ECN (ABE)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-alternativebackoff-ecn-09"/>
+    <author fullname="Naeem Khademi" initials="N." surname="Khademi">
+      <organization>University of Oslo</organization>
+    </author>
+    <author fullname="Michael Welzl" initials="M." surname="Welzl">
+      <organization>University of Oslo</organization>
+    </author>
+    <author fullname="Dr. Grenville Armitage" initials="G." surname="Armitage">
+      <organization>Netflix Inc.</organization>
+    </author>
+    <author fullname="Gorry Fairhurst" initials="G." surname="Fairhurst">
+      <organization>University of Aberdeen</organization>
+    </author>
+    <date year="2018" month="August" day="14"/>
+    <abstract>
+      <t>Active Queue Management (AQM) mechanisms allow for burst tolerance while enforcing short queues to minimise the time that packets spend enqueued at a bottleneck. This can cause noticeable performance degradation for TCP connections traversing such a bottleneck, especially if there are only a few flows or their bandwidth-delay- product is large. The reception of a Congestion Experienced (CE) ECN mark indicates that an AQM mechanism is used at the bottleneck, and therefore the bottleneck network queue is likely to be short. Feedback of this signal allows the TCP sender-side ECN reaction in congestion avoidance to reduce the Congestion Window (cwnd) by a smaller amount than the congestion control algorithm's reaction to inferred packet loss. This specification therefore defines an experimental change to the TCP reaction specified in RFC3168, as permitted by RFC 8311.</t>
+    </abstract>
+  </front>
+</reference>

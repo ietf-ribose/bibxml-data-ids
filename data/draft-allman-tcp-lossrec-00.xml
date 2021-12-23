@@ -1,0 +1,20 @@
+<reference anchor="I-D.allman-tcp-lossrec">
+  <front>
+    <title>Enhancing TCP's Loss Recovery Using Early Duplicate Acknowledgment Response
+</title>
+    <seriesInfo name="Internet-Draft" value="draft-allman-tcp-lossrec-00"/>
+    <author fullname="Hari Balakrishnan" initials="H." surname="Balakrishnan">
+      <organization>MIT</organization>
+    </author>
+    <author fullname="Sally Floyd" initials="S." surname="Floyd">
+      <organization>ACIRI</organization>
+    </author>
+    <author fullname="Mark Allman" initials="M." surname="Allman">
+      <organization>NASA GRC/BBN</organization>
+    </author>
+    <date year="2000" month="June" day="5"/>
+    <abstract>
+      <t>This document proposes two new TCP mechanisms that can be used tomore effectively recover lost segments when a connection'scongestion window is small, or when a large number of segments arelost in a single transmission window. The first of thesemechanisms, 'Limited Transmit', calls for sending a new datasegment in response to each of the first two duplicateacknowledgments that arrive at the sender. The second mechanism isto reduce, in certain special circumstances, the number of duplicateacknowledgments required to trigger a fast retransmission.</t>
+    </abstract>
+  </front>
+</reference>

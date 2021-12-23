@@ -1,0 +1,16 @@
+<reference anchor="I-D.li-lsr-isis-area-proxy">
+  <front>
+    <title>Area Proxy for IS-IS</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-lsr-isis-area-proxy-04"/>
+    <author fullname="Tony Li" initials="T." surname="Li">
+      <organization>Arista Networks</organization>
+    </author>
+    <author fullname="Sarah Chen" initials="S." surname="Chen">
+      <organization>Arista Networks</organization>
+    </author>
+    <date year="2020" month="April" day="20"/>
+    <abstract>
+      <t>Link state routing protocols have hierarchical abstraction already built into them. However, when lower levels are used for transit, they must expose their internal topologies to each other, leading to scale issues. To avoid this, this document discusses extensions to the IS-IS routing protocol that would allow level 1 areas to provide transit, yet only inject an abstraction of the level 1 topology into level 2. Each level 1 area is represented as a single level 2 node, thereby enabling greater scale.</t>
+    </abstract>
+  </front>
+</reference>

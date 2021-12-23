@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-ace-revoked-token-notification">
+  <front>
+    <title>Notification of Revoked Access Tokens in the Authentication and Authorization for Constrained Environments (ACE) Framework</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ace-revoked-token-notification-00"/>
+    <author fullname="Marco Tiloca">
+      <organization>RISE AB</organization>
+    </author>
+    <author fullname="Ludwig Seitz">
+      <organization>Combitech</organization>
+    </author>
+    <author fullname="Francesca Palombini">
+      <organization>Ericsson AB</organization>
+    </author>
+    <author fullname="Sebastian Echeverria">
+      <organization>CMU SEI</organization>
+    </author>
+    <author fullname="Grace Lewis">
+      <organization>CMU SEI</organization>
+    </author>
+    <date year="2021" month="November" day="26"/>
+    <abstract>
+      <t>This document specifies a method of the Authentication and Authorization for Constrained Environments (ACE) framework, which allows an Authorization Server to notify Clients and Resource Servers (i.e., registered devices) about revoked Access Tokens. The method relies on resource observation for the Constrained Application Protocol (CoAP), with Clients and Resource Servers observing a Token Revocation List on the Authorization Server. Resulting unsolicited notifications of revoked Access Tokens complement alternative approaches such as token introspection, while not requiring additional endpoints on Clients and Resource Servers.</t>
+    </abstract>
+  </front>
+</reference>

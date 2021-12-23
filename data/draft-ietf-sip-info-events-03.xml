@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-sip-info-events">
+  <front>
+    <title>Session Initiation Protocol (SIP) INFO Method and Package Framework</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-sip-info-events-03"/>
+    <author fullname="Eric Burger"/>
+    <author fullname="Hadriel Kaplan"/>
+    <author fullname="Christer Holmberg"/>
+    <date year="2009" month="January" day="27"/>
+    <abstract>
+      <t>This document defines the new SIP INFO method and a mechanism fordefining, negotiating and exchanging Info Packages that use the INFOmethod. Applications that need to exchange session-relatedinformation within a SIP INVITE-created dialog, also known asapplication level information, use these INFO requests. This draftaddresses issues and open items from RFC 2976 and replaces it.Conventions Used in this DocumentThe key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT","SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in thisdocument are to be interpreted as described in RFC 2119 [RFC2119].The terminology in this document conforms to the Internet SecurityGlossary [RFC4949].Be mindful of the terms User Agent Server (UAS) and User Agent Client(UAC). This document strictly follows RFC 3261 [RFC3261]. The UACissues a SIP request and the UAS responds. This terminology may beconfusing when one combines the INFO case with the INVITE case. Foran INVITE, the initiator of the session is the UAC and the target ofthe session is the UAS. However, it is possible for the target UA ofthe session, the UAS of the INVITE transaction, to send an INFO tothe initiating UA of the session, the UAC of the INVITE transaction.From the perspective of the INFO, the target UA of the session(INVITE UAS) is, in fact, the UAC (sender) of the INFO request.Likewise, from the perspective of the INFO, the initiating UA of thesession (INVITE UAC) is the UAS (recipient) of the INFO request.Since this document strictly follows RFC 3261, we refer to the UAthat issues the INVITE as the "initiating UA" and the UA thatresponds to the INVITE as the "target UA" to remove any confusion.</t>
+    </abstract>
+  </front>
+</reference>

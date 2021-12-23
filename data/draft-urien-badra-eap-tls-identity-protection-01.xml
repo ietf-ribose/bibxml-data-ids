@@ -1,0 +1,16 @@
+<reference anchor="I-D.urien-badra-eap-tls-identity-protection">
+  <front>
+    <title>Identity Protection within EAP-TLS</title>
+    <seriesInfo name="Internet-Draft" value="draft-urien-badra-eap-tls-identity-protection-01"/>
+    <author fullname="Pascal Urien" initials="P." surname="Urien">
+      <organization>ENST Paris</organization>
+    </author>
+    <author fullname="Mohamad Badra" initials="M." surname="Badra">
+      <organization>ENST Paris</organization>
+    </author>
+    <date year="2006" month="October" day="19"/>
+    <abstract>
+      <t>This document defines a mechanism that ensures EAP-TLS identity protection. The main idea is to encrypt the client's certificate. Three procedures are proposed in order to determine the certificate encryption mechanism, - Implicit, the client's certificate is encrypted according to a pre-defined algorithm, deduced from the server's certificate. - Notified, the EAP-identity response message, delivered by the client includes information that precise the encryption algorithm to be used. - Negotiated, the client indicates a list of encryption algorithm, the server chooses one of them, and indicates its choice.</t>
+    </abstract>
+  </front>
+</reference>

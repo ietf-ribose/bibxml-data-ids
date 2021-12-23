@@ -1,0 +1,12 @@
+<reference anchor="I-D.ietf-idnabis-mappings">
+  <front>
+    <title>Mapping Characters in IDNA</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idnabis-mappings-05"/>
+    <author fullname="Pete Resnick"/>
+    <author fullname="Paul Hoffman"/>
+    <date year="2009" month="October" day="19"/>
+    <abstract>
+      <t>In the original version of the Internationalized Domain Names inApplications (IDNA) protocol, any Unicode code points taken from userinput were mapped into a set of Unicode code points that "makesense", which were then encoded and passed to the domain name system(DNS). The current version of IDNA presumes that the input to theprotocol comes from a set of "permitted" code points, which it thenencodes and passes to the DNS, but does not specify what to do withthe result of user input. This document describes the actions thatcan be taken by an implementation between user input and passingpermitted code points to the new IDNA protocol.</t>
+    </abstract>
+  </front>
+</reference>

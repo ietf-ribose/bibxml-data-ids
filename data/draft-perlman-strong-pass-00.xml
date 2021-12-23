@@ -1,0 +1,16 @@
+<reference anchor="I-D.perlman-strong-pass">
+  <front>
+    <title>Strong Password-Based Authentication Using Pseudorandom Moduli</title>
+    <seriesInfo name="Internet-Draft" value="draft-perlman-strong-pass-00"/>
+    <author fullname="Radia Perlman" initials="R." surname="Perlman">
+      <organization>Sun Microsystems</organization>
+    </author>
+    <author fullname="Charlie W. Kaufman" initials="C. W." surname="Kaufman">
+      <organization>Iris Associates</organization>
+    </author>
+    <date year="2000" month="July" day="7"/>
+    <abstract>
+      <t>This document specifies a new password-based protocol that can beused as the basis of mutual authentication, or downloading of aprivate key. The only thing the client needs to know is the user'spassword. The protocol is constructed such that an eavesdroppercannot do off-line password-guessing attacks. Someone stealing theserver's database cannot directly impersonate the user, although theycan do an off-line password-guessing attack on the contents. Theprotocol presented in this paper is similar in functionality, higherin performance at the server, but lower in performance at the client,to the extended EKE and SPEKE, and SRP schemes. Additionalproperties of this scheme are salt, no password-equivalent stored atthe server, and prevention of servers on which the user has the samepassword from impersonating each other to the user. This documentgives an overview of the approach, but not wire-formats, which arepremature at this stage. The purpose of this document is to advertisethis new scheme to various groups that might be interested (CAT, fora GSS-API mechanism, LDAP, for download of a private key).</t>
+    </abstract>
+  </front>
+</reference>

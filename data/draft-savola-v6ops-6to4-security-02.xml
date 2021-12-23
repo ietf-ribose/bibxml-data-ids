@@ -1,0 +1,13 @@
+<reference anchor="I-D.savola-v6ops-6to4-security">
+  <front>
+    <title>Security Considerations for 6to4</title>
+    <seriesInfo name="Internet-Draft" value="draft-savola-v6ops-6to4-security-02"/>
+    <author fullname="Pekka Savola" initials="P." surname="Savola">
+      <organization>CSC/FUNET</organization>
+    </author>
+    <date year="2003" month="January" day="8"/>
+    <abstract>
+      <t>The IPv6 interim mechanism 6to4 (RFC3056) uses automatic IPv6-over-IPv4 tunneling to interconnect IPv6 networks. The architectureincludes Relay Routers and Routers, which accept and decapsulate IPv4traffic from anywhere. There aren't many constraints on the embeddedIPv6 packets, or where IPv4 traffic will be automatically tunneledto. These could enable one to go around access controls, and morelikely, being able to perform proxy Denial of Service attacks using6to4 relays or routers as reflectors. Anyone is also capable ofspoofing traffic from non-6to4 addresses, as if it was coming from arelay, to a 6to4 node. This document discusses these issues in moredetail and tries to suggest enhancements to alleviate the problems.</t>
+    </abstract>
+  </front>
+</reference>

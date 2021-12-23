@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-tls-dtls-connection-id">
+  <front>
+    <title>The Datagram Transport Layer Security (DTLS) Connection Identifier</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tls-dtls-connection-id-01"/>
+    <author fullname="Eric Rescorla" initials="E." surname="Rescorla">
+      <organization>RTFM, Inc.</organization>
+    </author>
+    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+      <organization>Arm Limited</organization>
+    </author>
+    <author fullname="Thomas Fossati" initials="T." surname="Fossati">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Tobias Gondrom" initials="T." surname="Gondrom">
+      <organization>Huawei</organization>
+    </author>
+    <date year="2018" month="July" day="2"/>
+    <abstract>
+      <t>This document specifies the Connection ID construct for the Datagram Transport Layer Security (DTLS) protocol. A Connection ID is an identifier carried in the record layer header that gives the recipient additional information for selecting the appropriate security association. In "classical" DTLS, selecting a security association of an incoming DTLS record is accomplished with the help of the 5-tuple. If the source IP address and/or source port changes during the lifetime of an ongoing DTLS session then the receiver will be unable to locate the correct security context.</t>
+    </abstract>
+  </front>
+</reference>

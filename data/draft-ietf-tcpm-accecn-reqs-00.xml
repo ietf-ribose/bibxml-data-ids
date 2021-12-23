@@ -1,0 +1,12 @@
+<reference anchor="I-D.ietf-tcpm-accecn-reqs">
+  <front>
+    <title>Problem Statement and Requirements for a More Accurate ECN Feedback</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-accecn-reqs-00"/>
+    <author fullname="Mirja Kühlewind" initials="M." surname="Kühlewind"/>
+    <author fullname="Richard Scheffenegger" initials="R." surname="Scheffenegger"/>
+    <date year="2013" month="February" day="11"/>
+    <abstract>
+      <t>Explicit Congestion Notification (ECN) is an IP/TCP mechanism wherenetwork nodes can mark IP packets instead of dropping them toindicate congestion to the end-points. An ECN-capable receiver willfeedback this information to the sender. ECN is specified for TCP insuch a way that only one feedback signal can be transmitted perRound-Trip Time (RTT). Recently, new TCP mechanisms like ConEx orDCTCP need more accurate ECN feedback information in the case wheremore than one marking is received in one RTT. This documentsspecifies requirement for different ECN feedback scheme in the TCPheader to provide more than one feedback signal per RTT.</t>
+    </abstract>
+  </front>
+</reference>

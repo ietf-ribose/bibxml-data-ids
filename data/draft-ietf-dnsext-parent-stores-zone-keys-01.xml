@@ -1,0 +1,12 @@
+<reference anchor="I-D.ietf-dnsext-parent-stores-zone-keys">
+  <front>
+    <title>Parent stores the child's zone KEYs</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsext-parent-stores-zone-keys-01"/>
+    <author fullname="Miek Gieben" initials="M." surname="Gieben"/>
+    <author fullname="Ted Lindgreen" initials="T." surname="Lindgreen"/>
+    <date year="2001" month="May" day="9"/>
+    <abstract>
+      <t>When dealing with large amounts of keys the procedures to update azone and to sign a zone need to be clearly defined and practicallypossible. The current idea is to have the zone KEY RR and theparent's SIG to reside in the child's zone and perhaps also in theparent's zone. Operational experiences have prompted us to develop analternative scheme in which the parent zone stores the parent'ssignature over the child's key and also the child's key itself.</t>
+    </abstract>
+  </front>
+</reference>

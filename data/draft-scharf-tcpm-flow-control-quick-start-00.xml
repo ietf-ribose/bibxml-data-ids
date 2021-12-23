@@ -1,0 +1,13 @@
+<reference anchor="I-D.scharf-tcpm-flow-control-quick-start">
+  <front>
+    <title>TCP Flow Control for Fast Startup Schemes</title>
+    <seriesInfo name="Internet-Draft" value="draft-scharf-tcpm-flow-control-quick-start-00"/>
+    <author fullname="Michael Scharf"/>
+    <author fullname="Sally Floyd"/>
+    <author fullname="Pasi Sarolahti"/>
+    <date year="2008" month="July" day="7"/>
+    <abstract>
+      <t>This document describes extensions for the flow control of theTransmission Control Protocol (TCP) that avoid interactions with faststartup congestion control mechanisms, in particular the Quick-StartTCP extension. Quick-Start is an optional TCP extension that allowsto start data transfers with a large congestion window, usingfeedback of the routers along the path. This can avoid the timeconsuming Slow-Start, provided that the TCP flow control is not alimiting factor.There are two potential interactions between the TCP flow control andcongestion control schemes without the standard Slow-Start: First,receivers might not allocate a sufficiently large buffer space afterconnection setup, or they may advertise a receive window implicitlyassuming the Slow-Start behavior on the sender side. This documenttherefore provides guidelines for buffer allocation in hostssupporting the Quick-Start extension. Second, the TCP receive windowscaling mechanism can prevent fast startups immediately after theinitial three-way handshake connection setup. This documentdescribes a simple solution to overcome this problem.</t>
+    </abstract>
+  </front>
+</reference>

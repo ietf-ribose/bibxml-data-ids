@@ -1,0 +1,16 @@
+<reference anchor="I-D.jain-miplr">
+  <front>
+    <title>Mobile IP with Location Registers (MIP-LR)</title>
+    <seriesInfo name="Internet-Draft" value="draft-jain-miplr-01"/>
+    <author fullname="Ravi Jain" initials="R." surname="Jain">
+      <organization>Telcordia Technologies</organization>
+    </author>
+    <author fullname="Thomas Raleigh" initials="T." surname="Raleigh"/>
+    <author fullname="Michael Bereschinsky" initials="M." surname="Bereschinsky"/>
+    <author fullname="Charles J. Graff" initials="C. J." surname="Graff"/>
+    <date year="2001" month="July" day="24"/>
+    <abstract>
+      <t>This document is intended only to provide information to the Internetcommunity. The Mobile IP (MIP) protocol for IP version 4 providescontinuous Internet connectivity to mobile hosts, without requiring anychanges to existing routers and higher-layer applications. Thisdocument describes an alternative protocol, Mobile IP with LocationRegisters (MIP-LR), where the sender first queries a database, called aLocation Register, to obtain the recipients current location. MIP-LRis designed for operation in tactical military environments, enterpriseenvironments or within logical administrative domains, as it requires asending host to be aware which hosts implement the MIP-LR protocol.MIP-LR gives up the transparency of MIP for several benefits in theareas of survivability, performance and interoperability. MIP-LR improves survivability for situations where the mobile's homenetwork is particularly vulnerable (e.g. in the forward area of abattlefield), by allowing location registers to be placed andreplicated outside the home network. This document describes howreplicated location registers can be managed by Translation Server orQuorum schemes. In terms of performance, MIP-LR avoids trianglerouting and tunneling, and reduces the load on the home network as wellas the home agents. MIP-LR provides improved interoperability withprotocols such as RSVP for providing QoS guarantees. Finally, MIP-LRis interoperable with MIP, such that hosts which implement only MIP cancontinue to operate as expected (provided the provisions required byMIP, such as Home and Foreign Agents, are appropriately provided)without gaining any of the benefits of MIP-LR. We have developed aworking version of the MIP-LR protocol running on Linux hosts.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-oauth-revocation">
+  <front>
+    <title>Token Revocation</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-oauth-revocation-02"/>
+    <author fullname="Torsten Lodderstedt" initials="T." surname="Lodderstedt"/>
+    <author fullname="Stefanie Dronia" initials="S." surname="Dronia"/>
+    <author fullname="Marius Scurtescu" initials="M." surname="Scurtescu"/>
+    <date year="2012" month="November" day="18"/>
+    <abstract>
+      <t>This document proposes an additional endpoint for OAuth authorization servers, which allows clients to notify the authorization server that a previously obtained refresh or access token is no longer needed. This allows the authorization server to cleanup security credentials. A revocation request will invalidate the actual token and, if applicable, other tokens based on the same access grant.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,25 @@
+<reference anchor="I-D.roca-nwcrg-generic-fec-api">
+  <front>
+    <title>Generic Application Programming Interface (API) for Window-Based Codes</title>
+    <seriesInfo name="Internet-Draft" value="draft-roca-nwcrg-generic-fec-api-00"/>
+    <author fullname="Vincent Roca" initials="V." surname="Roca">
+      <organization>INRIA</organization>
+    </author>
+    <author fullname="Jonathan Detchart" initials="J." surname="Detchart">
+      <organization>ISAE - Supaero</organization>
+    </author>
+    <author fullname="Cédric Adjih" initials="C." surname="Adjih">
+      <organization>INRIA</organization>
+    </author>
+    <author fullname="Morten V. Pedersen" initials="M. V." surname="Pedersen">
+      <organization>Aalborg University</organization>
+    </author>
+    <author fullname="Ian Swett" initials="I." surname="Swett">
+      <organization>Google</organization>
+    </author>
+    <date year="2017" month="October" day="27"/>
+    <abstract>
+      <t>This document introduces a generic Application Programming Interface (API) for window-based FEC codes. This API is meant to be usable by any sliding window FEC code, independently of the FEC Scheme or network coding protocol that may rely on it. This API defines the core procedures and functions meant to control the codec (i.e., implementation of the FEC code), but leaves out all upper layer aspects (e.g., signalling) that are the responsibility of the application making use of the codec. A goal of this document is to pave the way for a future open-source implementation of such codes.</t>
+    </abstract>
+  </front>
+</reference>

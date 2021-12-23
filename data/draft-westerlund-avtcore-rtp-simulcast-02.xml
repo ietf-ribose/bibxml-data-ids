@@ -1,0 +1,14 @@
+<reference anchor="I-D.westerlund-avtcore-rtp-simulcast">
+  <front>
+    <title>Using Simulcast in RTP Sessions</title>
+    <seriesInfo name="Internet-Draft" value="draft-westerlund-avtcore-rtp-simulcast-02"/>
+    <author fullname="Magnus Westerlund" initials="M." surname="Westerlund"/>
+    <author fullname="Bo Burman" initials="B." surname="Burman"/>
+    <author fullname="Morgan Lindqvist" initials="M." surname="Lindqvist"/>
+    <author fullname="Fredrik Jansson" initials="F." surname="Jansson"/>
+    <date year="2013" month="February" day="25"/>
+    <abstract>
+      <t>In some applications it may be necessary to send multiple media encodings derived from the same media source in independent RTP media streams. This is called Simulcast. This document discusses the best way of accomplishing this in RTP and how to signal it in SDP. It is concluded that a solution where the different simulcast versions are based on separate SDP media descriptions provides best support for simulcast. A solution is defined by making two extensions to SDP. The first extension consists of two new attributes in SDP that express capability to send or receive simulcast streams, respectively. The second extension describes how to group media descriptions belonging to the same simulcast source by using the grouping framework.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,11 @@
+<reference anchor="I-D.ouldbrahim-bgpvpn-auto">
+  <front>
+    <title>Using BGP as an Auto-Discovery Mechanism for Network-based VPNs</title>
+    <seriesInfo name="Internet-Draft" value="draft-ouldbrahim-bgpvpn-auto-03"/>
+    <author fullname="Hamid H. Ould-Brahim" initials="H. H." surname="Ould-Brahim"/>
+    <date year="2001" month="July" day="23"/>
+    <abstract>
+      <t>In any Network-Based VPN (NBVPN) scheme, the Provider Edge (PE)routers attached to a common VPN must exchange certain informationas a prerequisite to establish VPN-specific connectivity. In[RFC2547-bis], VPN-specific routes are exchanged, along with theinformation needed to enable a PE to determine which routes belongto which VPNs. In [VPN-VR], VR addresses must be exchanged, alongwith the information needed to enable the PEs to determine which VRsare in the same VPN ('membership'), and which of those VRs are tohave VPN connectivity ('topology'). Once the VRs are reachablethrough the tunnels, routes ('reachability') are then exchanged byrunning existing routing protocol per VPN basis. The purpose of thisdraft is to define a common BGP based auto-discovery mechanism usedfor both the virtual router [VPN-VR] and [RFC2547-bis]architectures. Each scheme uses the mechanism to automaticallydiscover the information needed by that particular scheme.Interworking scenarios between [RFC2547-bis] and the virtual routermodels are also discussed.</t>
+    </abstract>
+  </front>
+</reference>

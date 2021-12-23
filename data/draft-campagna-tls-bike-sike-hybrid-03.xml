@@ -1,0 +1,16 @@
+<reference anchor="I-D.campagna-tls-bike-sike-hybrid">
+  <front>
+    <title>Hybrid Post-Quantum Key Encapsulation Methods (PQ KEM) for Transport Layer Security 1.2 (TLS)</title>
+    <seriesInfo name="Internet-Draft" value="draft-campagna-tls-bike-sike-hybrid-03"/>
+    <author fullname="Matt Campagna" initials="M." surname="Campagna">
+      <organization>AWS</organization>
+    </author>
+    <author fullname="Eric Crockett" initials="E." surname="Crockett">
+      <organization>AWS</organization>
+    </author>
+    <date year="2020" month="March" day="6"/>
+    <abstract>
+      <t>Hybrid key exchange refers to executing two independent key exchanges and feeding the two resulting shared secrets into a Pseudo Random Function (PRF), with the goal of deriving a secret which is as secure as the stronger of the two key exchanges. This document describes new hybrid key exchange schemes for the Transport Layer Security 1.2 (TLS) protocol. The key exchange schemes are based on combining Elliptic Curve Diffie-Hellman (ECDH) with a post-quantum key encapsulation method (PQ KEM) using the existing TLS PRF. In particular, this document specifies the use of the Bit Flipping Key Exchange (BIKE) and Supersingular Isogeny Key Exchange (SIKE) schemes in combination with ECDHE as a hybrid key agreement in a TLS 1.2 handshake.</t>
+    </abstract>
+  </front>
+</reference>

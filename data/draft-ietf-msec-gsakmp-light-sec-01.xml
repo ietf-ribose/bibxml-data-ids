@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-msec-gsakmp-light-sec">
+  <front>
+    <title>GSAKMP Light</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-msec-gsakmp-light-sec-01"/>
+    <author fullname="Andrea Colgrove" initials="A." surname="Colgrove">
+      <organization>SPARTA</organization>
+    </author>
+    <author fullname="Angela Schuett" initials="A." surname="Schuett">
+      <organization>NSA</organization>
+    </author>
+    <author fullname="Hugh Harney" initials="H." surname="Harney">
+      <organization>SPARTA</organization>
+    </author>
+    <date year="2002" month="July" day="30"/>
+    <abstract>
+      <t>A protocol specification must balance two often conflicting goals:to produce as general a protocol as possible, and to produce asimple protocol. The Group Secure Association Key ManagementProtocol (GSAKMP) is a general protocol for creating and managingcryptographic groups on a network. This document describesthe GSAKMP-Light (GL) profile, a way to shorten the number ofmessages exchanged during secure group establishment. The GSAKMPprotocol assumed that group members joining a secure group hadno information about the specific security mechanisms used by thegroup (for example, the key length, encryption protocol, etc).GSAKMP-Light provides a profile for the case where group membershave been previously notified of these security mechanisms, usedfor joining a group, during the group announcement or invitation.This simplification removes 2 messages from the group establishmentportion of the GSAKMP protocol, eliminates the need for initiatinga unicast security association, and removes the need for manyof the optional fields of individual messages. The profiledoes not sacrifice any of the security properties of the fullprotocol. To facilitate the transmission of security mechanismsettings during session invitation or announcement, this documentalso describes a useful default set of security algorithms andconfigurations, Security Suite 1. Full specification of this suiteallows an entire set of algorithms and settings to be describedto prospective group members in a concise manner. Future securitysuites can be defined as needed.</t>
+    </abstract>
+  </front>
+</reference>

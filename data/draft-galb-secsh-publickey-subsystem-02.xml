@@ -1,0 +1,17 @@
+<reference anchor="I-D.galb-secsh-publickey-subsystem">
+  <front>
+    <title>Secure Shell Public-Key Subsystem</title>
+    <seriesInfo name="Internet-Draft" value="draft-galb-secsh-publickey-subsystem-02"/>
+    <author fullname="Joseph Galbraith" initials="J." surname="Galbraith">
+      <organization>VanDyke Software</organization>
+    </author>
+    <author fullname="Jeff Van Dyke" initials="J." surname="Van Dyke">
+      <organization>VanDyke Software</organization>
+    </author>
+    <author fullname="Dr. Charles R. McClure" initials="C. R." surname="McClure"/>
+    <date year="2003" month="August" day="20"/>
+    <abstract>
+      <t>SECSH defines an authentication mechanism that is based on publickeys, but does not define any mechanism for key distribution. Nocommon key management solution exists in current implementations.This document describes a protocol that can be used to configurepublic keys in an implementation-independent fashion, allowing clientsoftware to take on the burden of this configuration.This protocol is intended to be used from the Secure Shell ConnectionProtocol [4] as a subsystem, as described in	Section ``Starting aShell or a Command''. The subsystem name used with this protocol isThe public-key subsystem provides a server-independent mechanism forclients to add public keys, remove public keys, and list the currentpublic keys known by the server. Rights to manage public keys arespecific and limited to the authenticated user.A public key may also be associated with a mandatory command.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,14 @@
+<reference anchor="I-D.ietf-trill-directory-framework">
+  <front>
+    <title>TRILL (Transparent Interconnection of Lots of Links) Edge Directory Assistance Framework</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-trill-directory-framework-02"/>
+    <author fullname="Linda Dunbar" initials="L." surname="Dunbar"/>
+    <author fullname="Donald E. Eastlake 3rd" initials="D. E." surname="Eastlake"/>
+    <author fullname="Radia Perlman" initials="R." surname="Perlman"/>
+    <author fullname="Igor Gashinsky" initials="I." surname="Gashinsky"/>
+    <date year="2013" month="January" day="14"/>
+    <abstract>
+      <t>Edge RBridges currently learn the mapping between MAC addresses and their egress RBridges by observing the data packets ingressed or egressed and by the TRILL ESADI protocol. When ingress RBridge receives a data frame whose destination address (MAC&amp;VLAN) that RBridge does not know, the data frame is flooded within the VLAN across the TRILL campus. This draft describes the framework for using directory services to assist edge RBridges by reducing multi-destination frames, particularly unknown unicast frames flooding, and ARP/ND, improving TRILL (Transparent Interconnection of Lots of Links) network scalability in environments such as data centers.</t>
+    </abstract>
+  </front>
+</reference>

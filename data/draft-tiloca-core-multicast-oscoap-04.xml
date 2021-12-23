@@ -1,0 +1,22 @@
+<reference anchor="I-D.tiloca-core-multicast-oscoap">
+  <front>
+    <title>Secure group communication for CoAP</title>
+    <seriesInfo name="Internet-Draft" value="draft-tiloca-core-multicast-oscoap-04"/>
+    <author fullname="Marco Tiloca">
+      <organization>RISE SICS AB</organization>
+    </author>
+    <author fullname="Goeran Selander">
+      <organization>Ericsson AB</organization>
+    </author>
+    <author fullname="Francesca Palombini">
+      <organization>Ericsson AB</organization>
+    </author>
+    <author fullname="Jiye Park">
+      <organization>Universitaet Duisburg-Essen</organization>
+    </author>
+    <date year="2017" month="October" day="27"/>
+    <abstract>
+      <t>This document describes a method for protecting group communication over the Constrained Application Protocol (CoAP). The proposed approach relies on Object Security for Constrained RESTful Environments (OSCORE) and the CBOR Object Signing and Encryption (COSE) format. All security requirements fulfilled by OSCORE are maintained for multicast OSCORE request messages and related OSCORE response messages. Source authentication of all messages exchanged within the group is ensured, by means of digital signatures produced through private keys of sender devices and embedded in the protected CoAP messages.</t>
+    </abstract>
+  </front>
+</reference>

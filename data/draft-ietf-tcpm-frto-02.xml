@@ -1,0 +1,16 @@
+<reference anchor="I-D.ietf-tcpm-frto">
+  <front>
+    <title>Forward RTO-Recovery (F-RTO): An Algorithm for Detecting Spurious Retransmission Timeouts with TCP and the Stream Control Transmission Protocol (SCTP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-frto-02"/>
+    <author fullname="Markku Kojo" initials="M." surname="Kojo">
+      <organization>University of Helsinki</organization>
+    </author>
+    <author fullname="Pasi Sarolahti" initials="P." surname="Sarolahti">
+      <organization>Nokia Research Center</organization>
+    </author>
+    <date year="2004" month="November" day="18"/>
+    <abstract>
+      <t>Spurious retransmission timeouts cause suboptimal TCP performance because they often result in unnecessary retransmission of the last window of data. This document describes the F-RTO detection algorithm for detecting spurious TCP retransmission timeouts. F-RTO is a TCP sender-only algorithm that does not require any TCP options to operate. After retransmitting the first unacknowledged segment triggered by a timeout, the F-RTO algorithm of the TCP sender monitors the incoming acknowledgments to determine whether the timeout was spurious. It then decides whether to send new segments or retransmit unacknowledged segments. The algorithm effectively helps to avoid additional unnecessary retransmissions and thereby improves TCP performance in the case of a spurious timeout. The F-RTO algorithm can also be applied to the Stream Control Transmission Protocol (SCTP). This memo defines an Experimental Protocol for the Internet community.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,16 @@
+<reference anchor="I-D.deering-ipv6-encap-addr-deletion">
+  <front>
+    <title>Redundant Address Deletion when Encapsulating IPv6 in IPv6</title>
+    <seriesInfo name="Internet-Draft" value="draft-deering-ipv6-encap-addr-deletion-00"/>
+    <author fullname="Dr. Steve E. Deering" initials="S. E." surname="Deering">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Brian Zill" initials="B." surname="Zill">
+      <organization>Microsoft</organization>
+    </author>
+    <date year="2001" month="November" day="20"/>
+    <abstract>
+      <t>In some potentially common uses of IPv6-in-IPv6 encapsulation ('tunneling'), a node that is performing an encapsulation or decapsulation will also be the source or destination of the packet being encapsulated. That can result in the same IPv6 address appearing in both the outer (encapsulating) and inner (encapsulated) IPv6 headers. This document specifies a method for deleting such redundant addresses from an inner header when performing an encapsulation, and restoring those addresses when decapsulating, resulting in a 16-octet (128-bit) reduction in header overhead, per address deleted.</t>
+    </abstract>
+  </front>
+</reference>

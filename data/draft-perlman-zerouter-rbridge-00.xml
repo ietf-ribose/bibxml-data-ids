@@ -1,0 +1,16 @@
+<reference anchor="I-D.perlman-zerouter-rbridge">
+  <front>
+    <title>Design for a Routing Bridge</title>
+    <seriesInfo name="Internet-Draft" value="draft-perlman-zerouter-rbridge-00"/>
+    <author fullname="Radia Perlman" initials="R." surname="Perlman">
+      <organization>Sun Microsystems</organization>
+    </author>
+    <author fullname="Aidan Williams" initials="A." surname="Williams">
+      <organization>Motorola</organization>
+    </author>
+    <date year="2003" month="June" day="13"/>
+    <abstract>
+      <t>This design provides the ability to have an entire campus, withmultiple physical links, look to IP like a single subnet. Thiscapability is often provided today with bridges. Bridges have theadvantage of being plug-and-play. However, they have disadvantages:routing is confined to a spanning tree, the header on which thespanning tree forwards has no hop count, spanning tree forwarding inthe presence of loops spawns exponential copies of packets, nodes canhave only a single point of attachment, and the spanning tree, inorder to avoid temporary loops, is slow to start forwarding on newports. The design in this paper avoids those disadvantages ofbridges. The basic design is layer 3-independent, and is a designfor bridging with a shortest-path routing algorithm (instead ofspanning tree paths), and with more robust forwarding. Then thedesign is extended to provide IP-specific optimizations.</t>
+    </abstract>
+  </front>
+</reference>

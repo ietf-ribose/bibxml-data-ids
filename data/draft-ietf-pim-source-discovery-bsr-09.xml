@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-pim-source-discovery-bsr">
+  <front>
+    <title>PIM Flooding Mechanism and Source Discovery</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pim-source-discovery-bsr-09"/>
+    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author fullname="Stig Venaas" initials="S." surname="Venaas">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author fullname="Michael Brig" initials="M." surname="Brig">
+      <organization>Aegis BMD Program Office</organization>
+    </author>
+    <author fullname="Anders Jonasson" initials="A." surname="Jonasson">
+      <organization>Swedish Defence Material Administration (FMV)</organization>
+    </author>
+    <date year="2018" month="January" day="25"/>
+    <abstract>
+      <t>PIM Sparse-Mode (PIM-SM) uses a Rendezvous Point (RP) and shared trees to forward multicast packets from new sources. Once last hop routers receive packets from a new source, they may join the Shortest Path Tree for the source for optimal forwarding. This draft defines a new mechanism that provides a way to support PIM-SM without the need for PIM registers, RPs or shared trees. Multicast source information is flooded throughout the multicast domain using a new generic PIM flooding mechanism. This allows last hop routers to learn about new sources without receiving initial data packets.</t>
+    </abstract>
+  </front>
+</reference>

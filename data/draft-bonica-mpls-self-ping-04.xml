@@ -1,0 +1,17 @@
+<reference anchor="I-D.bonica-mpls-self-ping">
+  <front>
+    <title>LSP Self-Ping</title>
+    <seriesInfo name="Internet-Draft" value="draft-bonica-mpls-self-ping-04"/>
+    <author fullname="Raveendra Torvi" initials="R." surname="Torvi"/>
+    <author fullname="Ron Bonica" initials="R." surname="Bonica"/>
+    <author fullname="Ina Minei" initials="I." surname="Minei"/>
+    <author fullname="Michael Conn" initials="M." surname="Conn"/>
+    <author fullname="Dante Pacella" initials="D." surname="Pacella"/>
+    <author fullname="Luis Tomotaki" initials="L." surname="Tomotaki"/>
+    <author fullname="Mark Wygant" initials="M." surname="Wygant"/>
+    <date year="2015" month="February" day="13"/>
+    <abstract>
+      <t>LSP Self-ping is a new, light-weight protocol that ingress LSRs can use to verify an LSPs readiness to carry traffic. LSP Self-ping does not consume control plane resources on the egress LSR. When an ingress LSR executes LSP Self-ping procedures, it constructs a probe message. The probe message is an IP datagram whose destination address represents an interface on the ingress LSR. The ingress LSR forwards the probe through the LSP under test. If the LSP is ready to forward traffic, the egress LSR receives the probe. Because the probe is addressed to the ingress LSR, the egress LSR forwards the probe back to the ingress. When the ingress LSR receives the probe, it has verified LSP readiness without consuming control plane resources at the egress LSR.</t>
+    </abstract>
+  </front>
+</reference>

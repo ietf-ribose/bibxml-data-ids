@@ -1,0 +1,11 @@
+<reference anchor="I-D.ellard-dtnrg-reltime-htl">
+  <front>
+    <title>Extending the Bundle Protocol with Relative Time and Hops to Live</title>
+    <seriesInfo name="Internet-Draft" value="draft-ellard-dtnrg-reltime-htl-00"/>
+    <author fullname="Daniel Ellard"/>
+    <date year="2010" month="February" day="24"/>
+    <abstract>
+      <t>This draft presents two extensions to the DTN bundle protocol. Thefirst extension is the use of relative time rather than absolute timeto address situations where the DTN nodes cannot achieve looselysynchronized clocks, as required by the current DTN bundle protocol.The second extension is the addition of a "hops-to-live" field to thebundle header, which specifies how many node-to-node hops eachinstance of a bundle is permitted to make before it expires.These two extensions are separable; either may be used independentlyof the other. Used together, however, they provide a powerful way toconstrain resources consumed by the handling of a DTN bundle despitethe absence of synchronized clocks or the presence of incompleteknowledge of the network topology (which may lead to the presence ofhazards such as routing loops).</t>
+    </abstract>
+  </front>
+</reference>

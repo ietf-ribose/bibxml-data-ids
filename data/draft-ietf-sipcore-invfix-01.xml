@@ -1,0 +1,12 @@
+<reference anchor="I-D.ietf-sipcore-invfix">
+  <front>
+    <title>Correct Transaction Handling for 2xx Responses to Session Initiation Protocol (SIP) INVITE Requests</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-sipcore-invfix-01"/>
+    <author fullname="Robert Sparks"/>
+    <author fullname="Theo Zourzouvillys"/>
+    <date year="2010" month="March" day="7"/>
+    <abstract>
+      <t>This document normatively updates RFC 3261, the Session Initiation Protocol (SIP), to address an error in the specified handling of success (2xx class) responses to INVITE requests. Elements following RFC 3261 exactly will misidentify retransmissions of the request as a new, unassociated request. The correction involves modifying the INVITE transaction state machines. The correction also changes the way responses that cannot be matched to an existing transaction are handled to address a security risk. [STANDARDS-TRACK]</t>
+    </abstract>
+  </front>
+</reference>

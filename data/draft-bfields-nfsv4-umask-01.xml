@@ -1,0 +1,12 @@
+<reference anchor="I-D.bfields-nfsv4-umask">
+  <front>
+    <title>Allowing inheritable NFSv4 ACLs to override the umask </title>
+    <seriesInfo name="Internet-Draft" value="draft-bfields-nfsv4-umask-01"/>
+    <author fullname="J. Bruce Fields"/>
+    <author fullname="Andreas Gruenbacher"/>
+    <date year="2016" month="February" day="22"/>
+    <abstract>
+      <t>In some environments, inheritable NFSv4 ACLs can be rendered ineffective by the application of the per-process umask. This is easily worked around by transmitting the umask and create mode separately to allow servers to make more intelligent decisions about the new mode on a file.</t>
+    </abstract>
+  </front>
+</reference>

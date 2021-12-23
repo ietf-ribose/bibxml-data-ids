@@ -1,0 +1,40 @@
+<reference anchor="I-D.ietf-teas-yang-path-computation">
+  <front>
+    <title>Yang model for requesting Path Computation</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-teas-yang-path-computation-01"/>
+    <author fullname="Italo Busi" initials="I." surname="Busi">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Sergio Belotti" initials="S." surname="Belotti">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Victor Lopez" initials="V." surname="Lopez">
+      <organization>Telefonica</organization>
+    </author>
+    <author fullname="Oscar Gonzalez de Dios" initials="O. G." surname="de Dios">
+      <organization>Telefonica</organization>
+    </author>
+    <author fullname="Anurag Sharma" initials="A." surname="Sharma">
+      <organization>Google</organization>
+    </author>
+    <author fullname="Yan Shi" initials="Y." surname="Shi">
+      <organization>China Unicom</organization>
+    </author>
+    <author fullname="Ricard Vilalta" initials="R." surname="Vilalta">
+      <organization>CTTC</organization>
+    </author>
+    <author fullname="Karthik Sethuraman" initials="K." surname="Sethuraman">
+      <organization>NEC</organization>
+    </author>
+    <author fullname="Michael Scharf" initials="M." surname="Scharf">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Daniele Ceccarelli" initials="D." surname="Ceccarelli">
+      <organization>Ericsson</organization>
+    </author>
+    <date year="2018" month="March" day="5"/>
+    <abstract>
+      <t>There are scenarios, typically in a hierarchical SDN context, in which an orchestrator may not have detailed information to be able to perform an end-to-end path computation and would need to request lower layer/domain controllers to calculate some (partial) feasible paths. Multiple protocol solutions can be used for communication between different controller hierarchical levels. This document assumes that the controllers are communicating using YANG-based protocols (e.g., NETCONF or RESTCONF). Based on this assumption this document proposes a YANG model for a path computation request that an higher controller can exploit to retrieve the needed information, complementing his topology knowledge, to make his E2E path computation feasible. The draft proposes a stateless RPC which complements the stateful solution defined in [TE-TUNNEL]. Moreover this document describes some use cases where a path computation request, via YANG-based protocols (e.g., NETCONF or RESTCONF), can be needed.</t>
+    </abstract>
+  </front>
+</reference>

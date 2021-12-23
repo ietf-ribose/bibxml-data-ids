@@ -1,0 +1,13 @@
+<reference anchor="I-D.kempf-slp-rescap">
+  <front>
+    <title>iSLP: Resource Discovery on the Internet with Service Location Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-kempf-slp-rescap-00"/>
+    <author fullname="James Kempf" initials="J." surname="Kempf">
+      <organization>Sun Microsystems</organization>
+    </author>
+    <date year="1999" month="April" day="22"/>
+    <abstract>
+      <t>The danger in defining a new protocol specifically for discoveringresources on the Internet is that, like DNS, the protocol wouldprobably be deployed internally as well. Developers would then havethe opportunity to use the protocol to perform service discovery onthe client side by downloading resources and inferencing over themrather than using protocols such as Service Location Protocol (SLP)or Lightweight Directory Access Protocol (LDAP) that inference onthe server side. Besides the increased amount of network trafficinvolved in transferring attributes rather than the smaller query,every client would need to incorporate its own inferencing code. Inthis document, we discuss how the requirements for wide area resourcediscovery can be met by slightly modifying SLP to remove featuresmore appropriate for internal networks and by establishing a fewnaming conventions. An added benefit of this design is that Internetclients can perform service discovery as well as simple resourcediscovery. It should be noted the proposals in this document are notmeant to suggest that SLP is the only or even the best candidate forInternet resource discovery among existing protocols. The point ofthis paper is to emphasize the need for a concerted effort to make anexisting discovery or directory services protocol fill the Internetresource discovery niche, rather than inventing yet another protocoloffering discovery or directory services capabilites.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,19 @@
+<reference anchor="I-D.king-irtf-challenges-in-routing">
+  <front>
+    <title>Challenges for the Internet Routing Infrastructure Introduced by Changes in Address Semantics</title>
+    <seriesInfo name="Internet-Draft" value="draft-king-irtf-challenges-in-routing-00"/>
+    <author fullname="Daniel King" initials="D." surname="King">
+      <organization>Lancaster University</organization>
+    </author>
+    <author fullname="Joanna Dang" initials="J." surname="Dang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Adrian Farrel" initials="A." surname="Farrel">
+      <organization>Old Dog Consulting</organization>
+    </author>
+    <date year="2021" month="February" day="11"/>
+    <abstract>
+      <t>Historically, the meaning of an IP address has been to identify an interface on a network device. Routing protocols have been developed based on the assumption that a destination address has this semantic. Many proposals have been made to add semantics to IPv6 addresses. These proposals may set the meaning of an address within the scope of a limited domain, or suggest an address semantic that is meaningful at specific points in the network (such as the source and destination), but which can continue to be used without special interpretation at transit points. Such proposals include providing semantics specific to mobile networks, multicast traffic, different device types, different underlying connectivity, hierarchical connectivity, geographic location, application or network function usage, or connectivity requirements. Some new IP address semantics may have implications for how network routing is performed. Some proposals might not be supported by existing routing protocols and so would require changes. Other proposals might enable advanced routing features or offer benefits in scaling and management of routing systems. This document presents a brief survey of technologies related to IP address semantic proposals and describes the challenges to the existing routing system that they present. It then summarises the opportunities for research into new or modified routing protocols to make use of new address semantics. This document is presented as research to clarify and understand the issues without directly proposing technical solutions that are ready for productisation or deployment.</t>
+    </abstract>
+  </front>
+</reference>

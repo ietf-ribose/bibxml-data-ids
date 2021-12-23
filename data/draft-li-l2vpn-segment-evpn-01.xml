@@ -1,0 +1,13 @@
+<reference anchor="I-D.li-l2vpn-segment-evpn">
+  <front>
+    <title>Segment-Based EVPN(S-EVPN)</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-l2vpn-segment-evpn-01"/>
+    <author fullname="Zhenbin Li"/>
+    <author fullname="Lucy Yong"/>
+    <author fullname="Junlin Zhang"/>
+    <date year="2014" month="February" day="13"/>
+    <abstract>
+      <t>This document proposes an enhanced EVPN mechanism, segment-based EVPN (S-EVPN). It satisfies the requirements of PBB-EVPN but does not require PBB implementation on PE. The solution uses a global label for each Ethernet Segment (ES) in an EVPN. It inserts the source ES label into packets at ingress PE and learns C-MAC and source ES label binding at egress PE. The solution makes the implementation easier and closer to E-VPN compared to PBB-EVPN but has the PBB-EVPN benefits.</t>
+    </abstract>
+  </front>
+</reference>

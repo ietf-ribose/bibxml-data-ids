@@ -1,0 +1,12 @@
+<reference anchor="I-D.thubert-6lowpan-simple-fragment-recovery">
+  <front>
+    <title>LoWPAN fragment Forwarding and Recovery</title>
+    <seriesInfo name="Internet-Draft" value="draft-thubert-6lowpan-simple-fragment-recovery-07"/>
+    <author fullname="Pascal Thubert"/>
+    <author fullname="Jonathan Hui"/>
+    <date year="2010" month="June" day="4"/>
+    <abstract>
+      <t>Considering that the IPv6 minimum MTU is 1280 bytes and that an an802.15.4 frame can have a payload limited to 74 bytes in the worstcase, a packet might end up fragmented into as many as 18 fragmentsat the 6LoWPAN shim layer. If a single one of those fragments islost in transmission, all fragments must be resent, furthercontributing to the congestion that might have caused the initialpacket loss. This draft introduces a simple protocol to forward andrecover individual fragments that might be lost over multiple hopsbetween 6LoWPAN endpoints.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-uta-smtp-require-tls">
+  <front>
+    <title>SMTP Require TLS Option</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-uta-smtp-require-tls-00"/>
+    <author fullname="Jim Fenton" initials="J." surname="Fenton">
+      <organization>Altmode Networks</organization>
+    </author>
+    <date year="2017" month="September" day="5"/>
+    <abstract>
+      <t>The SMTP STARTTLS option, used in negotiating transport-level encryption of SMTP connections, is not as useful from a security standpoint as it might be because of its opportunistic nature; message delivery is prioritized over security. This document describes a complementary SMTP service extension, REQUIRETLS. If the REQUIRETLS option is used when sending a message, it asserts a request on the part of the message sender to override the default negotiation of TLS, either by requiring that TLS be negotiated when the message is relayed, or by requesting that policy mechanisms such as SMTP STS and DANE be ignored when relaying a high priority message.</t>
+    </abstract>
+  </front>
+</reference>

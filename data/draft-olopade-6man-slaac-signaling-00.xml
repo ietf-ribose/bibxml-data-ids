@@ -1,0 +1,13 @@
+<reference anchor="I-D.olopade-6man-slaac-signaling">
+  <front>
+    <title>Explicit signaling of Stateless Address Autoconfiguration (SLAAC) to Renumbering Events</title>
+    <seriesInfo name="Internet-Draft" value="draft-olopade-6man-slaac-signaling-00"/>
+    <author fullname="Loba Olopade">
+      <organization>Virgin Media</organization>
+    </author>
+    <date year="2020" month="October" day="19"/>
+    <abstract>
+      <t>After a renumbering event in an IPv6 network utilizing SLAAC, hosts might continue to use stale addresses, as they are unaware of the changes. Likewise, routers, who may deprecate the use of these prefixes, are unaware of their use on the hosts. This scenario could have an adverse effect on communication with the host. This document proposes changes to the SLAAC algorithm that will explicitly allow routers to learn of these stale prefixes that are still assigned on the network.</t>
+    </abstract>
+  </front>
+</reference>

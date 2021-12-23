@@ -1,0 +1,13 @@
+<reference anchor="I-D.bittau-tcpinc-bcp">
+  <front>
+    <title>Best current practices for TCP-ENO configuration</title>
+    <seriesInfo name="Internet-Draft" value="draft-bittau-tcpinc-bcp-00"/>
+    <author fullname="Andrea Bittau"/>
+    <author fullname="Daniel B. Giffin"/>
+    <author fullname="David Mazieres"/>
+    <date year="2016" month="March" day="2"/>
+    <abstract>
+      <t>TCP-ENO negotiates encryption of TCP connections, protecting legacy applications and protocols from passive eavesdropping. TCP-ENO generally falls back to unencrypted TCP when not supported by both endpoints or the network. Nonetheless, certain middlebox behavior could cause TCP connections to fail entirely in conjunction with TCP- ENO. This document specifies conventions for servers against which TCP-ENO machines can test network paths for TCP-ENO compatibility, and describes the best current practice for enabling TCP-ENO only when it is unlikely to cause connection failure.</t>
+    </abstract>
+  </front>
+</reference>

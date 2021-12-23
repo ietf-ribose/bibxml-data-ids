@@ -1,0 +1,13 @@
+<reference anchor="I-D.sparks-sip-multiproxy-auth">
+  <front>
+    <title>Providing for Multiple-Proxy Authentication of a SIP Request</title>
+    <seriesInfo name="Internet-Draft" value="draft-sparks-sip-multiproxy-auth-00"/>
+    <author fullname="Robert Sparks" initials="R." surname="Sparks">
+      <organization>MCI WorldCom</organization>
+    </author>
+    <date year="1999" month="October" day="21"/>
+    <abstract>
+      <t>SIP/2.0 as specified in RFC2543 provides a mechanism for a proxyinvolved in a SIP transaction to authenticate the originator of therequest. Unfortunately, this mechanism is not well defined when morethan one proxy in a request’s path desires such authentication. Thisdraft proposes a mechanism that would allow authentication in thatscenario to work as expected. Under this proposal, SIP clients wouldissue requests with multiple Proxy-Authorization headers, one foreach challenge it has seen in the lifetime of a given call leg.Authenticating SIP proxies would search each request for a Proxy-Authorization response to its own challenge, passing any othersdownstream unaltered.</t>
+    </abstract>
+  </front>
+</reference>

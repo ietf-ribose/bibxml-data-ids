@@ -1,0 +1,13 @@
+<reference anchor="I-D.rintaro-eds">
+  <front>
+    <title>Effective DNS Service</title>
+    <seriesInfo name="Internet-Draft" value="draft-rintaro-eds-00"/>
+    <author fullname="Rintaro Kobayashi">
+      <organization>Hyogo Prefectural Ono High School</organization>
+    </author>
+    <date year="2021" month="June" day="1"/>
+    <abstract>
+      <t>In DNS Queries over HTTPS [RFC8484], the port that communicates with DNS would change from UDP to TCP 443. This change causes a new problem that makes it difficult to identify which is the name resolution request, so it is difficult to use web filtering, parental controls and so on. Furthermore, a user-agent in a HTTP header that is necessary for HTTPS communications could be a data used to track users. In summary, DNS Queries over HTTPS has some problems that affect users' security and privacy. This draft proposes a system that is set mediation servers between client side and DNS servers. With this proposal, it is expected that those two problems will be solved.</t>
+    </abstract>
+  </front>
+</reference>

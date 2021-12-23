@@ -1,0 +1,13 @@
+<reference anchor="I-D.tanigawa-rtp-multiplex">
+  <front>
+    <title>Simple RTP Multiplexing Transfer Methods for VoIP</title>
+    <seriesInfo name="Internet-Draft" value="draft-tanigawa-rtp-multiplex-01"/>
+    <author fullname="Tohru Hoshi" initials="T." surname="Hoshi"/>
+    <author fullname="Koji Tsukada" initials="K." surname="Tsukada"/>
+    <author fullname="Keiko Tanigawa" initials="K." surname="Tanigawa"/>
+    <date year="1998" month="November" day="16"/>
+    <abstract>
+      <t>This document proposes a simple voice stream multiplexing method which isdesigned to reduce the IP-UDP header overhead of RTP (real-time transportprotocol) streams and to decrease the number of packets in the end-to-endtransport functions. The proposed multiplexing method is to concatenateRTP packets destined for the same Internet Telephony Gateway (IP-GW) intoa single UDP packet. The benefits of this method are that no newadditional headers are required and the current well-defined H.323 andRTP standards can be used. Furthermore, this method is a general RTP packet multiplexing method thatis applicable not only to an IP-GW but also to other multiplexingapplications, as well as trunking VoIP streams application with insertionand deletion of RTP streams on the way.</t>
+    </abstract>
+  </front>
+</reference>

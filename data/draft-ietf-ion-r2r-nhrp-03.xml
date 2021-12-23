@@ -1,0 +1,16 @@
+<reference anchor="I-D.ietf-ion-r2r-nhrp">
+  <front>
+    <title>NHRP for Destinations off the NBMA Subnetwork</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ion-r2r-nhrp-03"/>
+    <author fullname="Joel M. Halpern" initials="J. M." surname="Halpern">
+      <organization>Institutional Venture Partners</organization>
+    </author>
+    <author fullname="Yakov Rekhter" initials="Y." surname="Rekhter">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date year="1999" month="May" day="24"/>
+    <abstract>
+      <t>The NBMA Next Hop Resolution Protocol (NHRP) [1] specifies amechanism that allows a source station (e.g., a host or a router) onan NBMA subnetwork to find the NBMA subnetwork address address of adestination station when the destination station is connected to theNBMA subnetwork. For the case where the destination station is offthe NBMA subnetwork the mechanism described in [1] allows todetermine the NBMA subnetwork address of an egress router from theNBMA subnetwork that is 'nearest' to the destination station. Ifused to locate an egress router wherein the destination station isdirectly behind the egress router, the currently document NHRPbehaviors are sufficient. However, as documented elsewhere [2],there are cases where if used between routers for generalizedtransit, NHRP can produce loops. This document describes extensions to the NBMA Next Hop ResolutionProtocol (NHRP) [1] that allow to acquire and maintain theinformation about the egress router without constraining thedestination(s) to be directly connected to the egress router.</t>
+    </abstract>
+  </front>
+</reference>

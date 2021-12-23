@@ -1,0 +1,13 @@
+<reference anchor="I-D.oneill-mip-revtun-ho">
+  <front>
+    <title>Hand-off Extensions for Reverse Tunneling</title>
+    <seriesInfo name="Internet-Draft" value="draft-oneill-mip-revtun-ho-00"/>
+    <author fullname="Alan W. O'Neill" initials="A. W." surname="O'Neill">
+      <organization>Flarion Technologies</organization>
+    </author>
+    <date year="2002" month="February" day="27"/>
+    <abstract>
+      <t>Reverse tunneling in RFC3024 [RevTun] introduces new packet loss scenarios at the HA and also incurs similar packet routing issues as RFC3220 [MIPv4] between Foreign Agents, during a handoff. Whether a Co-located Care-of-Address or a Foreign Agent Care-of-Address is used during Mobile IP registration, any packets from the new Foreign that are received at the Home Agent before the visitor list has been updated will be dropped. In addition, any in-flight packets from the old Foreign agent will be dropped once the visitor list has been updated.</t>
+    </abstract>
+  </front>
+</reference>

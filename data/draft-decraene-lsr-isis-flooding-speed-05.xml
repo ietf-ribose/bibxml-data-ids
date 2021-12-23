@@ -1,0 +1,25 @@
+<reference anchor="I-D.decraene-lsr-isis-flooding-speed">
+  <front>
+    <title>IS-IS Flooding Parameters advertisement</title>
+    <seriesInfo name="Internet-Draft" value="draft-decraene-lsr-isis-flooding-speed-05"/>
+    <author fullname="Bruno Decraene" initials="B." surname="Decraene">
+      <organization>Orange</organization>
+    </author>
+    <author fullname="Chris Bowers" initials="C." surname="Bowers">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Jayesh" initials="J." surname="Jayesh">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Tony Li" initials="T." surname="Li">
+      <organization>Arista Networks</organization>
+    </author>
+    <author fullname="Gunter Van de Velde" initials="G." surname="Van de Velde">
+      <organization>Nokia</organization>
+    </author>
+    <date year="2020" month="October" day="29"/>
+    <abstract>
+      <t>This document proposes a mechanism to adjust IS-IS flooding speed between two adjacent routers by adjusting the sender flooding speed to the capability of the receiver. This helps improving the flooding throughput, reducing LSPs losses and retransmissions due to receiver overload, and avoiding manual tuning of flooding parameters by the network operator. This document defines a new TLV for SNP and/or Hello messages. This TLV may carry a set of parameters indicating the performance capacity to receive LSPs.</t>
+    </abstract>
+  </front>
+</reference>

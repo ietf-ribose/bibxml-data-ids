@@ -1,0 +1,13 @@
+<reference anchor="I-D.shepler-nfsv4-dirnotify">
+  <front>
+    <title>NFS version 4 Directory Notifications</title>
+    <seriesInfo name="Internet-Draft" value="draft-shepler-nfsv4-dirnotify-00"/>
+    <author fullname="Spencer Shepler" initials="S." surname="Shepler">
+      <organization>Sun Microsystems</organization>
+    </author>
+    <date year="2003" month="May" day="29"/>
+    <abstract>
+      <t>NFSv4 [RFC3530] contains within it a mechanism for the delegation offile data to a client. The intent of this feature is to reduce thenecessary interaction between a client and server such that overallperformance is improved. The same type of mechanism does not existfor directory contents and to determine validity of cached directorycontents an NFSv4 client is left with polling the server to determineif updates have occurred.The proposal described here is for an NFSv4 minor version that wouldallow a client to register interest in a directory and to receive acallback RPC upon update of that directory. This type of interactionwould reduce or eliminate the polling that occurs between client andserver and improve scalability of the server's resources along withimproved performance for the client's directory content caching.</t>
+    </abstract>
+  </front>
+</reference>

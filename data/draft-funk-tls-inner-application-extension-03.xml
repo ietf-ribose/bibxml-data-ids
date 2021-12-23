@@ -1,0 +1,13 @@
+<reference anchor="I-D.funk-tls-inner-application-extension">
+  <front>
+    <title>TLS Inner Application Extension (TLS/IA)</title>
+    <seriesInfo name="Internet-Draft" value="draft-funk-tls-inner-application-extension-03"/>
+    <author fullname="Paul Funk" initials="P." surname="Funk">
+      <organization>Funk Software</organization>
+    </author>
+    <date year="2006" month="June" day="28"/>
+    <abstract>
+      <t>This document defines a new TLS extension called "Inner Application".When TLS is used with the Inner Application extension (TLS/IA),additional messages are exchanged after completion of the TLShandshake, in effect providing an extended handshake prior to thestart of upper layer data communications. Each TLS/IA messagecontains an encrypted sequence of Attribute-Value-Pairs (AVPs) fromthe RADIUS/Diameter namespace. Hence, the AVPs defined in RADIUS andDiameter have the same meaning in TLS/AI; that is, each attributecode point refers to the same logical attribute in any of theseprotocols. Arbitrary "applications" may be implemented using the AVPexchange. Possible applications include EAP or other forms of userauthentication, client integrity checking, provisioning of additionaltunnels, and the like. Use of the RADIUS/Diameter namespace providesnatural compatibility between TLS/IA applications and widely deployedAAA infrastructures.It is anticipated that TLS/IA will be used with and withoutsubsequent protected data communication within the tunnel establishedby the handshake. For example, TLS/IA may be used to secure an HTTPdata connection, allowing more robust password-based userauthentication to occur than would otherwise be possible usingmechanisms available in HTTP. TLS/IA may also be used for itshandshake portion alone; for example, EAP-TTLSv1 encapsulates aTLS/IA handshake in EAP as a means to mutually authenticate a clientand server and establish keys for a separate data connection.</t>
+    </abstract>
+  </front>
+</reference>

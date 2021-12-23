@@ -1,0 +1,14 @@
+<reference anchor="I-D.muley-hares-idr-orf-order">
+  <front>
+    <title>Group Co-operative Route Filtering capability for BGP-4</title>
+    <seriesInfo name="Internet-Draft" value="draft-muley-hares-idr-orf-order-01"/>
+    <author fullname="Susan Hares"/>
+    <author fullname="Praveen Muley"/>
+    <author fullname="Keyur Patel"/>
+    <author fullname="Benson Schliesser"/>
+    <date year="2008" month="February" day="24"/>
+    <abstract>
+      <t>Currently BGP-4 is capable of carrying multiple (Outbound RouteFilters) ORFs entries for a given "AFI/SAFI". Each ORF provides afilter that a route whose NLRI matches AFI/SAFI, must pass through tobe transmitted in the BGP Update message. Efficient processing ofORF filters may require ordering of individual ORFs in certainsequence and grouping of ORFs that should be applied together. Thegrouping functionality also provides the support for logical ORoperation between the grouped ORFs.This group ORF provides an ORF type that specifies that ordering andgrouping. The route set that passes set of ORFs running in a "GroupORF" will pass the same ORFs sent in normal ORFs.</t>
+    </abstract>
+  </front>
+</reference>

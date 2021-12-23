@@ -1,0 +1,25 @@
+<reference anchor="I-D.vcelak-nsec5">
+  <front>
+    <title>NSEC5, DNSSEC Authenticated Denial of Existence</title>
+    <seriesInfo name="Internet-Draft" value="draft-vcelak-nsec5-05"/>
+    <author fullname="Jan Včelák" initials="J." surname="Včelák">
+      <organization>CZ.NIC</organization>
+    </author>
+    <author fullname="Sharon Goldberg" initials="S." surname="Goldberg">
+      <organization>Boston University</organization>
+    </author>
+    <author fullname="Dimitrios Papadopoulos" initials="D." surname="Papadopoulos">
+      <organization>University of Maryland</organization>
+    </author>
+    <author fullname="Shumon Huque" initials="S." surname="Huque">
+      <organization>Salesforce</organization>
+    </author>
+    <author fullname="David C Lawrence" initials="" surname="Lawrence">
+      <organization>Akamai Technologies</organization>
+    </author>
+    <date year="2017" month="July" day="3"/>
+    <abstract>
+      <t>The Domain Name System Security Extensions (DNSSEC) introduced two resource records (RR) for authenticated denial of existence: the NSEC RR and the NSEC3 RR. This document introduces NSEC5 as an alternative mechanism for DNSSEC authenticated denial of existence. NSEC5 uses verifiable random functions (VRFs) to prevent offline enumeration of zone contents. NSEC5 also protects the integrity of the zone contents even if an adversary compromises one of the authoritative servers for the zone. Integrity is preserved because NSEC5 does not require private zone-signing keys to be present on all authoritative servers for the zone, in contrast to DNSSEC online signing schemes like NSEC3 White Lies.</t>
+    </abstract>
+  </front>
+</reference>

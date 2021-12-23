@@ -1,0 +1,12 @@
+<reference anchor="I-D.denis-icmpv6-generation-for-teredo">
+  <front>
+    <title>Generation of ICMPv6 Echo Replies for Teredo Clients</title>
+    <seriesInfo name="Internet-Draft" value="draft-denis-icmpv6-generation-for-teredo-01"/>
+    <author fullname="Teemu Savolainen"/>
+    <author fullname="Remi Denis-Courmont"/>
+    <date year="2009" month="September" day="16"/>
+    <abstract>
+      <t>Teredo uses return routing to discover the closest Teredo relaycorresponding to any given peer. Discovery is achieved by sending anICMPv6 Echo Request and waiting for the appropriate relay to forwardthe ICMPv6 Echo Reply back. Unanswered ICMPv6 Echo Requests makeTeredo clients assume that the peer is unreachable. This documentidentifies two scenarios where a stateful middlebox can detect thelack of ICMPv6 Echo Reply and craft one for the Teredo client inorder to avoid possibly erroneous peer unreachability assumptions.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,13 @@
+<reference anchor="I-D.vandevelde-idr-flowspec-path-redirect">
+  <front>
+    <title>Flowspec Path-id Redirect</title>
+    <seriesInfo name="Internet-Draft" value="draft-vandevelde-idr-flowspec-path-redirect-00"/>
+    <author fullname="Gunter Van de Velde" initials="G." surname="Van de Velde"/>
+    <author fullname="Wim Henderickx" initials="W." surname="Henderickx"/>
+    <author fullname="Keyur Patel" initials="K." surname="Patel"/>
+    <date year="2015" month="September" day="15"/>
+    <abstract>
+      <t>Flow-spec is an extension to BGP that allows for the dissemination of traffic flow specification rules. This has many possible applications but the primary one for many network operators is the distribution of traffic filtering actions for DDoS mitigation. The flow-spec standard RFC5575 [2] defines a redirect-to-VRF action for policy-based forwarding but this mechanism is not always sufficient, particular if the redirected traffic needs to be steered into an engineered path. This document defines a new redirect-to-Path-id (32-bit or 128-bit) flow-spec action to provide advanced redirection capabilities. When activated, the flowspec signalled Path-id is used to identify the next-hop redirect information within a localized to the router Path- id redirect table. The Path-id redirect table is a table providing a list of Path-id's and router local redirect information. This allows a Flowspec signalled redirect towards a next-hop IP address, next-hop local interface or next-hop (traffic engineered) tunnel interface.</t>
+    </abstract>
+  </front>
+</reference>

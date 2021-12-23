@@ -1,0 +1,12 @@
+<reference anchor="I-D.sarikaya-intarea-prefix-delegation">
+  <front>
+    <title>Using DHCPv6 for Prefix Delegation in Cellular Networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-sarikaya-intarea-prefix-delegation-00"/>
+    <author fullname="Behcet Sarikaya"/>
+    <author fullname="Frank Xia"/>
+    <date year="2010" month="February" day="9"/>
+    <abstract>
+      <t>According to IPv6 operation in cellular networks, one prefix can onlybe assigned to one interface of a mobile node by an access router anddifferent mobile nodes can't share a prefix. Managing Per-MNinterface prefixes is likely to increase the processing load at theaccess router. Based on the idea that DHCPv6 servers can manageprefixes as well as addresses, we propose a new technique in whichthe access router offloads delegation and release tasks of theprefixes to an DHCPv6 server. The access router first requests aprefix for an incoming mobile node to the DHCPv6 server. The accessrouter next advertises the prefix information to the mobile node witha Router Advertisement message. When the mobile node hands off, theprefix is returned to the DHCPv6 server. We also describe how AAAservers can help in prefix delegation.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,13 @@
+<reference anchor="I-D.dickson-dprive-adot-auth">
+  <front>
+    <title>Authenticated DNS over TLS to Authoritative Servers</title>
+    <seriesInfo name="Internet-Draft" value="draft-dickson-dprive-adot-auth-00"/>
+    <author fullname="Brian Dickson" initials="B." surname="Dickson">
+      <organization>GoDaddy</organization>
+    </author>
+    <date year="2021" month="September" day="17"/>
+    <abstract>
+      <t>This Internet Draft proposes a mechanism for DNS resolvers to discover support for TLS transport to authoritative DNS servers, to validate this indication of support, and to authenticate the TLS certificates involved. This requires that the name server _names_ are in a DNSSEC signed zone. This also requires that the delegation of the zone served is protected by [I-D.dickson-dnsop-ds-hack], since the NS names are the keys used for discovery of TLS transport support.</t>
+    </abstract>
+  </front>
+</reference>

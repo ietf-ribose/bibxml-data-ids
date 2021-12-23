@@ -1,0 +1,16 @@
+<reference anchor="I-D.peetterr-dnsop-parent-side-auth-types">
+  <front>
+    <title>Parent-side authoritative DNS records for enhanced delegation</title>
+    <seriesInfo name="Internet-Draft" value="draft-peetterr-dnsop-parent-side-auth-types-00"/>
+    <author fullname="Peter van Dijk">
+      <organization>PowerDNS</organization>
+    </author>
+    <author fullname="Petr Spacek">
+      <organization>CZNIC</organization>
+    </author>
+    <date year="2020" month="September" day="24"/>
+    <abstract>
+      <t>A DNS RRtype numeric range that behaves like DS is reserved. This means: being authoritative on the parent side of a delegation; being signed by the parent; being provided along with delegations by the parent. If this document had become an RFC five years ago, deploying new types (along the lines of NS2/NS2T, DSPKI or various other imagined things like DNS ('signed delegation NS')) would be easier to deploy and experiment with today.</t>
+    </abstract>
+  </front>
+</reference>

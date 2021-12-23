@@ -1,0 +1,13 @@
+<reference anchor="I-D.mahy-sipping-herfp-fix">
+  <front>
+    <title>A Solution to the Heterogeneous Error Response Forking Problem (HERFP) in the Session Initiation Protocol (SIP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-mahy-sipping-herfp-fix-01"/>
+    <author fullname="Rohan Mahy" initials="R." surname="Mahy">
+      <organization>Plantronics</organization>
+    </author>
+    <date year="2006" month="March" day="7"/>
+    <abstract>
+      <t>The SIP protocol defines a role for proxy servers which can forwardrequests to multiple contacts associated with a specific resource orperson. While each of these contacts is expected to send a responseof some kind, responses for each branch are not necessarily sent backto the original requester. The proxy server forwards only the "best"final response back to the original request. This behavior causes asituation known as the Herterogeneous Error Response Forking Problem(HERFP) in which the original requester has no opportunity to see orfix a variety of potentially repairable errors. This documentdescribes a backwards compatible solution to the HERFP problem forINVITE transactions.</t>
+    </abstract>
+  </front>
+</reference>

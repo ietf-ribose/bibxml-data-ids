@@ -1,0 +1,25 @@
+<reference anchor="I-D.anish-pim-reliable-registers">
+  <front>
+    <title>Reliable Transport For PIM Register States</title>
+    <seriesInfo name="Internet-Draft" value="draft-anish-pim-reliable-registers-00"/>
+    <author fullname="Anish Peter">
+      <organization>Infinera</organization>
+    </author>
+    <author fullname="Robert Kebler">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Vikram Nagarajan">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Toerless Eckert">
+      <organization>Huawei USA - Futurewei Technologies Inc.</organization>
+    </author>
+    <author fullname="Stig Venaas">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date year="2018" month="November" day="20"/>
+    <abstract>
+      <t>This document introduces a hard-state, reliable transport for the existing PIM-SM registers states. This eliminates the needs for periodic NULL-registers and register-stop in response to each data- register or NULL-registers. This specification uses the existing PIM reliability mechanisms defined by PIM Over Reliable Transport [RFC6559]. This is simply a means to transmit reliable PIM messages and does not require the support for Join/Prune messages over PORT as defined in [RFC6559].</t>
+    </abstract>
+  </front>
+</reference>

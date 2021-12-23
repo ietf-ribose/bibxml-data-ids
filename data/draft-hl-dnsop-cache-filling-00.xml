@@ -1,0 +1,16 @@
+<reference anchor="I-D.hl-dnsop-cache-filling">
+  <front>
+    <title>Additional Method for Filling DNS Caches</title>
+    <seriesInfo name="Internet-Draft" value="draft-hl-dnsop-cache-filling-00"/>
+    <author fullname="Paul Hoffman">
+      <organization>ICANN</organization>
+    </author>
+    <author fullname="Matt Larson">
+      <organization>ICANN</organization>
+    </author>
+    <date year="2018" month="March" day="2"/>
+    <abstract>
+      <t>DNS recursive resolvers do not always have access to the authoritative resolvers from which they need to get information. For example, when the DNS root servers are under DDoS attack, a recursive resolver may not be able to get an answer from any of the root servers. This document describes how resolvers can populate their caches with zone information, and keep their cache populated, using out-of-band mechanisms that do not rely on the DNS protocol. The protocol is primarily designed for the root zone, but can apply to any zone that wants to participate by publishing values to be cached.</t>
+    </abstract>
+  </front>
+</reference>

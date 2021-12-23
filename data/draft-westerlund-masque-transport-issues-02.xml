@@ -1,0 +1,22 @@
+<reference anchor="I-D.westerlund-masque-transport-issues">
+  <front>
+    <title>Transport Considerations for IP and UDP Proxying in MASQUE</title>
+    <seriesInfo name="Internet-Draft" value="draft-westerlund-masque-transport-issues-02"/>
+    <author fullname="Magnus Westerlund">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Marcus Ihlar">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Zaheduzzaman Sarker">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Mirja Kuehlewind">
+      <organization>Ericsson</organization>
+    </author>
+    <date year="2021" month="July" day="12"/>
+    <abstract>
+      <t>The HTTP Connect method uses back-to-back TCP connections to and from a proxy. Such a solution takes care of many transport aspects as well as IP Flow related concerns. With UDP and IP proxying on the other hand, there are several per-packet and per-flow aspects that need consideration to preserve the properties of end- to-end IP/UDP flows. The aim of this document is to highlight and provide solutions for these issues related to UDP and IP proxying.</t>
+    </abstract>
+  </front>
+</reference>

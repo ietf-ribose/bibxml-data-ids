@@ -1,0 +1,13 @@
+<reference anchor="I-D.harrison-avt-rtpkeys">
+  <front>
+    <title>RTP Payload Format for Keying-Information Stream (KS)</title>
+    <seriesInfo name="Internet-Draft" value="draft-harrison-avt-rtpkeys-00"/>
+    <author fullname="Chuck Harrison" initials="C." surname="Harrison">
+      <organization>Far Field Associates</organization>
+    </author>
+    <date year="2001" month="April" day="30"/>
+    <abstract>
+      <t>[Note: This draft is preliminary and is believed to contain errorsand omissions.]This memo describes an RTP payload format (KS) which transportscryptographic key information for encrypted media streams. The mediastreams themselves are transported independently, and may or may notbe carried by RTP. The KS payload format makes particular provisionfor media carried by SRTP [4]. The payload carried over KS containsthe information necessary for seamlessly applying new decryption keysduring an active session, by means of byte-granularity pointersreferencing into the protected stream. The KS payload is based onCMS [2] and is scalable to a wide variety of streaming media</t>
+    </abstract>
+  </front>
+</reference>

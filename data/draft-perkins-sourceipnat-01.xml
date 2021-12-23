@@ -1,0 +1,11 @@
+<reference anchor="I-D.perkins-sourceipnat">
+  <front>
+    <title>Translating IPv4 to IPv6 based on source IPv4 address</title>
+    <seriesInfo name="Internet-Draft" value="draft-perkins-sourceipnat-01"/>
+    <author fullname="Charles Perkins"/>
+    <date year="2009" month="October" day="12"/>
+    <abstract>
+      <t>A method is proposed to enable communications between an IPv4-onlynode in today's Internet and an IPv6-only node, initiated by theIPv4-only node. The communication depends on allocation of a flowrecord and address triggered by a DNS query received for the targetv6-only node. DNS query conventions can be agreed upon to provide anatural model for resolving IPv4 queries for IPv6-only nodes. TheNAT mechanism proposed demultiplexes multiple sessions through thesame dynamically allocated IP address, using flow records matchingthe source address of incoming packets. This is in contrast to theuse of ports in NAT-PT boxes, which inhibits the support of incomingtraffic towards a node behind the NAT-PT.</t>
+    </abstract>
+  </front>
+</reference>

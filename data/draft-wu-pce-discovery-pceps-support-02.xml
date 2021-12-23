@@ -1,0 +1,14 @@
+<reference anchor="I-D.wu-pce-discovery-pceps-support">
+  <front>
+    <title>IGP extension for PCEP security capability support in the PCE discovery</title>
+    <seriesInfo name="Internet-Draft" value="draft-wu-pce-discovery-pceps-support-02"/>
+    <author fullname="Diego Lopez" initials="D." surname="Lopez"/>
+    <author fullname="Qin Wu" initials="Q." surname="Wu"/>
+    <author fullname="Dhruv Dhody" initials="D." surname="Dhody"/>
+    <author fullname="Daniel King" initials="D." surname="King"/>
+    <date year="2015" month="February" day="3"/>
+    <abstract>
+      <t>When a Path Computation Element (PCE) is a Label Switching Router (LSR) participating in the Interior Gateway Protocol (IGP), or even a server participating in IGP, its presence and path computation capabilities can be advertised using IGP flooding. The IGP extensions for PCE discovery (RFC 5088 and RFC 5089) define a method to advertise path computation capabilities using IGP flooding for OSPF and IS-IS respectively. However these specifications lack a method to advertise PCEP security (e.g., Transport Layer Security(TLS)) support capability. This document proposes new capability flag bit for PCE-CAP-FLAGS sub- TLV that can be announced as attribute in the IGP advertisement to distribute PCEP security support information.</t>
+    </abstract>
+  </front>
+</reference>

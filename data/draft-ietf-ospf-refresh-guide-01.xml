@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-ospf-refresh-guide">
+  <front>
+    <title>Guidelines for Efficient LSA Refreshment in OSPF</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-refresh-guide-01"/>
+    <author fullname="Alex D. Zinin" initials="A. D." surname="Zinin">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date year="2000" month="July" day="10"/>
+    <abstract>
+      <t>OSPF, an IGP widely deployed in IP networks today, requires each LSAto be refreshed by the originating router every 30 minutes. Thismethod increases the protocol's robustness and solves potentialproblems that may be caused by software bugs, as well as someproperties of the protocol itself. Though OSPF expects each LSA to berefreshed independently, ABRs and ASBRs tend to originate Type 3/4/5LSAs within a short period of time, thus causing periodical networkresource exhaustion by LSA refreshments. This document discusses thetechniques that can be used to remedy this problem and provide smoothprotocol operation. It must be noted that discussed methods can beapplied to other link-state routing protocols, such as IS-IS.</t>
+    </abstract>
+  </front>
+</reference>

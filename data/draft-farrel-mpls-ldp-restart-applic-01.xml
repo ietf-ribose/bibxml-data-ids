@@ -1,0 +1,14 @@
+<reference anchor="I-D.farrel-mpls-ldp-restart-applic">
+  <front>
+    <title>Applicability Statement for Restart Mechanisms for the
+Label Distribution Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-farrel-mpls-ldp-restart-applic-01"/>
+    <author fullname="Adrian Farrel" initials="A." surname="Farrel">
+      <organization>Movaz Networks</organization>
+    </author>
+    <date year="2002" month="October" day="14"/>
+    <abstract>
+      <t>Multiprotocol Label Switching (MPLS) systems will be used in corenetworks where system downtime must be kept to a minimum. Similarly,where MPLS is at the network edges (for example, in Provider Edgerouters) system downtime must also be kept as small as possible.Many MPLS Label Switching Routers (LSRs) may, therefore, exploitFault Tolerant (FT) hardware or software to provide high availabilityof the core networks.The details of how FT is achieved for the various components of anFT LSR, including the switching hardware and the TCP stack areimplementation specific. How the software module itself chooses toimplement FT for the state created by the Label Distribution Protocol(LDP) is also implementation specific but there are several issues inthe LDP specification in RFC 3036 'LDP Specification' that make itdifficult to implement an FT LSR using the LDP protocols without someextensions to those protocols.Proposals have been made in 'Fault Tolerance for the LabelDistribution Protocol (LDP)' [LDP-FT] and 'Graceful Restart Mechanismfor LDP' [LDP-RESTART] to address these issues.This document gives guidance on when it is advisable to implementsome form of LDP restart mechanism and which approach might be moresuitable. The issues and extensions described here are equallyapplicable to RFC 3212, 'Constraint-Based LSP Setup Using LDP'(CR-LDP).</t>
+    </abstract>
+  </front>
+</reference>

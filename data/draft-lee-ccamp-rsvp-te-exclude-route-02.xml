@@ -1,0 +1,13 @@
+<reference anchor="I-D.lee-ccamp-rsvp-te-exclude-route">
+  <front>
+    <title>Exclude Routes - Extension to RSVP-TE</title>
+    <seriesInfo name="Internet-Draft" value="draft-lee-ccamp-rsvp-te-exclude-route-02"/>
+    <author fullname="C.J. Lee" initials="C." surname="Lee"/>
+    <author fullname="Adrian Farrel" initials="A." surname="Farrel"/>
+    <author fullname="Stefaan De Cnodder" initials="S." surname="De Cnodder"/>
+    <date year="2003" month="March" day="6"/>
+    <abstract>
+      <t>The current RSVP-TE specification, 'RSVP-TE: Extensions to RSVP forLSP Tunnels' (RFC 3209) and GMPLS extensions to RSVP-TE, 'GeneralizedMulti-Protocol Label Switching (GMPLS) Signaling Resource ReserVationProtocol-Traffic Engineering (RSVP-TE) Extensions' (RFC 3473) allowabstract nodes and resources to be explicitly included in a pathsetup, but not to be explicitly excluded.In some systems where precise explicit paths are not computed at thehead end it may be useful to specify and signal abstract nodes andresources that are to be explicitly excluded from routes. Theseexclusions may apply to the whole of a path, or to parts of a pathbetween two abstract nodes specified in an explicit route.Shared Risk Link Groups (SRLGs) allow the definition of resources orgroups of resources that share the same risk of failure. Theknowledge of SRLGs may be used to compute diverse paths that can beused for protection. In systems where it is useful to signalexclusions, it may be useful to signal SRLGs to indicate groups ofresources that should be excluded on the whole of a path or betweentwo abstract nodes specified in an explicit path.This document specifies ways to communicate route exclusions duringpath setup using RSVP-TE.</t>
+    </abstract>
+  </front>
+</reference>

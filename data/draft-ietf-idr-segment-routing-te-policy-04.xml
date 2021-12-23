@@ -1,0 +1,28 @@
+<reference anchor="I-D.ietf-idr-segment-routing-te-policy">
+  <front>
+    <title>Advertising Segment Routing Policies in BGP</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-segment-routing-te-policy-04"/>
+    <author fullname="Stefano Previdi" initials="S." surname="Previdi">
+      <organization>Individual</organization>
+    </author>
+    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Dhanendra Jain" initials="D." surname="Jain">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Paul Mattes" initials="P." surname="Mattes">
+      <organization>Microsoft</organization>
+    </author>
+    <author fullname="Eric C. Rosen" initials="E. C." surname="Rosen">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Steven Lin" initials="S." surname="Lin">
+      <organization>Google</organization>
+    </author>
+    <date year="2018" month="July" day="2"/>
+    <abstract>
+      <t>This document defines a new BGP SAFI with a new NLRI in order to advertise a candidate path of a Segment Routing Policy (SR Policy). An SR Policy is a set of candidate paths, each consisting of one or more segment lists. The headend of an SR Policy may learn multiple candidate paths for an SR Policy. Candidate paths may be learned via a number of different mechanisms, e.g., CLI, NetConf, PCEP, or BGP. This document specifies the way in which BGP may be used to distribute candidate paths. New sub-TLVs for the Tunnel Encapsulation Attribute are defined.</t>
+    </abstract>
+  </front>
+</reference>

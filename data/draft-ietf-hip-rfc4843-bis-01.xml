@@ -1,0 +1,12 @@
+<reference anchor="I-D.ietf-hip-rfc4843-bis">
+  <front>
+    <title>An IPv6 Prefix for Overlay Routable Cryptographic Hash Identifiers (ORCHID)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-hip-rfc4843-bis-01"/>
+    <author fullname="Julien Laganier" initials="J." surname="Laganier"/>
+    <author fullname="Francis Dupont" initials="F." surname="Dupont"/>
+    <date year="2011" month="March" day="14"/>
+    <abstract>
+      <t>This document introduces Overlay Routable Cryptographic HashIdentifiers (ORCHID) as a new, experimental class of IPv6-address-like identifiers. These identifiers are intended to be used asendpoint identifiers at applications and Application ProgrammingInterfaces (API) and not as identifiers for network location at theIP layer, i.e., locators. They are designed to appear as applicationlayer entities and at the existing IPv6 APIs, but they should notappear in actual IPv6 headers. To make them more like vanilla IPv6addresses, they are expected to be routable at an overlay level.Consequently, while they are considered non-routable addresses fromthe IPv6 layer point-of-view, all existing IPv6 applications areexpected to be able to use them in a manner compatible with currentIPv6 addresses.This document requests IANA to allocate a temporary prefix out of theIPv6 addressing space for Overlay Routable Cryptographic HashIdentifiers. By default, the prefix will be returned to IANA in2014, with continued use requiring IETF consensus.</t>
+    </abstract>
+  </front>
+</reference>

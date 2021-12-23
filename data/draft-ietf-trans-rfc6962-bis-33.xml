@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-trans-rfc6962-bis">
+  <front>
+    <title>Certificate Transparency Version 2.0</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-trans-rfc6962-bis-33"/>
+    <author fullname="Ben Laurie" initials="B." surname="Laurie">
+      <organization>Google UK Ltd.</organization>
+    </author>
+    <author fullname="Adam Langley" initials="A." surname="Langley">
+      <organization>Google Inc.</organization>
+    </author>
+    <author fullname="Emilia Kasper" initials="E." surname="Kasper">
+      <organization>Google Switzerland GmbH</organization>
+    </author>
+    <author fullname="Eran Messeri" initials="E." surname="Messeri">
+      <organization>Google UK Ltd.</organization>
+    </author>
+    <author fullname="Rob Stradling" initials="R." surname="Stradling">
+      <organization>Sectigo Ltd.</organization>
+    </author>
+    <date year="2019" month="September" day="18"/>
+    <abstract>
+      <t>This document describes version 2.0 of the Certificate Transparency (CT) protocol for publicly logging the existence of Transport Layer Security (TLS) server certificates as they are issued or observed, in a manner that allows anyone to audit certification authority (CA) activity and notice the issuance of suspect certificates as well as to audit the certificate logs themselves. The intent is that eventually clients would refuse to honor certificates that do not appear in a log, effectively forcing CAs to add all issued certificates to the logs. This document obsoletes RFC 6962. It also specifies a new TLS extension that is used to send various CT log artifacts. Logs are network services that implement the protocol operations for submissions and queries that are defined in this document.</t>
+    </abstract>
+  </front>
+</reference>

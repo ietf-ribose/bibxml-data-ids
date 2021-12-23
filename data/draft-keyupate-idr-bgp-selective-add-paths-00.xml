@@ -1,0 +1,12 @@
+<reference anchor="I-D.keyupate-idr-bgp-selective-add-paths">
+  <front>
+    <title>Selective Advertisement of Multiple Paths within BGP</title>
+    <seriesInfo name="Internet-Draft" value="draft-keyupate-idr-bgp-selective-add-paths-00"/>
+    <author fullname="Keyur Patel" initials="K." surname="Patel"/>
+    <author fullname="Acee Lindem" initials="A." surname="Lindem"/>
+    <date year="2016" month="March" day="18"/>
+    <abstract>
+      <t>Originally, a BGP speaker was only allowed to advertise one path to any given address prefix. If the BGP speaker advertised a second path to a given prefix, the second path was considered to be a replacement for the first. The BGP ADD-PATH capability was defined to enable a BGP speaker to advertise multiple paths to a given address prefix, without one path replacing any of the others. However, whether a BGP speaker advertises multiple paths for any given prefix is always a matter of local policy for that BGP speaker. In certain situations, it is desirable to allow a BGP speaker to signal to its peers that the peers may advertise multiple simultaneous paths for certain prefixes but not for others. This document defines a new BGP capability, the Selective ADD-PATH capability, that allows a BGP speaker to signal to its peers whether a particular prefix is or is not eligible to have multiple paths advertised.</t>
+    </abstract>
+  </front>
+</reference>

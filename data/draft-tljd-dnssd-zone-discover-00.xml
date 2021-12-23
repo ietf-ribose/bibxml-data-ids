@@ -1,0 +1,16 @@
+<reference anchor="I-D.tljd-dnssd-zone-discover">
+  <front>
+    <title>Permissionless Advertising and Discovery of DNS-SD Authoritative Zones</title>
+    <seriesInfo name="Internet-Draft" value="draft-tljd-dnssd-zone-discover-00"/>
+    <author fullname="Ted Lemon">
+      <organization>Apple Inc.</organization>
+    </author>
+    <author fullname="邓乔宇">
+      <organization>Apple Inc.</organization>
+    </author>
+    <date year="2021" month="July" day="26"/>
+    <abstract>
+      <t>This document describes how to make DNS-SD browsing domains available for browsing and discovery without requiring special cooperation from the network infrastructure. Zones made available in this way are browsed using DNS or DNS Push. The mechanism for advertising them is Multicast DNS (mDNS). This allows DNS-SD browsers to benefit from the permissionless aspects of mDNS without relying on mDNS for all queries, which improves scalability and reliability in applications where many services may be advertised.</t>
+    </abstract>
+  </front>
+</reference>

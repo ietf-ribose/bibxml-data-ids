@@ -1,0 +1,13 @@
+<reference anchor="I-D.arifumi-tcp-mh">
+  <front>
+    <title>TCP Multi-Home Options</title>
+    <seriesInfo name="Internet-Draft" value="draft-arifumi-tcp-mh-00"/>
+    <author fullname="Arifumi Matsumoto" initials="A." surname="Matsumoto">
+      <organization>Kyoto University</organization>
+    </author>
+    <date year="2003" month="October" day="8"/>
+    <abstract>
+      <t>In the existing TCP, only one local and one remote address is usedthrough a TCP session, even when a client or a server is locatedunder multi-homed site and has multiple IP addresses. When a networkoutage occurs and the access-line associated with the local andremote addresses is down, the TCP session itself gets lost even ifanother access-line is alive. TCP MH option makes it possible tohandle multiple local and remote address pairs in one TCP session andto survive network outages by finding out an alternative networkpath. Our path transition mechanism is simple, fast, lightweight andas secure as existing TCP.</t>
+    </abstract>
+  </front>
+</reference>

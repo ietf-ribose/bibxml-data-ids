@@ -1,0 +1,13 @@
+<reference anchor="I-D.eisler-nfsv4-ccm">
+  <front>
+    <title>CCM: The Credential Cache GSS Mechanism</title>
+    <seriesInfo name="Internet-Draft" value="draft-eisler-nfsv4-ccm-00"/>
+    <author fullname="Mike Eisler" initials="M." surname="Eisler">
+      <organization>Network Appliance</organization>
+    </author>
+    <date year="2003" month="February" day="24"/>
+    <abstract>
+      <t>This document describes a new mechanism under the GSS [RFC2743].Some protocols, such as RPCSEC_GSS [RFC2203], use GSS to authenticateevery message transfer, thereby incurring significant overhead due tothe costs of cryptographic computation. While hardware-basedcryptographic accelerators can mitigate such overhead, it is morelikely that acceleration will be available for lower layer protocols,such as IPsec [RFC2401] than for upper layer protocols likeRPCSEC_GSS. CCM can be used as a way to allow GSS mechanism-independent upper layer protocols to leverage the data streamprotections of lower layer protocols, without the inconvenience ofmodifying the upper layer protocol to do so.</t>
+    </abstract>
+  </front>
+</reference>

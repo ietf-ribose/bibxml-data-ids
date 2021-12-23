@@ -1,0 +1,12 @@
+<reference anchor="I-D.hoffman-esp-null-protocol">
+  <front>
+    <title>An Authentication-only Profile for ESP with an IP Protocol Identifier</title>
+    <seriesInfo name="Internet-Draft" value="draft-hoffman-esp-null-protocol-00"/>
+    <author fullname="Paul Hoffman"/>
+    <author fullname="David McGrew"/>
+    <date year="2007" month="August" day="24"/>
+    <abstract>
+      <t>It is desirable to allow firewalls and intrusion detection systems tobe able to inspect the payload of an ESP packet that has beenencrypted with the NULL cipher. This would allow a firewall to readthe contents and apply the normal policies to it. However, a devicein the network cannot reliably determine which ESP packets are NULLencrypted, and cannot easily determine other ESP format parameterssuch as the ICV length. These issues can cause misclassification ofpackets and wasted computational resources.This document solves this problem by defining an authentication-onlyprofile of ESP and reserving IP protocol numbers for it.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,25 @@
+<reference anchor="I-D.irtf-icnrg-icn-lte-4g">
+  <front>
+    <title>Native Deployment of ICN in LTE, 4G Mobile Networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-irtf-icnrg-icn-lte-4g-08"/>
+    <author fullname="Prakash Suthar" initials="P." surname="Suthar">
+      <organization>Cisco Systems Inc.</organization>
+    </author>
+    <author fullname="Milan Stolic" initials="M." surname="Stolic">
+      <organization>Cisco Systems Inc.</organization>
+    </author>
+    <author fullname="Anil Jangam" initials="A." surname="Jangam">
+      <organization>Cisco Systems Inc.</organization>
+    </author>
+    <author fullname="Dirk Trossen" initials="D." surname="Trossen">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Ravi Ravindran" initials="R." surname="Ravindran">
+      <organization>Sterlite Technologies</organization>
+    </author>
+    <date year="2020" month="July" day="25"/>
+    <abstract>
+      <t>LTE, 4G mobile networks use IP-based transport for the control plane to establish the data session at the user plane for the actual data delivery. In the existing architecture, IP transport used in the user plane is not optimized for data transport, which leads to inefficient data delivery. For instance, IP unicast routing from server to clients is used for the delivery of multimedia content to User Equipment (UE), with each user receiving a separate stream. From a bandwidth and routing perspective, this approach is inefficient. Multicast and broadcast technologies have recently emerged for mobile networks, but their deployments are very limited or at an experimental stage. ICN is a rapidly emerging technology, although much of the work is focused on fixed networks. The focus of this draft is on native deployment of ICN in cellular mobile networks by using ICN in a 3GPP protocol stack. ICN has inherent capabilities for multicast, anchorless mobility, and security, while being optimized for data delivery using local caching at the edge. The proposed approaches in this draft allow ICN to be enabled natively over the current LTE stack comprising PDCP/RLC/MAC/PHY, or in a dual stack mode (alongside IP). This document is a product of the Information-Centric Networking Research Group (ICNRG).</t>
+    </abstract>
+  </front>
+</reference>

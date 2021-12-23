@@ -1,0 +1,13 @@
+<reference anchor="I-D.ohta-e2e-multihoming">
+  <front>
+    <title>The Architecture of End to End Multihoming</title>
+    <seriesInfo name="Internet-Draft" value="draft-ohta-e2e-multihoming-05"/>
+    <author fullname="Dr. Masataka Ohta" initials="M." surname="Ohta">
+      <organization>Tokyo Institute of Technology</organization>
+    </author>
+    <date year="2003" month="July" day="2"/>
+    <abstract>
+      <t>This memo describes the architecture of end to end multihoming. Endto end multihoming does not burden routing system for multihoming.That is, even extensive use of end to end multihoming does notincrease the number of entries in a global routing table.Traditionally with IPv4, multihoming capability is offered by anintelligent routing system, which, as is always the case withviolating the end to end principle, lacks scalability on a globalrouting table size and robustness against link failures.On the other hand, with end to end multihoming, multihoming issupported by transport (TCP) or application layer (UDP etc.) of endsystems and does not introduce any problem in the network and worksas long as there is some connectivity between the end systems.Because end to end multihoming is performed in end systems, thearchitecture needs no routing protocol changes Instead, APIs andapplications must be modified to some extent.</t>
+    </abstract>
+  </front>
+</reference>

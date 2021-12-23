@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-tcpm-alternativebackoff-ecn">
+  <front>
+    <title>TCP Alternative Backoff with ECN (ABE)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-alternativebackoff-ecn-03"/>
+    <author fullname="Naeem Khademi" initials="N." surname="Khademi">
+      <organization>University of Oslo</organization>
+    </author>
+    <author fullname="Michael Welzl" initials="M." surname="Welzl">
+      <organization>University of Oslo</organization>
+    </author>
+    <author fullname="Dr. Grenville Armitage" initials="G." surname="Armitage">
+      <organization>Internet For Things (I4T) Research Group</organization>
+    </author>
+    <author fullname="Gorry Fairhurst" initials="G." surname="Fairhurst">
+      <organization>University of Aberdeen</organization>
+    </author>
+    <date year="2017" month="October" day="30"/>
+    <abstract>
+      <t>Recent Active Queue Management (AQM) mechanisms allow for burst tolerance while enforcing short queues to minimise the time that packets spend enqueued at a bottleneck. This can cause noticeable performance degradation for TCP connections traversing such a bottleneck, especially if they are only a few or their bandwidth- delay-product is large. An Explicit Congestion Notification (ECN) signal indicates that an AQM mechanism is used at the bottleneck, and therefore the bottleneck network queue is likely to be short. This document therefore proposes an update to the TCP sender-side ECN reaction in congestion avoidance to reduce the Congestion Window (cwnd) by a smaller amount than the congestion control algorithm's reaction to loss.</t>
+    </abstract>
+  </front>
+</reference>

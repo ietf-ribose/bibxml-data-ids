@@ -1,0 +1,16 @@
+<reference anchor="I-D.ietf-quic-load-balancers">
+  <front>
+    <title>QUIC-LB: Generating Routable QUIC Connection IDs</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-quic-load-balancers-05"/>
+    <author fullname="Martin Duke" initials="M." surname="Duke">
+      <organization>F5 Networks, Inc.</organization>
+    </author>
+    <author fullname="Nick Banks" initials="N." surname="Banks">
+      <organization>Microsoft</organization>
+    </author>
+    <date year="2020" month="October" day="30"/>
+    <abstract>
+      <t>QUIC connection IDs allow continuation of connections across address/ port 4-tuple changes, and can store routing information for stateless or low-state load balancers. They also can prevent linkability of connections across deliberate address migration through the use of protected communications between client and server. This creates issues for load-balancing intermediaries. This specification standardizes methods for encoding routing information given a small set of configuration parameters. This framework also enables offload of other QUIC functions to trusted intermediaries, given the explicit cooperation of the QUIC server.</t>
+    </abstract>
+  </front>
+</reference>

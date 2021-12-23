@@ -1,0 +1,14 @@
+<reference anchor="I-D.ietf-pim-hello-genid">
+  <front>
+    <title>PIM Neighbor Hello GenId Option</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pim-hello-genid-01"/>
+    <author fullname="Billy C. Ng" initials="B. C." surname="Ng">
+      <organization>Nortel Networks</organization>
+    </author>
+    <author fullname="Y. Li" initials="Y." surname="Li"/>
+    <date year="1999" month="June" day="22"/>
+    <abstract>
+      <t>This memo addresses an issue with the current PIM in Sparse Mode. Inthe case of router reboot, PIM networks have to converge slowly andsuffer long outage of traffic flows. This memo proposes a Generation Identifier (GenId) Option in PIMHello messages. It enables neighbors to quickly detect router rebootand thus to synchronize RP-Set information and forwarding states bytriggering Bootstrap and Join/Prune messages to the rebooted router.The rebooted router then is able to quickly recover from the reboot.</t>
+    </abstract>
+  </front>
+</reference>

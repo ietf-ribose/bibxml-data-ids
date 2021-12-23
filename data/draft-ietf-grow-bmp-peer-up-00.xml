@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-grow-bmp-peer-up">
+  <front>
+    <title>BMP Peer Up Message Namespace</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-grow-bmp-peer-up-00"/>
+    <author fullname="John Scudder">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2019" month="July" day="24"/>
+    <abstract>
+      <t>RFC 7854, BMP, uses different message types for different purposes. Most of these are Type, Length, Value (TLV) structured. One message type, the Peer Up message, lacks a set of TLVs defined for its use, instead sharing a namespace with the Initiation message. Subsequent experience has shown that this namespace sharing was a mistake, as it hampers the extension of the protocol. This document updates RFC 7854 by creating an independent namespace for the Peer Up message. The changes in this document are formal only, compliant implementations of RFC 7854 also comply with this specification.</t>
+    </abstract>
+  </front>
+</reference>

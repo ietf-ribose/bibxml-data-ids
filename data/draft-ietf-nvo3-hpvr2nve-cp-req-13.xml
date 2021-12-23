@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-nvo3-hpvr2nve-cp-req">
+  <front>
+    <title>Split Network Virtualization Edge (Split-NVE) Control Plane Requirements</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-nvo3-hpvr2nve-cp-req-13"/>
+    <author fullname="Yizhou Li" initials="Y." surname="Li">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Donald E. Eastlake 3rd" initials="D. E." surname="Eastlake">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Larry Kreeger" initials="L." surname="Kreeger">
+      <organization>Arrcus, Inc</organization>
+    </author>
+    <author fullname="Dr. Thomas Narten" initials="T." surname="Narten">
+      <organization>IBM</organization>
+    </author>
+    <author fullname="David L. Black" initials="D. L." surname="Black">
+      <organization>EMC</organization>
+    </author>
+    <date year="2018" month="January" day="23"/>
+    <abstract>
+      <t>In a Split Network Virtualization Edge (Split-NVE) architecture, the functions of the NVE (Network Virtualization Edge) are split across a server and an external network equipment which is called an external NVE. The server-resident control plane functionality resides in control software, which may be part of hypervisor or container management software; for simplicity, this document refers to the hypervisor as the location of this software. Control plane protocol(s) between a hypervisor and its associated external NVE(s) are used by the hypervisor to distribute its virtual machine networking state to the external NVE(s) for further handling. This document illustrates the functionality required by this type of control plane signaling protocol and outlines the high level requirements. Virtual machine states as well as state transitioning are summarized to help clarify the protocol requirements.</t>
+    </abstract>
+  </front>
+</reference>

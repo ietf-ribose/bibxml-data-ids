@@ -1,0 +1,17 @@
+<reference anchor="I-D.narayanan-psk-addr-gen">
+  <front>
+    <title>Pre-Shared Key (PSK) Based Addresses (PBA)
+</title>
+    <seriesInfo name="Internet-Draft" value="draft-narayanan-psk-addr-gen-00"/>
+    <author fullname="Narayanan Venkitaraman" initials="N." surname="Venkitaraman">
+      <organization>Motorola</organization>
+    </author>
+    <author fullname="Vidya Narayanan" initials="V." surname="Narayanan">
+      <organization>Qualcomm</organization>
+    </author>
+    <date year="2006" month="February" day="13"/>
+    <abstract>
+      <t>Cryptographically generated addresses (CGAs) provide a means ofgenerating an IP address that is tied to a public key of a node.Using this means, the address ownership of the node can be verifiedby using the public key of the node to decrypt data signed by thenode using its private key. In AAA-based systems, there is currentlyno means of performing such absolute address ownership checks, sinceaddress authorization is traditionally outside the scope of AAA.However, in some key generation protocols, it may be critical toperform address ownership verification or authorization before thegenerated key can be used. When such key generation protocols areAAA-based, there is no known method of address authorization to allowthis operation.This draft provides a means of IPv6 address generation using a sharedsecret so that the IP address of a node can be verified by the entitywith which the node shares the secret.</t>
+    </abstract>
+  </front>
+</reference>

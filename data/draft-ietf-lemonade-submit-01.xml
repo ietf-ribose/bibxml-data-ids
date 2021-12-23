@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-lemonade-submit">
+  <front>
+    <title>IMAP Submit Without Download</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-lemonade-submit-01"/>
+    <author fullname="Randall Gellens" initials="R." surname="Gellens">
+      <organization>Qualcomm</organization>
+    </author>
+    <date year="2003" month="October" day="27"/>
+    <abstract>
+      <t>IMAP clients operating over low-bandwidth or high-latency links,such as cellular telephones, need to be able to submit mail messagescontaining all or part of previously-received IMAP messages.Clients need to be able to do this without sloshing the bits bothways, that is, without being forced to download IMAP messages solelyto be able to upload the content in a submitted message.This document currently identifies the two main approaches to doingthis (called 'IMAP push' and 'IMAP pull'), one which adds submissionto IMAP, and another which adds the expansion of IMAP references tomessage submission. This version of the document attempts to layout the protocol mechanisms along with associated trade-offs andsecurity considerations of each. Once a decision has been made togo with a particular technique, this document will describe thespecifics of that choice as a standards-track proposal.</t>
+    </abstract>
+  </front>
+</reference>

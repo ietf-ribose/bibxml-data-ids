@@ -1,0 +1,16 @@
+<reference anchor="I-D.ietf-dnsop-rrserial">
+  <front>
+    <title>The "RRSERIAL" EDNS option for the SOA serial of a RR's zone</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-rrserial-00"/>
+    <author fullname="Hugo Salgado">
+      <organization>NIC Chile</organization>
+    </author>
+    <author fullname="Mauricio Vergara Ereche">
+      <organization>ICANN</organization>
+    </author>
+    <date year="2021" month="June" day="11"/>
+    <abstract>
+      <t>The "RRSERIAL" EDNS option allows a DNS querier to request a DNS authoritative server to add an EDNS option in the answer of such query with the SOA serial number field of the origin zone which contains the answered Resource Record. This "RRSERIAL" data allows to debug and diagnose problems by helping to recognize the data source of an answer in an atomic single query, by associating the response with a respective zone version.</t>
+    </abstract>
+  </front>
+</reference>

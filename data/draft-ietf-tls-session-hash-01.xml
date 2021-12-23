@@ -1,0 +1,15 @@
+<reference anchor="I-D.ietf-tls-session-hash">
+  <front>
+    <title>Transport Layer Security (TLS) Session Hash and Extended Master Secret Extension</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tls-session-hash-01"/>
+    <author fullname="Karthikeyan Bhargavan" initials="K." surname="Bhargavan"/>
+    <author fullname="Antoine Delignat-Lavaud" initials="A." surname="Delignat-Lavaud"/>
+    <author fullname="Alfredo Pironti" initials="A." surname="Pironti"/>
+    <author fullname="Adam Langley" initials="A." surname="Langley"/>
+    <author fullname="Marsh Ray" initials="M." surname="Ray"/>
+    <date year="2014" month="August" day="22"/>
+    <abstract>
+      <t>The Transport Layer Security (TLS) master secret is not cryptographically bound to important session parameters such as the client and server identities. Consequently, it is possible for an active attacker to set up two sessions, one with a client and another with a server, such that the master secrets on the two sessions are the same. Thereafter, any mechanism that relies on the master secret for authentication, including session resumption, becomes vulnerable to a man-in-the-middle attack, where the attacker can simply forward messages back and forth between the client and server. This specification defines a TLS extension that contextually binds the master secret to a log of the full handshake that computes it, thus preventing such attacks.</t>
+    </abstract>
+  </front>
+</reference>

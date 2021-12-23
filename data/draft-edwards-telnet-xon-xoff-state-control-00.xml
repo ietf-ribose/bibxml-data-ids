@@ -1,0 +1,11 @@
+<reference anchor="I-D.edwards-telnet-xon-xoff-state-control">
+  <front>
+    <title>Xon/Xoff State Control for Telnet Com Port Control Option</title>
+    <seriesInfo name="Internet-Draft" value="draft-edwards-telnet-xon-xoff-state-control-00"/>
+    <author fullname="Grant Edwards"/>
+    <date year="2010" month="March" day="23"/>
+    <abstract>
+      <t>This document defines new values for use with the telnet com portcontrol option's SET-CONTROL sub-command defined in RFC2217. Thesenew values provide a mechanism for the telnet client to control andquery the outbound Xon/Xoff flow control state of the telnet server'sphysical serial port. This capability is exposed in the serial portAPI on some operating systems and is needed by telnet clients thatimplement a port-redirector service which provides applications localto the redirector/telnet-client with transparent access to the remoteserial port on the telnet server.</t>
+    </abstract>
+  </front>
+</reference>

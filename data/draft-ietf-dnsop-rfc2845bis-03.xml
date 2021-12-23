@@ -1,0 +1,28 @@
+<reference anchor="I-D.ietf-dnsop-rfc2845bis">
+  <front>
+    <title>Secret Key Transaction Authentication for DNS (TSIG)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-rfc2845bis-03"/>
+    <author fullname="Francis Dupont" initials="F." surname="Dupont">
+      <organization>ISC</organization>
+    </author>
+    <author fullname="Stephen Morris" initials="S." surname="Morris">
+      <organization>ISC</organization>
+    </author>
+    <author fullname="Paul A. Vixie" initials="P. A." surname="Vixie">
+      <organization>Farsight</organization>
+    </author>
+    <author fullname="Donald E. Eastlake 3rd" initials="D. E." surname="Eastlake">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Ólafur Guðmundsson" initials="O." surname="Guðmundsson">
+      <organization>CloudFlare</organization>
+    </author>
+    <author fullname="Brian Wellington" initials="B." surname="Wellington">
+      <organization>Akamai</organization>
+    </author>
+    <date year="2019" month="March" day="7"/>
+    <abstract>
+      <t>This document describes a protocol for transaction level authentication using shared secrets and one way hashing. It can be used to authenticate dynamic updates as coming from an approved client, or to authenticate responses as coming from an approved name server. No recommendation is made here for distributing the shared secrets: it is expected that a network administrator will statically configure name servers and clients using some out of band mechanism. This document obsoletes RFC2845 and RFC4635.</t>
+    </abstract>
+  </front>
+</reference>

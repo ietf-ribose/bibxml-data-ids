@@ -1,0 +1,21 @@
+<reference anchor="I-D.previdi-filsfils-isis-segment-routing">
+  <front>
+    <title>Segment Routing with IS-IS Routing Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-previdi-filsfils-isis-segment-routing-02"/>
+    <author fullname="Stefano Previdi"/>
+    <author fullname="Clarence Filsfils"/>
+    <author fullname="Ahmed Bashandy"/>
+    <author fullname="Martin Horneffer"/>
+    <author fullname="Bruno Decraene"/>
+    <author fullname="Stephane Litkowski"/>
+    <author fullname="Igor Milojevic"/>
+    <author fullname="Rob Shakir"/>
+    <author fullname="Saku Ytti"/>
+    <author fullname="Wim Henderickx"/>
+    <author fullname="Jeff Tantsura"/>
+    <date year="2013" month="March" day="21"/>
+    <abstract>
+      <t>Segment Routing (SR) enables any node to select any path (explicit or derived from IGPs SPT computations) for each of its traffic classes. The path does not depend on a hop-by-hop signaling technique (neither LDP nor RSVP). It only depends on a set of "segments" that are advertised by the IS-IS routing protocol. These segments act as topological sub-paths that can be combined together to form the desired path. There are two forms of segments: node and adjacency. A node segment represents a path to a node. An adjacency segment represents a specific adjacency to a node. A node segment is typically a multi- hop path while an adjacency segment is a one-hop path. SR's control- plane can be applied to IPv6 and MPLS dataplanes. Segment Routing control-plane can be applied to the MPLS dataplane: a node segment to node N is instantiated in the MPLS dataplane as an LSP along the shortest-path (SPT) to the node. An adjacency segment is instantiated in the MPLS dataplane as a cross-connect entry pointing to a specific egress datalink. This document describes the Segment Routing functions, a set of use cases it addresses and the necessary changes that are required in the IS-IS protocol.</t>
+    </abstract>
+  </front>
+</reference>

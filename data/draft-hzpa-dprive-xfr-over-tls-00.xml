@@ -1,0 +1,25 @@
+<reference anchor="I-D.hzpa-dprive-xfr-over-tls">
+  <front>
+    <title>DNS Zone Transfer over TLS</title>
+    <seriesInfo name="Internet-Draft" value="draft-hzpa-dprive-xfr-over-tls-00"/>
+    <author fullname="Han Zhang" initials="H." surname="Zhang">
+      <organization>Salesforce</organization>
+    </author>
+    <author fullname="Pallavi Aras" initials="P." surname="Aras">
+      <organization>Salesforce</organization>
+    </author>
+    <author fullname="Willem Toorop" initials="W." surname="Toorop">
+      <organization>NLnet Labs</organization>
+    </author>
+    <author fullname="Sara Dickinson" initials="S." surname="Dickinson">
+      <organization>Sinodun IT</organization>
+    </author>
+    <author fullname="Allison Mankin" initials="A." surname="Mankin">
+      <organization>Salesforce</organization>
+    </author>
+    <date year="2019" month="March" day="10"/>
+    <abstract>
+      <t>DNS zone transfers are transmitted in clear text, which gives attackers the opportunity to collect the content of a zone by eavesdropping on links. The DNS Transaction Signature (TSIG) is specified to restrict direct zone transfer to authorized clients, but it does not add confidentiality. This document specifies use of TLS to prevent zone collection</t>
+    </abstract>
+  </front>
+</reference>

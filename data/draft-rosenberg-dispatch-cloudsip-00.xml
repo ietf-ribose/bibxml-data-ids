@@ -1,0 +1,19 @@
+<reference anchor="I-D.rosenberg-dispatch-cloudsip">
+  <front>
+    <title>SIP Extensions for High Availability and Load Balancing for Public Cloud</title>
+    <seriesInfo name="Internet-Draft" value="draft-rosenberg-dispatch-cloudsip-00"/>
+    <author fullname="Jonathan Rosenberg">
+      <organization>Five9</organization>
+    </author>
+    <author fullname="Cullen Jennings">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Tolga Asveren">
+      <organization>Ribbon Communications</organization>
+    </author>
+    <date year="2021" month="February" day="21"/>
+    <abstract>
+      <t>Software making use of the Session Initiation Protocol (SIP) faces challenges in achieving high availability, especially for call stateful applications like softswitches, Session Border Controllers (SBCs), and IP-based call centers applications. The state maintained in the SIP, SDP and SRTP layers changes frequently, and is difficult to replicate. For this reason, commercial systems have often relied on complex active-standby configurations making use of IP address takeover. These solutions are also ill-suited for usage in modern public cloud environments. This document defines a SIP extension facilitating HA, including keeping calls active, which is optimized for server-to-server communication where one or both sides are in public cloud.</t>
+    </abstract>
+  </front>
+</reference>

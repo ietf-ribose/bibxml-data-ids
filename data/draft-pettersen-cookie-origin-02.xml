@@ -1,0 +1,11 @@
+<reference anchor="I-D.pettersen-cookie-origin">
+  <front>
+    <title>Identifying origin server of HTTP Cookies</title>
+    <seriesInfo name="Internet-Draft" value="draft-pettersen-cookie-origin-02"/>
+    <author fullname="Yngve Pettersen"/>
+    <date year="2011" month="March" day="14"/>
+    <abstract>
+      <t>HTTP Cookies, as originally defined by Netscape in [NETSC] and aslater updated by [RFC2109] , [RFC2965], and[I-D.ietf-httpstate-cookie] did not address the issue of how torestrict for which domains a server is allowed to set a cookie. Thisis particularly a problem for servers hosted in top-level domainshaving subdomains that are controlled by registries and not by domainowners, e.g., "co.uk" and "city.state.us" domains. In suchsituations, unless the client uses some kind of domain black-list, itis possible for a malicious server to set cookies, so they are sentto all servers in a domain the attacker does not control. Thesecookies may adveresly affect the function of servers receiving them.The primary reason this is a problem is that the server receiving thecookie has no way of telling which server originally set it;therefore it is not able to distinguish reliably an invalid cookiefrom a valid one.This document proposes a new attribute, "$Origin", that is associatedwith each cookie and sent in all client cookie headers in therequests sent to the server. Servers recognizing the attribute maythen check to see if the cookie was set by a server, which is allowedto set cookies for the server and, if necessary, ignore the cookie.This document updates RFC 2109 and RFC 2965.</t>
+    </abstract>
+  </front>
+</reference>

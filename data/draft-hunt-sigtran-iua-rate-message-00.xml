@@ -1,0 +1,13 @@
+<reference anchor="I-D.hunt-sigtran-iua-rate-message">
+  <front>
+    <title>IUA Extension for Rate Control Message</title>
+    <seriesInfo name="Internet-Draft" value="draft-hunt-sigtran-iua-rate-message-00"/>
+    <author fullname="Nick Stewart"/>
+    <author fullname="Geoff Hunt"/>
+    <author fullname="Dal Chohan"/>
+    <date year="2009" month="March" day="2"/>
+    <abstract>
+      <t>This document describes a new message, its associated acknowledgementmessage, and a new parameter to extend the ISDN Q.921-User Adaptation(IUA) protocol (RFC4233). The protocol extension is to support theuse of an Overload Control Agent in a Signaling Gateway (SG). TheOverload Control Agent is able to restrict the admission of neworiginating ISDN calls (sessions) messages from the ISDN End Point toeach Application Server Process (ASP). Both messages defined herecontain a single mandatory parameter, the Call (Session) AdmissionRate. An ASP is able to use this protocol extension to control therate of new calls admitted towards that ASP by the Overload ControlAgent.The new message and its acknowledgement message are added to theApplication Server Process Traffic Maintenance (ASPTM) message class.As the DPNSS1/DASS2 Extension to IUA (DUA, RFC4129) also uses theASPTM message class, the IUA protocol extension described in thisdocument also applies to DUA.For backward compatibility, a Signaling Gateway which does notsupport the new message is expected to follow standard IUA behaviourby discarding the message, and returning an error code of"Unsupported Message Type" to the sender.</t>
+    </abstract>
+  </front>
+</reference>

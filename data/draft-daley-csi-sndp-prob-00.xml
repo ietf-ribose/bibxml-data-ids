@@ -1,0 +1,12 @@
+<reference anchor="I-D.daley-csi-sndp-prob">
+  <front>
+    <title>Securing Neighbour Discovery Proxy Problem Statement</title>
+    <seriesInfo name="Internet-Draft" value="draft-daley-csi-sndp-prob-00"/>
+    <author fullname="Greg Daley"/>
+    <author fullname="Jean-Michel Combes"/>
+    <date year="2008" month="May" day="28"/>
+    <abstract>
+      <t>Neighbour Discovery Proxy is used to provide an address presence on alink from nodes which are no themselves present. It allows a node toreceive packets directed at its address by allowing another device toneighbour advertise on its behalf.Neighbour Discovery Proxy is used in Mobile IPv6 and relatedprotocols to provide reachability from nodes on the home network whena Mobile Node is not at home, by allowing the Home Agent to act asproxy. It is also used as a mechanism to allow a global prefix tospan multiple links, where proxies act as relays for neighbourdiscovery messages.Neighbour Discovery Proxy currently cannot be secured using SEND.Today, SEND assumes that a node advertising an address is the addressowner and in possession of appropriate public and private keys forthat node. This document describes how existing practice for proxyNeighbour Discovery relates to Secured Neighbour Discovery.</t>
+    </abstract>
+  </front>
+</reference>

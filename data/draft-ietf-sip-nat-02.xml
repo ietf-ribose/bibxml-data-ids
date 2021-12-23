@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-sip-nat">
+  <front>
+    <title>An Extension to the Session Initiation Protocol (SIP) for Symmetric Response Routing</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-sip-nat-02"/>
+    <author fullname="Jonathan Rosenberg" initials="J." surname="Rosenberg">
+      <organization>dynamicsoft</organization>
+    </author>
+    <author fullname="Joel Weinberger" initials="J." surname="Weinberger">
+      <organization>dynamicsoft</organization>
+    </author>
+    <author fullname="Henning Schulzrinne" initials="H." surname="Schulzrinne">
+      <organization>Columbia U.</organization>
+    </author>
+    <date year="2002" month="July" day="5"/>
+    <abstract>
+      <t>The Session Initiation Protocol (SIP) operates over UDP and TCP. Whenused with UDP, responses to requests are returned to the sourceaddress the request came from, but from the port written into thetopmost Via header of the request. This behavior is not desirable inmany cases, most notably, when the client is behind a NAT. Thisextension defines a new parameter for the Via header, called rport,that allows a client to request that the server send the responseback to the source IP address and port where the request came from.</t>
+    </abstract>
+  </front>
+</reference>

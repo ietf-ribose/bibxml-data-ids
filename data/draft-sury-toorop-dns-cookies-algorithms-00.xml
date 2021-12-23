@@ -1,0 +1,16 @@
+<reference anchor="I-D.sury-toorop-dns-cookies-algorithms">
+  <front>
+    <title>Algorithms for Domain Name System (DNS) Cookies construction</title>
+    <seriesInfo name="Internet-Draft" value="draft-sury-toorop-dns-cookies-algorithms-00"/>
+    <author fullname="Ondrej Sury">
+      <organization>Internet Systems Consortium</organization>
+    </author>
+    <author fullname="Willem Toorop">
+      <organization>NLnet Labs</organization>
+    </author>
+    <date year="2019" month="March" day="11"/>
+    <abstract>
+      <t>[RFC7873] left the construction of Server Cookies to the discretion of the DNS Server (implementer) which has resulted in a gallimaufry of different implementations. As a result, DNS Cookies are impractical to deploy on multi-vendor anycast networks, because the Server Cookie constructed by one implementation cannot be validated by another. This document provides precise directions for creating Server Cookies to address this issue. Furthermore, [FNV] is obsoleted as a suitable Hash function for calculating DNS Cookies. [SipHash-2.4] is introduced as a new REQUIRED Hash function for calculating DNS Cookies. This document updates [RFC7873]</t>
+    </abstract>
+  </front>
+</reference>

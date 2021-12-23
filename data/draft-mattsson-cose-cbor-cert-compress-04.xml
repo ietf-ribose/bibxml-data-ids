@@ -1,0 +1,25 @@
+<reference anchor="I-D.mattsson-cose-cbor-cert-compress">
+  <front>
+    <title>CBOR Encoding of X.509 Certificates (CBOR Certificates)</title>
+    <seriesInfo name="Internet-Draft" value="draft-mattsson-cose-cbor-cert-compress-04"/>
+    <author fullname="Shahid Raza" initials="S." surname="Raza">
+      <organization>RISE AB</organization>
+    </author>
+    <author fullname="Joel Höglund" initials="J." surname="Höglund">
+      <organization>RISE AB</organization>
+    </author>
+    <author fullname="Göran Selander" initials="G." surname="Selander">
+      <organization>Ericsson AB</organization>
+    </author>
+    <author fullname="John Preuß Mattsson" initials="J. P." surname="Mattsson">
+      <organization>Ericsson AB</organization>
+    </author>
+    <author fullname="Martin Furuhed" initials="M." surname="Furuhed">
+      <organization>Nexus Group</organization>
+    </author>
+    <date year="2020" month="November" day="24"/>
+    <abstract>
+      <t>This document specifies a CBOR encoding of PKIX profiled X.509 Certificates. The resulting certificates are called "CBOR certificates". The CBOR encoding supports a large subset of RFC 5280, while at the same time producing very small sizes for certificates compatible with RFC 7925. The CBOR encoding can be used to compress DER encoded X.509 certificates and to encode natively signed certificates. When uses to compress DER encoded X.509 certificates, the CBOR encoding can in many cases compress RFC 7925 profiled certificates with over 50%. The document also specifies COSE headers for CBOR certificates as well as a TLS certificate type for CBOR certificates.</t>
+    </abstract>
+  </front>
+</reference>

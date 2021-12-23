@@ -1,0 +1,19 @@
+<reference anchor="I-D.pwouters-powerbind">
+  <front>
+    <title>The Delegation_Only DNSKEY flag</title>
+    <seriesInfo name="Internet-Draft" value="draft-pwouters-powerbind-01"/>
+    <author fullname="Paul Wouters" initials="P." surname="Wouters">
+      <organization>Red Hat</organization>
+    </author>
+    <author fullname="Liang Xia" initials="L." surname="Xia">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Wes Hardaker" initials="W." surname="Hardaker">
+      <organization>USC/ISI</organization>
+    </author>
+    <date year="2018" month="June" day="29"/>
+    <abstract>
+      <t>This document introduces a new DNSKEY flag called DELEGATION_ONLY that indicates that the particular zone will never sign zone data across a label. That is, every label (dot) underneath is considered a zone cut and must have its own (signed) delegation.</t>
+    </abstract>
+  </front>
+</reference>

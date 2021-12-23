@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-isis-mi-bis">
+  <front>
+    <title>IS-IS Multi-Instance</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-isis-mi-bis-03"/>
+    <author fullname="Les Ginsberg"/>
+    <author fullname="Stefano Previdi"/>
+    <author fullname="Wim Henderickx"/>
+    <date year="2017" month="April" day="17"/>
+    <abstract>
+      <t>This document describes a mechanism that allows a single router to share one or more circuits among multiple Intermediate System to Intermediate System (IS-IS) routing protocol instances. Multiple instances allow the isolation of resources associated with each instance. Routers will form instance-specific adjacencies. Each instance can support multiple topologies. Each topology has a unique Link State Database (LSDB). Each Protocol Data Unit (PDU) will contain a new Type-Length-Value (TLV) identifying the instance and the topology (or topologies) to which the PDU belongs. This document obsoletes RFC 6822.</t>
+    </abstract>
+  </front>
+</reference>

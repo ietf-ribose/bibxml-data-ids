@@ -1,0 +1,20 @@
+<reference anchor="I-D.harada-http-xconnfrom">
+  <front>
+    <title>HTTP X-Connfrom header</title>
+    <seriesInfo name="Internet-Draft" value="draft-harada-http-xconnfrom-01"/>
+    <author fullname="Jeffrey Mogul" initials="J." surname="Mogul"/>
+    <author fullname="Paul J. Leach" initials="P. J." surname="Leach">
+      <organization>Microsoft,</organization>
+    </author>
+    <author fullname="Larry Harada" initials="L." surname="Harada">
+      <organization>AOL,</organization>
+    </author>
+    <author fullname="Hudson Hendren" initials="H." surname="Hendren">
+      <organization>AOL,</organization>
+    </author>
+    <date year="1997" month="September" day="15"/>
+    <abstract>
+      <t>HTTP/1.1 defines a Connection header, allowing 'the sender to specify options that are desired for that particular connection and MUST NOT be communicated by proxies over further connections.' Because HTTP/1.0 proxies would normally forward the Connection header without obeying its specification, a Connection header received in an HTTP/1.0 message must normally be treated as if it had been forwarded in error. This document defines an X-Connfrom header that identifies the sending host, and so is safe to use in HTTP/1.0 messages. This might be useful in experimenting with HTTP/1.0 implementations of applications of the HTTP/1.1 Connection mechanism.</t>
+    </abstract>
+  </front>
+</reference>

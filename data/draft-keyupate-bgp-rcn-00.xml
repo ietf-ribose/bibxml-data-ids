@@ -1,0 +1,15 @@
+<reference anchor="I-D.keyupate-bgp-rcn">
+  <front>
+    <title>Root cause notification to solve BGP path hunting</title>
+    <seriesInfo name="Internet-Draft" value="draft-keyupate-bgp-rcn-00"/>
+    <author fullname="Keyur Patel"/>
+    <author fullname="Chandra Appanna"/>
+    <author fullname="Pradosh Mohapatra"/>
+    <author fullname="John Scudder"/>
+    <author fullname="James Uttaro"/>
+    <date year="2010" month="August" day="8"/>
+    <abstract>
+      <t>Whenever a prefix is withdrawn using BGP withdrawal mechanism, ittriggers a number of updates in certain scenarios before the prefixis completly withdrawn from the entire BGP network. This phenomenonis popularly known as _path exploration_ or _path hunting_ and occursbecause of path vector property of BGP. It results in a series ofunwanted or redundant transitions that overloads the BGP network.This document describes a mechanism to help limit the amount of suchpath exploration by defining two optional transitive path attributesfor BGP: SPEAKERID_PATH and ROOT_CAUSE.</t>
+    </abstract>
+  </front>
+</reference>

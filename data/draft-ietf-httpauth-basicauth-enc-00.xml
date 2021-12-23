@@ -1,0 +1,11 @@
+<reference anchor="I-D.ietf-httpauth-basicauth-enc">
+  <front>
+    <title>An Encoding Parameter for HTTP Basic Authentication</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-httpauth-basicauth-enc-00"/>
+    <author fullname="Julian Reschke" initials="J." surname="Reschke"/>
+    <date year="2013" month="May" day="16"/>
+    <abstract>
+      <t>The "Basic" authentication scheme defined in RFC 2617 does not properly define how to treat non-ASCII characters. This has lead to a situation where user agent implementations disagree, and servers make different assumptions based on the locales they are running in. There is little interoperability for the non-ASCII characters in the ISO-8859-1 character set, and even less interoperability for any characters beyond that. This document defines a backwards-compatible extension to "Basic", specifying the server's character encoding expectation, using a new authentication scheme parameter.</t>
+    </abstract>
+  </front>
+</reference>

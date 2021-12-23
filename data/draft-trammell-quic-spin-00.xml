@@ -1,0 +1,34 @@
+<reference anchor="I-D.trammell-quic-spin">
+  <front>
+    <title>The Addition of a Spin Bit to the QUIC Transport Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-trammell-quic-spin-00"/>
+    <author fullname="Brian Trammell" initials="B." surname="Trammell">
+      <organization>ETH Zurich</organization>
+    </author>
+    <author fullname="Piet De Vaere" initials="P." surname="De Vaere">
+      <organization>ETH Zurich</organization>
+    </author>
+    <author fullname="Roni Even" initials="R." surname="Even">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Giuseppe Fioccola" initials="G." surname="Fioccola">
+      <organization>Telecom Italia</organization>
+    </author>
+    <author fullname="Thomas Fossati" initials="T." surname="Fossati">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Marcus Ihlar" initials="M." surname="Ihlar">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Al Morton" initials="A. C." surname="Morton">
+      <organization>AT&amp;T Labs</organization>
+    </author>
+    <author fullname="Stephan Emile" initials="S." surname="Emile">
+      <organization>Orange</organization>
+    </author>
+    <date year="2017" month="November" day="29"/>
+    <abstract>
+      <t>This document summarizes work to date on the addition of a "spin bit", intended for explicit measurability of end-to-end RTT on QUIC flows. It proposes a detailed mechanism for the spin bit, describes how to use it to measure end-to-end latency, discusses corner cases and workarounds therefor in the measurement, describes experimental evaluation of the mechanism done to date, and examines the utility and privacy implications of the spin bit. As the overhead and risk associated with the spin bit are negligible, and the utility of a passive RTT measurement signal at higher resolution than once per flow is clear, this document advocates for the addition of the spin bit to the protocol.</t>
+    </abstract>
+  </front>
+</reference>

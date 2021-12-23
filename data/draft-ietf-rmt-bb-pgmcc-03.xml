@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-rmt-bb-pgmcc">
+  <front>
+    <title>PGMCC single rate multicast congestion control: Protocol Specification</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-rmt-bb-pgmcc-03"/>
+    <author fullname="Gianluca Iannaccone" initials="G." surname="Iannaccone"/>
+    <author fullname="Lorenzo Vicisano" initials="L." surname="Vicisano"/>
+    <author fullname="Mark J. Handley" initials="M. J." surname="Handley"/>
+    <date year="2004" month="July" day="14"/>
+    <abstract>
+      <t>This document describes PGMCC, a single rate multicastcongestion control scheme which is TCP-friendly and achievesscalability, stability and fast response to variations innetwork conditions. PGMCC is suitable for both non-reliableand reliable data transfers. It is mainly designed for NAK-based multicast protocols, and uses a window-based, TCP-likecontrol loop using positive ACKs between one representative ofthe receiver group (the ACKER) and the sender. The ACKER isselected dynamically and may change over time.PGMCC is made of two components: a window-based control loop,which closely mimics TCP behaviour, and a fast and low-overhead procedure to select (and track changes of) the ACKER.The scheme is robust to measurement errors, and supports fastresponse to changes in the receiver set and/or networkconditions.</t>
+    </abstract>
+  </front>
+</reference>

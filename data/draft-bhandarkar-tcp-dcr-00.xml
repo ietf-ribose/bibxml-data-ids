@@ -1,0 +1,13 @@
+<reference anchor="I-D.bhandarkar-tcp-dcr">
+  <front>
+    <title>Improving the robustness of TCP to Non-Congestion Events</title>
+    <seriesInfo name="Internet-Draft" value="draft-bhandarkar-tcp-dcr-00"/>
+    <author fullname="Sumitha Bhandarkar" initials="S." surname="Bhandarkar">
+      <organization>Texas A&amp;M University</organization>
+    </author>
+    <date year="2003" month="October" day="16"/>
+    <abstract>
+      <t>This document proposes TCP-DCR, a simple modification to the TCPcongestion control algorithm to make it more robust to non-congestionevents. In the absence of explicit notification from the network, theTCP congestion control algorithm treats the receipt of threeduplicate acknowledgements as an indication of congestion in thenetwork. This is not always correct, notably so in wireless networkswith channel errors or networks prone to excessive packet reordering,resulting in degraded performance. TCP-DCR aims to remedy this bydelaying the congestion response of TCP for a short interval of timetau, thereby creating room to handle any non-congestion events thatmay have occurred. If at the end of the delay tau, the event is nothandled, then it is treated as a congestion loss. The modificationsthemselves do not handle the non-congestion event, but rather rely onsome underlying mechanism to do this. This document discusses theimplications of delaying congestion response on the fairness, TCP-compatibility and network dynamics, and the benefits to be gained byapplying the TCP-DCR modifications to TCP.</t>
+    </abstract>
+  </front>
+</reference>

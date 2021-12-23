@@ -1,0 +1,25 @@
+<reference anchor="I-D.menth-pcn-emft">
+  <front>
+    <title>Edge-Assisted Marked Flow Termination</title>
+    <seriesInfo name="Internet-Draft" value="draft-menth-pcn-emft-00"/>
+    <author fullname="Philip Eardley" initials="P." surname="Eardley">
+      <organization>BT</organization>
+    </author>
+    <author fullname="Frank Lehrieder" initials="F." surname="Lehrieder">
+      <organization>University of Wuerzburg</organization>
+    </author>
+    <author fullname="Michael Menth" initials="M." surname="Menth">
+      <organization>University of Wuerzburg</organization>
+    </author>
+    <author fullname="Jozef Babiarz" initials="J." surname="Babiarz">
+      <organization>Nortel</organization>
+    </author>
+    <author fullname="Anna Charny" initials="A." surname="Charny">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date year="2008" month="February" day="18"/>
+    <abstract>
+      <t>This document presents edge-assisted marked flow termination (EMFT) for PCN. It assumes packet-size independent excess marking, i.e. packets exceeding the supportable rate (SR) of a link are marked as "excess-traffic" (ET). EMFT terminates only flows with at least one ET-marked packet. The problem is to avoid that all flows with ET- marked packets are terminated. This draft proposes two solutions. Flow-based EMFT (F-EMFT) considers single flows separately and terminates them when sufficiently many packets of them have been received by the PCN egress node with an ET-mark. Aggregate-based EMFT (A-EMFT) considers ingress-egress-aggregates and terminates flows thereof sufficiently many ET-marked packets have been received for that aggregate.</t>
+    </abstract>
+  </front>
+</reference>

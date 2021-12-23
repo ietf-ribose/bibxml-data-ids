@@ -1,0 +1,13 @@
+<reference anchor="I-D.randriamasy-alto-relay">
+  <front>
+    <title>Provider Confidential ALTO with Relays</title>
+    <seriesInfo name="Internet-Draft" value="draft-randriamasy-alto-relay-01"/>
+    <author fullname="Sabine Randriamasy" initials="S." surname="Randriamasy">
+      <organization>Alcatel-Lucent Bell Labs</organization>
+    </author>
+    <date year="2011" month="April" day="15"/>
+    <abstract>
+      <t>IETF is designing a new service called ALTO (Application Layertraffic Optimization) that includes a "Network Map Service" and an"Endpoint Ranking Service" and thus incentives for applicationclients to connect to ISP preferred Endpoints. These servicesprovide a view of the Network Provider (NP) topology to overlayclients. However, NPs remain reluctant to implement the ALTOprotocol for security reasons. In particular, they do not want theirtopology to be easily unveiled to third parties and thus morevulnerable to misuse.This document proposes a scheme to preserve Network Providerconfidentiality while allowing the use of ALTO information forapplications. It introduces an "ALTO Relay" that gets the providerconfidential ALTO response and hands it to a functional entity calleda Connection Relay. Meanwhile the ALTO Client gets a status anddirections to connect to Connection Relay, that then will hand thedesired application data. The benefit for Application Clientsaccepting ALTO transactions involving ALTO Relays is a better qualityof experience.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,15 @@
+<reference anchor="I-D.ietf-salud-alert-info-urns">
+  <front>
+    <title>URNs for the Alert-Info Header Field of the Session Initiation Protocol (SIP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-salud-alert-info-urns-09"/>
+    <author fullname="Laura Liess" initials="L." surname="Liess"/>
+    <author fullname="Roland Jesske" initials="R." surname="Jesske"/>
+    <author fullname="Alan Johnston" initials="A." surname="Johnston"/>
+    <author fullname="Dale R. Worley" initials="D. R." surname="Worley"/>
+    <author fullname="Paul Kyzivat" initials="P." surname="Kyzivat"/>
+    <date year="2013" month="October" day="21"/>
+    <abstract>
+      <t>The Session Initiation Protocol (SIP) supports the capability to provide a reference to a specific rendering to be used by the UA when the user is alerted. This is done using the Alert-Info header field. However, the reference (typically a URL) addresses only a specific network resource with specific rendering properties. There is currently no support for standard identifiers for describing the semantics of the alerting situation or the characteristics of the alerting signal, without being tied to a particular rendering. To overcome these limitations and support new applications, a new family of URNs for use in SIP Alert-Info header fields (and situations with similar requirements) is defined in this specification. This document normatively updates [RFC3261], the Session Initiation Protocol (SIP): It changes the usage of the SIP Alert-Info header field defined in the [RFC3261] by additionally allowing its use in all provisional responses to INVITE (except the 100 response).</t>
+    </abstract>
+  </front>
+</reference>

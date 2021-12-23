@@ -1,0 +1,14 @@
+<reference anchor="I-D.ietf-nfsv4-ccm">
+  <front>
+    <title>The Channel Conjunction Mechanism (CCM) for GSS</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-nfsv4-ccm-03"/>
+    <author fullname="Mike Eisler" initials="M." surname="Eisler">
+      <organization>Network Appliance</organization>
+    </author>
+    <author fullname="Nevin E. Williams" initials="N. E." surname="Williams"/>
+    <date year="2004" month="July" day="12"/>
+    <abstract>
+      <t>This document describes a suite of new mechanisms under the GSS[RFC2743]. Some protocols, such as RPCSEC_GSS [RFC2203], use GSS toauthenticate every message transfer, thereby incurring significantoverhead due to the costs of cryptographic computation. Whilehardware-based cryptographic accelerators can mitigate such overhead,it is more likely that acceleration will be available for lower layerprotocols, such as IPsec [RFC2401] than for upper layer protocolslike RPCSEC_GSS. CCM can be used as a way to allow GSS mechanism-independent upper layer protocols to leverage the data streamprotections of lower layer protocols, without the inconvenience ofmodifying the upper layer protocol to do so.</t>
+    </abstract>
+  </front>
+</reference>

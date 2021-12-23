@@ -1,0 +1,22 @@
+<reference anchor="I-D.roca-nwcrg-generic-fec-api">
+  <front>
+    <title>Generic Application Programming Interface (API) for Sliding Window FEC Codes</title>
+    <seriesInfo name="Internet-Draft" value="draft-roca-nwcrg-generic-fec-api-04"/>
+    <author fullname="Vincent Roca" initials="V." surname="Roca">
+      <organization>INRIA</organization>
+    </author>
+    <author fullname="Jonathan Detchart" initials="J." surname="Detchart">
+      <organization>ISAE - Supaero</organization>
+    </author>
+    <author fullname="Cédric Adjih" initials="C." surname="Adjih">
+      <organization>INRIA</organization>
+    </author>
+    <author fullname="Morten Pedersen" initials="M." surname="Pedersen">
+      <organization>Steinwurf ApS</organization>
+    </author>
+    <date year="2018" month="November" day="4"/>
+    <abstract>
+      <t>This document introduces a generic Application Programming Interface (API) for sliding window FEC codes. This API is meant to be compatible with any sliding window FEC code. It defines the core procedures and functions meant to control the codec (i.e., implementation of the FEC code). However, it leaves out all upper layer aspects that are the responsibility of the application or protocol making use of the codec. As a consequence, this is not an API for a FEC Scheme since certain mechanisms that must be defined by any FEC Scheme (e.g., signalling and FEC Payload IDs) are the responsibility of the caller instead of being addressed by the codec. A first goal of this document is to pave the way for a future open- source implementation of such codes, another goal is to simplify the development of content delivery protocols that rely on sliding window FEC codes for robust transmissions.</t>
+    </abstract>
+  </front>
+</reference>

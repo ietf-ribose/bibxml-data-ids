@@ -1,0 +1,28 @@
+<reference anchor="I-D.unyte-netconf-multi-stream-originators">
+  <front>
+    <title>Subscription to Multiple Stream Originators</title>
+    <seriesInfo name="Internet-Draft" value="draft-unyte-netconf-multi-stream-originators-00"/>
+    <author fullname="Tianran Zhou">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Guangying Zheng">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Eric Voit">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Alexander Clemm">
+      <organization>Futurewai</organization>
+    </author>
+    <author fullname="Thomas Graf">
+      <organization>Swisscom</organization>
+    </author>
+    <author fullname="Pierre Francois">
+      <organization>INSA-Lyon</organization>
+    </author>
+    <date year="2020" month="March" day="8"/>
+    <abstract>
+      <t>This document describes the distributed data export mechanism that allows multiple data streams to be managed by using a single subscription. Specifically, device can decide to decompse one subscription into multiple subscriptions to the line-cards. So that each line-card can directly push data to the collector without passing through a broker for internal consolidation. And the device can indicate the subscription decomposition result to the receiver to check the data integrity.</t>
+    </abstract>
+  </front>
+</reference>

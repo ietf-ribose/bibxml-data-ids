@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-mmusic-mdns-ice-candidates">
+  <front>
+    <title>Using Multicast DNS to protect privacy when exposing ICE candidates</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-mmusic-mdns-ice-candidates-00"/>
+    <author fullname="Youenn Fablet" initials="Y." surname="Fablet">
+      <organization>Apple Inc.</organization>
+    </author>
+    <author fullname="Jeroen De Borst" initials="J." surname="De Borst">
+      <organization>Google</organization>
+    </author>
+    <author fullname="Justin Uberti" initials="J." surname="Uberti">
+      <organization>Google</organization>
+    </author>
+    <author fullname="Qingsi Wang" initials="Q." surname="Wang">
+      <organization>Google</organization>
+    </author>
+    <date year="2020" month="October" day="20"/>
+    <abstract>
+      <t>WebRTC applications collect ICE candidates as part of the process of creating peer-to-peer connections. To maximize the probability of a direct peer-to-peer connection, client private IP addresses are included in this candidate collection. However, disclosure of these addresses has privacy implications. This document describes a way to share local IP addresses with other clients while preserving client privacy. This is achieved by concealing IP addresses with dynamically generated Multicast DNS (mDNS) names.</t>
+    </abstract>
+  </front>
+</reference>

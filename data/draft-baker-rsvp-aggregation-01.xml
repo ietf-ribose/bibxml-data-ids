@@ -1,0 +1,11 @@
+<reference anchor="I-D.baker-rsvp-aggregation">
+  <front>
+    <title>Aggregation of RSVP for IP4 and IP6 Reservations</title>
+    <seriesInfo name="Internet-Draft" value="draft-baker-rsvp-aggregation-01"/>
+    <author fullname="Fred Baker" initials="F." surname="Baker"/>
+    <date year="1999" month="June" day="28"/>
+    <abstract>
+      <t>A key problem in the design of RSVP version 1 is, as noted inits applicability statement, that it lacks facilities foraggregation of individual reserved sessions into a commonclass. The use of such aggregation is recommended in the paperby Clark, Shenker, and Zhang in SIGCOMM '92, and required forscalability.This document describes the use of a single RSVP reservationto aggregate other RSVP reservations across a transit routingregion, in a manner conceptually similar to the use of VirtualPaths in an ATM network. It proposes a way to dynamicallycreate the aggregate reservation, classify the traffic forwhich the aggregate reservation applies, determine how muchbandwidth is needed to achieve the requirement, and recoverthe bandwidth when the sub-reservations are no longerrequired. It also contains recommendations concerningalgorithms and policies for predictive reservations.</t>
+    </abstract>
+  </front>
+</reference>

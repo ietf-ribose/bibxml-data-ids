@@ -1,0 +1,13 @@
+<reference anchor="I-D.welzl-pmtud-options">
+  <front>
+    <title>PMTU-Options: Path MTU Discovery Using Options</title>
+    <seriesInfo name="Internet-Draft" value="draft-welzl-pmtud-options-01"/>
+    <author fullname="Michael Welzl" initials="M." surname="Welzl">
+      <organization>University of Innsbruck</organization>
+    </author>
+    <date year="2004" month="February" day="11"/>
+    <abstract>
+      <t>This document describes an experimental enhancement of Path MTUDiscovery that has the potential of reducing loss, speeding upconvergence, reducing load in routers which would otherwise need togenerate a large amount of ICMP messages, and alleviating certainadditional problems (interactions with tunnels, Black HoleDetection). The idea is to use an IP Option which queries routers fortheir MTU before starting a Path MTU Discovery process. The resultretrieved in this is used as an upper limit for Path MTU Discovery.To this end, it is fed back to the source either at the packetizationlayer (recommended) or at the IP layer.</t>
+    </abstract>
+  </front>
+</reference>

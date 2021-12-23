@@ -1,0 +1,13 @@
+<reference anchor="I-D.housley-tamp">
+  <front>
+    <title>Trust Anchor Management Protocol (TAMP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-housley-tamp-00"/>
+    <author fullname="Russ Housley"/>
+    <author fullname="Raksha Reddy"/>
+    <author fullname="Carl Wallace"/>
+    <date year="2007" month="October" day="4"/>
+    <abstract>
+      <t>This document describes a transport independent, request-responseprotocol for the management of trust anchors and communityidentifiers stored in a device. The protocol makes use of theCryptographic Message Syntax (CMS), and a digital signature is usedto provide integrity protection and data origin authentication. Eachtrust anchor is associated with a list of functions within devicesthat make use of digital signature mechanisms. Digital signaturescan be validated directly with the public key associated with thetrust anchor, or they can be validated with a certified public keywhose X.509 certification path terminates with the trust anchorpublic key.</t>
+    </abstract>
+  </front>
+</reference>

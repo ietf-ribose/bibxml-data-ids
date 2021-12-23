@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-pim-null-register-packing">
+  <front>
+    <title>PIM Null-Register packing</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pim-null-register-packing-09"/>
+    <author fullname="Vikas Ramesh Kamath" initials="V. R." surname="Kamath">
+      <organization>VMware</organization>
+    </author>
+    <author fullname="Ramakrishnan Cokkanathapuram Sundaram" initials="R. C." surname="Sundaram">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author fullname="Raunak Banthia" initials="R." surname="Banthia">
+      <organization>Apstra</organization>
+    </author>
+    <author fullname="Ananya Gopal" initials="A." surname="Gopal">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <date year="2021" month="May" day="13"/>
+    <abstract>
+      <t>In PIM-SM networks PIM Null-Register messages are sent by the Designated Router (DR) to the Rendezvous Point (RP) to signal the presence of Multicast sources in the network. There are periodic PIM Null-Registers sent from the DR to the RP to keep the state alive at the RP as long as the source is active. The PIM Null-Register message carries information about a single Multicast source and group. This document defines a standard to send multiple multicast source and group information in a single PIM Null-Register message, in a packed format. We will refer to this packed format as the PIM Packed Null-Register format throughout the document. This document also discusses the interoperability between the PIM routers which do not understand the packed message format with multiple multicast source and group details.</t>
+    </abstract>
+  </front>
+</reference>

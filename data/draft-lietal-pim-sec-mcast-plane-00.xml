@@ -1,0 +1,19 @@
+<reference anchor="I-D.lietal-pim-sec-mcast-plane">
+  <front>
+    <title>Secure Multicast Plane between PIM-SM Domains (SMPP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-lietal-pim-sec-mcast-plane-00"/>
+    <author fullname="Billy C. Ng" initials="B. C." surname="Ng">
+      <organization>Nortel Networks</organization>
+    </author>
+    <author fullname="Yunzhou Li" initials="Y." surname="Li">
+      <organization>Nortel Networks</organization>
+    </author>
+    <author fullname="Jyothi Hayes" initials="J." surname="Hayes">
+      <organization>Nortel Networks</organization>
+    </author>
+    <date year="1999" month="June" day="10"/>
+    <abstract>
+      <t>This memo proposes a secure multicast plane between PIM-SM domains through a MSDP bridge. The MSDP bridge is the MSDP peering topology with a GRE tunnel associated with each pair of MSDP routers. A multicast protocol such as DVMRP, PIM-DM or BGMP runs over the MSDP bridge to forward secure multicast data in the global key space. As a RP, each security broker in an interested domain translates the data from the MSDP bridge to the local domain and forwards the data in the local key space. This approach is perceived as a transitional solution to the multicast security between PIM-SM domains. It will enable group security association to differ from one shared tree to another, and will essentially facilitate group key distribution.</t>
+    </abstract>
+  </front>
+</reference>

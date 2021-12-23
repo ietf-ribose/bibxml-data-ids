@@ -1,0 +1,13 @@
+<reference anchor="I-D.otis-smtp-name-path">
+  <front>
+    <title>SMTP Name Path Registration</title>
+    <seriesInfo name="Internet-Draft" value="draft-otis-smtp-name-path-00"/>
+    <author fullname="Douglas Otis" initials="D." surname="Otis">
+      <organization>Trend Micro</organization>
+    </author>
+    <date year="2006" month="April" day="17"/>
+    <abstract>
+      <t>This document describes a safe means to register delivery paths usedby a domain's messages. Message handling might be negativelyaffected without an apparent relationship between the sending systemand the various email related source domains contain within eitherthe message envelope or the message itself. Name based associationscan be achieved within a single DNS transaction. The alternative hasbeen to assemble a list of IP addresses for all systems employed tosend messages for a domain. The IP address list approach may requirehundreds of DNS transactions that endanger the network. The safername based method accommodates an unlimited number of sendingsystems, without the overhead and size issues created by a list of IPaddresses.</t>
+    </abstract>
+  </front>
+</reference>

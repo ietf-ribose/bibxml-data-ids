@@ -1,0 +1,13 @@
+<reference anchor="I-D.arifumi-lin6-multihome-api">
+  <front>
+    <title>Basic Socket API Extensions for LIN6 End-to-End Multihoming</title>
+    <seriesInfo name="Internet-Draft" value="draft-arifumi-lin6-multihome-api-00"/>
+    <author fullname="Arifumi Matsumoto" initials="A." surname="Matsumoto">
+      <organization>Kyoto University</organization>
+    </author>
+    <date year="2003" month="June" day="23"/>
+    <abstract>
+      <t>This document describes a method for multihoming support inapplication layer. We extend the basic socket API(ApplicationProgramming Interface) and propose some new interfaces formultihoming. Multihoming nodes are expected to have multipleaddresses. The existing socket APIs, however, are not designed tomanipulate multiple addresses in a connection. Proposed APIs help anapplication to handle multiple addresses, to avoid connection failureand to do load-balancing possibly. Right now, the proposed APIs arefor LIN6 nodes, one of the mobile protocols. This is because LIN6'saddressing architecture, which is called '8+8', is very friendly andconsistent with multihoming. In this document, we propose a host-based multihoming solution and which is called end-to-endmultihoming. In end-to-end multihoming, a fault-tolerant connectioncan be achieved relying not on routers but on the pair of end-nodesonly.</t>
+    </abstract>
+  </front>
+</reference>

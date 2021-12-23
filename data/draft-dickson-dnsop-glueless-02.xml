@@ -1,0 +1,13 @@
+<reference anchor="I-D.dickson-dnsop-glueless">
+  <front>
+    <title>Operating a Glueless DNS Authority Server</title>
+    <seriesInfo name="Internet-Draft" value="draft-dickson-dnsop-glueless-02"/>
+    <author fullname="Brian Dickson">
+      <organization>GoDaddy</organization>
+    </author>
+    <date year="2021" month="September" day="22"/>
+    <abstract>
+      <t>This Internet Draft proposes a method for protecting authority servers against MITM and poisoning attacks, using a domain naming strategy to not require glue A/AAAA records and use of DNSSEC. This technique assumes the use of validating resolvers. MITM and poisoning attacks should only be effective/possible against unsigned domains. However, until all domains are signed, this guidance is relevant, in that it can limit the attack surface of unsigned domains. This guidance should be combined with [I-D.dickson-dnsop-ds-hack]</t>
+    </abstract>
+  </front>
+</reference>

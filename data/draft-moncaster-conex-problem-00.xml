@@ -1,0 +1,16 @@
+<reference anchor="I-D.moncaster-conex-problem">
+  <front>
+    <title>The Need for Congestion Exposure in the Internet</title>
+    <seriesInfo name="Internet-Draft" value="draft-moncaster-conex-problem-00"/>
+    <author fullname="T Moncaster"/>
+    <author fullname="Anne-Louise Burness"/>
+    <author fullname="Michael Menth"/>
+    <author fullname="Joao Araujo"/>
+    <author fullname="Steven Blake"/>
+    <author fullname="Richard Woundy"/>
+    <date year="2010" month="March" day="1"/>
+    <abstract>
+      <t>Today's Internet is a product of its history. TCP is the maintransport protocol responsible for sharing out bandwidth andpreventing a recurrence of congestion collapse while packet drop isthe primary signal of congestion at bottlenecks. Since packet drop(and increased delay) impacts all their customers negatively, networkoperators would like to be able to distinguish between overlyaggressive congestion control and a confluence of many low-bandwidth,low-impact flows. But they are unable to see the actual congestionsignal and thus, they have to implement bandwidth and/or usage limitsbased on the only information they can see or measure (the contentsof the packet headers and the rate of the traffic). Such measuresdon't solve the packet-drop problems effectively and are leading tocalls for government regulation (which also won't solve the problem).We propose congestion exposure as a possible solution. This allowspackets to carry an accurate prediction of the congestion they expectto cause downstream thus allowing it to be visible to ISPs andnetwork operators. This memo sets out the motivations for congestionexposure and introduces a strawman protocol designed to achievecongestion exposure.</t>
+    </abstract>
+  </front>
+</reference>

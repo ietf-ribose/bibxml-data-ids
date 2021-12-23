@@ -1,0 +1,13 @@
+<reference anchor="I-D.crocker-email-deliveredto">
+  <front>
+    <title>Delivered-To Email Header Field</title>
+    <seriesInfo name="Internet-Draft" value="draft-crocker-email-deliveredto-02"/>
+    <author fullname="Dave Crocker" initials="D." surname="Crocker">
+      <organization>Brandenburg InternetWorking</organization>
+    </author>
+    <date year="2021" month="February" day="21"/>
+    <abstract>
+      <t>The address to which email is delivered might be different than any of the addresses shown in any of the content header fields that were created by the author. The address used by the mail transport service is provided separately, through an envelope SMTP "RCPT TO" command. Before final delivery, handling can entail a sequence of addresses that lead to the recipient. It can be helpful for a message to have a common way to record each delivery in such a sequence, and to include each address used for that recipient. This specification defines a header field for this information.</t>
+    </abstract>
+  </front>
+</reference>

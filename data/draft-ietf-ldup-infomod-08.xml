@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-ldup-infomod">
+  <front>
+    <title>LDUP Replication Information Model</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ldup-infomod-08"/>
+    <author fullname="John McMeeking" initials="J." surname="McMeeking">
+      <organization>IBM</organization>
+    </author>
+    <author fullname="Dr. Rick Huber" initials="R." surname="Huber">
+      <organization>AT&amp;T Laboratories</organization>
+    </author>
+    <author fullname="Ryan Moats" initials="R." surname="Moats">
+      <organization>Lemur Networks</organization>
+    </author>
+    <date year="2003" month="October" day="23"/>
+    <abstract>
+      <t>[LDUP Model] describes the architectural approach to replication ofLDAP directory contents. This document describes the informationmodel and schema elements which support LDAP Replication Serviceswhich conform to [LDUP Model].Directory schema is extended to provide object classes, subentries,and attributes to describe areas of the namespace which are undercommon administrative authority, units of replication (ie, subtrees,or partitions of the namespace, which are replicated), servers whichhold replicas of various types for the various partitions of thenamespace, which namespaces are held on given servers, and theprogress of various namespace management and replication operations.Among other things, this knowledge of where directory content islocated will provide the basis for dynamic generation of LDAPreferrals for clients who can follow them.</t>
+    </abstract>
+  </front>
+</reference>

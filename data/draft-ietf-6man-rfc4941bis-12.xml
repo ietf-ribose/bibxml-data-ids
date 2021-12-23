@@ -1,0 +1,20 @@
+<reference anchor="I-D.ietf-6man-rfc4941bis">
+  <front>
+    <title>Temporary Address Extensions for Stateless Address Autoconfiguration in IPv6</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-6man-rfc4941bis-12"/>
+    <author fullname="Fernando Gont">
+      <organization>SI6 Networks</organization>
+    </author>
+    <author fullname="Suresh Krishnan">
+      <organization>Kaloom</organization>
+    </author>
+    <author fullname="Thomas Narten"/>
+    <author fullname="Richard Draves">
+      <organization>Microsoft Research</organization>
+    </author>
+    <date year="2020" month="November" day="2"/>
+    <abstract>
+      <t>This document describes an extension to IPv6 Stateless Address Autoconfiguration that causes hosts to generate temporary addresses with randomized interface identifiers for each prefix advertised with autoconfiguration enabled. Changing addresses over time limits the window of time during which eavesdroppers and other information collectors may trivially perform address-based network-activity correlation when the same address is employed for multiple transactions by the same host. Additionally, it reduces the window of exposure of a host as being accessible via an address that becomes revealed as a result of active communication. This document obsoletes RFC 4941.</t>
+    </abstract>
+  </front>
+</reference>

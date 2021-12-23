@@ -1,0 +1,17 @@
+<reference anchor="I-D.karppinen-imap-conman">
+  <front>
+    <title>IMAP4 Connection Management
+</title>
+    <seriesInfo name="Internet-Draft" value="draft-karppinen-imap-conman-00"/>
+    <author fullname="Marko Karppinen" initials="M." surname="Karppinen">
+      <organization>Icon Medialab</organization>
+    </author>
+    <author fullname="Andrew Skalski" initials="A." surname="Skalski">
+      <organization>Chek</organization>
+    </author>
+    <date year="1999" month="October" day="5"/>
+    <abstract>
+      <t>The IMAP4 [RFC-2060] protocol is based on the client-server paradigmwhere a single client is concerned only with the mail of a singleuser. However, due to advent of several scenarios where n-tierinteraction is desired, the need has arisen to work with severalusers' mail during a single IMAP4 connection.In such scenario, a component of a n-tier system may act as an IMAP4client on behalf of multiple end-users. Present examples of thisinclude many WWW-based email services. Initial profiling suggeststhat persistent IMAP4 connections can lead to a performance increaseof an order of magnitude when compared to separate IMAP4 connectionsper mailbox action.This document defines an extension to the IMAP4 protocol that allowsa persistent connection to be established for accessing the mail ofmultiple users. The extension includes a new USERLOGOUT command, anda requirement for a CAPABILITIES response from servers implementingthe extension.</t>
+    </abstract>
+  </front>
+</reference>

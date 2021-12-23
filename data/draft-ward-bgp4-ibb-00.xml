@@ -1,0 +1,16 @@
+<reference anchor="I-D.ward-bgp4-ibb">
+  <front>
+    <title>BGP Notification Cease: I'll Be Back</title>
+    <seriesInfo name="Internet-Draft" value="draft-ward-bgp4-ibb-00"/>
+    <author fullname="John Scudder" initials="J." surname="Scudder">
+      <organization>Internet Engineering</organization>
+    </author>
+    <author fullname="David Ward" initials="D." surname="Ward">
+      <organization>Internet Engineering</organization>
+    </author>
+    <date year="1999" month="June" day="21"/>
+    <abstract>
+      <t>Many recent router architectures decouple the routing engine fromthe forwarding engine, so that packet forwarding can continue evenif routing software is not active. The current definition of theBGP protocol does not support this. We propose a new variety ofCEASE NOTIFICATION message (IBB) which indicates to a peer that therouter sending the notification expects to be able to continueforwarding traffic for a certain period of time without anestablished BGP peering session. We also propose a new OPENmessage (ICB) that if received during the HOLDTIME period, does notrequire conventional reestablishment of the BGP peering session.These capabilities are useful for orderly and non-intrusive routingsoftware updates, operating system updates, AS number migration,redundancy and catastrophic event handling.</t>
+    </abstract>
+  </front>
+</reference>

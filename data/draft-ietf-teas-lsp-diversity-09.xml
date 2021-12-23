@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-teas-lsp-diversity">
+  <front>
+    <title>Resource ReserVation Protocol-Traffic Engineering (RSVP-TE) Path Diversity using Exclude Route</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-teas-lsp-diversity-09"/>
+    <author fullname="Zafar Ali" initials="Z." surname="Ali">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="George Swallow" initials="G." surname="Swallow">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Fatai Zhang" initials="F." surname="Zhang">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Dieter Beller" initials="D." surname="Beller">
+      <organization>Nokia</organization>
+    </author>
+    <date year="2017" month="November" day="12"/>
+    <abstract>
+      <t>Resource ReSerVation Protocol-Traffic Engineering provides support for the communication of exclusion information during label switched path (LSP) setup. This document specifies two new diversity subobjects for the RSVP eXclude Route Object (XRO) and the Explicit Exclusion Route Subobject (EXRS). Three different mechanisms are defined to accomplish LSP diversity in the provider or core network: the signaled diversity type indicates whether diversity is based on client, path computation engine (PCE), or network assigned identifiers. The solution described in this document is based on the assumption that LSPs are requested sequentially, i.e., the time period between the LSP setup requests for the two LSPs may be relatively long (in the order of days, weeks, months). Re-routing the LSP that was established first and may have existed for some time is not considered.</t>
+    </abstract>
+  </front>
+</reference>

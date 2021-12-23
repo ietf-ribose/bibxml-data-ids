@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-http-digest-aa-rev">
+  <front>
+    <title>An Extension to HTTP : Digest Access Authentication</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-http-digest-aa-rev-00"/>
+    <author fullname="Professor John Franks" initials="J." surname="Franks">
+      <organization>Northwestern University</organization>
+    </author>
+    <author fullname="Ari Luotonen" initials="A." surname="Luotonen">
+      <organization>Netscape Communications Corporation</organization>
+    </author>
+    <author fullname="Paul J. Leach" initials="P. J." surname="Leach">
+      <organization>Microsoft Corporation</organization>
+    </author>
+    <author fullname="Jeffery L. Hostetler" initials="J. L." surname="Hostetler">
+      <organization>Spyglass, Inc.</organization>
+    </author>
+    <author fullname="Phillip Hallam-Baker" initials="P." surname="Hallam-Baker">
+      <organization>M.I.T.</organization>
+    </author>
+    <date year="1997" month="July" day="30"/>
+    <abstract>
+      <t>The protocol referred to as 'HTTP/1.0' includes the specification for a Basic Access Authentication scheme. This scheme is not considered to be a secure method of user authentication, as the user name and password are passed over the network as clear text. A specification for a different authentication scheme is needed to address this severe limitation. This document provides specification for such a scheme, referred to as 'Digest Access Authentication'. Like Basic, Digest access authentication verifies that both parties to a communication know a shared secret (a password); unlike Basic, this verification can be done without sending the password in the clear, which is Basic's biggest weakness. As with most other authentication protocols, the greatest sources of risks are usually found not in the core protocol itself but in policies and procedures surrounding its use. This is the final draft of any document under this name. Digest and Basic Authentication from the HTTP/1.1 specification will be combined and issued as a document titled 'Authentication in HTTP'.Our intent is that RFC 2068 and RFC 2069 will go to draft standard as a pair of documents, but with all authentication schemes (Digest and Basic) documented together in a single place. This transition has not yet taken place.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-suit-firmware-encryption">
+  <front>
+    <title>Firmware Encryption with SUIT Manifests</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-suit-firmware-encryption-02"/>
+    <author fullname="Hannes Tschofenig">
+      <organization>Arm Limited</organization>
+    </author>
+    <author fullname="Russ Housley">
+      <organization>Vigil Security, LLC</organization>
+    </author>
+    <author fullname="Brendan Moran">
+      <organization>Arm Limited</organization>
+    </author>
+    <date year="2021" month="October" day="25"/>
+    <abstract>
+      <t>This document specifies a firmware update mechanism where the firmware image is encrypted. Firmware encryption uses the IETF SUIT manifest with key establishment provided by the hybrid public-key encryption (HPKE) scheme and the AES Key Wrap (AES-KW) with a pre- shared key-encryption key. Encryption of the firmware image is encrypted using AES-GCM or AES-CCM.</t>
+    </abstract>
+  </front>
+</reference>

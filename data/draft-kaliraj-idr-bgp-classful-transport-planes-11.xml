@@ -1,0 +1,31 @@
+<reference anchor="I-D.kaliraj-idr-bgp-classful-transport-planes">
+  <front>
+    <title>BGP Classful Transport Planes</title>
+    <seriesInfo name="Internet-Draft" value="draft-kaliraj-idr-bgp-classful-transport-planes-11"/>
+    <author fullname="Kaliraj Vairavakkalai" initials="K." surname="Vairavakkalai">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Natrajan Venkataraman" initials="N." surname="Venkataraman">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Balaji Rajagopalan" initials="B." surname="Rajagopalan">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Gyan Mishra" initials="G. S." surname="Mishra">
+      <organization>Verizon Communications Inc.</organization>
+    </author>
+    <author fullname="Mazen Khaddam" initials="M." surname="Khaddam">
+      <organization>Cox Communications Inc.</organization>
+    </author>
+    <author fullname="Xiaohu Xu" initials="X." surname="Xu">
+      <organization>Capitalonline.</organization>
+    </author>
+    <author fullname="Rafal Jan Szarecki" initials="R. J." surname="Szarecki">
+      <organization>Google.</organization>
+    </author>
+    <date year="2021" month="July" day="26"/>
+    <abstract>
+      <t>This document specifies a mechanism, referred to as "service mapping", to express association of overlay routes with underlay routes satisfying a certain SLA, using BGP. The document describes a framework for classifying underlay routes into transport classes, and mapping service routes to specific transport class. The "Transport class" construct maps to a desired SLA, and can be used to realize the "Topology Slice" in 5G Network slicing architecture. This document specifies BGP protocol procedures that enable dissemination of such service mapping information that may span multiple co-operating administrative domains. These domains may be administetered by the same provider or closely co-ordinating provider networks. It makes it possible to advertise multiple tunnels to the same destination address, thus avoiding need of multiple loopbacks on the egress node. A new BGP transport layer address family (SAFI 76) is defined for this purpose that uses RFC-4364 technology and follows RFC-8277 NLRI encoding. This new address family is called "BGP Classful Transport", aka BGP CT. It carries transport prefixes across tunnel domain boundaries (e.g. in Inter-AS Option-C networks), parallel to BGP LU (SAFI 4) . It disseminates "Transport class" information for the transport prefixes across the participating domains, which is not possible with BGP LU. This makes the end-to-end network a "Transport Class" aware tunneled network.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,12 @@
+<reference anchor="I-D.ietf-appsawg-nullmx">
+  <front>
+    <title>A NULL MX Resource Record for Domains that Accept No Mail</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-appsawg-nullmx-00"/>
+    <author fullname="John R. Levine" initials="J. R." surname="Levine"/>
+    <author fullname="Mark Delany" initials="M." surname="Delany"/>
+    <date year="2014" month="February" day="15"/>
+    <abstract>
+      <t>When the 5321.MailFrom domain in an e-mail message has a DNS MX Resource Record (RR), it is making an explicit statement that it is willing to accept email. However, when the domain has just a DNS A or AAAA RR, there mail clients cannot easily tell whether the domain accepts mail, as many hosts on the Internet advertise an A or AAAA RR regardless of whether they want to accept email. The NULL MX RR formalizes the existing mechanism by which a domain announces that it accepts no mail.</t>
+    </abstract>
+  </front>
+</reference>

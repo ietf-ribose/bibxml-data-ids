@@ -1,0 +1,25 @@
+<reference anchor="I-D.eggert-tcpm-rfc8312bis">
+  <front>
+    <title>CUBIC for Fast Long-Distance Networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-eggert-tcpm-rfc8312bis-01"/>
+    <author fullname="Lisong Xu" initials="L." surname="Xu">
+      <organization>University of Nebraska-Lincoln</organization>
+    </author>
+    <author fullname="Sangtae Ha" initials="S." surname="Ha">
+      <organization>University of Colorado at Boulder</organization>
+    </author>
+    <author fullname="Injong Rhee" initials="I." surname="Rhee">
+      <organization>Bowery Farming</organization>
+    </author>
+    <author fullname="Vidhi Goel" initials="V." surname="Goel">
+      <organization>Apple Inc.</organization>
+    </author>
+    <author fullname="Lars Eggert" initials="L." surname="Eggert">
+      <organization>NetApp</organization>
+    </author>
+    <date year="2021" month="February" day="2"/>
+    <abstract>
+      <t>CUBIC is an extension to the current TCP standards. It differs from the current TCP standards only in the congestion control algorithm on the sender side. In particular, it uses a cubic function instead of a linear window increase function of the current TCP standards to improve scalability and stability under fast and long-distance networks. CUBIC and its predecessor algorithm have been adopted as defaults by Linux and have been used for many years. This document provides a specification of CUBIC to enable third-party implementations and to solicit community feedback through experimentation on the performance of CUBIC. This documents obsoletes [RFC8312], updating the specification of CUBIC to conform to the current Linux version.</t>
+    </abstract>
+  </front>
+</reference>

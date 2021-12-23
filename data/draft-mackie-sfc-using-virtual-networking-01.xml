@@ -1,0 +1,16 @@
+<reference anchor="I-D.mackie-sfc-using-virtual-networking">
+  <front>
+    <title>Service Function Chains Using Virtual Networking</title>
+    <seriesInfo name="Internet-Draft" value="draft-mackie-sfc-using-virtual-networking-01"/>
+    <author fullname="Stuart Mackie" initials="S." surname="Mackie"/>
+    <author fullname="Maria Napierala" initials="M." surname="Napierala"/>
+    <author fullname="Diego Daino" initials="D." surname="Daino"/>
+    <author fullname="Diego R. Lopez" initials="D. R." surname="Lopez"/>
+    <author fullname="Daniel Bernier" initials="D." surname="Bernier"/>
+    <author fullname="Walter Haeffner" initials="W." surname="Haeffner"/>
+    <date year="2014" month="October" day="17"/>
+    <abstract>
+      <t>This document describes how service function chains (SFC) can be applied to traffic flows using routing in a virtual (overlay) network to steer traffic between service nodes. Chains can include services running in routers, on physical appliances or in virtual machines. Service chains have applicability at the subscriber edge, business edge and in multi-tenant datacenters. The routing function into SFCs and between service functions within an SFC can be performed by physical devices (routers), be virtualized inside hypervisors, or run as part of a host OS. The architecture uses a controller to calculate and install routes to implement an SFC, based on a topological model of the chain and knowledge of the network addresses that should pass through the chain. An advantage of the approach is that SFCs can be implemented without alteration to today's BGP standard, and without change to the current operation of routers. Service chains need to support load balancing between network functions, and symmetric forward and reverse paths are required when stateful services are involved. This document shows how these requirements can be met by using VRFs at the ingress and egress of each service instance and by performing load balancing after the egress of each service as part of the routing function.</t>
+    </abstract>
+  </front>
+</reference>

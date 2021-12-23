@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-ldup-framing">
+  <front>
+    <title>Extended Operations for Framing LDAP Operations</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ldup-framing-03"/>
+    <author fullname="Gordon Good" initials="G." surname="Good"/>
+    <author fullname="Ellen Stokes" initials="E." surname="Stokes"/>
+    <author fullname="Rod G. Harrison" initials="R. G." surname="Harrison"/>
+    <date year="2000" month="March" day="17"/>
+    <abstract>
+      <t>Certain types of LDAP applications can benefit from the ability tospecify the beginning and end of a related group of operations. Forexample, the LDUP multimaster update protocol [ARCHITECTURE] requiresthat two servers agree to begin a session to transfer pendingreplication updates. This document provides a framework forconstructing protocols that feature a framed set of relatedoperations. It defines a pair of LDAPv3 extended operations thatprovide begin-end framing, and a pair of extended operations used torespond the begin-end framing operations. The nature of the actualLDAP operations carried inside these framing operations is notspecified in this document.All protocol elements described here are LDAP Version 3 extendedoperations. LDAP Version 3 is described in RFC 2251 [LDAPv3].Certain terms used in this document are defined in the document 'LDAPReplication Architecture' [ARCHITECTURE].</t>
+    </abstract>
+  </front>
+</reference>

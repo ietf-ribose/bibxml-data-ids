@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-anima-constrained-voucher">
+  <front>
+    <title>Constrained Voucher Artifacts for Bootstrapping Protocols</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-anima-constrained-voucher-12"/>
+    <author fullname="Michael Richardson" initials="M." surname="Richardson">
+      <organization>Sandelman Software Works</organization>
+    </author>
+    <author fullname="Peter Van der Stok" initials="P." surname="Van der Stok">
+      <organization>vanderstok consultancy</organization>
+    </author>
+    <author fullname="Panos Kampanakis" initials="P." surname="Kampanakis">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Esko Dijk" initials="E." surname="Dijk">
+      <organization>IoTconsultancy.nl</organization>
+    </author>
+    <date year="2021" month="July" day="11"/>
+    <abstract>
+      <t>This document defines a protocol to securely assign a Pledge to an owner and to enroll it into the owner's network. The protocol uses an artifact that is signed by the Pledge's manufacturer. This artifact is known as a "voucher". This document builds upon the work in [RFC8366] and [BRSKI], but defines an encoding of the voucher in CBOR rather than JSON, and enables the Pledge to perform its transactions using CoAP rather than HTTPS. The use of Raw Public Keys instead of X.509 certificates for security operations is also explained.</t>
+    </abstract>
+  </front>
+</reference>

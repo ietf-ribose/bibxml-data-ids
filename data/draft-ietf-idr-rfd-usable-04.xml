@@ -1,0 +1,15 @@
+<reference anchor="I-D.ietf-idr-rfd-usable">
+  <front>
+    <title>Making Route Flap Damping Usable</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-rfd-usable-04"/>
+    <author fullname="Cristel Pelsser"/>
+    <author fullname="Randy Bush"/>
+    <author fullname="Keyur Patel"/>
+    <author fullname="Pradosh Mohapatra"/>
+    <author fullname="Olaf Maennel"/>
+    <date year="2013" month="October" day="10"/>
+    <abstract>
+      <t>Route Flap Damping (RFD) was first proposed to reduce BGP churn in routers. Unfortunately, RFD was found to severely penalize sites for being well connected because topological richness amplifies the number of update messages exchanged. Many operators have turned RFD off. Based on experimental measurement, this document recommends adjusting a few RFD algorithmic constants and limits in order to reduce the high risks with RFD. The result is damping a non-trivial amount of long-term churn without penalizing well-behaved prefixes' normal convergence process.</t>
+    </abstract>
+  </front>
+</reference>

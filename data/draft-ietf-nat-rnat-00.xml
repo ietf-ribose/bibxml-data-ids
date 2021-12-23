@@ -1,0 +1,17 @@
+<reference anchor="I-D.ietf-nat-rnat">
+  <front>
+    <title>IP Relocation through twice Network Address Translators (RAT)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-nat-rnat-00"/>
+    <author fullname="Dr. Thompson Teo" initials="T." surname="Teo"/>
+    <author fullname="S. W. Yeow" initials="S. W." surname="Yeow">
+      <organization>National University of Singapore</organization>
+    </author>
+    <author fullname="R. Singh" initials="R." surname="Singh">
+      <organization>National University of Singapore</organization>
+    </author>
+    <date year="1999" month="March" day="2"/>
+    <abstract>
+      <t>This document describes a protocol that provides IP reachability for mobile users. Like IP Mobility Support, RFC 2002, each mobile node is accessible by its home address, regardless of its current location in the Internet. When away from home, a mobile node acquires a care-of address indicating its current location. It registers the care-of address with a registration server (RS). The RS sets up a twice network address translation table on a RAT device. The RAT device transparently routes datagrams destined for the mobile node's home address to the care-of address using twice network address translation. The protocol requirements for the mobile node is minimal. End-users can have mobility support easily as registration is done using widely available applications.</t>
+    </abstract>
+  </front>
+</reference>

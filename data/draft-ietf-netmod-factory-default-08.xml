@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-netmod-factory-default">
+  <front>
+    <title>Factory Default Setting</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-netmod-factory-default-08"/>
+    <author fullname="Qin Wu" initials="Q." surname="Wu">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Balázs Lengyel" initials="B." surname="Lengyel">
+      <organization>Ericsson Hungary</organization>
+    </author>
+    <author fullname="Ye Niu" initials="Y." surname="Niu">
+      <organization>Huawei</organization>
+    </author>
+    <date year="2019" month="December" day="4"/>
+    <abstract>
+      <t>This document defines a method to reset a server to its factory- default content. The reset operation may be used, e.g., when the existing configuration has major errors so re-starting the configuration process from scratch is the best option. A new factory-reset RPC is defined. When resetting a datastore, all previous configuration settings will be lost and replaced by the factory-default content. A new optional "factory-default" read-only datastore is defined, that contains the data that will be copied over to the running datastore at reset.</t>
+    </abstract>
+  </front>
+</reference>

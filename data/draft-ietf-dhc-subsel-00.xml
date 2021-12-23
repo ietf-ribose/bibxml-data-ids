@@ -1,0 +1,14 @@
+<reference anchor="I-D.ietf-dhc-subsel">
+  <front>
+    <title>Subnet Selection Option for DHCP</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dhc-subsel-00"/>
+    <author fullname="Pratik Gupta" initials="P." surname="Gupta"/>
+    <author fullname="Mark Townsley" initials="M." surname="Townsley">
+      <organization>IBM Corporation</organization>
+    </author>
+    <date year="1997" month="July" day="30"/>
+    <abstract>
+      <t>The Subnet Selections option is provided by a DHCP client to DHCP aserver as an indication to which subnet or subnets to select an address from for the client's lease. When present, the DHCP server will use this value as an indication to which configured subnet pool of addresses to select from, effectively divorcing the giaddr of its overloaded subnet selection function for a packet forwarded by a DHCP relay agent. The giaddr is retains its function as the address for the DHCP server to send replies to. An application for this new option would be to allow a Network Access Server (NAS) acting as DHCP proxy on behalf of a large number of dial-in users to obtain an address that is in the desired subnet(s) for the dial users without having to configure multiple giaddr values at the NAS, or requiring the NAS to utilize an address within each subnet.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,11 @@
+<reference anchor="I-D.nisse-secsh-srp">
+  <front>
+    <title>Using the SRP protocol as a key exchange method in Secure Shell</title>
+    <seriesInfo name="Internet-Draft" value="draft-nisse-secsh-srp-01"/>
+    <author fullname="Niels Moller" initials="N." surname="Moller"/>
+    <date year="2001" month="March" day="30"/>
+    <abstract>
+      <t>This memo describes an experimental method for authentication andkeyexchange in the Secure Shell protocol.The main virtue of the SRP protocol [SRP] is that it providesauthentication based on a small secret (typically a password). It isuseful in situations where no authentic host key is known. For SecureShell, it can be used as a bootstrapping procedure to get the hostkey of a server in a safe way. SRP also provides authentication ofthe user, which means that it might make sense to either skip thesecsh 'ssh-userauth'-service [SSH-USERAUTH] when using SRP, or allowlogin with the 'none' or 'external-keyx' method.</t>
+    </abstract>
+  </front>
+</reference>

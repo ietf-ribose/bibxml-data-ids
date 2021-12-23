@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-tsvwg-datagram-plpmtud">
+  <front>
+    <title>Packetization Layer Path MTU Discovery for Datagram Transports</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-datagram-plpmtud-08"/>
+    <author fullname="Gorry Fairhurst" initials="G." surname="Fairhurst">
+      <organization>University of Aberdeen</organization>
+    </author>
+    <author fullname="Tom Jones" initials="T." surname="Jones">
+      <organization>University of Aberdeen</organization>
+    </author>
+    <author fullname="Michael Tüxen" initials="M." surname="Tüxen">
+      <organization>Muenster University of Applied Sciences</organization>
+    </author>
+    <author fullname="Irene Ruengeler" initials="I." surname="Ruengeler">
+      <organization>Muenster University of Applied Sciences</organization>
+    </author>
+    <author fullname="Timo Völker" initials="T." surname="Völker">
+      <organization>Muenster University of Applied Sciences</organization>
+    </author>
+    <date year="2019" month="June" day="5"/>
+    <abstract>
+      <t>This document describes a robust method for Path MTU Discovery (PMTUD) for datagram Packetization Layers (PLs). It describes an extension to RFC 1191 and RFC 8201, which specifies ICMP-based Path MTU Discovery for IPv4 and IPv6. The method allows a PL, or a datagram application that uses a PL, to discover whether a network path can support the current size of datagram. This can be used to detect and reduce the message size when a sender encounters a network black hole (where packets are discarded). The method can probe a network path with progressively larger packets to discover whether the maximum packet size can be increased. This allows a sender to determine an appropriate packet size, providing functionally for datagram transports that is equivalent to the Packetization Layer PMTUD specification for TCP, specified in RFC 4821. The document also provides implementation notes for incorporating Datagram PMTUD into IETF datagram transports or applications that use datagram transports. When published, this specification updates RFC 4821.</t>
+    </abstract>
+  </front>
+</reference>

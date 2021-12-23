@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-tls-renegotiation">
+  <front>
+    <title>Transport Layer Security (TLS) Renegotiation Indication Extension</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tls-renegotiation-03"/>
+    <author fullname="One Way" initials="O." surname="Way">
+      <organization>Microsoft</organization>
+    </author>
+    <author fullname="Marsh Ray" initials="M." surname="Ray">
+      <organization>PhoneFactor</organization>
+    </author>
+    <author fullname="Steve Dispensa" initials="S." surname="Dispensa">
+      <organization>PhoneFactor</organization>
+    </author>
+    <author fullname="Eric Rescorla" initials="E." surname="Rescorla">
+      <organization>RTFM, Inc.</organization>
+    </author>
+    <date year="2010" month="January" day="5"/>
+    <abstract>
+      <t>Secure Socket Layer (SSL) and Transport Layer Security (TLS) renegotiation are vulnerable to an attack in which the attacker forms a TLS connection with the target server, injects content of his choice, and then splices in a new TLS connection from a client. The server treats the client's initial TLS handshake as a renegotiation and thus believes that the initial data transmitted by the attacker is from the same entity as the subsequent client data. This specification defines a TLS extension to cryptographically tie renegotiations to the TLS connections they are being performed over, thus preventing this attack. [STANDARDS-TRACK]</t>
+    </abstract>
+  </front>
+</reference>

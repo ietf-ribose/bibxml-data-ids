@@ -1,0 +1,16 @@
+<reference anchor="I-D.ludwig-tsvwg-tcp-rxt-flag">
+  <front>
+    <title>TCP Retransmit (RXT) Flag</title>
+    <seriesInfo name="Internet-Draft" value="draft-ludwig-tsvwg-tcp-rxt-flag-03"/>
+    <author fullname="Ludwig Reiner" initials="L." surname="Reiner">
+      <organization>Ericsson Research</organization>
+    </author>
+    <author fullname="Michael Meyer" initials="M." surname="Meyer">
+      <organization>Ericsson Research</organization>
+    </author>
+    <date year="2001" month="November" day="21"/>
+    <abstract>
+      <t>This document proposes a solution to TCP’s retransmission ambiguityproblem. It is based on using a single bit, named the Retransmit(RXT) flag, taken from the Reserved field of the TCP header. The TCPsender sets the RXT flag in segments containing retransmitted data.In response to such a segment, the TCP receiver sends an immediatepure ACK with the RXT flag set. By inspecting the RXT flag of theACKs that arrive after a retransmit the TCP sender can then resolvethe retransmission ambiguity. This protocol feature provides a basisfor future TCP enhancements such as schemes to detect and respond tospurious timeouts and packet re-orderings.</t>
+    </abstract>
+  </front>
+</reference>

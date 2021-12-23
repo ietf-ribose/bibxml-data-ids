@@ -1,0 +1,14 @@
+<reference anchor="I-D.ietf-mobileip-optim">
+  <front>
+    <title>Route Optimization in Mobile IP</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-mobileip-optim-11"/>
+    <author fullname="Charles E. Perkins" initials="C. E." surname="Perkins">
+      <organization>Nokia Research Center</organization>
+    </author>
+    <author fullname="David B. Johnson" initials="D. B." surname="Johnson"/>
+    <date year="2001" month="September" day="6"/>
+    <abstract>
+      <t>Using the base Mobile IP protocol, all datagrams destined to a mobilenode are routed through that mobile node's home agent, which thentunnels each datagram to the mobile node's current location. Thisdocument defines Route Optimization messages and extensions to thebase protocol to optimize datagram routing to a mobile node. Usingthese protocol extensions, correspondent nodes may cache the bindingof a mobile node, and then tunnel their datagrams for the mobile nodedirectly to the care-of address, bypassing the mobile node's homeagent. Extensions are also provided to allow datagrams in flightwhen a mobile node moves, and datagrams sent based on an out-of-datecached binding, to be forwarded directly to the mobile node's newbinding.</t>
+    </abstract>
+  </front>
+</reference>

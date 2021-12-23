@@ -1,0 +1,28 @@
+<reference anchor="I-D.ietf-bier-pim-signaling">
+  <front>
+    <title>PIM Signaling Through BIER Core</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bier-pim-signaling-00"/>
+    <author fullname="Hooman Bidgoli" initials="H." surname="Bidgoli">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Andrew Dolganow" initials="A." surname="Dolganow">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Jayant Kotalwar" initials="J." surname="Kotalwar">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Fengman Xu" initials="F." surname="Xu">
+      <organization>Verizon</organization>
+    </author>
+    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
+      <organization>Cisco System</organization>
+    </author>
+    <author fullname="Mankamana Prasad Mishra" initials="M. P." surname="Mishra">
+      <organization>Cisco System</organization>
+    </author>
+    <date year="2018" month="February" day="23"/>
+    <abstract>
+      <t>Bit Index Explicit Replication (BIER) is an architecture that provides multicast forwarding through a "BIER domain" without requiring intermediate routers to maintain multicast related per-flow state. Neither does BIER require an explicit tree-building protocol for its operation. A multicast data packet enters a BIER domain at a "Bit-Forwarding Ingress Router" (BFIR), and leaves the BIER domain at one or more "Bit-Forwarding Egress Routers" (BFERs). The BFIR router adds a BIER header to the packet. Such header contains a bit-string in which each bit represents exactly one BFER to forward the packet to. The set of BFERs to which the multicast packet needs to be forwarded is expressed by the according set of bits switched on in BIER packet header. This document describes the procedure needed for PIM Joins and Prunes to be signaled through a BIER core. Allowing PIM routers to run traditional PIM multicast services through a BIER core.</t>
+    </abstract>
+  </front>
+</reference>

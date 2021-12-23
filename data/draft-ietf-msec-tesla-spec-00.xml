@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-msec-tesla-spec">
+  <front>
+    <title>TESLA: Multicast Source Authentication Transform Specification</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-msec-tesla-spec-00"/>
+    <author fullname="Ran Canetti" initials="R." surname="Canetti"/>
+    <author fullname="Adrian Perrig" initials="A." surname="Perrig"/>
+    <author fullname="Bram Whillock" initials="B." surname="Whillock"/>
+    <date year="2002" month="October" day="30"/>
+    <abstract>
+      <t>Data authentication is an important component for many applications,for example audio and video Internet broadcasts, or data distributionby satellite. This document specifies TESLA, a secure source authen­tication mechanism for multicast or broadcast data streams. The com­panion draft draft-msec-tesla-intro-01.txt [1] introduces anddescribes TESLA in detail, this document specifies the format of theTESLA authentication field as it is used within the MESP header [2].The main deterrents so far for a data authentication mechanism formulticast were seemingly conflicting requirements: tolerance topacket loss, low per-packet overhead, low computation overhead, scal­ability, no per-receiver state at the sender. The problem is particu­larly hard in settings with high packet loss rates and where lostpackets are not retransmitted, and where the receiver wants toauthenticate each packet it receives.TESLA provides multicast source authentication of individual datapackets, regardless of the packet loss rate. In addition, TESLAfeatures low overhead for both sender and receiver, and does notrequire per-receiver state at the sender. TESLA is secure as long asthe sender and receiver are loosely time synchronized.</t>
+    </abstract>
+  </front>
+</reference>

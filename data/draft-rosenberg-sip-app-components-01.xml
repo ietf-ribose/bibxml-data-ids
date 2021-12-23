@@ -1,0 +1,12 @@
+<reference anchor="I-D.rosenberg-sip-app-components">
+  <front>
+    <title>An Application Server Component Architecture for SIP</title>
+    <seriesInfo name="Internet-Draft" value="draft-rosenberg-sip-app-components-01"/>
+    <author fullname="Jonathan Rosenberg" initials="J." surname="Rosenberg"/>
+    <author fullname="Henning Schulzrinne" initials="H." surname="Schulzrinne"/>
+    <date year="2001" month="March" day="9"/>
+    <abstract>
+      <t>An application server is defined as an entity that is capable ofproviding advanced features to users. Examples of features includecall forwarding, call screening, debit card calling, web interactivevoice response, etc. However, the set of functions needed to enable abroad range of such applications is quite large - it includes speechrecognition, DTMF recognition and digit collection, text-to-speechsynthesis, database interfacing, audio and video coding and decoding,audio and video bridging and mixing, and signaling, to name a few.Supporting such a large set of functions on the same box presents amajor challenge. To solve this problem, the industry is proposing adecomposition of the application server into two components - a mediaserver that handles the media component, and an application serverthat handles the call control, data, and signaling. The interfacethat has been proposed between these two elements is a controlmechanism along the lines of MGCP or Megaco. In this paper, wepropose an orthogonal decomposition, which breaks an applicationserver into application server components. Each component representsa application server in its own right, but it provides a well definedcomponent that by itself may be a complete, but simpler, application.</t>
+    </abstract>
+  </front>
+</reference>

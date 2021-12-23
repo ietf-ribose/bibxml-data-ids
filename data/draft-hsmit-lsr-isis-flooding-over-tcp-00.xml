@@ -1,0 +1,14 @@
+<reference anchor="I-D.hsmit-lsr-isis-flooding-over-tcp">
+  <front>
+    <title>IS-IS Flooding over TCP</title>
+    <seriesInfo name="Internet-Draft" value="draft-hsmit-lsr-isis-flooding-over-tcp-00"/>
+    <author fullname="Henk Smit"/>
+    <author fullname="Gunter Van de Velde">
+      <organization>Nokia</organization>
+    </author>
+    <date year="2018" month="October" day="12"/>
+    <abstract>
+      <t>This document proposes a solution to use TCP for IS-IS flooding. The proposed solution is a relative simple extension to implement. IS-IS flooding over TCP brings BGP's property of scalable transport via TCP to Link-State protocols. This proposal defines a new TLV in point-to-point IIHs to signal the intent of a router to do flooding over TCP, and it defines a small header to encapsulate IS-IS PDUs in the TCP byte-stream.</t>
+    </abstract>
+  </front>
+</reference>

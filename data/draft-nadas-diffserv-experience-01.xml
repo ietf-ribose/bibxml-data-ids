@@ -1,0 +1,24 @@
+<reference anchor="I-D.nadas-diffserv-experience">
+  <front>
+    <title>IBM Diffserv Implementation Experiments</title>
+    <seriesInfo name="Internet-Draft" value="draft-nadas-diffserv-experience-01"/>
+    <author fullname="Vinod Peris" initials="V." surname="Peris"/>
+    <author fullname="Gaurang Shah" initials="G." surname="Shah"/>
+    <author fullname="Stephen J. Nadas" initials="S. J." surname="Nadas">
+      <organization>Govindaraj Sampathkumar</organization>
+    </author>
+    <author fullname="Liang Li" initials="L." surname="Li">
+      <organization>Govindaraj Sampathkumar</organization>
+    </author>
+    <author fullname="Yonas Araya" initials="Y." surname="Araya">
+      <organization>Govindaraj Sampathkumar</organization>
+    </author>
+    <author fullname="Barry Beggs" initials="B." surname="Beggs">
+      <organization>Govindaraj Sampathkumar</organization>
+    </author>
+    <date year="1999" month="October" day="12"/>
+    <abstract>
+      <t>This informational memo contains a description of somemeasurements from early DiffServ (DS) experiments that used apreliminary version of IBM's DiffServ implementation on an IBMrouter over an egress T1/E1 PPP interface. The service levelspecification (SLS) may be configured on the router or optionallycontrolled by an LDAP-accessible policy repository. Themeasurements were intended to examine the behavior of a mixtureof Expedited Forwarding (EF) traffic, Assured Forwarding (AF)traffic and Best Effort (BE) traffic on a congested E1 link. Therouter code includes an LDAP client that communicates with apolicy server to obtain the policies that control the amount ofresources configured for the DiffServ classes.The diagrams referred to in this memo are available in thepostscript version of this memo.Changes from -00 versionAdded the details of the buffering setup, a discussion of ananomaly in the AF delay results, added an additional measurementpoint related to this anomaly, updated author list, addedacknowledgements, and miscellaneous editorial comments.</t>
+    </abstract>
+  </front>
+</reference>

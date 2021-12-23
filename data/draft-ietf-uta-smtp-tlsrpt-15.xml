@@ -1,0 +1,23 @@
+<reference anchor="I-D.ietf-uta-smtp-tlsrpt">
+  <front>
+    <title>SMTP TLS Reporting</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-uta-smtp-tlsrpt-15"/>
+    <author fullname="Daniel Margolis" initials="D." surname="Margolis">
+      <organization>Google, Inc</organization>
+    </author>
+    <author fullname="Alex Brotman" initials="A." surname="Brotman">
+      <organization>Comcast, Inc</organization>
+    </author>
+    <author fullname="Binu Ramakrishnan" initials="B." surname="Ramakrishnan"/>
+    <author fullname="Janet Jones" initials="J." surname="Jones">
+      <organization>Microsoft, Inc</organization>
+    </author>
+    <author fullname="Mark Risher" initials="M." surname="Risher">
+      <organization>Google, Inc</organization>
+    </author>
+    <date year="2018" month="February" day="19"/>
+    <abstract>
+      <t>A number of protocols exist for establishing encrypted channels between SMTP Mail Transfer Agents, including STARTTLS, DANE TLSA, and MTA-STS. These protocols can fail due to misconfiguration or active attack, leading to undelivered messages or delivery over unencrypted or unauthenticated channels. This document describes a reporting mechanism and format by which sending systems can share statistics and specific information about potential failures with recipient domains. Recipient domains can then use this information to both detect potential attackers and diagnose unintentional misconfigurations.</t>
+    </abstract>
+  </front>
+</reference>

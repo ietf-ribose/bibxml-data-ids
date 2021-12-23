@@ -1,0 +1,15 @@
+<reference anchor="I-D.liu-intarea-ps-protocol-auth">
+  <front>
+    <title>Requirements Language</title>
+    <seriesInfo name="Internet-Draft" value="draft-liu-intarea-ps-protocol-auth-00"/>
+    <author fullname="Zhiheng Liu"/>
+    <author fullname="Yinzhi Cao"/>
+    <author fullname="Dapeng Liu"/>
+    <author fullname="China Mobile"/>
+    <author fullname="Qiong Sun"/>
+    <date year="2017" month="May" day="20"/>
+    <abstract>
+      <t>Transport and application layer protocol provides end-to-endconnectivity for clients and servers, but conveys limited or even noinformation to a middlebox, such as Policy and Charging Control (PCC)system, between the client and server. However, PCC needs to authenticate theclient-server traffic so that it can perform the basic functionality, i.e.,charging the client. Due to lack of traffic authentication capability in transport andapplication layer protocol, state-of-the-art PCC adopts Deep PacketInspection (DPI) to understand client-server communication and decidewhether to charge a client. However, in this draft, we show that currenttransport layer protocol(TCP) and application layer(HTTP, TLS) protocol cannotmeet the need of traffic authentication, i.e., the user can modify the packetand by pass the ISP PCC to have free ride. Due to the existence of the aforementioned free-riding attacks, webelieve that Transport and application layer protocol needs to providetraffic authentication capability to a middlebox. In this draft, we describe free-riding attacks and present requirementsfor providing traffic authentication.</t>
+    </abstract>
+  </front>
+</reference>

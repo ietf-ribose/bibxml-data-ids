@@ -1,0 +1,12 @@
+<reference anchor="I-D.vakil-sipping-notify-pause">
+  <front>
+    <title>An Extension to Session Initiation Protocol (SIP) Events for Pausing and Resuming Notifications</title>
+    <seriesInfo name="Internet-Draft" value="draft-vakil-sipping-notify-pause-02"/>
+    <author fullname="Mohammad Vakil"/>
+    <author fullname="Sriram Parameswar"/>
+    <date year="2008" month="March" day="12"/>
+    <abstract>
+      <t>The Session Initiation Protocol (SIP) events framework enables asubscriber to receive asynchronous notification of various eventsfrom other SIP user agents. It defines mechanisms to create,refresh, terminate subscriptions. This framework also definesmechanism to fetch (poll) an event state of a resource withoutcreating persistent subscriptions. There is no mechanism totemporarily pause the notifications, while still maintaining asubscription on the server. This lack of functionality sometimeresults in a lot of superfluous notification traffic, and putunnecessary load on the server. This draft defines an extension toSIP events that allows the subscriber to pause, un-pausenotifications, and be able to perform fetch (poll) subscriptionswithin an established (created) subscription dialog.</t>
+    </abstract>
+  </front>
+</reference>

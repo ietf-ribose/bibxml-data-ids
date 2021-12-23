@@ -1,0 +1,12 @@
+<reference anchor="I-D.kini-mpls-fast-lsp-alert">
+  <front>
+    <title>A fast LSP-alert Mechanism</title>
+    <seriesInfo name="Internet-Draft" value="draft-kini-mpls-fast-lsp-alert-02"/>
+    <author fullname="Sriganesh Kini"/>
+    <author fullname="Autumn Liu"/>
+    <date year="2011" month="January" day="13"/>
+    <abstract>
+      <t>There are applications (e.g. fault-management, OAM) that need toalert LSRs along an LSP. Currently defined alert mechanisms forlabeled packets (e.g., TTL expiry, GAL, etc) alert a single LSR alongthe LSP with one alert message. To alert multiple LSRs along the LSP,multiple alert messages have to be generated. This results inincreasing delays in generating the message as the number of LSRsincrease. If the message is used to recover from faults, it resultsin increasing traffic loss. This document defines a simple and fastmechanism that can alert all the LSRs along a LSP.</t>
+    </abstract>
+  </front>
+</reference>

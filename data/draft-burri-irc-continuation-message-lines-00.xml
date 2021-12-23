@@ -1,0 +1,12 @@
+<reference anchor="I-D.burri-irc-continuation-message-lines">
+  <front>
+    <title>Handling IRC continuation message lines
+</title>
+    <seriesInfo name="Internet-Draft" value="draft-burri-irc-continuation-message-lines-00"/>
+    <author fullname="Christian Burri" initials="C." surname="Burri"/>
+    <date year="2001" month="August" day="8"/>
+    <abstract>
+      <t>Due to the way the IRC protocol is implemented, it may occur that aserver sends incomplete messages to a client, so called continuationmessage lines.There seems to exist confusion about how to handle continuationmessage lines; many implementations are broken and do not respectthem at all. Others rely on timers to complete continuation lines,which is not recommended due to the asyncronous nature of IRCcommunications.This Memo proposes an algorithm to handle continuation lines receivedfrom an IRC connection in such way that no timers are needed, and isintended as a supplement to the existing RFC 1459 which describes theInternet Relay Chat protocol.</t>
+    </abstract>
+  </front>
+</reference>

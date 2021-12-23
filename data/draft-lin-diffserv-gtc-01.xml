@@ -1,0 +1,19 @@
+<reference anchor="I-D.lin-diffserv-gtc">
+  <front>
+    <title>A Generic Traffic Conditioner</title>
+    <seriesInfo name="Internet-Draft" value="draft-lin-diffserv-gtc-01"/>
+    <author fullname="Jeffrey Lo" initials="J." surname="Lo">
+      <organization>NEC USA Inc.</organization>
+    </author>
+    <author fullname="Longsong Lin" initials="L." surname="Lin">
+      <organization>NEC USA Inc.</organization>
+    </author>
+    <author fullname="Fang-Ching Ou" initials="F." surname="Ou">
+      <organization>National Yunlin University</organization>
+    </author>
+    <date year="1999" month="August" day="19"/>
+    <abstract>
+      <t>This document defines a Generic Traffic Conditioner (GTC) forDiffserv-capable nodes [RFC2475, RFC2474]. The GTC employs a tokenbucket to meter the traffic stream, and a shaping buffer to storeout-of-profile packets of a behavior aggregate in order to enforceconformance to the traffic profile. The GTC employs a policer todecide whether to shape, drop, or re-mark the out-of-profile packets.The GTC marks each outgoing packet with a Diffserv codepoint (DSCP)according to the traffic conditioning result in accordance with theTraffic Conditioning Specification. By enabling the components andconfiguring them with associated traffic parameters, the GTC can beused to condition the traffics for EF PHB [Jacobson], AF PHBs[Heinanen], as well as Class Selector PHBs [RFC 2474].</t>
+    </abstract>
+  </front>
+</reference>

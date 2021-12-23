@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-ipngwg-rfc2292bis">
+  <front>
+    <title>Advanced Sockets Application Program Interface (API) for IPv6</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ipngwg-rfc2292bis-08"/>
+    <author fullname="Tatsuya Jinmei" initials="T." surname="Jinmei">
+      <organization>Toshiba</organization>
+    </author>
+    <author fullname="W. Richard Stevens" initials="W. R." surname="Stevens">
+      <organization>M. Thomas</organization>
+    </author>
+    <author fullname="Erik Nordmark" initials="E." surname="Nordmark">
+      <organization>Sun</organization>
+    </author>
+    <date year="2002" month="October" day="16"/>
+    <abstract>
+      <t>This document provides sockets Application Program Interface (API) to support "advanced" IPv6 applications, as a supplement to a separate specification, RFC 3493. The expected applications include Ping, Traceroute, routing daemons and the like, which typically use raw sockets to access IPv6 or ICMPv6 header fields. This document proposes some portable interfaces for applications that use raw sockets under IPv6. There are other features of IPv6 that some applications will need to access: interface identification (specifying the outgoing interface and determining the incoming interface), IPv6 extension headers, and path Maximum Transmission Unit (MTU) information. This document provides API access to these features too. Additionally, some extended interfaces to libraries for the "r" commands are defined. The extension will provide better backward compatibility to existing implementations that are not IPv6-capable. This memo provides information for the Internet community.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,13 @@
+<reference anchor="I-D.pardue-masque-dgram-priority">
+  <front>
+    <title>HTTP Datagram Prioritization</title>
+    <seriesInfo name="Internet-Draft" value="draft-pardue-masque-dgram-priority-00"/>
+    <author fullname="Lucas Pardue" initials="L." surname="Pardue">
+      <organization>Cloudflare</organization>
+    </author>
+    <date year="2021" month="July" day="12"/>
+    <abstract>
+      <t>Application protocols using the QUIC transport protocol rely on streams, and optionally the DATAGRAM extension, to carry application data. Streams and datagrams can be multiplexed but QUIC provides no interoperable prioritization scheme or signaling mechanism itself. The HTTP Extensible Prioritization scheme describes how to prioritize streams in HTTP/2 and HTTP/3. This document adopts the scheme to support HTTP datagrams.</t>
+    </abstract>
+  </front>
+</reference>

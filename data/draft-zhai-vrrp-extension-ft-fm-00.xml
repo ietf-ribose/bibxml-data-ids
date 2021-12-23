@@ -1,0 +1,16 @@
+<reference anchor="I-D.zhai-vrrp-extension-ft-fm">
+  <front>
+    <title>Extensions to VRRP for Fast Transition of Failed Master</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhai-vrrp-extension-ft-fm-00"/>
+    <author fullname="Hongjun Zhai" initials="H." surname="Zhai">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author fullname="Xiefeng Gong" initials="X." surname="Gong">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <date year="2010" month="October" day="17"/>
+    <abstract>
+      <t>This document extends VRRP mechanism to support fast transition ofnon-master router to master when the original master router (is notfunctioning or) becomes unavailable. Through introducing anotherstate of router, named alternate state, when the failure of masterrouter is detected by alternate router with fast detectiontechnology, such as BFD, it will transmit to master immediately.Then the new master will inform other routers in its VRRP group toelect a new alternate router, and a fast detection session will beestablished between alternate and master routers, through which theavailability of the master can be detected by alternate router.</t>
+    </abstract>
+  </front>
+</reference>

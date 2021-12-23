@@ -1,0 +1,16 @@
+<reference anchor="I-D.ietf-idr-bgpls-segment-routing-epe">
+  <front>
+    <title>Segment Routing BGP Egress Peer Engineering BGP-LS Extensions</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgpls-segment-routing-epe-05"/>
+    <author fullname="Stefano Previdi" initials="S." surname="Previdi"/>
+    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils"/>
+    <author fullname="Saikat Ray" initials="S." surname="Ray"/>
+    <author fullname="Keyur Patel" initials="K." surname="Patel"/>
+    <author fullname="Jie Dong" initials="J." surname="Dong"/>
+    <author fullname="Mach Chen" initials="M." surname="Chen"/>
+    <date year="2016" month="May" day="12"/>
+    <abstract>
+      <t>Segment Routing (SR) leverages source routing. A node steers a packet through a controlled set of instructions, called segments, by prepending the packet with an SR header. A segment can represent any instruction, topological or service-based. SR allows to enforce a flow through any topological path and service chain while maintaining per-flow state only at the ingress node of the SR domain. The Segment Routing architecture can be directly applied to the MPLS dataplane with no change on the forwarding plane. It requires minor extension to the existing link-state routing protocols. This document outline a BGP-LS extension for exporting BGP peering node topology information (including its peers, interfaces and peering ASs) in a way that is exploitable in order to compute efficient BGP Peering Engineering policies and strategies.</t>
+    </abstract>
+  </front>
+</reference>

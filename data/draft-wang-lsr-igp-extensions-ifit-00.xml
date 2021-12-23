@@ -1,0 +1,25 @@
+<reference anchor="I-D.wang-lsr-igp-extensions-ifit">
+  <front>
+    <title>IGP Extensions for In-situ Flow Information Telemetry (IFIT) Capability Advertisement</title>
+    <seriesInfo name="Internet-Draft" value="draft-wang-lsr-igp-extensions-ifit-00"/>
+    <author fullname="Yali Wang" initials="Y." surname="Wang">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Tianran Zhou" initials="T." surname="Zhou">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Liu Min" initials="L." surname="Min">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Huanan Chen" initials="H." surname="Chen">
+      <organization>China Telecom</organization>
+    </author>
+    <author fullname="Ran Pang" initials="R." surname="Pang">
+      <organization>China Unicom</organization>
+    </author>
+    <date year="2020" month="July" day="13"/>
+    <abstract>
+      <t>This document extends Node and Link Attribute TLVs to Interior Gateway Protocols (IGP) to advertise supported In-situ Flow Information Telemetry (IFIT) capabilities at node and/or link granularity. An ingress router cannot insert IFIT-Data-Fields for packets going into a path unless an egress router has indicated via signaling that it has the capability to process IFIT-Data-Fields. In addition, such advertisements would be useful for ingress routers to gather each router's IFIT capability for achieving the computation of Traffic Engineering (TE) paths or loose TE paths that be able to fulfill the visibility of on-path OAM data.</t>
+    </abstract>
+  </front>
+</reference>

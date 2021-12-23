@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-bier-mvpn">
+  <front>
+    <title>Multicast VPN Using BIER</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bier-mvpn-06"/>
+    <author fullname="Eric C. Rosen" initials="E. C." surname="Rosen">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Mahesh Sivakumar" initials="M." surname="Sivakumar">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Sam Aldrin" initials="S." surname="Aldrin">
+      <organization>Google, Inc.</organization>
+    </author>
+    <author fullname="Andrew Dolganow" initials="A." surname="Dolganow">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Tony Przygienda" initials="T." surname="Przygienda">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2017" month="June" day="27"/>
+    <abstract>
+      <t>The Multicast Virtual Private Network (MVPN) specifications require the use of multicast tunnels ("P-tunnels") that traverse a Service Provider's backbone network. The P-tunnels are used for carrying multicast traffic across the backbone. A variety of P-tunnel types are supported. Bit Index Explicit Replication (BIER) is a new architecture that provides optimal multicast forwarding through a "multicast domain", without requiring intermediate routers to maintain any per-flow state or to engage in an explicit tree-building protocol. This document specifies the protocol and procedures that allow MVPN to use BIER as the method of carrying multicast traffic over an SP backbone network.</t>
+    </abstract>
+  </front>
+</reference>

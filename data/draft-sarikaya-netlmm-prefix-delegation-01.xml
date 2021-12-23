@@ -1,0 +1,12 @@
+<reference anchor="I-D.sarikaya-netlmm-prefix-delegation">
+  <front>
+    <title>DHCPv6 Based Home Network Prefix Delegation for PMIPv6</title>
+    <seriesInfo name="Internet-Draft" value="draft-sarikaya-netlmm-prefix-delegation-01"/>
+    <author fullname="Behcet Sarikaya"/>
+    <author fullname="Frank Xia"/>
+    <date year="2007" month="November" day="9"/>
+    <abstract>
+      <t>In Proxy Mobile IPv6, one prefix can only be assigned to oneinterface of a mobile node by the local mobility anchor (LMA) anddifferent mobile nodes can not share this home network prefix.Managing per-MN's interface home network prefixes is likely toincrease the processing load at the LMA. Based on the idea thatDynamic Host Configuration Protocol for IPv6 (DHCPv6) servers canmanage prefixes, we propose a new technique in which LMA offloadsdelegation and release tasks of the prefixes to the DHCPv6 server.LMA requests a prefix for an incoming mobile node to the DHCPv6server. Based on this prefix, the mobile node can create a homeaddress for its interface. When the mobile station leaves thenetwork, the prefix is returned to the DHCPv6 server.Authentication, Authorization and Accounting (AAA) servers can alsoplay a role in prefix delegation.</t>
+    </abstract>
+  </front>
+</reference>

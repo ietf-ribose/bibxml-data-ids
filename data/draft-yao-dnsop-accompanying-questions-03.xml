@@ -1,0 +1,22 @@
+<reference anchor="I-D.yao-dnsop-accompanying-questions">
+  <front>
+    <title>A DNS Query including A Main Question with Accompanying Questions</title>
+    <seriesInfo name="Internet-Draft" value="draft-yao-dnsop-accompanying-questions-03"/>
+    <author fullname="Jiankang Yao" initials="J." surname="Yao">
+      <organization>CNNIC-Farsight Joint Laboratory</organization>
+    </author>
+    <author fullname="Paul A. Vixie" initials="P. A." surname="Vixie">
+      <organization>CNNIC-Farsight Joint Laboratory</organization>
+    </author>
+    <author fullname="Ning Kong" initials="N." surname="Kong">
+      <organization>CNNIC</organization>
+    </author>
+    <author fullname="XiaoDong Lee" initials="X." surname="Lee">
+      <organization>CNNIC</organization>
+    </author>
+    <date year="2017" month="June" day="23"/>
+    <abstract>
+      <t>This document enables DNS initiators to send a main question accompanying with several related questions in a single DNS query, and enables DNS responders to put the answers into a single DNS response. This extension enables a range of initiators to look up "X, or failing that, Y" in a better way than both current alternatives. This mechanism can reduce the number of DNS round- trips per application work-unit.</t>
+    </abstract>
+  </front>
+</reference>

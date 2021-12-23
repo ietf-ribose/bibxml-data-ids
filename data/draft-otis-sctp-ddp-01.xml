@@ -1,0 +1,13 @@
+<reference anchor="I-D.otis-sctp-ddp">
+  <front>
+    <title>SCTP DDP Adaptation</title>
+    <seriesInfo name="Internet-Draft" value="draft-otis-sctp-ddp-01"/>
+    <author fullname="Douglas Otis" initials="D." surname="Otis">
+      <organization>SANlight</organization>
+    </author>
+    <date year="2002" month="April" day="12"/>
+    <abstract>
+      <t>In many applications, direct placement of data avoids the overhead of multiple copies or excessive context switching and is a desirable feature. To accomplish this using an Internet Protocol, a direct placement adaptation layer is defined within this document. This adaptation exists as a small shim sitting above SCTP. This shim fragments messages for path compliance, prefixes the placement header, and may place data directly into a user buffer. The ultimate goal is to have placement occur by the network interface card, where this shim coordinates such placement while proper network layering is maintained. As SCTP was not designed to directly handle offset based fragmentation, the shim handles message fragmentation to introduce the offsets as well as determine message reception signaling as a result of unordered delivery needed for immediate placement.</t>
+    </abstract>
+  </front>
+</reference>

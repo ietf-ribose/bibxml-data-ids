@@ -1,0 +1,16 @@
+<reference anchor="I-D.leddy-6man-truncate">
+  <front>
+    <title>Destination Originates Internet Control Message Protocol (ICMP) Packet Too Big (PTB) Messages</title>
+    <seriesInfo name="Internet-Draft" value="draft-leddy-6man-truncate-02"/>
+    <author fullname="John Leddy" initials="J." surname="Leddy">
+      <organization>Comcast</organization>
+    </author>
+    <author fullname="Ron Bonica" initials="R." surname="Bonica">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2018" month="June" day="7"/>
+    <abstract>
+      <t>This document defines procedures that enhance Path MTU Discovery (PMTUD), so that it no longer relies on the network's ability to deliver an ICMP Packet Too Big (PTB) message from a downstream router to an IPv6 source node. According to these procedures, selected packets carry a new IPv6 Destination option. When a downstream router cannot forward one of these packets because of MTU issues, it truncates the packet, marks it to indicate that it has been truncated, and forwards it towards the destination node. When the destination node receives a packet that has been truncated, it sends an ICMP PTB message to the source node. The source node uses MTU information contained by the ICMP PTB message to update its PMTU estimate. The destination node also examines the new Destination option to determine whether it should discard the truncated packet or deliver it to an upper-layer protocol.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,13 @@
+<reference anchor="I-D.duan-tcpm-tcp-ao-rekeying">
+  <front>
+    <title>Key Coordination enhancement for TCP-AO</title>
+    <seriesInfo name="Internet-Draft" value="draft-duan-tcpm-tcp-ao-rekeying-00"/>
+    <author fullname="Shili Duan"/>
+    <author fullname="Hongyan Wang"/>
+    <author fullname="Yinxing Wei"/>
+    <date year="2010" month="March" day="1"/>
+    <abstract>
+      <t>TCP-AO technology was proposed to obsolete the TCP-MD5 option whichwas developed to protect the BGP sessions between routers. Besidesof allowing users to choose which cryptographic algorithm(s) theywant to use to meet their security needs, TCP-AO provides keycoordination mechanism giving the ability to move from one key toanother within the same connection with zero segment loss by usingtwo ID fields i.e. KeyID and RNextKeyID. The sender uses theRNextKeyID to indicate the receiver using the preferred MKT whichwill authenticate the next incoming segments. However, if the senderfinds its MKT which is used to authenticate the outgoing segments hasbeen attacked and should be changed into a new one, it can do nothingbut wait for receiver to send a segment which carries a differentRNextKeyID.In this case, the communication becomes dangerous probably becausethe sender always authenticates outgoing segments by an attacked keybefore the receiver wants to change the incoming key. This documentprovides a method giving the sender ability to inform the other partchange the RNextKeyID when the sender finds the key used in outgoingsegment is not safe any longer.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,13 @@
+<reference anchor="I-D.westerlund-mmusic-sdp-bwparam">
+  <front>
+    <title>A Transport Independent Bandwidth Modifier for the Session Description Protocol (SDP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-westerlund-mmusic-sdp-bwparam-01"/>
+    <author fullname="Magnus Westerlund" initials="M." surname="Westerlund">
+      <organization>Ericsson</organization>
+    </author>
+    <date year="2002" month="October" day="23"/>
+    <abstract>
+      <t>The existing Session Description Protocol (SDP) bandwidth modifiersand their values include the bandwidth needed also for the transportand IP layers. When using SDP in protocols like SAP, SIP and RTSP andthe involved hosts reside in networks running different IP versions,the interpretation of what type of lower layers that is included isnot clear. This documents defines a bandwidth modifier that does notinclude transport overhead, instead additional packet rate attributesare defined. The transport independent bitrate value together withthe packet rate can then be used to calculate the real bitrate overthe actually used transport.</t>
+    </abstract>
+  </front>
+</reference>

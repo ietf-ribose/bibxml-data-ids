@@ -1,0 +1,28 @@
+<reference anchor="I-D.ietf-tokbind-https">
+  <front>
+    <title>Token Binding over HTTP</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tokbind-https-18"/>
+    <author fullname="Andrei Popov">
+      <organization>Microsoft Corp.</organization>
+    </author>
+    <author fullname="Magnus Nyström">
+      <organization>Microsoft Corp.</organization>
+    </author>
+    <author fullname="Dirk Balfanz">
+      <organization>Google Inc.</organization>
+    </author>
+    <author fullname="Adam Langley">
+      <organization>Google Inc.</organization>
+    </author>
+    <author fullname="Nick Harper">
+      <organization>Google Inc.</organization>
+    </author>
+    <author fullname="Jeff Hodges">
+      <organization>PayPal</organization>
+    </author>
+    <date year="2018" month="June" day="26"/>
+    <abstract>
+      <t>This document describes a collection of mechanisms that allow HTTP servers to cryptographically bind security tokens (such as cookies and OAuth tokens) to TLS connections. We describe both first-party and federated scenarios. In a first- party scenario, an HTTP server is able to cryptographically bind the security tokens that it issues to a client -- and that the client subsequently returns to the server -- to the TLS connection between the client and the server. Such bound security tokens are protected from misuse, since the server can generally detect if they are replayed inappropriately, e.g., over other TLS connections. Federated Token Bindings, on the other hand, allow servers to cryptographically bind security tokens to a TLS connection that the client has with a different server than the one issuing the token. This document is a companion document to "The Token Binding Protocol Version 1.0" (RFC 8471).</t>
+    </abstract>
+  </front>
+</reference>

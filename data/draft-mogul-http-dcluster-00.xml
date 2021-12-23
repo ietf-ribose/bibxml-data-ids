@@ -1,0 +1,17 @@
+<reference anchor="I-D.mogul-http-dcluster">
+  <front>
+    <title>HTTP Delta Clusters and Templates</title>
+    <seriesInfo name="Internet-Draft" value="draft-mogul-http-dcluster-00"/>
+    <author fullname="Jeffrey Mogul" initials="J." surname="Mogul"/>
+    <author fullname="Fred Douglis" initials="F." surname="Douglis">
+      <organization>AT&amp;T,</organization>
+    </author>
+    <author fullname="Daniel M. Hellerstein" initials="D. M." surname="Hellerstein">
+      <organization>ERS/USDA</organization>
+    </author>
+    <date year="2000" month="August" day="25"/>
+    <abstract>
+      <t>HTTP 'Delta encoding,' the transmission of a compactencoding of the change between instances of a Web resourceinstead of retransmitting the entire new value, has beenshown to be of potential value. Research has shownadditional benefits if deltas can be computed betweeninstances of different resources. This document describesa compatible extension to HTTP delta encoding to support'clustering', where multiple resources (URLs) are treatedas a pool, and the use of 'templates', where a large set ofresource instances are most naturally described as deltasfrom a chosen template resource.</t>
+    </abstract>
+  </front>
+</reference>

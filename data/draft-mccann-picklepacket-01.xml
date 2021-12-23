@@ -1,0 +1,12 @@
+<reference anchor="I-D.mccann-picklepacket">
+  <front>
+    <title>Authenticated Middlebox Traversal with the Pickle Packet</title>
+    <seriesInfo name="Internet-Draft" value="draft-mccann-picklepacket-01"/>
+    <author fullname="Pete McCann"/>
+    <author fullname="Steve Gilbert"/>
+    <date year="2010" month="December" day="7"/>
+    <abstract>
+      <t>This document describes the Pickle Packet, a message that can be usedto coordinate the opening of a transport connection with variousmiddleboxes that may lie on the path. It contains the DNS names ofboth the initiator and the responder of the connection and someauthentication data. Because the authentication data uses public keycryptography, any middlebox can independently authenticate theinitiator and make a policy decision whether to allow or deny theflow based on the DNS names. The Pickle Packet allows formiddleboxes to establish state such as firewall pinholes or securityassociations that can be used to filter out unwanted traffic.</t>
+    </abstract>
+  </front>
+</reference>

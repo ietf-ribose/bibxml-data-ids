@@ -1,0 +1,34 @@
+<reference anchor="I-D.trammell-quic-spin">
+  <front>
+    <title>Adding Explicit Passive Measurability of Two-Way Latency to the QUIC Transport Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-trammell-quic-spin-02"/>
+    <author fullname="Brian Trammell" initials="B." surname="Trammell">
+      <organization>ETH Zurich</organization>
+    </author>
+    <author fullname="Piet De Vaere" initials="P." surname="De Vaere">
+      <organization>ETH Zurich</organization>
+    </author>
+    <author fullname="Roni Even" initials="R." surname="Even">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Giuseppe Fioccola" initials="G." surname="Fioccola">
+      <organization>Telecom Italia</organization>
+    </author>
+    <author fullname="Thomas Fossati" initials="T." surname="Fossati">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Marcus Ihlar" initials="M." surname="Ihlar">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Al Morton" initials="A. C." surname="Morton">
+      <organization>AT&amp;T Labs</organization>
+    </author>
+    <author fullname="Stephan Emile" initials="S." surname="Emile">
+      <organization>Orange</organization>
+    </author>
+    <date year="2018" month="April" day="10"/>
+    <abstract>
+      <t>This document describes the addition of a "spin bit", intended for explicit measurability of end-to-end RTT, to the QUIC transport protocol. It proposes a detailed mechanism for the spin bit, as well as an additional mechanism, called the valid edge counter, to increase the fidelity of the latency signal in less than ideal network conditions. It describes how to use the latency spin signal to measure end-to-end latency, discusses corner cases and their workarounds in the measurement, describes experimental evaluation of the mechanism done to date, and examines the utility and privacy implications of the spin bit.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,12 @@
+<reference anchor="I-D.ietf-karp-framework">
+  <front>
+    <title>Framework for Cryptographic Authentication of Routing Protocol Packets on the Wire</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-karp-framework-00"/>
+    <author fullname="William Atwood"/>
+    <author fullname="Gregory Lebovitz"/>
+    <date year="2010" month="February" day="27"/>
+    <abstract>
+      <t>In the March of 2006 the IAB held a workshop on the topic of"Unwanted Internet Traffic". The report from that workshop isdocumented in RFC 4948 [RFC4948]. Section 8.2 of RFC 4948 calls for"[t]ightening the security of the core routing infrastructure." Fourmain steps were identified for improving the security of the routinginfrastructure. One of those steps was "securing the routingprotocols' packets on the wire." One mechanism for securing routingprotocol packets on the wire is the use of per-packet cryptographicmessage authentication, providing both peer authentication andmessage integrity. Many different routing protocols exist and theyemploy a range of different transport subsystems. Therefore theremust necessarily be various methods defined for applyingcryptographic authentication to these varying protocols. Manyrouting protocols already have some method for accomplishingcryptographic message authentication. However, in many cases theexisting methods are dated, vulnerable to attack, and/or employcryptographic algorithms that have been deprecated. This document isone of a series concerned with defining a roadmap of protocolspecification work for the use of modern cryptogrpahic mechanisms andalgorithms for message authentication in routing protocols. Inparticular, it defines the framework for a key management protocolthat may be used to create and manage session keys for messageauthentication and integrity. The overall roadmap reflects the inputof both the security area and routing area in order to form a jointlyagreed upon and prioritized work list for the effort.</t>
+    </abstract>
+  </front>
+</reference>

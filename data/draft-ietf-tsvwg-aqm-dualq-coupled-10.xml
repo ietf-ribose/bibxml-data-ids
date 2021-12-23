@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-tsvwg-aqm-dualq-coupled">
+  <front>
+    <title>DualQ Coupled AQMs for Low Latency, Low Loss and Scalable Throughput (L4S)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-aqm-dualq-coupled-10"/>
+    <author fullname="Koen De Schepper" initials="K." surname="De Schepper">
+      <organization>Nokia Bell Labs</organization>
+    </author>
+    <author fullname="Bob Briscoe" initials="B." surname="Briscoe">
+      <organization>CableLabs</organization>
+    </author>
+    <author fullname="Greg White" initials="G." surname="White">
+      <organization>CableLabs</organization>
+    </author>
+    <date year="2019" month="July" day="8"/>
+    <abstract>
+      <t>The Low Latency Low Loss Scalable Throughput (L4S) architecture allows data flows over the public Internet to achieve consistent ultra-low queuing latency, generally zero congestion loss and scaling of per-flow throughput without the scaling problems of traditional TCP. To achieve this, L4S data flows have to use one of the family of 'Scalable' congestion controls (Data Centre TCP and TCP Prague are examples) and a form of Explicit Congestion Notification (ECN) with modified behaviour. However, until now, Scalable congestion controls did not co-exist with existing TCP Reno/Cubic traffic --- Scalable controls are so aggressive that 'Classic' TCP algorithms drive themselves to a small capacity share. Therefore, until now, L4S controls could only be deployed where a clean-slate environment could be arranged, such as in private data centres (hence the name DCTCP). This specification defines `DualQ Coupled Active Queue Management (AQM)', which enables these Scalable congestion controls to safely co-exist with Classic Internet traffic. Analytical study and implementation testing of the Coupled AQM have shown that Scalable and Classic flows competing under similar conditions run at roughly the same rate. It achieves this indirectly, without having to inspect transport layer flow identifiers. When tested in a residential broadband setting, DCTCP also achieves sub-millisecond average queuing delay and zero congestion loss under a wide range of mixes of DCTCP and `Classic' broadband Internet traffic, without compromising the performance of the Classic traffic. The solution also reduces network complexity and requires no configuration for the public Internet.</t>
+    </abstract>
+  </front>
+</reference>

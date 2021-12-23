@@ -1,0 +1,28 @@
+<reference anchor="I-D.ietf-alto-performance-metrics">
+  <front>
+    <title>ALTO Performance Cost Metrics</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-alto-performance-metrics-11"/>
+    <author fullname="Qin Wu" initials="Q." surname="Wu">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Y. Richard Yang" initials="Y. R." surname="Yang">
+      <organization>Yale University</organization>
+    </author>
+    <author fullname="Young Lee" initials="Y." surname="Lee">
+      <organization>Samsung</organization>
+    </author>
+    <author fullname="Dhruv Dhody" initials="D." surname="Dhody">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Sabine Randriamasy" initials="S." surname="Randriamasy">
+      <organization>Nokia Bell Labs</organization>
+    </author>
+    <author fullname="Luis M. Contreras" initials="L. M." surname="Contreras">
+      <organization>Telefonica</organization>
+    </author>
+    <date year="2020" month="June" day="12"/>
+    <abstract>
+      <t>Cost metric is a basic concept in Application-Layer Traffic Optimization (ALTO), and is used in basic ALTO services including both the cost map service and the endpoint cost service. Different applications may use different cost metrics, but the ALTO base protocol [RFC7285] defines only a single cost metric, i.e., the generic "routingcost" metric; see Sec. 14.2 of [RFC7285]. Hence, if the ALTO client of an application wants to issue a cost map or an endpoint cost request to determine the resource provider that offers better delay performance (i.e., low-delay) to a resource consumer, the base protocol does not define the cost metric to be used. This document addresses the issue by introducing network performance metrics, including network delay, jitter, packet loss rate, hop count, and bandwidth. The ALTO server may derive and aggregate such performance metrics from routing protocols such as BGP-LS, OSPF-TE and ISIS-TE, or from end-to-end traffic management tools, and then expose the information to allow applications to determine "where" to connect based on network performance criteria. There are multiple sources to derive the performance metrics. For example, whether the metric reported is an estimation based on measurements or it is a service-level agreement (SLA) can define the meaning of the performance metric. Hence, an application may need additional contextual information beyond the metric value. This document introduces an additional "cost-context" field to the ALTO "cost-type" field to convey such information.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,11 @@
+<reference anchor="I-D.begen-avt-rams-scenarios">
+  <front>
+    <title>Considerations and Guidelines for Deploying the Rapid Acquisition of Multicast RTP Sessions (RAMS) Method</title>
+    <seriesInfo name="Internet-Draft" value="draft-begen-avt-rams-scenarios-01"/>
+    <author fullname="Ali Begen"/>
+    <date year="2011" month="February" day="15"/>
+    <abstract>
+      <t>The Rapid Acquisition of Multicast RTP Sessions (RAMS) solution is amethod based on RTP and RTP Control Protocol (RTCP) that enables anRTP receiver to rapidly acquire and start consuming the RTP multicastdata. Upon a request from the RTP receiver, an auxiliary unicast RTPretransmission session is set up between a retransmission server andthe RTP receiver, over which the reference information about the newmulticast stream the RTP receiver is about to join is transmitted atan accelerated rate. This often precedes, but may also accompany,the multicast stream itself. When there is only one multicast streamto be acquired, the RAMS solution works in a straightforward manner.However, when there are two or more multicast streams to be acquiredfrom the same or different multicast RTP sessions, care should betaken to configure each RAMS session appropriately. This documentprovides example scenarios and offers guidelines.</t>
+    </abstract>
+  </front>
+</reference>

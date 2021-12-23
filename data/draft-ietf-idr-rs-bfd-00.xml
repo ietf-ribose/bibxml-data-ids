@@ -1,0 +1,15 @@
+<reference anchor="I-D.ietf-idr-rs-bfd">
+  <front>
+    <title>Making Route Servers Aware of Data Link Failures at IXPs</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-rs-bfd-00"/>
+    <author fullname="Randy Bush" initials="R." surname="Bush"/>
+    <author fullname="Jeffrey Haas" initials="J." surname="Haas"/>
+    <author fullname="John Scudder" initials="J." surname="Scudder"/>
+    <author fullname="Arnold Nipper" initials="A." surname="Nipper"/>
+    <author fullname="Thomas King" initials="T." surname="King"/>
+    <date year="2015" month="July" day="1"/>
+    <abstract>
+      <t>When route servers are used, the data plane is not congruent with the control plane. Therefore, the peers on the Internet exchange can lose data connectivity without the control plane being aware of it, and packets are dropped on the floor. This document proposes the use of BFD between the two peering routers to detect a data plane failure, and then uses BGP next hop cost to signal the state of the data link to the route server(s).</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,20 @@
+<reference anchor="I-D.decraene-bgp-graceful-shutdown-requirements">
+  <front>
+    <title>Requirements for the graceful shutdown of BGP sessions</title>
+    <seriesInfo name="Internet-Draft" value="draft-decraene-bgp-graceful-shutdown-requirements-01"/>
+    <author fullname="Bruno Decraene" initials="B." surname="Decraene">
+      <organization>France Telecom</organization>
+    </author>
+    <author fullname="Zubair Ahmad" initials="Z." surname="Ahmad">
+      <organization>Orange Business Services</organization>
+    </author>
+    <author fullname="Antonio Jose Elizond Armengol" initials="A. J. E." surname="Armengol"/>
+    <author fullname="Pierre Francois" initials="P." surname="Francois">
+      <organization>UCL</organization>
+    </author>
+    <date year="2009" month="March" day="6"/>
+    <abstract>
+      <t>The BGP protocol is heavily used in Service Provider networks both for Internet and BGP/MPLS VPN services. For resiliency purposes, redundant routers and BGP sessions can be deployed to reduce the consequences of an AS Border Router or BGP session breakdown on customers' or peers' traffic. However simply taking down or even up a BGP session for maintenance purposes may still induce connectivity losses during the BGP convergence. This is no more satisfactory for new applications (e.g. voice over IP, on line gaming, VPN). Therefore, a solution is required for the graceful shutdown of a (set of) BGP session(s) in order to limit the amount of traffic loss during a planned shutdown. This document expresses requirements for such a solution.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,25 @@
+<reference anchor="I-D.yang-idr-sr-candidate-path-switch">
+  <front>
+    <title>Segment Routing Candidate Path Hot-standby switch in BGP</title>
+    <seriesInfo name="Internet-Draft" value="draft-yang-idr-sr-candidate-path-switch-00"/>
+    <author fullname="Liping Yang">
+      <organization>H3C Technologies</organization>
+    </author>
+    <author fullname="Hao Li">
+      <organization>H3C Technologies</organization>
+    </author>
+    <author fullname="Yang Wang">
+      <organization>H3C Technologies</organization>
+    </author>
+    <author fullname="Yuanxiang Qiu">
+      <organization>H3C Technologies</organization>
+    </author>
+    <author fullname="Mengxiao Chen">
+      <organization>H3C Technologies</organization>
+    </author>
+    <date year="2021" month="February" day="2"/>
+    <abstract>
+      <t>Segment Routing is a source routing paradigm that explicitly indicates the forwarding path for packets at the ingress node. An SR policy is a set of candidate SR paths consisting of one or more segment lists with necessary path attributes. If an SR policy has multiple valid candidate paths, the device chooses the candidate path with the greatest preference value. If the chosen path fails, the SR policy must select another candidate path. During path reselection, packet loss might occur and thus affect service continuity. Therefore the candidate path hot-standby function occurs, the headend can compute two candidate paths, one is master and the other is backup, set them to the forwarding plane, and in this way, the switchover time is reduced. This document defines extensions to BGP to distribute hot-standby switch within SR policies.</t>
+    </abstract>
+  </front>
+</reference>

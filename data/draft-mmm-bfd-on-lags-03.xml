@@ -1,0 +1,14 @@
+<reference anchor="I-D.mmm-bfd-on-lags">
+  <front>
+    <title>Bidirectional Forwarding Detection (BFD) on Link Aggregation Group (LAG) Interfaces</title>
+    <seriesInfo name="Internet-Draft" value="draft-mmm-bfd-on-lags-03"/>
+    <author fullname="Manav Bhatia" initials="M." surname="Bhatia"/>
+    <author fullname="Sami Boutros" initials="S." surname="Boutros"/>
+    <author fullname="Marc Binderberger" initials="M." surname="Binderberger"/>
+    <author fullname="Jeffrey Haas" initials="J." surname="Haas"/>
+    <date year="2012" month="February" day="1"/>
+    <abstract>
+      <t>This document proposes a mechanism to run BFD on Link Aggregation Group (LAG) interfaces. It does so by running an independent BFD async session on every LAG member link. The mechanism allows to verify the link connectivity, either in combination with or in absence of LACP, with a shorter detection time than what LACP offers. The connectivity check can also cover elements of layer 3. A dedicated well-known UDP port is introduced that all BFD packets over member links use to disambiguate those from ordinary BFD packets.</t>
+    </abstract>
+  </front>
+</reference>

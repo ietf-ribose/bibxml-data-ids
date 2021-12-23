@@ -1,0 +1,14 @@
+<reference anchor="I-D.ietf-ospf-isis-flood-opt">
+  <front>
+    <title>Flooding optimizations in link-state routing protocols</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-isis-flood-opt-01"/>
+    <author fullname="Alex D. Zinin" initials="A. D." surname="Zinin">
+      <organization>Mike Shand</organization>
+    </author>
+    <author fullname="Mike Shand" initials="M." surname="Shand"/>
+    <date year="2001" month="March" day="6"/>
+    <abstract>
+      <t>The flooding algorithm is one of the most important parts of any linkstate routing protocol. It ensures that all routers within a linkstate domain converge on the same topological information within afinite period of time. To ensure reliability, typical implementationsof the flooding algorithm send new information via all interfacesother than the one the new piece of information was received on. Thisredundancy is necessary to guarantee that flooding is performedreliably, but implies considerable overhead of utilized bandwidth andCPU time if neighboring routers are connected with more than onelink. This document describes a method that reduces this overhead.</t>
+    </abstract>
+  </front>
+</reference>

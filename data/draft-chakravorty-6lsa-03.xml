@@ -1,0 +1,13 @@
+<reference anchor="I-D.chakravorty-6lsa">
+  <front>
+    <title>IPv6 Label Switching Architecture</title>
+    <seriesInfo name="Internet-Draft" value="draft-chakravorty-6lsa-03"/>
+    <author fullname="Sham Chakravorty"/>
+    <author fullname="Jeff Bush"/>
+    <author fullname="Jim Bound"/>
+    <date year="2008" month="July" day="9"/>
+    <abstract>
+      <t>This specification provides an architectural framework, called IPv6Label Switching Architecture or 6LSA, for an end-to-end, IP-centricpacket transmission technique that uses the IPv6 packet header FlowLabel to establish IPv6-based label switched paths. The labelswitched paths, called 6LSPs, provide application and user specifiedroutes for efficient transport of packets and as means for quality ofservice (QoS) delivery, IPv4 tunneling, VPN and other mechanisms.Through look-ups of 20-bit labels instead of 128-bit IPv6 addresses,the architecture may provide potential memory and processing savings,the latter through significantly reduced address fetches for the low-powered, handheld devices. The label has two components comprisingGlobal Label value and Local Label value. The Global Label valuefrom the source is delivered to the destination unmodified. However,the intermediate network nodes in 6LSA are allowed to temporarilyreplace the Local Label value with a value of local significance.This enables 6LSA flows to be hop-specific although session-based andas such a unique QoS delivery technique for bandwidth constrainedmedia. 6LSA also enhances security since label generation andassignment algorithms can be modified periodically.Finally, it must be pointed out that the 6LSA concept of temporaryflow label assignment is applicable to the 6LSA domain only. Theconcept is not applicable to domains outside the 6LSA.</t>
+    </abstract>
+  </front>
+</reference>

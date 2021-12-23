@@ -1,0 +1,11 @@
+<reference anchor="I-D.zourzouvillys-sip-via-cookie">
+  <front>
+    <title>Addressing an Amplification Vulnerability in Session Initiation Protocol (SIP) Servers</title>
+    <seriesInfo name="Internet-Draft" value="draft-zourzouvillys-sip-via-cookie-02"/>
+    <author fullname="Theo Zourzouvillys"/>
+    <date year="2009" month="March" day="2"/>
+    <abstract>
+      <t>This document addresses a vulnerability in publicly accessible SIPservers (servers includes both UASes and proxies) that enables themto be used as an amplifier in an untracable reflected denial ofservice attack. The amplification ratio is between 1:10 to over1:350 in both packets and bytes.As a proposed solution, a mechanism for stateless cookie exchangebetween a SIP server and client to ensure that a public SIP serverthat wishes to accept SIP requests from hosts over datagram can notbe used as an amplifier for a denial of service attack. This bringsSIP over datagram transports (such as UDP) in line with TCP in termsof routability to the source IP address.</t>
+    </abstract>
+  </front>
+</reference>

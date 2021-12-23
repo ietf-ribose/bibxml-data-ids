@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-ospf-ospfv2-hbit">
+  <front>
+    <title>Host Router Support for OSPFv2</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-ospfv2-hbit-12"/>
+    <author fullname="Keyur Patel">
+      <organization>Arrcus</organization>
+    </author>
+    <author fullname="Padma Pillay-Esnault">
+      <organization>PPE Consulting</organization>
+    </author>
+    <author fullname="Manish Bhardwaj">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Serpil Bayraktar">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date year="2019" month="December" day="18"/>
+    <abstract>
+      <t>The Open Shortest Path First Version 2 (OSPFv2) protocol does not have a mechanism for a node to repel transit traffic if it is on the shortest path. This document defines a bit called the Host-bit (H-bit). This bit enables a router to advertise that it is a non-transit router. This document also describes the changes needed to support the H-bit in the domain. In addition, this document updates RFC 6987 to advertise Type 2 External and Not-So-Stubby Area (NSSA) Link State Advertisements (LSAs) (RFC 3101) with a high cost in order to repel traffic effectively.</t>
+    </abstract>
+  </front>
+</reference>

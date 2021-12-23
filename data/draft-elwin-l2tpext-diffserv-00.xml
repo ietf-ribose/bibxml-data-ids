@@ -1,0 +1,14 @@
+<reference anchor="I-D.elwin-l2tpext-diffserv">
+  <front>
+    <title>Differentiated Services on L2TP Sessions</title>
+    <seriesInfo name="Internet-Draft" value="draft-elwin-l2tpext-diffserv-00"/>
+    <author fullname="Elwin Stelzer" initials="E." surname="Stelzer"/>
+    <author fullname="Naveen Gowda" initials="N." surname="Gowda">
+      <organization>Corona Networks</organization>
+    </author>
+    <date year="2001" month="April" day="9"/>
+    <abstract>
+      <t>L2TP provides layer-2 tunneling over long distances, and a single L2TPsession is likely to carry different type of IP packets. Currently, oneL2TP session carries only one payload session; for PPP session (payload)the LCP controls the corresponding L2TP session. Assigning one diffservcode point to a L2TP session, as mentioned in [ref-6] can not providedifferentiated services for the different kind of IP packets that aretunneled. For example, VoIP and FTP packets, will have to be treated thesame in the backbone, even though the intermediate nodes are diffservcapable.</t>
+    </abstract>
+  </front>
+</reference>

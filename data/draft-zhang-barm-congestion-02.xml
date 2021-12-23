@@ -1,0 +1,16 @@
+<reference anchor="I-D.zhang-barm-congestion">
+  <front>
+    <title>Binomial Congestion Control At Receivers for Multicast (BARM)</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhang-barm-congestion-02"/>
+    <author fullname="Bing Zhang" initials="B." surname="Zhang">
+      <organization>Xidian Univ.</organization>
+    </author>
+    <author fullname="Zengji Liu" initials="Z." surname="Liu">
+      <organization>Xidian Univ.</organization>
+    </author>
+    <date year="2006" month="January" day="24"/>
+    <abstract>
+      <t>This document specifies Binomial congestion control At Receivers forMulticast (BARM). BARM is a single rate multicast congestion controlprotocol for streaming media applications in the best effort Internetenvironment. Combining aspects of window-based and rate-based congestioncontrol, the protocol shifts most of the congestion control mechanismsto multicast receivers. A congestion window is maintained and updatedby each receiver independently according to TCP-friendly binomialalgorithm, and is converted to the expected sending rate which is thenfed back to the sender if permitted. To suppress feedback implosion, arepresentative receiver is selected among receivers and a distributedsuppression mechanism is used. BARM has good TCP-friendliness,smoothness, scalability, and acceptable responsiveness.</t>
+    </abstract>
+  </front>
+</reference>

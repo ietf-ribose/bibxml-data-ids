@@ -1,0 +1,19 @@
+<reference anchor="I-D.tiloca-tls-dos-handshake">
+  <front>
+    <title>Extension for protecting (D)TLS handshakes against Denial of Service</title>
+    <seriesInfo name="Internet-Draft" value="draft-tiloca-tls-dos-handshake-00"/>
+    <author fullname="Marco Tiloca" initials="M." surname="Tiloca">
+      <organization>RISE SICS AB</organization>
+    </author>
+    <author fullname="Ludwig Seitz" initials="L." surname="Seitz">
+      <organization>RISE SICS AB</organization>
+    </author>
+    <author fullname="Maarten Hoeve" initials="M." surname="Hoeve">
+      <organization>ENCS</organization>
+    </author>
+    <date year="2017" month="June" day="28"/>
+    <abstract>
+      <t>This document describes an extension for TLS and DTLS to protect the server from Denial of Service attacks against the handshake protocol. The extension includes a Message Authentication Code (MAC) over the ClientHello message, computed by the Client through key material obtained from a Trust Anchor entity. The server registered at the Trust Anchor derives the same key material and checks the MAC to determine whether continuing or aborting the handshake.</t>
+    </abstract>
+  </front>
+</reference>

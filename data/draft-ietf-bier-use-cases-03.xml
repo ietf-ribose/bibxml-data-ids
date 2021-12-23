@@ -1,0 +1,20 @@
+<reference anchor="I-D.ietf-bier-use-cases">
+  <front>
+    <title>BIER Use Cases draft-ietf-bier-use-cases-03 .txt</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bier-use-cases-03"/>
+    <author fullname="Nagendra Kumar Nainar" initials="N. K." surname="Nainar"/>
+    <author fullname="Rajiv Asati" initials="R." surname="Asati"/>
+    <author fullname="Mach Chen" initials="M." surname="Chen"/>
+    <author fullname="Xiaohu Xu" initials="X." surname="Xu"/>
+    <author fullname="Andrew Dolganow" initials="A." surname="Dolganow"/>
+    <author fullname="Tony Przygienda" initials="T." surname="Przygienda"/>
+    <author fullname="Arkadiy Gulko" initials="A." surname="Gulko"/>
+    <author fullname="Dom Robinson" initials="D." surname="Robinson"/>
+    <author fullname="Vishal Arya" initials="V." surname="Arya"/>
+    <author fullname="Caitlin Bestler" initials="C." surname="Bestler"/>
+    <date year="2016" month="July" day="7"/>
+    <abstract>
+      <t>Bit Index Explicit Replication (BIER) is an architecture that provides optimal multicast forwarding through a "BIER domain" without requiring intermediate routers to maintain any multicast related per- flow state. BIER also does not require any explicit tree-building protocol for its operation. A multicast data packet enters a BIER domain at a "Bit-Forwarding Ingress Router" (BFIR), and leaves the BIER domain at one or more "Bit-Forwarding Egress Routers" (BFERs). The BFIR router adds a BIER header to the packet. The BIER header contains a bit-string in which each bit represents exactly one BFER to forward the packet to. The set of BFERs to which the multicast packet needs to be forwarded is expressed by setting the bits that correspond to those routers in the BIER header. This document describes some of the use-cases for BIER.</t>
+    </abstract>
+  </front>
+</reference>

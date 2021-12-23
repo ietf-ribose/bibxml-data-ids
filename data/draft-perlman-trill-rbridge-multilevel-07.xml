@@ -1,0 +1,14 @@
+<reference anchor="I-D.perlman-trill-rbridge-multilevel">
+  <front>
+    <title>Flexible Multilevel TRILL (Transparent Interconnection of Lots of Links)</title>
+    <seriesInfo name="Internet-Draft" value="draft-perlman-trill-rbridge-multilevel-07"/>
+    <author fullname="Radia Perlman" initials="R." surname="Perlman"/>
+    <author fullname="Donald E. Eastlake 3rd" initials="D. E." surname="Eastlake"/>
+    <author fullname="Anoop Ghanwani" initials="A." surname="Ghanwani"/>
+    <author fullname="Hongjun Zhai" initials="H." surname="Zhai"/>
+    <date year="2014" month="January" day="2"/>
+    <abstract>
+      <t>Extending TRILL to multiple levels has one challenge that is not addressed by the already-existing capability of IS-IS to have multiple levels. The issue is with RBridge nicknames. There have been two proposed approaches. One approach, which we refer to as the "unique nickname" approach, gives unique nicknames to all the RBridges in the multilevel campus, either by having the level-1/level-2 border RBridges advertise which nicknames are not available for assignment in the area, or by partitioning the 16-bit nickname into an "area" field and a "nickname inside the area" field. The other approach, which we refer to as the "aggregated nickname" approach, involves assigning nicknames to the areas, and allowing nicknames to be reused in different areas, by having the border RBridges rewrite the nickname fields when entering or leaving an area. Each of those approaches has advantages and disadvantages. The design in this document allows a choice of approach in each area, allowing the simplicity of the unique nickname approach in installations in which there is no danger of running out of nicknames, and allowing nickname rewriting to be phased into larger installations on a per-area basis.</t>
+    </abstract>
+  </front>
+</reference>

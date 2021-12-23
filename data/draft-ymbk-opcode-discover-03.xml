@@ -1,0 +1,15 @@
+<reference anchor="I-D.ymbk-opcode-discover">
+  <front>
+    <title>The DISCOVER opcode</title>
+    <seriesInfo name="Internet-Draft" value="draft-ymbk-opcode-discover-03"/>
+    <author fullname="Bill Manning" initials="B." surname="Manning">
+      <organization>ISI</organization>
+    </author>
+    <author fullname="Paul A. Vixie" initials="P. A." surname="Vixie"/>
+    <author fullname="Erik Guttman" initials="E." surname="Guttman"/>
+    <date year="2001" month="October" day="26"/>
+    <abstract>
+      <t>The QUERY opcode in the DNS is designed for unicast. With the development of multicast capabilities in the DNS, it is desireableto have a more robust opcode for server interactions since a singlerequest may result in replies from multiple responders. So DISCOVERis defined to deal with replies from multiple responders.As such, this document extend the core DNS specifications to allowclients to have a method for coping with replies from multipleresponders. Use of this new opcode may facilitate DNS operations inmodern networking topologies. A prototype of the DISCOVER opcodewas developed as part of the TBDS project, funded under DARPA grantF30602-99-1-0523.</t>
+    </abstract>
+  </front>
+</reference>

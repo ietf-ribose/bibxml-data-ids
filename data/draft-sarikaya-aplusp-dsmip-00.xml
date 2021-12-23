@@ -1,0 +1,13 @@
+<reference anchor="I-D.sarikaya-aplusp-dsmip">
+  <front>
+    <title>A+P for Dual-Stack Mobile IPv6</title>
+    <seriesInfo name="Internet-Draft" value="draft-sarikaya-aplusp-dsmip-00"/>
+    <author fullname="Behcet Sarikaya"/>
+    <author fullname="Frank Xia"/>
+    <author fullname="Mohammed Boucadair"/>
+    <date year="2009" month="October" day="8"/>
+    <abstract>
+      <t>This memo describes how to use IPv6 Port Range transition techniquein mobile networks for Dual-Stack Mobile IPv6 (DSMIPv6). Using theclient based DSMIPv6, a mobile node (MN) which is a dual-stack nodecan be assigned with a shared IPv4 Home Address (HA) together with aport range from the home agent. HA is co-located with Port RangeRouter (PRR). IPv4-in-IPv6 encapsulation is used to convey IPv4traffic between the network and the mobile node (MN). HA, acting asPRR receives incoming IPv4 datagrams and determines the routingidentifier (IPv6 address) to use to forward the traffic to theappropriate MN among those sharing the same IPv4 address. In thebinding mode, HA finds the binding cache entry for this MN and thenencapsulates the IPv4 datagram in an IPv6 one and forwards theencapsulated datagram to MN. The stateless mode is also described.Within this memo, Mobile network could be WiMAX network or 3GPP LongTerm Evolution (LTE) network.</t>
+    </abstract>
+  </front>
+</reference>

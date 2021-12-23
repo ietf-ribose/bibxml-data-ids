@@ -1,0 +1,13 @@
+<reference anchor="I-D.lennox-avt-rtp-layered-encoding-timestamps">
+  <front>
+    <title>Real-Time Transport Protocol (RTP) Timestamps for Layered Encodings</title>
+    <seriesInfo name="Internet-Draft" value="draft-lennox-avt-rtp-layered-encoding-timestamps-00"/>
+    <author fullname="Jonathan Lennox"/>
+    <author fullname="Thomas Schierl"/>
+    <author fullname="Sam Ganesan"/>
+    <date year="2008" month="June" day="2"/>
+    <abstract>
+      <t>The Real-Time Transport Protocol (RTP) specification defines howlayered encodings can be sent over a layered transmission system. Asource can stripe the progressive layers of a hierarchicallyrepresented signal across multiple RTP sessions, each carried on, forexample, its own multicast group. These layered encodings are givenspecial treatment in RTP, notably in that the same synchronizationsource (SSRC) identifier space is used across the sessions of alllayers.The RTP protocol specification does not, however, explicitly statehow RTP timestamps are to be used with layered encodings. Thisdocument updates the RTP specification to require that RTP timestampsfor layered encodings be synchronized, i.e. that every layer choosesthe same random initial value for the timestamp.</t>
+    </abstract>
+  </front>
+</reference>

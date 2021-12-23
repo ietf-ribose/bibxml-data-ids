@@ -1,0 +1,11 @@
+<reference anchor="I-D.hoerdt-mboned-multisource-ssm">
+  <front>
+    <title>Multi-source communications over SSM networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-hoerdt-mboned-multisource-ssm-00"/>
+    <author fullname="Mickael Hoerdt" initials="M." surname="Hoerdt"/>
+    <date year="2003" month="July" day="3"/>
+    <abstract>
+      <t>Classical multicast multi-sources applications use the Deering's [1]ASM group communication model where anyone, including non-members,can send packets with one local operation to a group identifier Gwith best effort guarantees that its packet will be transmitted toall group members: the network duplicates packets and manages thedynamics of source and receivers. With the new Holbrook's [3] SSMmodel it is the responsibility of applications to tell the networkwho are their sources of interest. As a consequence, the SSM modelis well suited for TV-like (one to many) applications because thereis only one source to discover and it's supposed to be well known.But there is still missing an SSM session layer or middleware forapplications helping multi-sources applications to discover thepresence/leaving source in case of SSM model. We give here apossible implementation for this Source discovery session layeraccording to the protocol defined in [5].</t>
+    </abstract>
+  </front>
+</reference>

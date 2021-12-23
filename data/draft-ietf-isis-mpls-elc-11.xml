@@ -1,0 +1,26 @@
+<reference anchor="I-D.ietf-isis-mpls-elc">
+  <front>
+    <title>Signaling Entropy Label Capability and Entropy Readable Label Depth Using IS-IS</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-isis-mpls-elc-11"/>
+    <author fullname="Xiaohu Xu" initials="X." surname="Xu">
+      <organization>Alibaba Inc</organization>
+    </author>
+    <author fullname="Sriganesh Kini" initials="S." surname="Kini"/>
+    <author fullname="Peter Psenak" initials="P." surname="Psenak">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Stephane Litkowski" initials="S." surname="Litkowski">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Matthew Bocci" initials="M." surname="Bocci">
+      <organization>Nokia</organization>
+    </author>
+    <date year="2020" month="March" day="24"/>
+    <abstract>
+      <t>Multiprotocol Label Switching (MPLS) has defined a mechanism to load- balance traffic flows using Entropy Labels (EL). An ingress Label Switching Router (LSR) cannot insert ELs for packets going into a given Label Switched Path (LSP) unless an egress LSR has indicated via signaling that it has the capability to process ELs, referred to as the Entropy Label Capability (ELC), on that tunnel. In addition, it would be useful for ingress LSRs to know each LSR's capability for reading the maximum label stack depth and performing EL-based load- balancing, referred to as Entropy Readable Label Depth (ERLD). This document defines a mechanism to signal these two capabilities using IS-IS.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,28 @@
+<reference anchor="I-D.ietf-tcpinc-api">
+  <front>
+    <title>Interface Extensions for TCP-ENO and tcpcrypt</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tcpinc-api-02"/>
+    <author fullname="Andrea Bittau" initials="A." surname="Bittau">
+      <organization>Google</organization>
+    </author>
+    <author fullname="Dan Boneh" initials="D." surname="Boneh">
+      <organization>Stanford University</organization>
+    </author>
+    <author fullname="Daniel B. Giffin" initials="D. B." surname="Giffin">
+      <organization>Stanford University</organization>
+    </author>
+    <author fullname="Mark J. Handley" initials="M. J." surname="Handley">
+      <organization>University College London</organization>
+    </author>
+    <author fullname="David Mazieres" initials="D." surname="Mazieres">
+      <organization>Stanford University</organization>
+    </author>
+    <author fullname="Eric W. Smith" initials="E. W." surname="Smith">
+      <organization>Kestrel Institute</organization>
+    </author>
+    <date year="2017" month="January" day="20"/>
+    <abstract>
+      <t>TCP-ENO and tcpcrypt perform encryption at the transport layer. They also define a few parameters that are intended to be used or configured by applications. This document specifies operating system interfaces for access to these parameters. We describe the interfaces in terms of socket options, the de facto standard API for adjusting per-connection behavior in TCP/IP, and sysctl, a popular mechanism for setting global defaults. Operating systems that lack socket or sysctl functionality can implement similar interfaces in their native frameworks, but should ideally adapt their interfaces from those presented in this document.</t>
+    </abstract>
+  </front>
+</reference>

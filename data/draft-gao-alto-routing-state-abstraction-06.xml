@@ -1,0 +1,28 @@
+<reference anchor="I-D.gao-alto-routing-state-abstraction">
+  <front>
+    <title>A Recommendation for Compressing ALTO Path Vectors</title>
+    <seriesInfo name="Internet-Draft" value="draft-gao-alto-routing-state-abstraction-06"/>
+    <author fullname="Kai Gao" initials="K." surname="Gao">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="xinwang2014@hotmail.com" initials="" surname="xinwang2014@hotmail.com">
+      <organization>Tongji University</organization>
+    </author>
+    <author fullname="Qiao Xiang" initials="Q." surname="Xiang">
+      <organization>Tongji/Yale University</organization>
+    </author>
+    <author fullname="Chen Gu" initials="C." surname="Gu">
+      <organization>Tongji University</organization>
+    </author>
+    <author fullname="Y. Richard Yang" initials="Y. R." surname="Yang">
+      <organization>Yale University</organization>
+    </author>
+    <author fullname="G.Robert Chen" initials="G." surname="Chen">
+      <organization>Huawei</organization>
+    </author>
+    <date year="2017" month="July" day="3"/>
+    <abstract>
+      <t>The path vector extension [I-D.ietf-alto-path-vector] has extended the original ALTO protocol [RFC7285] with the ability to represent a more detailed view of the network, containing not only end-to-end metrics but also information about shared bottlenecks. However, the view computed by straw man algorithms can contain redundant information and result in unnecessary communication overhead. The situation gets even worse when certain ALTO extensions are enabled, for example, the incremental update extension [I-D.ietf-alto-incr-update-sse] which continuously pushes data changes to ALTO clients. Redundant information can trigger unnecessary updates. In this document, an algorithm is described which can effectively reduce the redundancy in the network view while still providing the same information as in the original path vectors. The algorithm is fully compatible with the path vector extension and has several by- products which can be leveraged by other extensions to achieve better performances.</t>
+    </abstract>
+  </front>
+</reference>

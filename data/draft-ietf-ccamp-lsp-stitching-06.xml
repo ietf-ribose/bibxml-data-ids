@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-ccamp-lsp-stitching">
+  <front>
+    <title>Label Switched Path Stitching with Generalized Multiprotocol Label Switching Traffic Engineering (GMPLS TE)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ccamp-lsp-stitching-06"/>
+    <author fullname="Kireeti Kompella" initials="K." surname="Kompella">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Adrian Farrel" initials="A." surname="Farrel">
+      <organization>Old Dog Consulting</organization>
+    </author>
+    <author fullname="JP Vasseur" initials="V." surname="Jp">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Arthi Ayyangar" initials="A." surname="Ayyangar">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2007" month="April" day="23"/>
+    <abstract>
+      <t>In certain scenarios, there may be a need to combine several Generalized Multiprotocol Label Switching (GMPLS) Label Switched Paths (LSPs) such that a single end-to-end (e2e) LSP is realized and all traffic from one constituent LSP is switched onto the next LSP. We will refer to this as "LSP stitching", the key requirement being that a constituent LSP not be allocated to more than one e2e LSP. The constituent LSPs will be referred to as "LSP segments" (S-LSPs). This document describes extensions to the existing GMPLS signaling protocol (Resource Reservation Protocol-Traffic Engineering (RSVP-TE)) to establish e2e LSPs created from S-LSPs, and describes how the LSPs can be managed using the GMPLS signaling and routing protocols. It may be possible to configure a GMPLS node to switch the traffic from an LSP for which it is the egress, to another LSP for which it is the ingress, without requiring any signaling or routing extensions whatsoever and such that the operation is completely transparent to other nodes. This will also result in LSP stitching in the data plane. However, this document does not cover this scenario of LSP stitching. [STANDARDS-TRACK]</t>
+    </abstract>
+  </front>
+</reference>

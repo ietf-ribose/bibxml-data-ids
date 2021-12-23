@@ -1,0 +1,16 @@
+<reference anchor="I-D.bless-diffserv-lbe-phb">
+  <front>
+    <title>A Lower Than Best-Effort Per-Hop Behavior</title>
+    <seriesInfo name="Internet-Draft" value="draft-bless-diffserv-lbe-phb-00"/>
+    <author fullname="Roland Bless" initials="R." surname="Bless">
+      <organization>Universitaet Karlsruhe</organization>
+    </author>
+    <author fullname="Klaus Wehrle" initials="K." surname="Wehrle">
+      <organization>Universitaet Karlsruhe</organization>
+    </author>
+    <date year="1999" month="September" day="8"/>
+    <abstract>
+      <t>This document describes a Lower than Best-Effort (LBE) per-hopbehavior (PHB) for use within and between DifferentiatedServices domains [3]. The primary objective of this LBE PHBis to separate LBE traffic from best-effort traffic incongestion situations, i.e., when resources become scarce.Furthermore, LBE traffic gets a minimal share of bandwidth sothat it will not be fully preempted by best-effort traffic.This is achieved by discarding LBE packets more aggressivelythan best-effort packets while trying to enqueue them in caseof congestion.There are numerous uses for this PHB, e.g., for transmissionof background traffic such as bulk data transfers of minorimportance, backup data traffic during working hours ortraffic caused by web search engines while gatheringinformation from web servers. Thus, it constitutes thenetwork equivalent to a background priority for processes inan operating system. Moreover, it is particularly useful incases when packets of a better service are re-marked by a nodefor subsequently receiving a forwarding treatment that isequivalent to the best-effort service. In this situation theLBE PHB helps to protect other best-effort packets fromexperiencing unfair forwarding treatment because it avoidstheir preemption by re-marked packets. For instance, thiscase occurs when heterogeneous multicast groups should besupported.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,19 @@
+<reference anchor="I-D.heitz-idr-diagnostic-attr">
+  <front>
+    <title>BGP Diagnostic Path Attribute</title>
+    <seriesInfo name="Internet-Draft" value="draft-heitz-idr-diagnostic-attr-01"/>
+    <author fullname="Jakob Heitz">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Prasad S. Narasimha">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Sameer Gulrajani">
+      <organization>Cisco</organization>
+    </author>
+    <date year="2019" month="March" day="25"/>
+    <abstract>
+      <t>A BGP path attribute for the purpose of network diagnostics is described. It is non-transitive, such that BGP speakers will not forward it by default. It is structured as a list of elements. An element begins with the BGP identifier and AS number of the speaker that appends the element and includes a list of TLVs. Any speaker can add or remove an element to/from the list. TLVs for a timestamp and for a checksum are described.</t>
+    </abstract>
+  </front>
+</reference>

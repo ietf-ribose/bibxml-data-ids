@@ -1,0 +1,14 @@
+<reference anchor="I-D.zhu-negoex">
+  <front>
+    <title>SPNEGO Extended Negotiation (NEGOEX) Security Mechanism</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhu-negoex-04"/>
+    <author fullname="Michiko Short"/>
+    <author fullname="Larry Zhu"/>
+    <author fullname="Kevin Damour"/>
+    <author fullname="Dave McPherson"/>
+    <date year="2011" month="January" day="3"/>
+    <abstract>
+      <t>This document defines the SPNEGO Extended Negotiation (NEGOEX)Security Mechanism. NEGOEX enhances the capabilities of SPNEGO byproviding a security mechanism which can be negotiated by the SPNEGOprotocol as defined in RFC4178.The NEGOEX protocol itself is a security mechanism negotiated bySPNEGO. When the NEGOEX security mechanism is selected by SPNEGO,NEGOEX provides a method allowing selection of a commonauthentication protocol based on factors beyond just the fact thatboth client and server support a given security mechanism. NEGOEXOPTIONALLY adds a pair of meta-data messages for each negotiatedsecurity mechanism. The meta-data exchange allows securitymechanisms to exchange auxiliary information such as trustconfigurations, thus NEGOEX provides more flexibility than justexchanging security mechanism OIDs in SPNEGO.NEGOEX preserves the optimistic token semantics of SPNEGO and appliesthat recursively. Consequently a context establishment mechanismtoken can be included in the initial NEGOEX message, and NEGOEX doesnot require an extra round-trip when the initiator's optimistic tokenis accepted by the target.Similar to SPNEGO, NEGOEX defines a few new GSS-API extensions that asecurity mechanism MUST support in order to be negotiated by NEGOEX.This document defines these GSS-API extensions.Unlike SPNEGO however, NEGOEX defines its own way for signing theprotocol messages in order to protect the protocol negotiation. TheNEGOEX message signing or verification can occur before the securitycontext for the negotiated real security mechanism is fullyestablished.</t>
+    </abstract>
+  </front>
+</reference>

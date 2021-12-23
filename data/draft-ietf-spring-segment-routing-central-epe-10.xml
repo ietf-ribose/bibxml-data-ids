@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-spring-segment-routing-central-epe">
+  <front>
+    <title>Segment Routing Centralized BGP Egress Peer Engineering</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-spring-segment-routing-central-epe-10"/>
+    <author fullname="Clarence Filsfils">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Stefano Previdi">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Gaurav Dawra">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Ebben Aries">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Dmitry Afanasiev">
+      <organization>Yandex</organization>
+    </author>
+    <date year="2017" month="December" day="21"/>
+    <abstract>
+      <t>Segment Routing (SR) leverages source routing. A node steers a packet through a controlled set of instructions, called segments, by prepending the packet with an SR header. A segment can represent any instruction, topological or service based. SR allows for the enforcement of a flow through any topological path while maintaining per-flow state only at the ingress node of the SR domain. The Segment Routing architecture can be directly applied to the MPLS data plane with no change on the forwarding plane. It requires a minor extension to the existing link-state routing protocols. This document illustrates the application of Segment Routing to solve the BGP Egress Peer Engineering (BGP-EPE) requirement. The SR-based BGP-EPE solution allows a centralized (Software-Defined Networking, or SDN) controller to program any egress peer policy at ingress border routers or at hosts within the domain.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,19 @@
+<reference anchor="I-D.chen-lsr-anycast-flag">
+  <front>
+    <title>Updates to Anycast Property advertisement for OSPF</title>
+    <seriesInfo name="Internet-Draft" value="draft-chen-lsr-anycast-flag-00"/>
+    <author fullname="Ran Chen" initials="R." surname="Chen">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author fullname="Detao Zhao" initials="D." surname="Zhao">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author fullname="Peter Psenak" initials="P." surname="Psenak">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date year="2021" month="September" day="12"/>
+    <abstract>
+      <t>Both SR-MPLS prefixes-SID and IPv4/IPv6 prefix may be configured as anycast and as such the same value can be advertised by multiple routers. It is useful for other routers to know that the advertisement is for an anycast identifier. This document updates [RFC7684] and [RFC8362], by defining a new flag in OSPFv2 Extended Prefix Opaque LSA [RFC7684] and Prefix Options [RFC8362] to advertise the anycast property, and also updates the corresponding interpretation of the Flags field of the Prefix Attribute Flags TLV in [RFC9085].</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,14 @@
+<reference anchor="I-D.ietf-snmpv2-scm-ds">
+  <front>
+    <title>The Simplified Configuration Model for SNMPv2</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-snmpv2-scm-ds-00"/>
+    <author fullname="Dr. Jeff D. Case" initials="J. D." surname="Case"/>
+    <author fullname="Dr. Marshall T. Rose" initials="M. T." surname="Rose"/>
+    <author fullname="Steven Waldbusser" initials="S." surname="Waldbusser"/>
+    <author fullname="Keith McCloghrie" initials="K." surname="McCloghrie"/>
+    <date year="1995" month="March" day="20"/>
+    <abstract>
+      <t>The model describe here is based on the notion of creating transient 'management sessions' for use by a management application. Each session is initialized by consulting a user profile, which has been previously configured at the agent. The profile specifies such information as authentication and authorization information, along with a maximum time that a session may be inactive before the agent destroys it. When a session is created, the SNMPv2 parties and corresponding access control information are dynamically created. These parties are used to perform protocol operations. If the management application completes before the management session expires, it may explicitly destroy the session. Regardless, when a session is destroyed, the corresponding resources (e.g., parties and ACLs), are deleted by the agent.</t>
+    </abstract>
+  </front>
+</reference>

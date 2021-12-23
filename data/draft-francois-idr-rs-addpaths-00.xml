@@ -1,0 +1,14 @@
+<reference anchor="I-D.francois-idr-rs-addpaths">
+  <front>
+    <title>ADD-PATH for Route Servers</title>
+    <seriesInfo name="Internet-Draft" value="draft-francois-idr-rs-addpaths-00"/>
+    <author fullname="Pierre Francois" initials="P." surname="Francois"/>
+    <author fullname="Camilo Cardona" initials="C." surname="Cardona"/>
+    <author fullname="Adam Simpson" initials="A." surname="Simpson"/>
+    <author fullname="Jeffrey Haas" initials="J." surname="Haas"/>
+    <date year="2014" month="February" day="7"/>
+    <abstract>
+      <t>BGP speakers in Internet Exchange Points exchange routes with a large number of peers. To reduce the burden of maintaining many sessions, IXPs implement and administrate BGP route servers. Route servers announce to their clients the paths of multiple peers by using a single eBGP session. Route servers, however, are restricted to propagating a single path per NLRI per eBGP session. This constraint affects the path diversity received by clients, which could use paths that they would not have chosen, had they known all possible paths. To overcome this limitation, we propose in this draft the extension of ADD-PATH to eBGP peers in the context of route servers.</t>
+    </abstract>
+  </front>
+</reference>

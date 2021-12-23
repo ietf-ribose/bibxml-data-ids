@@ -1,0 +1,23 @@
+<reference anchor="I-D.ietf-anima-bootstrapping-keyinfra">
+  <front>
+    <title>Bootstrapping Remote Secure Key Infrastructures (BRSKI)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-anima-bootstrapping-keyinfra-36"/>
+    <author fullname="Max Pritikin" initials="M." surname="Pritikin">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Michael Richardson" initials="M." surname="Richardson">
+      <organization>Sandelman Software Works</organization>
+    </author>
+    <author fullname="Toerless Eckert" initials="T. T." surname="Eckert">
+      <organization>Futurewei Technologies Inc.  USA</organization>
+    </author>
+    <author fullname="Michael H. Behringer" initials="M. H." surname="Behringer"/>
+    <author fullname="Kent Watsen" initials="K." surname="Watsen">
+      <organization>Watsen Networks</organization>
+    </author>
+    <date year="2020" month="February" day="26"/>
+    <abstract>
+      <t>This document specifies automated bootstrapping of an Autonomic Control Plane. To do this a Secure Key Infrastructure is bootstrapped. This is done using manufacturer-installed X.509 certificates, in combination with a manufacturer's authorizing service, both online and offline. We call this process the Bootstrapping Remote Secure Key Infrastructure (BRSKI) protocol. Bootstrapping a new device can occur using a routable address and a cloud service, or using only link-local connectivity, or on limited/ disconnected networks. Support for deployment models with less stringent security requirements is included. Bootstrapping is complete when the cryptographic identity of the new key infrastructure is successfully deployed to the device. The established secure connection can be used to deploy a locally issued certificate to the device as well.</t>
+    </abstract>
+  </front>
+</reference>

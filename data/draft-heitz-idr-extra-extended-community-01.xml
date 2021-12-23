@@ -1,0 +1,19 @@
+<reference anchor="I-D.heitz-idr-extra-extended-community">
+  <front>
+    <title>BGP Extra Extended Community</title>
+    <seriesInfo name="Internet-Draft" value="draft-heitz-idr-extra-extended-community-01"/>
+    <author fullname="Jakob Heitz" initials="J." surname="Heitz">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Ali Sajassi" initials="A." surname="Sajassi">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Ignas Bagdonas" initials="I." surname="Bagdonas">
+      <organization>Equinix</organization>
+    </author>
+    <date year="2018" month="July" day="17"/>
+    <abstract>
+      <t>Auto-derived identifiers are used by applications to enable zero configuration features. Such identifiers are often a combination of primitive identifiers and are thus longer. In addition, existing identifiers have grown longer. IP addresses have grown from 4 octets to 16. AS numbers have grown from 2 octets to 4. In order to accommodate such longer identifiers in BGP extended communities, this document defines a new BGP path attribute, the Extra Extended Communities attribute. It is similar to the Extended Community, but is 24 octets long. Communities are mostly used within ASes under a single administration or between neighboring ASes. Limiting the spread of communities beyond their intended reach and polluting the internet at large is complex and error prone. To simplify this, enhanced transitivity options are provided.</t>
+    </abstract>
+  </front>
+</reference>

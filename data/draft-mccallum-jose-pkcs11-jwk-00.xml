@@ -1,0 +1,13 @@
+<reference anchor="I-D.mccallum-jose-pkcs11-jwk">
+  <front>
+    <title>PKCS #11 for JSON Web Keys</title>
+    <seriesInfo name="Internet-Draft" value="draft-mccallum-jose-pkcs11-jwk-00"/>
+    <author fullname="Nathaniel McCallum">
+      <organization>Red Hat, Inc.</organization>
+    </author>
+    <date year="2017" month="June" day="30"/>
+    <abstract>
+      <t>This document updates RFC 7517 in order to specify an extension to the JSON Web Key (JWK) format so that private key material may be stored in cryptographic hardware using PKCS #11. It defines a new property for JWKs which contains the PKCS #11 URI identifying the location of the private key material. Implementations can use this URI to offload the cryptographic operations to the identified hardware.</t>
+    </abstract>
+  </front>
+</reference>

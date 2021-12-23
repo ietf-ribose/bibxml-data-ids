@@ -1,0 +1,22 @@
+<reference anchor="I-D.akimichi-6man-ra-prefixlen">
+  <front>
+    <title>Host behavior to short prefix length</title>
+    <seriesInfo name="Internet-Draft" value="draft-akimichi-6man-ra-prefixlen-00"/>
+    <author fullname="Akimichi Ogawa">
+      <organization>Professional writer</organization>
+    </author>
+    <author fullname="Kaname Nishizuka">
+      <organization>NTT Communications</organization>
+    </author>
+    <author fullname="Yoshifumi Atarashi">
+      <organization>Alaxala Networks Co.</organization>
+    </author>
+    <author fullname="Akira Kanai">
+      <organization>NTT Communications</organization>
+    </author>
+    <date year="2021" month="October" day="5"/>
+    <abstract>
+      <t>The Prefix Information Option in the IPv6 Neighbor Discovery Router Advertisement message defines an 8-bit prefix length field. Prefix List entries are created using the prefix length in the Prefix Information Option. The Conceptual Model of a Host described in RFC 4861[RFC4861] does not clarify behavior of a host, when a short prefix length is received. This document updates RFC 4861(if approved), and clarifies that hosts SHOULD NOT accept prefix length shorter than /64.</t>
+    </abstract>
+  </front>
+</reference>

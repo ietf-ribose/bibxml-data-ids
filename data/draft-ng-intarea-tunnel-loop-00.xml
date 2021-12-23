@@ -1,0 +1,13 @@
+<reference anchor="I-D.ng-intarea-tunnel-loop">
+  <front>
+    <title>Tunnel Loops and its Detection</title>
+    <seriesInfo name="Internet-Draft" value="draft-ng-intarea-tunnel-loop-00"/>
+    <author fullname="Chan-Wah Ng"/>
+    <author fullname="Benjamin Lim"/>
+    <author fullname="Mohana Jeyatharan"/>
+    <date year="2008" month="October" day="26"/>
+    <abstract>
+      <t>Many protocols in the Internet Protocol suite use packetencapsulations. This runs into the danger of forming a tunnel loop.Since each tunnel entry point encapsulates the inner packet with atunnel packet header that contains a new hop count, a packet enteringa tunnel loop may be routed infinitely, consuming network resources.Although there exist methods to cause a packet in a tunnel loop to bediscarded eventually, it would be more desirable to detect thepresence of a tunnel loop and act accordingly. This draft exploresthe possibility for tunnel entry points to detect the presence of atunnel loop by using an extra identifier tagged to the outer packetheader.</t>
+    </abstract>
+  </front>
+</reference>

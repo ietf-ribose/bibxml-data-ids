@@ -1,0 +1,19 @@
+<reference anchor="I-D.mccain-keylist">
+  <front>
+    <title>Distributing OpenPGP Keys with Signed Keylist Subscriptions</title>
+    <seriesInfo name="Internet-Draft" value="draft-mccain-keylist-03"/>
+    <author fullname="R. Miles McCain" initials="R. M." surname="McCain">
+      <organization>First Look Media</organization>
+    </author>
+    <author fullname="Micah Lee" initials="M." surname="Lee">
+      <organization>The Intercept</organization>
+    </author>
+    <author fullname="Nat Welch" initials="N." surname="Welch">
+      <organization>Google</organization>
+    </author>
+    <date year="2019" month="February" day="12"/>
+    <abstract>
+      <t>This document specifies a system by which an OpenPGP client may subscribe to an organization's keylist to keep its internal keystore up-to-date. Ensuring that all members of an organization have their colleagues' most recent PGP public keys is critical to maintaining operational security. Without the most recent keys and a source of trust for those keys (as this document specifies), users must manually update and sign each others keys -- a system that is untenable in larger organizations. This document proposes a experimental format for the keylist file as well as requirements for clients who wish to implement this experimental keylist subscription functionality.</t>
+    </abstract>
+  </front>
+</reference>

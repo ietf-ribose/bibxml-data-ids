@@ -1,0 +1,15 @@
+<reference anchor="I-D.bhargavan-tls-resumption-indication">
+  <front>
+    <title>Transport Layer Security (TLS) Resumption Indication Extension</title>
+    <seriesInfo name="Internet-Draft" value="draft-bhargavan-tls-resumption-indication-00"/>
+    <author fullname="Karthikeyan Bhargavan"/>
+    <author fullname="Antoine Delignat-Lavaud"/>
+    <author fullname="Alfredo Pironti"/>
+    <author fullname="Adam Langley"/>
+    <author fullname="Marsh Ray"/>
+    <date year="2014" month="April" day="18"/>
+    <abstract>
+      <t>When a TLS session is resumed via an abbreviated handshake, the knowledge of the master secret is used to implicitly mutually authenticate the two peers. However, an attacker can synchronize two different TLS sessions, so that they share the same master secret, breaking the resumption authentication property. This specification defines a TLS extension that cryptographically binds the resumption abbreviated handshake with its original session, thus preventing this attack.</t>
+    </abstract>
+  </front>
+</reference>

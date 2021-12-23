@@ -1,0 +1,18 @@
+<reference anchor="I-D.schrijvp-mpls-ldp-end-to-end-auth">
+  <front>
+    <title>End to end authentication for LDP</title>
+    <seriesInfo name="Internet-Draft" value="draft-schrijvp-mpls-ldp-end-to-end-auth-03"/>
+    <author fullname="Jeremy De Clercq" initials="J." surname="De Clercq">
+      <organization>Yves T'Joens</organization>
+    </author>
+    <author fullname="Oliver Paridaens" initials="O." surname="Paridaens"/>
+    <author fullname="Yves T'Joens" initials="Y." surname="T'Joens"/>
+    <author fullname="Peter De Schrijver" initials="P." surname="De Schrijver">
+      <organization>Alcatel</organization>
+    </author>
+    <date year="2001" month="March" day="5"/>
+    <abstract>
+      <t>The Label Distribution Protocol (LDP), as currently defined, makesuse of the TCP MD5 Signature option to protect (authentication andintegrity) the LDP traffic between two adjacent LSRs. This documentspecifies extensions to LDP to enable end-to-end authenticationbetween non-adjacent LSR's (ie not directly connected via a TCPconnection) that are setting up an LSP. Two mechanisms are definedthat also provide integrity protection of the information carriedwithin LDP messages and protect against the malicious replay of LDPmessages. Both proposed mechanisms require ordered control LDP andcan also be applied to CR-LDP.</t>
+    </abstract>
+  </front>
+</reference>

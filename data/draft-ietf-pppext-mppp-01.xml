@@ -1,0 +1,20 @@
+<reference anchor="I-D.ietf-pppext-mppp">
+  <front>
+    <title>Mobile PPP (MPPP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pppext-mppp-01"/>
+    <author fullname="Jacob Teplitsky" initials="J." surname="Teplitsky">
+      <organization>Lucent Technologies Bell Laboratories</organization>
+    </author>
+    <author fullname="M. C. Chuah" initials="M. C." surname="Chuah">
+      <organization>Lucent Technologies Bell Laboratories</organization>
+    </author>
+    <author fullname="Donald B. Grosser" initials="D. B." surname="Grosser"/>
+    <author fullname="G. Rai" initials="G." surname="Rai">
+      <organization>Lucent Technologies Bell Laboratories</organization>
+    </author>
+    <date year="1999" month="July" day="2"/>
+    <abstract>
+      <t>This document describes a new feature for L2TP: it allows for a changeof LACs during the lifetime of a PPP session without the latency ofre-creating a new PPP session where possible. This feature isspecially useful for wireless data services where the foreign wirelessservice provider (WSP) may be different than the user's home serviceprovider and where a user's mobility may result in a change of LACduring an on-going PPP session. This proposal presents 3 differentmethods of supporting this feature. The simplest method requires onlyminor changes to both LACs and LNSs. However, it may give a largerhandover latency. The other two methods have shorter handoverlatency and allow us to extend the L2TP session by an additional hop.</t>
+    </abstract>
+  </front>
+</reference>

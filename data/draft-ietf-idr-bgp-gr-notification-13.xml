@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-idr-bgp-gr-notification">
+  <front>
+    <title>Notification Message support for BGP Graceful Restart</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-gr-notification-13"/>
+    <author fullname="Keyur Patel" initials="K." surname="Patel">
+      <organization>Arrcus</organization>
+    </author>
+    <author fullname="Rex Fernando" initials="R." surname="Fernando">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="John Scudder" initials="J." surname="Scudder">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Jeffrey Haas" initials="J." surname="Haas">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2017" month="June" day="15"/>
+    <abstract>
+      <t>The BGP Graceful Restart mechanism defined in RFC 4724 limits the usage of BGP Graceful Restart to BGP protocol messages other than a BGP NOTIFICATION message. This document updates RFC 4724 by defining an extension that permits the Graceful Restart procedures to be performed when the BGP speaker receives a BGP NOTIFICATION Message or the Hold Time expires. This document also defines a new BGP NOTIFICATION Cease Error subcode whose effect is to request a full session restart instead of a Graceful Restart.</t>
+    </abstract>
+  </front>
+</reference>

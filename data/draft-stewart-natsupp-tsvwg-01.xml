@@ -1,0 +1,13 @@
+<reference anchor="I-D.stewart-natsupp-tsvwg">
+  <front>
+    <title>Stream Control Transmission Protocol (SCTP) Network Address Translation Support</title>
+    <seriesInfo name="Internet-Draft" value="draft-stewart-natsupp-tsvwg-01"/>
+    <author fullname="Randall Stewart"/>
+    <author fullname="Michael Tuexen"/>
+    <author fullname="Irene Ruengeler"/>
+    <date year="2010" month="June" day="29"/>
+    <abstract>
+      <t>Stream Control Transmission Protocol [RFC4960] provides a reliablecommunications channel between two end-hosts in many ways similar toTCP [RFC0793]. With the widespread deployment of Network AddressTranslators (NAT), specialized code has been added to NAT for TCPthat allows multiple hosts to reside behind a NAT and yet use only asingle globally unique IPv4 address, even when two hosts (behind aNAT) choose the same port numbers for their connection. Thisadditional code is sometimes classified as Network Address and PortTranslation or NAPT. To date, specialized code for SCTP has NOT yetbeen added to most NATs so that only pure NAT is available. The endresult of this is that only one SCTP capable host can be behind aNAT.This document describes an SCTP specific chunks and procedures tohelp NAT's provide similar features of NAPT in the single point andmulti-point traversal scenario.</t>
+    </abstract>
+  </front>
+</reference>

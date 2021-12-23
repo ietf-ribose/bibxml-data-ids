@@ -1,0 +1,17 @@
+<reference anchor="I-D.lnt-avt-uxp">
+  <front>
+    <title>An RTP Payload Format for Erasure-Resilient Transmission of Progressive Multimedia Streams</title>
+    <seriesInfo name="Internet-Draft" value="draft-lnt-avt-uxp-02"/>
+    <author fullname="Minh Ha Nguyen" initials="M. H." surname="Nguyen"/>
+    <author fullname="Bernhard Wimmer" initials="B." surname="Wimmer"/>
+    <author fullname="Guenther Liebl" initials="G." surname="Liebl"/>
+    <author fullname="Thomas Stockhammer" initials="T." surname="Stockhammer"/>
+    <author fullname="Frank Burkert" initials="F." surname="Burkert">
+      <organization>G. Baese</organization>
+    </author>
+    <date year="2000" month="September" day="20"/>
+    <abstract>
+      <t>This document specifies an efficient way to ensure erasure-resilienttransmission of progressively encoded multimedia sources via RTPusing Reed-Solomon codes. The level of erasure protection can beexplicitly adapted to the importance of the respective parts in thesource stream, thus allowing a graceful degradation of applicationquality with increasing packet loss rate on the network. Hence, thistype of unequal erasure protection (UXP) schemes is intended to copewith the rapidly varying channel conditions on wireless access linksto the Internet backbone. Nevertheless, backward compatibility tocurrently standardized non-progressive multimedia codecs is ensured,since equal erasure protection (EXP) represents a subset of genericUXP. By defining a comparably simple payload format, the proposedscheme can be easily integrated into the existing framework for RTP.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,13 @@
+<reference anchor="I-D.allman-tcp-early-rexmt">
+  <front>
+    <title>Early Retransmit for TCP and SCTP</title>
+    <seriesInfo name="Internet-Draft" value="draft-allman-tcp-early-rexmt-07"/>
+    <author fullname="Mark Allman" initials="M." surname="Allman">
+      <organization>ICSI</organization>
+    </author>
+    <date year="2008" month="June" day="25"/>
+    <abstract>
+      <t>This document proposes a new mechanism for TCP and SCTP that can be used to recover lost segments when a connection's congestion window is small. The "Early Retransmit" mechanism allows the transport to reduce, in certain special circumstances, the number of duplicate acknowledgments required to trigger a fast retransmission. This allows the transport to use fast retransmit to recover packet losses that would otherwise require a lengthy retransmission timeout.</t>
+    </abstract>
+  </front>
+</reference>

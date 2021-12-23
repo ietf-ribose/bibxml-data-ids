@@ -1,0 +1,11 @@
+<reference anchor="I-D.mogul-http-revalidate">
+  <front>
+    <title>Forcing HTTP/1.1 proxies to revalidate responses</title>
+    <seriesInfo name="Internet-Draft" value="draft-mogul-http-revalidate-01"/>
+    <author fullname="Jeffrey Mogul" initials="J." surname="Mogul"/>
+    <date year="1997" month="May" day="28"/>
+    <abstract>
+      <t>The HTTP/1.1 specification [1] currently defines a ``proxy-revalidate'' Cache-control directive, which forces a proxy to revalidate a stale response before using it in a reply. There is no mechanism defined that forces a proxy, but not an end-client, to revalidate a fresh response. The lack of such a mechanism is due to an error in drafting RFC2068, and appears to create problems for use of the Authorization header, the Digest Access Authentication extension [2], the State Management Mechanism [3], and several other proposed extensions. This document discusses the problem and several possible solutions, and proposes to add a new ``s-maxage'' directive as the best available solution.</t>
+    </abstract>
+  </front>
+</reference>

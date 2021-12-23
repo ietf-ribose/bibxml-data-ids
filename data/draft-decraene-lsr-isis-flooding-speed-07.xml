@@ -1,0 +1,28 @@
+<reference anchor="I-D.decraene-lsr-isis-flooding-speed">
+  <front>
+    <title>IS-IS Flooding Congestion Control</title>
+    <seriesInfo name="Internet-Draft" value="draft-decraene-lsr-isis-flooding-speed-07"/>
+    <author fullname="Bruno Decraene">
+      <organization>Orange</organization>
+    </author>
+    <author fullname="Chris Bowers">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Jayesh J">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Tony Li">
+      <organization>Arista Networks</organization>
+    </author>
+    <author fullname="Gunter Van de Velde">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Guillaume Solignac">
+      <organization>Orange</organization>
+    </author>
+    <date year="2021" month="July" day="12"/>
+    <abstract>
+      <t>This document proposes a mechanism to adjust IS-IS flooding speed between two adjacent routers by adjusting the sender flooding speed to the capability of the receiver. This helps improving the flooding throughput, reducing LSPs losses and retransmissions due to receiver overload, and avoiding manual tuning of flooding parameters by the network operator. This document defines a new TLV for Hello messages. This TLV may carry a set of parameters indicating the performance capacity to receive LSPs.</t>
+    </abstract>
+  </front>
+</reference>

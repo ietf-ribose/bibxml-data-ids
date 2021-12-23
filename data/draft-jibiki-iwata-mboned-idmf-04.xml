@@ -1,0 +1,13 @@
+<reference anchor="I-D.jibiki-iwata-mboned-idmf">
+  <front>
+    <title>Inter-Domain Multicast Forwarding (IDMF)
+</title>
+    <seriesInfo name="Internet-Draft" value="draft-jibiki-iwata-mboned-idmf-04"/>
+    <author fullname="Atsushi Iwata" initials="A." surname="Iwata"/>
+    <author fullname="Masahiro Jibiki" initials="M." surname="Jibiki"/>
+    <date year="2000" month="March" day="13"/>
+    <abstract>
+      <t>This draft proposes a new inter-domain multicast forwarding (IDMF)mechanism for PIM-SM multicast routing protocol. Although there havebeen various inter-domain multicast routing and forwarding protocols,they still have a limitation for handling policy routing, QoSrouting, accounting and security, which network administrators arewilling to use in their network. In order to solve this limitation,we propose a novel approach to create an inter-domain multicastforwarding tree (or routing table) among multiple PIM-SM domains withlogical unicast paths over which multicast packets are forwarded orflooded. The logical unicast paths are created by either IP-in-IPtunneling method , IP masquerade-like method, and MPLS label switchedpath (LSP) method, which can easily reuse policy routing and QoSrouting for unicast routing. These logical unicast paths areestablished among IDMF capable nodes or proxies, which are locatedwithin each PIM-SM domain, either manually or by a dynamic IDMP treeconstruction protocol. The IDMP capable nodes can also behave a proxysender of multicast packets. It can prevent a multicast receiver fromchanging a RP-tree into a global SP-tree, and also can help to reducevirtually the number of multicast sources for a particular multicastgroup. This property can be effectively used for accounting, securityand scalability enhancement required for interdomain communication.The proposed mechanism is a general framework for inter-domainmulticast forwarding and can be also used as a MSDP based forwardingmechanism.</t>
+    </abstract>
+  </front>
+</reference>

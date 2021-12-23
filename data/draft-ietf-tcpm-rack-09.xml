@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-tcpm-rack">
+  <front>
+    <title>RACK-TLP: a time-based efficient loss detection for TCP</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-rack-09"/>
+    <author fullname="Yuchung Cheng" initials="Y." surname="Cheng">
+      <organization>Google, Inc</organization>
+    </author>
+    <author fullname="Neal Cardwell" initials="N." surname="Cardwell">
+      <organization>Google, Inc</organization>
+    </author>
+    <author fullname="Nandita Dukkipati" initials="N." surname="Dukkipati">
+      <organization>Google, Inc</organization>
+    </author>
+    <author fullname="Priyaranjan Jha" initials="P." surname="Jha">
+      <organization>Google, Inc</organization>
+    </author>
+    <date year="2020" month="July" day="13"/>
+    <abstract>
+      <t>This document presents the RACK-TLP loss detection algorithm for TCP. RACK-TLP uses per-segment transmit timestamp and selective acknowledgement (SACK) [RFC2018] and has two parts: RACK ("Recent ACKnowledgment") starts fast recovery quickly using time-based inferences derived from ACK feedback. TLP ("Tail Loss Probe") leverages RACK and sends a probe packet to trigger ACK feedback to avoid the retransmission timeout (RTO) events. Compared to the widely used DUPACK threshold approach, RACK-TLP detects losses more efficiently when there are application-limited flights of data, lost retransmissions, or data packet reordering events. It is intended to be an alternative to the DUPACK threshold approach in [RFC5681][RFC6675].</t>
+    </abstract>
+  </front>
+</reference>

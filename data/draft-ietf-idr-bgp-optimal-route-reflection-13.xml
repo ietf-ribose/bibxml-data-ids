@@ -1,0 +1,28 @@
+<reference anchor="I-D.ietf-idr-bgp-optimal-route-reflection">
+  <front>
+    <title>BGP Optimal Route Reflection (BGP-ORR)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-optimal-route-reflection-13"/>
+    <author fullname="Robert Raszuk" initials="R." surname="Raszuk">
+      <organization>Bloomberg LP</organization>
+    </author>
+    <author fullname="Christian Cassar" initials="C." surname="Cassar">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Erik Aman" initials="E." surname="Aman">
+      <organization>Telia Company</organization>
+    </author>
+    <author fullname="Bruno Decraene" initials="B." surname="Decraene">
+      <organization>Orange</organization>
+    </author>
+    <author fullname="Stephane Litkowski" initials="S." surname="Litkowski">
+      <organization>Orange</organization>
+    </author>
+    <author fullname="Kevin Wang" initials="K." surname="Wang">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2017" month="January" day="5"/>
+    <abstract>
+      <t>This document proposes a solution for BGP route reflectors to allow them to choose the best path their clients would have chosen under the same conditions, without requiring further state or any new features to be placed on the clients. This facilitates, for example, best exit point policy (hot potato routing). This solution is primarily applicable in deployments using centralized route reflectors. The solution relies upon all route reflectors learning all paths which are eligible for consideration. Best path selection is performed in each route reflector based on a configured virtual location in the IGP. The location can be the same for all clients or different per peer/update group or per peer. Best path selection can also be performed based on user configured policies in each route reflector.</t>
+    </abstract>
+  </front>
+</reference>

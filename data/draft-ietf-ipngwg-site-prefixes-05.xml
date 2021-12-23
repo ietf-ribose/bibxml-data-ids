@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-ipngwg-site-prefixes">
+  <front>
+    <title>Site prefixes in Neighbor Discovery</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ipngwg-site-prefixes-05"/>
+    <author fullname="Erik Nordmark" initials="E." surname="Nordmark">
+      <organization>Sun Microsystems</organization>
+    </author>
+    <date year="2001" month="February" day="8"/>
+    <abstract>
+      <t>This document specifies extensions to IPv6 Neighbor Discovery tocarry site prefixes. The site prefixes are used to reduce the effectof site renumbering by ensuring that the communication inside a siteuses site-local addresses.This protocol requires that all IPv6 implementations, even those thatdo not implement this protocol, ignore all site-local addresses thatthey retrieve from the DNS when the AAAA or A6 RRset contain bothglobal and site-local addresses. If the RRset contains only site-local addresses those addresses can be used.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,25 @@
+<reference anchor="I-D.przygienda-lsr-flood-reflection">
+  <front>
+    <title>IS-IS Flood Reflection</title>
+    <seriesInfo name="Internet-Draft" value="draft-przygienda-lsr-flood-reflection-01"/>
+    <author fullname="Tony Przygienda">
+      <organization>Juniper</organization>
+    </author>
+    <author fullname="Chris Bowers">
+      <organization>Juniper</organization>
+    </author>
+    <author fullname="Yiu Lee">
+      <organization>Comcast</organization>
+    </author>
+    <author fullname="Alankar Sharma">
+      <organization>Comcast</organization>
+    </author>
+    <author fullname="Russ White">
+      <organization>Juniper</organization>
+    </author>
+    <date year="2020" month="January" day="7"/>
+    <abstract>
+      <t>This document describes an optional ISIS extension that allows the creation of IS-IS flood reflection topologies. Flood reflection allows the creation of topologies where L1 areas provide transit forwarding for L2 destinations within an L2 topology. It accomplishes this by creating L2 flood reflection adjacencies within each L1 area. The L2 flood reflection adjacencies are used to flood L2 LSPDUs, and they are used in the L2 SPF computation. However, they are not used for forwarding. This arrangement gives the L2 topology better scaling properties. In addition, only those routers directly participating in flood reflection have to support the feature. This allows for the incremental deployment of scalable L1 transit areas in an existing network, without the necessity of upgrading other routers in the network.</t>
+    </abstract>
+  </front>
+</reference>

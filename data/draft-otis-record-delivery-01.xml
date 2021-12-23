@@ -1,0 +1,13 @@
+<reference anchor="I-D.otis-record-delivery">
+  <front>
+    <title>SCTP compatible delivery subsystem</title>
+    <seriesInfo name="Internet-Draft" value="draft-otis-record-delivery-01"/>
+    <author fullname="Douglas Otis" initials="D." surname="Otis">
+      <organization>SANlight</organization>
+    </author>
+    <date year="2001" month="May" day="9"/>
+    <abstract>
+      <t>This document is to allow record based equipment a common record offload layer suitable for other protocols. As all storage protocols anticipate hardware acceleration, it becomes incumbent to provide this hardware a generic structure that can be applied to many protocols and yet allow an unencumbered feature set. The structures defined for SCTP [RFC2960] were developed to provide record based solutions and are well suited for this common record offload layer. This document will assume either direct use of SCTP, a modified SCTP common header used as a TCP option, or this modified SCTP common header placed within the TCP byte stream. SCTP conventions will be used to enable enhanced features such as connection recovery in lieu of other techniques. The sequential handling of delineated records is done in accordance with SCTP.</t>
+    </abstract>
+  </front>
+</reference>

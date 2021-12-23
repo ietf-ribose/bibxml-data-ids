@@ -1,0 +1,12 @@
+<reference anchor="I-D.ietf-rmt-pi-track-security">
+  <front>
+    <title>Security Requirements For TRACK</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-rmt-pi-track-security-01"/>
+    <author fullname="Thomas Hardjono" initials="T." surname="Hardjono"/>
+    <author fullname="Brian Whetten" initials="B." surname="Whetten"/>
+    <date year="2001" month="April" day="6"/>
+    <abstract>
+      <t>This document discusses the security issues within the TRee-based ACKnowledgement (TRACK) reliable multicast protocol instantiation, and identifies some constraints and requirements for security provisions for this protocol. Based on the constraints and requirements, the document proposes a separation of data packet confidentiality and authentication, from transport layer protection. It proposes that TRACK be primarily concerned with group authentication of control and data packets, to protect against attacks on the transport infrastructure. It proposes that data confidentiality and source authentication be provided separately from this low level group authentication, ideally at the application level. We show that this is particularly important for TRACK, because of the requirement that the interior control nodes only OPTIONALLY have access to the data packet payload.</t>
+    </abstract>
+  </front>
+</reference>

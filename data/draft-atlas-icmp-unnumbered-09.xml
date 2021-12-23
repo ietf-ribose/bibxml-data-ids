@@ -1,0 +1,13 @@
+<reference anchor="I-D.atlas-icmp-unnumbered">
+  <front>
+    <title>Extending ICMP for Interface and Next-Hop Identification</title>
+    <seriesInfo name="Internet-Draft" value="draft-atlas-icmp-unnumbered-09"/>
+    <author fullname="Ronald Bonica"/>
+    <author fullname="Carlos Pignataro"/>
+    <author fullname="Naiming Shen"/>
+    <date year="2010" month="January" day="6"/>
+    <abstract>
+      <t>This memo defines a data structure that can be appended to selected ICMP messages. The ICMP extension defined herein can be used to identify any combination of the following: the IP interface upon which a datagram arrived, the sub-IP component of an IP interface upon which a datagram arrived, the IP interface through which the datagram would have been forwarded had it been forwardable, and the IP next hop to which the datagram would have been forwarded. Devices can use this ICMP extension to identify interfaces and their components by any combination of the following: ifIndex, IPv4 address, IPv6 address, name, and MTU. ICMP-aware devices can use these extensions to identify both numbered and unnumbered interfaces. [STANDARDS-TRACK]</t>
+    </abstract>
+  </front>
+</reference>

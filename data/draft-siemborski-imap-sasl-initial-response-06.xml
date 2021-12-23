@@ -1,0 +1,16 @@
+<reference anchor="I-D.siemborski-imap-sasl-initial-response">
+  <front>
+    <title>IMAP Extension for Simple Authentication and Security Layer (SASL) Initial Client Response</title>
+    <seriesInfo name="Internet-Draft" value="draft-siemborski-imap-sasl-initial-response-06"/>
+    <author fullname="Rob Siemborski" initials="R." surname="Siemborski">
+      <organization>Google, Inc.</organization>
+    </author>
+    <author fullname="Arnt Gulbrandsen" initials="A." surname="Gulbrandsen">
+      <organization>Oryx Mail Systems GmbH</organization>
+    </author>
+    <date year="2006" month="November" day="26"/>
+    <abstract>
+      <t>To date, the Internet Message Access Protocol (IMAP) has used a Simple Authentication and Security Layer (SASL) profile which always required at least one complete round trip for an authentication, as it did not support an initial client response argument. This additional round trip at the beginning of the session is undesirable, especially when round-trip costs are high. This document defines an extension to IMAP which allows clients and servers to avoid this round trip by allowing an initial client response argument to the IMAP AUTHENTICATE command. [STANDARDS-TRACK]</t>
+    </abstract>
+  </front>
+</reference>

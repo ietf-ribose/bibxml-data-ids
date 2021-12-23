@@ -1,0 +1,34 @@
+<reference anchor="I-D.jjmb-httpbis-trusted-traffic">
+  <front>
+    <title>Trusted Traffic</title>
+    <seriesInfo name="Internet-Draft" value="draft-jjmb-httpbis-trusted-traffic-00"/>
+    <author fullname="John Jason Brzozowski">
+      <organization>Comcast Cable</organization>
+    </author>
+    <author fullname="Kris Beevers">
+      <organization>NS1</organization>
+    </author>
+    <author fullname="James Cariello">
+      <organization>Google</organization>
+    </author>
+    <author fullname="John Colton">
+      <organization>Squarespace</organization>
+    </author>
+    <author fullname="Lutz Jacob">
+      <organization>Bloomberg</organization>
+    </author>
+    <author fullname="John Leddy">
+      <organization>Comcast Cable</organization>
+    </author>
+    <author fullname="Josh Shaul">
+      <organization>Akamai</organization>
+    </author>
+    <author fullname="Lou Steinberg">
+      <organization>CTM Insights</organization>
+    </author>
+    <date year="2018" month="May" day="22"/>
+    <abstract>
+      <t>Current methods for managing traffic through content inspection tend to process all sessions similarly. Internet traffic examples like DDoS mitigation require all data to pass through one of a limited number of scrubbing centers, which create both natural choke points and the potential for widespread collateral damage should a center become overloaded. Similar issues exist with email SPAM and malware filtering, traffic shaping, etc. We propose a method to utilize existing HTTP and HTTPS protocols that enables destinations to temporarily confer trust on sources, and for trusted traffic to be routed and processed differently from untrusted traffic.</t>
+    </abstract>
+  </front>
+</reference>

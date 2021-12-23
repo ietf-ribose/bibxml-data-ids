@@ -1,0 +1,13 @@
+<reference anchor="I-D.kristol-http-state-info">
+  <front>
+    <title>Proposed HTTP State-Info Mechanism</title>
+    <seriesInfo name="Internet-Draft" value="draft-kristol-http-state-info-00"/>
+    <author fullname="David M. Kristol" initials="D. M." surname="Kristol">
+      <organization>AT&amp;T Bell Laboratories</organization>
+    </author>
+    <date year="1995" month="August" day="23"/>
+    <abstract>
+      <t>HTTP, the protocol that underpins the World-Wide Web (WWW), is stateless. That is, each request stands on its own; origin servers don't need to remember what happened with previous requests to service a new one. Statelessness is a mixed blessing, because there are potential WWW applications, like ``shopping baskets'' and library browsing, for which the history of a user's actions is useful or essential. This proposal outlines a way to introduce state into HTTP. A new request/response header, State-Info, carries the state back and forth, thus relieving the origin server from needing to keep an extensive per-user or per-connection database. The changes required to user agents, origin servers, and proxy servers to support State-Info are very modest.</t>
+    </abstract>
+  </front>
+</reference>

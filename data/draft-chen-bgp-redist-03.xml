@@ -1,0 +1,16 @@
+<reference anchor="I-D.chen-bgp-redist">
+  <front>
+    <title>Deterministic Route Redistribution into BGP</title>
+    <seriesInfo name="Internet-Draft" value="draft-chen-bgp-redist-03"/>
+    <author fullname="Enke Chen">
+      <organization>Palo Alto Networks</organization>
+    </author>
+    <author fullname="Jenny Yuan">
+      <organization>Palo Alto Networks</organization>
+    </author>
+    <date year="2021" month="August" day="12"/>
+    <abstract>
+      <t>In this document we present several examples of non-deterministic routing behavior involving route redistribution into BGP. In order to eliminate such non-deterministic behavior, we propose an enhancement to BGP route selection that would take into account the administrative distance under certain conditions. We also recommend that the LOCAL_PREF value be reduced for the redistributed backup route, and be calculated automatically based on the administrative distance.</t>
+    </abstract>
+  </front>
+</reference>

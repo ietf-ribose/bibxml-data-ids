@@ -1,0 +1,17 @@
+<reference anchor="I-D.murchison-tzdist-tzif">
+  <front>
+    <title>The Time Zone Information Format (TZif)</title>
+    <seriesInfo name="Internet-Draft" value="draft-murchison-tzdist-tzif-00"/>
+    <author fullname="Arthur David Olson" initials="A. D." surname="Olson"/>
+    <author fullname="Paul Eggert" initials="P." surname="Eggert">
+      <organization>University of California, Los Angeles</organization>
+    </author>
+    <author fullname="Kenneth Murchison" initials="K." surname="Murchison">
+      <organization>FastMail Pty Ltd.</organization>
+    </author>
+    <date year="2017" month="November" day="27"/>
+    <abstract>
+      <t>This document defines the Time Zone Information File Format for representing and exchanging time zone information, independent of any particular service or protocol. A MIME media type for this format is also defined.Open Issues o Need to review definitions of terms. o Should we require TZDIST servers to always return a particular format (2 or 3) with/without leap seconds? Or should we allow the client to choose what they want (via parameters on the MIME type)? o Are we referencing the correct and most current versions of the relevant POSIX specs? o Is the MIME registration complete and correct (e.g. any security or privacy considerations)?</t>
+    </abstract>
+  </front>
+</reference>

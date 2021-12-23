@@ -1,0 +1,13 @@
+<reference anchor="I-D.stewart-tsvwg-sctpstrrst">
+  <front>
+    <title>Stream Control Transmission Protocol (SCTP) Stream Reconfiguration</title>
+    <seriesInfo name="Internet-Draft" value="draft-stewart-tsvwg-sctpstrrst-01"/>
+    <author fullname="Randall Stewart"/>
+    <author fullname="Peter Lei"/>
+    <author fullname="Michael Tuexen"/>
+    <date year="2009" month="February" day="16"/>
+    <abstract>
+      <t>Many applications that desire to use SCTP have requested the abilityto "reset" a stream. The intention of resetting a stream is to startthe numbering sequence of the stream back at 'zero' with acorresponding notification to the upper layer that this act as beenperformed. The applications that have requested this featurenormally desire it so that they can "re-use" streams for differentpurposes but still utilize the stream sequence number for theapplication to track the message flows. Thus, without this feature,a new use on an old stream would result in message numbers largerthan expected without a protocol mechanism to "start the streams backat zero". This documents presents also a method for resetting thetransport sequence numbers and all stream sequence numbers.</t>
+    </abstract>
+  </front>
+</reference>

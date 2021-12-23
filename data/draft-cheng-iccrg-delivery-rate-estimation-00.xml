@@ -1,0 +1,22 @@
+<reference anchor="I-D.cheng-iccrg-delivery-rate-estimation">
+  <front>
+    <title>Delivery Rate Estimation</title>
+    <seriesInfo name="Internet-Draft" value="draft-cheng-iccrg-delivery-rate-estimation-00"/>
+    <author fullname="Yuchung Cheng" initials="Y." surname="Cheng">
+      <organization>Google, Inc</organization>
+    </author>
+    <author fullname="Neal Cardwell" initials="N." surname="Cardwell">
+      <organization>Google, Inc</organization>
+    </author>
+    <author fullname="Soheil Hassas Yeganeh" initials="S. H." surname="Yeganeh">
+      <organization>Google, Inc</organization>
+    </author>
+    <author fullname="Van Jacobson" initials="V." surname="Jacobson">
+      <organization>Google, Inc</organization>
+    </author>
+    <date year="2017" month="July" day="3"/>
+    <abstract>
+      <t>This document describes a generic algorithm for a transport protocol sender to estimate the current delivery rate of its data. At a high level, the algorithm estimates the rate at which the network delivered the most recent flight of outbound data packets for a single flow. In addition, it tracks whether the rate sample was application-limited, meaning the transmission rate was limited by the application rather than the congestion control algorithm. This algorithm can be implemented in any transport protocol that supports packet-delivery acknowledgment (thus far, open source implementations are available for TCP [RFC793] and QUIC [draft-ietf-quic-transport-00]).</t>
+    </abstract>
+  </front>
+</reference>

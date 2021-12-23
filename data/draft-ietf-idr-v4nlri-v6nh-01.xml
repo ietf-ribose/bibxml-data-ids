@@ -1,0 +1,12 @@
+<reference anchor="I-D.ietf-idr-v4nlri-v6nh">
+  <front>
+    <title>Advertising an IPv4 NLRI with an IPv6 Next Hop</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-v4nlri-v6nh-01"/>
+    <author fullname="Francois Le Faucheur"/>
+    <author fullname="Eric Rosen"/>
+    <date year="2007" month="October" day="16"/>
+    <abstract>
+      <t>MultiProtocol-BGP (MP-BGP) specifies that the set of Network Layerprotocols to which the address carried in the Next Hop field maybelong is determined by the Address Family Identifier (AFI) and theSubsequent Address Family Identifier (SAFI). The current AFI/SAFIdefinitions for the IPv4 address family only have provisions foradvertising a Next Hop address that belongs to the IPv4 protocol whenadvertising an IPv4 Network Layer Reachability Information (NLRI) ora VPN-IPv4 NLRI. This document specifies the extensions necessary toallow advertising an IPv4 NLRI or a VPN-IPv4 NLRI with a Next Hopaddress that belongs to the IPv6 protocol. This comprises anextension of the AFI/SAFI definitions to allow the address of theNext Hop for an IPv4 NLRI or VPN-IPv4 NLRI to also belong to the IPv6protocol, the encoding of the Next Hop in order to determine which ofthe protocols the address actually belongs to, and a new BGPCapability allowing MP-BGP Peers to dynamically discover whether theycan exchange IPv4 NLRI and VPN-IPv4 NLRI with an IPv6 Next Hop.</t>
+    </abstract>
+  </front>
+</reference>

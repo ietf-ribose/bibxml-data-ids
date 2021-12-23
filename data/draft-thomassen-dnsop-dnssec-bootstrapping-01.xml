@@ -1,0 +1,16 @@
+<reference anchor="I-D.thomassen-dnsop-dnssec-bootstrapping">
+  <front>
+    <title>Automatic Commissioning of New Signers: Solving the DNSSEC Bootstrapping Problem using Authenticated Signals from the Zone's Operator</title>
+    <seriesInfo name="Internet-Draft" value="draft-thomassen-dnsop-dnssec-bootstrapping-01"/>
+    <author fullname="Peter Thomassen" initials="P." surname="Thomassen">
+      <organization>deSEC, Secure Systems Engineering</organization>
+    </author>
+    <author fullname="Nils Wisiol" initials="N." surname="Wisiol">
+      <organization>deSEC, Technische Universität Berlin</organization>
+    </author>
+    <date year="2021" month="September" day="23"/>
+    <abstract>
+      <t>This document describes an authenticated in-band method for automatic signaling of a Child DNS zone's delegation signer information from the zone's DNS operator(s). The zone's registrar or registry may subsequently use this signal for automatic DS record provisioning in the parent zone. The protocol is particularly useful in case of managed DNS providers hosting registrant's domains, where DS provisioning has so far been cumbersome. The signaling channel is not specific to the DS bootstrapping use case, but equally suitable for announcing other zone-specific information from the DNS Operator in an authenticated fashion. Further potential applications thus include, for example, key exchange between parties in an [RFC8901] multisigner setup. [ Ed note: Text inside square brackets ([]) is additional background information, answers to frequently asked questions, general musings, etc. They will be removed before publication. This document is being collaborated on at https://github.com/desec-io/draft-thomassen- dnsop-dnssec-bootstrapping/ (https://github.com/desec-io/draft- thomassen-dnsop-dnssec-bootstrapping/). The most recent version of the document, open issues, etc. should all be available there. The authors gratefully accept pull requests. ]</t>
+    </abstract>
+  </front>
+</reference>

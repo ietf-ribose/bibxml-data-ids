@@ -1,0 +1,25 @@
+<reference anchor="I-D.pmohapat-idr-acceptown-community">
+  <front>
+    <title>BGP ACCEPT_OWN Well-known Community Attribute</title>
+    <seriesInfo name="Internet-Draft" value="draft-pmohapat-idr-acceptown-community-01"/>
+    <author fullname="John Scudder" initials="J." surname="Scudder">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="David J. Smith" initials="D. J." surname="Smith">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Robert Raszuk" initials="R." surname="Raszuk">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Jim Uttaro" initials="J." surname="Uttaro">
+      <organization>AT&amp;T</organization>
+    </author>
+    <author fullname="Prodosh Mohapatra" initials="P." surname="Mohapatra">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date year="2008" month="April" day="25"/>
+    <abstract>
+      <t>It may be useful for a BGP speaker in an autonomous system to receive and accept its own advertised route from a route reflector with more fine-grained route control. For example, the route reflector can change certain attributes of a route as desired, and then re- advertise it back to the originator. Though it is possible to perform such policy control directly at the originator, it may be operationally cumbersome in a network with a large number of border routers having complex BGP policies. This draft defines a new and well-known BGP community value, ACCEPT_OWN, that signals a BGP speaker to accept an UPDATE message and process the associated routes even when the ORIGINATOR_ID or the NEXT_HOP matches that of the receiving speaker.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,13 @@
+<reference anchor="I-D.mahy-sipping-connect-reuse-reqs">
+  <front>
+    <title>Requirements for Connection Reuse in the Session Initiation Protocol (SIP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-mahy-sipping-connect-reuse-reqs-00"/>
+    <author fullname="Rohan Mahy" initials="R." surname="Mahy">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date year="2002" month="June" day="19"/>
+    <abstract>
+      <t>When SIP entities use a connection oriented protocol to send arequest, they typically originate their connections from an ephemeralport. The SIP protocol includes mechanisms which insure thatresponses to a request, and new requests sent in original directionreuse an existing connection. However, new requests sent in theopposite direction are unlikely to reuse the existing connection.This frequently causes a pair of SIP entities to use one connectionfor requests sent in each direction, and can result in potentialscaling and performance problems. This document presentsrequirements for addressing this shortcoming, and separately proposesan example mechanism which addresses this deficiency.</t>
+    </abstract>
+  </front>
+</reference>

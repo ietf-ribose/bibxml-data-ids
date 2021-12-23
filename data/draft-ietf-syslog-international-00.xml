@@ -1,0 +1,14 @@
+<reference anchor="I-D.ietf-syslog-international">
+  <front>
+    <title>Syslog-international Protocol
+</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-syslog-international-00"/>
+    <author fullname="Rainer Gerhards" initials="R." surname="Gerhards">
+      <organization>Adiscon GmbH</organization>
+    </author>
+    <date year="2003" month="August" day="1"/>
+    <abstract>
+      <t>This document describes syslog-international, a mechanism addingsupport for international character sets to syslog.Syslog-international provides these features in a way that has norequirements and no impact on existing syslog implementations. It ispossible to support syslog-international and gain some of itsfunctionality by only changing the behavior of the devices generatingsyslog messages. Some additional processing of the received syslogmessages may realize additional benefits. There is no need to changesyslog relays in order to support syslog-international. Existingsyslog implementations will benefit from the fact thatsyslog-international supporting devices emit proper syslog messagesin all cases. It is common practice for many non-syslog-internationalclients to accidently emit 8 bit characters if used in e.g. Europeanlanguage environments. Syslog-international just adds a protocollayer to the MSG part of the syslog message. As such, it iscompatible with all existing and future implementations of syslog.</t>
+    </abstract>
+  </front>
+</reference>

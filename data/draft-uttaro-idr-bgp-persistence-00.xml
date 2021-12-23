@@ -1,0 +1,18 @@
+<reference anchor="I-D.uttaro-idr-bgp-persistence">
+  <front>
+    <title>BGP Persistence</title>
+    <seriesInfo name="Internet-Draft" value="draft-uttaro-idr-bgp-persistence-00"/>
+    <author fullname="Adam Simpson" initials="A." surname="Simpson"/>
+    <author fullname="Bruno Decraene" initials="B." surname="Decraene"/>
+    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils"/>
+    <author fullname="Jim Uttaro" initials="J." surname="Uttaro"/>
+    <author fullname="John Scudder" initials="J." surname="Scudder"/>
+    <author fullname="Prodosh Mohapatra" initials="P." surname="Mohapatra"/>
+    <author fullname="Rob Shakir" initials="R." surname="Shakir"/>
+    <author fullname="Yakov Rekhter" initials="Y." surname="Rekhter"/>
+    <date year="2011" month="October" day="20"/>
+    <abstract>
+      <t>For certain AFI/SAFI combinations it is desirable that a BGP speaker be able to retain routing state learned over a session that has terminated. By maintaining routing state forwarding may be preserved. This technique works effectively as long as the AFI/SAFI is primarily used to realize services that do not depend on exchanging BGP routing state with peers or customers. There may be exceptions based upon the amount and frequency of route exchange that allow for this technique. Generally the BGP protocol tightly couples the viability of a session and the routing state that is learned over it. This is driven by the history of the protocol and it's application in the internet space as a vehicle to exchange routing state between administrative authorities. This document addresses new services whose requirements for persistence diverge from the Internet routing point of view.</t>
+    </abstract>
+  </front>
+</reference>

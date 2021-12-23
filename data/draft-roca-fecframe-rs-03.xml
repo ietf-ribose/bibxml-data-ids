@@ -1,0 +1,15 @@
+<reference anchor="I-D.roca-fecframe-rs">
+  <front>
+    <title>Reed-Solomon Forward Error Correction (FEC) Schemes for FECFRAME</title>
+    <seriesInfo name="Internet-Draft" value="draft-roca-fecframe-rs-03"/>
+    <author fullname="Vincent Roca"/>
+    <author fullname="Mathieu Cunche"/>
+    <author fullname="Jerome Lacan"/>
+    <author fullname="Amine Bouabdallah"/>
+    <author fullname="Kazuhisa Matsuzono"/>
+    <date year="2010" month="July" day="12"/>
+    <abstract>
+      <t>This document describes two fully-specified simple FEC schemes forReed-Solomon codes that can be used to protect media streams alongthe lines defined by the FECFRAME framework. Reed-Solomon codesbelong to the class of Maximum Distance Separable (MDS) codes whichmeans they offer optimal protection against packet erasures. Theyare also systematic codes, which means that the source symbols arepart of the encoding symbols. The price to pay is a limit on themaximum source block size, on the maximum number of encoding symbols,and a computational complexity higher than that of LDPC codes forinstance.The first scheme is for Reed-Solomon codes over GF(2^^m), with 2 &lt;= m&lt;= 16 and arbitrary packet flows. The second scheme is similar tothe first scheme, with the exception that it is restricted to asingle sequenced flow.</t>
+    </abstract>
+  </front>
+</reference>

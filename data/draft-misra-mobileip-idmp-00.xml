@@ -1,0 +1,15 @@
+<reference anchor="I-D.misra-mobileip-idmp">
+  <front>
+    <title>IDMP:  An Intra-Domain  Mobility  Management  Protocol using Mobility Agents
+</title>
+    <seriesInfo name="Internet-Draft" value="draft-misra-mobileip-idmp-00"/>
+    <author fullname="Archan Misra" initials="A." surname="Misra"/>
+    <author fullname="Subir Das" initials="S." surname="Das"/>
+    <author fullname="Anthony McAuley" initials="A." surname="McAuley"/>
+    <author fullname="Ashutosh Dutta" initials="A." surname="Dutta"/>
+    <date year="2000" month="July" day="24"/>
+    <abstract>
+      <t>This document introduces IDMP, a mobility protocol that supportsrouting of datagrams to a mobile node inside a mobility domain. Amobility domain essentially identifies a collection of IP subnets andnetworks that are aggregated together based on factors such asgeographic proximity or administrative control. In addition tosupporting basic redirection of packets to mobile nodes, IDMP alsoprovides fast handoff support, with minimal packet losses due tomobility-related transients, and paging support to reduce thesignaling burden on mobile nodes. IDMP uses two care-of addresses tomanage mobility. The global care-of address identifies the mobile'scurrent domain and remains unchanged as long as the mobile does notchange domains. The local care-of address identifies the mobile'scurrent point of attachment and changes every time a mobile nodechanges subnets. IDMP specifies two types of agents, Subnet Agentsand Mobility Agents, to support this two-layer mobility hierarchy.By using two care-of addresses , IDMP removes the need forhost-specific routing inside the domain and allows the use ofmultiple alternative protocols for supporting global mobility.</t>
+    </abstract>
+  </front>
+</reference>

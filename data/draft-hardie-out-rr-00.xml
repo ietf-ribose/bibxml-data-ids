@@ -1,0 +1,13 @@
+<reference anchor="I-D.hardie-out-rr">
+  <front>
+    <title>A DNS RR for Pointers to RRs outside class IN</title>
+    <seriesInfo name="Internet-Draft" value="draft-hardie-out-rr-00"/>
+    <author fullname="Ted Hardie" initials="T." surname="Hardie">
+      <organization>Nominum, Inc.</organization>
+    </author>
+    <date year="2002" month="June" day="13"/>
+    <abstract>
+      <t>The Domain Name System is a global distributed lookup system withdelegation. In the original specification of the DNS [RFC 1035],CLASSes were described as parallel data structures within a singlenamespace but with potentially different delegations of authority.[BCP 42] defines a different vision, in which different CLASSesrepresent fundamentally different namespaces. Though [BCP 42]includes procedures for assignment of CLASSes, there has beenlittle use of this axis of extensibility; in practice, CLASS IN isthe only widely deployed CLASS in the DNS. The ubiquity of CLASSIN for name to IP address mapping has caused a vicious cycle inwhich extensions are placed within that CLASS to take advantage ofits global deployment, with each addition further increasing itsgravitational attraction. This document describes a ResourceRecord for use within CLASS IN that contains a pointer to a CLASSoutside of IN. This mechanism is intended to allow administratorsto indicate that a named resource identified within CLASS IN isalso present in a different namespace, potentially under a differentname. This cross-class pointer will allow the DNS to handlenew namespaces with mechanisms appropriate to those namespaceswhile providing a connection to the globally deployed CLASS INnamespace.</t>
+    </abstract>
+  </front>
+</reference>

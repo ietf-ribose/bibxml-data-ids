@@ -1,0 +1,13 @@
+<reference anchor="I-D.atlas-ip-local-protect">
+  <front>
+    <title>IP/LDP Local Protection</title>
+    <seriesInfo name="Internet-Draft" value="draft-atlas-ip-local-protect-00"/>
+    <author fullname="Alia Atlas" initials="A." surname="Atlas">
+      <organization>Avici Systems</organization>
+    </author>
+    <date year="2004" month="February" day="9"/>
+    <abstract>
+      <t>This document defines an architecture and selection process forproviding local protection for IP unicast and/or LDP traffic in theevent of a single link or node failure until the router hasconverged. When computing the primary next-hop for a prefix, arouter S also determines an alternate next-hop which can be used ifthe primary next-hop fails. The alternate can be either a loop-freealternate, which goes to a neighbor whose shortest path to the prefixdoes not go back through the router S, or a U-turn alternate, whichgoes to a neighbor whose primary next-hop to the prefix is the routerS, and which has itself a loop-free node-protecting alternate, whichthus does not go through router S to reach the destination prefix.</t>
+    </abstract>
+  </front>
+</reference>

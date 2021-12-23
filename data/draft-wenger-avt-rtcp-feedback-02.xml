@@ -1,0 +1,16 @@
+<reference anchor="I-D.wenger-avt-rtcp-feedback">
+  <front>
+    <title>RTCP-based Feedback: Concepts and Message  Timing Rules</title>
+    <seriesInfo name="Internet-Draft" value="draft-wenger-avt-rtcp-feedback-02"/>
+    <author fullname="Stephan Wenger" initials="S." surname="Wenger">
+      <organization>TU Berlin</organization>
+    </author>
+    <author fullname="Joerg Ott" initials="J." surname="Ott">
+      <organization>Universitaet Bremen TZI</organization>
+    </author>
+    <date year="2001" month="March" day="8"/>
+    <abstract>
+      <t>Real-time media streams are not resilient against packet losses. RTP[1] provides all the necessary mechanisms to restore ordering andtiming to properly reproduce a media stream at the recipient. RTPalso provides continuous feedback about the overall reception qualityfrom all receivers -- thereby allowing the sender(s) in the mid-term(in the order of several seconds to minutes) to adapt their codingscheme and transmission behavior to the observed network QoS.However, except for a few payload specific mechanisms [2], RTP makesno provision for timely feedback that would allow a sender to repairthe media stream immediately: through retransmissions, retro-activeFEC, or media-specific mechanisms such as reference pictureselection.</t>
+    </abstract>
+  </front>
+</reference>

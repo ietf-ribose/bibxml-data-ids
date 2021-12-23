@@ -1,0 +1,12 @@
+<reference anchor="I-D.morin-mboned-mcast-blackhole-mitigation">
+  <front>
+    <title>Multicast blackhole mitigation with PIM adjacency conditions on routing announcements</title>
+    <seriesInfo name="Internet-Draft" value="draft-morin-mboned-mcast-blackhole-mitigation-01"/>
+    <author fullname="Thomas Morin" initials="T." surname="Morin"/>
+    <author fullname="Gregory Cauchie" initials="G." surname="Cauchie"/>
+    <date year="2008" month="February" day="25"/>
+    <abstract>
+      <t>In a network running PIM-SM, multicast traffic can fail to be properly routed and forwarded during some period of time after a topology change, when unicast routing converges to a new path using a new next-hop before multicast routing adjacencies are fully setup with this new next-hop. At this point, a blackhole appears in the multicast topology and persists until the PIM adjacency become fully setup. This document describes different procedures aiming at avoiding such blackholes, focusing on the use of non-congruent unicast routing that takes into account the status of PIM adjacencies.</t>
+    </abstract>
+  </front>
+</reference>

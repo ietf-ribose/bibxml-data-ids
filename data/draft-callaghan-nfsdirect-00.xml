@@ -1,0 +1,16 @@
+<reference anchor="I-D.callaghan-nfsdirect">
+  <front>
+    <title>NFS Direct Data Placement</title>
+    <seriesInfo name="Internet-Draft" value="draft-callaghan-nfsdirect-00"/>
+    <author fullname="Brent Callaghan" initials="B." surname="Callaghan">
+      <organization>Sun Microsystems</organization>
+    </author>
+    <author fullname="Tom Talpey" initials="T." surname="Talpey">
+      <organization>Network Appliance</organization>
+    </author>
+    <date year="2003" month="May" day="15"/>
+    <abstract>
+      <t>The RDMA transport for ONC RPC supports direct data placement for NFSdata. Direct data placement not only reduces the amount of data thatneeds to be copied in an NFS call, but allows much of the datamovement over the network to be implemented in RDMA hardware. Thisdraft describes the use of direct data placement by means of server-initiated RDMA Writes into client-supplied buffers in a Write listfor implementations of NFS versions 2, 3, and 4 over an RDMAtransport.</t>
+    </abstract>
+  </front>
+</reference>

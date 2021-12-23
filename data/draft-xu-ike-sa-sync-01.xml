@@ -1,0 +1,15 @@
+<reference anchor="I-D.xu-ike-sa-sync">
+  <front>
+    <title>IKEv2 SA Synchronization for session resumption</title>
+    <seriesInfo name="Internet-Draft" value="draft-xu-ike-sa-sync-01"/>
+    <author fullname="Yan Xu"/>
+    <author fullname="Peng Yang"/>
+    <author fullname="Yuanchen Ma"/>
+    <author fullname="Hui Deng"/>
+    <author fullname="Hui Deng"/>
+    <date year="2008" month="October" day="7"/>
+    <abstract>
+      <t>It will take a long time and mass computation to do sessionresumption among IKE/IPsec gateways possibly maintaining huge numbersof IKEv2/IPsec SAs, when the serving gateway fails or over-loaded.The major reason is that the prcocedure of IKEv2 SA re-establishmentwill incur a time-consuming computation especially in the Diffie-Hellman exchange. In this draft, a new IKE security associationssynchronization solution is proposed to do fast IKE SA sessionresumption by directly transferring the indexed IKE SA (named stub)from old gateway to new gateway, wherein the most expensive Diffie-Hellman calculation can be avoided. Without some time-consumingIKEv2 exchanges, the huge amount of IKE/IPsec SA session resumptionprocedures can be finished in a short time.</t>
+    </abstract>
+  </front>
+</reference>

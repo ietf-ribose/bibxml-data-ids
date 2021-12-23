@@ -1,0 +1,25 @@
+<reference anchor="I-D.stewart-tsvwg-prsctp">
+  <front>
+    <title>SCTP Partial Reliability Extension</title>
+    <seriesInfo name="Internet-Draft" value="draft-stewart-tsvwg-prsctp-04"/>
+    <author fullname="Michael A. Ramalho" initials="M. A." surname="Ramalho">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Michael Tüxen" initials="M." surname="Tüxen">
+      <organization>Univ. of Applied Sciences Muenster</organization>
+    </author>
+    <author fullname="Phillip Conrad" initials="P." surname="Conrad">
+      <organization>Temple University</organization>
+    </author>
+    <author fullname="Qiaobing Xie" initials="Q." surname="Xie">
+      <organization>Motorola, Inc.</organization>
+    </author>
+    <author fullname="Randall R. Stewart" initials="R. R." surname="Stewart">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date year="2003" month="May" day="19"/>
+    <abstract>
+      <t>This memo describes an extension to the Stream Control TransmissionProtocol (SCTP) RFC2960 [4] that allows an SCTP endpoint to signal toits peer that it should move the cumulative ack point forward. Whenboth sides of an SCTP association support this extension, it can beused by an SCTP implementation to provide partially reliable datatransmission service to an upper layer protocol. This memo describes(1) the protocol extensions, which consist of a new parameter forINIT and INIT ACK, and a new FORWARD TSN chunk type (2) one examplepartially reliable service that can be provided to the upper layervia this mechanism.</t>
+    </abstract>
+  </front>
+</reference>

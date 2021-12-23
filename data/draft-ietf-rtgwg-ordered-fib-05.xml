@@ -1,0 +1,14 @@
+<reference anchor="I-D.ietf-rtgwg-ordered-fib">
+  <front>
+    <title>Loop-free convergence using oFIB</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-rtgwg-ordered-fib-05"/>
+    <author fullname="Mike Shand" initials="M." surname="Shand"/>
+    <author fullname="Stewart Bryant" initials="S." surname="Bryant"/>
+    <author fullname="Stefano Previdi" initials="S." surname="Previdi"/>
+    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils"/>
+    <date year="2011" month="April" day="20"/>
+    <abstract>
+      <t>This document describes a mechanism for use in conjunction with linkstate routing protocols which prevents the transient loops whichwould otherwise occur during topology changes. It does this bycorrectly sequencing the FIB updates on the routers.This mechanism can be used in the case of non-urgent link or nodeshutdowns and restarts or link metric changes. It can also be usedin conjunction with a fast re-route mechanism which converts a suddenlink or node failure into a non-urgent topology change. This ispossible where a complete repair path is provided for all affecteddestinations.After a non-urgent topology change, each router computes a rank thatdefines the time at which it can safely update its FIB. A method foraccelerating this loop-free convergence process by the use ofcompletion messages is also described.The technology described in this document has been subject toextensive simulation using real network topologies and costs, andpathological convergence behaviour. A variant of the technologydescribed here has been experimentally deployed in a productionnetwork.</t>
+    </abstract>
+  </front>
+</reference>

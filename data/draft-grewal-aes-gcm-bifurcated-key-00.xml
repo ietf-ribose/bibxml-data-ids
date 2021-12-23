@@ -1,0 +1,12 @@
+<reference anchor="I-D.grewal-aes-gcm-bifurcated-key">
+  <front>
+    <title>AES-GCM using two independent keys</title>
+    <seriesInfo name="Internet-Draft" value="draft-grewal-aes-gcm-bifurcated-key-00"/>
+    <author fullname="Ken Grewal"/>
+    <author fullname="Men long"/>
+    <date year="2010" month="June" day="28"/>
+    <abstract>
+      <t>This document describes modifications to the AES-GCM algorithm to allow separation of the data authenticity and data confidentiality keys, while preserving the performance benefits of the algorithm. When AES-GCM is applied to network protocols such as IPsec and TLS, separation of these keys allows the data confidentiality key to be shared with trusted intermediary nodes on the network, while preserving the data authenticity functions in an end-to-end manner. The current definition of AES-GCM uses a single key for confidentiality and authenticity hence it is not possible to share the key with trusted network nodes, without compromising the data authenticity functions.</t>
+    </abstract>
+  </front>
+</reference>

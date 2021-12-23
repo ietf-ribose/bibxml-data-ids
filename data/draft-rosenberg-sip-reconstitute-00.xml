@@ -1,0 +1,13 @@
+<reference anchor="I-D.rosenberg-sip-reconstitute">
+  <front>
+    <title>Reconsituting Call State in SIP User Agents</title>
+    <seriesInfo name="Internet-Draft" value="draft-rosenberg-sip-reconstitute-00"/>
+    <author fullname="Jonathan Rosenberg" initials="J." surname="Rosenberg">
+      <organization>dynamicsoft</organization>
+    </author>
+    <date year="2001" month="July" day="18"/>
+    <abstract>
+      <t>In a SIP network, call and session state resides in the user agentsat the edge of the network. These user agents can be elements such asgateways, conferencing servers, and media servers whose availabilityis important for service delivery. In order to achieve faulttolerance for these user agents, this state must somehow bereplicated to backup servers. Traditionally, replication is donethrough direct memory copies between a primary and its backup.However, the soft-state nature of SIP re-INVITEs means that analternate mechanism for call state replication is possible. Thisdocument proposes mechanisms for reconstituting call state in a UAthrough triggered re-INVITEs from a peer.</t>
+    </abstract>
+  </front>
+</reference>

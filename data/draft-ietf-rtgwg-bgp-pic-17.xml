@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-rtgwg-bgp-pic">
+  <front>
+    <title>BGP Prefix Independent Convergence</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-rtgwg-bgp-pic-17"/>
+    <author fullname="Ahmed Bashandy">
+      <organization>Individual Contributor</organization>
+    </author>
+    <author fullname="Clarence Filsfils">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Prodosh Mohapatra">
+      <organization>Sproute Networks</organization>
+    </author>
+    <date year="2021" month="October" day="12"/>
+    <abstract>
+      <t>In a network comprising thousands of BGP peers exchanging millions ofroutes, many routes are reachable via more than one next-hop. Giventhe large scaling targets, it is desirable to restore traffic afterfailure in a time period that does not depend on the number of BGPprefixes. In this document we proposed an architecture by whichtraffic can be re-routed to ECMP or pre-calculated backup paths in atimeframe that does not depend on the number of BGP prefixes. Theobjective is achieved through organizing the forwarding datastructures in a hierarchical manner and sharing forwarding elementsamong the maximum possible number of routes. The proposed techniqueachieves prefix independent convergence while ensuring incrementaldeployment, complete automation, and zero management and provisioningeffort. It is noteworthy to mention that the benefits of BGP PrefixIndependent Convergence (BGP-PIC) are hinged on the existence of morethan one path whether as ECMP or primary-backup.</t>
+    </abstract>
+  </front>
+</reference>

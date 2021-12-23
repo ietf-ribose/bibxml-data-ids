@@ -1,0 +1,15 @@
+<reference anchor="I-D.wiget-dynamic-vpls">
+  <front>
+    <title>Dynamic VPLS solution over multicast enabled IP backbone</title>
+    <seriesInfo name="Internet-Draft" value="draft-wiget-dynamic-vpls-00"/>
+    <author fullname="Marcel Wiget" initials="M." surname="Wiget">
+      <organization>Simon Bryden</organization>
+    </author>
+    <author fullname="Geoffrey Mattson" initials="G." surname="Mattson"/>
+    <author fullname="Simon D. Bryden" initials="S. D." surname="Bryden"/>
+    <date year="1999" month="December" day="6"/>
+    <abstract>
+      <t>This document describes an experimental serverless solution to buildVirtual Private LAN Segments (VPLS) for TCP/IP over a multicastenabled IP backbone. IP traffic is encapsulated in IPsec [RFC2401]tunnel mode. IP broadcast and multicast traffic is sent, afterencapsulation in IPSec tunnel mode, to the VPN assigned IP multicastaddress. IP unicast traffic, after encapsulation, is sent directlyto the dynamically learned IP tunnel endpoint address. MulticastEnabled ARP (ME-ARP) as defined in this document is used todynamically build the mapping between IP addresses and remote tunnelendpoints. The tunnel endpoint information is hidden in the hardwareaddress given to IP devices in the ARP reply. Therefore IP devicesparticipating in a VPLS keep track of the remote locations of otherVPLS members through their own ARP table without 'knowledge'.</t>
+    </abstract>
+  </front>
+</reference>

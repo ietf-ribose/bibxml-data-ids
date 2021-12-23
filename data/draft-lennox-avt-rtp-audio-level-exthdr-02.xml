@@ -1,0 +1,19 @@
+<reference anchor="I-D.lennox-avt-rtp-audio-level-exthdr">
+  <front>
+    <title>A Real-Time Transport Protocol (RTP) Header Extension for Client-to- Mixer Audio Level Indication</title>
+    <seriesInfo name="Internet-Draft" value="draft-lennox-avt-rtp-audio-level-exthdr-02"/>
+    <author fullname="Jonathan Lennox" initials="J." surname="Lennox">
+      <organization>Vidyo</organization>
+    </author>
+    <author fullname="Emil Ivov" initials="E." surname="Ivov">
+      <organization>SIP Communicator</organization>
+    </author>
+    <author fullname="Enrico Marocco" initials="E." surname="Marocco">
+      <organization>Telecom Italia</organization>
+    </author>
+    <date year="2010" month="July" day="11"/>
+    <abstract>
+      <t>This document defines a mechanism by which packets of Real-TimeTransport Protocol (RTP) audio streams can indicate, in an RTP headerextension, the audio level of the audio sample carried in the RTPpacket. In large conferences, this can reduce the load on an audiomixer or other middlebox which wants to forward only a few of theloudest audio streams, without requiring it to decode and measureevery stream that is received.</t>
+    </abstract>
+  </front>
+</reference>

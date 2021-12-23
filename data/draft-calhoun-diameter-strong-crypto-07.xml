@@ -1,0 +1,19 @@
+<reference anchor="I-D.calhoun-diameter-strong-crypto">
+  <front>
+    <title>DIAMETER Strong Security Extension</title>
+    <seriesInfo name="Internet-Draft" value="draft-calhoun-diameter-strong-crypto-07"/>
+    <author fullname="Pat R. Calhoun" initials="P. R." surname="Calhoun">
+      <organization>Sun Microsystems</organization>
+    </author>
+    <author fullname="William Bulley" initials="W." surname="Bulley">
+      <organization>Merit Network</organization>
+    </author>
+    <author fullname="Stephen Farrell" initials="S." surname="Farrell">
+      <organization>Baltimore Technologies</organization>
+    </author>
+    <date year="2001" month="March" day="6"/>
+    <abstract>
+      <t>The DIAMETER base protocol defines message integrity and AVPencryption using symmetric transforms to secure the communicationbetween two DIAMETER nodes. The base protocol also defines a DIAMETERproxy server, that forwards requests to other servers when it detectsthat a given request cannot be satisfied locally.The ROAMOPS Working Group has defined a requirement that allows forthe DIAMETER servers communicating through the proxy to be able toprovide for end-to-end AVP integrity and confidentiality, making itdifficult for the proxy to be able to modify, and/or be able to viewsensitive information, within the message. The Mobile-IP and NASREQWorking Groups have stated that strong authentication is arequirement for AAA data, such as accounting records, for thepurposes of non-repudiation.This DIAMETER extension specifies how strong AVP authentication,integrity and encryption can be done using asymmetric transforms, byencapsulating Cryptographic Message Syntax (CMS) data into DIAMETERAVPs. The CMS data can also be used to carry X.509 certificates.</t>
+    </abstract>
+  </front>
+</reference>

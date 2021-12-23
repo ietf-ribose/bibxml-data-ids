@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-dnsop-kskroll-sentinel">
+  <front>
+    <title>A Root Key Trust Anchor Sentinel for DNSSEC</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-kskroll-sentinel-17"/>
+    <author fullname="Geoff Huston">
+      <organization>APNIC</organization>
+    </author>
+    <author fullname="Joao Silva Damas">
+      <organization>APNIC</organization>
+    </author>
+    <author fullname="Warren Kumari">
+      <organization>Google</organization>
+    </author>
+    <date year="2018" month="October" day="21"/>
+    <abstract>
+      <t>The DNS Security Extensions (DNSSEC) were developed to provide origin authentication and integrity protection for DNS data by using digital signatures. These digital signatures can be verified by building a chain of trust starting from a trust anchor and proceeding down to a particular node in the DNS. This document specifies a mechanism that will allow an end user and third parties to determine the trusted key state for the root key of the resolvers that handle that user's DNS queries. Note that this method is only applicable for determining which keys are in the trust store for the root key.</t>
+    </abstract>
+  </front>
+</reference>

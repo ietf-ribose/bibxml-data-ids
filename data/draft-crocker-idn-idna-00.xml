@@ -1,0 +1,11 @@
+<reference anchor="I-D.crocker-idn-idna">
+  <front>
+    <title>Internationalizing Domain Names in Applications (IDNA)</title>
+    <seriesInfo name="Internet-Draft" value="draft-crocker-idn-idna-00"/>
+    <author fullname="Dave Crocker" initials="D." surname="Crocker"/>
+    <date year="2002" month="June" day="25"/>
+    <abstract>
+      <t>Internationalized Domain Names (IDN) use Unicode fordomain name, rather than using a subset of ASCII. Thisincreased name space, as well the requirement tomaintain compatibility with the existing domain nameservice means that IDNs must be encoded in a form thatcan be supported without changes to any portion of theDNS that does not participate in the upgrade to IDN.This specification defines a mechanism called IDNA forhandling them in a standard fashion and specifies anIDNA profile for domain names used as host references.IDNA allows non-ASCII characters to be represented usingthe same octets used in so-called host names today. Thisrepresentation allows IDNs to be introduced with minimalchanges to the existing DNS infrastructure. IDNA is onlymeant for processing domain names, not free text.</t>
+    </abstract>
+  </front>
+</reference>

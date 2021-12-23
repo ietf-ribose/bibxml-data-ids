@@ -1,0 +1,19 @@
+<reference anchor="I-D.glaude-ss7-gw">
+  <front>
+    <title>SS7 to IP Signaling Gateway Transport Architecture</title>
+    <seriesInfo name="Internet-Draft" value="draft-glaude-ss7-gw-00"/>
+    <author fullname="Normand Glaude" initials="N." surname="Glaude">
+      <organization>MicroLegend Telecom Systems Inc.</organization>
+    </author>
+    <author fullname="Tom Blain" initials="T." surname="Blain">
+      <organization>MicroLegend Telecom Systems Inc.</organization>
+    </author>
+    <author fullname="Reg Cable" initials="R." surname="Cable">
+      <organization>MicroLegend Telecom Systems Inc.</organization>
+    </author>
+    <date year="1998" month="December" day="14"/>
+    <abstract>
+      <t>This memo defines an architectural framework for transporting SS7signaling information over Internet Protocol networks. It describes aSignaling Gateway which acts as a bridge between the SS7 and IPnetworks. The Signaling Gateway can be configured as an SS7 end-nodeor as a Signal Transfer Point (STP) deployed singly or in a mated pairconfiguration. An application program interface (API) allows multipleremote devices, such as Media Gateways and Media Gateway Controllers,to register with the Signaling Gateway using TCP or UDP. The APIconsists of MTP and SCCP primitives which remote devices can use tosend and receive ISUP and TCAP messages to effect PSTN call control andaccess Intelligent Network databases. The MTP and SCCP primitivesensure that application states (available, unavailable or congested)are propagated into the SS7 network. This memo also identifies some functional and performance requirementsfor SS7 signaling transport to IP-based application processes residingon one or more client hosts.</t>
+    </abstract>
+  </front>
+</reference>

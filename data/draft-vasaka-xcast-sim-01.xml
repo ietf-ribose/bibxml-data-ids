@@ -1,0 +1,11 @@
+<reference anchor="I-D.vasaka-xcast-sim">
+  <front>
+    <title>Sender Initiated Multicast (SIM)</title>
+    <seriesInfo name="Internet-Draft" value="draft-vasaka-xcast-sim-01"/>
+    <author fullname="Vasaka Visoottiviseth" initials="V." surname="Visoottiviseth"/>
+    <date year="2003" month="March" day="5"/>
+    <abstract>
+      <t>Sender Initiated Multicast (SIM) is a point-to-multipoint multicastmechanism. SIM will not replace the existing multicast protocol, butwill be a subset of entire multicast protocol suite. Its design goalsare to gain more simplicity than the traditional IP multicast and togain less header-processing overhead than the Xcast protocol. Iteliminates the cost of allocating global multicast address, byrouting packets according to receiver unicast addresses attached topacket headers. Access control can be introduced before, members ofa receiving group are explicitly specified by the sender. A group isidentified by the combination of sender's unicast address and amulticast group address. The key feature of SIM is in its Presetmode, which can lessen the costs of route lookups and provides cost-efficient packet forwarding by using a SIM Forwarding InformationBase (FIB) maintained on routers. Moreover, a SIM tunnel will beautomatically created between two routers that act as multicastbranching points. Therefore, SIM can gain scalability by maintainingFIB entries only on the branching routers.In this document, we describe SIM including its delivery models, SIMFIB operations, the formats, and security considerations.</t>
+    </abstract>
+  </front>
+</reference>

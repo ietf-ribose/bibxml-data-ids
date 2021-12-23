@@ -1,0 +1,16 @@
+<reference anchor="I-D.kompella-lsp-hierarchy">
+  <front>
+    <title>LSP hierarchy with MPLS TE</title>
+    <seriesInfo name="Internet-Draft" value="draft-kompella-lsp-hierarchy-00"/>
+    <author fullname="Yakov Rekhter" initials="Y." surname="Rekhter">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Kireeti Kompella" initials="K." surname="Kompella">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2000" month="June" day="19"/>
+    <abstract>
+      <t>To improve scalability of MPLS TE it may be useful to aggregate TELSPs. The aggregation is accomplished by (a) an LSR creating a TELSP, (b) the LSR forming a forwarding adjacency out of that LSP(advertising this LSP as a link into ISIS/OSPF), (c) allowing otherLSRs to use forwarding adjacencies for their path computation, and(d) nesting of LSPs originated by other LSRs into that LSP (by usingthe label stack construct).This document describes the mechanisms to accomplish this.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,12 @@
+<reference anchor="I-D.ietf-ipsra-getcert">
+  <front>
+    <title>Client Certificate and Key Retrieval for IKE</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ipsra-getcert-00"/>
+    <author fullname="Steven M. Bellovin" initials="S. M." surname="Bellovin"/>
+    <author fullname="Robert Moskowitz" initials="R." surname="Moskowitz"/>
+    <date year="2000" month="November" day="16"/>
+    <abstract>
+      <t>IKE was designed for use with certificates. In a remote accessscenario, that implies that clients must possess their owncertificates. We leverage off of work already done to fast-startcertificate use with IPsec via the Simple Certificate EnrollmentProtocol [SCEP]. We use only parts of SCEP over a clientauthenticated TLS/HTTP connection to a CA. By using TLS, the clientcan trust a CA root certificate it receives, without an out-of-bandverification and the CA can perform automatic enrollment. We replacethe out-of-band client identification process for a certificateenrollment with a legacy authentication, like RADIUS. Further, sincethe certificates issued here are short-lived, there is no need tosupport client-based revocation or rekeying. Also, there istypically no need for CRL support.</t>
+    </abstract>
+  </front>
+</reference>

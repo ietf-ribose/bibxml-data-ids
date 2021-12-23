@@ -1,0 +1,13 @@
+<reference anchor="I-D.zzhang-idr-tunnel-encapsulation-label-stack">
+  <front>
+    <title>MPLS Label Stacks in Tunnel Encapsulation Attribute</title>
+    <seriesInfo name="Internet-Draft" value="draft-zzhang-idr-tunnel-encapsulation-label-stack-00"/>
+    <author fullname="Zhaohui Zhang">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2021" month="July" day="8"/>
+    <abstract>
+      <t>[RFC9012] defines an MPLS Label Stack sub-TLV for Tunnel Encapsulation Attribute, and specifies that it is to be pushed BEFORE other labels. This document clarifies the use case for that, and defines a new Tunnel Label Stack sub-TLV for a label stack to be pushed AFTER other labels (e.g., the label embedded in the NLRI for a labeled address family, and/or the stack in an MPLS Label Stack sub- TLV).</t>
+    </abstract>
+  </front>
+</reference>

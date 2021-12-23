@@ -1,0 +1,11 @@
+<reference anchor="I-D.atlas-ip-local-protect-uturn">
+  <front>
+    <title>U-turn Alternates for IP/LDP Fast-Reroute</title>
+    <seriesInfo name="Internet-Draft" value="draft-atlas-ip-local-protect-uturn-03"/>
+    <author fullname="Alia Atlas" initials="A." surname="Atlas"/>
+    <date year="2006" month="March" day="7"/>
+    <abstract>
+      <t>This document defines and describes the use of U-turn alternates toprovide local protection for IP unicast and/or LDP traffic in theevent of a single failure, whether link, node or shared risk linkgroup (SRLG). When a topology change occurs, a router S pre-computesfor each prefix an alternate next-hop that can be used if the primarynext-hop fails. An acceptable alternate can be either a loop-freealternate or a U-turn alternate. A U-turn alternate uses a neighbor,whose primary next-hop to the prefix is router S itself and which hasitself a loop-free node-protecting alternate, which thus does not gothrough router S to reach the destination prefix.</t>
+    </abstract>
+  </front>
+</reference>

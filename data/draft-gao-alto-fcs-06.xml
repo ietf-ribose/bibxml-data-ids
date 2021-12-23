@@ -1,0 +1,25 @@
+<reference anchor="I-D.gao-alto-fcs">
+  <front>
+    <title>ALTO Extension: Flow-based Cost Query</title>
+    <seriesInfo name="Internet-Draft" value="draft-gao-alto-fcs-06"/>
+    <author fullname="Jingxuan Zhang" initials="J." surname="Zhang">
+      <organization>Tongji University</organization>
+    </author>
+    <author fullname="Kai Gao" initials="K." surname="Gao">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Junzhuo Austin Wang" initials="J. A." surname="Wang">
+      <organization>Tongji University</organization>
+    </author>
+    <author fullname="Qiao Xiang" initials="Q." surname="Xiang">
+      <organization>Tongji/Yale University</organization>
+    </author>
+    <author fullname="Y. Richard Yang" initials="Y. R." surname="Yang">
+      <organization>Yale University</organization>
+    </author>
+    <date year="2018" month="July" day="2"/>
+    <abstract>
+      <t>ALTO cost maps and endpoint cost services map a source-destination pair into a cost value. However, current filter specifications, which define the set of source-destination pairs in an ALTO query, have two limitations: 1) Only very limited address types are supported (IPv4 and IPv6), which is not sufficient to uniquely identify a flow in networks with fine-grained routing, such as the emerging Software Defined Networks; 2) The base ALTO protocol only defines filters enumerating all sources and all destinations, leading to redundant information in the response; 3) Cannot distinguish transmission types of flows in the query, which makes the server hard to respond the accurate resource consumption. To address these three issues, this document extends the base ALTO protocol with a more fine-grained filter type which allows ALTO clients to select only the concerned source-destination pairs and announce the flow-specific information like data transmission type, and a more expressive address space which allows ALTO clients to make queries beyond the limited IP addresses.</t>
+    </abstract>
+  </front>
+</reference>

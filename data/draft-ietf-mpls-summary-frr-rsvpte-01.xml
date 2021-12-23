@@ -1,0 +1,28 @@
+<reference anchor="I-D.ietf-mpls-summary-frr-rsvpte">
+  <front>
+    <title>RSVP-TE Summary Fast Reroute Extensions for LSP Tunnels</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-summary-frr-rsvpte-01"/>
+    <author fullname="Mike Taillon" initials="M." surname="Taillon">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Tarek Saad" initials="T." surname="Saad">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Rakesh Gandhi" initials="R." surname="Gandhi">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Abhishek Deshmukh" initials="A." surname="Deshmukh">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Markus Jork" initials="M." surname="Jork">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Vishnu Pavan Beeram" initials="V. P." surname="Beeram">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2018" month="April" day="30"/>
+    <abstract>
+      <t>This document defines Resource Reservation Protocol (RSVP) Traffic- Engineering (TE) signaling extensions that reduce the amount of RSVP signaling required for Fast Reroute (FRR) procedures and subsequently improve the scalability of the RSVP-TE signaling when undergoing FRR convergence after a link or node failure. Such extensions allow the RSVP message exchange between the Point of Local Repair (PLR) and the Merge Point (MP) to be independent of the number of protected Label Switched Paths (LSPs) traversing between them when facility bypass FRR protection is used. The signaling extensions are fully backwards compatible with nodes that do not support them.</t>
+    </abstract>
+  </front>
+</reference>

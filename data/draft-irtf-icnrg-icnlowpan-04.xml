@@ -1,0 +1,28 @@
+<reference anchor="I-D.irtf-icnrg-icnlowpan">
+  <front>
+    <title>ICN Adaptation to LowPAN Networks (ICN LoWPAN)</title>
+    <seriesInfo name="Internet-Draft" value="draft-irtf-icnrg-icnlowpan-04"/>
+    <author fullname="Cenk Gündoğan" initials="C." surname="Gündoğan">
+      <organization>HAW Hamburg</organization>
+    </author>
+    <author fullname="Thomas C. Schmidt" initials="T. C." surname="Schmidt">
+      <organization>HAW Hamburg</organization>
+    </author>
+    <author fullname="Matthias Wählisch" initials="M." surname="Wählisch">
+      <organization>link-lab &amp; FU Berlin</organization>
+    </author>
+    <author fullname="Christopher Scherb" initials="C." surname="Scherb">
+      <organization>University of Basel</organization>
+    </author>
+    <author fullname="Claudio Marxer" initials="C." surname="Marxer">
+      <organization>University of Basel</organization>
+    </author>
+    <author fullname="Christian Tschudin" initials="C." surname="Tschudin">
+      <organization>University of Basel</organization>
+    </author>
+    <date year="2019" month="July" day="22"/>
+    <abstract>
+      <t>This document defines a convergence layer for CCNx and NDN over IEEE 802.15.4 LoWPAN networks. A new frame format is specified to adapt CCNx and NDN packets to the small MTU size of IEEE 802.15.4. For that, syntactic and semantic changes to the TLV-based header formats are described. To support compatibility with other LoWPAN technologies that may coexist on a wireless medium, the dispatching scheme provided by 6LoWPAN is extended to include new dispatch types for CCNx and NDN. Additionally, the link fragmentation component of the 6LoWPAN dispatching framework is applied to ICN chunks. In its second part, the document defines stateless and stateful compression schemes to improve efficiency on constrained links. Stateless compression reduces TLV expressions to static header fields for common use cases. Stateful compression schemes elide state local to the LoWPAN and replace names in data packets by short local identifiers.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,23 @@
+<reference anchor="I-D.ietf-ldapext-namedref">
+  <front>
+    <title>Named Referrals in LDAP Directories</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ldapext-namedref-00"/>
+    <author fullname="Tim Howes" initials="T." surname="Howes">
+      <organization>Netscape Communications Corp.</organization>
+    </author>
+    <author fullname="Mark C. Smith" initials="M. C." surname="Smith">
+      <organization>Netscape Communications Corp.</organization>
+    </author>
+    <author fullname="Mark Wahl" initials="M." surname="Wahl">
+      <organization>Critial Angle</organization>
+    </author>
+    <author fullname="Christopher E. Lukas" initials="C. E." surname="Lukas"/>
+    <author fullname="Michael F. Roszkowski" initials="M. F." surname="Roszkowski">
+      <organization>Netscape Communications Corp.</organization>
+    </author>
+    <date year="1999" month="June" day="9"/>
+    <abstract>
+      <t>This document defines a 'ref' attribute and associated 'referral' objectclass for representing generic knowledge information in LDAP directories[RFC2251]. The attribute uses URIs [RFC1738] to represent knowledge,enabling LDAP and non-LDAP services alike to be referenced. The objectclass can be used to construct entries in an LDAP directory containingreferences to other directories or services. This document also definesprocedures directory servers should follow when supporting these schemaelements and when responding to requests for which the directory serverdoes not contain the requested object but may contain some knowledge ofthe location of the requested object.</t>
+    </abstract>
+  </front>
+</reference>

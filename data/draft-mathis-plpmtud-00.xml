@@ -1,0 +1,11 @@
+<reference anchor="I-D.mathis-plpmtud">
+  <front>
+    <title>Packetization Layer Path MTU Discovery</title>
+    <seriesInfo name="Internet-Draft" value="draft-mathis-plpmtud-00"/>
+    <author fullname="Matt Mathis" initials="M." surname="Mathis"/>
+    <date year="2003" month="February" day="25"/>
+    <abstract>
+      <t>This document describes a new Packetization Layer MTU probingalgorithm which is not subject to the problems associated with thecurrent path MTU discovery algorithms [RFC1191, RFC1981, RFC2923].The general strategy of the new algorithm is to start with a smallMTU and probe upward, testing successively larger MTUs by probingwith single packets. If the probe is successfully delivered, thenthe MTU is raised. If the probe is lost, it is treated as an MTUlimitation and not as a congestion signal.</t>
+    </abstract>
+  </front>
+</reference>

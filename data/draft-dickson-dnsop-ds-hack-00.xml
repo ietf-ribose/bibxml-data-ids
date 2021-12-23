@@ -1,0 +1,13 @@
+<reference anchor="I-D.dickson-dnsop-ds-hack">
+  <front>
+    <title>DS Algorithms for Securing NS and Glue</title>
+    <seriesInfo name="Internet-Draft" value="draft-dickson-dnsop-ds-hack-00"/>
+    <author fullname="Brian Dickson" initials="B." surname="Dickson">
+      <organization>GoDaddy</organization>
+    </author>
+    <date year="2021" month="August" day="11"/>
+    <abstract>
+      <t>This Internet Draft proposes a mechanism to encode relevant data for NS records (and optionally A and AAAA records) on the parental side of a zone cut, by encoding them in new DS algorithms. Since DS records are signed by the parent, this creates a method for validation of the otherwise unsigned delegation and glue records. This is beneficial if the name server _names_ are in a DNSSEC signed zone.</t>
+    </abstract>
+  </front>
+</reference>

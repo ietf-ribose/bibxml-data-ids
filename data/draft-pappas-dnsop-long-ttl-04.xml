@@ -1,0 +1,12 @@
+<reference anchor="I-D.pappas-dnsop-long-ttl">
+  <front>
+    <title>Improving DNS Service Availability by Using Long TTL Values</title>
+    <seriesInfo name="Internet-Draft" value="draft-pappas-dnsop-long-ttl-04"/>
+    <author fullname="Vasileios Pappas"/>
+    <author fullname="Eric Osterweil"/>
+    <date year="2012" month="February" day="23"/>
+    <abstract>
+      <t>Due to the hierarchical tree structure of the Domain Name System [RFC1034][RFC1035], losing all of the authoritative servers that serve a zone can disrupt services to not only that zone but all of its descendants. This problem is particularly severe if all the authoritative servers of the root zone, or of a top level domain's zone, fail. Although proper placement of secondary servers, as discussed in [RFC2182], can be an effective means against isolated failures, it is insufficient to protect the DNS service against a Distributed Denial of Service (DDoS) attack. This document proposes to reduce the impact of DDoS attacks against top level DNS servers by setting long TTL values for NS records and their associated A and AAAA records. Our proposed changes are purely operational and can be deployed incrementally.</t>
+    </abstract>
+  </front>
+</reference>

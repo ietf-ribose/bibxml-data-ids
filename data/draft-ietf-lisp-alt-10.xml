@@ -1,0 +1,14 @@
+<reference anchor="I-D.ietf-lisp-alt">
+  <front>
+    <title>Locator/ID Separation Protocol Alternative Logical Topology (LISP+ALT)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-lisp-alt-10"/>
+    <author fullname="Vince Fuller"/>
+    <author fullname="Dino Farinacci"/>
+    <author fullname="Dave Meyer"/>
+    <author fullname="Darrel Lewis"/>
+    <date year="2011" month="December" day="6"/>
+    <abstract>
+      <t>This document describes a simple distributed index system to be used by a Locator/ID Separation Protocol (LISP) Ingress Tunnel Router (ITR) or Map-Resolver (MR) to find the Egress Tunnel Router (ETR) that holds the mapping information for a particular Endpoint Identifier (EID). The MR can then query that ETR to obtain the actual mapping information, which consists of a list of Routing Locators (RLOCs) for the EID. Termed the Alternative Logical Topology (ALT), the index is built as an overlay network on the public Internet using the Border Gateway Protocol (BGP) and Generic Routing Encapsulation (GRE). This document defines an Experimental Protocol for the Internet community.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,12 @@
+<reference anchor="I-D.ietf-httpbis-key">
+  <front>
+    <title>The Key HTTP Response Header Field</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-httpbis-key-00"/>
+    <author fullname="Roy T. Fielding" initials="R. T." surname="Fielding"/>
+    <author fullname="Mark Nottingham" initials="M." surname="Nottingham"/>
+    <date year="2015" month="October" day="18"/>
+    <abstract>
+      <t>The 'Key' header field for HTTP responses allows an origin server to describe the secondary cache key ([RFC7234], section 4.1) for a resource, by conveying what is effectively a short algorithm that can be used upon later requests to determine if a stored response is reusable for a given request. Key has the advantage of avoiding an additional round trip for validation whenever a new request differs slightly, but not significantly, from prior requests. Key also informs user agents of the request characteristics that might result in different content, which can be useful if the user agent is not sending request header fields in order to reduce the risk of fingerprinting.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,12 @@
+<reference anchor="I-D.pauly-ipsecme-split-dns">
+  <front>
+    <title>Split-DNS Configuration for IKEv2 </title>
+    <seriesInfo name="Internet-Draft" value="draft-pauly-ipsecme-split-dns-00"/>
+    <author fullname="Tommy Pauly" initials="T." surname="Pauly"/>
+    <author fullname="Paul Wouters" initials="P." surname="Wouters"/>
+    <date year="2015" month="September" day="24"/>
+    <abstract>
+      <t>This document defines two new Configuration Payload Attribute Types for the IKEv2 protocol that together define a set of private DNS domains which should be resolved by DNS servers reachable through an IPsec connection, while leaving all other DNS resolution unchanged. This allows for split-DNS views for multiple domains and includes support for private DNSSEC trust anchors. The information obtained via the new attribute types can be used to reconfigure a locally running DNS server with DNS forwarding for specific private domains.</t>
+    </abstract>
+  </front>
+</reference>

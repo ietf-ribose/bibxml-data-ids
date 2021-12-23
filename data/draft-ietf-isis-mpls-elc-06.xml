@@ -1,0 +1,23 @@
+<reference anchor="I-D.ietf-isis-mpls-elc">
+  <front>
+    <title>Signaling Entropy Label Capability and Entropy Readable Label Depth Using IS-IS</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-isis-mpls-elc-06"/>
+    <author fullname="Xiaohu Xu" initials="X." surname="Xu">
+      <organization>Alibaba Inc</organization>
+    </author>
+    <author fullname="Sriganesh Kini" initials="S." surname="Kini"/>
+    <author fullname="Siva Sivabalan" initials="S." surname="Sivabalan">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Stephane Litkowski" initials="S." surname="Litkowski">
+      <organization>Orange</organization>
+    </author>
+    <date year="2018" month="September" day="24"/>
+    <abstract>
+      <t>Multiprotocol Label Switching (MPLS) has defined a mechanism to load balance traffic flows using Entropy Labels (EL). An ingress Label Switching Router (LSR) cannot insert ELs for packets going into a given tunnel unless an egress LSR has indicated via signaling that it has the capability of processing ELs, referred to as Entropy Label Capability (ELC), on that tunnel. In addition, it would be useful for ingress LSRs to know each LSR's capability of reading the maximum label stack depth and performing EL-based load-balancing, referred to as Entropy Readable Label Depth (ERLD), in the cases where stacked LSPs are used for whatever reasons. This document defines mechanisms to signal these two capabilities using IS-IS. These mechanisms are useful when the label advertisement is also done via IS-IS. In addition, this document introduces the Non-IGP Functional Capabilities Sub-TLV for advertising IS-IS router's actual non-IGP functional capabilities. ELC is one of such non-IGP functional capabilities.</t>
+    </abstract>
+  </front>
+</reference>

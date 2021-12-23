@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-dnsind-udp-size">
+  <front>
+    <title>Bigger Domain Name System UDP Replies</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsind-udp-size-02"/>
+    <author fullname="Donald E. Eastlake 3rd" initials="D. E." surname="Eastlake">
+      <organization>3rd</organization>
+    </author>
+    <date year="1998" month="June" day="26"/>
+    <abstract>
+      <t>The Domain Name System defaults to using UDP for queries and replies with a DNS payload limit of 512 bytes. Larger replies cause an initial truncation indication leading to a subsequent handling via TCP with substantially higher overhead. An extension to DNS UDP requests is specified which frequently permits larger UDP responses thus reducing the need for use of TCP.</t>
+    </abstract>
+  </front>
+</reference>

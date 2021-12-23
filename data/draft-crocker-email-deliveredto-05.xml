@@ -1,0 +1,13 @@
+<reference anchor="I-D.crocker-email-deliveredto">
+  <front>
+    <title>Delivered-To Email Header Field</title>
+    <seriesInfo name="Internet-Draft" value="draft-crocker-email-deliveredto-05"/>
+    <author fullname="Dave Crocker" initials="D." surname="Crocker">
+      <organization>Brandenburg InternetWorking</organization>
+    </author>
+    <date year="2021" month="August" day="4"/>
+    <abstract>
+      <t>The address to which email is delivered might be different than any of the addresses shown in any of the content header fields that were created by the email author. The address used by the email transport service is provided separately, through an envelope SMTP "RCPT TO" command. Before final delivery, handling can entail a sequence of submission/delivery events, using different destination addresses, that lead to the recipient. Also, the delivery process can produce local address transformations. It can be helpful for a message to have a common way to record each delivery in such a sequence, and to include each address used for that recipient. This document defines a header field for this information. Email handling information is a matter of modifying the email infrastructure and possibly creating privacy concerns. A header field such as this is not automatically assured of adoption or use. Therefore it is being published as an Experiment, looking for constituency and for operational utility. This document is produced through the Independent RFC stream and was not subject to the IETF's approval process.</t>
+    </abstract>
+  </front>
+</reference>

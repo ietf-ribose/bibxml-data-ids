@@ -1,0 +1,31 @@
+<reference anchor="I-D.ietf-ipsecme-ikev2-multiple-ke">
+  <front>
+    <title>Multiple Key Exchanges in IKEv2</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ipsecme-ikev2-multiple-ke-00"/>
+    <author fullname="C. Tjhai" initials="C." surname="Tjhai">
+      <organization>Post-Quantum</organization>
+    </author>
+    <author fullname="M. Tomlinson" initials="M." surname="Tomlinson">
+      <organization>Post-Quantum</organization>
+    </author>
+    <author fullname="grbartle@cisco.com" initials="" surname="grbartle@cisco.com">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Scott Fluhrer" initials="S." surname="Fluhrer">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Daniel Van Geest" initials="D." surname="Van Geest">
+      <organization>ISARA Corporation</organization>
+    </author>
+    <author fullname="Oscar Garcia-Morchon" initials="O." surname="Garcia-Morchon">
+      <organization>Philips</organization>
+    </author>
+    <author fullname="Valery Smyslov" initials="V." surname="Smyslov">
+      <organization>ELVIS-PLUS</organization>
+    </author>
+    <date year="2020" month="January" day="10"/>
+    <abstract>
+      <t>This document describes how to extend the Internet Key Exchange Protocol Version 2 (IKEv2) to allow multiple key exchanges to take place while computing of a shared secret during a Security Association (SA) setup. The primary application of this feature in IKEv2 is the ability to perform one or more post-quantum key exchanges in conjunction with the classical (Elliptic Curve) Diffie- Hellman key exchange, so that the resulting shared key is resistant against quantum computer attacks. Another possible application is the ability to combine several key exchanges in situations when no single key exchange algorithm is trusted by both initiator and responder. This document updates RFC7296 by renaming a tranform type 4 from "Diffie-Hellman Group (D-H)" to "Key Exchange Method (KE)" and renaming a field in the Key Exchange Payload from "Diffie-Hellman Group Num" to "Key Exchange Method". It also renames an IANA registry for this transform type from "Transform Type 4 - Diffie- Hellman Group Transform IDs" to "Transform Type 4 - Key Exchange Method Transform IDs". These changes generalize key exchange algorithms that can be used in IKEv2.</t>
+    </abstract>
+  </front>
+</reference>

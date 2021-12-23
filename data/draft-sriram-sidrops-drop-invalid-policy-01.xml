@@ -1,0 +1,22 @@
+<reference anchor="I-D.sriram-sidrops-drop-invalid-policy">
+  <front>
+    <title>Origin Validation Policy Considerations for Dropping Invalid Routes</title>
+    <seriesInfo name="Internet-Draft" value="draft-sriram-sidrops-drop-invalid-policy-01"/>
+    <author fullname="Kotikalapudi Sriram" initials="K." surname="Sriram">
+      <organization>USA NIST</organization>
+    </author>
+    <author fullname="Oliver Borchert" initials="O." surname="Borchert">
+      <organization>USA NIST</organization>
+    </author>
+    <author fullname="Doug Montgomery" initials="D." surname="Montgomery">
+      <organization>USA NIST</organization>
+    </author>
+    <author fullname="Job Snijders" initials="J." surname="Snijders">
+      <organization>NTT Communications</organization>
+    </author>
+    <date year="2018" month="September" day="5"/>
+    <abstract>
+      <t>During incremental deployment of RPKI and Route Origin Authorizations (and possibly under some transient conditions), network operators would wish to have a meaningful policy for dropping Invalid routes. Their goal is to balance (A) dropping Invalid routes so hijacked routes can be eliminated, versus (B) tolerance for missing or erroneously created ROAs for customer prefixes. This document considers a Drop Invalid if Still Routable (DISR) policy that is based on these considerations. The key principle of DISR policy is that an Invalid route can be dropped if a Valid or NotFound route exists for a subsuming less specific prefix.</t>
+    </abstract>
+  </front>
+</reference>

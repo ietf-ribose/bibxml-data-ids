@@ -1,0 +1,12 @@
+<reference anchor="I-D.plmrs-ipsecme-ipsec-ikev2-context-definition">
+  <front>
+    <title>IKEv2/IPsec Context Definition</title>
+    <seriesInfo name="Internet-Draft" value="draft-plmrs-ipsecme-ipsec-ikev2-context-definition-00"/>
+    <author fullname="Daniel Palomares" initials="D." surname="Palomares"/>
+    <author fullname="Daniel Migault" initials="D." surname="Migault"/>
+    <date year="2014" month="February" day="12"/>
+    <abstract>
+      <t>IPsec/IKEv2 cluster are constituted of multiple nodes accessed via a single address by the end user. The traffic is then split between the nodes via specific IP load balancing policies. Once a session is assigned to a given node, IPsec makes it difficult to assign the session to another node. This makes management operations and transparent high availability for end users, difficult to perform within the cluster. This document describes the contexts for IKEv2 and IPsec that MUST be transfered between two nodes so a session can be restored. This makes possible to tranfer an IPsec session transparently to the end user.</t>
+    </abstract>
+  </front>
+</reference>

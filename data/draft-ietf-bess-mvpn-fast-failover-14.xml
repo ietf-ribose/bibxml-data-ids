@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-bess-mvpn-fast-failover">
+  <front>
+    <title>Multicast VPN Fast Upstream Failover</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bess-mvpn-fast-failover-14"/>
+    <author fullname="Thomas Morin" initials="T." surname="Morin">
+      <organization>Orange</organization>
+    </author>
+    <author fullname="Robert Kebler" initials="R." surname="Kebler">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Greg Mirsky" initials="G." surname="Mirsky">
+      <organization>ZTE Corp.</organization>
+    </author>
+    <date year="2020" month="December" day="21"/>
+    <abstract>
+      <t>This document defines Multicast Virtual Private Network (VPN) extensions and procedures that allow fast failover for upstream failures by allowing downstream Provider Edges (PEs) to consider the status of Provider-Tunnels (P-tunnels) when selecting the upstream PE for a VPN multicast flow. The fast failover is enabled by using RFC 8562 Bidirectional Forwarding Detection (BFD) for Multipoint Networks and the new BGP Attribute - BFD Discriminator. Also, the document introduces a new BGP Community, Standby PE, extending BGP Multicast VPN routing so that a C-multicast route can be advertised toward a Standby Upstream PE.</t>
+    </abstract>
+  </front>
+</reference>

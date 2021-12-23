@@ -1,0 +1,13 @@
+<reference anchor="I-D.ludwig-tsvwg-tcp-fast-timeouts">
+  <front>
+    <title>Responding to Fast Timeouts in TCP</title>
+    <seriesInfo name="Internet-Draft" value="draft-ludwig-tsvwg-tcp-fast-timeouts-00"/>
+    <author fullname="Ludwig Reiner" initials="L." surname="Reiner">
+      <organization>Ericsson Research</organization>
+    </author>
+    <date year="2002" month="July" day="24"/>
+    <abstract>
+      <t>A 'fast timeout' occurs if the retransmission timer expires, andafterwards the TCP sender receives the duplicate ACK that would havetriggered a fast retransmit of the oldest outstanding segment. Inthis case, staying in slow start is an unnecessarily drastic responseto the congestion indication. Instead, we believe it is safe to backout of the slow start phase but instead go into the fast recoveryphase. One benefit of this approach is that the potentially followingduplicate ACKs can be exploited for advanced loss recoveryalgorithms.</t>
+    </abstract>
+  </front>
+</reference>

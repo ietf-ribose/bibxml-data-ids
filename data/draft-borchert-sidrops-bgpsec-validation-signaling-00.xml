@@ -1,0 +1,16 @@
+<reference anchor="I-D.borchert-sidrops-bgpsec-validation-signaling">
+  <front>
+    <title>BGPsec Validation State Signaling</title>
+    <seriesInfo name="Internet-Draft" value="draft-borchert-sidrops-bgpsec-validation-signaling-00"/>
+    <author fullname="Oliver Borchert" initials="O." surname="Borchert">
+      <organization>USA NIST</organization>
+    </author>
+    <author fullname="Doug Montgomery" initials="D." surname="Montgomery">
+      <organization>USA NIST</organization>
+    </author>
+    <date year="2019" month="March" day="26"/>
+    <abstract>
+      <t>This document defines a new BGP opaque extended community to carry the BGPsec path validation state inside an autonomous system. Internal BGP (IBGP) speakers that receive this community string can use the embedded BGPsec validation state and configure local policies that allow it being used to influence their decision process. This is specially helpful because (Section 5) of [RFC8205] specifically allows putting BGPsewc path validation temporarily on hold. This would allow to reduce the load of validation especially from IBGP learned routes.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-rtgwg-uloop-delay">
+  <front>
+    <title>Micro-loop Prevention by Introducing a Local Convergence Delay</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-rtgwg-uloop-delay-09"/>
+    <author fullname="Stephane Litkowski">
+      <organization>Orange</organization>
+    </author>
+    <author fullname="Bruno Decraene">
+      <organization>Orange</organization>
+    </author>
+    <author fullname="Clarence Filsfils">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Pierre Francois">
+      <organization>Individual</organization>
+    </author>
+    <date year="2017" month="November" day="12"/>
+    <abstract>
+      <t>This document describes a mechanism for link-state routing protocols that prevents local transient forwarding loops in case of link failure. This mechanism proposes a two-step convergence by introducing a delay between the convergence of the node adjacent to the topology change and the network-wide convergence. Because this mechanism delays the IGP convergence, it may only be used for planned maintenance or when Fast Reroute (FRR) protects the traffic during the time between the link failure and the IGP convergence. The mechanism is limited to the link-down event in order to keep the mechanism simple. Simulations using real network topologies have been performed and show that local loops are a significant portion (&gt;50%) of the total forwarding loops.</t>
+    </abstract>
+  </front>
+</reference>

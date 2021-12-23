@@ -1,0 +1,13 @@
+<reference anchor="I-D.begen-avt-rtp-cnames">
+  <front>
+    <title>Guidelines for Choosing RTP Control Protocol (RTCP) Canonical Names (CNAMEs)</title>
+    <seriesInfo name="Internet-Draft" value="draft-begen-avt-rtp-cnames-02"/>
+    <author fullname="Ali Begen"/>
+    <author fullname="Colin Perkins"/>
+    <author fullname="Dan Wing"/>
+    <date year="2010" month="May" day="24"/>
+    <abstract>
+      <t>The RTP Control Protocol (RTCP) Canonical Name (CNAME) is apersistent transport-level identifier for an RTP endpoint. While theSynchronization Source (SSRC) identifier of an RTP endpoint maychange if a collision is detected, or when the RTP application isrestarted, the CNAME is meant to stay unchanged, so that RTPendpoints can be uniquely identified and associated with their RTPmedia streams. For proper functionality, CNAMEs should be uniquewithin the participants of an RTP session. However, the existingguidelines for choosing the RTCP CNAME provided in the RTP standardare insufficient to achieve this uniqueness. This memo updates theseguidelines to allow endpoints to choose unique CNAMEs.</t>
+    </abstract>
+  </front>
+</reference>

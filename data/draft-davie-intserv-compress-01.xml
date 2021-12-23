@@ -1,0 +1,15 @@
+<reference anchor="I-D.davie-intserv-compress">
+  <front>
+    <title>Integrated Services in the Presence of Compressible Flows</title>
+    <seriesInfo name="Internet-Draft" value="draft-davie-intserv-compress-01"/>
+    <author fullname="David R. Oran" initials="D. R." surname="Oran"/>
+    <author fullname="Stephen L. Casner" initials="S. L." surname="Casner"/>
+    <author fullname="Dr. Bruce S. Davie" initials="B. S." surname="Davie"/>
+    <author fullname="John T. Wroclawski" initials="J. T." surname="Wroclawski"/>
+    <author fullname="Carol Iturralde" initials="C." surname="Iturralde"/>
+    <date year="1999" month="February" day="19"/>
+    <abstract>
+      <t>An Integrated Services router performs admission control and resource allocation based on the information contained in a TSpec (among other things). As currently defined, TSpecs convey information about the data rate (using a token bucket) and range of packet sizes of the flow in question. However, the TSpec may not be an accurate representation of the resources needed to support the reservation if the router is able to compress the data at the link level. This draft describes an extension to the TSpec which enables a sender of potentially compressible data to provide hints to int-serv routers about the compressibility they may obtain. Routers which support appropriate compression take advantage of the hint in their admission control decisions and resource allocation procedures; other routers ignore the hint. An initial application of this approach is to notify routers performing RTP header compression that they may allocate fewer resources to RTP flows.</t>
+    </abstract>
+  </front>
+</reference>

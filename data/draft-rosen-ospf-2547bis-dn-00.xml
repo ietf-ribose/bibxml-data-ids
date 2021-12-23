@@ -1,0 +1,11 @@
+<reference anchor="I-D.rosen-ospf-2547bis-dn">
+  <front>
+    <title>OSPF as the PE/CE Protocol in BGP/MPLS VPNs</title>
+    <seriesInfo name="Internet-Draft" value="draft-rosen-ospf-2547bis-dn-00"/>
+    <author fullname="Eric C. Rosen" initials="E. C." surname="Rosen"/>
+    <date year="2003" month="February" day="21"/>
+    <abstract>
+      <t>[VPN] describes a method by which a Service Provider (SP) may providea VPN service to its customers. In that method, BGP is used to carrycustomer routes across the SP's backbone. That method allows avariety of different protocols to be used as the routing protocolbetween the Customer Edge (CE) router and the Provider Edge (PE)router. [VPN-OSPF] specifies additional procedures to be used whenthe CE/PE router protocol is OSPF. In these additional procedures,customer OSPF routes from a CE router are translated into BGP routesby a PE router. Then they are sent via BGP to another PE router,which translates them back into OSPF routes and distributes them toanother CE router. This translation may lose some of the informationneeded to prevent loops. This document proposes that one of theOSPF options bits be used to ensure that when a VPN route is sentfrom a PE to a CE, the route will be ignored by any PE which receivesit back from a CE.</t>
+    </abstract>
+  </front>
+</reference>

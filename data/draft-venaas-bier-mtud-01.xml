@@ -1,0 +1,22 @@
+<reference anchor="I-D.venaas-bier-mtud">
+  <front>
+    <title>BIER MTU Discovery</title>
+    <seriesInfo name="Internet-Draft" value="draft-venaas-bier-mtud-01"/>
+    <author fullname="Stig Venaas" initials="S." surname="Venaas">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author fullname="Les Ginsberg" initials="L." surname="Ginsberg">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author fullname="Mahesh Sivakumar" initials="M." surname="Sivakumar">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2018" month="June" day="28"/>
+    <abstract>
+      <t>This document defines an IGP based mechanism for discovering the MTU of a BIER sub-domain. This document defines extensions to OSPF and IS-IS, but other protocols could potentially be extended. MTU discovery is usually done for a given path, while this document defines it for a sub-domain. This allows the computed MTU to be independent of the set of receivers. Also, the MTU is independent of rerouting events within the sub-domain.</t>
+    </abstract>
+  </front>
+</reference>

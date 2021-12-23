@@ -1,0 +1,17 @@
+<reference anchor="I-D.itsumo-drcp">
+  <front>
+    <title>Dynamic Registration and Configuration Protocol (DRCP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-itsumo-drcp-01"/>
+    <author fullname="Anthony McAuley" initials="A." surname="McAuley"/>
+    <author fullname="Sunil H. Madhani" initials="S. H." surname="Madhani">
+      <organization>Telcordia Technologies</organization>
+    </author>
+    <author fullname="Dr. Yasuro Shobatake" initials="Y." surname="Shobatake">
+      <organization>Toshiba America Research Inc.</organization>
+    </author>
+    <date year="2000" month="July" day="24"/>
+    <abstract>
+      <t>The Dynamic Host Configuration Protocol (DHCP) provides a frameworkfor passing configuration information to hosts [DHC]. DHCP was,however, designed for hosts on a fixed LAN, not for nodes roamingamong commercial wireless networks. A Mobile IP [MIP] Foreign Agentgives some powerful plug and play capability for roaming hosts,especially when combined with some recent proposals [e.g., MIPA,MIPC, MIPD, MIPN, HAW, CEL, TIA]. Mobile IP functionality, howeveris not always needed and for some dynamic networks it may beundesirable to use Foreign Agents. This draft proposes a lightweightdynamic configuration protocol, called the Dynamic Registration andConfiguration Protocol (DRCP). DRCP borrows heavily from DHCP andcan switch to using DHCP protocol if only DHCP servers are present inthe network; but adds features critical to roaming users. Mostimportantly, DRCP allows rapid configuration by moving addressconsistency checking from the critical path. Other new featuresallow: a) clients to know when to get a new address independent ofthe layer-2 access technology, b) efficient use of scarce wirelessbandwidth, c) clients to be routers, d) dynamic addition or deletionof address pools to any DRCP node, and e) message exchange withoutbroadcast.</t>
+    </abstract>
+  </front>
+</reference>

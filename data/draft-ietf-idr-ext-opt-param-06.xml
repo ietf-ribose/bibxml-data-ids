@@ -1,0 +1,16 @@
+<reference anchor="I-D.ietf-idr-ext-opt-param">
+  <front>
+    <title>Extended Optional Parameters Length for BGP OPEN Message</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-ext-opt-param-06"/>
+    <author fullname="Enke Chen" initials="E." surname="Chen">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="John Scudder" initials="J." surname="Scudder">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2019" month="July" day="26"/>
+    <abstract>
+      <t>The Optional Parameters in the BGP OPEN message as defined in the base BGP specification are limited to 255 octets due to a one-octet length field. BGP Capabilities are carried in this field and may foreseeably exceed 255 octets in the future, leading to concern about this limitation. In this document we update RFC 4271 by extending the BGP OPEN length field in a backward-compatible manner. The Parameter Length field of individual Optional Parameters is similarly extended.</t>
+    </abstract>
+  </front>
+</reference>

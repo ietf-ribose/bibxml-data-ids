@@ -1,0 +1,11 @@
+<reference anchor="I-D.perrin-tls-tack">
+  <front>
+    <title>Trust Assertions for Certificate Keys</title>
+    <seriesInfo name="Internet-Draft" value="draft-perrin-tls-tack-01"/>
+    <author fullname="Moxie Marlinspike" initials="M." surname="Marlinspike"/>
+    <date year="2012" month="September" day="25"/>
+    <abstract>
+      <t>This document defines TACK, a TLS Extension that enables a TLS server to assert the authenticity of its public key. A "tack" contains a "TACK key" which is used to sign the public key from the TLS server's certificate. Hostnames can be "pinned" to a TACK key. TLS connections to a pinned hostname require the server to present a tack containing the pinned key and a corresponding signature over the TLS server's public key.</t>
+    </abstract>
+  </front>
+</reference>

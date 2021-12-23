@@ -1,0 +1,21 @@
+<reference anchor="I-D.dansarie-nts">
+  <front>
+    <title>Network Time Security for the Network Time Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-dansarie-nts-00"/>
+    <author fullname="Daniel Fox Franke"/>
+    <author fullname="Dieter Sibold">
+      <organization>Physikalisch-Technische Bundesanstalt</organization>
+    </author>
+    <author fullname="Kristof Teichel">
+      <organization>Physikalisch-Technische Bundesanstalt</organization>
+    </author>
+    <author fullname="Marcus Dansarie"/>
+    <author fullname="Ragnar Sundblad">
+      <organization>Netnod</organization>
+    </author>
+    <date year="2018" month="July" day="2"/>
+    <abstract>
+      <t>This memo specifies Network Time Security (NTS), a mechanism for using Transport Layer Security (TLS) and Authenticated Encryption with Associated Data (AEAD) to provide cryptographic security for the client-server mode of the Network Time Protocol (NTP). NTS is structured as a suite of two loosely coupled sub-protocols: the NTS Key Establishment Protocol (NTS-KE) and the NTS Extension Fields for NTPv4. NTS-KE handles NTS service authentication, initial handshaking, and key extraction over TLS. Encryption and authentication during NTP time synchronization is performed through the NTS Extension Fields in otherwise standard NTP packets. Except for during the initial NTS-KE process, all state required by the protocol is held by the client in opaque cookies.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-dnsop-multi-provider-dnssec">
+  <front>
+    <title>Multi-Signer DNSSEC Models</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-multi-provider-dnssec-05"/>
+    <author fullname="Shumon Huque">
+      <organization>Salesforce</organization>
+    </author>
+    <author fullname="Pallavi Aras">
+      <organization>Salesforce</organization>
+    </author>
+    <author fullname="John Dickinson">
+      <organization>Sinodun</organization>
+    </author>
+    <author fullname="Jan Vcelak">
+      <organization>NS1</organization>
+    </author>
+    <author fullname="David Blacka">
+      <organization>Verisign</organization>
+    </author>
+    <date year="2020" month="April" day="19"/>
+    <abstract>
+      <t>Many enterprises today employ the service of multiple DNS providers to distribute their authoritative DNS service. Deploying DNSSEC in such an environment may present some challenges, depending on the configuration and feature set in use. In particular, when each DNS provider independently signs zone data with their own keys, additional key-management mechanisms are necessary. This document presents deployment models that accommodate this scenario and describes these key-management requirements. These models do not require any changes to the behavior of validating resolvers, nor do they impose the new key-management requirements on authoritative servers not involved in multi-signer configurations.</t>
+    </abstract>
+  </front>
+</reference>

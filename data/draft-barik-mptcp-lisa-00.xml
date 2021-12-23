@@ -1,0 +1,13 @@
+<reference anchor="I-D.barik-mptcp-lisa">
+  <front>
+    <title>A Linked Slow-Start Algorithm for MPTCP</title>
+    <seriesInfo name="Internet-Draft" value="draft-barik-mptcp-lisa-00"/>
+    <author fullname="Runa Barik" initials="R." surname="Barik"/>
+    <author fullname="Simone Ferlin" initials="S." surname="Ferlin"/>
+    <author fullname="Michael Welzl" initials="M." surname="Welzl"/>
+    <date year="2015" month="October" day="19"/>
+    <abstract>
+      <t>This document describes the LISA (Linked Slow-Start Algorithm) for Multipath TCP (MPTCP). Currently during slow-start, subflows behave like independent TCP flows making MPTCP behave unfairly to cross- traffic and causing more congestion in the bottleneck, which yields more losses among the MPTCP subflows. LISA couples the initial windows (IW) of MPTCP subflows during the initial slow-start phase to remove this adverse behavior.</t>
+    </abstract>
+  </front>
+</reference>

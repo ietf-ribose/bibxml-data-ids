@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-cat-sskm">
+  <front>
+    <title>SPKM with Shared Secret Keys (SSKM)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-cat-sskm-01"/>
+    <author fullname="Wes Doonan" initials="W." surname="Doonan">
+      <organization>Surety Technologies</organization>
+    </author>
+    <date year="1999" month="October" day="21"/>
+    <abstract>
+      <t>This document presents a method for using [SPKM] with exclusivelyshared secret key technologies. The messages and tokens of [SPKM] areunchanged; the only modifications required are to replace the defaultpublic-key cipher suite with ciphers and algorithms suitable for usewith shared secret keys.All messages and tokens defined in [SPKM] are preserved; no changesare required to the various authentication modes of [SPKM]. Integrityalgorithms and key establishment algorithms suitable for use withsecret keys are added to those specified in [SPKM], which are wellknown and specified for use in other existing IETF standards. We ineffect implement the implicit authenticated key exchange protocolproposed in [BR94] using the messages and tokens defined in [SPKM].An overview and brief discussion of the protocol appears in section1. The specific algorithms and object identifiers are listed insection 2. Discussion of how [SPKM] messages are used with sharedsecret keys appears in section 3. Security concerns are addressed insection 4. Patent issues are covered in section 5.</t>
+    </abstract>
+  </front>
+</reference>

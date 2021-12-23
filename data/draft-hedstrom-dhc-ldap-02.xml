@@ -1,0 +1,19 @@
+<reference anchor="I-D.hedstrom-dhc-ldap">
+  <front>
+    <title>DHCP Options for Locating LDAP Servers</title>
+    <seriesInfo name="Internet-Draft" value="draft-hedstrom-dhc-ldap-02"/>
+    <author fullname="Leif Hedstrom" initials="L." surname="Hedstrom">
+      <organization>Independent Consultant</organization>
+    </author>
+    <author fullname="Luke Howard" initials="L." surname="Howard">
+      <organization>PADL Software Pty. Ltd.</organization>
+    </author>
+    <author fullname="Dieter Siegmund" initials="D." surname="Siegmund">
+      <organization>Apple Computer</organization>
+    </author>
+    <date year="2002" month="May" day="8"/>
+    <abstract>
+      <t>This document defines a new DHCP option for delivering configurationinformation to LDAP (Lightweight Directory Access Protocol) clients.The information returned is represented as LDAP URLs, as specified inthe LDAPv3 URL draft[1].The DHCP client may use the URLs returned by the DHCP server tolocate an LDAP server for the client's network. The URL may includethe TCP port of the LDAP server, and the distinguished name whichidentifies the base object for searching.</t>
+    </abstract>
+  </front>
+</reference>

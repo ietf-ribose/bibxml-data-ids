@@ -1,0 +1,11 @@
+<reference anchor="I-D.mcgrew-aead-aes-cbc-hmac-sha1">
+  <front>
+    <title>Authenticated Encryption with AES-CBC and HMAC-SHA1 (and other generic combinations of ciphers and MACs)</title>
+    <seriesInfo name="Internet-Draft" value="draft-mcgrew-aead-aes-cbc-hmac-sha1-01"/>
+    <author fullname="David McGrew"/>
+    <date year="2009" month="March" day="9"/>
+    <abstract>
+      <t>This document specifies algorithms for authenticated encryption withadditional authenticated data (AEAD) that are based on thecomposition of the Advanced Encryption Standard (AES) in the CipherBlock Chaining (CBC) mode of operation for encryption, and the HMAC-SHA1 message authentication code (MAC). It also separately defines ageneric composition method that can be used with other MACs andrandomized ciphers (that is, ciphers that use random initializationvectors).These algorithms are randomized, and thus are suitable for use withapplications that cannot provide distinct nonces to each invocationof the AEAD encrypt operation.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,12 @@
+<reference anchor="I-D.ietf-grow-va-mpls-innerlabel">
+  <front>
+    <title>Proposal to use an inner MPLS label to identify the remote ASBR VA</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-grow-va-mpls-innerlabel-00"/>
+    <author fullname="Xiaohu Xu"/>
+    <author fullname="Paul Francis"/>
+    <date year="2009" month="September" day="23"/>
+    <abstract>
+      <t>The draft "MPLS Tunnels for Virtual Aggregation"[I-D.ietf-grow-va-mpls] specifies how MPLS is used as the tunnelingprotocol for Virtual Aggregation (VA). The -00 version of that draftspecifies only one level of labels, with the result that one LabelSwitched Path (LSP) for every remote ASBR must be established. Forlarge ISPs, this can amount to a large number of LSPs. This draftproposes adding the option of using an inner label to identify theremote ASBR. Either an outer label or an IP tunnel is used to reachthe local ASBR. When MPLS is used as the tunneling protocol, thisreduces the number of LSPs to the number of local border routers(ASBR).</t>
+    </abstract>
+  </front>
+</reference>

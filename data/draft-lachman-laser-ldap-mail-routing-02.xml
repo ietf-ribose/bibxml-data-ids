@@ -1,0 +1,16 @@
+<reference anchor="I-D.lachman-laser-ldap-mail-routing">
+  <front>
+    <title>LDAP Schema for Intranet Mail Routing</title>
+    <seriesInfo name="Internet-Draft" value="draft-lachman-laser-ldap-mail-routing-02"/>
+    <author fullname="Gregory Shapiro" initials="G." surname="Shapiro">
+      <organization>Sendmail, Inc.</organization>
+    </author>
+    <author fullname="Hans Lachman" initials="H." surname="Lachman">
+      <organization>Netscape Communications Corp.</organization>
+    </author>
+    <date year="2001" month="January" day="24"/>
+    <abstract>
+      <t>This document defines an LDAP [1] object class called'inetLocalMailRecipient' and associated attributes that provide a wayto designate an LDAP entry as one that represents a local (intra-organizational) email recipient, to specify the recipient's emailaddress(es), and to provide routing information pertinent to therecipient. This is intended to support SMTP [2] message transferagents in routing RFC 822-based email [3] within a private enterpriseonly, and is not to be used in the process of routing email acrossthe public Internet.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,16 @@
+<reference anchor="I-D.ietf-dhc-concat">
+  <front>
+    <title>Encoding Long Options in the Dynamic Host Configuration Protocol (DHCPv4)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dhc-concat-05"/>
+    <author fullname="Ted Lemon" initials="T." surname="Lemon">
+      <organization>Nominum, Inc.</organization>
+    </author>
+    <author fullname="Stuart Cheshire" initials="S." surname="Cheshire">
+      <organization>Apple Computer</organization>
+    </author>
+    <date year="2002" month="September" day="11"/>
+    <abstract>
+      <t>This document specifies the processing rules for DHCPv4 optionsthat appear multiple times in the same message. Multipleinstances of the same option are generated when an option exceeds255 octets in size (the maximum size of a single option) or whenan option needs to be split apart in order to take advantage ofDHCP option overloading. When multiple instances of the sameoption appear in the options, file and/or sname fields in a DHCPpacket, the contents of these options are concatenated togetherto form a single option prior to processing.</t>
+    </abstract>
+  </front>
+</reference>

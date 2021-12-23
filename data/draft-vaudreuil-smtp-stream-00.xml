@@ -1,0 +1,10 @@
+<reference anchor="I-D.vaudreuil-smtp-stream">
+  <front>
+    <title>SMTP Service Extensions for Command Streaming</title>
+    <seriesInfo name="Internet-Draft" value="draft-vaudreuil-smtp-stream-00"/>
+    <date year="1993" month="October" day="20"/>
+    <abstract>
+      <t>This memo defines an extension to the SMTP service whereby an SMTP client and server may negotiate the use of a command streaming implementation model for SMTP. This model enables the batching of the all commands between the EHLO and DATA command. This extension significantly reduces the number of packets and round trips to send a message. Batching the MAIL FROM and RCPT TO commands for multiple receipients significantly decreases the protocol processing overhead when sending messsages to multiple receipients.</t>
+    </abstract>
+  </front>
+</reference>

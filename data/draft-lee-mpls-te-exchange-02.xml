@@ -1,0 +1,13 @@
+<reference anchor="I-D.lee-mpls-te-exchange">
+  <front>
+    <title>Distributed Route Exchangers</title>
+    <seriesInfo name="Internet-Draft" value="draft-lee-mpls-te-exchange-02"/>
+    <author fullname="C.J. Lee" initials="C." surname="Lee"/>
+    <author fullname="Alicja B. Celer" initials="A. B." surname="Celer"/>
+    <author fullname="Gerald Ash" initials="G." surname="Ash"/>
+    <date year="2002" month="July" day="3"/>
+    <abstract>
+      <t>The current link state routing protocols flood link states to allrouters so that routers have the information required to compute theshortest paths to route packets on a hop by hop basis. However, forthe purpose of establishing MPLS paths, constraint path computationis only performed at certain nodes, for instance, at the node wherepath setup is triggered or at the head-end of a loosely routedsegment that crosses a network (or area) boundary. In addition, itnot possible to have all required constraints present in all nodes ina network, nor is it always feasible for nodes setting up paths tocompute the constraint paths themselves, a notable example is when apath traverses network or area boundary. These reasons motivate asolution using a 'subset' of routers (called route exchangers), tocollect constraint information and exchange it with other routeexchangers. Route exchangers store traffic engineering link statesand other types of constraint information and compute on demand, theexplicit routes required by routers establishing paths. Hence, linkstate information need only be distributed to the subset of nodesthat help compute constraint paths in the network.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,28 @@
+<reference anchor="I-D.gao-alto-routing-state-abstraction">
+  <front>
+    <title>Compressing ALTO Path Vectors</title>
+    <seriesInfo name="Internet-Draft" value="draft-gao-alto-routing-state-abstraction-08"/>
+    <author fullname="Kai Gao">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Xin (Tony) Wang">
+      <organization>Tongji University</organization>
+    </author>
+    <author fullname="Qiao Xiang">
+      <organization>Tongji/Yale University</organization>
+    </author>
+    <author fullname="Chen Gu">
+      <organization>Tongji University</organization>
+    </author>
+    <author fullname="Y. Richard Yang">
+      <organization>Yale University</organization>
+    </author>
+    <author fullname="G. Robert Chen">
+      <organization>Huawei</organization>
+    </author>
+    <date year="2018" month="March" day="1"/>
+    <abstract>
+      <t>The path vector extension [I-D.ietf-alto-path-vector] has extended the base ALTO protocol [RFC7285] with the ability to represent a more detailed view of the network which contains not only end-to-end costs but also information about shared bottlenecks. However, the view computed by straw man algorithms can contain redundant information and result in unnecessary communication overhead. The situation gets even worse when certain ALTO extensions are enabled, for example, the incremental update extension [I-D.ietf-alto-incr-update-sse] which continuously pushes data changes to ALTO clients. Redundant information can trigger unnecessary updates. In this document, several algorithms are described which can effectively reduce the redundancy in the network view while still providing the same information as in the original path vectors.</t>
+    </abstract>
+  </front>
+</reference>

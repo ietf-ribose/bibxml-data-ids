@@ -1,0 +1,31 @@
+<reference anchor="I-D.ietf-spring-nsh-sr">
+  <front>
+    <title>Network Service Header (NSH) and Segment Routing Integration for Service Function Chaining (SFC)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-spring-nsh-sr-00"/>
+    <author fullname="Jim Guichard" initials="J." surname="Guichard">
+      <organization>Futurewei Technologies</organization>
+    </author>
+    <author fullname="Haoyu Song" initials="H." surname="Song">
+      <organization>Futurewei Technologies</organization>
+    </author>
+    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+      <organization>Apstra inc.</organization>
+    </author>
+    <author fullname="Joel M. Halpern" initials="J. M." surname="Halpern">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Wim Henderickx" initials="W." surname="Henderickx">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Mohamed Boucadair" initials="M." surname="Boucadair">
+      <organization>Orange</organization>
+    </author>
+    <author fullname="Syed Hassan" initials="S." surname="Hassan">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date year="2019" month="August" day="13"/>
+    <abstract>
+      <t>This document describes two application scenarios where Network Service Header (NSH) and Segment Routing (SR) techniques can be deployed together to support Service Function Chaining (SFC) in an efficient manner while maintaining separation of the service and transport planes as originally intended by the SFC architecture. In the first scenario, an NSH-based SFC is created using SR as the transport between Service Function Forwarders (SFFs). SR in this case is just one of many encapsulations that could be used to maintain the transport-independent nature of NSH-based service chains. In the second scenario, SR is used to represent each service hop of the NSH-based SFC as a segment within the segment-list. SR and NSH in this case are integrated. In both scenarios SR is responsible for steering packets between SFFs along a given Service Function Path (SFP) while NSH is responsible for maintaining the integrity of the service plane, the SFC instance context, and any associated metadata. These application scenarios demonstrate that NSH and SR can work jointly and complement each other leaving the network operator with the flexibility to use whichever transport technology makes sense in specific areas of their network infrastructure, and still maintain an end-to-end service plane using NSH.</t>
+    </abstract>
+  </front>
+</reference>

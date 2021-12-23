@@ -1,0 +1,13 @@
+<reference anchor="I-D.lubashev-quic-partial-reliability">
+  <front>
+    <title>Partially Reliable Streams for QUIC</title>
+    <seriesInfo name="Internet-Draft" value="draft-lubashev-quic-partial-reliability-02"/>
+    <author fullname="Igor Lubashev" initials="I." surname="Lubashev">
+      <organization>Akamai Technologies</organization>
+    </author>
+    <date year="2018" month="May" day="29"/>
+    <abstract>
+      <t>This memo introduces MIN_STREAM_DATA and EXPIRED_STREAM_DATA frames to enable partial reliability for QUIC streams. The EXPIRED_STREAM_DATA frame allows a sender to give up on retransmitting older parts of a stream and to notify the receiver about this decision. The MIN_STREAM_DATA frame allows a receiver to express its disinterest in older parts of a stream. The content of this draft is intended for merging into QUIC transport, recovery, and applicability drafts as a negotiable extension and/or QUIC Version 2 transport feature.</t>
+    </abstract>
+  </front>
+</reference>

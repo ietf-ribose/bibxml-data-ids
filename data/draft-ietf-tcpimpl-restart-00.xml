@@ -1,0 +1,15 @@
+<reference anchor="I-D.ietf-tcpimpl-restart">
+  <front>
+    <title>Issues in TCP Slow-Start Restart After Idle</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tcpimpl-restart-00"/>
+    <author fullname="Dr. Joseph D. Touch" initials="J. D." surname="Touch"/>
+    <author fullname="John Heidemann" initials="J." surname="Heidemann"/>
+    <author fullname="Amy Hughes" initials="A." surname="Hughes">
+      <organization>Joe Touch</organization>
+    </author>
+    <date year="1998" month="April" day="10"/>
+    <abstract>
+      <t>This draft discusses variations in the TCP 'slow-start restart' (SSR) algorithm, and the unintended failure of some variations to properly restart in some environments. SSR is intended to avoid line-rate bursts after idle periods, where TCP accumulates permission to send in the form of ACKs, but does not consume that permission immediately. SSR's original 'restart after send is idle' is commonly implemented as 'restart after receive is idle'. The latter unintentionally fails to restart for bidirectional connections where the sender's burst is triggered by a reverse-path data packet, such as in persistent HTTP. Both the former and latter are shown to permit bursts in other circumstances. Three solutions are discussed, and their implementations evaluated. This document is a product of the LSAM project at ISI. Comments are solicited and should be addressed to the authors.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-ipsec-ikev2-ecnfix">
+  <front>
+    <title>IKEv2: ECN Requirements for IPsec Tunnels</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ipsec-ikev2-ecnfix-01"/>
+    <author fullname="David L. Black" initials="D. L." surname="Black">
+      <organization>EMC Corporation</organization>
+    </author>
+    <date year="2003" month="February" day="19"/>
+    <abstract>
+      <t>IPsec (IP Security) tunnel encapsulation and decapsulation were specified prior to the addition of ECN (Explicit Congestion Notification) to IP, with the potential result that ECN congestion indications could be discarded by IPsec tunnel decapsulators. The current ECN specification includes two ECN operating modes for IPsec tunnels to avoid this situation, and IKEv1/ISAKMP (Internet Key Exchange/Internet Security Association and Key Management Protocol) negotiation extensions to enable ECN to be used correctly with IPsec tunnels. To simplify this situation, IKEv2 requires changes to tunnel decapsulation that prevent discarding of ECN congestion indication, obviating the need for multiple ECN operating modes and associated negotiation support.</t>
+    </abstract>
+  </front>
+</reference>

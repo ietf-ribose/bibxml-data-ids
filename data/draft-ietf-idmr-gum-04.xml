@@ -1,0 +1,16 @@
+<reference anchor="I-D.ietf-idmr-gum">
+  <front>
+    <title>Border Gateway Multicast Protocol (BGMP): Protocol Specification</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idmr-gum-04"/>
+    <author fullname="Dr. Deborah Estrin" initials="D." surname="Estrin">
+      <organization>USC/ISI</organization>
+    </author>
+    <author fullname="Dave Thaler" initials="D." surname="Thaler">
+      <organization>USC/ISI</organization>
+    </author>
+    <date year="1998" month="November" day="20"/>
+    <abstract>
+      <t>This document describes BGMP, a protocol for inter-domain multicastrouting. BGMP builds shared trees for active multicast groups, andallows receiver domains to build source-specific, inter-domain,distribution branches where needed. Building upon concepts from CBT andPIM-SM, BGMP requires that each multicast group be associated with asingle root (in BGMP it is referred to as the root domain). BGMPassumes that at any point in time, different ranges of the class D spaceare associated (e.g., with MASC [MASC]) with different domains. Each ofthese domains then becomes the root of the shared domain-trees for allgroups in its range. Multicast participants will generally receivebetter multicast service if the session initiator's address allocatorselects addresses from its own domain's part of the space, thereby</t>
+    </abstract>
+  </front>
+</reference>

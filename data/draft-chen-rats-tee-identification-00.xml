@@ -1,0 +1,19 @@
+<reference anchor="I-D.chen-rats-tee-identification">
+  <front>
+    <title>Use TEE Identification in EAP-TLS</title>
+    <seriesInfo name="Internet-Draft" value="draft-chen-rats-tee-identification-00"/>
+    <author fullname="Penglin Yang" initials="P." surname="Yang">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="chenmeiling" initials="" surname="chenmeiling">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Li Su" initials="L." surname="Su">
+      <organization>China Mobile</organization>
+    </author>
+    <date year="2021" month="May" day="28"/>
+    <abstract>
+      <t>In security considerations, identity of a device should be protected and cannot be exposed in public. Based on this purpose, this document specifies the architecture of TEE(Trust Execution Environment) identification based on EAP-TLS. In this architecture, TEE is in charge of protecting the certificate and generating handshake keys which will be used for EAP-TLS authentication. REE(Rich Execution Environment) is in charge of building communication with EAP-TLS Server. A middle layer is introduced to communicate with separate parts of EAP-TLS in TEE and REE to implement its original functionality. This architecture could be used in data link layer and also application layer to implement identity authentication under the protection of TEE and EAP-TLS.</t>
+    </abstract>
+  </front>
+</reference>

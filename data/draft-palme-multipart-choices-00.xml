@@ -1,0 +1,13 @@
+<reference anchor="I-D.palme-multipart-choices">
+  <front>
+    <title>The multipart/choices Content-Type</title>
+    <seriesInfo name="Internet-Draft" value="draft-palme-multipart-choices-00"/>
+    <author fullname="Jacob Palme" initials="J." surname="Palme">
+      <organization>Stockholm University/KTH</organization>
+    </author>
+    <date year="2001" month="January" day="2"/>
+    <abstract>
+      <t>This memo specifies that the existing MIME content-type'multipart/alternative' should be restricted to cases where thealternatives differ in their content-type. When the alternatives differin other properties than content-type, a new 'multipart/choices'content-type is to be used instead. This is necessary, because thepresent specification gives extremely bad downgrading for mailers notsupporting use of 'multipart/alternative' for other differences thancontent-type. This memo also specifies a mandatory parameter tomultipart/choices. This mandatory parameter will hopefully avoid thesame problem occuring again in the future.</t>
+    </abstract>
+  </front>
+</reference>

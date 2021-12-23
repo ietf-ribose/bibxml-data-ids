@@ -1,0 +1,13 @@
+<reference anchor="I-D.stein-srtsn">
+  <front>
+    <title>Segment Routed Time Sensitive Networking</title>
+    <seriesInfo name="Internet-Draft" value="draft-stein-srtsn-01"/>
+    <author fullname="Yaakov (J) Stein">
+      <organization>RAD</organization>
+    </author>
+    <date year="2021" month="August" day="29"/>
+    <abstract>
+      <t>Routers perform two distinct user-plane functionalities, namely forwarding (where the packet should be sent) and scheduling (when the packet should be sent). One forwarding paradigm is segment routing, in which forwarding instructions are encoded in the packet in a stack data structure, rather than programmed into the routers. Time Sensitive Networking and Deterministic Networking provide several mechanisms for scheduling under the assumption that routers are time synchronized. The most effective mechanisms for delay minimization involve per-flow resource allocation. SRTSN is a unified approach to forwarding and scheduling that uses a single stack data structure. Each stack entry consists of a forwarding portion (e.g., IP addresses or suffixes) and a scheduling portion (deadline by which the packet must exit the router). SRTSN thus fully implements network programming for time sensitive flows, by prescribing to each router both to-where and by-when each packet should be sent.</t>
+    </abstract>
+  </front>
+</reference>

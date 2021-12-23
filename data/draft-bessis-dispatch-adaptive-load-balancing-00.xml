@@ -1,0 +1,12 @@
+<reference anchor="I-D.bessis-dispatch-adaptive-load-balancing">
+  <front>
+    <title>Adaptive load balancing in the Session Initiation Protocol (SIP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-bessis-dispatch-adaptive-load-balancing-00"/>
+    <author fullname="Thierry Bessis"/>
+    <author fullname="Vijay Gurbani"/>
+    <date year="2011" month="March" day="7"/>
+    <abstract>
+      <t>A Session Initiation Protocol (SIP) proxy, distributing traffic to acluster of multiple downstream servers, can use the DNS SRV mechanismto perform load balancing. However, the "weight" field in the DNSSRV mechanism is intended for static server selection. Over time,the traffic arriving at the downstream SIP servers may cause them toenter an overload condition, adversely impacting the throughput ofthe SIP cluster. This document proposes to impart the dynamic loadof each SIP server to the load distributing SIP proxy, therebyallowing it to load balance the traffic so as to reduce --- or evenprevent --- an overload condition.</t>
+    </abstract>
+  </front>
+</reference>

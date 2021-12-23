@@ -1,0 +1,12 @@
+<reference anchor="I-D.woundy-dhcpleasequery">
+  <front>
+    <title>DHCP Lease Query</title>
+    <seriesInfo name="Internet-Draft" value="draft-woundy-dhcpleasequery-04"/>
+    <author fullname="Richard Woundy" initials="R." surname="Woundy"/>
+    <author fullname="Kenneth E. Kinnear Jr." initials="K. E." surname="Kinnear"/>
+    <date year="2000" month="March" day="16"/>
+    <abstract>
+      <t>Access concentrators that act as DHCP relay agents need to determinethe endpoint locations of IP addresses across public broadband accessnetworks such as cable, DSL, and wireless networks. Because ARPbroadcasts are undesirable in public networks, many accessconcentrator implementations 'glean' location information from DHCPmessages forwarded by its relay agent function. Unfortunately, thetypical access concentrator loses its gleaned information when theaccess concentrator is rebooted or is replaced. This memo proposesthat when gleaned DHCP information is not available, the accessconcentrator/relay agent obtains the location information directlyfrom the DHCP server(s) using a new, lightweight DHCPLEASEQUERYmessage.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,13 @@
+<reference anchor="I-D.eddy-sdnrg-customer-filters">
+  <front>
+    <title>Customer-Controlled Filtering Using SDN</title>
+    <seriesInfo name="Internet-Draft" value="draft-eddy-sdnrg-customer-filters-00"/>
+    <author fullname="Wesley Eddy" initials="W." surname="Eddy"/>
+    <author fullname="Gilbert Clark" initials="G." surname="Clark"/>
+    <author fullname="Justin Dailey" initials="J." surname="Dailey"/>
+    <date year="2015" month="July" day="24"/>
+    <abstract>
+      <t>In order to reduce unwanted traffic and make efficient use of limited access link capacity or other network resources, it is advantageous if customers can filter traffic destined to them, within their upstream Internet Service Provider (ISP) networks. The customer receiving traffic should have control over inbound filters, since their definition of desirable versus undesirable traffic may change over time (e.g. as new network services and protocols are introduced). In this document, we describe an SDN-based means for customers to express computable logic to their ISPs in order to distinguish between desirable and undesirable inbound traffic. These rules can be dynamically and securely updated within the running ISP network, with full automation One use case for this is in mitigating denial of service attacks. Even if such filtering is only implemented in an ISP's access network, it preserves capacity on the customer access links for desirable traffic. If implemented at the ISP's edge connections to other providers, or prior to ingress to their core, it can also preserve the ISP's own network capacity and other resources that may be threatened by attacks.</t>
+    </abstract>
+  </front>
+</reference>

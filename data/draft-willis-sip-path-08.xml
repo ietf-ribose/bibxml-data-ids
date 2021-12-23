@@ -1,0 +1,16 @@
+<reference anchor="I-D.willis-sip-path">
+  <front>
+    <title>Session Initiation Protocol (SIP) Extension Header Field for Registering Non-Adjacent Contacts</title>
+    <seriesInfo name="Internet-Draft" value="draft-willis-sip-path-08"/>
+    <author fullname="Dean Willis" initials="D." surname="Willis">
+      <organization>dynamicsoft Inc.</organization>
+    </author>
+    <author fullname="Bernie Hoeneisen" initials="B." surname="Hoeneisen">
+      <organization>Switch</organization>
+    </author>
+    <date year="2002" month="May" day="30"/>
+    <abstract>
+      <t>The REGISTER function is used in a SIP system primarily to associatea temporary contact address with an address-of-record. This contactis generally in the form of a URI, such as Contact:&lt;sip:alice@pc33.atlanta.com&gt; and is generally dynamic and associatedwith the IP address or hostname of the SIP UA. The problem is thatnetwork topology may have one or more SIP proxies between the UA andthe registrar, such that any request travelling from the user's homenetwork to the registered UA must traverse these proxies. TheREGISTER method does not give us a mechanism to discover and recordthis sequence of proxies in the registrar for future use. Thisdocument defines an extension header field, 'Path' which providessuch a mechanism</t>
+    </abstract>
+  </front>
+</reference>

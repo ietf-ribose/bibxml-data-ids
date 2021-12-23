@@ -1,0 +1,15 @@
+<reference anchor="I-D.ietf-grow-simple-va">
+  <front>
+    <title>Simple Virtual Aggregation (S-VA)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-grow-simple-va-10"/>
+    <author fullname="Robert Raszuk" initials="R." surname="Raszuk"/>
+    <author fullname="Jakob Heitz" initials="J." surname="Heitz"/>
+    <author fullname="Alton Lo" initials="A." surname="Lo"/>
+    <author fullname="Lixia Zhang" initials="L." surname="Zhang"/>
+    <author fullname="Xiaohu Xu" initials="X." surname="Xu"/>
+    <date year="2012" month="July" day="5"/>
+    <abstract>
+      <t>All BGP routers in the Default Free Zone (DFZ) are required to carry all the routes in the Default Free Routing Table (DFRT). A technique is described that allows some BGP routers not to install all of those routes into the Forwarding Information Base (FIB). Some routers in an Autonomous System (AS) announce an aggregate (the VA prefix) in addition to the routes they already announce. This enables other routers not to install the routes covered by the VA prefix into the FIB as long as those routes have the same next-hop as the VA prefix. The VA prefixes that are announced within an AS are not announced to any other AS.</t>
+    </abstract>
+  </front>
+</reference>

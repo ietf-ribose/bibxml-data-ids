@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-cat-iakerb">
+  <front>
+    <title>Initial and Pass Through Authentication Using Kerberos V5 and GSS-API (IAKERB)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-cat-iakerb-09"/>
+    <author fullname="Dr. Bernard D. Aboba" initials="B." surname="Aboba">
+      <organization>Microsoft</organization>
+    </author>
+    <author fullname="Glen Zorn" initials="G." surname="Zorn">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Dr. Jonathan Trostle" initials="J." surname="Trostle">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Michael Swift" initials="M." surname="Swift">
+      <organization>University of WA</organization>
+    </author>
+    <date year="2002" month="October" day="7"/>
+    <abstract>
+      <t>This document defines extensions to the Kerberos protocolspecification (RFC 1510 [1]) and GSSAPI Kerberos protocol mechanism(RFC 1964 [2]) that enables a client to obtain Kerberos tickets forservices where the KDC is not accessible to the client, but isaccessible to the application server. Some common scenarios wherelack of accessibility would occur are when the client does not havean IP address prior to authenticating to an access point, the clientis unable to locate a KDC, or a KDC is behind a firewall. Thedocument specifies two protocols to allow a client to exchange KDCmessages (which are GSS encapsulated) with an IAKERB proxy instead ofa KDC.</t>
+    </abstract>
+  </front>
+</reference>

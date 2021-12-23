@@ -1,0 +1,20 @@
+<reference anchor="I-D.gundogan-icnrg-ccnx-timetlv">
+  <front>
+    <title>Alternative Delta Time Encoding for CCNx Using Compact Floating-Point Arithmetic</title>
+    <seriesInfo name="Internet-Draft" value="draft-gundogan-icnrg-ccnx-timetlv-03"/>
+    <author fullname="Cenk Gündoğan" initials="C." surname="Gündoğan">
+      <organization>HAW Hamburg</organization>
+    </author>
+    <author fullname="Thomas C. Schmidt" initials="T. C." surname="Schmidt">
+      <organization>HAW Hamburg</organization>
+    </author>
+    <author fullname="David R. Oran" initials="D. R." surname="Oran">
+      <organization>Network Systems Research and Design</organization>
+    </author>
+    <author fullname="Matthias Wählisch" initials="M." surname="Wählisch"/>
+    <date year="2021" month="January" day="18"/>
+    <abstract>
+      <t>CCNx utilizes delta time for a number of functions. When using CCNx in environments with constrained nodes and/or bandwidth constrained networks, it is valuable to have a compressed representation of delta time. In order to do so, either accuracy or dynamic range has to be sacrificed. Since the current uses of delta time do not require both simultaneously, one can consider a logarithmic encoding such as that specified in [IEEE.754.2019]. This document updates _CCNx messages in TLV Format_ (RFC8609) to specify this alternative encoding.</t>
+    </abstract>
+  </front>
+</reference>

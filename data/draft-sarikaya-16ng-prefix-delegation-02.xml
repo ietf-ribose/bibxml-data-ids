@@ -1,0 +1,12 @@
+<reference anchor="I-D.sarikaya-16ng-prefix-delegation">
+  <front>
+    <title>Using DHCPv6 for Prefix Delegation in IEEE 802.16 Networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-sarikaya-16ng-prefix-delegation-02"/>
+    <author fullname="Frank Xia"/>
+    <author fullname="Behcet Sarikaya"/>
+    <date year="2007" month="November" day="17"/>
+    <abstract>
+      <t>In the 802.16 Per-MS interface prefix model, one prefix can only beassigned to one interface of a mobile station by an access router anddifferent mobile stations can't share a prefix. Managing Per-MSinterface prefixes is likely to increase the processing load at theaccess router. Based on the idea that DHCPv6 servers can manageprefixes as well as addresses, we propose a new technique in whichthe access router offloads delegation and release tasks of theprefixes to an DHCPv6 server. The access router first requests aprefix for an incoming mobile station to the DHCPv6 server. Theaccess router next advertises the prefix information to the mobilestation with a Router Advertisement message. When the mobile stationhands off, the prefix is returned to the DHCPv6 server. We alsodescribe how AAA servers can help in prefix delegation.</t>
+    </abstract>
+  </front>
+</reference>

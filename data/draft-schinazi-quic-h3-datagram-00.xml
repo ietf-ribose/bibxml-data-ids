@@ -1,0 +1,13 @@
+<reference anchor="I-D.schinazi-quic-h3-datagram">
+  <front>
+    <title>Using QUIC Datagrams with HTTP/3</title>
+    <seriesInfo name="Internet-Draft" value="draft-schinazi-quic-h3-datagram-00"/>
+    <author fullname="David Schinazi" initials="D." surname="Schinazi">
+      <organization>Google LLC</organization>
+    </author>
+    <date year="2019" month="October" day="21"/>
+    <abstract>
+      <t>The QUIC DATAGRAM extension provides application protocols running over QUIC with a way to send unreliable data while leveraging the security and congestion-control properties of QUIC. However, QUIC DATAGRAM frames do not provide a means to demultiplex application contexts using them. This document defines how to use QUIC DATAGRAM frames when the application protocol running over QUIC is HTTP/3, by adding an identifier at the start of the frame payload.</t>
+    </abstract>
+  </front>
+</reference>

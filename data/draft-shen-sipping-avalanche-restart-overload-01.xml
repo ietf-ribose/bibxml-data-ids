@@ -1,0 +1,13 @@
+<reference anchor="I-D.shen-sipping-avalanche-restart-overload">
+  <front>
+    <title>A Mechanism for Session Initiation Protocol (SIP) Avalanche Restart Overload Control</title>
+    <seriesInfo name="Internet-Draft" value="draft-shen-sipping-avalanche-restart-overload-01"/>
+    <author fullname="Charles Shen"/>
+    <author fullname="Henning Schulzrinne"/>
+    <author fullname="Arata Koike"/>
+    <date year="2010" month="May" day="23"/>
+    <abstract>
+      <t>When a large number of clients register with a SIP registrar serverat approximately the same time, the server may become overloaded.Near-simultaneous floods of SIP SUBSCRIBE and PUBLISH requests mayhave similar effects. Such request avalanches can occur, forexample, after a power failure and recovery in a metropolitan area.This document describes how to avoid such overload situations. Underthis mechanism, a server estimates an avalanche restart backoffinterval during its normal operation and conveys this interval to itsclients through a new Restart-Timer header in normal responsemessages. Once an avalanche restart actually occurs, the clientsperform backoff based on the previously received Restart-Timer headervalue before sending out the first request attempt. Thus, themechanism spreads all the initial client requests and prevents themfrom overloading the server.</t>
+    </abstract>
+  </front>
+</reference>
