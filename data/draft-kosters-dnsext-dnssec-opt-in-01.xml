@@ -7,7 +7,7 @@
     </author>
     <date year="2001" month="March" day="6"/>
     <abstract>
-      <t>In order for DNSSEC to be deployed operationally with large zonesand little operational impact, there needs to be included amechanism that allows for the separation of secure versus unsecureviews of zones. This needs to be done in a transparent fashion thatallows DNSSEC to be deployed in an incremental manner. Thisdocument proposes the use of an extended RCODE to signify that aDNSSEC-aware requestor may have to re-query for the information, ifand only if, the delegation is not yet secure. Thus, one canmaintain two views of the zone and expand the DNSSEC zone as demandwarrants.</t>
+      <t>In order for DNSSEC to be deployed operationally with large zones and little operational impact, there needs to be included a mechanism that allows for the separation of secure versus unsecure views of zones. This needs to be done in a transparent fashion that allows DNSSEC to be deployed in an incremental manner. This document proposes the use of an extended RCODE to signify that a DNSSEC-aware requestor may have to re-query for the information, if and only if, the delegation is not yet secure. Thus, one can maintain two views of the zone and expand the DNSSEC zone as demand warrants.</t>
     </abstract>
   </front>
 </reference>

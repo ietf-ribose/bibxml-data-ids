@@ -7,7 +7,7 @@
     </author>
     <date year="2002" month="July" day="24"/>
     <abstract>
-      <t>A 'fast timeout' occurs if the retransmission timer expires, andafterwards the TCP sender receives the duplicate ACK that would havetriggered a fast retransmit of the oldest outstanding segment. Inthis case, staying in slow start is an unnecessarily drastic responseto the congestion indication. Instead, we believe it is safe to backout of the slow start phase but instead go into the fast recoveryphase. One benefit of this approach is that the potentially followingduplicate ACKs can be exploited for advanced loss recoveryalgorithms.</t>
+      <t>A 'fast timeout' occurs if the retransmission timer expires, and afterwards the TCP sender receives the duplicate ACK that would have triggered a fast retransmit of the oldest outstanding segment. In this case, staying in slow start is an unnecessarily drastic response to the congestion indication. Instead, we believe it is safe to back out of the slow start phase but instead go into the fast recovery phase. One benefit of this approach is that the potentially following duplicate ACKs can be exploited for advanced loss recovery algorithms.</t>
     </abstract>
   </front>
 </reference>
