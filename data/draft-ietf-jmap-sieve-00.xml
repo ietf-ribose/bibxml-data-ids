@@ -5,7 +5,7 @@
     <author fullname="Kenneth Murchison" initials="K." surname="Murchison">
       <organization>Fastmail US LLC</organization>
     </author>
-    <date year="2020" month="September" day="6"/>
+    <date year="2020" month="September"/>
     <abstract>
       <t>This document specifies a data model for managing Sieve scripts on a server using JMAP. Open Issues o Do we need/want both "content" and "blobId" in the SieveScript object? It may be simpler to have just one way of specifying content and "blobId" is more versatile and doesn't require JSON- encoding of the content. Furthermore, use of the forthcoming(?) Blob/set method would avoid the extra roundtrip of having to upload the blob first. o Should changes made by onSuccessActivateScript be reported in the response to the client-initiated request, or via a second implicit SIeveScript/set response? o The strawman for SieveScript/test only uses blobIds. Will this have to change once the issue regarding content/blobId in SieveScript is resolved?</t>
     </abstract>

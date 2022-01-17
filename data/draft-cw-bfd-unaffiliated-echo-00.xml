@@ -14,7 +14,7 @@
     <author fullname="Aihua Liu" initials="A." surname="Liu">
       <organization>ZTE</organization>
     </author>
-    <date year="2020" month="March" day="9"/>
+    <date year="2020" month="March"/>
     <abstract>
       <t>Bidirectional Forwarding Detection (BFD) is a fault detection protocol that can quickly determine a communication failure between devices and notify upper-layer applications [RFC5880]. BFD has asynchronous detecting mode and demand detection mode to satisfy different scenarios, also supports echo function as an adjunct to both modes to reduce the device requirement for BFD. Unaffiliated BFD echo function described in this document reuses the BFD echo function as described in [RFC5880] and [RFC5881], but independent of BFD asynchronous mode or BFD demand mode, that means it doesn't need BFD protocol capability of state machine, but only BFD echo function to a deployed device supporting BFD detection. When using unaffiliated BFD echo function, just the local device works on BFD protocol and the BFD peer doesn't, which only loopback the received BFD echo packets as usual data packets without enabling BFD protocol. Section 6.2.2 of [BBF-TR-146] describes one use case of the unaffiliated BFD echo function, and at least one more use case is known in the field BFD deployment.</t>
     </abstract>

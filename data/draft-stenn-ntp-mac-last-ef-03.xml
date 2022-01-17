@@ -8,7 +8,7 @@
     <author fullname="Danny Mayer" initials="D." surname="Mayer">
       <organization>Network Time Foundation</organization>
     </author>
-    <date year="2018" month="October" day="2"/>
+    <date year="2018" month="October"/>
     <abstract>
       <t>NTPv4 is defined by RFC 5905 [RFC5905], and it and earlier versions of the NTP Protocol have supported symmetric private key Message Authentication Code (MAC) authentication. MACs were first described in Appendix C of RFC 1305 [RFC1305] and are further described in RFC 5905 [RFC5905]. As the number of Extension Fields grows there is an increasing chance of a parsing ambiguity when deciding if the "next" set of data is an Extension Field or a legacy MAC. This proposal defines two new Extension Fields to avoid this ambiguity. One, LAST- EF, is used to signify that it is the last Extension Field in the packet. If the LAST-EF is present, any subsequent data MUST be considered to be a legacy MAC. The other, MAC-EF, allows one or more MACs to be encapsulated in an Extension Field. If all parties in an association support MAC-EF, the use of a legacy MAC may be avoided.</t>
     </abstract>

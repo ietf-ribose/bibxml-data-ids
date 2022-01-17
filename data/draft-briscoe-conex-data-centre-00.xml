@@ -4,7 +4,7 @@
     <seriesInfo name="Internet-Draft" value="draft-briscoe-conex-data-centre-00"/>
     <author fullname="Bob Briscoe" initials="B." surname="Briscoe"/>
     <author fullname="Murari Sridharan" initials="M." surname="Sridharan"/>
-    <date year="2012" month="July" day="9"/>
+    <date year="2012" month="July"/>
     <abstract>
       <t>This document describes how a multi-tenant data centre operator can isolate tenants from network performance degradation due to each other's usage, but without losing the multiplexing benefits of a LAN- style network where anyone can use any amount of any resource. Zero per-tenant configuration and no implementation change is required on network equipment. Instead the solution is implemented with a simple change to the hypervisor (or container) on each physical server, beneath the tenant's virtual machines. These collectively enforce a very simple distributed contract - a single network allowance that each tenant can allocate among their virtual machines. The solution is simplest and most efficient using layer-3 switches that support explicit congestion notification (ECN) and if the sending operating system supports congestion exposure (ConEx). Nonetheless, an arrangement is described so that the operator can unilaterally deploy a complete solution while operating systems are being incrementally upgraded to support ConEx.</t>
     </abstract>

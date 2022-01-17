@@ -4,7 +4,7 @@
     <seriesInfo name="Internet-Draft" value="draft-ietf-idr-custom-decision-07"/>
     <author fullname="Alvaro Retana" initials="A." surname="Retana"/>
     <author fullname="Russ White" initials="R." surname="White"/>
-    <date year="2015" month="November" day="1"/>
+    <date year="2015" month="November"/>
     <abstract>
       <t>The BGP specification describes a Decision Process for selecting the best route. This process uses a series of steps, made up of path attributes and other values, to first determine the Degree of Preference of a route and later as tie breakers. While existing mechanisms may achieve some of the same results described in this document, they can only do so through extensive configuration such as matching communities to explicit policy and/or route preference configurations present on each BGP speaker within their administrative domain (autonomous system). Implementing some specific fine grained policies through such mechanisms is cumbersome, if even possible. This document defines a new Extended Community, called the Cost Community, which may be used as part of the Decision Process. The end result is a local Custom Decision Process.</t>
     </abstract>

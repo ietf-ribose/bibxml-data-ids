@@ -11,7 +11,7 @@
     <author fullname="Srihari R. Sangli" initials="S. R." surname="Sangli">
       <organization>Juniper Networks</organization>
     </author>
-    <date year="2019" month="December" day="1"/>
+    <date year="2019" month="December"/>
     <abstract>
       <t>RFC 5512 defines a BGP Path Attribute known as the "Tunnel Encapsulation Attribute". This attribute allows one to specify a set of tunnels. For each such tunnel, the attribute can provide the information needed to create the tunnel and the corresponding encapsulation header. The attribute can also provide information that aids in choosing whether a particular packet is to be sent through a particular tunnel. RFC 5512 states that the attribute is only carried in BGP UPDATEs that have the "Encapsulation Subsequent Address Family (Encapsulation SAFI)". This document deprecates the Encapsulation SAFI (which has never been used in production), and specifies semantics for the attribute when it is carried in UPDATEs of certain other SAFIs. This document adds support for additional tunnel types, and allows a remote tunnel endpoint address to be specified for each tunnel. This document also provides support for specifying fields of any inner or outer encapsulations that may be used by a particular tunnel. This document obsoletes RFC 5512.</t>
     </abstract>

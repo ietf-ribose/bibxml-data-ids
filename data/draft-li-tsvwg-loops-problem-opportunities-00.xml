@@ -8,7 +8,7 @@
     <author fullname="Xingwang Zhou" initials="X." surname="Zhou">
       <organization>Huawei</organization>
     </author>
-    <date year="2019" month="March" day="5"/>
+    <date year="2019" month="March"/>
     <abstract>
       <t>Various overlay tunnels are used in networks including WAN, enterprise campus and others. End to end paths are partitioned into multiple segments using overlay tunnels to achieve better path selection, lower latency and so on. Traditional end-to-end transport layers respond to packet loss slowly especially in long-haul networks: They either wait for some signal from the receiver to indicate a loss and then retransmit from the sender or rely on sender's timeout which is often quite long. LOOPS (Localized Optimization of Path Segments) attempts to provide non end-to-end local based in-network recovery to achieve better data delivery by making packet loss recovery faster. In an overlay network scenario, LOOPS can be performed over the existing, or purposely created, overlay tunnel based path segments. This document illustrates the slow packet loss recovery problems LOOPS tries to solve in some use cases and analyzes the impacts when local in-network recovery is employed as a LOOPS mechanism.</t>
     </abstract>

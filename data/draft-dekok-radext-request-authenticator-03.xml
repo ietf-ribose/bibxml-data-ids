@@ -5,7 +5,7 @@
     <author fullname="Alan DeKok">
       <organization>FreeRADIUS</organization>
     </author>
-    <date year="2017" month="December" day="4"/>
+    <date year="2017" month="December"/>
     <abstract>
       <t>RADIUS uses a one-octet Identifier field to correlate requests and responses, which limits clients to 256 "in flight" packets per connection. This document removes that limitation by allowing Request Authenticator to be used as an additional field for identifying packets. The capability is negotiated on a per- connection basis, and requires no changes to the RADIUS packet format, attribute encoding, or data types.</t>
     </abstract>

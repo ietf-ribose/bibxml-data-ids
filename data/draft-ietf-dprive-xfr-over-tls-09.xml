@@ -17,7 +17,7 @@
     <author fullname="Allison Mankin" initials="A." surname="Mankin">
       <organization>Salesforce</organization>
     </author>
-    <date year="2021" month="April" day="6"/>
+    <date year="2021" month="April"/>
     <abstract>
       <t>DNS zone transfers are transmitted in clear text, which gives attackers the opportunity to collect the content of a zone by eavesdropping on network connections. The DNS Transaction Signature (TSIG) mechanism is specified to restrict direct zone transfer to authorized clients only, but it does not add confidentiality. This document specifies the use of TLS, rather than clear text, to prevent zone content collection via passive monitoring of zone transfers: XFR-over-TLS (XoT). Additionally, this specification updates RFC1995, RFC5936 and RFC7766.</t>
     </abstract>

@@ -4,7 +4,7 @@
     <seriesInfo name="Internet-Draft" value="draft-ietf-qresync-rfc5162bis-07"/>
     <author fullname="Alexey Melnikov" initials="A." surname="Melnikov"/>
     <author fullname="Dave Cridland" initials="D." surname="Cridland"/>
-    <date year="2014" month="January" day="7"/>
+    <date year="2014" month="January"/>
     <abstract>
       <t>Often, multiple IMAP (RFC 3501) clients need to coordinate changes to a common IMAP mailbox. Examples include different clients working on behalf of the same user, and multiple users accessing shared mailboxes. These clients need a mechanism to efficiently synchronize state changes for messages within the mailbox. The Conditional Store facility provides a protected update mechanism for message state information -- for example, the mechanism can be used to guarantee that only one client can change message state at any time -- and a mechanism for requesting only changes to message state. This document additionally defines another IMAP extension, Quick Resynchronization, which builds on the Conditional Store extension to provide an IMAP client the ability to fully resynchronize a mailbox as part of the SELECT/EXAMINE command, without the need for additional server-side state or client round-trips. This document obsoletes RFC 4551 and RFC 5162. It updates RFC 4315, RFC 3501 and RFC 2683.</t>
     </abstract>

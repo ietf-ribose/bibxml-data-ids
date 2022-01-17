@@ -5,7 +5,7 @@
     <author fullname="Brian Dickson">
       <organization>GoDaddy</organization>
     </author>
-    <date year="2021" month="November" day="9"/>
+    <date year="2021" month="November"/>
     <abstract>
       <t>This Internet Draft proposes a mechanism for DNS resolvers to discover support for TLS transport to authoritative DNS servers, to validate this indication of support, and to authenticate the TLS certificates involved. This requires that the name server _names_ are in a DNSSEC signed zone. This also requires that the delegation of the zone served is protected by [I-D.dickson-dnsop-ds-hack], since the NS names are the keys used for discovery of TLS transport support. Additional recommendations relate to use of various techniques for efficiency and scalability, and new EDNS options to minimize round trips and for signaling between clients and resolvers.</t>
     </abstract>

@@ -7,7 +7,7 @@
     <author fullname="Venu Hemige" initials="V." surname="Hemige"/>
     <author fullname="Ray Qiu" initials="R." surname="Qiu"/>
     <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang"/>
-    <date year="2017" month="January" day="4"/>
+    <date year="2017" month="January"/>
     <abstract>
       <t>This document describes the procedures and recommendations for Virtual Private LAN Service (VPLS) Provider Edges (PEs) to facilitate replication of multicast traffic to only certain ports (behind which there are interested Protocol Independent Multicast (PIM) routers and/or Internet Group Management Protocol (IGMP) hosts) via Protocol Independent Multicast (PIM) snooping and proxying. With PIM snooping, PEs passively listen to certain PIM control messages to build control and forwarding states while transparently flooding those messages. With PIM proxying, Provider Edges (PEs) do not flood PIM Join/Prune messages but only generate their own and send out of certain ports, based on the control states built from downstream Join/Prune messages. PIM proxying is required when PIM Join suppression is enabled on the Customer Equipment (CE) devices and useful to reduce PIM control traffic in a VPLS domain. The document also describes PIM relay, which can be viewed as light- weight proxying, where all downstream Join/Prune messages are simply forwarded out of certain ports but not flooded to avoid triggering PIM Join suppression on CE devices.</t>
     </abstract>

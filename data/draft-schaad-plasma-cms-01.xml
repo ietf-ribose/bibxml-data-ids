@@ -3,7 +3,7 @@
     <title>Plasma Service CMS Processing</title>
     <seriesInfo name="Internet-Draft" value="draft-schaad-plasma-cms-01"/>
     <author fullname="Jim Schaad" initials="J." surname="Schaad"/>
-    <date year="2012" month="June" day="6"/>
+    <date year="2012" month="June"/>
     <abstract>
       <t>Secure Mime (S/MIME) defined a method of placing security labels on a Cryptographic Message Syntax (CMS) object. These labels are placed as part of the data signed and validated by the parties. This means that the message content is visible to the recipient prior to the label enforcement. In [EPS-WS-TRUST] a new model has been presented where a third party is used as the enforcement point of the label. This document provides the details needed to implement the new Plasma model in the CMS infrastructure. Additional benefits of using the Plasma module include moving responsibility of building lock boxes to the server and determining, based on policy, who should be a message recipient. The document describes and details how the encryption process is performed, defines a new lock box attribute to hold the information needed to valid the label and to obtain the keys needed to decrypt the message. The document does not cover the protocol between the client and the Plasma policy enforcement server.</t>
     </abstract>

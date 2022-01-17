@@ -4,7 +4,7 @@
     <seriesInfo name="Internet-Draft" value="draft-aanchal4-ntp-mac-00"/>
     <author fullname="Aanchal Malhotra" initials="A." surname="Malhotra"/>
     <author fullname="Sharon Goldberg" initials="S." surname="Goldberg"/>
-    <date year="2016" month="July" day="8"/>
+    <date year="2016" month="July"/>
     <abstract>
       <t>The Network Time Protocol (NTP) RFC 5905 [RFC5905] uses a message authentication code (MAC) to cryptographically authenticate its UDP packets. Currently, NTP packets are authenticated by appending a 128-bit key to the NTP data, and hashing the result with MD5 to obtain a 128-bit tag. However, as discussed in [BCK] and [RFC6151], this not a secure MAC. As such, this draft considers different secure MAC algorithms for use with NTP, and evaluates their performance. Given the security concerns, we also suggest deprecating the use of MD5 as defined in [RFC5905] for authenticating NTP packets.</t>
     </abstract>

@@ -5,7 +5,7 @@
     <author fullname="Bob Briscoe" initials="B." surname="Briscoe"/>
     <author fullname="Richard Scheffenegger" initials="R." surname="Scheffenegger"/>
     <author fullname="Mirja Kühlewind" initials="M." surname="Kühlewind"/>
-    <date year="2014" month="July" day="3"/>
+    <date year="2014" month="July"/>
     <abstract>
       <t>Explicit Congestion Notification (ECN) is a mechanism where network nodes can mark IP packets instead of dropping them to indicate incipient congestion to the end-points. Receivers with an ECN- capable transport protocol feed back this information to the sender. ECN is specified for TCP in such a way that only one feedback signal can be transmitted per Round-Trip Time (RTT). Recently, new TCP mechanisms like Congestion Exposure (ConEx) or Data Center TCP (DCTCP) need more accurate ECN feedback information whenever more than one marking is received in one RTT. This document specifies an experimental scheme to provide more than one feedback signal per RTT in the TCP header. Given TCP header space is scarce, it overloads the three existing ECN-related flags in the TCP header. Also, to improve robustness it uses 15 more bits if available. For initial experiments it places these in a TCP option. However, if the Urgent flag is cleared, zero header overhead could be achieved by reusing the Urgent Pointer opportunistically. Therefore this document reserves space in the Urgent Pointer to be used if the protocol progresses to the standards track.</t>
     </abstract>

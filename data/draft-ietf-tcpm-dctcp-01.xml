@@ -7,7 +7,7 @@
     <author fullname="Dave Thaler" initials="D." surname="Thaler"/>
     <author fullname="Praveen Balasubramanian" initials="P." surname="Balasubramanian"/>
     <author fullname="Glenn Judd" initials="G." surname="Judd"/>
-    <date year="2015" month="November" day="1"/>
+    <date year="2015" month="November"/>
     <abstract>
       <t>This informational memo describes Datacenter TCP (DCTCP), an improvement to TCP congestion control for datacenter traffic. DCTCP uses improved Explicit Congestion Notification (ECN) processing to estimate the fraction of bytes that encounter congestion, rather than simply detecting that some congestion has occurred. DCTCP then scales the TCP congestion window based on this estimate. This method achieves high burst tolerance, low latency, and high throughput with shallow-buffered switches. This memo also discusses deployment issues related to the coexistence of DCTCP and conventional TCP, the lack of a negotiating mechanism between sender and receiver, and presents some possible mitigations.</t>
     </abstract>

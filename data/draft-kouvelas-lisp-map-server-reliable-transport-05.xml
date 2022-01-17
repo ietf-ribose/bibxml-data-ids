@@ -20,7 +20,7 @@
     <author fullname="Jesus Arango" initials="J." surname="Arango">
       <organization>Microsoft</organization>
     </author>
-    <date year="2019" month="August" day="8"/>
+    <date year="2019" month="August"/>
     <abstract>
       <t>The communication between LISP ETRs and Map-Servers is based on unreliable UDP message exchange coupled with periodic message transmission in order to maintain soft state. The drawback of periodic messaging is the constant load imposed on both the ETR and the Map-Server. New use cases for LISP have increased the amount of state that needs to be communicated with requirements that are not satisfied by the current mechanism. This document introduces the use of a reliable transport for ETR to Map-Server communication in order to eliminate the periodic messaging overhead, while providing reliability, flow-control and endpoint liveness detection.</t>
     </abstract>

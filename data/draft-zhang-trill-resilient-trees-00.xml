@@ -6,7 +6,7 @@
     <author fullname="Tissa Senevirathne" initials="T." surname="Senevirathne"/>
     <author fullname="Janardhanan Pathangi" initials="J." surname="Pathangi"/>
     <author fullname="Ayan Banerjee" initials="A." surname="Banerjee"/>
-    <date year="2012" month="July" day="3"/>
+    <date year="2012" month="July"/>
     <abstract>
       <t>TRILL protocol provides layer 2 multicast data forwarding using IS-IS link state routing. Distribution trees are computed based on the link state information through Shortest Path First calculation and shared among VLANs across the campus. When a link on the distribution tree fails, a campus-wide recovergence of this distribution tree will take place, which can be time consuming and may cause considerable disruption to the ongoing multicast service. This document makes use of Affinity TLVs to build the backup distribution tree to protect links on the primary distribution tree. Since the backup distribution tree is built up ahead of the link failure, when a link on the primary distribution tree fails, the pre- installed backup forwarding table will be utilized to deliver multicast packets without waiting for the campus-wide recovergence, which minimizes the service disruption.</t>
     </abstract>

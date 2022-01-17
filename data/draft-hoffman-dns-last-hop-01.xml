@@ -3,7 +3,7 @@
     <title>Wrapping Last-Hop DNS for Traffic Protection</title>
     <seriesInfo name="Internet-Draft" value="draft-hoffman-dns-last-hop-01"/>
     <author fullname="Paul Hoffman"/>
-    <date year="2010" month="December" day="8"/>
+    <date year="2010" month="December"/>
     <abstract>
       <t>DNS queries from one resolver to an upstream resolver are often run over connections with no protection of any kind. The stub resolvers that initiate queries for an application are ofte called "last-hop", and their queries go to trusted recursive resolvers. The connection between last-hop resolvers and their upstream resolver is currently susceptible to both malicious and unintentional alteration that prevents the querying resolver from being sure that the results it receives are valid. Some middleboxes can prevent a stub resolver, even one that does DNSSEC validation, from getting enough information to validate a response. Further, a non-validating stub resolver is susceptible to active attacks in which the results are purposely altered. The protocol described in this document provides a method to avoid these problems and thus make resolution significantly more secure. This protocol can be used between any two DNS resolvers, but the focus of this document is on last-hop resolvers.</t>
     </abstract>

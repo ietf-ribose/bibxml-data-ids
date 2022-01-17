@@ -3,7 +3,7 @@
     <title>Japanese Message Signing Procedure</title>
     <seriesInfo name="Internet-Draft" value="draft-kazu-jmsg-sign-00"/>
     <author fullname="Kazuhiko Yamamoto" initials="K." surname="Yamamoto"/>
-    <date year="1996" month="June" day="3"/>
+    <date year="1996" month="June"/>
     <abstract>
       <t>This memo proposes a signing procedure for Japanese message. The procedure guarantees signature validity even messages are processed through message transfer agents which carelessly transform character set encodings. To sign Japanese message digitally, local forms such as EUC/Japanese, Shift-JIS, etc., are first converted into the transfer form, ISO-2022-JP, then duplicated into two objects. The first object is transformed into the signature form proposed in this memo and a detached digital signature is calculated over it. An entire digital signature is created with the second object and the detached digital signature. Japanese text is verified as the signature form instead of the transfer form. To encrypt Japanese message, the transfer form, ISO-2022-JP, is used.</t>
     </abstract>

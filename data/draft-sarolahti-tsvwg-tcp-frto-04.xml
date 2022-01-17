@@ -8,7 +8,7 @@
     <author fullname="Markku Kojo" initials="M." surname="Kojo">
       <organization>University of Helsinki</organization>
     </author>
-    <date year="2003" month="June" day="3"/>
+    <date year="2003" month="June"/>
     <abstract>
       <t>Spurious retransmission timeouts (RTOs) cause suboptimal TCP performance, because they often result in unnecessary retransmission of the last window of data. This document describes the 'Forward RTO Recovery' (F-RTO) algorithm for detecting spurious TCP RTOs. F-RTO is a TCP sender only algorithm that does not require any TCP options to operate. After retransmitting the first unacknowledged segment triggered by an RTO, the F-RTO algorithm at a TCP sender monitors the incoming acknowledgements to determine whether the timeout was spurious and to decide whether to send new segments or retransmit unacknowledged segments. The algorithm effectively helps to avoid additional unnecessary retransmissions and thereby improves TCP performance in case of a spurious timeout.</t>
     </abstract>

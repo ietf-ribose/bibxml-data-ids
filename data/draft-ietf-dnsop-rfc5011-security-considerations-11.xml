@@ -8,7 +8,7 @@
     <author fullname="Warren &quot;Ace&quot; Kumari" initials="W. A." surname="Kumari">
       <organization>Google</organization>
     </author>
-    <date year="2018" month="February" day="1"/>
+    <date year="2018" month="February"/>
     <abstract>
       <t>This document extends the RFC5011 rollover strategy with timing advice that must be followed by the publisher in order to maintain security. Specifically, this document describes the math behind the minimum time-length that a DNS zone publisher must wait before signing exclusively with recently added DNSKEYs. This document also describes the minimum time-length that a DNS zone publisher must wait after publishing a revoked DNSKEY before assuming that all active RFC5011 resolvers should have seen the revocation-marked key and removed it from their list of trust anchors. This document contains much math and complicated equations, but the summary is that the key rollover / revocation time is much longer than intuition would suggest. If you are not both publishing a DNSSEC DNSKEY, and using RFC5011 to advertise this DNSKEY as a new Secure Entry Point key for use as a trust anchor, you probably don't need to read this document.</t>
     </abstract>

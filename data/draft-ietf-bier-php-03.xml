@@ -5,7 +5,7 @@
     <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
       <organization>Juniper Networks</organization>
     </author>
-    <date year="2019" month="October" day="3"/>
+    <date year="2019" month="October"/>
     <abstract>
       <t>Bit Index Explicit Replication (BIER) can be used as provider tunnel for Multicast Virtual Private Network (MVPN) [RFC6514], Global Table Multicast [RFC7716] or Ethernet Virtual Private Network (EVPN) [RFC7432]. It is possible that not all routers in the provider network support BIER and there are various methods to handle BIER incapable transit routers. However those methods assume the MVPN/ EVPN Provider Edges (PEs) are BIER capable. This document specifies a method to allow BIER incapable routers to act as MVPN/EVPN PEs with BIER as the transport, by having the upstream BIER Forwarding Router (BFR) that is connected directly or indirectly via a tunnel to a BIER incapable PE remove the BIER header and send the payload to the PE.</t>
     </abstract>

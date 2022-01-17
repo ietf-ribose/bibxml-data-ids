@@ -8,7 +8,7 @@
     <author fullname="Dan Mahoney">
       <organization>ISC</organization>
     </author>
-    <date year="2019" month="July" day="6"/>
+    <date year="2019" month="July"/>
     <abstract>
       <t>While the DNS zone master file format has always allowed comments, there is no existing mechanism to preserve comments once the zone has been loaded into memory or converted to a binary representation. This note proposes a new RR type "NOTE", to be allocated from the Covert-RR type range proposed in [I-D.krecicki-dns-covert], so that confidential comments can be stored alongside zone data, and included in zone transfers when Covert semantics are supported by the secondary.</t>
     </abstract>

@@ -5,7 +5,7 @@
     <author fullname="Yoshifumi Nishida">
       <organization>Amazon Web Services</organization>
     </author>
-    <date year="2021" month="February" day="2"/>
+    <date year="2021" month="February"/>
     <abstract>
       <t>TCP option space is scarce resource as its max length is limited to 40 bytes. This limitation becomes more significant in SYN segments as all options used in a connection should be exchanged during SYN negotiations. This document proposes a new SYN option negotiation scheme that provide a feature to compress TCP options in SYN segments and provide more option space. The proposed scheme does not update the format of TCP header nor transmit any additional SYN or SYN-like segments so that it has lower risks for middlebox interventions. In addition, by combining another proposal for option space extension, it is possible to provide further option space.</t>
     </abstract>

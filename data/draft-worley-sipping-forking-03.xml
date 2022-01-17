@@ -3,7 +3,7 @@
     <title>A New Forking Mechanism for Session Initiation Protocol (SIP)</title>
     <seriesInfo name="Internet-Draft" value="draft-worley-sipping-forking-03"/>
     <author fullname="Dale Worley"/>
-    <date year="2009" month="March" day="3"/>
+    <date year="2009" month="March"/>
     <abstract>
       <t>The rules for SIP proxies are organized so that when a UAC sends an out-of-dialog request, even if the request is forked to a number of UASs, (usually) only one UAS will accept the request, and only the final response from that UAS will be returned to the UAC. This forking mechanism is optimal for an INVITE intended to connect one human user with another human uses, but is poor for requests that have a "one to many" nature, especially PUBLISH and SUBSCRIBE requests, but also including some INVITEs. This document proposes an alternative forking mechanism that better supports "one to many" requests, and that mechanism be the standardized meaning of the (existing but weakly specified) "Request-Disposition: no-cancel, parallel" header.</t>
     </abstract>
