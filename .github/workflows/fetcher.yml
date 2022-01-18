@@ -20,7 +20,9 @@ jobs:
         run: |
           gem install relaton-cli
       - name: Fetch documents
-        run: relaton fetch-data ietf-internet-drafts -f bibxml
+        run: |
+          find ./data -name '*.yaml' | xargs rm -f
+          relaton fetch-data ietf-internet-drafts -f bibxml
       - name: Push data
         run: |
           echo `date` > flag.txt
