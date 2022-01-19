@@ -1,0 +1,16 @@
+<reference anchor="I-D.boucadair-dnsop-prefix64">
+  <front>
+    <title>An EDNS0 Option for Sharing Pref64::/n</title>
+    <seriesInfo name="Internet-Draft" value="draft-boucadair-dnsop-prefix64-02"/>
+    <author>
+      <organization abbrev="IETF">Internet Engineering Task Force</organization>
+    </author>
+    <author fullname="Mohamed Boucadair">
+      <organization>Orange</organization>
+    </author>
+    <date year="2022" month="January"/>
+    <abstract>
+      <t>This document specifies an Extension Mechanisms for DNS (EDNS0) option to convey the IPv6 prefix used to build IPv4-converted IPv6 addresses. When conveyed in a DNS query, the option communicates the IPv6 prefix used in the network from which the query was originated. Such a network is assumed to enable a Network Address and Protocol Translation from IPv6 clients to IPv4 servers (NAT64) function. DNS64-capable servers will use that prefix to build synthesized AAAA records, rather than relying on a preconfigured prefix. When conveyed in a DNS reply, the option conveys the IPv6 prefix that is used by a DNS64-capable server to synthesized AAAA records. Such information helps to automatically detect mismatches between the local NAT64 configuration and the one enforced at the DNS64 server. Also, security-aware and validating hosts may use the new EDNS0 option to signal the presence of a NAT64 function. That signal is used by the DNS server to fill the additional section of the AAAA reply in order to supply A RRs of the target. Dual queries and delays are thus avoided. This document updates RFC 6147.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,19 @@
+<reference anchor="I-D.lucente-grow-bmp-tlv-ebit">
+  <front>
+    <title>Support for Enterprise-specific TLVs in the BGP Monitoring Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-lucente-grow-bmp-tlv-ebit-02"/>
+    <author>
+      <organization abbrev="IETF">Internet Engineering Task Force</organization>
+    </author>
+    <author fullname="Paolo Lucente">
+      <organization>NTT</organization>
+    </author>
+    <author fullname="Yunan Gu">
+      <organization>Huawei</organization>
+    </author>
+    <date year="2022" month="January" day="17"/>
+    <abstract>
+      <t>Message types defined by the BGP Monitoring Protocol (BMP) do provision for data in TLV - Type, Length, Value - format, either in the shape of optional TLVs at the end of a BMP message or Stats Reports TLVs. However the space for Type value is unique and governed by IANA. To allow the usage of vendor-specific TLVs, a mechanism to define per-vendor Type values is required. In this document we introduce an Enterprise Bit, or E-bit, for such purpose.</t>
+    </abstract>
+  </front>
+</reference>
