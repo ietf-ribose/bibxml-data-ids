@@ -12,6 +12,11 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
+      - name: Perform rsync from IETF
+        run: |
+          rsync -avcizxL rsync.ietf.org::bibxml-ids ./bibxml-ids
+
       - name: Use Ruby
         uses: ruby/setup-ruby@v1
         with:
