@@ -1,15 +1,19 @@
 <reference anchor="I-D.herbert-udp-magic-numbers">
   <front>
     <title>UDP Magic Numbers</title>
-    <seriesInfo name="Internet-Draft" value="draft-herbert-udp-magic-numbers-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Tom Herbert" initials="T." surname="Herbert"/>
-    <author fullname="Lucy Yong" initials="L." surname="Yong"/>
+    <author fullname="Tom Herbert" initials="T." surname="Herbert">
+      <organization/>
+    </author>
+    <author fullname="Lucy Yong" initials="L." surname="Yong">
+      <organization/>
+    </author>
     <date year="2015" month="April" day="24"/>
     <abstract>
       <t>This specification defines magic numbers in UDP which allow a node to determine or confirm the protocol contained in a UDP payload. This is primarily applicable for encapsulation and transport protocols encapsulated within UDP where intermediate devices, such as middle boxes, need to parse these protocols for providing service. Magic numbers can also be used to multiplex different UDP encapsulated protocols over the same UDP port.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-herbert-udp-magic-numbers-00"/>
 </reference>

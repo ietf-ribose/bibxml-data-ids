@@ -1,7 +1,6 @@
 <reference anchor="I-D.acee-lsr-ospf-transport-instance">
   <front>
     <title>OSPF Transport Instance Extensions</title>
-    <seriesInfo name="Internet-Draft" value="draft-acee-lsr-ospf-transport-instance-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -22,4 +21,5 @@
       <t>OSPFv2 and OSPFv3 include a reliable flooding mechanism to disseminate routing topology and Traffic Engineering (TE) information within a routing domain. Given the effectiveness of these mechanisms, it is convenient to envision using the same mechanism for dissemination of other types of information within the domain. However, burdening OSPF with this additional information will impact intra-domain routing convergence and possibly jeopardize the stability of the OSPF routing domain. This document presents mechanism to relegate this ancillary information to a separate OSPF instance and minimize the impact.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-acee-lsr-ospf-transport-instance-01"/>
 </reference>

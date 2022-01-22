@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-smime-crs">
   <front>
     <title>Certificate Request Syntax</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-smime-crs-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -17,10 +16,13 @@
     <author fullname="Michael Myers" initials="M." surname="Myers">
       <organization>VeriSign</organization>
     </author>
-    <author fullname="Jeff Weinstein" initials="J." surname="Weinstein"/>
+    <author fullname="Jeff Weinstein" initials="J." surname="Weinstein">
+      <organization/>
+    </author>
     <date year="1997" month="November" day="26"/>
     <abstract>
       <t>This document defines an Internet PKI Certificate Request Syntax (CRS). It addresses a growing need within the Internet PKI community for an interface to public key certification products and services based on PKCS7 [PKCS7] and PKCS10 [PKCS10]. A small number of additional services are defined to supplement the core certificate request service. Current industry practice regarding the use of PKCS7 and PKCS10 is also documented for the benefit of the Internet community. In general, the use of PKCS7 in this document is aligned to the Cryptographic Message Syntax [CMS] which provides a superset of the PKCS7 syntax. Throughout this document, the term CMS should be taken to include the PKCS #7 document as defined in [PKCS7]. The term CRS refers to this specification. The chief differences between CRS and PKIXMGMT are: - Use of PKCS7 for security encapsulation and transaction framework - Use of PKCS10 as the certification request message content - Certification of Diffie-Hellman Public Keys based on PKCS10 requests - No assumption of reliable connectivity or persistent on-line operation - Single request/response transaction model</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-smime-crs-00"/>
 </reference>

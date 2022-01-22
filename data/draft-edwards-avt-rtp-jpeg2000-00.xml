@@ -1,14 +1,16 @@
 <reference anchor="I-D.edwards-avt-rtp-jpeg2000">
   <front>
     <title>RTP Payload Format for JPEG 2000 Video Streams</title>
-    <seriesInfo name="Internet-Draft" value="draft-edwards-avt-rtp-jpeg2000-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Eric Edwards" initials="E." surname="Edwards"/>
+    <author fullname="Eric Edwards" initials="E." surname="Edwards">
+      <organization/>
+    </author>
     <date year="2001" month="November" day="13"/>
     <abstract>
       <t>This document describes a payload format for transporting JPEG 2000 video streams using RTP (Real-time Transport Protocol). JPEG 2000 video streams are formed as a continuous series of JPEG 2000 still images which is next-generation still image coding. The JPEG 2000 payload format described in this document has three features: (1) Improvement of robustness to packet loss by fragmenting JPEG 2000 packet units intelligently, (2) Persistency of main header to minimize loss effect, (3) Priority information field for scalable delivery from the same codestream. These will allow the scalability and robustness of JPEG 2000 to be maximized in streaming applications.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-edwards-avt-rtp-jpeg2000-00"/>
 </reference>

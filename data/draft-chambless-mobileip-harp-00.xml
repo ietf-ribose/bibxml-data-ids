@@ -1,11 +1,12 @@
 <reference anchor="I-D.chambless-mobileip-harp">
   <front>
     <title>HARP - ''Home Agent Redundancy Protocol''</title>
-    <seriesInfo name="Internet-Draft" value="draft-chambless-mobileip-harp-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Jim Binkley" initials="J." surname="Binkley"/>
+    <author fullname="Jim Binkley" initials="J." surname="Binkley">
+      <organization/>
+    </author>
     <author fullname="Bjorn Chambless" initials="B." surname="Chambless">
       <organization>Portland State University</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>This document presents a protocol called the Home Agent Redundancy Protocol or HARP. HARP is an optional extension to Mobile-IP [RFC- 2002]. Mobile-IP includes the notion of a Home Agent which is a host located on the home IP subnet for Mobile Nodes. Home Agents forward packets to Mobile Nodes that are away from home. Since Mobile Nodes are dependent on the Home Agent for connectivity when away from home, the Home Agent represents a possible single source of failure for the Mobile IP system. HARP is a protocol which allows a pair (or set) of Home Agents to cooperate and share Mobile-IP Mobile Node registration information. If one of the HARP peers should fail, the Mobile-IP system will not necessarily fail, hence HARP introduces Home Agent redundancy into the Mobile-IP system. Mobile Nodes are not aware that HARP exists, so HARP requires no changes to Mobile-IP as a protocol. In this document, we present the HARP architecture and protocol.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-chambless-mobileip-harp-00"/>
 </reference>

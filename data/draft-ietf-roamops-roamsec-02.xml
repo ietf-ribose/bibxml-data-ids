@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-roamops-roamsec">
   <front>
     <title>End-to-End Security in Roaming</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-roamops-roamsec-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>As noted in Roaming Requirements, there is a need for end-to-end secu- rity in roaming, including end-to-end integrity protection, and confi- dentiality. In roaming implementations based on proxy chaining, pack- ets are routed between the NAS and home server through a series of proxies. Current roaming implementations provide only hop-by-hop security, guarding only against modification of packets in transit between hops. This makes it possible for untrusted proxies to modify packets sent between a NAS and a home server without detection, as well as to decrypt PAP passwords, Tunnel passwords, and other hidden attributes which are available to it in cleartext. This document provides a framework for end-to-end security in roaming, making it possible to provide end-to-end message integrity and attribute hiding through addition of three new attributes.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-roamops-roamsec-02"/>
 </reference>

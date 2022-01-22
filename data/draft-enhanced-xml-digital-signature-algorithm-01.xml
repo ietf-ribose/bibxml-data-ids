@@ -1,7 +1,6 @@
 <reference anchor="I-D.enhanced-xml-digital-signature-algorithm">
   <front>
     <title>Enhanced XML Digital Signature Algorithm to Mitigate  Wrapping Attacks</title>
-    <seriesInfo name="Internet-Draft" value="draft-enhanced-xml-digital-signature-algorithm-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -19,4 +18,5 @@
       <t>XML signature standard [RFC3275]identifies signed elements by their unique identities in the XML document. However this allows shifting of XML elements from one location to another within the same XML document, without affecting the ability to verify the signature. This flexibility paves the way for an attacker to tweak the original XML message without getting noticed by the receiver, leading to XML Signature wrapping or rewriting attacks. This document proposes to use absolute XPath as a "Positional Token" and modifies the existing XML Digital Signature algorithm to overcome this attack.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-enhanced-xml-digital-signature-algorithm-01"/>
 </reference>

@@ -1,15 +1,19 @@
 <reference anchor="I-D.ayesta-to-short-tcp">
   <front>
     <title>On reducing the number of TimeOuts for short-lived TCP connections</title>
-    <seriesInfo name="Internet-Draft" value="draft-ayesta-to-short-tcp-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Urtzi Ayesta" initials="U." surname="Ayesta"/>
-    <author fullname="Konstantin Avrachenkov" initials="K." surname="Avrachenkov"/>
+    <author fullname="Urtzi Ayesta" initials="U." surname="Ayesta">
+      <organization/>
+    </author>
+    <author fullname="Konstantin Avrachenkov" initials="K." surname="Avrachenkov">
+      <organization/>
+    </author>
     <date year="2002" month="October" day="21"/>
     <abstract>
       <t>This document shows that short TCP sessions are prone to timeout. In particular, one single segment loss will provoke TCP to timeout if the document size is below certain threshold. This document analyzes the benefit of TCP modifications such as Limited Transmit Algorithm [RFC3042] and Increasing Initial Window [RFC2414] in the context of short-lived TCP transfers. However TCP remains vulnerable to the losses at the very end of the transmission. Therefore we suggest complementary modifications to Limited Transmit Algorithm to recover effectively from losses at the end of the TCP transfer.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ayesta-to-short-tcp-00"/>
 </reference>

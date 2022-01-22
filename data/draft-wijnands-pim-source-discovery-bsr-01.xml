@@ -1,16 +1,22 @@
 <reference anchor="I-D.wijnands-pim-source-discovery-bsr">
   <front>
     <title>PIM source discovery via BSR</title>
-    <seriesInfo name="Internet-Draft" value="draft-wijnands-pim-source-discovery-bsr-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands"/>
-    <author fullname="Stig Venaas" initials="S." surname="Venaas"/>
-    <author fullname="Michael Brig" initials="M." surname="Brig"/>
+    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
+      <organization/>
+    </author>
+    <author fullname="Stig Venaas" initials="S." surname="Venaas">
+      <organization/>
+    </author>
+    <author fullname="Michael Brig" initials="M." surname="Brig">
+      <organization/>
+    </author>
     <date year="2012" month="June" day="22"/>
     <abstract>
       <t>PIM Sparse-Mode use a Rendezvous Point (RP) and shared trees to forward multicast packets to Last Hop Routers (LHR). After the first packet is received by the LHR, the source of the multicast stream is learned and the Shortest Path Tree (SPT) can be joined. This draft proposes a solution to support PIM Sparse Mode (SM) without the need for PIM registers, RPs or shared trees. Multicast source information is distributed via Bootstrap Router [RFC5059] messages and flooded throughout the Multicast domain. By removing the need for RPs and shared trees, the PIM-SM procedures are simplified, improving router operations, management and making the protocol more robust.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-wijnands-pim-source-discovery-bsr-01"/>
 </reference>

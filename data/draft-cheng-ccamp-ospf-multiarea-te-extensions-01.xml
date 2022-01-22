@@ -1,14 +1,16 @@
 <reference anchor="I-D.cheng-ccamp-ospf-multiarea-te-extensions">
   <front>
     <title>OSPF Extensions to Support Multi-Area Traffic Engineering</title>
-    <seriesInfo name="Internet-Draft" value="draft-cheng-ccamp-ospf-multiarea-te-extensions-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Dean Cheng" initials="D." surname="Cheng"/>
+    <author fullname="Dean Cheng" initials="D." surname="Cheng">
+      <organization/>
+    </author>
     <date year="2003" month="February" day="21"/>
     <abstract>
       <t>The [MULTI-AREA] introduces a set of mechanisms that could be used to construct LSPs that span multiple IS-IS/OSPF areas, where one scenario is to allow the head-end LSR to compute the path all the way to the ABR in the tail-end area. This document proposes some new OSPF extensions that can be used in supporting that scenario, i.e., by leaking some of the useful information from individual areas to others, the constraint-based routing at the head-end LSR of LSPs in OSPF networks with multiple areas can be optimized.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-cheng-ccamp-ospf-multiarea-te-extensions-01"/>
 </reference>

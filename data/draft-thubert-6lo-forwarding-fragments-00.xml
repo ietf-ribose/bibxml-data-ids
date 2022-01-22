@@ -1,15 +1,19 @@
 <reference anchor="I-D.thubert-6lo-forwarding-fragments">
   <front>
     <title>LLN Fragment Forwarding and Recovery</title>
-    <seriesInfo name="Internet-Draft" value="draft-thubert-6lo-forwarding-fragments-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Pascal Thubert" initials="P." surname="Thubert"/>
-    <author fullname="Jonathan Hui" initials="J." surname="Hui"/>
+    <author fullname="Pascal Thubert" initials="P." surname="Thubert">
+      <organization/>
+    </author>
+    <author fullname="Jonathan Hui" initials="J." surname="Hui">
+      <organization/>
+    </author>
     <date year="2013" month="October" day="17"/>
     <abstract>
       <t>In order to be routed, a fragmented packet must be reassembled at every hop of a multihop link where lower layer fragmentation occurs. Considering that the IPv6 minimum MTU is 1280 bytes and that an an 802.15.4 frame can have a payload limited to 74 bytes in the worst case, a packet might end up fragmented into as many as 18 fragments at the 6LoWPAN shim layer. If a single one of those fragments is lost in transmission, all fragments must be resent, further contributing to the congestion that might have caused the initial packet loss. This draft introduces a simple protocol to forward and recover individual fragments that might be lost over multiple hops between 6LoWPAN endpoints.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-thubert-6lo-forwarding-fragments-00"/>
 </reference>

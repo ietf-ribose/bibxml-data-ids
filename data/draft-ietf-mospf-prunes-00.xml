@@ -1,14 +1,16 @@
 <reference anchor="I-D.ietf-mospf-prunes">
   <front>
     <title>MOSPF Prunes</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-mospf-prunes-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="John Moy" initials="J." surname="Moy"/>
+    <author fullname="John Moy" initials="J." surname="Moy">
+      <organization/>
+    </author>
     <date year="1998" month="December" day="23"/>
     <abstract>
       <t>MOSPF is a link-state multicast routing protocol, based on OSPF. Inside a single OSPF area, the delivery of multicast datagrams is restricted to group members only, by propagating the location of group members through group-membership-LSAs. However, group membership is not propagated across area and/or AS boundaries, relying instead on so-called wild-card multicast receivers. This means that in some cases multicast datagrams are transmitted further than necessary, wasting link and processor resources in the process. This document defines a way to prune these excess branches off the MOSPF delivery tree, using a new Prune-LSA. In concept these are similar to the prunes employed by the DVMRP protocol. However, to reuse the reliability mechanisms present in the base OSPF protocol, MOSPF prunes are implemented as local-scope Opaque-LSAs. As a result, inter-area and inter-AS multicast datagrams are forwarded by MOSPF using the broadcast-and-prune strategy employed by DVMRP.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-mospf-prunes-00"/>
 </reference>

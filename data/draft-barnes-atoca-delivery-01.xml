@@ -1,14 +1,16 @@
 <reference anchor="I-D.barnes-atoca-delivery">
   <front>
     <title>Lightweight Emergency Alerting Protocol (LEAP)</title>
-    <seriesInfo name="Internet-Draft" value="draft-barnes-atoca-delivery-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Richard Barnes"/>
+    <author fullname="Richard Barnes">
+      <organization/>
+    </author>
     <date year="2011" month="October" day="31"/>
     <abstract>
       <t>Emergency alerts need to be delivered reliably from one source to many recipients at once. TCP is unsuitable for this style of delivery, because the large number of acknowledgements would likely cause network congestion. This document defines a UDP-based protocol for delivering alerts that supports fragmentation and retransmission for reliability, and allows the sender of a datagram to control whether acknowledgements are sent. Please send feedback to the atoca@ietf.org mailing list.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-barnes-atoca-delivery-01"/>
 </reference>

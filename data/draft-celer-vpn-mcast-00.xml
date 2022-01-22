@@ -1,14 +1,16 @@
 <reference anchor="I-D.celer-vpn-mcast">
   <front>
     <title>Interworking between IP VPN and shared backbone multicast domains</title>
-    <seriesInfo name="Internet-Draft" value="draft-celer-vpn-mcast-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Alicja B. Celer" initials="A. B." surname="Celer"/>
+    <author fullname="Alicja B. Celer" initials="A. B." surname="Celer">
+      <organization/>
+    </author>
     <date year="2000" month="November" day="17"/>
     <abstract>
       <t>This draft introduces an interworking function between shared backbone multicast domain and VPN multicast domain. The architecture that follows is similar to Multicast Border Router functionality, however the mapping is defined not as a mapping between two different multicast protocols, but two different multicast topologies the under assumption that the shared backbone multicast topology will be shared between VPNs for carrying the traffic. The main assumption made in this draft is that multicast packets are replicated on PE device (router) for scalability and performance reasons. However, it is possible to extend the solution and replicate packets on CE devices. The proposed mapping of addresses to topology solves the issue of scalability of multicast addresses to state knowledge in the core. This draft also identifies three types of multicast capabilities for the core.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-celer-vpn-mcast-00"/>
 </reference>

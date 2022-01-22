@@ -1,7 +1,6 @@
 <reference anchor="I-D.decraene-lsr-isis-flooding-speed">
   <front>
     <title>IS-IS Flooding Speed advertisement</title>
-    <seriesInfo name="Internet-Draft" value="draft-decraene-lsr-isis-flooding-speed-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -25,4 +24,5 @@
       <t>This document proposes a mechanism that can be used to increase the speed at which link state information is flooded across a network when multiple LSPDUs need to be flooded, such as in case of a node failure. It also reduces the likelihood of overloading the downstream flooding neighbors. This document defines a new TLV to be advertised in IS-IS Hello messages. This TLV carries two parameters indicating the performance capacity to receive LSPDUs: the minimum delay between two consecutive LSPDUs and the number of LSPDUs which can the received back to back.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-decraene-lsr-isis-flooding-speed-01"/>
 </reference>

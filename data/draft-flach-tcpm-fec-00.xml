@@ -1,17 +1,25 @@
 <reference anchor="I-D.flach-tcpm-fec">
   <front>
     <title>TCP Instant Recovery: Incorporating Forward Error Correction in TCP</title>
-    <seriesInfo name="Internet-Draft" value="draft-flach-tcpm-fec-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Tobias Flach"/>
-    <author fullname="Nandita Dukkipati"/>
-    <author fullname="Yuchung Cheng"/>
-    <author fullname="Barath Raghavan"/>
+    <author fullname="Tobias Flach">
+      <organization/>
+    </author>
+    <author fullname="Nandita Dukkipati">
+      <organization/>
+    </author>
+    <author fullname="Yuchung Cheng">
+      <organization/>
+    </author>
+    <author fullname="Barath Raghavan">
+      <organization/>
+    </author>
     <date year="2013" month="July" day="14"/>
     <abstract>
       <t>Ordinary TCP loss recovery takes at least one round-trip time and as such can increase application-perceived latency, especially for short flows such as Web transactions. TCP Instant Recovery (TCP-IR) is an experimental algorithm that allows a receiving end to recover lost packets without retransmissions, thus potentially saving at least one full round-trip time compared to standard TCP. TCP-IR achieves this by judiciously injecting encoded data segments within a TCP stream. This document describes the TCP-IR algorithm at the sending and receiving ends, along with the required protocol changes.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-flach-tcpm-fec-00"/>
 </reference>

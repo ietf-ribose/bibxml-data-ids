@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-tsvwg-transport-encrypt">
   <front>
     <title>Considerations around Transport Header Confidentiality, Network Operations, and the Evolution of Internet Transport Protocols</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-transport-encrypt-13"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>To protect user data and privacy, Internet transport protocols have supported payload encryption and authentication for some time. Such encryption and authentication is now also starting to be applied to the transport protocol headers. This helps avoid transport protocol ossification by middleboxes, while also protecting metadata about the communication. Current operational practice in some networks inspect transport header information within the network, but this is no longer possible when those transport headers are encrypted. This document discusses the possible impact when network traffic uses a protocol with an encrypted transport header. It suggests issues to consider when designing new transport protocols or features. These considerations arise from concerns such as network operations, prevention of network ossification, enabling transport protocol evolution and respect for user privacy.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-transport-encrypt-13"/>
 </reference>

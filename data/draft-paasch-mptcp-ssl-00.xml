@@ -1,15 +1,19 @@
 <reference anchor="I-D.paasch-mptcp-ssl">
   <front>
     <title>Securing the MultiPath TCP handshake with external keys</title>
-    <seriesInfo name="Internet-Draft" value="draft-paasch-mptcp-ssl-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Christoph Paasch"/>
-    <author fullname="Olivier Bonaventure"/>
+    <author fullname="Christoph Paasch">
+      <organization/>
+    </author>
+    <author fullname="Olivier Bonaventure">
+      <organization/>
+    </author>
     <date year="2012" month="October" day="15"/>
     <abstract>
       <t>Multipath TCP currently relies on the exchange of keys in clear during the initial handshake to authenticate the establishment of additional subflows. This document proposes a variant of the Multipath TCP handshake that allows Multipath TCP to reuse keys negotiated by the Application layer protocol above it such as SSL/TLS to authenticate the establishment of additional subflows.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-paasch-mptcp-ssl-00"/>
 </reference>

@@ -1,11 +1,12 @@
 <reference anchor="I-D.ietf-grow-bgp-graceful-shutdown-requirements">
   <front>
     <title>Requirements for the Graceful Shutdown of BGP Sessions</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-grow-bgp-graceful-shutdown-requirements-07"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Antonio Jose Elizond Armengol" initials="A. J. E." surname="Armengol"/>
+    <author fullname="Antonio Jose Elizond Armengol" initials="A. J. E." surname="Armengol">
+      <organization/>
+    </author>
     <author fullname="Cristel Pelsser" initials="C." surname="Pelsser">
       <organization>IIJ</organization>
     </author>
@@ -26,4 +27,5 @@
       <t>The Border Gateway Protocol (BGP) is heavily used in Service Provider networks for both Internet and BGP/MPLS VPN services. For resiliency purposes, redundant routers and BGP sessions can be deployed to reduce the consequences of an Autonomous System Border Router (ASBR) or BGP session breakdown on customers' or peers' traffic. However, simply taking down or even bringing up a BGP session for maintenance purposes may still induce connectivity losses during the BGP convergence. This is no longer satisfactory for new applications (e.g., voice over IP, online gaming, VPN). Therefore, a solution is required for the graceful shutdown of a (set of) BGP session(s) in order to limit the amount of traffic loss during a planned shutdown. This document expresses requirements for such a solution. This document is not an Internet Standards Track specification; it is published for informational purposes.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-grow-bgp-graceful-shutdown-requirements-07"/>
 </reference>

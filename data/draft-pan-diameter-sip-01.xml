@@ -1,7 +1,6 @@
 <reference anchor="I-D.pan-diameter-sip">
   <front>
     <title>DIAMETER: Policy and Accounting Extension for SIP</title>
-    <seriesInfo name="Internet-Draft" value="draft-pan-diameter-sip-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -19,4 +18,5 @@
       <t>This document describes a policy and accounting information exchange mechanism between a DIAMETER policy server and a SIP proxy server. A DIAMETER server is responsible for maintaining a user policy and accounting database and a means to update it. A SIP proxy server needs to contact a DIAMETER server during multimedia session setup and teardown time to perform admission control and accounting tasks. To provide proper data-forwarding level service guarantees to the SIP sessions, the DIAMETER servers are also responsible for interfacing with the network resource management database. However, this is beyond the scope of this document. The objectives of the proposed DIAMETER extension are 1) providing accurate accounting information, 2) flexible and 3) simple to implement. The protocol does not make any assumption about policy and billing algorithms at DIAMETER servers.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-pan-diameter-sip-01"/>
 </reference>

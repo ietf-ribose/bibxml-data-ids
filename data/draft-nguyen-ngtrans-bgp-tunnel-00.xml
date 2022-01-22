@@ -1,11 +1,12 @@
 <reference anchor="I-D.nguyen-ngtrans-bgp-tunnel">
   <front>
     <title>Connecting IPv6 Domains across IPv4 Clouds with BGP</title>
-    <seriesInfo name="Internet-Draft" value="draft-nguyen-ngtrans-bgp-tunnel-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Tri Nguyen" initials="T." surname="Nguyen"/>
+    <author fullname="Tri Nguyen" initials="T." surname="Nguyen">
+      <organization/>
+    </author>
     <author fullname="Dirk Ooms" initials="D." surname="Ooms">
       <organization>Alcatel</organization>
     </author>
@@ -20,4 +21,5 @@
       <t>This document specifies a mechanism for IPv6 islands to communicate with each other over an IPv4 core network without explicit tunnel setup, requiring only one IPv4 address (and a derived IPv4-compatible IPv6 address) per IPv6 island or per set of IPv6 islands connected to the same edge router. The hosts in the IPv6 islands can use native IPv6 addresses. The method uses MP-BGP in the edge routers to exchange IPv6 reachability information between the IPv6 islands.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-nguyen-ngtrans-bgp-tunnel-00"/>
 </reference>

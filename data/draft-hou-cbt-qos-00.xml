@@ -1,15 +1,18 @@
 <reference anchor="I-D.hou-cbt-qos">
   <front>
     <title>QoS Extension to CBT</title>
-    <seriesInfo name="Internet-Draft" value="draft-hou-cbt-qos-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Yao-Min Chen" initials="Y." surname="Chen"/>
+    <author fullname="Yao-Min Chen" initials="Y." surname="Chen">
+      <organization/>
+    </author>
     <author fullname="Jennifer C. Hou" initials="J. C." surname="Hou">
       <organization>H.-Y. Tyan</organization>
     </author>
-    <author fullname="Hung-Ying Tyan" initials="H." surname="Tyan"/>
+    <author fullname="Hung-Ying Tyan" initials="H." surname="Tyan">
+      <organization/>
+    </author>
     <author fullname="Bin Wang" initials="B." surname="Wang">
       <organization>The Ohio State University</organization>
     </author>
@@ -18,4 +21,5 @@
       <t>This document describes extension to the CBT protocol to maintain a multicast tree with user-specified QoS properties. Specifically, it describes enhancements in the member join/leave and state update/refresh procedures to facilitate the deployment of additive (e.g., end-to-end delay bound), multiplicative (e.g., packet loss ratio along a path) and concave (e.g., minimum bandwidth available) QoS. Eligibility tests are devised to verify whether or not a new member can join a multicast tree at adequate QoS, while not violating the QoS received by on-tree members. Management of router state is based on a simple state update and refresh procedure that can be readily integrated with the tree maintenance mechanism that exists in CBT (i.e., echo-requests and echo-replies).</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-hou-cbt-qos-00"/>
 </reference>

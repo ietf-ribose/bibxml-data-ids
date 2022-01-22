@@ -1,7 +1,6 @@
 <reference anchor="I-D.balenson-groupkeymgmt-oft">
   <front>
     <title>Key Management for Large Dynamic Groups:  One-Way Function Trees and Amortized Initialization</title>
-    <seriesInfo name="Internet-Draft" value="draft-balenson-groupkeymgmt-oft-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -11,10 +10,13 @@
     <author fullname="David McGrew" initials="D." surname="McGrew">
       <organization>TIS Labs at Network Associates</organization>
     </author>
-    <author fullname="Dr. Alan T. Sherman" initials="A. T." surname="Sherman"/>
+    <author fullname="Dr. Alan T. Sherman" initials="A. T." surname="Sherman">
+      <organization/>
+    </author>
     <date year="1999" month="March"/>
     <abstract>
       <t>We present a scalable method for establishing group session keys for secure large, dynamic groups such as multicast sessions. Our method is based on a novel application of One-Way Function Trees (OFTs). The number of keys stored by group members, the number of keys broadcast to the group when new members are added or evicted, and the computational efforts of group members, are logarithmic in the number of group members. The method provides perfect forward and backward security: evicted members cannot read future messages, even with collusion by arbitrarily many evicted members, and newly admitted group members cannot read previous messages.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-balenson-groupkeymgmt-oft-00"/>
 </reference>

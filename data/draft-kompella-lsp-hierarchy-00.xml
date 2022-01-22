@@ -1,7 +1,6 @@
 <reference anchor="I-D.kompella-lsp-hierarchy">
   <front>
     <title>LSP hierarchy with MPLS TE</title>
-    <seriesInfo name="Internet-Draft" value="draft-kompella-lsp-hierarchy-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>To improve scalability of MPLS TE it may be useful to aggregate TE LSPs. The aggregation is accomplished by (a) an LSR creating a TE LSP, (b) the LSR forming a forwarding adjacency out of that LSP (advertising this LSP as a link into ISIS/OSPF), (c) allowing other LSRs to use forwarding adjacencies for their path computation, and (d) nesting of LSPs originated by other LSRs into that LSP (by using the label stack construct). This document describes the mechanisms to accomplish this.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-kompella-lsp-hierarchy-00"/>
 </reference>

@@ -1,17 +1,25 @@
 <reference anchor="I-D.ietf-sipp-bsd-api">
   <front>
     <title>SIPP Program Interfaces for BSD Systems</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-sipp-bsd-api-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Robert E. Gilligan" initials="R. E." surname="Gilligan"/>
-    <author fullname="Jim Bound" initials="J." surname="Bound"/>
-    <author fullname="Dr. Susan Thomson" initials="S." surname="Thomson"/>
-    <author fullname="Dr. Ramesh Govindan" initials="R." surname="Govindan"/>
+    <author fullname="Robert E. Gilligan" initials="R. E." surname="Gilligan">
+      <organization/>
+    </author>
+    <author fullname="Jim Bound" initials="J." surname="Bound">
+      <organization/>
+    </author>
+    <author fullname="Dr. Susan Thomson" initials="S." surname="Thomson">
+      <organization/>
+    </author>
+    <author fullname="Dr. Ramesh Govindan" initials="R." surname="Govindan">
+      <organization/>
+    </author>
     <date year="1994" month="April" day="28"/>
     <abstract>
       <t>In order to implement the Simple Internet Protocol (SIPP) in an operating system based on 4.x BSD, changes must be made to some of the application program interfaces (APIs). TCP/IP applications written for BSD-based operating systems have in the past enjoyed a high degree of portability because most of the systems derived from BSD provide the same API, known informally as 'the socket interface'. We would like the same portability to be possible with SIPP applications. This memo presents a set of changes to the BSD socket API to support SIPP. The changes include a new data structure to carry SIPP address sequences, new name to address translation library functions, new address conversion functions, and some new setsockopt() options. The changes are designed to be minimal and to provide source and binary compatibility for existing applications.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-sipp-bsd-api-02"/>
 </reference>

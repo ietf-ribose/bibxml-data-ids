@@ -1,16 +1,22 @@
 <reference anchor="I-D.nsheth-ospf-hybrid-bcast-and-p2mp">
   <front>
     <title>OSPF Hybrid Broadcast and P2MP Interface Type</title>
-    <seriesInfo name="Internet-Draft" value="draft-nsheth-ospf-hybrid-bcast-and-p2mp-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Nischal Sheth"/>
-    <author fullname="Lili Wang"/>
-    <author fullname="Jeffrey Zhang"/>
+    <author fullname="Nischal Sheth">
+      <organization/>
+    </author>
+    <author fullname="Lili Wang">
+      <organization/>
+    </author>
+    <author fullname="Jeffrey Zhang">
+      <organization/>
+    </author>
     <date year="2010" month="October" day="25"/>
     <abstract>
       <t>This document describes a mechanism to model a broadcast network as a hybrid of broadcast and point-to-multipoint networks for purposes of OSPF operation. Neighbor discovery and maintenance as well as LSA database synchronization are performed using the broadcast model, but the network is represented using the point-to-multipoint model in the router LSAs of the routers connected to it. This allows an accurate representation of the cost of communication between different routers on the network, while maintaining the network efficiency of broadcast operation. This approach is relatively simple and requires minimal changes to OSPF.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-nsheth-ospf-hybrid-bcast-and-p2mp-01"/>
 </reference>

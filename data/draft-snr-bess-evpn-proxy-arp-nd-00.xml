@@ -1,19 +1,31 @@
 <reference anchor="I-D.snr-bess-evpn-proxy-arp-nd">
   <front>
     <title>Proxy-ARP/ND function in EVPN networks</title>
-    <seriesInfo name="Internet-Draft" value="draft-snr-bess-evpn-proxy-arp-nd-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan"/>
-    <author fullname="Senthil Sathappan" initials="S." surname="Sathappan"/>
-    <author fullname="Kiran Nagaraj" initials="K." surname="Nagaraj"/>
-    <author fullname="Wim Henderickx" initials="W." surname="Henderickx"/>
-    <author fullname="Thomas King" initials="T." surname="King"/>
-    <author fullname="Daniel Melzer" initials="D." surname="Melzer"/>
+    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+      <organization/>
+    </author>
+    <author fullname="Senthil Sathappan" initials="S." surname="Sathappan">
+      <organization/>
+    </author>
+    <author fullname="Kiran Nagaraj" initials="K." surname="Nagaraj">
+      <organization/>
+    </author>
+    <author fullname="Wim Henderickx" initials="W." surname="Henderickx">
+      <organization/>
+    </author>
+    <author fullname="Thomas King" initials="T." surname="King">
+      <organization/>
+    </author>
+    <author fullname="Daniel Melzer" initials="D." surname="Melzer">
+      <organization/>
+    </author>
     <date year="2015" month="March"/>
     <abstract>
       <t>The MAC/IP Advertisement route specified in [RFC7432] can optionally carry IPv4 and IPv6 addresses associated with a MAC address. Remote PEs can use this information to reply locally (act as proxy) to IPv4 ARP requests and IPv6 Neighbor Solicitation messages and reduce/suppress the flooding produced by the Address Resolution procedure. This EVPN capability is extremely useful in Internet Exchange Points (IXPs) with large broadcast domains, where the amount of ARP/ND flooded traffic causes issues on routers and CEs, as explained in [RFC6820]. This document describes how the [RFC7432] EVPN proxy-ARP/ND function should be implemented to help IXPs and other operators deal with the issues derived from Address Resolution in large broadcast domains.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-snr-bess-evpn-proxy-arp-nd-00"/>
 </reference>

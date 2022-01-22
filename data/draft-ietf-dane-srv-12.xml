@@ -1,16 +1,22 @@
 <reference anchor="I-D.ietf-dane-srv">
   <front>
     <title>Using DNS-Based Authentication of Named Entities (DANE) TLSA Records with SRV Records</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-dane-srv-12"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Tony Finch" initials="T." surname="Finch"/>
-    <author fullname="Matthew A. Miller" initials="M. A." surname="Miller"/>
-    <author fullname="Peter Saint-Andre" initials="P." surname="Saint-Andre"/>
+    <author fullname="Tony Finch" initials="T." surname="Finch">
+      <organization/>
+    </author>
+    <author fullname="Matthew A. Miller" initials="M. A." surname="Miller">
+      <organization/>
+    </author>
+    <author fullname="Peter Saint-Andre" initials="P." surname="Saint-Andre">
+      <organization/>
+    </author>
     <date year="2015" month="March" day="23"/>
     <abstract>
       <t>The DANE specification (RFC 6698) describes how to use TLSA resource records secured by DNSSEC (RFC 4033) to associate a server's connection endpoint with its TLS certificate. However, application protocols that use SRV records (RFC 2782) to indirectly name the target server connection endpoints for a service domain cannot apply the rules from RFC 6698. Therefore this document provides guidelines that enable such protocols to locate and use TLSA records.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dane-srv-12"/>
 </reference>

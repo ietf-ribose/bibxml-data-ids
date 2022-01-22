@@ -1,17 +1,25 @@
 <reference anchor="I-D.ietf-pwe3-endpoint-fast-protection">
   <front>
     <title>PW Endpoint Fast Failure Protection</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-pwe3-endpoint-fast-protection-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Yimin Shen" initials="Y." surname="Shen"/>
-    <author fullname="Rahul Aggarwal" initials="R." surname="Aggarwal"/>
-    <author fullname="Wim Henderickx" initials="W." surname="Henderickx"/>
-    <author fullname="Yuanlong Jiang" initials="Y." surname="Jiang"/>
+    <author fullname="Yimin Shen" initials="Y." surname="Shen">
+      <organization/>
+    </author>
+    <author fullname="Rahul Aggarwal" initials="R." surname="Aggarwal">
+      <organization/>
+    </author>
+    <author fullname="Wim Henderickx" initials="W." surname="Henderickx">
+      <organization/>
+    </author>
+    <author fullname="Yuanlong Jiang" initials="Y." surname="Jiang">
+      <organization/>
+    </author>
     <date year="2014" month="July" day="24"/>
     <abstract>
       <t>This document specifies a fast mechanism for protecting pseudowires against egress endpoint failures, including egress attachment circuit failure, egress PE failure, multi-segment PW terminating PE failure, and multi-segment PW switching PE failure. Designed on the basis of multi-homed CE, PW redundancy, upstream label assignment and context specific label switching, the mechanism enables local repair to be performed by the router upstream adjacent to a failure. In particular, the router can restore PW traffic in the order of tens of milliseconds, by transmitting the traffic to a protector through a pre-established bypass tunnel. Therefore, the mechanism can reduce traffic loss before global repair reacts to the failure and the network converges on the topology changes due to the failure.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-pwe3-endpoint-fast-protection-01"/>
 </reference>

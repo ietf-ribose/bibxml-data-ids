@@ -1,19 +1,31 @@
 <reference anchor="I-D.gredler-idr-bgp-ls-segment-routing-extension">
   <front>
     <title>BGP Link-State extensions for Segment Routing</title>
-    <seriesInfo name="Internet-Draft" value="draft-gredler-idr-bgp-ls-segment-routing-extension-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Hannes Gredler" initials="H." surname="Gredler"/>
-    <author fullname="Saikat Ray" initials="S." surname="Ray"/>
-    <author fullname="Stefano Previdi" initials="S." surname="Previdi"/>
-    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils"/>
-    <author fullname="Mach Chen" initials="M." surname="Chen"/>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura"/>
+    <author fullname="Hannes Gredler" initials="H." surname="Gredler">
+      <organization/>
+    </author>
+    <author fullname="Saikat Ray" initials="S." surname="Ray">
+      <organization/>
+    </author>
+    <author fullname="Stefano Previdi" initials="S." surname="Previdi">
+      <organization/>
+    </author>
+    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils">
+      <organization/>
+    </author>
+    <author fullname="Mach Chen" initials="M." surname="Chen">
+      <organization/>
+    </author>
+    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+      <organization/>
+    </author>
     <date year="2014" month="February" day="13"/>
     <abstract>
       <t>Segment Routing (SR) allows for a flexible definition of end-to-end paths within link-state graphs by encoding paths as sequences of topological sub-paths, called "segments". The link-state routing protocols (IS-IS, OSPF and OSPFv3) have been extended to advertise the segments. But flooding based propagation of path segments using IGPs is limited by the perimeter of the IGP domain. For building paths which span across IGP domains (e.g. multiple ASes), the Border Gateway Protocol (BGP) is better suited as its propagation perimeter is not limited like the IGPs. This draft defines extensions to the BGP Link-state address-family to carry path segment information via BGP.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-gredler-idr-bgp-ls-segment-routing-extension-01"/>
 </reference>

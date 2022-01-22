@@ -1,14 +1,16 @@
 <reference anchor="I-D.schwartz-dns-sni">
   <front>
     <title>A DNS Resource Record for TLS Server Name Indication (DNS SNI)</title>
-    <seriesInfo name="Internet-Draft" value="draft-schwartz-dns-sni-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Benjamin M. Schwartz" initials="B. M." surname="Schwartz"/>
+    <author fullname="Benjamin M. Schwartz" initials="B. M." surname="Schwartz">
+      <organization/>
+    </author>
     <date year="2017" month="February"/>
     <abstract>
       <t>The SNI record type allows a domain owner to specify the "server name" to indicate in TLS connections, if it is different from the domain name. This allows domains that use shared hosting and wildcard or multi-domain (UCC) certificates to change the only domain name shown in cleartext, to prevent a passive adversary from identifying exactly which domain a user is accessing.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-schwartz-dns-sni-00"/>
 </reference>

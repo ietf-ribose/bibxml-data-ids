@@ -1,15 +1,19 @@
 <reference anchor="I-D.gont-6man-deprecate-atomfrag-generation">
   <front>
     <title>Deprecating the Generation of IPv6 Atomic Fragments</title>
-    <seriesInfo name="Internet-Draft" value="draft-gont-6man-deprecate-atomfrag-generation-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Fernando Gont" initials="F." surname="Gont"/>
-    <author fullname="Will (Shucheng) LIU" initials="W. S." surname="LIU"/>
+    <author fullname="Fernando Gont" initials="F." surname="Gont">
+      <organization/>
+    </author>
+    <author fullname="Will (Shucheng) LIU" initials="W. S." surname="LIU">
+      <organization/>
+    </author>
     <date year="2014" month="August" day="19"/>
     <abstract>
       <t>The core IPv6 specification requires that when a host receives an ICMPv6 "Packet Too Big" message reporting a "Next-Hop MTU" smaller than 1280, the host includes a Fragment Header in all subsequent packets sent to that destination, without reducing the assumed Path- MTU. The simplicity with which ICMPv6 "Packet Too Big" messages can be forged, coupled with the widespread filtering of IPv6 fragments, results in an attack vector that can be leveraged for Denial of Service purposes. This document briefly discusses the aforementioned attack vector, and formally deprecates the generation of IPv6 atomic fragments, such that the aforementioned attack vector is eliminated.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-gont-6man-deprecate-atomfrag-generation-00"/>
 </reference>

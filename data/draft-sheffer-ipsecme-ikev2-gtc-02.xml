@@ -1,14 +1,16 @@
 <reference anchor="I-D.sheffer-ipsecme-ikev2-gtc">
   <front>
     <title>Using EAP-GTC for Simple User Authentication in IKEv2</title>
-    <seriesInfo name="Internet-Draft" value="draft-sheffer-ipsecme-ikev2-gtc-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Yaron Sheffer"/>
+    <author fullname="Yaron Sheffer">
+      <organization/>
+    </author>
     <date year="2010" month="February" day="27"/>
     <abstract>
       <t>Despite many years of effort, simple username-password authentication is still prevalent. In many cases a password is the only credential available to the end user. IKEv2 uses EAP as a sub-protocol for user authentication. This provides a well-specified and extensible architecture. To this day EAP does not provide a simple password- based authentication method. The only existing password authentication methods either require the peer to know the password in advance (EAP-MD5), or are needlessly complex when used within IKEv2 (e.g. PEAP). This document codifies the common practice of using EAP-GTC for this type of authentication, with the goal of achieving maximum interoperability. The various security issues are extensively analyzed.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-sheffer-ipsecme-ikev2-gtc-02"/>
 </reference>

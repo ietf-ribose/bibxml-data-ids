@@ -1,14 +1,16 @@
 <reference anchor="I-D.talwar-rsvp-kr">
   <front>
     <title>RSVP Killer Reservations</title>
-    <seriesInfo name="Internet-Draft" value="draft-talwar-rsvp-kr-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Mohit Talwar" initials="M." surname="Talwar"/>
+    <author fullname="Mohit Talwar" initials="M." surname="Talwar">
+      <organization/>
+    </author>
     <date year="1999" month="January" day="26"/>
     <abstract>
       <t>This document describes the Killer Reservation Problem encountered when merging RSVP reservation requests. These requests get merged as they travel up the multicast distribution tree, losing information about individual requests. A request, which would have succeeded on its own, may suffer denial of service when the 'merged request' fails admission control. This is the problem for which we present different solutions.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-talwar-rsvp-kr-01"/>
 </reference>

@@ -1,14 +1,16 @@
 <reference anchor="I-D.ietf-sieve-imap-sieve">
   <front>
     <title>Support for Internet Message Access Protocol (IMAP) Events in Sieve</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-sieve-imap-sieve-08"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Barry Leiba" initials="B." surname="Leiba"/>
+    <author fullname="Barry Leiba" initials="B." surname="Leiba">
+      <organization/>
+    </author>
     <date year="2012" month="September" day="10"/>
     <abstract>
       <t>Sieve defines an email filtering language that can, in principle, plug into any point in the processing of an email message. As defined in the base specification, it plugs into mail delivery. This document defines how Sieve can plug into points in the IMAP protocol where messages are created or changed, adding the option of user- defined or installation-defined filtering (or, with Sieve extensions, features such as notifications). Because this requires future Sieve extensions to specify their interactions with this one, this document updates the base Sieve specification, RFC 5228.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-sieve-imap-sieve-08"/>
 </reference>

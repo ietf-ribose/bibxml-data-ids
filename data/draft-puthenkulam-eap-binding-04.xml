@@ -1,7 +1,6 @@
 <reference anchor="I-D.puthenkulam-eap-binding">
   <front>
     <title>The Compound Authentication Binding Problem</title>
-    <seriesInfo name="Internet-Draft" value="draft-puthenkulam-eap-binding-04"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>There are several motivations for using compound authentication methods using tunnels, but man-in-the-middle attacks have been found in these protocols under certain circumstances. They occur when the inner methods used inside a tunnel method are also used outside it, without cryptographically binding the methods together. At the time of writing this document, several protocols being proposed within the IETF were vulnerable to these attacks, including IKE with XAUTH, PIC, PANA over TLS, EAP TTLS and PEAP. This document studies the problems and suggests potential solutions to mitigate them. We also provide a reference solution for an EAP tunneling protocol like PEAP.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-puthenkulam-eap-binding-04"/>
 </reference>

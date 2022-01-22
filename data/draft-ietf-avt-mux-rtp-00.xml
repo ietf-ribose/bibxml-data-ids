@@ -1,11 +1,12 @@
 <reference anchor="I-D.ietf-avt-mux-rtp">
   <front>
     <title>User Multiplexing in RTP payload between IP Telephony Gateways</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-avt-mux-rtp-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Dr. Senthil Sengodan" initials="S." surname="Sengodan"/>
+    <author fullname="Dr. Senthil Sengodan" initials="S." surname="Sengodan">
+      <organization/>
+    </author>
     <author fullname="Barani Subbiah" initials="B." surname="Subbiah">
       <organization>S. Sengodan</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>This draft proposes a method to multiplex a number of low bit rate audio streams (upto 256) into a single RTP/UDP/IP connection between IP telephony gateways. Audio samples from different users are assem- bled into an RTP payload thus reducing the overhead of RTP/UDP/IP headers. To identify users sharing a single RTP/UDP/IP connection, a 2 byte MINI-Header is proposed. A channel negotiation procedure to assign and release channels on a single UDP connection between gateways is described.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-avt-mux-rtp-00"/>
 </reference>

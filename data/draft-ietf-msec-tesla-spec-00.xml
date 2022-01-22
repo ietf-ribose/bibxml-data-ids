@@ -1,16 +1,22 @@
 <reference anchor="I-D.ietf-msec-tesla-spec">
   <front>
     <title>TESLA: Multicast Source Authentication Transform Specification</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-msec-tesla-spec-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Ran Canetti" initials="R." surname="Canetti"/>
-    <author fullname="Adrian Perrig" initials="A." surname="Perrig"/>
-    <author fullname="Bram Whillock" initials="B." surname="Whillock"/>
+    <author fullname="Ran Canetti" initials="R." surname="Canetti">
+      <organization/>
+    </author>
+    <author fullname="Adrian Perrig" initials="A." surname="Perrig">
+      <organization/>
+    </author>
+    <author fullname="Bram Whillock" initials="B." surname="Whillock">
+      <organization/>
+    </author>
     <date year="2002" month="October" day="30"/>
     <abstract>
       <t>Data authentication is an important component for many applications, for example audio and video Internet broadcasts, or data distribution by satellite. This document specifies TESLA, a secure source authen­ tication mechanism for multicast or broadcast data streams. The com­ panion draft draft-msec-tesla-intro-01.txt [1] introduces and describes TESLA in detail, this document specifies the format of the TESLA authentication field as it is used within the MESP header [2]. The main deterrents so far for a data authentication mechanism for multicast were seemingly conflicting requirements: tolerance to packet loss, low per-packet overhead, low computation overhead, scal­ ability, no per-receiver state at the sender. The problem is particu­ larly hard in settings with high packet loss rates and where lost packets are not retransmitted, and where the receiver wants to authenticate each packet it receives. TESLA provides multicast source authentication of individual data packets, regardless of the packet loss rate. In addition, TESLA features low overhead for both sender and receiver, and does not require per-receiver state at the sender. TESLA is secure as long as the sender and receiver are loosely time synchronized.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-msec-tesla-spec-00"/>
 </reference>

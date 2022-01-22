@@ -1,7 +1,6 @@
 <reference anchor="I-D.herbert-udp-space-hdr">
   <front>
     <title>UDP Surplus Header</title>
-    <seriesInfo name="Internet-Draft" value="draft-herbert-udp-space-hdr-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>This specification defines the UDP Surplus Header that is an extensible and generic format applied to the UDP surplus space. The UDP surplus space comprises the bytes between the end of the UDP datagram, as indicated by the UDP Length field, and the end of the IP packet, as indicated by IP packet or payload length. The UDP Surplus Header can be either a protocol trailer of the UDP datagram, or a protocol header which effectively serves as an extended UDP header.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-herbert-udp-space-hdr-01"/>
 </reference>

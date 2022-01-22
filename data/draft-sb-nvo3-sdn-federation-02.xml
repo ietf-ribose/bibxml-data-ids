@@ -1,17 +1,25 @@
 <reference anchor="I-D.sb-nvo3-sdn-federation">
   <front>
     <title>Federated SDN-based Controllers for NVO3</title>
-    <seriesInfo name="Internet-Draft" value="draft-sb-nvo3-sdn-federation-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Florin Balus"/>
-    <author fullname="Dimitri Stiliadis"/>
-    <author fullname="Nabil Bitar"/>
-    <author fullname="Kenichi Ogaki"/>
+    <author fullname="Florin Balus">
+      <organization/>
+    </author>
+    <author fullname="Dimitri Stiliadis">
+      <organization/>
+    </author>
+    <author fullname="Nabil Bitar">
+      <organization/>
+    </author>
+    <author fullname="Kenichi Ogaki">
+      <organization/>
+    </author>
     <date year="2013" month="November" day="22"/>
     <abstract>
       <t>The familiar toolset of VPN and IP/MPLS protocols defined in IETF has been discussed as a good starting point for addressing several of the problems described in the NVO3 problem statement and requirements drafts. However, there is a significant gap between the VPN technologies and the scale and complexity required when the NVEs are running in server hypervisors. This draft proposes a solution that bridges the gap between the concepts familiar to the data center IT community with some of the best concepts developed by the networking industry. The proposed solution is based on the understanding that in a cloud environment NVEs may reside in end-devices that should not be burdened with the complexities of control plane protocols. The complex control plane functionalities are decoupled from the forwarding plane to minimize the required NVE processing, recognizing that major hypervisor distributions already employ Openflow to address this issue. The solution also defines the mechanisms for scaling data center network control horizontally and interoperates seamlessly with existing L2 and L3 VPN devices.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-sb-nvo3-sdn-federation-02"/>
 </reference>

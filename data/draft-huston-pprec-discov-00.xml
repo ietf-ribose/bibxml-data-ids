@@ -1,15 +1,19 @@
 <reference anchor="I-D.huston-pprec-discov">
   <front>
     <title>Path Precedence Discovery</title>
-    <seriesInfo name="Internet-Draft" value="draft-huston-pprec-discov-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Dr. Marshall T. Rose" initials="M. T." surname="Rose"/>
-    <author fullname="Geoff Huston" initials="G." surname="Huston"/>
+    <author fullname="Dr. Marshall T. Rose" initials="M. T." surname="Rose">
+      <organization/>
+    </author>
+    <author fullname="Geoff Huston" initials="G." surname="Huston">
+      <organization/>
+    </author>
     <date year="1996" month="December" day="23"/>
     <abstract>
       <t>This memo describes a technique for dynamically discovering the maximum precedence (MPrec) of an arbitrary internet path. It specifies a small change to the way that routers generate one type of ICMP messages. For a path that passes through a router which does not implement this change, this technique may not necessarily discover the correct Path MPrec. In this case, an application which desires to make use of a non-zero precedence should degrade gracefully.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-huston-pprec-discov-00"/>
 </reference>

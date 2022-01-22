@@ -1,19 +1,31 @@
 <reference anchor="I-D.ietf-idr-flowspec-redirect-ip">
   <front>
     <title>BGP Flow-Spec Redirect to IP Action</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-flowspec-redirect-ip-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Jim Uttaro" initials="J." surname="Uttaro"/>
-    <author fullname="Jeffrey Haas" initials="J." surname="Haas"/>
-    <author fullname="Matthieu Texier" initials="M." surname="Texier"/>
-    <author fullname="akarch@cisco.com" initials="" surname="akarch@cisco.com"/>
-    <author fullname="Adam Simpson" initials="A." surname="Simpson"/>
-    <author fullname="Wim Henderickx" initials="W." surname="Henderickx"/>
+    <author fullname="Jim Uttaro" initials="J." surname="Uttaro">
+      <organization/>
+    </author>
+    <author fullname="Jeffrey Haas" initials="J." surname="Haas">
+      <organization/>
+    </author>
+    <author fullname="Matthieu Texier" initials="M." surname="Texier">
+      <organization/>
+    </author>
+    <author fullname="akarch@cisco.com" initials="" surname="akarch@cisco.com">
+      <organization/>
+    </author>
+    <author fullname="Adam Simpson" initials="A." surname="Simpson">
+      <organization/>
+    </author>
+    <author fullname="Wim Henderickx" initials="W." surname="Henderickx">
+      <organization/>
+    </author>
     <date year="2014" month="April" day="17"/>
     <abstract>
       <t>Flow-spec is an extension to BGP that allows for the dissemination of traffic flow specification rules. This has many possible applications but the primary one for many network operators is the distribution of traffic filtering actions for DDoS mitigation. The flow-spec standard [RFC 5575] defines a redirect-to-VRF action for policy-based forwarding but this mechanism can be difficult to use, particularly in networks without L3 VPN infrastructure. This draft defines a new redirect-to-IP flow-spec action that provides a simpler method of policy-based forwarding. The details of the action, including the IPv4 or IPv6 target address, are encoded in newly defined BGP extended communities.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-flowspec-redirect-ip-01"/>
 </reference>

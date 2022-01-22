@@ -1,17 +1,25 @@
 <reference anchor="I-D.qasem-roll-rpl-load-balancing">
   <front>
     <title>Load Balancing Objective Function in RPL</title>
-    <seriesInfo name="Internet-Draft" value="draft-qasem-roll-rpl-load-balancing-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Mamoun Qasem" initials="M." surname="Qasem"/>
-    <author fullname="Ahmed Al-Dubai" initials="A." surname="Al-Dubai"/>
-    <author fullname="Imed Romdhani" initials="I." surname="Romdhani"/>
-    <author fullname="Baraq Ghaleb" initials="B." surname="Ghaleb"/>
+    <author fullname="Mamoun Qasem" initials="M." surname="Qasem">
+      <organization/>
+    </author>
+    <author fullname="Ahmed Al-Dubai" initials="A." surname="Al-Dubai">
+      <organization/>
+    </author>
+    <author fullname="Imed Romdhani" initials="I." surname="Romdhani">
+      <organization/>
+    </author>
+    <author fullname="Baraq Ghaleb" initials="B." surname="Ghaleb">
+      <organization/>
+    </author>
     <date year="2017" month="February"/>
     <abstract>
       <t>This document proposes an extended Objective Function(OF) that balances the number of children nodes of the parent nodes to avoid the overloading problem and ensure node lifetime maximization in the IPv6 Routing Protocol for Low-Power and Lossy Networks (RPL). The standard OFs are used to build a Destination Oriented Directed Acyclic Graph (DODAG) where the bottleneck nodes may suffer from unbalanced traffic load. As a result, a part of the network may be disconnected as the energy of the overloaded preferred parent node will drain much faster than other candidate parents. Thus, a new RPL metric has been introduced to balance the traffic load over the network. The potential extra overhead has been mitigated using a new utilization technique. Finally, the proposed OF amends the DODAG Information Object (DIO) message format.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-qasem-roll-rpl-load-balancing-00"/>
 </reference>

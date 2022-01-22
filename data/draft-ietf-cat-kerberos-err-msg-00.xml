@@ -1,15 +1,18 @@
 <reference anchor="I-D.ietf-cat-kerberos-err-msg">
   <front>
     <title>Integrity Protection for the Kerberos Error Message</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-cat-kerberos-err-msg-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Gene Tsudik" initials="G." surname="Tsudik"/>
+    <author fullname="Gene Tsudik" initials="G." surname="Tsudik">
+      <organization/>
+    </author>
     <author fullname="Brian Tung" initials="B." surname="Tung">
       <organization>Gene Tsudik</organization>
     </author>
-    <author fullname="Matt Hur" initials="M." surname="Hur"/>
+    <author fullname="Matt Hur" initials="M." surname="Hur">
+      <organization/>
+    </author>
     <author fullname="Ari Medvinsky" initials="A." surname="Medvinsky">
       <organization>Matt Hur</organization>
     </author>
@@ -18,4 +21,5 @@
       <t>The Kerberos error message, as defined in RFC 1510, is transmitted to the client without any integrity assurance. Therefore, the client has no means to distinguish between a valid error message sent from the KDC and one sent by an attacker. This draft describes a method for assuring the integrity of Kerberos error messages, and proposes a consistent format for the e-data field in the KRB_ERROR message. This e-data format enables the storage of cryptographic checksums by providing an extensible mechanism for specifying e-data types.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-cat-kerberos-err-msg-00"/>
 </reference>

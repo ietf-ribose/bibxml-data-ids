@@ -1,15 +1,19 @@
 <reference anchor="I-D.ilola-avtcore-rtp-v3c">
   <front>
     <title>RTP Payload Format for Visual Volumetric Video-based Coding (V3C)</title>
-    <seriesInfo name="Internet-Draft" value="draft-ilola-avtcore-rtp-v3c-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Lauri Ilola"/>
-    <author fullname="Lukasz Kondrad"/>
+    <author fullname="Lauri Ilola">
+      <organization/>
+    </author>
+    <author fullname="Lukasz Kondrad">
+      <organization/>
+    </author>
     <date year="2022" month="January" day="20"/>
     <abstract>
       <t>This memo describes an RTP payload format for visual volumetric video-based coding (V3C) [ISO.IEC.23090-5]. A V3C bitstream is composed of V3C units that contain V3C video sub-bitstreams, V3C atlas sub-bitstreams, or a V3C parameter set. The RTP payload format for V3C video sub-bitstreams is defined by appropriate Internet Standards for the applicable video codec. The RTP payload format for V3C atlas sub-bitstreams is described by this memo. The RTP payload format allows for packetization of one or more V3C Network Abstraction Layer (NAL) units in a RTP packet payload as well as fragmentation of a V3C NAL unit into multiple RTP packets. The memo also describes the mechanisms for grouping RTP streams of V3C component sub-bitstreams, providing a complete solution for streaming V3C bitstream.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ilola-avtcore-rtp-v3c-00"/>
 </reference>

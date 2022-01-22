@@ -1,14 +1,15 @@
 <reference anchor="I-D.ietf-ospf-mpls-elc">
   <front>
     <title>Signaling Entropy Label Capability and Entropy Readable Label-stack Depth Using OSPF</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-mpls-elc-08"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
     <author fullname="Xiaohu Xu" initials="X." surname="Xu">
       <organization>Alibaba Inc</organization>
     </author>
-    <author fullname="Sriganesh Kini" initials="S." surname="Kini"/>
+    <author fullname="Sriganesh Kini" initials="S." surname="Kini">
+      <organization/>
+    </author>
     <author fullname="Peter Psenak" initials="P." surname="Psenak">
       <organization>Cisco</organization>
     </author>
@@ -23,4 +24,5 @@
       <t>Multiprotocol Label Switching (MPLS) has defined a mechanism to load balance traffic flows using Entropy Labels (EL). An ingress Label Switching Router (LSR) cannot insert ELs for packets going into a given tunnel unless an egress LSR has indicated via signaling that it has the capability of processing ELs, referred to as Entropy Label Capability (ELC), on that tunnel. In addition, it would be useful for ingress LSRs to know each LSR's capability of reading the maximum label stack depth and performing EL-based load-balancing, referred to as Entropy Readable Label Depth (ERLD), in the cases where stacked LSPs are used. This document defines a mechanisms to signal these two capabilities using OSPF and OSPFv3. These mechanisms are particularly useful in the environment where Segment Routing (SR) is used, where label advertisements are done via protocols like OSPF and OSPFv3.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-mpls-elc-08"/>
 </reference>

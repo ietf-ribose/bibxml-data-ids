@@ -1,7 +1,6 @@
 <reference anchor="I-D.dunbar-idr-sdwan-port-safi">
   <front>
     <title>SDWAN WAN Ports Property Advertisement in BGP UPDATE</title>
-    <seriesInfo name="Internet-Draft" value="draft-dunbar-idr-sdwan-port-safi-05"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>The document specifies information encoded in BGP UPDATE for advertising WAN ports properties of a SDWAN edge node to its controller. SDWAN edge node's WAN ports may face untrusted networks, such as the public internet, may get assigned IP addresses from the Internet Service Providers (ISPs), may get assigned dynamic IP addresses via DHCP, or may have private addresses (e.g. inside third party Cloud DCs). Packets forwarded through those SDWAN WAN ports might need to be encrypted (depending on the user policies) or need to go through NAT. SDWAN edge nodes need to propagate those WAN ports properties to its controller which in turn distribute to the peers who are authorized to communicate across different types of underlay networks including the untrusted networks. This document assumes the BGP Route Reflectors (RR) as the controller, i.e. SDWAN edges send the WAN ports properties encoded in BGP UPDATE to the RR which in turns propagate the information to a group of authorized SDWAN edges reachable via overlay networks.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-dunbar-idr-sdwan-port-safi-05"/>
 </reference>

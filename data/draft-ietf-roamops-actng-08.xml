@@ -1,15 +1,19 @@
 <reference anchor="I-D.ietf-roamops-actng">
   <front>
     <title>The Accounting Data Interchange Format (ADIF)</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-roamops-actng-08"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Dr. Bernard D. Aboba" initials="B." surname="Aboba"/>
-    <author fullname="Dave Lidyard" initials="D." surname="Lidyard"/>
+    <author fullname="Dr. Bernard D. Aboba" initials="B." surname="Aboba">
+      <organization/>
+    </author>
+    <author fullname="Dave Lidyard" initials="D." surname="Lidyard">
+      <organization/>
+    </author>
     <date year="2000" month="April" day="25"/>
     <abstract>
       <t>This document describes an extensible human-readable accounting record format, the Accounting Data Interchange Format (ADIF). Based on MIME, ADIF is designed to compactly represent accounting data from any protocol using attribute/value pairs or object identifiers. While in many cases Accounting Servers will produce ADIF records based on data from accounting protocols, it is also possible for devices to store data in ADIF format and transfer ADIF records to the accounting server. The latter approach has the advantage of offloading the Accounting Server from the task of transcribing interim or session records, thus improving scalability. This approach also enables the transport of data from multiple sources within the same set of records. Where a record format is employed that supports batching, the transport of multiple records within the same accounting packet is enabled.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-roamops-actng-08"/>
 </reference>

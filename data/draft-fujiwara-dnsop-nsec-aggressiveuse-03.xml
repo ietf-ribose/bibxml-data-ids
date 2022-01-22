@@ -1,15 +1,19 @@
 <reference anchor="I-D.fujiwara-dnsop-nsec-aggressiveuse">
   <front>
     <title>Aggressive use of NSEC/NSEC3</title>
-    <seriesInfo name="Internet-Draft" value="draft-fujiwara-dnsop-nsec-aggressiveuse-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Kazunori Fujiwara"/>
-    <author fullname="Akira Kato"/>
+    <author fullname="Kazunori Fujiwara">
+      <organization/>
+    </author>
+    <author fullname="Akira Kato">
+      <organization/>
+    </author>
     <date year="2016" month="March" day="17"/>
     <abstract>
       <t>While DNS highly depends on cache, its cache usage of non-existence information has been limited to exact matching. This draft proposes the aggressive use of a NSEC/NSEC3 resource record, which is able to express non-existence of a range of names authoritatively. With this proposal, it is expected that shorter latency to many of negative responses as well as some level of mitigation of random sub-domain attacks (referred to as "Water Torture" attacks). It is also expected that non-existent TLD queries to Root DNS servers will decrease.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-fujiwara-dnsop-nsec-aggressiveuse-03"/>
 </reference>

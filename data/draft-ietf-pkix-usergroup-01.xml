@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-pkix-usergroup">
   <front>
     <title>The PKIX UserGroupName GeneralName Type</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-pkix-usergroup-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>A number of systems which understand X.509 client certificates have developed various ad hoc mechanisms to map a certificate to a 'userid'/'group(s)' value which can then be used for access control. The mechanisms include idiosyncratic name forms for the SubjectName field such as encoding the userid as a CommonName and the group as an OrganizationalUnit, or mapping the certificate against an entry in a directory system. This document describes an otherName extension of the GeneralName type which can be used in the SubjectAltName extension or IssuerAltName extension to directly encode userid and group information.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-pkix-usergroup-01"/>
 </reference>

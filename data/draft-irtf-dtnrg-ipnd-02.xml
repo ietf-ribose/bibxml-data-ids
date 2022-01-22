@@ -1,17 +1,25 @@
 <reference anchor="I-D.irtf-dtnrg-ipnd">
   <front>
     <title>DTN IP Neighbor Discovery (IPND)</title>
-    <seriesInfo name="Internet-Draft" value="draft-irtf-dtnrg-ipnd-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Daniel Ellard" initials="D." surname="Ellard"/>
-    <author fullname="Richard Altmann" initials="R." surname="Altmann"/>
-    <author fullname="Alex Gladd" initials="A." surname="Gladd"/>
-    <author fullname="Daniel Brown" initials="D." surname="Brown"/>
+    <author fullname="Daniel Ellard" initials="D." surname="Ellard">
+      <organization/>
+    </author>
+    <author fullname="Richard Altmann" initials="R." surname="Altmann">
+      <organization/>
+    </author>
+    <author fullname="Alex Gladd" initials="A." surname="Gladd">
+      <organization/>
+    </author>
+    <author fullname="Daniel Brown" initials="D." surname="Brown">
+      <organization/>
+    </author>
     <date year="2012" month="November"/>
     <abstract>
       <t>Disruption Tolerant Networking (DTN) IP Neighbor Discovery (IPND), is a method for otherwise oblivious nodes to learn of the existence, availability, and addresses of other DTN participants. IPND both sends and listens for small IP UDP announcement "beacons." Beacon messages are addressed to an IP unicast, multicast, or broadcast destination to discover specified remote neighbors, or unspecified local neighbors in the topology, e.g. within wireless range. IPND beacons advertise neighbor availability by including the DTN node's canonical endpoint identifier. IPND beacons optionally include service availability and parameters. In this way, neighbor discovery and service discovery may be coupled or decoupled as required. Once discovered, new neighbor pairs use advertised availabilities to connect, exchange routing information, etc. This document describes DTN IPND.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-irtf-dtnrg-ipnd-02"/>
 </reference>

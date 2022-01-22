@@ -1,14 +1,16 @@
 <reference anchor="I-D.pfister-pim-ssbidir">
   <front>
     <title>Source Specific support for Bidirectional Protocol Independent Multicast</title>
-    <seriesInfo name="Internet-Draft" value="draft-pfister-pim-ssbidir-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Pierre Pfister"/>
+    <author fullname="Pierre Pfister">
+      <organization/>
+    </author>
     <date year="2014" month="October" day="27"/>
     <abstract>
       <t>This document adds Source-Specific capabilities to the Bidirectional Protocol Independent Multicast (PIM-BIDIR) routing protocol. Similarly to PIM-BIDIR, multicast traffic is always forwarded to the RP Link, but packets are also filtered based on their source address and source-specific subscription state. This operation mode is backwards compatible with PIM-BIDIR, provides a simpler alternative to PIM-SM and does not suffer when the multicast source location cannot be determined.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-pfister-pim-ssbidir-00"/>
 </reference>

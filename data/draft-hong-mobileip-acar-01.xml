@@ -1,14 +1,16 @@
 <reference anchor="I-D.hong-mobileip-acar">
   <front>
     <title>Access Router Based Movement Detection and CoA Configuration</title>
-    <seriesInfo name="Internet-Draft" value="draft-hong-mobileip-acar-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Yong-Geun Hong" initials="Y." surname="Hong"/>
+    <author fullname="Yong-Geun Hong" initials="Y." surname="Hong">
+      <organization/>
+    </author>
     <date year="2003" month="October" day="28"/>
     <abstract>
       <t>This document proposes Access Router (AR) based movement detection and Care-of Address (CoA) configuration for fast handover in Mobile IPv6. An Active Access Router (AcAR) which will serve a Mobile Node (MN) performs movement detection, formulates a new CoA of the MN and does Duplicate Address Detection (DAD) on behalf of the MN. After confirming the uniqueness of the new CoA, the AcAR sends it through a RA message. Since an AcAR can quickly determine the L3 movement by the comparison between neighbor caches and L2 information of a MN, a MN does not have to wait to receive RA messages from ARs. Thus, the movement detection delay is reduced. Since DAD is performed by an AcAR in advance, a MN does not have to do normal DAD and it can use the new CoA for its interface directly.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-hong-mobileip-acar-01"/>
 </reference>

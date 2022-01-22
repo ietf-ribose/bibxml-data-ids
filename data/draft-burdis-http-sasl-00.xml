@@ -1,14 +1,16 @@
 <reference anchor="I-D.burdis-http-sasl">
   <front>
     <title>Upgrading to SASL Within HTTP/1.1</title>
-    <seriesInfo name="Internet-Draft" value="draft-burdis-http-sasl-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Keith Burdis" initials="K." surname="Burdis"/>
+    <author fullname="Keith Burdis" initials="K." surname="Burdis">
+      <organization/>
+    </author>
     <date year="2001" month="March"/>
     <abstract>
       <t>This document describes how to use the Upgrade mechanism in HTTP/1.1 to initiate an SASL session over an existing TCP connection, performing authentication using a negotiated SASL mechanism and then tunnelling subsequent HTTP messages over this protected connection. It is based on RFC 2817 which describes how to upgrade to TLS from within HTTP.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-burdis-http-sasl-00"/>
 </reference>

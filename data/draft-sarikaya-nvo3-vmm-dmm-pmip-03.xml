@@ -1,16 +1,22 @@
 <reference anchor="I-D.sarikaya-nvo3-vmm-dmm-pmip">
   <front>
     <title>Virtual Machine Mobility Protocol Using Distributed Registrations</title>
-    <seriesInfo name="Internet-Draft" value="draft-sarikaya-nvo3-vmm-dmm-pmip-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Behcet Sarikaya" initials="B." surname="Sarikaya"/>
-    <author fullname="Linda Dunbar" initials="L." surname="Dunbar"/>
-    <author fullname="Bhumip Khasnabish" initials="B." surname="Khasnabish"/>
+    <author fullname="Behcet Sarikaya" initials="B." surname="Sarikaya">
+      <organization/>
+    </author>
+    <author fullname="Linda Dunbar" initials="L." surname="Dunbar">
+      <organization/>
+    </author>
+    <author fullname="Bhumip Khasnabish" initials="B." surname="Khasnabish">
+      <organization/>
+    </author>
     <date year="2014" month="May" day="14"/>
     <abstract>
       <t>This document specifies a new IP level protocol for seamless virtual machine mobility in data centers. Source hypervisor registers the newly created virtual machine with the centrally available management node. When the virtual machine moves to the destination hypervisor, the destination hypervisor updates the virtual machine record in the management node. Management node sends registration message to all previous source hypervisors in order to direct the ongoing traffic to the destination hypervisor. Hot, warm and and cold virtual machine mobility are achieved using dynamic domain name system update and host routes. Both intra data center and inter data center hot virtual machine mobility solutions are presented. The requirements for warm and cold mobility of virtual machines are expected to be less stringent than those for the hot mobility option. A short discussion on virtual machine lifecycle management is also included in this draft.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-sarikaya-nvo3-vmm-dmm-pmip-03"/>
 </reference>

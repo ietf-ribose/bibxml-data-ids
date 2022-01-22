@@ -1,17 +1,25 @@
 <reference anchor="I-D.ietf-tokbind-https">
   <front>
     <title>Token Binding over HTTP</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-tokbind-https-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Andrei Popov" initials="A." surname="Popov"/>
-    <author fullname="Magnus Nystrom" initials="M." surname="Nystrom"/>
-    <author fullname="Dirk Balfanz" initials="D." surname="Balfanz"/>
-    <author fullname="Adam Langley" initials="A." surname="Langley"/>
+    <author fullname="Andrei Popov" initials="A." surname="Popov">
+      <organization/>
+    </author>
+    <author fullname="Magnus Nystrom" initials="M." surname="Nystrom">
+      <organization/>
+    </author>
+    <author fullname="Dirk Balfanz" initials="D." surname="Balfanz">
+      <organization/>
+    </author>
+    <author fullname="Adam Langley" initials="A." surname="Langley">
+      <organization/>
+    </author>
     <date year="2015" month="June" day="30"/>
     <abstract>
       <t>This document describes a collection of mechanisms that allow HTTP servers to cryptographically bind authentication tokens (such as cookies and OAuth tokens) to a TLS [RFC5246] connection. We describe both _first-party_ as well as _federated_ scenarios. In a first-party scenario, an HTTP server issues a security token (such as a cookie) to a client, and expects the client to send the security token back to the server at a later time in order to authenticate. Binding the token to the TLS connection between client and server protects the security token from theft, and ensures that the security token can only be used by the client that it was issued to. Federated token bindings, on the other hand, allow servers to cryptographically bind security tokens to a TLS [RFC5246] connection that the client has with a _different_ server than the one issuing the token. This Internet-Draft is a companion document to The Token Binding Protocol [TBPROTO]</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-tokbind-https-01"/>
 </reference>

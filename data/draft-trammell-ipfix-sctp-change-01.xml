@@ -1,7 +1,6 @@
 <reference anchor="I-D.trammell-ipfix-sctp-change">
   <front>
     <title>IP Flow Information Export (IPFIX) SCTP Stream Restriction Change</title>
-    <seriesInfo name="Internet-Draft" value="draft-trammell-ipfix-sctp-change-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>The IPFIX protocol mandates the use of PR-SCTP as transport protocol. The document specifies the transmission of Templates over SCTP stream zero with reliable delivery and the transmission of Data Records over separate streams. This constraint is unnecessary. This document relaxes all restrictions on the use of SCTP streams within IPFIX, allowing IPFIX implementations to use SCTP streams as most appropriate for their respective applications.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-trammell-ipfix-sctp-change-01"/>
 </reference>

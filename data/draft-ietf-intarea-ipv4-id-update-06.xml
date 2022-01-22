@@ -1,14 +1,16 @@
 <reference anchor="I-D.ietf-intarea-ipv4-id-update">
   <front>
     <title>Updated Specification of the IPv4 ID Field</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-intarea-ipv4-id-update-06"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Dr. Joseph D. Touch" initials="J. D." surname="Touch"/>
+    <author fullname="Dr. Joseph D. Touch" initials="J. D." surname="Touch">
+      <organization/>
+    </author>
     <date year="2012" month="October"/>
     <abstract>
       <t>The IPv4 Identification (ID) field enables fragmentation and reassembly, and as currently specified is required to be unique within the maximum lifetime for all datagrams with a given source/destination/protocol tuple. If enforced, this uniqueness requirement would limit all connections to 6.4 Mbps. Because individual connections commonly exceed this speed, it is clear that existing systems violate the current specification. This document updates the specification of the IPv4 ID field in RFC791, RFC1122, and RFC2003 to more closely reflect current practice and to more closely match IPv6 so that the field's value is defined only when a datagram is actually fragmented. It also discusses the impact of these changes on how datagrams are used.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-intarea-ipv4-id-update-06"/>
 </reference>

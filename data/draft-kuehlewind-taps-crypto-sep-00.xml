@@ -1,7 +1,6 @@
 <reference anchor="I-D.kuehlewind-taps-crypto-sep">
   <front>
     <title>Separating Crypto Negotiation and Communication</title>
-    <seriesInfo name="Internet-Draft" value="draft-kuehlewind-taps-crypto-sep-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -19,4 +18,5 @@
       <t>Due to the latency involved in connection setup and security handshakes, there is an increasing deployment of cryptographic session resumption mechanisms. While cryptographic context and endpoint capabilities need to be be known before encrypted application data can be sent, there is otherwise no technical constraint that the crypto handshake must be performed on the same transport connection. This document recommends a logical separation between the mechanism(s) used to negotiate capabilities and set up encryption context (handshake protocol), the application of encryption and authentication state to data (record protocol), and the associated transport connection(s).</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-kuehlewind-taps-crypto-sep-00"/>
 </reference>

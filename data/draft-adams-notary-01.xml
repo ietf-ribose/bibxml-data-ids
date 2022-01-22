@@ -1,11 +1,12 @@
 <reference anchor="I-D.adams-notary">
   <front>
     <title>Notary Protocols</title>
-    <seriesInfo name="Internet-Draft" value="draft-adams-notary-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Dr. Carlisle Adams" initials="C." surname="Adams"/>
+    <author fullname="Dr. Carlisle Adams" initials="C." surname="Adams">
+      <organization/>
+    </author>
     <author fullname="Robert Zuccherato" initials="R." surname="Zuccherato">
       <organization>Entrust Technologies</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>This document describes a general notary service and the protocols to be used when communicating with it. The Notary Authority is a Trusted Third Party (TTP) that can be used as one component in building reliable non-repudiation services (see [ISONR]). Useful Notary Authority responsibilities in a PKI are to validate signatures and to provide up- to-date information regarding the status of certificates. We give examples of how to use the notary to extend the lifetime of a signature beyond key expiry or revocation and to query the notary regarding the status of a certificate.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-adams-notary-01"/>
 </reference>

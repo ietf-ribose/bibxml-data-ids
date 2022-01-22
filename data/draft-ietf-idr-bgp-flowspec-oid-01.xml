@@ -1,17 +1,25 @@
 <reference anchor="I-D.ietf-idr-bgp-flowspec-oid">
   <front>
     <title>Revised Validation Procedure for BGP Flow Specifications</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-flowspec-oid-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Jim Uttaro" initials="J." surname="Uttaro"/>
-    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils"/>
-    <author fullname="Prodosh Mohapatra" initials="P." surname="Mohapatra"/>
-    <author fullname="David Smith" initials="D." surname="Smith"/>
+    <author fullname="Jim Uttaro" initials="J." surname="Uttaro">
+      <organization/>
+    </author>
+    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils">
+      <organization/>
+    </author>
+    <author fullname="Prodosh Mohapatra" initials="P." surname="Mohapatra">
+      <organization/>
+    </author>
+    <author fullname="David Smith" initials="D." surname="Smith">
+      <organization/>
+    </author>
     <date year="2013" month="January" day="22"/>
     <abstract>
       <t>This document describes a modification to the validation procedure defined in RFC 5575 for the dissemination of BGP flow specifications. RFC 5575 requires that the originator of the flow specification matches the originator of the best-match unicast route for the destination prefix embedded in the flow specification. This allows only BGP speakers within the data forwarding path (such as autonomous system border routers) to originate BGP flow specifications. Though it is possible to disseminate such flow specifications directly from border routers, it may be operationally cumbersome in an autonomous system with a large number of border routers having complex BGP policies. The modification proposed herein enables flow specifications to be originated from a centralized BGP route controller.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-flowspec-oid-01"/>
 </reference>

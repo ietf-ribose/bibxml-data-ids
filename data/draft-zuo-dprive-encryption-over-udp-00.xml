@@ -1,20 +1,34 @@
 <reference anchor="I-D.zuo-dprive-encryption-over-udp">
   <front>
     <title>Approach on encrypting DNS message over UDP</title>
-    <seriesInfo name="Internet-Draft" value="draft-zuo-dprive-encryption-over-udp-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Peng Zuo"/>
-    <author fullname="Hongtao Li"/>
-    <author fullname="Ning Kong"/>
-    <author fullname="Xiaodong Lee"/>
-    <author fullname="Guangqing Deng"/>
-    <author fullname="Jiankang Yao"/>
-    <author fullname="Nan Wang"/>
+    <author fullname="Peng Zuo">
+      <organization/>
+    </author>
+    <author fullname="Hongtao Li">
+      <organization/>
+    </author>
+    <author fullname="Ning Kong">
+      <organization/>
+    </author>
+    <author fullname="Xiaodong Lee">
+      <organization/>
+    </author>
+    <author fullname="Guangqing Deng">
+      <organization/>
+    </author>
+    <author fullname="Jiankang Yao">
+      <organization/>
+    </author>
+    <author fullname="Nan Wang">
+      <organization/>
+    </author>
     <date year="2015" month="July"/>
     <abstract>
       <t>This document offers an approach to encrypt DNS queries and responses between the stub resolver and the recursive server over UDP to protect user privacy. The public key of the recursive server is distributed to the stub resolver through the Certificate Authority infrastructure, and the public key of the stub resolver is sent to the recursive server together with the DNS query where the public key is inserted to the additional section of the DNS query. Then the recursive server encrypts the DNS responses sent to the stub resolver with the public key of that stub resolver, and similarly the DNS query sent to the recursive server is encrypted by the stub resolver with the public key of that recursive server and thus the user privacy is protected.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-zuo-dprive-encryption-over-udp-00"/>
 </reference>

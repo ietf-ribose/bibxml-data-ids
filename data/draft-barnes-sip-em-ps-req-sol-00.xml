@@ -1,11 +1,12 @@
 <reference anchor="I-D.barnes-sip-em-ps-req-sol">
   <front>
     <title>Early Media in SIP: Problem Statement, Requirements, and Analysis of Solutions</title>
-    <seriesInfo name="Internet-Draft" value="draft-barnes-sip-em-ps-req-sol-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Russ Barnes" initials="R." surname="Barnes"/>
+    <author fullname="Russ Barnes" initials="R." surname="Barnes">
+      <organization/>
+    </author>
     <author fullname="Matt Lepinski" initials="M." surname="Lepinski">
       <organization>BBN Technologies</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>The Session Initiation Protocol (SIP) enables and permits endpoints in an INVITE transaction to send media packets before an SDP offer/ answer exchange has completed; we refer to such media packets as early media. The use of early media is common in current SIP implementations, and causes several problems, which have been documented elsewhere. This document puts forward the goal of modifying SIP so that compliant implementations will complete an SDP exchange before sending media, and lays out high-level requirements for such a solution. The set of possible solutions is then laid out, and each possibility examined in light of these requirements.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-barnes-sip-em-ps-req-sol-00"/>
 </reference>

@@ -1,18 +1,22 @@
 <reference anchor="I-D.ietf-itrace">
   <front>
     <title>ICMP Traceback Messages</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-itrace-04"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Steven M. Bellovin" initials="S. M." surname="Bellovin"/>
+    <author fullname="Steven M. Bellovin" initials="S. M." surname="Bellovin">
+      <organization/>
+    </author>
     <author fullname="Marcus D. Leech" initials="M. D." surname="Leech">
       <organization>Tom Taylor</organization>
     </author>
-    <author fullname="Tom Taylor" initials="T." surname="Taylor"/>
+    <author fullname="Tom Taylor" initials="T." surname="Taylor">
+      <organization/>
+    </author>
     <date year="2003" month="February" day="19"/>
     <abstract>
       <t>It is often useful to learn the path that packets take through the Internet, especially when dealing with certain denial-of-service attacks. We propose a new ICMP message, emitted randomly by routers along the path and sent randomly to the destination (to provide useful information to the attacked party) or to the origin (to provide information to decipher reflector attacks).</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-itrace-04"/>
 </reference>

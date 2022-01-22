@@ -1,18 +1,28 @@
 <reference anchor="I-D.hoeiland-joergensen-aqm-fq-codel">
   <front>
     <title>FlowQueue-Codel</title>
-    <seriesInfo name="Internet-Draft" value="draft-hoeiland-joergensen-aqm-fq-codel-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Toke Hoeiland-Joergensen"/>
-    <author fullname="Paul McKenney"/>
-    <author fullname="Dave Taht"/>
-    <author fullname="Jim Gettys"/>
-    <author fullname="Eric Dumazet"/>
+    <author fullname="Toke Hoeiland-Joergensen">
+      <organization/>
+    </author>
+    <author fullname="Paul McKenney">
+      <organization/>
+    </author>
+    <author fullname="Dave Taht">
+      <organization/>
+    </author>
+    <author fullname="Jim Gettys">
+      <organization/>
+    </author>
+    <author fullname="Eric Dumazet">
+      <organization/>
+    </author>
     <date year="2014" month="November" day="10"/>
     <abstract>
       <t>This memo presents the FQ-CoDel hybrid packet scheduler/AQM algorithm, a critical tool for fighting bufferbloat and reducing latency across the Internet. FQ-CoDel mixes packets from multiple flows and reduces the impact of head of line blocking from bursty traffic. It provides isolation for low-rate traffic such as DNS, web, and videoconferencing traffic. It improves utilisation across the networking fabric, especially for bidirectional traffic, by keeping queue lengths short; and it can be implemented in a memory- and CPU-efficient fashion across a wide range of hardware.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-hoeiland-joergensen-aqm-fq-codel-01"/>
 </reference>

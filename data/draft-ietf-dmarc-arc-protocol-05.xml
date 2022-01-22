@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-dmarc-arc-protocol">
   <front>
     <title>Authenticated Received Chain (ARC) Protocol</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-dmarc-arc-protocol-05"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -19,4 +18,5 @@
       <t>Authenticated Received Chain (ARC) permits an organization which is creating or handling email to indicate its involvement with the handling process. It defines a set of cryptographically signed header fields in a manner analagous to that of DKIM. Assertion of responsibility is validated through a cryptographic signature and by querying the Signer's domain directly to retrieve the appropriate public key. Changes in the message that might break DKIM can be identified through the ARC set of header fields.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dmarc-arc-protocol-05"/>
 </reference>

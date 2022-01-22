@@ -1,18 +1,28 @@
 <reference anchor="I-D.rabadan-bess-evpn-ac-df">
   <front>
     <title>AC-influenced Designated Forwarder Election for (PBB-)EVPN</title>
-    <seriesInfo name="Internet-Draft" value="draft-rabadan-bess-evpn-ac-df-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan"/>
-    <author fullname="Kiran Nagaraj" initials="K." surname="Nagaraj"/>
-    <author fullname="Senthil Sathappan" initials="S." surname="Sathappan"/>
-    <author fullname="Vinod Prabhu" initials="V." surname="Prabhu"/>
-    <author fullname="Wim Henderickx" initials="W." surname="Henderickx"/>
+    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+      <organization/>
+    </author>
+    <author fullname="Kiran Nagaraj" initials="K." surname="Nagaraj">
+      <organization/>
+    </author>
+    <author fullname="Senthil Sathappan" initials="S." surname="Sathappan">
+      <organization/>
+    </author>
+    <author fullname="Vinod Prabhu" initials="V." surname="Prabhu">
+      <organization/>
+    </author>
+    <author fullname="Wim Henderickx" initials="W." surname="Henderickx">
+      <organization/>
+    </author>
     <date year="2014" month="October" day="27"/>
     <abstract>
       <t>The Designated Forwarder (DF) in (PBB-)EVPN networks is the PE responsible for sending multicast, broadcast and unknown unicast traffic to a multi-homed CE, on a given Ethernet Tag on a particular Ethernet Segment (ES). The DF is selected based on the list of PEs that advertise the Ethernet Segment Identifier (ESI) to the EVPN network. While PE node or link failures trigger the DF re-election for a given &lt;ESI, EVI&gt;, individual Attachment Circuit (AC) or MAC-VRF failures do not trigger such DF re-election and the traffic may therefore be permanently impacted, even though there is an alternative path. This document improves the DF election algorithm so that the AC status can influence the result of the election and this type of "logical" failures can be protected too.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-rabadan-bess-evpn-ac-df-01"/>
 </reference>

@@ -1,15 +1,19 @@
 <reference anchor="I-D.erb-lurk-rsalg">
   <front>
     <title>A PFS-preserving protocol for LURK</title>
-    <seriesInfo name="Internet-Draft" value="draft-erb-lurk-rsalg-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Samuel Erb" initials="S." surname="Erb"/>
-    <author fullname="Rich Salz" initials="R." surname="Salz"/>
+    <author fullname="Samuel Erb" initials="S." surname="Erb">
+      <organization/>
+    </author>
+    <author fullname="Rich Salz" initials="R." surname="Salz">
+      <organization/>
+    </author>
     <date year="2016" month="March" day="18"/>
     <abstract>
       <t>This document defines a protocol between a content provider and an external key owner that enables the provider to act as a TLS termination end-point for the key owner, without having the key actually being provisioned at the provider. The protocol between the two preserves forward secrecy, and is also designed to prevent the use of the key owner as a general-purpose signing oracle which would make it complicit in attacks against uses of the very keys it is trying to protect.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-erb-lurk-rsalg-00"/>
 </reference>

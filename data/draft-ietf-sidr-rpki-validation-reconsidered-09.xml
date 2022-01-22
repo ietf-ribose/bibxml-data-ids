@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-sidr-rpki-validation-reconsidered">
   <front>
     <title>RPKI Validation Reconsidered</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-sidr-rpki-validation-reconsidered-09"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -28,4 +27,5 @@
       <t>This document specifies an alternative to the certificate validation procedure specified in RFC 6487 that reduces aspects of operational fragility in the management of certificates in the RPKI, while retaining essential security features. Where the procedure specified in RFC 6487 requires that Resource Certificates are rejecting entirely if they are found to over-claim any resources not contained on the issuing certificate, the validation process defined here allows an issuing Certificate Authority to chose to communicate that such Resource Certificates should be accepted for the intersection of their resources and the issuing certificate. This choice is signalled by form of a set of alternative Object Identifiers (OIDs) of RFC 3779 X.509 Extensions for IP Addresses and AS Identifiers, and certificate policy for the Resource Public Key Infrastructure (RFC 6484). It should be noted that in case these OIDs are not used for any certificate under a Trust Anchor, the validation procedure defined here has the same outcome as the procedure defined in RFC 6487 Furthermore this document provides an alternative to ROA (RFC 6482), and BGPSec Router Certificate (BGPSec PKI Profiles - publication requested) validation.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-sidr-rpki-validation-reconsidered-09"/>
 </reference>

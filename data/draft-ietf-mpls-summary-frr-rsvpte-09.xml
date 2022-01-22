@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-mpls-summary-frr-rsvpte">
   <front>
     <title>RSVP-TE Summary Fast Reroute Extensions for Label Switched Path (LSP) Tunnels</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-summary-frr-rsvpte-09"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -17,7 +16,9 @@
     <author fullname="Abhishek Deshmukh">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Markus Jork"/>
+    <author fullname="Markus Jork">
+      <organization/>
+    </author>
     <author fullname="Vishnu Pavan Beeram">
       <organization>Juniper Networks</organization>
     </author>
@@ -26,4 +27,5 @@
       <t>This document updates RFC 4090 for the Resource Reservation Protocol (RSVP) Traffic Engineering (TE) procedures defined for facility backup protection. The updates include extensions that reduce the amount of signaling and processing that occurs during Fast Reroute (FRR); as a result, scalability when undergoing FRR convergence after a link or node failure is improved. These extensions allow the RSVP message exchange between the Point of Local Repair (PLR) and the Merge Point (MP) nodes to be independent of the number of protected Label Switched Paths (LSPs) traversing between them when facility bypass FRR protection is used. The signaling extensions are fully backwards compatible with nodes that do not support them.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-summary-frr-rsvpte-09"/>
 </reference>

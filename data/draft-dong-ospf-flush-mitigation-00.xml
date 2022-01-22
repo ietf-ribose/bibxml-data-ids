@@ -1,16 +1,22 @@
 <reference anchor="I-D.dong-ospf-flush-mitigation">
   <front>
     <title>LSA Flushing Problem Mitigation in OSPF Networks</title>
-    <seriesInfo name="Internet-Draft" value="draft-dong-ospf-flush-mitigation-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Jie Dong"/>
-    <author fullname="Xudong Zhang"/>
-    <author fullname="Zhenqiang Li"/>
+    <author fullname="Jie Dong">
+      <organization/>
+    </author>
+    <author fullname="Xudong Zhang">
+      <organization/>
+    </author>
+    <author fullname="Zhenqiang Li">
+      <organization/>
+    </author>
     <date year="2016" month="October" day="31"/>
     <abstract>
       <t>In OSPF protocol, LSAs with the LS age at MaxAge are not used in routing table calculation and MUST be flushed in the network. In some cases, the flushing of OSPF MaxAge LSAs may cause flooding storm of OSPF packets and severely impact network stability and the services provided by the network. This document specifies a backward compatible mechanism to mitigate the impact of MaxAge LSA flushing in OSPF networks.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-dong-ospf-flush-mitigation-00"/>
 </reference>

@@ -1,7 +1,6 @@
 <reference anchor="I-D.herriot-application-batchbeep">
   <front>
     <title>The MIME Application/BatchBeep Content-type</title>
-    <seriesInfo name="Internet-Draft" value="draft-herriot-application-batchbeep-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>The Application/BatchBeep content-type, like the Multipart/Related content-type, provides a mechanism for representing objects that consist of multiple components. An Application/BatchBeep entity contains the wire representation of the client-to-server part of a BEEP (Blocks Extensible Exchange Protocol) session, which consists of sequence of frames. Each frame contains a message or a part of a message. Each message (other than channel 0 messages) represents a component of the compound object, just as a body part of a Multipart/Related entity represents a component.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-herriot-application-batchbeep-00"/>
 </reference>

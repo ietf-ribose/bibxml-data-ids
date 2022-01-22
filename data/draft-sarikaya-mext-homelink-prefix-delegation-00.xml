@@ -1,15 +1,19 @@
 <reference anchor="I-D.sarikaya-mext-homelink-prefix-delegation">
   <front>
     <title>Prefix Management for MIPv6 Home Link Operation over P2P Links</title>
-    <seriesInfo name="Internet-Draft" value="draft-sarikaya-mext-homelink-prefix-delegation-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Behcet Sarikaya"/>
-    <author fullname="Frank Xia"/>
+    <author fullname="Behcet Sarikaya">
+      <organization/>
+    </author>
+    <author fullname="Frank Xia">
+      <organization/>
+    </author>
     <date year="2008" month="February" day="17"/>
     <abstract>
       <t>In Mobile IPv6 home link operation on point-to-point links requires that one prefix can only be assigned to one mobile node by the home agent (HA) and different mobile nodes can not share this home network prefix. Managing Per-MN home network prefixes is likely to increase the processing load at the HA. Based on the idea that DHCPv6 servers can manage prefixes, we propose a new technique in which HA offloads delegation and release tasks of the prefixes to the DHCPv6 server. HA requests a prefix for an incoming mobile station to the DHCPv6 server. Based on this prefix, the mobile node can create a home address. When the mobile node leaves the network, the prefix is returned to the DHCPv6 server.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-sarikaya-mext-homelink-prefix-delegation-00"/>
 </reference>

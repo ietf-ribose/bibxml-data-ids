@@ -1,7 +1,6 @@
 <reference anchor="I-D.templin-6man-jumbofrag">
   <front>
     <title>IPv6 Packet Identification</title>
-    <seriesInfo name="Internet-Draft" value="draft-templin-6man-jumbofrag-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>Unlike Internet Protocol, version 4 (IPv4), Internet Protocol, version 6 (IPv6) does not include an Identification field in the basic packet header. Instead, IPv6 includes a 32-bit Identification field in a Fragment Header extension since the architecture assumed that the sole purpose for the Identification is to support the fragmentation and reassembly process. This document asserts that per-packet Identifications may be useful for other purposes, e.g., to allow recipients to detect spurious packets that may have been injected into the network by an attacker. But, rather than defining a new extension header, this document recommends employing the existing Fragment Header for per-packet identification even if the packet itself appears as an "atomic fragment".</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-templin-6man-jumbofrag-01"/>
 </reference>

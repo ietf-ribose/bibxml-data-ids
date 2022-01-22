@@ -1,11 +1,12 @@
 <reference anchor="I-D.ietf-sidrops-rtr-keying">
   <front>
     <title>Router Keying for BGPsec</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-sidrops-rtr-keying-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Randy Bush" initials="R." surname="Bush"/>
+    <author fullname="Randy Bush" initials="R." surname="Bush">
+      <organization/>
+    </author>
     <author fullname="Sean Turner" initials="S." surname="Turner">
       <organization>sn3rd</organization>
     </author>
@@ -17,4 +18,5 @@
       <t>BGPsec-speaking routers are provisioned with private keys in order to sign BGPsec announcements. The corresponding public keys are published in the global Resource Public Key Infrastructure, enabling verification of BGPsec messages. This document describes two methods of generating the public-private key-pairs: router-driven and operator-driven.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-sidrops-rtr-keying-02"/>
 </reference>

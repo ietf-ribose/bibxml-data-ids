@@ -1,7 +1,6 @@
 <reference anchor="I-D.iovanna-rsvp-mpls-flowspec">
   <front>
     <title>Definition of the MPLS FlowSpec for RSVP-TE</title>
-    <seriesInfo name="Internet-Draft" value="draft-iovanna-rsvp-mpls-flowspec-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -14,10 +13,13 @@
     <author fullname="Giovanna Piantanida" initials="G." surname="Piantanida">
       <organization>Ericsson Lab Italy</organization>
     </author>
-    <author fullname="Stefano Salsano" initials="S." surname="Salsano"/>
+    <author fullname="Stefano Salsano" initials="S." surname="Salsano">
+      <organization/>
+    </author>
     <date year="2001" month="October" day="15"/>
     <abstract>
       <t>The support of QoS Differentiation in MPLS is based on the definition of two types of LSP, respectively E-LSP and L-LSP (see [11]). Both E-LSP and L-LSP can be established with bandwidth reservation. In this case bandwidth requirements for the LSP must be signaled at LSP establishment time, in order to perform admission control in the LSRs in the path. If RSVP-TE is used as setup protocol, it has to support the signaling of bandwidth requirements for the LSPs. In this document we extend the RSVP-TE capability by defining a new type of Sender_Tspec (and FlowSpec), explicitly designed to allow signaling of bandwidth requirements for E-LSP and L-LSP set up. This new type, called MPLS Sender_Tspec (MPLS FlowSpec), can include bandwidth requirements for different classes inside the LSP.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-iovanna-rsvp-mpls-flowspec-00"/>
 </reference>

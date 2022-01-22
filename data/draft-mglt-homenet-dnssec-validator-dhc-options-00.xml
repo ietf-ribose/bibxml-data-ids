@@ -1,14 +1,16 @@
 <reference anchor="I-D.mglt-homenet-dnssec-validator-dhc-options">
   <front>
     <title>IPv6 Home Network Naming Delegation</title>
-    <seriesInfo name="Internet-Draft" value="draft-mglt-homenet-dnssec-validator-dhc-options-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Daniel Migault" initials="D." surname="Migault"/>
+    <author fullname="Daniel Migault" initials="D." surname="Migault">
+      <organization/>
+    </author>
     <date year="2013" month="October" day="20"/>
     <abstract>
       <t>DNSSEC provides data integrity and authentication for DNSSEC validators. However, without valid trust anchor(s) and an acceptable value for the current time. DNSSEC validation cannot be performed. This leads to multiple exceptions where DNSSEC validation MUST NOT be performed. This list of exception is expected to become larger if DNSSEC is deployed this way. All conditions where DNSSEC is disable adds complexity to the implementation and increases the vectors that disables security. This document assumes that DNSSEC adoption by end devices requires that end devices can have DNSSEC always set today and in the future. This document describes DHCP Options to provision the DHCP Client with valid trust anchors and time so DNSSEC validation can be performed.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-mglt-homenet-dnssec-validator-dhc-options-00"/>
 </reference>

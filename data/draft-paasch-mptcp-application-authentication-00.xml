@@ -1,15 +1,19 @@
 <reference anchor="I-D.paasch-mptcp-application-authentication">
   <front>
     <title>Application Layer Authentication for MPTCP</title>
-    <seriesInfo name="Internet-Draft" value="draft-paasch-mptcp-application-authentication-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Christoph Paasch"/>
-    <author fullname="Alan Ford"/>
+    <author fullname="Christoph Paasch">
+      <organization/>
+    </author>
+    <author fullname="Alan Ford">
+      <organization/>
+    </author>
     <date year="2016" month="May" day="27"/>
     <abstract>
       <t>Multipath TCP (MPTCP), described in [3], is an extension to TCP to provide the ability to simultaneously use multiple paths between hosts. MPTCP currently specifies a single authentication mechanism, using keys that are initially exchanged in the clear. There are application-layer protocols that may have better information as to the identity of the parties and so is able to better provide keying material that could be used for the authentication of future subflows. This document specifies "application layer authentication" for Multipath TCP, an alternatively negotiated keying mechanism for MPTCP.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-paasch-mptcp-application-authentication-00"/>
 </reference>

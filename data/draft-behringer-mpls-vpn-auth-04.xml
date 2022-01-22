@@ -1,11 +1,12 @@
 <reference anchor="I-D.behringer-mpls-vpn-auth">
   <front>
     <title>Layer-3 VPN Import/Export Verification</title>
-    <seriesInfo name="Internet-Draft" value="draft-behringer-mpls-vpn-auth-04"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Michael H. Behringer" initials="M. H." surname="Behringer"/>
+    <author fullname="Michael H. Behringer" initials="M. H." surname="Behringer">
+      <organization/>
+    </author>
     <author fullname="Jim Guichard" initials="J." surname="Guichard">
       <organization>Cisco Systems</organization>
     </author>
@@ -17,4 +18,5 @@
       <t>Configuration errors on Provider Edge (PE) routers in Layer-3 VPN networks based on [RFC2547] can lead to security breaches of the connected VPNs. For example, the PE router could be mistakenly configured such that a connected Customer Edge (CE) router belongs to an incorrect VPN. Here we propose a scheme that verifies local and remote routing information received by the PE router before it installs new VPN routes into the Virtual Routing &amp; Forwarding Instance (VRF). The proposed changes affect only the PE routers.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-behringer-mpls-vpn-auth-04"/>
 </reference>

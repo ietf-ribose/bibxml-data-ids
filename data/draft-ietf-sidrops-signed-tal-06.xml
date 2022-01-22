@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-sidrops-signed-tal">
   <front>
     <title>RPKI Signed Object for Trust Anchor Keys</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-sidrops-signed-tal-06"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -25,4 +24,5 @@
       <t>A Trust Anchor Locator (TAL) [I-D.ietf-sidrops-https-tal] is used by Relying Parties (RP) in the RPKI to locate and validate a Trust Anchor (TA) CA certificate used in RPKI validation. This document defines an RPKI signed object for a set of Trust Anchor Keys (TAK), that can be used by TA creators and publishers to signal their set of current keys and the location(s) of the accompanying CA certificates to RPs, as well as changes to this set in the form of revoked keys and new keys, in order to support both planned and unplanned key rolls without impacting RPKI validation.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-sidrops-signed-tal-06"/>
 </reference>

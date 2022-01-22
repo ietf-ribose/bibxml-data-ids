@@ -1,7 +1,6 @@
 <reference anchor="I-D.chen-bier-egress-protect">
   <front>
     <title>BIER Egress Protection</title>
-    <seriesInfo name="Internet-Draft" value="draft-chen-bier-egress-protect-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -28,4 +27,5 @@
       <t>This document describes a mechanism for fast protection against the failure of an egress node of a "Bit Index Explicit Replication" (BIER) domain. It does not have any per-flow state in the core of the domain. For a multicast packet to an egress node of the domain, when the egress node fails, its upstream hop as a PLR sends the packet to the egress' backup node once the PLR detects the failure.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-chen-bier-egress-protect-00"/>
 </reference>

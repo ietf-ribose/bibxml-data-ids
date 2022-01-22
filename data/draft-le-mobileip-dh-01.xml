@@ -1,11 +1,12 @@
 <reference anchor="I-D.le-mobileip-dh">
   <front>
     <title>Dynamic Diffie Hellman based Key Distribution for Mobile IPv6</title>
-    <seriesInfo name="Internet-Draft" value="draft-le-mobileip-dh-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Stefano Faccin" initials="S." surname="Faccin"/>
+    <author fullname="Stefano Faccin" initials="S." surname="Faccin">
+      <organization/>
+    </author>
     <author fullname="Franck Le" initials="F." surname="Le">
       <organization>Nokia Research Center</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>Mobile IP [1] requires several security associations: the Mobile Node must share a security association with its Home agent and its Correspondent Nodes to send the binding update; these messages must be authenticated to prevent potential denial of service attacks [2]. The MN and the Home Agent can have a static security association, established at the configuration time, but the case of the Correspondent Node is more complex since it cannot be assumed that the MN and the CN have any pre-established security association.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-le-mobileip-dh-01"/>
 </reference>

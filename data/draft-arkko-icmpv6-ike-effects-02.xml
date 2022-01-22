@@ -1,7 +1,6 @@
 <reference anchor="I-D.arkko-icmpv6-ike-effects">
   <front>
     <title>Effects of ICMPv6 on IKE</title>
-    <seriesInfo name="Internet-Draft" value="draft-arkko-icmpv6-ike-effects-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>The ICMPv6 protocol provides many functions which in IPv4 were either non-existent or provided by lower layers. IPv6 architecture also makes it possible to secure all IP packets using IPsec, even ICMPv6 messages. IPsec architecture has a Security Policy Database that specifies which traffic is protected, and how. It turns out that the specification of policies in the presence of ICMPv6 traffic is hard, particularly with ICMPv6 packets related to Neighbor Discovery. Sound looking policies may easily lead to loops: The establishment of security requires Neighbor Discovery messages which can not be sent since security has not been established yet. The purpose of this draft is to inform system administrators and IPsec implementors in which manner they can handle the ICMPv6 messages. Common understanding of the way that these messages are handled is also necessary for interoperability, in case vendors hardcode such rules in to products.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-arkko-icmpv6-ike-effects-02"/>
 </reference>

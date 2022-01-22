@@ -1,15 +1,19 @@
 <reference anchor="I-D.selcuk-probabilistic-lkh">
   <front>
     <title>Probabilistic Optimization of LKH-based Multicast Key Distribution Schemes</title>
-    <seriesInfo name="Internet-Draft" value="draft-selcuk-probabilistic-lkh-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Christopher McCubbin" initials="C." surname="McCubbin"/>
-    <author fullname="Professor Deepinder Sidhu" initials="D." surname="Sidhu"/>
+    <author fullname="Christopher McCubbin" initials="C." surname="McCubbin">
+      <organization/>
+    </author>
+    <author fullname="Professor Deepinder Sidhu" initials="D." surname="Sidhu">
+      <organization/>
+    </author>
     <date year="2001" month="January" day="30"/>
     <abstract>
       <t>Currently, the most efficient techniques for multicast key management are based on the Logical Key Hierarchy (LKH) scheme. In current practice, LKH trees are organized as balanced binary trees, which give a uniform O(log n) complexity for compromise recovery in an n- member group. In this draft, we propose organizing the LKH trees with respect to the members' compromise probabilities instead of keeping a balanced tree, in a spirit similar to data compression techniques such as Huffman and Shannon-Fano coding. We describe two such probabilistic algorithms which improve the performance of an LKH scheme by probabilistic organization of the tree. Preliminary simulation results show that significant gains can be obtained by these techniques.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-selcuk-probabilistic-lkh-01"/>
 </reference>

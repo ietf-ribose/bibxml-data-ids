@@ -1,18 +1,28 @@
 <reference anchor="I-D.ietf-tcpm-rfc4138bis">
   <front>
     <title>Forward RTO-Recovery (F-RTO): An Algorithm for Detecting Spurious Retransmission Timeouts with TCP</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-rfc4138bis-04"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Pasi Sarolahti"/>
-    <author fullname="Markku Kojo"/>
-    <author fullname="Kazunori Yamamoto"/>
-    <author fullname="Max Hata"/>
-    <author fullname="Intellectual Property"/>
+    <author fullname="Pasi Sarolahti">
+      <organization/>
+    </author>
+    <author fullname="Markku Kojo">
+      <organization/>
+    </author>
+    <author fullname="Kazunori Yamamoto">
+      <organization/>
+    </author>
+    <author fullname="Max Hata">
+      <organization/>
+    </author>
+    <author fullname="Intellectual Property">
+      <organization/>
+    </author>
     <date year="2008" month="October" day="30"/>
     <abstract>
       <t>The purpose of this document is to move the F-RTO (Forward RTO-Recovery) functionality for TCP in RFC 4138 from Experimental to Standards Track status. The F-RTO support for Stream Control Transmission Protocol (SCTP) in RFC 4138 remains with Experimental status. See Appendix B for the differences between this document and RFC 4138. Spurious retransmission timeouts cause suboptimal TCP performance because they often result in unnecessary retransmission of the last window of data. This document describes the F-RTO detection algorithm for detecting spurious TCP retransmission timeouts. F-RTO is a TCP sender-only algorithm that does not require any TCP options to operate. After retransmitting the first unacknowledged segment triggered by a timeout, the F-RTO algorithm of the TCP sender monitors the incoming acknowledgments to determine whether the timeout was spurious. It then decides whether to send new segments or retransmit unacknowledged segments. The algorithm effectively helps to avoid additional unnecessary retransmissions and thereby improves TCP performance in the case of a spurious timeout. [STANDARDS-TRACK]</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-rfc4138bis-04"/>
 </reference>

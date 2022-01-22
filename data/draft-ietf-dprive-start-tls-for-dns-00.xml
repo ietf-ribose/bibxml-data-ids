@@ -1,19 +1,31 @@
 <reference anchor="I-D.ietf-dprive-start-tls-for-dns">
   <front>
     <title>TLS for DNS: Initiation and Performance Considerations</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-dprive-start-tls-for-dns-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Zi Hu" initials="Z." surname="Hu"/>
-    <author fullname="Liang Zhu" initials="L." surname="Zhu"/>
-    <author fullname="John Heidemann" initials="J." surname="Heidemann"/>
-    <author fullname="Allison Mankin" initials="A." surname="Mankin"/>
-    <author fullname="Duane Wessels" initials="D." surname="Wessels"/>
-    <author fullname="Paul E. Hoffman" initials="P. E." surname="Hoffman"/>
+    <author fullname="Zi Hu" initials="Z." surname="Hu">
+      <organization/>
+    </author>
+    <author fullname="Liang Zhu" initials="L." surname="Zhu">
+      <organization/>
+    </author>
+    <author fullname="John Heidemann" initials="J." surname="Heidemann">
+      <organization/>
+    </author>
+    <author fullname="Allison Mankin" initials="A." surname="Mankin">
+      <organization/>
+    </author>
+    <author fullname="Duane Wessels" initials="D." surname="Wessels">
+      <organization/>
+    </author>
+    <author fullname="Paul E. Hoffman" initials="P. E." surname="Hoffman">
+      <organization/>
+    </author>
     <date year="2015" month="May"/>
     <abstract>
       <t>This document offers an approach to initiating TLS for DNS: use of a dedicated DNS-over-TLS port, and fallback to a mechanism for upgrading a DNS-over-TCP connection over the standard port (TCP/53) to a DNS-over-TLS connection. Encryption provided by TLS eliminates opportunities for eavesdropping on DNS queries in the network, such as discussed in RFC 7258. In addition it specifies two usage profiles for DNS-over-TLS. Finally, it provides advice on performance considerations to minimize overheads from using TCP and TLS with DNS, pertaining to both approaches.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dprive-start-tls-for-dns-00"/>
 </reference>

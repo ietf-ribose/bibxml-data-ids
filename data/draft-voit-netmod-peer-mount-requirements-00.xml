@@ -1,18 +1,28 @@
 <reference anchor="I-D.voit-netmod-peer-mount-requirements">
   <front>
     <title>Requirements for Peer Mounting of YANG subtrees from Remote Datastores</title>
-    <seriesInfo name="Internet-Draft" value="draft-voit-netmod-peer-mount-requirements-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Eric Voit" initials="E." surname="Voit"/>
-    <author fullname="Alexander Clemm" initials="A." surname="Clemm"/>
-    <author fullname="Shashi Kumar Bansal" initials="S. K." surname="Bansal"/>
-    <author fullname="Ambika Tripathy" initials="A." surname="Tripathy"/>
-    <author fullname="Prabhakara Yellai" initials="P." surname="Yellai"/>
+    <author fullname="Eric Voit" initials="E." surname="Voit">
+      <organization/>
+    </author>
+    <author fullname="Alexander Clemm" initials="A." surname="Clemm">
+      <organization/>
+    </author>
+    <author fullname="Shashi Kumar Bansal" initials="S. K." surname="Bansal">
+      <organization/>
+    </author>
+    <author fullname="Ambika Tripathy" initials="A." surname="Tripathy">
+      <organization/>
+    </author>
+    <author fullname="Prabhakara Yellai" initials="P." surname="Yellai">
+      <organization/>
+    </author>
     <date year="2014" month="September" day="25"/>
     <abstract>
       <t>Network integrated applications want simple ways to access YANG objects and subtrees which might be distributed across network. Performance requirements may dictate that it is unaffordable for a subset of these applications to go through existing centralized management brokers. For such applications, development complexity must be minimized. Specific aspects of complexity developers want to ignore include: o whether authoritative information is actually sourced from remote datastores (as well as how to get to those datastores), o whether such information has been locally cached or not, o whether there are zero, one, or more controllers asserting ownership of information, and o whether there are interactions with other applications concurrently running elsewhere The solution requirements described in this document detail what is needed to support application access to authoritative network YANG objects from controllers (star) or peering network devices (mesh) in such a way to meet these goals.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-voit-netmod-peer-mount-requirements-00"/>
 </reference>

@@ -1,20 +1,28 @@
 <reference anchor="I-D.li-ulp">
   <front>
     <title>An RTP Payload Format for Generic FEC with Uneven Level Protection</title>
-    <seriesInfo name="Internet-Draft" value="draft-li-ulp-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Adam H. Li" initials="A. H." surname="Li"/>
-    <author fullname="Fang Liu" initials="F." surname="Liu"/>
-    <author fullname="John D. Villasenor" initials="J. D." surname="Villasenor"/>
+    <author fullname="Adam H. Li" initials="A. H." surname="Li">
+      <organization/>
+    </author>
+    <author fullname="Fang Liu" initials="F." surname="Liu">
+      <organization/>
+    </author>
+    <author fullname="John D. Villasenor" initials="J. D." surname="Villasenor">
+      <organization/>
+    </author>
     <author fullname="Jeong Park" initials="J." surname="Park">
       <organization>Samsung Electronics</organization>
     </author>
-    <author fullname="Dong Park" initials="D." surname="Park"/>
+    <author fullname="Dong Park" initials="D." surname="Park">
+      <organization/>
+    </author>
     <date year="2000" month="July"/>
     <abstract>
       <t>This document specifies a payload format for generic forward error correction to achieve uneven level protection (ULP) of media encapsulated in RTP. It is an extension to the forward error correction scheme specified in RFC 2733 [1], and it is also based on the exclusive-or (parity) operation. The payload format allows end systems to transmit using arbitrary protection length and levels, in additional to using arbitrary block lengths. It also allows for the both complete recovery of the critical payload and RTP header fields, and partial recovery when complete recovery is not possible due to the packet lost situation. This scheme is backward compatible with non-FEC capable hosts, and hosts that are only capable of FEC schemes specified in RFC2733 [1], so that receivers which do not wish to implement ULP forward error correction can just ignore the extensions.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-ulp-00"/>
 </reference>

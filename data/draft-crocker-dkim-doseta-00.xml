@@ -1,15 +1,19 @@
 <reference anchor="I-D.crocker-dkim-doseta">
   <front>
     <title>DomainKeys Security Tagging (DOSETA)</title>
-    <seriesInfo name="Internet-Draft" value="draft-crocker-dkim-doseta-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Dave Crocker"/>
-    <author fullname="Murray Kucherawy"/>
+    <author fullname="Dave Crocker">
+      <organization/>
+    </author>
+    <author fullname="Murray Kucherawy">
+      <organization/>
+    </author>
     <date year="2011" month="January" day="13"/>
     <abstract>
       <t>DomainKeys Security Tagging (DOSETA) is a component mechanism that enables development of a security-related service, such as authentication or encryption, with keys based on domain names; the name owner can be any actor involved in the handling of the data, such as the author's organization, a server operator or one of their agents. The DOSETA Library provides a collection of common capabilities, including canonicalization, parameter tagging, and retrieval of self-certified keys. The DOSETA Signing Template affixes a signature to data that is in a "header/content" form. Defining the meaning of the signature is the responsibility of the service that incorporates DOSETA. The signature is validated through a cryptographic signature and querying the signer's domain directly, to retrieve the appropriate public key.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-crocker-dkim-doseta-00"/>
 </reference>

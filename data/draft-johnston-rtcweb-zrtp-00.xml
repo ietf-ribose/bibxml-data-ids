@@ -1,18 +1,28 @@
 <reference anchor="I-D.johnston-rtcweb-zrtp">
   <front>
     <title>Using ZRTP to Secure WebRTC</title>
-    <seriesInfo name="Internet-Draft" value="draft-johnston-rtcweb-zrtp-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Alan Johnston" initials="A." surname="Johnston"/>
-    <author fullname="Philip Zimmermann" initials="P." surname="Zimmermann"/>
-    <author fullname="Jon Callas" initials="J." surname="Callas"/>
-    <author fullname="Travis Cross" initials="T." surname="Cross"/>
-    <author fullname="John Yoakum" initials="J." surname="Yoakum"/>
+    <author fullname="Alan Johnston" initials="A." surname="Johnston">
+      <organization/>
+    </author>
+    <author fullname="Philip Zimmermann" initials="P." surname="Zimmermann">
+      <organization/>
+    </author>
+    <author fullname="Jon Callas" initials="J." surname="Callas">
+      <organization/>
+    </author>
+    <author fullname="Travis Cross" initials="T." surname="Cross">
+      <organization/>
+    </author>
+    <author fullname="John Yoakum" initials="J." surname="Yoakum">
+      <organization/>
+    </author>
     <date year="2013" month="August" day="22"/>
     <abstract>
       <t>WebRTC, Web Real-Time Communications, is a set of protocols and APIs used to enable web developers to add real-time communications into their web pages and applications with a few lines of JavaScript. WebRTC media flows are encrypted and authenticated by SRTP, the Secure Real-time Transport Protocol while the key agreement is provided by DTLS-SRTP, Datagram Transport Layer Security for Secure Real-time Transport Protocol. However, without some third party identity service or certificate authority, WebRTC media flows have no protection against a man-in-the-middle (MitM) attack. ZRTP, Media Path Key Agreement for Unicast Secure RTP, RFC 6189, does provide protection against MitM attackers using key continuity augmented with a Short Authentication String (SAS). This specification describes how ZRTP can be used over the WebRTC data channel to provide MitM protection for WebRTC media flows keyed using DTLS-SRTP. This provides users protection against MitM attackers without requiring browsers to support ZRTP or users to download a plugin or extension to implement ZRTP.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-johnston-rtcweb-zrtp-00"/>
 </reference>

@@ -1,7 +1,6 @@
 <reference anchor="I-D.li-ldr-bgp-request-cp-sr-te-policy">
   <front>
     <title>BGP Request for Advertising Candidate Path of Segment Routing TE Policies</title>
-    <seriesInfo name="Internet-Draft" value="draft-li-ldr-bgp-request-cp-sr-te-policy-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>An SR Policy is a set of candidate paths. The headend of an SR Policy may learn multiple candidate paths for an SR Policy via a number of different mechanisms, e.g., CLI, NetConf, PCEP, or BGP. BGP distribute candidate paths has been defined in [I-D.ietf-idr-segment-routing-te-policy]. This document defines an extension of BGP to request BGP speaker(controller) advertise the candidate paths. The goal is to unify the protocol when the candidate path of SR Policy provision is via BGP to reduce the network complexity and potential bugs cause by different protocol interactions.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-ldr-bgp-request-cp-sr-te-policy-00"/>
 </reference>

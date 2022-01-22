@@ -1,7 +1,6 @@
 <reference anchor="I-D.jung-mipshop-stateful-fmipv6">
   <front>
     <title>Address Pool based Stateful NCoA Configuration for FMIPv6</title>
-    <seriesInfo name="Internet-Draft" value="draft-jung-mipshop-stateful-fmipv6-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>The DAD procedure for NCoA validation is a burden for achieving the fast MIPv6 handover. The existing stateless and DHCPv6-based stateful NCoA configuration schemes are all concerned with the DAD process at NAR. This document describes an NCoA address pool based stateful NCoA configuration for MIPv6 fast handover (FMIPv6). To reduce the DAD handling time during the handover, the NCoA pools are established at NAR (in the reactive stateful scheme) or PAR (in the proactive stateful scheme). An NCoA pool maintains a list of NCoAs already confirmed by the corresponding NAR. In response to a handover request, the NAR or PAR will allocate a confirmed NCoA to the MN. By the address pool based stateful NCoA configuration, the handover latency can be significantly reduced, and a tunneling for handover can be extended to an NCoA address, instead of NAR.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-jung-mipshop-stateful-fmipv6-00"/>
 </reference>

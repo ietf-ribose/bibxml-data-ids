@@ -1,7 +1,6 @@
 <reference anchor="I-D.sidrops-bgpsec-validation-signaling">
   <front>
     <title>BGPsec Validation State Signaling</title>
-    <seriesInfo name="Internet-Draft" value="draft-sidrops-bgpsec-validation-signaling-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -19,4 +18,5 @@
       <t>This document defines a new BGP non-transitive extended community to carry the BGPsec path validation state. BGP speakers that receive this community string can use the embedded BGPsec validation state in conjunction with configured local policies to influence their decision process. The ability to accept and act on BGPsec path validation state from a neighbor allows for a reduction of path validation processing load and/or increased resilience in the event that a router is temporarily unable to perform local path validation.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-sidrops-bgpsec-validation-signaling-03"/>
 </reference>

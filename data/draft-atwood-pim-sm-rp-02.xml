@@ -1,11 +1,12 @@
 <reference anchor="I-D.atwood-pim-sm-rp">
   <front>
     <title>RP Relocation in PIM-SM Multicast</title>
-    <seriesInfo name="Internet-Draft" value="draft-atwood-pim-sm-rp-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="William Atwood" initials="W." surname="Atwood"/>
+    <author fullname="William Atwood" initials="W." surname="Atwood">
+      <organization/>
+    </author>
     <author fullname="Ritesh Mukherjee" initials="R." surname="Mukherjee">
       <organization>Department of Computer Science</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>The Protocol Independent Multicast-Sparse Mode (PIM-SM) protocol uses a core-based tree to forward multicast datagrams to members of a multicast group. Currently there is no method for relocating the core or Rendezvous Point (RP) for a group. Administratively chosen RP's lead to low performance as the sources and receivers in the multicast group join and leave the group. This draft presents a mechanism for dynamically relocating the RP to a position that minimizes the tree cost and improves performance.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-atwood-pim-sm-rp-02"/>
 </reference>

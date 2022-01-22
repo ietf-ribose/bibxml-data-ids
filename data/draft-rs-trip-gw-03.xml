@@ -1,11 +1,12 @@
 <reference anchor="I-D.rs-trip-gw">
   <front>
     <title>Usage of TRIP in Gateways for Exporting Phone Routes</title>
-    <seriesInfo name="Internet-Draft" value="draft-rs-trip-gw-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Jonathan Rosenberg" initials="J." surname="Rosenberg"/>
+    <author fullname="Jonathan Rosenberg" initials="J." surname="Rosenberg">
+      <organization/>
+    </author>
     <author fullname="Manjunath Bangalore" initials="M." surname="Bangalore">
       <organization>Cisco Systems</organization>
     </author>
@@ -17,4 +18,5 @@
       <t>This document describes a new application of the Telephony Routing over IP (TRIP) protocol. TRIP was engineered as a tool for inter- domain exchange of telephone routing information. However, it can also be used as a means for gateways and soft switches to export their routing information to a Location Server (LS), which may be co-resident with a proxy or gatekeeper. This LS can then manage those gateway resources. We discuss the motivations for this application, the reasons why other mechanims, such as the SIP REGISTER method, are not appropriate, and then show how a minimal subset of TRIP is needed for this application.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-rs-trip-gw-03"/>
 </reference>

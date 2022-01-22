@@ -1,14 +1,16 @@
 <reference anchor="I-D.mrugalski-server-dad-dhcpv6">
   <front>
     <title>DHCPv6 Server side Duplicate Address Detection</title>
-    <seriesInfo name="Internet-Draft" value="draft-mrugalski-server-dad-dhcpv6-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Tomasz Mrugalski"/>
+    <author fullname="Tomasz Mrugalski">
+      <organization/>
+    </author>
     <date year="2010" month="July"/>
     <abstract>
       <t>This document defines new way of performing DAD procedure. DHCPv6 maintain small pool of unique addresses. DHCPv6 server performs DAD procedure for each address, before populating this uniqueness verified pool. Client may ask for an address that already passed DAD test, thus speeding up client configuration process.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-mrugalski-server-dad-dhcpv6-00"/>
 </reference>

@@ -1,7 +1,6 @@
 <reference anchor="I-D.eckert-anima-services-dns-autoconfig">
   <front>
     <title>Autoconfiguration of infrastructure services in ACP networks via DNS-SD over GRASP</title>
-    <seriesInfo name="Internet-Draft" value="draft-eckert-anima-services-dns-autoconfig-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -15,10 +14,13 @@
     <author fullname="Christian Jacquenet">
       <organization>Orange</organization>
     </author>
-    <author fullname="Michael H. Behringer"/>
+    <author fullname="Michael H. Behringer">
+      <organization/>
+    </author>
     <date year="2021" month="July" day="12"/>
     <abstract>
       <t>This document defines standards that enable autoconfiguration of fundamental centralized or decentralized network infrastructure services on ACP network nodes via GRASP. These are primarily the services required for initial bootstrapping of a network but will persist through the lifecycles of the network. These services include secure remote access to zero-touch bootstrapped ANI devices via SSH/Netconf with Radius/Diameter authentication and authorization and provides lifecycle autoconfiguration for other crucial services such as syslog, NTP (clock synchronization) and DNS for operational purposes.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-eckert-anima-services-dns-autoconfig-00"/>
 </reference>

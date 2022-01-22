@@ -1,7 +1,6 @@
 <reference anchor="I-D.szarecki-idr-bgp-lcu-traffic-steering">
   <front>
     <title>Inter-Domain Traffic Steering with BGP Labeled Colored Unicast (BGP-LCU)</title>
-    <seriesInfo name="Internet-Draft" value="draft-szarecki-idr-bgp-lcu-traffic-steering-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>This document describes technology that enables for Inter-Domain signaling of existence of E2E path that satisfy high-level traffic treatment behavior intent. The inter-domain path is built by the BGP protocol, as a concatenation of per TE-domain internal paths (segments), provisioned by one of existing intra-domain techniques. The traffic treatment behavior is encoded as an integer value called as "COLOR". The domain internal paths/tunnels are marked as satisfying given traffic treatment behavior. Then the tunnel destination and its COLOR are exchanged between TE-Domains using a new BGP LABELED-COLORED-UNICAST NLRI (BGP-LCU) defined in this document.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-szarecki-idr-bgp-lcu-traffic-steering-00"/>
 </reference>

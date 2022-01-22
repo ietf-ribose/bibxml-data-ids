@@ -1,18 +1,28 @@
 <reference anchor="I-D.ietf-trill-tree-selection">
   <front>
     <title>Transparent Interconnection of Lots of Links (TRILL): Using Data Labels for Tree Selection for Multi-Destination Data</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-trill-tree-selection-05"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Yizhou Li"/>
-    <author fullname="Donald Eastlake"/>
-    <author fullname="Weiguo Hao"/>
-    <author fullname="Hao Chen"/>
-    <author fullname="Somnath Chatterjee"/>
+    <author fullname="Yizhou Li">
+      <organization/>
+    </author>
+    <author fullname="Donald Eastlake">
+      <organization/>
+    </author>
+    <author fullname="Weiguo Hao">
+      <organization/>
+    </author>
+    <author fullname="Hao Chen">
+      <organization/>
+    </author>
+    <author fullname="Somnath Chatterjee">
+      <organization/>
+    </author>
     <date year="2016" month="June" day="29"/>
     <abstract>
       <t>TRILL (Transparent Interconnection of Lots of Links) uses distribution trees to deliver multi-destination frames. Multiple trees can be used by an ingress Routing Bridge (RBridge) for flows, regardless of the VLAN, Fine-Grained Label (FGL), and/or multicast group of the flow. Different ingress RBridges may choose different distribution trees for TRILL Data packets in the same VLAN, FGL, and/or multicast group. To avoid unnecessary link utilization, distribution trees should be pruned based on one or more of the following: VLAN, FGL, or multicast destination address. If any VLAN, FGL, or multicast group can be sent on any tree, for typical fast-path hardware, the amount of pruning information is multiplied by the number of trees, but there is limited hardware capacity for such pruning information. This document specifies an optional facility to restrict the TRILL Data packets sent on particular distribution trees by VLAN, FGL, and/or multicast groups, thus reducing the total amount of pruning information so that it can more easily be accommodated by fast-path hardware.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-trill-tree-selection-05"/>
 </reference>

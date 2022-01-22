@@ -1,7 +1,6 @@
 <reference anchor="I-D.touch-sne">
   <front>
     <title>Sequence Number Extension for Windowed Protocols</title>
-    <seriesInfo name="Internet-Draft" value="draft-touch-sne-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>Sliding window protocols use finite sequence numbers to determine segment placement and order. These sequence number spaces wrap around and are reused during the operation of such protocols. This document describes a way to extend the size of these sequence numbers at the endpoints to avoid the impact of that wrap and reuse without transmitting additional information in the packet header. The resulting extended sequence numbers can be used at the endpoints in encryption and authentication algorithms to ensure input bit patterns do not repeat over the lifetime of a connection.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-touch-sne-00"/>
 </reference>

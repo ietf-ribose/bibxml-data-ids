@@ -1,15 +1,19 @@
 <reference anchor="I-D.sakimura-oauth-requrl">
   <front>
     <title>Request by JWS ver.1.0 for OAuth 2.0</title>
-    <seriesInfo name="Internet-Draft" value="draft-sakimura-oauth-requrl-05"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Nat Sakimura"/>
-    <author fullname="John Bradley"/>
+    <author fullname="Nat Sakimura">
+      <organization/>
+    </author>
+    <author fullname="John Bradley">
+      <organization/>
+    </author>
     <date year="2014" month="July"/>
     <abstract>
       <t>The authorization request in OAuth 2.0 utilizes query parameter serizalization. This specification defines the authorization request using JWT serialization. The request is sent thorugh "request" parameter or by reference through "request_uri" parameter that points to the JWT, allowing the request to be optionally signed and encrypted.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-sakimura-oauth-requrl-05"/>
 </reference>

@@ -1,15 +1,19 @@
 <reference anchor="I-D.renker-dccp-tfrc-rtt-option">
   <front>
     <title>Sender RTT Estimate Option for DCCP</title>
-    <seriesInfo name="Internet-Draft" value="draft-renker-dccp-tfrc-rtt-option-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Gerrit Renker"/>
-    <author fullname="Gorry Fairhurst"/>
+    <author fullname="Gerrit Renker">
+      <organization/>
+    </author>
+    <author fullname="Gorry Fairhurst">
+      <organization/>
+    </author>
     <date year="2010" month="August" day="18"/>
     <abstract>
       <t>This document describes an update to CCID-3/4 that addresses parameter-estimation problems occurring with TFRC-based DCCP congestion control. The fix uses a recommendation made in the original TFRC specification. It avoids the inherent problems of receiver-based RTT sampling, by utilising higher-accuracy RTT samples already available at the sender. It is integrated into the feature set of DCCP as an end-to-end negotiable extension, upward and downward compatible.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-renker-dccp-tfrc-rtt-option-01"/>
 </reference>

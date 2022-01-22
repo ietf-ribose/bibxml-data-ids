@@ -1,16 +1,22 @@
 <reference anchor="I-D.ietf-dnsop-edns-key-tag">
   <front>
     <title>Signaling Trust Anchor Knowledge in DNS Security Extensions (DNSSEC)</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-edns-key-tag-05"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Duane Wessels"/>
-    <author fullname="Warren Kumari"/>
-    <author fullname="Paul Hoffman"/>
+    <author fullname="Duane Wessels">
+      <organization/>
+    </author>
+    <author fullname="Warren Kumari">
+      <organization/>
+    </author>
+    <author fullname="Paul Hoffman">
+      <organization/>
+    </author>
     <date year="2017" month="February" day="16"/>
     <abstract>
       <t>The DNS Security Extensions (DNSSEC) were developed to provide origin authentication and integrity protection for DNS data by using digital signatures. These digital signatures can be verified by building a chain of trust starting from a trust anchor and proceeding down to a particular node in the DNS. This document specifies two different ways for validating resolvers to signal to a server which keys are referenced in their chain of trust. The data from such signaling allow zone administrators to monitor the progress of rollovers in a DNSSEC-signed zone.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-edns-key-tag-05"/>
 </reference>

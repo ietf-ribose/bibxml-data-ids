@@ -1,14 +1,16 @@
 <reference anchor="I-D.jabley-dnsext-eui48-eui64-rrtypes">
   <front>
     <title>Resource Records for EUI-48 and EUI-64 Addresses in the DNS</title>
-    <seriesInfo name="Internet-Draft" value="draft-jabley-dnsext-eui48-eui64-rrtypes-05"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Joe Abley" initials="J." surname="Abley"/>
+    <author fullname="Joe Abley" initials="J." surname="Abley">
+      <organization/>
+    </author>
     <date year="2013" month="June" day="12"/>
     <abstract>
       <t>48-bit Extended Unique Identifiers (EUI-48) and 64-bit Extended Unique Identifiers (EUI-64) are address formats specified by the IEEE for use in various layer-2 networks, e.g. Ethernet. This document describes two new DNS resource record types, EUI48 and EUI64, for encoding Ethernet addresses in the DNS. This document describes potentially severe privacy implications resulting from indiscriminate publication of link-layer addresses in the DNS. This document recommends that EUI-48 or EUI-64 addresses SHOULD NOT be published in the public DNS. This document specifies an interoperable encoding of these address types for use in private DNS namespaces, where the privacy concerns can be constrained and mitigated.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-jabley-dnsext-eui48-eui64-rrtypes-05"/>
 </reference>

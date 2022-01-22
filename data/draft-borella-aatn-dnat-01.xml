@@ -1,17 +1,25 @@
 <reference anchor="I-D.borella-aatn-dnat">
   <front>
     <title>Distributed Network Address Translation</title>
-    <seriesInfo name="Internet-Draft" value="draft-borella-aatn-dnat-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Brian Petry" initials="B." surname="Petry"/>
-    <author fullname="Michael Borella" initials="M." surname="Borella"/>
-    <author fullname="David Grabelsky" initials="D." surname="Grabelsky"/>
-    <author fullname="Ikhlaq Sidhu" initials="I." surname="Sidhu"/>
+    <author fullname="Brian Petry" initials="B." surname="Petry">
+      <organization/>
+    </author>
+    <author fullname="Michael Borella" initials="M." surname="Borella">
+      <organization/>
+    </author>
+    <author fullname="David Grabelsky" initials="D." surname="Grabelsky">
+      <organization/>
+    </author>
+    <author fullname="Ikhlaq Sidhu" initials="I." surname="Sidhu">
+      <organization/>
+    </author>
     <date year="1998" month="October" day="20"/>
     <abstract>
       <t>NAT (Network Address Translation) has been proposed to extend the lifetime of IPv4 by allowing one or more subnets to exist behind a single IP address. It is desirable to support dozens, if not hundreds, of nodes on a NAT subnet. As it is currently defined, NAT may not gracefully scale beyond networks containing a few dozen nodes. In particular, the computational burden placed on the NAT router may be significant, especially if the router is shared by several NAT-enabled subnets. Additionally, NAT requires that support for many protocols be specifically programmed into the translation mechanism. In this document, we introduce DNAT (Distributed Network Address Translation), an alternative to NAT. In particular, DNAT will eliminate all address and port translation at the router, providing an application independent mechanism for sharing an IP address amongst many hosts while providing end-to-end connectivity.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-borella-aatn-dnat-01"/>
 </reference>

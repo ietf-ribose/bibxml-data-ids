@@ -1,11 +1,12 @@
 <reference anchor="I-D.ietf-nfsv4-flex-files">
   <front>
     <title>Parallel NFS (pNFS) Flexible File Layout</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-nfsv4-flex-files-10"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Benny Halevy" initials="B." surname="Halevy"/>
+    <author fullname="Benny Halevy" initials="B." surname="Halevy">
+      <organization/>
+    </author>
     <author fullname="Thomas Haynes" initials="T." surname="Haynes">
       <organization>Primary Data</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>The Parallel Network File System (pNFS) allows a separation between the metadata (onto a metadata server) and data (onto a storage device) for a file. The flexible file layout type is defined in this document as an extension to pNFS which allows the use of storage devices in a fashion such that they require only a quite limited degree of interaction with the metadata server, using already existing protocols. Client side mirroring is also added to provide replication of files.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-nfsv4-flex-files-10"/>
 </reference>

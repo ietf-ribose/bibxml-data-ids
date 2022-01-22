@@ -1,14 +1,16 @@
 <reference anchor="I-D.weiler-dnsext-dnssec-2535-compat">
   <front>
     <title>Legacy Resolver Compatibility for Delegation Signer</title>
-    <seriesInfo name="Internet-Draft" value="draft-weiler-dnsext-dnssec-2535-compat-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Samuel Weiler" initials="S." surname="Weiler"/>
+    <author fullname="Samuel Weiler" initials="S." surname="Weiler">
+      <organization/>
+    </author>
     <date year="2003" month="May" day="14"/>
     <abstract>
       <t>As the DNS Security (DNSSEC) specifications have evolved, the syntax and semantics of the DNSSEC resource records (RRs) have changed. Many deployed nameservers understand variants of these semantics. Dangerous interactions can occur when a resolver that understands an earlier version of these semantics queries an authoritative server that understands the new delegation signer semantics, including at least one failure scenario that will cause an unsecured zone to be unresolvable. This document proposes that these interactions be avoided by changing the type codes and mnemonics of the DNSSEC RRs (SIG, KEY, and NXT).</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-weiler-dnsext-dnssec-2535-compat-01"/>
 </reference>

@@ -1,14 +1,16 @@
 <reference anchor="I-D.weber-secsh-pkalg-none">
   <front>
     <title>Secure Shell 'none' Public Key Algorithm</title>
-    <seriesInfo name="Internet-Draft" value="draft-weber-secsh-pkalg-none-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Joel N. Weber" initials="J. N." surname="Weber"/>
+    <author fullname="Joel N. Weber" initials="J. N." surname="Weber">
+      <organization/>
+    </author>
     <date year="2003" month="June" day="23"/>
     <abstract>
       <t>This document describes the 'none' public key encryption algorithm for the Secure Shell protocol, which is useful for rekeying when the server has no keys to support for non-GSSAPI key exchange and when GSSAPI credentials are expired, or for use in embedded systems where there is a desire to minimize the overhead of rekeying to prevent sequence number rollover.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-weber-secsh-pkalg-none-00"/>
 </reference>

@@ -1,16 +1,22 @@
 <reference anchor="I-D.ietf-sip-connect-reuse">
   <front>
     <title>Connection Reuse in the Session Initiation Protocol (SIP)</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-sip-connect-reuse-14"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Vijay Gurbani"/>
-    <author fullname="Rohan Mahy"/>
-    <author fullname="Brett Tate"/>
+    <author fullname="Vijay Gurbani">
+      <organization/>
+    </author>
+    <author fullname="Rohan Mahy">
+      <organization/>
+    </author>
+    <author fullname="Brett Tate">
+      <organization/>
+    </author>
     <date year="2009" month="August"/>
     <abstract>
       <t>This document enables a pair of communicating proxies to reuse a congestion-controlled connection between themselves for sending requests in the forwards and backwards direction. Because the connection is essentially aliased for requests going in the backwards direction, reuse is predicated upon both the communicating endpoints authenticating themselves using X.509 certificates through Transport Layer Security (TLS). For this reason, we only consider connection reuse for TLS over TCP and TLS over Stream Control Transmission Protocol (SCTP). This document also provides guidelines on connection reuse and virtual SIP servers and the interaction of connection reuse and DNS SRV lookups in SIP. [STANDARDS-TRACK]</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-sip-connect-reuse-14"/>
 </reference>

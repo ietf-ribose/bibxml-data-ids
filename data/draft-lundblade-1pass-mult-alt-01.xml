@@ -1,7 +1,6 @@
 <reference anchor="I-D.lundblade-1pass-mult-alt">
   <front>
     <title>One Pass Multipart/Alternative Processing</title>
-    <seriesInfo name="Internet-Draft" value="draft-lundblade-1pass-mult-alt-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>Most MIME syntax and semantics can usually be processed in a single pass through the data. For example, the MIME boundary parameter always appears before it is used. This is not the case with multipart/alternative MIME entities. The processor of the data cannot know the MIME types of the altnernatives present until all alternatives have been processed. Thus, it is not possible for a one pass processor to consider more than the first and most limited representation, because a subsequent part may be something that cannot be handled.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-lundblade-1pass-mult-alt-01"/>
 </reference>

@@ -1,17 +1,25 @@
 <reference anchor="I-D.dujovne-6tisch-on-the-fly">
   <front>
     <title>6TiSCH On-the-Fly Scheduling</title>
-    <seriesInfo name="Internet-Draft" value="draft-dujovne-6tisch-on-the-fly-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Diego Roberto Dujovne" initials="D. R." surname="Dujovne"/>
-    <author fullname="Luigi Alfredo Grieco" initials="L. A." surname="Grieco"/>
-    <author fullname="Maria Rita Palattella" initials="M. R." surname="Palattella"/>
-    <author fullname="Nicola Accettura" initials="N." surname="Accettura"/>
+    <author fullname="Diego Roberto Dujovne" initials="D. R." surname="Dujovne">
+      <organization/>
+    </author>
+    <author fullname="Luigi Alfredo Grieco" initials="L. A." surname="Grieco">
+      <organization/>
+    </author>
+    <author fullname="Maria Rita Palattella" initials="M. R." surname="Palattella">
+      <organization/>
+    </author>
+    <author fullname="Nicola Accettura" initials="N." surname="Accettura">
+      <organization/>
+    </author>
     <date year="2014" month="February" day="14"/>
     <abstract>
       <t>This document describes the environment, problem statement, and goals of the On-The-Fly (OTF) scheduling approach for the IEEE802.15.4e TSCH MAC protocol in the context of LLNs. The purpose of OTF is to dynamically adapt the aggregate bandwidth, i.e., the number of reserved soft cells between neighbor nodes, based on the specific application constraints to be satisfied. The soft cell and Bundle reservation with OTF is distributed: through the 6top interface, neighbor nodes negotiate the cell(s) to be (re)allocated/deleted, without intervention of a centralized entity. This document aims at defining a module which uses the functionalities provided by the 6top sublayer to (i) extract statistics and (ii) determine when to reserve /delete soft cells in the schedule. The exact reservation and deletion algorithm, and the number and type of statistics to be used in the algorithm are out of scope. OTF deals only with the number of soft cells to be reserved/deleted; it is up to 6top to select the specific soft cells within the TSCH schedule.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-dujovne-6tisch-on-the-fly-02"/>
 </reference>

@@ -1,16 +1,22 @@
 <reference anchor="I-D.cheng-ipfix-packet-selector">
   <front>
     <title>A Composite IP Packet Selector</title>
-    <seriesInfo name="Internet-Draft" value="draft-cheng-ipfix-packet-selector-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Guang Cheng"/>
-    <author fullname="Jian Gong"/>
-    <author fullname="Hua Wu"/>
+    <author fullname="Guang Cheng">
+      <organization/>
+    </author>
+    <author fullname="Jian Gong">
+      <organization/>
+    </author>
+    <author fullname="Hua Wu">
+      <organization/>
+    </author>
     <date year="2011" month="June" day="20"/>
     <abstract>
       <t>This document specifies a composite IP packet selector in Metering Process of the IP Flow Information Export protocol (IPFIX). The composite selector is realized by combining a sampling selector using systematic or random sampling technique followed by a hash- based filtering selector computing the hash function on 5-tuples information (source/ destination IP address, source/destination port number, port). Taking flow sampling into account in packet selection, the designed composite selector could better solve the short-flow lost problem meeting in simple systematic or random sampling selector.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-cheng-ipfix-packet-selector-00"/>
 </reference>

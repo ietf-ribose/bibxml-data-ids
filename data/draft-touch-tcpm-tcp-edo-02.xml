@@ -1,15 +1,19 @@
 <reference anchor="I-D.touch-tcpm-tcp-edo">
   <front>
     <title>TCP Extended Data Offset Option</title>
-    <seriesInfo name="Internet-Draft" value="draft-touch-tcpm-tcp-edo-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Dr. Joseph D. Touch" initials="J. D." surname="Touch"/>
-    <author fullname="Wesley Eddy" initials="W." surname="Eddy"/>
+    <author fullname="Dr. Joseph D. Touch" initials="J. D." surname="Touch">
+      <organization/>
+    </author>
+    <author fullname="Wesley Eddy" initials="W." surname="Eddy">
+      <organization/>
+    </author>
     <date year="2014" month="May"/>
     <abstract>
       <t>TCP segments include a Data Offset field to indicate space for TCP options, but the size of the field can limit the space available for complex options that have evolved. This document updates RFC 793 with an optional TCP extension to that space and explains why such extensions cannot be used in the initial SYN of a connection.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-touch-tcpm-tcp-edo-02"/>
 </reference>

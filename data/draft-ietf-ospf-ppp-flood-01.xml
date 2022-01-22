@@ -1,14 +1,16 @@
 <reference anchor="I-D.ietf-ospf-ppp-flood">
   <front>
     <title>Flooding over parallel point-to-point links</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-ppp-flood-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="John Moy" initials="J." surname="Moy"/>
+    <author fullname="John Moy" initials="J." surname="Moy">
+      <organization/>
+    </author>
     <date year="2001" month="March"/>
     <abstract>
       <t>The OSPF routing protocol synchronizes its link-state database over all links. However, when multiple point-to-point links connect a pair of OSPF routers, it is only necessary to flood over one of the parallel links. This can be done in a backward-compatible fashion, without requiring negotiation between neighboring routers, as described in this memo.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-ppp-flood-01"/>
 </reference>

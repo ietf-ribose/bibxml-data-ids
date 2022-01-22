@@ -1,15 +1,19 @@
 <reference anchor="I-D.ietf-6man-oversized-header-chain">
   <front>
     <title>Security and Interoperability Implications of Oversized IPv6 Header Chains</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-6man-oversized-header-chain-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Fernando Gont" initials="F." surname="Gont"/>
-    <author fullname="Vishwas Manral" initials="V." surname="Manral"/>
+    <author fullname="Fernando Gont" initials="F." surname="Gont">
+      <organization/>
+    </author>
+    <author fullname="Vishwas Manral" initials="V." surname="Manral">
+      <organization/>
+    </author>
     <date year="2012" month="June" day="29"/>
     <abstract>
       <t>The IPv6 specification allows IPv6 header chains of an arbitrary size. The specification also allows options which can in turn extend each of the headers. In those scenarios in which the IPv6 header chain or options are unusually long and packets are fragmented, or scenarios in which the fragment size is very small, the first fragment of a packet may fail to include the entire IPv6 header chain. This document discusses the interoperability and security problems of such traffic, and updates RFC 2460 such that the first fragment of a packet is required to contain the entire IPv6 header chain.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-6man-oversized-header-chain-00"/>
 </reference>

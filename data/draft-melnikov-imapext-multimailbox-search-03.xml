@@ -1,15 +1,19 @@
 <reference anchor="I-D.melnikov-imapext-multimailbox-search">
   <front>
     <title>IMAP4 Multimailbox SEARCH Extension</title>
-    <seriesInfo name="Internet-Draft" value="draft-melnikov-imapext-multimailbox-search-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Barry Leiba"/>
-    <author fullname="Alexey Melnikov"/>
+    <author fullname="Barry Leiba">
+      <organization/>
+    </author>
+    <author fullname="Alexey Melnikov">
+      <organization/>
+    </author>
     <date year="2008" month="April" day="22"/>
     <abstract>
       <t>The IMAP4 specification allows the searching only of the selected mailbox. A user often wants to search multiple mailboxes, and a client that wishes to support this must issue a series of SELECT and SEARCH commands, waiting for each to complete before moving on to the next. This extension allows a client to search multiple mailboxes with one command, limiting the round-trips and waiting for various searches to complete. This also introduces mailbox field in ESEARCH responses, allowing a client to pipeline the searches if it chooses.Note A revised version of this draft document will be submitted to the RFC editor as a Proposed Standard for the Internet Community. Discussion and suggestions for improvement are requested, and should be sent to ietf-imapext@imc.org.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-melnikov-imapext-multimailbox-search-03"/>
 </reference>

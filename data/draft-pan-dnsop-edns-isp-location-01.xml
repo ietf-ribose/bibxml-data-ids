@@ -1,15 +1,19 @@
 <reference anchor="I-D.pan-dnsop-edns-isp-location">
   <front>
     <title>ISP Location in DNS Queries</title>
-    <seriesInfo name="Internet-Draft" value="draft-pan-dnsop-edns-isp-location-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Pan Lanlan" initials="P." surname="Lanlan"/>
-    <author fullname="Yu Fu" initials="Y." surname="Fu"/>
+    <author fullname="Pan Lanlan" initials="P." surname="Lanlan">
+      <organization/>
+    </author>
+    <author fullname="Yu Fu" initials="Y." surname="Fu">
+      <organization/>
+    </author>
     <date year="2017" month="May" day="11"/>
     <abstract>
       <t>This document describes an Extension Mechanisms for DNS (EDNS0) option that is in active use to carry &lt; COUNTRY, AREA, ISP &gt; isp location information about the network that originated a DNS query and the network for which the subsequent response can be cached. It is inspired by EDNS Client Subnet (ECS) with some privacy considerations, goals to reduce the "guess location of client's IP" work on Authoritative Nameservers.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-pan-dnsop-edns-isp-location-01"/>
 </reference>

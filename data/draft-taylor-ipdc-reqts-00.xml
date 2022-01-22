@@ -1,14 +1,16 @@
 <reference anchor="I-D.taylor-ipdc-reqts">
   <front>
     <title>Requirements for A Telephony Gateway Device Control Protocol</title>
-    <seriesInfo name="Internet-Draft" value="draft-taylor-ipdc-reqts-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Tom Taylor" initials="T." surname="Taylor"/>
+    <author fullname="Tom Taylor" initials="T." surname="Taylor">
+      <organization/>
+    </author>
     <date year="1998" month="September" day="15"/>
     <abstract>
       <t>This document describes the requirements for a protocol to control a device which supports telephone lines or trunks on one side and packet network ports on the other. The primary functions of the device are to make, modify, and break media stream connections between these edge-points, to perform operations on the media streams, and to detect and report specific events associated with those streams or the edge-points. This device may also terminate call signalling which it processes itself and/or passes to the device which controls it. Using the terminology provided by Cuervo et al [1], the device just described is a Media Gateway, and is controlled by a Media Gateway Controller. The requirements for the protocol separate into two major parts: operational and functional. The operational requirements are concerned with reliability and security of control messaging, control session startup and takedown, handling of control session failures, and control system performance. The functional requirements cover connection control, media processing, event notification, and resource status tracking. They may also include signalling backhaul from the Media Gateway to the Media Gateway Controller. The protocol should extend to the control of devices which contain telephony edge-points only (such as digital cross-connects) or packet network ports only (such as transcoders or announcement servers).</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-taylor-ipdc-reqts-00"/>
 </reference>

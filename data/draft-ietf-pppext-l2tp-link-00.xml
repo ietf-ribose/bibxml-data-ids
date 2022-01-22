@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-pppext-l2tp-link">
   <front>
     <title>L2TP Link Extensions</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-pppext-l2tp-link-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>The physical separation of the LAC and LNS with L2TP[2] and logical separation of the responsibilities of each with respect to negotiated link parameters introduces a lack of awareness between the tunnel endpoints that does not exist in a typical PPP dialup device. When possible, Proxy LCP provides a manner in which to negotiate link parameters at the LAC and communication of these in full to the LNS. If these options can be made acceptable to the LNS, then there should not be any insurmountable difficulty with regard to mismatch of link expectations. However, given that there are instances where negotiation of LCP[1] must take place at the LNS, some direction by the LAC as to what parameters are acceptable, as well as some communication from the LNS as to what parameters have been negotiated, is desirable.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-pppext-l2tp-link-00"/>
 </reference>

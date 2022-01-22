@@ -1,7 +1,6 @@
 <reference anchor="I-D.marcinik-ipatm-dist-atmarp">
   <front>
     <title>Distributed ATMARP Service in Classical IP over ATM Networks</title>
-    <seriesInfo name="Internet-Draft" value="draft-marcinik-ipatm-dist-atmarp-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>One of the basic limitations of the ATMARP service model specified in RFC 1577 [LAUB94] is the requirement that only one ATMARP server be utilized to provide the address resolution service for a given LIS. Besides introducing a single-point-of-failure into a LIS, this model also presents obvious scaling issues. A proposal was put forth in 'Classical IP and ARP over ATM Update' [LAUB95] to resolve these shortcomings through the introduction of a model supporting multiple ATMARP servers that maintain fully-replicated, synchronized address resolution databases. This model necessitates a certain amount of complexity introduced by the addition of a server database synchronization protocol. This synchronization protocol also requires additional packet types and formats as well as associated semantics. It is felt, however, that a fully-replicated, synchronized database scheme is not required to provide a reasonably robust ATMARP service that addresses the limitations of the basic model.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-marcinik-ipatm-dist-atmarp-00"/>
 </reference>

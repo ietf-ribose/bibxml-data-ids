@@ -1,19 +1,31 @@
 <reference anchor="I-D.esale-mpls-app-aware-tldp">
   <front>
     <title>Application-aware Targeted LDP</title>
-    <seriesInfo name="Internet-Draft" value="draft-esale-mpls-app-aware-tldp-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Santosh Esale" initials="S." surname="Esale"/>
-    <author fullname="Raveendra Torvi" initials="R." surname="Torvi"/>
-    <author fullname="Chris Bowers" initials="C." surname="Bowers"/>
-    <author fullname="Luay Jalil" initials="L." surname="Jalil"/>
-    <author fullname="Uma Chunduri" initials="U." surname="Chunduri"/>
-    <author fullname="Zhenbin Li" initials="Z." surname="Li"/>
+    <author fullname="Santosh Esale" initials="S." surname="Esale">
+      <organization/>
+    </author>
+    <author fullname="Raveendra Torvi" initials="R." surname="Torvi">
+      <organization/>
+    </author>
+    <author fullname="Chris Bowers" initials="C." surname="Bowers">
+      <organization/>
+    </author>
+    <author fullname="Luay Jalil" initials="L." surname="Jalil">
+      <organization/>
+    </author>
+    <author fullname="Uma Chunduri" initials="U." surname="Chunduri">
+      <organization/>
+    </author>
+    <author fullname="Zhenbin Li" initials="Z." surname="Li">
+      <organization/>
+    </author>
     <date year="2014" month="September" day="19"/>
     <abstract>
       <t>Recent targeted LDP applications such as remote loop-free alternates and BGP auto discovered pseudowire may automatically establish a tLDP session to any LSR in a network. The initiating LSR has information about the targeted applications to administratively control initiation of the session. However the responding LSR has no such information to control acceptance of this session. This document defines a mechanism to advertise and negotiate Targeted Applications Capability during LDP session initialization. As the responding LSR becomes aware of targeted applications, it may establish a limited number of tLDP sessions for certain applications. In addition, each targeted application is mapped to LDP Forwarding Equivalence Class (FEC) Elements to advertise only necessary LDP FEC-label bindings over the session.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-esale-mpls-app-aware-tldp-01"/>
 </reference>

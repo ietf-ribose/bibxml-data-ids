@@ -1,14 +1,16 @@
 <reference anchor="I-D.melnikov-submit-port">
   <front>
     <title>An SMTP Service Extension for discovering the location of Submit server</title>
-    <seriesInfo name="Internet-Draft" value="draft-melnikov-submit-port-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Alexey Melnikov" initials="A." surname="Melnikov"/>
+    <author fullname="Alexey Melnikov" initials="A." surname="Melnikov">
+      <organization/>
+    </author>
     <date year="1999" month="June" day="29"/>
     <abstract>
       <t>[RFC-2476] defines a new protocol used for message submission. In many circumstances it could be located on port different from the traditional SMTP port. The fate of a message may depend on whether particular server is Submit or SMTP server, because even inside the same organization Submit and SMTP servers may inforce different policy. Thus the correct discovering of submit server location is important.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-melnikov-submit-port-01"/>
 </reference>

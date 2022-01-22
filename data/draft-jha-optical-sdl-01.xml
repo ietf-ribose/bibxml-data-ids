@@ -1,14 +1,16 @@
 <reference anchor="I-D.jha-optical-sdl">
   <front>
     <title>Payload-independent Delineation for Simple Data Link (SDL) Framing</title>
-    <seriesInfo name="Internet-Draft" value="draft-jha-optical-sdl-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Pankaj K. Jha" initials="P. K." surname="Jha"/>
+    <author fullname="Pankaj K. Jha" initials="P. K." surname="Jha">
+      <organization/>
+    </author>
     <date year="2002" month="March"/>
     <abstract>
       <t>Simple Data Link (SDL) framing specification (rfc2823) defines a [length, length CRC] based construct with a tail-end payload CRC for delineating frames over digital links. Many protocols, however, already have built-in CRC mechanisms, and a tail-end CRC is not always needed. This draft proposes a modification to allow SDL receivers to delineate all types of payload without having to analyze payload protocol header to determine presence of CRC.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-jha-optical-sdl-01"/>
 </reference>

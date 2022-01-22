@@ -1,7 +1,6 @@
 <reference anchor="I-D.chen-spring-sr-policy-for-ubfd">
   <front>
     <title>Segment Routing Policy for Unaffiliated BFD Echo Function</title>
-    <seriesInfo name="Internet-Draft" value="draft-chen-spring-sr-policy-for-ubfd-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>This document describes how to leverage Segment Routing (SR) Policy to make sure that the Unaffiliated BFD (U-BFD) Echo packets must be transmitted to the remote system before being looped back to the local system. This enables that U-BFD works not only for one hop scenario but for multiple hops scenario as well. In addition, this document also defines a way to explicitly specify the loop back path of the Echo packets. This is useful in the case where the forward and reverse path of the Echo packets are required to follow the same path.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-chen-spring-sr-policy-for-ubfd-00"/>
 </reference>

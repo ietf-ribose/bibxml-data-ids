@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-asid-ldap-dynatt">
   <front>
     <title>Lightweight Directory Access Protocol:  Dynamic Attributes</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-asid-ldap-dynatt-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -19,4 +18,5 @@
       <t>This document defines dynamic attributes and the fashion in which they are being set and used on entries in the directory. This document builds heavily on the dynamic extensions to LDAP infrastructure as defined in [1]. The Lightweight Directory Access Protocol (LDAP) [2] supports lightweight access to static directory services, allowing relatively fast search and update access. Static directory services store information about people that persists in its accuracy and value over a long period of time. The dynamic extension to LDAP as defined in [1] added the concept of dynamic entries that only persist in the directory, when they are periodically refreshed. This document takes this approach one step farther and defines how dynamic attributes can be used, on either static or dynamic entries, to handle up-to-date and dynamic information about an entry in the directory. An example use will be a client or a person that has a static entry in the directory and sometimes goes online, which is reflected in the 'online' attribute for the entry. To specify whether this person is online or offline - an attribute that changes frequently, a client application will have to modify this attribute relatively frequently. The current location of a person is another attribute that may change frequently. Dynamic attributes must be periodically refreshed. Otherwise, they will disappear from the directory over time.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-asid-ldap-dynatt-01"/>
 </reference>

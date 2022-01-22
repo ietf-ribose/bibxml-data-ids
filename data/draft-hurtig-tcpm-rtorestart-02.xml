@@ -1,16 +1,22 @@
 <reference anchor="I-D.hurtig-tcpm-rtorestart">
   <front>
     <title>TCP and SCTP RTO Restart</title>
-    <seriesInfo name="Internet-Draft" value="draft-hurtig-tcpm-rtorestart-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Per Hurtig" initials="P." surname="Hurtig"/>
-    <author fullname="Andreas Petlund" initials="A." surname="Petlund"/>
-    <author fullname="Michael Welzl" initials="M." surname="Welzl"/>
+    <author fullname="Per Hurtig" initials="P." surname="Hurtig">
+      <organization/>
+    </author>
+    <author fullname="Andreas Petlund" initials="A." surname="Petlund">
+      <organization/>
+    </author>
+    <author fullname="Michael Welzl" initials="M." surname="Welzl">
+      <organization/>
+    </author>
     <date year="2012" month="June" day="28"/>
     <abstract>
       <t>This document describes a modified algorithm for managing the TCP and SCTP retransmission timers that provides faster loss recovery when a connection's amount of outstanding data is small. The modification allows the transport to restart its retransmission timer more aggressively in situations where fast retransmit cannot be used. This enables faster loss detection and recovery for connections that are short-lived or application-limited.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-hurtig-tcpm-rtorestart-02"/>
 </reference>

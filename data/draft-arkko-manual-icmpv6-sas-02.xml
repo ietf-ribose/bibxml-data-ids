@@ -1,7 +1,6 @@
 <reference anchor="I-D.arkko-manual-icmpv6-sas">
   <front>
     <title>Manual Configuration of Security Associations for IPv6 Neighbor Discovery</title>
-    <seriesInfo name="Internet-Draft" value="draft-arkko-manual-icmpv6-sas-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>This informational document discusses the use of manually configured IPsec security associations to protect IPv6 Neighbor Discovery (ND) messages. IPsec security associations are generally identified by the triple (security parameters index, destination address, protocol). In the case of Neighbor Discovery, configuring these associations requires some effort, however. There are multiple known destination addresses plus a number of addresses that depend on the physical link addresses. This document describes the security implications of protecting or not protecting the Neighbor Discovery messages and lists the security associations that must be configured manually. The presented method is applicable only in small networks, but some approaches for reducing the configuration effort are discussed.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-arkko-manual-icmpv6-sas-02"/>
 </reference>

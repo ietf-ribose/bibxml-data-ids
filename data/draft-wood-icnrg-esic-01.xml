@@ -1,7 +1,6 @@
 <reference anchor="I-D.wood-icnrg-esic">
   <front>
     <title>Encrypted Sessions In CCNx (ESIC)</title>
-    <seriesInfo name="Internet-Draft" value="draft-wood-icnrg-esic-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>This document describes how to transport CCNx packets inside an encrypted session between peers that share a traffic secret, such as that which is derived from [CCNxKE]. The peers create an outer naming context to identify the encryption session in one direction between the consumer and the producer. The consumer sends encrypted Interest messages to the producer, who responds with encrypted Content Objects. Inside the outer context, the consumer sends Interests with different names, which the producer may respond to or may send InterestReturns for. There does not need to be a naming relationship between the outer names and the inner names. The inner content is still protected by normal CCNx authentication mechanisms and possiby encrypted under other schemes.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-wood-icnrg-esic-01"/>
 </reference>

@@ -1,11 +1,12 @@
 <reference anchor="I-D.ietf-policy-core-schema">
   <front>
     <title>Policy Core Lightweight Directory Access Protocol (LDAP) Schema</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-policy-core-schema-16"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Ed J. Ellesson" initials="E. J." surname="Ellesson"/>
+    <author fullname="Ed J. Ellesson" initials="E. J." surname="Ellesson">
+      <organization/>
+    </author>
     <author fullname="Dr. Robert C. Moore" initials="R. C." surname="Moore">
       <organization>IBM Corporation</organization>
     </author>
@@ -20,4 +21,5 @@
       <t>This document defines a mapping of the Policy Core Information Model to a form that can be implemented in a directory that uses Lightweight Directory Access Protocol (LDAP) as its access protocol. This model defines two hierarchies of object classes: structural classes representing information for representing and controlling policy data as specified in RFC 3060, and relationship classes that indicate how instances of the structural classes are related to each other. Classes are also added to the LDAP schema to improve the performance of a client's interactions with an LDAP server when the client is retrieving large amounts of policy-related information. These classes exist only to optimize LDAP retrievals: there are no classes in the information model that correspond to them. [STANDARDS-TRACK]</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-policy-core-schema-16"/>
 </reference>

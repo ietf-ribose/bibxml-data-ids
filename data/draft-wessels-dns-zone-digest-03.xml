@@ -1,7 +1,6 @@
 <reference anchor="I-D.wessels-dns-zone-digest">
   <front>
     <title>Message Digest for DNS Zones</title>
-    <seriesInfo name="Internet-Draft" value="draft-wessels-dns-zone-digest-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -25,4 +24,5 @@
       <t>This document describes an experimental protocol and new DNS Resource Record that can be used to provide an message digest over DNS zone data. The ZONEMD Resource Record conveys the message digest data in the zone itself. When a zone publisher includes an ZONEMD record, recipients can verify the zone contents for accuracy and completeness. This provides assurance that received zone data matches published data, regardless of how the zone data has been transmitted and received. ZONEMD is not designed to replace DNSSEC. Whereas DNSSEC is designed to protect recursive name servers and their caches, ZONEMD protects applications that consume zone files, whether they be authoritative name servers, recursive name servers, or uses of zone file data. As specified at this time, ZONEMD is not designed for use in large, dynamic zones due to the time and resources required for digest calculation. The ZONEMD record described in this document includes fields reserved for future work to support large, dynamic zones.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-wessels-dns-zone-digest-03"/>
 </reference>

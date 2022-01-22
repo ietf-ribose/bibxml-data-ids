@@ -1,7 +1,6 @@
 <reference anchor="I-D.kuehlewind-masque-connect-ip">
   <front>
     <title>The CONNECT-IP HTTP method for proxying IP traffic</title>
-    <seriesInfo name="Internet-Draft" value="draft-kuehlewind-masque-connect-ip-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -22,4 +21,5 @@
       <t>This draft specifies a new HTTP method CONNECT-IP to proxy IP traffic. CONNECT-IP uses HTTP/3 Datagrams to use QUIC Datagrams for efficient transport of proxied IP packets, with the possibility to fallback to HTTP/3 over reliable QUIC streams, or even HTTP 1.x and 2. CONNECT-IP supports two modes: a tunneling mode where IP packets are forwarded without modifications and flow forwarding mode which supports optimization for individual IP flows forwarded to the targeted peer. To request tunneling or flow forwarding, a client connects to a proxy server by initiating a HTTP/3 connection and sends a CONNECT-IP request which either indicates the address of the proxy or the target peer. The proxy then forwards payload received on that stream or in an HTTP datagram with a certain stream ID.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-kuehlewind-masque-connect-ip-01"/>
 </reference>

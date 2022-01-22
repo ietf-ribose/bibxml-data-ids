@@ -1,11 +1,12 @@
 <reference anchor="I-D.arnt-yao-dnsop-root-data-caching">
   <front>
     <title>Decreasing Fetch time of Root Data by Additional Caching Rules</title>
-    <seriesInfo name="Internet-Draft" value="draft-arnt-yao-dnsop-root-data-caching-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Arnt Gulbrandsen"/>
+    <author fullname="Arnt Gulbrandsen">
+      <organization/>
+    </author>
     <author fullname="Jiankang Yao">
       <organization>CNNIC</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>Some DNS recursive resolvers have long round trip times to the nearest DSN root server, which has been an obstacle to DNS query performance. In order to decrease root record fetch time without introducing a new source of errors, this document proposes a root- specific modification to the caching rules.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-arnt-yao-dnsop-root-data-caching-00"/>
 </reference>

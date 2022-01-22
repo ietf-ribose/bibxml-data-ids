@@ -1,16 +1,22 @@
 <reference anchor="I-D.laurie-pki-sunlight">
   <front>
     <title>Certificate Transparency</title>
-    <seriesInfo name="Internet-Draft" value="draft-laurie-pki-sunlight-05"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Ben Laurie" initials="B." surname="Laurie"/>
-    <author fullname="Adam Langley" initials="A." surname="Langley"/>
-    <author fullname="Emilia Kasper" initials="E." surname="Kasper"/>
+    <author fullname="Ben Laurie" initials="B." surname="Laurie">
+      <organization/>
+    </author>
+    <author fullname="Adam Langley" initials="A." surname="Langley">
+      <organization/>
+    </author>
+    <author fullname="Emilia Kasper" initials="E." surname="Kasper">
+      <organization/>
+    </author>
     <date year="2012" month="December" day="20"/>
     <abstract>
       <t>The aim of Certificate Transparency is to have every public end- entity (for example, web servers) and intermediate TLS certificate issued by a known Certificate Authority recorded in one or more certificate logs. In order to detect misissuance of certificates, all logs are publicly auditable. In particular, domain owners or their agents will be able to monitor logs for certificates issued on their own domain. To protect clients from unlogged misissued certificates, each log signs all certificates it records, and clients can choose not to trust certificates that are not accompanied by an appropriate log signature. For privacy and performance reasons log signatures are embedded in the TLS handshake via the TLS authorization extension, in a stapled OCSP extension, or in the certificate itself via an X.509v3 certificate extension. To ensure a globally consistent view of any particular log, each log also provides a global signature over the entire log. Any inconsistency of logs can be detected through cross-checks on the global signature. Consistency between any pair of global signatures, corresponding to snapshots of a particular log at different times, can be efficiently shown. Logs are only expected to certify that they have seen a certificate, and thus we do not specify any revocation mechanism for log signatures in this document. Logs are append-only, and log signatures do not expire.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-laurie-pki-sunlight-05"/>
 </reference>

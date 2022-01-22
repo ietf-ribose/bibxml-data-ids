@@ -1,17 +1,25 @@
 <reference anchor="I-D.chandra-mpls-ri-rsvp-frr">
   <front>
     <title>Refresh Interval Independent FRR Facility Protection</title>
-    <seriesInfo name="Internet-Draft" value="draft-chandra-mpls-ri-rsvp-frr-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Chandrasekar R" initials="C." surname="R"/>
-    <author fullname="Ina Minei" initials="I." surname="Minei"/>
-    <author fullname="Dante Pacella" initials="D." surname="Pacella"/>
-    <author fullname="Tarek Saad" initials="T." surname="Saad"/>
+    <author fullname="Chandrasekar R" initials="C." surname="R">
+      <organization/>
+    </author>
+    <author fullname="Ina Minei" initials="I." surname="Minei">
+      <organization/>
+    </author>
+    <author fullname="Dante Pacella" initials="D." surname="Pacella">
+      <organization/>
+    </author>
+    <author fullname="Tarek Saad" initials="T." surname="Saad">
+      <organization/>
+    </author>
     <date year="2016" month="April" day="17"/>
     <abstract>
       <t>RSVP-TE relies on periodic refresh of RSVP messages to maintain the LSP related states along the reserved path. In the absence of refresh messages, the LSP related states are automatically deleted. Reliance on periodic refreshes and refresh timeouts are problematic from the scalability point of view. The number of RSVP-TE LSPs that a router needs to maintain has been growing in service provider networks and the implementations should be capable of handling increase in LSP scale. RFC 2961 specifies mechanisms to eliminate the reliance on periodic refresh and refresh timeout of RSVP messages, and enables a router to increase the message refresh interval to values much larger than the default 30 seconds defined in RFC 2205. However, the protocol extensions defined in RFC 4090 for supporting fast reroute (FRR) using bypass tunnels implicitly rely on refresh timeouts to cleanup stale states. This document defines extensions to bypass FRR related procedures defined in RFC 4090 to support refresh-interval independent FRR.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-chandra-mpls-ri-rsvp-frr-03"/>
 </reference>

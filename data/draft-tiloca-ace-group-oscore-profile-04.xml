@@ -1,7 +1,6 @@
 <reference anchor="I-D.tiloca-ace-group-oscore-profile">
   <front>
     <title>Group OSCORE Profile of the Authentication and Authorization for Constrained Environments Framework</title>
-    <seriesInfo name="Internet-Draft" value="draft-tiloca-ace-group-oscore-profile-04"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -22,4 +21,5 @@
       <t>This document specifies a profile for the Authentication and Authorization for Constrained Environments (ACE) framework. The profile uses Group OSCORE to provide communication security between a Client and a (set of) Resource Server(s) as members of an OSCORE Group. The profile securely binds an OAuth 2.0 Access Token with the public key of the Client associated to the signing private key used in the OSCORE group. The profile uses Group OSCORE to achieve server authentication, as well as proof-of-possession for the Client's public key. Also, it provides proof of the Client's membership to the correct OSCORE group, by binding the Access Token to information from the Group OSCORE Security Context, thus allowing the Resource Server(s) to verify the Client's membership upon receiving a message protected with Group OSCORE from the Client.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-tiloca-ace-group-oscore-profile-04"/>
 </reference>

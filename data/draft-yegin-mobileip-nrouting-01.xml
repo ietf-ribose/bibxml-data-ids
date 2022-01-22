@@ -1,7 +1,6 @@
 <reference anchor="I-D.yegin-mobileip-nrouting">
   <front>
     <title>Mobile IPv6 Neighborhood Routing for Fast Handoff</title>
-    <seriesInfo name="Internet-Draft" value="draft-yegin-mobileip-nrouting-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>The Mobile IP working group is currently examining proposals to assist in minimizing the latency and packet loss due to handoffs when a Mobile IPv6 node moves from one point of attachment to another. One of the desires to reduce this latency and packet loss is a result of the strict requirements of real-time network services. This proposal specifies a solution whereby the mobile node sends a binding update with multiple care-of-addresses which match the current link and other links that the mobile node may possibly visit next. After receiving such a binding update, the correspondent nodes and home agent use a new routing header extension to route the packet that will be received by the mobile node at one of the possible care-of-addresses. Thus, the correspondent nodes and home agent can still communicate with the mobile node despite not knowing its exact location while the mobile node moves across links. The proposal presents no new networking entities and the resulting architecture describes a natural extension to the Mobile IPv6 protocol.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-yegin-mobileip-nrouting-01"/>
 </reference>

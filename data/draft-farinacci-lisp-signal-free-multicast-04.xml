@@ -1,15 +1,19 @@
 <reference anchor="I-D.farinacci-lisp-signal-free-multicast">
   <front>
     <title>Signal-Free LISP Multicast</title>
-    <seriesInfo name="Internet-Draft" value="draft-farinacci-lisp-signal-free-multicast-04"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Victor Moreno"/>
-    <author fullname="Dino Farinacci"/>
+    <author fullname="Victor Moreno">
+      <organization/>
+    </author>
+    <author fullname="Dino Farinacci">
+      <organization/>
+    </author>
     <date year="2015" month="December"/>
     <abstract>
       <t>When multicast sources and receivers are active at LISP sites, the core network is required to use native multicast so packets can be delivered from sources to group members. When multicast is not available to connect the multicast sites together, a signal-free mechanism can be used to allow traffic to flow between sites. The mechanism within here uses unicast replication and encapsulation over the core network for the data-plane and uses the LISP mapping database system so encapsulators at the source LISP multicast site can find de-capsulators at the receiver LISP multicast sites.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-farinacci-lisp-signal-free-multicast-04"/>
 </reference>

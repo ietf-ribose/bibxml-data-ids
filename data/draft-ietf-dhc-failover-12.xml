@@ -1,17 +1,19 @@
 <reference anchor="I-D.ietf-dhc-failover">
   <front>
     <title>DHCP Failover Protocol</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-dhc-failover-12"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
     <author fullname="Ralph Droms" initials="R." surname="Droms">
       <organization>Kim Kinnear</organization>
     </author>
-    <author fullname="Kenneth E. Kinnear Jr." initials="K. E." surname="Kinnear"/>
+    <author fullname="Kenneth E. Kinnear Jr." initials="K. E." surname="Kinnear">
+      <organization/>
+    </author>
     <date year="2003" month="March"/>
     <abstract>
       <t>DHCP [RFC 2131] allows for multiple servers to be operating on a single network. Some sites are interested in running multiple servers in such a way so as to provide redundancy in case of server failure. In order for this to work reliably, the cooperating primary and secondary servers must maintain a consistent database of the lease information. This implies that servers will need to coordinate any and all lease activity so that this information is synchronized in case of failover. This document defines a protocol to provide such synchronization between two servers. One server is designated the 'primary' server, the other is the 'secondary' server. This document also describes a way to integrate the failover protocol with the DHCP load balancing approach.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dhc-failover-12"/>
 </reference>

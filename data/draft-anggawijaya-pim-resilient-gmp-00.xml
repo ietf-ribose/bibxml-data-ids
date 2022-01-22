@@ -1,14 +1,16 @@
 <reference anchor="I-D.anggawijaya-pim-resilient-gmp">
   <front>
     <title>Improving IGMPv3 and MLDv2 Resilience</title>
-    <seriesInfo name="Internet-Draft" value="draft-anggawijaya-pim-resilient-gmp-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Hermin Anggawijaya" initials="H." surname="Anggawijaya"/>
+    <author fullname="Hermin Anggawijaya" initials="H." surname="Anggawijaya">
+      <organization/>
+    </author>
     <date year="2015" month="October" day="19"/>
     <abstract>
       <t>Host devices send IGMP or MLD group membership report messages to tell the designated router (DR) which multicast groups they want to receive. These messages are sent repeatedly up to maximum number of times determined by the 'Robustness Variable' setting. However, in certain situations, those messages could get lost. This draft proposes a mechanism whereby host devices attached to a local area network where the querier and the DR are the same device, can request the querier to acknowledge each report message it receives, ensuring report messages reception by the DR.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-anggawijaya-pim-resilient-gmp-00"/>
 </reference>

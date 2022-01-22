@@ -1,20 +1,34 @@
 <reference anchor="I-D.bonica-mpls-self-ping">
   <front>
     <title>LSP Self-Ping</title>
-    <seriesInfo name="Internet-Draft" value="draft-bonica-mpls-self-ping-06"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Ravi Torvi"/>
-    <author fullname="Ron Bonica"/>
-    <author fullname="Ina Minei"/>
-    <author fullname="Michael Conn"/>
-    <author fullname="Dante Pacella"/>
-    <author fullname="Luis Tomotaki"/>
-    <author fullname="Mark Wygant"/>
+    <author fullname="Ravi Torvi">
+      <organization/>
+    </author>
+    <author fullname="Ron Bonica">
+      <organization/>
+    </author>
+    <author fullname="Ina Minei">
+      <organization/>
+    </author>
+    <author fullname="Michael Conn">
+      <organization/>
+    </author>
+    <author fullname="Dante Pacella">
+      <organization/>
+    </author>
+    <author fullname="Luis Tomotaki">
+      <organization/>
+    </author>
+    <author fullname="Mark Wygant">
+      <organization/>
+    </author>
     <date year="2015" month="May" day="18"/>
     <abstract>
       <t>When certain RSVP-TE optimizations are implemented, ingress LSRs can receive RSVP RESV messages before forwarding state has been installed on all downstream nodes. According to the RSVP-TE specification, the ingress LSR can forward traffic through an LSP as soon as it receives a RESV message. However, if the ingress LSR forwards traffic through the LSP before forwarding state has been installed on all downstream nodes, traffic can be lost. This memo describes LSP Self-ping. When an ingress LSR receives an RESV message, it can invoke LSP Self-ping procedures to ensure that forwarding state has been installed on all downstream nodes. LSP Self-ping is an extremely light-weight mechanism. It does not consume control plane resources on transit or egress LSRs.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-bonica-mpls-self-ping-06"/>
 </reference>

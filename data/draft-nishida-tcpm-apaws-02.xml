@@ -1,14 +1,16 @@
 <reference anchor="I-D.nishida-tcpm-apaws">
   <front>
     <title>A-PAWS: Alternative Approach for PAWS</title>
-    <seriesInfo name="Internet-Draft" value="draft-nishida-tcpm-apaws-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Yoshifumi Nishida"/>
+    <author fullname="Yoshifumi Nishida">
+      <organization/>
+    </author>
     <date year="2015" month="October" day="17"/>
     <abstract>
       <t>This documents describe a technique called A-PAWS which can provide protection against old duplicates segments like PAWS. While PAWS requires TCP to set timestamp options in all segments in a TCP connection, A-PAWS supports the same feature without using timestamps. A-PAWS is designed to be used complementary with PAWS. TCP needs to use PAWS when it is necessary and activates A-PAWS only when it is safe to use. Without impairing the reliability and the robustness of TCP, A-PAWS can provide more option space to other TCP extensions.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-nishida-tcpm-apaws-02"/>
 </reference>

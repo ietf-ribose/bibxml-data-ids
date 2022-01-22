@@ -1,15 +1,19 @@
 <reference anchor="I-D.mohali-dispatch-cause-for-service-number">
   <front>
     <title>Session Initiation Protocol (SIP) Cause URI parameter for Service Number translation</title>
-    <seriesInfo name="Internet-Draft" value="draft-mohali-dispatch-cause-for-service-number-11"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Marianne Mohali" initials="M." surname="Mohali"/>
-    <author fullname="Mary Barnes" initials="M." surname="Barnes"/>
+    <author fullname="Marianne Mohali" initials="M." surname="Mohali">
+      <organization/>
+    </author>
+    <author fullname="Mary Barnes" initials="M." surname="Barnes">
+      <organization/>
+    </author>
     <date year="2016" month="December" day="13"/>
     <abstract>
       <t>RFC4458 defines a "cause" URI parameter, which may appear in the Request-URI of a SIP request, that is used to indicate a reason why the request arrived to the User Agent Server (UAS) receiving the message. This document creates a new predefined value for the "cause" URI parameter to cover service number translation for cases of retargeting due to specific service action leading to the translation of a called service access number. This document also provides a guidance for using the "cause" URI parameter within the History-Info header field because it was missing in RFC4458 whereas the combination of both is mandatory in some IP networks implementations. This document updates RFC4458.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-mohali-dispatch-cause-for-service-number-11"/>
 </reference>

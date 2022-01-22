@@ -1,14 +1,16 @@
 <reference anchor="I-D.shao-mpls-ping-ttl">
   <front>
     <title>Relaxing IP TTL setting in MPLS Ping and traceroute</title>
-    <seriesInfo name="Internet-Draft" value="draft-shao-mpls-ping-ttl-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Mingchao Shao"/>
+    <author fullname="Mingchao Shao">
+      <organization/>
+    </author>
     <date year="2016" month="June" day="23"/>
     <abstract>
       <t>Packets with IP TTL 1 might be filtered by TTL-filtering access control lists deployed to mitigate TTL expiry attacks [CISCO]. Thus MPLS ping and traceroute will be inoperable in these networks if IP TTL is set to 1 according to RFC 4379 [RFC4379] chapter 4.3. This document discuss and updates IP TTL setting in MPLS Ping and traceroute.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-shao-mpls-ping-ttl-00"/>
 </reference>

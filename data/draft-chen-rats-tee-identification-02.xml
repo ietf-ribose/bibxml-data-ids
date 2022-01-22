@@ -1,7 +1,6 @@
 <reference anchor="I-D.chen-rats-tee-identification">
   <front>
     <title>Use TEE Identification in EAP-TLS</title>
-    <seriesInfo name="Internet-Draft" value="draft-chen-rats-tee-identification-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -19,4 +18,5 @@
       <t>In security considerations, identity of a device should be protected and cannot be exposed in public in plaintext. The storage and execution of identity in device also need to be protected during the lifecycle. Based on this purpose, this document uses TEE and EAP-TLS to create a secure and trusted procedure to authenticate a device's identity. In this architecture, certificate protection and handshake keys generation which are used for EAP-TLS authentication will be executed in TEE. Communication establishment with EAP-TLS Server will be executed in REE. A middle layer is introduced to communicate between TEE and REE to compose the original function of EAP-TLS Client. TEE identification based on EAP-TLS could be used in different network layers to implement identity authentication.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-chen-rats-tee-identification-02"/>
 </reference>

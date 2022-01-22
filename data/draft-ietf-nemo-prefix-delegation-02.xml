@@ -1,11 +1,12 @@
 <reference anchor="I-D.ietf-nemo-prefix-delegation">
   <front>
     <title>Mobile Network Prefix Delegation</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-nemo-prefix-delegation-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="TJ Kniveton" initials="K." surname="Tj"/>
+    <author fullname="TJ Kniveton" initials="K." surname="Tj">
+      <organization/>
+    </author>
     <author fullname="Pascal Thubert" initials="P." surname="Thubert">
       <organization>Cisco</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>This paper extends the Nemo Basic Support [7] for a Mobile Router to synchronize its Mobile Network Prefixes with its Home Agents and obtain new ones dynamically. The proposed prefix delegation mechanism is agnostic to the way the back end is implemented; it enables bootstrapping, resynchronization at binding creation or after a loss of states (eg MR reboot), MNP Renumbering, and configuration checking for loop avoidance.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-nemo-prefix-delegation-02"/>
 </reference>

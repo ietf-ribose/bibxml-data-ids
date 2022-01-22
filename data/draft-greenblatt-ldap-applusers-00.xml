@@ -1,14 +1,16 @@
 <reference anchor="I-D.greenblatt-ldap-applusers">
   <front>
     <title>LDAP Object Class for Application Users</title>
-    <seriesInfo name="Internet-Draft" value="draft-greenblatt-ldap-applusers-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Bruce Greenblatt" initials="B." surname="Greenblatt"/>
+    <author fullname="Bruce Greenblatt" initials="B." surname="Greenblatt">
+      <organization/>
+    </author>
     <date year="1997" month="July" day="21"/>
     <abstract>
       <t>In working with various directory enabled applications and services, it has been noticed that several of them presume the existence of an auxiliary object class with no attributes that is used to detect 'their' users. For example, the foo application service will use the fooUser object class, and attach this object class to all of its user objects in the directory in order that it may later on easily detect 'its' users, by virtue of the fact that those users are members of the fooUser object class. This fooUser object class is a subclass of top with no additional attributes. This specification intends to head off the day when a user would get one of these applicationUser object class things attached to its directory object for each application that it uses. This would mean that that object's object class attribute would eventually have dozens of values, which would in turn lessen the value of this attribute.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-greenblatt-ldap-applusers-00"/>
 </reference>

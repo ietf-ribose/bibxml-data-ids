@@ -1,18 +1,28 @@
 <reference anchor="I-D.vcelak-nsec5">
   <front>
     <title>NSEC5, DNSSEC Authenticated Denial of Existence</title>
-    <seriesInfo name="Internet-Draft" value="draft-vcelak-nsec5-04"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Jan Včelák" initials="J." surname="Včelák"/>
-    <author fullname="Sharon Goldberg" initials="S." surname="Goldberg"/>
-    <author fullname="Dimitrios Papadopoulos" initials="D." surname="Papadopoulos"/>
-    <author fullname="Shumon Huque" initials="S." surname="Huque"/>
-    <author fullname="David C Lawrence" initials="" surname="Lawrence"/>
+    <author fullname="Jan Včelák" initials="J." surname="Včelák">
+      <organization/>
+    </author>
+    <author fullname="Sharon Goldberg" initials="S." surname="Goldberg">
+      <organization/>
+    </author>
+    <author fullname="Dimitrios Papadopoulos" initials="D." surname="Papadopoulos">
+      <organization/>
+    </author>
+    <author fullname="Shumon Huque" initials="S." surname="Huque">
+      <organization/>
+    </author>
+    <author fullname="David C Lawrence" initials="" surname="Lawrence">
+      <organization/>
+    </author>
     <date year="2017" month="March"/>
     <abstract>
       <t>The Domain Name System Security Extensions (DNSSEC) introduced the NSEC resource record (RR) for authenticated denial of existence and the NSEC3 RR for hashed authenticated denial of existence. This document introduces NSEC5 as an alternative mechanism for DNSSEC authenticated denial of existence. NSEC5 uses verifiable random functions (VRFs) to prevent offline enumeration of zone contents. NSEC5 also protects the integrity of the zone contents even if an adversary compromises one of the authoritative servers for the zone. Integrity is preserved because NSEC5 does not require private zone- signing keys to be present on all authoritative servers for the zone, in contrast to DNSSEC online signing schemes like NSEC3 White Lies.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-vcelak-nsec5-04"/>
 </reference>

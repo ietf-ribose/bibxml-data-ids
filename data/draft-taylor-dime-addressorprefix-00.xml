@@ -1,14 +1,16 @@
 <reference anchor="I-D.taylor-dime-addressorprefix">
   <front>
     <title>The AddressOrPrefix Derived AVP Data Format For Diameter</title>
-    <seriesInfo name="Internet-Draft" value="draft-taylor-dime-addressorprefix-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Tom Taylor"/>
+    <author fullname="Tom Taylor">
+      <organization/>
+    </author>
     <date year="2014" month="July" day="25"/>
     <abstract>
       <t>Section 4.3.1 of the Diameter base specification [RFC6733] defines a number of derived AVP data formats. This collection includes the Address format, which is suitable for encoding complete addresses. In some potential applications, however, there is a requirement to encode a prefix rather than a complete address. This document defines the AddressOrPrefix derived AVP data format, modelled after the Address format defined in [RFC6733], but allowing the same AVP to represent a prefix of any length up to a full address. This document updates RFC 6733.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-taylor-dime-addressorprefix-00"/>
 </reference>

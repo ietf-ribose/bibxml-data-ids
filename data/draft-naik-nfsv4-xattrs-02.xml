@@ -1,15 +1,19 @@
 <reference anchor="I-D.naik-nfsv4-xattrs">
   <front>
     <title>Support for File System Extended Attributes in NFSv4</title>
-    <seriesInfo name="Internet-Draft" value="draft-naik-nfsv4-xattrs-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Manoj Naik"/>
-    <author fullname="Marc Eshel"/>
+    <author fullname="Manoj Naik">
+      <organization/>
+    </author>
+    <author fullname="Marc Eshel">
+      <organization/>
+    </author>
     <date year="2015" month="July"/>
     <abstract>
       <t>This document proposes extensions to existing NFSv4 operations to allow file extended attributes (here forth also referred to as xattrs) to be manipulated in the protocol. An xattr is a file system feature that allows opaque metadata, not interpreted by the file system, to be associated with files and directories and are supported by many modern file systems. New file attributes are proposed to allow clients to query the server for xattr support, and new operations to get and set xattrs on file system objects.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-naik-nfsv4-xattrs-02"/>
 </reference>

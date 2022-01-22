@@ -1,16 +1,22 @@
 <reference anchor="I-D.ietf-fecframe-raptor">
   <front>
     <title>Raptor FEC Schemes for FECFRAME</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-fecframe-raptor-08"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Mark Watson" initials="M." surname="Watson"/>
-    <author fullname="Thomas Stockhammer" initials="T." surname="Stockhammer"/>
-    <author fullname="Mike Luby" initials="M." surname="Luby"/>
+    <author fullname="Mark Watson" initials="M." surname="Watson">
+      <organization/>
+    </author>
+    <author fullname="Thomas Stockhammer" initials="T." surname="Stockhammer">
+      <organization/>
+    </author>
+    <author fullname="Mike Luby" initials="M." surname="Luby">
+      <organization/>
+    </author>
     <date year="2012" month="February" day="24"/>
     <abstract>
       <t>This document describes Fully-Specified Forward Error Correction (FEC) Schemes for the Raptor and RaptorQ codes and their application to reliable delivery of media streams in the context of FEC Framework. The Raptor and RaptorQ codes are systematic codes, where a number of repair symbols are generated from a set of source symbols and sent in one or more repair flows in addition to the source symbols that are sent to the receiver(s) within a source flow. The Raptor and RaptorQ codes offer close to optimal protection against arbitrary packet losses at a low computational complexity. Six FEC Schemes are defined, two for protection of arbitrary packet flows, two that are optimised for small source blocks and another two for protection of a single flow that already contains a sequence number. Repair data may be sent over arbitrary datagram transport (e.g. UDP) or using RTP.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-fecframe-raptor-08"/>
 </reference>

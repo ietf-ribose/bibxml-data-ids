@@ -1,14 +1,16 @@
 <reference anchor="I-D.kivinen-ipsecme-signature-auth">
   <front>
     <title>Signature Authentication in IKEv2</title>
-    <seriesInfo name="Internet-Draft" value="draft-kivinen-ipsecme-signature-auth-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Tero Kivinen" initials="T." surname="Kivinen"/>
+    <author fullname="Tero Kivinen" initials="T." surname="Kivinen">
+      <organization/>
+    </author>
     <date year="2013" month="April" day="16"/>
     <abstract>
       <t>The Internet Key Exchange Version 2 (IKEv2) protocol has limited support for the Elliptic Curve Digital Signature Algorithm (ECDSA). The current version only includes support for three Elliptic Curve groups, and there is fixed hash algorithm tied to each curve. This document generalizes the IKEv2 signature support so it can support any signature method supported by the PKIX and also adds signature hash algorithm negotiation. This is generic mechanism, and is not limited to ECDSA, but can also be used with other signature algorithms.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-kivinen-ipsecme-signature-auth-01"/>
 </reference>

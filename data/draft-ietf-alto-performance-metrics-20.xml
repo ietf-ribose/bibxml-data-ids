@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-alto-performance-metrics">
   <front>
     <title>ALTO Performance Cost Metrics</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-alto-performance-metrics-20"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -28,4 +27,5 @@
       <t>The cost metric is a basic concept in Application-Layer Traffic Optimization (ALTO), and different applications may use different types of cost metrics. Since the ALTO base protocol (RFC 7285) defines only a single cost metric (namely, the generic "routingcost" metric), if an application wants to issue a cost map or an endpoint cost request in order to identify a resource provider that offers a better delay performance, the base protocol does not define the cost metric to be used. This document addresses this issue by extending the specification to provide a variety of network performance metrics, including network delay, delay variation (jitter), packet loss rate, hop count, and bandwidth. There are multiple sources (e.g., estimation based on measurements or service-level agreement) to derive a performance metric. This document introduces an additional "cost-context" field to the ALTO "cost-type" field to convey the source of a performance metric.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-alto-performance-metrics-20"/>
 </reference>

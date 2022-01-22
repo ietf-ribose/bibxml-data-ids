@@ -1,18 +1,28 @@
 <reference anchor="I-D.shivkuma-ecn-diffserv">
   <front>
     <title>A One-bit Feedback Enhanced Differentiated Services Architecture</title>
-    <seriesInfo name="Internet-Draft" value="draft-shivkuma-ecn-diffserv-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Shivkumar Kalyanaraman" initials="S." surname="Kalyanaraman"/>
-    <author fullname="Surendra Arora" initials="S." surname="Arora"/>
-    <author fullname="Khem Wanglee" initials="K." surname="Wanglee"/>
-    <author fullname="Greg Guarriello" initials="G." surname="Guarriello"/>
-    <author fullname="David Harrison" initials="D." surname="Harrison"/>
+    <author fullname="Shivkumar Kalyanaraman" initials="S." surname="Kalyanaraman">
+      <organization/>
+    </author>
+    <author fullname="Surendra Arora" initials="S." surname="Arora">
+      <organization/>
+    </author>
+    <author fullname="Khem Wanglee" initials="K." surname="Wanglee">
+      <organization/>
+    </author>
+    <author fullname="Greg Guarriello" initials="G." surname="Guarriello">
+      <organization/>
+    </author>
+    <author fullname="David Harrison" initials="D." surname="Harrison">
+      <organization/>
+    </author>
     <date year="1998" month="April" day="27"/>
     <abstract>
       <t>This document proposes the use of one bit in the DS-byte to facilitate ECN-type control in the differentiated services architecture. Specifically during periods of congestion along a flow's path (indicated using the one-bit mechanism), the out-of- profile packets of the flow (packets for which the 'In profile' bit is cleared) can be either delayed or dropped by the ingress network edge routers. This scheme would allow interior routers to preserve their resources for processing in-profile packets during congestion and guard against certain types of denial-of-service attacks. The proposed mechanism could also be used to build differentiated services networks with lower average delay, and aid the implementation of congestion-based pricing schemes in such architectures. The mechanism interoperates well with the baseline differentiated services architecture and can also interoperate with ECN-TCP and future ECN-enabled transports/applications. Further, the ECN-type flow control can be deployed within a differentiated services network even if end-to-end ECN support is unavailable, allowing a quick migration path.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-shivkuma-ecn-diffserv-01"/>
 </reference>

@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-tcpm-hystartplusplus">
   <front>
     <title>HyStart++: Modified Slow Start for TCP</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-hystartplusplus-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -19,4 +18,5 @@
       <t>This doument describes HyStart++, a simple modification to the slow start phase of TCP congestion control algorithms. Traditional slow start can cause overshotting of the ideal send rate and cause large packet loss within a round-trip time which results in poor performance. HyStart++ is composed of the delay increase variant of HyStart to prevent overshooting of the ideal sending rate, while also mitigating poor performance which can result from false positives.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-hystartplusplus-02"/>
 </reference>

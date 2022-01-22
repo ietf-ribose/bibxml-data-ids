@@ -1,14 +1,15 @@
 <reference anchor="I-D.ietf-manet-amris-spec">
   <front>
     <title>Ad hoc Multicast Routing protocol utilizing Increasing id-numberS (AMRIS) Functional Specification</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-manet-amris-spec-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
     <author fullname="Y.C. Tay" initials="Y." surname="Tay">
       <organization>National University of Singapore</organization>
     </author>
-    <author fullname="C-K Toh" initials="T." surname="C-k"/>
+    <author fullname="C-K Toh" initials="T." surname="C-k">
+      <organization/>
+    </author>
     <author fullname="C. W. Wu" initials="C. W." surname="Wu">
       <organization>National University of Singapore</organization>
     </author>
@@ -17,4 +18,5 @@
       <t>This document introduces a new multicast routing protocol for use over ad hoc networks. The protocol is called AMRIS, short for Ad hoc Multicast Routing protocol utilizing Increasing id-numberS. The conceptual idea behind AMRIS is to assign every node in a multicast session with an id-number. A delivery tree rooted at a particular node called Sid joins up the nodes participating in the multicast session. The relationship between the id-numbers(and the node that owns it) and Sid is that the id-numbers increase in numerical value as they radiate from the root of the delivery tree. The significance of the Sid is that it has the smallest id-number within that multicast session. Utilizing the id-numbers, nodes are able to adapt rapidly to changes in link connectivity. Recovery messages due to link breakages are confined to the region where it occurred.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-manet-amris-spec-00"/>
 </reference>

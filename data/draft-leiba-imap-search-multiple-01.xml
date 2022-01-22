@@ -1,7 +1,6 @@
 <reference anchor="I-D.leiba-imap-search-multiple">
   <front>
     <title>IMAP4 SEARCHM Command for Multiple Mailboxes</title>
-    <seriesInfo name="Internet-Draft" value="draft-leiba-imap-search-multiple-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>The IMAP4 specification allows the searching only of the selected mailbox. A user often wants to search multiple mailboxes, and a client that wishes to support this must issue a series of SELECT and SEARCH commands, waiting for each to complete before moving on to the next. This extension allows a client to search multiple mailboxes with one command, limiting the round-trips and waiting for various searches to complete. This also introduces named searches, allowing a client to pipeline the searches if it chooses.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-leiba-imap-search-multiple-01"/>
 </reference>

@@ -1,7 +1,6 @@
 <reference anchor="I-D.slone-dn2fqdn">
   <front>
     <title>Converting LDAP/X.500 Distinguished Names to DNS Domain Names to Support Server Location</title>
-    <seriesInfo name="Internet-Draft" value="draft-slone-dn2fqdn-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>A Lightweight Directory Access Protocol (LDAP) request must be directed to an appropriate server for processing. This document specifies an extension to the Domain Name System (DNS) and specifies a method for discovering such servers using information in DNS. This document complements and enhances previously specified methods of locating an appropriate server in that it works for distinguished names constructed with or without the 'dc' attribute type. The DNS extension is specified as an AVA Resource Record. The method of discovering servers queries DNS for AVA records to resolve a DN to a fully qualified domain name, then queries DNS for SRV records to complete the location process.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-slone-dn2fqdn-01"/>
 </reference>

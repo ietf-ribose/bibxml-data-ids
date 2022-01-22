@@ -1,14 +1,16 @@
 <reference anchor="I-D.mietz-core-coap-state-option">
   <front>
     <title>CoAP High-Level State Option Extension</title>
-    <seriesInfo name="Internet-Draft" value="draft-mietz-core-coap-state-option-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Richard Mietz"/>
+    <author fullname="Richard Mietz">
+      <organization/>
+    </author>
     <date year="2013" month="December" day="10"/>
     <abstract>
       <t>CoAP is a RESTful application protocol for constrained devices which are often equipped with sensors measuring a physical phenomenon such as temperature on a precise scale. These sensor values are made available by a resource on the CoAP endpoint. However, for many applications it is not necessary to have the full precision a sensor can provide. It's often even enough to only have some high-level states instead of raw values. This document presents a new option for CoAP to dynamically create new resources for a sensor which provides user-defined high-level states instead of raw sensor values.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-mietz-core-coap-state-option-01"/>
 </reference>

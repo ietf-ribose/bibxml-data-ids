@@ -1,14 +1,16 @@
 <reference anchor="I-D.ietf-mospf-mospf">
   <front>
     <title>Multicast Extensions to OSPF</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-mospf-mospf-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="John Moy" initials="J." surname="Moy"/>
+    <author fullname="John Moy" initials="J." surname="Moy">
+      <organization/>
+    </author>
     <date year="1998" month="December" day="23"/>
     <abstract>
       <t>This memo documents the MOSPF protocol. MOSPF, which stands for the Multicast extensions to OSPF, is an enhancement to the OSPF protocol enabling the routing of IP multicast datagrams. The extensions have been implemented so that a multicast routing capability can be introduced piecemeal into an OSPF Version 2 routing domain. Some of the OSPF Version 2 routers may run the multicast extensions, while others may continue to be restricted to the forwarding of regular IP traffic (unicasts). An implementation of this memo will interoperate with implementations of the previous MOSPF specification, RFC 1584. Differences between this memo and RFC 1584 include bug fixes, modifications which track changes to the base OSPF specification, and an assumption that IGMPv2 (instead of IGMPv1) will now be used to communicate group membership from IP hosts to MOSPF routers. See Appendix D for details.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-mospf-mospf-01"/>
 </reference>

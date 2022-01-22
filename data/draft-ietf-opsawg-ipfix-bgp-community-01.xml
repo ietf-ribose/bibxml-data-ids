@@ -1,16 +1,22 @@
 <reference anchor="I-D.ietf-opsawg-ipfix-bgp-community">
   <front>
     <title>Export BGP community information in IP Flow Information Export (IPFIX)</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-opsawg-ipfix-bgp-community-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Zhenqiang Li" initials="Z." surname="Li"/>
-    <author fullname="Rong Gu" initials="R." surname="Gu"/>
-    <author fullname="Jie Dong" initials="J." surname="Dong"/>
+    <author fullname="Zhenqiang Li" initials="Z." surname="Li">
+      <organization/>
+    </author>
+    <author fullname="Rong Gu" initials="R." surname="Gu">
+      <organization/>
+    </author>
+    <author fullname="Jie Dong" initials="J." surname="Dong">
+      <organization/>
+    </author>
     <date year="2017" month="March" day="10"/>
     <abstract>
       <t>This draft specifies an extension to the IPFIX information model defined in [RFC7012] to export the BGP community [RFC1997] information. Three information elements, bgpCommunity, bgpSourceCommunityList and bgpDestinationCommunityList, are introduced in this document to carry the BGP community information. bgpCommunity, containing exactly one BGP community value, is used to consist the list in bgpSourceCommunityList and bgpDestinationCommunityList, which are corresponding to a specific flow's source IP and destination IP respectively.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-opsawg-ipfix-bgp-community-01"/>
 </reference>

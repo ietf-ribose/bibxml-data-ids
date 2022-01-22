@@ -3,15 +3,19 @@
     <title>Internet Printing Protocol (IPP):IPP Notification Delivery Protocol (INDP)
 
 </title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-ipp-indp-04"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Thomas N. Hastings" initials="T. N." surname="Hastings"/>
-    <author fullname="Hugo Parra" initials="H." surname="Parra"/>
+    <author fullname="Thomas N. Hastings" initials="T. N." surname="Hastings">
+      <organization/>
+    </author>
+    <author fullname="Hugo Parra" initials="H." surname="Parra">
+      <organization/>
+    </author>
     <date year="2000" month="March" day="14"/>
     <abstract>
       <t>The IPP event notification specification [ipp-ntfy] is an OPTIONAL extension to IPP/1.0, IPP/1.1, and future versions. [ipp-ntfy] which enables IPP clients to request notification of printer and job events. The IPP notification extension gives IPP Printers the flexibility to choose how many Subscriptions objects (individual requests for notification), what delivery methods, and what natural languages to support, among others. In practice, it's the working environment where an IPP Printer is deployed what ultimately dictates the notification requirements for that printer. Notification Delivery Services exist to help event producers, such as IPP Printers, meet the varying notification needs of disparate environments. Specifically, an IPP Notification Delivery Service may extend the notification capabilities of IPP Printers and help customize the type of notification required in a highly specialized environment. This documents defines the IPP Notification Delivery Protocol (INDP), a protocol for IPP Printers to communicate with Notification Delivery Services using 'application/ipp' as the encoding mechanism and HTTP as the transport. The definition of INDP lends itself nicely for use by IPP Printers and Notification Delivery Services for dispatching IPP Notifications to Notification Recipients as well.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-ipp-indp-04"/>
 </reference>

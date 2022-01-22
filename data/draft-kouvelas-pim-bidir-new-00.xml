@@ -1,7 +1,6 @@
 <reference anchor="I-D.kouvelas-pim-bidir-new">
   <front>
     <title>A New Proposal for Bi-directional PIM</title>
-    <seriesInfo name="Internet-Draft" value="draft-kouvelas-pim-bidir-new-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -22,4 +21,5 @@
       <t>This document discusses a new form of Bi-directional PIM, a variant of PIM Sparse Mode [1] that builds bi-directional shared trees con- necting multicast sources and receivers. The ideas presented in this document are similar to those described in [2]. The main difference between the two proposals is in the method used to forward packets traveling upstream from a source to the RP. In particular [2] uses an IP option (UMP option) on data packets to assist with upstream forwarding. The UMP option identifies the next hop router responsible for forwarding the packet upstream. In contrast, this proposal does not alter data packets to embed con- trol information. Instead the identification of the next hop upstream forwarder is performed at RP discovery time using a fail-safe elec- tion mechanism. This significantly simplifies forwarding procedures and eliminates forwarding loops and packet duplication problems that exist in [2].</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-kouvelas-pim-bidir-new-00"/>
 </reference>

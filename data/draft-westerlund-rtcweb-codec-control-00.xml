@@ -1,15 +1,19 @@
 <reference anchor="I-D.westerlund-rtcweb-codec-control">
   <front>
     <title>Codec Control for WebRTC</title>
-    <seriesInfo name="Internet-Draft" value="draft-westerlund-rtcweb-codec-control-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Magnus Westerlund"/>
-    <author fullname="Bo Burman"/>
+    <author fullname="Magnus Westerlund">
+      <organization/>
+    </author>
+    <author fullname="Bo Burman">
+      <organization/>
+    </author>
     <date year="2012" month="May" day="16"/>
     <abstract>
       <t>This document proposes how WebRTC should handle media codec control between peers. With media codec control we mean such parameters as video resolution and frame-rate. This includes both initial establishment of capabilities using the SDP based JSEP signalling and during ongoing real-time interactive sessions in response to user and application events. The solution uses SDP for initial boundary establishment that are rarely, if ever changed. During the session the RTCP based Codec Operations Point (COP) signaling solution is used for dynamic control of parameters enabling timely and responsive controls.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-westerlund-rtcweb-codec-control-00"/>
 </reference>

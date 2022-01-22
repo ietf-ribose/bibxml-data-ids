@@ -1,11 +1,12 @@
 <reference anchor="I-D.amsuess-core-cachable-oscore">
   <front>
     <title>Cacheable OSCORE</title>
-    <seriesInfo name="Internet-Draft" value="draft-amsuess-core-cachable-oscore-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Christian Amsüss" initials="C." surname="Amsüss"/>
+    <author fullname="Christian Amsüss" initials="C." surname="Amsüss">
+      <organization/>
+    </author>
     <author fullname="Marco Tiloca" initials="M." surname="Tiloca">
       <organization>RISE AB</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>Group communication with the Constrained Application Protocol (CoAP) can be secured end-to-end using Group Object Security for Constrained RESTful Environments (Group OSCORE), also across untrusted intermediary proxies. However, this sidesteps the proxies' abilities to cache responses from the origin server(s). This specification restores cacheability of protected responses at proxies, by introducing consensus requests which any client in a group can send to one server or multiple servers in the same group.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-amsuess-core-cachable-oscore-02"/>
 </reference>

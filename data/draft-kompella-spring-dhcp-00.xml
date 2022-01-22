@@ -1,7 +1,6 @@
 <reference anchor="I-D.kompella-spring-dhcp">
   <front>
     <title>Using DHCP to Manage Node and Ring SID Assignment</title>
-    <seriesInfo name="Internet-Draft" value="draft-kompella-spring-dhcp-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>Node and ring segment identifiers (SIDs) assignements in a particular domain (such as an IGP area) must follow certain rules: they must be allocated from a configured set of SID blocks; they must be unique; and the values should be sticky, i.e., the same value(s) should be assigned to a node should its assignment expire (as might happen if the node resets). This memo suggests the use of the Dynamic Host Configuration Protocol to handle such assignments.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-kompella-spring-dhcp-00"/>
 </reference>

@@ -3,14 +3,16 @@
     <title>Request Header Integrity in SIP and HTTP Digest using
 Predictive Nonces
 </title>
-    <seriesInfo name="Internet-Draft" value="draft-rosenberg-sip-http-pnonce-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Jonathan Rosenberg" initials="J." surname="Rosenberg"/>
+    <author fullname="Jonathan Rosenberg" initials="J." surname="Rosenberg">
+      <organization/>
+    </author>
     <date year="2001" month="June" day="18"/>
     <abstract>
       <t>The HTTP Digest algorithm, specified in RFC 2617, allows for authentication of a request, along with integrity checks over the method, request URI, and optionally, the body. HTTP Digest is the primary client authentication mechanism used by SIP. However, Digest does not provide for integrity checks over several key SIP headers, including the To, From, Call-ID and Contact headers. We define a mechanism for supporting integrity over these headers, using a new algorithm we call predictive nonces. The mechanism requires no changes in clients, and no protocol changes. It requires only a change in the way the nonce is computed by servers.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-rosenberg-sip-http-pnonce-00"/>
 </reference>

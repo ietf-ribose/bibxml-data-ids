@@ -1,15 +1,19 @@
 <reference anchor="I-D.hotz-kx509">
   <front>
     <title>KX509 Kerberized Certificate Issuance Protocol</title>
-    <seriesInfo name="Internet-Draft" value="draft-hotz-kx509-04"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Henry Hotz" initials="H." surname="Hotz"/>
-    <author fullname="Russ Allbery" initials="R." surname="Allbery"/>
+    <author fullname="Henry Hotz" initials="H." surname="Hotz">
+      <organization/>
+    </author>
+    <author fullname="Russ Allbery" initials="R." surname="Allbery">
+      <organization/>
+    </author>
     <date year="2012" month="February" day="21"/>
     <abstract>
       <t>This document describes a protocol, called kx509, for using Kerberos tickets to acquire X.509 certificates. These certificates may be used for many of the same purposes as X.509 certificates acquired by other means, but if a Kerberos infrastructure already exists then the overhead of using kx509 may be much less. While not (previously) standardized, this protocol is already in use at several large organizations, and certificates issued with this protocol are recognized by the International Grid Trust Federation.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-hotz-kx509-04"/>
 </reference>

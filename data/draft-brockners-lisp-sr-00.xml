@@ -1,17 +1,25 @@
 <reference anchor="I-D.brockners-lisp-sr">
   <front>
     <title>LISP Extensions for Segment Routing</title>
-    <seriesInfo name="Internet-Draft" value="draft-brockners-lisp-sr-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Frank Brockners" initials="F." surname="Brockners"/>
-    <author fullname="Shwetha Bhandari" initials="S." surname="Bhandari"/>
-    <author fullname="Fabio Maino" initials="F." surname="Maino"/>
-    <author fullname="Darrel Lewis" initials="D." surname="Lewis"/>
+    <author fullname="Frank Brockners" initials="F." surname="Brockners">
+      <organization/>
+    </author>
+    <author fullname="Shwetha Bhandari" initials="S." surname="Bhandari">
+      <organization/>
+    </author>
+    <author fullname="Fabio Maino" initials="F." surname="Maino">
+      <organization/>
+    </author>
+    <author fullname="Darrel Lewis" initials="D." surname="Lewis">
+      <organization/>
+    </author>
     <date year="2013" month="July" day="15"/>
     <abstract>
       <t>Segment Routing (SR) combines source routing and tunneling to steer traffic through the transit network. The Locator/ID Separation Protocol (LISP) separates IP addresses into Endpoint Identifiers (EIDs) and Routing Locators (RLOCs) and also leverages tunneling mechanisms. Mapping between EIDs and RLOCs is facilitated by the LISP mapping system. Combining LISP and SR enables the LISP mapping system to provide SR information to encapsulating routers so that traffic can be steered in the transit network or the list of segments a particular packet traverses is recorded in the packet header. This document describes extensions required to the Locator/ID Separation Protocol (LISP) to enable a LISP mapping system to communicate list of segment identifiers or the request to record the list of segments a particular packet traverses to the encapsulating router.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-brockners-lisp-sr-00"/>
 </reference>

@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-stir-enhance-rfc8226">
   <front>
     <title>Enhanced JWT Claim Constraints for STIR Certificates</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-stir-enhance-rfc8226-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>RFC 8226 specifies the use of certificates for Secure Telephone Identity Credentials, and these certificates are often called "STIR Certificates". RFC 8226 provides a certificate extension to constrain the JSON Web Token (JWT) claims that can be included in the Personal Assertion Token (PASSporT) as defined in RFC 8225. If the PASSporT signer includes a JWT claim outside the constraint boundaries, then the PASSporT recipient will reject the entire PASSporT. This document updates RFC 8226 to define an additional way that the JWT claims can be constrained.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-stir-enhance-rfc8226-03"/>
 </reference>

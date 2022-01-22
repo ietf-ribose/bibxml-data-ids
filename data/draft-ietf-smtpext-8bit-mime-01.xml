@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-smtpext-8bit-mime">
   <front>
     <title>SMTP Service Extension for 8bit-MIMEtransport</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-smtpext-8bit-mime-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -14,7 +13,9 @@
     <author fullname="Dr. John C. Klensin" initials="J. C." surname="Klensin">
       <organization>WG Chair</organization>
     </author>
-    <author fullname="Dr. Marshall T. Rose" initials="M. T." surname="Rose"/>
+    <author fullname="Dr. Marshall T. Rose" initials="M. T." surname="Rose">
+      <organization/>
+    </author>
     <author fullname="Einar A. Stefferud" initials="E. A." surname="Stefferud">
       <organization>Network Management Associates</organization>
     </author>
@@ -23,4 +24,5 @@
       <t>This memo defines an extension to the SMTP service whereby an SMTP content body containing octets outside of the US ASCII octet range (hex 00-7F) may be relayed using SMTP.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-smtpext-8bit-mime-01"/>
 </reference>

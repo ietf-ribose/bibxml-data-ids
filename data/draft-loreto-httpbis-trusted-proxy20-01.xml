@@ -1,19 +1,31 @@
 <reference anchor="I-D.loreto-httpbis-trusted-proxy20">
   <front>
     <title>Explicit Trusted Proxy in HTTP/2.0</title>
-    <seriesInfo name="Internet-Draft" value="draft-loreto-httpbis-trusted-proxy20-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Salvatore Loreto"/>
-    <author fullname="John Mattsson"/>
-    <author fullname="Robert Skog"/>
-    <author fullname="Hans Spaak"/>
-    <author fullname="Dan Druta"/>
-    <author fullname="Mohammad Hafeez"/>
+    <author fullname="Salvatore Loreto">
+      <organization/>
+    </author>
+    <author fullname="John Mattsson">
+      <organization/>
+    </author>
+    <author fullname="Robert Skog">
+      <organization/>
+    </author>
+    <author fullname="Hans Spaak">
+      <organization/>
+    </author>
+    <author fullname="Dan Druta">
+      <organization/>
+    </author>
+    <author fullname="Mohammad Hafeez">
+      <organization/>
+    </author>
     <date year="2014" month="February" day="14"/>
     <abstract>
       <t>The purpose of this Internet Draft is to continue the discussion on explicit and trusted proxy as intermediary of HTTP2 traffic. The httpbis wg has agreed on the HTTP2 usage with HTTP URIs, with or without TLS, without any constraints from the standard (see: issue 314). To distinguish between an HTTP2 connection meant to transport "https" URIs resources and an HTTP2 connection meant to transport "http" URIs resource, the draft proposes to register a new value in the Application Layer Protocol negotiation (ALPN) Protocol IDs registry specific to signal the usage of HTTP2 to transport "http" URIs resources: h2clr. This document describes two alternative methods for an user-agent to automatically discover and for an user to provide consent for a Trusted Proxy to be securely involved when he or she is requesting an HTTP URI resource over HTTP2 with TLS. The consent is supposed to be per network access. The draft also describes the role of the Trusted Proxy in helping the user to fetch HTTP URIs resource when the user has provided consent to the Trusted Proxy to be involved.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-loreto-httpbis-trusted-proxy20-01"/>
 </reference>

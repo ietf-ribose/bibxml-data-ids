@@ -1,17 +1,25 @@
 <reference anchor="I-D.zimmermann-tcpm-rfc4653bis">
   <front>
     <title>Improving the Robustness of TCP to Non-Congestion Events</title>
-    <seriesInfo name="Internet-Draft" value="draft-zimmermann-tcpm-rfc4653bis-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Alexander Zimmermann"/>
-    <author fullname="Sumitha Bhandarkar"/>
-    <author fullname="A. L. Narasimha Reddy"/>
-    <author fullname="Mark Allman"/>
+    <author fullname="Alexander Zimmermann">
+      <organization/>
+    </author>
+    <author fullname="Sumitha Bhandarkar">
+      <organization/>
+    </author>
+    <author fullname="A. L. Narasimha Reddy">
+      <organization/>
+    </author>
+    <author fullname="Mark Allman">
+      <organization/>
+    </author>
     <date year="2013" month="August"/>
     <abstract>
       <t>This document specifies Non-Congestion Robustness (NCR) for TCP. In the absence of explicit congestion notification from the network, TCP uses loss as an indication of congestion. One of the ways TCP detects loss is using the arrival of three duplicate acknowledgments. However, this heuristic is not always correct, notably in the case when network paths reorder segments (for whatever reason), resulting in degraded performance. TCP-NCR is designed to mitigate this degraded performance by increasing the number of duplicate acknowledgments required to trigger loss recovery, based on the current state of the connection, in an effort to better disambiguate true segment loss from segment reordering. This document specifies the changes to TCP, as well as the costs and benefits of these modifications.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-zimmermann-tcpm-rfc4653bis-00"/>
 </reference>

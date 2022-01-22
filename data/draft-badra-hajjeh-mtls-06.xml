@@ -1,15 +1,19 @@
 <reference anchor="I-D.badra-hajjeh-mtls">
   <front>
     <title>MTLS: (D)TLS Multiplexing</title>
-    <seriesInfo name="Internet-Draft" value="draft-badra-hajjeh-mtls-06"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Mohamad Badra"/>
-    <author fullname="Ibrahim Hajjeh"/>
+    <author fullname="Mohamad Badra">
+      <organization/>
+    </author>
+    <author fullname="Ibrahim Hajjeh">
+      <organization/>
+    </author>
     <date year="2011" month="April" day="28"/>
     <abstract>
       <t>The (Datagram) Transport Layer Security ((D)TLS) standard provides connection security with mutual authentication, data confidentiality and integrity, key generation and distribution, and security parameters negotiation. However, missing from the protocol is a way to multiplex several application data over a single (D)TLS. This document defines MTLS, an application-level protocol running over (D)TLS Record protocol. The MTLS design provides application multiplexing over a single (D)TLS session. Therefore, instead of associating a (D)TLS session with each application, MTLS allows several applications to protect their exchanges over a single (D)TLS session.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-badra-hajjeh-mtls-06"/>
 </reference>

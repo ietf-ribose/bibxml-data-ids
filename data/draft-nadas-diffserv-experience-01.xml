@@ -1,12 +1,15 @@
 <reference anchor="I-D.nadas-diffserv-experience">
   <front>
     <title>IBM Diffserv Implementation Experiments</title>
-    <seriesInfo name="Internet-Draft" value="draft-nadas-diffserv-experience-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Vinod Peris" initials="V." surname="Peris"/>
-    <author fullname="Gaurang Shah" initials="G." surname="Shah"/>
+    <author fullname="Vinod Peris" initials="V." surname="Peris">
+      <organization/>
+    </author>
+    <author fullname="Gaurang Shah" initials="G." surname="Shah">
+      <organization/>
+    </author>
     <author fullname="Stephen J. Nadas" initials="S. J." surname="Nadas">
       <organization>Govindaraj Sampathkumar</organization>
     </author>
@@ -24,4 +27,5 @@
       <t>This informational memo contains a description of some measurements from early DiffServ (DS) experiments that used a preliminary version of IBM's DiffServ implementation on an IBM router over an egress T1/E1 PPP interface. The service level specification (SLS) may be configured on the router or optionally controlled by an LDAP-accessible policy repository. The measurements were intended to examine the behavior of a mixture of Expedited Forwarding (EF) traffic, Assured Forwarding (AF) traffic and Best Effort (BE) traffic on a congested E1 link. The router code includes an LDAP client that communicates with a policy server to obtain the policies that control the amount of resources configured for the DiffServ classes. The diagrams referred to in this memo are available in the postscript version of this memo. Changes from -00 version Added the details of the buffering setup, a discussion of an anomaly in the AF delay results, added an additional measurement point related to this anomaly, updated author list, added acknowledgements, and miscellaneous editorial comments.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-nadas-diffserv-experience-01"/>
 </reference>

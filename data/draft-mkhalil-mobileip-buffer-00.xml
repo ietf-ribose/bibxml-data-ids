@@ -1,21 +1,25 @@
 <reference anchor="I-D.mkhalil-mobileip-buffer">
   <front>
     <title>Buffer Management for Mobile IP</title>
-    <seriesInfo name="Internet-Draft" value="draft-mkhalil-mobileip-buffer-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
     <author fullname="Charles E. Perkins" initials="C. E." surname="Perkins">
       <organization>Nokia Research Center</organization>
     </author>
-    <author fullname="Emad Qaddoura" initials="E." surname="Qaddoura"/>
+    <author fullname="Emad Qaddoura" initials="E." surname="Qaddoura">
+      <organization/>
+    </author>
     <author fullname="Haseeb Akhtar" initials="H." surname="Akhtar">
       <organization>Nortel Networks</organization>
     </author>
-    <author fullname="Mohamed M. Khalil" initials="M. M." surname="Khalil"/>
+    <author fullname="Mohamed M. Khalil" initials="M. M." surname="Khalil">
+      <organization/>
+    </author>
     <date year="1999" month="October" day="21"/>
     <abstract>
       <t>Security and Smooth handoff with minimal data loss and delay are desirable goals of any mobile network. To minimize data loss while changing FAs, a MN can request the previous FA to allocate buffers for storing its (MN's) data. This buffered data is then forwarded to the MN when it registers with the new FA. This approach may decrease the window of data loss and delay during handoff. Additionally, it may be necessary for the MN to authenticate the new FA before allowing it (the new FA) to receive data from the previous FA. This draft outlines a buffering protocol that minimizes the potential loss of data while the MN changes its subnetwork point of attachment. This draft also provides a way for the MN to verify the new FA during the handoff, if and when that is needed.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-mkhalil-mobileip-buffer-00"/>
 </reference>

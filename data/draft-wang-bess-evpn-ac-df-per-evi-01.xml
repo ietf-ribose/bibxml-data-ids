@@ -1,7 +1,6 @@
 <reference anchor="I-D.wang-bess-evpn-ac-df-per-evi">
   <front>
     <title>AC-Influenced DF Election per EVI</title>
-    <seriesInfo name="Internet-Draft" value="draft-wang-bess-evpn-ac-df-per-evi-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>The AC-influenced DF Election (AC-DF) per [RFC8584] is too dependent on EAD/EVI routes. For example, when no failures occured on an ESI, that AC-DF procedures will give incorrect results if no EAD/EVI routes are advertised. But in some light-weighted EVPNs (i.e. PBB EVPNs), no EAD/EVI routes will be advertised at all. This draft proposes some new extensions to support AC-influenced DF Election without any EAD/EVI routes advertised in advance of any &lt;ESI, EVI&gt; failures.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-wang-bess-evpn-ac-df-per-evi-01"/>
 </reference>

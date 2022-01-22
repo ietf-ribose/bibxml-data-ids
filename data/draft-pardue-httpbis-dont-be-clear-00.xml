@@ -1,7 +1,6 @@
 <reference anchor="I-D.pardue-httpbis-dont-be-clear">
   <front>
     <title>Reserving the clear ALPN Protocol ID</title>
-    <seriesInfo name="Internet-Draft" value="draft-pardue-httpbis-dont-be-clear-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>HTTP Alternative Services (Alt-Svc) are identified by a tuple of Application-Protocol Layer Negotiation (ALPN) protocol identifier, a host and a port. The wire format for Alt-Svc is defined in ABNF and encodes this tuple or the keyword "clear", which has a special meaning. This memo reserves the ALPN protocol identifier "clear" to reduce the chances of accidental aliasing with the "clear" keyword.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-pardue-httpbis-dont-be-clear-00"/>
 </reference>

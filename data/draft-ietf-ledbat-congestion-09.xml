@@ -1,17 +1,25 @@
 <reference anchor="I-D.ietf-ledbat-congestion">
   <front>
     <title>Low Extra Delay Background Transport (LEDBAT)</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-ledbat-congestion-09"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Greg Hazel" initials="G." surname="Hazel"/>
-    <author fullname="Jana Iyengar" initials="J." surname="Iyengar"/>
-    <author fullname="Mirja Kühlewind" initials="M." surname="Kühlewind"/>
-    <author fullname="Stanislav Shalunov" initials="S." surname="Shalunov"/>
+    <author fullname="Greg Hazel" initials="G." surname="Hazel">
+      <organization/>
+    </author>
+    <author fullname="Jana Iyengar" initials="J." surname="Iyengar">
+      <organization/>
+    </author>
+    <author fullname="Mirja Kühlewind" initials="M." surname="Kühlewind">
+      <organization/>
+    </author>
+    <author fullname="Stanislav Shalunov" initials="S." surname="Shalunov">
+      <organization/>
+    </author>
     <date year="2011" month="October" day="31"/>
     <abstract>
       <t>LEDBAT is an experimental delay-based congestion control algorithm that attempts to utilize the available bandwidth on an end-to-end path while limiting the consequent increase in queueing delay on the path. LEDBAT uses changes in one-way delay measurements to limit congestion that the flow itself induces in the network. LEDBAT is designed for use by background bulk-transfer applications; it is designed to be no more aggressive than TCP congestion control and to yield in the presence of any competing flows when latency builds, thus limiting interference with the network performance of the competing flows.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-ledbat-congestion-09"/>
 </reference>

@@ -1,16 +1,22 @@
 <reference anchor="I-D.ietf-dhc-dhcpv6-prefix-pool-opt">
   <front>
     <title>Prefix Pool Option for DHCPv6 Relay Agent on the Provider Edge Routers</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-dhc-dhcpv6-prefix-pool-opt-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Leaf Y. Yeh"/>
-    <author fullname="Ted Lemon"/>
-    <author fullname="Mohamed Boucadair"/>
+    <author fullname="Leaf Y. Yeh">
+      <organization/>
+    </author>
+    <author fullname="Ted Lemon">
+      <organization/>
+    </author>
+    <author fullname="Mohamed Boucadair">
+      <organization/>
+    </author>
     <date year="2013" month="April" day="25"/>
     <abstract>
       <t>The DHCPv6 Prefix Pool option provides a mechanism for DHCPv6 Prefix Delegation (DHCPv6-PD), allowing the DHCPv6 server to notify a DHCPv6 relay agent implemented on a Provider Edge (PE) router about active prefix pools allocated by the DHCPv6 server to the PE router. The information of active prefix pools can be used to enforce IPv6 route aggregation on the PE router through adding or removing aggregation routes according to the status of the prefix pools. The advertising of the aggregation routes in the routing protocol enabled on the network-facing interface of PE routers will dramatically decreases the number of the routing table entries in the ISP network.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dhc-dhcpv6-prefix-pool-opt-03"/>
 </reference>

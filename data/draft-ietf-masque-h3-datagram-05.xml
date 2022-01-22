@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-masque-h3-datagram">
   <front>
     <title>Using Datagrams with HTTP</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-masque-h3-datagram-05"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>The QUIC DATAGRAM extension provides application protocols running over QUIC with a mechanism to send unreliable data while leveraging the security and congestion-control properties of QUIC. However, QUIC DATAGRAM frames do not provide a means to demultiplex application contexts. This document describes how to use QUIC DATAGRAM frames when the application protocol running over QUIC is HTTP/3. It associates datagrams with client-initiated bidirectional streams and defines an optional additional demultiplexing layer. Additionally, this document defines how to convey datagrams over prior versions of HTTP.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-masque-h3-datagram-05"/>
 </reference>

@@ -1,7 +1,6 @@
 <reference anchor="I-D.irtf-cfrg-frost">
   <front>
     <title>Two-Round Threshold Signatures with FROST</title>
-    <seriesInfo name="Internet-Draft" value="draft-irtf-cfrg-frost-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -19,4 +18,5 @@
       <t>In this draft, we present a two-round signing variant of FROST, a Flexible Round-Optimized Schnorr Threshold signature scheme. FROST signatures can be issued after a threshold number of entities cooperate to issue a signature, allowing for improved distribution of trust and redundancy with respect to a secret key. Further, this draft specifies signatures that are compatible with EdDSA verification of signatures. However, this draft does not generate deterministic nonces as defined by EdDSA, to ensure protection against a key-recovery attack that is possible when even only one participant is malicious.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-irtf-cfrg-frost-01"/>
 </reference>

@@ -1,16 +1,22 @@
 <reference anchor="I-D.ietf-rsvp-state-compression">
   <front>
     <title>RSVP Refresh Overhead Reduction by State Compression</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-rsvp-state-compression-04"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Lixia Zhang" initials="L." surname="Zhang"/>
-    <author fullname="Andreas Terzis" initials="A." surname="Terzis"/>
-    <author fullname="Lan Wang" initials="L." surname="Wang"/>
+    <author fullname="Lixia Zhang" initials="L." surname="Zhang">
+      <organization/>
+    </author>
+    <author fullname="Andreas Terzis" initials="A." surname="Terzis">
+      <organization/>
+    </author>
+    <author fullname="Lan Wang" initials="L." surname="Wang">
+      <organization/>
+    </author>
     <date year="2000" month="March" day="16"/>
     <abstract>
       <t>As a soft-state protocol, RSVP specifies that each RSVP node sends peri- odic RSVP messages for each existing RSVP session. The overhead due to such periodic state refreshes goes up linearly with the number of active RSVP sessions. One can reduce the overhead by using a longer refresh period, which unfortunately leads to longer delays in re-synchronizing RSVP state in face of packet losses. To overcome the dilemma, this specification describes the use of a 'state-compression' approach to soft-state protocol refreshes. In the absence of state changes this compression mechanism has a constant message overhead while retaining the soft-state nature of RSVP.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-rsvp-state-compression-04"/>
 </reference>

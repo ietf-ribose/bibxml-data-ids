@@ -1,14 +1,16 @@
 <reference anchor="I-D.hoffman-dns-tls-stub">
   <front>
     <title>Using TLS for Privacy Between DNS Stub and Recursive Resolvers</title>
-    <seriesInfo name="Internet-Draft" value="draft-hoffman-dns-tls-stub-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Paul E. Hoffman" initials="P. E." surname="Hoffman"/>
+    <author fullname="Paul E. Hoffman" initials="P. E." surname="Hoffman">
+      <organization/>
+    </author>
     <date year="2014" month="August" day="20"/>
     <abstract>
       <t>DNS queries and responses can contain information that reveals important information about the person who caused the queries, and it would be better if eavesdroppers were unable to see DNS traffic. This document describes how to use TLS for encrypting DNS traffic between a system acting as a DNS stub resolver and a system acting as a DNS recursive resolver.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-hoffman-dns-tls-stub-01"/>
 </reference>

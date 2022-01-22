@@ -1,15 +1,19 @@
 <reference anchor="I-D.alaettinoglu-isis-convergence">
   <front>
     <title>Towards Milli-Second IGP Convergence</title>
-    <seriesInfo name="Internet-Draft" value="draft-alaettinoglu-isis-convergence-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Cengiz Alaettinoglu" initials="C." surname="Alaettinoglu"/>
-    <author fullname="Van Jacobson" initials="V." surname="Jacobson"/>
+    <author fullname="Cengiz Alaettinoglu" initials="C." surname="Alaettinoglu">
+      <organization/>
+    </author>
+    <author fullname="Van Jacobson" initials="V." surname="Jacobson">
+      <organization/>
+    </author>
     <date year="2000" month="November" day="22"/>
     <abstract>
       <t>It is possible for link-state routing protocols to converge in link propagation time scales, that is, in tens of milliseconds. However, current deployments of ISIS[ISIS-ISO][ISIS-IP], a link-state routing protocol, are not anywhere near this point. In this paper, we present some analyses of ISIS convergence by showing its behavior upon link/router failures and repairs, and its scaling properties to large networks, both in terms of number of nodes and links. We then explore changes needed in the ISIS specification and implementations to reach IGP convergence in milliseconds. Our results are based on experimentation done with ISIS, but some of the findings may apply to OSPF as well.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-alaettinoglu-isis-convergence-00"/>
 </reference>

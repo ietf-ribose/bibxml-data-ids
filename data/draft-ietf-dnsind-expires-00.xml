@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-dnsind-expires">
   <front>
     <title>Scheduled Expiration of DNS Resource Records</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsind-expires-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>This document describes an additional RR type for the Domain Name System[7,8] which provides for scheduled expiration of RRs in the DNS. These RRs record the time at which a referenced set of RRs are to be removed from the DNS. This can be used to provide the information required to automatically support the reduced TTLs described in RFC1034[8] when anticipating a change, and by being in the zone data, will communicate that information to other servers that recognize the RR, in particular, secondary servers that recieve the data by Zone Transfer (AXFR or IXFR[2]).</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsind-expires-00"/>
 </reference>

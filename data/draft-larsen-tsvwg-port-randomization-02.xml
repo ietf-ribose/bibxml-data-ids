@@ -1,15 +1,19 @@
 <reference anchor="I-D.larsen-tsvwg-port-randomization">
   <front>
     <title>Port Randomization</title>
-    <seriesInfo name="Internet-Draft" value="draft-larsen-tsvwg-port-randomization-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Michael Larsen" initials="M." surname="Larsen"/>
-    <author fullname="Fernando Gont" initials="F." surname="Gont"/>
+    <author fullname="Michael Larsen" initials="M." surname="Larsen">
+      <organization/>
+    </author>
+    <author fullname="Fernando Gont" initials="F." surname="Gont">
+      <organization/>
+    </author>
     <date year="2007" month="September" day="10"/>
     <abstract>
       <t>Recently, awareness has been raised about a number of "blind" attacks that can be performed against the Transmission Control Protocol (TCP) and similar protocols. The consequences of these attacks range from throughput-reduction to broken connections or data corruption. These attacks rely on the attacker's ability to guess or know the four- tuple (Source Address, Destination Address, Source port, Destination Port) that identifies the transport protocol instance to be attacked. This document describes a simple and efficient method for random selection of the client port number, such that the possibility of an attacker guessing the exact value is reduced. While this is not a replacement for cryptographic methods, the described port number randomization algorithms provide improved security/obfuscation with very little effort and without any key management overhead.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-larsen-tsvwg-port-randomization-02"/>
 </reference>

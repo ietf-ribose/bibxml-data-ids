@@ -1,7 +1,6 @@
 <reference anchor="I-D.wei-mmusic-rtsp-bitrate-header">
   <front>
     <title>Bitrate header in RTSP</title>
-    <seriesInfo name="Internet-Draft" value="draft-wei-mmusic-rtsp-bitrate-header-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>This document presents an integrated solution for multiple bitrates by defining the Bitrate header in RTSP. A client can inquire bitrate range of media source after a successful SETUP request by sending a GET_PARAMETER request with the bitrate parameter to the RTSP server, and then server responds with bitrate range parameter of media source. According to bitrate range parameter value, the client MAY apply for bandwidth reservation by RSVP (Resource Reservation Protocol) [5] or apply for increasing access bandwidth. The client MAY select a suitable bitrate to start with or change transport bitrate during the playing by sending a PLAY request with the Bitrate header.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-wei-mmusic-rtsp-bitrate-header-01"/>
 </reference>

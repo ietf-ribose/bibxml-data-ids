@@ -1,7 +1,6 @@
 <reference anchor="I-D.tiloca-core-observe-multicast-notifications">
   <front>
     <title>Observe Notifications as CoAP Multicast Responses</title>
-    <seriesInfo name="Internet-Draft" value="draft-tiloca-core-observe-multicast-notifications-05"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -11,7 +10,9 @@
     <author fullname="Rikard Hoeglund">
       <organization>RISE AB</organization>
     </author>
-    <author fullname="Christian Amsuess"/>
+    <author fullname="Christian Amsuess">
+      <organization/>
+    </author>
     <author fullname="Francesca Palombini">
       <organization>Ericsson AB</organization>
     </author>
@@ -20,4 +21,5 @@
       <t>The Constrained Application Protocol (CoAP) allows clients to "observe" resources at a server, and receive notifications as unicast responses upon changes of the resource state. In some use cases, such as based on publish-subscribe, it would be convenient for the server to send a single notification addressed to all the clients observing a same target resource. This document updates RFC7252 and RFC7641, and defines how a server sends observe notifications as response messages over multicast, synchronizing all the observers of a same resource on a same shared Token value. Besides, this document defines how Group OSCORE can be used to protect multicast notifications end-to-end between the server and the observer clients.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-tiloca-core-observe-multicast-notifications-05"/>
 </reference>

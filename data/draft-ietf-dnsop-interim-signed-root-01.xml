@@ -1,14 +1,16 @@
 <reference anchor="I-D.ietf-dnsop-interim-signed-root">
   <front>
     <title>An Interim Scheme for Signing the Public DNS Root</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-interim-signed-root-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Johan Ihren" initials="J." surname="Ihren"/>
+    <author fullname="Johan Ihren" initials="J." surname="Ihren">
+      <organization/>
+    </author>
     <date year="2003" month="March"/>
     <abstract>
       <t>This memo documents a proposed mechanism for a first stage of a transition from an unsigned DNS root to a signed root, such that the data in the root zone is accompanied by DNSSEC signatures to allow validation. The underlying reason for signing the root zone is to be able to provide a more secure DNS hierarchy, where it is possible to distinguish false answers from correct answers. For the special case of the DNS root zone, an interim scheme is proposed. This scheme is mostly aimed at securing the root zone itself for technical and operational reasons, and to give operational experience of DNSSEC.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-interim-signed-root-01"/>
 </reference>

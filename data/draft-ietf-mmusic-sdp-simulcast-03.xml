@@ -1,17 +1,25 @@
 <reference anchor="I-D.ietf-mmusic-sdp-simulcast">
   <front>
     <title>Using Simulcast in SDP and RTP Sessions</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-mmusic-sdp-simulcast-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Bo Burman" initials="B." surname="Burman"/>
-    <author fullname="Magnus Westerlund" initials="M." surname="Westerlund"/>
-    <author fullname="Suhas Nandakumar" initials="S." surname="Nandakumar"/>
-    <author fullname="Mo Zanaty" initials="M." surname="Zanaty"/>
+    <author fullname="Bo Burman" initials="B." surname="Burman">
+      <organization/>
+    </author>
+    <author fullname="Magnus Westerlund" initials="M." surname="Westerlund">
+      <organization/>
+    </author>
+    <author fullname="Suhas Nandakumar" initials="S." surname="Nandakumar">
+      <organization/>
+    </author>
+    <author fullname="Mo Zanaty" initials="M." surname="Zanaty">
+      <organization/>
+    </author>
     <date year="2015" month="October" day="19"/>
     <abstract>
       <t>In some application scenarios it may be desirable to send multiple differently encoded versions of the same media source in different RTP streams. This is called simulcast. This document discusses the best way of accomplishing simulcast in RTP and how to signal it in SDP. A solution is defined by making an extension to SDP, and using RTP/RTCP identification methods to relate RTP streams belonging to the same media source. The SDP extension consists of a new media level SDP attribute that expresses capability to send and/or receive simulcast RTP streams. RTP/RTCP identification using either payload types or a separately defined method for RTP stream configuration are defined.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-mmusic-sdp-simulcast-03"/>
 </reference>

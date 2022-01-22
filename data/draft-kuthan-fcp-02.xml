@@ -1,11 +1,12 @@
 <reference anchor="I-D.kuthan-fcp">
   <front>
     <title>Firewall Control Protocol Framework and Requirements</title>
-    <seriesInfo name="Internet-Draft" value="draft-kuthan-fcp-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="J Kuthan" initials="J." surname="Kuthan"/>
+    <author fullname="J Kuthan" initials="J." surname="Kuthan">
+      <organization/>
+    </author>
     <author fullname="Jonathan Rosenberg" initials="J." surname="Rosenberg">
       <organization>dynamicsoft</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>The purpose of this document is to collect and put under discussion requirements for a protocol allowing for decomposition of application-awareness from packet processing in firewalls. The protocol will be used by application-aware entities to control packet flows of applications traversing firewalls dynamically. This kind of control allows applications using session control protocols to traverse firewalls while still retaining restrictive packet filtering policy. Network management tools may also utilize the protocol to manage packet-processing policies. We suggest an extensible framework that may be used for management of arbitrary per-flow control states in network nodes.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-kuthan-fcp-02"/>
 </reference>

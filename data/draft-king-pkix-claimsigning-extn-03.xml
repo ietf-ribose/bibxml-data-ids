@@ -1,19 +1,31 @@
 <reference anchor="I-D.king-pkix-claimsigning-extn">
   <front>
     <title>claimSigning Extended Key Usage (EKU)</title>
-    <seriesInfo name="Internet-Draft" value="draft-king-pkix-claimsigning-extn-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Matt King"/>
-    <author fullname="Matt Tebo"/>
-    <author fullname="Wendy Brown"/>
-    <author fullname="Dave Silver"/>
-    <author fullname="Chris Louden"/>
-    <author fullname="Patrick Patterson"/>
+    <author fullname="Matt King">
+      <organization/>
+    </author>
+    <author fullname="Matt Tebo">
+      <organization/>
+    </author>
+    <author fullname="Wendy Brown">
+      <organization/>
+    </author>
+    <author fullname="Dave Silver">
+      <organization/>
+    </author>
+    <author fullname="Chris Louden">
+      <organization/>
+    </author>
+    <author fullname="Patrick Patterson">
+      <organization/>
+    </author>
     <date year="2011" month="December" day="27"/>
     <abstract>
       <t>This document specifies an Extended Key Usage (EKU) value which indicates that the certificate holder is authorized to sign security tokens to assert claims, or attributes, about a subject. When a certificate that asserts the claimSigning EKU signs a claim, the owner of the service holding that certificate is asserting that a statement about the subject is true. For example, a IdP secure token service (STS) would use an X.509 certificate containing the claimSigning EKU to sign SAML assertions containing an identifier and attributes about a user. This EKU value would allow for a separation between the designation that a given Identity belongs within a given Federation, and the empowerment of that entity within the federation to sign claims.. This approach allows for greater flexibility for the operators of Federated systems and for Certification Authorities and avoids the overloading of other, already established methods (such as Assurance Level designation via certificatePolicy OID).</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-king-pkix-claimsigning-extn-03"/>
 </reference>

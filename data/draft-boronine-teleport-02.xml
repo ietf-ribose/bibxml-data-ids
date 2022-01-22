@@ -1,14 +1,16 @@
 <reference anchor="I-D.boronine-teleport">
   <front>
     <title>Minimal JSON Type System</title>
-    <seriesInfo name="Internet-Draft" value="draft-boronine-teleport-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Alexei Boronine" initials="A." surname="Boronine"/>
+    <author fullname="Alexei Boronine" initials="A." surname="Boronine">
+      <organization/>
+    </author>
     <date year="2014" month="December"/>
     <abstract>
       <t>Teleport is a minimal type system designed as an extension of JSON. It comes with 10 types sufficient for basic use and provides two patterns for extending it with new types. Teleport's type definitions are JSON values, for example, an array of strings is defined as {"Array": "String"}. Teleport implementations can be used for data serialization, input validation, for documenting JSON APIs and for building API clients. This document provides the mathematical basis for Teleport and can be used for implementing libraries.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-boronine-teleport-02"/>
 </reference>

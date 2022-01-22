@@ -1,18 +1,22 @@
 <reference anchor="I-D.yamamoto-wideipv6-comm-model">
   <front>
     <title>The IPv6 communication model</title>
-    <seriesInfo name="Internet-Draft" value="draft-yamamoto-wideipv6-comm-model-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="加藤 明洋" initials="K." surname="明洋"/>
+    <author fullname="加藤 明洋" initials="K." surname="明洋">
+      <organization/>
+    </author>
     <author fullname="Atsushi Onoe" initials="A." surname="Onoe">
       <organization>Sony</organization>
     </author>
-    <author fullname="Kazuhiko Yamamoto" initials="K." surname="Yamamoto"/>
+    <author fullname="Kazuhiko Yamamoto" initials="K." surname="Yamamoto">
+      <organization/>
+    </author>
     <date year="1996" month="September" day="23"/>
     <abstract>
       <t>This memo discusses semantics of communication with IPv6 addresses. This model introduces three address scope classes, node-local, site-local, and global, for both IPv6 unicast and multicast addresses. For a given packet, all addresses in the packet including those in the routing header must be in the same address scope class. Since the sockaddr_in6 address data structure is extended to be able to hold an interface index number, a kernel and applications can exchange interface information. A source address is uniquely determined with the destination address and the outgoing interface. This memo also clarifies packet processing mechanism for the input, forward, and output function.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-yamamoto-wideipv6-comm-model-00"/>
 </reference>

@@ -1,7 +1,6 @@
 <reference anchor="I-D.savola-mboned-mcast-rpaddr">
   <front>
     <title>Embedding the Address of RP in IPv6 Multicast Address</title>
-    <seriesInfo name="Internet-Draft" value="draft-savola-mboned-mcast-rpaddr-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>As has been noticed, there is exists a huge deployment problem with global, interdomain IPv6 multicast: Protocol Independent Multicast - Sparse Mode (PIM-SM) Rendezvous Points (RPs) have no way of communicating the information about multicast sources to other multicast domains, as there is no Multicast Source Discovery Protocol (MSDP), and the whole interdomain Any Source Multicast model is rendered unusable; SSM avoids these problems. This memo outlines a way to embed the address of the RP in the multicast address, solving the interdomain multicast problem. The problem is three-fold: specify an address format, adjust the operational procedures and configuration if necessary, and modify PIM-SM implementations of those who want to join or send to a group (Designated Routers) or provide one (Rendezvous Points). In consequence, there would be no need for interdomain MSDP, and even intra-domain RP configuration could be simplified. This memo updatres RFC 3306.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-savola-mboned-mcast-rpaddr-03"/>
 </reference>

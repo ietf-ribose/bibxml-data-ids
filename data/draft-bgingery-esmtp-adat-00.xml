@@ -1,14 +1,16 @@
 <reference anchor="I-D.bgingery-esmtp-adat">
   <front>
     <title>ESMTP Service Extension for Filtering Gateways</title>
-    <seriesInfo name="Internet-Draft" value="draft-bgingery-esmtp-adat-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Bruce Gingery" initials="B." surname="Gingery"/>
+    <author fullname="Bruce Gingery" initials="B." surname="Gingery">
+      <organization/>
+    </author>
     <date year="2001" month="November" day="21"/>
     <abstract>
       <t>This document describes a needed extenson to the STD-10 SMTP (Simple Mail Transport Protocol) service so that an ESMTP server and client mqy delay specific recipient acceptance until after content can be examined by the filtering gateway. It adds one return code (355) and three verbs (ADAT, DRCP and ERCP) to the ESMTP protocol as defined in RFC2821.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-bgingery-esmtp-adat-00"/>
 </reference>

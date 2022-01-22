@@ -1,14 +1,16 @@
 <reference anchor="I-D.ietf-l3vpn-vpn-vr">
   <front>
     <title>Network based IP VPN Architecture Using Virtual Routers</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-l3vpn-vpn-vr-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Hamid H. Ould-Brahim" initials="H. H." surname="Ould-Brahim"/>
+    <author fullname="Hamid H. Ould-Brahim" initials="H. H." surname="Ould-Brahim">
+      <organization/>
+    </author>
     <date year="2006" month="March"/>
     <abstract>
       <t>This document describes a network-based Virtual Private Network (VPN) architecture using the virtual router (VR) concept. Multiple VRs can exist in a single physical device. A VR emulates all the functionality of a physical router, and therefore inherits all existing mechanisms and tools for configuration, operation, accounting, and maintenance. Any routing protocol can be used to distribute VPN reachability information among VRs, and no VPN- related modifications or extensions are needed to the routing protocol for achieving VPN reachability. Direct VR-to-VR connectivity may be configured through layer-2 links or through IP- or MPLS-based tunnels. Traffic from VRs belonging to different VPNs may be aggregated over a "backbone VR" network, which greatly simplifies VPN provisioning. This architecture accommodates various backbone deployment scenarios, both where the VPN service provider owns the backbone, and where the VPN service provider obtains backbone service from one or more other service providers.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-l3vpn-vpn-vr-03"/>
 </reference>

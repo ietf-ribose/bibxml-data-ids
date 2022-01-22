@@ -1,17 +1,25 @@
 <reference anchor="I-D.ietf-idr-optional-transitive">
   <front>
     <title>Revised Error Handling for BGP UPDATE Messages</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-optional-transitive-04"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="John G. Scudder"/>
-    <author fullname="Enke Chen"/>
-    <author fullname="Pradosh Mohapatra"/>
-    <author fullname="Keyur Patel"/>
+    <author fullname="John G. Scudder">
+      <organization/>
+    </author>
+    <author fullname="Enke Chen">
+      <organization/>
+    </author>
+    <author fullname="Pradosh Mohapatra">
+      <organization/>
+    </author>
+    <author fullname="Keyur Patel">
+      <organization/>
+    </author>
     <date year="2011" month="October" day="25"/>
     <abstract>
       <t>According to the base BGP specification, a BGP speaker that receives an UPDATE message containing a malformed attribute is required to reset the session over which the offending attribute was received. This behavior is undesirable as a session reset would impact not only routes with the offending attribute, but also other valid routes exchanged over the session. This document partially revises the error handling for UPDATE messages, and provides guidelines for the authors of documents defining new optional attributes. Finally, it revises the error handling procedures for several existing attributes.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-optional-transitive-04"/>
 </reference>

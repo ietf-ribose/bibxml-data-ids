@@ -1,17 +1,25 @@
 <reference anchor="I-D.ietf-idr-aigp">
   <front>
     <title>The Accumulated IGP Metric Attribute for BGP</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-aigp-11"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Prodosh Mohapatra" initials="P." surname="Mohapatra"/>
-    <author fullname="Rex Fernando" initials="R." surname="Fernando"/>
-    <author fullname="Eric C. Rosen" initials="E. C." surname="Rosen"/>
-    <author fullname="Jim Uttaro" initials="J." surname="Uttaro"/>
+    <author fullname="Prodosh Mohapatra" initials="P." surname="Mohapatra">
+      <organization/>
+    </author>
+    <author fullname="Rex Fernando" initials="R." surname="Fernando">
+      <organization/>
+    </author>
+    <author fullname="Eric C. Rosen" initials="E. C." surname="Rosen">
+      <organization/>
+    </author>
+    <author fullname="Jim Uttaro" initials="J." surname="Uttaro">
+      <organization/>
+    </author>
     <date year="2013" month="November" day="21"/>
     <abstract>
       <t>Routing protocols that have been designed to run within a single administrative domain ("IGPs") generally do so by assigning a metric to each link, and then choosing as the installed path between two nodes the path for which the total distance (sum of the metric of each link along the path) is minimized. BGP, designed to provide routing over a large number of independent administrative domains ("autonomous systems"), does not make its path selection decisions through the use of a metric. It is generally recognized that any attempt to do so would incur significant scalability problems, as well as inter-administration coordination problems. However, there are deployments in which a single administration runs several contiguous BGP networks. In such cases, it can be desirable, within that single administrative domain, for BGP to select paths based on a metric, just as an IGP would do. The purpose of this document is to provide a specification for doing so.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-aigp-11"/>
 </reference>

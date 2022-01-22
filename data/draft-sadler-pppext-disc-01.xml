@@ -1,11 +1,12 @@
 <reference anchor="I-D.sadler-pppext-disc">
   <front>
     <title>Neighbor Discovery via PPP</title>
-    <seriesInfo name="Internet-Draft" value="draft-sadler-pppext-disc-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Janathan Sadler" initials="J." surname="Sadler"/>
+    <author fullname="Janathan Sadler" initials="J." surname="Sadler">
+      <organization/>
+    </author>
     <author fullname="Ben Mack-Crane" initials="B." surname="Mack-Crane">
       <organization>Tellabs</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>Work has been progressing in the Common Control and Measurement Protocol (CCAMP) working group on the application of MPLS technology to non-packet switching networks. Development of the Generalized MPLS (GMPLS) signaling draft [1] has allowed for Optical, SONET/SDH, and spatial switching systems to be controlled using IP protocols. In a GMPLS network, the path that a TDM connection will use is developed using constraint based routing. The developed route utilizes TDM link state information announced via OSPF or IS-IS by other nodes in the network. However, a node cannot advertise the existence of a link without first identifying the remote node connected to the link and the capabilities of the neighboring node. In a packet network, this function would typically be accomplished using OSPF or IS-IS Hello messages repeated every 10 or so seconds. However, the TDM link cannot transmit similar messages because the port terminating the link cannot be shared between a TDM service user and the OSPF/IS-IS termination function.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-sadler-pppext-disc-01"/>
 </reference>

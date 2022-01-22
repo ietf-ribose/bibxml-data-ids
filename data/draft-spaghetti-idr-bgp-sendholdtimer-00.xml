@@ -1,17 +1,19 @@
 <reference anchor="I-D.spaghetti-idr-bgp-sendholdtimer">
   <front>
     <title>Border Gateway Protocol 4 (BGP-4) Send Hold Timer</title>
-    <seriesInfo name="Internet-Draft" value="draft-spaghetti-idr-bgp-sendholdtimer-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
     <author fullname="Job Snijders" initials="J." surname="Snijders">
       <organization>Fastly</organization>
     </author>
-    <author fullname="Ben Cartwright-Cox" initials="B." surname="Cartwright-Cox"/>
+    <author fullname="Ben Cartwright-Cox" initials="B." surname="Cartwright-Cox">
+      <organization/>
+    </author>
     <date year="2021" month="April" day="20"/>
     <abstract>
       <t>This document defines the SendHoldTimer session attribute for the Border Gateway Protocol (BGP) Finite State Machine (FSM). A session should be terminated if the TCP receive window is zero for the duration of the Send Hold Timer, in this situation the peer is expected to terminate the connection. For robustness, this document specifies that the local system should also close the connection. This document updates RFC4271.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-spaghetti-idr-bgp-sendholdtimer-00"/>
 </reference>

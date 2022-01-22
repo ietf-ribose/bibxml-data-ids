@@ -1,15 +1,19 @@
 <reference anchor="I-D.cheshire-pcp-unsupp-family">
   <front>
     <title>Updates to the PCP specification</title>
-    <seriesInfo name="Internet-Draft" value="draft-cheshire-pcp-unsupp-family-05"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Stuart Cheshire" initials="S." surname="Cheshire"/>
-    <author fullname="Simon Perreault" initials="S." surname="Perreault"/>
+    <author fullname="Stuart Cheshire" initials="S." surname="Cheshire">
+      <organization/>
+    </author>
+    <author fullname="Simon Perreault" initials="S." surname="Perreault">
+      <organization/>
+    </author>
     <date year="2013" month="July" day="14"/>
     <abstract>
       <t>The Port Control Protocol (PCP) allows clients to request mappings in NAT gateways and firewalls. This document specifies the PCP UNSUPP_FAMILY error code, which enables PCP servers to inform clients when the requested external address family is not supported. This document also removes the requirement for the PCP server to validate the mapping nonce, which proved to be unhelpful in practice.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-cheshire-pcp-unsupp-family-05"/>
 </reference>

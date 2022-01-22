@@ -1,7 +1,6 @@
 <reference anchor="I-D.harwood-krb-pkinit-dh-upsize">
   <front>
     <title>Deprecate Use of 1024-bit Diffie-Hellman Moduli in Public Key Cryptography for Initial Authentication in Kerberos</title>
-    <seriesInfo name="Internet-Draft" value="draft-harwood-krb-pkinit-dh-upsize-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>Public Key Cryptography for Initial Authentication in Kerberos (PKINIT) permits a client and a Kerberos Domain Controller (KDC) to use a Diffie-Hellman (DH) exchange to derive an encryption key. The group with minimum modulus size permitted for this exchange is 1024 bits, which recent security research has shown to provide insufficient protection against organizations with sufficient computing resources, such as state-sponsored actors. This document updates RFC 4556 to increase the minimum group size to 2048 bits.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-harwood-krb-pkinit-dh-upsize-00"/>
 </reference>

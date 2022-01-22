@@ -1,7 +1,6 @@
 <reference anchor="I-D.melnikov-imap-createparams">
   <front>
     <title>IMAP CREATE/RENAME parameters</title>
-    <seriesInfo name="Internet-Draft" value="draft-melnikov-imap-createparams-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>When creating (or renaming) a mailbox in [IMAP4] it is desirable to be able to specify additional creation time parameters that can't be changed after the mailbox is created. Some examples of the creation time parameters are: mailbox type, mailbox location on a server or a cluster of servers, mailbox flag state. This document extends IMAP CREATE and RENAME commands to allow for such parameters. A server which supports this extension indicates this with a capability name of "X-DRAFT-I01-CREATEPARAM".</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-melnikov-imap-createparams-01"/>
 </reference>

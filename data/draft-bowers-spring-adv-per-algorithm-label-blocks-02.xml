@@ -1,17 +1,25 @@
 <reference anchor="I-D.bowers-spring-adv-per-algorithm-label-blocks">
   <front>
     <title>Advertising Per-Topology and Per-Algorithm Label Blocks</title>
-    <seriesInfo name="Internet-Draft" value="draft-bowers-spring-adv-per-algorithm-label-blocks-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Chris Bowers"/>
-    <author fullname="Pushpasis Sarkar"/>
-    <author fullname="Hannes Gredler"/>
-    <author fullname="Uma Chunduri"/>
+    <author fullname="Chris Bowers">
+      <organization/>
+    </author>
+    <author fullname="Pushpasis Sarkar">
+      <organization/>
+    </author>
+    <author fullname="Hannes Gredler">
+      <organization/>
+    </author>
+    <author fullname="Uma Chunduri">
+      <organization/>
+    </author>
     <date year="2015" month="October"/>
     <abstract>
       <t>When segment routing is used in a network that is controlled by a link state IGP (such as ISIS or OSPF), each node in the network can be assigned one or more index numbers, known as "node-SIDs". The node-SIDs are unique within the network, and are known to all the nodes in the network. If an ingress node has a data packet to be sent to an egress node, the ingress node may select a node-SID corresponding to the egress node, and "translate" that node-SID to an MPLS label. The MPLS label represents a particular path to the egress node; the path is determined by applying a routing algorithm to a particular view of the network topology and a particular set of metric assignments to the links of that topology. The packet can then be forwarded by pushing the label on the packet's label stack and transmitting the packet to the next hop on the corresponding path to the egress node. This document compares two different procedures for translating a node-SID to the MPLS label that represents a path chosen by a particular algorithm operating on a particular topology. It also specifies the ISIS extensions needed to support one of the procedures (known as the "per-topology/per-algorithm label block" procedure).</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-bowers-spring-adv-per-algorithm-label-blocks-02"/>
 </reference>

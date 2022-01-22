@@ -1,17 +1,25 @@
 <reference anchor="I-D.ietf-ospf-security-extension-manual-keying">
   <front>
     <title>Security Extension for OSPFv2 when using Manual Key Management</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-security-extension-manual-keying-09"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Manav Bhatia" initials="M." surname="Bhatia"/>
-    <author fullname="Sam Hartman" initials="S." surname="Hartman"/>
-    <author fullname="Dacheng Zhang" initials="D." surname="Zhang"/>
-    <author fullname="Acee Lindem" initials="A." surname="Lindem"/>
+    <author fullname="Manav Bhatia" initials="M." surname="Bhatia">
+      <organization/>
+    </author>
+    <author fullname="Sam Hartman" initials="S." surname="Hartman">
+      <organization/>
+    </author>
+    <author fullname="Dacheng Zhang" initials="D." surname="Zhang">
+      <organization/>
+    </author>
+    <author fullname="Acee Lindem" initials="A." surname="Lindem">
+      <organization/>
+    </author>
     <date year="2014" month="October"/>
     <abstract>
       <t>The current OSPFv2 cryptographic authentication mechanism as defined in RFC 2328 and RFC 5709 is vulnerable to both inter-session and intra-session replay attacks when using manual keying. Additionally, the existing cryptographic authentication mechanism does not cover the IP header. This omission can be exploited to carry out various types of attacks. This draft proposes changes to the authentication sequence number mechanism that will protect OSPFv2 from both inter-session and intra- session replay attacks when using manual keys for securing OSPFv2 protocol packets. Additionally, we also describe some changes in the cryptographic hash computation that will eliminate attacks resulting from OSPFv2 not protecting the IP header.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-security-extension-manual-keying-09"/>
 </reference>

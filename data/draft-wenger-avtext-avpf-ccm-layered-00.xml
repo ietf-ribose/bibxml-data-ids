@@ -1,17 +1,25 @@
 <reference anchor="I-D.wenger-avtext-avpf-ccm-layered">
   <front>
     <title>Using Codec Control Messages in the RTP Audio-Visual Profile with Feedback with Layered Codecs</title>
-    <seriesInfo name="Internet-Draft" value="draft-wenger-avtext-avpf-ccm-layered-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Stephan Wenger"/>
-    <author fullname="Jonathan Lennox"/>
-    <author fullname="Bo Burman"/>
-    <author fullname="Magnus Westerlund"/>
+    <author fullname="Stephan Wenger">
+      <organization/>
+    </author>
+    <author fullname="Jonathan Lennox">
+      <organization/>
+    </author>
+    <author fullname="Bo Burman">
+      <organization/>
+    </author>
+    <author fullname="Magnus Westerlund">
+      <organization/>
+    </author>
     <date year="2015" month="December"/>
     <abstract>
       <t>This document fixes a shortcoming in the specification language of the Codec Control Message Full Intra Request (FIR) as defined in RFC5104 when using with layered codecs. In particular, a Decoder Refresh Point needs to be sent by a media sender when a FIR is received on any layer of the layered bitstream, regardless on whether those layers are being sent in a single or in multiple RTP flows. The other payload-specific feedback messages defined in RFC 5104 and RFC 4585 as updated by RFC 5506 have also been analyzed, and no corresponding shortcomings have been found.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-wenger-avtext-avpf-ccm-layered-00"/>
 </reference>

@@ -1,14 +1,16 @@
 <reference anchor="I-D.cheshire-ipv4-linklocal">
   <front>
     <title>Dynamic Configuration of IPv4 link-local addresses</title>
-    <seriesInfo name="Internet-Draft" value="draft-cheshire-ipv4-linklocal-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Stuart Cheshire" initials="S." surname="Cheshire"/>
+    <author fullname="Stuart Cheshire" initials="S." surname="Cheshire">
+      <organization/>
+    </author>
     <date year="2000" month="March" day="16"/>
     <abstract>
       <t>As the Internet Protocol continues to increase in popularity as a global communication system, it becomes increasingly valuable to be able to use familiar IP tools such as ftp for local communication as well. For example, two people with laptop computers with built-in wireless Ethernet may meet and wish to exchange files. It is desirable for these people to be able to use IP application software without the inconvenience of having to manually configure static IP addresses or set up a DHCP [RFC 2131] server. This draft describes a method by which a host may automatically configure an interface with an IP address in the 169.254/16 range that is valid for link-local communication on that interface. This is especially valuable in environments where no other configuration mechanism is available.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-cheshire-ipv4-linklocal-00"/>
 </reference>

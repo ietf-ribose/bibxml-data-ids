@@ -1,14 +1,16 @@
 <reference anchor="I-D.bernstein-qsbmf">
   <front>
     <title>The qmail-send Bounce Message Format (QSBMF)</title>
-    <seriesInfo name="Internet-Draft" value="draft-bernstein-qsbmf-05"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="D. J. Bernstein" initials="D. J." surname="Bernstein"/>
+    <author fullname="D. J. Bernstein" initials="D. J." surname="Bernstein">
+      <organization/>
+    </author>
     <date year="1998" month="August" day="14"/>
     <abstract>
       <t>When a message transport agent (MTA) finds itself permanently unable to deliver a mail message, it generates a new message, generally known as a bounce message, back to the envelope sender. Bounce messages produced by the qmail-send program display the list of failed recipient addresses, an explanation for each address, and a copy of the original message, in a format that is easy for both humans and programs to read. This document defines the format.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-bernstein-qsbmf-05"/>
 </reference>

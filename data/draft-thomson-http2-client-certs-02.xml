@@ -1,15 +1,19 @@
 <reference anchor="I-D.thomson-http2-client-certs">
   <front>
     <title>Reactive Certificate-Based Client Authentication in HTTP/2</title>
-    <seriesInfo name="Internet-Draft" value="draft-thomson-http2-client-certs-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Martin Thomson"/>
-    <author fullname="Mike Bishop"/>
+    <author fullname="Martin Thomson">
+      <organization/>
+    </author>
+    <author fullname="Mike Bishop">
+      <organization/>
+    </author>
     <date year="2016" month="March" day="14"/>
     <abstract>
       <t>Some HTTP servers provide a subset of resources that require additional authentication to interact with. HTTP/1.1 servers rely on TLS renegotiation that is triggered by a request to a protected resource. HTTP/2 made this pattern impossible by forbidding the use of TLS renegotiation. While TLS 1.3 provides an alternate mechanism to obtain client certificates, this mechanism does not map well to usage in TLS 1.2. This document describes a how client authentication might be requested by a server as a result of receiving a request to a protected resource.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-thomson-http2-client-certs-02"/>
 </reference>

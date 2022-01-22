@@ -1,11 +1,12 @@
 <reference anchor="I-D.gibson-sip-qos-resv">
   <front>
     <title>Use of SIP for the Reservation of QoS guaranteed Paths</title>
-    <seriesInfo name="Internet-Draft" value="draft-gibson-sip-qos-resv-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Jon Crowcroft" initials="J." surname="Crowcroft"/>
+    <author fullname="Jon Crowcroft" initials="J." surname="Crowcroft">
+      <organization/>
+    </author>
     <author fullname="M Gibson" initials="M." surname="Gibson">
       <organization>UCL</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>This draft defines a modification of the use of the SIP protocol to perform route reservation. These modifications are applied to two of the existing SIP Methods: INVITE and REGISTER. The modifications allow the INVITE method to be used to find the best path across a particular network based on QoS metrics. The route choice is able to be restricted at the network edge. The proposed modifications also allow the REGISTER method to be used as a means of disseminating information necessary to determine these QoS metrics. This information can be used to route INVITEs away from known areas of congestion.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-gibson-sip-qos-resv-00"/>
 </reference>

@@ -1,11 +1,12 @@
 <reference anchor="I-D.mayrhofer-enum-vcard">
   <front>
     <title>IANA Registration for Enumservice vCard</title>
-    <seriesInfo name="Internet-Draft" value="draft-mayrhofer-enum-vcard-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Alex Mayrhofer" initials="A." surname="Mayrhofer"/>
+    <author fullname="Alex Mayrhofer" initials="A." surname="Mayrhofer">
+      <organization/>
+    </author>
     <author fullname="David Lindner" initials="D." surname="Lindner">
       <organization>SIL</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>This memo registers the Enumservice "vCard" using the URI schemes "http" and "https" according to the IANA Enumservice registration process described in RFC3671. This Enumservice is to be used to refer from an ENUM domain name to the vCard of the entity using the corresponding E.164 number. Clients may use information gathered from those vCards before, during or after inbound or outbound communication takes place. For example, a callee might be presented with the name and association of the caller before he picks up the call.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-mayrhofer-enum-vcard-00"/>
 </reference>

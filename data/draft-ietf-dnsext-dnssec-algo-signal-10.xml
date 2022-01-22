@@ -1,15 +1,19 @@
 <reference anchor="I-D.ietf-dnsext-dnssec-algo-signal">
   <front>
     <title>Signaling Cryptographic Algorithm Understanding in DNS Security Extensions (DNSSEC)</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsext-dnssec-algo-signal-10"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Steve Crocker"/>
-    <author fullname="Scott Rose"/>
+    <author fullname="Steve Crocker">
+      <organization/>
+    </author>
+    <author fullname="Scott Rose">
+      <organization/>
+    </author>
     <date year="2013" month="April"/>
     <abstract>
       <t>The DNS Security Extensions (DNSSEC) were developed to provide origin authentication and integrity protection for DNS data by using digital signatures. These digital signatures can be generated using different algorithms. This document specifies a way for validating end-system resolvers to signal to a server which digital signature and hash algorithms they support. The extensions allow the signaling of new algorithm uptake in client code to allow zone administrators to know when it is possible to complete an algorithm rollover in a DNSSEC-signed zone.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsext-dnssec-algo-signal-10"/>
 </reference>

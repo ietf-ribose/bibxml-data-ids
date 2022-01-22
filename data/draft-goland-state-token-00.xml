@@ -1,11 +1,12 @@
 <reference anchor="I-D.goland-state-token">
   <front>
     <title>State Tokens and Preconditions for HTTP</title>
-    <seriesInfo name="Internet-Draft" value="draft-goland-state-token-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Jim Whitehead" initials="J." surname="Whitehead"/>
+    <author fullname="Jim Whitehead" initials="J." surname="Whitehead">
+      <organization/>
+    </author>
     <author fullname="Yaron Y. Goland" initials="Y. Y." surname="Goland">
       <organization>Microsoft Corporation</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>There are times when a principal will want to predicate successful execution of a method on the current state of a resource. While HTTP/1.1 provides a mechanism for conditional execution of methods using entity tags via the 'If-Match' and 'If-None-Match' headers, the mechanism is not sufficiently extensible to express conditional statements involving more generic state indicators, such as lock tokens. This draft defines the term 'state token' as an identifier for a state of a resource. This draft defines requirements for state tokens and provides a state token syntax, along with two new headers which are used to express method preconditions using state tokens.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-goland-state-token-00"/>
 </reference>

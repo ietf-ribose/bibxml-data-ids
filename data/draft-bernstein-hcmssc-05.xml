@@ -1,14 +1,16 @@
 <reference anchor="I-D.bernstein-hcmssc">
   <front>
     <title>The Hash Convention For Mail System Status Codes (HCMSSC)</title>
-    <seriesInfo name="Internet-Draft" value="draft-bernstein-hcmssc-05"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="D. J. Bernstein" initials="D. J." surname="Bernstein"/>
+    <author fullname="D. J. Bernstein" initials="D. J." surname="Bernstein">
+      <organization/>
+    </author>
     <date year="1998" month="August" day="14"/>
     <abstract>
       <t>RFC 1893 defines codes for mail delivery failures. For example, code 5.1.1 means that the specified mailbox does not exist. The qmail package sprays these codes all over the place, by adding a code to the text of every error message, preceded by a hash mark and surrounded by parentheses. It avoids using hash marks elsewhere.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-bernstein-hcmssc-05"/>
 </reference>

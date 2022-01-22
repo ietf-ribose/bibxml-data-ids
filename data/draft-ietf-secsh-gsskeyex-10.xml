@@ -1,14 +1,15 @@
 <reference anchor="I-D.ietf-secsh-gsskeyex">
   <front>
     <title>Generic Security Service Application Program Interface (GSS-API) Authentication and Key Exchange for the Secure Shell (SSH) Protocol</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-secsh-gsskeyex-10"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
     <author fullname="Joseph A. Salowey" initials="J. A." surname="Salowey">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Von Welch" initials="V." surname="Welch"/>
+    <author fullname="Von Welch" initials="V." surname="Welch">
+      <organization/>
+    </author>
     <author fullname="Jeffrey Hutzelman" initials="J." surname="Hutzelman">
       <organization>CMU</organization>
     </author>
@@ -20,4 +21,5 @@
       <t>The Secure Shell protocol (SSH) is a protocol for secure remote login and other secure network services over an insecure network. The Generic Security Service Application Program Interface (GSS-API) provides security services to callers in a mechanism-independent fashion. This memo describes methods for using the GSS-API for authentication and key exchange in SSH. It defines an SSH user authentication method that uses a specified GSS-API mechanism to authenticate a user, and a family of SSH key exchange methods that use GSS-API to authenticate a Diffie-Hellman key exchange. This memo also defines a new host public key algorithm that can be used when no operations are needed using a host's public key, and a new user authentication method that allows an authorization name to be used in conjunction with any authentication that has already occurred as a side-effect of GSS-API-based key exchange. [STANDARDS-TRACK]</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-secsh-gsskeyex-10"/>
 </reference>

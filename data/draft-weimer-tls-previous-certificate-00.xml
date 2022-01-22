@@ -1,14 +1,16 @@
 <reference anchor="I-D.weimer-tls-previous-certificate">
   <front>
     <title>TLS Extension For Indicating A Previously-Seen Server Certificate Chain</title>
-    <seriesInfo name="Internet-Draft" value="draft-weimer-tls-previous-certificate-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Florian Weimer" initials="F." surname="Weimer"/>
+    <author fullname="Florian Weimer" initials="F." surname="Weimer">
+      <organization/>
+    </author>
     <date year="2011" month="September" day="26"/>
     <abstract>
       <t>This document describes a TLS extension which enables a TLS client to send to a TLS server a certificate chain which the client has previously received from the same server. Server operators are expected to use this information to detect use of fraudulent certificates on the Internet.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-weimer-tls-previous-certificate-00"/>
 </reference>

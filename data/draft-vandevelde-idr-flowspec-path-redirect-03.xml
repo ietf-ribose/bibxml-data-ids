@@ -1,20 +1,34 @@
 <reference anchor="I-D.vandevelde-idr-flowspec-path-redirect">
   <front>
     <title>Flowspec Indirection-id Redirect</title>
-    <seriesInfo name="Internet-Draft" value="draft-vandevelde-idr-flowspec-path-redirect-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Gunter Van de Velde"/>
-    <author fullname="Wim Henderickx"/>
-    <author fullname="Keyur Patel"/>
-    <author fullname="Arjun Sreekantiah"/>
-    <author fullname="Zhenbin Li"/>
-    <author fullname="Shunwan Zhuang"/>
-    <author fullname="Nan Wu"/>
+    <author fullname="Gunter Van de Velde">
+      <organization/>
+    </author>
+    <author fullname="Wim Henderickx">
+      <organization/>
+    </author>
+    <author fullname="Keyur Patel">
+      <organization/>
+    </author>
+    <author fullname="Arjun Sreekantiah">
+      <organization/>
+    </author>
+    <author fullname="Zhenbin Li">
+      <organization/>
+    </author>
+    <author fullname="Shunwan Zhuang">
+      <organization/>
+    </author>
+    <author fullname="Nan Wu">
+      <organization/>
+    </author>
     <date year="2016" month="July"/>
     <abstract>
       <t>Flowspec is an extension to BGP that allows for the dissemination of traffic flow specification rules. This has many possible applications but the primary one for many network operators is the distribution of traffic filtering actions for DDoS mitigation. The flow-spec standard RFC5575 [2] defines a redirect-to-VRF action for policy-based forwarding but this mechanism is not always sufficient, particularly if the redirected traffic needs to be steered into an engineered path or into a service plane. This document defines a new extended community known as redirect-to- indirection-id (32-bit) flowspec action to provide advanced redirection capabilities on flowspec clients. When activated, the flowspec extended community is used by a flowspec client to find the correct next-hop entry within a localised indirection-id mapping table. The functionality present in this draft allows a network controller to decouple flowspec functionality from the creation and maintainance of the network's service plane itself including the setup of tunnels and other service constructs that could be managed by other network devices.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-vandevelde-idr-flowspec-path-redirect-03"/>
 </reference>

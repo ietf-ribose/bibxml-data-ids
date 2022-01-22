@@ -1,18 +1,28 @@
 <reference anchor="I-D.chen-i2rs-mpls-te-info-model">
   <front>
     <title>I2RS Information Model for MPLS TE</title>
-    <seriesInfo name="Internet-Draft" value="draft-chen-i2rs-mpls-te-info-model-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Xia Chen"/>
-    <author fullname="Zhenbin Li"/>
-    <author fullname="Susan Hares"/>
-    <author fullname="Russ White"/>
-    <author fullname="Jeff Tantsura"/>
+    <author fullname="Xia Chen">
+      <organization/>
+    </author>
+    <author fullname="Zhenbin Li">
+      <organization/>
+    </author>
+    <author fullname="Susan Hares">
+      <organization/>
+    </author>
+    <author fullname="Russ White">
+      <organization/>
+    </author>
+    <author fullname="Jeff Tantsura">
+      <organization/>
+    </author>
     <date year="2014" month="October" day="27"/>
     <abstract>
       <t>Traditionally MPLS TE networks may be managed via CLI, SNMP or NETCONF. There are two types of TE LSP: static CR-LSP and dynamic TE LSP created by protocol of RSVP-TE. Static CR-LSP is configured with forwarding items such as interface, label and bandwidth, etc. node by node. Dynamic TE LSP is configured with MPLS TE parameters which are used to calculate path and set up TE LSP by protocol. Both configurations are complex. The Interface to the Routing System's (I2RS) Programmatic interface (draft-ietf-i2rs-architecture) provides an alternate way to control the configuration and diagnose the operation of MPLS TE. These interactions to control MPLS TE links and diagnose their operation include: MPLS TE configuration, MPLS TE protection, traffic switching-over, traffic detection, and fault detection. This document specifies an information model for MPLS TE to facilitate the definition of a standardized data model which can be used to define interfaces to the MPLS TE from an entity that may even be external to the routing system. Based on standardized data model and interfaces, use cases of MPLS TE defined by draft-huang-i2rs- mpls-te-usecases can be supported.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-chen-i2rs-mpls-te-info-model-00"/>
 </reference>

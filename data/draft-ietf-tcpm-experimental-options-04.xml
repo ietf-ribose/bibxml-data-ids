@@ -1,14 +1,16 @@
 <reference anchor="I-D.ietf-tcpm-experimental-options">
   <front>
     <title>Shared Use of Experimental TCP Options</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-experimental-options-04"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Dr. Joseph D. Touch" initials="J. D." surname="Touch"/>
+    <author fullname="Dr. Joseph D. Touch" initials="J. D." surname="Touch">
+      <organization/>
+    </author>
     <date year="2013" month="February" day="25"/>
     <abstract>
       <t>This document describes how the experimental TCP option codepoints can concurrently support multiple TCP extensions, even within the same connection. It uses a new IANA TCP experiment identifier, and is also robust to experiments that are not registered and those that do not use this sharing mechanism. It is recommended for all new TCP options that use these codepoints.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-experimental-options-04"/>
 </reference>

@@ -1,14 +1,16 @@
 <reference anchor="I-D.ietf-pppext-aha-auth">
   <front>
     <title>The Arbitrary Handshake Authentication (AHA) protocol</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-pppext-aha-auth-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="David Carrel" initials="D." surname="Carrel"/>
+    <author fullname="David Carrel" initials="D." surname="Carrel">
+      <organization/>
+    </author>
     <date year="1994" month="March" day="23"/>
     <abstract>
       <t>The Point-to-Point Protocol (PPP) provides a standard method of encapsulating Network Layer protocol information over point-to-point links. PPP also defines an extensible Link Control Protocol, which allows negotiation of an Authentication Protocol. This document describes a new authentication mechanism: the Arbitrary Handshake Authentication (AHA) protocol. AHA seeks to provide for arbitrary length authentication handshakes and an authentication abstraction that allows the PPP client and server implementations to provide authentication service while knowing as little as possible of the details of the authentication protocol. AHA is not an authentication protocol but rather is a carrier for authentication protocols. AHA adds an additional protocol negotiation phase in order to add the principal's declared identity into the decision of which authentication protocol to use.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-pppext-aha-auth-00"/>
 </reference>

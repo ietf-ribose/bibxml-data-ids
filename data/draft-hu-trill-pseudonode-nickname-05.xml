@@ -1,19 +1,31 @@
 <reference anchor="I-D.hu-trill-pseudonode-nickname">
   <front>
     <title>RBridge: Pseudo-Nickname</title>
-    <seriesInfo name="Internet-Draft" value="draft-hu-trill-pseudonode-nickname-05"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Hongjun Zhai" initials="H." surname="Zhai"/>
-    <author fullname="Tissa Senevirathne" initials="T." surname="Senevirathne"/>
-    <author fullname="Radia Perlman" initials="R." surname="Perlman"/>
-    <author fullname="Donald E. Eastlake 3rd" initials="D. E." surname="Eastlake"/>
-    <author fullname="Mingui Zhang" initials="M." surname="Zhang"/>
-    <author fullname="fangwei hu" initials="F." surname="hu"/>
+    <author fullname="Hongjun Zhai" initials="H." surname="Zhai">
+      <organization/>
+    </author>
+    <author fullname="Tissa Senevirathne" initials="T." surname="Senevirathne">
+      <organization/>
+    </author>
+    <author fullname="Radia Perlman" initials="R." surname="Perlman">
+      <organization/>
+    </author>
+    <author fullname="Donald E. Eastlake 3rd" initials="D. E." surname="Eastlake">
+      <organization/>
+    </author>
+    <author fullname="Mingui Zhang" initials="M." surname="Zhang">
+      <organization/>
+    </author>
+    <author fullname="fangwei hu" initials="F." surname="hu">
+      <organization/>
+    </author>
     <date year="2013" month="June" day="28"/>
     <abstract>
       <t>RBridges provide provide end-station services to their attached end stations. To avoid potential frame duplication and loops, the rule that only one edge RBridge is allowed to be the frame forwarder of a VLAN on a shared LAN segment is employed by base TRILL protocol, even though there are multiple RBridges attached to that segment. However, in some application scenarios, for example an end station is multi-homed to multiple RBridges, there is a need to improve the resiliency and increase the available network bandwidth of the connection. This means all those RBriges attached to the end station can act as the frame forwarders of a specific VLAN. This kind of active-active connection violates the above rule. The violation may bring some additional problems, such as the flip-flopping of the nickname-MAC correspondences for such end stations in remote RBridges' forwarding tables, frame dropping because of failure of Reverse Path Forwarding Check(RPF Check) on RBridges, etc. The RPF Check problem has been addressed in [CMT]. This document proposes the concept of Virtual RBridge, along with the pseudo-nickname configuration for this Virtual RBridge, to address the above problems in accompany with [CMT].</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-hu-trill-pseudonode-nickname-05"/>
 </reference>

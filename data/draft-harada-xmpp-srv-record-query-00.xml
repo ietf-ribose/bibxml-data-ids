@@ -1,17 +1,25 @@
 <reference anchor="I-D.harada-xmpp-srv-record-query">
   <front>
     <title>SRV record query extension for XMPP</title>
-    <seriesInfo name="Internet-Draft" value="draft-harada-xmpp-srv-record-query-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Akari Harada"/>
-    <author fullname="Nobuo Ogashiwa"/>
-    <author fullname="Hirotaka Sato"/>
-    <author fullname="Yoshihiro Suzuki"/>
+    <author fullname="Akari Harada">
+      <organization/>
+    </author>
+    <author fullname="Nobuo Ogashiwa">
+      <organization/>
+    </author>
+    <author fullname="Hirotaka Sato">
+      <organization/>
+    </author>
+    <author fullname="Yoshihiro Suzuki">
+      <organization/>
+    </author>
     <date year="2012" month="January" day="29"/>
     <abstract>
       <t>According to RFC 6120, XMPP clients should use SRV records within the connection establishment process to servers. There are two purposes for using SRV records. The one is to advertise the FQDN of at least one server to clients to establish an initial TCP connection. The other purpose is to advertise at least two or more FQDN with priority and weight information to clients to accomplish load balancing, a redundant server environment and so on. However, most standard resolver libraries of recent client OSs don't support SRV record resolution. Furthermore, many DNS hosting services also don't support SRV records. This document proposes a solution that enables a server and client to achieve load balancing and a redundant server environment in case SRV records cannot be used. Moreover, the proposed IQ-result message can include minimum wait time to reconnect, allowing clients to reconnect after the most suitable wait time avoiding congestion.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-harada-xmpp-srv-record-query-00"/>
 </reference>

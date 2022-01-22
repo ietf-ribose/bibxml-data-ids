@@ -1,14 +1,16 @@
 <reference anchor="I-D.merriman-realtime-key">
   <front>
     <title>Proposal of a suggested protocol for an interactive, real-time cryptographic 'key' server</title>
-    <seriesInfo name="Internet-Draft" value="draft-merriman-realtime-key-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="David K. Merriman" initials="D. K." surname="Merriman"/>
+    <author fullname="David K. Merriman" initials="D. K." surname="Merriman">
+      <organization/>
+    </author>
     <date year="1997" month="January"/>
     <abstract>
       <t>With the increase in privacy-enabling cryptographic software, there exists the growing problem of verification of the 'validity' of a cryptographic 'key'. That is, the recipient of (for example) a PGP-signed email message from an unknown person generally has no ready, convenient means to verify that the 'signature' on the message actually belongs to the sender. To verify the relationship between a cryptographic 'key' and an identity (real or anonymous), it is necessary for an individual to contact one of several existing 'manual' keyservers as a separate process, request the key (if it exists on that keyserver), and retrieve it before being able to use it for any reference or validation purposes. This draft is meant to propose a protocol/system that would both enable the automatic retrieval of cryptographic keys, and the exchange of keys between servers (both new keys, and those deleted through revocation certificates). This proposal could be extended to allow retrieval of cryptographic certificates and/or 'credentials' with relatively minor difficulty.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-merriman-realtime-key-00"/>
 </reference>

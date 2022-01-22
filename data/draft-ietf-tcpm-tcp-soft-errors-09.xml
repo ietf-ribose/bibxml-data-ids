@@ -1,14 +1,16 @@
 <reference anchor="I-D.ietf-tcpm-tcp-soft-errors">
   <front>
     <title>TCP's Reaction to Soft Errors</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-tcp-soft-errors-09"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Fernando Gont"/>
+    <author fullname="Fernando Gont">
+      <organization/>
+    </author>
     <date year="2008" month="November" day="30"/>
     <abstract>
       <t>This document describes a non-standard, but widely implemented, modification to TCP's handling of ICMP soft error messages that rejects pending connection-requests when those error messages are received. This behavior reduces the likelihood of long delays between connection-establishment attempts that may arise in a number of scenarios, including one in which dual-stack nodes that have IPv6 enabled by default are deployed in IPv4 or mixed IPv4 and IPv6 environments. This memo provides information for the Internet community.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-tcp-soft-errors-09"/>
 </reference>

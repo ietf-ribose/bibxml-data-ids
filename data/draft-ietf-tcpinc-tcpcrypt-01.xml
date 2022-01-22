@@ -1,21 +1,37 @@
 <reference anchor="I-D.ietf-tcpinc-tcpcrypt">
   <front>
     <title>Cryptographic protection of TCP Streams (tcpcrypt)</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-tcpinc-tcpcrypt-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Andrea Bittau" initials="A." surname="Bittau"/>
-    <author fullname="Dan Boneh" initials="D." surname="Boneh"/>
-    <author fullname="Daniel B. Giffin" initials="D. B." surname="Giffin"/>
-    <author fullname="Mike Hamburg" initials="M." surname="Hamburg"/>
-    <author fullname="Mark J. Handley" initials="M. J." surname="Handley"/>
-    <author fullname="David Mazieres" initials="D." surname="Mazieres"/>
-    <author fullname="Quinn Slack" initials="Q." surname="Slack"/>
-    <author fullname="Eric W. Smith" initials="E. W." surname="Smith"/>
+    <author fullname="Andrea Bittau" initials="A." surname="Bittau">
+      <organization/>
+    </author>
+    <author fullname="Dan Boneh" initials="D." surname="Boneh">
+      <organization/>
+    </author>
+    <author fullname="Daniel B. Giffin" initials="D. B." surname="Giffin">
+      <organization/>
+    </author>
+    <author fullname="Mike Hamburg" initials="M." surname="Hamburg">
+      <organization/>
+    </author>
+    <author fullname="Mark J. Handley" initials="M. J." surname="Handley">
+      <organization/>
+    </author>
+    <author fullname="David Mazieres" initials="D." surname="Mazieres">
+      <organization/>
+    </author>
+    <author fullname="Quinn Slack" initials="Q." surname="Slack">
+      <organization/>
+    </author>
+    <author fullname="Eric W. Smith" initials="E. W." surname="Smith">
+      <organization/>
+    </author>
     <date year="2016" month="February" day="22"/>
     <abstract>
       <t>This document specifies tcpcrypt, a cryptographic protocol that protects TCP payload data and is negotiated by means of the TCP Encryption Negotiation Option (TCP-ENO) [I-D.ietf-tcpinc-tcpeno]. Tcpcrypt coexists with middleboxes by tolerating resegmentation, NATs, and other manipulations of the TCP header. The protocol is self-contained and specifically tailored to TCP implementations, which often reside in kernels or other environments in which large external software dependencies can be undesirable. Because of option size restrictions, the protocol requires one additional one-way message latency to perform key exchange. However, this cost is avoided between two hosts that have recently established a previous tcpcrypt connection.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-tcpinc-tcpcrypt-01"/>
 </reference>

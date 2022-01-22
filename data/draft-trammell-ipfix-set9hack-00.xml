@@ -1,14 +1,16 @@
 <reference anchor="I-D.trammell-ipfix-set9hack">
   <front>
     <title>Reserved Set IDs to Enable Boundary Finding in Mixed IPFIX Files</title>
-    <seriesInfo name="Internet-Draft" value="draft-trammell-ipfix-set9hack-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Brian Trammell"/>
+    <author fullname="Brian Trammell">
+      <organization/>
+    </author>
     <date year="2010" month="July" day="26"/>
     <abstract>
       <t>This document reserves the IPFIX Set IDs 9 and 10 to prevent them from being allocated in the future. The reason behind this is to ensure that heuristic methods for determining PDU boundaries in files containing NetFlow V9 PDUs and IPFIX Messages work in a standards- compliant way.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-trammell-ipfix-set9hack-00"/>
 </reference>

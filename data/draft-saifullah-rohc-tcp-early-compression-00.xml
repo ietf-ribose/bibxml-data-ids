@@ -1,14 +1,16 @@
 <reference anchor="I-D.saifullah-rohc-tcp-early-compression">
   <front>
     <title>ROHC-TCP Early Compression</title>
-    <seriesInfo name="Internet-Draft" value="draft-saifullah-rohc-tcp-early-compression-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Yousuf Saifullah" initials="Y." surname="Saifullah"/>
+    <author fullname="Yousuf Saifullah" initials="Y." surname="Saifullah">
+      <organization/>
+    </author>
     <date year="2002" month="October" day="28"/>
     <abstract>
       <t>This document specifies Early Compression Enabler for ROHC-TCP to increase compression gain. The enabler provides a generic platform to implement an early compression mechanism. An early compression mechanism is an out-of-band mechanism that populates the ROHC-TCP decompression context with some of the header fields before the ROHC- TCP initialization step. ROHC-TCP does not need to carry those fields, thus early compression provides compression from the very first TCP packet and increases the compression gain. It is especially useful for short-lived TCP connections. The document describes the working of Early Compression Enabler as part of ROHC-TCP. It also specifies protocol changes for the ROHC-TCP protocol. It does not specify any particular early compression mechanism.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-saifullah-rohc-tcp-early-compression-00"/>
 </reference>

@@ -1,17 +1,19 @@
 <reference anchor="I-D.ietf-manet-ddm">
   <front>
     <title>Differential Destination Multicast (DDM) Specification</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-manet-ddm-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
     <author fullname="Lusheng Ji" initials="L." surname="Ji">
       <organization>UMD</organization>
     </author>
-    <author fullname="Dr. Scott M. Corson" initials="S. M." surname="Corson"/>
+    <author fullname="Dr. Scott M. Corson" initials="S. M." surname="Corson">
+      <organization/>
+    </author>
     <date year="2000" month="July" day="21"/>
     <abstract>
       <t>This draft describes a multicast routing protocol for mobile ad hoc networks (MANETs). The protocol---termed Differential Destination Multicast (DDM)---differs from common approaches proposed for ad hoc multicast routing in two ways. Firstly, instead of distributing membership control throughout the network, DDM concentrates this authority at the data sources (i.e. senders) thereby giving senders knowledge of group membership. Secondly, differentially-encoded, variable-length destination headers are inserted in data packets which are used in combination with unicast routing tables to forward multicast packets towards multicast receivers. Instead of requiring that multicast forwarding state be stored in participating nodes, this approach also provides the option of stateless multicasting. Each node independently has the choice of maintaining cached forwarding state, or requesting its upstream neighbor to insert this state into self-routed data packets, or some combination thereof. The protocol is best suited for use with small multicast groups operating in dynamic networks of any size.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-manet-ddm-00"/>
 </reference>

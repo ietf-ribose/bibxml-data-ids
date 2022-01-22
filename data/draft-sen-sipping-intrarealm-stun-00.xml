@@ -1,16 +1,22 @@
 <reference anchor="I-D.sen-sipping-intrarealm-stun">
   <front>
     <title>Identifying Intra-realm Calls using STUN</title>
-    <seriesInfo name="Internet-Draft" value="draft-sen-sipping-intrarealm-stun-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Francois Audet" initials="F." surname="Audet"/>
-    <author fullname="Frank Meijer" initials="F." surname="Meijer"/>
-    <author fullname="Cedric Aoun" initials="C." surname="Aoun"/>
+    <author fullname="Francois Audet" initials="F." surname="Audet">
+      <organization/>
+    </author>
+    <author fullname="Frank Meijer" initials="F." surname="Meijer">
+      <organization/>
+    </author>
+    <author fullname="Cedric Aoun" initials="C." surname="Aoun">
+      <organization/>
+    </author>
     <date year="2002" month="September"/>
     <abstract>
       <t>This draft proposes the use of STUN to determine whether two communicating endpoints are in the same realm. This draft describes the use of STUN in a peer-to-peer fashion between endpoints during call set-up. The call set-up may proceed in parallel with the STUN messaging, allowing the peers to initially exchange media using their public IP addresses. If the peers are in the same realm, then the media is switched to the private IP addresses using a SIP UPDATE or a SIP reINVITE SDP offer-answer exchange. With this proposal, media flows are kept within the same addressing realm whenever possible, thus avoiding certain network intermediaries and reducing bandwidth requirements on external links into the realm.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-sen-sipping-intrarealm-stun-00"/>
 </reference>

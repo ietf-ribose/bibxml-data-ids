@@ -1,11 +1,12 @@
 <reference anchor="I-D.ietf-avt-variable-rate-audio">
   <front>
     <title>RTP Timestamp Frequency for Variable Rate Audio Codecs</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-avt-variable-rate-audio-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Stephan Wenger" initials="S." surname="Wenger"/>
+    <author fullname="Stephan Wenger" initials="S." surname="Wenger">
+      <organization/>
+    </author>
     <author fullname="Colin Perkins" initials="C." surname="Perkins">
       <organization>C. Perkins</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>This memo discusses the problems of audio codecs with variable external sampling rates. Historically, for audio codecs, the RTP timestamp frequency was chosen to match the sampling rate of the audio codec. However, this choice is nowadays more difficult to justify, because of the advent of audio codecs (and, even more important, practical use cases) that support multiple sample rates and the switch between the sample rates during the lifetime of an RTP session. This Internet draft addresses the problem by suggesting that RTP Payload RFCs for such codecs to utilize a single, high, unified RTP timestamp frequency.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-avt-variable-rate-audio-00"/>
 </reference>

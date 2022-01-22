@@ -1,15 +1,19 @@
 <reference anchor="I-D.ietf-mpls-ldp-ip-pw-capability">
   <front>
     <title>Disabling IPoMPLS and P2P PW LDP Applications</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-ldp-ip-pw-capability-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Syed Raza" initials="S." surname="Raza"/>
-    <author fullname="Sami Boutros" initials="S." surname="Boutros"/>
+    <author fullname="Syed Raza" initials="S." surname="Raza">
+      <organization/>
+    </author>
+    <author fullname="Sami Boutros" initials="S." surname="Boutros">
+      <organization/>
+    </author>
     <date year="2013" month="February" day="19"/>
     <abstract>
       <t>Currently, no LDP capability is exchanged for LDP applications like IP Label Switching and L2VPN P2P PW signaling. When an LDP session comes up, an LDP speaker may unnecessarily advertise its local state for such LDP applications even when the peer session may be established for some other applications like ICCP. This document proposes a solution by which an LDP speaker announces to its peer its disinterest in such non-negotiated applications. This, in turn, disables the advertisement of corresponding application state, which would have otherwise be advertised by default, over the established LDP session.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-ldp-ip-pw-capability-03"/>
 </reference>

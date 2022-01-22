@@ -1,15 +1,19 @@
 <reference anchor="I-D.ietf-ospf-ospfv3-autoconfig">
   <front>
     <title>OSPFv3 Autoconfiguration</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-ospfv3-autoconfig-15"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Acee Lindem"/>
-    <author fullname="Jari Arkko"/>
+    <author fullname="Acee Lindem">
+      <organization/>
+    </author>
+    <author fullname="Jari Arkko">
+      <organization/>
+    </author>
     <date year="2015" month="February" day="10"/>
     <abstract>
       <t>OSPFv3 is a candidate for deployments in environments where autoconfiguration is a requirement. One such environment is the IPv6 home network where users expect to simply plug in a router and have it automatically use OSPFv3 for intra-domain routing. This document describes the necessary mechanisms for OSPFv3 to be self-configuring. This document updates RFC 5340 by relaxing the HelloInterval/ RouterDeadInterval checking during OSPFv3 adjacency formation and adding hysteresis to the update of self-originated Link State Advertisements (LSAs).</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-ospfv3-autoconfig-15"/>
 </reference>

@@ -1,11 +1,12 @@
 <reference anchor="I-D.ono-sipping-end2middle-security">
   <front>
     <title>End-to-middle security in the Session Initiation Protocol(SIP)</title>
-    <seriesInfo name="Internet-Draft" value="draft-ono-sipping-end2middle-security-04"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Prof. Kinji Ono" initials="K." surname="Ono"/>
+    <author fullname="Prof. Kinji Ono" initials="K." surname="Ono">
+      <organization/>
+    </author>
     <author fullname="Shinya Tachimoto" initials="S." surname="Tachimoto">
       <organization>NTT Corporation</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>Some services provided by intermediaries depend on the ability to inspect the message bodies in the Session Initiation Protocol (SIP). When sensitive information is included in these bodies, a SIP User Agent (UA) needs to protect it from intermediaries except those that the UA agreed to disclose it to. This document proposes a mechanism for securing information passed between an end user and intermediaries using S/MIME. It also proposes mechanisms for an intermediary to notify the UA about its need to inspect an S/MIME-secured message body, and to notify the need for the message body to be transmitted securely.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ono-sipping-end2middle-security-04"/>
 </reference>

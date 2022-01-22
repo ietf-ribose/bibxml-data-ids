@@ -1,7 +1,6 @@
 <reference anchor="I-D.pwouters-powerbind">
   <front>
     <title>The DELEGATION_ONLY DNSKEY flag</title>
-    <seriesInfo name="Internet-Draft" value="draft-pwouters-powerbind-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>This document introduces a new DNSKEY flag called DELEGATION_ONLY that indicates that the particular zone will never sign zone data aside from records at the apex of the zone or delegation records for its children. That is, every label (dot) underneath is considered a zone cut and must have its own (signed) delegation. DNSSEC Validating Resolvers can use this bit to mark any data that violates the DELEGATION_ONLY policy as BOGUS.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-pwouters-powerbind-02"/>
 </reference>

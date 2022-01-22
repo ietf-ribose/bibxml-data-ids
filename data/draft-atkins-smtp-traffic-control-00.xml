@@ -1,14 +1,16 @@
 <reference anchor="I-D.atkins-smtp-traffic-control">
   <front>
     <title>Next-Hop SMTP Traffic Control</title>
-    <seriesInfo name="Internet-Draft" value="draft-atkins-smtp-traffic-control-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Steve Atkins"/>
+    <author fullname="Steve Atkins">
+      <organization/>
+    </author>
     <date year="2011" month="October" day="23"/>
     <abstract>
       <t>This document defines an extended SMTP response for mail servers to assist clients in adjusting the rate at which they send mail. Use of this mechanism can reduce wasteful SMTP connections and reduce mail delivery delays; at scale the aggregate benefit to clients and servers can be significant.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-atkins-smtp-traffic-control-00"/>
 </reference>

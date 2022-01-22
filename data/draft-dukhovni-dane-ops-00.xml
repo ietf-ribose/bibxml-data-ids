@@ -1,14 +1,16 @@
 <reference anchor="I-D.dukhovni-dane-ops">
   <front>
     <title>DANE TLSA implementation and operational guidance</title>
-    <seriesInfo name="Internet-Draft" value="draft-dukhovni-dane-ops-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Viktor Dukhovni" initials="V." surname="Dukhovni"/>
+    <author fullname="Viktor Dukhovni" initials="V." surname="Dukhovni">
+      <organization/>
+    </author>
     <date year="2013" month="May" day="19"/>
     <abstract>
       <t>This memo discusses some operational aspects of publishing and using DANE TLSA records. Server operators need to consider whether the intended clients are able to authenticate the server's certificate chain via the published TLSA records, some variations of TLSA records may not work as expected in all cases. Clients need to decide which variations of TLSA records are sufficiently robust to be usable for server authentication.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-dukhovni-dane-ops-00"/>
 </reference>

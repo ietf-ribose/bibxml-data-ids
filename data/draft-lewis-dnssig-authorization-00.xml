@@ -1,11 +1,12 @@
 <reference anchor="I-D.lewis-dnssig-authorization">
   <front>
     <title>DNSSEC Signature and Data Verification Semantics</title>
-    <seriesInfo name="Internet-Draft" value="draft-lewis-dnssig-authorization-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Ólafur Guðmundsson" initials="O." surname="Guðmundsson"/>
+    <author fullname="Ólafur Guðmundsson" initials="O." surname="Guðmundsson">
+      <organization/>
+    </author>
     <author fullname="Edward P. Lewis" initials="E. P." surname="Lewis">
       <organization>Olafur Gudmundsson</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>This draft discusses authorization models for DNSSEC that can be used to determine the relationship of a KEY RR and a DNS RRset in the validation process. Is this key trusted to sign for this data? Is this data trusted because it was signed by this key? This draft defines a number of different policies that can be used and what the signing authority of keys are in each. This draft also addresses what steps are recommended in the secure DNS resolution process and how the authorization policy is put to use. The ideas and definitions expressed here are based on the authors experience in implementing a reference secure resolver.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-lewis-dnssig-authorization-00"/>
 </reference>

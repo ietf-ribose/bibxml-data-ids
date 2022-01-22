@@ -1,7 +1,6 @@
 <reference anchor="I-D.zhang-bess-label-sharing">
   <front>
     <title>Label Sharing for Fast PE Protection</title>
-    <seriesInfo name="Internet-Draft" value="draft-zhang-bess-label-sharing-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -14,11 +13,16 @@
     <author fullname="Donald Eastlake">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Russ White"/>
-    <author fullname="Provisions Relating to IETF"/>
+    <author fullname="Russ White">
+      <organization/>
+    </author>
+    <author fullname="Provisions Relating to IETF">
+      <organization/>
+    </author>
     <date year="2019" month="March" day="11"/>
     <abstract>
       <t>This document describes a method to be used by VPN (Virtual Private Network) Service Providers to provide multi-homed CEs with fast protection of egress PEs. Egress PEs in a redundant group always share the same label in distribution of VPN routes of a VRF. A virtual Next Hop (vNH) in the IGP/MPLS backbone is created as the common end of LSP tunnels which would otherwise terminate at each egress PE. Primary and backup LSP tunnels ended at the vNH are set up by MPLS on the basis of existing Interior Gateway Protocol (IGP) Fast ReRoute (FRR) mechanisms. If the primary egress PE fails, the backup egress PE can recognize the "shared" VPN route label carried by the data packets. Therefore, the failure affected data packets can be smoothly rerouted to the backup PE for delivery without changing their VPN route label.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-zhang-bess-label-sharing-02"/>
 </reference>

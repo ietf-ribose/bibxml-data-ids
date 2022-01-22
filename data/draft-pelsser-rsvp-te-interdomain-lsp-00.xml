@@ -1,15 +1,19 @@
 <reference anchor="I-D.pelsser-rsvp-te-interdomain-lsp">
   <front>
     <title>RSVP-TE extensions for interdomain LSPs</title>
-    <seriesInfo name="Internet-Draft" value="draft-pelsser-rsvp-te-interdomain-lsp-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Cristel Pelsser" initials="C." surname="Pelsser"/>
-    <author fullname="Olivier Bonaventure" initials="O." surname="Bonaventure"/>
+    <author fullname="Cristel Pelsser" initials="C." surname="Pelsser">
+      <organization/>
+    </author>
+    <author fullname="Olivier Bonaventure" initials="O." surname="Bonaventure">
+      <organization/>
+    </author>
     <date year="2002" month="October" day="31"/>
     <abstract>
       <t>We propose extensions to RSVP-TE to allow the establishment of traffic engineered LSPs with fast restoration requirements. We first discuss the problem of establishing explicitly routed interdomain LSPs and show that the current subobjects found in RSVP-TE are not sufficient to establish interdomain LSPs because they do not take into account the policy constraints of the interdomain environment. We then show how to extend the fast-reroute and detour objects to protect interdomain links and ASBRs on interdomain LSPs. We also discuss the establishment of disjoint interdomain LSPs for restoration and load balancing purposes in the appendix. Finally, we describe the necessary RSVP objects and flags and discuss the impact of the proposed solution on the syntax of existing RSVP-TE objects and the syntax of new required objects are presented.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-pelsser-rsvp-te-interdomain-lsp-00"/>
 </reference>

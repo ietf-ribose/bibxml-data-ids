@@ -1,7 +1,6 @@
 <reference anchor="I-D.noguchi-isis-protocol-topology">
   <front>
     <title>Protocol Topology Support for IS-IS</title>
-    <seriesInfo name="Internet-Draft" value="draft-noguchi-isis-protocol-topology-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>RFC 1195 [1] documents a dual routing protocol that can be used to route both CLNP and IPv4, that is Integrated IS-IS. [2] adds functionality to Integrated IS-IS so that it supports IPv6. RFC 1195 [1] places topological restrictions on networks that are routed using Integrated IS-IS, specifically, that every router in a level-1 area must be capable of all network layer protocols that are present in that area, and every router in a level-2 area must be capable of all network layer protocols that are present in the whole IS-IS routing domain. The mechanism described in this document enables a single IS-IS routing domain to support different network layer protocol topologies by maintaining separate SPF trees for each network layer protocol.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-noguchi-isis-protocol-topology-01"/>
 </reference>

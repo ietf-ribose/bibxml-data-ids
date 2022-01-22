@@ -1,7 +1,6 @@
 <reference anchor="I-D.ymbk-sidrops-ov-egress">
   <front>
     <title>BGP RPKI-Based Origin Validation on Export</title>
-    <seriesInfo name="Internet-Draft" value="draft-ymbk-sidrops-ov-egress-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -19,4 +18,5 @@
       <t>It is useful fpr RPKI-based Origin Validation to classify and mark prefixes for all ingress, redistribution, and egress policies. For egress policy, it is important that the classification uses the effective origin AS of the processed route, which may specifically be altered by the commonly available knobs such as removing private ASs, confederation handling, and other modifications of the origin AS.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ymbk-sidrops-ov-egress-00"/>
 </reference>

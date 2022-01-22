@@ -1,11 +1,12 @@
 <reference anchor="I-D.leecy-multicast-egress-limit">
   <front>
     <title>Controlling the number of egress points in dynamic multicast groups</title>
-    <seriesInfo name="Internet-Draft" value="draft-leecy-multicast-egress-limit-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Cheng-Yin Lee" initials="C." surname="Lee"/>
+    <author fullname="Cheng-Yin Lee" initials="C." surname="Lee">
+      <organization/>
+    </author>
     <author fullname="Nabil Seddigh" initials="N." surname="Seddigh">
       <organization>Nortel Networks</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>The amount of resources required by a source to send data to a multicast group within a network is dependent on the service level the source requested and the number of egress points for the group in a network. Since the egress points in a multicast group can change during a multicast session, a source node would not know how many or which egress points it would be sending to when it specifies the service level it requires for multicast data. This document describes methods to control the number of egress points of a dynamic multicast group in a differentiated services (DS) network. A source node specifies the bandwidth, type of service and a limit on the number of egress points that it wants to send multicast data to. If this limit on the number of egress points is reached, no further egress points will be grafted to the branch of the multicast tree rooted at this source node.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-leecy-multicast-egress-limit-00"/>
 </reference>

@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-dnsop-glue-is-not-optional">
   <front>
     <title>Glue In DNS Referral Responses Is Not Optional</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-glue-is-not-optional-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -22,4 +21,5 @@
       <t>The DNS uses glue records to allow iterative clients to find the addresses of nameservers that are contained within a delegated zone. Authoritative Servers are expected to return all available glue records in referrals. If message size constraints prevent the inclusion of all glue records in a UDP response, the server MUST set the TC flag to inform the client that the response is incomplete, and that the client SHOULD use TCP to retrieve the full response. This document updates RFC 1034 to clarify correct server behavior.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-glue-is-not-optional-03"/>
 </reference>

@@ -1,15 +1,19 @@
 <reference anchor="I-D.shen-mpls-egress-protection-framework">
   <front>
     <title>MPLS Egress Protection Framework</title>
-    <seriesInfo name="Internet-Draft" value="draft-shen-mpls-egress-protection-framework-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Yimin Shen" initials="Y." surname="Shen"/>
-    <author fullname="Jeyananth Minto Jeganathan" initials="J. M." surname="Jeganathan"/>
+    <author fullname="Yimin Shen" initials="Y." surname="Shen">
+      <organization/>
+    </author>
+    <author fullname="Jeyananth Minto Jeganathan" initials="J. M." surname="Jeganathan">
+      <organization/>
+    </author>
     <date year="2016" month="February" day="17"/>
     <abstract>
       <t>This document specifies a fast reroute framework for protecting MPLS tunnels and the IP/MPLS services carried by them against egress router failures. The framework relies on local detection and local repair to be performed by the router upstream adjacent to a failure. The router can restore traffic in the order of tens of milliseconds, by rerouting it to a protector through a pre-established bypass tunnel. Therefore, the mechanism can be used to reduce traffic loss before global repair reacts to the failure and control plane protocols converge on the topology changes due to the failure.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-shen-mpls-egress-protection-framework-00"/>
 </reference>

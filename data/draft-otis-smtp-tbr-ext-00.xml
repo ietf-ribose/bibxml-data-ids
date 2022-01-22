@@ -1,7 +1,6 @@
 <reference anchor="I-D.otis-smtp-tbr-ext">
   <front>
     <title>SMTP Transferred-By-Reference (TBR) Extension</title>
-    <seriesInfo name="Internet-Draft" value="draft-otis-smtp-tbr-ext-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>This document describes an extension to SMTP that allows email to be exchanged as a storage system immutable XAM (eXtensible Access Method) reference. When MTAs employ the TBR mode, message origination can not be spoofed, and message acceptance is not asserted until retrieval of the referenced message. This strategy ensures a minimal SMTP overhead, increasing the responsibility of senders in order to limit the load of unwanted messages upon receivers. In addition, the TBR extension requires an [RFC2821] MAIL FROM address in the same domain as the server from which the XAM will be fetched, so that a dependable status-reporting path is assured.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-otis-smtp-tbr-ext-00"/>
 </reference>

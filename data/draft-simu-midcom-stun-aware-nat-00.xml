@@ -2,7 +2,6 @@
   <front>
     <title>STUN-aware NAT
 </title>
-    <seriesInfo name="Internet-Draft" value="draft-simu-midcom-stun-aware-nat-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -20,4 +19,5 @@
       <t>STUN provides an easy way to traverse some types of NATs and it will work satisfactorily in many NAT deployments. To overcome STUN's limitations, one solution is to accept the idea that NATs can change too (and they've been proven to change, an example being the proliferation of IPsec pass-thru NAT devices) and to colocate STUN server functionality on the NAT box itself. Upon receipt of a STUN request, the server colocated within the NAT device allocates addresses and ports, and installs bindings. This allows hosts running the STUN client software to transparently achieve symmetric NAT traversal and to make themselves addressable from the Global Internet.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-simu-midcom-stun-aware-nat-00"/>
 </reference>

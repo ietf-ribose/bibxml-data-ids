@@ -2,7 +2,6 @@
   <front>
     <title>Syslog-international Protocol
 </title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-syslog-international-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -14,4 +13,5 @@
       <t>This document describes syslog-international, a mechanism adding support for international character sets to syslog. Syslog-international provides these features in a way that has no requirements and no impact on existing syslog implementations. It is possible to support syslog-international and gain some of its functionality by only changing the behavior of the devices generating syslog messages. Some additional processing of the received syslog messages may realize additional benefits. There is no need to change syslog relays in order to support syslog-international. Existing syslog implementations will benefit from the fact that syslog-international supporting devices emit proper syslog messages in all cases. It is common practice for many non-syslog-international clients to accidently emit 8 bit characters if used in e.g. European language environments. Syslog-international just adds a protocol layer to the MSG part of the syslog message. As such, it is compatible with all existing and future implementations of syslog.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-syslog-international-00"/>
 </reference>

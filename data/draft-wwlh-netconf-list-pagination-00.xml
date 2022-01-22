@@ -1,7 +1,6 @@
 <reference anchor="I-D.wwlh-netconf-list-pagination">
   <front>
     <title>List Pagination for YANG-driven Protocols</title>
-    <seriesInfo name="Internet-Draft" value="draft-wwlh-netconf-list-pagination-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -25,4 +24,5 @@
       <t>In some circumstances, instances of YANG modeled "list" and "leaf- list" nodes may contain numerous entries. Retrieval of all the entries can lead to inefficiencies in the server, the client, and the network in between. This document defines a model for list pagination that can be implemented by YANG-driven management protocols such as NETCONF and RESTCONF. The model supports paging over optionally filtered and/or sorted entries. The solution additionally enables servers to constrain query expressions on some "config false" lists or leaf- lists.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-wwlh-netconf-list-pagination-00"/>
 </reference>

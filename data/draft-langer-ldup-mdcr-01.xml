@@ -1,14 +1,16 @@
 <reference anchor="I-D.langer-ldup-mdcr">
   <front>
     <title>LDUP Multiple Draft Conflict Resolution (MDCR)</title>
-    <seriesInfo name="Internet-Draft" value="draft-langer-ldup-mdcr-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Albert Langer" initials="A." surname="Langer"/>
+    <author fullname="Albert Langer" initials="A." surname="Langer">
+      <organization/>
+    </author>
     <date year="2000" month="April" day="10"/>
     <abstract>
       <t>Concurrent changes in a Multi-Master directory are a partially ordered tree. 'LDUP Update Reconciliation Procedures' (URP) uses timestamps to impose a strict linear order on this tree, and merges changes to fit that imposed order. Merged changes violate the semantics of the LDAP/X.500 data model. No specific 'modifierName' can be assigned to a merged change and requirements to support audit trails and access controls and not to break applications or impede future work on transactions cannot be met. The current LDUP requirements draft avoids dealing with these critical issues.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-langer-ldup-mdcr-01"/>
 </reference>

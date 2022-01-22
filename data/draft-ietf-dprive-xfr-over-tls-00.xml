@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-dprive-xfr-over-tls">
   <front>
     <title>DNS Zone Transfer-over-TLS</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-dprive-xfr-over-tls-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -25,4 +24,5 @@
       <t>DNS zone transfers are transmitted in clear text, which gives attackers the opportunity to collect the content of a zone by eavesdropping on network connections. The DNS Transaction Signature (TSIG) mechanism is specified to restrict direct zone transfer to authorized clients only, but it does not add confidentiality. This document specifies use of DNS-over-TLS to prevent zone contents collection via passive monitoring of zone transfers.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dprive-xfr-over-tls-00"/>
 </reference>

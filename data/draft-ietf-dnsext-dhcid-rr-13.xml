@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-dnsext-dhcid-rr">
   <front>
     <title>A DNS Resource Record (RR) for Encoding Dynamic Host Configuration Protocol (DHCP) Information (DHCID RR)</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsext-dhcid-rr-13"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -19,4 +18,5 @@
       <t>It is possible for Dynamic Host Configuration Protocol (DHCP) clients to attempt to update the same DNS Fully Qualified Domain Name (FQDN) or to update a DNS FQDN that has been added to the DNS for another purpose as they obtain DHCP leases. Whether the DHCP server or the clients themselves perform the DNS updates, conflicts can arise. To resolve such conflicts, RFC 4703 proposes storing client identifiers in the DNS to unambiguously associate domain names with the DHCP clients to which they refer. This memo defines a distinct Resource Record (RR) type for this purpose for use by DHCP clients and servers: the "DHCID" RR. [STANDARDS-TRACK]</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsext-dhcid-rr-13"/>
 </reference>

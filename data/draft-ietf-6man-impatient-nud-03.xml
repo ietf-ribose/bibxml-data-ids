@@ -1,15 +1,19 @@
 <reference anchor="I-D.ietf-6man-impatient-nud">
   <front>
     <title>Neighbor Unreachability Detection is too impatient</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-6man-impatient-nud-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Erik Nordmark" initials="E." surname="Nordmark"/>
-    <author fullname="Igor Gashinsky" initials="I." surname="Gashinsky"/>
+    <author fullname="Erik Nordmark" initials="E." surname="Nordmark">
+      <organization/>
+    </author>
+    <author fullname="Igor Gashinsky" initials="I." surname="Gashinsky">
+      <organization/>
+    </author>
     <date year="2012" month="October" day="22"/>
     <abstract>
       <t>IPv6 Neighbor Discovery includes Neighbor Unreachability Detection. That function is very useful when a host has an alternative, for instance multiple default routers, since it allows the host to switch to the alternative in short time. This time is 3 seconds after the node starts probing by default. However, if there are no alternatives, this is far too impatient. This document specifies relaxed rules for Neighbor Discovery retransmissions that allows an implementation to choose different timeout behavior based on whether or not there are alternatives. This document updates RFC 4861.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-6man-impatient-nud-03"/>
 </reference>

@@ -1,16 +1,22 @@
 <reference anchor="I-D.vcelak-nsec5">
   <front>
     <title>NSEC5, DNSSEC Authenticated Denial of Existence</title>
-    <seriesInfo name="Internet-Draft" value="draft-vcelak-nsec5-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Jan Včelák" initials="J." surname="Včelák"/>
-    <author fullname="Sharon Goldberg" initials="S." surname="Goldberg"/>
-    <author fullname="Dimitrios Papadopoulos" initials="D." surname="Papadopoulos"/>
+    <author fullname="Jan Včelák" initials="J." surname="Včelák">
+      <organization/>
+    </author>
+    <author fullname="Sharon Goldberg" initials="S." surname="Goldberg">
+      <organization/>
+    </author>
+    <author fullname="Dimitrios Papadopoulos" initials="D." surname="Papadopoulos">
+      <organization/>
+    </author>
     <date year="2016" month="March" day="21"/>
     <abstract>
       <t>The Domain Name System Security (DNSSEC) Extensions introduced the NSEC resource record (RR) for authenticated denial of existence and the NSEC3 for hashed authenticated denial of existence. The NSEC RR allows for the entire zone contents to be enumerated if a server is queried for carefully chosen domain names; N queries suffice to enumerate a zone containing N names. The NSEC3 RR adds domain-name hashing, which makes the zone enumeration harder, but not impossible. This document introduces NSEC5, which provides an cryptographically- proven mechanism that prevents zone enumeration. NSEC5 has the additional advantage of not requiring private zone-signing keys to be present on all authoritative servers for the zone.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-vcelak-nsec5-02"/>
 </reference>

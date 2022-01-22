@@ -1,17 +1,19 @@
 <reference anchor="I-D.andrews-dns-more">
   <front>
     <title>Large Responses to DNS Queries (DNS MORE)</title>
-    <seriesInfo name="Internet-Draft" value="draft-andrews-dns-more-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
     <author fullname="Paul A. Vixie" initials="P. A." surname="Vixie">
       <organization>ISC</organization>
     </author>
-    <author fullname="Mark P. Andrews" initials="M. P." surname="Andrews"/>
+    <author fullname="Mark P. Andrews" initials="M. P." surname="Andrews">
+      <organization/>
+    </author>
     <date year="1996" month="July"/>
     <abstract>
       <t>DNS messages are limited to 64 kilobytes in size. At times it is necessary to send a message that is greater that 64 kilobytes. This is currently not possible. AXFR is the one exception. This document describes how to send a sequence of messages, the total length which may be greater than 64 kilobytes, by extending the protocol. In addition average message sizes are increasing and the 512 byte payload limit for UDP is now too small. This document describes how servers can identify when they can send bigger messages without necessarily resorting to TCP.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-andrews-dns-more-01"/>
 </reference>

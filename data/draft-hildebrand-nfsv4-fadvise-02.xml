@@ -1,16 +1,22 @@
 <reference anchor="I-D.hildebrand-nfsv4-fadvise">
   <front>
     <title>Support for posix_fadvise</title>
-    <seriesInfo name="Internet-Draft" value="draft-hildebrand-nfsv4-fadvise-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Dean Hildebrand"/>
-    <author fullname="Trond Myklebust"/>
-    <author fullname="Sam Falkner"/>
+    <author fullname="Dean Hildebrand">
+      <organization/>
+    </author>
+    <author fullname="Trond Myklebust">
+      <organization/>
+    </author>
+    <author fullname="Sam Falkner">
+      <organization/>
+    </author>
     <date year="2011" month="July"/>
     <abstract>
       <t>This document proposes a new FADVISE operation for NFSv4.2 to support the posix_fadvise function. FADVISE will communicate expected application behavior to the server, allowing servers to optimize future I/O requests for a file. The posix_fadvise function is supported in Linux and many other operating systems and is starting be widely used by applications. In addition, the FADVISE operation can communicate other application directions such as the use of direct I/O.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-hildebrand-nfsv4-fadvise-02"/>
 </reference>

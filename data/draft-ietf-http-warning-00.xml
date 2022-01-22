@@ -1,15 +1,19 @@
 <reference anchor="I-D.ietf-http-warning">
   <front>
     <title>Problem with HTTP/1.1 Warning header, and proposed fix</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-http-warning-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Josh Cohen" initials="J." surname="Cohen"/>
-    <author fullname="Scott Lawrence" initials="S." surname="Lawrence"/>
+    <author fullname="Josh Cohen" initials="J." surname="Cohen">
+      <organization/>
+    </author>
+    <author fullname="Scott Lawrence" initials="S." surname="Lawrence">
+      <organization/>
+    </author>
     <date year="1997" month="July" day="30"/>
     <abstract>
       <t>The current HTTP/1.1 (RFC2068) specification introduces a new Warning header, meant to carry status information about a request that cannot or should not be carried by the response status code. The existing specification for the interaction between Warning and HTTP caches is faulty, in that it may allow incorrect results after cache validation operations. This document identifies two separate (but related) problems, and proposes revisions of the HTTP/1.1 specification to solve these problems.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-http-warning-00"/>
 </reference>

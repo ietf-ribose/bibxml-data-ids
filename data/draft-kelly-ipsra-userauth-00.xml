@@ -1,14 +1,15 @@
 <reference anchor="I-D.kelly-ipsra-userauth">
   <front>
     <title>User-level Authentication Mechanisms for IPsec</title>
-    <seriesInfo name="Internet-Draft" value="draft-kelly-ipsra-userauth-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
     <author fullname="Jim Knowles" initials="J." surname="Knowles">
       <organization>RedCreek Communications</organization>
     </author>
-    <author fullname="Dr. Bernard D. Aboba" initials="B." surname="Aboba"/>
+    <author fullname="Dr. Bernard D. Aboba" initials="B." surname="Aboba">
+      <organization/>
+    </author>
     <author fullname="Scott G. Kelly" initials="S. G." surname="Kelly">
       <organization>RedCreek Communications</organization>
     </author>
@@ -17,4 +18,5 @@
       <t>IPsec, when used with IKE [RFC2409], provides for authentication of endpoints from the device level to the user level. However, there has been movement within the IPsec development community to provide additional support for legacy user-level authentication mechanisms such as those supported by RADIUS [RFC2138]. At least 2 approaches to this problem have been proposed thus far, both using the same basic underlying framework, but that underlying framework relies upon extending IKE in ways that may not be prudent. This document proposes an alternative approach which provides much of the same functionality without requiring any modification to the existing IPsec framework.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-kelly-ipsra-userauth-00"/>
 </reference>

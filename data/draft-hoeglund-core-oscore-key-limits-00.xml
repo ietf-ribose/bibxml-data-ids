@@ -1,7 +1,6 @@
 <reference anchor="I-D.hoeglund-core-oscore-key-limits">
   <front>
     <title>AEAD Key Usage Limits in OSCORE</title>
-    <seriesInfo name="Internet-Draft" value="draft-hoeglund-core-oscore-key-limits-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>Object Security for Constrained RESTful Environments (OSCORE) uses AEAD algorithms to ensure confidentiality and integrity of exchanged messages. Due to known issues allowing forgery attacks against AEAD algorithms, limits should be followed on the number of times a specific key is used for encryption or decryption. This document defines how two peers using OSCORE must take these limits into account and what steps they must take to preserve the security of their communications. Therefore, this document updates RFC8613.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-hoeglund-core-oscore-key-limits-00"/>
 </reference>

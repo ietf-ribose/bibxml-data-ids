@@ -1,17 +1,25 @@
 <reference anchor="I-D.keoh-dice-multicast-security">
   <front>
     <title>DTLS-based Multicast Security for Low-Power and Lossy Networks (LLNs)</title>
-    <seriesInfo name="Internet-Draft" value="draft-keoh-dice-multicast-security-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Sye Loong Keoh" initials="S. L." surname="Keoh"/>
-    <author fullname="Sandeep Kumar" initials="S." surname="Kumar"/>
-    <author fullname="Oscar Garcia-Morchon" initials="O." surname="Garcia-Morchon"/>
-    <author fullname="Esko Dijk" initials="E." surname="Dijk"/>
+    <author fullname="Sye Loong Keoh" initials="S. L." surname="Keoh">
+      <organization/>
+    </author>
+    <author fullname="Sandeep Kumar" initials="S." surname="Kumar">
+      <organization/>
+    </author>
+    <author fullname="Oscar Garcia-Morchon" initials="O." surname="Garcia-Morchon">
+      <organization/>
+    </author>
+    <author fullname="Esko Dijk" initials="E." surname="Dijk">
+      <organization/>
+    </author>
     <date year="2013" month="October" day="17"/>
     <abstract>
       <t>Wireless IP-based systems will be increasingly used for building control systems in the future where wireless devices interconnect with each other, forming low-power and lossy networks (LLNs). The CoAP/6LoWPAN standards are emerging as the de-facto protocols in this area for resource-constrained devices. Both multicast and security are key needs in these networks. This draft presents a method for securing multicast communication in LLNs based on the DTLS which is already available in CoAP devices. This draft deals with the adaptation of the DTLS record layer to protect multicast group communication, assuming that all group member devices are already configured with the group security association. The DTLS record layer implementation is used to encrypt and provide authentication to multicast messages using the group keying material before sending the message via IP multicast to the group.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-keoh-dice-multicast-security-00"/>
 </reference>

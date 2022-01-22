@@ -1,7 +1,6 @@
 <reference anchor="I-D.chandra-bgp4-cap-neg">
   <front>
     <title>Capabilities Negotiation with BGP-4</title>
-    <seriesInfo name="Internet-Draft" value="draft-chandra-bgp4-cap-neg-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>Currently BGP-4 [BGP-4] requires that when a BGP speaker receives an OPEN message with one or more unrecognized Optional Parameters, the speaker must terminate BGP peering. This complicates introduction of new capabilities in BGP. This document defines new Optional Parameter, called Capabilities, that is expected to facilitate introduction of new capabilities in BGP by providing graceful capability negotiation. The proposed parameter is backward compatible - a router that supports the parameter can maintain BGP peering with a router that doesn't support the parameter.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-chandra-bgp4-cap-neg-00"/>
 </reference>

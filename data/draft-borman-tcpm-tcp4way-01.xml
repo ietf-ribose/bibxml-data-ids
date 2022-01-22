@@ -1,14 +1,16 @@
 <reference anchor="I-D.borman-tcpm-tcp4way">
   <front>
     <title>TCP Four-Way Handshake</title>
-    <seriesInfo name="Internet-Draft" value="draft-borman-tcpm-tcp4way-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="David Borman"/>
+    <author fullname="David Borman">
+      <organization/>
+    </author>
     <date year="2015" month="March"/>
     <abstract>
       <t>One of the limitations of TCP is that it has limited space for TCP options, only 40 bytes. Many mechanisms have been proposed for for extending the TCP option space, but the biggest challenge has been to get additional option space in the initial SYN packet. This memo presents a optional four-way TCP handshake to allow extended option space to be used in SYN packets in both directions.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-borman-tcpm-tcp4way-01"/>
 </reference>

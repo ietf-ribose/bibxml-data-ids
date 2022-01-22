@@ -1,15 +1,19 @@
 <reference anchor="I-D.montenegro-httpbis-http2-server-profiles">
   <front>
     <title>Profiles for Initial Server Settings</title>
-    <seriesInfo name="Internet-Draft" value="draft-montenegro-httpbis-http2-server-profiles-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Roberto Peon"/>
-    <author fullname="Gabriel Montenegro"/>
+    <author fullname="Roberto Peon">
+      <organization/>
+    </author>
+    <author fullname="Gabriel Montenegro">
+      <organization/>
+    </author>
     <date year="2013" month="September"/>
     <abstract>
       <t>In HTTP/2.0, if running over TLS, the client is the first to transmit HTTP/2.0 frames on the new session. With its first transmission to the server, the client can already overrun some of the server settings and preferences, leading to failure conditions and unnecessary complexity. This document proposes a solution to this problem based on a very small set of server profiles for initial settings sent within the TLS handshake.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-montenegro-httpbis-http2-server-profiles-00"/>
 </reference>

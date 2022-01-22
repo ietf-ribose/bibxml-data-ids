@@ -1,11 +1,12 @@
 <reference anchor="I-D.wilde-linkset">
   <front>
     <title>Linkset: Media Types and a Link Relation Type for Link Sets</title>
-    <seriesInfo name="Internet-Draft" value="draft-wilde-linkset-04"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Erik Wilde" initials="E." surname="Wilde"/>
+    <author fullname="Erik Wilde" initials="E." surname="Wilde">
+      <organization/>
+    </author>
     <author fullname="Herbert Van de Sompel" initials="H." surname="Van de Sompel">
       <organization>Data Archiving and Networked Services</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>This specification defines two media types and a link relation type for sets of links. The media types can be used to represents links in a standalone fashion, in one case in the native format as used in the HTTP Link header, and in the other case in a JSON-based format. The link relation type can be used by a resource to point at another resource that provides a set of links, including links in which the former resource participates. One typical scenario is when the number of links to put in an HTTP Link header becomes too big, and thus these links should be provided in another way.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-wilde-linkset-04"/>
 </reference>

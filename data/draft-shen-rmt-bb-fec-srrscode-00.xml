@@ -1,16 +1,22 @@
 <reference anchor="I-D.shen-rmt-bb-fec-srrscode">
   <front>
     <title>Systematic Rate-independent Reed-Solomon (SR-RS) Erasure Correction Scheme</title>
-    <seriesInfo name="Internet-Draft" value="draft-shen-rmt-bb-fec-srrscode-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="BZ Shen" initials="S." surname="Bz"/>
-    <author fullname="Erik Stauffer" initials="E." surname="Stauffer"/>
-    <author fullname="Kamlesh Rath" initials="K." surname="Rath"/>
+    <author fullname="BZ Shen" initials="S." surname="Bz">
+      <organization/>
+    </author>
+    <author fullname="Erik Stauffer" initials="E." surname="Stauffer">
+      <organization/>
+    </author>
+    <author fullname="Kamlesh Rath" initials="K." surname="Rath">
+      <organization/>
+    </author>
     <date year="2012" month="May" day="17"/>
     <abstract>
       <t>This document specifies a systematic rate-independent Reed-Solomon (SR-RS) Erasure correction scheme. The two properties, systematic and rate-independent, are fulfilled by Lagrange polynomial interpolation. When the number of output symbols is fixed this scheme essentially generates a Reed-Solomon (RS) code. Therefore, based on the MDS (maximum distance separable) property of RS code, this erasure correction scheme is optimal (ideal). Also in this document, a two-step fast recovering (decoding) algorithm using fast Walsh-Hadamard transform is presented for the proposed erasure correction scheme. This algorithm achieves the time complexity O(n*log2(n)), or linear if penalization implementation, such as multi-core processor, is allowed.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-shen-rmt-bb-fec-srrscode-00"/>
 </reference>

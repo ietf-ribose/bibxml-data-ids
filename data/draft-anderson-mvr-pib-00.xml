@@ -1,14 +1,16 @@
 <reference anchor="I-D.anderson-mvr-pib">
   <front>
     <title>Multiple Virtual Router Partitioning Policy Information Base</title>
-    <seriesInfo name="Internet-Draft" value="draft-anderson-mvr-pib-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Todd A. Anderson" initials="T. A." surname="Anderson"/>
+    <author fullname="Todd A. Anderson" initials="T. A." surname="Anderson">
+      <organization/>
+    </author>
     <date year="2000" month="July" day="24"/>
     <abstract>
       <t>This document defines a Policy Information Base (PIB) for partitioning a single switch into a set of virtual switches. ([SPPI] describes a structure for specifying policy information that can then be transmitted to a network device for the purpose of configuring policy at that device. The model underlying this structure is one of well defined policy rule classes and instances of these classes residing in a virtual information store called the Policy Information Base (PIB).) The partitioning PIB defined here is largely based on the Base Switch Partitioning MIB (MSF 00.069) [MSF-VSMIB]. However, unlike that MIB, this document does not provide a management interface for the switch as a whole but instead only specifies the ports and resources assigned to virtual switches. The management interface(s) to discover switch resources as a whole are outside the scope of this document.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-anderson-mvr-pib-00"/>
 </reference>

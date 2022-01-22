@@ -1,14 +1,16 @@
 <reference anchor="I-D.park-radext-ssk-update">
   <front>
     <title>Shared Secret Key update for RADIUS Accounting</title>
-    <seriesInfo name="Internet-Draft" value="draft-park-radext-ssk-update-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="ddukki86@ssu.ac.kr" initials="" surname="ddukki86@ssu.ac.kr"/>
+    <author fullname="ddukki86@ssu.ac.kr" initials="" surname="ddukki86@ssu.ac.kr">
+      <organization/>
+    </author>
     <date year="2014" month="July"/>
     <abstract>
       <t>There is a shared secret key in the existing method to authenticate RADIUS accounting messages between the RADIUS server and the access point. If this key is exposed, the attacker can utilize this key to operate the Rogue AP as a normal AP. In this case, a problem arises regarding to the creation of forged user accounting information and transmission to the RADIUS Server. Furthermore, there is some inconvenience for the administrators because each server and AP have to be accessed directly to configure the SSK. This draft proposes the technique for periodic updates of the shared secret key by the RADIUS server to resolve this problem.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-park-radext-ssk-update-00"/>
 </reference>

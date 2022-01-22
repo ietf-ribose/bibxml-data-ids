@@ -1,17 +1,25 @@
 <reference anchor="I-D.santesson-tls-gssapi">
   <front>
     <title>Flexible Key Agreement for Transport Layer Security (FKA-TLS)</title>
-    <seriesInfo name="Internet-Draft" value="draft-santesson-tls-gssapi-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Larry Zhu"/>
-    <author fullname="Girish Chander"/>
-    <author fullname="Jeffrey Altman"/>
-    <author fullname="Stefan Santesson"/>
+    <author fullname="Larry Zhu">
+      <organization/>
+    </author>
+    <author fullname="Girish Chander">
+      <organization/>
+    </author>
+    <author fullname="Jeffrey Altman">
+      <organization/>
+    </author>
+    <author fullname="Stefan Santesson">
+      <organization/>
+    </author>
     <date year="2007" month="July" day="25"/>
     <abstract>
       <t>This document defines extensions to RFC 4279, "Pre-Shared Key Ciphersuites for Transport Layer Security (TLS)", to enable dynamic key sharing in distributed environments using a Generic Security Service Application Program Interface (GSS-API) mechanism, and then import that shared key as the "Pre-Shared Key" to complete the TLS handshake. This is a modular approach to perform authentication and key exchange based on off-shelf libraries. And it obviates the need of pair-wise key sharing by enabling the use of the widely-deployed Kerberos alike trust infrastructures that are highly scalable and robust. Furthermore, conforming implementations can provide server authentication without the use of certificates.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-santesson-tls-gssapi-03"/>
 </reference>

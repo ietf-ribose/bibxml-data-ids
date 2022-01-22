@@ -1,7 +1,6 @@
 <reference anchor="I-D.sidrops-bgpsec-validation-signaling">
   <front>
     <title>BGPsec Validation State Signaling</title>
-    <seriesInfo name="Internet-Draft" value="draft-sidrops-bgpsec-validation-signaling-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -19,4 +18,5 @@
       <t>This document updates RFC 8097 by adding the BGPsec path validation state to the reserved portion of the extended community in RFC 8097. BGP speakers that receive this community string can use the embedded BGPsec validation state and configure local policies that allow it being used to influence their decision process. This is especially helpful because Section 5 of RFC 8205 specifically allows putting BGPsec path validation temporarily on hold. This allows reducing the load of validation particularly from IBGP learned routes or EBGP learned routes when warranted.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-sidrops-bgpsec-validation-signaling-01"/>
 </reference>

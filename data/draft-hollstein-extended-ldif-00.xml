@@ -1,14 +1,16 @@
 <reference anchor="I-D.hollstein-extended-ldif">
   <front>
     <title>The Extended LDAP Data Interchange Format (EXLDIF)</title>
-    <seriesInfo name="Internet-Draft" value="draft-hollstein-extended-ldif-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Christian Hollstein" initials="C." surname="Hollstein"/>
+    <author fullname="Christian Hollstein" initials="C." surname="Hollstein">
+      <organization/>
+    </author>
     <date year="2013" month="June" day="24"/>
     <abstract>
       <t>LDIF (LDAP Data Interchange Format) has been specified in [RFC2849]. It covers the LDAP operations ADD, MODIFY, DELETE and MODDN. This document specifies how other LDAP operations can be represented in a text file. Implementations may take such text files to send appropriate LDAP requests to a server and process the responses. This work was inspired by the need for a general configurable LDAP client used in functional and stress testing of LDAP servers.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-hollstein-extended-ldif-00"/>
 </reference>

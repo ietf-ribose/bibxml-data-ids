@@ -1,14 +1,16 @@
 <reference anchor="I-D.ash-manral-ospf-congestion-control">
   <front>
     <title>Congestion Avoidance &amp; Control for OSPF Networks</title>
-    <seriesInfo name="Internet-Draft" value="draft-ash-manral-ospf-congestion-control-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Gerald Ash" initials="G." surname="Ash"/>
+    <author fullname="Gerald Ash" initials="G." surname="Ash">
+      <organization/>
+    </author>
     <date year="2002" month="April" day="23"/>
     <abstract>
       <t>Based on overload and failure experience with link-state protocols, this draft identifies means to enable link-state protocols to: o avoid getting into congestion states wherever possible o respond gracefully to network overloads and failures o gracefully recover from massive loss of topology database information The proposed mechanisms include the following: o throttle setups of link adjacencies o reduce the rate of flooding of link-state-advertisements(LSAs) o prioritized treatment of Hello &amp; LSA ack packets o database backup &amp; resynchronization for graceful recovery from loss of topology database information.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ash-manral-ospf-congestion-control-00"/>
 </reference>

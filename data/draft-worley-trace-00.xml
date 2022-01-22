@@ -1,14 +1,16 @@
 <reference anchor="I-D.worley-trace">
   <front>
     <title>SIP Tracing Facility</title>
-    <seriesInfo name="Internet-Draft" value="draft-worley-trace-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Dale Worley"/>
+    <author fullname="Dale Worley">
+      <organization/>
+    </author>
     <date year="2009" month="March"/>
     <abstract>
       <t>This document defines a SIP option tag, "trace", to be used within SIP messages to request that SIP elements (both proxies and UASs) that receive the message reflect to the UAC the request they received and the response they gave by encapsulating the request and response in a provisional response. A new provisional response code "170" is defined to carry the request and response. This option tag is expected to be used solely for diagnostic purposes.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-worley-trace-00"/>
 </reference>

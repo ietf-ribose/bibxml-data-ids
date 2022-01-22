@@ -1,7 +1,6 @@
 <reference anchor="I-D.chen-bier-egress-protect">
   <front>
     <title>BIER Egress Protection</title>
-    <seriesInfo name="Internet-Draft" value="draft-chen-bier-egress-protect-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -43,4 +42,5 @@
       <t>This document describes a mechanism for fast protection against the failure of an egress node of a "Bit Index Explicit Replication" (BIER) domain. It is called BIER egress protection. It does not require any per-flow state in the core of the domain. With BIER egress protection the failure of a primary BFER (Bit Forwarding Egress Router) is protected with a backup BFER such that traffic destined to the primary BFER in the BIER domain is fast rerouted by a neighbor BFR to the backup BFER on the BIER layer. The mechanism is applicable if all BIER traffic sent to the primary BFER can reach its destination also via the backup BFER. It is complementary to BIER- FRR which cannot protect against the failure of a BFER.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-chen-bier-egress-protect-03"/>
 </reference>

@@ -1,11 +1,12 @@
 <reference anchor="I-D.finzi-priority-switching-scheduler">
   <front>
     <title>Priority Switching Scheduler</title>
-    <seriesInfo name="Internet-Draft" value="draft-finzi-priority-switching-scheduler-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Fred Baker" initials="F." surname="Baker"/>
+    <author fullname="Fred Baker" initials="F." surname="Baker">
+      <organization/>
+    </author>
     <author fullname="Anaïs Finzi" initials="A." surname="Finzi">
       <organization>ISAE-SUPAERO</organization>
     </author>
@@ -23,4 +24,5 @@
       <t>We detail the implementation of a network scheduler that switches the priority of one or several queues. This scheduler aims at carrying and isolating time constrained and elastic traffic flows from best- effort traffic. We claim that the usual implementations with rate schedulers (such as WRR, DRR,...) do not allow to efficiently quantify the reserved capacity of the different classes. By using this credit based scheduler mechanism called Priority Switching Scheduler, we provide a more predictable available capacity.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-finzi-priority-switching-scheduler-00"/>
 </reference>

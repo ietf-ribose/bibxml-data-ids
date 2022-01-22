@@ -1,19 +1,31 @@
 <reference anchor="I-D.csaszar-rtgwg-ipfrr-fn">
   <front>
     <title>IP Fast Re-Route with Fast Notification</title>
-    <seriesInfo name="Internet-Draft" value="draft-csaszar-rtgwg-ipfrr-fn-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Andras Csaszar" initials="A." surname="Csaszar"/>
-    <author fullname="Gabor Sandor Envedi" initials="G. S." surname="Envedi"/>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura"/>
-    <author fullname="Sriganesh Kini" initials="S." surname="Kini"/>
-    <author fullname="John Sucec" initials="J." surname="Sucec"/>
-    <author fullname="Subir Das" initials="S." surname="Das"/>
+    <author fullname="Andras Csaszar" initials="A." surname="Csaszar">
+      <organization/>
+    </author>
+    <author fullname="Gabor Sandor Envedi" initials="G. S." surname="Envedi">
+      <organization/>
+    </author>
+    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+      <organization/>
+    </author>
+    <author fullname="Sriganesh Kini" initials="S." surname="Kini">
+      <organization/>
+    </author>
+    <author fullname="John Sucec" initials="J." surname="Sucec">
+      <organization/>
+    </author>
+    <author fullname="Subir Das" initials="S." surname="Das">
+      <organization/>
+    </author>
     <date year="2012" month="June" day="14"/>
     <abstract>
       <t>This document describes the benefits and main applications of sending explicit fast notification (FN) packets to routers in an area. FN packets are generated and processed in the dataplane, and a single FN service can substitute existing OAM methods for remote failure detection, such as a full mesh of multi-hop BFD session. The FN service, therefore, decreases network overhead considerable. The main application is fast reroute in pure IP and in IP/LDP-MPLS networks called IPFRR-FN. The detour paths used when IPFRR-FN is active are in most cases identical to those used after Interior Gateway Protocol (IGP) convergence. The proposed mechanism can address all single link, node, and SRLG failures in an area; moreover it is an efficient solution to protect against BGP ASBR failures as well as VPN PE router failures. IPFRR-FN can be a supplemental tool to provide FRR when LFA cannot repair a failure case, while it can be a replacement of existing ASBR/PE protection mechanisms by overcoming their scalability and complexity issues.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-csaszar-rtgwg-ipfrr-fn-00"/>
 </reference>

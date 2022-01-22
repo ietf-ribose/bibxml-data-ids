@@ -1,14 +1,16 @@
 <reference anchor="I-D.blake-explu-dscp-rec">
   <front>
     <title>Recommendations for Forwarding Packets Marked with EXP/LU DSCPs in Diffserv Networks</title>
-    <seriesInfo name="Internet-Draft" value="draft-blake-explu-dscp-rec-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Steven Blake"/>
+    <author fullname="Steven Blake">
+      <organization/>
+    </author>
     <date year="2020" month="April" day="25"/>
     <abstract>
       <t>Some network operators implementing Diffserv are purported to remark some IP packets with non-zero DSCP values to the default DSCP value '000000' at their ingress network boundaries. This behavior is often not strictly necessary to protect an operator's network resources, and it impedes end-to-end experimentation of new differentiated services. This document recommends that Diffserv network operators refrain from remarking packets received with an EXP/LU DSCP value [RFC2474][RFC8436] that is not in use within the operator's network, and recommends that operators forward these packets at each Diffserv node (DS-node) using the Default "best-effort" PHB.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-blake-explu-dscp-rec-00"/>
 </reference>

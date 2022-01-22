@@ -1,7 +1,6 @@
 <reference anchor="I-D.li-opsawg-ipfix-extended-message">
   <front>
     <title>Extended Length Message Support for IP Flow Information Export (IPFIX)</title>
-    <seriesInfo name="Internet-Draft" value="draft-li-opsawg-ipfix-extended-message-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>The specification of the IP Flow Information Export (IPFIX) Protocol [RFC7011] defines an IPFIX Message length of 16 bits. As new Information Elements (IEs) are introduced in IPFIX to export long information, such as the BGP community information [I-D.ietf-opsawg-ipfix-bgp-community], an IPFIX Message no longer has sufficient space to fit all the information of a specific flow. This document updates the IPFIX specification by extending the IPFIX Message length from 16 bits to 32 bits. For backwards compatibility, a new version of IPFIX (i.e., 11) is introduced to support the 32-bit Message length.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-opsawg-ipfix-extended-message-00"/>
 </reference>

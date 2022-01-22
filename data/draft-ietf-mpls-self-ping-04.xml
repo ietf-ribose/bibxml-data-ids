@@ -1,18 +1,28 @@
 <reference anchor="I-D.ietf-mpls-self-ping">
   <front>
     <title>LSP Self-Ping</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-self-ping-04"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Ron Bonica" initials="R." surname="Bonica"/>
-    <author fullname="Ina Minei" initials="I." surname="Minei"/>
-    <author fullname="Michael Conn" initials="M." surname="Conn"/>
-    <author fullname="Dante Pacella" initials="D." surname="Pacella"/>
-    <author fullname="Luis Tomotaki" initials="L." surname="Tomotaki"/>
+    <author fullname="Ron Bonica" initials="R." surname="Bonica">
+      <organization/>
+    </author>
+    <author fullname="Ina Minei" initials="I." surname="Minei">
+      <organization/>
+    </author>
+    <author fullname="Michael Conn" initials="M." surname="Conn">
+      <organization/>
+    </author>
+    <author fullname="Dante Pacella" initials="D." surname="Pacella">
+      <organization/>
+    </author>
+    <author fullname="Luis Tomotaki" initials="L." surname="Tomotaki">
+      <organization/>
+    </author>
     <date year="2015" month="September"/>
     <abstract>
       <t>When certain RSVP-TE optimizations are implemented, ingress LSRs can receive RSVP RESV messages before forwarding state has been installed on all downstream nodes. According to the RSVP-TE specification, the ingress LSR can forward traffic through an LSP as soon as it receives a RESV message. However, if the ingress LSR forwards traffic through the LSP before forwarding state has been installed on all downstream nodes, traffic can be lost. This memo describes LSP Self-ping. When an ingress LSR receives an RESV message, it can invoke LSP Self-ping procedures to ensure that forwarding state has been installed on all downstream nodes. LSP Self-ping is an extremely light-weight mechanism. It does not consume control plane resources on transit or egress LSRs.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-self-ping-04"/>
 </reference>

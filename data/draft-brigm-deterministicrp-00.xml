@@ -1,17 +1,25 @@
 <reference anchor="I-D.brigm-deterministicrp">
   <front>
     <title>Deterministic RP (D-RP) Specification</title>
-    <seriesInfo name="Internet-Draft" value="draft-brigm-deterministicrp-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Michael Brig" initials="M." surname="Brig"/>
-    <author fullname="Jeff Chaney" initials="J." surname="Chaney"/>
-    <author fullname="Charles Schlise" initials="C." surname="Schlise"/>
-    <author fullname="Thomas Tharp" initials="T." surname="Tharp"/>
+    <author fullname="Michael Brig" initials="M." surname="Brig">
+      <organization/>
+    </author>
+    <author fullname="Jeff Chaney" initials="J." surname="Chaney">
+      <organization/>
+    </author>
+    <author fullname="Charles Schlise" initials="C." surname="Schlise">
+      <organization/>
+    </author>
+    <author fullname="Thomas Tharp" initials="T." surname="Tharp">
+      <organization/>
+    </author>
     <date year="2011" month="May" day="20"/>
     <abstract>
       <t>This document specifies the Deterministic Rendezvous Point (D-RP) mechanism for Protocol Independent Multicast (PIM) Sparse Mode (SM) networks. It intends to provide a simple and robust RP service. The mechanism is deterministic since it elects the highest priority candidate to be the D-RP from those available for each IP address family. If a D-RP fails, the election process begins again using the remaining C-RPs for the IP address family. If no candidates are availabe, the network will transition to PIM Dense Mode (DM) routing for that IP address family. In the future if C-RPs emerge for the address family, the network will elect a new D-RP and return to operations with PIM SM routing.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-brigm-deterministicrp-00"/>
 </reference>

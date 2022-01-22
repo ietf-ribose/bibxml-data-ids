@@ -1,15 +1,19 @@
 <reference anchor="I-D.hallambaker-ocspdigest">
   <front>
     <title>OCSP Digest Extension</title>
-    <seriesInfo name="Internet-Draft" value="draft-hallambaker-ocspdigest-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Phillip Hallam-Baker" initials="P." surname="Hallam-Baker"/>
-    <author fullname="Rob Stradling" initials="R." surname="Stradling"/>
+    <author fullname="Phillip Hallam-Baker" initials="P." surname="Hallam-Baker">
+      <organization/>
+    </author>
+    <author fullname="Rob Stradling" initials="R." surname="Stradling">
+      <organization/>
+    </author>
     <date year="2012" month="May"/>
     <abstract>
       <t>The OCSP digest extension creates a strong cryptographic binding between an OCSP token and the certificate it asserts a status value for. Support for the digest identifier extension permits a certificate issuer to employ a high assurance cryptographic digest function such as SHA2 to attest to the authenticity of their certificates in a fashion that is fully downwards compatible with legacy clients that only support SHA1.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-hallambaker-ocspdigest-00"/>
 </reference>

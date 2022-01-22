@@ -1,12 +1,15 @@
 <reference anchor="I-D.banerjea-qosmic">
   <front>
     <title>Designing QoSMIC: A Quality of Service sensitive Multicast Internet protoCol</title>
-    <seriesInfo name="Internet-Draft" value="draft-banerjea-qosmic-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Anindo Banerjea" initials="A." surname="Banerjea"/>
-    <author fullname="Michalis Faloutsos" initials="M." surname="Faloutsos"/>
+    <author fullname="Anindo Banerjea" initials="A." surname="Banerjea">
+      <organization/>
+    </author>
+    <author fullname="Michalis Faloutsos" initials="M." surname="Faloutsos">
+      <organization/>
+    </author>
     <author fullname="Rajesh Pankaj" initials="R." surname="Pankaj">
       <organization>QUALCOMM</organization>
     </author>
@@ -15,4 +18,5 @@
       <t>We present, QoSMIC, a multicast protocol for the Internet that supports QoS-sensitive routing, and minimizes the importance of a priori configuration decisions (such as core selection). The protocol is resource-efficient, robust, flexible, and scalable. In addition, our protocol is provably loop-free. Our protocol starts with a resources-saving tree (Shared Tree) and individual receivers switch to a QoS-competitive tree (Source-Based Tree) when necessary. In both trees, the new destination is able to choose the most promising among several paths. An innovation is that we use dynamic routing information without relying on a link state exchange protocol to provide it. Our protocol limits the effect of pre- configuration decisions drastically, by separating the management from the data transfer functions; administrative routers are not necessarily part of the tree. This separation increases the robustness, and flexibility of the protocol. Furthermore, QoSMIC is able to adapt dynamically to the conditions of the network. The QoSMIC protocol introduces several new ideas that make it more flexible than other protocols proposed to date. In fact, many of the other protocols, (such as YAM, PIM-SM, BGMP, CBT) can be seen as special cases of QoSMIC. The goal of this document is to present the motivation behind, and the design of QoSMIC, and to provide both analytical and experimental results to support our claims. NOTE: The text version of the draft is missing several figures, that facilitate the understanding of the work. For this, the authors suggest the postscript version.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-banerjea-qosmic-00"/>
 </reference>

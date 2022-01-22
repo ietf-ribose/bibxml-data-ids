@@ -1,7 +1,6 @@
 <reference anchor="I-D.delord-jounay-pwe3-ldp-aii-reachability">
   <front>
     <title>LDP extension for AII reachability</title>
-    <seriesInfo name="Internet-Draft" value="draft-delord-jounay-pwe3-ldp-aii-reachability-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -14,11 +13,16 @@
     <author fullname="Matthew Bocci" initials="M." surname="Bocci">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <author fullname="Yaakov (J) Stein" initials="Y. J." surname="Stein"/>
-    <author fullname="Simon DeLord" initials="S." surname="DeLord"/>
+    <author fullname="Yaakov (J) Stein" initials="Y. J." surname="Stein">
+      <organization/>
+    </author>
+    <author fullname="Simon DeLord" initials="S." surname="DeLord">
+      <organization/>
+    </author>
     <date year="2008" month="September" day="22"/>
     <abstract>
       <t>The dynamic End-to-End Multisegment pseudowire setup requires PEs to maintain a pseudowire routing table when using FEC129. There is a requirement to automatically advertise Attachment Individual Identifiers to enable the pseudowire routing tables to be populated. Two mechanisms already exist, a BGP reachability information distribution mechanism and an IGP based one. Here we define a third solution relying on LDP. It allows for automatic advertisement of the Attachment Individual Identifier prefixes provisioned on a T-PE when this node does not run BGP or IGP. The mechanism described here runs on the T-LDP (Targeted LDP) session between the T-PE and S-PE, and is intended to complement existing PW routing mechanisms using BGP or OSPF.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-delord-jounay-pwe3-ldp-aii-reachability-02"/>
 </reference>

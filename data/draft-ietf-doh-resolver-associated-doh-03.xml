@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-doh-resolver-associated-doh">
   <front>
     <title>Associating a DoH Server with a Resolver</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-doh-resolver-associated-doh-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>Browsers and web applications may want to know if there are one or more DoH servers associated with the DNS recursive resolver that the operating system is already using. This would allow them to get DNS responses from a resolver that the user (or, more likely, the user's network administrator) has already chosen. This document describes two protocols for a resolver to tell a client what its associated DoH servers are. It also describes a protocol for a client to find out the address of the resolver it is using, if it cannot find that address by an operating system API or some other means.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-doh-resolver-associated-doh-03"/>
 </reference>

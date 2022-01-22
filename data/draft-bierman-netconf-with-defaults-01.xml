@@ -1,7 +1,6 @@
 <reference anchor="I-D.bierman-netconf-with-defaults">
   <front>
     <title>With-defaults capability for NETCONF</title>
-    <seriesInfo name="Internet-Draft" value="draft-bierman-netconf-with-defaults-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>The NETCONF protocol defines ways to read configuration data from a NETCONF agent. Part of this data is not set by the NETCONF manager, but rather a default value is used. In many situations the NETCONF manager has a priori knowledge about default data, so the NETCONF agent does not need to send it to the manager. In other situations the NETCONF manger will need this data as part of the NETCONF rpc reply messages. This document defines a capability-based extension to the NETCONF protocol that allows the NETCONF manager to control whether default values are part of NETCONF rpc reply messages.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-bierman-netconf-with-defaults-01"/>
 </reference>

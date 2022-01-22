@@ -1,11 +1,12 @@
 <reference anchor="I-D.touch-tcpm-tcp-syn-ext-opt">
   <front>
     <title>TCP SYN Extended Option Space Using an Out-of-Band Segment</title>
-    <seriesInfo name="Internet-Draft" value="draft-touch-tcpm-tcp-syn-ext-opt-08"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Dr. Joseph D. Touch" initials="J. D." surname="Touch"/>
+    <author fullname="Dr. Joseph D. Touch" initials="J. D." surname="Touch">
+      <organization/>
+    </author>
     <author fullname="Ted Faber" initials="T." surname="Faber">
       <organization>The Aerospace Corporation</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>This document describes an experimental method to extend the option space for connection parameters within the initial TCP SYN segment, at the start of a TCP connection. This method effectively extends the option space of an initial SYN by using an additional coupled segment that is sent 'out-of-band'. It complements the proposed Extended Data Offset (EDO) option that is applicable only after the initial segment.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-touch-tcpm-tcp-syn-ext-opt-08"/>
 </reference>

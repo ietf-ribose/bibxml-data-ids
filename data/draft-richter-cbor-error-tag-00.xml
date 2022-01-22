@@ -1,7 +1,6 @@
 <reference anchor="I-D.richter-cbor-error-tag">
   <front>
     <title>Concise Binary Object Representation (CBOR) Tag for Error Indications</title>
-    <seriesInfo name="Internet-Draft" value="draft-richter-cbor-error-tag-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>The Concise Binary Object Representation (CBOR, RFC 7049) is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation. In CBOR, one point of extensibility is the definition of CBOR tags. While CBOR defines representations for null values and for an undefined value, there is no convention for expressing errors or exceptions in data structures, where the actual value desired could not be calculated due to an error. The present specification defines a tag for such error indications, enabling the addition of varying levels of detail.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-richter-cbor-error-tag-00"/>
 </reference>

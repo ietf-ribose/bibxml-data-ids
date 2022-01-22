@@ -1,20 +1,34 @@
 <reference anchor="I-D.ietf-opsawg-capwap-alt-tunnel">
   <front>
     <title>Alternate Tunnel Encapsulation for Data Frames in CAPWAP</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-opsawg-capwap-alt-tunnel-08"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Rong Zhang" initials="R." surname="Zhang"/>
-    <author fullname="Zhen Cao" initials="Z." surname="Cao"/>
-    <author fullname="DENG Hui" initials="H." surname="Deng"/>
-    <author fullname="Rajesh Pazhyannur" initials="R." surname="Pazhyannur"/>
-    <author fullname="Sri Gundavelli" initials="S." surname="Gundavelli"/>
-    <author fullname="Li Xue" initials="L." surname="Xue"/>
-    <author fullname="Jianjie You" initials="J." surname="You"/>
+    <author fullname="Rong Zhang" initials="R." surname="Zhang">
+      <organization/>
+    </author>
+    <author fullname="Zhen Cao" initials="Z." surname="Cao">
+      <organization/>
+    </author>
+    <author fullname="DENG Hui" initials="H." surname="Deng">
+      <organization/>
+    </author>
+    <author fullname="Rajesh Pazhyannur" initials="R." surname="Pazhyannur">
+      <organization/>
+    </author>
+    <author fullname="Sri Gundavelli" initials="S." surname="Gundavelli">
+      <organization/>
+    </author>
+    <author fullname="Li Xue" initials="L." surname="Xue">
+      <organization/>
+    </author>
+    <author fullname="Jianjie You" initials="J." surname="You">
+      <organization/>
+    </author>
     <date year="2016" month="July"/>
     <abstract>
       <t>Control and Provisioning of Wireless Access Points (CAPWAP) defines a specification to encapsulate a station's data frames between the Wireless Transmission Point (WTP) and Access Controller (AC). Specifically, the station's IEEE 802.11 data frames can be either locally bridged or tunneled to the AC. When tunneled, a CAPWAP data channel is used for tunneling. In many deployments encapsulating data frames to an entity other than the AC (for example to an Access Router (AR)) is desirable. Furthermore, it may also be desirable to use different tunnel encapsulation modes between the WTP and the Access Router. This document defines extension to CAPWAP protocol for supporting this capability and refers to it as alternate tunnel encapsulation. The alternate tunnel encapsulation allows 1) the WTP to tunnel non-management data frames to an endpoint different from the AC and 2) the WTP to tunnel using one of many known encapsulation types such as IP-IP, IP-GRE, CAPWAP. The WTP may advertise support for alternate tunnel encapsulation during the discovery or join process and AC may select one of the supported alternate tunnel encapsulation types while configuring the WTP.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-opsawg-capwap-alt-tunnel-08"/>
 </reference>

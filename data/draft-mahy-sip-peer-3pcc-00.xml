@@ -1,7 +1,6 @@
 <reference anchor="I-D.mahy-sip-peer-3pcc">
   <front>
     <title>Using SIP for Peer-to-Peer Third-Party Call Control</title>
-    <seriesInfo name="Internet-Draft" value="draft-mahy-sip-peer-3pcc-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>The 3rd party call control draft [2] demonstrates a usage of SIP [3] with some of the enhancements of RFC2543bis [4]. This usage requires that a 3pcc controller remain in the signaling path and maintain state for the duration of the call. While this is necessary in certain situations (ex: protocol translation: H.323 [5] to SIP, SIP to RTSP [6], HTTP [7] to SIP), it is sub-optimal in pure SIP environments. This draft demonstrates a usage of the REFER method [8] and SIP for presence [9] to allow authorized peers to participate in call control.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-mahy-sip-peer-3pcc-00"/>
 </reference>

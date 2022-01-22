@@ -1,11 +1,12 @@
 <reference anchor="I-D.murchison-tzdist-tzif">
   <front>
     <title>The Time Zone Information Format (TZif)</title>
-    <seriesInfo name="Internet-Draft" value="draft-murchison-tzdist-tzif-07"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Arthur David Olson" initials="A. D." surname="Olson"/>
+    <author fullname="Arthur David Olson" initials="A. D." surname="Olson">
+      <organization/>
+    </author>
     <author fullname="Paul Eggert" initials="P." surname="Eggert">
       <organization>University of California, Los Angeles</organization>
     </author>
@@ -17,4 +18,5 @@
       <t>This document defines the Time Zone Information Format (TZif) for representing and exchanging time zone information, independent of any particular service or protocol. A MIME media type for this format is also defined. Open Issues o Should we allow TZDIST clients to choose whether they want TZif files with/without leap seconds via separate MIME types? E.g. application/tzif and application/tzif+leap?</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-murchison-tzdist-tzif-07"/>
 </reference>

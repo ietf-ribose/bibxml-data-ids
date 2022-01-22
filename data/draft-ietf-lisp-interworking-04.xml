@@ -1,17 +1,25 @@
 <reference anchor="I-D.ietf-lisp-interworking">
   <front>
     <title>Interworking LISP with IPv4 and IPv6</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-lisp-interworking-04"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Darrel Lewis" initials="D." surname="Lewis"/>
-    <author fullname="David Meyer" initials="D." surname="Meyer"/>
-    <author fullname="Dino Farinacci" initials="D." surname="Farinacci"/>
-    <author fullname="Vince Fuller" initials="V." surname="Fuller"/>
+    <author fullname="Darrel Lewis" initials="D." surname="Lewis">
+      <organization/>
+    </author>
+    <author fullname="David Meyer" initials="D." surname="Meyer">
+      <organization/>
+    </author>
+    <author fullname="Dino Farinacci" initials="D." surname="Farinacci">
+      <organization/>
+    </author>
+    <author fullname="Vince Fuller" initials="V." surname="Fuller">
+      <organization/>
+    </author>
     <date year="2012" month="February" day="17"/>
     <abstract>
       <t>This document describes techniques for allowing sites running the Locator/ID Separation Protocol (LISP) to interoperate with Internet sites (which may be using either IPv4, IPv6, or both) but which are not running LISP. A fundamental property of LISP speaking sites is that they use Endpoint Identifiers (EIDs), rather than traditional IP addresses, in the source and destination fields of all traffic they emit or receive. While EIDs are syntactically identical to IPv4 or IPv6 addresses, normally routes to them are not carried in the global routing system so an interoperability mechanism is needed for non- LISP-speaking sites to exchange traffic with LISP-speaking sites. This document introduces three such mechanisms. The first uses a new network element, the LISP Proxy Ingress Tunnel Routers (PITR) (Section 5) to act as a intermediate LISP Ingress Tunnel Router (ITR) for non-LISP-speaking hosts. Second the document adds Network Address Translation (NAT) functionality to LISP Ingress and LISP Egress Tunnel Routers (xTRs) to substitute routable IP addresses for non-routable EIDs. Finally, this document introduces a Proxy Egress Tunnel Router (PETR) to handle cases where a LISP ITR cannot send packets to non-LISP sites without encapsulation.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lisp-interworking-04"/>
 </reference>

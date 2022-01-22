@@ -1,16 +1,22 @@
 <reference anchor="I-D.ietf-ipsecme-tcp-encaps">
   <front>
     <title>TCP Encapsulation of IKE and IPsec Packets</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-ipsecme-tcp-encaps-10"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Tommy Pauly"/>
-    <author fullname="Samy Touati"/>
-    <author fullname="Ravi Mantha"/>
+    <author fullname="Tommy Pauly">
+      <organization/>
+    </author>
+    <author fullname="Samy Touati">
+      <organization/>
+    </author>
+    <author fullname="Ravi Mantha">
+      <organization/>
+    </author>
     <date year="2017" month="May" day="31"/>
     <abstract>
       <t>This document describes a method to transport Internet Key Exchange Protocol (IKE) and IPsec packets over a TCP connection for traversing network middleboxes that may block IKE negotiation over UDP. This method, referred to as "TCP encapsulation", involves sending both IKE packets for Security Association establishment and Encapsulating Security Payload (ESP) packets over a TCP connection. This method is intended to be used as a fallback option when IKE cannot be negotiated over UDP.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-ipsecme-tcp-encaps-10"/>
 </reference>

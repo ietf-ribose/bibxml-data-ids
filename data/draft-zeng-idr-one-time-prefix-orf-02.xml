@@ -1,19 +1,31 @@
 <reference anchor="I-D.zeng-idr-one-time-prefix-orf">
   <front>
     <title>One-time Address-Prefix Based Outbound Route Filter for BGP-4</title>
-    <seriesInfo name="Internet-Draft" value="draft-zeng-idr-one-time-prefix-orf-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Qing Zeng" initials="Q." surname="Zeng"/>
-    <author fullname="Jie Dong" initials="J." surname="Dong"/>
-    <author fullname="Jakob Heitz" initials="J." surname="Heitz"/>
-    <author fullname="Keyur Patel" initials="K." surname="Patel"/>
-    <author fullname="Rob Shakir" initials="R." surname="Shakir"/>
-    <author fullname="ZhiLan Huang" initials="Z." surname="Huang"/>
+    <author fullname="Qing Zeng" initials="Q." surname="Zeng">
+      <organization/>
+    </author>
+    <author fullname="Jie Dong" initials="J." surname="Dong">
+      <organization/>
+    </author>
+    <author fullname="Jakob Heitz" initials="J." surname="Heitz">
+      <organization/>
+    </author>
+    <author fullname="Keyur Patel" initials="K." surname="Patel">
+      <organization/>
+    </author>
+    <author fullname="Rob Shakir" initials="R." surname="Shakir">
+      <organization/>
+    </author>
+    <author fullname="ZhiLan Huang" initials="Z." surname="Huang">
+      <organization/>
+    </author>
     <date year="2012" month="July" day="16"/>
     <abstract>
       <t>This document defines a new Outbound Router Filter (ORF) type for BGP, termed "One-time Address Prefix Outbound Route Filter", which would allow a BGP speaker to send to its BGP peer a route refresh request with a set of address-prefix-based filters to make the peer re-advertise only the specific routes matching the filters to the speaker. This ORF-type enables a BGP speaker to replay or recover some specific "problematic" routes without requiring its peer to re- advertise the whole Adj-RIB-Out of a specific address family, which makes the trouble shooting operation (such as packets tracking) more efficient and reduces the impact on network stability. This filter does not change the outbound route filters on BGP peers and should only be used for one-time filtering.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-zeng-idr-one-time-prefix-orf-02"/>
 </reference>

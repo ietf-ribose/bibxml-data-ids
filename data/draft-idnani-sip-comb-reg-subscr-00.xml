@@ -1,7 +1,6 @@
 <reference anchor="I-D.idnani-sip-comb-reg-subscr">
   <front>
     <title>SIP Combined Registration and Subscription</title>
-    <seriesInfo name="Internet-Draft" value="draft-idnani-sip-comb-reg-subscr-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -11,10 +10,13 @@
     <author fullname="Thomas Hallin" initials="T." surname="Hallin">
       <organization>Motorola</organization>
     </author>
-    <author fullname="Steven D. Upp" initials="S. D." surname="Upp"/>
+    <author fullname="Steven D. Upp" initials="S. D." surname="Upp">
+      <organization/>
+    </author>
     <date year="2002" month="October"/>
     <abstract>
       <t>This memo proposes that the headers of REGISTER and SUBSCRIBE be combined, so that a REGISTER message can also be treated as an implicit subscription for events. This memo identifies the need for doing this, and then explains how combining the Registration and Subscription solves the problem. It also presents an example flow demonstrating the use of this combined registration and subscription. The headers being combined will be made optional in the REGISTER and SUBSCRIBE messages - depending on where they do not appear as of today - so that backward compatibility is maintained.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-idnani-sip-comb-reg-subscr-00"/>
 </reference>

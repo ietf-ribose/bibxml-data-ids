@@ -1,18 +1,28 @@
 <reference anchor="I-D.osterweil-dane-ipsec">
   <front>
     <title>Opportunistic Encryption with DANE Semantics and IPsec: IPSECA</title>
-    <seriesInfo name="Internet-Draft" value="draft-osterweil-dane-ipsec-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Eric Osterweil" initials="E." surname="Osterweil"/>
-    <author fullname="Glen Wiley" initials="G." surname="Wiley"/>
-    <author fullname="Tomofumi Okubo" initials="T." surname="Okubo"/>
-    <author fullname="Ramana Lavu" initials="R." surname="Lavu"/>
-    <author fullname="Aziz Mohaisen" initials="A." surname="Mohaisen"/>
+    <author fullname="Eric Osterweil" initials="E." surname="Osterweil">
+      <organization/>
+    </author>
+    <author fullname="Glen Wiley" initials="G." surname="Wiley">
+      <organization/>
+    </author>
+    <author fullname="Tomofumi Okubo" initials="T." surname="Okubo">
+      <organization/>
+    </author>
+    <author fullname="Ramana Lavu" initials="R." surname="Lavu">
+      <organization/>
+    </author>
+    <author fullname="Aziz Mohaisen" initials="A." surname="Mohaisen">
+      <organization/>
+    </author>
     <date year="2015" month="March" day="24"/>
     <abstract>
       <t>The query/response transactions of the Domain Name System (DNS) can disclose valuable meta-data about the online activities of DNS' users. The DNS Security Extensions (DNSSEC) provide object-level security, but do not attempt to secure the DNS transaction itself. For example, DNSSEC does not protect against information leakage, and only protects DNS data until the last validating recursive resolver. Stub resolvers are vulnerable to adversaries in the network between themselves and their validating resolver ("the last mile"). This document details a new DANE-like DNS Resource Record (RR) type called IPSECA, and explains how to use it to bootstrap DNS transactions through informing entries in IPsec Security Policy Databases (SPDs) and to subsequently verifying Security Associations (SAs) for OE IPsec tunnels.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-osterweil-dane-ipsec-02"/>
 </reference>

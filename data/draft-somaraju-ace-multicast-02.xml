@@ -1,17 +1,25 @@
 <reference anchor="I-D.somaraju-ace-multicast">
   <front>
     <title>Security for Low-Latency Group Communication</title>
-    <seriesInfo name="Internet-Draft" value="draft-somaraju-ace-multicast-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Abhinav Somaraju"/>
-    <author fullname="Sandeep S. Kumar"/>
-    <author fullname="Hannes Tschofenig "/>
-    <author fullname="Walter Werner"/>
+    <author fullname="Abhinav Somaraju">
+      <organization/>
+    </author>
+    <author fullname="Sandeep S. Kumar">
+      <organization/>
+    </author>
+    <author fullname="Hannes Tschofenig ">
+      <organization/>
+    </author>
+    <author fullname="Walter Werner">
+      <organization/>
+    </author>
     <date year="2016" month="October" day="31"/>
     <abstract>
       <t>Some Internet of Things application domains require secure group communication. This draft describes procedures for authorization, key management, and securing group messages. We specify the usage of object security at the application layer for group communication and assume that CoAP is used as the application layer protocol. The architecture allows the usage of symmetric and asymmetric keys to secure the group messages. The asymmetric key solution provides the ability to uniquely authenticate the source of all group messages and this is the recommended architecture for most applications. However, some applications have strict requirements on latency for group communication (e.g. in non-emergency lighting applications) and it may not always be feasible to use the secure source authenticated architecture. In such applications we recommend the use of dynamically generated symmetric group keys to secure group communications.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-somaraju-ace-multicast-02"/>
 </reference>

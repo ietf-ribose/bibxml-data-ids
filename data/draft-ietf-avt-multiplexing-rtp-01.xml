@@ -1,11 +1,12 @@
 <reference anchor="I-D.ietf-avt-multiplexing-rtp">
   <front>
     <title>Multiplexing Scheme for RTP Flows between Access Routers</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-avt-multiplexing-rtp-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Gregor V. Bochmann" initials="G. V." surname="Bochmann"/>
+    <author fullname="Gregor V. Bochmann" initials="G. V." surname="Bochmann">
+      <organization/>
+    </author>
     <author fullname="Gang Luo" initials="G." surname="Luo">
       <organization>Nortel Networks</organization>
     </author>
@@ -17,4 +18,5 @@
       <t>This draft proposes a light-weight data driven approach for multiplexing low bit rate RTP streams at the edge router of the Internet in order to reduce the RTP/UDP/IP header overhead associated with each RTP stream. Audio packets from different sources in a local access network destined to different users in the same remote access network are multiplexed into one packet, with the original RTP/UDP/IP header of each packet replaced with a mini-header (2 bytes), resulting in a reduction of the overhead. Access routers can use the IP telephony Border Gateway Protocol (TBGP) to exchange the reachability of IP destinations in their domains.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-avt-multiplexing-rtp-01"/>
 </reference>

@@ -1,15 +1,19 @@
 <reference anchor="I-D.huehnlein-credman-spkm">
   <front>
     <title>Credential Management for SPKM</title>
-    <seriesInfo name="Internet-Draft" value="draft-huehnlein-credman-spkm-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="D. Huehnlein" initials="D." surname="Huehnlein"/>
-    <author fullname="H. Schupp" initials="H." surname="Schupp"/>
+    <author fullname="D. Huehnlein" initials="D." surname="Huehnlein">
+      <organization/>
+    </author>
+    <author fullname="H. Schupp" initials="H." surname="Schupp">
+      <organization/>
+    </author>
     <date year="1998" month="March"/>
     <abstract>
       <t>The GSS-API [GSS-API1,2] offers security services independent of underlying mechanisms. A possible GSS-mechanism is the Simple Public Key Mechanism [SPKM]. This paper complements [SPKM] by providing concrete rules for the Credential Management. Our proposal allows beside the standard Credential Management based on X.509v3 [X509v3] and PKIX [PKIX] the self certification of temporary public keys, which may be used to implement a Secure Single Login variant, which works with temporary keys instead of the sensitive long term keys. The benefits of this approach are discussed in [SSLogin] more detailed. Since DL-based signature- and encryption algorithms are very well suited for the efficient generation of the temporary keys we propose two new RECOMMENDED algorithms for SPKM.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-huehnlein-credman-spkm-00"/>
 </reference>

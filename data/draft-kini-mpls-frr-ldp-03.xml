@@ -1,16 +1,22 @@
 <reference anchor="I-D.kini-mpls-frr-ldp">
   <front>
     <title>Fast Re-route using extensions to LDP</title>
-    <seriesInfo name="Internet-Draft" value="draft-kini-mpls-frr-ldp-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Sriganesh Kini"/>
-    <author fullname="Srikanth Narayanan"/>
-    <author fullname="Stephane Litkowski"/>
+    <author fullname="Sriganesh Kini">
+      <organization/>
+    </author>
+    <author fullname="Srikanth Narayanan">
+      <organization/>
+    </author>
+    <author fullname="Stephane Litkowski">
+      <organization/>
+    </author>
     <date year="2012" month="July" day="16"/>
     <abstract>
       <t>Label Distribution Protocol (LDP) is widely deployed to signal Label Switched Paths (LSPs) due to its simple operational model. Since LDP establishes LSPs along IGP routed paths, its failure recovery is gated by the interior gateway protocol's (IGP's) re-convergence. Though some mechanisms exist to do Fast Re-route (FRR) of LDP LSPs, they suffer from significant complexity or lack of full coverage or both. This document describes a method to perform FRR of LDP LSPs that retains the simple operational model of LDP. The goal is to provide 100% coverage for all failure scenarios including Shared Risk Link Group (SRLG) failure with recovery characteristics similar to the methods in Resource Reservation Protocol - Traffic Engineering FRR (RSVP-TE-FRR).</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-kini-mpls-frr-ldp-03"/>
 </reference>

@@ -2,15 +2,19 @@
   <front>
     <title>Traffic restoration in link state protocols using
 neighbor's shortest path</title>
-    <seriesInfo name="Internet-Draft" value="draft-kini-traf-restore-nsp-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Sriganesh Kini" initials="S." surname="Kini"/>
-    <author fullname="Yibin Yang" initials="Y." surname="Yang"/>
+    <author fullname="Sriganesh Kini" initials="S." surname="Kini">
+      <organization/>
+    </author>
+    <author fullname="Yibin Yang" initials="Y." surname="Yang">
+      <organization/>
+    </author>
     <date year="2002" month="April" day="30"/>
     <abstract>
       <t>Traffic recovery time when a link (or node) fails is typically in the order of tens of seconds for a link state IGP. The recovery time is governed by factors like the time it takes to detect an adjacency down, the time taken to propagate link state database changes throughout the network and the time it takes to run the SPF algorithm and install the new routes in the FIB. Till this entire process is complete, traffic in the network can be blackholed. This draft describes a technique to reduce the time for which traffic is blackholed by routing the traffic through a neighbor's shortest path.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-kini-traf-restore-nsp-00"/>
 </reference>

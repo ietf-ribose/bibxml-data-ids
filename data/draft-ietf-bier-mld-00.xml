@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-bier-mld">
   <front>
     <title>BIER Ingress Multicast Flow Overlay using Multicast Listener Discovery Protocols</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-bier-mld-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -14,14 +13,19 @@
     <author fullname="Stig Venaas" initials="S." surname="Venaas">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Cui(Linda) Wang" initials="C." surname="Wang"/>
+    <author fullname="Cui(Linda) Wang" initials="C." surname="Wang">
+      <organization/>
+    </author>
     <author fullname="Zheng Zhang" initials="Z." surname="Zhang">
       <organization>ZTE Corporation</organization>
     </author>
-    <author fullname="Markus Stenberg" initials="M." surname="Stenberg"/>
+    <author fullname="Markus Stenberg" initials="M." surname="Stenberg">
+      <organization/>
+    </author>
     <date year="2017" month="June" day="30"/>
     <abstract>
       <t>This document specifies the ingress part of a multicast flow overlay for BIER networks. Using existing multicast listener discovery protocols, it enables multicast membership information sharing from egress routers, acting as listeners, toward ingress routers, acting as queriers. Ingress routers keep per-egress-router state, used to construct the BIER bit mask associated with IP multicast packets entering the BIER domain.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-bier-mld-00"/>
 </reference>

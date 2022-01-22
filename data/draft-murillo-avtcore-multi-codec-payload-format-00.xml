@@ -1,7 +1,6 @@
 <reference anchor="I-D.murillo-avtcore-multi-codec-payload-format">
   <front>
     <title>Multi Codec RTP payload format</title>
-    <seriesInfo name="Internet-Draft" value="draft-murillo-avtcore-multi-codec-payload-format-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -22,4 +21,5 @@
       <t>RTP Media Chains usually rely on piping encoder output directly to packetizers. Media packetization formats often support a specific codec format and optimize RTP packets generation accordingly. With the development of Selective Forward Unit (SFU) solutions, RTP Media Chains used in WebRTC solutions are increasingly relying on application-specific transforms that sit between encoder and packetizer on one end and between depacketizer and decoder on the other end. These transforms are typically encrypting media content so that the media content is not readable from the SFU, for instance using [SFrame] or [WebRTCInsertableStreams]. In that context, RTP packetizers can no longer expect to use packetization formats that mandate media content to be in a specific codec format. This document provides a solution to that problem by describing a RTP packetization format that can be used for many media content, and how to negotiate use of this format. This document also describes a solution to allow SFUs to continue performing packet routing on top of this RTP packetization format.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-murillo-avtcore-multi-codec-payload-format-00"/>
 </reference>

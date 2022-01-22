@@ -1,15 +1,19 @@
 <reference anchor="I-D.ni-l3vpn-bgp-ext-sd-co-lsp">
   <front>
     <title>BGP Extensions for Service-Driven Co-Routed MPLS Traffic Engineering LSP</title>
-    <seriesInfo name="Internet-Draft" value="draft-ni-l3vpn-bgp-ext-sd-co-lsp-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Hui Ni" initials="H." surname="Ni"/>
-    <author fullname="Zhenbin Li" initials="Z." surname="Li"/>
+    <author fullname="Hui Ni" initials="H." surname="Ni">
+      <organization/>
+    </author>
+    <author fullname="Zhenbin Li" initials="Z." surname="Li">
+      <organization/>
+    </author>
     <date year="2013" month="July"/>
     <abstract>
       <t>In some large scale L3VPN deployment scenarios like mobile backhaul network, it is required that tunnels between two PEs could be setup automatically driven by L3VPN service to reduce manual configuration effort. Moreover the tunnels must be setup co-routed for the goodness of performance monitoring and uniform protection behavior for link failure on two directions. This is described in [I-D.li- mpls-serv-driven-co-lsp-fmwk]. This document introduces a new BGP VT route based on [I-D.ni-bgp-ext-l3vpn-pm]. The route is utilized by on side PE to advertise Tunnel ID to other side PE, so inverse direction co-routed LSPs can be setup based on path information of member LSPs in the first tunnel.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ni-l3vpn-bgp-ext-sd-co-lsp-00"/>
 </reference>

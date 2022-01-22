@@ -1,15 +1,19 @@
 <reference anchor="I-D.ietf-dime-overload-reqs">
   <front>
     <title>Diameter Overload Control Requirements</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-dime-overload-reqs-08"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Eric McMurry" initials="E." surname="McMurry"/>
-    <author fullname="Ben Campbell" initials="B." surname="Campbell"/>
+    <author fullname="Eric McMurry" initials="E." surname="McMurry">
+      <organization/>
+    </author>
+    <author fullname="Ben Campbell" initials="B." surname="Campbell">
+      <organization/>
+    </author>
     <date year="2013" month="July" day="15"/>
     <abstract>
       <t>When a Diameter server or agent becomes overloaded, it needs to be able to gracefully reduce its load, typically by informing clients to reduce sending traffic for some period of time. Otherwise, it must continue to expend resources parsing and responding to Diameter messages, possibly resulting in congestion collapse. The existing Diameter mechanisms, listed in Section 4 are not sufficient for this purpose. This document describes the limitations of the existing mechanisms in Section 5. Requirements for new overload management mechanisms are provided in Section 7.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dime-overload-reqs-08"/>
 </reference>

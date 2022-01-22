@@ -1,7 +1,6 @@
 <reference anchor="I-D.petander-mipshop-bicasthdr">
   <front>
     <title>Bicast packet identification header</title>
-    <seriesInfo name="Internet-Draft" value="draft-petander-mipshop-bicasthdr-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>Bicasting or multicasting of traffic can be used to reduce the impact of a handoff by allowing a Mobile Node to receive a stream via multiple paths simultaneously. However, receiving of multiple copies of the packets may have a negative impact on applications which cannot distinguish duplicate packets. This holds true for all applications using TCP which mistakes the packet duplication from bicasting with congestion and reduces the sending rate drastically. This document specifies an IPv6 destination option header which can be used to identify and discard duplicate copies of bicasted packets.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-petander-mipshop-bicasthdr-00"/>
 </reference>

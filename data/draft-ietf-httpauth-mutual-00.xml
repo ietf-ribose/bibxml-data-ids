@@ -1,19 +1,31 @@
 <reference anchor="I-D.ietf-httpauth-mutual">
   <front>
     <title>Mutual Authentication Protocol for HTTP</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-httpauth-mutual-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Yutaka Oiwa" initials="Y." surname="Oiwa"/>
-    <author fullname="Hajime Watanabe" initials="H." surname="Watanabe"/>
-    <author fullname="Hiromitsu Takagi" initials="H." surname="Takagi"/>
-    <author fullname="Boku Kihara" initials="B." surname="Kihara"/>
-    <author fullname="Tatsuya Hayashi" initials="T." surname="Hayashi"/>
-    <author fullname="Yuichi Ioku" initials="Y." surname="Ioku"/>
+    <author fullname="Yutaka Oiwa" initials="Y." surname="Oiwa">
+      <organization/>
+    </author>
+    <author fullname="Hajime Watanabe" initials="H." surname="Watanabe">
+      <organization/>
+    </author>
+    <author fullname="Hiromitsu Takagi" initials="H." surname="Takagi">
+      <organization/>
+    </author>
+    <author fullname="Boku Kihara" initials="B." surname="Kihara">
+      <organization/>
+    </author>
+    <author fullname="Tatsuya Hayashi" initials="T." surname="Hayashi">
+      <organization/>
+    </author>
+    <author fullname="Yuichi Ioku" initials="Y." surname="Ioku">
+      <organization/>
+    </author>
     <date year="2013" month="July"/>
     <abstract>
       <t>This document specifies a mutual authentication method for the Hyper- text Transport Protocol (HTTP). This method provides a true mutual authentication between an HTTP client and an HTTP server using password-based authentication. Unlike the Basic and Digest authentication methods, the Mutual authentication method specified in this document assures the user that the server truly knows the user's encrypted password. This prevents common phishing attacks: a phishing attacker controlling a fake website cannot convince a user that he authenticated to the genuine website. Furthermore, even when a user authenticates to an illegitimate server, the server cannot gain any information about the user's password. The Mutual authentication method is designed as an extension to the HTTP protocol, and is intended to replace the existing authentication methods used in HTTP (the Basic method, Digest method, and authentication using HTML forms).</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-httpauth-mutual-00"/>
 </reference>

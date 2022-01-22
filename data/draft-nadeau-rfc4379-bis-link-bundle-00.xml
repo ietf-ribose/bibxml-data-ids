@@ -1,7 +1,6 @@
 <reference anchor="I-D.nadeau-rfc4379-bis-link-bundle">
   <front>
     <title>Extensions to RFC4379 in Support of Link Bundles</title>
-    <seriesInfo name="Internet-Draft" value="draft-nadeau-rfc4379-bis-link-bundle-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>This document specifies extensions to MPLS LSP Ping's tracing function as specified in IETF RFC4379 to support link bundle constructs. In particular, we extend the Echo Request packet format to include a new Link Bundle TLV that can contain both the virtual link bundle interface ID, as well as a description of the ECMP algorithm used by said interface. The existing downstream mapping processing algorithm for midpoints is modified to specify that when link bundles are encountered, that the component links should be revealed as would non-component links in the existing algorithm.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-nadeau-rfc4379-bis-link-bundle-00"/>
 </reference>

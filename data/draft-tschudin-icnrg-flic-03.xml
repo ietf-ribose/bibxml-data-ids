@@ -1,15 +1,19 @@
 <reference anchor="I-D.tschudin-icnrg-flic">
   <front>
     <title>File-Like ICN Collection (FLIC)</title>
-    <seriesInfo name="Internet-Draft" value="draft-tschudin-icnrg-flic-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Christian Tschudin"/>
-    <author fullname="Christopher A. Wood"/>
+    <author fullname="Christian Tschudin">
+      <organization/>
+    </author>
+    <author fullname="Christopher A. Wood">
+      <organization/>
+    </author>
     <date year="2017" month="March" day="13"/>
     <abstract>
       <t>This document describes a bare bones "index table"-approach for organizing a set of ICN data objects into a large, File-Like ICN Collection (FLIC). At the core of this collection is a so called manifest which acts as the collection's root node. The manifest contains an index table with pointers, each pointer being a hash value pointing to either a final data block or another index table node.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-tschudin-icnrg-flic-03"/>
 </reference>

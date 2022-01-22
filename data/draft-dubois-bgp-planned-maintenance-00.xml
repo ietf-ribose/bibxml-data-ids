@@ -1,7 +1,6 @@
 <reference anchor="I-D.dubois-bgp-planned-maintenance">
   <front>
     <title>Graceful Shutdown of BGP Sessions</title>
-    <seriesInfo name="Internet-Draft" value="draft-dubois-bgp-planned-maintenance-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>To ease the maintenance of BGP-4 sessions and limit the amount of traffic that is lost during planned maintenance on routers, a specific mechanism is proposed in order to gracefully shutdown a router or a session. It's proposed that a router first withdraw its route to its peer to initiate their convergence. After a timer the router can proceed with the closing of the BGP sessions and consequently remove its peers'routes from it's RIB (Routing Information Base).</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-dubois-bgp-planned-maintenance-00"/>
 </reference>

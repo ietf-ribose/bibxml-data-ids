@@ -1,14 +1,16 @@
 <reference anchor="I-D.ietf-dane-smtp">
   <front>
     <title>Secure SMTP using DNS-Based Authentication of Named Entities (DANE) TLSA records.</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-dane-smtp-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Tony Finch"/>
+    <author fullname="Tony Finch">
+      <organization/>
+    </author>
     <date year="2013" month="February" day="25"/>
     <abstract>
       <t>SMTP has a STARTTLS extension, but (especially in the case of inter- domain mail transfer) it only provides very limited security because it does not specify how to authenticate the server's certificate. This memo specifies how TLSA records in the DNS can be used for proper SMTP server authentication.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dane-smtp-01"/>
 </reference>

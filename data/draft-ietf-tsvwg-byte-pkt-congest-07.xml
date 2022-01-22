@@ -1,15 +1,19 @@
 <reference anchor="I-D.ietf-tsvwg-byte-pkt-congest">
   <front>
     <title>Byte and Packet Congestion Notification</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-byte-pkt-congest-07"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Bob Briscoe" initials="B." surname="Briscoe"/>
-    <author fullname="Jukka Manner" initials="J." surname="Manner"/>
+    <author fullname="Bob Briscoe" initials="B." surname="Briscoe">
+      <organization/>
+    </author>
+    <author fullname="Jukka Manner" initials="J." surname="Manner">
+      <organization/>
+    </author>
     <date year="2012" month="February" day="20"/>
     <abstract>
       <t>This memo concerns dropping or marking packets using active queue management (AQM) such as random early detection (RED) or pre- congestion notification (PCN). We give three strong recommendations: (1) packet size should be taken into account when transports read and respond to congestion indications, (2) packet size should not be taken into account when network equipment creates congestion signals (marking, dropping), and therefore (3) the byte-mode packet drop variant of the RED AQM algorithm that drops fewer small packets should not be used.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-byte-pkt-congest-07"/>
 </reference>

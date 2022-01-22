@@ -1,17 +1,19 @@
 <reference anchor="I-D.kaimindermann-securecryptoconfig">
   <front>
     <title>Secure Crypto Config</title>
-    <seriesInfo name="Internet-Draft" value="draft-kaimindermann-securecryptoconfig-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
     <author fullname="Kai Mindermann" initials="K." surname="Mindermann">
       <organization>iC Consult GmbH</organization>
     </author>
-    <author fullname="Lisa Teis" initials="L." surname="Teis"/>
+    <author fullname="Lisa Teis" initials="L." surname="Teis">
+      <organization/>
+    </author>
     <date year="2020" month="October" day="18"/>
     <abstract>
       <t>Choosing secure cryptography algorithms and their corresponding parameters is difficult. Also, current cryptography APIs cannot change their default configuration which renders them inherently insecure. The Secure Crypto Config provides a method that allows cryptography libraries to change the default cryptography algorithms over time and at the same time stay compatible with previous cryptography operations. This is achieved by combining three things standardized by the Secure Crypto Config: (1) A process that is repeated every two years, where a new set of default configurations for standardized cryptography primitives is published in a specific format. (2) A Secure Crypto Config Interface that describes a common API to use cryptography primitives in software (3) using COSE to derive the parameters from output of cryptography primitives, otherwise future changes of the default configuration would change existing applications behavior.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-kaimindermann-securecryptoconfig-00"/>
 </reference>

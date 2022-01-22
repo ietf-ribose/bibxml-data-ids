@@ -1,11 +1,12 @@
 <reference anchor="I-D.brown-pgp-pfs">
   <front>
     <title>Forward Secrecy Extensions for OpenPGP</title>
-    <seriesInfo name="Internet-Draft" value="draft-brown-pgp-pfs-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Ian Brown" initials="I." surname="Brown"/>
+    <author fullname="Ian Brown" initials="I." surname="Brown">
+      <organization/>
+    </author>
     <author fullname="Ben Laurie" initials="B." surname="Laurie">
       <organization>A.L. Digital Ltd</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>The confidentiality of encrypted data depends on the secrecy of the key needed to decrypt it. If one key is able to decrypt large quantities of data, its compromise will be disastrous. This memo describes three methods for limiting this vulnerability for OpenPGP messages: reducing the lifetime of confidentiality keys; one-time keys; and the additional use of lower-layer security services.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-brown-pgp-pfs-03"/>
 </reference>

@@ -1,11 +1,12 @@
 <reference anchor="I-D.itojun-v6ops-v4mapped-harmful">
   <front>
     <title>IPv4-Mapped Addresses on the Wire Considered Harmful</title>
-    <seriesInfo name="Internet-Draft" value="draft-itojun-v6ops-v4mapped-harmful-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Christopher Y. Metz" initials="C. Y." surname="Metz"/>
+    <author fullname="Christopher Y. Metz" initials="C. Y." surname="Metz">
+      <organization/>
+    </author>
     <author fullname="Jun-ichiro Itoh" initials="J." surname="Itoh">
       <organization>Research Lab</organization>
     </author>
@@ -14,4 +15,5 @@
       <t>The IPv6 Addressing Architecture [Hinden, 1998] defines the 'IPv4-mapped IPv6 address.' These addresses are used in the IPv6 basic API [Gilligan, 1999] to denote IPv4 addresses using AF_INET6 sockets. These addresses are used in protocol proposals such as SIIT [Nordmark, 2000] to denote IPv6 communication using AF_INET6 sockets. Therefore, IPv4-mapped addresses have two different meanings, and they are not distinguishable from the user-land applications. This draft discusses security threats due to this ambiguity of IPv4-mapped address. It also discusses threats due to the additional complexities introduced by IPv4-mapped addresses. Finally, it proposes to resolve these problems by forbidding protocols from using IPv4-mapped addresses for IPv6 communications.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-itojun-v6ops-v4mapped-harmful-02"/>
 </reference>

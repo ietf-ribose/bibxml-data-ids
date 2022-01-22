@@ -1,7 +1,6 @@
 <reference anchor="I-D.nikander-send-ipsec">
   <front>
     <title>Secure Neighbor Discovery using separate CGA extension header</title>
-    <seriesInfo name="Internet-Draft" value="draft-nikander-send-ipsec-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>The Secure Neighbor Discovery (SEND) Working Group has produced an Internet Draft that proposes to use an IPsec AH header that carries both a public key and a signature. However, based on the recent discussion at the mailing lists it seems that such a usage of AH is considered inappropriate at least by some members of the IPSEC WG. In this draft we introduce an alternative method, where a separate extension header is used to carry the public key, and the AH header only contains a signature.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-nikander-send-ipsec-00"/>
 </reference>

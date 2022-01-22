@@ -1,17 +1,19 @@
 <reference anchor="I-D.ietf-ipsec-new-auth">
   <front>
     <title>IP Authentication Header</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-ipsec-new-auth-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
     <author fullname="Stephen Kent" initials="S." surname="Kent">
       <organization>BBN Corp</organization>
     </author>
-    <author fullname="Randall Atkinson" initials="R." surname="Atkinson"/>
+    <author fullname="Randall Atkinson" initials="R." surname="Atkinson">
+      <organization/>
+    </author>
     <date year="1997" month="March" day="28"/>
     <abstract>
       <t>The IP Authentication Header (AH) is used to provide connectionless integrity and data origin authentication for IP datagrams (hereafter referred to as just 'authentication'), and to provide protection against replays. This latter, optional service may be selected when a Security Association is established. AH provides authentication for as much of the IP header as possible, as well as for upper level protocol data. However, some IP header fields may change in transit and the value of these fields, when the packet arrives at the receiver, may not be predictable by the transmitter. The values of such fields cannot be protected by AH. Thus the protection provided to the IP header by AH is somewhat piecemeal.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-ipsec-new-auth-00"/>
 </reference>

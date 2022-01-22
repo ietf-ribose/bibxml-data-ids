@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-lpwan-schc-compound-ack">
   <front>
     <title>SCHC Compound ACK</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-lpwan-schc-compound-ack-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -28,4 +27,5 @@
       <t>The present document describes an extension to the SCHC (Static Header Compression and Fragmentation) protocol [RFC8724]. It defines a SCHC Compound ACK message format, which is intended to reduce the number of downlink transmissions (i.e., SCHC ACKs) by accumulating bitmaps of several windows in a single SCHC message (i.e., the SCHC Compound ACK). The message format is generic, and can be used for instance by any the four LWPAN technologies defined in [RFC8376], being Sigfox, LoRaWAN, NB-IoT and IEEE 802.15.4w.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lpwan-schc-compound-ack-01"/>
 </reference>

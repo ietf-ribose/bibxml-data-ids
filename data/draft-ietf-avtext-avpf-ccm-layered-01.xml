@@ -1,17 +1,25 @@
 <reference anchor="I-D.ietf-avtext-avpf-ccm-layered">
   <front>
     <title>Using Codec Control Messages in the RTP Audio-Visual Profile with Feedback with Layered Codecs</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-avtext-avpf-ccm-layered-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Stephan Wenger" initials="S." surname="Wenger"/>
-    <author fullname="Jonathan Lennox" initials="J." surname="Lennox"/>
-    <author fullname="Bo Burman" initials="B." surname="Burman"/>
-    <author fullname="Magnus Westerlund" initials="M." surname="Westerlund"/>
+    <author fullname="Stephan Wenger" initials="S." surname="Wenger">
+      <organization/>
+    </author>
+    <author fullname="Jonathan Lennox" initials="J." surname="Lennox">
+      <organization/>
+    </author>
+    <author fullname="Bo Burman" initials="B." surname="Burman">
+      <organization/>
+    </author>
+    <author fullname="Magnus Westerlund" initials="M." surname="Westerlund">
+      <organization/>
+    </author>
     <date year="2016" month="May" day="17"/>
     <abstract>
       <t>This document fixes a shortcoming in the specification language of the Codec Control Message Full Intra Request (FIR) as defined in RFC5104 when using with layered codecs. In particular, a Decoder Refresh Point needs to be sent by a media sender when a FIR is received on any layer of the layered bitstream, regardless on whether those layers are being sent in a single or in multiple RTP flows. The other payload-specific feedback messages defined in RFC 5104 and RFC 4585 as updated by RFC 5506 have also been analyzed, and no corresponding shortcomings have been found.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-avtext-avpf-ccm-layered-01"/>
 </reference>

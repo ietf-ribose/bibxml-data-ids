@@ -1,15 +1,19 @@
 <reference anchor="I-D.ietf-appsawg-http-forwarded">
   <front>
     <title>Forwarded HTTP Extension</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-appsawg-http-forwarded-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Andreas Petersson" initials="A." surname="Petersson"/>
-    <author fullname="Martin Nilsson" initials="M." surname="Nilsson"/>
+    <author fullname="Andreas Petersson" initials="A." surname="Petersson">
+      <organization/>
+    </author>
+    <author fullname="Martin Nilsson" initials="M." surname="Nilsson">
+      <organization/>
+    </author>
     <date year="2012" month="April" day="20"/>
     <abstract>
       <t>This document standardizes an HTTP extension header field that allows proxy components to disclose information lost in the proxying process, e.g., the originating IP address of a request or IP number of the proxy on the user-agent facing interface. Given a trusted path of proxying components, this makes it possible to arrange so that each subsequent component will have access to e.g., all IP addresses used in the chain of proxied HTTP requests. This document also specifies guidelines for a proxy administrator to anonymize the origin of a request.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-appsawg-http-forwarded-02"/>
 </reference>

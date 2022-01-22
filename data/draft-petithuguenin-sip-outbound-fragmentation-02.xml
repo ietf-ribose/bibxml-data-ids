@@ -1,14 +1,16 @@
 <reference anchor="I-D.petithuguenin-sip-outbound-fragmentation">
   <front>
     <title>Preventing Fragmentation for Client Initiated Connections in the Session Initiation Protocol (SIP)</title>
-    <seriesInfo name="Internet-Draft" value="draft-petithuguenin-sip-outbound-fragmentation-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Marc Petit-Huguenin" initials="M." surname="Petit-Huguenin"/>
+    <author fullname="Marc Petit-Huguenin" initials="M." surname="Petit-Huguenin">
+      <organization/>
+    </author>
     <date year="2007" month="March"/>
     <abstract>
       <t>There is cases when a Session Initiation Protocol (SIP) client can initiate a bidirectional UDP stream or a TCP connection to a SIP server but the SIP server cannot do the same in the other direction. The server can reuse the existing bidirectional UDP stream or TCP connection but cannot use a TCP connection if the client chose to use a bidirectional UDP stream. This document described a method to force the client to initiate a TCP connection to the server.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-petithuguenin-sip-outbound-fragmentation-02"/>
 </reference>

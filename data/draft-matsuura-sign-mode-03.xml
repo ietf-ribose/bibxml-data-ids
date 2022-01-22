@@ -1,15 +1,19 @@
 <reference anchor="I-D.matsuura-sign-mode">
   <front>
     <title>A revised signature mode for the Internet Key Exchange</title>
-    <seriesInfo name="Internet-Draft" value="draft-matsuura-sign-mode-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Kanta Matsuura" initials="K." surname="Matsuura"/>
-    <author fullname="Hideki Imai" initials="H." surname="Imai"/>
+    <author fullname="Kanta Matsuura" initials="K." surname="Matsuura">
+      <organization/>
+    </author>
+    <author fullname="Hideki Imai" initials="H." surname="Imai">
+      <organization/>
+    </author>
     <date year="2000" month="March"/>
     <abstract>
       <t>Phase 1 of the Internet Key Exchange (IKE) [HC98] has several modes with different number of message passes. For those who want to save their bandwidth, three-pass Aggressive Mode is a good choice since it has minimal number of message passes in Phase 1. The public-key primitive method in Aggressive Mode provides significant security advantages over the other alternatives and should be the method of choice in many implementations. In this method, however, the responder must pay computational cost as expensive as modular exponentiation BEFORE identifying the initiator. This feature can be abused by malicious initiators for a Denial-of-Service (DoS) attack. The purpose of this document is to solve this problem in digital-signature method by using falling- together (FT) mechanism [MI98], [MI99] in conjunction with stateless-connection technique [AN97] and an appropriate use of Cookies [KS99].</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-matsuura-sign-mode-03"/>
 </reference>

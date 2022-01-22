@@ -2,12 +2,15 @@
   <front>
     <title>Extensions to OSPF-TE for supporting shared mesh restoration
 </title>
-    <seriesInfo name="Internet-Draft" value="draft-yagyu-gmpls-shared-restoration-routing-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Tomohiko Yagyu" initials="T." surname="Yagyu"/>
-    <author fullname="Yoshihiko Suemura" initials="Y." surname="Suemura"/>
+    <author fullname="Tomohiko Yagyu" initials="T." surname="Yagyu">
+      <organization/>
+    </author>
+    <author fullname="Yoshihiko Suemura" initials="Y." surname="Suemura">
+      <organization/>
+    </author>
     <author fullname="Aleksandar Kolarov" initials="A." surname="Kolarov">
       <organization>NEC Corporation</organization>
     </author>
@@ -16,4 +19,5 @@
       <t>Shared mesh restoration technique efficiently uses network resources since restoration capacity is shared across multiple independent failures. In this scheme, when a new working LSP is established, its corresponding backup LSP is pre-calculated and resources along the restoration route are reserved. The resources reserved on each link along the restoration path may be shared across different working LSPs that are not expected to fail simultaneously. To make the method for selection of backup LSPs more efficient in terms of utilization of network resources, each link should provide the route calculator with information about its restoration capacity and SRLGs of working LSPs whose backup LSPs share the link restoration capacity. In this document we propose extensions to OSPF-TE in support of carrying link 'Sharable Bandwidth' information.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-yagyu-gmpls-shared-restoration-routing-00"/>
 </reference>

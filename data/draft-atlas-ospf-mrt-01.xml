@@ -1,17 +1,25 @@
 <reference anchor="I-D.atlas-ospf-mrt">
   <front>
     <title>OSPF Extensions to Support Maximally Redundant Trees</title>
-    <seriesInfo name="Internet-Draft" value="draft-atlas-ospf-mrt-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Alia Atlas" initials="A." surname="Atlas"/>
-    <author fullname="Shraddha Hegde" initials="S." surname="Hegde"/>
-    <author fullname="Chris Bowers" initials="C." surname="Bowers"/>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura"/>
+    <author fullname="Alia Atlas" initials="A." surname="Atlas">
+      <organization/>
+    </author>
+    <author fullname="Shraddha Hegde" initials="S." surname="Hegde">
+      <organization/>
+    </author>
+    <author fullname="Chris Bowers" initials="C." surname="Bowers">
+      <organization/>
+    </author>
+    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+      <organization/>
+    </author>
     <date year="2013" month="October" day="21"/>
     <abstract>
       <t>This document specifies extensions to OSPF to support the distributed computation of Maximally Redundant Trees (MRT). Some example uses of the MRTs include IP/LDP Fast-Reroute and global protection or live- live for multicast traffic. The extensions indicate what MRT profile(s) each router supports. Different MRT profiles can be defined to support different uses and to allow transitioning of capabilities. An extension is introduced to flood MRT-Ineligible links, due to administrative policy. The need for a mechanism to allow routers to advertise a worst-case FIB compute/install time is well understood for controlling convergence. This specification introduces the Controlled Convergence TLV to be carried in the Router Information LSA.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-atlas-ospf-mrt-01"/>
 </reference>

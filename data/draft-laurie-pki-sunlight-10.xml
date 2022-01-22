@@ -1,16 +1,22 @@
 <reference anchor="I-D.laurie-pki-sunlight">
   <front>
     <title>Certificate Transparency</title>
-    <seriesInfo name="Internet-Draft" value="draft-laurie-pki-sunlight-10"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Ben Laurie" initials="B." surname="Laurie"/>
-    <author fullname="Adam Langley" initials="A." surname="Langley"/>
-    <author fullname="Emilia Kasper" initials="E." surname="Kasper"/>
+    <author fullname="Ben Laurie" initials="B." surname="Laurie">
+      <organization/>
+    </author>
+    <author fullname="Adam Langley" initials="A." surname="Langley">
+      <organization/>
+    </author>
+    <author fullname="Emilia Kasper" initials="E." surname="Kasper">
+      <organization/>
+    </author>
     <date year="2013" month="April" day="16"/>
     <abstract>
       <t>This document describes an experimental protocol for publicly logging the existence of TLS certificates as they are issued or observed, in a manner that allows anyone to audit certificate authority activity and notice the issuance of suspect certificates, as well as to audit the certificate logs themselves. The intent is that eventually clients would refuse to honor certificates which do not appear in a log, effectively forcing CAs to add all issued certificates to the logs. Logs are network services which implement the protocol operations for submissions and queries that are defined in this document.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-laurie-pki-sunlight-10"/>
 </reference>

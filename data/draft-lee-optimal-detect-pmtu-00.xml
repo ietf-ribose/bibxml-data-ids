@@ -1,14 +1,16 @@
 <reference anchor="I-D.lee-optimal-detect-pmtu">
   <front>
     <title>Optimal Detecting Increases in PMTU</title>
-    <seriesInfo name="Internet-Draft" value="draft-lee-optimal-detect-pmtu-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Ho John Lee" initials="H. J." surname="Lee"/>
+    <author fullname="Ho John Lee" initials="H. J." surname="Lee">
+      <organization/>
+    </author>
     <date year="2002" month="October"/>
     <abstract>
       <t>This document presents a new method for the detection of increases in PMTU using the newly defined Hop-by-Hop option header. To detect increases in a path's PMTU, a node does not increase its assumed PMTU unconditionally without considering network status, but measures its real PMTU, and then replaces the previous PMTU with new one. To measure node's real PMTU, the node sends the IP packet with the newly defined Hop-by-Hop option header to the destination node right before a timer expires. This can eliminate the chance of occurrence of packets being discarded and Packet Too Big messages being generated.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-lee-optimal-detect-pmtu-00"/>
 </reference>

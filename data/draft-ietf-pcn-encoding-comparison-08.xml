@@ -1,19 +1,31 @@
 <reference anchor="I-D.ietf-pcn-encoding-comparison">
   <front>
     <title>Overview of Pre-Congestion Notification Encoding</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-pcn-encoding-comparison-08"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Georgios Karagiannis" initials="G." surname="Karagiannis"/>
-    <author fullname="Kwok Ho Chan" initials="K. H." surname="Chan"/>
-    <author fullname="Toby Moncaster" initials="T." surname="Moncaster"/>
-    <author fullname="Michael Menth" initials="M." surname="Menth"/>
-    <author fullname="Philip Eardley" initials="P." surname="Eardley"/>
-    <author fullname="Bob Briscoe" initials="B." surname="Briscoe"/>
+    <author fullname="Georgios Karagiannis" initials="G." surname="Karagiannis">
+      <organization/>
+    </author>
+    <author fullname="Kwok Ho Chan" initials="K. H." surname="Chan">
+      <organization/>
+    </author>
+    <author fullname="Toby Moncaster" initials="T." surname="Moncaster">
+      <organization/>
+    </author>
+    <author fullname="Michael Menth" initials="M." surname="Menth">
+      <organization/>
+    </author>
+    <author fullname="Philip Eardley" initials="P." surname="Eardley">
+      <organization/>
+    </author>
+    <author fullname="Bob Briscoe" initials="B." surname="Briscoe">
+      <organization/>
+    </author>
     <date year="2012" month="February"/>
     <abstract>
       <t>The objective of Pre-Congestion Notification (PCN) is to protect the quality of service (QoS) of inelastic flows within a Diffserv domain. On every link in the PCN domain, the overall rate of the PCN-traffic is metered, and PCN-packets are appropriately marked when certain configured rates are exceeded. Egress nodes provide decision points with information about the PCN-marks of PCN-packets which allows them to take decisions about whether to admit or block a new flow request, and to terminate some already admitted flows during serious pre- congestion. The PCN Working Group explored a number of approaches for encoding this pre-congestion information into the IP header. This document provides details of all those approaches along with an explanation of the constraints that had to be met by any solution.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-pcn-encoding-comparison-08"/>
 </reference>

@@ -1,7 +1,6 @@
 <reference anchor="I-D.salgado-dnsop-rrserial">
   <front>
     <title>The "RRSERIAL" EDNS option for the SOA serial of a RR's zone</title>
-    <seriesInfo name="Internet-Draft" value="draft-salgado-dnsop-rrserial-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>The "RRSERIAL" EDNS option allows a DNS querier to request a DNS authoritative server to add an EDNS option in the answer of such query with the SOA serial number field of the origin zone which contains the answered Resource Record. This "RRSERIAL" data allows to debug and diagnose problems by helping to recognize the data source of an answer in an atomic single query, by associating the response with a respective zone version.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-salgado-dnsop-rrserial-01"/>
 </reference>

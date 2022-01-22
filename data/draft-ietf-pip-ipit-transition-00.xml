@@ -1,14 +1,16 @@
 <reference anchor="I-D.ietf-pip-ipit-transition">
   <front>
     <title>IP Independent Transition (IPIT) for Pip</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-pip-ipit-transition-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Paul Francis" initials="P." surname="Francis"/>
+    <author fullname="Paul Francis" initials="P." surname="Francis">
+      <organization/>
+    </author>
     <date year="1993" month="July"/>
     <abstract>
       <t>This document outlines a transition scheme for moving from IP to Pip. While this document discusses Pip in particular, it could be applied to any IPng. The transition scheme discussed here is called IPIT, for IP Independent Transition. It has been developed to address problems with the IPAE transition scheme, after which the previous Pip transition scheme was based. The shortcomings of IPAE stem from its reliance on IP addresses during the first phases of transition. The result is that IP-only hosts will not be able to talk globally to IPng hosts after IP addresses have depleted (they will only be able to talk intra-domain). IPIT allows new Pip systems to talk to IP systems without a globally unique IP address. As a result, IP address depletion is less likely with IPIT, and IP-only hosts will be able to talk to Pip hosts forever. In this sense, IPIT is as much a co-existence scheme as it is a transition scheme.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-pip-ipit-transition-00"/>
 </reference>

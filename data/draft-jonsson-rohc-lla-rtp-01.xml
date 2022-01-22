@@ -1,17 +1,19 @@
 <reference anchor="I-D.jonsson-rohc-lla-rtp">
   <front>
     <title>A Link-Layer Assisted ROHC Profile for IP/UDP/RTP</title>
-    <seriesInfo name="Internet-Draft" value="draft-jonsson-rohc-lla-rtp-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
     <author fullname="Lars-Erik Jonsson" initials="L." surname="Jonsson">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Ghyslain Pelletier" initials="G." surname="Pelletier"/>
+    <author fullname="Ghyslain Pelletier" initials="G." surname="Pelletier">
+      <organization/>
+    </author>
     <date year="2001" month="July" day="24"/>
     <abstract>
       <t>This document defines a ROHC profile for compression of IP/UDP/RTP packets, utilizing functionality provided by the lower layer to increase compression efficiency by completely eliminating the header for most packets during normal operation. The profile is built as an extension to the ROHC RTP profile [ROHC]. It defines additional mechanisms needed in ROHC, states requirements on the lower layer to guarantee transparency, and specifies general logic for compression and decompression making use of this header-free packet.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-jonsson-rohc-lla-rtp-01"/>
 </reference>

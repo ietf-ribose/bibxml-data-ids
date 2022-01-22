@@ -1,18 +1,28 @@
 <reference anchor="I-D.ietf-trill-resilient-trees">
   <front>
     <title>TRILL Resilient Distribution Trees</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-trill-resilient-trees-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Mingui Zhang" initials="M." surname="Zhang"/>
-    <author fullname="Tissa Senevirathne" initials="T." surname="Senevirathne"/>
-    <author fullname="Janardhanan Pathangi" initials="J." surname="Pathangi"/>
-    <author fullname="Ayan Banerjee" initials="A." surname="Banerjee"/>
-    <author fullname="Anoop Ghanwani" initials="A." surname="Ghanwani"/>
+    <author fullname="Mingui Zhang" initials="M." surname="Zhang">
+      <organization/>
+    </author>
+    <author fullname="Tissa Senevirathne" initials="T." surname="Senevirathne">
+      <organization/>
+    </author>
+    <author fullname="Janardhanan Pathangi" initials="J." surname="Pathangi">
+      <organization/>
+    </author>
+    <author fullname="Ayan Banerjee" initials="A." surname="Banerjee">
+      <organization/>
+    </author>
+    <author fullname="Anoop Ghanwani" initials="A." surname="Ghanwani">
+      <organization/>
+    </author>
     <date year="2014" month="June" day="19"/>
     <abstract>
       <t>TRILL protocol provides multicast data forwarding based on IS-IS link state routing. Distribution trees are computed based on the link state information through Shortest Path First calculation. When a link on the distribution tree fails, a campus-wide recovergence of this distribution tree will take place, which can be time consuming and may cause considerable disruption to the ongoing multicast service. This document specifies how to build backup distribution trees to protect links on the primary distribution tree. Since the backup distribution tree is built up ahead of the link failure, when a link on the primary distribution tree fails, the pre-installed backup forwarding table will be utilized to deliver multicast packets without waiting for the campus-wide recovergence. This minimizes the service disruption. This document updates RFC 6325.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-trill-resilient-trees-01"/>
 </reference>

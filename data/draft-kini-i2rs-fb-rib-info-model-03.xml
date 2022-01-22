@@ -1,20 +1,34 @@
 <reference anchor="I-D.kini-i2rs-fb-rib-info-model">
   <front>
     <title>Filter-Based RIB Information Model</title>
-    <seriesInfo name="Internet-Draft" value="draft-kini-i2rs-fb-rib-info-model-03"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Sriganesh Kini"/>
-    <author fullname="Susan Hares"/>
-    <author fullname="Linda Dunbar"/>
-    <author fullname="Anoop Ghanwani"/>
-    <author fullname="Ram Krishnan"/>
-    <author fullname="Dean Bogdanovic"/>
-    <author fullname="Russ White"/>
+    <author fullname="Sriganesh Kini">
+      <organization/>
+    </author>
+    <author fullname="Susan Hares">
+      <organization/>
+    </author>
+    <author fullname="Linda Dunbar">
+      <organization/>
+    </author>
+    <author fullname="Anoop Ghanwani">
+      <organization/>
+    </author>
+    <author fullname="Ram Krishnan">
+      <organization/>
+    </author>
+    <author fullname="Dean Bogdanovic">
+      <organization/>
+    </author>
+    <author fullname="Russ White">
+      <organization/>
+    </author>
     <date year="2016" month="February"/>
     <abstract>
       <t>This document defines an information model associated with the I2RS ephemeral state for filter-based routing of IP packets via a Filter- based Routing Information Base (FB-RIB). FB-RIBs (ephemeral and non- ephemeral) are associated with specific interfaces interfaces on a routing device, and process packets received on these interfaces according a filtering policy. A filtering policy is a a minimalistic event-match_condition-action (ECA) policy with only one event - the reception of a frame/packet of data on an interface. The match conditions in the filter policy are n-tuple matches based on the content of the frame/packet or the time of its arrival. Filter-based policy allows actions which modifying the frame/packet, forward the frame or packet, or drop the frame/packet. Filter-Based Policy in FB-RIBs engages before any destination based routing so the FB-RIBs provide a destination-based default RIB that will be used if none of the filters are matched.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-kini-i2rs-fb-rib-info-model-03"/>
 </reference>

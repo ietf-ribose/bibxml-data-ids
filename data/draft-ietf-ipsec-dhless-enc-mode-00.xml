@@ -1,14 +1,15 @@
 <reference anchor="I-D.ietf-ipsec-dhless-enc-mode">
   <front>
     <title>A DH-less encryption mode for IKE</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-ipsec-dhless-enc-mode-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
     <author fullname="Dr. Hugo Krawczyk" initials="H." surname="Krawczyk">
       <organization>IBM Research and the Technion</organization>
     </author>
-    <author fullname="Pau-Chen Cheng" initials="P." surname="Cheng"/>
+    <author fullname="Pau-Chen Cheng" initials="P." surname="Cheng">
+      <organization/>
+    </author>
     <author fullname="Ran Canetti" initials="R." surname="Canetti">
       <organization>P. Cheng</organization>
     </author>
@@ -17,4 +18,5 @@
       <t>This draft describes a ``DH-less'' version of the (revised) public-key encryption mode of [HC98]. This saves the DH exponentiation, which may be significant (especially on low-end machines and busy servers). The proposed mode is VERY similar to the existing modes and requires only minimal modifications. In particular, it is straightforward to implement as an addition to the existing modes.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-ipsec-dhless-enc-mode-00"/>
 </reference>

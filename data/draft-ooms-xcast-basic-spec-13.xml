@@ -1,7 +1,6 @@
 <reference anchor="I-D.ooms-xcast-basic-spec">
   <front>
     <title>Explicit Multicast (Xcast) Concepts and Options</title>
-    <seriesInfo name="Internet-Draft" value="draft-ooms-xcast-basic-spec-13"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -11,7 +10,9 @@
     <author fullname="Nancy Feldman" initials="N." surname="Feldman">
       <organization>IBM</organization>
     </author>
-    <author fullname="Yuji Imai" initials="Y." surname="Imai"/>
+    <author fullname="Yuji Imai" initials="Y." surname="Imai">
+      <organization/>
+    </author>
     <author fullname="Wim P. Livens" initials="W. P." surname="Livens">
       <organization>ESCAUX</organization>
     </author>
@@ -23,4 +24,5 @@
       <t>While traditional IP multicast schemes (RFC 1112) are scalable for very large multicast groups, they have scalability issues with a very large number of distinct multicast groups. This document describes Xcast (Explicit Multi-unicast), a new multicast scheme with complementary scaling properties: Xcast supports a very large number of small multicast sessions. Xcast achieves this by explicitly encoding the list of destinations in the data packets, instead of using a multicast group address. This document discusses Xcast concepts and options in several areas; it does not provide a complete technical specification. This memo defines an Experimental Protocol for the Internet community.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ooms-xcast-basic-spec-13"/>
 </reference>

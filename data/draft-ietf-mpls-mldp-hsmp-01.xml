@@ -1,17 +1,25 @@
 <reference anchor="I-D.ietf-mpls-mldp-hsmp">
   <front>
     <title>LDP Extensions for Hub &amp; Spoke Multipoint Label Switched Path</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-mldp-hsmp-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Lizhong Jin" initials="L." surname="Jin"/>
-    <author fullname="Frederic JOUNAY" initials="F." surname="JOUNAY"/>
-    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands"/>
-    <author fullname="Nicolai Leymann" initials="N." surname="Leymann"/>
+    <author fullname="Lizhong Jin" initials="L." surname="Jin">
+      <organization/>
+    </author>
+    <author fullname="Frederic JOUNAY" initials="F." surname="JOUNAY">
+      <organization/>
+    </author>
+    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
+      <organization/>
+    </author>
+    <author fullname="Nicolai Leymann" initials="N." surname="Leymann">
+      <organization/>
+    </author>
     <date year="2013" month="April" day="19"/>
     <abstract>
       <t>This draft introduces a hub &amp; spoke multipoint LSP (short for HSMP LSP), which allows traffic both from root to leaf through P2MP LSP and also leaf to root along the co-routed reverse path. That means traffic entering the HSMP LSP from application/customer at the root node travels downstream, exactly as if it was traveling downstream along a P2MP LSP to each leaf node, and traffic entering the HSMP LSP at any leaf node travels upstream along the tree to the root as if it is unicast to the root, except that it follows the path of the tree rather than ordinary unicast to the root.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-mldp-hsmp-01"/>
 </reference>

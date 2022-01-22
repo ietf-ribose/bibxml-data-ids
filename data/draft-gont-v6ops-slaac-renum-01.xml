@@ -1,14 +1,15 @@
 <reference anchor="I-D.gont-v6ops-slaac-renum">
   <front>
     <title>Reaction of Stateless Address Autoconfiguration (SLAAC) to Flash- Renumbering Events</title>
-    <seriesInfo name="Internet-Draft" value="draft-gont-v6ops-slaac-renum-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
     <author fullname="Fernando Gont" initials="F." surname="Gont">
       <organization>SI6 Networks</organization>
     </author>
-    <author fullname="Jan Zorz" initials="J." surname="Zorz"/>
+    <author fullname="Jan Zorz" initials="J." surname="Zorz">
+      <organization/>
+    </author>
     <author fullname="Richard Patterson" initials="R." surname="Patterson">
       <organization>Sky UK</organization>
     </author>
@@ -17,4 +18,5 @@
       <t>In scenarios where network configuration information related to IPv6 prefixes becomes invalid without any explicit signaling of that condition (such as when a CPE crashes and reboots without knowledge of the previously-employed prefixes), nodes on the local network will continue using stale prefixes for an unacceptably long period of time, thus resulting in connectivity problems. This document documents this problem, and discusses operational workarounds that may help to improve network robustness. Additionally, it highlights areas where further work may be needed.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-gont-v6ops-slaac-renum-01"/>
 </reference>

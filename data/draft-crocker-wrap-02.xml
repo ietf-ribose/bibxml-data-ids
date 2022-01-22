@@ -1,14 +1,16 @@
 <reference anchor="I-D.crocker-wrap">
   <front>
     <title>Wrapping MIME Objects:  Application/MIME</title>
-    <seriesInfo name="Internet-Draft" value="draft-crocker-wrap-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Dave Crocker" initials="D." surname="Crocker"/>
+    <author fullname="Dave Crocker" initials="D." surname="Crocker">
+      <organization/>
+    </author>
     <date year="1998" month="March" day="17"/>
     <abstract>
       <t>MIME is a general-purpose mechanism for labeling and aggregating objects into complex hierarchies. Some MIME objects are discrete objects. If placed within another MIME hierarchy, they need to appear as a leaf node in the containing hierarchy, rather than seeming to be continuations of that hierarchy. This specification defines Content-type Application/MIME to provide an encapsulation mechanism for arbitrary MIME structures. This facilitates their treatment as a single unit, rather than causing them to be treated as part of any containing MIME hierarchy.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-crocker-wrap-02"/>
 </reference>

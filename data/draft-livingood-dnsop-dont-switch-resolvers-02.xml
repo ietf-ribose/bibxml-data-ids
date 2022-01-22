@@ -1,14 +1,16 @@
 <reference anchor="I-D.livingood-dnsop-dont-switch-resolvers">
   <front>
     <title>In Case of DNSSEC Validation Failures, Do Not Change Resolvers</title>
-    <seriesInfo name="Internet-Draft" value="draft-livingood-dnsop-dont-switch-resolvers-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Jason Livingood" initials="J." surname="Livingood"/>
+    <author fullname="Jason Livingood" initials="J." surname="Livingood">
+      <organization/>
+    </author>
     <date year="2015" month="May"/>
     <abstract>
       <t>DNS Security Extensions (DNSSEC) are being widely deployed, particularly via validating resolvers. However, domain signing tools and processes are not yet as mature and reliable as is the case for non-DNSSEC-related domain administration tools and processes. As a result, some DNSSEC validation failures may occur. When these failures do occur, end users should not change to a non-validating DNS resolver.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-livingood-dnsop-dont-switch-resolvers-02"/>
 </reference>

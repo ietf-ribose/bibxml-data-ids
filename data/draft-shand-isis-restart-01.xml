@@ -1,7 +1,6 @@
 <reference anchor="I-D.shand-isis-restart">
   <front>
     <title>Restart signaling for ISIS</title>
-    <seriesInfo name="Internet-Draft" value="draft-shand-isis-restart-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>The IS-IS routing protocol (RFC 1142 [2], ISO/IEC 10589 [3]) is a link state intra-domain routing protocol. Normally, when an IS-IS router is re-started, the neighboring routers detect the restart event and cycle their adjacencies with the restarting router through the down state. This is necessary in order to invoke the protocol mechanisms to ensure correct re-synchronization of the LSP database. However, the cycling of the adjacency state causes the neighbors to regenerate their LSPs describing the adjacency concerned. This in turn causes temporary disruption of routes passing through the restarting router.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-shand-isis-restart-01"/>
 </reference>

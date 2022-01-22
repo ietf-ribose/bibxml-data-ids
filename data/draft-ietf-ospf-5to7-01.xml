@@ -1,14 +1,16 @@
 <reference anchor="I-D.ietf-ospf-5to7">
   <front>
     <title>Type 5 to Type 7 Translation</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-5to7-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Dr. Patrick W. Murphy" initials="P. W." surname="Murphy"/>
+    <author fullname="Dr. Patrick W. Murphy" initials="P. W." surname="Murphy">
+      <organization/>
+    </author>
     <date year="2002" month="March"/>
     <abstract>
       <t>This memo documents an extension to OSPF which allows area border routers to translate Type 5 LSAs into Type 7 LSAs with aggregation. Type 7 LSAs, which are translations of Type 5 LSAs, are flooded into Not-So-Stubby areas (NSSAs). All differences, while expanding capability, are backward compatible in nature. NSSA Border routers which run implementations of this memo will interoperate with other NSSA routers which do not. This option is only applicable on a border router with at least one directly attached NSSA.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-5to7-01"/>
 </reference>

@@ -1,16 +1,22 @@
 <reference anchor="I-D.ietf-ipsec-isakmp-hybrid-auth">
   <front>
     <title>A Hybrid Authentication Mode for IKE</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-ipsec-isakmp-hybrid-auth-05"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Moshe Litvin" initials="M." surname="Litvin"/>
-    <author fullname="Roy Shamir" initials="R." surname="Shamir"/>
-    <author fullname="Tamir Zegman" initials="T." surname="Zegman"/>
+    <author fullname="Moshe Litvin" initials="M." surname="Litvin">
+      <organization/>
+    </author>
+    <author fullname="Roy Shamir" initials="R." surname="Shamir">
+      <organization/>
+    </author>
+    <author fullname="Tamir Zegman" initials="T." surname="Zegman">
+      <organization/>
+    </author>
     <date year="2000" month="August" day="10"/>
     <abstract>
       <t>This document describes a set of new authentication methods to be used within Phase 1 of the Internet Key Exchange (IKE). The proposed methods assume an asymmetry between the authenticating entities. One entity, typically an Edge Device (e.g. firewall), authenticates using standard public key techniques (in signature mode), while the other entity, typically a remote User, authenticates using challenge response techniques. These authentication methods are used to establish, at the end of Phase 1, an IKE SA which is unidirectionally authenticated. To make this IKE bi-directionally authenticated, this Phase 1 is immediately followed by an X-Auth Exchange [XAUTH]. The X-Auth Exchange is used to authenticate the remote User. The use of these authentication methods is referred to as Hybrid Authentication mode. This proposal is designed to provide a solution for environments where a legacy authentication system exists, yet a full public key infrastructure is not deployed.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-ipsec-isakmp-hybrid-auth-05"/>
 </reference>

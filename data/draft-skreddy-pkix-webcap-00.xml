@@ -1,14 +1,16 @@
 <reference anchor="I-D.skreddy-pkix-webcap">
   <front>
     <title>WEB based Certificate Access Protocol-- WebCAP/1.0</title>
-    <seriesInfo name="Internet-Draft" value="draft-skreddy-pkix-webcap-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Surendra Reddy" initials="S." surname="Reddy"/>
+    <author fullname="Surendra Reddy" initials="S." surname="Reddy">
+      <organization/>
+    </author>
     <date year="2000" month="May" day="19"/>
     <abstract>
       <t>This document describes the Internet X.509 Public Key Infrastructure (PKI) Certificate Access Protocols. Protocol messages are defined for all relevant aspects of certificate creation and management. Note that 'certificate' in this document refers to an X.509v3 Certificate as defined in [COR95, X509-AM]. This document specifies a set of methods, headers, and content-types ancillary to HTTP/1.1 to publish, retrieve X.509 certificates and Certificate Revocation Lists. This protocol also facilitates determining current status of a digital certificate without the use of CRLs. This protocol defines new methods, request and response bodies, error codes to HTTP/1.1 protocol for securely publishing, retrieving, and validation certificates across a firewalls. A various certificate related information that includes certificates, CLs, and certification authority (CA) policy are retrieved from an integrated single authority access point specified in X.509 version 3 extensions.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-skreddy-pkix-webcap-00"/>
 </reference>

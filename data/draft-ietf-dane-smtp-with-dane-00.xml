@@ -1,15 +1,19 @@
 <reference anchor="I-D.ietf-dane-smtp-with-dane">
   <front>
     <title>SMTP security via opportunistic DANE TLS</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-dane-smtp-with-dane-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Viktor Dukhovni" initials="V." surname="Dukhovni"/>
-    <author fullname="Wes Hardaker" initials="W." surname="Hardaker"/>
+    <author fullname="Viktor Dukhovni" initials="V." surname="Dukhovni">
+      <organization/>
+    </author>
+    <author fullname="Wes Hardaker" initials="W." surname="Hardaker">
+      <organization/>
+    </author>
     <date year="2013" month="October"/>
     <abstract>
       <t>This memo describes a protocol for opportunistic TLS security based on the DANE TLSA DNS record. The protocol is downgrade resistant when the SMTP client supports DANE TLSA and the server domain publishes TLSA records for its MX hosts. This enables an incremental transition of the Internet email backbone (MTA to MTA SMTP traffic) to TLS encrypted and authenticated delivery.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dane-smtp-with-dane-00"/>
 </reference>

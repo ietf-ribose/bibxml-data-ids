@@ -1,7 +1,6 @@
 <reference anchor="I-D.xia-mip6-fw-policy">
   <front>
     <title>Policy-based Firewall Traversal for Mobile IPv6</title>
-    <seriesInfo name="Internet-Draft" value="draft-xia-mip6-fw-policy-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -16,4 +15,5 @@
       <t>Most of firewalls deployed today are Mobile IPv6 unaware. Widespread Mobile IPv6 deployment is not possible unless Mobile IPv6 messages can pass through these firewalls. In this memo, policy servers are used to communicate with firewalls and instruct them to bypass Mobile IPv6 messages. To achieve the goal, Network Access Identifier (NAI) and authentication information are included in Mobile IPv6 control signalling or data packets. Firewalls extract these information and send them to a policy server, and the policy server then installs corresponding states in firewalls based on authentication result and user's predefined policy. The new defined IPv6 extension header and the policy-based frame can also facilitate dynamic configuration in any application firewall traversal.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-xia-mip6-fw-policy-00"/>
 </reference>

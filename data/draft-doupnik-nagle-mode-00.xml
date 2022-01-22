@@ -1,7 +1,6 @@
 <reference anchor="I-D.doupnik-nagle-mode">
   <front>
     <title>A new TCP transmission policy replacing Nagle mode</title>
-    <seriesInfo name="Internet-Draft" value="draft-doupnik-nagle-mode-00"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -13,4 +12,5 @@
       <t>Both Nagle mode and delayed ACKs attempt to conserve network and host machine resources by delaying transmissions in the expectation that the current material can be piggybacked onto a future transmission. Unfortunately when both mechanisms are active at the same time on either end of a connection a deadlock can exist, which is broken by arrival of new data for transmission or firing of the delayed ACK timer. This produces classical timer based ACKing, which for the common 200ms ACK delay yields five exchanges per second.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-doupnik-nagle-mode-00"/>
 </reference>

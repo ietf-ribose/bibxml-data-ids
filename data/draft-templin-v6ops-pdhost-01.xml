@@ -1,14 +1,16 @@
 <reference anchor="I-D.templin-v6ops-pdhost">
   <front>
     <title>Delegating a Prefix to a Host for Multi-addressing Purposes</title>
-    <seriesInfo name="Internet-Draft" value="draft-templin-v6ops-pdhost-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Fred Templin" initials="F." surname="Templin"/>
+    <author fullname="Fred Templin" initials="F." surname="Templin">
+      <organization/>
+    </author>
     <date year="2016" month="January"/>
     <abstract>
       <t>IPv6 prefixes are typically delegated to requesting routers which then use them to number their downstream-attached links and networks. The requesting router then acts as a router between the downstream- attached hosts and the upstream provider network. The router could also act as a host under the weak end system model, and otherwise behaves as a standard router. This document considers the case when the "requesting router" is actually a host, and receives a prefix that it can use for multi-addressing purposes. The host does not connect any downstream-attached networks, and uses the prefix solely for its own multi-addressing purposes.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-templin-v6ops-pdhost-01"/>
 </reference>

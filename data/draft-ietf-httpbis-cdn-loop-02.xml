@@ -1,7 +1,6 @@
 <reference anchor="I-D.ietf-httpbis-cdn-loop">
   <front>
     <title>Loop Detection in Content Delivery Networks (CDNs)</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-httpbis-cdn-loop-02"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
@@ -19,4 +18,5 @@
       <t>This document defines the CDN-Loop request header field for HTTP. CDN-Loop addresses an operational need that occurs when an HTTP request is intentionally forwarded between Content Delivery Networks (CDNs), but is then accidentally or maliciously re-routed back into the original CDN causing a non-terminating loop. The new header field can be used to identify the error and terminate the loop.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-httpbis-cdn-loop-02"/>
 </reference>

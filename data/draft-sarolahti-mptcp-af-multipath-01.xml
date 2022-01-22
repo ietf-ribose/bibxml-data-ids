@@ -1,14 +1,16 @@
 <reference anchor="I-D.sarolahti-mptcp-af-multipath">
   <front>
     <title>Multi-address Interface in the Socket API</title>
-    <seriesInfo name="Internet-Draft" value="draft-sarolahti-mptcp-af-multipath-01"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Pasi Sarolahti"/>
+    <author fullname="Pasi Sarolahti">
+      <organization/>
+    </author>
     <date year="2010" month="March"/>
     <abstract>
       <t>This document specifies a new address family to be used for sockets that are bound to more than one IP address, as motivated by the Multipath TCP work in the IETF. The goal is to use the same set of function calls as traditionally, but by new address family make it possible for them to express multiple addresses to connect or bind to. The document gives a high-level definition of the behavior of the traditional function calls, but a detailed specification of the API syntax is not in the scope of this document.</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-sarolahti-mptcp-af-multipath-01"/>
 </reference>

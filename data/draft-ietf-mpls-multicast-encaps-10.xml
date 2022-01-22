@@ -1,17 +1,25 @@
 <reference anchor="I-D.ietf-mpls-multicast-encaps">
   <front>
     <title>MPLS Multicast Encapsulations</title>
-    <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-multicast-encaps-10"/>
     <author>
       <organization abbrev="IETF">Internet Engineering Task Force</organization>
     </author>
-    <author fullname="Toerless Eckert"/>
-    <author fullname="Eric Rosen"/>
-    <author fullname="Rahul Aggarwal"/>
-    <author fullname="Yakov Rekhter"/>
+    <author fullname="Toerless Eckert">
+      <organization/>
+    </author>
+    <author fullname="Eric Rosen">
+      <organization/>
+    </author>
+    <author fullname="Rahul Aggarwal">
+      <organization/>
+    </author>
+    <author fullname="Yakov Rekhter">
+      <organization/>
+    </author>
     <date year="2008" month="June"/>
     <abstract>
       <t>RFC 3032 established two data link layer codepoints for MPLS, used to distinguish whether the data link layer frame is carrying an MPLS unicast or an MPLS multicast packet. However, this usage was never deployed. This specification updates RFC 3032 by redefining the meaning of these two codepoints. Both codepoints can now be used to carry multicast packets. The second codepoint (formerly the "multicast codepoint") is now to be used only on multiaccess media, and it is to mean "the top label of the following label stack is an upstream-assigned label". RFC 3032 does not specify the destination address to be placed in the "MAC DA" (Medium Access Layer Destination Address) field of an ethernet frame that carries an MPLS multicast packet. This document provides that specification. This document updates RFC 3032 and RFC 4023. [STANDARDS-TRACK]</t>
     </abstract>
   </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-multicast-encaps-10"/>
 </reference>
