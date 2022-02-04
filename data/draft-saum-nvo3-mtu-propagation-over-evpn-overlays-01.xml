@@ -1,0 +1,22 @@
+<reference anchor="I-D.saum-nvo3-mtu-propagation-over-evpn-overlays">
+  <front>
+    <title>MTU propagation over EVPN Overlays</title>
+    <author>
+      <organization abbrev="IETF">Internet Engineering Task Force</organization>
+    </author>
+    <author fullname="Saumya Dikshit">
+      <organization>Aruba Networks, HPE</organization>
+    </author>
+    <author fullname="Vinayak Joshi">
+      <organization>Aruba Networks, HPE</organization>
+    </author>
+    <author fullname="A. Sujeet Nayak">
+      <organization>Cisco</organization>
+    </author>
+    <date year="2022" month="February"/>
+    <abstract>
+      <t>Path MTU Discovery between end-host-devices/Virtual-Machines/servers/ workloads connected over an EVPN-Overlay Network in Datacenter/Campus/enterprise deployment, is a problem, yet to be resolved in the standards forums. It needs a converged solution to ensure optimal usage of network and computational resources of the networking elements, including underlay routers/switches, constituting the overlay network. This documents takes leads from the guidelines presented in [RFC4459]. The overlay connectivity can pan across various sites (geographically seperated or collocated) for realizing a Datacenter Interconnect or intersite VPNs between campus sites (buildings, branch offices etc). This literature intends to solve problem of icmp error propagation from an underlay routing/switching device to an end-host (hooked to EVPN overlay), thus facilitating "accurate MTU" learnings. This document also leverages the icmp multipart message extension, mentioned in [RFC4884] to carry the original packet in the icmp PDU.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-saum-nvo3-mtu-propagation-over-evpn-overlays-01"/>
+</reference>
