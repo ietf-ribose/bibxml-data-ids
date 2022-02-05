@@ -1,0 +1,16 @@
+<reference anchor="I-D.urien-core-tls-se-io">
+  <front>
+    <title>TLS for Secure Element Input Output (TLS-SE-IO)</title>
+    <author>
+      <organization abbrev="IETF">Internet Engineering Task Force</organization>
+    </author>
+    <author fullname="Pascal Urien">
+      <organization>Telecom Paris</organization>
+    </author>
+    <date year="2022" month="February"/>
+    <abstract>
+      <t>The goal of TLS-SE-IO is to provide virtual IO pins for secure elements running TLS servers, in order to interact with sensors and actuators. TLS-SE device processes TLS packets in secure element. It may work like a black box (server mode) that exchanges fully encrypted packets. It may also export encrypted packet in clear form, in order to provide virtual output pin. Output messages may include cookies and/or cryptographic materials. Virtual input pin forwards input messages, triggered by previous output messages, and sent to TLS-SE device for further processing.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-urien-core-tls-se-io-01"/>
+</reference>
