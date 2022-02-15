@@ -1,0 +1,19 @@
+<reference anchor="I-D.ounsworth-pq-composite-keys">
+  <front>
+    <title>Composite Public and Private Keys For Use In Internet PKI</title>
+    <author>
+      <organization abbrev="IETF">Internet Engineering Task Force</organization>
+    </author>
+    <author fullname="Mike Ounsworth">
+      <organization>Entrust Limited</organization>
+    </author>
+    <author fullname="Massimiliano Pala">
+      <organization>CableLabs</organization>
+    </author>
+    <date year="2022" month="February" day="14"/>
+    <abstract>
+      <t>With the widespread adoption of post-quantum cryptography will come the need for an entity to possess multiple public keys on different cryptographic algorithms. Since the trustworthiness of individual post-quantum algorithms is at question, a multi-key cryptographic operation will need to be performed in such a way that breaking it requires breaking each of the component algorithms individually. This requires defining new structures for holding composite keys, for use with composite signature and encryption data. This document defines the structures CompositePublicKey, CompositePrivateKey, which are sequences of the respective structure for each component algorithm. This document makes no assumptions about what the component algorithms are, provided that they have defined algorithm identifiers. The only requirement imposed by this document is that all algorithms be of the same key usage; i.e. all signature or all encryption. This document is intended to be coupled with corresponding documents that define the structure and semantics of composite signatures and encryption.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ounsworth-pq-composite-keys-01"/>
+</reference>
