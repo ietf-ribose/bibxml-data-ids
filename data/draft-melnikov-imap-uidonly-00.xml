@@ -1,0 +1,28 @@
+<reference anchor="I-D.melnikov-imap-uidonly">
+  <front>
+    <title>IMAP Extension for only using and returning UIDs</title>
+    <author>
+      <organization abbrev="IETF">Internet Engineering Task Force</organization>
+    </author>
+    <author fullname="Alexey Melnikov">
+      <organization>Isode Limited</organization>
+    </author>
+    <author fullname="Arun Prakash Achuthan">
+      <organization>Yahoo Inc.</organization>
+    </author>
+    <author fullname="Vikram Nagulakonda">
+      <organization>Yahoo Inc.</organization>
+    </author>
+    <author fullname="Ashutosh Singh">
+      <organization>Yahoo Inc.</organization>
+    </author>
+    <author fullname="Luis Alves">
+      <organization/>
+    </author>
+    <date year="2022" month="February" day="16"/>
+    <abstract>
+      <t>The UIDONLY extension of the Internet Message Access Protocol (RFC 3501/RFC 9051) allows clients to request that all information about mailbox changes is returned only using UIDs. Message numbers are not going to be returned and can't be used once this extension is enabled. This helps both clients and servers to reduce resource usage required for maintenance of message number to UID map.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-melnikov-imap-uidonly-00"/>
+</reference>
