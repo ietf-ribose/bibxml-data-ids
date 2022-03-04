@@ -1,0 +1,20 @@
+<reference anchor="I-D.dong-idr-sr-policy-nrp">
+  <front>
+    <title>BGP SR Policy Extensions for Network Resource Partition</title>
+    <author fullname="Jie Dong">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Zhibo Hu">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Ran Pang">
+      <organization>China Unicom</organization>
+    </author>
+    <date year="2022" month="March"/>
+    <abstract>
+      <t>Segment Routing (SR) Policy is a set of candidate paths, each consisting of one or more segment lists and the associated information. The header of a packet steered in an SR Policy is augmented with an ordered list of segments associated with that SR Policy. A Network Resource Partition (NRP) is a set of network resources allocated in the network which can be used to instantiate a virtual transport network (VTN) for one or a group service traffic. In scenarios where multiple Network Resource Partitions (NRPs) exist in the network, the NRP in which an SR policy is instantiated may also need to be specified, so that the header of the packet can be augmented with the information associated with the NRP. An SR Policy candidate path can be distributed using BGP SR Policy. This document defines extensions to BGP SR policy to specify the NRP in which the SR policy is instantiated.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-dong-idr-sr-policy-nrp-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-dong-idr-sr-policy-nrp-00.txt"/>
+</reference>
