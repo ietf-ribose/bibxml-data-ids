@@ -1,0 +1,26 @@
+<reference anchor="I-D.kuhn-quic-careful-resume">
+  <front>
+    <title>Carefully Resume QUIC Session</title>
+    <author fullname="Nicolas Kuhn">
+      <organization/>
+    </author>
+    <author fullname="Emile Stephan">
+      <organization>Orange</organization>
+    </author>
+    <author fullname="Godred Fairhurst">
+      <organization>University of Aberdeen</organization>
+    </author>
+    <author fullname="Tom Jones">
+      <organization>University of Aberdeen</organization>
+    </author>
+    <author fullname="Christian Huitema">
+      <organization>Private Octopus Inc.</organization>
+    </author>
+    <date year="2022" month="March"/>
+    <abstract>
+      <t>This document provides a method to allow a QUIC session to carefully resume using a previously utilised Internet path. The method uses a set of computed congestion control parameters that are based on the previously observed path characteristics, such as the bottleneck bandwidth, available capacity, or the RTT. These parameters are stored and can then used to modify the congestion control behaviour of a subsequent connection. The draft discusses assumptions around how a server ought to utilise the parameters to provide opportunities for a new flow to more quickly get up to speed (i.e. utilise available capacity). It discusses how these changes impact the capacity at a shared network bottleneck and the response that is needed after any indication that the new rate is inappropriate.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-kuhn-quic-careful-resume-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-kuhn-quic-careful-resume-00.txt"/>
+</reference>

@@ -1,0 +1,20 @@
+<reference anchor="I-D.chen-syslog-syscinfo-credibility">
+  <front>
+    <title>Improve logging credibility by adding synchronization time information</title>
+    <author fullname="Fengsheng Wang">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Meiling Chen">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Li Su">
+      <organization>China Mobile</organization>
+    </author>
+    <date year="2022" month="March"/>
+    <abstract>
+      <t>This document proposes a scheme to improve the credibility of log reporting time by adding time synchronization information. This document updates the "timeQuality" structured Data in RFC 5424 [RFC5424], The Syslog Protocol. By appending "SYNCINFO" information after the "isSynced" parameter, the log collector can judge the credibility of logs when correlating logs of different devices.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-chen-syslog-syscinfo-credibility-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-chen-syslog-syscinfo-credibility-00.txt"/>
+</reference>
