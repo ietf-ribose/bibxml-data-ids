@@ -1,0 +1,20 @@
+<reference anchor="I-D.spaghetti-sidrops-rpki-doa">
+  <front>
+    <title>Resource Public Key Infrastructure (RPKI) object profile for Discard Origin Authorizations (DOA)</title>
+    <author fullname="Job Snijders">
+      <organization>Fastly</organization>
+    </author>
+    <author fullname="Mikael Abrahamsson">
+      <organization>NTT Ltd.</organization>
+    </author>
+    <author fullname="Ben Maddison">
+      <organization>Workonline Communications</organization>
+    </author>
+    <date year="2022" month="March"/>
+    <abstract>
+      <t>This document defines a Cryptographic Message Syntax (CMS) profile for Discard Origin Authorizations (DOAs), for use with the Resource Public Key Infrastructure (RPKI). A DOA is a digitally signed object that provides a means of verifying that an IP address block holder has authorized an Autonomous System (AS) to originate routes to one or more prefixes within the address block tagged with a specific set of Border Gateway Protocol (BGP) Communities, to signal a request to discard IP traffic destined towards the tagged IP prefix.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-spaghetti-sidrops-rpki-doa-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-spaghetti-sidrops-rpki-doa-00.txt"/>
+</reference>

@@ -1,0 +1,20 @@
+<reference anchor="I-D.ietf-lamps-header-protection">
+  <front>
+    <title>Header Protection for S/MIME</title>
+    <author fullname="Daniel Kahn Gillmor">
+      <organization>American Civil Liberties Union</organization>
+    </author>
+    <author fullname="Bernie Hoeneisen">
+      <organization>pEp Foundation</organization>
+    </author>
+    <author fullname="Alexey Melnikov">
+      <organization>Isode Ltd</organization>
+    </author>
+    <date year="2022" month="March"/>
+    <abstract>
+      <t>S/MIME version 3.1 introduced a mechanism to provide end-to-end cryptographic protection of e-mail message headers. However, few implementations generate messages using this mechanism, and several legacy implementations have revealed rendering or security issues when handling such a message. This document updates the S/MIME specification to offer a different mechanism that provides the same cryptographic protections but with fewer downsides when handled by legacy clients. Furthermore, it offers more explicit guidance for clients when generating or handling e-mail messages with cryptographic protection of message headers.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lamps-header-protection-08"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-lamps-header-protection-08.txt"/>
+</reference>

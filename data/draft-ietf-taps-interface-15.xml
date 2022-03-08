@@ -1,0 +1,35 @@
+<reference anchor="I-D.ietf-taps-interface">
+  <front>
+    <title>An Abstract Application Layer Interface to Transport Services</title>
+    <author fullname="Brian Trammell">
+      <organization>Google Switzerland GmbH</organization>
+    </author>
+    <author fullname="Michael Welzl">
+      <organization>University of Oslo</organization>
+    </author>
+    <author fullname="Theresa Enghardt">
+      <organization>Netflix</organization>
+    </author>
+    <author fullname="Godred Fairhurst">
+      <organization>University of Aberdeen</organization>
+    </author>
+    <author fullname="Mirja Kuehlewind">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Colin Perkins">
+      <organization>University of Glasgow</organization>
+    </author>
+    <author fullname="Philipp S. Tiesel">
+      <organization>SAP SE</organization>
+    </author>
+    <author fullname="Tommy Pauly">
+      <organization>Apple Inc.</organization>
+    </author>
+    <date year="2022" month="March"/>
+    <abstract>
+      <t>This document describes an abstract application programming interface, API, to the transport layer that enables the selection of transport protocols and network paths dynamically at runtime. This API enables faster deployment of new protocols and protocol features without requiring changes to the applications. The specified API follows the Transport Services architecture by providing asynchronous, atomic transmission of messages. It is intended to replace the BSD sockets API as the common interface to the transport layer, in an environment where endpoints could select from multiple interfaces and potential transport protocols.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-taps-interface-15"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-taps-interface-15.txt"/>
+</reference>
