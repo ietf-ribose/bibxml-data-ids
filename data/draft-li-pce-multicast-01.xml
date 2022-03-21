@@ -1,0 +1,26 @@
+<reference anchor="I-D.li-pce-multicast">
+  <front>
+    <title>Multicast Tree Setup via PCEP</title>
+    <author fullname="Huanan Li">
+      <organization>China Telecom</organization>
+    </author>
+    <author fullname="Aijun Wang">
+      <organization>China Telecom</organization>
+    </author>
+    <author fullname="Zhaohui Zhang">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Huaimo Chen">
+      <organization>Futurewei</organization>
+    </author>
+    <author fullname="Ran Chen">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <date year="2022" month="March" day="20"/>
+    <abstract>
+      <t>Multicast forwarding requires per-tree state on certain nodes. Even with BIER, per-tree state is needed on ingress/egress BIER routers (though not needed on transit BIER routers). This documents specifies PCEP protocol to collect tree information (e.g. root, leaf, constraints) to allow a PCE to calculate a tree, and the procedures to set up per-tree forwarding state on relevant nodes for various multicast trees and various replication technologies.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-pce-multicast-01"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-li-pce-multicast-01.txt"/>
+</reference>
