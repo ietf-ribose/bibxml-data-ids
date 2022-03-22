@@ -1,0 +1,20 @@
+<reference anchor="I-D.becker-guthrie-cert-binding-for-multi-auth">
+  <front>
+    <title>Binding Certificates for Multiple Authentications within a Protocol</title>
+    <author fullname="Alison Becker">
+      <organization>National Security Agency</organization>
+    </author>
+    <author fullname="Rebecca Guthrie">
+      <organization>National Security Agency</organization>
+    </author>
+    <author fullname="Michael Jenkins">
+      <organization>National Security Agency</organization>
+    </author>
+    <date year="2022" month="March" day="21"/>
+    <abstract>
+      <t>This document defines a new CSR attribute, bindingRequest, and a new X.509 certificate extension, BoundCertificates. The use of the bindingRequest attribute in a CSR and the inclusion of the BoundCertificates extension in the resulting certificate together provide additional assurance that multiple certificates each belong to the same end entity. This mechanism is particularly useful in the context of non-composite hybrid authentication, which enables users to employ the same certificates in hybrid authentication as in authentication done with only traditional or PQ algorithms.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-becker-guthrie-cert-binding-for-multi-auth-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-becker-guthrie-cert-binding-for-multi-auth-00.txt"/>
+</reference>
