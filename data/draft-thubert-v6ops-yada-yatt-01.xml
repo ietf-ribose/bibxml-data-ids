@@ -1,0 +1,14 @@
+<reference anchor="I-D.thubert-v6ops-yada-yatt">
+  <front>
+    <title>Yet Another Double Address and Translation Technique</title>
+    <author fullname="Pascal Thubert">
+      <organization>Cisco Systems, Inc</organization>
+    </author>
+    <date year="2022" month="March" day="29"/>
+    <abstract>
+      <t>This document provides a mechanism named YADA to extend the current IPv4 Internet by interconnecting IPv4 realms via a common footprint called the shaft. YADA extends [INT-ARCHI] with the support of an IP-in-IP format used to tunnel packets across the shaft. This document also provides a bump-in-the-stack method to enable YADA on a legacy stack, e.g., to enable virtual machines without changing them. This document also provides a stateless address and IP header translation between YADA and IPv6 [IPv6] called YATT and extends [IPv6-ADDRESSING] for the YATT format. YATT can take place as a bump in the stack at either end, or within the network and enables an IPv6-only stack to dialog with an IPv4-only stack across a network that can be IPv6, IPv4, or mixed. YATT requires that the IPv6 stack owns a prefix that derives from a YADA address and the IPv4 stack is capable of YADA, so it does not replace a generic 4 to 6 translation mechanism for any v6 to any v4.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-thubert-v6ops-yada-yatt-01"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-thubert-v6ops-yada-yatt-01.txt"/>
+</reference>
