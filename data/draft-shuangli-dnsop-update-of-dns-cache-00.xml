@@ -1,0 +1,26 @@
+<reference anchor="I-D.shuangli-dnsop-update-of-dns-cache">
+  <front>
+    <title>Active Update of DNS Cache</title>
+    <author fullname="Xinqing Zhang">
+      <organization>Computer Network Information Center, Chinese Academy of Sciences</organization>
+    </author>
+    <author fullname="Shuangli Wu">
+      <organization>Computer Network Information Center, Chinese Academy of Sciences</organization>
+    </author>
+    <author fullname="Yifang Qin">
+      <organization>Computer Network Information Center, Chinese Academy of Sciences</organization>
+    </author>
+    <author fullname="Wei Wang">
+      <organization>Computer Network Information Center, Chinese Academy of Sciences</organization>
+    </author>
+    <author fullname="Xu Zhou">
+      <organization>Computer Network Information Center, Chinese Academy of Sciences</organization>
+    </author>
+    <date year="2022" month="April" day="11"/>
+    <abstract>
+      <t>Under the caching mechanism in [RFC1035], the local DNS server cannot obtain the update status of the authoritative server in time, making the data inconsistent. Shortening TTL increases server load. In the passive query of the authoritative server, an active notification method is added to update the DNS mapping cache of the local DNS server in order to improve the efficiency of DNS resolution. Authoritative servers actively send DNS update packets after updating resource records. This document designs the API for receiving DNS update packets on the local DNS server.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-shuangli-dnsop-update-of-dns-cache-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-shuangli-dnsop-update-of-dns-cache-00.txt"/>
+</reference>
