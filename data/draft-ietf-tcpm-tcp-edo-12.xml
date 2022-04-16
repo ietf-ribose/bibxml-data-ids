@@ -1,0 +1,17 @@
+<reference anchor="I-D.ietf-tcpm-tcp-edo">
+  <front>
+    <title>TCP Extended Data Offset Option</title>
+    <author fullname="Joe Touch">
+      <organization>Independent Consultant</organization>
+    </author>
+    <author fullname="Wesley M. Eddy">
+      <organization>MTI Systems</organization>
+    </author>
+    <date year="2022" month="April" day="15"/>
+    <abstract>
+      <t>TCP segments include a Data Offset field to indicate space for TCP options but the size of the field can limit the space available for complex options such as SACK and Multipath TCP and can limit the combination of such options supported in a single connection. This document updates RFC 793 with an optional TCP extension to that space to support the use of multiple large options. It also explains why the initial SYN of a connection cannot be extending a single segment.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-tcp-edo-12"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-tcpm-tcp-edo-12.txt"/>
+</reference>
