@@ -1,0 +1,23 @@
+<reference anchor="I-D.muks-dnsop-message-fragments">
+  <front>
+    <title>DNS message fragments</title>
+    <author fullname="Mukund Sivaraman">
+      <organization>Internet Systems Consortium</organization>
+    </author>
+    <author fullname="Shane Kerr">
+      <organization>Beijing Internet Institute</organization>
+    </author>
+    <author fullname="Linjian Song">
+      <organization>Beijing Internet Institute</organization>
+    </author>
+    <author fullname="Haisheng Yu">
+      <organization>Beijing Internet Institute</organization>
+    </author>
+    <date year="2022" month="April" day="20"/>
+    <abstract>
+      <t>This document describes a method to transmit DNS messages over multiple UDP datagrams by fragmenting them at the application layer. The objective is to allow authoriative servers to successfully reply to DNS queries via UDP using multiple smaller datagrams, where larger datagrams may not pass through the network successfully.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-muks-dnsop-message-fragments-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-muks-dnsop-message-fragments-00.txt"/>
+</reference>
