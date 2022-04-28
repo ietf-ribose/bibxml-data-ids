@@ -1,0 +1,17 @@
+<reference anchor="I-D.duke-quic-protected-initial">
+  <front>
+    <title>Protected QUIC Initial Packets</title>
+    <author fullname="Martin Duke">
+      <organization>Google LLC</organization>
+    </author>
+    <author fullname="David Schinazi">
+      <organization>Google LLC</organization>
+    </author>
+    <date year="2022" month="April" day="27"/>
+    <abstract>
+      <t>QUIC encrypts its Initial Packets using keys derived from well-known constants, meaning that observers can inspect the contents of these packets and successfully spoof them. This document proposes a new version of QUIC that encrypts Initial Packets more securely by leveraging a Public Key distributed via the Domain Name System (DNS) or other out-of-band system.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-duke-quic-protected-initial-04"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-duke-quic-protected-initial-04.txt"/>
+</reference>
