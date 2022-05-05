@@ -1,0 +1,14 @@
+<reference anchor="I-D.li-mpls-entropy">
+  <front>
+    <title>Entropy Values</title>
+    <author fullname="Tony Li">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2022" month="May"/>
+    <abstract>
+      <t>Equal Cost Multi-Path (ECMP) forwarding is an essential function in distributing traffic across parallel paths. Packets within a flow must be kept on a single path to avoid reordering, while different flows must be distributed across paths to achieve parallelism. Previously, MPLS has addressed this through the use of an entropy label, providing up to 20 bits of entropy that can be added to the label stack to distinguish different flows. [RFC6790] With the interest in MPLS Network Actions, there are proposals to embedding entropy into alternate structures, so it is an appropriate time to consider how many bits should be used for entropy in the future. [I-D.bocci-mpls-miad-adi-requirements][I-D.andersson-mpls-mna-fwk] In this document, we examine the question of how to provide adequate entropy through a simple stochastic simulation. This is not intended to be a comprehensive and extensive treatise, but rather a simple investigation to build intuition into the issues.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-mpls-entropy-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-li-mpls-entropy-00.txt"/>
+</reference>
