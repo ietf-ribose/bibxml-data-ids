@@ -1,0 +1,23 @@
+<reference anchor="I-D.rdb-ohai-feedback-to-proxy">
+  <front>
+    <title>Oblivious Proxy Feedback</title>
+    <author fullname="Tirumaleswar Reddy">
+      <organization>Akamai</organization>
+    </author>
+    <author fullname="Dan Wing">
+      <organization>Citrix Systems, Inc.</organization>
+    </author>
+    <author fullname="Mohamed Boucadair">
+      <organization>Orange</organization>
+    </author>
+    <author fullname="Roberto Polli">
+      <organization>Team Digitale, Italian Government</organization>
+    </author>
+    <date year="2022" month="May" day="23"/>
+    <abstract>
+      <t>To provide equitable service to clients, servers often rate-limit incoming requests, for example, based upon the source IP address. However, oblivious HTTP removes the ability for the server to distinguish amongst clients so the server can only rate-limit traffic from the oblivious proxy. This harms all clients behind that oblivious proxy. This specification enables a server to convey rate-limit information to an oblivious proxy, which can use it to apply rate-limit policies on oblivious clients. Cooperating oblivious proxies can thus provide more equitable service to their distinguishable clients without impacting on all clients behind that oblivious proxy.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-rdb-ohai-feedback-to-proxy-02"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-rdb-ohai-feedback-to-proxy-02.txt"/>
+</reference>
