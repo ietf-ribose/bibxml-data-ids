@@ -1,0 +1,23 @@
+<reference anchor="I-D.wang-lsr-prefix-unreachable-annoucement">
+  <front>
+    <title>Prefix Unreachable Announcement</title>
+    <author fullname="Aijun Wang">
+      <organization>China Telecom</organization>
+    </author>
+    <author fullname="Gyan Mishra">
+      <organization>Verizon Inc.</organization>
+    </author>
+    <author fullname="Zhibo Hu">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Yaqun Xiao">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date year="2022" month="June"/>
+    <abstract>
+      <t>This document describes a mechanism to solve an existing issue with Longest Prefix Match (LPM), that exists where an operator domain is divided into multiple areas or levels where summarization is utilized. This draft addresses a fail-over issue related to a multi areas or levels domain, where a link or node down event occurs resulting in an LPM component prefix being omitted from the FIB resulting in black hole sink of routing and connectivity loss. This draft introduces a new control plane convergence signaling mechanism using a negative prefix called Prefix Unreachable Announcement Mechanism(PUAM), utilized to detect a link or node down event and signal the RIB that the event has occurred to force immediate control plane convergence.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-wang-lsr-prefix-unreachable-annoucement-09"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-wang-lsr-prefix-unreachable-annoucement-09.txt"/>
+</reference>
