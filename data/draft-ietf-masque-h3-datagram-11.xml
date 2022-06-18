@@ -1,0 +1,17 @@
+<reference anchor="I-D.ietf-masque-h3-datagram">
+  <front>
+    <title>HTTP Datagrams and the Capsule Protocol</title>
+    <author fullname="David Schinazi">
+      <organization>Google LLC</organization>
+    </author>
+    <author fullname="Lucas Pardue">
+      <organization>Cloudflare</organization>
+    </author>
+    <date year="2022" month="June" day="17"/>
+    <abstract>
+      <t>This document describes HTTP Datagrams, a convention for conveying multiplexed, potentially unreliable datagrams inside an HTTP connection. In HTTP/3, HTTP Datagrams can be sent unreliably using the QUIC DATAGRAM extension. When the QUIC DATAGRAM frame is unavailable or undesirable, they can be sent using the Capsule Protocol, a more general convention for conveying data in HTTP connections. HTTP Datagrams and the Capsule Protocol are intended for use by HTTP extensions, not applications.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-masque-h3-datagram-11"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-masque-h3-datagram-11.txt"/>
+</reference>
