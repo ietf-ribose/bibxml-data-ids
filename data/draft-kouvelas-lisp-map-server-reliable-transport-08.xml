@@ -1,0 +1,32 @@
+<reference anchor="I-D.kouvelas-lisp-map-server-reliable-transport">
+  <front>
+    <title>LISP Map Server Reliable Transport</title>
+    <author fullname="Darrel Lewis">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Balaji Pitta">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Marc Portoles">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Isidor Kouvelas">
+      <organization>Arista Networks Inc.</organization>
+    </author>
+    <author fullname="Chris Cassar">
+      <organization>Rivian Automotive</organization>
+    </author>
+    <author fullname="Jesus Arango">
+      <organization>Microsoft</organization>
+    </author>
+    <author fullname="Johnson Leong">
+      <organization>Uber Technologies</organization>
+    </author>
+    <date year="2022" month="June" day="30"/>
+    <abstract>
+      <t>The communication between LISP ETRs and Map-Servers is based on unreliable UDP message exchange coupled with periodic message transmission in order to maintain soft state. The drawback of periodic messaging is the constant load imposed on both the ETR and the Map-Server. New use cases for LISP have increased the amount of state that needs to be communicated with requirements that are not satisfied by the current mechanism. This document introduces the use of a reliable transport for ETR to Map-Server communication in order to eliminate the periodic messaging overhead, while providing reliability, flow-control and endpoint liveness detection.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-kouvelas-lisp-map-server-reliable-transport-08"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-kouvelas-lisp-map-server-reliable-transport-08.txt"/>
+</reference>
