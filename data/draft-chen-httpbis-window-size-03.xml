@@ -1,0 +1,17 @@
+<reference anchor="I-D.chen-httpbis-window-size">
+  <front>
+    <title>http2 window size setting</title>
+    <author fullname="Meiling Chen">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Li Su">
+      <organization>China Mobile</organization>
+    </author>
+    <date year="2022" month="July"/>
+    <abstract>
+      <t>This document proposed the minimum value setting mechanism for HTTP2.0 Window and Window_update, and a Window_update frame sending mechanism, used to solve the gap caused by the inconsistency of the minimum value, f the use case when window_size_increment in the window update frame less than 128 bytes and the increased window size also less than 128 bytes, then network connection will come to an error.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-chen-httpbis-window-size-03"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-chen-httpbis-window-size-03.txt"/>
+</reference>
