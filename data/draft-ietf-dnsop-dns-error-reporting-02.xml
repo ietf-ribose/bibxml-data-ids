@@ -1,0 +1,17 @@
+<reference anchor="I-D.ietf-dnsop-dns-error-reporting">
+  <front>
+    <title>DNS Error Reporting</title>
+    <author fullname="Roy Arends">
+      <organization>ICANN</organization>
+    </author>
+    <author fullname="Matt Larson">
+      <organization>ICANN</organization>
+    </author>
+    <date year="2022" month="July" day="10"/>
+    <abstract>
+      <t>DNS Error Reporting is a lightweight error reporting mechanism that provides the operator of an authoritative server with reports on DNS resource records that fail to resolve or validate, that a Domain Owner or DNS Hosting organization can use to improve domain hosting. The reports are based on Extended DNS Errors [RFC8914]. When a domain name fails to resolve or validate due to a misconfiguration or an attack, the operator of the authoritative server may be unaware of this. To mitigate this lack of feedback, this document describes a method for a validating recursive resolver to automatically signal an error to an agent specified by the authoritative server. DNS Error Reporting uses the DNS to report errors. Another lack of feedback occurs when validation was successful, or when there is no error to report. This positive feedback may be helpful to show that a deployment was successful. This document introcudes an extended DNS error "NO ERROR".</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-dns-error-reporting-02"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-dnsop-dns-error-reporting-02.txt"/>
+</reference>

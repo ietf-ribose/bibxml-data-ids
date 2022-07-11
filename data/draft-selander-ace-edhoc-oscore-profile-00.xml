@@ -1,0 +1,23 @@
+<reference anchor="I-D.selander-ace-edhoc-oscore-profile">
+  <front>
+    <title>Ephemeral Diffie-Hellman Over COSE (EDHOC) and Object Security for Constrained Environments (OSCORE) Profile for Authentication and Authorization for Constrained Environments (ACE)</title>
+    <author fullname="Göran Selander">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="John Preuß Mattsson">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Marco Tiloca">
+      <organization>RISE</organization>
+    </author>
+    <author fullname="Rikard Höglund">
+      <organization>RISE</organization>
+    </author>
+    <date year="2022" month="July" day="11"/>
+    <abstract>
+      <t>This document specifies a profile for the Authentication and Authorization for Constrained Environments (ACE) framework. It utilizes Ephemeral Diffie-Hellman Over COSE (EDHOC) for achieving mutual authentication between an OAuth 2.0 Client and Resource Server, and it binds an authentication credential of the Client to an OAuth 2.0 access token. EDHOC also establishes an Object Security for Constrained RESTful Environments (OSCORE) Security Context, which is used to secure communications when accessing protected resources according to the authorization information indicated in the access token. A resource-constrained server can use this profile to delegate management of authorization information to a trusted host with less severe limitations regarding processing power and memory.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-selander-ace-edhoc-oscore-profile-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-selander-ace-edhoc-oscore-profile-00.txt"/>
+</reference>

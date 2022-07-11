@@ -1,0 +1,23 @@
+<reference anchor="I-D.dong-priority-rtp-packet">
+  <front>
+    <title>Discarding Priority of RTP Video Packets</title>
+    <author fullname="Lijun Dong">
+      <organization>Futurewei Technologies Inc.</organization>
+    </author>
+    <author fullname="Richard Li">
+      <organization>Futurewei Technologies Inc.</organization>
+    </author>
+    <author fullname="Stuart Clayman">
+      <organization>University College London</organization>
+    </author>
+    <author fullname="Muge Sayit">
+      <organization>Ege University</organization>
+    </author>
+    <date year="2022" month="July" day="10"/>
+    <abstract>
+      <t>This document illustrates that significance difference or discarding priority might exist among RTP packets which encapsulate video streaming data with the existing modern video codecs, i.e., H.264/ AVC, SVC, H.265/HEVC and H.266/VVC. The document overviews the RTP NALU header format for the existing modern video codecs. Each contains at least one field that indicates the RTP packet's relative significance within the video stream. With the dominance of video traffic in the Internet, selectively dropping RTP packets from competing video streams according to their significances or discarding priorities could be a complementary mechanism when dealing with network congestion. The document proposes the Differentiated Services Code Point (DSCP) value mapping to the RTP packet discarding priority carried in the RTP NALU header. The document also proposes a new Hop-by-Hop Extension Header (HbH-EH) with a value that is copied from the discarding priority of the RTP packet, if the 6-bit DSCP value is not long enough for the mapping.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-dong-priority-rtp-packet-02"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-dong-priority-rtp-packet-02.txt"/>
+</reference>
