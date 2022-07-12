@@ -1,0 +1,23 @@
+<reference anchor="I-D.ietf-anima-constrained-voucher">
+  <front>
+    <title>Constrained Bootstrapping Remote Secure Key Infrastructure (BRSKI)</title>
+    <author fullname="Michael Richardson">
+      <organization>Sandelman Software Works</organization>
+    </author>
+    <author fullname="Peter van der Stok">
+      <organization>vanderstok consultancy</organization>
+    </author>
+    <author fullname="Panos Kampanakis">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Esko Dijk">
+      <organization>IoTconsultancy.nl</organization>
+    </author>
+    <date year="2022" month="July" day="11"/>
+    <abstract>
+      <t>This document defines the Constrained Bootstrapping Remote Secure Key Infrastructure (Constrained BRSKI) protocol, which provides a solution for secure zero-touch bootstrapping of resource-constrained (IoT) devices into the network of a domain owner. This protocol is designed for constrained networks, which may have limited data throughput or may experience frequent packet loss. Constrained BRSKI is a variant of the BRSKI protocol, which uses an artifact signed by the device manufacturer called the "voucher" which enables a new device and the owner's network to mutually authenticate. While the BRSKI voucher is typically encoded in JSON, Constrained BRSKI defines a compact CBOR-encoded voucher. The BRSKI voucher is extended with new data types that allow for smaller voucher sizes. The Enrollment over Secure Transport (EST) protocol, used in BRSKI, is replaced with EST-over-CoAPS; and HTTPS used in BRSKI is replaced with CoAPS.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-anima-constrained-voucher-18"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-anima-constrained-voucher-18.txt"/>
+</reference>
