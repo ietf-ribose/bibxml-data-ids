@@ -1,0 +1,17 @@
+<reference anchor="I-D.richardson-emu-eap-onboarding">
+  <front>
+    <title>EAP defaults for devices that need to onboard</title>
+    <author fullname="Alan DeKok">
+      <organization>FreeRADIUS</organization>
+    </author>
+    <author fullname="Michael Richardson">
+      <organization>Sandelman Software Works</organization>
+    </author>
+    <date year="2022" month="July" day="25"/>
+    <abstract>
+      <t>This document describes a method by which an unconfigured device can use EAP to join a network on which further device onboarding, network attestation or other remediation can be done. While RFC 5216 supports EAP-TLS without a client certificate, that document defines no method by which unauthenticated EAP-TLS can be used. This draft addresses that issue. First, by defining the @eap.arpa domain, and second by showing how it can be used to provide quarantined network access for onboarding unauthenticated devices.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-richardson-emu-eap-onboarding-01"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-richardson-emu-eap-onboarding-01.txt"/>
+</reference>

@@ -1,0 +1,14 @@
+<reference anchor="I-D.klensin-email-for-clause">
+  <front>
+    <title>Issues with the SMTP/IMF 'for' Clause and Remedies</title>
+    <author fullname="John C Klensin">
+      <organization/>
+    </author>
+    <date year="2022" month="July" day="24"/>
+    <abstract>
+      <t>The "for" clause of the "Received:" header field goes back to the first widely deployed version of SMTP (RFC 821). However SMTP also allows multiple-recipient messages to be transmitted in a single mail transaction. The combination may, in some cases, lead to undesirable disclosure of information, including disclosing mail addresses that were intended to be kept hidden from other recipients. In the process of working on revisions to RFC 5321 and developing a new Applicability Statement in the EMAILCORE WG, there have been attempts to fix the problems by find-tuning text about actions and warnings. This document is an attempt to explore the issues in somewhat more depth for members of the community who are, or should be, participating in the WG.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-klensin-email-for-clause-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-klensin-email-for-clause-00.txt"/>
+</reference>
