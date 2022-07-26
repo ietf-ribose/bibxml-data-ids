@@ -1,0 +1,14 @@
+<reference anchor="I-D.pardue-masque-dgram-priority">
+  <front>
+    <title>HTTP Datagrams, UDP Proxying, and Extensible Prioritization</title>
+    <author fullname="Lucas Pardue">
+      <organization>Cloudflare</organization>
+    </author>
+    <date year="2022" month="July" day="25"/>
+    <abstract>
+      <t>Application protocols using the QUIC transport protocol rely on streams, and optionally the unreliable datagram extension, to carry application data. Streams and datagrams can be multiplexed in single connections but QUIC does not define an interoperable prioritization scheme or signaling mechanism. The HTTP Extensible Prioritization scheme describes an application-level scheme for the prioritization of streams in HTTP/2 and HTTP/3. This document defines how Extensible Priorities can be augmented to apply to the multiplexing of HTTP datagram flows with other flows or streams.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-pardue-masque-dgram-priority-02"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-pardue-masque-dgram-priority-02.txt"/>
+</reference>
