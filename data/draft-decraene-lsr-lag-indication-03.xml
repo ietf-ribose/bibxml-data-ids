@@ -1,0 +1,20 @@
+<reference anchor="I-D.decraene-lsr-lag-indication">
+  <front>
+    <title>LAG indication</title>
+    <author fullname="Bruno Decraene">
+      <organization>Orange</organization>
+    </author>
+    <author fullname="Shraddha Hegde">
+      <organization>Juniper Networks Inc.</organization>
+    </author>
+    <author fullname="Joel Halpern">
+      <organization>Ericsson</organization>
+    </author>
+    <date year="2022" month="August"/>
+    <abstract>
+      <t>This document defines a new link flag to advertise that a layer-three link is composed of multiple layer-two sub-links, such as when this link is a Link Aggregation Group (LAG). This allows a large single flow (an elephant flow) to be aware that the link capacity will be lower than expected as this single flow is not load-balanced across the multiple layer-two sub-links. A path computation logic may use that information to route that elephant flow along a different path.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-decraene-lsr-lag-indication-03"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-decraene-lsr-lag-indication-03.txt"/>
+</reference>
