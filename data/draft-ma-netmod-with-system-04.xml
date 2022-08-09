@@ -1,0 +1,26 @@
+<reference anchor="I-D.ma-netmod-with-system">
+  <front>
+    <title>System-defined Configuration</title>
+    <author fullname="Qiufang Ma">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Kent Watsen">
+      <organization>Watsen Networks</organization>
+    </author>
+    <author fullname="Qin Wu">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Feng Chong">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Jan Lindblad">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date year="2022" month="August"/>
+    <abstract>
+      <t>This document updates NMDA to define a read-only conventional configuration datastore called "system" to hold system-defined configurations. To avoid clients' explicit copy/paste of referenced system-defined configuration into the target configuration datastore (e.g., &lt;running&gt;), a "resolve-system" parameter has been defined to allow the server acting as a "system client" to copy referenced system-defined nodes automatically. The solution enables clients manipulating the target configuration datastore (e.g., &lt;running&gt;) to overlay and reference nodes defined in &lt;system&gt;, override values of configurations defined in &lt;system&gt;, and configure descendant nodes of system-defined nodes.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ma-netmod-with-system-04"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ma-netmod-with-system-04.txt"/>
+</reference>
