@@ -4,7 +4,7 @@
     <author fullname="Charles 'Buck' Krasic" initials="C. B." surname="Krasic">
       <organization>Google</organization>
     </author>
-    <date year="2018" month="January"/>
+    <date year="2018" month="January" day="3"/>
     <abstract>
       <t>The design of the core QUIC transport and the mapping of HTTP semantics over it subsume many HTTP/2 features, prominent among them stream multiplexing and HTTP header compression. A key advantage of the QUIC transport is it provides stream multiplexing free of HoL blocking between streams, while in HTTP/2 multiplexed streams can suffer HoL blocking primarily due to HTTP/2's layering above TCP. However if HPACK is used for header compression, HTTP over QUIC is still vulnerable to HoL blocking, because of how HPACK exploits header redundancies between multiplexed HTTP transactions. This draft defines QCRAM, a variation of HPACK and mechanisms in the QUIC HTTP mapping that allow QUIC implementations the flexibility to avoid header-compression induced HoL blocking.</t>
     </abstract>

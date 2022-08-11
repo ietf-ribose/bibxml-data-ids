@@ -10,7 +10,7 @@
     <author fullname="Yuan Li" initials="Y." surname="Li">
       <organization/>
     </author>
-    <date year="2012" month="July"/>
+    <date year="2012" month="July" day="8"/>
     <abstract>
       <t>This document defines a specific Topology Plugin using a ramification of the basic One Hop Lookups based DHT algorithm which is called ONE- HOP-RELOAD. In the One Hop Lookups algorithm, each peer maintains a full routing table containing information about every node on the overlay in order to route RELOAD message in one hop. Compared with CHORD-RELOAD algorithm, ONE-HOP-RELOAD improves the routing efficiency, and can maintain complete membership information with reasonable bandwidth requirements. This algorithm is able to handle frequent membership changes by superimposing a well-defined hierarchy on the system that guarantees topology disturbance events notification reach every peer in the overlay within a specified amount of time. Currently some typical peer-to-peer storages systems have stringent latency requirements, such as Amazon's Dynamo which is built for latency sensitive applications uses One-Hop algorithm, so that each node maintains enough routing information locally to route a request to the appropriate node directly.</t>
     </abstract>

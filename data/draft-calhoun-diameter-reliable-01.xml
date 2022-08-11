@@ -7,7 +7,7 @@
     <author fullname="Pat R. Calhoun" initials="P. R." surname="Calhoun">
       <organization>Sun Microsystems</organization>
     </author>
-    <date year="1999" month="March"/>
+    <date year="1999" month="March" day="2"/>
     <abstract>
       <t>Many services that require DIAMETER need retransmission and timeout faster than TCP can provide. An example would be in a NAS environment where DIAMETER is used for the authentication and authorization of users. The amount of time that it takes for TCP to determine that a connection to a server is broken is longer than the disonnect timeout of the PPP clients on whose behalf the server is being contacted. RADIUS has been able to handle this situation by operating over UDP. However, RADIUS fails to define a standard retransmission and timeout scheme, which has resulted in many different methods across implementations. This DIAMETER specification defines the extensions necessary for the base protocol to operate over a non-reliable transport (e.g. UDP).</t>
     </abstract>

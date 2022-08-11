@@ -4,7 +4,7 @@
     <author fullname="Chuck Lever" initials="C." surname="Lever">
       <organization>Oracle Corporation</organization>
     </author>
-    <date year="2018" month="January"/>
+    <date year="2018" month="January" day="9"/>
     <abstract>
       <t>RPC transports such as RPC-over-RDMA Version One require reply buffers to be in place before an RPC Call is sent. However, Upper Layer Protocols sometimes have difficulty estimating the expected maximum size of RPC replies. This introduces the risk that an RPC Reply message can overrun reply resources provided by the requester, preventing delivery of the message, through no fault of the requester. This document describes a mechanism that eliminates the need for pre-allocation of reply resources for unpredictably large replies.</t>
     </abstract>

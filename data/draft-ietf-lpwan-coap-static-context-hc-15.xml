@@ -10,7 +10,7 @@
     <author fullname="Ricardo Andreasen" initials="R." surname="Andreasen">
       <organization>Universidad de Buenos Aires</organization>
     </author>
-    <date year="2020" month="July"/>
+    <date year="2020" month="July" day="3"/>
     <abstract>
       <t>This draft defines the way Static Context Header Compression (SCHC) header compression can be applied to the Constrained Application Protocol (CoAP). SCHC is a header compression mechanism adapted for constrained devices. SCHC uses a static description of the header to reduce the redundancy and the size of the information in the header. While [rfc8724] describes the SCHC compression and fragmentation framework, and its application for IPv6/UDP headers, this document applies the use of SCHC for CoAP headers. The CoAP header structure differs from IPv6 and UDP since CoAP uses a flexible header with a variable number of options, themselves of variable length. The CoAP protocol messages format is asymmetric: the request messages have a header format different from the one in the response messages. This specification gives guidance on how to apply SCHC to flexible headers and how to leverage the asymmetry for more efficient compression Rules.</t>
     </abstract>

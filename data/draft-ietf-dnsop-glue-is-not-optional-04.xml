@@ -13,7 +13,7 @@
     <author fullname="Duane Wessels">
       <organization>Verisign</organization>
     </author>
-    <date year="2022" month="February"/>
+    <date year="2022" month="February" day="8"/>
     <abstract>
       <t>The DNS uses referral glue records to allow iterative clients to find the addresses of nameservers that are contained within a delegated zone. Authoritative Servers are expected to return all available referral glue records in a referral response. If message size constraints prevent the inclusion of all in-domain referral glue records, the server MUST set the TC flag to inform the client that the response is incomplete, and that the client SHOULD use another transport to retrieve the full response. This document updates RFC 1034 to clarify correct server behavior.</t>
     </abstract>

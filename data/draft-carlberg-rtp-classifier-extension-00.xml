@@ -5,7 +5,7 @@
     <author fullname="Ken Carlberg" initials="K." surname="Carlberg">
       <organization/>
     </author>
-    <date year="2001" month="October"/>
+    <date year="2001" month="October" day="4"/>
     <abstract>
       <t>This document describes a new RTP header extension. The purpose of the extension is to provide an additional information that further distinguishes the RTP datagram (and its payload) from other datagrams containing the same type of payload. Specifically, a classifier field is defined in the extension header that contains value such as 'emergency'. RTP compliant implementations that do not recognize the classifier extension header must continue to process the packet and not take no adverse action. Criteria for inserting the values in the classifier header, and any QoS treatment of the packet based on those values, is outside the scope of this specification.</t>
     </abstract>

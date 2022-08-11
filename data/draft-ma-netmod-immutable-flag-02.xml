@@ -13,7 +13,7 @@
     <author fullname="Hongwei Li">
       <organization>HPE</organization>
     </author>
-    <date year="2022" month="July"/>
+    <date year="2022" month="July" day="4"/>
     <abstract>
       <t>This document defines a YANG extension named "immutable" to indicate that specific "config true" data nodes are not allowed to be created/deleted/updated. To indicate that specific instances of a list/leaf-list node cannot be changed after initialization, a metadata annotation with the same name is also defined. Any data node or instance marked as immutable is read-only to the clients of YANG-driven management protocols, such as NETCONF, RESTCONF and other management operations (e.g., SNMP and CLI requests).</t>
     </abstract>

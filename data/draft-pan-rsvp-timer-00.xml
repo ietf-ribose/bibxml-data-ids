@@ -10,7 +10,7 @@
     <author fullname="Ping Pan" initials="P." surname="Pan">
       <organization/>
     </author>
-    <date year="1997" month="December"/>
+    <date year="1997" month="December" day="3"/>
     <abstract>
       <t>The current resource Reservation Protocol (RSVP) design has no reliability mechanism for the delivery of control messages. Instead, RSVP relies on periodic refresh between routers to maintain reservation states. This approach has several problems in a congested network. End systems send Path and Resv messages to set up RSVP connections. If the first Path or Resv message from an end system is accidentally lost in the network, a copy of the message will not be retransmitted until the end of a refresh interval, causing a delay of 30 seconds or more until a reservation is established. If a congested link causes a tear-down message (PathTear or ResvTear) to be dropped, the corresponding reservation will not be removed from the routers until the RSVP cleanup timer expires.</t>
     </abstract>

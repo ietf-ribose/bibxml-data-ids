@@ -10,7 +10,7 @@
     <author fullname="Alan Ford">
       <organization/>
     </author>
-    <date year="2015" month="September"/>
+    <date year="2015" month="September" day="7"/>
     <abstract>
       <t>Large webserver farms consist of thousands of frontend proxies that serve as endpoints for the TCP and TLS connection and relay traffic to the (sometimes distant) backend servers. Load-balancing across those server is done by layer-4 loadbalancers that ensure that a TCP flow will always reach the same server. Multipath TCP's use of multiple TCP subflows for the transmission of the data stream requires those loadbalancers to be aware of MPTCP to ensure that all subflows belonging to the same MPTCP connection reach the same frontend proxy. In this document we analyze the challenges related to this and suggest a simple modification to the generation of the MPTCP-token to overcome those challenges.</t>
     </abstract>

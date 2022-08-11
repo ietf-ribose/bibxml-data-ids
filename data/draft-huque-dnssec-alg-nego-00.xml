@@ -7,7 +7,7 @@
     <author fullname="Haya Shulman" initials="H." surname="Shulman">
       <organization>Fraunhofer Institute</organization>
     </author>
-    <date year="2017" month="July"/>
+    <date year="2017" month="July" day="3"/>
     <abstract>
       <t>This document specifies a DNS extension that allows a DNS client to specify a list of DNSSEC algorithms, in preference order, that the client desires to use. A DNS server upon receipt of this extension can choose to selectively respond with DNSSEC signatures using the most preferred algorithm they support. This mechanism may make it easier for DNS zone operators to support signing zone data simultaneously with multiple DNSSEC algorithms, without significantly increasing the size of DNS responses. It will also allow an easier way to transition to new algorithms while still retaining support for older DNS validators that do not yet support the new algorithms.</t>
     </abstract>

@@ -10,7 +10,7 @@
     <author fullname="Richard Li">
       <organization>Futurewei Technologies, Inc.</organization>
     </author>
-    <date year="2022" month="March"/>
+    <date year="2022" month="March" day="6"/>
     <abstract>
       <t>This document presents a method to do IP routing over satellite network that consists of LEO (Low Earth Orbit) satellites and ground- stations. The method uses the source routing mechanism. The whole routing info is obtained by path calculation. The routing path information is converted to be a list of instructions and embedded into user packet's IPv6 extension header. At each hop or each satellite, the routing process engine will forward the packet based on the specified instruction for the satellite. Until the packet reaches the edge of satellite network, or the last satellite, the packet will be sent to a ground station.</t>
     </abstract>

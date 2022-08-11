@@ -7,7 +7,7 @@
     <author fullname="Jukka Manner" initials="J." surname="Manner">
       <organization/>
     </author>
-    <date year="2013" month="August"/>
+    <date year="2013" month="August" day="1"/>
     <abstract>
       <t>This document provides recommendations of best current practice for dropping or marking packets using any active queue management (AQM) algorithm, including random early detection (RED), BLUE, pre- congestion notification (PCN) and newer schemes such as CoDel and PIE. We give three strong recommendations: (1) packet size should be taken into account when transports detect and respond to congestion indications, (2) packet size should not be taken into account when network equipment creates congestion signals (marking, dropping), and therefore (3) in the specific case of RED, the byte-mode packet drop variant that drops fewer small packets should not be used. This memo updates RFC 2309 to deprecate deliberate preferential treatment of small packets in AQM algorithms.</t>
     </abstract>

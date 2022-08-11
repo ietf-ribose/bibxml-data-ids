@@ -22,7 +22,7 @@
     <author fullname="Yuanlong Jiang" initials="Y." surname="Jiang">
       <organization>Huawei Technologies Co., Ltd.</organization>
     </author>
-    <date year="2019" month="January"/>
+    <date year="2019" month="January" day="2"/>
     <abstract>
       <t>This document specifies a fast reroute framework for protecting IP/ MPLS services and MPLS transport tunnels against egress node and egress link failures. In this framework, the penultimate-hop router of an MPLS tunnel acts as the point of local repair (PLR) for an egress node failure, and the egress router of the MPLS tunnel acts as the PLR for an egress link failure. Each of them pre-establishes a bypass tunnel to a protector. Upon an egress node or link failure, the corresponding PLR performs local failure detection and local repair, by rerouting packets over the corresponding bypass tunnel. The protector in turn performs context label switching or context IP forwarding to send the packets to the ultimate service destination(s). This mechanism can be used to reduce traffic loss before global repair reacts to the failure and control plane protocols converge on the topology changes due to the failure. The framework is applicable to all types of IP/MPLS services and MPLS tunnels. Under the framework, service protocol extensions may be further specified to support service label distribution from an egress router to a protector.</t>
     </abstract>

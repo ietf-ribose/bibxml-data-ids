@@ -22,7 +22,7 @@
     <author fullname="Nan Wang">
       <organization/>
     </author>
-    <date year="2015" month="July"/>
+    <date year="2015" month="July" day="2"/>
     <abstract>
       <t>This document offers an approach to encrypt DNS queries and responses between the stub resolver and the recursive server over UDP to protect user privacy. The public key of the recursive server is distributed to the stub resolver through the Certificate Authority infrastructure, and the public key of the stub resolver is sent to the recursive server together with the DNS query where the public key is inserted to the additional section of the DNS query. Then the recursive server encrypts the DNS responses sent to the stub resolver with the public key of that stub resolver, and similarly the DNS query sent to the recursive server is encrypted by the stub resolver with the public key of that recursive server and thus the user privacy is protected.</t>
     </abstract>

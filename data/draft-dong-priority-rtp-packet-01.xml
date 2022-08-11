@@ -13,7 +13,7 @@
     <author fullname="Muge Sayit" initials="M." surname="Sayit">
       <organization>Ege University</organization>
     </author>
-    <date year="2022" month="July"/>
+    <date year="2022" month="July" day="9"/>
     <abstract>
       <t>This document illustrates that significance difference or discarding priority might exist among RTP packets which encapsulate video streaming data with the existing modern video codecs, i.e., H.264/ AVC, SVC, H.265/HEVC and H.266/VVC. The document overviews the RTP NALU header format for the existing modern video codecs. Each contains at least one field that indicates the RTP packet's relative significance within the video stream. With the dominance of video traffic in the Internet, selectively dropping RTP packets from competing video streams according to their significances or discarding priorities could be a complementary mechanism when dealing with network congestion. The document proposes the Differentiated Services Code Point (DSCP) value mapping to the RTP packet discarding priority carried in the RTP NALU header. The document also proposes a new Hop-by-Hop Extension Header (HbH-EH) with a value that is copied from the discarding priority of the RTP packet, if the 6-bit DSCP value is not long enough for the mapping.</t>
     </abstract>

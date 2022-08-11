@@ -16,7 +16,7 @@
     <author fullname="Kotikalapudi Sriram" initials="K." surname="Sriram">
       <organization>US NIST</organization>
     </author>
-    <date year="2018" month="January"/>
+    <date year="2018" month="January" day="1"/>
     <abstract>
       <t>Route Leaks are the propagation of BGP prefixes which violate assumptions of BGP topology relationships; e.g. passing a route learned from one peer to another peer or to a transit provider, passing a route learned from one transit provider to another transit provider or to a peer. Today, approaches to leak prevention rely on marking routes according to operator configuration options without any check that the configuration corresponds to that of the BGP neighbor, or enforcement that the two BGP speakers agree on the relationship. This document enhances BGP Open to establish agreement of the (peer, customer, provider, internal) relationship of two neighboring BGP speakers to enforce appropriate configuration on both sides. Propagated routes are then marked with an iOTC attribute according to agreed relationship allowing prevention of route leaks.</t>
     </abstract>

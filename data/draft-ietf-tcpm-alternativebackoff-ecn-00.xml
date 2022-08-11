@@ -13,7 +13,7 @@
     <author fullname="Gorry Fairhurst" initials="G." surname="Fairhurst">
       <organization/>
     </author>
-    <date year="2017" month="February"/>
+    <date year="2017" month="February" day="2"/>
     <abstract>
       <t>This memo updates the TCP sender-side reaction to a congestion notification received via Explicit Congestion Notification (ECN). The updated method reduces FlightSize in Congestion Avoidance by a smaller amount than the TCP reaction to loss. The intention is to achieve good throughput when the queue at the bottleneck is smaller than the bandwidth-delay-product of the connection. This is more likely when an Active Queue Management (AQM) mechanism has used ECN to CE-mark a packet, than when a packet was lost. Future versions of this document will also describe a corresponding method for SCTP.</t>
     </abstract>

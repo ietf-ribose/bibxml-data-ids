@@ -7,7 +7,7 @@
     <author fullname="Brian Wellington" initials="B." surname="Wellington">
       <organization>O. Gudmundsson</organization>
     </author>
-    <date year="1998" month="August"/>
+    <date year="1998" month="August" day="6"/>
     <abstract>
       <t>This document identifies the situations where a signature verification fails in a recursive security aware DNS server, and how DNS servers should handle these cases, and the errors that should be reported to DNS resolvers. This document proposes a new error to be returned by DNSSEC capable servers. A DNSSEC server acting as a recursive server MUST validate the signatures on RRsets in a response it passes on; this draft addresses the case when the data it receives fails signature verification. The end resolver must be notified of this occurence in such a way that it will not confuse it with another error.</t>
     </abstract>

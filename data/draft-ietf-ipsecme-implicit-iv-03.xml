@@ -10,7 +10,7 @@
     <author fullname="Yoav Nir" initials="Y." surname="Nir">
       <organization>Dell EMC</organization>
     </author>
-    <date year="2018" month="May"/>
+    <date year="2018" month="May" day="9"/>
     <abstract>
       <t>Encapsulating Security Payload (ESP) sends an initialization vector (IV) or nonce in each packet. The size of IV depends on the applied transform, being usually 8 or 16 octets for the transforms defined by the time this document is written. Some algorithms such as AES-GCM, AES-CCM, AES-CTR and ChaCha20-Poly1305 require a unique nonce but do not require an unpredictable nonce. When using such algorithms the packet counter value can be used to generate a nonce. This avoids sending the nonce itself, and saves in the case of AES-GCM, AES-CCM, AES-CTR and ChaCha20-Poly1305 8 octets per packet. This document describes how to do this.</t>
     </abstract>

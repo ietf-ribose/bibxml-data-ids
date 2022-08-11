@@ -10,7 +10,7 @@
     <author fullname="Yuchung Cheng">
       <organization>Google, Inc.</organization>
     </author>
-    <date year="2020" month="November"/>
+    <date year="2020" month="November" day="1"/>
     <abstract>
       <t>This document updates the Proportional Rate Reduction (PRR) algorithm described as experimental in RFC 6937 to standards track. PRR potentially replaces the Fast Recovery and Rate-Halving algorithms. All of these algorithms regulate the amount of data sent by TCP or other transport protocol during loss recovery. PRR more accurately regulates the actual flight size through recovery such that at the end of recovery it will be as close as possible to the ssthresh, as determined by the congestion control algorithm.</t>
     </abstract>

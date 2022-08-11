@@ -10,7 +10,7 @@
     <author fullname="Gerald Ash" initials="G." surname="Ash">
       <organization/>
     </author>
-    <date year="2002" month="July"/>
+    <date year="2002" month="July" day="3"/>
     <abstract>
       <t>The current link state routing protocols flood link states to all routers so that routers have the information required to compute the shortest paths to route packets on a hop by hop basis. However, for the purpose of establishing MPLS paths, constraint path computation is only performed at certain nodes, for instance, at the node where path setup is triggered or at the head-end of a loosely routed segment that crosses a network (or area) boundary. In addition, it not possible to have all required constraints present in all nodes in a network, nor is it always feasible for nodes setting up paths to compute the constraint paths themselves, a notable example is when a path traverses network or area boundary. These reasons motivate a solution using a 'subset' of routers (called route exchangers), to collect constraint information and exchange it with other route exchangers. Route exchangers store traffic engineering link states and other types of constraint information and compute on demand, the explicit routes required by routers establishing paths. Hence, link state information need only be distributed to the subset of nodes that help compute constraint paths in the network.</t>
     </abstract>

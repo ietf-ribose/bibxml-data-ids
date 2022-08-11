@@ -7,7 +7,7 @@
     <author fullname="Scott Lawrence" initials="S." surname="Lawrence">
       <organization>Pingtel Corp.</organization>
     </author>
-    <date year="2006" month="October"/>
+    <date year="2006" month="October" day="4"/>
     <abstract>
       <t>The Session Initiation Protocol (SIP) mandates a maximum size for any request transmitted over UDP. This maximum is set to the lesser of 1300 bytes or the path maximum transmission unit (MTU) size minus 200 bytes. If the size of the request exceeds this maximum, SIP requires implementations to switch the downstream transport to be a congestion controlled transport. However, when sending a response, a SIP implementation cannot choose the transport; it must use the transport specified by the Via. This document discusses the problems large responses can cause on UDP, and proposes an update to SIP to help diagnose and avoid those problems.</t>
     </abstract>
