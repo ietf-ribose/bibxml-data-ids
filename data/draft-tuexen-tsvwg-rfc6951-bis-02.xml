@@ -1,0 +1,17 @@
+<reference anchor="I-D.tuexen-tsvwg-rfc6951-bis">
+  <front>
+    <title>UDP Encapsulation of Stream Control Transmission Protocol (SCTP) Packets for End-Host to End-Host Communication</title>
+    <author fullname="Michael Tüxen">
+      <organization>Münster University of Applied Sciences</organization>
+    </author>
+    <author fullname="Randall R. Stewart">
+      <organization>Netflix, Inc.</organization>
+    </author>
+    <date year="2022" month="August" day="25"/>
+    <abstract>
+      <t>This document describes a simple method of encapsulating Stream Control Transmission Protocol (SCTP) packets into UDP packets and its limitations. This allows the usage of SCTP in networks with legacy NATs that do not support SCTP. It can also be used to implement SCTP on hosts without directly accessing the IP layer, for example, implementing it as part of the application without requiring special privileges. Please note that this document only describes the functionality needed within an SCTP stack to add on UDP encapsulation, providing only those mechanisms for two end-hosts to communicate with each other over UDP ports. In particular, it does not provide mechanisms to determine whether UDP encapsulation is being used by the peer, nor the mechanisms for determining which remote UDP port number can be used. These functions are out of scope for this document. This document covers only end-hosts and not tunneling (egress or ingress) endpoints.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-tuexen-tsvwg-rfc6951-bis-02"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-tuexen-tsvwg-rfc6951-bis-02.txt"/>
+</reference>
