@@ -1,0 +1,20 @@
+<reference anchor="I-D.ietf-httpbis-resumable-upload">
+  <front>
+    <title>tus - Resumable Uploads Protocol</title>
+    <author fullname="Marius Kleidl">
+      <organization>Transloadit Ltd</organization>
+    </author>
+    <author fullname="Guoye Zhang">
+      <organization>Apple Inc.</organization>
+    </author>
+    <author fullname="Lucas Pardue">
+      <organization>Cloudflare</organization>
+    </author>
+    <date year="2022" month="September" day="5"/>
+    <abstract>
+      <t>HTTP clients often encounter interrupted data transfers as a result of canceled requests or dropped connections. Prior to interruption, part of a representation may have been exchanged. To complete the data transfer of the entire representation, it is often desirable to issue subsequent requests that transfer only the remainder of the representation. HTTP range requests support this concept of resumable downloads from server to client. This document describes a mechanism that supports resumable uploads from client to server using HTTP.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-httpbis-resumable-upload-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-httpbis-resumable-upload-00.txt"/>
+</reference>
