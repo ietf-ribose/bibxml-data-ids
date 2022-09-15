@@ -1,0 +1,14 @@
+<reference anchor="I-D.vesely-dmarc-mlm-transform">
+  <front>
+    <title>Mailing List Manager (MLM) Transformations</title>
+    <author fullname="Alessandro Vesely">
+      <organization/>
+    </author>
+    <date year="2022" month="September" day="14"/>
+    <abstract>
+      <t>The widespread adoption of Domain-based Message Authentication, Reporting, and Conformance (DMARC) led Mailing List Managers (MLM) to rewrite the From: header field as a workaround. This document proposes three methods to get rid of munged From: lines. The methods vary requirements, complexity and success rates. Method one considers how MLMs can avoid From: munging for specific users. Methods two uses the Author: header field while method three tries to revert MLM transformations, in order to restore the original From: line after reception.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-vesely-dmarc-mlm-transform-07"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-vesely-dmarc-mlm-transform-07.txt"/>
+</reference>
