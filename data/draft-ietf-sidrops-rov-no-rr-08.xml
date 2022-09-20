@@ -1,0 +1,23 @@
+<reference anchor="I-D.ietf-sidrops-rov-no-rr">
+  <front>
+    <title>RPKI-Based Policy Without Route Refresh</title>
+    <author fullname="Randy Bush">
+      <organization>IIJ Research Lab &amp; Arrcus, Inc.</organization>
+    </author>
+    <author fullname="Keyur Patel">
+      <organization>Arrcus, Inc.</organization>
+    </author>
+    <author fullname="Philip Smith">
+      <organization>PFS Internet Development Pty Ltd</organization>
+    </author>
+    <author fullname="Mark Tinka">
+      <organization>SEACOM</organization>
+    </author>
+    <date year="2022" month="September" day="19"/>
+    <abstract>
+      <t>A BGP Speaker performing RPKI-based policy should not issue Route Refresh to its neighbors because it has received new RPKI data. This document updates [RFC8481] by describing how to avoid doing so by either keeping a full Adj-RIB-In or saving paths dropped due to ROV (Route Origin Validation) so they may be reevaluated with respect to new RPKI data.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-sidrops-rov-no-rr-08"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-sidrops-rov-no-rr-08.txt"/>
+</reference>
