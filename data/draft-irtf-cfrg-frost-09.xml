@@ -1,0 +1,23 @@
+<reference anchor="I-D.irtf-cfrg-frost">
+  <front>
+    <title>Two-Round Threshold Schnorr Signatures with FROST</title>
+    <author fullname="Deirdre Connolly" initials="D." surname="Connolly">
+      <organization>Zcash Foundation</organization>
+    </author>
+    <author fullname="Chelsea Komlo" initials="C." surname="Komlo">
+      <organization>University of Waterloo, Zcash Foundation</organization>
+    </author>
+    <author fullname="Ian Goldberg" initials="I." surname="Goldberg">
+      <organization>University of Waterloo</organization>
+    </author>
+    <author fullname="Christopher A. Wood" initials="C. A." surname="Wood">
+      <organization>Cloudflare</organization>
+    </author>
+    <date year="2022" month="September" day="27"/>
+    <abstract>
+      <t>In this draft, we present the two-round signing variant of FROST, a Flexible Round-Optimized Schnorr Threshold signature scheme. FROST signatures can be issued after a threshold number of entities cooperate to issue a signature, allowing for improved distribution of trust and redundancy with respect to a secret key. Further, this draft specifies signatures that are compatible with [RFC8032]. However, unlike [RFC8032], the protocol for producing signatures in this draft is not deterministic, so as to ensure protection against a key-recovery attack that is possible when even only one signer participant is malicious.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-irtf-cfrg-frost-09"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-irtf-cfrg-frost-09.txt"/>
+</reference>
