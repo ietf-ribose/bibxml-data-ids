@@ -1,0 +1,23 @@
+<reference anchor="I-D.ietf-lsr-ospf-bfd-strict-mode">
+  <front>
+    <title>OSPF BFD Strict-Mode</title>
+    <author fullname="Ketan Talaulikar" initials="K." surname="Talaulikar">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Peter Psenak" initials="P." surname="Psenak">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Albert Fu" initials="A." surname="Fu">
+      <organization>Bloomberg</organization>
+    </author>
+    <author fullname="Rejesh Shetty" initials="R." surname="Shetty">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2022" month="October" day="6"/>
+    <abstract>
+      <t>This document specifies the extensions to OSPF that enable an OSPF router to signal the requirement for a Bidirectional Forwarding Detection (BFD) session prior to adjacency formation. Link-Local Signaling (LLS) is used to advertise the requirement for strict-mode BFD session establishment for an OSPF adjacency. If both OSPF neighbors advertise BFD strict-mode, adjacency formation will be blocked until a BFD session has been successfully established. This document updates RFC2328 by augmenting the OSPF neighbor state machine with a check for BFD session up before progression from Init to Two-Way state when operating in OSPF BFD strict-mode.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lsr-ospf-bfd-strict-mode-10"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-lsr-ospf-bfd-strict-mode-10.txt"/>
+</reference>
