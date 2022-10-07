@@ -1,0 +1,14 @@
+<reference anchor="I-D.gondwana-email-mailpath">
+  <front>
+    <title>Email extension for specifying the next hop path for delivery</title>
+    <author fullname="Bron Gondwana" initials="B." surname="Gondwana">
+      <organization>Fastmail</organization>
+    </author>
+    <date year="2022" month="October" day="7"/>
+    <abstract>
+      <t>Much work has been put into adding authentication methods (DKIM, ARC), source verification (SPF) and policy support (DMARC) to email flows, however all these specifications have focused on looking backwards through email flow only, and only add new headers to messages, causing them all to be susceptible to replay or re-use. In particular, in early 2022, a type of attack called "DKIM Replay" was widely seen, where correctly DKIM-signed messages were sent to a different envelope sender. The "To" address would not be aligned, but such messages can also be the result of legitimate mailflow, so these messages were delivered to end-recipient mailboxes, and caused reputation issues for the signers of the original message.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-gondwana-email-mailpath-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-gondwana-email-mailpath-00.txt"/>
+</reference>

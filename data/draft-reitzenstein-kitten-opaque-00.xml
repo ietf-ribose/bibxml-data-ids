@@ -1,0 +1,14 @@
+<reference anchor="I-D.reitzenstein-kitten-opaque">
+  <front>
+    <title>A SASL and GSS-API Mechanism family using the asymmetric password-authenticated key agreement OPAQUE</title>
+    <author fullname="Nadja von Reitzenstein Čerpnjak" initials="N." surname="von Reitzenstein Čerpnjak">
+      <organization/>
+    </author>
+    <date year="2022" month="October" day="6"/>
+    <abstract>
+      <t>This specification describes a family of Simple Authentication and Security Layer (SASL, RFC4422) authentication mechanisms based on the OPAQUE asymmetric password-authenticated key agreement (PAKE) algorithm. They offer two distinct advantages over the SCRAM family of mechanisms. The underlying OPAQUE algorithm provides the ability for clients to register without the servers getting access to the clear text password of an user, preventing password exfiltration at registration. Secondly a successful authentication produces a long- term secret key only known to the client that can be used to access encrypted server-side data without needing to share keys between clients via a side-band mechanism. When used in combination with TLS or an equivalent security layer these mechanisms allow for secure channel binding.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-reitzenstein-kitten-opaque-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-reitzenstein-kitten-opaque-00.txt"/>
+</reference>
