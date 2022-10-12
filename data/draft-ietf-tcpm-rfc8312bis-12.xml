@@ -1,0 +1,26 @@
+<reference anchor="I-D.ietf-tcpm-rfc8312bis">
+  <front>
+    <title>CUBIC for Fast and Long-Distance Networks</title>
+    <author fullname="Lisong Xu" initials="L." surname="Xu">
+      <organization>University of Nebraska-Lincoln</organization>
+    </author>
+    <author fullname="Sangtae Ha" initials="S." surname="Ha">
+      <organization>University of Colorado at Boulder</organization>
+    </author>
+    <author fullname="Injong Rhee" initials="I." surname="Rhee">
+      <organization>Bowery Farming</organization>
+    </author>
+    <author fullname="Vidhi Goel" initials="V." surname="Goel">
+      <organization>Apple Inc.</organization>
+    </author>
+    <author fullname="Lars Eggert" initials="L." surname="Eggert">
+      <organization>NetApp</organization>
+    </author>
+    <date year="2022" month="October" day="12"/>
+    <abstract>
+      <t>CUBIC is a standard TCP congestion control algorithm that uses a cubic function instead of a linear congestion window increase function to improve scalability and stability over fast and long- distance networks. CUBIC has been adopted as the default TCP congestion control algorithm by the Linux, Windows, and Apple stacks. This document updates the specification of CUBIC to include algorithmic improvements based on these implementations and recent academic work. Based on the extensive deployment experience with CUBIC, it also moves the specification to the Standards Track, obsoleting RFC 8312. This also requires updating RFC 5681, to allow for CUBIC's occasionally more aggressive sending behavior.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-rfc8312bis-12"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-tcpm-rfc8312bis-12.txt"/>
+</reference>
