@@ -1,0 +1,20 @@
+<reference anchor="I-D.schinazi-httpbis-transport-auth">
+  <front>
+    <title>HTTP Unprompted Authentication</title>
+    <author fullname="David Schinazi" initials="D." surname="Schinazi">
+      <organization>Google LLC</organization>
+    </author>
+    <author fullname="David Oliver" initials="D." surname="Oliver">
+      <organization>Guardian Project</organization>
+    </author>
+    <author fullname="Jonathan Hoyland" initials="J." surname="Hoyland">
+      <organization>Cloudflare Inc.</organization>
+    </author>
+    <date year="2022" month="October" day="13"/>
+    <abstract>
+      <t>Existing HTTP authentication mechanisms are probeable in the sense that it is possible for an unauthenticated client to probe whether an origin serves resources that require authentication. It is possible for an origin to hide the fact that it requires authentication by not generating Unauthorized status codes, however that only works with non-cryptographic authentication schemes: cryptographic schemes (such as signatures or message authentication codes) require a fresh nonce to be signed, and there is no existing way for the origin to share such a nonce without exposing the fact that it serves resources that require authentication. This document proposes a new non-probeable cryptographic authentication scheme.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-schinazi-httpbis-transport-auth-08"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-schinazi-httpbis-transport-auth-08.txt"/>
+</reference>
