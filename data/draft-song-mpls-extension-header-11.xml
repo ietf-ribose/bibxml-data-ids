@@ -1,0 +1,26 @@
+<reference anchor="I-D.song-mpls-extension-header">
+  <front>
+    <title>MPLS Network Actions using Post-Stack Extension Headers</title>
+    <author fullname="Haoyu Song" initials="H." surname="Song">
+      <organization>Futurewei Technologies</organization>
+    </author>
+    <author fullname="Tianran Zhou" initials="T." surname="Zhou">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Loa Andersson" initials="L." surname="Andersson">
+      <organization>Bronze Dragon Consulting</organization>
+    </author>
+    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Rakesh Gandhi" initials="R." surname="Gandhi">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date year="2022" month="October" day="15"/>
+    <abstract>
+      <t>Motivated by the need to support multiple in-network services and functions in an MPLS network (a.k.a. MPLS Network Actions (MNA)), this document describes a generic and extensible method to encapsulate MNA instructions as well as possible ancillary data in an MPLS packet. All the post-stack MNAs are encapsulated in a structure called Post-stack Action Header (PAH). A PAH is composed of a common header plus a chain of extension headers; each extension header is a container for an MNA. The encapsulation method allows chaining multiple post-stack extension headers and provides the means to enable fast access to them as well as the original upper layer headers. This document confines to the solution of PAH encoding and leaves the specification of PAH indicator to the overall MNA solution. We show how PAH can be used to support several new MNAs as a generic post-stack mechanism.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-song-mpls-extension-header-11"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-song-mpls-extension-header-11.txt"/>
+</reference>
