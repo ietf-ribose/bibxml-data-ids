@@ -1,0 +1,20 @@
+<reference anchor="I-D.ietf-lsr-ospf-admin-tags">
+  <front>
+    <title>Extensions to OSPF for Advertising Prefix Administrative Tags</title>
+    <author fullname="Acee Lindem" initials="A." surname="Lindem">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Peter Psenak" initials="P." surname="Psenak">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Yingzhen Qu" initials="Y." surname="Qu">
+      <organization>Futurewei</organization>
+    </author>
+    <date year="2022" month="October" day="19"/>
+    <abstract>
+      <t>It is useful for routers in an OSPFv2 or OSPFv3 routing domain to be able to associate tags with prefixes. Previously, OSPFv2 and OSPFv3 were relegated to a single tag for AS External and Not-So-Stubby-Area (NSSA) prefixes. With the flexible encodings provided by OSPFv2 Prefix/Link Attribute Advertisement and OSPFv3 Extended LSAs, multiple administrative tags may advertised for all types of prefixes. These administrative tags can be used for many applications including route redistribution policy, selective prefix prioritization, selective IP Fast-ReRoute (IPFRR) prefix protection, and many others. The ISIS protocol supports a similar mechanism that is described in RFC 5130.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lsr-ospf-admin-tags-06"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-lsr-ospf-admin-tags-06.txt"/>
+</reference>

@@ -1,0 +1,26 @@
+<reference anchor="I-D.quilbeuf-opsawg-configuration-tracing">
+  <front>
+    <title>External Transaction ID for Configuration Tracing</title>
+    <author fullname="Jean Quilbeuf" initials="J." surname="Quilbeuf">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Benoît Claise" initials="B." surname="Claise">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Thomas Graf" initials="T." surname="Graf">
+      <organization>Swisscom</organization>
+    </author>
+    <author fullname="Diego Lopez" initials="D." surname="Lopez">
+      <organization>Telefonica I+D</organization>
+    </author>
+    <author fullname="Sun Qiong" initials="S." surname="Qiong">
+      <organization>China Telecom</organization>
+    </author>
+    <date year="2022" month="October" day="20"/>
+    <abstract>
+      <t>Network equipments are often configured by a variety of network management systems (NMS), protocols, and people. If a network issue arises because of a wrong configuration modification, it's important to quickly identify the specific service request and obtain the reason for pushing that modification. Another potential network issue can stem from concurrent NMS's with overlapping intent, each having their own tasks to perform: in such a case, it's important to map the respective modifications to its originating NMS. This document specifies a mechanism to automatically map the configuration modifications to their source, up to a specific NMS service request, in the context of NETCONF. Such a mechanism is required for autonomous networks, to trace the reason of a particular configuration change that lead to an anomaly detection or a broken SLA. This mechanism facilitates the troubleshooting, the post mortem analysis, and in the end the closed loop automation required for self-healing networks. The specifications contain a new YANG module mapping a local configuration change to the corresponding northbound transaction, up to the controller or even the orchestrator.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-quilbeuf-opsawg-configuration-tracing-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-quilbeuf-opsawg-configuration-tracing-00.txt"/>
+</reference>
