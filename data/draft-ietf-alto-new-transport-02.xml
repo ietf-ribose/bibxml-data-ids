@@ -1,0 +1,23 @@
+<reference anchor="I-D.ietf-alto-new-transport">
+  <front>
+    <title>ALTO New Transport: ALTO Transport Information Structures</title>
+    <author fullname="Roland Schott" initials="R." surname="Schott">
+      <organization>Deutsche Telekom</organization>
+    </author>
+    <author fullname="Y. Richard Yang" initials="Y. R." surname="Yang">
+      <organization>Yale University</organization>
+    </author>
+    <author fullname="Kai Gao" initials="K." surname="Gao">
+      <organization>Sichuan University</organization>
+    </author>
+    <author fullname="Jingxuan Zhang" initials="J." surname="Zhang">
+      <organization>Tongji University</organization>
+    </author>
+    <date year="2022" month="October" day="20"/>
+    <abstract>
+      <t>The ALTO base protocol [RFC7285] defines both the ALTO information resources and their transport from the server to the client. Using HTTP/1.x as the transport protocol, the ALTO transport in the base protocol includes the limitations of HTTP/1.x. ALTO/SSE [RFC8895] defines a new transport design addressing some of the limitations, but is still based on HTTP/1.x. This document introduces ALTO new transport, which introduces ALTO transport information structures (TIS) at an ALTO server. The introduction of ALTO TIS allows at least two types of efficient transport using HTTP: (1) HTTP/2/3 independent client (long) poll allowed by non-blocking, newer HTTP, and (2) HTTP/2 specific server push. This document defines ALTO TIS and the first design. A companion document defines server-push ALTO transport based on ALTO TIS.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-alto-new-transport-02"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-alto-new-transport-02.txt"/>
+</reference>

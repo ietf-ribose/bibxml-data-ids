@@ -1,0 +1,32 @@
+<reference anchor="I-D.bonica-spring-srv6-end-dtm">
+  <front>
+    <title>SR-MPLS / SRv6 Transport Interworking</title>
+    <author fullname="Shraddha Hegde" initials="S." surname="Hegde">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Parag Kaneriya" initials="P." surname="Kaneriya">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Ron Bonica" initials="R." surname="Bonica">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Shaofu Peng" initials="S." surname="Peng">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author fullname="Greg Mirsky" initials="G." surname="Mirsky">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author fullname="Zheng Zhang" initials="Z." surname="Zhang">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author fullname="Bruno Decraene" initials="B." surname="Decraene">
+      <organization>Orange</organization>
+    </author>
+    <date year="2022" month="October" day="21"/>
+    <abstract>
+      <t>This document describes procedures for interworking between an SR- MPLS transit domain and an SRv6 transit domain. Each domain contains Provider Edge (PE) and Provider (P) routers. Area Border Routers (ABR) provide connectivity between domains. The procedures described in this document require the ABR to carry a route to each PE router. However, they do not required the ABR to carry service (i.e., customer) routes. In that respect, these procedures resemble L3VPN Interprovider Option C. Procedures described in this document support interworking for global IPv4 and IPv6 service prefixes. They do not support interworking for VPN services prefixes where the SR-MPLS domain uses MPLS service labels.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-bonica-spring-srv6-end-dtm-08"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-bonica-spring-srv6-end-dtm-08.txt"/>
+</reference>

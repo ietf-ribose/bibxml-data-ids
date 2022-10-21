@@ -1,0 +1,20 @@
+<reference anchor="I-D.chuang-dkim-replay-problem">
+  <front>
+    <title>DKIM Replay Problem Statement and Scenarios</title>
+    <author fullname="Wei Chuang" initials="W." surname="Chuang">
+      <organization>Google, Inc.</organization>
+    </author>
+    <author fullname="Allen Robin" initials="A." surname="Robin">
+      <organization>Google, Inc.</organization>
+    </author>
+    <author fullname="Bron Gondwana" initials="B." surname="Gondwana">
+      <organization>Fastmail Pty Ltd</organization>
+    </author>
+    <date year="2022" month="October" day="20"/>
+    <abstract>
+      <t>DKIM [RFC6376] is an IETF standard for the cryptographic protocol to sign and authenticate email at the domain level and protect the integrity of messages during transit. In particular this enables DKIM to be able authenticate email through email forwarding. Section 8.6 of [RFC6376] defines a vulnerability called DKIM Replay as a spam message sent through a SMTP MTA DKIM signer, that then is sent to many more recipients, leveraging the reputation of the signer. This document defines the damage this causes to email delivery and interoperability, and the impacted mail flows. Part of the reason why this is such a difficult problem is that receivers have a hard time differentiating between legitimate forwarding flows and DKIM replay.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-chuang-dkim-replay-problem-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-chuang-dkim-replay-problem-00.txt"/>
+</reference>
