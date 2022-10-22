@@ -1,0 +1,23 @@
+<reference anchor="I-D.li-mpls-mna-nffrr">
+  <front>
+    <title>MPLS Network Actions for No Further Fast Reroute</title>
+    <author fullname="Tarek Saad" initials="T." surname="Saad">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Israel Meilik" initials="I." surname="Meilik">
+      <organization>Broadcom</organization>
+    </author>
+    <author fullname="Tony Li" initials="T." surname="Li">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="John Drake" initials="J." surname="Drake">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2022" month="October" day="21"/>
+    <abstract>
+      <t>Protection switching for MPLS traffic was first introduced in "Fast Reroute Extensions to RSVP-TE for LSP Tunnels". Since then, Fast Reroute (FRR) has been successfully used in many MPLS networks to help ensure high availability in the face of failures. If there are multiple failures in a network, there are circumstances where FRR, if applied multiple times, can result in sub-optimal behavior, such as forwarding loops. Thus, it is useful to indicate in the forwarding plane that the attached traffic should not be subjected to further FRR redirection. This document describes a network action for identifying such traffic to be used in conjunction with "MPLS Network Action (MNA) Header Encodings".</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-mpls-mna-nffrr-01"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-li-mpls-mna-nffrr-01.txt"/>
+</reference>
