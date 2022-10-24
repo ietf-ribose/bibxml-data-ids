@@ -1,0 +1,23 @@
+<reference anchor="I-D.li-spring-sr-e2e-ietf-network-slicing">
+  <front>
+    <title>Segment Routing for End-to-End IETF Network Slicing</title>
+    <author fullname="Zhenbin Li" initials="Z." surname="Li">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Jie Dong" initials="J." surname="Dong">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Ran Pang" initials="R." surname="Pang">
+      <organization>China Unicom</organization>
+    </author>
+    <author fullname="Yongqing Zhu" initials="Y." surname="Zhu">
+      <organization>China Telecom</organization>
+    </author>
+    <date year="2022" month="October" day="24"/>
+    <abstract>
+      <t>IETF network slices can be used to meet the connectivity and performance requirements of different services or customers in a shared network. An IETF network slice can be realized by mapping a set of connectivity constructs to a network resource partition (NRP). In some network scenarios, an end-to-end IETF network slice may span multiple network domains. Within each domain, traffic of the end-to- end network slice service is mapped to an intra-domain NRP. When segment routing (SR) is used to provide multi-domain IETF network slices, information of the intra-domain NRP can be specified using special SR binding segments which are called NRP binding segments (NRP BSID). Then a multi-domain IETF network slice can be specified using a list of NRP BSIDs in the packet, each of which is used by the corresponding domain edge nodes to steer the traffic of the end-to-end IETF network slice into the specific intra-domain NRP. This document describes the functionality of the NRP binding segment and its instantiation in SR-MPLS and SRv6 data planes.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-spring-sr-e2e-ietf-network-slicing-05"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-li-spring-sr-e2e-ietf-network-slicing-05.txt"/>
+</reference>

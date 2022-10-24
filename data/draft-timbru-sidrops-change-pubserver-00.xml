@@ -1,0 +1,14 @@
+<reference anchor="I-D.timbru-sidrops-change-pubserver">
+  <front>
+    <title>Change Publication Server used by an RPKI CA</title>
+    <author fullname="Tim Bruijnzeels" initials="T." surname="Bruijnzeels">
+      <organization>NLnet Labs</organization>
+    </author>
+    <date year="2022" month="October" day="24"/>
+    <abstract>
+      <t>This draft outlines how Krill, an RPKI CA and Publication Server, implements the process that allows a CA to change the Publication Server it uses, migrating its content from the old server, to the new server's repository. The current implementation is modelled after the RPKI CA Key Rollover process defined in RFC 6489, except that in this case a new location is used for the new key. It incudes some discussion about possible improvements to the process. The goal of this draft is to serve as a starting point for a broader discussion on how RPKI Repository Migration should be done. If adopted as a working group item, the status could be changed to standard or bcp, and the intent would of course be to update the content to reflect working group consensus rather than what happens to have been implemented in Krill at this time.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-timbru-sidrops-change-pubserver-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-timbru-sidrops-change-pubserver-00.txt"/>
+</reference>
