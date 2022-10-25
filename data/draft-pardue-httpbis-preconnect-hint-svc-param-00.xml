@@ -1,0 +1,14 @@
+<reference anchor="I-D.pardue-httpbis-preconnect-hint-svc-param">
+  <front>
+    <title>A Preconnect Hint for SVCB/HTTPS RR</title>
+    <author fullname="Lucas Pardue" initials="L." surname="Pardue">
+      <organization/>
+    </author>
+    <date year="2022" month="October" day="24"/>
+    <abstract>
+      <t>HTTP resources from one origin often have relationships to resources on other origins. This document outlines how a "preconnectHint" SvcParamKey for SVCB, could be used to provide an early indication of origins that are related to the current origin. Clients could use this information to opportunistically prepare and open connections, with the expectation that they will be used to fetch related resources. This mechanism provides information from a source that is not the authenticated origin, which could cause the client to perform actions that no other party would ask them to do; privacy considerations due to this are visited.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-pardue-httpbis-preconnect-hint-svc-param-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-pardue-httpbis-preconnect-hint-svc-param-00.txt"/>
+</reference>

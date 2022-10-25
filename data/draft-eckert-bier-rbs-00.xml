@@ -1,0 +1,29 @@
+<reference anchor="I-D.eckert-bier-rbs">
+  <front>
+    <title>Recursive BitString Structure (RBS) Addresses for BIER and MSR6</title>
+    <author fullname="Toerless Eckert" initials="T. T." surname="Eckert">
+      <organization>Futurewei Technologies USA</organization>
+    </author>
+    <author fullname="Michael Menth" initials="M." surname="Menth">
+      <organization>University of Tuebingen</organization>
+    </author>
+    <author fullname="Xuesong Geng" initials="X." surname="Geng">
+      <organization>Huawei 2012 NT Lab</organization>
+    </author>
+    <author fullname="Xiuli Zheng" initials="X." surname="Zheng">
+      <organization>Huawei 2012 NT Lab</organization>
+    </author>
+    <author fullname="Rui Meng" initials="R." surname="Meng">
+      <organization>Huawei 2012 NT Lab</organization>
+    </author>
+    <author fullname="Fengkai Li" initials="F." surname="Li">
+      <organization>Huawei 2012 NT Lab</organization>
+    </author>
+    <date year="2022" month="October" day="24"/>
+    <abstract>
+      <t>This memo introduces a compact data-structure representation of multicast trees called "Recursive Bitstring Structure" (RBS) and its use for (stateless) forwarding of packets that include this structure in their header. It is intended as an alternative to "flat" bitstring addresses as used in BIER and BIER-TE or possible forwarding plane variations such as MSR6. RBS aims to improve performance and scalability over flat bitstrings and simplify operations. Operations is simplified because RBS does not require the use, management and optimization of network-wide configured address spaces BIFT-ID and SI and because one common RBS mechanism can replace flat bitstring addresses for both shortest-path forwarding and tree engineered forwarding. It intends to improve performance by allowing multicast to sparse set of receivers in larger networks with fewer packets and it intends to improve scalability by requiring less BIFT state on routers.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-eckert-bier-rbs-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-eckert-bier-rbs-00.txt"/>
+</reference>

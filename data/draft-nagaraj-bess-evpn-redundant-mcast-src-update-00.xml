@@ -1,0 +1,23 @@
+<reference anchor="I-D.nagaraj-bess-evpn-redundant-mcast-src-update">
+  <front>
+    <title>Enhancements to Multicast Source Redundancy in EVPN Networks</title>
+    <author fullname="Vinod Kumar Nagaraj" initials="V. K." surname="Nagaraj">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Vikram Nagarajan" initials="V." surname="Nagarajan">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+      <organization>Nokia</organization>
+    </author>
+    <date year="2022" month="October" day="24"/>
+    <abstract>
+      <t>draft-ietf-bess-evpn-redundant-mcast-source specifies Warm Standby (WS) and Hot Standby (HS) procedures for handling redundant multicast traffic into an EVPN tenant domain. With the Hot Standby procedure, multiple ingress PEs may inject traffic and an egress PE will decide from which ingress PE traffic will be accepted and forwarded. The decision is based on certain signaling messages and/or BFD status of provider tunnels from the ingress PEs, and the traffic is associated with ingress PEs based on Ethernet Segment Identifier (ESI) labels. As a result, the procedures in that document only apply to MPLS data plane. This document extends the Hot Standby procedures to non-MPLS data planes and EVPN Data Center Interconnect scenarios.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-nagaraj-bess-evpn-redundant-mcast-src-update-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-nagaraj-bess-evpn-redundant-mcast-src-update-00.txt"/>
+</reference>

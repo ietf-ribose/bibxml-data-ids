@@ -1,0 +1,20 @@
+<reference anchor="I-D.lcurley-warp">
+  <front>
+    <title>Warp - Segmented Live Media Transport</title>
+    <author fullname="Luke Curley" initials="L." surname="Curley">
+      <organization>Twitch</organization>
+    </author>
+    <author fullname="Kirill Pugin" initials="K." surname="Pugin">
+      <organization>Meta</organization>
+    </author>
+    <author fullname="Suhas Nandakumar" initials="S." surname="Nandakumar">
+      <organization>Cisco</organization>
+    </author>
+    <date year="2022" month="October" day="24"/>
+    <abstract>
+      <t>This document defines the core behavior for Warp, a segmented live media transport protocol over QUIC. Media is split into segments based on the underlying media encoding and transmitted independently over QUIC streams. QUIC streams are prioritized based on the delivery order, allowing less important segments to be starved or dropped during congestion.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-lcurley-warp-02"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-lcurley-warp-02.txt"/>
+</reference>
