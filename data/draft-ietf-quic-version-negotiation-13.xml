@@ -1,0 +1,17 @@
+<reference anchor="I-D.ietf-quic-version-negotiation">
+  <front>
+    <title>Compatible Version Negotiation for QUIC</title>
+    <author fullname="David Schinazi" initials="D." surname="Schinazi">
+      <organization>Google LLC</organization>
+    </author>
+    <author fullname="Eric Rescorla" initials="E." surname="Rescorla">
+      <organization>Mozilla</organization>
+    </author>
+    <date year="2022" month="November" day="6"/>
+    <abstract>
+      <t>QUIC does not provide a complete version negotiation mechanism but instead only provides a way for the server to indicate that the version the client chose is unacceptable. This document describes a version negotiation mechanism that allows a client and server to select a mutually supported version. Optionally, if the client's chosen version and the negotiated version share a compatible first flight format, the negotiation can take place without incurring an extra round trip. This document updates RFC 8999.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-quic-version-negotiation-13"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-quic-version-negotiation-13.txt"/>
+</reference>
