@@ -1,0 +1,17 @@
+<reference anchor="I-D.burgin-jenkins-identity-chaining">
+  <front>
+    <title>OAuth Identity Chaining</title>
+    <author fullname="Michael J. Jenkins" initials="M. J." surname="Jenkins">
+      <organization>National Security Agency</organization>
+    </author>
+    <author fullname="Kelley W. Burgin" initials="K. W." surname="Burgin">
+      <organization/>
+    </author>
+    <date year="2022" month="November" day="8"/>
+    <abstract>
+      <t>This specification defines a new OAuth claim that allows a proxying OAuth client to pass identity information for a different OAuth client to an OAuth authorization server during a token request. The authorization server uses this additional identity information when populating the "client_id" and "cnf" fields of the returned access token instead of the identity information about the proxying client requesting the token.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-burgin-jenkins-identity-chaining-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-burgin-jenkins-identity-chaining-00.txt"/>
+</reference>
