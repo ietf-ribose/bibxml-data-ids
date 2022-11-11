@@ -1,0 +1,14 @@
+<reference anchor="I-D.cutler-httpbis-partitioned-cookies">
+  <front>
+    <title>Cookies Having Independent Partitioned State specification</title>
+    <author fullname="Dylan J Cutler" initials="D. J." surname="Cutler">
+      <organization>Google LLC</organization>
+    </author>
+    <date year="2022" month="November" day="10"/>
+    <abstract>
+      <t>This document updates RFC6265bis, defining a new attribute, Partitioned, which restricts the contexts in which a cookie is available to only those whose top-level document is same-site with the top-level document that initiated the request that created the cookie. These cookies are referred to as "partitioned cookies" and allow embedded sites which are cross-site with the top-level frame to have access to HTTP state which cannot be used for tracking across multiple top-level sites.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-cutler-httpbis-partitioned-cookies-01"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-cutler-httpbis-partitioned-cookies-01.txt"/>
+</reference>
