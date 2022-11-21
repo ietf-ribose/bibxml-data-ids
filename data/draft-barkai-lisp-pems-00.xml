@@ -1,0 +1,26 @@
+<reference anchor="I-D.barkai-lisp-pems">
+  <front>
+    <title>Portable Edge Multipoint Sockets</title>
+    <author fullname="Sharon Barkai" initials="S." surname="Barkai">
+      <organization>Fermi.io</organization>
+    </author>
+    <author fullname="Fabio Maino" initials="F." surname="Maino">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Alberto Rodriguez-Natal" initials="A." surname="Rodriguez-Natal">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Albert Cabellos-Aparicio" initials="A." surname="Cabellos-Aparicio">
+      <organization>J. Paillisse Vilanova</organization>
+    </author>
+    <author fullname="Dino Farinacci" initials="D." surname="Farinacci">
+      <organization>lispers.net</organization>
+    </author>
+    <date year="2022" month="November" day="20"/>
+    <abstract>
+      <t>This document describes the interfaces and functionality of portable socket objects, allocated and delegated using eBPF like Unix stacks, across edge compute locations, per Unicast and Multicast Endpoint Identifiers (EID). Each socket is used either as a queue, aggregating upstream point to point and point to multipoint application frames, or as a channel, transmitting point to multipoint and multipoint to multipoint application frames. Portability of Unicast queue sockets and Multicast channel sockets, as well as packet replication, is achieved using the Locator/ID Separation Protocol (LISP).</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-barkai-lisp-pems-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-barkai-lisp-pems-00.txt"/>
+</reference>
