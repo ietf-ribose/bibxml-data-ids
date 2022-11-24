@@ -1,6 +1,21 @@
 <reference anchor="I-D.ietf-pcp-proxy">
   <front>
     <title>Port Control Protocol (PCP) Proxy Function</title>
+    <author fullname="Simon Perreault" initials="S." surname="Perreault">
+      <organization>Jive Communications</organization>
+    </author>
+    <author fullname="Mohamed Boucadair" initials="M." surname="Boucadair">
+      <organization>France Telecom</organization>
+    </author>
+    <author fullname="Reinaldo Penno" initials="R." surname="Penno">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Dan Wing" initials="D." surname="Wing">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Stuart Cheshire" initials="S." surname="Cheshire">
+      <organization>Apple</organization>
+    </author>
     <date year="2015" month="July" day="16"/>
     <abstract>
       <t>This document specifies a new Port Control Protocol (PCP) functional element: the PCP proxy. The PCP proxy relays PCP requests received from PCP clients to upstream PCP server(s). A typical deployment usage of this function is to help establish successful PCP communications for PCP clients that cannot be configured with the address of a PCP server located more than one hop away.</t>

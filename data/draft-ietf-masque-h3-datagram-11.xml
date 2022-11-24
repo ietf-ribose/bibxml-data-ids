@@ -9,7 +9,7 @@
     </author>
     <date year="2022" month="June" day="17"/>
     <abstract>
-      <t>This document describes HTTP Datagrams, a convention for conveying multiplexed, potentially unreliable datagrams inside an HTTP connection. In HTTP/3, HTTP Datagrams can be sent unreliably using the QUIC DATAGRAM extension. When the QUIC DATAGRAM frame is unavailable or undesirable, they can be sent using the Capsule Protocol, a more general convention for conveying data in HTTP connections. HTTP Datagrams and the Capsule Protocol are intended for use by HTTP extensions, not applications.</t>
+      <t>This document describes HTTP Datagrams, a convention for conveying multiplexed, potentially unreliable datagrams inside an HTTP connection. In HTTP/3, HTTP Datagrams can be sent unreliably using the QUIC DATAGRAM extension. When the QUIC DATAGRAM frame is unavailable or undesirable, HTTP Datagrams can be sent using the Capsule Protocol, which is a more general convention for conveying data in HTTP connections. HTTP Datagrams and the Capsule Protocol are intended for use by HTTP extensions, not applications.</t>
     </abstract>
   </front>
   <seriesInfo name="Internet-Draft" value="draft-ietf-masque-h3-datagram-11"/>
