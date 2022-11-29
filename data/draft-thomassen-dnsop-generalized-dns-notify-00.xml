@@ -1,0 +1,17 @@
+<reference anchor="I-D.thomassen-dnsop-generalized-dns-notify">
+  <front>
+    <title>Generalized DNS Notifications</title>
+    <author fullname="Johan Stenstam" initials="J." surname="Stenstam">
+      <organization>The Swedish Internet Foundation</organization>
+    </author>
+    <author fullname="Peter Thomassen" initials="P." surname="Thomassen">
+      <organization>deSEC, Secure Systems Engineering</organization>
+    </author>
+    <date year="2022" month="November" day="28"/>
+    <abstract>
+      <t>Changes in CDS/CDNSKEY, CSYNC, and other records related to delegation maintenance are usually detected through scheduled scans run by the consuming party (e.g. top-level domain registry), incurring an uncomfortable trade-off between scanning cost and update latency. A similar problem exists when scheduling zone transfers, and has been solved using the well-known DNS NOTIFY mechanism ([RFC1996]). This mechanism enables a primary nameserver to proactively inform secondaries about zone changes, allowing the secondary to initiate an ad-hoc transfer independently of when the next SOA check would be due. This document extends the use of DNS NOTIFY beyond conventional zone transfer hints, bringing the benefits of ad-hoc notifications to DNS delegation maintenance in general. Use cases include DNSSEC key rollovers hints via NOTIFY(CDS) and NOTIFY(DNSKEY), and quicker changes to a delegation's NS record set via NOTIFY(CSYNC). TO BE REMOVED: This document is being collaborated on in Github at: https://github.com/peterthomassen/draft-thomassen-dnsop-generalized- dns-notify (https://github.com/peterthomassen/draft-thomassen-dnsop- generalized-dns-notify). The most recent working version of the document, open issues, etc. should all be available there. The authors (gratefully) accept pull requests.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-thomassen-dnsop-generalized-dns-notify-00"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-thomassen-dnsop-generalized-dns-notify-00.txt"/>
+</reference>
