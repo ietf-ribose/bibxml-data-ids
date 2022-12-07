@@ -1,0 +1,23 @@
+<reference anchor="I-D.ietf-idr-long-lived-gr">
+  <front>
+    <title>Support for Long-lived BGP Graceful Restart</title>
+    <author fullname="Jim Uttaro" initials="J." surname="Uttaro">
+      <organization>AT&amp;T</organization>
+    </author>
+    <author fullname="Enke Chen" initials="E." surname="Chen">
+      <organization>Palo Alto Networks</organization>
+    </author>
+    <author fullname="Bruno Decraene" initials="B." surname="Decraene">
+      <organization>Orange</organization>
+    </author>
+    <author fullname="John Scudder" initials="J." surname="Scudder">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2022" month="December" day="6"/>
+    <abstract>
+      <t>In this document, we introduce a new BGP capability termed "Long- lived Graceful Restart Capability" so that stale routes can be retained for a longer time upon session failure than is provided for by BGP Graceful Restart (RFC 4724). A well-known BGP community "LLGR_STALE" is introduced for marking stale routes retained for a longer time. A second well-known BGP community, "NO_LLGR", is introduced to mark routes for which these procedures should not be applied. We also specify that such long-lived stale routes be treated as the least-preferred, and their advertisements be limited to BGP speakers that have advertised the new capability. Use of this extension is not advisable in all cases, and we provide guidelines to help determine if it is. We update RFC 6368 by specifying that the LLGR_STALE community must be propagated into, or out of, the path attributes exchanged between PE and CE.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-long-lived-gr-03"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-idr-long-lived-gr-03.txt"/>
+</reference>
