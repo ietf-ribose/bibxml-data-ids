@@ -1,0 +1,32 @@
+<reference anchor="I-D.ietf-idr-entropy-label">
+  <front>
+    <title>BGP Router Capabilities Attribute</title>
+    <author fullname="Bruno Decraene" initials="B." surname="Decraene">
+      <organization>Orange</organization>
+    </author>
+    <author fullname="John Scudder" initials="J." surname="Scudder">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Wim Henderickx" initials="W." surname="Henderickx">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Kireeti Kompella" initials="K." surname="Kompella">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="satyamoh@cisco.com" initials="" surname="satyamoh@cisco.com">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Jim Uttaro" initials="J." surname="Uttaro">
+      <organization>AT&amp;T</organization>
+    </author>
+    <author fullname="Bin Wen" initials="B." surname="Wen">
+      <organization>Comcast</organization>
+    </author>
+    <date year="2022" month="December" day="21"/>
+    <abstract>
+      <t>RFC 5492 allows a BGP speaker to advertise its capabilities to its peer. When a route is propagated beyond the immediate peer, it is useful to allow certain capabilities to be conveyed further. In particular, it may be useful to advertise forwarding plane features. This specification defines a new BGP transitive attribute to carry such capability information, the "Router Capabilities Attribute," or RCA. This specification also defines an RCA capability that can be used to advertise the ability to process the MPLS Entropy Label as an egress LSR for all NLRI advertised in the BGP UPDATE. It updates RFC 6790 and RFC 7447 concerning this BGP signaling.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-entropy-label-02"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-idr-entropy-label-02.txt"/>
+</reference>
