@@ -1,0 +1,32 @@
+<reference anchor="I-D.ietf-lisp-nexagon">
+  <front>
+    <title>Network-Hexagons:Geolocation Mobility Edge Network Based On H3 and LISP</title>
+    <author fullname="Sharon Barkai" initials="S." surname="Barkai">
+      <organization>Nexar Inc.</organization>
+    </author>
+    <author fullname="Bruno Fernandez-Ruiz" initials="B." surname="Fernandez-Ruiz">
+      <organization>Nexar Inc.</organization>
+    </author>
+    <author fullname="Rotem Tamir" initials="R." surname="Tamir">
+      <organization>Nexar Inc.</organization>
+    </author>
+    <author fullname="Alberto Rodriguez-Natal" initials="A." surname="Rodriguez-Natal">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Fabio Maino" initials="F." surname="Maino">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Albert Cabellos-Aparicio" initials="A." surname="Cabellos-Aparicio">
+      <organization>J. Paillisse Vilanova</organization>
+    </author>
+    <author fullname="Dino Farinacci" initials="D." surname="Farinacci">
+      <organization>lispers.net</organization>
+    </author>
+    <date year="2022" month="December" day="22"/>
+    <abstract>
+      <t>This document describes an interoperable system that utilizes virtual layer 3 routing and geospatial addressing to form a Geolocation mobility-edge network. The network uses a hierarchical H3 grid to calculate the high-resolution tile positions of vehicles with vision AI cameras based on their GPS coordinates. When these vehicles detect elements of interest on the road, the system uses the tile ID of the detection as the basis for an IPv6 endpoint identifier (EID). These EIDs are the queue destination and channel source for network-addressable agents which consolidate detections from all vehicles in a given area. The mobility network is built using the Locator/ID Separation Protocol (LISP).</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lisp-nexagon-43"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-lisp-nexagon-43.txt"/>
+</reference>
