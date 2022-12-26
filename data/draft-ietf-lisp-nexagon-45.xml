@@ -1,0 +1,32 @@
+<reference anchor="I-D.ietf-lisp-nexagon">
+  <front>
+    <title>Network-Hexagons:Geolocation Mobility Edge Network Based On H3 and LISP</title>
+    <author fullname="Sharon Barkai" initials="S." surname="Barkai">
+      <organization>Nexar Inc.</organization>
+    </author>
+    <author fullname="Bruno Fernandez-Ruiz" initials="B." surname="Fernandez-Ruiz">
+      <organization>Nexar Inc.</organization>
+    </author>
+    <author fullname="Rotem Tamir" initials="R." surname="Tamir">
+      <organization>Nexar Inc.</organization>
+    </author>
+    <author fullname="Alberto Rodriguez-Natal" initials="A." surname="Rodriguez-Natal">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Fabio Maino" initials="F." surname="Maino">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Albert Cabellos-Aparicio" initials="A." surname="Cabellos-Aparicio">
+      <organization>J. Paillisse Vilanova</organization>
+    </author>
+    <author fullname="Dino Farinacci" initials="D." surname="Farinacci">
+      <organization>lispers.net</organization>
+    </author>
+    <date year="2022" month="December" day="24"/>
+    <abstract>
+      <t>This document describes a system that utilizes geospatial grid indexing and the Locator/ID Separation Protocol (LISP) to create a dynamic-mapping geolocation mobility network. The system uses a hierarchical H3 grid to calculate the high-resolution tile positions of detections and driven road-segments made by vehicles equipped with vision AI sensors using their global positioning coordinates. When these vehicles record driven road-segments or detect elements of interest, the system uses the grid tile ID of the detection or road segment as the basis for an IPv6 endpoint identifier (EID). These EIDs are the destination queues and channel sources for network addressable geolocation agents, or "nexagons". Nexagon agents consolidate detections from all vehicles in a given area, dynamically learn roads &amp; conditions to support mapping &amp; driving applications.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lisp-nexagon-45"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-lisp-nexagon-45.txt"/>
+</reference>
