@@ -1,0 +1,20 @@
+<reference anchor="I-D.ietf-netmod-system-config">
+  <front>
+    <title>System-defined Configuration</title>
+    <author fullname="Qiufang Ma" initials="Q." surname="Ma">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Qin Wu" initials="Q." surname="Wu">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Chong Feng" initials="C." surname="Feng">
+      <organization>Huawei</organization>
+    </author>
+    <date year="2023" month="January" day="4"/>
+    <abstract>
+      <t>This document updates Network Management Datastore Architecture (NMDA) to define a read-only conventional configuration datastore called "system" to hold system-defined configurations. To avoid clients' explicit copy/paste of referenced system-defined configuration into the target configuration datastore (e.g., &lt;running&gt;), a "resolve-system" parameter is defined to allow the server acting as a "system client" to copy referenced system-defined nodes automatically. This solution enables clients manipulating the target configuration datastore (e.g., &lt;running&gt;) to reference nodes defined in &lt;system&gt;, override values of configurations defined in &lt;system&gt;, and configure descendant nodes of system-defined nodes. This document updates RFC 8342, RFC 6241, RFC 8526 and RFC 8040.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-netmod-system-config-01"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-netmod-system-config-01.txt"/>
+</reference>
