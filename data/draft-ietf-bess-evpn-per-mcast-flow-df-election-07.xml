@@ -1,0 +1,26 @@
+<reference anchor="I-D.ietf-bess-evpn-per-mcast-flow-df-election">
+  <front>
+    <title>Per multicast flow Designated Forwarder Election for EVPN</title>
+    <author fullname="Ali Sajassi" initials="A." surname="Sajassi">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Mankamana Prasad Mishra" initials="M. P." surname="Mishra">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Samir Thoria" initials="S." surname="Thoria">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="John Drake" initials="J." surname="Drake">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2023" month="January" day="6"/>
+    <abstract>
+      <t>[RFC7432] describes mechanism to elect designated forwarder (DF) at the granularity of (ESI, EVI) which is per VLAN (or per group of VLANs in case of VLAN bundle or VLAN-aware bundle service). However, the current level of granularity of per-VLAN is not adequate for some applications.[RFC8584] improves base line DF election by introducing HRW DF election. [RFC9251] introduces applicability of EVPN to Multicast flows, routes to sync them and a default DF election. This document is an extension to HRW base draft [RFC8584] and further enhances HRW algorithm for the Multicast flows to do DF election at the granularity of (ESI, VLAN, Mcast flow).</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-bess-evpn-per-mcast-flow-df-election-07"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-bess-evpn-per-mcast-flow-df-election-07.txt"/>
+</reference>
