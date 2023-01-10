@@ -1,0 +1,20 @@
+<reference anchor="I-D.ietf-tcpm-hystartplusplus">
+  <front>
+    <title>HyStart++: Modified Slow Start for TCP</title>
+    <author fullname="Praveen Balasubramanian" initials="P." surname="Balasubramanian">
+      <organization>Confluent</organization>
+    </author>
+    <author fullname="Yi Huang" initials="Y." surname="Huang">
+      <organization>Microsoft</organization>
+    </author>
+    <author fullname="Matt Olson" initials="M." surname="Olson">
+      <organization>Microsoft</organization>
+    </author>
+    <date year="2023" month="January" day="9"/>
+    <abstract>
+      <t>This document describes HyStart++, a simple modification to the slow start phase of congestion control algorithms. Traditional slow start can overshoot the ideal send rate in many cases, causing high packet loss and poor performance. HyStart++ uses a delay increase heuristic to find an exit point before possible overshoot. It also adds a mitigation to prevent jitter from causing premature slow start exit.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-hystartplusplus-12"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-tcpm-hystartplusplus-12.txt"/>
+</reference>
