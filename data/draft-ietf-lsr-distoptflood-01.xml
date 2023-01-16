@@ -1,0 +1,20 @@
+<reference anchor="I-D.ietf-lsr-distoptflood">
+  <front>
+    <title>IS-IS Optimal Distributed Flooding for Dense Topologies</title>
+    <author fullname="Russ White" initials="R." surname="White">
+      <organization>Akamai</organization>
+    </author>
+    <author fullname="Shraddha Hegde" initials="S." surname="Hegde">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Tony Przygienda" initials="T." surname="Przygienda">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2023" month="January" day="16"/>
+    <abstract>
+      <t>In dense topologies (such as data center fabrics based on the Clos and butterfly topologies, though not limited to those exclusively), IGP flooding mechanisms designed originally for sparse topologies can "overflood," or in other words generate too many identical copies of topology and reachability information arriving at a given node from other devices. This normally results in slower convergence times and higher resource utilization to process and discard the superfluous copies. The modifications to the flooding mechanism in the Intermediate System to Intermediate System (IS-IS) link state protocol described in this document reduce resource utilization significantly, while increaseing convergence performance in dense topologies. Beside reducing the extraneous copies it uses the dense topologies to "load-balance" flooding across different possible paths in the network to prevent build up of flooding hot-spots. Note that a Clos fabric is used as the primary example of a dense flooding topology throughout this document. However, the flooding optimizations described in this document apply to any arbitrary topology.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lsr-distoptflood-01"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-lsr-distoptflood-01.txt"/>
+</reference>
