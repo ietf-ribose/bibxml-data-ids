@@ -1,0 +1,14 @@
+<reference anchor="I-D.chuang-relay-flow-identifier">
+  <front>
+    <title>Relay Flow Identifier</title>
+    <author fullname="Wei Chuang" initials="W." surname="Chuang">
+      <organization>Google, Inc.</organization>
+    </author>
+    <date year="2023" month="January" day="18"/>
+    <abstract>
+      <t>To prevent spammers from using relay forwarding, we propose to identify relay flows. We do this by having relays categorize their authenticated traffic flows and publish to receivers identifiers associated with those flows. This is a unique, persistent over time, relay flow identifier name that is secured by some digital signature. Receivers can use this identifier to help categorize traffic through the relay and use that identifier to apply fine-grain anti-abuse policies instead of on the entire traffic through the relay. This document provides a specification for DKIM ([RFC6376]) for originating traffic and ARC [RFC8617] for forwarded traffic.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-chuang-relay-flow-identifier-01"/>
+  <format type="TXT" target="https://www.ietf.org/archive/id/draft-chuang-relay-flow-identifier-01.txt"/>
+</reference>
