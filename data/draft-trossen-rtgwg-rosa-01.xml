@@ -1,0 +1,25 @@
+<reference anchor="I-D.trossen-rtgwg-rosa">
+  <front>
+    <title>Routing on Service Addresses</title>
+    <author fullname="Dirk Trossen" initials="D." surname="Trossen">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Luis M. Contreras" initials="L. M." surname="Contreras">
+      <organization>Telefonica</organization>
+    </author>
+    <author fullname="Jens Finkhäuser" initials="J." surname="Finkhäuser">
+      <organization>Interpeer gUG</organization>
+    </author>
+    <author fullname="Paulo Mendes" initials="P." surname="Mendes">
+      <organization>Airbus</organization>
+    </author>
+    <author fullname="Daniel Huang" initials="D." surname="Huang">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <date year="2023" month="February" day="2"/>
+    <abstract>
+      <t>This document proposes a novel communication approach which reasons about WHAT is being communicated (and invoked) instead of WHO is communicating. Such approach is meant to transition away from locator-based addressing (and thus routing and forwarding) to an addressing scheme where the address semantics relate to services being invoked (e.g., for computational processes, and their generated information requests and responses). The document introduces Routing on Service Addresses (ROSA), as a realization of what is referred to as 'service-based routing' (SBR), to replace the usual DNS+IP sequence, i.e., the off-path discovery of a service name to an IP locator mapping, through an on-path discovery with in-band data transfer to a suitable service instance location for a selected set of services, not all Internet-based services. SBR is designed to be constrained by service-specific parameters that go beyond load and latency, as in today's best effort or traffic engineering based routing, leading to an approach to steer traffic in a service-specific constraint-based manner. Particularly, this document outlines sample ROSA use case scenarios, requirements for its design, and the ROSA system design itself.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-trossen-rtgwg-rosa-01"/>
+</reference>
