@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-alto-new-transport">
+  <front>
+    <title>ALTO Transport Information Publication Service</title>
+    <author fullname="Roland Schott" initials="R." surname="Schott">
+      <organization>Deutsche Telekom</organization>
+    </author>
+    <author fullname="Y. Richard Yang" initials="Y. R." surname="Yang">
+      <organization>Yale University</organization>
+    </author>
+    <author fullname="Kai Gao" initials="K." surname="Gao">
+      <organization>Sichuan University</organization>
+    </author>
+    <author fullname="Lachlan Keller" initials="L." surname="Keller">
+      <organization>Yale University</organization>
+    </author>
+    <date year="2023" month="February" day="6"/>
+    <abstract>
+      <t>The ALTO base protocol [RFC7285] is based on HTTP/1.x, designed for the simple, sequential request-reply use case, in which an ALTO client requests a sequence of information resources, and the server sends the complete content of each information resource to the client one by one. To support the use case that an ALTO client can monitor multiple resources at the same time and the ALTO server sends only their updates, the ALTO Working Group introduced ALTO/SSE [RFC8895], which defines a new, SSE-based multiplexing protocol on top of HTTP/1.x, to allow the server to concurrently, and incrementally push updates to the client whenever monitored network information resources change. However, newer versions of HTTP (e.g., HTTP/2 [RFC7540]) already support concurrent, non-blocking transport of multiple streams in the same HTTP connection. This document introduces the ALTO transport information publication service (TIPS), which allows the naming of (i.e., assigning resource identifiers to) individual incremental updates to multiple ALTO information resources and the distribution of the naming, enabling ALTO to take advantage of newer HTTP versions. In particular, it gives an ALTO client the new capability to explicitly request (pull) a specific incremental update. It also provides an ALTO server the new capability to push a specific incremental update using native HTTP/2 or HTTP/3 server push. This document defines TIPS as a service, independent of client pull or server push. A companion document [draft-schott-alto-new-transport-push] defines the complete server- push ALTO transport based on ALTO TIPS.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-alto-new-transport-05"/>
+</reference>
