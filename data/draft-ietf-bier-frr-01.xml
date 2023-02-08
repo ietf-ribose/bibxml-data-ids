@@ -1,0 +1,40 @@
+<reference anchor="I-D.ietf-bier-frr">
+  <front>
+    <title>BIER Fast ReRoute</title>
+    <author fullname="Huaimo Chen" initials="H." surname="Chen">
+      <organization>Futurewei</organization>
+    </author>
+    <author fullname="Mike McBride" initials="M." surname="McBride">
+      <organization>Futurewei</organization>
+    </author>
+    <author fullname="Steffen Lindner" initials="S." surname="Lindner">
+      <organization>University of Tuebingen</organization>
+    </author>
+    <author fullname="Michael Menth" initials="M." surname="Menth">
+      <organization>University of Tuebingen</organization>
+    </author>
+    <author fullname="Aijun Wang" initials="A." surname="Wang">
+      <organization>China Telecom</organization>
+    </author>
+    <author fullname="Gyan Mishra" initials="G. S." surname="Mishra">
+      <organization>Verizon Inc.</organization>
+    </author>
+    <author fullname="Yisong Liu" initials="Y." surname="Liu">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Yanhe Fan" initials="Y." surname="Fan">
+      <organization>Casa Systems</organization>
+    </author>
+    <author fullname="Lei Liu" initials="L." surname="Liu">
+      <organization>Fujitsu</organization>
+    </author>
+    <author fullname="Xufeng Liu" initials="X." surname="Liu">
+      <organization>IBM Corporation</organization>
+    </author>
+    <date year="2023" month="February" day="7"/>
+    <abstract>
+      <t>BIER is a scalable multicast overlay that utilizes a routing underlay, e.g., IP, to build up its Bit Index Forwarding Tables (BIFTs). This document proposes Fast Reroute for BIER (BIER-FRR). It protects BIER traffic after detecting the failure of a link or node in the core of a BIER domain until affected BIFT entries are recomputed after reconvergence of the routing underlay. BIER-FRR is applied locally at the point of local repair (PLR) and does not introduce any per-flow state. The document specifies nomenclature for BIER-FRR and gives examples for its integration in BIER forwarding. Furthermore, it presents operation modes for BIER-FRR. Link and node protection may be chosen as protection level. Moreover, the backup strategies tunnel-based BIER-FRR and LFA-based BIER-FRR are defined and compared.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-bier-frr-01"/>
+</reference>
