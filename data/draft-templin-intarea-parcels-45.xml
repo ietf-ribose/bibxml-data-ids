@@ -1,0 +1,13 @@
+<reference anchor="I-D.templin-intarea-parcels">
+  <front>
+    <title>IP Parcels</title>
+    <author fullname="Fred Templin" initials="F." surname="Templin">
+      <organization>Boeing Research &amp; Technology</organization>
+    </author>
+    <date year="2023" month="February" day="9"/>
+    <abstract>
+      <t>IP packets (both IPv4 and IPv6) contain a single unit of transport layer protocol data which becomes the retransmission unit in case of loss. Transport layer protocols including the Transmission Control Protocol (TCP) and reliable delivery protocol users of the User Datagram Protocol (UDP) prepare data units known as "segments", with individual IP packets including only a single segment. This document presents a new construct known as the "IP Parcel" which permits a single packet to carry multiple transport layer protocol segments in a "packet-of-packets". IP parcels provide an essential building block for improved performance, efficiency and integrity while encouraging larger Maximum Transmission Units (MTUs) in the Internet.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-templin-intarea-parcels-45"/>
+</reference>
