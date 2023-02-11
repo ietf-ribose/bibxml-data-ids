@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-pim-assert-packing">
+  <front>
+    <title>PIM Assert Message Packing</title>
+    <author fullname="Yisong Liu" initials="Y." surname="Liu">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Mike McBride" initials="M." surname="McBride">
+      <organization>Futurewei</organization>
+    </author>
+    <author fullname="Toerless Eckert" initials="T. T." surname="Eckert">
+      <organization>Futurewei</organization>
+    </author>
+    <author fullname="Zheng Zhang" initials="Z." surname="Zhang">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <date year="2023" month="February" day="10"/>
+    <abstract>
+      <t>In PIM-SM shared LAN networks, there is typically more than one upstream router. When duplicate data packets appear on the LAN from different routers, assert packets are sent from these routers to elect a single forwarder. The PIM assert packets are sent periodically to keep the assert state. The PIM assert packet carries information about a single multicast source and group, along with the metric-preference and metric of the route towards the source or RP. This document defines a standard to send and receive information for multiple multicast sources and groups in a single PIM assert message. This can be particularly helpful when there is traffic for a large number of multicast groups.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-pim-assert-packing-06"/>
+</reference>
