@@ -1,0 +1,16 @@
+<reference anchor="I-D.haynes-nfsv4-layoutwcc" target="https://datatracker.ietf.org/doc/html/draft-haynes-nfsv4-layoutwcc-01">
+  <front>
+    <title>Add LAYOUT_WCC to NFSv4.2</title>
+    <author fullname="Thomas Haynes" initials="T." surname="Haynes">
+      <organization>Hammerspace</organization>
+    </author>
+    <author fullname="Trond Myklebust" initials="T." surname="Myklebust">
+      <organization>Hammerspace</organization>
+    </author>
+    <date year="2023" month="February" day="20"/>
+    <abstract>
+      <t>The Parallel Network File System (pNFS) Flexible File Layout allows for a file's metadata (MDS) and data (DS) to be on different servers. It does not provide a mechanism for the data server to update the metadata server of changes to the data part of the file. The client has knowledge of such updates, but lacks the ability to update the metadata server. This document presents a refinement to RFC8434 to allow the client to update the metadata server to changes on the data server.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-haynes-nfsv4-layoutwcc-01"/>
+</reference>
