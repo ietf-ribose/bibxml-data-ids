@@ -1,0 +1,28 @@
+<reference anchor="I-D.ietf-lpwan-schc-compound-ack" target="https://datatracker.ietf.org/doc/html/draft-ietf-lpwan-schc-compound-ack-12">
+  <front>
+    <title>SCHC Compound ACK</title>
+    <author fullname="Juan-Carlos Zúñiga" initials="J. C." surname="Zúñiga">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Carles Gomez" initials="C." surname="Gomez">
+      <organization>Universitat Politecnica de Catalunya</organization>
+    </author>
+    <author fullname="Sergio Aguilar" initials="S." surname="Aguilar">
+      <organization>Universitat Politecnica de Catalunya</organization>
+    </author>
+    <author fullname="Laurent Toutain" initials="L." surname="Toutain">
+      <organization>IMT-Atlantique</organization>
+    </author>
+    <author fullname="Sandra Cespedes" initials="S." surname="Cespedes">
+      <organization>Concordia University</organization>
+    </author>
+    <author fullname="Diego S. Wistuba La Torre" initials="D. S. W. L." surname="Torre">
+      <organization>NIC Labs, Universidad de Chile</organization>
+    </author>
+    <date year="2023" month="February" day="21"/>
+    <abstract>
+      <t>The present document updates the SCHC (Static Context Header Compression and fragmentation) protocol RFC8724. It defines a SCHC Compound ACK message format and procedure, which are intended to reduce the number of response transmissions (i.e., SCHC ACKs) in the ACK-on-Error mode, by accumulating bitmaps of several windows in a single SCHC message (i.e., the SCHC Compound ACK). Both message format and procedure are generic, so they can be used, for instance, by any of the four Low Power Wide Area Networks (LPWANs) technologies defined in RFC8376, being Sigfox, LoRaWAN, NB- IoT and IEEE 802.15.4w.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lpwan-schc-compound-ack-12"/>
+</reference>

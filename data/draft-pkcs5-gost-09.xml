@@ -1,14 +1,13 @@
-<reference anchor="I-D.pkcs5-gost">
+<reference anchor="I-D.pkcs5-gost" target="https://datatracker.ietf.org/doc/html/draft-pkcs5-gost-09">
   <front>
-    <title>Generating Password-based Keys Using the GOST Algorithms</title>
+    <title>Generating Password-Based Keys Using the GOST Algorithms</title>
     <author fullname="Karelina Ekaterina" initials="K." surname="Ekaterina">
       <organization>InfoTeCS</organization>
     </author>
     <date year="2022" month="September" day="28"/>
     <abstract>
-      <t>This document specifies how to use the Password-Based Cryptography Specification version 2.1 (PKCS #5) defined in RFC8018 to generate a symmetric key from a password in conjunction with the Russian national standard GOST algorithms. PKCS #5 applies a pseudorandom function (a cryptographic hash, cipher, or HMAC) to the input password along with a salt value and repeats the process many times to produce a derived key. This specification is developed outside the IETF and is published to facilitate interoperable implementations that wish to support the GOST algorithms. This document does not imply IETF endorsement of the cryptographic algorithms used in this document.</t>
+      <t>This document specifies how to use "PKCS #5: Password-Based Cryptography Specification Version 2.1" (RFC 8018) to generate a symmetric key from a password in conjunction with the Russian national standard GOST algorithms. PKCS #5 applies a Pseudorandom Function (PRF) -- a cryptographic hash, cipher, or Hash-Based Message Authentication Code (HMAC) -- to the input password along with a salt value and repeats the process many times to produce a derived key. This specification has been developed outside the IETF. The purpose of publication being to facilitate interoperable implementations that wish to support the GOST algorithms. This document does not imply IETF endorsement of the cryptographic algorithms used here.</t>
     </abstract>
   </front>
   <seriesInfo name="Internet-Draft" value="draft-pkcs5-gost-09"/>
-  <format type="TXT" target="https://www.ietf.org/archive/id/draft-pkcs5-gost-09.txt"/>
 </reference>

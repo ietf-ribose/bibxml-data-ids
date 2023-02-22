@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-alto-new-transport" target="https://datatracker.ietf.org/doc/html/draft-ietf-alto-new-transport-06">
+  <front>
+    <title>ALTO Transport Information Publication Service</title>
+    <author fullname="Roland Schott" initials="R." surname="Schott">
+      <organization>Deutsche Telekom</organization>
+    </author>
+    <author fullname="Y. Richard Yang" initials="Y. R." surname="Yang">
+      <organization>Yale University</organization>
+    </author>
+    <author fullname="Kai Gao" initials="K." surname="Gao">
+      <organization>Sichuan University</organization>
+    </author>
+    <author fullname="Lauren Delwiche" initials="L." surname="Delwiche">
+      <organization>Yale University</organization>
+    </author>
+    <author fullname="Lachlan Keller" initials="L." surname="Keller">
+      <organization>Yale University</organization>
+    </author>
+    <date year="2023" month="February" day="21"/>
+    <abstract>
+      <t>The ALTO protocol (RFC 7285) leverages HTTP/1.x and is designed for the simple, sequential request-reply use case, in which an ALTO client requests a sequence of information resources, and the server responds with the complete content of each resource one at a time. ALTO/SSE (RFC 8895) defines a multiplexing protocol on top of HTTP/1.x, so that the server can incrementally push resource updates to the client whenever monitored network information resources change, allowing the client to monitor multiple resources at the same time. However, HTTP/2 and later versions already support concurrent, non-blocking transport of multiple streams in the same HTTP connection. To take advantage of newer HTTP features, this document introduces the ALTO Transport Information Publication Service (TIPS). TIPS allows the naming of (i.e., assigning resource identifiers to) individual incremental updates to multiple ALTO information resources, and the distribution of those names. It gives an ALTO client the capability to explicitly request (pull) a specific incremental update. It also provides an ALTO server the capability to push a specific incremental update. This document defines TIPS as a service, with client pull and server push.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-alto-new-transport-06"/>
+</reference>

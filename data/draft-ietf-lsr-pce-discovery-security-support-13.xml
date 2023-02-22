@@ -1,6 +1,6 @@
-<reference anchor="I-D.ietf-lsr-pce-discovery-security-support">
+<reference anchor="I-D.ietf-lsr-pce-discovery-security-support" target="https://datatracker.ietf.org/doc/html/draft-ietf-lsr-pce-discovery-security-support-13">
   <front>
-    <title>IGP extension for PCEP security capability support in PCE discovery</title>
+    <title>IGP Extension for Path Computation Element Communication Protocol (PCEP) Security Capability Support in PCE Discovery (PCED)</title>
     <author fullname="Diego Lopez" initials="D." surname="Lopez">
       <organization>Telefonica I+D</organization>
     </author>
@@ -18,9 +18,8 @@
     </author>
     <date year="2022" month="October" day="11"/>
     <abstract>
-      <t>When a Path Computation Element (PCE) is a Label Switching Router (LSR) participating in the Interior Gateway Protocol (IGP), or even a server participating in the IGP, its presence and path computation capabilities can be advertised using IGP flooding. The IGP extensions for PCE discovery (RFC 5088 and RFC 5089) define a method to advertise path computation capabilities using IGP flooding for OSPF and IS-IS respectively. However these specifications lack a method to advertise PCE Communication Protocol (PCEP) security (e.g., Transport Layer Security (TLS), TCP Authentication Option (TCP-AO)) support capability. This document defines capability flag bits for the PCE-CAP-FLAGS sub- TLV that can be announced as an attribute in the IGP advertisement to distribute PCEP security support information. In addition, this document updates RFC 5088 and RFC 5089 to allow advertisement of a Key ID or Key Chain Name Sub-TLV to support TCP-AO security capability. Further, this document updates RFC 8231 and RFC 8306.</t>
+      <t>When a Path Computation Element (PCE) is a Label Switching Router (LSR) or a server participating in the Interior Gateway Protocol (IGP), its presence and path computation capabilities can be advertised using IGP flooding. The IGP extensions for PCE Discovery (PCED) (RFCs 5088 and 5089) define a method to advertise path computation capabilities using IGP flooding for OSPF and IS-IS, respectively. However, these specifications lack a method to advertise Path Computation Element Communication Protocol (PCEP) security (e.g., Transport Layer Security (TLS) and TCP Authentication Option (TCP-AO)) support capability. This document defines capability flag bits for the PCE-CAP-FLAGS sub-TLV that can be announced as an attribute in the IGP advertisement to distribute PCEP security support information. In addition, this document updates RFCs 5088 and 5089 to allow advertisement of a Key ID or KEY-CHAIN-NAME sub-TLV to support TCP-AO security capability. This document also updates RFCs 8231 and 8306.</t>
     </abstract>
   </front>
   <seriesInfo name="Internet-Draft" value="draft-ietf-lsr-pce-discovery-security-support-13"/>
-  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-lsr-pce-discovery-security-support-13.txt"/>
 </reference>

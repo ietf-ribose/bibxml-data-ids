@@ -1,6 +1,6 @@
-<reference anchor="I-D.ietf-sidrops-rov-no-rr">
+<reference anchor="I-D.ietf-sidrops-rov-no-rr" target="https://datatracker.ietf.org/doc/html/draft-ietf-sidrops-rov-no-rr-08">
   <front>
-    <title>RPKI-Based Policy Without Route Refresh</title>
+    <title>Policy Based on the Resource Public Key Infrastructure (RPKI) without Route Refresh</title>
     <author fullname="Randy Bush" initials="R." surname="Bush">
       <organization>IIJ Research Lab &amp; Arrcus, Inc.</organization>
     </author>
@@ -15,9 +15,8 @@
     </author>
     <date year="2022" month="September" day="19"/>
     <abstract>
-      <t>A BGP Speaker performing RPKI-based policy should not issue Route Refresh to its neighbors because it has received new RPKI data. This document updates [RFC8481] by describing how to avoid doing so by either keeping a full Adj-RIB-In or saving paths dropped due to ROV (Route Origin Validation) so they may be reevaluated with respect to new RPKI data.</t>
+      <t>A BGP speaker performing policy based on the Resource Public Key Infrastructure (RPKI) should not issue route refresh to its neighbors because it has received new RPKI data. This document updates RFC 8481 by describing how to avoid doing so by either keeping a full Adj-RIB-In or saving paths dropped due to ROV (Route Origin Validation) so they may be reevaluated with respect to new RPKI data.</t>
     </abstract>
   </front>
   <seriesInfo name="Internet-Draft" value="draft-ietf-sidrops-rov-no-rr-08"/>
-  <format type="TXT" target="https://www.ietf.org/archive/id/draft-ietf-sidrops-rov-no-rr-08.txt"/>
 </reference>
