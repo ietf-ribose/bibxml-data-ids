@@ -1,0 +1,22 @@
+<reference anchor="I-D.marin-yang-edhoc-oscore" target="https://datatracker.ietf.org/doc/html/draft-marin-yang-edhoc-oscore-00">
+  <front>
+    <title>A YANG data model for SDN-based key management with EDHOC and OSCORE</title>
+    <author fullname="Rafael Marin-Lopez" initials="R." surname="Marin-Lopez">
+      <organization>University of Murcia</organization>
+    </author>
+    <author fullname="Gabriel Lopez-Millan" initials="G." surname="Lopez-Millan">
+      <organization>University of Murcia</organization>
+    </author>
+    <author fullname="Laurent Toutain" initials="L." surname="Toutain">
+      <organization>Institut Mines Telecom Atlantique</organization>
+    </author>
+    <author fullname="Alex Fernandez" initials="A." surname="Fernandez">
+      <organization>Institut Mines Telecom Atlantique</organization>
+    </author>
+    <date year="2023" month="February" day="27"/>
+    <abstract>
+      <t>This document defines YANG data models which allow a Software-Defined Networking (SDN) Controller (Controller) using NETCONF, RESTCONF or CORECONF to provide configuration and monitoring Internet-of-Things devices (Things) that support Ephemeral Diffie-Hellman Over COSE (EDHOC) and/or OSCORE. In particular, a YANG data model defines the required configuration parameters to perform EDHOC between two Things (EDHOC case). Another YANG data model is to configure the OSCORE contexts directly into the Thing (OSCORE case). The service described in this document allows the configuration and monitoring of Things that supports EDHOC and OSCORE or only OSCORE by allowing a protected Thing-to-Thing communication based on CoAP. This document focuses on providing YANG data models for configuring EDHOC or OSCORE. This allows OSCORE establishment with minimal intervention by the network administrator.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-marin-yang-edhoc-oscore-00"/>
+</reference>
