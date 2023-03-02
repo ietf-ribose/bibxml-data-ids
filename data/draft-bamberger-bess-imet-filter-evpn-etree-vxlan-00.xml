@@ -1,0 +1,22 @@
+<reference anchor="I-D.bamberger-bess-imet-filter-evpn-etree-vxlan" target="https://datatracker.ietf.org/doc/html/draft-bamberger-bess-imet-filter-evpn-etree-vxlan-00">
+  <front>
+    <title>IMET Route Filtering for Ethernet VPN (EVPN) Ethernet Tree (E-Tree) with VXLAN Encapsulation</title>
+    <author fullname="Aaron Bamberger" initials="A." surname="Bamberger">
+      <organization>Arista Networks</organization>
+    </author>
+    <author fullname="Akhil Shashidhar" initials="A." surname="Shashidhar">
+      <organization>Arista Networks</organization>
+    </author>
+    <author fullname="Sergey Kolobov" initials="S." surname="Kolobov">
+      <organization>Arista Networks</organization>
+    </author>
+    <author fullname="Arivudainambi Appachi Gounder" initials="A. A." surname="Gounder">
+      <organization>Google</organization>
+    </author>
+    <date year="2023" month="March" day="1"/>
+    <abstract>
+      <t>RFC 8317 defines EVPN Ethernet Tree (E-Tree) and associated filtering rules for both known unicast and broadcast, unknown unicast, and multicast (BUM) traffic, using Multiprotocol Label Switching (MPLS) encapsulation. The processes and protocols specified in RFC 8317 for performing E-Tree filtering on known unicast traffic are implemented entirely with EVPN routes, and are thus also applicable to networks using Virtual Extensible LAN (VXLAN) encapsulation. However, E-Tree filtering for BUM traffic is accomplished using specific features of MPLS encapsulation, and is thus not applicable for networks using VXLAN encapsulation. In networks where E-Tree root/leaf role classification is done per- provider edge (PE) device, or per-attachment circuit (AC) on each PE device, an extension to EVPN type-3 inclusive multicast (IMET) routes can be added to allow E-Tree filtering for BUM traffic in networks using VXLAN encapsulation. Additionally, this proposal specifies filtering BUM traffic on ingress, as opposed to the egress filtering specified by RFC 8317, which can be considered to be more optimal, as it reduces the amount of unnecessary BUM traffic transmitted over the network.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-bamberger-bess-imet-filter-evpn-etree-vxlan-00"/>
+</reference>
