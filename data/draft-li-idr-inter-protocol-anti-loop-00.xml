@@ -1,0 +1,16 @@
+<reference anchor="I-D.li-idr-inter-protocol-anti-loop" target="https://datatracker.ietf.org/doc/html/draft-li-idr-inter-protocol-anti-loop-00">
+  <front>
+    <title>Loop prevention for route import between protocols</title>
+    <author fullname="Wenyan Li" initials="W." surname="Li">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Lili Wang" initials="L." surname="Wang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date year="2023" month="March" day="4"/>
+    <abstract>
+      <t>BGP and IGP are commonly used network protocols during network construction. At the beginning of BGP protocol design, EBGP and IBGP loop prevention are considered. Similarly, the IGP protocol has a loop prevention mechanism. In actual deployment, some or even all routes of the two protocols are imported to each other. Route import causes the loss of the anti-loop attribute of the protocol. As a result, the anti-loop fails. This document provides a feasible solution to the above problems. Attribute information is added when routes are imported between protocols. The added attribute information can be advertised to neighboring neighbors through BGP peers or IGP peers. How the new attributes are advertised using IGP peers is beyond the scope of this article.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-idr-inter-protocol-anti-loop-00"/>
+</reference>
