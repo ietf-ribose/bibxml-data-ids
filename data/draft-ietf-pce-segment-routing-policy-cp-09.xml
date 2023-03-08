@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-pce-segment-routing-policy-cp" target="https://datatracker.ietf.org/doc/html/draft-ietf-pce-segment-routing-policy-cp-09">
+  <front>
+    <title>PCEP extension to support Segment Routing Policy Candidate Paths</title>
+    <author fullname="Mike Koldychev" initials="M." surname="Koldychev">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author fullname="Siva Sivabalan" initials="S." surname="Sivabalan">
+      <organization>Ciena Corporation</organization>
+    </author>
+    <author fullname="Colby Barth" initials="C." surname="Barth">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Shuping Peng" initials="S." surname="Peng">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Hooman Bidgoli" initials="H." surname="Bidgoli">
+      <organization>Nokia</organization>
+    </author>
+    <date year="2023" month="March" day="7"/>
+    <abstract>
+      <t>A Segment Routing (SR) Policy ([RFC9256]) is a non-empty set of SR Candidate Paths, that all share the same &lt;headend, color, endpoint&gt; tuple. This document extends [RFC8664] to fully support the SR Policy construct. SR Policy is modeled in PCEP as an Association of one or more SR Candidate Paths. PCEP extensions are defined to signal additional attributes of an SR Policy, which are not covered by [RFC8664]. The mechanism is applicable to all data planes of SR (MPLS, SRv6, etc.).</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-pce-segment-routing-policy-cp-09"/>
+</reference>
