@@ -16,8 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
-
+        uses: actions/checkout@v3
+        with:
+          ref: "fetch-gemfiles"
       - name: Perform rsync from IETF
         run: |
           rsync -avcizxL rsync.ietf.org::bibxml-ids ./bibxml-ids
