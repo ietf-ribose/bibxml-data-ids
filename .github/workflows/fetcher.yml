@@ -2,7 +2,7 @@ name: Fetcher
 
 on:
   push:
-    branches: [ main ]
+    branches: '*'
   schedule:
     - cron: '0 15 * * *'
   workflow_dispatch:
