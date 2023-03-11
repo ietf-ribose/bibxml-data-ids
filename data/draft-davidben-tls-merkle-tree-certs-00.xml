@@ -1,0 +1,19 @@
+<reference anchor="I-D.davidben-tls-merkle-tree-certs" target="https://datatracker.ietf.org/doc/html/draft-davidben-tls-merkle-tree-certs-00">
+  <front>
+    <title>Merkle Tree Certificates for TLS</title>
+    <author fullname="David Benjamin" initials="D." surname="Benjamin">
+      <organization>Google LLC</organization>
+    </author>
+    <author fullname="Devon O'Brien" initials="D." surname="O'Brien">
+      <organization>Google LLC</organization>
+    </author>
+    <author fullname="Bas Westerbaan" initials="B." surname="Westerbaan">
+      <organization>Cloudflare</organization>
+    </author>
+    <date year="2023" month="March" day="10"/>
+    <abstract>
+      <t>This document describes Merkle Tree certificates, a new certificate type for use with TLS. A relying party that regularly fetches information from a transparency service can use this certificate type as a size optimization over more conventional mechanisms with post- quantum signatures. Merkle Tree certificates integrate the roles of X.509 and Certificate Transparency, achieving comparable security properties with a smaller message size, at the cost of more limited applicability.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-davidben-tls-merkle-tree-certs-00"/>
+</reference>

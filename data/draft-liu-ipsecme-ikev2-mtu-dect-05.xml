@@ -1,0 +1,22 @@
+<reference anchor="I-D.liu-ipsecme-ikev2-mtu-dect" target="https://datatracker.ietf.org/doc/html/draft-liu-ipsecme-ikev2-mtu-dect-05">
+  <front>
+    <title>IKEv2 Link Maximum Atomic Packet and Packet Too Big Notification Extension</title>
+    <author fullname="Daiying Liu" initials="D." surname="Liu">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Daniel Migault" initials="D." surname="Migault">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Renwang Liu" initials="R." surname="Liu">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Congjie Zhang" initials="C." surname="Zhang">
+      <organization>Ericsson</organization>
+    </author>
+    <date year="2023" month="March" day="10"/>
+    <abstract>
+      <t>This document defines the IKEv2 Link Maximum Atomic Packet Notification and Packet Too Big Extension. This extension enables an egress security gateway to notify its ingress counter part that fragmentation is happening or a packet too big is received (and cannot be decrypted). In both cases, the egress node provides MTU information that enable the ingress node can configure appropriately its Tunnel Maximum Transmission Unit or MTU or simply put Tunnel MTU (TMTU) to prevent fragmentation or too big packets to be transmitted. This extension does not intent to replace ICMP. It provides information ICMP does not provide and even when that information could be provided by ICMP, this extension provides a reliable authenticated channel that ensures the ingress node receive this information even when ICMP messages cannot be received by the ingress node.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-liu-ipsecme-ikev2-mtu-dect-05"/>
+</reference>

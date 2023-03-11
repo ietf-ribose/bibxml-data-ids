@@ -1,0 +1,19 @@
+<reference anchor="I-D.reddy-lamps-jose-eku" target="https://datatracker.ietf.org/doc/html/draft-reddy-lamps-jose-eku-01">
+  <front>
+    <title>X.509 Certificate Extended Key Usage (EKU) for Javascript Object Signing and Encryption</title>
+    <author fullname="Tirumaleswar Reddy.K" initials="T." surname="Reddy.K">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Jani Ekman" initials="J." surname="Ekman">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Daniel Migault" initials="D." surname="Migault">
+      <organization>Ericsson</organization>
+    </author>
+    <date year="2023" month="March" day="10"/>
+    <abstract>
+      <t>RFC 5280 specifies several extended key purpose identifiers (KeyPurposeIds) for X.509 certificates. This document defines JSON Web Signature (JWS), JSON Web Encryption (JWE), CBOR Object Web Signature (CWS) and CBOR Object Web Encryption (CWE) KeyPurposeIds inclusion in the Extended Key Usage (EKU) extension of X.509 public key certificates. An application processing JWS, JWE, CWS or CWE may require that the EKU extension be present and that a JWS, JWE, CWS or CWE KeyPurposeId be indicated in order for the certificate to be acceptable to validate the JWS or CWS signature or to encrypt a key in JWE or CWE.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-reddy-lamps-jose-eku-01"/>
+</reference>
