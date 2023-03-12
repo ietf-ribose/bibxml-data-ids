@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-dnsop-svcb-https" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-svcb-https-12">
+  <front>
+    <title>Service binding and parameter specification via the DNS (DNS SVCB and HTTPS RRs)</title>
+    <author fullname="Benjamin M. Schwartz" initials="B. M." surname="Schwartz">
+      <organization>Google</organization>
+    </author>
+    <author fullname="Mike Bishop" initials="M." surname="Bishop">
+      <organization>Akamai Technologies</organization>
+    </author>
+    <author fullname="Erik Nygren" initials="E." surname="Nygren">
+      <organization>Akamai Technologies</organization>
+    </author>
+    <date year="2023" month="March" day="11"/>
+    <abstract>
+      <t>This document specifies the "SVCB" and "HTTPS" DNS resource record (RR) types to facilitate the lookup of information needed to make connections to network services, such as for HTTP origins. SVCB records allow a service to be provided from multiple alternative endpoints, each with associated parameters (such as transport protocol configuration), and are extensible to support future uses (such as keys for encrypting the TLS ClientHello). They also enable aliasing of apex domains, which is not possible with CNAME. The HTTPS RR is a variation of SVCB for use with HTTP [HTTP]. By providing more information to the client before it attempts to establish a connection, these records offer potential benefits to both performance and privacy. TO BE REMOVED: This document is being collaborated on in Github at: https://github.com/MikeBishop/dns-alt-svc (https://github.com/MikeBishop/dns-alt-svc). The most recent working version of the document, open issues, etc. should all be available there. The authors (gratefully) accept pull requests.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-svcb-https-12"/>
+</reference>

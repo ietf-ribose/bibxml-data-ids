@@ -1,0 +1,22 @@
+<reference anchor="I-D.wang-ffd-framework" target="https://datatracker.ietf.org/doc/html/draft-wang-ffd-framework-01">
+  <front>
+    <title>Framework of Fast Fault Detection for IP-based Network</title>
+    <author fullname="Haibo Wang" initials="H." surname="Wang">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Fengwei Qin" initials="F." surname="Qin">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Lily Zhao" initials="L." surname="Zhao">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Shuanglong Chen" initials="S." surname="Chen">
+      <organization>Huawei</organization>
+    </author>
+    <date year="2023" month="March" day="11"/>
+    <abstract>
+      <t>The IP-based distributed system and software application layer often use heartbeat to maintain the network topology status. However, the heartbeat setting is long, which prolongs the system fault detection time. IP-based storage network is the typical usage of that scenario. When the IP-based storage network fault occurs, NVMe connections need to be switched over. Currently, no effective method is available for quick detection, switchover is performed only based on keepalive timeout, resulting in low performance. This document defines the basic framework of how network assisted host devices can quickly detect application connection failures caused by network faults.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-wang-ffd-framework-01"/>
+</reference>
