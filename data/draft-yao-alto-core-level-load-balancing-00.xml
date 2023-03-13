@@ -1,0 +1,24 @@
+<reference anchor="I-D.yao-alto-core-level-load-balancing" target="https://datatracker.ietf.org/doc/html/draft-yao-alto-core-level-load-balancing-00">
+  <front>
+    <title>A Load-aware core level load balancing framework</title>
+    <author fullname="Kehan Yao" initials="K." surname="Yao">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Zhiqiang Li" initials="Z." surname="Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Tian Pan" initials="T." surname="Pan">
+      <organization>Beijing University of Posts and
+      Telecommunications</organization>
+    </author>
+    <author fullname="Yan Zou" initials="Y." surname="Zou">
+      <organization>Beijing University of Posts and
+      Telecommunications</organization>
+    </author>
+    <date year="2023" month="March" day="13"/>
+    <abstract>
+      <t>Most existing literature on load balancing in data center networks(DCN) focuses on balancing traffic between servers (links), but there is relatively little attention given to balancing traffic at the core-level of individual servers. In this draft, we present a load balancing framework for DCN that is aware of core-level load, in order to address this issue. Specifically, our approach transfers real-time load from CPUs to an L4 load balancer, which then selects a core with lower load based on load information to deliver the data packet. Theoretically, our approach can completely avoid this problem, making the system more stable and enabling higher CPU utilization without overprovisioning.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-yao-alto-core-level-load-balancing-00"/>
+</reference>
