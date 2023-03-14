@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-cbor-time-tag" target="https://datatracker.ietf.org/doc/html/draft-ietf-cbor-time-tag-05">
+  <front>
+    <title>Concise Binary Object Representation (CBOR) Tags for Time, Duration, and Period</title>
+    <author fullname="Carsten Bormann" initials="C." surname="Bormann">
+      <organization>Universität Bremen TZI</organization>
+    </author>
+    <author fullname="Ben Gamari" initials="B." surname="Gamari">
+      <organization>Well-Typed</organization>
+    </author>
+    <author fullname="Henk Birkholz" initials="H." surname="Birkholz">
+      <organization>Fraunhofer Institute for Secure Information Technology</organization>
+    </author>
+    <date year="2023" month="March" day="13"/>
+    <abstract>
+      <t>The Concise Binary Object Representation (CBOR, RFC 8949) is a data format whose design goals include the possibility of extremely small code size, fairly small message size, and extensibility without the need for version negotiation. In CBOR, one point of extensibility is the definition of CBOR tags. RFC 8949 defines two tags for time: CBOR tag 0 (RFC3339 time as a string) and tag 1 (Posix time as int or float). Since then, additional requirements have become known. The present document defines a CBOR tag for time that allows a more elaborate representation of time, as well as related CBOR tags for duration and time period. It is intended as the reference document for the IANA registration of the CBOR tags defined. // The present version (-05) adds CDDL definitions; this should now // address all WGLC comments.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-cbor-time-tag-05"/>
+</reference>

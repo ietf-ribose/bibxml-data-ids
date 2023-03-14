@@ -1,0 +1,19 @@
+<reference anchor="I-D.rosenberg-mimi-protocol" target="https://datatracker.ietf.org/doc/html/draft-rosenberg-mimi-protocol-00">
+  <front>
+    <title>More Instant Messaging Interop (MIMI) Transport Protocol</title>
+    <author fullname="Jonathan Rosenberg" initials="J." surname="Rosenberg">
+      <organization>Five9</organization>
+    </author>
+    <author fullname="Cullen Fluffy Jennings" initials="C. F." surname="Jennings">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Suhas Nandakumar" initials="S." surname="Nandakumar">
+      <organization>Cisco</organization>
+    </author>
+    <date year="2023" month="March" day="13"/>
+    <abstract>
+      <t>This document specifies the More Instant Messaging Interop (mimi) Transport Protocol (MTP)- a protocol for inter-provider persistent group chat. MIMI utilizes Messaging Layer Security (MLS) for end-to- end encryption of content. The MIMI Transport Protocol plays the role of the Delivery Service (DS) defined by the MLS protocol. MTP is meant to represent the minimal protocol required to enable provider to provider federation for messaging exchange using MLS. It is not suitable for client to provider communications. MTP is based on a pull architecture, wherein message delivery from provider A to provider B is accomplished by having provider B pull messages from provider A. This provides better scalability and reliability and is amenable to implementation in modern cloud software architectures, while also reducing spam risk. MTP serves as a transfer protocol for opaque message content, the format of which is specified in a separate document. MTP is also designed to prevent spam, and does so by introducing a layer of authorization for the establishment of connections and addition to group chats.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-rosenberg-mimi-protocol-00"/>
+</reference>

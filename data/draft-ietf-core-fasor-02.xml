@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-core-fasor" target="https://datatracker.ietf.org/doc/html/draft-ietf-core-fasor-02">
+  <front>
+    <title>Fast-Slow Retransmission Timeout and Congestion Control Algorithm for CoAP</title>
+    <author fullname="Ilpo Järvinen" initials="I." surname="Järvinen">
+      <organization>University of Helsinki</organization>
+    </author>
+    <author fullname="Markku Kojo" initials="M." surname="Kojo">
+      <organization>University of Helsinki</organization>
+    </author>
+    <author fullname="Iivo Raitahila" initials="I." surname="Raitahila">
+      <organization>University of Helsinki</organization>
+    </author>
+    <author fullname="Zhen Cao" initials="Z." surname="Cao">
+      <organization>Huawei</organization>
+    </author>
+    <date year="2023" month="March" day="13"/>
+    <abstract>
+      <t>This document specifies an alternative retransmission timeout (RTO) and congestion control back off algorithm for the CoAP protocol, called Fast-Slow RTO (FASOR). The algorithm specified in this document employs an appropriate and large enough back off of RTO as the major congestion control mechanism to allow acquiring unambiguous RTT samples with high probability and to prevent building a persistent queue when retransmitting. The algorithm also aims to retransmit quickly using an accurately managed RTO when link-errors are occuring, basing RTO calculation on unambiguous round-trip time (RTT) samples.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-core-fasor-02"/>
+</reference>

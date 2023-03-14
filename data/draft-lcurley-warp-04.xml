@@ -1,0 +1,22 @@
+<reference anchor="I-D.lcurley-warp" target="https://datatracker.ietf.org/doc/html/draft-lcurley-warp-04">
+  <front>
+    <title>Warp - Live Media Transport over QUIC</title>
+    <author fullname="Luke Curley" initials="L." surname="Curley">
+      <organization>Twitch</organization>
+    </author>
+    <author fullname="Kirill Pugin" initials="K." surname="Pugin">
+      <organization>Meta</organization>
+    </author>
+    <author fullname="Suhas Nandakumar" initials="S." surname="Nandakumar">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Victor Vasiliev" initials="V." surname="Vasiliev">
+      <organization>Google</organization>
+    </author>
+    <date year="2023" month="March" day="13"/>
+    <abstract>
+      <t>This document defines the core behavior for Warp, a live media transport protocol over QUIC. Media is split into objects based on the underlying media encoding and transmitted independently over QUIC streams. QUIC streams are prioritized based on the delivery order, allowing less important objects to be starved or dropped during congestion.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-lcurley-warp-04"/>
+</reference>

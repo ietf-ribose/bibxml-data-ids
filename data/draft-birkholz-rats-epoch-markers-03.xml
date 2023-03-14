@@ -1,0 +1,22 @@
+<reference anchor="I-D.birkholz-rats-epoch-markers" target="https://datatracker.ietf.org/doc/html/draft-birkholz-rats-epoch-markers-03">
+  <front>
+    <title>Epoch Markers</title>
+    <author fullname="Henk Birkholz" initials="H." surname="Birkholz">
+      <organization>Fraunhofer SIT</organization>
+    </author>
+    <author fullname="Thomas Fossati" initials="T." surname="Fossati">
+      <organization>Arm Limited</organization>
+    </author>
+    <author fullname="Wei Pan" initials="W." surname="Pan">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Carsten Bormann" initials="C." surname="Bormann">
+      <organization>Universität Bremen TZI</organization>
+    </author>
+    <date year="2023" month="March" day="13"/>
+    <abstract>
+      <t>This document defines Epoch Markers as a way to establish a notion of freshness among actors in a distributed system. Epoch Markers are similar to "time ticks" and are produced and distributed by a dedicated system, the Epoch Bell. Systems that receive Epoch Markers do not have to track freshness using their own understanding of time (e.g., via a local real-time clock). Instead, the reception of a certain Epoch Marker establishes a new epoch that is shared between all recipients.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-birkholz-rats-epoch-markers-03"/>
+</reference>
