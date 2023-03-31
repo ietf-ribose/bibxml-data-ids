@@ -1,0 +1,13 @@
+<reference anchor="I-D.thomson-quic-enough" target="https://datatracker.ietf.org/doc/html/draft-thomson-quic-enough-00">
+  <front>
+    <title>Signaling That a QUIC Receiver Has Enough Stream Data</title>
+    <author fullname="Martin Thomson" initials="M." surname="Thomson">
+      <organization>Mozilla</organization>
+    </author>
+    <date year="2023" month="March" day="30"/>
+    <abstract>
+      <t>Sending on QUIC streams can only be aborted early by the sender with a RESET_STREAM frame. This document describes how a receiver can indicate when the data they have received is enough, allowing the sender to reliably deliver some data, but abort sending for anything more than the indicated amount.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-thomson-quic-enough-00"/>
+</reference>
