@@ -1,0 +1,19 @@
+<reference anchor="I-D.wang-bess-mvpn-upstream-df-selection" target="https://datatracker.ietf.org/doc/html/draft-wang-bess-mvpn-upstream-df-selection-06">
+  <front>
+    <title>Multicast VPN Upstream Designated Forwarder Selection</title>
+    <author fullname="Fanghong Duan" initials="F." surname="Duan">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Siyu Chen" initials="S." surname="Chen">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Yisong Liu" initials="Y." surname="Liu">
+      <organization>China Mobile</organization>
+    </author>
+    <date year="2023" month="April" day="6"/>
+    <abstract>
+      <t>This document defines Multicast Virtual Private Network (VPN) extensions and procedures of designated forwarder election performed between ingress PEs, which is different from the one described in [RFC9026] in which the upstream designated forwarder determined by using the "Standby PE Community" carried in the C-Multicast routes. Based on the DF election, the failure detection point discovery mechanism between DF and standby DF is extended in MVPN procedures to achieve fast failover by using BFD session to track the status of detection point. To realize a stable "warm root standby", this document obsolete the P-Tunnel status determining procedure for downstream PEs in regular MVPN by introducing a RPF Set Checking mechanism as an instead.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-wang-bess-mvpn-upstream-df-selection-06"/>
+</reference>
