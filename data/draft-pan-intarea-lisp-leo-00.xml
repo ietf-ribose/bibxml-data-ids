@@ -1,0 +1,25 @@
+<reference anchor="I-D.pan-intarea-lisp-leo" target="https://datatracker.ietf.org/doc/html/draft-pan-intarea-lisp-leo-00">
+  <front>
+    <title>Location/Identity Separation-based Mobility Management for LEO Satellite Networks</title>
+    <author fullname="Tian Pan" initials="T." surname="Pan">
+      <organization>Beijing University of Posts and Telecommunications</organization>
+    </author>
+    <author fullname="Jun Hu" initials="J." surname="Hu">
+      <organization>Beijing University of Posts and Telecommunications</organization>
+    </author>
+    <author fullname="Yujie Chen" initials="Y." surname="Chen">
+      <organization>Beijing University of Posts and Telecommunications</organization>
+    </author>
+    <author fullname="Xuebei Zhang" initials="X." surname="Zhang">
+      <organization>China Unicom Research Institute</organization>
+    </author>
+    <author fullname="Minglan Gao" initials="M." surname="Gao">
+      <organization>Beijing University of Posts and Telecommunications</organization>
+    </author>
+    <date year="2023" month="April" day="13"/>
+    <abstract>
+      <t>In space-terrestrial integrated networks, the motion of LEO satellites relative to ground terminals is inevitable and can trigger the reassignment of terminal IP addresses, disrupting ongoing TCP connections. The traditional Mobile IP protocol solves this problem using a home agent and tunneling mechanism. However, for space- terrestrial integrated networks, Mobile IP is inefficient due to increased latency when registering with the remote home agent, high packet loss caused by large registration latency, and triangular routing to the remote home agent. To address these issues, this draft proposes LISP-LEO, a location/identity separation-based mobility management protocol for LEO satellite networks. Specifically, LISP-LEO divides the Earth's surface into partitions and maintains a partition-satellite mapping table in real-time based on the regularity of satellite motion. LISP-LEO always routes traffic to the satellite above the destined terminal by querying the partition-satellite mapping table, eliminating triangular routing and related performance overheads. Additionally, LISP-LEO proposes a last-hop relay to handle the corner case when multiple satellites occur above the destined terminal.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-pan-intarea-lisp-leo-00"/>
+</reference>
