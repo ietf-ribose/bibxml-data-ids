@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-pim-assert-packing" target="https://datatracker.ietf.org/doc/html/draft-ietf-pim-assert-packing-12">
+  <front>
+    <title>PIM Assert Message Packing</title>
+    <author fullname="Yisong Liu" initials="Y." surname="Liu">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Toerless Eckert" initials="T. T." surname="Eckert">
+      <organization>Futurewei</organization>
+    </author>
+    <author fullname="Mike McBride" initials="M." surname="McBride">
+      <organization>Futurewei</organization>
+    </author>
+    <author fullname="Zheng Zhang" initials="Z." surname="Zhang">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <date year="2023" month="April" day="19"/>
+    <abstract>
+      <t>In PIM-SM shared LAN networks, there is often more than one upstream router. When PIM Sparse Mode (PIM-SM), including PIM Source Specific-Specific Multicast (PIM-SSM), is used, this can lead to duplicate IP multicast packets being forwarded by these PIM routers. PIM Assert messages are used to elect a single forwarder for each IP multicast traffic flow between these routers. This document defines a mechanism to send and receive information for multiple IP multicast flows in a single PackedAssert message. This optimization reduces the total number of PIM packets on the LAN and can therefore speed up the election of the single forwarder, reducing the number of duplicate IP multicast packets incurred.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-pim-assert-packing-12"/>
+</reference>
