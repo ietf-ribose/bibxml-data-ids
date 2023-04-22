@@ -1,0 +1,16 @@
+<reference anchor="I-D.acharya-ipsecme-esp-ecmp" target="https://datatracker.ietf.org/doc/html/draft-acharya-ipsecme-esp-ecmp-00">
+  <front>
+    <title>UDP encapsulated ESP for ECMP</title>
+    <author fullname="Dipankar Acharya" initials="D." surname="Acharya">
+      <organization>Arista Networks, Inc.</organization>
+    </author>
+    <author fullname="Hugh Holbrook" initials="H." surname="Holbrook">
+      <organization>Arista Networks, Inc.</organization>
+    </author>
+    <date year="2023" month="April" day="21"/>
+    <abstract>
+      <t>This document modifies [RFC3948] to allow the UDP source port of a UDP-Encapsulated ESP packet to provide entropy for ECMP load balancing between IPSec tunnel endpoints. This document provides guidelines for safely allowing this behavior and falling back to the encapsulation defined in [RFC3948] when a NAT gateway is discovered in the path.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-acharya-ipsecme-esp-ecmp-00"/>
+</reference>
