@@ -1,0 +1,16 @@
+<reference anchor="I-D.chuang-replay-resistant-arc" target="https://datatracker.ietf.org/doc/html/draft-chuang-replay-resistant-arc-06">
+  <front>
+    <title>Replay Resistant Authenticated Receiver Chain</title>
+    <author fullname="Wei Chuang" initials="W." surname="Chuang">
+      <organization>Google, Inc.</organization>
+    </author>
+    <author fullname="Bron Gondwana" initials="B." surname="Gondwana">
+      <organization>Fastmail Pty Ltd</organization>
+    </author>
+    <date year="2023" month="May" day="9"/>
+    <abstract>
+      <t>DKIM (RFC6376) is an IETF standard for the cryptographic protocol to authenticate email at the domain level and protect the integrity of messages during transit. Section 8.6 defines a vulnerability called DKIM Replay as a spam message sent through a SMTP MTA DKIM signer, that then is sent to many more recipients, leveraging the reputation of the signer. We propose two Replay Resistant cryptographic domain based protocols that leverage ARC (RFC8617). The first technique discloses all SMTP recipients as signed RFC822 headers by the sender which allows a receiver to verify this. The second technique defines a SMTP extension that allows both the sender and receiver to participate in signing the message signature. It includes a path building technique that accurately defines the SMTP forwarding path of the message. Both techniques permit a receiver to detect DKIM and ARC replay attacks and other attacks. This specification also defines a relay flow identifier to prevent spammers from using relay forwarding. We do this by having relays categorize their authenticated traffic flows and publish to receivers identifiers associated with those flows. Receivers can use this identifier to help categorize traffic through the relay and use that identifier to apply fine-grain anti-abuse policies instead of on the entire traffic through the relay.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-chuang-replay-resistant-arc-06"/>
+</reference>
