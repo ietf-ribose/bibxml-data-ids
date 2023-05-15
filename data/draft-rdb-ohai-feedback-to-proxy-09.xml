@@ -1,0 +1,22 @@
+<reference anchor="I-D.rdb-ohai-feedback-to-proxy" target="https://datatracker.ietf.org/doc/html/draft-rdb-ohai-feedback-to-proxy-09">
+  <front>
+    <title>Oblivious Relay Feedback</title>
+    <author fullname="Tirumaleswar Reddy.K" initials="T." surname="Reddy.K">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Dan Wing" initials="D." surname="Wing">
+      <organization>Citrix Systems, Inc.</organization>
+    </author>
+    <author fullname="Mohamed Boucadair" initials="M." surname="Boucadair">
+      <organization>Orange</organization>
+    </author>
+    <author fullname="Roberto Polli" initials="R." surname="Polli">
+      <organization>Team Digitale, Italian Government</organization>
+    </author>
+    <date year="2023" month="May" day="14"/>
+    <abstract>
+      <t>Servers often rate-limit incoming requests, for example, rate-limit based upon the source IP address to provide equitable service to clients. However, oblivious HTTP removes the ability for the server to distinguish amongst clients so the server can only rate-limit traffic from an Oblivious Relay Resource. This harms all clients behind that Oblivious Relay Resource. This specification enables a server to convey rate-limit information to an Oblivious Relay Resource, which can use it to apply rate-limit policies on clients. Cooperating Oblivious Relay Resources can thus provide more equitable service to their distinguishable clients without impacting on all clients behind that Oblivious Relay Resource.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-rdb-ohai-feedback-to-proxy-09"/>
+</reference>
