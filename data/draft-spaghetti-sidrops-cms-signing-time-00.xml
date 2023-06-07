@@ -1,0 +1,16 @@
+<reference anchor="I-D.spaghetti-sidrops-cms-signing-time" target="https://datatracker.ietf.org/doc/html/draft-spaghetti-sidrops-cms-signing-time-00">
+  <front>
+    <title>On the use of the CMS signing-time attribute in RPKI Signed Objects</title>
+    <author fullname="Job Snijders" initials="J." surname="Snijders">
+      <organization>Fastly</organization>
+    </author>
+    <author fullname="Tom Harrison" initials="T." surname="Harrison">
+      <organization>Asia Pacific Network Information Centre</organization>
+    </author>
+    <date year="2023" month="June" day="6"/>
+    <abstract>
+      <t>RFC 6488 standardized a template for specifying Signed Objects that can be validated using the RPKI. Since the publication of that document, a new additional protocol for distribution of RPKI repositories was developed (RFC 8182), and new insights arose how to query and combine the different distribution mechanisms. This document describes how Publishers and Relying Parties can use the CMS signing-time attribute for seamless transitions from RRDP to RSYNC. Additionally, this document updates RFC 6488 by mandating the presence of the CMS signing-time attribute and disallowing the binary-signing-time attribute.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-spaghetti-sidrops-cms-signing-time-00"/>
+</reference>
