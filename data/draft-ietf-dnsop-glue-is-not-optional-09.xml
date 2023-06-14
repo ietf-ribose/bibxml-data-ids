@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-dnsop-glue-is-not-optional" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-glue-is-not-optional-09">
+  <front>
+    <title>DNS Glue Requirements in Referral Responses</title>
+    <author fullname="Mark P. Andrews" initials="M. P." surname="Andrews">
+      <organization>ISC</organization>
+    </author>
+    <author fullname="Shumon Huque" initials="S." surname="Huque">
+      <organization>Salesforce</organization>
+    </author>
+    <author fullname="Paul Wouters" initials="P." surname="Wouters">
+      <organization>Aiven</organization>
+    </author>
+    <author fullname="Duane Wessels" initials="D." surname="Wessels">
+      <organization>Verisign</organization>
+    </author>
+    <date year="2023" month="June" day="14"/>
+    <abstract>
+      <t>The DNS uses glue records to allow iterative clients to find the addresses of name servers that are contained within a delegated zone. Authoritative Servers are expected to return all available glue records for in-domain name servers in a referral response. If message size constraints prevent the inclusion of all glue records for in-domain name servers, the server must set the TC flag to inform the client that the response is incomplete, and that the client should use another transport to retrieve the full response. This document updates RFC 1034 to clarify correct server behavior.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-glue-is-not-optional-09"/>
+</reference>
