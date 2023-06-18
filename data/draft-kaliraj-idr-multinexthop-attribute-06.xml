@@ -1,0 +1,19 @@
+<reference anchor="I-D.kaliraj-idr-multinexthop-attribute" target="https://datatracker.ietf.org/doc/html/draft-kaliraj-idr-multinexthop-attribute-06">
+  <front>
+    <title>BGP MultiNexthop Attribute</title>
+    <author fullname="Kaliraj Vairavakkalai" initials="K." surname="Vairavakkalai">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Jeyananth Minto Jeganathan" initials="J. M." surname="Jeganathan">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Gyan Mishra" initials="G. S." surname="Mishra">
+      <organization>Verizon Communications Inc.</organization>
+    </author>
+    <date year="2023" month="June" day="17"/>
+    <abstract>
+      <t>Today, a BGP speaker can advertise one nexthop for a set of NLRIs in an Update. This nexthop can be encoded in either the top-level BGP- Nexthop attribute (code 3), or inside the MP_REACH_NLRI attribute (code 14). This document defines a new optional non-transitive BGP attribute called "MultiNexthop (MNH)" with IANA BGP attribute type code TBD, that can be used to carry an ordered set of one or more Nexthops in the same route, with forwaring information scoped on a per nexthop basis.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-kaliraj-idr-multinexthop-attribute-06"/>
+</reference>
