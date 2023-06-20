@@ -1,0 +1,16 @@
+<reference anchor="I-D.levy-abegnoli-6man-stateless-nd-proxy" target="https://datatracker.ietf.org/doc/html/draft-levy-abegnoli-6man-stateless-nd-proxy-00">
+  <front>
+    <title>IPv6 Neighbor Discovery Routing Proxy</title>
+    <author fullname="Eric Levy-Abegnoli" initials="E." surname="Levy-Abegnoli">
+      <organization>Cisco Systems, Inc</organization>
+    </author>
+    <author fullname="Pascal Thubert" initials="P." surname="Thubert">
+      <organization>Cisco Systems, Inc</organization>
+    </author>
+    <date year="2023" month="June" day="20"/>
+    <abstract>
+      <t>A legacy or incorrect host implementation may assume an on-link prefix on an interface where it owns an address that matches the prefix. This mistake may prevent connectivity on networks where this is not the case, e.g., when the physical or logical connectivity of the network does not allow transitive connectivity, in which case all the traffic should transit via the router. This document proposes a stateless routing proxy operation in the router to force a "not-on- link" behavior on the misbehaving host and attract all the packets to the router.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-levy-abegnoli-6man-stateless-nd-proxy-00"/>
+</reference>
