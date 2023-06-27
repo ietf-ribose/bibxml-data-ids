@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-lamps-cert-binding-for-multi-auth" target="https://datatracker.ietf.org/doc/html/draft-ietf-lamps-cert-binding-for-multi-auth-01">
+  <front>
+    <title>Related Certificates for Use in Multiple Authentications within a Protocol</title>
+    <author fullname="Alison Becker" initials="A." surname="Becker">
+      <organization>National Security Agency</organization>
+    </author>
+    <author fullname="Rebecca Guthrie" initials="R." surname="Guthrie">
+      <organization>National Security Agency</organization>
+    </author>
+    <author fullname="Michael J. Jenkins" initials="M. J." surname="Jenkins">
+      <organization>National Security Agency</organization>
+    </author>
+    <date year="2023" month="June" day="26"/>
+    <abstract>
+      <t>This document defines a new CSR attribute, relatedCertRequest, and a new X.509 certificate extension, RelatedCertificate. The use of the relatedCertRequest attribute in a CSR and the inclusion of the RelatedCertificate extension in the resulting certificate together provide additional assurance that two certificates each belong to the same end entity. This mechanism is particularly useful in the context of non-composite hybrid authentication, which enables users to employ the same certificates in hybrid authentication as in authentication done with only traditional or post-quantum algorithms.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lamps-cert-binding-for-multi-auth-01"/>
+</reference>
