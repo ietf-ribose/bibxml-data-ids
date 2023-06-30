@@ -1,0 +1,19 @@
+<reference anchor="I-D.cc-v6ops-wlcg-flow-label-marking" target="https://datatracker.ietf.org/doc/html/draft-cc-v6ops-wlcg-flow-label-marking-00">
+  <front>
+    <title>Use of the IPv6 Flow Label for WLCG Packet Marking</title>
+    <author fullname="Dale W. Carder" initials="D. W." surname="Carder">
+      <organization>Energy Sciences Network</organization>
+    </author>
+    <author fullname="Tim Chown" initials="T." surname="Chown">
+      <organization>Jisc</organization>
+    </author>
+    <author fullname="Shawn McKee" initials="S." surname="McKee">
+      <organization>University of Michigan</organization>
+    </author>
+    <date year="2023" month="June" day="29"/>
+    <abstract>
+      <t>This document describes an experimentally deployed approach currently used within the Worldwide Large Hadron Collider Computing Grid (WLCG) to mark packets with their project (experiment) and application. The marking uses the 20-bit IPv6 Flow Label in each packet, with 15 bits used for semantics and 5 bits for entropy. Alternatives, in particular use of IPv6 Extension Headers (EH), were considered but found to not be practical. The WLCG is one of the largest worldwide research communities and has adopted IPv6 heavily for movement of many tens of PB of data annually, with the ultimate goal of running IPv6 only.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-cc-v6ops-wlcg-flow-label-marking-00"/>
+</reference>
