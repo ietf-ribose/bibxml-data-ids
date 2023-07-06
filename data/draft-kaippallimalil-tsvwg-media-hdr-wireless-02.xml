@@ -1,0 +1,19 @@
+<reference anchor="I-D.kaippallimalil-tsvwg-media-hdr-wireless" target="https://datatracker.ietf.org/doc/html/draft-kaippallimalil-tsvwg-media-hdr-wireless-02">
+  <front>
+    <title>Media Header Extensions for Wireless Networks</title>
+    <author fullname="John Kaippallimalil" initials="J." surname="Kaippallimalil">
+      <organization>Futurewei</organization>
+    </author>
+    <author fullname="Sri Gundavelli" initials="S." surname="Gundavelli">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Spencer Dawkins" initials="S." surname="Dawkins">
+      <organization>Tencent</organization>
+    </author>
+    <date year="2023" month="July" day="5"/>
+    <abstract>
+      <t>Wireless networks like 5G cellular or Wi-Fi experience significant variations in link capacity over short intervals due to wireless channel conditions, interference, or the end-user's movement. These variations in capacity take place in the order of hundreds of milliseconds and is much too fast for end-to-end congestion signaling by itself to convey the changes for an application to adapt. Media applications on the other hand demand both high throughput and low latency, and are able to dynamically adjust the size and quality of a stream to match available network bandwidth. However, catering to such media flows over a radio link where the capacity changes rapidly requires the buffers and QoS in general to be managed carefully. This draft proposes to provide metadata about the media transported in each packet to allow the wireless network to manage radio resources optimally and to maximize network utilization while also improving application performance. This draft discusses at a high level potential solution options to this problem and the trade-offs involved. The draft then defines a solution that uses a new UDP option to carry media metadata between a UDP source and destination. This option is compact and has low processing overhead at the wireless router.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-kaippallimalil-tsvwg-media-hdr-wireless-02"/>
+</reference>

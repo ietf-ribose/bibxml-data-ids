@@ -1,0 +1,13 @@
+<reference anchor="I-D.damjanovic-websockets-nomasking" target="https://datatracker.ietf.org/doc/html/draft-damjanovic-websockets-nomasking-01">
+  <front>
+    <title>WebSocket Extension to disable masking</title>
+    <author fullname="Dragana Damjanovic" initials="D." surname="Damjanovic">
+      <organization>Microsoft</organization>
+    </author>
+    <date year="2023" month="July" day="5"/>
+    <abstract>
+      <t>The WebSocket protocol specifies that all frames sent from the client to the server must be masked. This was introduced as a protection against a possible attack on the infrastructure. With careful consideration, the masking could be omitted when intermediaries do not have access to the unencrypted traffic. This specification introduces a WebSocket extension that disables the mandatory masking of frames sent from the client to the server. The extension is allowed only if the client uses an encrypted connection.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-damjanovic-websockets-nomasking-01"/>
+</reference>
