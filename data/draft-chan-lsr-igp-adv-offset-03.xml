@@ -1,0 +1,19 @@
+<reference anchor="I-D.chan-lsr-igp-adv-offset" target="https://datatracker.ietf.org/doc/html/draft-chan-lsr-igp-adv-offset-03">
+  <front>
+    <title>IGP extensions for Advertising Offset for Flex-Algorithm</title>
+    <author fullname="Louis Chan" initials="L." surname="Chan">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Krzysztof Grzegorz Szarkowicz" initials="K. G." surname="Szarkowicz">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Gyan Mishra" initials="G. S." surname="Mishra">
+      <organization>Verizon</organization>
+    </author>
+    <date year="2023" month="July" day="7"/>
+    <abstract>
+      <t>This document describes the IGP extensions to provide predictable Adjacency-SIDs per Flex-Algorithm [FLEXALGO] in segment routing. We propose some methods to allow the advertisement of additional TLV in IGP so that the Flex-Algorithm specific Adjacency-SIDs could be automatically derived. With the proposed method, the size of advertisement on per node per link basis is greatly reduced. Each participating router would derive the required labels automatically. Extensions for offset to derive Flex-Algorithm Prefix-SID is also included in the document.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-chan-lsr-igp-adv-offset-03"/>
+</reference>

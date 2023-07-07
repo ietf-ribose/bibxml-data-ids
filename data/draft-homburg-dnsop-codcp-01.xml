@@ -1,0 +1,13 @@
+<reference anchor="I-D.homburg-dnsop-codcp" target="https://datatracker.ietf.org/doc/html/draft-homburg-dnsop-codcp-01">
+  <front>
+    <title>Control Options For DNS Client Proxies</title>
+    <author fullname="Philip Homburg" initials="P." surname="Homburg">
+      <organization/>
+    </author>
+    <date year="2023" month="July" day="7"/>
+    <abstract>
+      <t>The introduction of many new transport protocols for DNS in recent years (DoT, DoH, DoQ) significantly increases the complexity of DNS stub resolvers that want to support these protocols. A practical way forward is to have a DNS client proxy in the host operating system. This allows applications to communicate using Do53 and still get the privacy benefit from using more secure protocols over the internet. However, such a setup leaves the application with no control over which transport the proxy uses. This document introduces EDNS(0) options that allow a stub resolver to request certain transport and allow the proxy to report capabilities and actual transports that are available.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-homburg-dnsop-codcp-01"/>
+</reference>
