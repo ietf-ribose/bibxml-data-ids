@@ -1,0 +1,13 @@
+<reference anchor="I-D.pskim-passive-probing-pmtud" target="https://datatracker.ietf.org/doc/html/draft-pskim-passive-probing-pmtud-01">
+  <front>
+    <title>Passive Probing for Path MTU Discovery with QUIC</title>
+    <author fullname="Pyung Soo Kim" initials="P. S." surname="Kim">
+      <organization>TU Korea</organization>
+    </author>
+    <date year="2023" month="July" day="9"/>
+    <abstract>
+      <t>This draft consider a Path MTU Discovery(PMTUD) for QUIC. First, why it is important to determine the best PMTU for QUIC is explained, and the active probing approach for discovering the best PMTU is briefly introduced. Then, as an alternative to discover the best PMTU, the passive probing approach is adopted. The process of discovering the best PMTU is not carried out separately, but is carried out simultaneously in the actual application data communication. A probe packet is defined newly using 1-RTT packet which includes actual application data as well as a short packet header and a PING_EXT frame. The PING_EXT frame is also defined newly. Until the best PMTU is discovered, the size of the probe packet is changed according to the size of the PMTU candidate. A simple discovery algorithm using only the PMTU candidate sequence with linear upward is described in this draft.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-pskim-passive-probing-pmtud-01"/>
+</reference>
