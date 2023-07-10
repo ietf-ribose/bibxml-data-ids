@@ -1,0 +1,13 @@
+<reference anchor="I-D.seemann-quic-stream-groups" target="https://datatracker.ietf.org/doc/html/draft-seemann-quic-stream-groups-00">
+  <front>
+    <title>QUIC Stream Groups</title>
+    <author fullname="Marten Seemann" initials="M." surname="Seemann">
+      <organization>Protocol Labs</organization>
+    </author>
+    <date year="2023" month="July" day="9"/>
+    <abstract>
+      <t>QUIC ([RFC9000]) defines a few different mechanism flow control mechanisms: Stream flow control, connection-level flow control and flow control for the number of (unidirectional / bidirectional) streams This allows a single application running on of a QUIC connection to apply backpressure. However, when multiple independent applications share a single underlying QUIC connection, these mechanisms are not sufficient to prevent one resource-hungry application from consuming all the resources (streams and / or connection-level flow control credit) available on the connection, effectively starving the other application.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-seemann-quic-stream-groups-00"/>
+</reference>

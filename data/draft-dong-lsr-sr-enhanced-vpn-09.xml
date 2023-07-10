@@ -1,0 +1,28 @@
+<reference anchor="I-D.dong-lsr-sr-enhanced-vpn" target="https://datatracker.ietf.org/doc/html/draft-dong-lsr-sr-enhanced-vpn-09">
+  <front>
+    <title>IGP Extensions for Scalable Segment Routing based Virtual Transport Network (VTN)</title>
+    <author fullname="Jie Dong" initials="J." surname="Dong">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Zhibo Hu" initials="Z." surname="Hu">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Zhenbin Li" initials="Z." surname="Li">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Xiongyan Tang" initials="X." surname="Tang">
+      <organization>China Unicom</organization>
+    </author>
+    <author fullname="Ran Pang" initials="R." surname="Pang">
+      <organization>China Unicom</organization>
+    </author>
+    <author fullname="Stewart Bryant" initials="S." surname="Bryant">
+      <organization>University of Surrey</organization>
+    </author>
+    <date year="2023" month="July" day="10"/>
+    <abstract>
+      <t>Enhanced VPN (VPN+) aims to provide enhanced VPN services to support some application's needs of enhanced isolation and stringent performance requirements. VPN+ requires integration between the overlay VPN connectivity and the characteristics provided by the underlay network. A Virtual Transport Network (VTN) is a virtual underlay network which has a customized network topology and a set of network resources allocated from the physical network. A VTN could be used to support one or a group of VPN+ services. In the context of network slicing, a VTN could be instantiated as a network resource partition (NRP). This document specifies the IGP mechanisms with necessary extensions to advertise the associated topology and resource attributes for scalable Segment Routing (SR) based NRPs. Each NRP can have a customized topology and a set of network resources allocated from the physical network. Multiple NRPs may shared the same topology, and multiple NRPs may share the same set of network resources on some network segments. This allows flexible combination of the network topology and network resource attributes to build a relatively large number of NRPs with a relatively small number of logical topologies. A group of resource-aware SIDs and SRv6 Locators can be assigned to each NRP. The proposed mechanism is applicable to both Segment Routing with MPLS data plane (SR-MPLS) and Segment Routing with IPv6 data plane (SRv6). This document also describes the mechanism of using dedicated NRP ID in the data plane instead of the per-NRP resource-aware SIDs and SRv6 Locators to further reduce the control plane and data plane overhead of maintaining a large number of NRPs.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-dong-lsr-sr-enhanced-vpn-09"/>
+</reference>

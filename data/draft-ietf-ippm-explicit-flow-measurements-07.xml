@@ -1,0 +1,34 @@
+<reference anchor="I-D.ietf-ippm-explicit-flow-measurements" target="https://datatracker.ietf.org/doc/html/draft-ietf-ippm-explicit-flow-measurements-07">
+  <front>
+    <title>Explicit Host-to-Network Flow Measurements Techniques</title>
+    <author fullname="Mauro Cociglio" initials="M." surname="Cociglio">
+      <organization>Telecom Italia - TIM</organization>
+    </author>
+    <author fullname="Alexandre Ferrieux" initials="A." surname="Ferrieux">
+      <organization>Orange Labs</organization>
+    </author>
+    <author fullname="Giuseppe Fioccola" initials="G." surname="Fioccola">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Igor Lubashev" initials="I." surname="Lubashev">
+      <organization>Akamai Technologies</organization>
+    </author>
+    <author fullname="Fabio Bulgarella" initials="F." surname="Bulgarella">
+      <organization>Telecom Italia - TIM</organization>
+    </author>
+    <author fullname="Massimo Nilo" initials="M." surname="Nilo">
+      <organization>Telecom Italia - TIM</organization>
+    </author>
+    <author fullname="Isabelle Hamchaoui" initials="I." surname="Hamchaoui">
+      <organization>Orange Labs</organization>
+    </author>
+    <author fullname="Riccardo Sisto" initials="R." surname="Sisto">
+      <organization>Politecnico di Torino</organization>
+    </author>
+    <date year="2023" month="July" day="10"/>
+    <abstract>
+      <t>This document describes protocol independent methods called Explicit Host-to-Network Flow Measurement Techniques that can be applicable to transport-layer protocols between client and server. These methods employ just a few marking bits inside the header of each packet for performance measurements and require collaborative client and server. Both endpoints cooperate by marking packets and, possibly, mirroring the markings on the round-trip connection. The techniques are especially valuable when applied to protocols that encrypt transport headers, since they enable loss and delay measurements by passive on- path network devices. This document describes several methods that can be used separately or jointly, depending of the availability of marking bits, desired measurements, and properties of the protocol to which the methods are applied.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-ippm-explicit-flow-measurements-07"/>
+</reference>
