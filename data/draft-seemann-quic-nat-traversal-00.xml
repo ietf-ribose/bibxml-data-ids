@@ -1,0 +1,13 @@
+<reference anchor="I-D.seemann-quic-nat-traversal" target="https://datatracker.ietf.org/doc/html/draft-seemann-quic-nat-traversal-00">
+  <front>
+    <title>Using QUIC to traverse NATs</title>
+    <author fullname="Marten Seemann" initials="M." surname="Seemann">
+      <organization>Protocol Labs</organization>
+    </author>
+    <date year="2023" month="July" day="10"/>
+    <abstract>
+      <t>QUIC ([RFC9000]) is well-suited to various NAT traversal techniques. As it operates over UDP, and because the QUIC header was designed to be demultipexed from other protocols, STUN ([RFC5389]) can be used on the same UDP socket. This allows for using ICE ([RFC8445]) with QUIC. Furthermore, QUIC’s path validation mechanism can be used to test the viability of an address candidate pair, allowing the immediate use of a new path.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-seemann-quic-nat-traversal-00"/>
+</reference>

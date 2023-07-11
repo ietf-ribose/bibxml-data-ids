@@ -1,0 +1,19 @@
+<reference anchor="I-D.mohanty-idr-secondary-label" target="https://datatracker.ietf.org/doc/html/draft-mohanty-idr-secondary-label-00">
+  <front>
+    <title>The Secondary Label and its applications</title>
+    <author fullname="satyamoh@cisco.com" initials="" surname="satyamoh@cisco.com">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author fullname="Israel Means" initials="I." surname="Means">
+      <organization>AT&amp;T Labs, Inc.</organization>
+    </author>
+    <author fullname="Praveen Ramadenu" initials="P." surname="Ramadenu">
+      <organization>AT&amp;T Labs, Inc.</organization>
+    </author>
+    <date year="2023" month="July" day="10"/>
+    <abstract>
+      <t>This draft utilizes the concept of a secondary label to solve few cases in L3VPN Deployments.In BGP VPN networks, BGP speakers associate a local MPLS label when the next-hop is reset and advertise that label to other peers. The receiving peer installs this "received" label in the forwarding and forwards traffic to the sending router using this label. In some deployments, there arises need where a different label is required to be sent. We illustrate with two use-cases. This draft presents a method where this label is encoded in a newly defined attribute that is advertised with the BGP updates targeting these specified use-cases</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-mohanty-idr-secondary-label-00"/>
+</reference>
