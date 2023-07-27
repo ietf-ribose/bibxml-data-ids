@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-tsvwg-multipath-dccp" target="https://datatracker.ietf.org/doc/html/draft-ietf-tsvwg-multipath-dccp-10">
+  <front>
+    <title>DCCP Extensions for Multipath Operation with Multiple Addresses</title>
+    <author fullname="Markus Amend" initials="M." surname="Amend">
+      <organization>Deutsche Telekom</organization>
+    </author>
+    <author fullname="Anna Brunstrom" initials="A." surname="Brunstrom">
+      <organization>Karlstad University</organization>
+    </author>
+    <author fullname="Andreas Kassler" initials="A." surname="Kassler">
+      <organization>Karlstad University</organization>
+    </author>
+    <author fullname="Veselin Rakocevic" initials="V." surname="Rakocevic">
+      <organization>City University of London</organization>
+    </author>
+    <author fullname="Stephen Johnson" initials="S." surname="Johnson">
+      <organization>BT</organization>
+    </author>
+    <date year="2023" month="July" day="26"/>
+    <abstract>
+      <t>DCCP communications as defined in [RFC4340] are restricted to a single path per connection, yet multiple paths often exist between peers. The simultaneous use of available multiple paths for a DCCP session could improve resource usage within the network and, thus, improve user experience through higher throughput and improved resilience to network failures. Use cases for a Multipath DCCP (MP- DCCP) are mobile devices (e.g., handsets, vehicles) and residential home gateways simultaneously connected to distinct networks as, e.g., a cellular and a Wireless Local Area (WLAN) networks or a cellular and a fixed access networks. Compared to existing multipath protocols, such as MPTCP, MP-DCCP provides specific support for non- TCP user traffic (e.g., UDP or plain IP). More details on potential use cases are provided in [multipath-dccp.org], [IETF115.Slides], and [MP-DCCP.Paper]. All these use cases profit from an Open Source Linux reference implementation provided under [multipath-dccp.org]. This document specifies a set of extensions to DCCP to support multipath operations. Multipath DCCP provides the ability to simultaneously use multiple paths between peers. The protocol offers the same type of service to applications as DCCP and it provides the components necessary to establish and use multiple DCCP flows across different paths simultaneously.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-multipath-dccp-10"/>
+</reference>

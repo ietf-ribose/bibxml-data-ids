@@ -1,0 +1,13 @@
+<reference anchor="I-D.lamparter-lsr-v6ops-pd-aargh" target="https://datatracker.ietf.org/doc/html/draft-lamparter-lsr-v6ops-pd-aargh-00">
+  <front>
+    <title>Prefix Dissemination for Semi-Automatic Addressing and Renumbering</title>
+    <author fullname="David Lamparter" initials="D." surname="Lamparter">
+      <organization>NetDEF, Inc.</organization>
+    </author>
+    <date year="2023" month="July" day="26"/>
+    <abstract>
+      <t>Between large enterprise networks that can reasonably use their own IPv6 address space and small home and office networks that do not utilize a complex routing topology, there is an intermediate space where a network may need to utilize a nontrivial routed topology but still connect to the internet in a plain "customer" role, with IPv6 address space being assigned over e.g. DHCPv6-PD [DHCPv6]. This poses a yet-unsolved issue that the prefix(es) assigned by the ISP may change, either frequently due to operational practice, or infrequently on some external events like loss of prefix assignment state. This change in prefix needs to propagate, at minimum, into [ADDRCONF] mechanisms, but frequently also other components like firewalls, naming systems, etc.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-lamparter-lsr-v6ops-pd-aargh-00"/>
+</reference>
