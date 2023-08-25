@@ -1,0 +1,19 @@
+<reference anchor="I-D.ounsworth-lamps-cms-dhkem" target="https://datatracker.ietf.org/doc/html/draft-ounsworth-lamps-cms-dhkem-00">
+  <front>
+    <title>Use of the DH-Based KEM (DHKEM) in the Cryptographic Message Syntax (CMS)</title>
+    <author fullname="Mike Ounsworth" initials="M." surname="Ounsworth">
+      <organization>Entrust Limited</organization>
+    </author>
+    <author fullname="John Gray" initials="J." surname="Gray">
+      <organization>Entrust Limited</organization>
+    </author>
+    <author fullname="Russ Housley" initials="R." surname="Housley">
+      <organization>Vigil Security, LLC</organization>
+    </author>
+    <date year="2023" month="August" day="24"/>
+    <abstract>
+      <t>The DHKEM Algorithm is a one-pass (store-and-forward) mechanism for establishing keying data to a recipient using the recipient's Diffie- Hellman or elliptic curve Diffie-Hellman public key. This document defines a mechanism to wrap Ephemeral-Static (E-S) Diffie-Hellman (DH) and Elliptic Curve Diffie-Hellman (ECDH) such that it can be used in KEM interfaces within the Cryptographic Message Syntax (CMS). This is a sister document to RSA-KEM [RFC5990] and simplifies future cryptographic protocol design by only needing to handle KEMs at the protocol level.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ounsworth-lamps-cms-dhkem-00"/>
+</reference>
