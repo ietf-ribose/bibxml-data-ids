@@ -1,0 +1,19 @@
+<reference anchor="I-D.thejeswara-tcpm-tcp-fwa" target="https://datatracker.ietf.org/doc/html/draft-thejeswara-tcpm-tcp-fwa-01">
+  <front>
+    <title>TCP FWA: Fast Window Advance for TCP</title>
+    <author fullname="thejeswara" initials="" surname="thejeswara">
+      <organization>Samsung</organization>
+    </author>
+    <author fullname="Harsh Kothari" initials="H." surname="Kothari">
+      <organization>Samsung</organization>
+    </author>
+    <author fullname="SRINIVAS C" initials="C." surname="Srinivas">
+      <organization>Samsung</organization>
+    </author>
+    <date year="2023" month="September" day="3"/>
+    <abstract>
+      <t>This document describes TCP Fast Window Advance (FWA) flag in TCP Header to avoid the Head of Line Blocking in TCP long alive connections and in TCP long fat networks. FWA flag shall be set by the sender to force the TCP receiver to change its expected sequence number. This allows the application sender to send fresh application session data to receiver on the existing TCP connection without blocking on the earlier session. The FWA flag will solve long standing Head of Line (HOL) blocking problem in TCP for certain TCP applications.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-thejeswara-tcpm-tcp-fwa-01"/>
+</reference>
