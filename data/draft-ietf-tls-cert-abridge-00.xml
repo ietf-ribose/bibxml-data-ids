@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-tls-cert-abridge" target="https://datatracker.ietf.org/doc/html/draft-ietf-tls-cert-abridge-00">
+  <front>
+    <title>Abridged Compression for WebPKI Certificates</title>
+    <author fullname="Dennis Jackson" initials="D." surname="Jackson">
+      <organization>Mozilla</organization>
+    </author>
+    <date year="2023" month="September" day="6"/>
+    <abstract>
+      <t>This draft defines a new TLS Certificate Compression scheme which uses a shared dictionary of root and intermediate WebPKI certificates. The scheme smooths the transition to post-quantum certificates by eliminating the root and intermediate certificates from the TLS certificate chain without impacting trust negotiation. It also delivers better compression than alternative proposals whilst ensuring fair treatment for both CAs and website operators. It may also be useful in other applications which store certificate chains, e.g. Certificate Transparency logs.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-tls-cert-abridge-00"/>
+</reference>
