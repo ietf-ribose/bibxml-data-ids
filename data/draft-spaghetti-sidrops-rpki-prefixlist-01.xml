@@ -1,0 +1,16 @@
+<reference anchor="I-D.spaghetti-sidrops-rpki-prefixlist" target="https://datatracker.ietf.org/doc/html/draft-spaghetti-sidrops-rpki-prefixlist-01">
+  <front>
+    <title>A profile for RPKI Signed Lists of Prefixes</title>
+    <author fullname="Job Snijders" initials="J." surname="Snijders">
+      <organization>Fastly</organization>
+    </author>
+    <author fullname="Geoff Huston" initials="G." surname="Huston">
+      <organization>APNIC</organization>
+    </author>
+    <date year="2023" month="October" day="2"/>
+    <abstract>
+      <t>This document defines a "RPKI Prefix List", a Cryptographic Message Syntax (CMS) protected content type for use with the Resource Public Key Infrastructure (RPKI) to carry the complete list of prefixes which an Autonomous System (AS) may originate to all or any of its routing peers. The validation of a RPKI Prefix List confirms that the holder of the listed ASN produced the object, and that this list is a current, accurate and complete description of address prefixes that may be announced into the routing system originated by this AS.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-spaghetti-sidrops-rpki-prefixlist-01"/>
+</reference>
