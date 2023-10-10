@@ -1,0 +1,28 @@
+<reference anchor="I-D.johnson-dtn-ipnd" target="https://datatracker.ietf.org/doc/html/draft-johnson-dtn-ipnd-00">
+  <front>
+    <title>DTN IP Neighbor Discovery (IPND)</title>
+    <author fullname="Daniel Ellard" initials="D." surname="Ellard">
+      <organization>Raytheon BBN</organization>
+    </author>
+    <author fullname="Richard Altmann" initials="R." surname="Altmann">
+      <organization>Visionist, Inc.</organization>
+    </author>
+    <author fullname="Alex Gladd" initials="A." surname="Gladd">
+      <organization/>
+    </author>
+    <author fullname="Daniel Brown" initials="D." surname="Brown">
+      <organization>Crowdstrike</organization>
+    </author>
+    <author fullname="Ronald in 't Velt" initials="R." surname="in 't Velt">
+      <organization>TNO</organization>
+    </author>
+    <author fullname="Scott M. Johnson" initials="S. M." surname="Johnson">
+      <organization>Spacely Packets, LLC</organization>
+    </author>
+    <date year="2023" month="October" day="9"/>
+    <abstract>
+      <t>Delay and Disruption Tolerant Networking (DTN) IP Neighbor Discovery (IPND), is a method for otherwise oblivious nodes to learn of the existence, availability, and addresses of other DTN participants. IPND both sends and listens for small IP UDP announcement “beacons.” Beacon messages are addressed to an IP unicast, multicast, or broadcast destination to discover specified or unspecified remote neighbors, or unspecified local neighbors in the topology, e.g. within wireless range. IPND beacons advertise neighbor availability by including the DTN node’s canonical endpoint identifier. IPND beacons optionally include service availability and parameters. In this way, neighbor discovery and service discovery may be coupled or decoupled as required. Once discovered, new neighbor pairs use advertised availabilities to connect, exchange routing information, etc. This document describes DTN IPND.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-johnson-dtn-ipnd-00"/>
+</reference>
