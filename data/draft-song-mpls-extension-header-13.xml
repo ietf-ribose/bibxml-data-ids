@@ -1,0 +1,25 @@
+<reference anchor="I-D.song-mpls-extension-header" target="https://datatracker.ietf.org/doc/html/draft-song-mpls-extension-header-13">
+  <front>
+    <title>MPLS Network Actions using Post-Stack Extension Headers</title>
+    <author fullname="Haoyu Song" initials="H." surname="Song">
+      <organization>Futurewei Technologies</organization>
+    </author>
+    <author fullname="Tianran Zhou" initials="T." surname="Zhou">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Loa Andersson" initials="L." surname="Andersson">
+      <organization>Bronze Dragon Consulting</organization>
+    </author>
+    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Rakesh Gandhi" initials="R." surname="Gandhi">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date year="2023" month="October" day="11"/>
+    <abstract>
+      <t>Motivated by the need to support multiple in-network services and functions in an MPLS network (a.k.a. MPLS Network Actions or MNA), this document describes a generic and extensible method to encapsulate MNA instructions as well as possible ancillary data in an MPLS packet. All the post-stack MNAs are encapsulated in a structure called Post-stack Action Header (PAH). A PAH is composed of a common header plus a chain of extension headers with each serving as a container for an MNA. The encapsulation method allows chaining multiple post-stack extension headers and provides the means to enable fast access to them as well as the original upper layer headers. We confine this document to the solution of PAH encoding and leave the specification of PAH indicator to the overall MNA solution. We show how PAH can be used to support several new MNAs as a generic post-stack mechanism.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-song-mpls-extension-header-13"/>
+</reference>
