@@ -1,0 +1,22 @@
+<reference anchor="I-D.mouris-cfrg-mastic" target="https://datatracker.ietf.org/doc/html/draft-mouris-cfrg-mastic-00">
+  <front>
+    <title>The Mastic VDAF</title>
+    <author fullname="Dimitris Mouris" initials="D." surname="Mouris">
+      <organization>University of Delaware</organization>
+    </author>
+    <author fullname="Christopher Patton" initials="C." surname="Patton">
+      <organization>Cloudflare</organization>
+    </author>
+    <author fullname="Pratik Sarkar" initials="P." surname="Sarkar">
+      <organization>Boston University</organization>
+    </author>
+    <author fullname="Nektarios Georgios Tsoutsos" initials="N. G." surname="Tsoutsos">
+      <organization>University of Delaware</organization>
+    </author>
+    <date year="2023" month="October" day="13"/>
+    <abstract>
+      <t>This document describes Plabels, a two-party VDAF for the following aggregation task: each Client holds a bit string, and the Collector wishes to count how many of these strings begin with a candidate prefix. Such a VDAF can be used to solve the heavy hitters problem, where the goal is compute the subset of the measurements that occur most frequently. This document also describes various modes of operation for Plabels. First, its output type can be enriched to support aggregation functions beyond prefix counts. Second, an extension to the aggregation phase is described that significantly reduces communication cost compared to existing techniques. Third, a three-party variant is described that is robust in the honest majority setting.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-mouris-cfrg-mastic-00"/>
+</reference>
