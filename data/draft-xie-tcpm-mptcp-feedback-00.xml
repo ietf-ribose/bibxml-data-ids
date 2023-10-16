@@ -1,0 +1,28 @@
+<reference anchor="I-D.xie-tcpm-mptcp-feedback" target="https://datatracker.ietf.org/doc/html/draft-xie-tcpm-mptcp-feedback-00">
+  <front>
+    <title>A Message Feedback Method for MPTCP</title>
+    <author fullname="Baosen Zhao" initials="B." surname="Zhao">
+      <organization>CNIC</organization>
+    </author>
+    <author fullname="Wanghong Yang" initials="W." surname="Yang">
+      <organization>CNIC</organization>
+    </author>
+    <author fullname="Wenji Du" initials="W." surname="Du">
+      <organization>CNIC</organization>
+    </author>
+    <author fullname="Yongmao Ren" initials="Y." surname="Ren">
+      <organization>CNIC</organization>
+    </author>
+    <author fullname="Xu Zhou" initials="X." surname="Zhou">
+      <organization>CNIC</organization>
+    </author>
+    <author fullname="Gaogang Xie" initials="G." surname="Xie">
+      <organization>CNIC</organization>
+    </author>
+    <date year="2023" month="October" day="16"/>
+    <abstract>
+      <t>Mobile phone devices are usually configured with multiple wireless access network cards, such as LTE/5G, Wi-Fi. And the wireless network is a network with highly time-varying bandwidth. For a single wireless device, the limited bandwidth cannot meet the peak rate requirements of low-latency applications. MPTCP supports the simultaneous use of multiple networks on mobile devices. Due to the time-varying nature of wireless networks, it is challenging for MPTCP to accurately schedule data blocks to different sub-streams to meet their low-latency requirements. This document proposes a new cross- layer feedback method for wireless networks to pass the scheduling information and status of the wireless network to the MPTCP Server. MPTCP Server can predict the transmission capacity of the wireless network based on this cross-layer information, thereby improving the efficiency of data block scheduling on multipaths.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-xie-tcpm-mptcp-feedback-00"/>
+</reference>
