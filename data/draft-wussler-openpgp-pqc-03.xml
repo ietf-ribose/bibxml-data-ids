@@ -1,0 +1,19 @@
+<reference anchor="I-D.wussler-openpgp-pqc" target="https://datatracker.ietf.org/doc/html/draft-wussler-openpgp-pqc-03">
+  <front>
+    <title>Post-Quantum Cryptography in OpenPGP</title>
+    <author fullname="Stavros Kousidis" initials="S." surname="Kousidis">
+      <organization>BSI</organization>
+    </author>
+    <author fullname="Falko Strenzke" initials="F." surname="Strenzke">
+      <organization>MTG AG</organization>
+    </author>
+    <author fullname="Aron Wussler" initials="A." surname="Wussler">
+      <organization>Proton AG</organization>
+    </author>
+    <date year="2023" month="October" day="19"/>
+    <abstract>
+      <t>This document defines a post-quantum public-key algorithm extension for the OpenPGP protocol. Given the generally assumed threat of a cryptographically relevant quantum computer, this extension provides a basis for long-term secure OpenPGP signatures and ciphertexts. Specifically, it defines composite public-key encryption based on ML- KEM (formerly CRYSTALS-Kyber), composite public-key signatures based on ML-DSA (formerly CRYSTALS-Dilithium), both in combination with elliptic curve cryptography, and SLH-DSA (formerly SPHINCS+) as a standalone public key signature scheme.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-wussler-openpgp-pqc-03"/>
+</reference>
