@@ -1,0 +1,23 @@
+<reference anchor="I-D.dong-lsvr-bgp-spf-nrp" target="https://datatracker.ietf.org/doc/html/draft-dong-lsvr-bgp-spf-nrp-02">
+  <front>
+    <title>BGP SPF for Network Resource Partitions</title>
+    <author fullname="Jie Dong" initials="J." surname="Dong">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Zhenbin Li" initials="Z." surname="Li">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Haibo Wang" initials="H." surname="Wang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Jian Ge" initials="J." surname="Ge">
+      <organization>China Academy of Information and Communications
+      Technology</organization>
+    </author>
+    <date year="2023" month="October" day="20"/>
+    <abstract>
+      <t>A VTN is a virtual underlay network which has customized network topology and a set of dedicated or shared network resources. Network Resource Partition (NRP) refers to a set of network resources that are available to carry traffic and meet the SLOs and SLEs. Multiple NRPs can be created in a network to provide different Virtual Transport Networks (VTN) to meet the requirements of different services or different service groups. As the number of NRP increases, there can be scalability concerns about using Interial Gateway Protocols (IGP) to distribute the NRP information in the network. In networks where BGP Shortest Path First (SPF) can used as the underlay routing mechanism to distribute the link-state information among network nodes, the information of NRPs needs to be distributed along with the basic network information. This document specifies the BGP SPF mechanisms with necessary extensions to distribute the NRP information and perform NRP-specific path computation.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-dong-lsvr-bgp-spf-nrp-02"/>
+</reference>
