@@ -1,0 +1,22 @@
+<reference anchor="I-D.cheng-idr-inter-domain-consistency" target="https://datatracker.ietf.org/doc/html/draft-cheng-idr-inter-domain-consistency-00">
+  <front>
+    <title>Maintain consistency of inter-domain routing and forwarding</title>
+    <author fullname="Weiqiang Cheng" initials="W." surname="Cheng">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Mingxing Liu" initials="" surname="Liu">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Mingqing Huang" initials="M." surname="Huang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Shengnan Yue" initials="" surname="Yue">
+      <organization>China Mobile</organization>
+    </author>
+    <date year="2023" month="October" day="23"/>
+    <abstract>
+      <t>The AS_PATH attribute of BGP UPDATE records the AS number that it has passed through. Ideally, the traffic to the destination IP prefixes in NLRI of BGP UPDATE should be reversely forwarded along the AS path recorded in the AS_PATH. However, due to other factors such traffic redirection, traffic engineering, and route aggregation, the actual forwarding AS path of the packet is usually different from the propagation path of BGP UPDATE. In other words, inter-domain routing and forwarding are usually inconsistent, which results in that inter- domain forwarding has security risks such as traffic black hole, loop, detour and the malicious AS, etc. Consistent inter-domain routing and forwarding greatly contributes to enhanced inter-domain forwarding security and visibility, which facilitates the long-term evolution of the Internet</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-cheng-idr-inter-domain-consistency-00"/>
+</reference>

@@ -1,0 +1,25 @@
+<reference anchor="I-D.xu-ipsecme-risav" target="https://datatracker.ietf.org/doc/html/draft-xu-ipsecme-risav-03">
+  <front>
+    <title>An RPKI and IPsec-based AS-to-AS Approach for Source Address Validation</title>
+    <author fullname="Ke Xu" initials="K." surname="Xu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Jianping Wu" initials="J." surname="Wu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Yangfei Guo" initials="Y." surname="Guo">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author fullname="Benjamin M. Schwartz" initials="B. M." surname="Schwartz">
+      <organization>Meta Platforms, Inc.</organization>
+    </author>
+    <author fullname="Haiyang Wang" initials="H." surname="Wang">
+      <organization>The University of Minnesota at Duluth</organization>
+    </author>
+    <date year="2023" month="October" day="23"/>
+    <abstract>
+      <t>This document presents RISAV, a protocol for establishing and using IPsec security between Autonomous Systems (ASes) using the RPKI identity system. In this protocol, the originating AS adds authenticating information to each outgoing packet at its Border Routers (ASBRs), and the receiving AS verifies and strips this information at its ASBRs. Packets that fail validation are dropped by the ASBR. RISAV achieves Source Address Validation among all participating ASes.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-xu-ipsecme-risav-03"/>
+</reference>

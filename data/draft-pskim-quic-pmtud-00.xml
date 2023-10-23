@@ -1,0 +1,13 @@
+<reference anchor="I-D.pskim-quic-pmtud" target="https://datatracker.ietf.org/doc/html/draft-pskim-quic-pmtud-00">
+  <front>
+    <title>An Alternative Path MTU Discovery for QUIC</title>
+    <author fullname="Pyung Soo Kim" initials="P. S." surname="Kim">
+      <organization>TU Korea</organization>
+    </author>
+    <date year="2023" month="October" day="22"/>
+    <abstract>
+      <t>This draft describes an alternative Path MTU Discovery (PMTUD) for QUIC. RFC 8899 searches for PMTU by sending a probe at the QUIC layer, which is an active probing approach. In this draft, a passive probing approach is adopted to discover the PMTU. The process of discovering the PMTU is not performed separately, but is performed simultaneously in the actual application data communication. That is, the actual application data is allowed to be carried in the process of discovering the PMTU. A probe packet is defined newly using 1-RTT packet which includes actual application data as well as a short packet header and a PING_EXT frame. The PING_EXT frame is also defined newly. Until the best PMTU is discovered, the size of the probe packet is changed according to the size of the PMTU candidate. A simple discovery algorithm using only the PMTU candidate sequence with linear upward is described in this draft.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-pskim-quic-pmtud-00"/>
+</reference>
