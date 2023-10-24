@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-avtcore-rtp-over-quic" target="https://datatracker.ietf.org/doc/html/draft-ietf-avtcore-rtp-over-quic-07">
+  <front>
+    <title>RTP over QUIC (RoQ)</title>
+    <author fullname="Joerg Ott" initials="J." surname="Ott">
+      <organization>Technical University Munich</organization>
+    </author>
+    <author fullname="Mathis Engelbart" initials="M." surname="Engelbart">
+      <organization>Technical University Munich</organization>
+    </author>
+    <author fullname="Spencer Dawkins" initials="S." surname="Dawkins">
+      <organization>Tencent America LLC</organization>
+    </author>
+    <date year="2023" month="October" day="23"/>
+    <abstract>
+      <t>This document specifies a minimal mapping for encapsulating Real-time Transport Protocol (RTP) and RTP Control Protocol (RTCP) packets within the QUIC protocol. This mapping is called RTP over QUIC (RoQ). It also discusses how to leverage state from the QUIC implementation in the endpoints, in order to reduce the need to exchange RTCP packets and how to implement congestion control and rate adaptation without relying on RTCP feedback.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-avtcore-rtp-over-quic-07"/>
+</reference>
