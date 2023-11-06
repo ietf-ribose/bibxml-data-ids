@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-6man-rfc6724-update" target="https://datatracker.ietf.org/doc/html/draft-ietf-6man-rfc6724-update-03">
+  <front>
+    <title>Preference for IPv6 ULAs over IPv4 addresses in RFC6724</title>
+    <author fullname="Nick Buraglio" initials="N." surname="Buraglio">
+      <organization>Energy Sciences Network</organization>
+    </author>
+    <author fullname="Tim Chown" initials="T." surname="Chown">
+      <organization>Jisc</organization>
+    </author>
+    <author fullname="Jeremy Duncan" initials="J." surname="Duncan">
+      <organization>Tachyon Dynamics</organization>
+    </author>
+    <date year="2023" month="November" day="6"/>
+    <abstract>
+      <t>This document updates RFC 6724 based on operational experience gained since its publication over ten years ago. In particular it updates the precedence of Unique Local Addresses (ULAs) in the default address selection policy table, which as originally defined by RFC 6724 has lower precedence than legacy IPv4 addressing. The update places both IPv6 Global Unicast Addresses (GUAs) and ULAs ahead of all IPv4 addresses on the policy table to better suit operational deployment and management of ULAs in production. In updating the RFC 6724 default policy table, this document also demotes the preference for 6to4 addresses. These changes to default behavior improve supportability of common use cases such as, but not limited to, automatic / unmanaged scenarios. It is recognized that some less common deployment scenarios may require explicit configuration or custom changes to achieve desired operational parameters.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-6man-rfc6724-update-03"/>
+</reference>
