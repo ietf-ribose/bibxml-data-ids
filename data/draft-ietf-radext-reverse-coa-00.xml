@@ -1,0 +1,16 @@
+<reference anchor="I-D.ietf-radext-reverse-coa" target="https://datatracker.ietf.org/doc/html/draft-ietf-radext-reverse-coa-00">
+  <front>
+    <title>Reverse CoA in RADIUS</title>
+    <author fullname="Alan DeKok" initials="A." surname="DeKok">
+      <organization>FreeRADIUS</organization>
+    </author>
+    <author fullname="Vadim Cargatser" initials="V." surname="Cargatser">
+      <organization>Cisco</organization>
+    </author>
+    <date year="2023" month="November" day="7"/>
+    <abstract>
+      <t>This document defines a "reverse change of authorization (CoA)" path for RADIUS packets. This specification allows a home server to send CoA packets in "reverse" down a RADIUS/TLS connection. Without this capability, it is impossible for a home server to send CoA packets to a NAS which is behind a firewall or NAT gateway. The reverse CoA functionality extends the available transport methods for CoA packets, but it does not change anything else about how CoA packets are handled.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-radext-reverse-coa-00"/>
+</reference>
