@@ -1,0 +1,19 @@
+<reference anchor="I-D.mohanty-idr-rtc-hierarchical-rr" target="https://datatracker.ietf.org/doc/html/draft-mohanty-idr-rtc-hierarchical-rr-02">
+  <front>
+    <title>A solution to the Hierarchical Route Reflector issue in RT Constraints</title>
+    <author fullname="Satya Mohanty" initials="M." surname="Mohanty">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author fullname="Juan Alcaide" initials="J." surname="Alcaide">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author fullname="Mrinmoy Ghosh" initials="M." surname="Ghosh">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <date year="2023" month="November" day="9"/>
+    <abstract>
+      <t>Route Target Constraints (RTC) is used to build a VPN route distribution graph such that routers only receive VPN routes corresponding to specified route-targets (RT) that they are interested in. This is done by exchanging the route-targets as routes in the RTC address-family and a corresponding "RT filter" is installed that influences the VPN route advertisement. In networks employing hierarchical Route Reflectors (RR) the use of RTC can lead to incorrect VPN route distribution and loss in connectivity as detailed in an earlier draft. Two solutions were provided to overcome the problem. This draft presents a method with suggested modifications to the RTC RFC in order to solve the hierarchical RR RTC problem in an efficient manner.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-mohanty-idr-rtc-hierarchical-rr-02"/>
+</reference>
