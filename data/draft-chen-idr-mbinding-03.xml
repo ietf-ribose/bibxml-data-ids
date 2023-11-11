@@ -1,0 +1,28 @@
+<reference anchor="I-D.chen-idr-mbinding" target="https://datatracker.ietf.org/doc/html/draft-chen-idr-mbinding-03">
+  <front>
+    <title>BGP for Mirror Binding</title>
+    <author fullname="Huaimo Chen" initials="H." surname="Chen">
+      <organization>Futurewei</organization>
+    </author>
+    <author fullname="Bruno Decraene" initials="B." surname="Decraene">
+      <organization>Orange</organization>
+    </author>
+    <author fullname="Gyan Mishra" initials="G. S." surname="Mishra">
+      <organization>Verizon</organization>
+    </author>
+    <author fullname="Yanhe Fan" initials="Y." surname="Fan">
+      <organization>Casa Systems</organization>
+    </author>
+    <author fullname="Aijun Wang" initials="A." surname="Wang">
+      <organization>China Telecom</organization>
+    </author>
+    <author fullname="Xufeng Liu" initials="X." surname="Liu">
+      <organization>Alef Edge</organization>
+    </author>
+    <date year="2023" month="November" day="10"/>
+    <abstract>
+      <t>BGP is used to distribute a binding to a node. The binding includes a binding SID and a path represented by a list of SIDs. This document describes extensions to BGP for distributing the information about the binding to a protecting node. For an SR path via the node with the binding SID, when the node fails, the protecting node such as the upstream neighbor on the path uses the information to protect the binding SID of the failed node.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-chen-idr-mbinding-03"/>
+</reference>
