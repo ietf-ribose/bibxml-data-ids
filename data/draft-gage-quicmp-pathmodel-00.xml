@@ -1,0 +1,13 @@
+<reference anchor="I-D.gage-quicmp-pathmodel" target="https://datatracker.ietf.org/doc/html/draft-gage-quicmp-pathmodel-00">
+  <front>
+    <title>An Alternate Path Model for Multipath QUIC</title>
+    <author fullname="Bill Gage" initials="B." surname="Gage">
+      <organization>Unaffiliated</organization>
+    </author>
+    <date year="2023" month="November" day="11"/>
+    <abstract>
+      <t>The path model used in the current MPQUIC draft binds a connection identifier to a path. In fact, the sequence number of a connection identifier is used as an implicit path identifier. This has a number of consequences that may cause MPQUIC to diverge from the principles of RFC9000. One of these consequences, for example, is to associate each connection with a different application data packet number space rather than maintaining a single application data packet number space across all connections as defined in RFC9000. This document proposes a different path model for Multipath QUIC using explicit path identifiers, enabling a multipath management framework that retains the principles and operations of RFC9000.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-gage-quicmp-pathmodel-00"/>
+</reference>
