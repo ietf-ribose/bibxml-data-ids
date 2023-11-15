@@ -1,0 +1,34 @@
+<reference anchor="I-D.ietf-taps-interface" target="https://datatracker.ietf.org/doc/html/draft-ietf-taps-interface-23">
+  <front>
+    <title>An Abstract Application Layer Interface to Transport Services</title>
+    <author fullname="Brian Trammell" initials="B." surname="Trammell">
+      <organization>Google Switzerland GmbH</organization>
+    </author>
+    <author fullname="Michael Welzl" initials="M." surname="Welzl">
+      <organization>University of Oslo</organization>
+    </author>
+    <author fullname="Reese Enghardt" initials="R." surname="Enghardt">
+      <organization>Netflix</organization>
+    </author>
+    <author fullname="Gorry Fairhurst" initials="G." surname="Fairhurst">
+      <organization>University of Aberdeen</organization>
+    </author>
+    <author fullname="Mirja Kühlewind" initials="M." surname="Kühlewind">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Colin Perkins" initials="C." surname="Perkins">
+      <organization>University of Glasgow</organization>
+    </author>
+    <author fullname="Philipp S. Tiesel" initials="P. S." surname="Tiesel">
+      <organization>SAP SE</organization>
+    </author>
+    <author fullname="Tommy Pauly" initials="T." surname="Pauly">
+      <organization>Apple Inc.</organization>
+    </author>
+    <date year="2023" month="November" day="14"/>
+    <abstract>
+      <t>This document describes an abstract application programming interface, API, to the transport layer that enables the selection of transport protocols and network paths dynamically at runtime. This API enables faster deployment of new protocols and protocol features without requiring changes to the applications. The specified API follows the Transport Services architecture by providing asynchronous, atomic transmission of messages. It is intended to replace the BSD sockets API as the common interface to the transport layer, in an environment where endpoints could select from multiple network paths and potential transport protocols.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-taps-interface-23"/>
+</reference>

@@ -1,0 +1,13 @@
+<reference anchor="I-D.templin-intarea-parcels" target="https://datatracker.ietf.org/doc/html/draft-templin-intarea-parcels-84">
+  <front>
+    <title>IP Parcels and Advanced Jumbos</title>
+    <author fullname="Fred Templin" initials="F." surname="Templin">
+      <organization>Boeing Research &amp; Technology</organization>
+    </author>
+    <date year="2023" month="November" day="14"/>
+    <abstract>
+      <t>IP packets (both IPv4 and IPv6) contain a single unit of transport layer protocol data which becomes the retransmission unit in case of loss. Transport layer protocols including the Transmission Control Protocol (TCP) and reliable transport protocol users of the User Datagram Protocol (UDP) prepare data units known as segments which the network layer packages into individual IP packets each containing only a single segment. This specification presents new packet constructs known as IP Parcels and Advanced Jumbos with different properties. IP parcels permit a single packet to include multiple segments as a "packet-of-packets", while advanced jumbos offer significant operational advantages over basic jumbograms for transporting truly large singleton segments. IP parcels and advanced jumbos provide essential building blocks for improved performance, efficiency and integrity while encouraging larger Maximum Transmission Units (MTUs) in the Internet.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-templin-intarea-parcels-84"/>
+</reference>
