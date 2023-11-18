@@ -1,0 +1,19 @@
+<reference anchor="I-D.levine-rfc6409bis" target="https://datatracker.ietf.org/doc/html/draft-levine-rfc6409bis-01">
+  <front>
+    <title>Message Submission for Mail</title>
+    <author fullname="John R. Levine" initials="J. R." surname="Levine">
+      <organization>Standcore LLC</organization>
+    </author>
+    <author fullname="Randall Gellens" initials="R." surname="Gellens">
+      <organization>QUALCOMM Incorporated</organization>
+    </author>
+    <author fullname="Dr. John C. Klensin" initials="J. C." surname="Klensin">
+      <organization/>
+    </author>
+    <date year="2023" month="November" day="17"/>
+    <abstract>
+      <t>This memo splits message submission from message relay, allowing each service to operate according to its own rules (for security, policy, etc.), and specifies what actions are to be taken by a submission server. Message relay is unaffected, and continues to use SMTP over port 25. When conforming to this document, message submission uses the protocol specified here, normally over port 587. This separation of function offers a number of benefits, including the ability to apply specific security or policy requirements. This memo also offers advice to software that constructs a message envlope from a message's headers prior to submission.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-levine-rfc6409bis-01"/>
+</reference>
