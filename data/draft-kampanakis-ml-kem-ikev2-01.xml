@@ -1,0 +1,16 @@
+<reference anchor="I-D.kampanakis-ml-kem-ikev2" target="https://datatracker.ietf.org/doc/html/draft-kampanakis-ml-kem-ikev2-01">
+  <front>
+    <title>Post-quantum Hybrid Key Exchange with ML-KEM in the Internet Key Exchange Protocol Version 2 (IKEv2)</title>
+    <author fullname="Panos Kampanakis" initials="P." surname="Kampanakis">
+      <organization>Amazon Web Services</organization>
+    </author>
+    <author fullname="Gerardo Ravago" initials="G." surname="Ravago">
+      <organization>Amazon Web Services</organization>
+    </author>
+    <date year="2023" month="November" day="20"/>
+    <abstract>
+      <t>[EDNOTE: The intention of this draft is to get IANA KE codepoints for ML-KEM. It could be a standards track draft given that ML-KEM will see a lot of adoption, an AD sponsored draft, or even an individual stable draft which gets codepoints from Expert Review. The approach is to be decided by the IPSECME WG. ] NIST recently standardized ML-KEM, a new key encapsulation mechanism, which can be used for quantum-resistant key establishment. This draft specifies how to use ML-KEM as an additionall key exchange mechanism in IKEv2 along with traditional (Elliptic Curve) Diffie- Hellman. This hybrid approach allows for negotiating IKE and Child SA keys which are safe against cryptanalytically-relevant quantum computers and theoretical weaknesses in ML-KEM as it is relatively new.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-kampanakis-ml-kem-ikev2-01"/>
+</reference>
