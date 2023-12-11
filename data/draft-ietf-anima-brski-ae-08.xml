@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-anima-brski-ae" target="https://datatracker.ietf.org/doc/html/draft-ietf-anima-brski-ae-08">
+  <front>
+    <title>BRSKI-AE: Alternative Enrollment Protocols in BRSKI</title>
+    <author fullname="David von Oheimb" initials="D." surname="von Oheimb">
+      <organization>Siemens AG</organization>
+    </author>
+    <author fullname="Steffen Fries" initials="S." surname="Fries">
+      <organization>Siemens AG</organization>
+    </author>
+    <author fullname="Hendrik Brockhaus" initials="H." surname="Brockhaus">
+      <organization>Siemens AG</organization>
+    </author>
+    <date year="2023" month="December" day="11"/>
+    <abstract>
+      <t>This document defines an enhancement of Bootstrapping Remote Secure Key Infrastructure (BRSKI, RFC 8995) that supports alternative certificate enrollment protocols, such as CMP. This offers the following advantages. Using authenticated self-contained signed objects for certification requests and responses, their origin can be authenticated independently of message transfer. This supports end-to-end authentication (proof of origin) also over multiple hops, as well as asynchronous operation of certificate enrollment. This in turn provides architectural flexibility where to ultimately authenticate and authorize certification requests while retaining full-strength integrity and authenticity of certification requests.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-anima-brski-ae-08"/>
+</reference>
