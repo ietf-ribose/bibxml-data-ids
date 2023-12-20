@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-lsr-ospf-transport-instance" target="https://datatracker.ietf.org/doc/html/draft-ietf-lsr-ospf-transport-instance-06">
+  <front>
+    <title>OSPF-GT (Generalized Transport)</title>
+    <author fullname="Acee Lindem" initials="A." surname="Lindem">
+      <organization>LabN Consulting, L.L.C.</organization>
+    </author>
+    <author fullname="Yingzhen Qu" initials="Y." surname="Qu">
+      <organization>Futurewei</organization>
+    </author>
+    <author fullname="Abhay Roy" initials="A." surname="Roy">
+      <organization>Arrcus, Inc.</organization>
+    </author>
+    <author fullname="Sina Mirtorabi" initials="S." surname="Mirtorabi">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date year="2023" month="December" day="19"/>
+    <abstract>
+      <t>OSPFv2 and OSPFv3 include a reliable flooding mechanism to disseminate routing topology and Traffic Engineering (TE) information within a routing domain. Given the effectiveness of these mechanisms, it is advantageous to use the same mechanism for dissemination of other types of information within the domain. However, burdening OSPF with this additional information will impact intra-domain routing convergence and possibly jeopardize the stability of the OSPF routing domain. This document presents mechanisms to advertise this non-routing information in separate OSPF Generalized Transport (OSPF-GT) instances. OSPF-GT is not constrained to the semantics as traditional OSPF. OSPF-GT neighbors are not required to be directly attached since they are never used to compute hop-by-hop routing. Consequently, independent sparse topologies can be defined to dissemenate non- routing information only to those OSPF-GT routers requiring it.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lsr-ospf-transport-instance-06"/>
+</reference>
