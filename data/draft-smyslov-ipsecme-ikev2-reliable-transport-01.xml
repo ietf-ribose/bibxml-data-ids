@@ -1,0 +1,13 @@
+<reference anchor="I-D.smyslov-ipsecme-ikev2-reliable-transport" target="https://datatracker.ietf.org/doc/html/draft-smyslov-ipsecme-ikev2-reliable-transport-01">
+  <front>
+    <title>Use of Reliable Transport in the Internet Key Exchange Protocol Version 2 (IKEv2)</title>
+    <author fullname="Valery Smyslov" initials="V." surname="Smyslov">
+      <organization>ELVIS-PLUS</organization>
+    </author>
+    <date year="2023" month="December" day="28"/>
+    <abstract>
+      <t>The Internet Key Exchange protocol version 2 (IKE2) can operate either over unreliable (UDP) transport or over reliable (TCP) transport. If TCP is used, then IPsec tunnels created by IKEv2 also use TCP. This document specifies how to decouple IKEv2 and IPsec transports, so that IKEv2 can operate over TCP, while IPsec tunnels use unreliable transport. This feature allows IKEv2 to effectively exchange large blobs of data (e.g. when post-quantum algorithms are employed) while avoiding performance problems which arise when TCP is used for IPsec.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-smyslov-ipsecme-ikev2-reliable-transport-01"/>
+</reference>
