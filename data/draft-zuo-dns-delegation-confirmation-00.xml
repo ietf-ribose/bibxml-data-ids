@@ -1,0 +1,16 @@
+<reference anchor="I-D.zuo-dns-delegation-confirmation" target="https://datatracker.ietf.org/doc/html/draft-zuo-dns-delegation-confirmation-00">
+  <front>
+    <title>A lightweight DNS delegation confirmation protocol</title>
+    <author fullname="Peng Zuo" initials="P." surname="Zuo">
+      <organization>CNNIC</organization>
+    </author>
+    <author fullname="Zhiwei Yan" initials="Z." surname="Yan">
+      <organization>CNNIC</organization>
+    </author>
+    <date year="2024" month="January" day="1"/>
+    <abstract>
+      <t>Delegation occurs when an NS record is added in the parent zone for the child origin. In the current DNS delegation mechanism, a delegated zone/child zone (see Section1.1 for definition of delegated zone) can specify any NS records at the zone apex without requiring confirmation from the zone maintaining Glue records of the NS record. Recently, new types of attacks that exploit this flaw have been discovered. This draft suggests a protocol-level solution for DNS delegation confirmation to reduce the risk of these attacks.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-zuo-dns-delegation-confirmation-00"/>
+</reference>
