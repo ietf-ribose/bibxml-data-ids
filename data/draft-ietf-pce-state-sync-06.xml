@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-pce-state-sync" target="https://datatracker.ietf.org/doc/html/draft-ietf-pce-state-sync-06">
+  <front>
+    <title>Inter Stateful Path Computation Element (PCE) Communication Procedures.</title>
+    <author fullname="Stephane Litkowski" initials="S." surname="Litkowski">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Siva Sivabalan" initials="S." surname="Sivabalan">
+      <organization>Ciena Corporation</organization>
+    </author>
+    <author fullname="Cheng Li" initials="C." surname="Li">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Haomian Zheng" initials="H." surname="Zheng">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date year="2024" month="January" day="2"/>
+    <abstract>
+      <t>The Path Computation Element (PCE) Communication Protocol (PCEP) provides mechanisms for PCEs to perform path computation in response to a Path Computation Client (PCC) request. The Stateful PCE extensions allow stateful control of Multi-Protocol Label Switching (MPLS) Traffic Engineering (TE) Label Switched Paths (LSPs) using PCEP. A Path Computation Client (PCC) can synchronize an LSP state information to a Stateful Path Computation Element (PCE). A PCC can have multiple PCEP sessions towards multiple PCEs. There are some use cases, where an inter-PCE stateful communication can bring additional resiliency in the design, for instance when some PCC-PCE session fails. This document describes the procedures to allow a stateful communication between PCEs for various use-cases and also the procedures to prevent computations loops.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-pce-state-sync-06"/>
+</reference>

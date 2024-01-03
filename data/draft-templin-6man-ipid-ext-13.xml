@@ -1,0 +1,13 @@
+<reference anchor="I-D.templin-6man-ipid-ext" target="https://datatracker.ietf.org/doc/html/draft-templin-6man-ipid-ext-13">
+  <front>
+    <title>IPv6 Extended Fragment Header</title>
+    <author fullname="Fred Templin" initials="F." surname="Templin">
+      <organization>Boeing Research &amp; Technology</organization>
+    </author>
+    <date year="2024" month="January" day="2"/>
+    <abstract>
+      <t>The Internet Protocol, version 4 (IPv4) header includes a 16-bit Identification field in all packets, but this length is too small to ensure reassembly integrity even at moderate data rates in modern networks. Even for Internet Protocol, version 6 (IPv6), the 32-bit Identification field included when a Fragment Header is present may be smaller than desired for some applications. This specification addresses these limitations by defining an IPv6 Extended Fragment Header that includes a 64-bit Identification; it further defines a control messaging service for fragment retransmission and reassembly congestion management.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-templin-6man-ipid-ext-13"/>
+</reference>
