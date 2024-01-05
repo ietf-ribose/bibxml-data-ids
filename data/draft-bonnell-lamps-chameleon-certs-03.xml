@@ -1,0 +1,25 @@
+<reference anchor="I-D.bonnell-lamps-chameleon-certs" target="https://datatracker.ietf.org/doc/html/draft-bonnell-lamps-chameleon-certs-03">
+  <front>
+    <title>A Mechanism for Encoding Differences in Paired Certificates</title>
+    <author fullname="Corey Bonnell" initials="C." surname="Bonnell">
+      <organization>DigiCert</organization>
+    </author>
+    <author fullname="John Gray" initials="J." surname="Gray">
+      <organization>Entrust</organization>
+    </author>
+    <author fullname="D. Hook" initials="D." surname="Hook">
+      <organization>KeyFactor</organization>
+    </author>
+    <author fullname="Tomofumi Okubo" initials="T." surname="Okubo">
+      <organization>DigiCert</organization>
+    </author>
+    <author fullname="Mike Ounsworth" initials="M." surname="Ounsworth">
+      <organization>Entrust</organization>
+    </author>
+    <date year="2024" month="January" day="4"/>
+    <abstract>
+      <t>This document specifies a method to efficiently convey the differences between two certificates in an X.509 version 3 extension. This method allows a relying party to extract information sufficient to construct the paired certificate and perform certification path validation using the constructed certificate. In particular, this method is especially useful as part of a key or signature algorithm migration, where subjects may be issued multiple certificates containing different public keys or signed with different CA private keys or signature algorithms. This method does not require any changes to the certification path validation algorithm as described in RFC 5280. Additionally, this method does not violate the constraints of serial number uniqueness for certificates issued by a single certification authority.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-bonnell-lamps-chameleon-certs-03"/>
+</reference>
