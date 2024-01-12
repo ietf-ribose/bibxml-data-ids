@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-acme-dtnnodeid" target="https://datatracker.ietf.org/doc/html/draft-ietf-acme-dtnnodeid-12">
+  <front>
+    <title>Automated Certificate Management Environment (ACME) Delay-Tolerant Networking (DTN) Node ID Validation Extension</title>
+    <author fullname="Brian Sipos" initials="B." surname="Sipos">
+      <organization>RKF Engineering Solutions, LLC</organization>
+    </author>
+    <date year="2024" month="January" day="11"/>
+    <abstract>
+      <t>This document specifies an extension to the Automated Certificate Management Environment (ACME) protocol which allows an ACME server to validate the Delay-Tolerant Networking (DTN) Node ID for an ACME client. A DTN Node ID is an identifier used in the Bundle Protocol (BP) to name a "singleton endpoint", one which is registered on a single BP node. The DTN Node ID is encoded as a certificate Subject Alternative Name (SAN) of type otherName with a name form of BundleEID and as an ACME Identifier type "bundleEID".</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-acme-dtnnodeid-12"/>
+</reference>
