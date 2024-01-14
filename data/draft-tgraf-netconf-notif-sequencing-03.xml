@@ -1,0 +1,19 @@
+<reference anchor="I-D.tgraf-netconf-notif-sequencing" target="https://datatracker.ietf.org/doc/html/draft-tgraf-netconf-notif-sequencing-03">
+  <front>
+    <title>Support of Hostname and Sequencing in YANG Notifications</title>
+    <author fullname="Thomas Graf" initials="T." surname="Graf">
+      <organization>Swisscom</organization>
+    </author>
+    <author fullname="Jean Quilbeuf" initials="J." surname="Quilbeuf">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Alex Huang Feng" initials="A. H." surname="Feng">
+      <organization>INSA-Lyon</organization>
+    </author>
+    <date year="2024" month="January" day="14"/>
+    <abstract>
+      <t>This document specifies a new YANG module that augment the NETCONF Event Notification header to support hostname, Message Publisher ID and sequence numbers to identify from which network node and at which time the message was published. This allows the collector to recognize loss, delay and reordering between the publisher and the downstream system storing the message.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-tgraf-netconf-notif-sequencing-03"/>
+</reference>
