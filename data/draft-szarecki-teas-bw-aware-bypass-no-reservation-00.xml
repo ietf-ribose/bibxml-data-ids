@@ -1,0 +1,16 @@
+<reference anchor="I-D.szarecki-teas-bw-aware-bypass-no-reservation" target="https://datatracker.ietf.org/doc/html/draft-szarecki-teas-bw-aware-bypass-no-reservation-00">
+  <front>
+    <title>MPLS FRR bypass path calculation with bandwidth awareness without reservation</title>
+    <author fullname="Rafal Jan Szarecki" initials="R. J." surname="Szarecki">
+      <organization>Google LLC</organization>
+    </author>
+    <author fullname="Jon Mitchell" initials="J." surname="Mitchell">
+      <organization>Google LLC</organization>
+    </author>
+    <date year="2024" month="January" day="23"/>
+    <abstract>
+      <t>RFC4090 documents facility backup FRR in MPLS-TE networks. This document describes methods that allow the Point of Local Repair (PLR) to find a path with sufficient available bandwidth to accommodate protected traffic, while not making undesired reservations that would require additional capacity. Below aspects are covered: * Automatic determination of bypass required bandwidth by the PLR * Calculation of path based on this information using constrained shortest path algorithm (CSPF) * Determination of RSVP SENDER-TSPEC rate value for bypass tunnel signaling</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-szarecki-teas-bw-aware-bypass-no-reservation-00"/>
+</reference>
