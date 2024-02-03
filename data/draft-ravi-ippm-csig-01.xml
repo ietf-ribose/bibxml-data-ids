@@ -1,0 +1,22 @@
+<reference anchor="I-D.ravi-ippm-csig" target="https://datatracker.ietf.org/doc/html/draft-ravi-ippm-csig-01">
+  <front>
+    <title>Congestion Signaling (CSIG)</title>
+    <author fullname="Abhiram Ravi" initials="A." surname="Ravi">
+      <organization>Google LLC</organization>
+    </author>
+    <author fullname="Nandita Dukkipati" initials="N." surname="Dukkipati">
+      <organization>Google LLC</organization>
+    </author>
+    <author fullname="Naoshad Mehta" initials="N." surname="Mehta">
+      <organization>Google LLC</organization>
+    </author>
+    <author fullname="Jai Kumar" initials="J." surname="Kumar">
+      <organization>Broadcom Inc.</organization>
+    </author>
+    <date year="2024" month="February" day="2"/>
+    <abstract>
+      <t>This document presents Congestion Signaling (CSIG), an in-band network telemetry protocol that allows end-hosts to obtain visibility into fine-grained network signals for congestion control, traffic management, and network debuggability in the network. CSIG provides a simple, low-overhead, and extensible packet header mechanism to obtain fixed-length summaries from bottleneck devices along a packet path. This summarized information is collected over L2 CSIG-tags in a compare-and-replace manner across network devices along the path. Receivers can reflect this information back to senders via L4+ CSIG reflection headers. CSIG builds upon the successful aspects of prior work such as switch in-band network telemetry (INT) that incorporates multibit signals in live data packets. At the same time, CSIG's end-to-end mechanism for carrying the signals via fixed size header is simple, practical and deployable akin to Explicit Congestion Notification (ECN). In addition to a detailed description of the end-to-end protocol, this document also motivates the use cases for CSIG and the rationale for design choices made in CSIG. It describes a set of signals of interest to applications (minimum available bandwidth, maximum link utilization, and maximum hop delay), methods to compute these signals in network devices, and how these signals can be leveraged in applications. Additionally, it describes how attributes about the bottleneck's location can be carried and made useful to applications. It also provides the framework to incorporate future signals. Finally, this document addresses incremental deployment, backward compatibility and nuances of CSIG's applicability in a range of scenarios.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ravi-ippm-csig-01"/>
+</reference>
