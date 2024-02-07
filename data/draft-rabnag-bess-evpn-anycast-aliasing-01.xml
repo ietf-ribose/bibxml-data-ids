@@ -1,0 +1,22 @@
+<reference anchor="I-D.rabnag-bess-evpn-anycast-aliasing" target="https://datatracker.ietf.org/doc/html/draft-rabnag-bess-evpn-anycast-aliasing-01">
+  <front>
+    <title>EVPN Anycast Aliasing For Multi-Homing</title>
+    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Kiran Nagaraj" initials="K." surname="Nagaraj">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Alex Nichol" initials="A." surname="Nichol">
+      <organization>Arista</organization>
+    </author>
+    <author fullname="Nick Morris" initials="N." surname="Morris">
+      <organization>Verizon</organization>
+    </author>
+    <date year="2024" month="February" day="7"/>
+    <abstract>
+      <t>The current Ethernet Virtual Private Network (EVPN) all-active multi- homing procedures in Network Virtualization Over Layer-3 (NVO3) networks provide the required Split Horizon filtering, Designated Forwarder Election and Aliasing functions that the network needs in order to handle the traffic to and from the multi-homed CE in an efficient way. In particular, the Aliasing function addresses the load balancing of unicast packets from remote Network Virtualization Edge (NVE) devices to the NVEs that are multi-homed to the same CE, irrespective of the learning of the CE's MAC/IP information on the NVEs. This document describes an optional optimization of the EVPN multi-homing Aliasing function - EVPN Anycast Aliasing - that is specific to the use of EVPN with NVO3 tunnels (i.e., IP tunnels) and, in typical Data Center designs, may provide savings in terms of data plane and control plane resources in the routers.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-rabnag-bess-evpn-anycast-aliasing-01"/>
+</reference>
