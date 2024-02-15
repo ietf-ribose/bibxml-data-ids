@@ -1,0 +1,19 @@
+<reference anchor="I-D.mrossberg-ipsecme-multiple-sequence-counters" target="https://datatracker.ietf.org/doc/html/draft-mrossberg-ipsecme-multiple-sequence-counters-02">
+  <front>
+    <title>Broadening the Scope of Encapsulating Security Payload (ESP) Protocol</title>
+    <author fullname="Michael Rossberg" initials="M." surname="Rossberg">
+      <organization>Technische Universität Ilmenau</organization>
+    </author>
+    <author fullname="Steffen Klassert" initials="S." surname="Klassert">
+      <organization>secunet Security Networks AG</organization>
+    </author>
+    <author fullname="Michael Pfeiffer" initials="M." surname="Pfeiffer">
+      <organization>Technische Universität Ilmenau</organization>
+    </author>
+    <date year="2024" month="February" day="15"/>
+    <abstract>
+      <t>There are certain use cases where the Encapusalating Security Payload (ESP) protocol in its current form cannot reach its maximum potential regarding security, features and performance. Although these scenarios are quite different, the shortcomings could be remedied by three measures: Introducing more fine-grained sub-child-SAs, adapting the ESP header and trailer format, and allowing parts of the transport layer header to be unencrypted. These mechanisms are neither completely interdependent, nor are they entirely orthogonal, as the implementation of one measure does influence the integration of another. Although an independent specification and implementation of these mechanisms is possible, it may be worthwhile to consider a combined solution to avoid a combinatorial explosion of optional features. Therefore, this document does not yet propose a specific change to ESP. Instead, explains the relevant scenarios, details possible modifications of the protocol, collects arguments for (and against) these changes, and discusses their implications.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-mrossberg-ipsecme-multiple-sequence-counters-02"/>
+</reference>
