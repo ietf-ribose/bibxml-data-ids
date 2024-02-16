@@ -1,0 +1,25 @@
+<reference anchor="I-D.vanbrouwershaven-acme-client-discovery" target="https://datatracker.ietf.org/doc/html/draft-vanbrouwershaven-acme-client-discovery-00">
+  <front>
+    <title>Auto-discovery mechanism for ACME authorized clients</title>
+    <author fullname="Paul van Brouwershaven" initials="P." surname="van Brouwershaven">
+      <organization>Entrust Limited</organization>
+    </author>
+    <author fullname="Mike Ounsworth" initials="M." surname="Ounsworth">
+      <organization>Entrust Limited</organization>
+    </author>
+    <author fullname="Corey Bonnell" initials="C." surname="Bonnell">
+      <organization>DigiCert, Inc</organization>
+    </author>
+    <author fullname="Iñigo Barreira" initials="I." surname="Barreira">
+      <organization>Sectigo (Europe) SL</organization>
+    </author>
+    <author fullname="Q Misell" initials="Q." surname="Misell">
+      <organization>AS207960 Cyfyngedig</organization>
+    </author>
+    <date year="2024" month="February" day="15"/>
+    <abstract>
+      <t>A significant challenge in the widespread adoption of the Automated Certificate Management Environment (ACME) [RFC8555] is the trust establishment between ACME servers and clients. While ACME clients can automatically discover the URL of the ACME server through ACME Auto Discovery [I-D.vanbrouwershaven-acme-auto-discovery], they face difficulty in identifying authorized clients. This draft proposes a solution to this problem by allowing Certification Authority (CA) customers to specify which ACME keys are authorized to request certificates on their behalf by simply providing the domain name of the service provider. Specifically, this document registers the URI "/.well-known/acme- keys" at which all compliant service providers can publish their ACME client public keys. This mechanism allows the ACME server to identify the specific service provider, enhancing the trust relationship. Furthermore, it provides flexibility to service providers as they can use multiple keys and rotate them as often as they like, thereby improving security and control over their ACME client configurations while giving CA customers the ability to specifically authorize which service providers can request certificates on their behalf.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-vanbrouwershaven-acme-client-discovery-00"/>
+</reference>
