@@ -1,0 +1,16 @@
+<reference anchor="I-D.ietf-idr-bgp-fwd-rr" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-bgp-fwd-rr-01">
+  <front>
+    <title>BGP Route Reflector in Forwarding Path</title>
+    <author fullname="Kaliraj Vairavakkalai" initials="K." surname="Vairavakkalai">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Natrajan Venkataraman" initials="N." surname="Venkataraman">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <date year="2024" month="February" day="16"/>
+    <abstract>
+      <t>The procedures in BGP Route Reflection (RR) spec [RFC4456] primarily deal with scenarios where the RR is reflecting BGP routes with next hop unchanged. These procedures can sometimes result in traffic forwarding loops in deployments where the RR is in forwarding path, because of reflecting BGP routes with next hop set to self. This document specifies approaches to minimize possiblity of such traffic forwarding loops. One of those approaches updates path selection procedures specified in Section 9 of BGP RR. [RFC4456]</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-fwd-rr-01"/>
+</reference>
