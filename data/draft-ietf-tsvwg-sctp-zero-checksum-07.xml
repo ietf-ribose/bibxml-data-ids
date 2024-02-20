@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-tsvwg-sctp-zero-checksum" target="https://datatracker.ietf.org/doc/html/draft-ietf-tsvwg-sctp-zero-checksum-07">
+  <front>
+    <title>Zero Checksum for the Stream Control Transmission Protocol</title>
+    <author fullname="Michael Tüxen" initials="M." surname="Tüxen">
+      <organization>Münster University of Applied Sciences</organization>
+    </author>
+    <author fullname="Victor Boivie" initials="V." surname="Boivie">
+      <organization>Google</organization>
+    </author>
+    <author fullname="Florent Castelli" initials="F." surname="Castelli">
+      <organization>Google</organization>
+    </author>
+    <date year="2024" month="February" day="19"/>
+    <abstract>
+      <t>The Stream Control Transmission Protocol (SCTP) uses a 32-bit checksum in the common header of each packet to provide some level of data integrity. If another method used by SCTP provides already the same or a higher level of data integrity, computing this checksum does not provide any additional protection, but does consume computing resources. This document provides a simple extension to SCTP allowing to save these computing resources by using zero as the checksum in a backwards compatible way. It also defines how this feature can be used when SCTP packets are encapsulated in Datagram Transport Layer Security (DTLS) packets.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-sctp-zero-checksum-07"/>
+</reference>
