@@ -1,0 +1,19 @@
+<reference anchor="I-D.mattsson-tls-super-jumbo-record-limit" target="https://datatracker.ietf.org/doc/html/draft-mattsson-tls-super-jumbo-record-limit-01">
+  <front>
+    <title>Large Record Sizes for TLS and DTLS</title>
+    <author fullname="John Preuß Mattsson" initials="J. P." surname="Mattsson">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+      <organization>Siemens</organization>
+    </author>
+    <author fullname="Michael Tüxen" initials="M." surname="Tüxen">
+      <organization>Münster Univ. of Applied Sciences</organization>
+    </author>
+    <date year="2024" month="February" day="26"/>
+    <abstract>
+      <t>RFC 8449 defines a record size limit extension for TLS and DTLS allowing endpoints to negotiate a record size limit smaller than the protocol-defined maximum record size, which is around 2^14 bytes. This document specifies a TLS flag extension to be used in combination with the record size limit extension allowing endpoints to use a record size limit larger than the protocol-defined maximum record size, but not more than about 2^16 bytes.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-mattsson-tls-super-jumbo-record-limit-01"/>
+</reference>
