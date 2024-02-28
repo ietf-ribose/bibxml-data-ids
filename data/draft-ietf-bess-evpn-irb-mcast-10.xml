@@ -1,0 +1,28 @@
+<reference anchor="I-D.ietf-bess-evpn-irb-mcast" target="https://datatracker.ietf.org/doc/html/draft-ietf-bess-evpn-irb-mcast-10">
+  <front>
+    <title>EVPN Optimized Inter-Subnet Multicast (OISM) Forwarding</title>
+    <author fullname="Wen Lin" initials="W." surname="Lin">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="John Drake" initials="J." surname="Drake">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Eric C. Rosen" initials="E. C." surname="Rosen">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Ali Sajassi" initials="A." surname="Sajassi">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date year="2024" month="February" day="27"/>
+    <abstract>
+      <t>Ethernet VPN (EVPN) provides a service that allows a single Local Area Network (LAN), comprising a single IP subnet, to be divided into multiple "segments". Each segment may be located at a different site, and the segments are interconnected by an IP or MPLS backbone. Intra-subnet traffic (either unicast or multicast) always appears to the end users to be bridged, even when it is actually carried over the IP or MPLS backbone. When a single "tenant" owns multiple such LANs, EVPN also allows IP unicast traffic to be routed between those LANs. This document specifies new procedures that allow inter-subnet IP multicast traffic to be routed among the LANs of a given tenant, while still making intra-subnet IP multicast traffic appear to be bridged. These procedures can provide optimal routing of the inter- subnet multicast traffic, and do not require any such traffic to egress a given router and then ingress that same router. These procedures also accommodate IP multicast traffic that originates or is destined external to the EVPN domain.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-bess-evpn-irb-mcast-10"/>
+</reference>
