@@ -1,0 +1,16 @@
+<reference anchor="I-D.ietf-quic-reliable-stream-reset" target="https://datatracker.ietf.org/doc/html/draft-ietf-quic-reliable-stream-reset-06">
+  <front>
+    <title>QUIC Stream Resets with Partial Delivery</title>
+    <author fullname="Marten Seemann" initials="M." surname="Seemann">
+      <organization/>
+    </author>
+    <author fullname="Kazuho Oku" initials="K." surname="Oku">
+      <organization>Fastly</organization>
+    </author>
+    <date year="2024" month="February" day="28"/>
+    <abstract>
+      <t>QUIC defines a RESET_STREAM frame to abort sending on a stream. When a sender resets a stream, it also stops retransmitting STREAM frames for this stream in the event of packet loss. On the receiving side, there is no guarantee that any data sent on that stream is delivered. This document defines a new QUIC frame, the RESET_STREAM_AT frame, that allows resetting a stream, while guaranteeing delivery of stream data up to a certain byte offset.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-quic-reliable-stream-reset-06"/>
+</reference>
