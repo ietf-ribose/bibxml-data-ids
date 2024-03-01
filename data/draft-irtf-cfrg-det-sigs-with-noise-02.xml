@@ -1,0 +1,19 @@
+<reference anchor="I-D.irtf-cfrg-det-sigs-with-noise" target="https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-det-sigs-with-noise-02">
+  <front>
+    <title>Hedged ECDSA and EdDSA Signatures</title>
+    <author fullname="John Preuß Mattsson" initials="J. P." surname="Mattsson">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Erik Thormarker" initials="E." surname="Thormarker">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Sini Ruohomaa" initials="S." surname="Ruohomaa">
+      <organization>Ericsson</organization>
+    </author>
+    <date year="2024" month="March" day="1"/>
+    <abstract>
+      <t>Deterministic elliptic-curve signatures such as deterministic ECDSA and EdDSA have gained popularity over randomized ECDSA as their security does not depend on a source of high-quality randomness. Recent research, however, has found that implementations of these signature algorithms may be vulnerable to certain side-channel and fault injection attacks due to their deterministic nature. One countermeasure to such attacks is hedged signatures where the calculation of the per-message secret number includes both fresh randomness and the message. This document updates RFC 6979 and RFC 8032 to recommend constructions with additional randomness for deployments where side-channel attacks and fault injection attacks are a concern. The updates are invisible to the validator of the signature and compatible with existing ECDSA and EdDSA validators.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-irtf-cfrg-det-sigs-with-noise-02"/>
+</reference>
