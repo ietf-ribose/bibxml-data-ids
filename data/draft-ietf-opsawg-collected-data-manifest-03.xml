@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-opsawg-collected-data-manifest" target="https://datatracker.ietf.org/doc/html/draft-ietf-opsawg-collected-data-manifest-03">
+  <front>
+    <title>A Data Manifest for Contextualized Telemetry Data</title>
+    <author fullname="Benoît Claise" initials="B." surname="Claise">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Jean Quilbeuf" initials="J." surname="Quilbeuf">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Diego Lopez" initials="D." surname="Lopez">
+      <organization>Telefonica I+D</organization>
+    </author>
+    <author fullname="Ignacio Dominguez Martinez-Casanueva" initials="I. D." surname="Martinez-Casanueva">
+      <organization>Telefonica I+D</organization>
+    </author>
+    <author fullname="Thomas Graf" initials="T." surname="Graf">
+      <organization>Swisscom</organization>
+    </author>
+    <date year="2024" month="March" day="4"/>
+    <abstract>
+      <t>Network platforms use Model-driven Telemetry, and in particular YANG- Push, to continuously stream information, including both counters and state information. This document documents the metadata that ensure that the collected data can be interpreted correctly. This document specifies the Data Manifest, composed of two YANG data models (the Platform Manifest and the Data Collection Manifest). These YANG modules are specified at the network (i.e. controller) level to provide a model that encompasses several network platforms. The Data Manifest must be streamed and stored along with the data, up to the collection and analytics system in order to keep the collected data fully exploitable by the data scientists.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-opsawg-collected-data-manifest-03"/>
+</reference>

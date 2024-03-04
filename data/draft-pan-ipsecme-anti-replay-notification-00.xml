@@ -1,0 +1,19 @@
+<reference anchor="I-D.pan-ipsecme-anti-replay-notification" target="https://datatracker.ietf.org/doc/html/draft-pan-ipsecme-anti-replay-notification-00">
+  <front>
+    <title>IKEv2 Support for Anti-Replay Status Notification</title>
+    <author fullname="Wei Pan" initials="W." surname="Pan">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Qi He" initials="Q." surname="He">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Paul Wouters" initials="P." surname="Wouters">
+      <organization>Aiven</organization>
+    </author>
+    <date year="2024" month="March" day="3"/>
+    <abstract>
+      <t>RFC 4302 and RFC 4303 specify that, during Security Association (SA) establishment, IPsec implementation should notify the peer if it will not provide anti-replay protection, to avoid having the peer do unnecessary sequence number monitoring and SA setup. This document defines the ANTI_REPLAY_STATUS Notify Message Status Type Payload in the Internet Key Exchange Protocol Version 2 (IKEv2) to inform the peers of their own anti-replay status when creating the IPsec SAs, to fulfill the above requirement.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-pan-ipsecme-anti-replay-notification-00"/>
+</reference>
