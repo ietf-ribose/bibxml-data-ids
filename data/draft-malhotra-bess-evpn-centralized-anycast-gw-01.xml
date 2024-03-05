@@ -1,0 +1,25 @@
+<reference anchor="I-D.malhotra-bess-evpn-centralized-anycast-gw" target="https://datatracker.ietf.org/doc/html/draft-malhotra-bess-evpn-centralized-anycast-gw-01">
+  <front>
+    <title>Centralized Anycast Gateway in Ethernet VPN(EVPN)</title>
+    <author fullname="Neeraj Malhotra" initials="N." surname="Malhotra">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Krishnaswamy Ananthamurthy" initials="K." surname="Ananthamurthy">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Ali Sajassi" initials="A." surname="Sajassi">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Lukas Krattiger" initials="L." surname="Krattiger">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+      <organization>Nokia</organization>
+    </author>
+    <date year="2024" month="March" day="4"/>
+    <abstract>
+      <t>EVPN Integrated Routing and Bridging (IRB) fabrics provide a flexible and extensible method for Layer-2 and Layer-3 overlay network connectivity. [EVPN-IRB] defines operation for symmetric and asymmetric EVPN IRB using distributed anycast gateway architecture (DAG). In a DAG architecture, both bridging and first-hop routing functions for overlay subnets are located on leaf PEs, with first-hop routing provided by a distributed anycast gateway provisioned across the leaf PEs. This document describes an architecture and operation for EVPN Centralized Anycast Gateway (CAG), which allows the first- hop routing function for overlay subnets to be centralized on designated IRB GWs while the bridging function is still located on the leaf PEs. The documents also covers trade-offs of deploying a CAG as compared with DAG. It further describes operation for inter- op between CAG and DAG based EVPN-IRB network overlays.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-malhotra-bess-evpn-centralized-anycast-gw-01"/>
+</reference>

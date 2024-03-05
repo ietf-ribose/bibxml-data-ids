@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-dnsop-compact-denial-of-existence" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-compact-denial-of-existence-03">
+  <front>
+    <title>Compact Denial of Existence in DNSSEC</title>
+    <author fullname="Shumon Huque" initials="S." surname="Huque">
+      <organization>Salesforce</organization>
+    </author>
+    <author fullname="Christian Elmerot" initials="C." surname="Elmerot">
+      <organization>Cloudflare</organization>
+    </author>
+    <author fullname="Ólafur Guðmundsson" initials="O." surname="Guðmundsson">
+      <organization>Cloudflare</organization>
+    </author>
+    <date year="2024" month="March" day="4"/>
+    <abstract>
+      <t>This document describes a technique to generate a signed DNS response on demand for a non-existent name by claiming that the name exists but doesn't have any data for the queried record type. Such answers require only one minimal NSEC record, allow online signing servers to minimize signing operations and response sizes, and prevent zone content disclosure. Discussion Venues This note is to be removed before publishing as an RFC. Source for this draft and an issue tracker can be found at https://github.com/shuque/id-dnssec-compact-lies.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-compact-denial-of-existence-03"/>
+</reference>

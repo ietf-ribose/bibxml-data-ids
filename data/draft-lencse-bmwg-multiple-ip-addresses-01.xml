@@ -1,0 +1,16 @@
+<reference anchor="I-D.lencse-bmwg-multiple-ip-addresses" target="https://datatracker.ietf.org/doc/html/draft-lencse-bmwg-multiple-ip-addresses-01">
+  <front>
+    <title>Recommendations for using Multiple IP Addresses in Benchmarking Tests</title>
+    <author fullname="Gábor Lencse" initials="G." surname="Lencse">
+      <organization>Széchenyi István University</organization>
+    </author>
+    <author fullname="Keiichi Shima" initials="K." surname="Shima">
+      <organization>SoftBank Corp.</organization>
+    </author>
+    <date year="2024" month="March" day="4"/>
+    <abstract>
+      <t>RFC 2544 has defined a benchmarking methodology for network interconnect devices. Its test frame format contained fixed IP addresses and fixed port numbers. RFC 4814 introduced pseudorandom port numbers, but it kept the usage of a single source and destination IP address pair when a single destination network is used. This limitation may cause an issue when the device under test uses Receive-Side Scaling (RSS) mechanism in the packet processing flow. RSS has two types of implementations: the first one only includes the IP addresses, whereas the second one also includes the port numbers into the tuple used for hashing. Benchmarking tests that use a single IP address pair and RFC 4814 pseudorandom port numbers are biased against the first type of RSS implementation, because in this case, the traffic is not distributed among the processing elements. This document recommends the usage of pseudorandom IP addresses in a similar manner as RFC 4814 did it with the port numbers. If accepted, this document updates all affected RFCs, including RFC 2544, RFC 4814, RFC 5180, RFC 8219.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-lencse-bmwg-multiple-ip-addresses-01"/>
+</reference>
