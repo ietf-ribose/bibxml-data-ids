@@ -1,0 +1,19 @@
+<reference anchor="I-D.mattsson-cfrg-aes-gcm-sst" target="https://datatracker.ietf.org/doc/html/draft-mattsson-cfrg-aes-gcm-sst-03">
+  <front>
+    <title>Galois Counter Mode with Secure Short Tags (GCM-SST)</title>
+    <author fullname="Matt Campagna" initials="M." surname="Campagna">
+      <organization>Amazon Web Services</organization>
+    </author>
+    <author fullname="Alexander Maximov" initials="A." surname="Maximov">
+      <organization>Ericsson AB</organization>
+    </author>
+    <author fullname="John Preuß Mattsson" initials="J. P." surname="Mattsson">
+      <organization>Ericsson AB</organization>
+    </author>
+    <date year="2024" month="March" day="16"/>
+    <abstract>
+      <t>This document defines the Galois Counter Mode with Secure Short Tags (GCM-SST) Authenticated Encryption with Associated Data (AEAD) algorithm. GCM-SST can be used with any keystream generator, not just a block cipher. The main differences compared to GCM [GCM] is that GCM-SST uses an additional subkey Q, that fresh subkeys H and Q are derived for each nonce, and that the POLYVAL function from AES- GCM-SIV is used instead of GHASH. This enables short tags with forgery probabilities close to ideal. This document also registers several instances of Advanced Encryption Standard (AES) with Galois Counter Mode with Secure Short Tags (AES-GCM-SST). This document is the product of the Crypto Forum Research Group.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-mattsson-cfrg-aes-gcm-sst-03"/>
+</reference>
