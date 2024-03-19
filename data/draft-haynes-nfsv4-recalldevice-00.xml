@@ -1,0 +1,13 @@
+<reference anchor="I-D.haynes-nfsv4-recalldevice" target="https://datatracker.ietf.org/doc/html/draft-haynes-nfsv4-recalldevice-00">
+  <front>
+    <title>Add CB_LAYOUTRECLL_DEVICE to NFSv4.2</title>
+    <author fullname="Thomas Haynes" initials="T." surname="Haynes">
+      <organization>Hammerspace</organization>
+    </author>
+    <date year="2024" month="March" day="18"/>
+    <abstract>
+      <t>The Parallel Network File System (pNFS) allows for the metadata server to use CB_LAYOUTRECALL to recall a layout from a client by file id or file system id or all. It also allows the server to use CB_NOTIFY_DEVICEID to delete a devicid. It does not provide a mechanism for the metadata server to recall all layouts that have a data file on a specific deviceid. This document presents an extension to RFC8881 to allow the server recall layouts from clients based on deviceid.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-haynes-nfsv4-recalldevice-00"/>
+</reference>
