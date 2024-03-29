@@ -1,0 +1,34 @@
+<reference anchor="I-D.chen-bier-te-frr" target="https://datatracker.ietf.org/doc/html/draft-chen-bier-te-frr-07">
+  <front>
+    <title>BIER-TE Fast ReRoute</title>
+    <author fullname="Huaimo Chen" initials="H." surname="Chen">
+      <organization>Futurewei</organization>
+    </author>
+    <author fullname="Mike McBride" initials="M." surname="McBride">
+      <organization>Futurewei</organization>
+    </author>
+    <author fullname="Yisong Liu" initials="Y." surname="Liu">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Aijun Wang" initials="A." surname="Wang">
+      <organization>China Telecom</organization>
+    </author>
+    <author fullname="Gyan Mishra" initials="G. S." surname="Mishra">
+      <organization>Verizon Inc.</organization>
+    </author>
+    <author fullname="Yanhe Fan" initials="Y." surname="Fan">
+      <organization>Casa Systems</organization>
+    </author>
+    <author fullname="Lei Liu" initials="L." surname="Liu">
+      <organization>Fujitsu</organization>
+    </author>
+    <author fullname="Xufeng Liu" initials="X." surname="Liu">
+      <organization>Alef Edge</organization>
+    </author>
+    <date year="2024" month="March" day="28"/>
+    <abstract>
+      <t>This document describes a mechanism for fast re-route (FRR) protection against the failure of a transit node or link on an explicit point to multipoint (P2MP) multicast path/tree in a "Bit Index Explicit Replication" (BIER) Traffic Engineering (TE) domain. It does not have any per-path state in the core. For a multicast packet to traverse a transit node along an explicit P2MP path, when the node fails, its upstream hop node as a PLR reroutes the packet around the failed node along the P2MP path once it detects the failure.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-chen-bier-te-frr-07"/>
+</reference>
