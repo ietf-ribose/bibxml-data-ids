@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-lamps-ocsp-nonce-update" target="https://datatracker.ietf.org/doc/html/draft-ietf-lamps-ocsp-nonce-update-05">
+  <front>
+    <title>Online Certificate Status Protocol (OCSP) Nonce Extension</title>
+    <author fullname="himanshu sharma" initials="H." surname="sharma">
+      <organization>Netskope Inc</organization>
+    </author>
+    <date year="2024" month="April" day="2"/>
+    <abstract>
+      <t>RFC 8954 imposed the size constraints on the optional Nonce extension for the Online Certificate Status Protocol (OCSP). OCSP is used for checking the status of a certificate, and the Nonce extension is used to cryptographically bind an OCSP response message to a particular OCSP request message. Some environments use cryptographic algorithms that generate a Nonce value that is longer than 32 octets. This document updates the maximum allowed length of Nonce to 128 octets. This document also modifies Nonce section to clearly define the encoding format and values distinctively for an easier implementation and understanding. This document obsoletes RFC 8954 and provides updated ASN.1 modules for OCSP, updates RFC 6960.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lamps-ocsp-nonce-update-05"/>
+</reference>
