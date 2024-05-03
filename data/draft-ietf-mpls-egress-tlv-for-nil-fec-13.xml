@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-mpls-egress-tlv-for-nil-fec" target="https://datatracker.ietf.org/doc/html/draft-ietf-mpls-egress-tlv-for-nil-fec-13">
+  <front>
+    <title>Egress Validation in Label Switched Path Ping and Traceroute Mechanisms</title>
+    <author fullname="Deepti N. Rathi" initials="D. N." surname="Rathi">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Shraddha Hegde" initials="S." surname="Hegde">
+      <organization>Juniper Networks Inc.</organization>
+    </author>
+    <author fullname="Kapil Arora" initials="K." surname="Arora">
+      <organization>Individual Contributor</organization>
+    </author>
+    <author fullname="Zafar Ali" initials="Z." surname="Ali">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author fullname="Nagendra Kumar Nainar" initials="N. K." surname="Nainar">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <date year="2024" month="May" day="3"/>
+    <abstract>
+      <t>The MPLS ping and traceroute mechanism as described in RFC 8029 and related extensions for Segment Routing(SR) as defined in RFC 8287 is very useful to validate the control plane and data plane synchronization. In some environments, only some intermediate or transit nodes may have been upgraded to support these validation procedures. A simple MPLS ping and traceroute mechanism allows traversing any path without validating the control plane state. RFC 8029 supports this mechanism with Nil Forwarding Equivalence Class (FEC). The procedures described in RFC 8029 mostly apply when the Nil FEC is used as an intermediate FEC in the label stack. When all labels in the label stack are represented using Nil FEC, it poses some challenges. This document introduces a new Type-Length-Value (TLV) as an extension to exisiting Nil FEC. It describes MPLS ping and traceroute procedures using Nil FEC with this extension to overcome these challenges.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-egress-tlv-for-nil-fec-13"/>
+</reference>
