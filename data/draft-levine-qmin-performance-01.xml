@@ -1,0 +1,13 @@
+<reference anchor="I-D.levine-qmin-performance" target="https://datatracker.ietf.org/doc/html/draft-levine-qmin-performance-01">
+  <front>
+    <title>Mitigating QNAME minimization performance problems</title>
+    <author fullname="John R. Levine" initials="J. R." surname="Levine">
+      <organization>Standcore LLC</organization>
+    </author>
+    <date year="2024" month="May" day="5"/>
+    <abstract>
+      <t>QNAME minimization improves DNS privacy by truncating query names sent to authoritative name servers. While it works well when there is a zone cut between each label in a name, when a zone includes more than one level of labels, it can cause multiple redundant queries to the same server, significantly increasing the load on that server without additional privacy benefits. This document describes some situations where minimization causes load problems and potential ways to fix the problem,</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-levine-qmin-performance-01"/>
+</reference>

@@ -1,0 +1,16 @@
+<reference anchor="I-D.hinden-v6ops-dns" target="https://datatracker.ietf.org/doc/html/draft-hinden-v6ops-dns-00">
+  <front>
+    <title>DNS over IPv6 Best Practices</title>
+    <author fullname="Bob Hinden" initials="R. M." surname="Hinden">
+      <organization>Check Point Software</organization>
+    </author>
+    <author fullname="Suresh Krishnan" initials="S." surname="Krishnan">
+      <organization>Cisco</organization>
+    </author>
+    <date year="2024" month="May" day="6"/>
+    <abstract>
+      <t>This document describes an approach to how Domain Name Protocol (DNS) should be carried over IPv6. There have been some operational issues identified in carrying DNS packets over IPv6 and this draft proposes solutions to address them. A summary of what is proposed is to limit IPv6 DNS responses over UDP to be 1280 octets and use TCP or QUIC for anything larger.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-hinden-v6ops-dns-00"/>
+</reference>
