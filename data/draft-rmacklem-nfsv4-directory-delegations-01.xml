@@ -1,0 +1,13 @@
+<reference anchor="I-D.rmacklem-nfsv4-directory-delegations" target="https://datatracker.ietf.org/doc/html/draft-rmacklem-nfsv4-directory-delegations-01">
+  <front>
+    <title>Directory Delegation clarification for Network File System Version 4, Minor Version 2</title>
+    <author fullname="Rick Macklem" initials="R." surname="Macklem">
+      <organization>FreeBSD Project</organization>
+    </author>
+    <date year="2024" month="May" day="13"/>
+    <abstract>
+      <t>This document describes the addition of bit flags to be used in the request by a client for the GET_DIR_DELEGATION operation to allow the client to specify detailed behavior of CB_NOTIFYs the server will perform on the client. Early implementation experience with directory delegations has demonstrated that clients may not need the full information specified in [RFC8881] for CB_NOTIFYs and may not require the recall of the directory delegation to be done synchronously. Limiting the CB_NOTIFY's requirements can simplify server implementation of directory delegations. These additional bit flags allow the client to request desired behavior. The server's reply will then specify what behavior the client can expect.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-rmacklem-nfsv4-directory-delegations-01"/>
+</reference>
