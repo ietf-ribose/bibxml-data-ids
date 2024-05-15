@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-rtgwg-multisegment-sdwan" target="https://datatracker.ietf.org/doc/html/draft-ietf-rtgwg-multisegment-sdwan-00">
+  <front>
+    <title>Multi-segment SD-WAN via Cloud DCs</title>
+    <author fullname="Kausik Majumdar" initials="K." surname="Majumdar">
+      <organization>Microsoft</organization>
+    </author>
+    <author fullname="Linda Dunbar" initials="L." surname="Dunbar">
+      <organization/>
+    </author>
+    <author fullname="Venkit Kasiviswanathan" initials="V." surname="Kasiviswanathan">
+      <organization>Arista</organization>
+    </author>
+    <author fullname="Ashok Ramchandra" initials="A." surname="Ramchandra">
+      <organization>Microsoft</organization>
+    </author>
+    <author fullname="Aseem Choudhary" initials="A." surname="Choudhary">
+      <organization>Aviatrix</organization>
+    </author>
+    <date year="2024" month="May" day="15"/>
+    <abstract>
+      <t>This document describes a method for SD-WAN CPEs using GENEVE Encapsulation (RFC8926) to encapsulate the IPsec encrypted packets and send them to their closest Cloud GWs, who can steer the IPsec encrypted payload through the Cloud Backbone without decryption to the egress Cloud GWs which then forward the original IPsec encrypted payload to the destination CPEs. This method is for Cloud Backbone to connect multiple segments of SD-WAN without the Cloud GWs decrypting and re- encrypting the payloads.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-rtgwg-multisegment-sdwan-00"/>
+</reference>
