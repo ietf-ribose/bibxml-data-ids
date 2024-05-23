@@ -1,0 +1,13 @@
+<reference anchor="I-D.pwouters-ds-uplifting" target="https://datatracker.ietf.org/doc/html/draft-pwouters-ds-uplifting-00">
+  <front>
+    <title>Updates to the The Delegation Server (DS) Record</title>
+    <author fullname="Paul Wouters" initials="P." surname="Wouters">
+      <organization>Aiven</organization>
+    </author>
+    <date year="2024" month="May" day="22"/>
+    <abstract>
+      <t>This document updates the DNSSEC Delegation Signer (DS) Resource Record (RR) Type Digest Algorithms IANA Registry to carry two new non-digest algorithm entries. The first new type value creates a generic method to embed a Parental RRtype within the DS record. The second new type value creates an Alias DS record to point to the actual DS record published in a different DNSSEC signed zone under DNS Provider change control. The DNSSEC Delegation Signer (DS) Resource Record (RR) Type Digest Algorithms Registry is renamed to the DNSSEC Delegation Signal Registry. This document updates [many things which we should figure out].</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-pwouters-ds-uplifting-00"/>
+</reference>
