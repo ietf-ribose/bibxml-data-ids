@@ -1,0 +1,16 @@
+<reference anchor="I-D.klassert-ipsecme-wespv2" target="https://datatracker.ietf.org/doc/html/draft-klassert-ipsecme-wespv2-00">
+  <front>
+    <title>Wrapped ESP Version 2</title>
+    <author fullname="Steffen Klassert" initials="S." surname="Klassert">
+      <organization>secunet Security Networks AG</organization>
+    </author>
+    <author fullname="Antony Antony" initials="A." surname="Antony">
+      <organization>secunet Security Networks AG</organization>
+    </author>
+    <date year="2024" month="May" day="28"/>
+    <abstract>
+      <t>This document describes the Wrapped Encapsulating Security Payload v2 (WESPv2) protocol, which builds on the Encapsulating Security Payload (ESP) [RFC4303]. It is designed to overcome limitations of the ESP protocol to expose flow information to the network in a transparent way and to align the cipher text to the needs of the sender and receiver. To do so, it defines an optional Flow Identifier where flow specific information can be stored. It also defines a Crypt Offset to allow intermediate devices to read some header bytes at the beginning of the inner packet. In particular, this preserves the original use-case of WESP [RFC5840]. Optional padding can be added for cipher text alignment.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-klassert-ipsecme-wespv2-00"/>
+</reference>
