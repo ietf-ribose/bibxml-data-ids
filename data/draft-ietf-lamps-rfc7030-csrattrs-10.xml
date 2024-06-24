@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-lamps-rfc7030-csrattrs" target="https://datatracker.ietf.org/doc/html/draft-ietf-lamps-rfc7030-csrattrs-10">
+  <front>
+    <title>Clarification and enhancement of RFC7030 CSR Attributes definition</title>
+    <author fullname="Michael Richardson" initials="M." surname="Richardson">
+      <organization>Sandelman Software Works</organization>
+    </author>
+    <author fullname="Owen Friel" initials="O." surname="Friel">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="David von Oheimb" initials="D." surname="von Oheimb">
+      <organization>Siemens</organization>
+    </author>
+    <author fullname="Dan Harkins" initials="D." surname="Harkins">
+      <organization>The Industrial Lounge</organization>
+    </author>
+    <date year="2024" month="June" day="23"/>
+    <abstract>
+      <t>The Enrollment over Secure Transport (EST, RFC7030) is ambiguous in its specification of the CSR Attributes Response. This has resulted in implementation challenges and implementor confusion. This document updates RFC7030 (EST) and clarifies how the CSR Attributes Response can be used by an EST server to specify both CSR attribute OIDs and also CSR attribute values, in particular X.509 extension values, that the server expects the client to include in subsequent CSR request. Moreover, it provides new convenient and straightforward approach: using a template for CSR contents that may be partially filled in by the server. This also allows specifying a subject Distinguished Name (DN).</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lamps-rfc7030-csrattrs-10"/>
+</reference>
