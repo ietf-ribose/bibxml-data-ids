@@ -1,0 +1,28 @@
+<reference anchor="I-D.wang-sidrops-fcbgp-protocol" target="https://datatracker.ietf.org/doc/html/draft-wang-sidrops-fcbgp-protocol-00">
+  <front>
+    <title>FC-BGP Protocol Specification</title>
+    <author fullname="Ke Xu" initials="K." surname="Xu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Xiaoliang Wang" initials="X." surname="Wang">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Zhuotao liu" initials="Z." surname="liu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Li Qi" initials="L." surname="Qi">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Jianping Wu" initials="J." surname="Wu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Yangfei Guo" initials="Y." surname="Guo">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <date year="2024" month="June" day="30"/>
+    <abstract>
+      <t>This document defines an extension, Forwarding Commitment BGP (FC- BGP), to the Border Gateway Protocol (BGP). FC-BGP provides security for the path of Autonomous Systems (ASs) through which a BGP UPDATE message passes. Forwarding Commitment (FC) is a cryptographically signed segment to certify an AS's routing intent on its directly connected hops. Based on FC, FC-BGP aims to build a secure inter- domain system that can simultaneously authenticate the AS_PATH attribute in the BGP UPDATE message. The extension is backward compatible, which means a router that supports the extension can interoperate with a router that doesn't support the extension.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-wang-sidrops-fcbgp-protocol-00"/>
+</reference>
