@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-dnsop-zoneversion" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-zoneversion-09">
+  <front>
+    <title>The DNS Zone Version (ZONEVERSION) Option</title>
+    <author fullname="Hugo Salgado" initials="H." surname="Salgado">
+      <organization>NIC Chile</organization>
+    </author>
+    <author fullname="Mauricio Vergara Ereche" initials="M. V." surname="Ereche">
+      <organization>DigitalOcean</organization>
+    </author>
+    <author fullname="Duane Wessels" initials="D." surname="Wessels">
+      <organization>Verisign</organization>
+    </author>
+    <date year="2024" month="July" day="1"/>
+    <abstract>
+      <t>The DNS ZONEVERSION option is a way for DNS clients to request, and for authoritative DNS servers to provide, information regarding the version of the zone from which a response is generated. The Serial field from the Start Of Authority (SOA) resource record is a good example of a zone's version, and the only one defined by this specification. Additional version types may be defined by future specifications. Including zone version data in a response simplifies and improves the quality of debugging and diagnostics since the version and the DNS answer are provided atomically. This can be especially useful for zones and DNS providers that leverage IP anycast or multiple backend systems. It functions similarly to the DNS Name Server Identifier (NSID) option [RFC5001].</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-zoneversion-09"/>
+</reference>
