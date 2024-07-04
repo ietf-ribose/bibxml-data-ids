@@ -1,0 +1,19 @@
+<reference anchor="I-D.gong-spring-ping-path-consistency-over-srv6" target="https://datatracker.ietf.org/doc/html/draft-gong-spring-ping-path-consistency-over-srv6-02">
+  <front>
+    <title>Ping Path Consistency over SRv6</title>
+    <author fullname="Liyan Gong" initials="L." surname="Gong">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Changwang Lin" initials="C." surname="Lin">
+      <organization>New H3C Technologies</organization>
+    </author>
+    <author fullname="Yuanxiang Qiu" initials="Y." surname="Qiu">
+      <organization>New H3C Technologies</organization>
+    </author>
+    <date year="2024" month="July" day="4"/>
+    <abstract>
+      <t>In the SRv6 network, the headend node could use Ping (ICMPv6 Echo) to detect the connectivity of the SRv6 path to implement path switching. When a headend use Ping to detect the segment list/CPath of SRv6 Policy, the forward path of ICMPv6 Echo Request message is indicated by segment list, the reverse path of ICMPv6 Echo Reply message is via the shortest path from the destination node to the source as determined by routing. The forward path and reverse path of ICMPv6 message are likely inconsistent going through different intermediate nodes or links. This document describes how to ensure the consistency of the forward path and the reverse path when using ICMPv6 Echo messages to detect SRv6 Policy.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-gong-spring-ping-path-consistency-over-srv6-02"/>
+</reference>
