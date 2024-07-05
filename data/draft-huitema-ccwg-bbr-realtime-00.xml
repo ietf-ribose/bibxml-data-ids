@@ -1,0 +1,19 @@
+<reference anchor="I-D.huitema-ccwg-bbr-realtime" target="https://datatracker.ietf.org/doc/html/draft-huitema-ccwg-bbr-realtime-00">
+  <front>
+    <title>BBR Improvements for Real-Time connections</title>
+    <author fullname="Christian Huitema" initials="C." surname="Huitema">
+      <organization>Private Octopus Inc.</organization>
+    </author>
+    <author fullname="Suhas Nandakumar" initials="S." surname="Nandakumar">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Cullen Fluffy Jennings" initials="C. F." surname="Jennings">
+      <organization>Cisco</organization>
+    </author>
+    <date year="2024" month="July" day="4"/>
+    <abstract>
+      <t>We are studying the transmission of real-time Media over QUIC. There are two priorities: maintain low transmission delays by avoiding building queues, and use the available network capacity to provide the best possible experience. We found through experiments that while the BBR algorithm generally allow us to correctly and timely assess network capacity, we still see "glitches" in specific conditions, in particular when using wireless networks. We analyze these issues and propose small changes in the BBR algorithm that could improve the quality of experience delivered by the real-time media application.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-huitema-ccwg-bbr-realtime-00"/>
+</reference>
