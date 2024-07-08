@@ -1,0 +1,25 @@
+<reference anchor="I-D.li-sidrops-rpki-moasgroup" target="https://datatracker.ietf.org/doc/html/draft-li-sidrops-rpki-moasgroup-00">
+  <front>
+    <title>A Profile for Signed Group of Multiple-Origin Autonomous Systems for Use in the Resource Public Key Infrastructure (RPKI)</title>
+    <author fullname="Qi Li" initials="Q." surname="Li">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author fullname="Ke Xu" initials="K." surname="Xu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Zhuotao liu" initials="Z." surname="liu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Li Qi" initials="L." surname="Qi">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Jianping Wu" initials="J." surname="Wu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date year="2024" month="July" day="7"/>
+    <abstract>
+      <t>This document defines a "Signed MOAS Group", a Cryptographic Message Syntax (CMS) protected content type for use with the Resource Public Key Infrastructure (RPKI) to authenticate the collective announcement of IP prefixes by Multiple Origin Autonomous System (MOAS). The Signed MOAS Group includes two parts: an IP prefix and a list of Autonomous Systems (ASes) authorized to announce the prefix. At least one of these ASes SHOULD be authorized to announce the prefix by the prefix owner through a Route Origin Authorization (ROA). The validation of a Signed MOAS Group confirms that the authorized ASes and other listed ASes have collectively agreed to announce the prefix, ensuring that the announcement is legitimate, accurate, and consensually authorized.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-sidrops-rpki-moasgroup-00"/>
+</reference>
