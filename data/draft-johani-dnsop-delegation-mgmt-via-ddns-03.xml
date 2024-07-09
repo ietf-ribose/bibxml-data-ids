@@ -1,0 +1,13 @@
+<reference anchor="I-D.johani-dnsop-delegation-mgmt-via-ddns" target="https://datatracker.ietf.org/doc/html/draft-johani-dnsop-delegation-mgmt-via-ddns-03">
+  <front>
+    <title>Automating DNS Delegation Management via DDNS</title>
+    <author fullname="Johan Stenstam" initials="J." surname="Stenstam">
+      <organization>The Swedish Internet Foundation</organization>
+    </author>
+    <date year="2024" month="July" day="8"/>
+    <abstract>
+      <t>Delegation information (i.e. the NS RRset, possible glue, possible DS records) should always be kept in sync between child zone and parent zone. However, in practice that is not always the case. When the delegation information is not in sync the child zone is usually working fine, but without the amount of redundancy that the zone owner likely expects to have. Hence, should any further problems ensue it could have catastropic consequences. The DNS name space has lived with this problem for decades and it never goes away. Or, rather, it will never go away until a fully automated mechanism for how to keep the information in sync automatically is deployed. This document proposes such a mechanism. TO BE REMOVED: This document is being collaborated on in Github at: https://github.com/johanix/draft-johani-dnsop-delegation-mgmt-via- ddns (https://github.com/johanix/draft-johani-dnsop-delegation-mgmt- via-ddns). The most recent working version of the document, open issues, etc, should all be available there. The author (gratefully) accept pull requests.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-johani-dnsop-delegation-mgmt-via-ddns-03"/>
+</reference>

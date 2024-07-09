@@ -1,0 +1,19 @@
+<reference anchor="I-D.barnes-mls-replace" target="https://datatracker.ietf.org/doc/html/draft-barnes-mls-replace-00">
+  <front>
+    <title>The MLS Replace Proposal</title>
+    <author fullname="Richard Barnes" initials="R." surname="Barnes">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Marta Mularczyk" initials="M." surname="Mularczyk">
+      <organization>Amazon</organization>
+    </author>
+    <author fullname="Mark Xue" initials="M." surname="Xue">
+      <organization>Germ Network, Inc.</organization>
+    </author>
+    <date year="2024" month="July" day="8"/>
+    <abstract>
+      <t>Post-compromise security is one of the core security guarantees provided by the Messaging Layer Security (MLS) protocol. MLS provides post-compromise security for a member when the member's leaf node in the MLS ratchet tree is updated, either by that member sending a Commit message, or by an Update proposal from that member being committed. Unfortunately, Update proposals can only be committed in the epoch in which they are sent, leading to missed opportunities for post-compromise security. This document defines a Replace proposal that allows the fresh leaf node in an Update proposal to be applied in a future epoch, thus enabling post- compromise security for the affected member even if their Update proposal is received too late to be committed.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-barnes-mls-replace-00"/>
+</reference>

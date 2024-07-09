@@ -1,0 +1,16 @@
+<reference anchor="I-D.vasilis-bbs-per-verifier-linkability" target="https://datatracker.ietf.org/doc/html/draft-vasilis-bbs-per-verifier-linkability-01">
+  <front>
+    <title>BBS per Verifier Linkability</title>
+    <author fullname="Vasilis Kalos" initials="V." surname="Kalos">
+      <organization>MATTR</organization>
+    </author>
+    <author fullname="Greg M. Bernstein" initials="G. M." surname="Bernstein">
+      <organization>Grotto Networking</organization>
+    </author>
+    <date year="2024" month="July" day="8"/>
+    <abstract>
+      <t>The BBS Signatures scheme defined in [I-D.irtf-cfrg-bbs-signatures], describes a multi-message digital signature, that supports selectively disclosing the messages through unlinkable presentations, built using zero-knowledge proofs. Each BBS proof reveals no information other than the signed messages that the Prover chooses to disclose in that specific instance. As such, the Verifier (i.e., the recipient) of the BBS proof, may not be able to track those presentations over time. Although in many applications this is desirable, there are use cases where that require the Verifier be able to track the BBS proofs they receive from the same Prover. Examples include monitoring the use of access credentials for abnormal activity, monetization etc.. This document presents the use of pseudonyms with BBS proofs. A pseudonym, is a value that will remain constant each time a Prover presents a BBS proof to the same Verifier, but will be different (and unlinkable), when the Prover interacts with a different Verifier. This provides a way for a recipient (Verifier) to track the presentations intended for them, while also hindering them from tracking the Prover's interactions with other Verifiers.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-vasilis-bbs-per-verifier-linkability-01"/>
+</reference>
