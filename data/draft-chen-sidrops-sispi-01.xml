@@ -1,0 +1,22 @@
+<reference anchor="I-D.chen-sidrops-sispi" target="https://datatracker.ietf.org/doc/html/draft-chen-sidrops-sispi-01">
+  <front>
+    <title>A Profile of Signed SAVNET-Peering Information (SiSPI) Object for Deploying Inter-domain SAVNET</title>
+    <author fullname="Li Chen" initials="L." surname="Chen">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author fullname="Libin Liu" initials="L." surname="Liu">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author fullname="Dan Li" initials="D." surname="Li">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Lancheng Qin" initials="L." surname="Qin">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <date year="2024" month="July" day="21"/>
+    <abstract>
+      <t>This document defines a "Signed SAVNET-Peering Information" (SiSPI) object, a Cryptographic Message Syntax (CMS) protected content type included in the Resource Public Key Infrastructure (RPKI). A SiSPI object is a digitally signed object which carries the list of Autonomous Systems (ASes) deploying inter-domain SAVNET. When validated, the eContent of a SiSPI object confirms that the holder of the listed ASN produces the object and the AS has deployed inter- domain SAV and is ready to establish neighbor relationship for preventing source address spoofing.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-chen-sidrops-sispi-01"/>
+</reference>
