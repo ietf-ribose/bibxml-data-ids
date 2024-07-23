@@ -1,0 +1,16 @@
+<reference anchor="I-D.ietf-dnsop-svcb-dane" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-svcb-dane-04">
+  <front>
+    <title>Using DNSSEC Authentication of Named Entities (DANE) with DNS Service Bindings (SVCB) and QUIC</title>
+    <author fullname="Benjamin M. Schwartz" initials="B. M." surname="Schwartz">
+      <organization>Meta Platforms, Inc.</organization>
+    </author>
+    <author fullname="Robert Evans" initials="R." surname="Evans">
+      <organization>Google LLC</organization>
+    </author>
+    <date year="2024" month="July" day="22"/>
+    <abstract>
+      <t>Service Binding (SVCB) records introduce a new form of name indirection in DNS. They also convey information about the endpoint's supported protocols, such as whether QUIC transport is available. This document specifies how DNS-Based Authentication of Named Entities (DANE) interacts with Service Bindings to secure connections, including use of port numbers and transport protocols discovered via SVCB queries. The "_quic" transport name label is introduced to distinguish TLSA records for DTLS and QUIC.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-svcb-dane-04"/>
+</reference>
