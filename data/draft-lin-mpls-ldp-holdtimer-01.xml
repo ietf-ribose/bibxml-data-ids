@@ -1,0 +1,16 @@
+<reference anchor="I-D.lin-mpls-ldp-holdtimer" target="https://datatracker.ietf.org/doc/html/draft-lin-mpls-ldp-holdtimer-01">
+  <front>
+    <title>Label Distribution Protocol (LDP) Send Hold Timer</title>
+    <author fullname="Changwang Lin" initials="C." surname="Lin">
+      <organization>New H3C Technologies</organization>
+    </author>
+    <author fullname="黄智博" initials="" surname="黄智博">
+      <organization>CRC Corporation</organization>
+    </author>
+    <date year="2024" month="August" day="1"/>
+    <abstract>
+      <t>This document defines the SendHoldTimer and SendHoldTimer_Expires event in the LDP protocol. The implementation of SendHoldTimer helps address situations where the local system detects that the remote system has not processed LDP messages but has not terminated the LDP session. The document specifies that when the SendHoldTimer expires, the local system should close the LDP session connection, rather than solely relying on the remote system for session termination. This document updates RFC5036.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-lin-mpls-ldp-holdtimer-01"/>
+</reference>
