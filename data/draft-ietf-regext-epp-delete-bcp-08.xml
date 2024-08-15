@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-regext-epp-delete-bcp" target="https://datatracker.ietf.org/doc/html/draft-ietf-regext-epp-delete-bcp-08">
+  <front>
+    <title>Best Practices for Deletion of Domain and Host Objects in the Extensible Provisioning Protocol (EPP)</title>
+    <author fullname="Scott Hollenbeck" initials="S." surname="Hollenbeck">
+      <organization>Verisign Labs</organization>
+    </author>
+    <author fullname="William Carroll" initials="W." surname="Carroll">
+      <organization>Verisign</organization>
+    </author>
+    <author fullname="Gautam Akiwate" initials="G." surname="Akiwate">
+      <organization>Stanford University</organization>
+    </author>
+    <date year="2024" month="August" day="15"/>
+    <abstract>
+      <t>The Extensible Provisioning Protocol (EPP) includes commands for clients to delete domain and host objects, both of which are used to publish information in the Domain Name System (DNS). EPP also includes guidance for deletions that is intended to avoid DNS resolution disruptions and maintain data consistency. However, operational relationships between objects can make that guidance difficult to implement. Some EPP clients have developed operational practices to delete those objects that have unintended impacts on DNS resolution and security. This document describes best current practices and proposes new potential practices to delete domain and host objects that reduce the risk of DNS resolution failure and maintain client-server data consistency.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-regext-epp-delete-bcp-08"/>
+</reference>
