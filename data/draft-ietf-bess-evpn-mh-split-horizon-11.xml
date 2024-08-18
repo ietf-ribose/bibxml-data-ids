@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-bess-evpn-mh-split-horizon" target="https://datatracker.ietf.org/doc/html/draft-ietf-bess-evpn-mh-split-horizon-11">
+  <front>
+    <title>BGP EVPN Multi-Homing Extensions for Split Horizon Filtering</title>
+    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Kiran Nagaraj" initials="K." surname="Nagaraj">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Wen Lin" initials="W." surname="Lin">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Ali Sajassi" initials="A." surname="Sajassi">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <date year="2024" month="August" day="17"/>
+    <abstract>
+      <t>Ethernet Virtual Private Network (EVPN) is commonly used with Network Virtualization Overlay (NVO) tunnels, as well as MPLS and Segment Routing tunnels. The multi-homing procedures in EVPN may vary based on the type of tunnel used within the EVPN Broadcast Domain. Specifically, there are two multi-homing Split Horizon procedures designed to prevent looped frames on multi-homed Customer Edge (CE) devices: the ESI Label-based procedure and the Local Bias procedure. The ESI Label-based Split Horizon is applied to MPLS-based tunnels, such as MPLSoUDP, while the Local Bias procedure is used for other tunnels, such as VXLAN. Current specifications do not allow operators to choose which Split Horizon procedure to use for tunnel encapsulations that support both methods. Examples of tunnels that may support both procedures include MPLSoGRE, MPLSoUDP, GENEVE, and SRv6. This document updates the EVPN multi-homing procedures described in RFC 8365 and RFC 7432, enabling operators to select the Split Horizon procedure that meets their specific requirements.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-bess-evpn-mh-split-horizon-11"/>
+</reference>
