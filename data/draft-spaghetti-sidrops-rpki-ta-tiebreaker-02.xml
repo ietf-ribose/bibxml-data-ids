@@ -1,0 +1,19 @@
+<reference anchor="I-D.spaghetti-sidrops-rpki-ta-tiebreaker" target="https://datatracker.ietf.org/doc/html/draft-spaghetti-sidrops-rpki-ta-tiebreaker-02">
+  <front>
+    <title>Tiebreaking Resource Public Key Infrastructure (RPKI) Trust Anchors</title>
+    <author fullname="Job Snijders" initials="J." surname="Snijders">
+      <organization>Fastly</organization>
+    </author>
+    <author fullname="Theo Buehler" initials="T." surname="Buehler">
+      <organization>OpenBSD</organization>
+    </author>
+    <author fullname="Ties de Kock" initials="T." surname="de Kock">
+      <organization>RIPE NCC</organization>
+    </author>
+    <date year="2024" month="September" day="4"/>
+    <abstract>
+      <t>A Trust Anchor (TA) in the RPKI is represented by a self-signed X.509 Certification Authority (CA) certificate. Over time, Relying Parties (RP) may have acquired multiple different issuances of valid TA certificates from the same TA operator. This document proposes a tiebreaking scheme to be used by RPs to select one TA certificate for certification path validation. This document updates RFC 8630.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-spaghetti-sidrops-rpki-ta-tiebreaker-02"/>
+</reference>

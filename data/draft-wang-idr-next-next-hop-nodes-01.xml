@@ -1,0 +1,19 @@
+<reference anchor="I-D.wang-idr-next-next-hop-nodes" target="https://datatracker.ietf.org/doc/html/draft-wang-idr-next-next-hop-nodes-01">
+  <front>
+    <title>BGP Next-next Hop Nodes</title>
+    <author fullname="Kevin Wang" initials="K." surname="Wang">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Jeffrey Haas" initials="J." surname="Haas">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Changwang Lin" initials="C." surname="Lin">
+      <organization>New H3C Technologies</organization>
+    </author>
+    <date year="2024" month="September" day="4"/>
+    <abstract>
+      <t>BGP speakers learn their next hop addresses for NLRI in RFC-4271 in the NEXT_HOP field and in RFC-4760 in the "Network Address of Next Hop" field. Under certain circumstances, it might be desirable for a BGP speaker to know both the next hops and the next-next hops of NLRI to make optimal forwarding decisions. One such example is global load balancing (GLB) in a Clos network. Draft-ietf-idr-entropy-label defines the "Next Hop Dependent Capabilities Attribute" (NHC) which allows a BGP speaker to signal the forwarding capabilities associated with a given next hop. This document defines a new NHC capability, the Next-next Hop Nodes (NNHN) capability, which can be used to advertise the next-next hop nodes associated with a given next hop.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-wang-idr-next-next-hop-nodes-01"/>
+</reference>
