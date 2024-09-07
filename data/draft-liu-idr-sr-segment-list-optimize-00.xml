@@ -1,0 +1,22 @@
+<reference anchor="I-D.liu-idr-sr-segment-list-optimize" target="https://datatracker.ietf.org/doc/html/draft-liu-idr-sr-segment-list-optimize-00">
+  <front>
+    <title>BGP Extension for SR Segment List optimization</title>
+    <author fullname="Yisong Liu" initials="Y." surname="Liu">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Changwang Lin" initials="C." surname="Lin">
+      <organization>New H3C Technologies</organization>
+    </author>
+    <author fullname="Ran Chen" initials="R." surname="Chen">
+      <organization>ZTE</organization>
+    </author>
+    <author fullname="Yuanxiang Qiu" initials="Y." surname="Qiu">
+      <organization>New H3C Technologies</organization>
+    </author>
+    <date year="2024" month="September" day="6"/>
+    <abstract>
+      <t>This document introduces an optimization method for segment list arrangement the SR Policy TLV of the BGP Tunnel Encapsulation Attribute. This optimization solves the problem of the Segment Routing's penultimate segment node being unable to perform the penultimate Segment Pop (PSP) behavior when the egress node has both End SID and service SID encapsulated in Segment Routing Header's segment List. This solution adds an E-Flag to the SRv6 SID Endpoint Behavior sub-TLV carried in Segment List Sub-TLV of the SR Policy TLV. This optimization can improve the forwarding efficiency of data packets when End SID and Service SID are present.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-liu-idr-sr-segment-list-optimize-00"/>
+</reference>
