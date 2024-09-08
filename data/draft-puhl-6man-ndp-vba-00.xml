@@ -1,0 +1,13 @@
+<reference anchor="I-D.puhl-6man-ndp-vba" target="https://datatracker.ietf.org/doc/html/draft-puhl-6man-ndp-vba-00">
+  <front>
+    <title>IPv6 Voucher-Based Addressing for Neighbor Discovery Address Resolution</title>
+    <author fullname="Zack Puhl" initials="Z." surname="Puhl">
+      <organization>University of Michigan</organization>
+    </author>
+    <date year="2024" month="September" day="8"/>
+    <abstract>
+      <t>Voucher-Based Addressing is an extensible IPv6 address generation and verification methodology for SLAAC-enabled local networks. Individual link-layer identifiers are bound to sets of deterministic output IP addresses. Neighbor Discovery Link Voucher options distributed with Router Advertisement or Redirect messages form a shared consensus between neighbors of the parameters used to auto- generate interface addresses. Cryptographic key derivation functions are used to generate pseudo-random addresses and to intentionally stretch address computation times. Host-selected parameters can be used to derive any number of both stable and ephemeral, privacy- focused addresses for each on-link prefix and at the link-local scope. Neighbors can then verify the link-layer-to-IP bindings during NDP address resolution processes to prevent active neighbor spoofing attacks in local networks.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-puhl-6man-ndp-vba-00"/>
+</reference>
