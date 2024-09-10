@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-spring-bfd" target="https://datatracker.ietf.org/doc/html/draft-ietf-spring-bfd-12">
+  <front>
+    <title>Bidirectional Forwarding Detection (BFD) in Segment Routing Networks Using MPLS Dataplane</title>
+    <author fullname="Greg Mirsky" initials="G." surname="Mirsky">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+      <organization>NVIDIA</organization>
+    </author>
+    <author fullname="Ilya Varlashkin" initials="I." surname="Varlashkin">
+      <organization>Google</organization>
+    </author>
+    <author fullname="Mach Chen" initials="M." surname="Chen">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Jiang Wenying" initials="J." surname="Wenying">
+      <organization>CMCC</organization>
+    </author>
+    <date year="2024" month="September" day="10"/>
+    <abstract>
+      <t>Segment Routing (SR) architecture leverages the paradigm of source routing. It can be realized in the Multiprotocol Label Switching (MPLS) network without changing the data plane. Bidirectional Forwarding Detection (BFD) is expected to monitor a segment list, representing a specific source-routed SR Policy path between the headend and an endpoint. This document describes using BFD for monitoring individual segment lists of candidate paths of an SR Policy. It documents the use of various BFD modes and features such as BFD Demand mode, Seamless BFD, and BFD Echo function with the BFD Control packet payload in the SR-MPLS domain. Also, this document defines how to use Label Switched Path Ping to bootstrap a BFD session, with optional control of selecting a segment list in the reverse direction of the BFD session.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-spring-bfd-12"/>
+</reference>
