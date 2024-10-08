@@ -1,0 +1,19 @@
+<reference anchor="I-D.eastlake-secdispatch-tenantid-consid" target="https://datatracker.ietf.org/doc/html/draft-eastlake-secdispatch-tenantid-consid-05">
+  <front>
+    <title>Security Considerations for Tenant ID and Similar Fields</title>
+    <author fullname="Donald E. Eastlake 3rd" initials="D. E." surname="Eastlake">
+      <organization>Independent</organization>
+    </author>
+    <author fullname="Nancy Cam-Winget" initials="N." surname="Cam-Winget">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Mohammed Umair" initials="M." surname="Umair">
+      <organization>IPinfusion</organization>
+    </author>
+    <date year="2024" month="October" day="7"/>
+    <abstract>
+      <t>Many protocols provide for header fields to be added to a packet on ingress to a network domain and removed on egress from that domain. Examples of such fields are Tenant ID for multi-tenant networks, ingress port ID and/or type, and other identity or handling directive fields. These fields mean that a packet may be accompanied by supplemental information as it transits the network domain that would not be present with the packet or not be visible if it were simply forwarded in a traditional manner. A particular concern is that these fields may harm privacy by identifying, in greater detail, the packet source and intended traffic handling. This document provides Security Considerations for the inclusion of such fields with a packet.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-eastlake-secdispatch-tenantid-consid-05"/>
+</reference>

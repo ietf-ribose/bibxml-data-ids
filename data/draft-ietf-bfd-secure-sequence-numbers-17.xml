@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-bfd-secure-sequence-numbers" target="https://datatracker.ietf.org/doc/html/draft-ietf-bfd-secure-sequence-numbers-17">
+  <front>
+    <title>Meticulous Keyed ISAAC for BFD Authentication</title>
+    <author fullname="Alan DeKok" initials="A." surname="DeKok">
+      <organization>Network RADIUS SARL</organization>
+    </author>
+    <author fullname="Mahesh Jethanandani" initials="M." surname="Jethanandani">
+      <organization>Kloud Services</organization>
+    </author>
+    <author fullname="Sonal Agarwal" initials="S." surname="Agarwal">
+      <organization>Cisco Systems, Inc</organization>
+    </author>
+    <author fullname="Ashesh Mishra" initials="A." surname="Mishra">
+      <organization>Aalyria Technologies</organization>
+    </author>
+    <author fullname="Ankur Saxena" initials="A." surname="Saxena">
+      <organization>Ciena Corporation</organization>
+    </author>
+    <date year="2024" month="October" day="7"/>
+    <abstract>
+      <t>This document describes a new BFD Authentication mechanism, Meticulous Keyed ISAAC. This mechanism can be used to authenticate BFD packets with less CPU time cost than using MD5 or SHA1, with the tradeoff of decreased security. This mechanism cannot be used to signal state changes, but it can be used as an authenticated signal to maintain a session in the the "Up" state. This document updates RFC 5880.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-bfd-secure-sequence-numbers-17"/>
+</reference>
