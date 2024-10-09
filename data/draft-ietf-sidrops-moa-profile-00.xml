@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-sidrops-moa-profile" target="https://datatracker.ietf.org/doc/html/draft-ietf-sidrops-moa-profile-00">
+  <front>
+    <title>A Profile for Mapping Origin Authorizations (MOAs)</title>
+    <author fullname="Chongfeng Xie" initials="C." surname="Xie">
+      <organization>China Telecom</organization>
+    </author>
+    <author fullname="Guozhen Dong" initials="G." surname="Dong">
+      <organization>China Telecom</organization>
+    </author>
+    <author fullname="Xing Li" initials="X." surname="Li">
+      <organization>CERNET Center/Tsinghua University</organization>
+    </author>
+    <author fullname="Geoff Huston" initials="G." surname="Huston">
+      <organization>APNIC</organization>
+    </author>
+    <author fullname="Di Ma" initials="D." surname="Ma">
+      <organization>ZDNS</organization>
+    </author>
+    <date year="2024" month="October" day="9"/>
+    <abstract>
+      <t>This document proposes a new approach by leveraging Resource Public Key Infrastructure (RPKI) architecture to verify the authenticity of the mapping origin of an IPv4 address block. MOA is a newly defined cryptographically signed object, it provides a means that the address holder can authorize an IPv6 mapping prefix to originate mapping for one or more IPv4 prefixes. When receiving the MOA objects from the relying partie, PE device can verify and discard invalid address mapping announcements from unauthorized IPv6 mapping prefixes to prevent IPv4 prefix hijacking.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-sidrops-moa-profile-00"/>
+</reference>
