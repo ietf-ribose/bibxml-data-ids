@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-6man-rfc6724-update" target="https://datatracker.ietf.org/doc/html/draft-ietf-6man-rfc6724-update-11">
+  <front>
+    <title>Prioritizing known-local IPv6 ULAs through address selection policy</title>
+    <author fullname="Nick Buraglio" initials="N." surname="Buraglio">
+      <organization>Energy Sciences Network</organization>
+    </author>
+    <author fullname="Tim Chown" initials="T." surname="Chown">
+      <organization>Jisc</organization>
+    </author>
+    <author fullname="Jeremy Duncan" initials="J." surname="Duncan">
+      <organization>Tachyon Dynamics</organization>
+    </author>
+    <date year="2024" month="October" day="11"/>
+    <abstract>
+      <t>When RFC 6724 was published it defined an address selection algorithm along with a default policy table, and noted a number of examples where that policy table might benefit from adjustment for specific scenarios. It also noted that it is important for implementations to provide a way to change the default policies as more experience is gained. This update draws on several years of such operational experience to refine RFC 6724, with emphasis on preference for the use of ULA addresses over IPv4 addresses and the addition of mandatory support for Rule 5.5. It also defines the concept of "known-local" ULA prefixes and the means by which nodes can identify them and insert them into their policy table such that ULA-to-ULA communications become preferred over GUA-to-GUA for local use. The update also demotes the preference for 6to4 addresses. These changes to default behavior improve supportability of common use cases, including automatic / unmanaged scenarios. It is recognized that some less common deployment scenarios may require explicit configuration or custom changes to achieve desired operational parameters.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-6man-rfc6724-update-11"/>
+</reference>
