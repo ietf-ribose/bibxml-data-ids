@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-lamps-csr-attestation" target="https://datatracker.ietf.org/doc/html/draft-ietf-lamps-csr-attestation-12">
+  <front>
+    <title>Use of Remote Attestation with Certification Signing Requests</title>
+    <author fullname="Mike Ounsworth" initials="M." surname="Ounsworth">
+      <organization>Entrust Limited</organization>
+    </author>
+    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+      <organization>Siemens</organization>
+    </author>
+    <author fullname="Henk Birkholz" initials="H." surname="Birkholz">
+      <organization>Fraunhofer SIT</organization>
+    </author>
+    <author fullname="Monty Wiseman" initials="M." surname="Wiseman">
+      <organization>Beyond Identity</organization>
+    </author>
+    <author fullname="Ned Smith" initials="N." surname="Smith">
+      <organization>Intel Corporation</organization>
+    </author>
+    <date year="2024" month="October" day="12"/>
+    <abstract>
+      <t>A PKI end entity requesting a certificate from a Certification Authority (CA) may wish to offer trustworthy claims about the platform generating the certification request and the environment associated with the corresponding private key, such as whether the private key resides on a hardware security module. This specification defines an attribute and an extension that allow for conveyance of Evidence in Certificate Signing Requests (CSRs) such as PKCS#10 or Certificate Request Message Format (CRMF) payloads which provides an elegant and automatable mechanism for transporting Evidence to a Certification Authority. Including Evidence along with a CSR can help to improve the assessment of the security posture for the private key, and can help the Certification Authority to assess whether it satisfies the requested certificate profile. These Evidence Claims can include information about the hardware component's manufacturer, the version of installed or running firmware, the version of software installed or running in layers above the firmware, or the presence of hardware components providing specific protection capabilities or shielded locations (e.g., to protect keys).</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lamps-csr-attestation-12"/>
+</reference>
