@@ -1,0 +1,13 @@
+<reference anchor="I-D.levine-6man-repsize" target="https://datatracker.ietf.org/doc/html/draft-levine-6man-repsize-00">
+  <front>
+    <title>Publishing boundaries for IPv6 reputation</title>
+    <author fullname="John R. Levine" initials="J. R." surname="Levine">
+      <organization>Standcore LLC</organization>
+    </author>
+    <date year="2024" month="October" day="14"/>
+    <abstract>
+      <t>Applications such as e-mail track the reputation of the hosts that connect to them by IP address. Since the IPv6 address space is so large, a reputation system needs to aggregate the data for the IPs useded by a single entity. This document describes a file format a network operator can use to describe the sizes of the IP prefixes it allocates, for reputation systems to use to determine the aggregation boundaries. It also specifies an addition to the the Routing Policy Specification Language (RPSL) inetnum: class to refer to the location of the boundary file, and a method to sign boundary files.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-levine-6man-repsize-00"/>
+</reference>
