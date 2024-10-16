@@ -1,0 +1,22 @@
+<reference anchor="I-D.shi-ippm-congestion-measurement-data" target="https://datatracker.ietf.org/doc/html/draft-shi-ippm-congestion-measurement-data-02">
+  <front>
+    <title>Data Fields for Congestion Measurement</title>
+    <author fullname="Hang Shi" initials="H." surname="Shi">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Tianran Zhou" initials="T." surname="Zhou">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Guangyu Zhao" initials="G." surname="Zhao">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Zhenqiang Li" initials="Z." surname="Li">
+      <organization>China Mobile</organization>
+    </author>
+    <date year="2024" month="October" day="16"/>
+    <abstract>
+      <t>Congestion Measurement collects the congestion information in the packet while the packet traverses a path. The sender sets the congestion measurement command in the packet header indicating the network device along the path to update the congestion information field in the packet. When the packet arrives at the receiver, the congestion information field will reflect the degree of congestion across network path. Congestion Measurement can enable precise congestion control, aids in effective load balancing, and simplifies network debugging. This document defines data fields for Congestion Measurement. Congestion Measurement Data-Fields can be encapsulated into a variety of protocols, such as Network Service Header (NSH), Segment Routing, Generic Network Virtualization Encapsulation (Geneve), or IPv6.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-shi-ippm-congestion-measurement-data-02"/>
+</reference>
