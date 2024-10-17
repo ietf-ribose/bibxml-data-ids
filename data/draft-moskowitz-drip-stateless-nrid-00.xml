@@ -1,0 +1,22 @@
+<reference anchor="I-D.moskowitz-drip-stateless-nrid" target="https://datatracker.ietf.org/doc/html/draft-moskowitz-drip-stateless-nrid-00">
+  <front>
+    <title>Secure UAS Stateless Network RID</title>
+    <author fullname="Robert Moskowitz" initials="R." surname="Moskowitz">
+      <organization>HTT Consulting</organization>
+    </author>
+    <author fullname="Stuart W. Card" initials="S. W." surname="Card">
+      <organization>AX Enterprize</organization>
+    </author>
+    <author fullname="Adam Wiethuechter" initials="A." surname="Wiethuechter">
+      <organization>AX Enterprize</organization>
+    </author>
+    <author fullname="Andrei Gurtov" initials="A." surname="Gurtov">
+      <organization>Linköping University</organization>
+    </author>
+    <date year="2024" month="October" day="16"/>
+    <abstract>
+      <t>This document defines a stateless transport mechanism and message content between an Uncrewed Aircraft System (UAS) and its UAS Service Supplier (USS) for Network Remote ID (Net-RID) messages. It leverages the Broadcast Remote ID (B-RID) messages as constructed by the UA, or constructed by the Ground Control Station (GCS) from the Command-and-Control (C2) messages that are then sent directly over UDP from the UAS. These messages are authenticated by the DRIP Authentication messages if originating from the UA. When originating from the GCS, CBOR Web Tokens (CWT) signed by the GCS's DRIP Entity Tag (DET), are used. Transport privacy is out-of-scope in this approach per the stateless design. Some proposals are offered for data privacy that require some minimal state.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-moskowitz-drip-stateless-nrid-00"/>
+</reference>
