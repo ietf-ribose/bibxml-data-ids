@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-radext-radiusv11" target="https://datatracker.ietf.org/doc/html/draft-ietf-radext-radiusv11-11">
+  <front>
+    <title>RADIUS/1.1, Leveraging ALPN to remove MD5</title>
+    <author fullname="Alan DeKok" initials="A." surname="DeKok">
+      <organization>FreeRADIUS</organization>
+    </author>
+    <date year="2024" month="October" day="18"/>
+    <abstract>
+      <t>This document defines Application-Layer Protocol Negotiation Extensions for use with RADIUS/TLS and RADIUS/DTLS. These extensions permit the negotiation of an application protocol variant of RADIUS, called "RADIUS/1.1". No changes are made to RADIUS/UDP or RADIUS/ TCP. The extensions allow the negotiation of a transport profile where the RADIUS shared secret is no longer used, and all MD5-based packet authentication and attribute obfuscation methods are removed. This document updates RFC2865, RFC2866, RFC5176, RFC6613, RFC6614, and RFC 7360.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-radext-radiusv11-11"/>
+</reference>
