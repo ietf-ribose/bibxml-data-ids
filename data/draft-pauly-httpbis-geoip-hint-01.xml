@@ -1,0 +1,22 @@
+<reference anchor="I-D.pauly-httpbis-geoip-hint" target="https://datatracker.ietf.org/doc/html/draft-pauly-httpbis-geoip-hint-01">
+  <front>
+    <title>The IP Geolocation HTTP Client Hint</title>
+    <author fullname="Tommy Pauly" initials="T." surname="Pauly">
+      <organization>Apple Inc.</organization>
+    </author>
+    <author fullname="David Schinazi" initials="D." surname="Schinazi">
+      <organization>Google LLC</organization>
+    </author>
+    <author fullname="Ciara McMullin" initials="6. 1. 9. 1. 9. 3. 7. 9. 7. 1. 1. 1. 1." surname="McMullin">
+      <organization>Google LLC</organization>
+    </author>
+    <author fullname="Dustin Mitchell" initials="D." surname="Mitchell">
+      <organization>Google LLC</organization>
+    </author>
+    <date year="2024" month="October" day="18"/>
+    <abstract>
+      <t>Techniques that improve user privacy by hiding original client IP addresses, such as VPNs and proxies, have faced challenges with server that rely on IP addresses to determine client location. Maintaining a geographically relevant user experience requires large pools of IP addresses, which can be costly. Additionally, users often receive inaccurate geolocation results because servers rely on geo-IP feeds that can be outdated. To address these challenges, we can allow clients to actively send their network geolocation directly to the origin server via an HTTP Client Hint. This approach will not only enhance geolocation accuracy and reduce IP costs, but it also gives clients more transparency regarding their perceived geolocation.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-pauly-httpbis-geoip-hint-01"/>
+</reference>
