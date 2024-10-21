@@ -1,0 +1,19 @@
+<reference anchor="I-D.pan-ipsecme-anti-replay-notification" target="https://datatracker.ietf.org/doc/html/draft-pan-ipsecme-anti-replay-notification-01">
+  <front>
+    <title>IKEv2 Support for Anti-Replay Status Notification</title>
+    <author fullname="Wei Pan" initials="W." surname="Pan">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Qi He" initials="Q." surname="He">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Paul Wouters" initials="P." surname="Wouters">
+      <organization>Aiven</organization>
+    </author>
+    <date year="2024" month="October" day="21"/>
+    <abstract>
+      <t>Although RFC 4302 and RFC 4303 don't prohibit using Extended Sequence Number (ESN) when the anti-replay function is not enabled, many IPsec implementations require ESN to be used only with anti-replay. Therefore, failing to negotiate the use of ESN when the anti-replay is disabled will cause the sequence numbers to exhaust rapidly in high-traffic-volume scenarios, leading to the frequent rekey of Child SAs. This document defines the REPLAY_PROT_AND_ESN_STATUS Notify Message Status Type Payload in the Internet Key Exchange Protocol Version 2 (IKEv2) to inform the peer of its replay protection status and capability of using ESN without anti-replay when creating the Child SAs, to address the above problem.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-pan-ipsecme-anti-replay-notification-01"/>
+</reference>

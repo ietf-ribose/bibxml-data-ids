@@ -1,0 +1,25 @@
+<reference anchor="I-D.jaked-cared" target="https://datatracker.ietf.org/doc/html/draft-jaked-cared-00">
+  <front>
+    <title>Client Authentication Recommendations for Encrypted DNS</title>
+    <author fullname="Tommy Jensen" initials="T." surname="Jensen">
+      <organization>Microsoft</organization>
+    </author>
+    <author fullname="Jessica Krynitsky" initials="J." surname="Krynitsky">
+      <organization>Microsoft</organization>
+    </author>
+    <author fullname="Jeffrey Damick" initials="J." surname="Damick">
+      <organization>Amazon</organization>
+    </author>
+    <author fullname="Matt Engskow" initials="M." surname="Engskow">
+      <organization>Amazon</organization>
+    </author>
+    <author fullname="Joe Abley" initials="J." surname="Abley">
+      <organization>Cloudflare</organization>
+    </author>
+    <date year="2024" month="October" day="20"/>
+    <abstract>
+      <t>Some encrypted DNS clients require anonymity from their encrypted DNS servers to prevent third parties from correlating client DNS queries with other data for surveillance or data mining purposes. However, there are cases where the client and server have a pre-existing relationship and each wants to prove its identity to the other. For example, an encrypted DNS server may only wish to accept queries from encrypted DNS clients that are managed by the same enterprise, and an encrypted DNS client may need to confirm the identity of the encrypted DNS server it is communicating with. This requires mutual authentication. This document discusses the circumstances under which client authentication is appropriate to use with encrypted DNS, the benefits and limitations of doing so, and recommends authentication mechanisms to be used when communicating with TLS-based encrypted DNS protocols.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-jaked-cared-00"/>
+</reference>

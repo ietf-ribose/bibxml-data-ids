@@ -1,0 +1,19 @@
+<reference anchor="I-D.dong-idr-bgp-nrp-policy" target="https://datatracker.ietf.org/doc/html/draft-dong-idr-bgp-nrp-policy-01">
+  <front>
+    <title>Advertising Network Resource Partition (NRP) Policy in BGP</title>
+    <author fullname="Jie Dong" initials="J." surname="Dong">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="KaZhang" initials="" surname="KaZhang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Liyan Gong" initials="L." surname="Gong">
+      <organization>China Mobile</organization>
+    </author>
+    <date year="2024" month="October" day="21"/>
+    <abstract>
+      <t>A Network Resource Partition (NRP) is a subset of the network resources and the associated policies on each of a connected set of links in the underlay network. An NRP could be used as the underlay to support one or a group of enhanced VPN services or RFC 9543 network slice services. For the instantiation of an NRP, NRP- specific information and policy need to be advertised to the network nodes involved in the NRP, so that the NRP-specific state can be created and NRP-specific behavior can be enabled. The mechanism for instantiating NRPs on the involved network elements is called NRP Policy. This document specifies the BGP extensions for advertising NRP Policy information to the set of network nodes involved in the NRP. The NRP Policy is advertised using a separate BGP Subsequent Address Family Identifier (SAFI) of the BGP Link-State (BGP-LS) Address Family, which allows to reuse the TLVs defined in BGP-LS without impacting the base BGP and BGP-LS functionality.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-dong-idr-bgp-nrp-policy-01"/>
+</reference>

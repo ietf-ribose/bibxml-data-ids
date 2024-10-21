@@ -1,0 +1,28 @@
+<reference anchor="I-D.dong-idr-bgp-ls-scalable-nrp" target="https://datatracker.ietf.org/doc/html/draft-dong-idr-bgp-ls-scalable-nrp-02">
+  <front>
+    <title>BGP Link State Extensions for Scalable Network Resource Partition</title>
+    <author fullname="Jie Dong" initials="J." surname="Dong">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Yongqing Zhu" initials="Y." surname="Zhu">
+      <organization>China Telecom</organization>
+    </author>
+    <author fullname="Zehua Hu" initials="Z." surname="Hu">
+      <organization>China Telecom</organization>
+    </author>
+    <author fullname="Liyan Gong" initials="L." surname="Gong">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Jun Ge" initials="J." surname="Ge">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="KaZhang" initials="" surname="KaZhang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date year="2024" month="October" day="21"/>
+    <abstract>
+      <t>Enhanced VPNs aim to deliver VPN services with enhanced characteristics, such as guaranteed resources, latency, jitter, etc., so as to support customers requirements on connectivity services with these enhanced characteristics. Enhanced VPN requires integration between the overlay VPN connectivity and the characteristics provided by the underlay network. A Network Resource Partition (NRP) is a subset of the network resources and associated policies on each of a connected set of links in the underlay network. An NRP could be used as the underlay to support one or a group of enhanced VPN services. The NRP-specific resource information and status needs to be collected from network nodes and reported to the network controller for NRP-specific management and path computation. This document specifies the BGP Link-State (BGP-LS) mechanisms with necessary extensions to advertise the information of NRPs to network controller in a scalable way. The NRP information is advertised using a separate type of BGP-LS NLRI, which allows flexible update of NRP information without impacting the based link state information.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-dong-idr-bgp-ls-scalable-nrp-02"/>
+</reference>
