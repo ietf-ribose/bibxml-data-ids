@@ -1,0 +1,16 @@
+<reference anchor="I-D.mularczyk-mls-splitcommit" target="https://datatracker.ietf.org/doc/html/draft-mularczyk-mls-splitcommit-00">
+  <front>
+    <title>MLS Split Commits</title>
+    <author fullname="Joël" initials="" surname="Joël">
+      <organization>Amazon</organization>
+    </author>
+    <author fullname="Marta Mularczyk" initials="M." surname="Mularczyk">
+      <organization>Amazon</organization>
+    </author>
+    <date year="2024" month="October" day="21"/>
+    <abstract>
+      <t>This document describes an extension to the MLS protocol [RFC940] that improves its efficiency in terms of per-member download size. This comes at essentially no cost. In essence, this document defines a new message type called split commit which replaces regular MLS commits. Unlike regular commits, a split commit can be "split" by the Delivery Service (DS) into much smaller per-member commits, one for each receiving member. The size of a per-member commit is always logarithmic in the group size, while the size of a regular MLS commit can be linear. This extension works in settings with a DS that can do the splitting which can be demanding with encrypted MLS handshake messages. This is motivated by academic research [KKP22], [HKPPW22], [AHKM22].</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-mularczyk-mls-splitcommit-00"/>
+</reference>

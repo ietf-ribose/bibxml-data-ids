@@ -1,0 +1,13 @@
+<reference anchor="I-D.link-6man-gulla" target="https://datatracker.ietf.org/doc/html/draft-link-6man-gulla-00">
+  <front>
+    <title>Using Prefix-Specific Link-Local Addresses to Improve SLAAC Robustness</title>
+    <author fullname="Jen Linkova" initials="J." surname="Linkova">
+      <organization>Google</organization>
+    </author>
+    <date year="2024" month="October" day="21"/>
+    <abstract>
+      <t>When an IPv6 prefix assigned to a link changes, hosts may not be explicitly notified about the change. Consequently, they may continue to use addresses which are not valid for that link. This leads to packet loss and service disruption. This document proposes a mechanism to mitigate this issue. Routers are advised to send Router Advertisements containing distinct Prefix Information Options (PIOs) from different link-local addresses. This, in conjunction with RFC6724 (Default Source Address Selection) Rule 5.5 and RFC8028 (first-hop selection requirements), enables hosts to detect prefix changes more rapidly and select the correct source address, thereby improving the robustness of SLAAC.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-link-6man-gulla-00"/>
+</reference>

@@ -1,0 +1,19 @@
+<reference anchor="I-D.berra-dnsop-keystate" target="https://datatracker.ietf.org/doc/html/draft-berra-dnsop-keystate-00">
+  <front>
+    <title>Signalling Key State Via DNS EDNS(0) OPT</title>
+    <author fullname="Erik Bergström" initials="E." surname="Bergström">
+      <organization>The Swedish Internet Foundation</organization>
+    </author>
+    <author fullname="Leon Fernandez" initials="L." surname="Fernandez">
+      <organization>The Swedish Internet Foundation</organization>
+    </author>
+    <author fullname="Johan Stenstam" initials="J." surname="Stenstam">
+      <organization>The Swedish Internet Foundation</organization>
+    </author>
+    <date year="2024" month="October" day="21"/>
+    <abstract>
+      <t>This document introduces the KeyState EDNS(0) option code, to enable the exchange of SIG(0) key state information between DNS entities via the DNS protocol. The KeyState option allows DNS clients and servers to include key state data in both queries and responses, facilitating mutual awareness of SIG(0) key status between child and parent zones. This mechanism addresses the challenges of maintaining synchronization of SIG(0) keys used for securing DNS UPDATE messages, thereby enhancing the efficiency and reliability of DNS operations that require coordinated key management. This document proposes such a mechanism. TO BE REMOVED: This document is being collaborated on in Github at: https://github.com/johanix/draft-berra-dnsop-opt-transaction-state (https://github.com/johanix/draft-berra-dnsop-transaction-state-00). The most recent working version of the document, open issues, etc, should all be available there. The authors (gratefully) accept pull requests.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-berra-dnsop-keystate-00"/>
+</reference>
