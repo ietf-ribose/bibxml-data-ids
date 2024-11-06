@@ -1,0 +1,19 @@
+<reference anchor="I-D.lucente-grow-bmp-offline" target="https://datatracker.ietf.org/doc/html/draft-lucente-grow-bmp-offline-00">
+  <front>
+    <title>Making BMP fruible offline</title>
+    <author fullname="Paolo Lucente" initials="P." surname="Lucente">
+      <organization>NTT</organization>
+    </author>
+    <author fullname="Camilo Cardona" initials="C." surname="Cardona">
+      <organization>NTT</organization>
+    </author>
+    <author fullname="Luuk Hendriks" initials="L." surname="Hendriks">
+      <organization>NLnet Labs</organization>
+    </author>
+    <date year="2024" month="November" day="5"/>
+    <abstract>
+      <t>BMP (BGP Monitoring Protocol) [RFC7854] is perfectly suited for real- time consumption but less ideal for off-wire historical purposes. The main issue is the dependence that parsing BGP Update PDUs has on knowing which capabilities have been agreed when establishing the BGP session with the peers, which could have happened long time ago (days, weeks, months). This document defines a new optional BMP message type, called Peer Summary, that carries a summary of the established BGP sessions along with their capabilities and that is intended to be injected in the BMP feed at configurable time intervals and/or ad-hoc whenever it is felt necessary to improve fruition of BMP data offline.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-lucente-grow-bmp-offline-00"/>
+</reference>
