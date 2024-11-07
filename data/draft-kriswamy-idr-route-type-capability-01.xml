@@ -1,0 +1,25 @@
+<reference anchor="I-D.kriswamy-idr-route-type-capability" target="https://datatracker.ietf.org/doc/html/draft-kriswamy-idr-route-type-capability-01">
+  <front>
+    <title>BGP Route Type Capability</title>
+    <author fullname="Krishnaswamy Ananthamurthy" initials="K." surname="Ananthamurthy">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Mankamana Prasad Mishra" initials="M. P." surname="Mishra">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Lukas Krattiger" initials="L." surname="Krattiger">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Keyur Patel" initials="K." surname="Patel">
+      <organization>Arrcus</organization>
+    </author>
+    <author fullname="Jeffrey Haas" initials="J." surname="Haas">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2024" month="November" day="7"/>
+    <abstract>
+      <t>BGP supports different route types, which define the encoding of Network Layer Reachability Information (NLRI) for some of the Address Family Identifier (AFI)/Subsequent Address Family Identifier (SAFI), like Ethernet VPN (EVPN), Multicast VPN(MVPN) and so on. BGP speaker MAY reset the BGP session if a given route type in an NLRI is not supported instead of treat-as-withdraw. This document defines Optional Capabilities pertaining to the exchange of route types that are supported for a particular AFI and SAFI. This framework facilitates the maintenance of sessions without necessitating resets or the inadvertent dropping of updates.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-kriswamy-idr-route-type-capability-01"/>
+</reference>
