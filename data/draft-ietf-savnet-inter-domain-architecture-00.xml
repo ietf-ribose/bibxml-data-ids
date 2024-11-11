@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-savnet-inter-domain-architecture" target="https://datatracker.ietf.org/doc/html/draft-ietf-savnet-inter-domain-architecture-00">
+  <front>
+    <title>Inter-domain Source Address Validation (SAVNET) Architecture</title>
+    <author fullname="Dan Li" initials="D." surname="Li">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Li Chen" initials="L." surname="Chen">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author fullname="Nan Geng" initials="N." surname="Geng">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Libin Liu" initials="L." surname="Liu">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author fullname="Lancheng Qin" initials="L." surname="Qin">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <date year="2024" month="November" day="10"/>
+    <abstract>
+      <t>This document introduces an inter-domain SAVNET architecture for performing AS-level SAV and provides a comprehensive framework for guiding the design of inter-domain SAV mechanisms. The proposed architecture empowers ASes to generate SAV rules by sharing SAV- specific information between themselves, which can be used to generate more accurate and trustworthy SAV rules in a timely manner compared to the general information. During the incremental or partial deployment of SAV-specific information, it can utilize general information to generate SAV rules, if an AS's SAV-specific information is unavailable. Rather than delving into protocol extensions or implementations, this document primarily concentrates on proposing SAV-specific and general information and guiding how to utilize them to generate SAV rules. To this end, it also defines some architectural components and their relations.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-savnet-inter-domain-architecture-00"/>
+</reference>
