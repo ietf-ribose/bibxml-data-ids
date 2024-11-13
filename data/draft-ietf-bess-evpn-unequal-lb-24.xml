@@ -1,0 +1,28 @@
+<reference anchor="I-D.ietf-bess-evpn-unequal-lb" target="https://datatracker.ietf.org/doc/html/draft-ietf-bess-evpn-unequal-lb-24">
+  <front>
+    <title>Weighted Multi-Path Procedures for EVPN Multi-Homing</title>
+    <author fullname="Neeraj Malhotra" initials="N." surname="Malhotra">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Ali Sajassi" initials="A." surname="Sajassi">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="John Drake" initials="J." surname="Drake">
+      <organization>Juniper</organization>
+    </author>
+    <author fullname="Avinash Reddy Lingala" initials="A. R." surname="Lingala">
+      <organization>ATT</organization>
+    </author>
+    <author fullname="Samir Thoria" initials="S." surname="Thoria">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date year="2024" month="November" day="12"/>
+    <abstract>
+      <t>EVPN enables all-active multi-homing for a CE (Customer Equipment) device connected to two or more PE (Provider Equipment) devices via a LAG (Link Aggregation), such that bridged and routed traffic from remote PEs to hosts attached to the Ethernet Segment can be equally load balanced (it uses Equal Cost Multi Path) across the multi-homing PEs. EVPN also enables multi-homing for IP subnets advertised in IP Prefix routes, so that routed traffic from remote PEs to those IP subnets can be load balanced. This document defines extensions to EVPN procedures to optimally handle unequal access bandwidth distribution across a set of multi-homing PEs in order to: * provide greater flexibility, with respect to adding or removing individual multi-homed PE-CE links. * handle multi-homed PE-CE link failures that can result in unequal PE-CE access bandwidth across a set of multi-homing PEs. In order to achieve the above, it specifies signaling extensions and procedures to: * Loadbalance bridged and routed traffic across egress PEs in proportion to PE-CE link bandwidth or a generalized weight distribution. * Achieve BUM (Broadcast, UnknownUnicast, Multicast) DF (Designated Forwarder) election distribution for a given ES (Ethernet Segment) across the multi-homing PE set in proportion to PE-CE link bandwidth. Section 6 of this document further updates RFC 8584, draft-ietf-bess-evpn-per-mcast-flow-df-election and draft-ietf- bess-evpn-pref-df in order for the DF election extension defined in this document to work across different DF election algorithms.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-bess-evpn-unequal-lb-24"/>
+</reference>
