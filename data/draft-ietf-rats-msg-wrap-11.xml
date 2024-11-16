@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-rats-msg-wrap" target="https://datatracker.ietf.org/doc/html/draft-ietf-rats-msg-wrap-11">
+  <front>
+    <title>RATS Conceptual Messages Wrapper (CMW)</title>
+    <author fullname="Henk Birkholz" initials="H." surname="Birkholz">
+      <organization>Fraunhofer SIT</organization>
+    </author>
+    <author fullname="Ned Smith" initials="N." surname="Smith">
+      <organization>Intel</organization>
+    </author>
+    <author fullname="Thomas Fossati" initials="T." surname="Fossati">
+      <organization>Linaro</organization>
+    </author>
+    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+      <organization>University of Applied Sciences Bonn-Rhein-Sieg</organization>
+    </author>
+    <author fullname="Dionna Glaze" initials="D." surname="Glaze">
+      <organization>Google LLC</organization>
+    </author>
+    <date year="2024" month="November" day="15"/>
+    <abstract>
+      <t>This document defines the RATS conceptual message wrapper (CMW) format, a type of encapsulation format that can be used for any RATS messages, such as Evidence, Attestation Results, Endorsements, and Reference Values. Additionally, the document describes a collection type that enables the aggregation of one or more CMWs into a single message. This document also defines corresponding CBOR tag, JSON Web Tokens (JWT) and CBOR Web Tokens (CWT) claims, as well as an X.509 extension. These allow embedding the wrapped conceptual messages into CBOR-based protocols, web APIs, and PKIX protocols. In addition, a Media Type and a CoAP Content-Format are defined for transporting CMWs in HTTP, MIME, CoAP and other Internet protocols.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-rats-msg-wrap-11"/>
+</reference>
