@@ -1,0 +1,16 @@
+<reference anchor="I-D.peetterr-dnsop-parent-side-auth-types" target="https://datatracker.ietf.org/doc/html/draft-peetterr-dnsop-parent-side-auth-types-01">
+  <front>
+    <title>Parent-side authoritative DNS records for enhanced delegation</title>
+    <author fullname="Peter van Dijk" initials="P." surname="van Dijk">
+      <organization>PowerDNS</organization>
+    </author>
+    <author fullname="Petr Špaček" initials="P." surname="Špaček">
+      <organization>ISC</organization>
+    </author>
+    <date year="2024" month="December" day="10"/>
+    <abstract>
+      <t>DNS RR types with numbers in the range 0xFA00-0xFDFF are now included in special treatment like DS RR type specified in [RFC4035]. Authoritative servers, DNSSEC signers, and recursive resolvers need to extend the conditions for DS special handling to also include this range. This means: being authoritative on the parent side of a delegation; being signed by the parent; being provided along with delegations by the parent. DNSSEC validators also need to implement downgrade protection described in Section 5.3.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-peetterr-dnsop-parent-side-auth-types-01"/>
+</reference>
