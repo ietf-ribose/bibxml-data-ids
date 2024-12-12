@@ -1,0 +1,13 @@
+<reference anchor="I-D.nser-vrrp-sbfd" target="https://datatracker.ietf.org/doc/html/draft-nser-vrrp-sbfd-00">
+  <front>
+    <title>Fast failure detection in VRRP with S-BFD</title>
+    <author fullname="Nicola Serafini" initials="N." surname="Serafini">
+      <organization>Individual</organization>
+    </author>
+    <date year="2024" month="December" day="11"/>
+    <abstract>
+      <t>Since the VRRP protocol depends on the availability of Layer 3 IPvX connectivity between redundant peers, the VRRP protocol can interact with the variant of S-BFD as described in [RFC7881] to achieve a much faster failure detection. This document describes how to extend the Virtual Router Redundancy Protocol (VRRP) to support Seamless Bidirectional Forwarding Detection (S-BFD) as a detection system for Primary Router failure. To announce the use of this implementation, a new type (Section 5.2.2.) of VRRP packet and a new timer are defined. To facilitate and increase the user experience while deploying this implementation, an auto-calculation algorithm for the SBFD Discriminators is also implemented.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-nser-vrrp-sbfd-00"/>
+</reference>
