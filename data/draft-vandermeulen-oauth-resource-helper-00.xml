@@ -1,0 +1,16 @@
+<reference anchor="I-D.vandermeulen-oauth-resource-helper" target="https://datatracker.ietf.org/doc/html/draft-vandermeulen-oauth-resource-helper-00">
+  <front>
+    <title>OAuth Resource Helper</title>
+    <author fullname="Pieter van der Meulen" initials="P." surname="van der Meulen">
+      <organization>SURF</organization>
+    </author>
+    <author fullname="Michiel B. de Jong" initials="M. B." surname="de Jong">
+      <organization>Ponder Source</organization>
+    </author>
+    <date year="2024" month="December" day="19"/>
+    <abstract>
+      <t>This Internet Draft introduces the concept of a Resource Helper in OAuth 2.0. A Resource Helper is a modular component that assists the Authorization Server in managing fine-grained authorization processes. The Resource Helper, associated with a specific Resource Server, handles scope selection and resource-specific details, providing the user-interface for the Resource Owner to approve or refine access requests. By offloading scope-related user interaction to the Resource Helper, the Authorization Server remains generic and stable while the Resource Helper evolves alongside the Resource Server's requirements. This specification defines the protocol, interfaces, and flow between the Authorization Server and the Resource Helper. Introducing a Resource Helper does not affect the OAuth client or the interaction between the OAuth client and the Resource Server.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-vandermeulen-oauth-resource-helper-00"/>
+</reference>

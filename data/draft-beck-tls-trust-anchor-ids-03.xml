@@ -1,0 +1,22 @@
+<reference anchor="I-D.beck-tls-trust-anchor-ids" target="https://datatracker.ietf.org/doc/html/draft-beck-tls-trust-anchor-ids-03">
+  <front>
+    <title>TLS Trust Anchor Identifiers</title>
+    <author fullname="Bob Beck" initials="B." surname="Beck">
+      <organization>Google LLC</organization>
+    </author>
+    <author fullname="David Benjamin" initials="D." surname="Benjamin">
+      <organization>Google LLC</organization>
+    </author>
+    <author fullname="Devon O'Brien" initials="D." surname="O'Brien">
+      <organization>Google LLC</organization>
+    </author>
+    <author fullname="Kyle Nekritz" initials="K." surname="Nekritz">
+      <organization>Meta</organization>
+    </author>
+    <date year="2024" month="December" day="18"/>
+    <abstract>
+      <t>This document defines the TLS Trust Anchors extension, a mechanism for relying parties to convey trusted certification authorities. It describes individual certification authorities more succinctly than the TLS Certificate Authorities extension. Additionally, to support TLS clients with many trusted certification authorities, it supports a mode where servers describe their available certification paths and the client selects from them. Servers may describe this during connection setup, or in DNS for lower latency.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-beck-tls-trust-anchor-ids-03"/>
+</reference>
