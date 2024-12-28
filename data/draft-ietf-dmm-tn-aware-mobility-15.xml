@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-dmm-tn-aware-mobility" target="https://datatracker.ietf.org/doc/html/draft-ietf-dmm-tn-aware-mobility-15">
+  <front>
+    <title>Mobility-aware Transport Network Slicing for 5G</title>
+    <author fullname="Uma Chunduri" initials="U." surname="Chunduri">
+      <organization>Intel Corporation</organization>
+    </author>
+    <author fullname="John Kaippallimalil" initials="J." surname="Kaippallimalil">
+      <organization>Futurewei</organization>
+    </author>
+    <author fullname="Sridhar Bhaskaran" initials="S." surname="Bhaskaran">
+      <organization>Rakuten Symphony</organization>
+    </author>
+    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+      <organization>Nvidia</organization>
+    </author>
+    <author fullname="Luis M. Contreras" initials="L. M." surname="Contreras">
+      <organization>Telefonica</organization>
+    </author>
+    <date year="2024" month="December" day="27"/>
+    <abstract>
+      <t>Network slicing in 5G enables logical networks for communication services of multiple 5G customers to be multiplexed over the same infrastructure. While 5G slicing covers logical separation of various aspects of 5G infrastructure and services, user's data plane packets over the Radio Access Network (RAN) and Core Network (5GC) use IP in many segments of an end-to-end 5G slice. When end-to-end slices in a 5G System use network resources, they are mapped to corresponding IP transport network slice(s) which in turn provide the bandwidth, latency, isolation, and other criteria required for the realization of a 5G slice. This document describes mapping of 5G slices to transport network slices using UDP source port number of the GTP-U bearer when the IP transport network (slice provider) is separated by an "attachment circuit" from the networks in which the 5G network functions are deployed, for example, 5G functions that are distributed across data centers. The slice mapping defined here is supported transparently when a 5G user device moves across 5G attachment points and session anchors.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dmm-tn-aware-mobility-15"/>
+</reference>
