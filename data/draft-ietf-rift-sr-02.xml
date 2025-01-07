@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-rift-sr" target="https://datatracker.ietf.org/doc/html/draft-ietf-rift-sr-02">
+  <front>
+    <title>SRIFT: Segment Routing in Fat Trees</title>
+    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+      <organization>Nvidia</organization>
+    </author>
+    <author fullname="Jordan Head" initials="J." surname="Head">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2025" month="January" day="6"/>
+    <abstract>
+      <t>This document specifies signaling procedures for Segment Routing in RIFT. Each node's loopback address, Segment Routing Global Block (SRGB) and Node Segment Identifier (Node-SID), which are typically assigned by a configuration management system and distibuted by routing protocols, are distributed southbound from the Top Of Fabric (TOF) nodes via RIFT's Key-Value distribution mechanism, so that each node can compute how to reach a segment represented by the active SID in a packet. An SR controller signals SR policies to ingress nodes so that they can send packets with a desired segment list to steer traffic.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-rift-sr-02"/>
+</reference>
