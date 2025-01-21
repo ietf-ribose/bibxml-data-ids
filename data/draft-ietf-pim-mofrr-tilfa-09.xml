@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-pim-mofrr-tilfa" target="https://datatracker.ietf.org/doc/html/draft-ietf-pim-mofrr-tilfa-09">
+  <front>
+    <title>Multicast-only Fast Reroute Based on Topology Independent Loop-free Alternate Fast Reroute</title>
+    <author fullname="Yisong Liu" initials="Y." surname="Liu">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Mike McBride" initials="M." surname="McBride">
+      <organization>Futurewei Inc.</organization>
+    </author>
+    <author fullname="Zheng Zhang" initials="Z." surname="Zhang">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author fullname="Jingrong Xie" initials="J." surname="Xie">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Changwang Lin" initials="C." surname="Lin">
+      <organization>New H3C Technologies</organization>
+    </author>
+    <date year="2025" month="January" day="21"/>
+    <abstract>
+      <t>This document specifies the use of Topology Independent Loop-Free Alternate (TI-LFA) mechanisms with Multicast Only Fast ReRoute (MoFRR) for Protocol Independent Multicast (PIM). The TI-LFA mechanism is designed for standard link-state Interior Gateway Protocol (IGP) shortest path and Segment Routing (SR) scenarios. TI- LFA provides fast reroute protection for unicast traffic in IP networks by precomputing backup paths that avoid potential failures. By integrating TI-LFA with MoFRR, this document extends the benefits of fast reroute mechanisms to multicast traffic, enabling enhanced resilience and minimized packet loss in multicast networks. The document outlines the necessary protocol extensions and operational considerations to implement TI-LFA in conjunction with MoFRR for PIM, ensuring that multicast traffic is rapidly rerouted in the event of a failure. This document uses the backup path computed by TI-LFA through IGP as a secondary Upstream Multicast Hop (UMH) for PIM. By using the TI-LFA backup path to send PIM secondary join messages hop- by-hop, it achieves the generation of a fast reroute backup path for PIM multicast.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-pim-mofrr-tilfa-09"/>
+</reference>
