@@ -1,0 +1,22 @@
+<reference anchor="I-D.cds-rats-intel-corim-profile" target="https://datatracker.ietf.org/doc/html/draft-cds-rats-intel-corim-profile-03">
+  <front>
+    <title>Intel Profile for Remote Attestation</title>
+    <author fullname="James D. Beaney" initials="J. D." surname="Beaney">
+      <organization>Intel Corporation</organization>
+    </author>
+    <author fullname="Andrew Draper" initials="A." surname="Draper">
+      <organization>Altera Corporation</organization>
+    </author>
+    <author fullname="Vincent Scarlata" initials="V." surname="Scarlata">
+      <organization>Intel Corporation</organization>
+    </author>
+    <author fullname="Ned Smith" initials="N." surname="Smith">
+      <organization>Intel Corporation</organization>
+    </author>
+    <date year="2025" month="January" day="21"/>
+    <abstract>
+      <t>This document is a profile of various IETF and TCG standards that support remote attestation. The profile supports Intel-specific adaptations and extensions for Evidence, Endorsements and Reference Values. This profile describes apticulareplication of CoRIM, EAT, CMW, TCG concise evidence, and TCG DICE specifications. In particular, CoRIM is extended to define measurement types that are unique to Intel and defines Reference Values types that support matching Evidence based on range and subset comparison. Multiple Evidence formats are anticipated, based on IETF and TCG specifications. Evidence formats are mapped to Reference Values expressions based on CoRIM and CoRIM extensions found in this profile. The Evidence to Reference Values mappings are either documented by industry specifications or by this profile. Reference Value Providers and Endorsers may use this profile to author mainifests containing Reference Values and Endorsements that require Intel profile support from parser implementations. Parser implementations can recognize the Intel profile by profile identifier values contained within attestation conceptual mmessages and from profile parameters to media types or profile specific content format identifiers.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-cds-rats-intel-corim-profile-03"/>
+</reference>
