@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-lsr-ospf-prefix-extended-flags" target="https://datatracker.ietf.org/doc/html/draft-ietf-lsr-ospf-prefix-extended-flags-05">
+  <front>
+    <title>Prefix Flag Extension for OSPFv2 and OSPFv3</title>
+    <author fullname="Ran Chen" initials="R." surname="Chen">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author fullname="Detao Zhao" initials="D." surname="Zhao">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author fullname="Peter Psenak" initials="P." surname="Psenak">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Ketan Talaulikar" initials="K." surname="Talaulikar">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Liyan Gong" initials="L." surname="Gong">
+      <organization>China mobile</organization>
+    </author>
+    <date year="2025" month="January" day="25"/>
+    <abstract>
+      <t>Each OSPF prefix is advertised with an 8-bit options field, using the Prefix Options (OSPFv3) and the flag field in the OSPFv2 Extended Prefix TLV (OSPFv2). However for OSPFv3, all the Prefix Options bits have already been assigned, and for OSPFv2, there are not many bits left unassigned in the OSPFv2 Extended Prefix TLV. This document solves the problem of insufficient options bit by defining variable-length Prefix Attribute Flags Sub-TLVs for OSPFv2 and OSPFv3.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lsr-ospf-prefix-extended-flags-05"/>
+</reference>
