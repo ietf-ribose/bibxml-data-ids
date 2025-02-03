@@ -1,0 +1,13 @@
+<reference anchor="I-D.nurpmeso-dkim-hash-adaptivity" target="https://datatracker.ietf.org/doc/html/draft-nurpmeso-dkim-hash-adaptivity-02">
+  <front>
+    <title>DKIM Hash Algorithm Adaptivity</title>
+    <author fullname="Steffen Nurpmeso" initials="S." surname="Nurpmeso">
+      <organization/>
+    </author>
+    <date year="2025" month="February" day="2"/>
+    <abstract>
+      <t>DKIM (RFC 6376, section 3.7) defines how "data-hash" is generated as input to a "sig-alg" for the purpose of generating a cryptographic signature. Different to the RSA algorithm (RFC 8017) solely defined for and by DKIM at the time of its creation, modern signature algorithms, for example EdDSA (RFC 8032), include extensive data hashing as part of the signing process. For these algorithms it may make sense not to create a "data-hash", but to use the entire data as input to "sig-alg". This specification allows DKIM signing algorithms "data-hash" adaptivity, taking advantage of algorithm design, and digital signature API reality.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-nurpmeso-dkim-hash-adaptivity-02"/>
+</reference>
