@@ -1,0 +1,16 @@
+<reference anchor="I-D.ietf-nfsv4-layoutwcc" target="https://datatracker.ietf.org/doc/html/draft-ietf-nfsv4-layoutwcc-06">
+  <front>
+    <title>Add LAYOUT_WCC to NFSv4.2's Flex File Layout Type</title>
+    <author fullname="Thomas Haynes" initials="T." surname="Haynes">
+      <organization>Hammerspace</organization>
+    </author>
+    <author fullname="Trond Myklebust" initials="T." surname="Myklebust">
+      <organization>Hammerspace</organization>
+    </author>
+    <date year="2025" month="February" day="6"/>
+    <abstract>
+      <t>This document specifies extensions to the parallel Network File System (NFS) version 4 (pNFS) for improving write cache consistency. These extensions introduce mechanisms that ensure partial writes performed under a pNFS layout remain coherent and correctly tracked. The solution addresses concurrency and data integrity concerns that may arise when multiple clients write to the same file through separate data servers. By defining additional interactions among clients, metadata servers, and data servers, this specification enhances the reliability of NFSv4 in parallel-access environments and ensures consistency across diverse deployment scenarios.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-nfsv4-layoutwcc-06"/>
+</reference>
