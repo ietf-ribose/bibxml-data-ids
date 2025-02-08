@@ -1,0 +1,19 @@
+<reference anchor="I-D.white-linklocal-capability" target="https://datatracker.ietf.org/doc/html/draft-white-linklocal-capability-05">
+  <front>
+    <title>Link-Local Next Hop Capability for BGP</title>
+    <author fullname="Russ White" initials="R." surname="White">
+      <organization>Akamai Technologies</organization>
+    </author>
+    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+      <organization>Nvidia</organization>
+    </author>
+    <author fullname="Donatas Abraitis" initials="D." surname="Abraitis">
+      <organization>Hostinger</organization>
+    </author>
+    <date year="2025" month="February" day="8"/>
+    <abstract>
+      <t>BGP [RFC4271], was originally designed to provide reachability between domains and between the edges of a domain. As such, BGP assumes the next hop towards any reachable destination may not reside on the advertising speaker, but rather may either be through a router connected to the same subnet as the speaker, or through a router only reachable by traversing multiple hops through the network. Because of this, as per [RFC4291] - BGP does not recognize IPv6 link-local addresses, as a valid next hop for the forwarding purposes. However, in many current deplyments, BGP peering is often deployed on point-to-point links in networks where multihop reachability of any kind is not assumed or desired (all next hops are assumed to be the speaker reachable through a directly connected point-to-point link). This is common, for instance, in data center fabrics [RFC7938]. In these situations, a global IPv6 address is not required for the advertisement of reachability information; in fact, providing global IPv6 addresses in these kinds of networks can be detrimental to Zero Touch Provisioning (ZTP). This draft standardizes the operation of BGP over a point-to-point link using link-local IPv6 addressing only.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-white-linklocal-capability-05"/>
+</reference>
