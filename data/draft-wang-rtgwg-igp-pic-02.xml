@@ -1,0 +1,19 @@
+<reference anchor="I-D.wang-rtgwg-igp-pic" target="https://datatracker.ietf.org/doc/html/draft-wang-rtgwg-igp-pic-02">
+  <front>
+    <title>IGP Prefix Independent Convergence</title>
+    <author fullname="Yue Wang" initials="Y." surname="Wang">
+      <organization>China Telecom</organization>
+    </author>
+    <author fullname="Changwang Lin" initials="C." surname="Lin">
+      <organization>New H3C Technologies</organization>
+    </author>
+    <author fullname="Aijun Wang" initials="A." surname="Wang">
+      <organization>China Telecom</organization>
+    </author>
+    <date year="2025" month="February" day="15"/>
+    <abstract>
+      <t>In many cases, a large number of routes can be reached by multiple next hops. When a link fails, route calculation needs to be performed and a new reachable path needs to be calculated. If all routes are re-calculated and refreshed, the calculation time increases linearly as the number of routes increases, resulting in a long time for route convergence. This document describes an architecture where the number of prefixes is independent. This architecture allows routes to be recalculated when paths change, regardless of the number of IGP routes.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-wang-rtgwg-igp-pic-02"/>
+</reference>
