@@ -1,0 +1,25 @@
+<reference anchor="I-D.wang-ppm-ecdh-psi" target="https://datatracker.ietf.org/doc/html/draft-wang-ppm-ecdh-psi-01">
+  <front>
+    <title>PSI based on ECDH</title>
+    <author fullname="wangyuchen" initials="" surname="wangyuchen">
+      <organization>Ant Group</organization>
+    </author>
+    <author fullname="Chang" initials="" surname="Chang">
+      <organization>Ant Group</organization>
+    </author>
+    <author fullname="Yufei Lu" initials="Y." surname="Lu">
+      <organization>Ant Group</organization>
+    </author>
+    <author fullname="Cheng Hong" initials="C." surname="Hong">
+      <organization>Ant Group</organization>
+    </author>
+    <author fullname="Jin Peng" initials="J." surname="Peng">
+      <organization>Ant Group</organization>
+    </author>
+    <date year="2025" month="February" day="16"/>
+    <abstract>
+      <t>This document describes Elliptic Curve Diffie-Hellman Private Set Intersection (ECDH-PSI) for 2 participants. It instantiates the classical Meadows match-making protocol with standard elliptic curves and hash-to-curve methods, enabling the participants to find common records in a privacy-respecting way. In ECDH-PSI, records are encoded to points on an elliptic curve, and masked by the private keys of both participants. To compute the intersection, a participant only uses the jointly masked datasets and its original dataset locally, which prevents its partner from learning the private records not in the intersection.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-wang-ppm-ecdh-psi-01"/>
+</reference>
