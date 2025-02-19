@@ -1,0 +1,16 @@
+<reference anchor="I-D.lundberg-cose-two-party-signing-algs" target="https://datatracker.ietf.org/doc/html/draft-lundberg-cose-two-party-signing-algs-00">
+  <front>
+    <title>COSE Algorithms for Two-Party Signing</title>
+    <author fullname="Emil Lundberg" initials="E." surname="Lundberg">
+      <organization>Yubico</organization>
+    </author>
+    <author fullname="Michael B. Jones" initials="M. B." surname="Jones">
+      <organization>Self-Issued Consulting</organization>
+    </author>
+    <date year="2025" month="February" day="18"/>
+    <abstract>
+      <t>This specification defines COSE algorithm identifiers used when the signing operation is performed cooperatively between two parties. When performing two-party signing, the first party typically hashes the data to be signed and the second party signs the hashed data computed by the first party. This can be useful when communication with the party holding the signing private key occurs over a limited- bandwidth channel, such as NFC or Bluetooth Low Energy (BLE), in which it is infeasible to send the complete set of data to be signed. The resulting signatures are identical in structure to those computed by a single party, and can be verified using the same verification procedure without additional steps to preprocess the signed data.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-lundberg-cose-two-party-signing-algs-00"/>
+</reference>
