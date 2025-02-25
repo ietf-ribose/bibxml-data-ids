@@ -1,0 +1,16 @@
+<reference anchor="I-D.pelov-schc-rel-fragmentation-rule-format" target="https://datatracker.ietf.org/doc/html/draft-pelov-schc-rel-fragmentation-rule-format-02">
+  <front>
+    <title>SCHC Rule Format for Reliability Fragmentation in Constrained Networks</title>
+    <author fullname="Alexander Pelov" initials="A." surname="Pelov">
+      <organization>IMT Atlantique</organization>
+    </author>
+    <author fullname="Carles Gomez" initials="C." surname="Gomez">
+      <organization>Universitat Politecnica de Catalunya/Fundacio i2CAT</organization>
+    </author>
+    <date year="2025" month="February" day="25"/>
+    <abstract>
+      <t>This document specifies a new Rule Format for Reliability Fragmentation within the SCHC framework. Building on the fragmentation mechanisms defined in RFC8724, this rule format is tailored to ensure the reliable delivery of small messages that do not trigger conventional fragmentation. A key enhancement is the inclusion of a size field, indicating the total byte-length of the message, and modifications to the state machine to support a persistent session with wrap-around windows. Two operational modes are defined: * RelNoAck: A mode derived from SCHC No-Ack fragmentation, where fragments are transmitted continuously without expecting per- fragment acknowledgments. Losses are tolerated within a configured threshold. * RelAckOnErr: A mode derived from SCHC Ack-On-Error fragmentation, where the receiver actively monitors for missing fragments and initiates recovery through explicit negative acknowledgments. These modes offer operators the flexibility to balance recovery overhead against latency and reliability requirements in constrained network environments.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-pelov-schc-rel-fragmentation-rule-format-02"/>
+</reference>

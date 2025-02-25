@@ -1,0 +1,22 @@
+<reference anchor="I-D.li-sidrops-rpki-repository-problem-statement" target="https://datatracker.ietf.org/doc/html/draft-li-sidrops-rpki-repository-problem-statement-01">
+  <front>
+    <title>RPKI Repository Problem Statement and Analysis</title>
+    <author fullname="Dan Li" initials="D." surname="Li">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Li Chen" initials="L." surname="Chen">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author fullname="Yingying Su" initials="Y." surname="Su">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author fullname="Yu Fu" initials="Y." surname="Fu">
+      <organization>China Unicom</organization>
+    </author>
+    <date year="2025" month="February" day="25"/>
+    <abstract>
+      <t>With the widespread deployment of Route Origin Authorization (ROA) and Route Origin Validation (ROV), Resource Public Key Infrastructure (RPKI) is vital for securing inter-domain routing. RPKI uses cryptographic certificates to verify the authenticity and authorization of IP address and AS number allocations and the certificates are stored in the RPKI Repository. This document conducts the data-driven analysis of the RPKI Repository, including a survey of worldwide AS administrators and a measurement and analysis of the existing RPKI Repository. This document finds that the current RPKI Repository architecture is sensitive to failures and lacks of scalability. An attack or downtime of any repository Publication Point (PP) will prevent RPs from obtaining complete RPKI object views. Furthermore, since the current RPKI Repository is not tamper-resistant, RPKI authorities can easily manipulate RPKI objects without consent from subordinate INR holders. This document also defines the key requirements for a reliable, scalable, and secure RPKI Repository.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-sidrops-rpki-repository-problem-statement-01"/>
+</reference>
