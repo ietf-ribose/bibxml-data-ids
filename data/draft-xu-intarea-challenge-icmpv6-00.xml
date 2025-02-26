@@ -1,0 +1,19 @@
+<reference anchor="I-D.xu-intarea-challenge-icmpv6" target="https://datatracker.ietf.org/doc/html/draft-xu-intarea-challenge-icmpv6-00">
+  <front>
+    <title>Enhancing ICMPv6 Error Message Authentication Using Challenge-Confirm Mechanism</title>
+    <author fullname="Ke Xu" initials="K." surname="Xu">
+      <organization>Tsinghua University &amp; Zhongguancun Laboratory</organization>
+    </author>
+    <author fullname="Xuewei Feng" initials="X." surname="Feng">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Ao Wang" initials="A." surname="Wang">
+      <organization>Southeast University</organization>
+    </author>
+    <date year="2025" month="February" day="26"/>
+    <abstract>
+      <t>As well as the Internet Control Message Protocol for IPv4 (ICMPv4), the Internet Control Message Protocol for IPv6 (ICMPv6) is significant for network diagnostics and error reporting. However, like ICMPv4, ICMPv6 is also vulnerable to off-path forgery, making it difficult for the receiver to verify the legitimacy of a received ICMPv6 error message, particularly when the message contains stateless protocol data (e.g., the message includes a UDP/ICMPv6 packet). Consequently, adversaries on the Internet can forge ICMPv6 error messages carrying stateless protocol data, leading the receiver to erroneously accept the forged message and respond to it. This document proposes enhancement to ICMPv6 by introducing a challenge- confirm mechanism that leverages random numbers embedded in the IPv6 Extension Headers. The enhancement aims to strengthen the authentication of ICMPv6 error messages, thereby mitigating the risks associated with forged messages and improving the overall robustness of the protocol.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-xu-intarea-challenge-icmpv6-00"/>
+</reference>
