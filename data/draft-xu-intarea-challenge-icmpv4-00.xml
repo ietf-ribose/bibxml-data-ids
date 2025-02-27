@@ -1,0 +1,22 @@
+<reference anchor="I-D.xu-intarea-challenge-icmpv4" target="https://datatracker.ietf.org/doc/html/draft-xu-intarea-challenge-icmpv4-00">
+  <front>
+    <title>Enhancing ICMP Error Message Authentication Using Challenge-Confirm Mechanism</title>
+    <author fullname="Ke Xu" initials="K." surname="Xu">
+      <organization>Tsinghua University &amp; Zhongguancun Laboratory</organization>
+    </author>
+    <author fullname="Xuewei Feng" initials="X." surname="Feng">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Yuxiang Yang" initials="Y." surname="Yang">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Li Qi" initials="L." surname="Qi">
+      <organization>Tsinghua University &amp; Zhongguancun Laboratory</organization>
+    </author>
+    <date year="2025" month="February" day="26"/>
+    <abstract>
+      <t>The Internet Control Message Protocol (ICMP) plays a crucial role in network diagnostics and error reporting. However, it is a challenge to verify the legitimacy of a received ICMP error message, particularly when the ICMP error message is embedded with stateless protocol data. As a result, adversaries can forge ICMP error messages, leading to potential exploitation and off-path attacks. This document proposes a novel method to enhance ICMP authentication by introducing a challenge-confirm mechanism. This mechanism embeds random numbers in the IP options field to strengthen the authentication of ICMP error messages. By doing so, it mitigates the risks associated with forged messages, improves the overall robustness of the protocol, and enhances network security. The proposed solution includes details on the challenge-confirm mechanism, random number generation and management, and integration with IP options. Additionally, it discusses security and deployment considerations to ensure its practical implementation.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-xu-intarea-challenge-icmpv4-00"/>
+</reference>

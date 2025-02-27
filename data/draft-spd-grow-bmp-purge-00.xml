@@ -1,0 +1,16 @@
+<reference anchor="I-D.spd-grow-bmp-purge" target="https://datatracker.ietf.org/doc/html/draft-spd-grow-bmp-purge-00">
+  <front>
+    <title>Support for BMP RIB Purge Notification</title>
+    <author fullname="Tarek Saad" initials="T." surname="Saad">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author fullname="Narasimha Prasad" initials="N." surname="Prasad">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <date year="2025" month="February" day="26"/>
+    <abstract>
+      <t>This document describes a mechanism to notify a BMP collector of the need to purge the state associated with a RIB view of a specific peer. This is useful, for example, when the BMP sender decides to stop exporting a specific RIB view after providing an initial export. The BMP collector can use the per-peer Purge message to take appropriate action to remove the stale state and avoid holding on to irrelevant network data.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-spd-grow-bmp-purge-00"/>
+</reference>
