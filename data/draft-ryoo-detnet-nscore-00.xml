@@ -1,0 +1,16 @@
+<reference anchor="I-D.ryoo-detnet-nscore" target="https://datatracker.ietf.org/doc/html/draft-ryoo-detnet-nscore-00">
+  <front>
+    <title>Non-work Conserving Stateless Core Fair Queuing</title>
+    <author fullname="Yeoncheol Ryoo" initials="Y." surname="Ryoo">
+      <organization>ETRI</organization>
+    </author>
+    <author fullname="Jinoo Joung" initials="J." surname="Joung">
+      <organization>Sangmyung University</organization>
+    </author>
+    <date year="2025" month="February" day="27"/>
+    <abstract>
+      <t>This document specifies the framework and operational procedure for deterministic networking that guarantees maximum and minimum end-to- end latency bounds to flows. The solution has non-periodic, asynchronous, flow-level, non-work conserving, on-time, and rate- based functional characteristics, according to the taxonomy suggested by [draft-ietf-detnet-dataplane-taxonomy-02]. The packets are stored in the queue in ascending order of the ideal service start time, called Eligible Time (ET), and the ideal service completion time, called Finish Time (FT). The queued packets were forwarded between ET and FT in a non-work conserving manner. The ET and FT are calculated at the entrance node according to the packet size and rate of the flow. All subsequent core nodes are stateless and asynchronously compute ET and FT based on metadata received via packet headers. This mechanism is called non-work-preserving stateless fair queuing, which guarantees both E2E latency upper and lower bounds.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ryoo-detnet-nscore-00"/>
+</reference>

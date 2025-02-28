@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-roll-dao-projection" target="https://datatracker.ietf.org/doc/html/draft-ietf-roll-dao-projection-39">
+  <front>
+    <title>Root-initiated Routing State in RPL</title>
+    <author fullname="Pascal Thubert" initials="P." surname="Thubert">
+      <organization/>
+    </author>
+    <author fullname="Rahul Jadhav" initials="R." surname="Jadhav">
+      <organization>Huawei Tech</organization>
+    </author>
+    <author fullname="Michael Richardson" initials="M." surname="Richardson">
+      <organization>Sandelman Software Works</organization>
+    </author>
+    <date year="2025" month="February" day="27"/>
+    <abstract>
+      <t>The Routing Protocol for Low-Power and Lossy Networks (RPL, RFC 6550) enables data packet routing along a Destination-Oriented Directed Acyclic Graph. However, the default route establishment mechanism relies on hop-by-hop forwarding along the DODAG, which may not always provide optimal routing efficiency. This document introduces the concept of DAO Projection, a mechanism that allows a RPL root or an external controller to install optimized routes within the RPL domain. DAO Projections enable the creation of optimized unicast or multicast routes that do not strictly follow the DODAG structure, thereby improving routing efficiency, reliability, availability, and resource utilization in the RPL domain. The document specifies two types of projected routes—storing mode and non-storing mode projections—and outlines the signaling procedures necessary to establish, maintain, and remove these routes. This document extends RFC 6550, RFC 6553, and RFC 8138.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-roll-dao-projection-39"/>
+</reference>

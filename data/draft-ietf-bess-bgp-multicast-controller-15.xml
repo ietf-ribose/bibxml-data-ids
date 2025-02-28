@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-bess-bgp-multicast-controller" target="https://datatracker.ietf.org/doc/html/draft-ietf-bess-bgp-multicast-controller-15">
+  <front>
+    <title>Controller-based BGP Multicast Signaling</title>
+    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Robert Raszuk" initials="R." surname="Raszuk">
+      <organization>Arrcus</organization>
+    </author>
+    <author fullname="Dante Pacella" initials="D." surname="Pacella">
+      <organization>Verizon</organization>
+    </author>
+    <author fullname="Arkadiy Gulko" initials="A." surname="Gulko">
+      <organization>Edward Jones Wealth Management</organization>
+    </author>
+    <date year="2025" month="February" day="27"/>
+    <abstract>
+      <t>This document specifies a way that one or more centralized controllers can use BGP to set up multicast distribution trees (identified by either IP source/destination address pair, or mLDP FEC) in a network. Since the controllers calculate the trees, they can use sophisticated algorithms and constraints to achieve traffic engineering. The controllers directly signal dynamic replication state to tree nodes, leading to very simple multicast control plane on the tree nodes, as if they were using static routes. This can be used for both underlay and overlay multicast trees, including replacing BGP-MVPN signaling.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-bess-bgp-multicast-controller-15"/>
+</reference>
