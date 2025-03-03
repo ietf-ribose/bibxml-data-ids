@@ -1,0 +1,16 @@
+<reference anchor="I-D.ietf-core-groupcomm-proxy" target="https://datatracker.ietf.org/doc/html/draft-ietf-core-groupcomm-proxy-04">
+  <front>
+    <title>Proxy Operations for CoAP Group Communication</title>
+    <author fullname="Marco Tiloca" initials="M." surname="Tiloca">
+      <organization>RISE AB</organization>
+    </author>
+    <author fullname="Esko Dijk" initials="E." surname="Dijk">
+      <organization>IoTconsultancy.nl</organization>
+    </author>
+    <date year="2025" month="March" day="3"/>
+    <abstract>
+      <t>This document specifies the operations performed by a proxy, when using the Constrained Application Protocol (CoAP) in group communication scenarios. Such a proxy processes a single request sent by a client typically over unicast, and distributes the request to a group of servers, e.g., over UDP/IP multicast as the defined default transport protocol. Then, the proxy collects the individual responses from those servers and relays those responses back to the client, in a way that allows the client to distinguish the responses and their origin servers through embedded addressing information. This document updates RFC7252 with respect to caching of response messages at proxies.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-core-groupcomm-proxy-04"/>
+</reference>

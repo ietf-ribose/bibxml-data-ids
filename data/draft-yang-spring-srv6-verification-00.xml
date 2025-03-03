@@ -1,0 +1,19 @@
+<reference anchor="I-D.yang-spring-srv6-verification" target="https://datatracker.ietf.org/doc/html/draft-yang-spring-srv6-verification-00">
+  <front>
+    <title>SRv6 Path Verification</title>
+    <author fullname="Feng Yang" initials="F." surname="Yang">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Xiaoqiu Zhang" initials="X." surname="Zhang">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Changwang Lin" initials="C." surname="Lin">
+      <organization>New H3C Technologies</organization>
+    </author>
+    <date year="2025" month="March" day="2"/>
+    <abstract>
+      <t>This document proposes a path verification mechanism for SRv6, which adopts a hop-by-hop cryptographic computation on the destination segment identifier at each node, combined with an end-to-end verification at the last hop. Although the HMAC mechanism specified in RFC 8754 can verify the integrity of the entire SID List, if we want to force the SRv6 endpoints the packet must pass through during forwarding, it is necessary to retain some information each time the packet passes through an SRv6 endpoint. This draft proposes an enhancement to HMAC specificed by RFC 8754 that provides the capability to enforce the packet's forwarding path to go through all or certain SRv6 endpoints in the SID List. And this approach also significantly reduces the processing overhead associated with hop- by-hop path verification.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-yang-spring-srv6-verification-00"/>
+</reference>

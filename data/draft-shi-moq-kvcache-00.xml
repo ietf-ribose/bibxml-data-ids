@@ -1,0 +1,13 @@
+<reference anchor="I-D.shi-moq-kvcache" target="https://datatracker.ietf.org/doc/html/draft-shi-moq-kvcache-00">
+  <front>
+    <title>KVCache over MoQT</title>
+    <author fullname="Hang Shi" initials="H." surname="Shi">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date year="2025" month="March" day="3"/>
+    <abstract>
+      <t>Large language model (LLM) inference involves two stages: prefill and decode. The prefill phase processes the prompt in parallel, generating the KVCache, which is then used by the decode phase to produce tokens sequentially. KVCache can be reused if the model and prompt is the same, reducing computing cost of the prefill. However, its large size makes efficient transfer challenging. Delivering these over architectures enabled by publish/subscribe transport like MoQT, allows local nodes to cache the KVCache to be later retrieved via new subscriptions, saving the bandwidth. This document specifies the transmission of KVCache over MoQT.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-shi-moq-kvcache-00"/>
+</reference>

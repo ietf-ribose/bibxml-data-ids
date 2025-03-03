@@ -1,0 +1,19 @@
+<reference anchor="I-D.li-quic-nat-optimization" target="https://datatracker.ietf.org/doc/html/draft-li-quic-nat-optimization-00">
+  <front>
+    <title>QUIC NAT</title>
+    <author fullname="Zhiqiang Li" initials="Z." surname="Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Wei Cheng" initials="W." surname="Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author fullname="Junjie Wang" initials="J." surname="Wang">
+      <organization>Centec</organization>
+    </author>
+    <date year="2025" month="March" day="3"/>
+    <abstract>
+      <t>QUIC uses UDP as its transport layer protocol. Many existing NAT routers rely on observing TCP SYN, ACK, and FIN packets to determine the establishment and termination of connections, thereby precisely maintaining the lifecycle of NAT mapping entries. For QUIC, NAT devices can only manage mapping entries based on ordinary UDP aging mechanisms, which may cause NAT entries for long-lived QUIC connections to be prematurely aged and re-bound, resulting in changes to source ports. This document proposes a solution that extends the IP header options field to identify QUIC connections, facilitating NAT devices that do not recognize QUIC to accurately determine the lifecycle of QUIC connections and prevent random aging and re-mapping of long-lived QUIC connections.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-quic-nat-optimization-00"/>
+</reference>
