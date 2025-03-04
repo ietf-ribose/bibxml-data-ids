@@ -1,0 +1,25 @@
+<reference anchor="I-D.wkumari-intarea-safe-limited-domains" target="https://datatracker.ietf.org/doc/html/draft-wkumari-intarea-safe-limited-domains-04">
+  <front>
+    <title>Safe(r) Limited Domains</title>
+    <author fullname="Warren &quot;Ace&quot; Kumari" initials="W. A." surname="Kumari">
+      <organization>Google, LLC</organization>
+    </author>
+    <author fullname="Andrew Alston" initials="A." surname="Alston">
+      <organization>Alston Networks</organization>
+    </author>
+    <author fullname="Éric Vyncke" initials="E." surname="Vyncke">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Suresh Krishnan" initials="S." surname="Krishnan">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Donald E. Eastlake 3rd" initials="D. E." surname="Eastlake">
+      <organization>Independent</organization>
+    </author>
+    <date year="2025" month="March" day="3"/>
+    <abstract>
+      <t>Documents describing protocols that are only intended to be used within "limited domains" often do not clearly define how the boundary of the limited domain is implemented and enforced, or require that operators of these limited domains perfectly filter at all of the boundary nodes of the domain to protect the rest of the global Internet from these protocols and vice-versa. This document discusses some design principles and offers mechanisms to allow protocols that are designed to operate in a limited domain "fail-closed" rather than "fail-open", thereby making these protocols safer to deploy on the Internet. These mechanism are not applicable to all protocols intended for use in a limited domain, but if implemented on certain classes of protocols, they can significantly reduce the risks.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-wkumari-intarea-safe-limited-domains-04"/>
+</reference>

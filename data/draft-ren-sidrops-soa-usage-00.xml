@@ -1,0 +1,19 @@
+<reference anchor="I-D.ren-sidrops-soa-usage" target="https://datatracker.ietf.org/doc/html/draft-ren-sidrops-soa-usage-00">
+  <front>
+    <title>Source Address Validation Using Source Address Authorizations (SOAs)</title>
+    <author fullname="Ren Gang" initials="R." surname="Gang">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Minglin Jia" initials="M." surname="Jia">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Xia Yin" initials="X." surname="Yin">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date year="2025" month="March" day="3"/>
+    <abstract>
+      <t>Given that an AS collaboration scheme for inter-domain source address validation requires an information-sharing platform, this document proposes a new approach by leveraging Resource Public Key Infrastructure (RPKI) architecture to validate the authenticity of source address of packets. Source Address Authorization (SOA) is a newly defined cryptographically signed object; it provides a means of recording information about the last Autonomous System (AS) traversed by packets before reaching a specific AS. When validated, the eContent of an SOA object confirms that the holder of the listed AS Number (ASN) has authorized the specified pre-ASes. This enables other ASes to collaboratively filter spoofed traffic, enhancing global Internet security by mitigating source address spoofing and DDoS attacks.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ren-sidrops-soa-usage-00"/>
+</reference>

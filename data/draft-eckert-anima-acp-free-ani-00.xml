@@ -1,0 +1,16 @@
+<reference anchor="I-D.eckert-anima-acp-free-ani" target="https://datatracker.ietf.org/doc/html/draft-eckert-anima-acp-free-ani-00">
+  <front>
+    <title>ACP free "Automation Network Infrastructure" for simple in-network automation (aNI)</title>
+    <author fullname="Toerless Eckert" initials="T. T." surname="Eckert">
+      <organization>Futurewei Technologies USA</organization>
+    </author>
+    <author fullname="Bing Liu" initials="B." surname="Liu">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date year="2025" month="March" day="3"/>
+    <abstract>
+      <t>This document describes how to to build the software infrastructure for distributed automation agents using a lightweight variation of the "Autonomic Networking Infrastructure" (ANI), by using the existing ANI domain keying material (certificates and trust anchors) as well as the protocols GRASP and BRSKI protocols, but eliminating the expensive to implement "Autonomic Control Plane" (ACP) and adding proxying "Autonomic Software Agents" (ASA) instead. The resulting infrastructure is called "automation Network Infrastructure" and can be implemented solely as application level software components on routers, switches or co-located managemenet devices, avoiding the need to change any router or switches forwarding or control-plane protocols. The aNI achieves mosts of the benefits of the ANI but foregoes the ability to easily make pre-existing, insecure control-plane protocols secure or provide all the same protection against operator or SDN controller misconfigurations that the ACP provides.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-eckert-anima-acp-free-ani-00"/>
+</reference>

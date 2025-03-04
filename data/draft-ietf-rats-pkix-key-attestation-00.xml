@@ -1,0 +1,28 @@
+<reference anchor="I-D.ietf-rats-pkix-key-attestation" target="https://datatracker.ietf.org/doc/html/draft-ietf-rats-pkix-key-attestation-00">
+  <front>
+    <title>PKIX Key Attestation</title>
+    <author fullname="Mike Ounsworth" initials="M." surname="Ounsworth">
+      <organization>Entrust Limited</organization>
+    </author>
+    <author fullname="Jean-Pierre Fiset" initials="J." surname="Fiset">
+      <organization>Crypto4A Inc.</organization>
+    </author>
+    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+      <organization>University of Applied Sciences Bonn-Rhein-Sieg</organization>
+    </author>
+    <author fullname="Henk Birkholz" initials="H." surname="Birkholz">
+      <organization>Fraunhofer SIT</organization>
+    </author>
+    <author fullname="Monty Wiseman" initials="M." surname="Wiseman">
+      <organization>Beyond Identity</organization>
+    </author>
+    <author fullname="Ned Smith" initials="N." surname="Smith">
+      <organization>Intel Corporation</organization>
+    </author>
+    <date year="2025" month="March" day="3"/>
+    <abstract>
+      <t>This document specifies a vendor-agnostic format for attesting to the protection properties of a symmetric or asymmetric cryptographic key within a hardware cryptographic module to support applications such as providing evidence to a Certification Authority that a key is being protected in accordance with the requested certificate profile, or that HSMs can perform key import and maintain the private key protection properties in a robust way even when migrating keys across HSM vendors. This specification includes a format for requesting a key attestation containing certain attributes. This specification is called "PKIX Attestation" because it is designed to be easy to implement on top of a code base that already supports X.509 and PKCS#11 data models.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-rats-pkix-key-attestation-00"/>
+</reference>

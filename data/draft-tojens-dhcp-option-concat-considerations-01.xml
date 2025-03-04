@@ -1,0 +1,16 @@
+<reference anchor="I-D.tojens-dhcp-option-concat-considerations" target="https://datatracker.ietf.org/doc/html/draft-tojens-dhcp-option-concat-considerations-01">
+  <front>
+    <title>DHCP Option Concatenation Considerations</title>
+    <author fullname="Tommy Jensen" initials="T." surname="Jensen">
+      <organization>Microsoft</organization>
+    </author>
+    <author fullname="Milan Justel" initials="M." surname="Justel">
+      <organization>Microsoft</organization>
+    </author>
+    <date year="2025" month="March" day="3"/>
+    <abstract>
+      <t>DHCP has a length limit of 255 on individual options because of its one-byte length field for options. To accommodate longer options, splitting option data across multiple instances of the same Option Type is defined by RFC 3396. However, this mechanism was defined to require support for all option types. This has led to real-world implementations in the years since the RFC was published to deviate from these requirements to avoid breaking basic functionality. This document updates RFC 3396 to be more flexible regarding when DHCP agents are required to concatenate options to reflect deployement experiences.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-tojens-dhcp-option-concat-considerations-01"/>
+</reference>

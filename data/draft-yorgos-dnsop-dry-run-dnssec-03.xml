@@ -1,0 +1,19 @@
+<reference anchor="I-D.yorgos-dnsop-dry-run-dnssec" target="https://datatracker.ietf.org/doc/html/draft-yorgos-dnsop-dry-run-dnssec-03">
+  <front>
+    <title>dry-run DNSSEC</title>
+    <author fullname="Yorgos Thessalonikefs" initials="Y." surname="Thessalonikefs">
+      <organization>NLnet Labs</organization>
+    </author>
+    <author fullname="Willem Toorop" initials="W." surname="Toorop">
+      <organization>NLnet Labs</organization>
+    </author>
+    <author fullname="Roy Arends" initials="R." surname="Arends">
+      <organization>ICANN</organization>
+    </author>
+    <date year="2025" month="March" day="3"/>
+    <abstract>
+      <t>This document describes a method called "dry-run DNSSEC" that allows for testing DNSSEC deployments without affecting the DNS service in case of DNSSEC errors. It accomplishes that by introducing new DS Type Digest Algorithms that when used in a DS record, referred to as dry-run DS, signal to validating resolvers that dry-run DNSSEC is used for the zone. DNSSEC errors are then reported with DNS Error Reporting, but any bogus responses to clients are withheld. Instead, validating resolvers fallback from dry-run DNSSEC and provide the response that would have been answered without the presence of a dry- run DS. A further EDNS option is presented for clients to opt-in for dry-run DNSSEC errors and allow for end-to-end DNSSEC testing.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-yorgos-dnsop-dry-run-dnssec-03"/>
+</reference>

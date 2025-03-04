@@ -1,0 +1,19 @@
+<reference anchor="I-D.kriswamy-bess-evpn-perflow-df" target="https://datatracker.ietf.org/doc/html/draft-kriswamy-bess-evpn-perflow-df-00">
+  <front>
+    <title>Per-flow based EVPN DF Election</title>
+    <author fullname="Krishnaswamy Ananthamurthy" initials="K." surname="Ananthamurthy">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Ali Sajassi" initials="A." surname="Sajassi">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Lukas Krattiger" initials="L." surname="Krattiger">
+      <organization>Cisco</organization>
+    </author>
+    <date year="2025" month="March" day="3"/>
+    <abstract>
+      <t>The Ethernet Virtual Private Network (EVPN) solution offers procedures for electing a Designated Forwarder (DF) for multihomed Ethernet Segments. In this context, the Provider Edge (PE) router is responsible for sending Broadcast, Unknown Unicast, and Multicast (BUM) traffic to a multihomed device or network. This applies in cases of an all-active multihomed Ethernet Segment (ES) as well as for BUM and unicast traffic in the case of single-active multi- homing. While the Default Algorithm provides an efficient and automated way of selecting the DF across different Ethernet Tags in the Ethernet Segment, but lacks in providing per flow based DF within the given EVPN Instances (EVIs).</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-kriswamy-bess-evpn-perflow-df-00"/>
+</reference>
