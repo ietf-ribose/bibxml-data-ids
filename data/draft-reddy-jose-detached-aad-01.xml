@@ -1,0 +1,16 @@
+<reference anchor="I-D.reddy-jose-detached-aad" target="https://datatracker.ietf.org/doc/html/draft-reddy-jose-detached-aad-01">
+  <front>
+    <title>Enhanced JWE Security with Detached Additional Authenticated Data (AAD)</title>
+    <author fullname="Tirumaleswar Reddy.K" initials="T." surname="Reddy.K">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+      <organization>University of Applied Sciences Bonn-Rhein-Sieg</organization>
+    </author>
+    <date year="2025" month="March" day="15"/>
+    <abstract>
+      <t>This draft introduces a mechanism to support detached Additional Authenticated Data (AAD) in JWE (JSON Web Encryption), allowing the AAD to be derived from context-specific information, such as session identifiers, algorithm identifiers, and identifiers of communication endpoints, rather than being transmitted in-band. This mechanism strengthens security by mitigating risk against unknown-key-share attacks and/or other exploitation techniques that depend on some type of confusion over the role played by each party. The document explains how to integrate this functionality into JWE, covering both JWE JSON Serialization and JWE Compact Serialization.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-reddy-jose-detached-aad-01"/>
+</reference>
