@@ -1,0 +1,13 @@
+<reference anchor="I-D.kohbrok-mls-decentralized-mls" target="https://datatracker.ietf.org/doc/html/draft-kohbrok-mls-decentralized-mls-00">
+  <front>
+    <title>Decentralized Messaging Layer Security</title>
+    <author fullname="Konrad Kohbrok" initials="K." surname="Kohbrok">
+      <organization>Phoenix R&amp;D</organization>
+    </author>
+    <date year="2025" month="March" day="17"/>
+    <abstract>
+      <t>Messaging Layer Security provides strong end-to-end security guarantees for group messaging including Forward Secrecy (FS) and Post-Compromise Security (PCS). However, MLS requires a Delivery Service (DS) to facilitate agreement between group members on the order of Commit messages. In decentralized settings the only way to implement a functional DS is to require group members to retain key material so they can process commits out-of-order. Retaining key material this way is in violation of the MLS deletion schedule and significantly reduces the FS of the protocol. This draft specifies Decentralized MLS, based on the the Fork-Resilient Continuous Group Key Agreement protocol FREEK proposed by Alwen et al. [FRCGKA]. In essence, DMLS extends MLS such that key material can be retained to process Commits out-of-order with minimal losses to FS, thus allowing safer deployment in decentralized environments.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-kohbrok-mls-decentralized-mls-00"/>
+</reference>
