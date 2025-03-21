@@ -1,0 +1,28 @@
+<reference anchor="I-D.birgelee-lamps-caa-security" target="https://datatracker.ietf.org/doc/html/draft-birgelee-lamps-caa-security-02">
+  <front>
+    <title>CAA Security Tag for Cryptographically-Constrained Domain Validation</title>
+    <author fullname="Henry Birge-Lee" initials="H." surname="Birge-Lee">
+      <organization>Princeton University</organization>
+    </author>
+    <author fullname="Grace Cimaszewski" initials="G." surname="Cimaszewski">
+      <organization>Princeton University</organization>
+    </author>
+    <author fullname="Cyrill Krähenbühl" initials="C." surname="Krähenbühl">
+      <organization>Princeton University</organization>
+    </author>
+    <author fullname="Liang Wang" initials="L." surname="Wang">
+      <organization>Princeton University</organization>
+    </author>
+    <author fullname="Aaron Gable" initials="A." surname="Gable">
+      <organization>ISRG</organization>
+    </author>
+    <author fullname="Prateek Mittal" initials="P." surname="Mittal">
+      <organization>Princeton University</organization>
+    </author>
+    <date year="2025" month="March" day="21"/>
+    <abstract>
+      <t>Cryptographic domain validation procedures leverage authenticated communication channels to ensure resilience against attacks by both on-path and off-path network adversaries which may be located between the Certification Authority (CA) and the network resources related to the domain contained in the certificate. Domain owners can leverage "security" Property Tags specified in CAA records (defined in [RFC8659]) with the critical flag set, to ensure that CAs perform cryptographically-constrained domain validation during their issuance procedure, hence defending against global man-in-the-middle adversaries. This document defines the syntax of the CAA security Property as well as acceptable means for cryptographically- constrained domain validation procedures.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-birgelee-lamps-caa-security-02"/>
+</reference>
