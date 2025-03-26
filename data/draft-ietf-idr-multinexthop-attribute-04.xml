@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-idr-multinexthop-attribute" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-multinexthop-attribute-04">
+  <front>
+    <title>BGP MultiNexthop Attribute</title>
+    <author fullname="Kaliraj Vairavakkalai" initials="K." surname="Vairavakkalai">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Jeyananth Minto Jeganathan" initials="J. M." surname="Jeganathan">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Mohan Nanduri" initials="M." surname="Nanduri">
+      <organization>Microsoft</organization>
+    </author>
+    <author fullname="Avinash Reddy Lingala" initials="A. R." surname="Lingala">
+      <organization>AT&amp;T</organization>
+    </author>
+    <date year="2025" month="March" day="25"/>
+    <abstract>
+      <t>Today, a BGP speaker can advertise one nexthop for a set of NLRIs in an Update message. This nexthop can be encoded in either the top- level BGP-Nexthop attribute (code 3), or inside the MP_REACH_NLRI attribute (code 14). Forwarding information related to the nexthop is scattered across various attributes, extended communities or the NLRI field. This document defines a new optional non-transitive BGP attribute called "MultiNexthop (MNH)" with IANA code TBD. The MNH provides two things: it allows carrying the Nexthop and related forwarding information in one BGP attribute. The MNH also enables carrying an ordered set of multiple Nexthops in the same attribute, with forwarding information scoped on a per Nexthop basis.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-multinexthop-attribute-04"/>
+</reference>
