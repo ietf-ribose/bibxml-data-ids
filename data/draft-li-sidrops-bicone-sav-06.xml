@@ -1,0 +1,22 @@
+<reference anchor="I-D.li-sidrops-bicone-sav" target="https://datatracker.ietf.org/doc/html/draft-li-sidrops-bicone-sav-06">
+  <front>
+    <title>Bicone Source Address Validation</title>
+    <author fullname="Lancheng Qin" initials="L." surname="Qin">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author fullname="Dan Li" initials="D." surname="Li">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Li Chen" initials="L." surname="Chen">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author fullname="Libin Liu" initials="L." surname="Liu">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <date year="2025" month="March" day="30"/>
+    <abstract>
+      <t>The primary design goal of source address validation (SAV) is avoiding improper blocks (i.e., blocking legitimate traffic) while maintaining directionality, especially in partial deployment scenarios (see [I-D.ietf-savnet-inter-domain-problem-statement] and [RFC8704]). Existing advanced SAV solutions (e.g., EFP-uRPF [RFC8704]) typically generate ingress SAV allowlist filters on interfaces facing a customer or lateral peer AS. This document analyzes the potential improper block problems when using an allowlist. To avoid improper blocks, this document proposes a new SAV solution by generating an ingress SAV blocklist filter based on BGP updates, ROAs, and ASPAs related to the provider cone. In practice, network operators can flexibly decide to use a blocklist or an allowlist according to their requirements and actual conditions.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-sidrops-bicone-sav-06"/>
+</reference>
