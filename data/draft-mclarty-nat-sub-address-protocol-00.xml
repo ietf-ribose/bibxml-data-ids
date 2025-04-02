@@ -1,0 +1,13 @@
+<reference anchor="I-D.mclarty-nat-sub-address-protocol" target="https://datatracker.ietf.org/doc/html/draft-mclarty-nat-sub-address-protocol-00">
+  <front>
+    <title>NAT Sub Address Protocol</title>
+    <author fullname="Daniel McLarty" initials="D." surname="McLarty">
+      <organization>Independent</organization>
+    </author>
+    <date year="2025" month="April" day="1"/>
+    <abstract>
+      <t>This document defines the NAT Sub-Address Protocol (NATSAP), a Layer 5 encapsulation protocol designed to facilitate seamless bidirectional communication with devices behind Carrier-Grade NAT (CG NAT). NATSAP introduces dynamic sub-addresses assigned by the NAT router, which external clients can use alongside the public IP to route traffic back to internal devices without requiring traditional port forwarding. This document also defines the Dynamic Sub-Address Assignment Protocol (DSAAP), to facilitate the acquiring of a NATSAP Sub-Address. The protocol offers backward compatibility with existing IPv4 infrastructure, efficient DNS-based service discovery, and simple, stateless mapping. By encapsulating application-layer traffic, NATSAP enables direct communication with devices behind NATs using a standardized socket notation and DNS records.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-mclarty-nat-sub-address-protocol-00"/>
+</reference>
