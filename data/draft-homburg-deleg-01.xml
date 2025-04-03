@@ -1,0 +1,22 @@
+<reference anchor="I-D.homburg-deleg" target="https://datatracker.ietf.org/doc/html/draft-homburg-deleg-01">
+  <front>
+    <title>Extensible Delegation for DNS</title>
+    <author fullname="Philip Homburg" initials="P." surname="Homburg">
+      <organization>NLnet Labs</organization>
+    </author>
+    <author fullname="Tim Wicinski" initials="T." surname="Wicinski">
+      <organization>Cox Communications</organization>
+    </author>
+    <author fullname="Jesse van Zutphen" initials="J." surname="van Zutphen">
+      <organization>University of Amsterdam</organization>
+    </author>
+    <author fullname="Willem Toorop" initials="W." surname="Toorop">
+      <organization>NLnet Labs</organization>
+    </author>
+    <date year="2025" month="April" day="3"/>
+    <abstract>
+      <t>This document proposes a mechanism for extensible delegations in the DNS. The mechanism realizes delegations with resource record sets placed below a _deleg label in the apex of the delegating zone. This authoritative delegation point can be aliased to other names using CNAME and DNAME. This document proposes a new DNS resource record type, IDELEG, which is based on the SVCB and inherits extensibility from it. IDELEG RRsets containing delegation information will be returned in the authority section in referral responses from supportive authoritative name servers. Lack of support in the authoritative name servers, forwarders or other components, does not obstruct obtaining the delegation information for resolvers, as it is originally authoritative information that can be queried for directly. None, mixed or full deployment of the mechanism on authoritative name servers are all fully functional, allowing for the mechanism to be incrementally deployed on the authoritative name servers.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-homburg-deleg-01"/>
+</reference>
