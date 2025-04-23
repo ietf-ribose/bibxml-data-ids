@@ -1,0 +1,19 @@
+<reference anchor="I-D.wang-lamps-root-ca-cert-rekeying" target="https://datatracker.ietf.org/doc/html/draft-wang-lamps-root-ca-cert-rekeying-02">
+  <front>
+    <title>Root CA Certificate Rekeying in the Scenario of Post Quantum Migration</title>
+    <author fullname="Guilin WANG" initials="G." surname="WANG">
+      <organization>Huawei Int. Pte Ltd</organization>
+    </author>
+    <author fullname="Yanjiang Yang" initials="Y." surname="Yang">
+      <organization>Huawei Int. Pte Ltd</organization>
+    </author>
+    <author fullname="Jie Zhang" initials="J." surname="Zhang">
+      <organization>Huawei Tech. Ltd</organization>
+    </author>
+    <date year="2025" month="April" day="22"/>
+    <abstract>
+      <t>In the public key infrastructures (PKIs), root certifcation authority (CA) certificate rekeying is crucial to guarantee business continuity. Two approaches are given in [RFC4210] for entities which are belonging to different generations to verify each other's certificate chain. However, these approaches rely on the assumption that the old entities can be updated. In this draft, we propose a one-way link certificate based solution such that old entities are transparent to root CA certificate rekeying. Namely, during the overlapping lifetime of two root CA certificates, without any update in old entities, old and new entities can verify each other's certificate chain smoothly. Furthermore, the proposed solution works in both traditional PKIs, and post-quantum (PQ) PKIs, where the cerficate can be pure PQ ones or hybrid ones.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-wang-lamps-root-ca-cert-rekeying-02"/>
+</reference>

@@ -1,0 +1,13 @@
+<reference anchor="I-D.mahy-mls-ratchet-tree-options" target="https://datatracker.ietf.org/doc/html/draft-mahy-mls-ratchet-tree-options-02">
+  <front>
+    <title>Ways to convey the Ratchet Tree in Messaging Layer Security</title>
+    <author fullname="Rohan Mahy" initials="R." surname="Mahy">
+      <organization>Rohan Mahy Consulting Services</organization>
+    </author>
+    <date year="2025" month="April" day="22"/>
+    <abstract>
+      <t>The Messaging Layer Security (MLS) protocol needs to share its ratchet_tree object to welcome new clients into a group and in external joins. While the protocol only defines a mechanism for sharing the entire tree, most implementations use various optimizations to avoid sending this structure repeatedly in large groups. This document describes a way to convey these improvements in a standardized way and to convey the parts of a GroupInfo object that are not visible to an intermediary server.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-mahy-mls-ratchet-tree-options-02"/>
+</reference>
