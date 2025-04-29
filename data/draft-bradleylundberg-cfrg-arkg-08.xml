@@ -1,0 +1,16 @@
+<reference anchor="I-D.bradleylundberg-cfrg-arkg" target="https://datatracker.ietf.org/doc/html/draft-bradleylundberg-cfrg-arkg-08">
+  <front>
+    <title>The Asynchronous Remote Key Generation (ARKG) algorithm</title>
+    <author fullname="Emil Lundberg" initials="E." surname="Lundberg">
+      <organization>Yubico</organization>
+    </author>
+    <author fullname="John Bradley" initials="J." surname="Bradley">
+      <organization>Yubico</organization>
+    </author>
+    <date year="2025" month="April" day="29"/>
+    <abstract>
+      <t>Asynchronous Remote Key Generation (ARKG) is an abstract algorithm that enables delegation of asymmetric public key generation without giving access to the corresponding private keys. This capability enables a variety of applications: a user agent can generate pseudonymous public keys to prevent tracking; a message sender can generate ephemeral recipient public keys to enhance forward secrecy; two paired authentication devices can each have their own private keys while each can register public keys on behalf of the other. This document provides three main contributions: a specification of the generic ARKG algorithm using abstract primitives; a set of formulae for instantiating the abstract primitives using concrete primitives; and an initial set of fully specified concrete ARKG instances. We expect that additional instances will be defined in the future.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-bradleylundberg-cfrg-arkg-08"/>
+</reference>
