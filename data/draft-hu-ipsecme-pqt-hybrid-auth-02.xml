@@ -1,0 +1,19 @@
+<reference anchor="I-D.hu-ipsecme-pqt-hybrid-auth" target="https://datatracker.ietf.org/doc/html/draft-hu-ipsecme-pqt-hybrid-auth-02">
+  <front>
+    <title>Post-Quantum Traditional (PQ/T) Hybrid PKI Authentication in the Internet Key Exchange Version 2 (IKEv2)</title>
+    <author fullname="Jun Hu" initials="J." surname="Hu">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Yasufumi Morioka" initials="Y." surname="Morioka">
+      <organization>NTT DOCOMO, INC.</organization>
+    </author>
+    <author fullname="Guilin WANG" initials="G." surname="WANG">
+      <organization>Huawei</organization>
+    </author>
+    <date year="2025" month="May" day="1"/>
+    <abstract>
+      <t>One IPsec area that would be impacted by Cryptographically Relevant Quantum Computer (CRQC) is IKEv2 authentication based on traditional asymmetric cryptographic algorithms: e.g RSA, ECDSA; which are widely deployed authentication options of IKEv2. There are new Post-Quantum Cryptographic (PQC) algorithms for digital signature like NIST [ML-DSA], however it takes time for new cryptographic algorithms to mature, so there is security risk to use only the new algorithm before it is field proven. This document describes a IKEv2 hybrid authentication scheme that could contain both traditional and PQC algorithms, so that authentication is secure as long as one algorithm in the hybrid scheme is secure.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-hu-ipsecme-pqt-hybrid-auth-02"/>
+</reference>
