@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-dnsop-structured-dns-error" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-structured-dns-error-15">
+  <front>
+    <title>Structured Error Data for Filtered DNS</title>
+    <author fullname="Dan Wing" initials="D." surname="Wing">
+      <organization>Citrix Systems, Inc.</organization>
+    </author>
+    <author fullname="Tirumaleswar Reddy.K" initials="T." surname="Reddy.K">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Neil Cook" initials="N." surname="Cook">
+      <organization>Open-Xchange</organization>
+    </author>
+    <author fullname="Mohamed Boucadair" initials="M." surname="Boucadair">
+      <organization>Orange</organization>
+    </author>
+    <date year="2025" month="May" day="5"/>
+    <abstract>
+      <t>DNS filtering is widely deployed for various reasons, including network security. However, filtered DNS responses lack structured information for end users to understand the reason for the filtering. Existing mechanisms to provide explanatory details to end users cause harm especially if the blocked DNS response is for HTTPS resources. This document updates RFC 8914 by signaling client support for structuring the EXTRA-TEXT field of the Extended DNS Error to provide details on the DNS filtering. Such details can be parsed by the client and displayed, logged, or used for other purposes.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-structured-dns-error-15"/>
+</reference>
