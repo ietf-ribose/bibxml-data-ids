@@ -1,0 +1,16 @@
+<reference anchor="I-D.oauth-ai-agents-on-behalf-of-user" target="https://datatracker.ietf.org/doc/html/draft-oauth-ai-agents-on-behalf-of-user-01">
+  <front>
+    <title>OAuth 2.0 Extension: On-Behalf-Of User Authorization for AI Agents</title>
+    <author fullname="Thilina" initials="T." surname="Thilina">
+      <organization>WSO2</organization>
+    </author>
+    <author fullname="Ayesha Dissanayaka" initials="A." surname="Dissanayaka">
+      <organization>WSO2</organization>
+    </author>
+    <date year="2025" month="May" day="8"/>
+    <abstract>
+      <t>This specification extends the OAuth 2.0 Authorization Framework [RFC6749] to enable AI agents to securely obtain access tokens for acting on behalf of users. It introduces the *requested_actor* parameter in authorization requests to identify the specific agent requiring delegation and the *actor_token* parameter in token requests to authenticate the agent during the exchange of an authorization code for an access token. The flow can be initiated by a resource server challenge, ensuring that user consent is obtained dynamically when access is attempted. This extension ensures secure delegation with explicit user consent, streamlines the authorization flow, and enhances auditability through access token claims that document the delegation chain from the user to the agent via a client application.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-oauth-ai-agents-on-behalf-of-user-01"/>
+</reference>
