@@ -1,0 +1,25 @@
+<reference anchor="I-D.zhang-dnsop-zb" target="https://datatracker.ietf.org/doc/html/draft-zhang-dnsop-zb-00">
+  <front>
+    <title>A Technique for Quering the Designated Authoritative Server Directlly on the Local Resolver</title>
+    <author fullname="Bin Zhang" initials="B." surname="Zhang">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author fullname="Yu Zhang" initials="Y." surname="Zhang">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author fullname="Jiankang Yao" initials="J." surname="Yao">
+      <organization>CNNIC</organization>
+    </author>
+    <author fullname="Rongwei Yang" initials="R." surname="Yang">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author fullname="Yuming Feng" initials="Y." surname="Feng">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <date year="2025" month="May" day="13"/>
+    <abstract>
+      <t>A DNS lookup usually requires the local resolver to start an iterative query process from the DNS root server to the bottom authoritative server. Attacks may occur at any level when querying authoritative servers. If the DNS recursive resolver operator can obtain the IP addresses of the authoritative servers for the queried domain, they may want to query the authoritative server directlly on the local resolver. In such a way, the resolver can start the iterative query process from the designated authoritative server, greatly decreasing the round-trip time, avoiding the attacks on the upper-level and preventing snooping by third parties of requests sent to upper-level authoritative servers. This document shows a technique for quering the designated authoritative server directlly on the local recursive server, at the cost of adding some operational fragility for the operator.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-zhang-dnsop-zb-00"/>
+</reference>
