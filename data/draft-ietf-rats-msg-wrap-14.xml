@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-rats-msg-wrap" target="https://datatracker.ietf.org/doc/html/draft-ietf-rats-msg-wrap-14">
+  <front>
+    <title>RATS Conceptual Messages Wrapper (CMW)</title>
+    <author fullname="Henk Birkholz" initials="H." surname="Birkholz">
+      <organization>Fraunhofer SIT</organization>
+    </author>
+    <author fullname="Ned Smith" initials="N." surname="Smith">
+      <organization>Intel</organization>
+    </author>
+    <author fullname="Thomas Fossati" initials="T." surname="Fossati">
+      <organization>Linaro</organization>
+    </author>
+    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+      <organization>University of Applied Sciences Bonn-Rhein-Sieg</organization>
+    </author>
+    <author fullname="Dionna Glaze" initials="D." surname="Glaze">
+      <organization>Google LLC</organization>
+    </author>
+    <date year="2025" month="May" day="21"/>
+    <abstract>
+      <t>Section 8 of RFC 9334 defines "conceptual messages" as abstract messages exchanged by RATS roles such as Evidence, Attestation Results, Endorsements, and Reference Values. This document defines a "conceptual message" wrapper (CMW) format for any RATS conceptual message and describes a collection type that aggregates one or more CMWs into a single message. In addition, this document specifies a corresponding CBOR tag, JSON Web Tokens (JWT) and CBOR Web Tokens (CWT) claims, and an X.509 extension. These mechanisms enable the embedding of enveloped conceptual messages into CBOR-based protocols, web APIs, and PKIX protocols. Moreover, a Media Type and a CoAP Content-Format are defined for transporting CMWs over HTTP, MIME, CoAP, and other Internet protocols.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-rats-msg-wrap-14"/>
+</reference>
