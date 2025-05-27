@@ -1,0 +1,13 @@
+<reference anchor="I-D.crocker-dkim-dkor" target="https://datatracker.ietf.org/doc/html/draft-crocker-dkim-dkor-00">
+  <front>
+    <title>DomainKeys Originator Recipient (DKOR)</title>
+    <author fullname="Dave Crocker" initials="D." surname="Crocker">
+      <organization>Brandenburg Internetworking</organization>
+    </author>
+    <date year="2025" month="May" day="26"/>
+    <abstract>
+      <t>DKIM associates a domain name with a message stream, using cryptographic methods, to permit reliable and accurate reputation- oriented analysis of the stream. It is possible for an authorized user to conspire for additional distribution of a message, leveraging the domain name reputation for promoting spam. This is called DKIM Replay. DKOR defines a means of limiting that ability, by associating original addressing information with the message's DKIM signature, to detect distribution beyond the intended recipient. DKOR uses existing DKIM services and only requires implementation of the additional DKOR features by the signer and any receiving site wishing to participate in DKOR services. Other DKIM receivers can successfully process the same DKIM signature without knowledge of DKOR.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-crocker-dkim-dkor-00"/>
+</reference>
