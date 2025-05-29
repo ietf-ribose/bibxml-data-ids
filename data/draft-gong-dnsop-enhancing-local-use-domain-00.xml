@@ -1,0 +1,25 @@
+<reference anchor="I-D.gong-dnsop-enhancing-local-use-domain" target="https://datatracker.ietf.org/doc/html/draft-gong-dnsop-enhancing-local-use-domain-00">
+  <front>
+    <title>Enhancing Local-Use Domain Name Resolution within Link-Local Scope</title>
+    <author fullname="LiangYi Gong" initials="L." surname="Gong">
+      <organization>CNIC</organization>
+    </author>
+    <author fullname="Zhiwei Yan" initials="Z." surname="Yan">
+      <organization>CNNIC</organization>
+    </author>
+    <author fullname="Man Zhang" initials="M." surname="Zhang">
+      <organization>CNNIC</organization>
+    </author>
+    <author fullname="Kejun Dong" initials="K." surname="Dong">
+      <organization>CNNIC</organization>
+    </author>
+    <author fullname="Chun Long" initials="C." surname="Long">
+      <organization>CNIC</organization>
+    </author>
+    <date year="2025" month="May" day="29"/>
+    <abstract>
+      <t>Link-local networks such as home Internet of Things (IoT) and industrial Internet of Things are becoming increasingly prosperous, with a large number of small devices deployed in the link-local networks. These devices discover each other through ".local." domain names of DNS-based zero-configuration network protocol. However, the lack of specialized security operations to supervise link-local DNS resolution leads to some security risks. This memo addresses the potential risks associated with the leakage of link-local DNS traffic to external networks, the lack of identity authentication on ".local." domain requests, and the lack of rate-limiting on ".local." domain responses, which poses the leakage of link-local device information and the risk of DDoS attacks. Furthermore, the document proposes a set of best practices and technical solutions to mitigate these risks and ensure that ".local." domain name resolution remains confined within the local network segment.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-gong-dnsop-enhancing-local-use-domain-00"/>
+</reference>
