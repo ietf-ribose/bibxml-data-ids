@@ -1,0 +1,28 @@
+<reference anchor="I-D.ietf-dmm-mup-architecture" target="https://datatracker.ietf.org/doc/html/draft-ietf-dmm-mup-architecture-00">
+  <front>
+    <title>Mobile User Plane Architecture for Distributed Mobility Management</title>
+    <author fullname="Satoru Matsushima" initials="S." surname="Matsushima">
+      <organization>SoftBank</organization>
+    </author>
+    <author fullname="Katsuhiro Horiba" initials="K." surname="Horiba">
+      <organization/>
+    </author>
+    <author fullname="Yuya Kawakami" initials="Y." surname="Kawakami">
+      <organization>SoftBank</organization>
+    </author>
+    <author fullname="Tetsuya Murakami" initials="T." surname="Murakami">
+      <organization>Arrcus, Inc.</organization>
+    </author>
+    <author fullname="Keyur Patel" initials="K." surname="Patel">
+      <organization>Arrcus, Inc.</organization>
+    </author>
+    <author fullname="Jakub Horn" initials="J." surname="Horn">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <date year="2025" month="May" day="30"/>
+    <abstract>
+      <t>This document defines the Mobile User Plane (MUP) architecture for Distributed Mobility Management. The requirements for Distributed Mobility Management described in [RFC7333] can be satisfied by routing fashion. In MUP Architecture, session information between the entities of the mobile user plane is turned to routing information so that mobile user plane can be integrated into dataplane. MUP architecture is designed to be pluggable user plane part of existing mobile service architectures, enabled by auto-discovery for the use plane. Segment Routing provides network programmability for a scalable option with it. While MUP architecture itself is independent from a specific dataplane protocol, several dataplane options are available for the architecture. This document describes IPv6 dataplane in Segment Routing case (SRv6 MUP) due to the DMM requirement, and is suitable for mobile services which require a large IP address space.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-dmm-mup-architecture-00"/>
+</reference>
