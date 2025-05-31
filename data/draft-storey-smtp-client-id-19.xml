@@ -1,0 +1,19 @@
+<reference anchor="I-D.storey-smtp-client-id" target="https://datatracker.ietf.org/doc/html/draft-storey-smtp-client-id-19">
+  <front>
+    <title>SMTP Service Extension for Client Identity</title>
+    <author fullname="William Storey" initials="W." surname="Storey">
+      <organization>LinuxMagic</organization>
+    </author>
+    <author fullname="Deion Yu" initials="D." surname="Yu">
+      <organization>LinuxMagic</organization>
+    </author>
+    <author fullname="Shaun Johnson" initials="S." surname="Johnson">
+      <organization>LinuxMagic</organization>
+    </author>
+    <date year="2025" month="May" day="30"/>
+    <abstract>
+      <t>Multi-Factor Authentication has rapidly become a driving requirement for any internet based technology that requires authentication. While a large number of initiatives are active for providing solutions to this requirement for Web Browser based applications that can generally support real time human interaction for providing a secondary method of identification, legacy protocols such as SMTP authentication have not yet been revised to provide such support despite being a high-risk target for business email compromise, possibly as a result of authenticated SMTP activity generally expecting to be non-interactive in nature outside of Webmail logins. This document defines an extension to the SMTP service protocol called "CLIENTID" that a SMTP client can provide an additional unique identification token prior to standard credentials authentication that the server may then apply as an identify verification method in a similar manner to other Multi-Factor authentication techniques.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-storey-smtp-client-id-19"/>
+</reference>

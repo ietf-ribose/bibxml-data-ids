@@ -1,0 +1,13 @@
+<reference anchor="I-D.jahnke-ca-self-revocation" target="https://datatracker.ietf.org/doc/html/draft-jahnke-ca-self-revocation-02">
+  <front>
+    <title>Root CA Emergency Self-Termination Protocol (RTO-Extension)</title>
+    <author fullname="Torsten Jahnke" initials="T." surname="Jahnke">
+      <organization>Aviontex GmbH</organization>
+    </author>
+    <date year="2025" month="May" day="31"/>
+    <abstract>
+      <t>This document defines a cryptographically secure mechanism for Root Certificate Authorities to perform emergency self-termination upon compromise detection. Current PKI architecture creates a mathematical impossibility: Root CAs cannot be cryptographically revoked because revocation requires validation from a higher authority, but Root CAs are self-signed with no higher authority. This specification addresses this architectural limitation through game-theoretic analysis where attacker key usage patterns result in compromise detection and bounded attack duration. The mechanism enables Root CA operators to terminate CA validity within hours instead of months while maintaining strict dual-person control. Analysis of historical incidents shows average response times of 180-540 days. This protocol reduces maximum exposure time to 8-72 hours through cryptographic self-termination, providing 74-85% reduction in attack exposure duration based on empirical analysis.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-jahnke-ca-self-revocation-02"/>
+</reference>
