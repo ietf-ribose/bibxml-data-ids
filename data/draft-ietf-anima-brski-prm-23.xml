@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-anima-brski-prm" target="https://datatracker.ietf.org/doc/html/draft-ietf-anima-brski-prm-23">
+  <front>
+    <title>BRSKI with Pledge in Responder Mode (BRSKI-PRM)</title>
+    <author fullname="Steffen Fries" initials="S." surname="Fries">
+      <organization>Siemens AG</organization>
+    </author>
+    <author fullname="Thomas Werner" initials="T." surname="Werner">
+      <organization>Siemens AG</organization>
+    </author>
+    <author fullname="Eliot Lear" initials="E." surname="Lear">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Michael Richardson" initials="M." surname="Richardson">
+      <organization>Sandelman Software Works</organization>
+    </author>
+    <date year="2025" month="June" day="3"/>
+    <abstract>
+      <t>This document defines enhancements to Bootstrapping Remote Secure Key Infrastructure (BRSKI, RFC8995) as BRSKI with Pledge in Responder Mode (BRSKI-PRM). BRSKI-PRM supports the secure bootstrapping of devices, referred to as pledges, into a domain where direct communication with the registrar is either limited or not possible at all. To facilitate interaction between a pledge and a domain registrar the registrar-agent is introduced as new component. The registrar-agent supports the reversal of the interaction model from a pledge-initiated mode, to a pledge-responding mode, where the pledge is in a server role. To establish the trust relation between pledge and registrar, BRSKI-PRM relies on object security rather than transport security. This approach is agnostic to enrollment protocols that connect a domain registrar to a key infrastructure (e.g., domain Certification Authority).</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-anima-brski-prm-23"/>
+</reference>
