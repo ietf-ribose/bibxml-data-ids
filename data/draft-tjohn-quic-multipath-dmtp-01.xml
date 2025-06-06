@@ -1,0 +1,16 @@
+<reference anchor="I-D.tjohn-quic-multipath-dmtp" target="https://datatracker.ietf.org/doc/html/draft-tjohn-quic-multipath-dmtp-01">
+  <front>
+    <title>Deadline Aware Streams in QUIC Multipath</title>
+    <author fullname="Tony John" initials="T." surname="John">
+      <organization>Otto-von-Guericke University Magdeburg</organization>
+    </author>
+    <author fullname="Till-Frederik Riechard" initials="T." surname="Riechard">
+      <organization>Otto-von-Guericke University Magdeburg</organization>
+    </author>
+    <date year="2025" month="June" day="5"/>
+    <abstract>
+      <t>This document proposes the Deadline-aware Multipath Transport Protocol (DMTP) concept as an extension to the Multipath Extension for QUIC (QUIC-MULTIPATH) as well as QUIC itself. This extension aims to support data streams with strict latency requirements by enabling the signaling of a stream's deadline and ideally by combining multipath scheduling, congestion control adaptations, and optional forward error correction (FEC). Moreover, DMTP leverages the path identifiers introduced by the Multipath Extension for QUIC to distinguish different end-to-end paths as they may be offered in a Path Aware Network (PAN) such as SCION. This allows an application to select its preferred paths while maintaining interoperability with standard endpoints using the Multipath Extension for QUIC. In combination, DMTP enables endpoints to exchange and schedule deadline-aware streams across multiple network paths. Additionally, this proposal also maintains compatibility with QUIC itself, in order to deliver its benefits - albeit with limited effectiveness - even in scenarios where only a single path can or should be used.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-tjohn-quic-multipath-dmtp-01"/>
+</reference>
