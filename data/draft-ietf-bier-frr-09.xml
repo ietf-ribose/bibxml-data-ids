@@ -1,0 +1,28 @@
+<reference anchor="I-D.ietf-bier-frr" target="https://datatracker.ietf.org/doc/html/draft-ietf-bier-frr-09">
+  <front>
+    <title>BIER Fast Reroute (BIER-FRR)</title>
+    <author fullname="Huaimo Chen" initials="H." surname="Chen">
+      <organization>Futurewei</organization>
+    </author>
+    <author fullname="Mike McBride" initials="M." surname="McBride">
+      <organization>Futurewei</organization>
+    </author>
+    <author fullname="Steffen Lindner" initials="S." surname="Lindner">
+      <organization>University of Tuebingen</organization>
+    </author>
+    <author fullname="Michael Menth" initials="M." surname="Menth">
+      <organization>University of Tuebingen</organization>
+    </author>
+    <author fullname="Aijun Wang" initials="A." surname="Wang">
+      <organization>China Telecom</organization>
+    </author>
+    <author fullname="Gyan Mishra" initials="G. S." surname="Mishra">
+      <organization>Verizon Inc.</organization>
+    </author>
+    <date year="2025" month="June" day="6"/>
+    <abstract>
+      <t>This document describes BIER Fast Reroute (BIER-FRR) as a mechanism for Fast Reroute (FRR) in Bit Index Explicit Replication (BIER) networks. It enhances the resiliency of BIER by quickly rerouting BIER traffic in the event of a link or node failure. This ensures that multicast traffic continues to reach its intended destinations, thereby minimizing packet loss and service disruption. BIER-FRR is designed to integrate seamlessly with existing BIER operations without requiring per-flow state or additional signaling. The document suggests additional structures for BIER to hold information for backup forwarding entries and to enable them in case of detected failures. BIER-FRR can implement different protection levels, e.g., link protection or node protection, and different protection strategies. Tunnel-based BIER-FRR and LFA-based BIER-FRR are introduced as protection strategies and their implementation with the proposed extensions. A comparison highlights the differences between both approaches.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-bier-frr-09"/>
+</reference>
