@@ -1,0 +1,16 @@
+<reference anchor="I-D.huang-acme-scalable-agent-enrollment" target="https://datatracker.ietf.org/doc/html/draft-huang-acme-scalable-agent-enrollment-00">
+  <front>
+    <title>Extending Certificate Enrollment Protocols for Scalable Agentic AI Identity</title>
+    <author fullname="Ken Huang" initials="K." surname="Huang">
+      <organization>DistributedApps.ai</organization>
+    </author>
+    <author fullname="Jerry Huang" initials="J." surname="Huang">
+      <organization>Kleiner Perkins</organization>
+    </author>
+    <date year="2025" month="June" day="13"/>
+    <abstract>
+      <t>Agentic AI systems require robust, verifiable identities to operate securely. While traditional certificate enrollment protocols like SCEP and EST can be extended to include remote attestation evidence, performing a full validation for every agent's certificate request presents significant scalability and privacy challenges. This document proposes two distinct, scalable models for integrating attestation into the enrollment lifecycle. The first model leverages Zero-Knowledge Proofs (ZKP) to provide private, efficient, and continuous attestation. The second model uses a one-time, high- assurance bootstrapping process to establish a trusted host environment, which is then authorized to endorse certificate requests for the agents it runs. Both models enable high-assurance identity for AI agents while addressing the performance bottlenecks of naive per-enrollment verification.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-huang-acme-scalable-agent-enrollment-00"/>
+</reference>
