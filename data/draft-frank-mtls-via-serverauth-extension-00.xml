@@ -1,0 +1,13 @@
+<reference anchor="I-D.frank-mtls-via-serverauth-extension" target="https://datatracker.ietf.org/doc/html/draft-frank-mtls-via-serverauth-extension-00">
+  <front>
+    <title>Allow using serverAuth certificates for mutual TLS (mTLS) authentication in server-to-server usages.</title>
+    <author fullname="Klaus Frank" initials="K." surname="Frank">
+      <organization/>
+    </author>
+    <date year="2025" month="June" day="16"/>
+    <abstract>
+      <t>This document aims to standardize the validation of mutual TLS authentication between servers (server-to-server). It outlines recommended validation flows as well as provides practical design recommendations. Basically the EKU id-kp-clientAuth and id-kp- serverAuth get more precisely defined to represent their common understanding by issuing CAs and browsers. id-kp-clientAuth aka. "TLS WWW client authentication" SHOULD mean authentication of a natural or legal entity. id-kp-serverAuth aka. "TLS WWW server authetnication" SHOULD mean authentication of a device. When two id- kp-clientAuth certificates are used this means E2E authentication between two users. Where as two id-kp-serverAuth certificates being used means server-to-server authentication. And one user and one server certificate within one TLS connection means client-to-server (or technically also server-to-client). The term "TLS-Client" SHOULD no longer be used and mean the party sending the initial package while establishing a TLS connection. This helps to avoid design issues moving forward as currently some people thought TLS-Client auth was only ever used in "client-to-server" and never within "server-to-server" context. Which sparked the demand for this document to begin with to keep server-to-server auth with public trusted certificates working.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-frank-mtls-via-serverauth-extension-00"/>
+</reference>
