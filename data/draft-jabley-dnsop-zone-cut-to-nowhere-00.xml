@@ -1,0 +1,19 @@
+<reference anchor="I-D.jabley-dnsop-zone-cut-to-nowhere" target="https://datatracker.ietf.org/doc/html/draft-jabley-dnsop-zone-cut-to-nowhere-00">
+  <front>
+    <title>Signalling a Zone Cut to Nowhere in the DNS</title>
+    <author fullname="Joe Abley" initials="J." surname="Abley">
+      <organization>Cloudflare</organization>
+    </author>
+    <author fullname="Wes Hardaker" initials="W." surname="Hardaker">
+      <organization>USC/ISI</organization>
+    </author>
+    <author fullname="Warren Kumari" initials="W." surname="Kumari">
+      <organization>Google, Inc.</organization>
+    </author>
+    <date year="2025" month="June" day="17"/>
+    <abstract>
+      <t>This document defines a standard means to signal that a zone cut exists in the DNS without specifying a set of nameservers to which a child zone is delegated. This is useful in situations where it is important to make it clear to clients that a zone cut exists, but when the child zone is only provisioned in a private namespace.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-jabley-dnsop-zone-cut-to-nowhere-00"/>
+</reference>
