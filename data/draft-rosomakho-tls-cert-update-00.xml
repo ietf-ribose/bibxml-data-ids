@@ -1,0 +1,16 @@
+<reference anchor="I-D.rosomakho-tls-cert-update" target="https://datatracker.ietf.org/doc/html/draft-rosomakho-tls-cert-update-00">
+  <front>
+    <title>Certificate Update in TLS 1.3</title>
+    <author fullname="Yaroslav Rosomakho" initials="Y." surname="Rosomakho">
+      <organization>Zscaler</organization>
+    </author>
+    <author fullname="Tirumaleswar Reddy.K" initials="T." surname="Reddy.K">
+      <organization>Nokia</organization>
+    </author>
+    <date year="2025" month="June" day="20"/>
+    <abstract>
+      <t>This document defines a mechanism that enables TLS 1.3 endpoints to update their certificates during the lifetime of a connection using Exported Authenticators. A new extension is introduced to negotiate support for certificate update at handshake time. When negotiated, either endpoint can provide a post-handshake authenticator containing an updated certificate, delivered via a new handshake message. This mechanism allows long-lived TLS connections to remain valid across certificate rotations without requiring session termination.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-rosomakho-tls-cert-update-00"/>
+</reference>
