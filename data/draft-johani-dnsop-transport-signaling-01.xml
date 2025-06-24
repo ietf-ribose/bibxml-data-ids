@@ -1,0 +1,19 @@
+<reference anchor="I-D.johani-dnsop-transport-signaling" target="https://datatracker.ietf.org/doc/html/draft-johani-dnsop-transport-signaling-01">
+  <front>
+    <title>Authoritative DNS Transport Signaling</title>
+    <author fullname="Johan Stenstam" initials="J." surname="Stenstam">
+      <organization>The Swedish Internet Foundation</organization>
+    </author>
+    <author fullname="Leon Fernandez" initials="L." surname="Fernandez">
+      <organization>The Swedish Internet Foundation</organization>
+    </author>
+    <author fullname="Erik Bergström" initials="E." surname="Bergström">
+      <organization>The Swedish Internet Foundation</organization>
+    </author>
+    <date year="2025" month="June" day="23"/>
+    <abstract>
+      <t>This document proposes a mechanism for authoritative DNS servers to opportunistically signal their support for alternative transport protocols (e.g., DNS over TLS (DoT), DNS over HTTPS (DoH) and DNS over QUIC (DoQ)) directly within the Additional section of authoritative DNS responses. This "hint-based" approach aims to enable resolvers to discover and upgrade transport connections more efficiently, thereby improving privacy, security, and performance for subsequent interactions. The mechanism is designed to not require any protocol change. It is safe, backward-compatible, and effective even when DNSSEC validation of the hint is not possible or desired. This document proposes an improvement on the opportunistic (but blind) testing of alternative transports suggested in RFC9539 by providing a mechanism by which a responding authoritative server may signal what alternative transports it supports. TO BE REMOVED: This document is being collaborated on in Github at: https://github.com/johanix/draft-johani-dnsop-transport-signaling (https://github.com/johanix/draft-johani-dnsop-transport-signaling). The most recent working version of the document, open issues, etc, should all be available there. The authors (gratefully) accept pull requests.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-johani-dnsop-transport-signaling-01"/>
+</reference>
