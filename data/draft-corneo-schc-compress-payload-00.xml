@@ -1,0 +1,19 @@
+<reference anchor="I-D.corneo-schc-compress-payload" target="https://datatracker.ietf.org/doc/html/draft-corneo-schc-compress-payload-00">
+  <front>
+    <title>SCHC Payload compression</title>
+    <author fullname="Lorenzo Corneo" initials="L." surname="Corneo">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Edgar Ramos" initials="E." surname="Ramos">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Jaime Jimenez" initials="J." surname="Jimenez">
+      <organization>Ericsson</organization>
+    </author>
+    <date year="2025" month="June" day="25"/>
+    <abstract>
+      <t>This document describes several techniques to enable utilization of the same engine to compress and decompress headers from the existing SCHC framework [RFC8724], but used to compress payload of specific protocols. The first approach is to introduce new type of static rules that enable encoding application data. This extensions provides compact and generic variation on how data is organized. The second approach provides dynamic compression and decompression. Here, the system identifies parts of the payload that can be compressed, and enables a SCHC decompressor to restore the original packet.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-corneo-schc-compress-payload-00"/>
+</reference>
