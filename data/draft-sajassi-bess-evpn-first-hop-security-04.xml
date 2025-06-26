@@ -1,0 +1,25 @@
+<reference anchor="I-D.sajassi-bess-evpn-first-hop-security" target="https://datatracker.ietf.org/doc/html/draft-sajassi-bess-evpn-first-hop-security-04">
+  <front>
+    <title>EVPN First Hop Security</title>
+    <author fullname="Ali Sajassi" initials="A." surname="Sajassi">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Lukas Krattiger" initials="L." surname="Krattiger">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Krishnaswamy Ananthamurthy" initials="K." surname="Ananthamurthy">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Wen Lin" initials="W." surname="Lin">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <date year="2025" month="June" day="26"/>
+    <abstract>
+      <t>The Dynamic Host Configuration Protocol (DHCP) snoop database stores valid IPv4-to-MAC and IPv6-to-MAC bindings by snooping on DHCP messages. These bindings are used by security functions like Dynamic Address Resolution Protocol Inspection (DAI), Neighbor Discovery Inspection (NDI), IPv4 Source Guard, and IPv6 Source Guard to safeguard against traffic received with a spoofed address. These functions are collectively referred to as First Hop Security (FHS). This document proposes BGP extensions and new procedures for Ethernet VPN (EVPN) will distribute and synchronize the DHCP snoop database to support FHS. Such synchronization is needed to support EVPN host mobility and multi-homing.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-sajassi-bess-evpn-first-hop-security-04"/>
+</reference>
