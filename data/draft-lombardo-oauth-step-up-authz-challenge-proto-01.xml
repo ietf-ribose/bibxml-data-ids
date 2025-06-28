@@ -1,0 +1,22 @@
+<reference anchor="I-D.lombardo-oauth-step-up-authz-challenge-proto" target="https://datatracker.ietf.org/doc/html/draft-lombardo-oauth-step-up-authz-challenge-proto-01">
+  <front>
+    <title>OAuth 2.0 step-up authorization challenge proto</title>
+    <author fullname="Jeff Lombardo" initials="J." surname="Lombardo">
+      <organization>AWS</organization>
+    </author>
+    <author fullname="Alexandre Babeanu" initials="A." surname="Babeanu">
+      <organization>IndyKite</organization>
+    </author>
+    <author fullname="Yaron Zehavi" initials="Y." surname="Zehavi">
+      <organization>Raiffeisen Bank International</organization>
+    </author>
+    <author fullname="George Fletcher" initials="G." surname="Fletcher">
+      <organization>Practical Identity</organization>
+    </author>
+    <date year="2025" month="June" day="27"/>
+    <abstract>
+      <t>It is not uncommon for resource servers to require additional information like details of delegation authorization, or assurance proof of the delegation of authorization mechanism used according to the characteristics of a request. This document introduces a mechanism that resource servers can use to signal to a client that the data and metadata associated with the access token of the current request does not meet its authorization requirements and, further, how to meet them. This document also codifies a taxonomy to guide the client into starting a new request towards the authorization server in order to get issued, if applicable, a new set of tokens matching the requirements.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-lombardo-oauth-step-up-authz-challenge-proto-01"/>
+</reference>
