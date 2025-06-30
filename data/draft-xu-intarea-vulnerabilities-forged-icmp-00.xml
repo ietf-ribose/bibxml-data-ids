@@ -1,0 +1,22 @@
+<reference anchor="I-D.xu-intarea-vulnerabilities-forged-icmp" target="https://datatracker.ietf.org/doc/html/draft-xu-intarea-vulnerabilities-forged-icmp-00">
+  <front>
+    <title>Problem Statement for Cross-Layer Vulnerabilities due to Forged ICMP Errors</title>
+    <author fullname="Ke Xu" initials="K." surname="Xu">
+      <organization>Tsinghua University &amp; Zhongguancun Laboratory</organization>
+    </author>
+    <author fullname="Xuewei Feng" initials="X." surname="Feng">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Li Qi" initials="L." surname="Qi">
+      <organization>Tsinghua University &amp; Zhongguancun Laboratory</organization>
+    </author>
+    <author fullname="Zhaoxi Li" initials="Z." surname="Li">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date year="2025" month="June" day="30"/>
+    <abstract>
+      <t>ICMP error messages are vital for network reliability, providing feedback on issues such as unreachable hosts or fragmentation requirements. They help devices adapt dynamically, support troubleshooting, and enable essential functions like Path MTU Discovery. However, off-path attackers on the Internet may forge ICMP error messages to bypass legitimate validation mechanisms, causing the victim's TCP/IP stack to misinterpret network conditions and exposing critical vulnerabilities. This document analyzes how such forged ICMP errors can be exploited by off-path attackers to induce cross-layer interactions within the victim's TCP/IP stack, leading to four classes of vulnerabilities: information leakage, desynchronization of shared variables, semantic gaps, and identity deception. These ICMP-based attacks allow off-path attackers to manipulate network traffic, disrupt communication flows, and compromise both infrastructure and user privacy, without being on the direct communication path. The document concludes with proposed countermeasures and recommendations for protocol evolution.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-xu-intarea-vulnerabilities-forged-icmp-00"/>
+</reference>
