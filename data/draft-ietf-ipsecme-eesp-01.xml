@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-ipsecme-eesp" target="https://datatracker.ietf.org/doc/html/draft-ietf-ipsecme-eesp-01">
+  <front>
+    <title>Enhanced Encapsulating Security Payload (EESP)</title>
+    <author fullname="Steffen Klassert" initials="S." surname="Klassert">
+      <organization>secunet Security Networks AG</organization>
+    </author>
+    <author fullname="Antony Antony" initials="A." surname="Antony">
+      <organization>secunet Security Networks AG</organization>
+    </author>
+    <author fullname="Christian Hopps" initials="C." surname="Hopps">
+      <organization>LabN Consulting, L.L.C.</organization>
+    </author>
+    <date year="2025" month="July" day="3"/>
+    <abstract>
+      <t>This document describes the Enhanced Encapsulating Security Payload (EESP) protocol, which builds on the existing IP Encapsulating Security Payload (ESP) protocol. It is designed to modernize and overcome limitations in the ESP protocol. EESP adds Session IDs (e.g., to support CPU pinning and QoS support based on the inner traffic flow), changes some previously mandatory fields to optional, and moves the ESP trailer into the EESP header. Additionally, EESP adds header options adapted from IPv6 to allow for future extension. New header options are defined which add Flow IDs and a crypt-offset to allow for exposing inner flow information for middlebox use.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-ipsecme-eesp-01"/>
+</reference>
