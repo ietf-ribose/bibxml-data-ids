@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-rats-msg-wrap" target="https://datatracker.ietf.org/doc/html/draft-ietf-rats-msg-wrap-16">
+  <front>
+    <title>RATS Conceptual Messages Wrapper (CMW)</title>
+    <author fullname="Henk Birkholz" initials="H." surname="Birkholz">
+      <organization>Fraunhofer SIT</organization>
+    </author>
+    <author fullname="Ned Smith" initials="N." surname="Smith">
+      <organization>Intel</organization>
+    </author>
+    <author fullname="Thomas Fossati" initials="T." surname="Fossati">
+      <organization>Linaro</organization>
+    </author>
+    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+      <organization>University of Applied Sciences Bonn-Rhein-Sieg</organization>
+    </author>
+    <author fullname="Dionna Glaze" initials="D." surname="Glaze">
+      <organization>Google LLC</organization>
+    </author>
+    <date year="2025" month="July" day="3"/>
+    <abstract>
+      <t>The Remote Attestation Procedures architecture (RFC 9334) defines several types of conceptual messages, such as Evidence, Attestation Results, Endorsements, and Reference Values. These messages can appear in different formats and be transported via various protocols. This document introduces the Conceptual Message Wrapper (CMW) that provides a common structure to encapsulate these messages. It defines a dedicated CBOR tag, corresponding JSON Web Token (JWT) and CBOR Web Token (CWT) claims, and an X.509 extension. This allows CMWs to be used in CBOR-based protocols, web APIs using JWTs and CWTs, and PKIX artifacts like X.509 certificates. Additionally, the draft defines a media type and a CoAP content format to transport CMWs over protocols like HTTP, MIME, and CoAP. The goal is to improve the interoperability and flexibility of remote attestation protocols. By introducing a shared message format like the CMW, we can consistently support different attestation message types, evolve message serialization formats without breaking compatibility, and avoid having to redefine how messages are handled in each protocol.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-rats-msg-wrap-16"/>
+</reference>

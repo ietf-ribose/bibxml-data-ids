@@ -1,0 +1,22 @@
+<reference anchor="I-D.li-dynamic-multicast-port-allocation" target="https://datatracker.ietf.org/doc/html/draft-li-dynamic-multicast-port-allocation-00">
+  <front>
+    <title>Dynamic Multicast Port Allocation</title>
+    <author fullname="Zhiqiang Li" initials="Z." surname="Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Zongpeng Du" initials="Z." surname="Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Wei Cheng" initials="W." surname="Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author fullname="Junjie Wang" initials="J." surname="Wang">
+      <organization>Centec</organization>
+    </author>
+    <date year="2025" month="July" day="4"/>
+    <abstract>
+      <t>This document proposes a dynamic multicast port allocation mechanism using Segment Routing over IPv6 (SRv6). The solution enables decoupling between the destination port carried in multicast packets sent by the source and the actual receiving port used by receivers. This allows multicast receivers to dynamically allocate unused ports as receiving ports, eliminating the requirement for all receivers to use the same port number. The mechanism defines a new SRv6 function End.MTP for automatic multicast port allocation and supports three operational modes to accommodate different deployment scenarios.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-dynamic-multicast-port-allocation-00"/>
+</reference>
