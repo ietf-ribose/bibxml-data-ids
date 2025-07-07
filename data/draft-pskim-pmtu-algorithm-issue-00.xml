@@ -1,0 +1,13 @@
+<reference anchor="I-D.pskim-pmtu-algorithm-issue" target="https://datatracker.ietf.org/doc/html/draft-pskim-pmtu-algorithm-issue-00">
+  <front>
+    <title>Path MTU Algorithms and Issues in QUIC Applications</title>
+    <author fullname="Pyung Soo Kim" initials="P. S." surname="Kim">
+      <organization>TU Korea</organization>
+    </author>
+    <date year="2025" month="July" day="6"/>
+    <abstract>
+      <t>This draft consider Path MTU (PMTU) alogorithms and issues in QUIC applications. Fistly, a passive probing approach is adopted to discover the PMTU. The process of discovering the PMTU is not performed separately, but is performed simultaneously in the actual application data communication. A probe packet is defined newly using 1-RTT packet which includes actual application data as well as a short packet header and a PING_EXT frame. Until the optimal PMTU is discovered, the size of the probe packet is changed according to the size of the PMTU candidate. Secondly, a PMTU black hole problem in secure and reliable transport protocol is discussed and a possible solution can be suggested from existing researches. Thirdly, PMTU issues for media delivery over UDP, such as WebRTC and media over QUIC (MoQ) are discussed.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-pskim-pmtu-algorithm-issue-00"/>
+</reference>

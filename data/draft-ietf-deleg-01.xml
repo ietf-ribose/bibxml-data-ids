@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-deleg" target="https://datatracker.ietf.org/doc/html/draft-ietf-deleg-01">
+  <front>
+    <title>Extensible Delegation for DNS</title>
+    <author fullname="Tim April" initials="T." surname="April">
+      <organization>Google, LLC</organization>
+    </author>
+    <author fullname="Petr Špaček" initials="P." surname="Špaček">
+      <organization>ISC</organization>
+    </author>
+    <author fullname="Ralf Weber" initials="R." surname="Weber">
+      <organization>Akamai Technologies</organization>
+    </author>
+    <author fullname="David C Lawrence" initials="" surname="Lawrence">
+      <organization>Salesforce</organization>
+    </author>
+    <date year="2025" month="July" day="7"/>
+    <abstract>
+      <t>A delegation in the Domain Name System (DNS) is a mechanism that enables efficient and distributed management of the DNS namespace. It involves delegating authority over subdomains to specific DNS servers via NS records, allowing for a hierarchical structure and distributing the responsibility for maintaining DNS records. An NS record contains the hostname of the nameserver for the delegated namespace. Any facilities of that nameserver must be discovered through other mechanisms. This document proposes a new extensible DNS record type, DELEG, for delegation of the authority for a domain. Future documents then can use this mechanism to use additional information about the delegated namespace and the capabilities of authoritative nameservers for the delegated namespace.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-deleg-01"/>
+</reference>

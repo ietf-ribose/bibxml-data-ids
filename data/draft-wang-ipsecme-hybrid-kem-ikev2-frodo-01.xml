@@ -1,0 +1,19 @@
+<reference anchor="I-D.wang-ipsecme-hybrid-kem-ikev2-frodo" target="https://datatracker.ietf.org/doc/html/draft-wang-ipsecme-hybrid-kem-ikev2-frodo-01">
+  <front>
+    <title>Post-quantum Hybrid Key Exchange in the IKEv2 with FrodoKEM</title>
+    <author fullname="Guilin WANG" initials="G." surname="WANG">
+      <organization>Huawei Int. Pte Ltd</organization>
+    </author>
+    <author fullname="Leonie Bruckert" initials="L." surname="Bruckert">
+      <organization>secunet Security Networks</organization>
+    </author>
+    <author fullname="Valery Smyslov" initials="V." surname="Smyslov">
+      <organization>ELVIS-PLUS</organization>
+    </author>
+    <date year="2025" month="July" day="7"/>
+    <abstract>
+      <t>Multiple key exchanges in the Internet Key Exchange Protocol Version 2 (IKEv2) [RFC9370] specifies a framework that supports multiple key encapsulation mechanisms (KEMs) in the Internet Key Exchange Protocol Version 2 (IKEv2) by allowing up to 7 layers of additional KEMs to derive the final shared secret keys for IPsec protocols. The primary goal is to mitigate the “harvest now and decrypt later” threat posed by cryptanalytically relevant quantum computers (CRQC). For this purpose, usually one or more post-quantum KEMs are performed in addition to the traditional (EC)DH key exchange. This draft specifies how the post-quantum KEM FrodoKEM is instantiated in the IKEv2 as an additional key exchange mechanism. [EDNOTE: IANA KE code points for FrodoKEM may need to be assigned, as the code points for ML-KEM has been considered in [I-D.KR24]. ]</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-wang-ipsecme-hybrid-kem-ikev2-frodo-01"/>
+</reference>
