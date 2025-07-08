@@ -1,0 +1,25 @@
+<reference anchor="I-D.all-pce-srv6-policy-sid-list-optimization" target="https://datatracker.ietf.org/doc/html/draft-all-pce-srv6-policy-sid-list-optimization-02">
+  <front>
+    <title>Path Computation Element Communication Protocol (PCEP) extensions for SRv6 Policy SID List Optimization</title>
+    <author fullname="Zafar Ali" initials="Z." surname="Ali">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Changwang Lin" initials="C." surname="Lin">
+      <organization>New H3C Technologies</organization>
+    </author>
+    <author fullname="Yisong Liu" initials="Y." surname="Liu">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Ran Chen" initials="R." surname="Chen">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author fullname="Cheng Li" initials="C." surname="Li">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date year="2025" month="July" day="7"/>
+    <abstract>
+      <t>In some use cases, an SRv6 policy's SID list ends with the policy endpoint's node SID, and the traffic steered (over policy) already ensures that it is taken to the policy endpoint. In such cases, the SID list can be optimized by excluding the endpoint Node SID when installing the policy. This draft specifies a PCEP extension to indicate whether the endpoint's node SID needs to be included or excluded when installing the SRv6 Policy.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-all-pce-srv6-policy-sid-list-optimization-02"/>
+</reference>

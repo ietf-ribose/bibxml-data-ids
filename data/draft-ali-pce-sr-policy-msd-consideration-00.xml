@@ -1,0 +1,22 @@
+<reference anchor="I-D.ali-pce-sr-policy-msd-consideration" target="https://datatracker.ietf.org/doc/html/draft-ali-pce-sr-policy-msd-consideration-00">
+  <front>
+    <title>MSD Consideration in Path Computation Element Communication Protocol (PCEP)</title>
+    <author fullname="Zafar Ali" initials="Z." surname="Ali">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Andrew Stone" initials="A." surname="Stone">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Diego Achaval" initials="D." surname="Achaval">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Samuel Sidor" initials="S." surname="Sidor">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date year="2025" month="July" day="7"/>
+    <abstract>
+      <t>Segment Routing (SR) allows a node to steer a packet flow along any path. SR Policy is an ordered list of segments (i.e., instructions) that represent a source-routed policy. The packets steered into an SR Policy carry an ordered list of segments associated with that SR Policy. An SR Policy can be instantiated SR-MPLS and SRv6 data planes. Maximum SID Depth (MSD) specifies the maximum number of SIDs that a Path Computation Client (PCC) is capable of imposing on a packet. The number of SIDs in an SR-TE path computed by the PCE on behalf of a PCC is dictated by the MSD value at the PCC. This draft specifies some MSD considerations PCE needs to take into account when computing the number of SIDs in an SR-TE path.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ali-pce-sr-policy-msd-consideration-00"/>
+</reference>

@@ -1,0 +1,28 @@
+<reference anchor="I-D.ietf-rats-pkix-key-attestation" target="https://datatracker.ietf.org/doc/html/draft-ietf-rats-pkix-key-attestation-01">
+  <front>
+    <title>PKIX Evidence for Remote Attestation of Hardware Security Modules</title>
+    <author fullname="Mike Ounsworth" initials="M." surname="Ounsworth">
+      <organization>Entrust Limited</organization>
+    </author>
+    <author fullname="Jean-Pierre Fiset" initials="J." surname="Fiset">
+      <organization>Crypto4A Inc.</organization>
+    </author>
+    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+      <organization>University of Applied Sciences Bonn-Rhein-Sieg</organization>
+    </author>
+    <author fullname="Henk Birkholz" initials="H." surname="Birkholz">
+      <organization>Fraunhofer SIT</organization>
+    </author>
+    <author fullname="Monty Wiseman" initials="M." surname="Wiseman">
+      <organization/>
+    </author>
+    <author fullname="Ned Smith" initials="N." surname="Smith">
+      <organization>Intel Corporation</organization>
+    </author>
+    <date year="2025" month="July" day="7"/>
+    <abstract>
+      <t>This document specifies a vendor-agnostic format for evidence produced and verified within a PKIX context. The evidence produced this way includes claims collected about a cryptographic module and elements found within it such as cryptographic keys. One scenario envisaged is that the state information about the cryptographic module can be securely presented to a remote operator or auditor in a vendor-agnostic verifiable format. A more complex scenario would be to submit this evidence to a Certification Authority to aid in determining whether the storage properties of this key meet the requirements of a given certificate profile. This specification also offers a format for requesting a cryptographic module to produce evidence tailored for expected use.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-rats-pkix-key-attestation-01"/>
+</reference>

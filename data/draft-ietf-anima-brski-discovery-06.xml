@@ -1,0 +1,16 @@
+<reference anchor="I-D.ietf-anima-brski-discovery" target="https://datatracker.ietf.org/doc/html/draft-ietf-anima-brski-discovery-06">
+  <front>
+    <title>BRSKI discovery and variations</title>
+    <author fullname="Toerless Eckert" initials="T. T." surname="Eckert">
+      <organization>Futurewei USA</organization>
+    </author>
+    <author fullname="Esko Dijk" initials="E." surname="Dijk">
+      <organization>IoTconsultancy.nl</organization>
+    </author>
+    <date year="2025" month="July" day="7"/>
+    <abstract>
+      <t>This document specifies how BRSKI entities, such as registrars, proxies, pledges or others that are acting as responders, can be discovered and selected by BRSKI entities acting as initiators, especially in the face of variations in the protocols that can introduce non-interoperability when not equally supported by both responder and initiator. This document does not define any new discovery methods. Instead, it solves the challenges of announcing, discovering and selecting an interoperable instance of a BRSKI responder by defining a data model and simple string based encoding for BRSKI variations and by prescribing how to encode this encoding of variations into multiple pre-existing discovery mechanisms: DNS-SD, GRASP and CoAP discovery (CORE-LF). This document also defines the procedures necessary for interoperable announcement, discovery and selection in the face of redundant responder, making deployment more resilient by allowing easy and automatic redundancy. BRSKI Proxies are a core element of BRSKI. This document specifies how Proxies need to be implemented to support proxying of BRSKI variations, even supporting possible future variations not in existance when the proxy was implemented. Finally, this document defines the IANA registrities to track the definition of variations and their encoding and hence allow easy introduction of new variations, support of additional discovery protocols and even discovery of additional BRKI roles (such as MASA). All with no or minimum additional specification requirements other than new registry entries.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-anima-brski-discovery-06"/>
+</reference>

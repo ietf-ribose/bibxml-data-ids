@@ -1,0 +1,16 @@
+<reference anchor="I-D.burger-mimi-audit-layer" target="https://datatracker.ietf.org/doc/html/draft-burger-mimi-audit-layer-00">
+  <front>
+    <title>Detecting the Presence of a Malicious Hub in MIMI Protocol</title>
+    <author fullname="Harditya Sarvaiya" initials="H." surname="Sarvaiya">
+      <organization>Virginia Tech</organization>
+    </author>
+    <author fullname="Eric W Burger" initials="E. W." surname="Burger">
+      <organization>Virginia Tech</organization>
+    </author>
+    <date year="2025" month="July" day="7"/>
+    <abstract>
+      <t>This document defines a Merkle-tree-based approach that can act as an audit-layer detection mechanism to identify a malicious hub, responsible for interoperable group communication between various messaging platforms. The proposed approach is based on the MIMI protocol, which uses a central hub for timestamping and broadcasting messages to clients operating on different platforms. Even though all MLS ciphertexts are end-to-end encrypted, they are routed through the hub, making it a lucrative attack surface for message reordering attacks. To detect such attacks, the proposed approach suggests creating Merkle proofs of messages and timestamps on the client-side, which can subsequently be broadcast to other clients for verification with local Merkle proofs. The broadcast messages are encrypted too and are sent probabilistically to avoid being dropped by the hub. If any of the proofs do not match, an alert is broadcast to the room, indicating a malicious hub. The approach has minimal communication overhead for practical purposes.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-burger-mimi-audit-layer-00"/>
+</reference>
