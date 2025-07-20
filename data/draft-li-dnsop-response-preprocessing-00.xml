@@ -1,0 +1,16 @@
+<reference anchor="I-D.li-dnsop-response-preprocessing" target="https://datatracker.ietf.org/doc/html/draft-li-dnsop-response-preprocessing-00">
+  <front>
+    <title>DNS Response Pre-processing Security Guidelines: Awaiting Valid Responses</title>
+    <author fullname="Xiang Li" initials="X." surname="Li">
+      <organization>Nankai University</organization>
+    </author>
+    <author fullname="Yuqi Qiu" initials="Y." surname="Qiu">
+      <organization>Nankai University</organization>
+    </author>
+    <date year="2025" month="July" day="19"/>
+    <abstract>
+      <t>The security and robustness of the Domain Name System (DNS) significantly depend on how resolvers handle received responses. Current DNS specifications lack exhaustive and consistent guidance on response pre-processing, particularly for malformed or unexpected packets. This specification gap has led to implementation divergences and has been shown to introduce security vulnerabilities such as DNS cache poisoning, Denial of Service (DoS), and resource exhaustion, as detailed in the TUDOOR attack research. This document aims to clarify and standardize the behavior of DNS resolvers when receiving and initially processing responses from upstream servers. The core proposal is the "Awaiting Valid Responses" mechanism, which mandates that a resolver, after issuing a query, MUST maintain a defined waiting period to receive a well- formed, relevant, and validated response. During this period, non- compliant incoming packets should be discarded, and the resolver should continue to wait until a valid response is received or the query times out. This document provides guidance for DNS implementers to mitigate security risks arising from flaws in response pre-processing logic.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-dnsop-response-preprocessing-00"/>
+</reference>
