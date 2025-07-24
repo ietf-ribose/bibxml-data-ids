@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-rats-ear" target="https://datatracker.ietf.org/doc/html/draft-ietf-rats-ear-01">
+  <front>
+    <title>EAT Attestation Results</title>
+    <author fullname="Thomas Fossati" initials="T." surname="Fossati">
+      <organization>Linaro</organization>
+    </author>
+    <author fullname="Eric Voit" initials="E." surname="Voit">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Sergei Trofimov" initials="S." surname="Trofimov">
+      <organization>Arm Limited</organization>
+    </author>
+    <author fullname="Henk Birkholz" initials="H." surname="Birkholz">
+      <organization>Fraunhofer SIT</organization>
+    </author>
+    <date year="2025" month="July" day="24"/>
+    <abstract>
+      <t>This document defines the EAT Attestation Result (EAR) message format. EAR is used by a verifier to encode the result of the appraisal over an attester's evidence. It embeds an AR4SI's "trustworthiness vector" to present a normalized view of the evaluation results, thus easing the task of defining and computing authorization policies by relying parties. Alongside the trustworthiness vector, EAR provides contextual information bound to the appraisal process. This allows a relying party (or an auditor) to reconstruct the frame of reference in which the trustworthiness vector was originally computed. EAR supports simple devices with one attester as well as composite devices that are made of multiple attesters, allowing the state of each attester to be separately examined. EAR can also accommodate registered and unregistered extensions. It can be serialized and protected using either CWT or JWT.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-rats-ear-01"/>
+</reference>
