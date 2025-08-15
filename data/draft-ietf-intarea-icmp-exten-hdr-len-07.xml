@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-intarea-icmp-exten-hdr-len" target="https://datatracker.ietf.org/doc/html/draft-ietf-intarea-icmp-exten-hdr-len-07">
+  <front>
+    <title>ICMP Extension Structure Length Field</title>
+    <author fullname="Ron Bonica" initials="R." surname="Bonica">
+      <organization>HPE</organization>
+    </author>
+    <author fullname="hexiaoming" initials="X." surname="hexiaoming">
+      <organization>China Telecom</organization>
+    </author>
+    <author fullname="Xiao Min" initials="X." surname="Min">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author fullname="Tal Mizrahi" initials="T." surname="Mizrahi">
+      <organization>Huawei</organization>
+    </author>
+    <date year="2025" month="August" day="14"/>
+    <abstract>
+      <t>The ICMP Extension Structure (RFC4884) does not have a length field. Therefore, unless the length of the Extension Structure can be inferred from other data in the ICMP message, the Extension Structure must be the last item in the ICMP message. This document updates RFC 4884 to define a length field for the ICMP Extension Structure. When length information is provided, receivers can use it to parse ICMP messages. Specifically, receivers can use length information to determine the offset at which the item after the ICMP Extension Structure begins.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-intarea-icmp-exten-hdr-len-07"/>
+</reference>
