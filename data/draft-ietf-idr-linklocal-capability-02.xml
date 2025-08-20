@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-idr-linklocal-capability" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-linklocal-capability-02">
+  <front>
+    <title>Link-Local Next Hop Capability for BGP</title>
+    <author fullname="Russ White" initials="R." surname="White">
+      <organization>Akamai Technologies</organization>
+    </author>
+    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+      <organization>Nvidia</organization>
+    </author>
+    <author fullname="Donatas Abraitis" initials="D." surname="Abraitis">
+      <organization>Hostinger</organization>
+    </author>
+    <date year="2025" month="August" day="20"/>
+    <abstract>
+      <t>To support IPv6 reachability, BGP [RFC4271] relies on the Multiprotocol Extensions as defined in [RFC4760]. [RFC2545] defines the structure of IPv6 next hops. These IPv6 next hops may contain a Global IPv6 address, and optionally can contain an IPv6 Link-Local address when the BGP peer is directly attached and shares a common subnet with the IPv6 Global address. This document updates [RFC2545] to clarify the encoding of the BGP next hop when the advertising system is directly attached and only an IPv6 Link-Local address is available. A new BGP Capbility [RFC5492] is defined to signal support for this updated encoding. This clarification applies specifically to IPv6 Link-Local addresses and does not pertain to IPv4 Link-Local addresses as defined in [RFC3927].</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-linklocal-capability-02"/>
+</reference>

@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-lsr-ospf-ls-link-infinity" target="https://datatracker.ietf.org/doc/html/draft-ietf-lsr-ospf-ls-link-infinity-05">
+  <front>
+    <title>Advertising Unreachable Links in OSPF</title>
+    <author fullname="Liyan Gong" initials="L." surname="Gong">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Weiqiang Cheng" initials="W." surname="Cheng">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Changwang Lin" initials="C." surname="Lin">
+      <organization>New H3C Technologies</organization>
+    </author>
+    <author fullname="Acee Lindem" initials="A." surname="Lindem">
+      <organization>Arrcus, Inc.</organization>
+    </author>
+    <author fullname="Ran Chen" initials="R." surname="Chen">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <date year="2025" month="August" day="20"/>
+    <abstract>
+      <t>In certain scenarios, it is necessary to advertise unreachable links in OSPF, which should be explicitly excluded from the related SPF calculation. This document specifies using LSLinkInfinity(0xffff) to advertise an OSPF link as unreachable. Stub Router Advertisement (RFC 6987) defines MaxLinkMetric (0xffff) to indicate a router-LSA link should not be used for transit traffic. This document updates RFC 6987 and RFC 8770. When an OSPFv2 router supports the Unreachable Link support capability defined in this document, the OSPFv2 stub router MaxLinkMetric(0xffff) MUST be updated to MaxReachableLinkMetric(0xfffe).</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lsr-ospf-ls-link-infinity-05"/>
+</reference>
