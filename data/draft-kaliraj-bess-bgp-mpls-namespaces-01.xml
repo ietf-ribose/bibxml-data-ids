@@ -1,0 +1,22 @@
+<reference anchor="I-D.kaliraj-bess-bgp-mpls-namespaces" target="https://datatracker.ietf.org/doc/html/draft-kaliraj-bess-bgp-mpls-namespaces-01">
+  <front>
+    <title>BGP Signaled MPLS Namespaces</title>
+    <author fullname="Kaliraj Vairavakkalai" initials="K." surname="Vairavakkalai">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Jeyananth Minto Jeganathan" initials="J. M." surname="Jeganathan">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Praveen Ramadenu" initials="P." surname="Ramadenu">
+      <organization>AT&amp;T</organization>
+    </author>
+    <author fullname="Israel Means" initials="I." surname="Means">
+      <organization>AT&amp;T</organization>
+    </author>
+    <date year="2025" month="August" day="21"/>
+    <abstract>
+      <t>The MPLS forwarding layer in a core network is a shared resource. The MPLS FIB at nodes in this layer contains labels that are dynamically allocated and locally significant at that node. These labels are scoped in context of the global loopback address. Let us call this the global MPLS namespace. For some usecases like upstream label allocation, it is useful to create private MPLS namespaces (virtual MPLS FIB) over this shared MPLS forwarding layer. This allows installing deterministic label values in the private FIBs created at nodes participating in the private MPLS namespace, while preserving the "locally significant" nature of the underlying shared global MPLS FIB. This document defines new address families (AFI: 16399, SAFI: 128, or 1) and associated signaling mechanisms to create and use MPLS forwarding contexts in a network. Some example use cases are also described.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-kaliraj-bess-bgp-mpls-namespaces-01"/>
+</reference>
