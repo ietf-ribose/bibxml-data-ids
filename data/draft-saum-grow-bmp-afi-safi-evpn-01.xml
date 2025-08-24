@@ -1,0 +1,16 @@
+<reference anchor="I-D.saum-grow-bmp-afi-safi-evpn" target="https://datatracker.ietf.org/doc/html/draft-saum-grow-bmp-afi-safi-evpn-01">
+  <front>
+    <title>EVPN-Specific BMP RIB Statistics Extensions</title>
+    <author fullname="Saumya Dikshit" initials="D." surname="Dikshit">
+      <organization>Aruba Networks, HPE</organization>
+    </author>
+    <author fullname="Mukul Srivastava" initials="M." surname="Srivastava">
+      <organization>Juniper Networks</organization>
+    </author>
+    <date year="2025" month="August" day="24"/>
+    <abstract>
+      <t>This document defines EVPN-specific BGP Monitoring Protocol (BMP) statistics types that extend the generic BMP RIB statistics defined in draft-ietf-grow-bmp-bgp-rib-stats. These extensions include scalar counters for EVPN route types (1-8), locally originated routes, multihoming Ethernet Segments, multihomed EVIs, aliased paths, dynamic inter-VRF route leaking (IVRL), and segment failure impacts, with a 16-bit bitmap for route-map/policy modifications in the high-order 16 bits of a 64-bit field. All counters are applicable to Adj-RIB-In, Adj-RIB-Out, and Local-RIB for the EVPN address family (AFI=25, SAFI=70), using 64-bit gauges unless explicitly specified otherwise.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-saum-grow-bmp-afi-safi-evpn-01"/>
+</reference>
