@@ -1,0 +1,16 @@
+<reference anchor="I-D.ietf-radext-reverse-coa" target="https://datatracker.ietf.org/doc/html/draft-ietf-radext-reverse-coa-08">
+  <front>
+    <title>Reverse Change-of-Authorization (CoA) in RADIUS/(D)TLS</title>
+    <author fullname="Alan DeKok" initials="A." surname="DeKok">
+      <organization>InkBridge</organization>
+    </author>
+    <author fullname="Vadim Cargatser" initials="V." surname="Cargatser">
+      <organization>Cisco</organization>
+    </author>
+    <date year="2025" month="August" day="27"/>
+    <abstract>
+      <t>This document defines a "reverse Change-of-Authorization (CoA)" path for RADIUS packets. A TLS connection is normally used to forward request packets from a client to a server and to send responses from the server to the client. This specification allows a server to send CoA request packets to the client in "reverse" down that connection, and for the client to send responses to the server. Without this capability, it is in general impossible for a server to send CoA packets to a Network Access Server (NAS) that is located behind a firewall or NAT. This reverse CoA functionality extends the available transport methods for CoA packets, but it does not change anything else about how CoA packets are handled. This document updates RFC8559.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-radext-reverse-coa-08"/>
+</reference>
