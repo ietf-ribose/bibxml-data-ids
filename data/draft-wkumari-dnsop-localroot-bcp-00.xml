@@ -1,0 +1,22 @@
+<reference anchor="I-D.wkumari-dnsop-localroot-bcp" target="https://datatracker.ietf.org/doc/html/draft-wkumari-dnsop-localroot-bcp-00">
+  <front>
+    <title>Making LocalRoot a Best Current Practice</title>
+    <author fullname="Warren Kumari" initials="W." surname="Kumari">
+      <organization>Google, Inc.</organization>
+    </author>
+    <author fullname="Wes Hardaker" initials="W." surname="Hardaker">
+      <organization>USC/ISI</organization>
+    </author>
+    <author fullname="Jim Reid" initials="J." surname="Reid">
+      <organization>RTFM llp</organization>
+    </author>
+    <author fullname="Geoff Huston" initials="G." surname="Huston">
+      <organization>APNIC</organization>
+    </author>
+    <date year="2025" month="August" day="28"/>
+    <abstract>
+      <t>RFC 8806 (often called "LocalRoot") defines a mechanism whereby a recursive resolver can fetch the contents of an entire zone and place this information into the resolver's cache. This has several benefits, including increased reliability, increased performance, improved privacy, and decreased or mitigating the effect of some types of DoS attacks. While the majority of DNS resolver implementations natively support RFC 8806, it remains tricky to configure and maintain. This document recommends that DNS resolver software simplify this configuration, and further suggests that configuration becomes the default. This document updates Section 2 of RFC8806 by relaxing the requirement that implementations MUST run an authoritative service. /* Ed (WK): Open questions / ToDo / Notes (to be removed before publication):</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-wkumari-dnsop-localroot-bcp-00"/>
+</reference>
