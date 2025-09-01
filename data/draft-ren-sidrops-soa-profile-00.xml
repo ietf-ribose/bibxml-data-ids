@@ -1,0 +1,19 @@
+<reference anchor="I-D.ren-sidrops-soa-profile" target="https://datatracker.ietf.org/doc/html/draft-ren-sidrops-soa-profile-00">
+  <front>
+    <title>A Profile for Source Origin Authorizations(SOAs)</title>
+    <author fullname="Ren Gang" initials="R." surname="Gang">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Minglin Jia" initials="M." surname="Jia">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Xia Yin" initials="X." surname="Yin">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date year="2025" month="September" day="1"/>
+    <abstract>
+      <t>This document defines Source Origin Authorization (SOA), a new object in the Resource Public Key Infrastructure (RPKI), designed to extend RPKI's capabilities to securing the data plane. An SOA object is a digitally signed artifact that records information about the possible last-hop ASes traversed by packets before reaching a specific AS. By providing this information, the SOA enables other ASes to collaboratively filter traffic with spoofed source addresses claiming to originate from the IP space of the target AS, thereby enhancing global Internet security through mitigation of source address spoofing and DDoS attacks.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ren-sidrops-soa-profile-00"/>
+</reference>
