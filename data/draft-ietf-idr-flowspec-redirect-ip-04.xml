@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-idr-flowspec-redirect-ip" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-flowspec-redirect-ip-04">
+  <front>
+    <title>BGP Flow-Spec Redirect-to-IP Action</title>
+    <author fullname="Jeffrey Haas" initials="J." surname="Haas">
+      <organization>HPE</organization>
+    </author>
+    <author fullname="Wim Henderickx" initials="W." surname="Henderickx">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Adam Simpson" initials="A." surname="Simpson">
+      <organization>Nokia</organization>
+    </author>
+    <date year="2025" month="September" day="2"/>
+    <abstract>
+      <t>Flow-spec is an extension to BGP that allows for the dissemination of traffic flow specification rules. This has many possible applications, but the primary one for many network operators is the distribution of traffic filtering actions for distributed denial of service (DDoS) mitigation. The flow-spec standard [RFC8955] defines a redirect-to-VRF action for policy-based forwarding. This mechanism can be difficult to use, particularly in networks without L3 VPN infrastructure. This draft defines a new redirect-to-IP flow-spec action that provides a simpler method of policy-based forwarding. The details of the action, including the IPv4 or IPv6 target address, are encoded in newly defined BGP extended communities.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-flowspec-redirect-ip-04"/>
+</reference>

@@ -1,0 +1,16 @@
+<reference anchor="I-D.irtf-cfrg-bbs-per-verifier-linkability" target="https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-bbs-per-verifier-linkability-02">
+  <front>
+    <title>BBS per Verifier Linkability</title>
+    <author fullname="Vasilis Kalos" initials="V." surname="Kalos">
+      <organization>MATTR</organization>
+    </author>
+    <author fullname="Greg M. Bernstein" initials="G. M." surname="Bernstein">
+      <organization>Grotto Networking</organization>
+    </author>
+    <date year="2025" month="September" day="3"/>
+    <abstract>
+      <t>The BBS Signatures scheme defined in [I-D.irtf-cfrg-bbs-signatures], describes a multi-message digital signature, that supports selectively disclosing the messages through unlinkable presentations, built using zero-knowledge proofs. Each BBS proof reveals no information other than the signed messages that the Prover chooses to disclose in that specific instance. As such, the Verifier (i.e., the recipient) of the BBS proof, may not be able to track those presentations over time. Although in many applications this is desirable, there are use cases that require the Verifier be able to track the BBS proofs they receive from the same Prover. Examples include monitoring the use of access credentials for abnormal activity, assertion of pseudonymous identity, monetization, etc.. This document provides a mechanism for binding prover secret material for pseudonym creation to a BBS signature and shows how to use this bound information for the creation of context dependent pseudonyms in BBS proofs.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-irtf-cfrg-bbs-per-verifier-linkability-02"/>
+</reference>
