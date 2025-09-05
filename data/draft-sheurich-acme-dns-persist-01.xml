@@ -1,0 +1,19 @@
+<reference anchor="I-D.sheurich-acme-dns-persist" target="https://datatracker.ietf.org/doc/html/draft-sheurich-acme-dns-persist-01">
+  <front>
+    <title>Automated Certificate Management Environment (ACME) Challenge for Persistent DNS TXT Record Validation</title>
+    <author fullname="Shiloh Heurich" initials="S." surname="Heurich">
+      <organization>Fastly</organization>
+    </author>
+    <author fullname="Henry Birge-Lee" initials="H." surname="Birge-Lee">
+      <organization>Princeton University</organization>
+    </author>
+    <author fullname="Michael Slaughter" initials="M." surname="Slaughter">
+      <organization>Amazon Trust Services</organization>
+    </author>
+    <date year="2025" month="September" day="4"/>
+    <abstract>
+      <t>This document specifies "dns-persist-01", a new validation method for the Automated Certificate Management Environment (ACME) protocol. This method allows a Certification Authority (CA) to verify control over a domain by confirming the presence of a persistent DNS TXT record containing CA and account identification information. This method is particularly suited for environments where traditional challenge methods are impractical, such as IoT deployments, multi- tenant platforms, and scenarios requiring batch certificate operations. The validation method is designed with a strong focus on security and robustness, incorporating widely adopted industry best practices for persistent domain control validation. This design aims to make it suitable for Certification Authorities operating under various policy environments, including those that align with the CA/ Browser Forum Baseline Requirements.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-sheurich-acme-dns-persist-01"/>
+</reference>
