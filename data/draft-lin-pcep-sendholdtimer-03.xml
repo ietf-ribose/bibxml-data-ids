@@ -1,0 +1,13 @@
+<reference anchor="I-D.lin-pcep-sendholdtimer" target="https://datatracker.ietf.org/doc/html/draft-lin-pcep-sendholdtimer-03">
+  <front>
+    <title>Path Computation Element (PCE) Communication Protocol (PCEP) Send Hold Timer</title>
+    <author fullname="Changwang Lin" initials="C." surname="Lin">
+      <organization>New H3C Technologies</organization>
+    </author>
+    <date year="2025" month="September" day="9"/>
+    <abstract>
+      <t>This document defines the SendHoldTimer and SendHoldTimer_Expires events in the PCEP protocol. The implementation of SendHoldTimer helps address situations where a local system detects that a remote system has not terminated the PCEP session despite not processing PCEP messages. As per this document, when the SendHoldTimer expires, the local system should close the PCEP connection rather than solely relying on the remote system to terminate the session. This document provides updates to RFC5440.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-lin-pcep-sendholdtimer-03"/>
+</reference>
