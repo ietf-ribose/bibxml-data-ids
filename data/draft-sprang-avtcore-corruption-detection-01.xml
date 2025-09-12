@@ -1,0 +1,13 @@
+<reference anchor="I-D.sprang-avtcore-corruption-detection" target="https://datatracker.ietf.org/doc/html/draft-sprang-avtcore-corruption-detection-01">
+  <front>
+    <title>RTP Header Extension for Automatic Detection of Video Corruptions</title>
+    <author fullname="Erik Språng" initials="E." surname="Språng">
+      <organization>Google</organization>
+    </author>
+    <date year="2025" month="September" day="12"/>
+    <abstract>
+      <t>This document describes an RTP header extensions that can be use to carry select filtered samples from a video frame together with metrics relating to the expected distortions caused by lossy compression of said frame. This data allows a receiver to validate that the output from a decoder matches the frame the went into the encoder on the remote - i.e. validating that the video pipeline is in a correct state free of any video corruptions.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-sprang-avtcore-corruption-detection-01"/>
+</reference>
