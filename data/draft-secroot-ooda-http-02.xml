@@ -1,0 +1,13 @@
+<reference anchor="I-D.secroot-ooda-http" target="https://datatracker.ietf.org/doc/html/draft-secroot-ooda-http-02">
+  <front>
+    <title>OODA-HTTP: Adaptive Security Framework for HTTP Communications</title>
+    <author fullname="Rachid Bouziane" initials="R." surname="Bouziane">
+      <organization>SecRoot.io</organization>
+    </author>
+    <date year="2025" month="September" day="15"/>
+    <abstract>
+      <t>This document defines OODA-HTTP, a protocol extension and adaptive security framework that applies the Observe-Orient-Decide-Act (OODA) loop to HTTP/HTTPS communications. Each HTTP request is transformed into an observation signal, a decision vector, and an opportunity for active defense. OODA-HTTP extends the traditional 4-phase loop into 7 phases: Observe, Orient, Decide, Act, Memorize, Adjust, and Cooperate - allowing systems to evolve and adapt during communication. The protocol introduces a structured header, 'OODA-Action', that carries context-driven actions between endpoints. OODA-HTTP offers compatibility with existing infrastructure (e.g., TLS, HTTP/2/3), while enabling resilience against classical, behavioral, and quantum threats. It supports inter-protocol cooperation with DOTS, STAMP, SIEMs, and behavioral inference engines such as SVDD and PSLPSO. This document defines protocol behavior, header format, core logic, and interoperability strategy.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-secroot-ooda-http-02"/>
+</reference>
