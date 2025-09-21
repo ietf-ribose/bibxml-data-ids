@@ -1,0 +1,13 @@
+<reference anchor="I-D.sheffer-wimse-s2s-reduced" target="https://datatracker.ietf.org/doc/html/draft-sheffer-wimse-s2s-reduced-00">
+  <front>
+    <title>WIMSE Workload-to-Workload Authentication - Proposed Revision</title>
+    <author fullname="Yaron Sheffer" initials="Y." surname="Sheffer">
+      <organization>Intuit</organization>
+    </author>
+    <date year="2025" month="September" day="21"/>
+    <abstract>
+      <t>This document is a proposed revision that simplifies the working group's workload-to-workload protocol document. If accepted by the working group, these changes will be back-ported to that document. Otherwise, it was a good try. The WIMSE architecture defines authentication and authorization for software workloads in a variety of runtime environments, from the most basic ones up to complex multi-service, multi-cloud, multi- tenant deployments. This document defines the simplest, atomic unit of this architecture: the protocol between two workloads that need to verify each other's identity in order to communicate securely. The scope of this protocol is a single HTTP request-and-response pair. To address the needs of different setups, we propose two protocols, one at the application level and one that makes use of trusted TLS transport. These two protocols are compatible, in the sense that a single call chain can have some calls use one protocol and some use the other. Workload A can call Workload B with mutual TLS authentication, while the next call from Workload B to Workload C would be authenticated at the application level.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-sheffer-wimse-s2s-reduced-00"/>
+</reference>
