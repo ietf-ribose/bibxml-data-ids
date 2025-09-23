@@ -1,0 +1,13 @@
+<reference anchor="I-D.schwenkschuster-s2s-http-sig" target="https://datatracker.ietf.org/doc/html/draft-schwenkschuster-s2s-http-sig-00">
+  <front>
+    <title>WIMSE Workload-to-Workload with HTTP Message Signatures</title>
+    <author fullname="Arndt Schwenkschuster" initials="A." surname="Schwenkschuster">
+      <organization>SPIRL</organization>
+    </author>
+    <date year="2025" month="September" day="23"/>
+    <abstract>
+      <t>This document defines an HTTP Message Signatures-based profile for workload-to-workload authentication within the WIMSE (Workload Identity in Multi System Environments) architecture. This profile uses the Workload Identity Token (WIT) combined with HTTP Message Signatures to provide cryptographic proof of possession and message integrity protection. The profile leverages RFC 9421 to sign HTTP requests and optionally responses, ensuring that workloads can authenticate each other and verify message integrity at the application level, particularly in environments where end-to-end TLS is not feasible due to middleboxes or other infrastructure constraints.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-schwenkschuster-s2s-http-sig-00"/>
+</reference>
