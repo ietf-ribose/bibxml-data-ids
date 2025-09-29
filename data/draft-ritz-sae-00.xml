@@ -1,0 +1,13 @@
+<reference anchor="I-D.ritz-sae" target="https://datatracker.ietf.org/doc/html/draft-ritz-sae-00">
+  <front>
+    <title>Static Artifact Exchange (SAE) Protocol</title>
+    <author fullname="Nathanael Ritz" initials="N." surname="Ritz">
+      <organization>Independent</organization>
+    </author>
+    <date year="2025" month="September" day="29"/>
+    <abstract>
+      <t>This document specifies the Static Artifact Exchange (SAE) protocol, an asynchronous protocol for exchanging cryptographic artifacts between two parties via a shared, stateless repository. SAE uses a pull-only communication model where peers poll for the presence of immutable, pre-computed artifacts to coordinate a sequenced exchange. By design, this static artifact model avoids dynamic request processing, reducing common attack surfaces like injection and parser vulnerabilities. The protocol is transport-agnostic, allowing each party to access the repository using different underlying mechanisms (e.g., cloud APIs or standard HTTPS). SAE is intended as a foundational transport pattern for protocols like Ephemeral Compute Attestation (ECA), which require a secure, minimal channel where trust is derived from the cryptographic content of the artifacts, not from the channel itself.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ritz-sae-00"/>
+</reference>
