@@ -1,0 +1,19 @@
+<reference anchor="I-D.schwenkschuster-oauth-spiffe-client-auth" target="https://datatracker.ietf.org/doc/html/draft-schwenkschuster-oauth-spiffe-client-auth-01">
+  <front>
+    <title>OAuth SPIFFE Client Authentication</title>
+    <author fullname="Arndt Schwenkschuster" initials="A." surname="Schwenkschuster">
+      <organization>SPIRL</organization>
+    </author>
+    <author fullname="Pieter Kasselman" initials="P." surname="Kasselman">
+      <organization>SPIRL</organization>
+    </author>
+    <author fullname="Scott Rose" initials="S." surname="Rose">
+      <organization>NIST</organization>
+    </author>
+    <date year="2025" month="October" day="3"/>
+    <abstract>
+      <t>This specification profiles the Assertion Framework for OAuth 2.0 Client Authentication and Authorization Grants [RFC7521] and JWT Profile for OAuth 2.0 Client Authentication and Authorization Grants [RFC7523] to enable the use of SPIFFE Verifiable Identity Documents (SVIDs) as client credentials in OAuth 2.0. It defines how OAuth clients with SPIFFE credentials can authenticate to OAuth authorization servers using their JWT-SVIDs or X.509-SVIDs without the need for client secrets. This approach enhances security by enabling seamless integration between SPIFFE-enabled workloads and OAuth authorization servers while eliminating the need to distribute and manage shared secrets such as static client secrets.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-schwenkschuster-oauth-spiffe-client-auth-01"/>
+</reference>
