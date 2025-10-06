@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-lamps-csr-attestation" target="https://datatracker.ietf.org/doc/html/draft-ietf-lamps-csr-attestation-21">
+  <front>
+    <title>Use of Remote Attestation with Certification Signing Requests</title>
+    <author fullname="Mike Ounsworth" initials="M." surname="Ounsworth">
+      <organization>Entrust Limited</organization>
+    </author>
+    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+      <organization>Siemens</organization>
+    </author>
+    <author fullname="Henk Birkholz" initials="H." surname="Birkholz">
+      <organization>Fraunhofer SIT</organization>
+    </author>
+    <author fullname="Monty Wiseman" initials="M." surname="Wiseman">
+      <organization/>
+    </author>
+    <author fullname="Ned Smith" initials="N." surname="Smith">
+      <organization>Intel Corporation</organization>
+    </author>
+    <date year="2025" month="October" day="5"/>
+    <abstract>
+      <t>A PKI end entity requesting a certificate from a Certification Authority (CA) may wish to offer trustworthy claims about the platform generating the certification request and the environment associated with the corresponding private key, such as whether the private key resides on a hardware security module. This specification defines an attribute and an extension that allow for conveyance of RATS conceptual messages (see Section 8 of [RFC9334], such as Evidence, Endorsements and Attestation Results, in Certificate Signing Requests (CSRs), such as PKCS#10 or Certificate Request Message Format (CRMF) payloads. This provides an elegant and automatable mechanism for transporting attestation data to a Certification Authority. Including Evidence, Endorsements and Attestation Results along with a CSR can help to improve the assessment of the security posture for the private key, and can help the Certification Authority to assess whether it satisfies the requested certificate profile.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lamps-csr-attestation-21"/>
+</reference>
