@@ -1,0 +1,16 @@
+<reference anchor="I-D.ietf-ipsecme-encrypted-esp-ping" target="https://datatracker.ietf.org/doc/html/draft-ietf-ipsecme-encrypted-esp-ping-01">
+  <front>
+    <title>Encrypted ESP Echo Protocol</title>
+    <author fullname="Antony Antony" initials="A." surname="Antony">
+      <organization>secunet Security Networks AG</organization>
+    </author>
+    <author fullname="Steffen Klassert" initials="S." surname="Klassert">
+      <organization>secunet Security Networks AG</organization>
+    </author>
+    <date year="2025" month="October" day="7"/>
+    <abstract>
+      <t>This document defines the Encrypted ESP Echo Function, a mechanism designed to assess the reachability of IP Security (IPsec) network paths using Encapsulating Security Payload (ESP) packets. The primary objective is to reliably and efficiently detect the status of end-to-end paths by exchanging only encrypted ESP packets between IPsec peers. The Encrypted Echo message can either use existing congestion control payloads from RFC9347 or a new message format defined here, with an option to specify a preferred return path when there is more than one pair of IPsec SAs between the same set of IPsec peers. A peer MAY announce the support using a new IKEv2 Status Notifcation ENCRYPTED_PING_SUPPORTED.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-ipsecme-encrypted-esp-ping-01"/>
+</reference>

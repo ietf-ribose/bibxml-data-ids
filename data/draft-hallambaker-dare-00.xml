@@ -1,0 +1,13 @@
+<reference anchor="I-D.hallambaker-dare" target="https://datatracker.ietf.org/doc/html/draft-hallambaker-dare-00">
+  <front>
+    <title>Data At Rest Envelope (DARE)</title>
+    <author fullname="Phillip Hallam-Baker" initials="P." surname="Hallam-Baker">
+      <organization>ThresholdSecrets.com</organization>
+    </author>
+    <date year="2025" month="October" day="6"/>
+    <abstract>
+      <t>This document describes the Data At Rest Envelope (DARE) Envelope and Sequence. The DARE Envelope syntax is used to package plaintext or encrypted content payload and metadata with JOSE decryption and signature data authenticating the payload and metadata. The DARE Sequence format comprises a sequence of DARE Envelopes. The binary encoding of DARE envelopes allows compact encoding of encrypted and signed payloads of unknown length in a single pass with minimal overhead. The binary encoding of DARE sequences is designed to support an append only write mode and efficient reading in either the forwards or backwards directions. The JSON encoding of DARE Envelopes and sequences allows envelopes and sequences to be incorporated in other JSON objects. This document does not cover construction of indexes or signatures over multiple entries in a sequence.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-hallambaker-dare-00"/>
+</reference>
