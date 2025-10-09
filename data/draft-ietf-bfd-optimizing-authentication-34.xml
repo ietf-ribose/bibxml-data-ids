@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-bfd-optimizing-authentication" target="https://datatracker.ietf.org/doc/html/draft-ietf-bfd-optimizing-authentication-34">
+  <front>
+    <title>Optimizing BFD Authentication</title>
+    <author fullname="Mahesh Jethanandani" initials="M." surname="Jethanandani">
+      <organization>Arrcus</organization>
+    </author>
+    <author fullname="Ashesh Mishra" initials="A." surname="Mishra">
+      <organization>Aalyria Technologies</organization>
+    </author>
+    <author fullname="Ankur Saxena" initials="A." surname="Saxena">
+      <organization>Ciena Corporation</organization>
+    </author>
+    <author fullname="Manav Bhatia" initials="M." surname="Bhatia">
+      <organization>Google</organization>
+    </author>
+    <author fullname="Jeffrey Haas" initials="J." surname="Haas">
+      <organization>HPE</organization>
+    </author>
+    <date year="2025" month="October" day="8"/>
+    <abstract>
+      <t>This document describes an experimental optimization to BFD Authentication. This optimization enables BFD to scale better when there is a desire to use authentication where applying the same authentication mechanism to every BFD Control Packet may adversely impact performance. This optimization partitions BFD Authentication into a more computationally intensive mechanism that is applied to BFD significant changes, and a less computationally intensive mechanism applied to the majority of BFD Control Packets.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-bfd-optimizing-authentication-34"/>
+</reference>

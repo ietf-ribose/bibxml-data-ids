@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-pce-sid-algo" target="https://datatracker.ietf.org/doc/html/draft-ietf-pce-sid-algo-26">
+  <front>
+    <title>Carrying SR-Algorithm in Path Computation Element Communication Protocol (PCEP)</title>
+    <author fullname="Samuel Sidor" initials="S." surname="Sidor">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author fullname="Zoey Rose" initials="Z." surname="Rose">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author fullname="Shaofu Peng" initials="S." surname="Peng">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author fullname="Shuping Peng" initials="S." surname="Peng">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Andrew Stone" initials="A." surname="Stone">
+      <organization>Nokia</organization>
+    </author>
+    <date year="2025" month="October" day="8"/>
+    <abstract>
+      <t>This document specifies extensions to the Path Computation Element Communication Protocol (PCEP) to enhance support for Segment Routing (SR) with a focus on the use of Segment Identifiers (SIDs) and SR- Algorithms in Traffic Engineering (TE). The SR-Algorithm associated with a SID defines the path computation algorithm used by Interior Gateway Protocols (IGPs). This document introduces extensions in three main areas. Mechanisms for informing PCEP peers about the SR-Algorithm associated with SIDs by encoding this information in Explicit Route Object (ERO) and Record Route Object (RRO) subobjects. This document updates RFC 8664 and RFC 9603 to allow such extension. The document specifies SR-Algorithm constraint, enabling refined path computations that can leverage IGP algorithm logic, including Flexible Algorithms, and their associated constraints and optimization metrics. It defines new metric types for the METRIC object required to support SR-Algorithm based path computation, but also applicable to Label Switched Paths (LSPs) setup using different Path Setup Types.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-pce-sid-algo-26"/>
+</reference>

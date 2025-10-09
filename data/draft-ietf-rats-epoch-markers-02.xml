@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-rats-epoch-markers" target="https://datatracker.ietf.org/doc/html/draft-ietf-rats-epoch-markers-02">
+  <front>
+    <title>Epoch Markers</title>
+    <author fullname="Henk Birkholz" initials="H." surname="Birkholz">
+      <organization>Fraunhofer SIT</organization>
+    </author>
+    <author fullname="Thomas Fossati" initials="T." surname="Fossati">
+      <organization>Linaro</organization>
+    </author>
+    <author fullname="Wei Pan" initials="W." surname="Pan">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Carsten Bormann" initials="C." surname="Bormann">
+      <organization>Universität Bremen TZI</organization>
+    </author>
+    <date year="2025" month="October" day="9"/>
+    <abstract>
+      <t>This document defines Epoch Markers as a means to establish a notion of freshness among actors in a distributed system. Epoch Markers are similar to "time ticks" and are produced and distributed by a dedicated system known as the Epoch Bell. Systems receiving Epoch Markers do not need to track freshness using their own understanding of time (e.g., via a local real-time clock). Instead, the reception of a specific Epoch Marker establishes a new epoch that is shared among all recipients. This document defines Epoch Marker types, including CBOR time tags, RFC 3161 TimeStampToken, and nonce-like structures. It also defines a CWT Claim to embed Epoch Markers in RFC 8392 CBOR Web Tokens, which serve as vehicles for signed protocol messages.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-rats-epoch-markers-02"/>
+</reference>
