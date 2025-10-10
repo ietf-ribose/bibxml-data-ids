@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-pim-p2mp-policy-ping" target="https://datatracker.ietf.org/doc/html/draft-ietf-pim-p2mp-policy-ping-25">
+  <front>
+    <title>Segment Routing MPLS Point-to-Multipoint (P2MP) Policy Ping</title>
+    <author fullname="Hooman Bidgoli" initials="H." surname="Bidgoli">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Zafar Ali" initials="Z." surname="Ali">
+      <organization>Cisco System</organization>
+    </author>
+    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Anuj Budhiraja" initials="A." surname="Budhiraja">
+      <organization>Cisco System</organization>
+    </author>
+    <author fullname="Daniel Voyer" initials="D." surname="Voyer">
+      <organization>Cisco System</organization>
+    </author>
+    <date year="2025" month="October" day="9"/>
+    <abstract>
+      <t>SR Point-to-Multipoint (P2MP) Policies are used to define and manage explicit P2MP paths within a network. These policies are typically calculated via a controller-based mechanism and installed via, e.g., a Path Computation Element (PCE). In other cases these policies can be installed via using NETCONF/YANG or CLI. They are used to steer multicast traffic along optimized paths from a Root to a set of Leaf routers. This document defines extensions to Ping and Traceroute mechanisms for SR P2MP Policy with MPLS encapsulation to provide OAM (Operations, Administration, and Maintenance) capabilities. The extensions enable operators to verify connectivity, diagnose failures and troubleshoot forwarding issues within SR P2MP Policy multicast trees. By introducing new mechanisms for detecting failures and validating path integrity, this document enhances the operational robustness of P2MP multicast deployments. Additionally, it ensures that existing MPLS and SR-based OAM tools can be effectively applied to networks utilizing SR P2MP Policies.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-pim-p2mp-policy-ping-25"/>
+</reference>
