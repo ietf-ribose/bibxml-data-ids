@@ -1,0 +1,13 @@
+<reference anchor="I-D.ubbink-dnsop-backend-serial-zoneversion" target="https://datatracker.ietf.org/doc/html/draft-ubbink-dnsop-backend-serial-zoneversion-00">
+  <front>
+    <title>DNS Backend Serial Zone Version Option</title>
+    <author fullname="Stefan Ubbink" initials="S." surname="Ubbink">
+      <organization>SIDN</organization>
+    </author>
+    <date year="2025" month="October" day="13"/>
+    <abstract>
+      <t>The DNS Backend Serial Zone Version Opion is a way to get information about the version of a DNS zone in the backend. For example when a DNSSEC signer for a zone generates a new SOA serial, because it has created new RRSIG records, the original data has not changed, but this is not visible to anyone looking at the zone via DNS. This document will make it possible to show the zone information which is the source of the presented data.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ubbink-dnsop-backend-serial-zoneversion-00"/>
+</reference>
