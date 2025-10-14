@@ -1,0 +1,13 @@
+<reference anchor="I-D.joetansey-alvc-schc-lpwan" target="https://datatracker.ietf.org/doc/html/draft-joetansey-alvc-schc-lpwan-01">
+  <front>
+    <title>Carrying ALVC over LPWAN using SCHC Fragmentation and Priorities</title>
+    <author fullname="Joe Tansey" initials="J." surname="Tansey">
+      <organization>Cisco</organization>
+    </author>
+    <date year="2025" month="October" day="13"/>
+    <abstract>
+      <t>This document specifies how to carry the Adaptive Layered Voice Container (ALVC) over Low-Power Wide-Area Networks (LPWAN) using Static Context Header Compression (SCHC). ALVC is codec-agnostic and progressive: a sub-kilobit Base stream provides immediate intelligibility while optional Enhancement streams improve quality when bandwidth allows. This document defines SCHC rules, fragmentation parameters, and unequal error protection (UEP) so that Base traffic is delivered promptly and reliably, while Enhancements are sent opportunistically. The specification targets constrained networks with small payloads, duty-cycle limits, and loss, and does not define a new speech coding bitstream. A companion Internet-Draft describes the codec-agnostic ALVC container, and SCHC is specified in RFC 8724.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-joetansey-alvc-schc-lpwan-01"/>
+</reference>

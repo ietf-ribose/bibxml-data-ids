@@ -1,0 +1,28 @@
+<reference anchor="I-D.zhang-sidrops-rpki-roa-bcp" target="https://datatracker.ietf.org/doc/html/draft-zhang-sidrops-rpki-roa-bcp-01">
+  <front>
+    <title>Best Current Practice for ROA Issuance Restrictions in RPKI</title>
+    <author fullname="Heng Zhang" initials="H." surname="Zhang">
+      <organization>CNNIC</organization>
+    </author>
+    <author fullname="zouhui" initials="" surname="zouhui">
+      <organization>CNIC</organization>
+    </author>
+    <author fullname="Likun Zhang" initials="L." surname="Zhang">
+      <organization>CNNIC</organization>
+    </author>
+    <author fullname="Xue Yang" initials="X." surname="Yang">
+      <organization>CNNIC</organization>
+    </author>
+    <author fullname="Di Ma" initials="D." surname="Ma">
+      <organization>ZDNS</organization>
+    </author>
+    <author fullname="Yanbiao Li" initials="Y." surname="Li">
+      <organization>CNIC</organization>
+    </author>
+    <date year="2025" month="October" day="13"/>
+    <abstract>
+      <t>This document specifies best current practices for Resource Public Key Infrastructure (RPKI) operators regarding Route Origin Authorizations (ROAs). It mandates that a parent Certification Authority (CA) MUST NOT issue ROAs for Internet number resources delegated to a child CA. RPKI certification authorities(CA software) and relying party software are required to enforce this restriction by rejecting or flagging invalid ROAs issued outside of resource allocations.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-zhang-sidrops-rpki-roa-bcp-01"/>
+</reference>
