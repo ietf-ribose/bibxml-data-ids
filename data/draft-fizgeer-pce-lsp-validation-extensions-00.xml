@@ -1,0 +1,13 @@
+<reference anchor="I-D.fizgeer-pce-lsp-validation-extensions" target="https://datatracker.ietf.org/doc/html/draft-fizgeer-pce-lsp-validation-extensions-00">
+  <front>
+    <title>PCE LSP validation Extensions in Path Computation Element Communication Protocol (PCEP)</title>
+    <author fullname="Marina Fizgeer" initials="M." surname="Fizgeer">
+      <organization>Ribbon Communication</organization>
+    </author>
+    <date year="2025" month="October" day="15"/>
+    <abstract>
+      <t>The Path Computation Element Communication Protocol (PCEP) provides mechanisms for Path Computation Elements (PCEs) to instantiate and manage Label Switched Paths (LSPs) on a Path Computation Client (PCC). A Stateful PCE RFC8231 can instantiate LSPs on a PCC. In some cases, the PCC shall perform additional validations and/or actions. If some validations or actions fail, the LSP will not be created and established or updated. This document specifies PCEP extensions to handle this situation gracefully in case the problem can be resolved by some network changes (freeing up resources, restoring or changing the network, and so on). This draft defines common usage of the new flag and known use cases for using this flag. Each draft relevant to LSP creation can add a corresponding bit to the use case list.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-fizgeer-pce-lsp-validation-extensions-00"/>
+</reference>

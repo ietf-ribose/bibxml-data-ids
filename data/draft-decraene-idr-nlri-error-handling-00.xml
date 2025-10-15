@@ -1,0 +1,16 @@
+<reference anchor="I-D.decraene-idr-nlri-error-handling" target="https://datatracker.ietf.org/doc/html/draft-decraene-idr-nlri-error-handling-00">
+  <front>
+    <title>NLRI Error handling</title>
+    <author fullname="Bruno Decraene" initials="B." surname="Decraene">
+      <organization>Orange</organization>
+    </author>
+    <author fullname="John Scudder" initials="J." surname="Scudder">
+      <organization>HPE</organization>
+    </author>
+    <date year="2025" month="October" day="15"/>
+    <abstract>
+      <t>RFC 7606 partially revises the error handling for BGP UPDATE messages. It reduces the cases of BGP session reset by defining and using less impactful error handling approaches, such as attribute discard and treat-as-withdraw when applicable. The treat-as-withdraw approach requires that the entire NLRI field of the MP_REACH_NLRI attribute be successfully parsed. This typically means parsing errors in MP_REACH_NLRI cannot be handled by any means short of session reset. This is exacerbated by the use of non-key data within NLRI, which introduces parsing complexity and additional error cases. This specification defines a non-transitive BGP attribute, the "Treat-As-Withdraw Attribute", to encode NLRIs as per the format of MP_UNREACH_NLRI. This attribute is used to allow the treat-as- withdraw error-handling approach to be used in case an error in the MP_UNREACH_NLRI attribute prevents the parsing of its NLRIs. This document updates RFC 7606 by mandating that the Treat-As- Withdraw Attribute appear before the MP_REACH_NLRI (or any other) attribute in an UPDATE message.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-decraene-idr-nlri-error-handling-00"/>
+</reference>
