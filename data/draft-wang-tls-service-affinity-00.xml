@@ -1,0 +1,22 @@
+<reference anchor="I-D.wang-tls-service-affinity" target="https://datatracker.ietf.org/doc/html/draft-wang-tls-service-affinity-00">
+  <front>
+    <title>Service Affinity Solution based on Transport Layer Security (TLS)</title>
+    <author fullname="Wei Wang" initials="W." surname="Wang">
+      <organization>China Telecom</organization>
+    </author>
+    <author fullname="Aijun Wang" initials="A." surname="Wang">
+      <organization>China Telecom</organization>
+    </author>
+    <author fullname="Mohit Sahni" initials="M." surname="Sahni">
+      <organization>Palo Alto Networks</organization>
+    </author>
+    <author fullname="Ketul Sheth" initials="K." surname="Sheth">
+      <organization>Palo Alto Networks</organization>
+    </author>
+    <date year="2025" month="October" day="17"/>
+    <abstract>
+      <t>This draft proposes a service affinity solution between client and server based on Transport Layer Security (TLS). An extension to Transport Layer Security (TLS) 1.3 to enable session migration. This mechanism is designed for modern network architectures, particularly for multi-homed servers that possess multiple network interfaces and IP addresses. Comparing to the existing solutions such as maintaining the customer- based connection status table in network devices, HTTP redirection and DNS redirection, this solution can avoid the waste of resources caused by saving a large amount of customer status data in the network devices, and realize the optimized scheduling of resources based on network conditions and computing resources in the computing- aware traffic steering scenario, so as to realize the reasonable operation of network resources, cloud resources and computing resources.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-wang-tls-service-affinity-00"/>
+</reference>

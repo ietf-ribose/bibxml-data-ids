@@ -1,0 +1,22 @@
+<reference anchor="I-D.yang-tcpm-ets" target="https://datatracker.ietf.org/doc/html/draft-yang-tcpm-ets-01">
+  <front>
+    <title>TCP ETS: Extensible Timestamp Options</title>
+    <author fullname="Kevin (Yudong) Yang" initials="K. Y." surname="Yang">
+      <organization>Google, Inc</organization>
+    </author>
+    <author fullname="Neal Cardwell" initials="N." surname="Cardwell">
+      <organization>Google, Inc</organization>
+    </author>
+    <author fullname="Yuchung Cheng" initials="Y." surname="Cheng">
+      <organization>Google, Inc</organization>
+    </author>
+    <author fullname="Eric Dumazet" initials="E." surname="Dumazet">
+      <organization>Google, Inc</organization>
+    </author>
+    <date year="2025" month="October" day="16"/>
+    <abstract>
+      <t>This document presents ETS: an Extensible TimeStamps option for TCP. It allows hosts to use microseconds as the unit for timestamps to improve the precision of timestamps, and extends the information provided in the [RFC7323] TCP Timestamps Option by including the receiver delay in the TSecr echoing, so that the receiver of the ACK is able to more accurately estimate the portion of the RTT that resulted from time traveling through the network. The ETS option format is extensible, so that future extensions can add further information without the overhead of extra TCP option kind and length fields.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-yang-tcpm-ets-01"/>
+</reference>

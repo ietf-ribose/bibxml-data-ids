@@ -1,0 +1,16 @@
+<reference anchor="I-D.nygren-httpbis-http11-request-binding" target="https://datatracker.ietf.org/doc/html/draft-nygren-httpbis-http11-request-binding-00">
+  <front>
+    <title>HTTP/1.1 Request Smuggling Defense using Cryptographic Message Binding</title>
+    <author fullname="Erik Nygren" initials="E." surname="Nygren">
+      <organization>Akamai Technologies</organization>
+    </author>
+    <author fullname="Mike Bishop" initials="M." surname="Bishop">
+      <organization>Akamai Technologies</organization>
+    </author>
+    <date year="2025" month="October" day="16"/>
+    <abstract>
+      <t>HTTP/1.1 Message Binding adds new hop-by-hop header fields that are cryptographically bound to requests and responses. The keys used are negotiated out-of-band from the HTTP datastream (such as via TLS Exporters). These header fields allow endpoints to detect and mitigate desynchronization attacks, such as HTTP Request Smuggling, that exist due to datastream handling differences.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-nygren-httpbis-http11-request-binding-00"/>
+</reference>

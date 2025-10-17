@@ -1,0 +1,25 @@
+<reference anchor="I-D.han-detnet-anomalous-packets-handling" target="https://datatracker.ietf.org/doc/html/draft-han-detnet-anomalous-packets-handling-01">
+  <front>
+    <title>Anomalous Packets Handling for DetNet</title>
+    <author fullname="Han Zhengxin" initials="H." surname="Zhengxin">
+      <organization>China Unicom</organization>
+    </author>
+    <author fullname="Ran Pang" initials="R." surname="Pang">
+      <organization>China Unicom</organization>
+    </author>
+    <author fullname="Chang Liu" initials="C." surname="Liu">
+      <organization>China Unicom</organization>
+    </author>
+    <author fullname="Jinjie Yan" initials="J." surname="Yan">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author fullname="Xiangyang Zhu" initials="X." surname="Zhu">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <date year="2025" month="October" day="16"/>
+    <abstract>
+      <t>In deterministic networking (DetNet), resource conflicts at flow aggregation nodes can lead to network anomalies. Existing data plane mechanisms for handling anomalous packets, such as simple discarding or treating them as Best-Effort (BE) flows, are insufficient. Consequently, the network performance can degrade to a level inferior to of traditional QoS approaches.Therefore, in order to handle the anomalous traffic, the data plane should implement an enhanced handling mechanism. This document proposes an enhanced anomalous packet handling solution for DetNet. This solution specifies two policies: the packet squeezing policy and the packet degrading policy. These policies provide a flexible, enhanced mechanism applicable to various queuing mechanisms, ensuring the preferential scheduling and preservation of deterministic service traffic under anomalous conditions.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-han-detnet-anomalous-packets-handling-01"/>
+</reference>
