@@ -1,0 +1,13 @@
+<reference anchor="I-D.hu-fantel-area" target="https://datatracker.ietf.org/doc/html/draft-hu-fantel-area-00">
+  <front>
+    <title>A Scoping Mechanism for Fast Notification Using IGP Areas</title>
+    <author fullname="Zehua Hu" initials="Z." surname="Hu">
+      <organization>China Telecom</organization>
+    </author>
+    <date year="2025" month="October" day="18"/>
+    <abstract>
+      <t>Fast Notification for Traffic Engineering and Load Balancing (FaNTEL) enables real-time dissemination of network events such as link failure, congestion, or load imbalance. However, unbounded flooding of FaNTEL messages can lead to control plane overload and state explosion. This document defines a scoping mechanism for FaNTEL based on IGP area boundaries. It formally specifies the concept of a FaNTEL Area, the structure of scoped notification messages, and the precise forwarding behavior within and across areas. The mechanism leverages existing IGP topological partitions (e.g., OSPF areas, IS-IS levels) to contain message propagation, ensuring rapid local response while preventing unnecessary global churn. This document focuses exclusively on the propagation model and provides normative rules for implementation.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-hu-fantel-area-00"/>
+</reference>
