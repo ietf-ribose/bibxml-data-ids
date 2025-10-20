@@ -1,0 +1,19 @@
+<reference anchor="I-D.cui-idr-flowspec-feedback-binding" target="https://datatracker.ietf.org/doc/html/draft-cui-idr-flowspec-feedback-binding-00">
+  <front>
+    <title>BGP Flow Specification Extension for Feedback Binding</title>
+    <author fullname="Yong Cui" initials="Y." surname="Cui">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Yujia Gao" initials="Y." surname="Gao">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author fullname="Lei Zhang" initials="L." surname="Zhang">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <date year="2025" month="October" day="20"/>
+    <abstract>
+      <t>This document specifies a BGP Flow Specification extension that conveys per-route feedback binding for a FlowSpec route using the BGP Extended Community attribute. The proposed mechanism introduces a single Feedback Action, encoded as a Generic Transitive Extended Community, which enables downstream routers to report telemetry information or operational events associated with a FlowSpec rule. The Feedback Action carries parameters including a Feedback Identifier (FID), a window exponent (WINC) that defines the periodic aggregation interval, an event flag, and a scope selector to control where feedback is generated. These parameters are attached to the FlowSpec route and are propagated across AS boundaries unchanged. This document focuses on the signaling aspect; a companion document may define how feedback information is exported as part of a network telemetry framework (e.g., leveraging the BGP Monitoring Protocol (BMP)) or equivalent mechanisms to report periodic and event-driven feedback keyed by the FID.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-cui-idr-flowspec-feedback-binding-00"/>
+</reference>

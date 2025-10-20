@@ -1,0 +1,22 @@
+<reference anchor="I-D.lucente-grow-bmp-offline" target="https://datatracker.ietf.org/doc/html/draft-lucente-grow-bmp-offline-02">
+  <front>
+    <title>BMP Snapshots</title>
+    <author fullname="Luuk Hendriks" initials="L." surname="Hendriks">
+      <organization>NLnet Labs</organization>
+    </author>
+    <author fullname="Paolo Lucente" initials="P." surname="Lucente">
+      <organization>NTT</organization>
+    </author>
+    <author fullname="Camilo Cardona" initials="C." surname="Cardona">
+      <organization>NTT</organization>
+    </author>
+    <author fullname="Colin Petrie" initials="C." surname="Petrie">
+      <organization>NTT</organization>
+    </author>
+    <date year="2025" month="October" day="20"/>
+    <abstract>
+      <t>BMP (BGP Monitoring Protocol) is perfectly suited for real-time consumption but less ideal in stream processing and off-wire historical scenarios. The issue is that the necessary information to produce a complete view and enabling correct processing of all messages in the stream, is only sent out at the beginning of the BMP session. This document introduces the concept of BMP Snapshots, enabling BMP stations to synchronize mid-stream, and, providing the basis for self-contained, time-binned archiving of BMP data.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-lucente-grow-bmp-offline-02"/>
+</reference>

@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-bess-extended-evpn-optimized-ir" target="https://datatracker.ietf.org/doc/html/draft-ietf-bess-extended-evpn-optimized-ir-08">
+  <front>
+    <title>Extended Procedures for EVPN Optimized Ingress Replication</title>
+    <author fullname="Wen Lin" initials="W." surname="Lin">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Selvakumar Sivaraj" initials="S." surname="Sivaraj">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Vishal Garg" initials="V." surname="Garg">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+      <organization>Nokia</organization>
+    </author>
+    <date year="2025" month="October" day="19"/>
+    <abstract>
+      <t>In the Virtualization Overlay (NVO) network with Ethernet VPN (EVPN), optimized ingress replication uses Assisted-Replication (AR) to achieve more efficient delivery of Broadcast and Multicast (BM) traffic. An AR-LEAF, which is a Network Virtualization Edge (NVE) device, forwards received BM traffic from its tenant system to an AR- REPLICATOR. The AR-REPLICATOR then replicates it to the remaining AR-LEAFs in the network. However, when replicating the packet on behalf of its multihomed AR-LEAF, an AR-REPLICATOR may face challenges in retaining the source IP address or including the expected Ethernet Segment Identifier (ESI) label that is required for EVPN split-horizon filtering. This document extends the optimized ingress replication procedures to address such limitations. The extended procedures specified in this document allow the support of EVPN multihoming on the AR-LEAFs as well as optimized ingress replication for the rest of the EVPN NVO network.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-bess-extended-evpn-optimized-ir-08"/>
+</reference>

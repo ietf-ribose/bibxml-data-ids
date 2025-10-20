@@ -1,0 +1,16 @@
+<reference anchor="I-D.rosenberg-oauth-aauth" target="https://datatracker.ietf.org/doc/html/draft-rosenberg-oauth-aauth-01">
+  <front>
+    <title>AAuth - Agentic Authorization OAuth 2.1 Extension</title>
+    <author fullname="Jonathan Rosenberg" initials="J." surname="Rosenberg">
+      <organization>Five9</organization>
+    </author>
+    <author fullname="Pat White" initials="P." surname="White">
+      <organization>Bitwave</organization>
+    </author>
+    <date year="2025" month="October" day="19"/>
+    <abstract>
+      <t>This document defines the Agent Authorization Grant, an OAuth 2.1 extension allowing a class of Internet applications - called AI Agents - to obtain access tokens in order to invoke web-based APIs on behalf of their users. In the use cases envisaged here, users interact with AI Agents through communication channels - the Public Switched Telephone Network (PSTN) or texting - which do not permit traditional OAuth grant flows. Instead, AI agents collect Personally Identifying Information (PII) through natural language conversation, and then use that collected information to obtain an access token with appropriately constrained scopes. A primary considering is ensuring that the Large Language Model (LLM) powering the AI Agent cannot, through hallucination, result in impersonation attacks.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-rosenberg-oauth-aauth-01"/>
+</reference>

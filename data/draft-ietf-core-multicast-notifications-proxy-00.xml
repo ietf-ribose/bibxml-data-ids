@@ -1,0 +1,22 @@
+<reference anchor="I-D.ietf-core-multicast-notifications-proxy" target="https://datatracker.ietf.org/doc/html/draft-ietf-core-multicast-notifications-proxy-00">
+  <front>
+    <title>Using Proxies for Observe Notifications as CoAP Multicast Responses</title>
+    <author fullname="Marco Tiloca" initials="M." surname="Tiloca">
+      <organization>RISE AB</organization>
+    </author>
+    <author fullname="Rikard Höglund" initials="R." surname="Höglund">
+      <organization>RISE AB</organization>
+    </author>
+    <author fullname="Christian Amsüss" initials="C." surname="Amsüss">
+      <organization/>
+    </author>
+    <author fullname="Francesca Palombini" initials="F." surname="Palombini">
+      <organization>Ericsson AB</organization>
+    </author>
+    <date year="2025" month="October" day="20"/>
+    <abstract>
+      <t>The Constrained Application Protocol (CoAP) allows clients to "observe" resources at a server and to receive notifications as unicast responses upon changes of the resource state. Instead of sending a distinct unicast notification to each different client, a server can alternatively send a single notification as a response message over multicast, to all the clients observing the same target resource. When doing so, the security protocol Group Object Security for Constrained RESTful Environments (Group OSCORE) can be used to protect multicast notifications end-to-end between the server and the observer clients. This document describes how multicast notifications can be used in network setups that leverage a proxy, e.g., in order to accommodate clients that are not able to directly listen to multicast traffic. The present version -00 refers to version -12 of draft-ietf-core- observe-multicast-notifications, which includes content about proxies that is also included in the present document. Such content will be removed from draft-ietf-core-observe-multicast-notifications in its next revision.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-core-multicast-notifications-proxy-00"/>
+</reference>

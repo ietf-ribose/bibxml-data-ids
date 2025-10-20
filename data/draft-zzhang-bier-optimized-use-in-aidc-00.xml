@@ -1,0 +1,25 @@
+<reference anchor="I-D.zzhang-bier-optimized-use-in-aidc" target="https://datatracker.ietf.org/doc/html/draft-zzhang-bier-optimized-use-in-aidc-00">
+  <front>
+    <title>Optimized Use of BIER in AIML Data Centers</title>
+    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Xiaohu Xu" initials="X." surname="Xu">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Zheng Zhang" initials="Z." surname="Zhang">
+      <organization>ZTE</organization>
+    </author>
+    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+      <organization>Nvidia</organization>
+    </author>
+    <author fullname="Aditya Mahale" initials="A." surname="Mahale">
+      <organization>Cerebras</organization>
+    </author>
+    <date year="2025" month="October" day="20"/>
+    <abstract>
+      <t>Use of multicast in AI Data Centers (AIDC) is getting attention for efficient large-scale distribution of the same data to many receivers, given the collectives like All2All and AllReduce. Emerging technologies like In Network Compute(INC) can also benefit from using in-network-distribution of the packets by offloading the distribution of the flows to the network. Given the bursty nature of short-lived all2all flows, BIER is a very good multicast technology for AIDC because it does not need the per-establishment of the multicast tree states. This document discusses further optimization of BIER use in AIDC or similar deployment scenarios, and updates RFC4604 by specifying an IGMP/MLD extension for sources to report receiver information to the First Hop Routers. The extension can be useful and is only needed when the source cannot impose the BIER encapsulation.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-zzhang-bier-optimized-use-in-aidc-00"/>
+</reference>
