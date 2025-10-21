@@ -1,0 +1,16 @@
+<reference anchor="I-D.ietf-core-oscore-id-update" target="https://datatracker.ietf.org/doc/html/draft-ietf-core-oscore-id-update-05">
+  <front>
+    <title>Identifier Update for OSCORE</title>
+    <author fullname="Rikard Höglund" initials="R." surname="Höglund">
+      <organization>RISE AB</organization>
+    </author>
+    <author fullname="Marco Tiloca" initials="M." surname="Tiloca">
+      <organization>RISE AB</organization>
+    </author>
+    <date year="2025" month="October" day="20"/>
+    <abstract>
+      <t>Two peers that communicate with the CoAP protocol can use the Object Security for Constrained RESTful Environments (OSCORE) protocol to protect their message exchanges end-to-end. To this end, the two peers share an OSCORE Security Context and a number of related identifiers. In particular, each of the two peers stores a Sender ID that identifies its own Sender Context within the Security Context, and a Recipient ID that identifies the Recipient Context associated with the other peer within the same Security Context. These identifiers are sent in plaintext within OSCORE-protected messages. Hence, they can be used to correlate messages exchanged between peers and track those peers, with consequent privacy implications. This document defines an OSCORE ID update procedure that two peers can use to update their OSCORE identifiers. This procedure can be run stand- alone or seamlessly integrated in an execution of the Key Update for OSCORE (KUDOS) procedure.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-core-oscore-id-update-05"/>
+</reference>

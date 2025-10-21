@@ -1,0 +1,16 @@
+<reference anchor="I-D.hoypat-httpbis-message-signatures-ekm" target="https://datatracker.ietf.org/doc/html/draft-hoypat-httpbis-message-signatures-ekm-00">
+  <front>
+    <title>HTTP Signature Component for TLS Channel Binding</title>
+    <author fullname="Jonathan Hoyland" initials="J." surname="Hoyland">
+      <organization/>
+    </author>
+    <author fullname="Christopher Patton" initials="C." surname="Patton">
+      <organization>Cloudflare</organization>
+    </author>
+    <date year="2025" month="October" day="20"/>
+    <abstract>
+      <t>A derived component is specified for HTTP Message Signatures that binds the signature to the underlying secure channel (TLS over TCP or QUIC), thereby ensuring a signed message transmitted over one channel cannot be retransmitted over another. The component consists of key material exported from TLS.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-hoypat-httpbis-message-signatures-ekm-00"/>
+</reference>

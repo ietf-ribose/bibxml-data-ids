@@ -1,0 +1,25 @@
+<reference anchor="I-D.ali-spring-srv6-policy-sid-list-optimization" target="https://datatracker.ietf.org/doc/html/draft-ali-spring-srv6-policy-sid-list-optimization-01">
+  <front>
+    <title>SRv6 Policy SID List Optimization</title>
+    <author fullname="Zafar Ali" initials="Z." surname="Ali">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Changwang Lin" initials="C." surname="Lin">
+      <organization>New H3C Technologies</organization>
+    </author>
+    <author fullname="Yisong Liu" initials="Y." surname="Liu">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Ran Chen" initials="R." surname="Chen">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author fullname="Cheng Li" initials="C." surname="Li">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date year="2025" month="October" day="20"/>
+    <abstract>
+      <t>Segment Routing (SR) allows a node to steer a packet flow along any path. SR Policy is an ordered list of segments (i.e., instructions) that represent a source-routed policy. The packets steered into an SR Policy carry an ordered list of segments associated with that SR Policy. An SR Policy can be instantiated SR-MPLS and SRv6 data planes. In some use cases, an SRv6 Policy's SID list ends with the policy endpoint's node SID, and the traffic steered (over policy) already ensures that it is taken to the policy endpoint. In such cases, the SID list can be optimized by excluding the endpoint Node SID when installing the policy. This draft specifies procedures to indicate whether the endpoint's node SID needs to be included or excluded when installing the SRv6 Policy.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ali-spring-srv6-policy-sid-list-optimization-01"/>
+</reference>

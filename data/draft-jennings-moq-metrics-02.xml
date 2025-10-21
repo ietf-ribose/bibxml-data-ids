@@ -1,0 +1,16 @@
+<reference anchor="I-D.jennings-moq-metrics" target="https://datatracker.ietf.org/doc/html/draft-jennings-moq-metrics-02">
+  <front>
+    <title>Metrics over MOQT</title>
+    <author fullname="Cullen Fluffy Jennings" initials="C. F." surname="Jennings">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Suhas Nandakumar" initials="S." surname="Nandakumar">
+      <organization>Cisco</organization>
+    </author>
+    <date year="2025" month="October" day="20"/>
+    <abstract>
+      <t>This document specifies how to send metrics type information over the Media Over QUIC Transport (MOQT). Many systems produce significant volumes of metrics which either are not all needed at the same time for consumption by collection/ aggregation endpoints or may also compete for bandwidth with the primary application, thus exacerbating congestion conditions especially in low-bandwidth networks. Delivering these over architectures enabled by publish/subscribe transport like Media Over QUIC Transport (MOQT) [I-D.ietf-moq-transport], allows metrics data to be prioritized within the congestion context of the primary application as well as enabling local nodes to cache the metric value to be later retrieved via new subscriptions.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-jennings-moq-metrics-02"/>
+</reference>

@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-ccwg-bbr" target="https://datatracker.ietf.org/doc/html/draft-ietf-ccwg-bbr-04">
+  <front>
+    <title>BBR Congestion Control</title>
+    <author fullname="Neal Cardwell" initials="N." surname="Cardwell">
+      <organization>Google</organization>
+    </author>
+    <author fullname="Ian Swett" initials="I." surname="Swett">
+      <organization>Google</organization>
+    </author>
+    <author fullname="Joseph Beshay" initials="J." surname="Beshay">
+      <organization>Meta</organization>
+    </author>
+    <date year="2025" month="October" day="20"/>
+    <abstract>
+      <t>This document specifies the BBR congestion control algorithm. BBR ("Bottleneck Bandwidth and Round-trip propagation time") uses recent measurements of a transport connection's delivery rate, round-trip time, and packet loss rate to build an explicit model of the network path. BBR then uses this model to control both how fast it sends data and the maximum volume of data it allows in flight in the network at any time. Relative to loss-based congestion control algorithms such as Reno [RFC5681] or CUBIC [RFC9438], BBR offers substantially higher throughput for bottlenecks with shallow buffers or random losses, and substantially lower queueing delays for bottlenecks with deep buffers (avoiding "bufferbloat"). BBR can be implemented in any transport protocol that supports packet-delivery acknowledgment. Thus far, open source implementations are available for TCP [RFC9293] and QUIC [RFC9000]. This document specifies version 3 of the BBR algorithm, BBRv3.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-ccwg-bbr-04"/>
+</reference>

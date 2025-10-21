@@ -1,0 +1,22 @@
+<reference anchor="I-D.white-intarea-reordering" target="https://datatracker.ietf.org/doc/html/draft-white-intarea-reordering-02">
+  <front>
+    <title>Proposal for Updates to Guidance on Packet Reordering</title>
+    <author fullname="Greg White" initials="G." surname="White">
+      <organization>CableLabs</organization>
+    </author>
+    <author fullname="Ingemar Johansson" initials="I." surname="Johansson">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Dibakar Das" initials="D." surname="Das">
+      <organization>Intel</organization>
+    </author>
+    <author fullname="Chris Box" initials="C." surname="Box">
+      <organization>BT Group</organization>
+    </author>
+    <date year="2025" month="October" day="20"/>
+    <abstract>
+      <t>Several link technology standards mandate that equipment guarantee in-order delivery of layer 2 frames, apparently due to a belief that this is required by higher layer protocols. To meet this requirement they implement a "resequencing" operation to restore the original packet order. This can introduce delays that result in net degradation of performance. Modern TCP and QUIC implementations support features that significantly improve their tolerance to out- of-order delivery. This draft is intended to provide new information for layer 2 technology standards regarding the need to assure in- order delivery to support IETF protocols.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-white-intarea-reordering-02"/>
+</reference>

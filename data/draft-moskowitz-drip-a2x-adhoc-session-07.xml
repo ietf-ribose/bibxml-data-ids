@@ -1,0 +1,19 @@
+<reference anchor="I-D.moskowitz-drip-a2x-adhoc-session" target="https://datatracker.ietf.org/doc/html/draft-moskowitz-drip-a2x-adhoc-session-07">
+  <front>
+    <title>Aircraft to Anything AdHoc Broadcasts and Session</title>
+    <author fullname="Robert Moskowitz" initials="R." surname="Moskowitz">
+      <organization>HTT Consulting</organization>
+    </author>
+    <author fullname="Stuart W. Card" initials="S. W." surname="Card">
+      <organization>AX Enterprize</organization>
+    </author>
+    <author fullname="Andrei Gurtov" initials="A." surname="Gurtov">
+      <organization>Linköping University</organization>
+    </author>
+    <date year="2025" month="October" day="20"/>
+    <abstract>
+      <t>Aircraft-to-anything (A2X) communications are often single broadcast messages that to be trustable, need to be signed with expensive (in cpu and payload size) asymmetric cryptography. There are also frequent cases of extended exchanges between two devices where trust can be maintained via a lower cost symmetric key protect flow. This document shows both how to secure A2X broadcast messages with DRIP Entity Tags (DET) and DRIP Endorsement objects and to leverage these to create an AdHoc session key for just such a communication flow. There is also provision for DETs within X.509 certificates, encoded in c509, as an alternative DET trust model.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-moskowitz-drip-a2x-adhoc-session-07"/>
+</reference>

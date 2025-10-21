@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-lsr-distoptflood" target="https://datatracker.ietf.org/doc/html/draft-ietf-lsr-distoptflood-11">
+  <front>
+    <title>IS-IS Distributed Flooding Reduction</title>
+    <author fullname="Russ White" initials="R." surname="White">
+      <organization>Akamai</organization>
+    </author>
+    <author fullname="Shraddha Hegde" initials="S." surname="Hegde">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Tony Przygienda" initials="T." surname="Przygienda">
+      <organization>Juniper Networks</organization>
+    </author>
+    <author fullname="Luay Jalil" initials="L." surname="Jalil">
+      <organization>Verizon</organization>
+    </author>
+    <author fullname="Daniel Voyer" initials="D." surname="Voyer">
+      <organization>Cisco</organization>
+    </author>
+    <date year="2025" month="October" day="20"/>
+    <abstract>
+      <t>In dense topologies (such as data center fabrics based on the Clos and butterfly though not limited to those; in fact any large topology or one with relatively high degree of connectivity qualifies here) IGP flooding mechanisms designed originally for rather sparse topologies can "overflood", or in other words generate too many identical copies of same information arriving at a given node from other devices. This normally results in longer convergence times and higher resource utilization to process and discard the superfluous copies. Flooding algorithm extensions that restrict the amount of flooding performed can be constructed and can reduce resource utilization significantly, while improving convergence performance. One such flooding modification (based on previous art) optimized for operational considerations, described further in Section 2, is described in this document.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lsr-distoptflood-11"/>
+</reference>
