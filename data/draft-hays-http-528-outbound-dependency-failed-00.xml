@@ -1,0 +1,13 @@
+<reference anchor="I-D.hays-http-528-outbound-dependency-failed" target="https://datatracker.ietf.org/doc/html/draft-hays-http-528-outbound-dependency-failed-00">
+  <front>
+    <title>Http 528 Outbound Dependency Failed</title>
+    <author fullname="Jack Zante Hays" initials="J. Z." surname="Hays">
+      <organization>PayPal, Inc.</organization>
+    </author>
+    <date year="2025" month="October" day="22"/>
+    <abstract>
+      <t>This document defines a new HTTP 5xx status code, 528 (Outbound Dependency Failed), used to indicate that a server received, parsed, and processed a request correctly, but could not complete it because a required downstream dependency malfunctioned or was in a non- transient failure state. Unlike 500 (Internal Server Error), which SHOULD be reserved for actual faults within the responding service (including improper error handling), 528 explicitly signals that the responding service operated as intended and the failure lies in a dependency. Unlike 503 (Service Unavailable), 528 does not imply a temporary condition expected to recover without intervention.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-hays-http-528-outbound-dependency-failed-00"/>
+</reference>
