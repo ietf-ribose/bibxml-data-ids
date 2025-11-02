@@ -1,0 +1,13 @@
+<reference anchor="I-D.degennaro-imap-objectid-accountid" target="https://datatracker.ietf.org/doc/html/draft-degennaro-imap-objectid-accountid-00">
+  <front>
+    <title>IMAP OBJECTID Account Identifier extension</title>
+    <author fullname="Mauro De Gennaro" initials="M." surname="De Gennaro">
+      <organization>Stalwart Labs LLC</organization>
+    </author>
+    <date year="2025" month="November" day="2"/>
+    <abstract>
+      <t>This document extends the IMAP OBJECTID extension (RFC 8474) to support account identifiers, enabling IMAP servers to provide account-level context for mailboxes when multiple accounts are accessible through a single IMAP connection. This extension is particularly relevant for environments where IMAP mailboxes include shared mailboxes from multiple JMAP accounts, as defined in the JSON Meta Application Protocol (JMAP). By introducing the ACCOUNTID object identifier, this specification ensures that mailboxes can be uniquely identified across different accounts in both IMAP and JMAP contexts, thereby facilitating seamless interoperability between the two protocols in multi-account scenarios.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-degennaro-imap-objectid-accountid-00"/>
+</reference>

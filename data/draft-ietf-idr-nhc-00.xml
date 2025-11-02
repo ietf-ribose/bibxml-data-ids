@@ -1,0 +1,31 @@
+<reference anchor="I-D.ietf-idr-nhc" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-nhc-00">
+  <front>
+    <title>BGP Next Hop Dependent Characteristics Attribute</title>
+    <author fullname="Bruno Decraene" initials="B." surname="Decraene">
+      <organization>Orange</organization>
+    </author>
+    <author fullname="Kireeti Kompella" initials="K." surname="Kompella">
+      <organization>HPE</organization>
+    </author>
+    <author fullname="Serge Krier" initials="S." surname="Krier">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="SATYA R MOHANTY" initials="M. R." surname="Satya">
+      <organization>Zscaler</organization>
+    </author>
+    <author fullname="John Scudder" initials="J." surname="Scudder">
+      <organization>HPE</organization>
+    </author>
+    <author fullname="Kevin Wang" initials="K." surname="Wang">
+      <organization>HPE</organization>
+    </author>
+    <author fullname="Bin Wen" initials="B." surname="Wen">
+      <organization>Comcast</organization>
+    </author>
+    <date year="2025" month="November" day="2"/>
+    <abstract>
+      <t>RFC 5492 allows a BGP speaker to advertise its capabilities to its peer. When a route is propagated beyond the immediate peer, it is useful to allow certain characteristics to be conveyed further. In particular, it is useful to advertise forwarding plane features. This specification defines a BGP transitive attribute to carry such information, the "Next Hop Dependent Characteristics Attribute," or NHC. Unlike the capabilities defined by RFC 5492, the characteristics conveyed in the NHC apply solely to the routes advertised by the BGP UPDATE that contains the particular NHC.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-nhc-00"/>
+</reference>

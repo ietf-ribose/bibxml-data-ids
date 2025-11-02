@@ -1,0 +1,22 @@
+<reference anchor="I-D.analyst-dns-dip-rr" target="https://datatracker.ietf.org/doc/html/draft-analyst-dns-dip-rr-00">
+  <front>
+    <title>DNS Resource Records for the Data Interoperability Protocol</title>
+    <author fullname="XiaoDong Lee" initials="X." surname="Lee">
+      <organization>Institute of Computing Technology, Chinese Academy of Sciences</organization>
+    </author>
+    <author fullname="Botao Peng" initials="B." surname="Peng">
+      <organization>Institute of Computing Technology, Chinese Academy of Sciences</organization>
+    </author>
+    <author fullname="Yufan Fu" initials="Y." surname="Fu">
+      <organization>Institute of Computing Technology, Chinese Academy of Sciences</organization>
+    </author>
+    <author fullname="王雨梦" initials="W." surname="王雨梦">
+      <organization>Institute of Computing Technology, Chinese Academy of Sciences</organization>
+    </author>
+    <date year="2025" month="November" day="2"/>
+    <abstract>
+      <t>This document specifies a set of new DNS Resource Record (RR) types to support the Data Interoperability Protocol (DIP). DIP models entities as "Data Objects" (DOs) indexed by "Data Object Identifiers" (DOIs), which are syntactically equivalent to DNS domain names. The RR types specified herein-DLR, DOPK, DOAUTH, DODIGEST, DOCG, and DOALGO-are designed to hold key attributes of a DO. This approach addresses the inherent limitations of repurposing existing RR types (such as TXT) with respect to structured data representation, efficiency in handling binary data, and query granularity. The result is a native, efficient, and extensible mechanism for discovering and managing DO metadata via the DNS.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-analyst-dns-dip-rr-00"/>
+</reference>
