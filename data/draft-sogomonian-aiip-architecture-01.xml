@@ -1,0 +1,13 @@
+<reference anchor="I-D.sogomonian-aiip-architecture" target="https://datatracker.ietf.org/doc/html/draft-sogomonian-aiip-architecture-01">
+  <front>
+    <title>Architecture for the Artificial Intelligence Internet Protocol (AIIP)</title>
+    <author fullname="Aram Sogomonian" initials="A." surname="Sogomonian">
+      <organization>Artificial Intelligence Internet Foundation (AIIF)</organization>
+    </author>
+    <date year="2025" month="November" day="2"/>
+    <abstract>
+      <t>This document specifies the architectural model and core protocol behaviors for the Artificial Intelligence Internet Protocol (AIIP). AIIP provides a uniform way for agents, robots, tools, models, and services to be addressed and invoked either natively or through an HTTPS gateway. Beyond addressing, AIIP defines a _stateless compute_ profile in which endpoints do not retain caller data and each invocation returns a signed _execution receipt_. Receipts are REQUIRED to be attested with Trusted Execution Environment (TEE) evidence and MAY additionally include zero-knowledge proofs (ZKPs). Receipts MAY also be anchored to external settlement systems without exposing user data.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-sogomonian-aiip-architecture-01"/>
+</reference>
