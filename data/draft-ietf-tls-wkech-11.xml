@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-tls-wkech" target="https://datatracker.ietf.org/doc/html/draft-ietf-tls-wkech-11">
+  <front>
+    <title>A well-known URI for publishing service parameters</title>
+    <author fullname="Stephen Farrell" initials="S." surname="Farrell">
+      <organization>Trinity College Dublin</organization>
+    </author>
+    <author fullname="Rich Salz" initials="R." surname="Salz">
+      <organization>Akamai Technologies</organization>
+    </author>
+    <author fullname="Benjamin M. Schwartz" initials="B. M." surname="Schwartz">
+      <organization>Meta Platforms, Inc.</organization>
+    </author>
+    <date year="2025" month="November" day="3"/>
+    <abstract>
+      <t>We define a well-known URI at which an HTTP origin can inform an authoritative DNS server, or other interested parties, about its Service Bindings. Service binding data can include Encrypted ClientHello (ECH) configurations, that may change frequently. This allows the HTTP origin, in collaboration with DNS infrastructure elements, to publish and rotate its own ECH keys. Other service binding data such as information about TLS supported groups is unlikely to change quickly, but the HTTP origin is much more likely to have accurate information when changes do occur. Service data published via this mechanism is typically available via an HTTPS or SVCB resource record.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-tls-wkech-11"/>
+</reference>

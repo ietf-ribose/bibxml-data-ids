@@ -1,0 +1,13 @@
+<reference anchor="I-D.kazuho-ccwg-rapid-start" target="https://datatracker.ietf.org/doc/html/draft-kazuho-ccwg-rapid-start-00">
+  <front>
+    <title>Rapid Startup of Congestion Control</title>
+    <author fullname="Kazuho Oku" initials="K." surname="Oku">
+      <organization>Fastly</organization>
+    </author>
+    <date year="2025" month="November" day="3"/>
+    <abstract>
+      <t>This document defines Rapid Start, a congestion-control startup algorithm that grows the window by 3× per RTT until queue buildup is observed, so that a sender can reach the path BDP faster than with classic 2× slow start. When congestion is observed, Rapid Start immediately scales the window relative to the bytes that have passed through the bottleneck and then hands over to normal recovery and congestion avoidance.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-kazuho-ccwg-rapid-start-00"/>
+</reference>
