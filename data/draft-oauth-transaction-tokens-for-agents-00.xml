@@ -1,0 +1,13 @@
+<reference anchor="I-D.oauth-transaction-tokens-for-agents" target="https://datatracker.ietf.org/doc/html/draft-oauth-transaction-tokens-for-agents-00">
+  <front>
+    <title>Transaction Tokens For Agents</title>
+    <author fullname="Ashay Raut" initials="A." surname="Raut">
+      <organization>Amazon</organization>
+    </author>
+    <date year="2025" month="November" day="5"/>
+    <abstract>
+      <t>This document specifies an extension to the OAuth Transaction Tokens framework (https://drafts.oauth.net/oauth-transaction-tokens/draft- ietf-oauth-transaction-tokens.html) to support agent context propagation within Transaction Tokens for agent-based workloads. The extension defines two new context fields: 'actor' and 'principal'. The 'actor' field identifies the agent performing the action, while the 'principal' field identifies the human or system entity that initiated the agent's action. For autonomous agents operating independently, the 'principal' field MAY be omitted. These additional context fields enable services within the call graph to make more granular access control decisions, thereby enhancing security.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-oauth-transaction-tokens-for-agents-00"/>
+</reference>

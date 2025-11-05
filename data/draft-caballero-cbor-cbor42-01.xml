@@ -1,0 +1,16 @@
+<reference anchor="I-D.caballero-cbor-cbor42" target="https://datatracker.ietf.org/doc/html/draft-caballero-cbor-cbor42-01">
+  <front>
+    <title>The tag-42 profile of CBOR</title>
+    <author fullname="Bumblefudge" initials="" surname="Bumblefudge">
+      <organization>IPFS Foundation</organization>
+    </author>
+    <author fullname="Robin Berjon" initials="R." surname="Berjon">
+      <organization>IPFS Foundation</organization>
+    </author>
+    <date year="2025" month="November" day="5"/>
+    <abstract>
+      <t>This document defines a very narrow profile of CBOR intended for use with the special tag 42. Like the earlier internet-draft submitted under the name "CBOR Core," much of its design dates to the first CBOR RFC and predates much of the layered approach to determinism and profiling in later years. Also like "CBOR/c", CBOR-42 can be used as an internet-scale serialization for JSON, and is optimized for objects that compose into a directed acyclical graph. Since CBOR-42 objects link to one another by hash-based identifiers tagged "42", deterministic encoding is mandated to verify dereferenced links and encode new ones.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-caballero-cbor-cbor42-01"/>
+</reference>

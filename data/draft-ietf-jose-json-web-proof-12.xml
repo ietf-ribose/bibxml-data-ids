@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-jose-json-web-proof" target="https://datatracker.ietf.org/doc/html/draft-ietf-jose-json-web-proof-12">
+  <front>
+    <title>JSON Web Proof</title>
+    <author fullname="David Waite" initials="D." surname="Waite">
+      <organization>Ping Identity</organization>
+    </author>
+    <author fullname="Michael B. Jones" initials="M. B." surname="Jones">
+      <organization>Self-Issued Consulting</organization>
+    </author>
+    <author fullname="Jeremie Miller" initials="J." surname="Miller">
+      <organization>Ping Identity</organization>
+    </author>
+    <date year="2025" month="November" day="4"/>
+    <abstract>
+      <t>The JOSE set of standards established JSON-based container formats for Keys, Signatures, and Encryption. They also established IANA registries to enable the algorithms and representations used for them to be extended. Since those were created, newer cryptographic algorithms that support selective disclosure and unlinkability have matured and started seeing early market adoption. The COSE set of standards likewise does this for CBOR-based containers, focusing on the needs of environments which are better served using CBOR, such as constrained devices and networks. This document defines a new container format similar in purpose and design to JSON Web Signature (JWS) and COSE Signed Messages called a _JSON Web Proof (JWP)_. Unlike JWS, which integrity-protects only a single payload, JWP can integrity-protect multiple payloads in one message. It also specifies a new presentation form that supports selective disclosure of individual payloads, enables additional proof computation, and adds a Presentation Header to prevent replay.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-jose-json-web-proof-12"/>
+</reference>
