@@ -1,0 +1,25 @@
+<reference anchor="I-D.wu-moq-recovery-for-video-streaming" target="https://datatracker.ietf.org/doc/html/draft-wu-moq-recovery-for-video-streaming-00">
+  <front>
+    <title>Enhanced QUIC Recovery for Video Streaming</title>
+    <author fullname="Bo Wu" initials="B." surname="Wu">
+      <organization>Tencent</organization>
+    </author>
+    <author fullname="Tong Li" initials="T." surname="Li">
+      <organization>Renmin University of China</organization>
+    </author>
+    <author fullname="Cheng Luo" initials="C." surname="Luo">
+      <organization>Tencent</organization>
+    </author>
+    <author fullname="Jibing Lou" initials="J." surname="Lou">
+      <organization>Tencent</organization>
+    </author>
+    <author fullname="Ke Xu" initials="K." surname="Xu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date year="2025" month="November" day="8"/>
+    <abstract>
+      <t>The current loss recovery in QUIC provides reliable delivery but is not optimized for latency, potentially hindering time-sensitive applications. The document analyzes the issues caused by the current QUIC recovery scheme during live video streaming and then proposes an enhanced QUIC recovery mechanism that leverages additional loss retransmissions for optimizing client-side QoE. At a high level, the QUIC sender performs additional recovery logic when transport runs into application limited state, which is for the lost data that has been retransmitted before but has not been acknowledged yet. This mechanism can act as a supplement to the existing recovery scheme that performs immediate loss retransmissions once a packet is detected lost.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-wu-moq-recovery-for-video-streaming-00"/>
+</reference>

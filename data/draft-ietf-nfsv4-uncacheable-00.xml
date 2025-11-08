@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-nfsv4-uncacheable" target="https://datatracker.ietf.org/doc/html/draft-ietf-nfsv4-uncacheable-00">
+  <front>
+    <title>Adding an Uncacheable Attribute to NFSv4.2</title>
+    <author fullname="Thomas Haynes" initials="T." surname="Haynes">
+      <organization>Hammerspace</organization>
+    </author>
+    <date year="2025" month="November" day="7"/>
+    <abstract>
+      <t>The Network File System version 4.2 (NFSv4.2) allows a client to cache both metadata and data for file objects, as well as metadata for directory objects. While caching directory entries (dirents) can improve performance, it can also prevent the server from enforcing access control on individual dirents. Similarly, caching file data can lead to performance issues if the cache hit rate is low. This document introduces a new uncacheable attribute for NFSv4. Files and dirents marked as uncacheable MUST NOT be stored in client-side caches. This ensures data consistency and integrity by requiring clients to always retrieve the most recent data directly from the server. This document extends NFSv4.2 (see RFC7862).</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-nfsv4-uncacheable-00"/>
+</reference>

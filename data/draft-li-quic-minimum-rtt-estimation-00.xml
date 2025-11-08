@@ -1,0 +1,22 @@
+<reference anchor="I-D.li-quic-minimum-rtt-estimation" target="https://datatracker.ietf.org/doc/html/draft-li-quic-minimum-rtt-estimation-00">
+  <front>
+    <title>Minimum RTT Estimation Under Low ACK Frequency</title>
+    <author fullname="Tong Li" initials="T." surname="Li">
+      <organization>Renmin University of China</organization>
+    </author>
+    <author fullname="Ke Xu" initials="K." surname="Xu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Bo Wu" initials="B." surname="Wu">
+      <organization>Tencent</organization>
+    </author>
+    <author fullname="Youjian Zhao" initials="Y." surname="Zhao">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date year="2025" month="November" day="8"/>
+    <abstract>
+      <t>In traditional acknowledgment mechanisms, the sender frequently "pulls" ACK packets, resulting in significant protocol control overhead. This leads to wasted CPU and I/O resources, contention for packet spectrum on half-duplex links (e.g., WLAN), and reverse-path congestion in asymmetric links (e.g., satellite network). Reducing the number of ACKs is essential in scenarios where ACK overhead is non-negligible. However, a lower ACK frequency can introduce biases in delay estimation, such as overestimating the minimum round-trip time (minRTT). This document proposes how to calibrate the estimation of the minRTT under low ACK frequency conditions.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-quic-minimum-rtt-estimation-00"/>
+</reference>
