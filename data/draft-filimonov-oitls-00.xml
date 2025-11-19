@@ -1,0 +1,13 @@
+<reference anchor="I-D.filimonov-oitls" target="https://datatracker.ietf.org/doc/html/draft-filimonov-oitls-00">
+  <front>
+    <title>Outer-Inner TLS (OI-TLS)</title>
+    <author fullname="Филимонов Ярослав Александрович" initials="F. Y." surname="Александрович">
+      <organization>Independent</organization>
+    </author>
+    <date year="2025" month="November" day="18"/>
+    <abstract>
+      <t>Outer-Inner TLS (OI-TLS) hides TLS ClientHello metadata (SNI, ALPN, cipher list, JA3) from on-path DPI by splitting a TLS session into two layers. The client first establishes an outer TLS 1.3 tunnel to an entry node with no SNI, then tunnels an ordinary TLS handshake for the backend inside that encrypted channel. This document describes the architecture, signaling, deployment considerations, and security trade-offs, together with laboratory evidence demonstrating the technique.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-filimonov-oitls-00"/>
+</reference>
