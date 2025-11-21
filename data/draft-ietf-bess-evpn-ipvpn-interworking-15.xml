@@ -1,0 +1,31 @@
+<reference anchor="I-D.ietf-bess-evpn-ipvpn-interworking" target="https://datatracker.ietf.org/doc/html/draft-ietf-bess-evpn-ipvpn-interworking-15">
+  <front>
+    <title>EVPN Interworking with IPVPN</title>
+    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Ali Sajassi" initials="A." surname="Sajassi">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Eric C. Rosen" initials="E. C." surname="Rosen">
+      <organization>Individual</organization>
+    </author>
+    <author fullname="John Drake" initials="J." surname="Drake">
+      <organization>Independent</organization>
+    </author>
+    <author fullname="W. Lin" initials="W." surname="Lin">
+      <organization>HPE</organization>
+    </author>
+    <author fullname="Jim Uttaro" initials="J." surname="Uttaro">
+      <organization>Independent</organization>
+    </author>
+    <author fullname="Adam Simpson" initials="A." surname="Simpson">
+      <organization>Nokia</organization>
+    </author>
+    <date year="2025" month="November" day="21"/>
+    <abstract>
+      <t>Ethernet Virtual Private Network (EVPN) provides a unified BGP control plane for both intra- and inter-subnet forwarding within tenant networks. When a tenant network spans multiple domains — including EVPN domains as well as domains that use BGP VPN-IP or IP address families for inter-subnet forwarding — it becomes necessary to define the interworking mechanisms among these BGP domains (EVPN, VPN-IP, and IP) to ensure seamless end-to-end tenant connectivity. In addition, this document defines a new BGP Path Attribute, referred to as D-PATH (Domain PATH), which provides loop prevention for gateway nodes by protecting against control plane loops. The introduction of D-PATH modifies the BGP best path selection process for Multiprotocol BGP routes of SAFI 128 (IPVPN) and EVPN IP Prefix routes. As a result, this specification updates the BGP best path selection procedure, but only in the context of IPVPN and EVPN route families.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-bess-evpn-ipvpn-interworking-15"/>
+</reference>
