@@ -1,0 +1,13 @@
+<reference anchor="I-D.williams-http-bearer-extension" target="https://datatracker.ietf.org/doc/html/draft-williams-http-bearer-extension-00">
+  <front>
+    <title>HTTP Bearer Auth Method Extensions</title>
+    <author fullname="Nicolás Williams" initials="N." surname="Williams">
+      <organization/>
+    </author>
+    <date year="2025" month="December" day="3"/>
+    <abstract>
+      <t>This document specifies an improved HTTP 401 and 407 flow for Bearer authentication where user-agents (or client applications) can automatically fetch requested tokens from a Security Token Service (STS). A fallback to an OpenID Connect (OIDC) redirect flow is included. This improved 401/407 Bearer flow, when used, elides the need for Proof Key for Code Exchange (PKCE) and does not impose on application Universal Resource Identifier (URI) query parameter design. As well this extension allows for user-agent caching of tokens.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-williams-http-bearer-extension-00"/>
+</reference>
