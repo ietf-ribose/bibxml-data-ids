@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-6man-icmpv6-reflection" target="https://datatracker.ietf.org/doc/html/draft-ietf-6man-icmpv6-reflection-18">
+  <front>
+    <title>Internet Control Message Protocol (ICMPv6) Reflection</title>
+    <author fullname="Tal Mizrahi" initials="T." surname="Mizrahi">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="hexiaoming" initials="X." surname="hexiaoming">
+      <organization>China Telecom</organization>
+    </author>
+    <author fullname="Tianran Zhou" initials="T." surname="Zhou">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Ron Bonica" initials="R." surname="Bonica">
+      <organization>HPE</organization>
+    </author>
+    <author fullname="Xiao Min" initials="X." surname="Min">
+      <organization>ZTE Corp.</organization>
+    </author>
+    <date year="2025" month="December" day="9"/>
+    <abstract>
+      <t>This document specifies the ICMPv6 Reflection utility. The ICMPv6 Reflection utility is a diagnostic tool, similar to Ping and the ICMPv6 PROBE utility. It is similar to Ping and PROBE in that it relies on a stateless message exchange between a probing node and a probed node. The probing node sends a request to the probed node and the probed node responds to the request. The ICMPv6 Reflection utility differs from Ping and PROBE because, in the ICMPv6 Reflection utility, the probing node requests a snapshot of the message that it sent, as it was when arrived at the probed node. The probed node returns the requested snapshot. The ICMPv6 Reflection utility is useful because it can allow the user to see how the network modified the request as it traveled from the probing node to the probed node.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-6man-icmpv6-reflection-18"/>
+</reference>
