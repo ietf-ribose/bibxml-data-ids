@@ -1,0 +1,13 @@
+<reference anchor="I-D.myclerk-protocol" target="https://datatracker.ietf.org/doc/html/draft-myclerk-protocol-00">
+  <front>
+    <title>The MyClerk Protocol: Tiered Security Communication for Distributed Family Systems</title>
+    <author fullname="Michael J. Arcan" initials="M. J." surname="Arcan">
+      <organization>Arcan Consulting</organization>
+    </author>
+    <date year="2025" month="December" day="10"/>
+    <abstract>
+      <t>This document specifies the MyClerk Protocol, a tiered-security communication protocol designed for distributed family orchestration systems. The protocol provides six security tiers ranging from 1-byte minimal overhead for tunneled messages to 144-byte full security for critical operations. It supports multiple transport mechanisms including NATS, Matrix, WebSocket, and direct TCP, while maintaining end-to-end encryption using ChaCha20-Poly1305 and X25519 key exchange. The protocol is transport-agnostic, federation-capable, and optimized for environments ranging from resource-constrained IoT devices to full-featured desktop clients.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-myclerk-protocol-00"/>
+</reference>
