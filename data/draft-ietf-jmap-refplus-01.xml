@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-jmap-refplus" target="https://datatracker.ietf.org/doc/html/draft-ietf-jmap-refplus-01">
+  <front>
+    <title>JMAP Enhanced Result References</title>
+    <author fullname="Mauro De Gennaro" initials="M." surname="De Gennaro">
+      <organization>Stalwart Labs LLC</organization>
+    </author>
+    <date year="2025" month="December" day="19"/>
+    <abstract>
+      <t>This document specifies an extension to the JSON Meta Application Protocol (JMAP) that enhances the result reference mechanism defined in [RFC8620]. The extension allows result references to be used in additional contexts beyond method call arguments, specifically within object properties during JMAP /set operations and within FilterCondition objects used in /query operations. Additionally, this specification extends result references to support JSON Path expressions ([RFC9535]) as an alternative to JSON Pointer ([RFC6901]), providing more expressive query capabilities for extracting values from previous method call results. These enhancements enable more efficient data reuse patterns across JMAP method calls, reducing the need for multiple round trips between client and server.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-jmap-refplus-01"/>
+</reference>
