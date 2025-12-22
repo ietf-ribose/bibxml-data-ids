@@ -1,0 +1,13 @@
+<reference anchor="I-D.eli-stealthflow-protocol" target="https://datatracker.ietf.org/doc/html/draft-eli-stealthflow-protocol-00">
+  <front>
+    <title>StealthFlow Protocol (SFP)</title>
+    <author fullname="pootBnel" initials="" surname="pootBnel">
+      <organization/>
+    </author>
+    <date year="2025" month="December" day="22"/>
+    <abstract>
+      <t>The StealthFlow Protocol (SFP) is a low-observability, stateless pre-authentication and transport armor mechanism designed to precede existing TLS or QUIC sessions. SFP aims to reduce handshake fingerprinting, limit asymmetric denial-of-service amplification, and minimize early plaintext metadata exposure, while preserving compatibility with the existing PKI and TLS ecosystems. SFP does not replace TLS or QUIC. Instead, it provides an optional single-round pre-filtering and authentication layer that enables servers to reject illegitimate traffic with minimal computational cost and minimal network observability. This document supersedes the prior informal specification known as draft-eli-z-protocol-00.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-eli-stealthflow-protocol-00"/>
+</reference>

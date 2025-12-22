@@ -1,0 +1,25 @@
+<reference anchor="I-D.joung-detnet-stateless-fair-queuing" target="https://datatracker.ietf.org/doc/html/draft-joung-detnet-stateless-fair-queuing-06">
+  <front>
+    <title>Latency Guarantee with Stateless Fair Queuing</title>
+    <author fullname="Jinoo Joung" initials="J." surname="Joung">
+      <organization>Sangmyung University</organization>
+    </author>
+    <author fullname="Jeong-dong Ryoo" initials="J." surname="Ryoo">
+      <organization>ETRI</organization>
+    </author>
+    <author fullname="Taesik Cheung" initials="T." surname="Cheung">
+      <organization>ETRI</organization>
+    </author>
+    <author fullname="Yizhou Li" initials="Y." surname="Li">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Peng Liu" initials="P." surname="Liu">
+      <organization>China Mobile</organization>
+    </author>
+    <date year="2025" month="December" day="22"/>
+    <abstract>
+      <t>This document specifies the framework and the operational procedure for deterministic networking with a set of rate based work conserving packet schedulers. The framework guarantees end-to-end (E2E) latency bounds to flows. The schedulers in core nodes do not need to maintain flow states. Instead, the entrance node of a flow marks an ideal service completion time according to a fluid model, called Finish Time (FT), of a packet in the packet header. The subsequent core nodes update FT by adding delay factors, which are functions of the flow and the nodes. The packets in the queue of the scheduler are served in the ascending order of FT. This mechanism is called the stateless fair queuing. The result is that flows are isolated from each other almost perfectly. The latency bound of a flow depends only on the flow's intrinsic parameters such as the maximum burst size and the service rate, except the link capacities and the maximum packet length among other flows sharing each output link with the flow.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-joung-detnet-stateless-fair-queuing-06"/>
+</reference>
