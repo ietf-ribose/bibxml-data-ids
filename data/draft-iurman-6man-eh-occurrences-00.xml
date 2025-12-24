@@ -1,0 +1,13 @@
+<reference anchor="I-D.iurman-6man-eh-occurrences" target="https://datatracker.ietf.org/doc/html/draft-iurman-6man-eh-occurrences-00">
+  <front>
+    <title>Mitigating DoS attacks in IPv6 by clarifying the number of occurrences of Extension Headers</title>
+    <author fullname="Justin Iurman" initials="J." surname="Iurman">
+      <organization>University of Liege</organization>
+    </author>
+    <date year="2025" month="December" day="23"/>
+    <abstract>
+      <t>This document updates RFC 8200 by specifying normative requirements on the number of occurrences of IPv6 Extension Headers. Operational experience has demonstrated that permitting multiple occurrences of the same Extension Header can create parsing ambiguity, increase attack surface, and complicate packet processing in general. This is especially true for both the Hop-by-Hop Options Header and the Destination Options Header, which can contain a number of options. This document restricts IPv6 packets to carry at most one instance of each Extension Header, with the exception of the Destination Options Header, which is permitted to appear twice as specified in RFC 8200.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-iurman-6man-eh-occurrences-00"/>
+</reference>
