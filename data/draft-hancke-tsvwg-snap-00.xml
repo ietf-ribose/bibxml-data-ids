@@ -1,0 +1,19 @@
+<reference anchor="I-D.hancke-tsvwg-snap" target="https://datatracker.ietf.org/doc/html/draft-hancke-tsvwg-snap-00">
+  <front>
+    <title>SCTP Negotiation Acceleration Protocol</title>
+    <author fullname="Philipp Hancke" initials="P." surname="Hancke">
+      <organization>Meta Platforms Inc.</organization>
+    </author>
+    <author fullname="Justin Uberti" initials="J." surname="Uberti">
+      <organization>OpenAI</organization>
+    </author>
+    <author fullname="Victor Boivie" initials="V." surname="Boivie">
+      <organization>Google</organization>
+    </author>
+    <date year="2025" month="December" day="30"/>
+    <abstract>
+      <t>WebRTC Data Channels use the Stream Control Transmission Protocol (SCTP) over a Datagram Transport Layer Security (DTLS) association. The standard SCTP connection establishment requires a handshake that introduces latency. This document specifies a method to accelerate the datachannel establishment by embedding the SCTP initialization parameters within the Session Description Protocol (SDP) offer/answer exchange. This reduces the time required to open a data channel by up to two network round-trip times.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-hancke-tsvwg-snap-00"/>
+</reference>
