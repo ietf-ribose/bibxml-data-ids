@@ -1,0 +1,16 @@
+<reference anchor="I-D.reddy-ipsecme-ikev2-hybrid-reliable" target="https://datatracker.ietf.org/doc/html/draft-reddy-ipsecme-ikev2-hybrid-reliable-00">
+  <front>
+    <title>PQ/T Hybrid Composite Key Exchange and Reliable Transport for IKEv2</title>
+    <author fullname="Tirumaleswar Reddy.K" initials="T." surname="Reddy.K">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Valery Smyslov" initials="V." surname="Smyslov">
+      <organization>ELVIS-PLUS</organization>
+    </author>
+    <date year="2026" month="January" day="3"/>
+    <abstract>
+      <t>The eventual transition to post-quantum key exchange will require elimination of traditional key exchange for reduced protocol complexity and efficiency. IKEv2 therefore requires a mechanism that can operate in a PQC-only environment, without depending on traditional key exchange algorithms (e.g., MODP DH or ECDH). As IKEv2 permits arbitrary combinations of algorithms, unnecessary complexity and insecure hybrid constructions are easily implemented. This document defines PQ/T hybrid composite key exchange algorithms for IKEv2 and a single combined KE payload that carries both the traditional and post-quantum components. It also leverages the existing IKEv2 reliable transport mechanism so that large PQC key exchange messages can be reliably exchanged over TCP. Together, these mechanisms enable secure and efficient PQ/T hybrid deployments today and provide a clear path for IKEv2 to operate in environments where traditional algorithms have been replaced by PQC algorithms.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-reddy-ipsecme-ikev2-hybrid-reliable-00"/>
+</reference>
