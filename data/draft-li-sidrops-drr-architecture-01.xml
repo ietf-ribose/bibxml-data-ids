@@ -1,0 +1,19 @@
+<reference anchor="I-D.li-sidrops-drr-architecture" target="https://datatracker.ietf.org/doc/html/draft-li-sidrops-drr-architecture-01">
+  <front>
+    <title>Decentralized RPKI Repository Architecture</title>
+    <author fullname="Dan Li" initials="D." surname="Li">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Yingying Su" initials="Y." surname="Su">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author fullname="Li Chen" initials="L." surname="Chen">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <date year="2026" month="January" day="6"/>
+    <abstract>
+      <t>The Resource Public Key Infrastructure (RPKI) plays a crucial role in securing inter-domain routing. However, the current RPKI Repository system suffers from fundamental limitations in reliability, scalability, and consistency. In particular, single-point failures at repository publication points (PPs), the growing number of bidirectional connections between PPs and relying parties (RPs), and the lack of a globally consistent historical RPKI data view pose significant risks to the resilience, integrity, and authority of the global RPKI ecosystem. This document proposes the Decentralized RPKI Repository (dRR), a novel repository architecture that decouples RPKI object signing authority from RPKI object management authority (e.g., storage and distribution). dRR introduces a distributed group of certificate servers (CSs) and a layer of Monitors to achieve robust, scalable, and auditable RPKI data management. The architecture maintains full compatibility with the existing RPKI trust model rooted in the five RIR trust anchors, enabling incremental deployment without disrupting current relying parties (RPs) validation semantics. By doing so, dRR addresses longstanding repository challenges and enhances the overall efficiency and trustworthiness of RPKI-based routing security.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-sidrops-drr-architecture-01"/>
+</reference>
