@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-lamps-keyusage-crl-validation" target="https://datatracker.ietf.org/doc/html/draft-ietf-lamps-keyusage-crl-validation-04">
+  <front>
+    <title>Clarification to Processing Key Usage Values During Certificate Revocation List (CRL) Validation</title>
+    <author fullname="Corey Bonnell" initials="C." surname="Bonnell">
+      <organization>DigiCert, Inc.</organization>
+    </author>
+    <author fullname="Tadahiko Ito" initials="T." surname="Ito">
+      <organization>SECOM CO., LTD.</organization>
+    </author>
+    <author fullname="Tomofumi Okubo" initials="T." surname="Okubo">
+      <organization>Penguin Securities Pte. Ltd.</organization>
+    </author>
+    <date year="2026" month="January" day="6"/>
+    <abstract>
+      <t>RFC 5280 (Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile) defines the profile of X.509 certificates and CRLs for use in the Internet. Section 4.2.1.3 of RFC 5280 requires CRL issuer certificates to contain the keyUsage extension with the cRLSign bit asserted. However, the CRL validation algorithm specified in Section 6.3 of RFC 5280 does not explicitly include a corresponding check for the presence of the keyUsage certificate extension. This document updates RFC 5280 to require that check.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-lamps-keyusage-crl-validation-04"/>
+</reference>
