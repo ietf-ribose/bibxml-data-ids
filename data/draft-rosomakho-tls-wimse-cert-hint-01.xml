@@ -1,0 +1,16 @@
+<reference anchor="I-D.rosomakho-tls-wimse-cert-hint" target="https://datatracker.ietf.org/doc/html/draft-rosomakho-tls-wimse-cert-hint-01">
+  <front>
+    <title>Workload Identifier Scope Hint for TLS ClientHello</title>
+    <author fullname="Yaroslav Rosomakho" initials="Y." surname="Rosomakho">
+      <organization>Zscaler</organization>
+    </author>
+    <author fullname="Jonathan Hoyland" initials="J." surname="Hoyland">
+      <organization>Cloudflare</organization>
+    </author>
+    <date year="2026" month="January" day="7"/>
+    <abstract>
+      <t>This document defines a TLS extension that allows clients to indicate one or more workload identifier scopes in the ClientHello message. Each scope consists of a URI scheme and trust domain component, representing the administrative domain and identifier namespace in which the client operates. These identifier scopes serve as hints to enable the server to determine whether client authentication is required and which policies or trust anchors should apply. This mechanism improves efficiency in mutual TLS deployments while minimising the exposure of sensitive identifier information. To protect confidentiality, this extension can be used in conjunction with Encrypted Client Hello (ECH).</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-rosomakho-tls-wimse-cert-hint-01"/>
+</reference>
