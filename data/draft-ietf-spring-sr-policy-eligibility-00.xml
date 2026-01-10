@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-spring-sr-policy-eligibility" target="https://datatracker.ietf.org/doc/html/draft-ietf-spring-sr-policy-eligibility-00">
+  <front>
+    <title>Eligibility Concept in Segment Routing Policies</title>
+    <author fullname="Amal Karboubi" initials="A." surname="Karboubi">
+      <organization>Ciena</organization>
+    </author>
+    <author fullname="Himanshu Shah" initials="H." surname="Shah">
+      <organization>Ciena</organization>
+    </author>
+    <author fullname="Andrew Stone" initials="A." surname="Stone">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Christian Schmutzer" initials="C." surname="Schmutzer">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Praveen Maheshwari" initials="P." surname="Maheshwari">
+      <organization>Airtel India</organization>
+    </author>
+    <date year="2026" month="January" day="9"/>
+    <abstract>
+      <t>Segment Routing (SR) introduces new challenges for pinning candidate paths on their intended paths (the path the PCE computed based on provided intent and may have made bandwidth reservations on). The actual path through a network can change or no longer meet the required constraints if a SID list of an SR Policy candidate path is not fully expressed as a list of adjacency SIDs or when a change in the topology does happen. The introduction of the new candidate path eligibility concept permits a path to be signaled and established as operationally up, but controls whether the path is eligible to carry traffic, thus influencing its active state. The eligibility concept allows a system (operator, pce, headend, etc.) to set eligibility as false when path deviations may have occurred, or path constraints are no longer met for one or more SID lists of a candidate path and clear it when candidate path deviations are removed or constraints are met again.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-spring-sr-policy-eligibility-00"/>
+</reference>
