@@ -1,0 +1,13 @@
+<reference anchor="I-D.ietf-nfsv4-uncacheable-directories" target="https://datatracker.ietf.org/doc/html/draft-ietf-nfsv4-uncacheable-directories-01">
+  <front>
+    <title>Adding an Uncacheable Directory-Entry Metadata Attribute to NFSv4.2</title>
+    <author fullname="Thomas Haynes" initials="T." surname="Haynes">
+      <organization>Hammerspace</organization>
+    </author>
+    <date year="2026" month="January" day="15"/>
+    <abstract>
+      <t>Network File System version 4.2 (NFSv4.2) clients commonly cache directory entries (dirents) to improve performance. While effective in many cases, such caching can prevent servers from enforcing per- user access controls on directory entries and up-to-date directory entry attributes such as size and timestamps. This document introduces a new uncacheable directory attribute for NFSv4.2 that allows servers to advise clients that caching of directory entry metadata is unsuitable. This enables servers to present directory contents based on user-specific access permissions while remaining compatible with existing NFSv4.2 clients.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-nfsv4-uncacheable-directories-01"/>
+</reference>
