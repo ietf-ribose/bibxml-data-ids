@@ -1,0 +1,28 @@
+<reference anchor="I-D.ietf-ippm-encrypted-pdmv2" target="https://datatracker.ietf.org/doc/html/draft-ietf-ippm-encrypted-pdmv2-13">
+  <front>
+    <title>IPv6 Performance and Diagnostic Metrics Version 2 (PDMv2) Destination Option</title>
+    <author fullname="Nalini Elkins" initials="N." surname="Elkins">
+      <organization>Inside Products</organization>
+    </author>
+    <author fullname="michael ackermann" initials="M." surname="ackermann">
+      <organization>BCBS Michigan</organization>
+    </author>
+    <author fullname="Ameya Deshpande" initials="A." surname="Deshpande">
+      <organization>NITK Surathkal/Google</organization>
+    </author>
+    <author fullname="Tommaso Pecorella" initials="T." surname="Pecorella">
+      <organization>University of Florence</organization>
+    </author>
+    <author fullname="Adnan Rashid" initials="A." surname="Rashid">
+      <organization>Politecnico di Bari</organization>
+    </author>
+    <author fullname="Lorenzo Fedi" initials="L." surname="Fedi">
+      <organization>University of Florence</organization>
+    </author>
+    <date year="2026" month="January" day="18"/>
+    <abstract>
+      <t>RFC 8250 defines an IPv6 Destination Option that carries Performance and Diagnostic Metrics (PDM) such as sequence numbers and timing information. While useful for measurement and troubleshooting, clear-text PDM data may expose operational characteristics of endpoints and networks. This document defines PDMv2, a revised version of PDM that introduces a registration-based security model. Instead of specifying cryptographic algorithms or inline key negotiation, PDMv2 relies on a prior registration process to authenticate entities, authorize participation, and establish shared secrets. These secrets are then used by endpoints and authorized analyzers to protect and interpret PDMv2 data according to local policy. This document specifies the PDMv2 semantics, header structure, and operational model. Cryptographic algorithms, key derivation functions, and cipher negotiation are explicitly out of scope.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-ippm-encrypted-pdmv2-13"/>
+</reference>
