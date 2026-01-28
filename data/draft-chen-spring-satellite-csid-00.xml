@@ -1,0 +1,22 @@
+<reference anchor="I-D.chen-spring-satellite-csid" target="https://datatracker.ietf.org/doc/html/draft-chen-spring-satellite-csid-00">
+  <front>
+    <title>SRv6 Segment Identifier Compression for Satelite Networks</title>
+    <author fullname="陈宏彦" initials="H." surname="陈宏彦">
+      <organization>Nanjing University</organization>
+    </author>
+    <author fullname="Jun Liu" initials="J." surname="Liu">
+      <organization>Nanjing University</organization>
+    </author>
+    <author fullname="Wenfeng Li" initials="W." surname="Li">
+      <organization>Nanjing University</organization>
+    </author>
+    <author fullname="Kanglian Zhao" initials="K." surname="Zhao">
+      <organization>Nanjing University</organization>
+    </author>
+    <date year="2026" month="January" day="28"/>
+    <abstract>
+      <t>This document defines a compression method for Segment Identifiers (SIDs) in Segment Routing over IPv6 (SRv6) specifically designed for satellite networks. By leveraging the topological location information of satellite nodes, a 128-bit SID is compressed into a 32-bit Compressed SID (C-SID). The method introduces a "SID Container" structure to support the co-existence of 128-bit SIDs and 32-bit C-SIDs within a single Segment List without modifying the SRv6 control plane or the fixed SRH header format defined in RFC 8754.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-chen-spring-satellite-csid-00"/>
+</reference>
