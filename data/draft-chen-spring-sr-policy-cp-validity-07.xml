@@ -1,0 +1,25 @@
+<reference anchor="I-D.chen-spring-sr-policy-cp-validity" target="https://datatracker.ietf.org/doc/html/draft-chen-spring-sr-policy-cp-validity-07">
+  <front>
+    <title>Validity of SR Policy Candidate Path</title>
+    <author fullname="Ran Chen" initials="R." surname="Chen">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author fullname="Yisong Liu" initials="Y." surname="Liu">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Ketan Talaulikar" initials="K." surname="Talaulikar">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author fullname="Detao Zhao" initials="D." surname="Zhao">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author fullname="Zafar Ali" initials="Z." surname="Ali">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <date year="2026" month="February" day="2"/>
+    <abstract>
+      <t>An SR Policy comprises one or more candidate paths of which at a given time one and only one may be active (i.e., installed in forwarding plane and usable for steering of traffic). Each candidate path, in turn, may have one or more segment lists of which one or more may be active. When multiple segment lists are active, traffic is load balanced over them. Currently, a candidate path is valid as long as at least one of its segment lists is active. However, this default validity criterion does not meet the requirements of some scenarios. This document defines the new candidate path validity criterion.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-chen-spring-sr-policy-cp-validity-07"/>
+</reference>
