@@ -1,0 +1,13 @@
+<reference anchor="I-D.condrey-rats-pop" target="https://datatracker.ietf.org/doc/html/draft-condrey-rats-pop-01">
+  <front>
+    <title>Proof of Process: An Evidence Framework for Digital Authorship Attestation</title>
+    <author fullname="David Lee Condrey" initials="D. L." surname="Condrey">
+      <organization>Writerslogic Inc</organization>
+    </author>
+    <date year="2026" month="February" day="11"/>
+    <abstract>
+      <t>This document specifies the Proof of Process (PoP) Evidence Framework, a specialized profile of Remote Attestation Procedures (RATS) designed to validate the provenance of effort in digital authorship. Unlike traditional provenance, which tracks file custody, PoP attests to the continuous, human-driven process of creation. The framework defines a cryptographic mechanism for generating Evidence Packets containing Verifiable Delay Functions (VDFs) to enforce temporal monotonicity and Jitter Seals to bind behavioral entropy (motor-signal randomness) to the document state. These mechanisms allow a Verifier to cryptographically distinguish between human-generated keystrokes, algorithmic generation, and copy-paste operations. Crucially, this verification relies on statistical process metrics and cryptographic binding, enabling authorship attestation without disclosing the semantic content of the document, thereby preserving privacy by design.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-condrey-rats-pop-01"/>
+</reference>
