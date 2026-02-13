@@ -1,0 +1,19 @@
+<reference anchor="I-D.ietf-pim-zeroconf-mcast-addr-alloc-ps" target="https://datatracker.ietf.org/doc/html/draft-ietf-pim-zeroconf-mcast-addr-alloc-ps-11">
+  <front>
+    <title>Zeroconf Multicast Address Allocation Problem Statement and Requirements</title>
+    <author fullname="Nathan Karstens" initials="N." surname="Karstens">
+      <organization>Garmin International, Inc.</organization>
+    </author>
+    <author fullname="Dino Farinacci" initials="D." surname="Farinacci">
+      <organization>lispers.net</organization>
+    </author>
+    <author fullname="Mike McBride" initials="M." surname="McBride">
+      <organization>Futurewei</organization>
+    </author>
+    <date year="2026" month="February" day="12"/>
+    <abstract>
+      <t>This document surveys current problems with existing protocols for automatically assigning multicast IP addresses in zero-configuration ("zeroconf") networking environments. It addresses key challenges, such as link-layer address collisions, hardware limitations, multicast snooping inefficiencies, and the need to avoid manual configuration. Based on these challenges, it derives requirements for a lightweight, decentralized solution for dynamically allocating unique multicast group addresses without central coordination. The document presents explicit requirements covering discovery, allocation, conflict detection and resolution, and lease management. It also evaluates considerations specific to IPv6 and IPv4 multicast address ranges, and identifies approaches that are unsuited for zeroconf deployment. This foundation serves as a reference for developing future solutions for multicast address allocation that operate autonomously within local networks.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-pim-zeroconf-mcast-addr-alloc-ps-11"/>
+</reference>

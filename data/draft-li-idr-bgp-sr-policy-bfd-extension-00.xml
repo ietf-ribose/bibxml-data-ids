@@ -1,0 +1,16 @@
+<reference anchor="I-D.li-idr-bgp-sr-policy-bfd-extension" target="https://datatracker.ietf.org/doc/html/draft-li-idr-bgp-sr-policy-bfd-extension-00">
+  <front>
+    <title>BGP SR Policy Extensions for BFD Configuration</title>
+    <author fullname="Zhenqiang Li" initials="Z." surname="Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="liusong" initials="" surname="liusong">
+      <organization>China Mobile</organization>
+    </author>
+    <date year="2026" month="February" day="13"/>
+    <abstract>
+      <t>Segment Routing (SR) Policies require fast failure detection for Candidate Paths (CPs) to enable rapid rerouting and high availability. Currently, the provisioning of SR Policies and the configuration of associated Bidirectional Forwarding Detection (BFD) or Seamless BFD (S-BFD) sessions are performed independently. This often necessitates separate mechanisms (e.g., manual configuration, NETCONF, or additional signaling) to associate BFD/S-BFD sessions with the SR Policies, resulting in complex and error-prone operations This document defines extensions to BGP SR Policy for the simultaneous provisioning of SR Policy CPs and their BFD/S-BFD configuration parameters during policy advertisement. The extensions include optional sub-TLVs within the Tunnel Encapsulation Attribute to carry BFD/S-BFD configuration parameters (e.g., discriminators, intervals, multipliers). These extensions simplify deployment in distributed or controller- based environments, reduce configuration overhead, and enhance operational efficiency for SR-based traffic engineering.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-idr-bgp-sr-policy-bfd-extension-00"/>
+</reference>
