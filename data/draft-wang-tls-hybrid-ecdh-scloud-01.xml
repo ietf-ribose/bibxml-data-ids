@@ -1,0 +1,16 @@
+<reference anchor="I-D.wang-tls-hybrid-ecdh-scloud" target="https://datatracker.ietf.org/doc/html/draft-wang-tls-hybrid-ecdh-scloud-01">
+  <front>
+    <title>Post-quantum Hybrid ECDHE-SCloud+ Key Exchange for TLS 1.3</title>
+    <author fullname="Guilin WANG" initials="G." surname="WANG">
+      <organization>Huawei Int. Pte Ltd</organization>
+    </author>
+    <author fullname="Anyu Wang" initials="A." surname="Wang">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date year="2026" month="February" day="16"/>
+    <abstract>
+      <t>This draft specifies how to enable hybrid key exchange with ECDHE and SCloud+ in Transport Layer Security protocol version 1.3 (TLS 1.3) to mitigate quantum threats. SCloud+ is an unstructured lattice based KEM (key encapsulation mechanism) with post-quantum security. This draft follows the post-quantum hybrid key exchange framework specified by [TLS.Hybrid], by concatenating the public keys and ciphertexts of ECDHE and SCloud+. Three concrete hybrid key exchange schemes are specified in this draft, which are X25519SCloud+128, SecP256r1SCloud+192 and SecP384r1SCloud+256. [EDNOTE:... ]</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-wang-tls-hybrid-ecdh-scloud-01"/>
+</reference>
