@@ -1,0 +1,16 @@
+<reference anchor="I-D.zehavi-oauth-native-clients-federation" target="https://datatracker.ietf.org/doc/html/draft-zehavi-oauth-native-clients-federation-00">
+  <front>
+    <title>OAuth 2.0 direct interation for native clients using federation</title>
+    <author fullname="Yaron Zehavi" initials="Y." surname="Zehavi">
+      <organization>Raiffeisen Bank International</organization>
+    </author>
+    <author fullname="Aaron Parecki" initials="A." surname="Parecki">
+      <organization>Okta</organization>
+    </author>
+    <date year="2026" month="February" day="17"/>
+    <abstract>
+      <t>OAuth 2.0 for First-Party Applications (FiPA) [I-D.ietf-oauth-first-party-apps] defined a native OAuth 2.0 *direct interaction*, whereby clients call authorization server's _Native Authorization Endpoint_ as an HTTP REST API, whose response instructs client what information to collect from end-user to satisfy authorization server's policies and requirements. While FiPA [I-D.ietf-oauth-first-party-apps] focused on a one-to-one relationship between client and authorization server, this document is an *extension profile* adding support for authorization servers to federate the interaction to a downstream authorization server, instruct collection of additional information from users to guide request routing or instruct the usage of another native app for user interaction.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-zehavi-oauth-native-clients-federation-00"/>
+</reference>
