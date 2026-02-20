@@ -1,0 +1,13 @@
+<reference anchor="I-D.tejido-swp-core" target="https://datatracker.ietf.org/doc/html/draft-tejido-swp-core-00">
+  <front>
+    <title>SlimWire Protocol (SWP) Core: Binary Framing and Envelope Substrate</title>
+    <author fullname="Jericko Tejido" initials="J." surname="Tejido">
+      <organization/>
+    </author>
+    <date year="2026" month="February" day="19"/>
+    <abstract>
+      <t>This document specifies the SlimWire Protocol (SWP) Core: a slim binary framing (record) layer and envelope format for interoperable agent/tool messaging with profile-based extensibility and a machine- verifiable conformance model. SWP Core provides a transport- independent message boundary definition (u32_be length prefix), a mandatory-to-implement envelope encoding (E1) based on unsigned LEB128 uvarints and length-delimited byte strings with a TLV extension block, and profile dispatch by numeric profile identifiers. Profiles define application semantics (e.g., tool invocation mapping and agent task lifecycle) and are carried opaquely by Core. This document also specifies conformance classes and golden vector artefacts executed by a spec-vector runner, and defines a security binding (S1) requiring an authenticated confidential channel (e.g., TLS 1.3).</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-tejido-swp-core-00"/>
+</reference>
