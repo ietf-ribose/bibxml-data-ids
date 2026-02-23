@@ -1,0 +1,16 @@
+<reference anchor="I-D.lundberg-cose-two-party-signing-algs" target="https://datatracker.ietf.org/doc/html/draft-lundberg-cose-two-party-signing-algs-05">
+  <front>
+    <title>Split signing algorithms for COSE</title>
+    <author fullname="Emil Lundberg" initials="E." surname="Lundberg">
+      <organization>Yubico</organization>
+    </author>
+    <author fullname="Michael B. Jones" initials="M. B." surname="Jones">
+      <organization>Self-Issued Consulting</organization>
+    </author>
+    <date year="2026" month="February" day="23"/>
+    <abstract>
+      <t>This specification defines COSE algorithm identifiers for negotiating how to split a signature algorithm between two cooperating parties. Typically the first party hashes the data to be signed and the second party finishes the signature over the hashed data. This is a common technique, useful for example when the signing private key is held in a smart card or similar hardware component with limited processing power and communication bandwidth. The resulting signatures are identical in structure to those computed by a single party, and can be verified using the same verification algorithm without additional steps to preprocess the signed data.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-lundberg-cose-two-party-signing-algs-05"/>
+</reference>
