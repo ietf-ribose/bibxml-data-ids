@@ -1,0 +1,13 @@
+<reference anchor="I-D.nennemann-wimse-ect" target="https://datatracker.ietf.org/doc/html/draft-nennemann-wimse-ect-00">
+  <front>
+    <title>Execution Context Tokens for Distributed Agentic Workflows</title>
+    <author fullname="Christian Nennemann" initials="C." surname="Nennemann">
+      <organization>Independent Researcher</organization>
+    </author>
+    <date year="2026" month="February" day="25"/>
+    <abstract>
+      <t>This document defines Execution Context Tokens (ECTs), a JWT-based extension to the WIMSE architecture that records task execution across distributed agentic workflows. Each ECT is a signed record of a single task, linked to predecessor tasks through a directed acyclic graph (DAG). ECTs reuse the WIMSE signing model and are transported in a new Execution-Context HTTP header field alongside existing WIMSE identity headers.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-nennemann-wimse-ect-00"/>
+</reference>
