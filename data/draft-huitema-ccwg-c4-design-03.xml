@@ -1,0 +1,19 @@
+<reference anchor="I-D.huitema-ccwg-c4-design" target="https://datatracker.ietf.org/doc/html/draft-huitema-ccwg-c4-design-03">
+  <front>
+    <title>Design of Christian's Congestion Control Code (C4)</title>
+    <author fullname="Christian Huitema" initials="C." surname="Huitema">
+      <organization>Private Octopus Inc.</organization>
+    </author>
+    <author fullname="Suhas Nandakumar" initials="S." surname="Nandakumar">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Cullen Fluffy Jennings" initials="C. F." surname="Jennings">
+      <organization>Cisco</organization>
+    </author>
+    <date year="2026" month="February" day="26"/>
+    <abstract>
+      <t>Christian's Congestion Control Code is a new congestion control algorithm designed to support Real-Time applications such as Media over QUIC. It is designed to drive towards low delays, with good support for the "application limited" behavior frequently found when using variable rate encoding, and with fast reaction to congestion to avoid the "priority inversion" happening when congestion control overestimates the available capacity. It pays special attention to the high jitter conditions encountered in Wi-Fi networks. The design emphasizes simplicity and avoids making too many assumption about the "model" of the network. The main control variables are the estimate of the data rate and of the maximum path delay in the absence of queues.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-huitema-ccwg-c4-design-03"/>
+</reference>

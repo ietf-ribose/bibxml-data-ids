@@ -1,0 +1,16 @@
+<reference anchor="I-D.rosomakho-httpbis-h3-unbound-data" target="https://datatracker.ietf.org/doc/html/draft-rosomakho-httpbis-h3-unbound-data-01">
+  <front>
+    <title>Unbound DATA for CONNECT in HTTP/3</title>
+    <author fullname="Yaroslav Rosomakho" initials="Y." surname="Rosomakho">
+      <organization>Zscaler</organization>
+    </author>
+    <author fullname="David Schinazi" initials="D." surname="Schinazi">
+      <organization>Google LLC</organization>
+    </author>
+    <date year="2026" month="February" day="27"/>
+    <abstract>
+      <t>This document defines a new HTTP/3 frame type, UNBOUND_DATA, and a corresponding SETTINGS parameter that enables endpoints to negotiate its use. When an endpoint sends an UNBOUND_DATA frame on a CONNECT request or response stream, it indicates that all subsequent octets on that stream are interpreted as tunneled bytes. This applies both to octets transmitted after CONNECT or extended CONNECT. The use of UNBOUND_DATA removes the need to encapsulate each portion of the data in DATA frames, reducing framing overhead and simplifying transmission of long-lived CONNECT tunnels.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-rosomakho-httpbis-h3-unbound-data-01"/>
+</reference>

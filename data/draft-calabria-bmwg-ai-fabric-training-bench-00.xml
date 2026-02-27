@@ -1,0 +1,22 @@
+<reference anchor="I-D.calabria-bmwg-ai-fabric-training-bench" target="https://datatracker.ietf.org/doc/html/draft-calabria-bmwg-ai-fabric-training-bench-00">
+  <front>
+    <title>Benchmarking Methodology for AI Training Network Fabrics</title>
+    <author fullname="Fernando Calabria" initials="F." surname="Calabria">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Carlos Pignataro" initials="C." surname="Pignataro">
+      <organization>Blue Fern Consulting</organization>
+    </author>
+    <author fullname="Qin Wu" initials="Q." surname="Wu">
+      <organization>Huawei</organization>
+    </author>
+    <author fullname="Giuseppe Fioccola" initials="G." surname="Fioccola">
+      <organization>Huawei</organization>
+    </author>
+    <date year="2026" month="February" day="26"/>
+    <abstract>
+      <t>This document defines benchmarking terminology, methodologies, and Key Performance Indicators (KPIs) for evaluating Ethernet-based AI training network fabrics. As large-scale distributed AI/ML training clusters grow to tens of thousands of accelerators (GPUs/XPUs), the backend network fabric becomes the critical bottleneck determining job completion time (JCT), training throughput, and accelerator utilization. This document establishes vendor-independent, reproducible test procedures for benchmarking fabric-level performance under realistic AI training workloads, covering RDMA/RoCEv2 transport, the Ultra Ethernet Transport (UET) protocol defined by the UEC Specification 1.0 [UEC-1.0], congestion management (PFC, ECN, DCQCN, CBFC), load balancing strategies (ECMP, DLB, packet spraying), collective communication patterns (AllReduce, AlltoAll, AllGather), and scale/ soak testing. The methodology enables apples-to-apples comparison across different switch ASICs, vendor implementations, NIC transport stacks (RoCEv2 vs. UET), and fabric architectures (2-tier Clos, 3-tier Clos, rail- optimized).</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-calabria-bmwg-ai-fabric-training-bench-00"/>
+</reference>
