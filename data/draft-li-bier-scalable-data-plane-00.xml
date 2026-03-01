@@ -1,0 +1,25 @@
+<reference anchor="I-D.li-bier-scalable-data-plane" target="https://datatracker.ietf.org/doc/html/draft-li-bier-scalable-data-plane-00">
+  <front>
+    <title>Scalable Data Plane Architecture for Bit Index Explicit Replication (BIER)</title>
+    <author fullname="Zhiqiang Li" initials="Z." surname="Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Zongpeng Du" initials="Z." surname="Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Wei Cheng" initials="W." surname="Cheng">
+      <organization>Centec Networks</organization>
+    </author>
+    <author fullname="Junjie Wang" initials="J." surname="Wang">
+      <organization>Centec Networks</organization>
+    </author>
+    <author fullname="Guoying Zhang" initials="G." surname="Zhang">
+      <organization>Centec Networks</organization>
+    </author>
+    <date year="2026" month="February" day="28"/>
+    <abstract>
+      <t>This document describes an optimized data plane forwarding architecture for Bit Index Explicit Replication (BIER). The standard BIER forwarding procedures, as conceptually described in RFC 8279, imply a per-bit evaluation of the BitString against the Bit Index Forwarding Table (BIFT) on each Bit Forwarding Router (BFR). When the BitStringLength is large (e.g., 256 bits or more), this conceptual model presents implementation challenges for high-speed ASIC/NPU forwarding engines in terms of processing latency and hardware table resources. This document defines two conceptual data structures -- a Replication Member Table and an Interface BitMask Table -- that decouple the multicast replication decision from per-bit BitString parsing. The resulting forwarding pipeline operates in time proportional to the number of egress interfaces rather than the BitString length, enabling deterministic and scalable hardware processing. This mechanism is semantically equivalent to the forwarding procedures of RFC 8279 and does not modify the BIER encapsulation or introduce new protocol signaling.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-bier-scalable-data-plane-00"/>
+</reference>

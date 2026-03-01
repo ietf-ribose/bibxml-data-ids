@@ -1,0 +1,25 @@
+<reference anchor="I-D.li-spring-rdma-multicast-over-srv6" target="https://datatracker.ietf.org/doc/html/draft-li-spring-rdma-multicast-over-srv6-00">
+  <front>
+    <title>SRv6 Extensions for RDMA Multicast Delivery</title>
+    <author fullname="Zhiqiang Li" initials="Z." surname="Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Zongpeng Du" initials="Z." surname="Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Wei Cheng" initials="W." surname="Cheng">
+      <organization>Centec Networks</organization>
+    </author>
+    <author fullname="Junjie Wang" initials="J." surname="Wang">
+      <organization>Centec Networks</organization>
+    </author>
+    <author fullname="Guoying Zhang" initials="G." surname="Zhang">
+      <organization>Centec Networks</organization>
+    </author>
+    <date year="2026" month="February" day="28"/>
+    <abstract>
+      <t>This document specifies SRv6 (Segment Routing over IPv6) extensions for multicast delivery of RDMA (Remote Direct Memory Access) Reliable Connection (RC) traffic. It defines a new SRv6 endpoint behavior, End.MT, that performs per-receiver RDMA Base Transport Header (BTH) modifications at edge nodes of the multicast tree. It also specifies procedures for hop-by-hop aggregation of RDMA ACK, NACK, and CNP response messages along the reverse path. Together, these extensions allow RDMA RC endpoints to communicate using standard point-to-point Queue Pair (QP) semantics while the network distributes data packets over an IP multicast tree. Target deployment scenarios include multi-replica distributed storage writes, HPC collective communications, AI training parameter distribution, and large-scale inference KV cache distribution.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-spring-rdma-multicast-over-srv6-00"/>
+</reference>

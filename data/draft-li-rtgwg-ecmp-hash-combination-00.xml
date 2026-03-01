@@ -1,0 +1,25 @@
+<reference anchor="I-D.li-rtgwg-ecmp-hash-combination" target="https://datatracker.ietf.org/doc/html/draft-li-rtgwg-ecmp-hash-combination-00">
+  <front>
+    <title>Combined Hash Mechanism for ECMP/LAG Load Balancing</title>
+    <author fullname="Zhiqiang Li" initials="Z." surname="Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Zongpeng Du" initials="Z." surname="Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author fullname="Wei Cheng" initials="W." surname="Cheng">
+      <organization>Centec Networks</organization>
+    </author>
+    <author fullname="Junjie Wang" initials="J." surname="Wang">
+      <organization>Centec Networks</organization>
+    </author>
+    <author fullname="Guoying Zhang" initials="G." surname="Zhang">
+      <organization>Centec Networks</organization>
+    </author>
+    <date year="2026" month="February" day="28"/>
+    <abstract>
+      <t>This document specifies a combined hash mechanism for load balancing in Equal-Cost Multi-Path (ECMP) and Link Aggregation Group (LAG) environments. When processing tunneled traffic, traditional hash methods that operate on either outer or inner packet fields may result in uneven traffic distribution (polarization). This specification defines a method to extend effective hash entropy by combining multiple independently computed hash values, enabling network devices to consider multi-layer packet information for path selection, thereby improving traffic distribution uniformity. This mechanism is compatible with existing hash computation architectures and does not require packet format modifications or new protocol field definitions.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-rtgwg-ecmp-hash-combination-00"/>
+</reference>

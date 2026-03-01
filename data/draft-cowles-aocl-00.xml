@@ -1,0 +1,13 @@
+<reference anchor="I-D.cowles-aocl" target="https://datatracker.ietf.org/doc/html/draft-cowles-aocl-00">
+  <front>
+    <title>Agent Orchestration Control Layers (AOCL) Protocol</title>
+    <author fullname="Adam Cowles" initials="A." surname="Cowles">
+      <organization>Quox Ltd</organization>
+    </author>
+    <date year="2026" month="February" day="28"/>
+    <abstract>
+      <t>Agent Orchestration Control Layers (AOCL) is a protocol that standardizes how an orchestrator processes incoming events by passing them through a layered control pipeline. AOCL defines an eleven- layer taxonomy covering ingress normalization, identity scoping, smart routing, policy gating, plan decomposition, context retrieval, prompt shaping, delegation and execution, verification, response assembly, and audit writeback. The protocol is runtime-agnostic and framework-agnostic, producing auditable governance traces as a first- class output. AOCL supports both sequential pipeline and directed acyclic graph (DAG) execution modes, with explicit bypass and branch semantics that mandate audit records for all control-flow deviations.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-cowles-aocl-00"/>
+</reference>
