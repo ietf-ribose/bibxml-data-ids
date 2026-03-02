@@ -1,0 +1,16 @@
+<reference anchor="I-D.nandakumar-moq-qmux-moqt" target="https://datatracker.ietf.org/doc/html/draft-nandakumar-moq-qmux-moqt-00">
+  <front>
+    <title>Media over QUIC Transport (MOQT) over QMux</title>
+    <author fullname="Suhas Nandakumar" initials="S." surname="Nandakumar">
+      <organization>Cisco</organization>
+    </author>
+    <author fullname="Cullen Fluffy Jennings" initials="C. F." surname="Jennings">
+      <organization>Cisco</organization>
+    </author>
+    <date year="2026" month="March" day="1"/>
+    <abstract>
+      <t>This document specifies how Media over QUIC Transport (MOQT) can operate over QMux, enabling MOQT applications to function over reliable byte-oriented streams such as TCP with TLS. By utilizing QMux as an intermediate layer, MOQT deployments gain the ability to fall back to TCP-based transport when UDP is blocked or unreliable, while maintaining API compatibility with QUIC-native implementations. This document analyzes the benefits and trade-offs of this approach and provides implementation guidance for deploying MOQT over QMux.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-nandakumar-moq-qmux-moqt-00"/>
+</reference>

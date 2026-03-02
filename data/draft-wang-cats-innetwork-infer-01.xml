@@ -1,0 +1,22 @@
+<reference anchor="I-D.wang-cats-innetwork-infer" target="https://datatracker.ietf.org/doc/html/draft-wang-cats-innetwork-infer-01">
+  <front>
+    <title>An Open, Decentralized, and Scalable Framework for Large Language Model Inference</title>
+    <author fullname="Hanling Wang" initials="H." surname="Wang">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author fullname="Qing Li" initials="Q." surname="Li">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author fullname="Yong Jiang" initials="Y." surname="Jiang">
+      <organization>Tsinghua Shenzhen International Graduate School &amp; Pengcheng Laboratory</organization>
+    </author>
+    <author fullname="Mingwei Xu" initials="M." surname="Xu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date year="2026" month="March" day="2"/>
+    <abstract>
+      <t>Large Language Model (LLM) inference is increasingly deployed as a networked service, yet existing deployments rely primarily on centralized infrastructure and trusted operators. Such designs limit openness, concentrate resource ownership, and constrain scalability to the capacity of individual providers. At the same time, LLM inference introduces execution characteristics (e.g., strict sequential dependencies, large intermediate activations, and tight latency requirements) that are not well supported by existing network, transport, or coordination mechanisms in open environments. This document specifies an open, decentralized, and scalable framework for executing LLM inference across independently operated and mutually untrusted participants. The framework treats inference as a distributed, layer-wise execution process subject to explicit deadlines, rather than as a monolithic computation or best-effort service. It combines layer-aware activation transport and routing, decentralized coordination among heterogeneous compute resources, and security mechanisms that provide accountability and correctness without assuming trusted execution. This document focuses on the architectural framework, design rationale, problem definition, challenges, and solution space of the Open, Decentralized, and Scalable Inference framework (ODSI). It does not specify concrete wire protocols, message formats, or protocol state machines. Such protocol-level specifications are to be defined in separate documents that build upon the framework described herein.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-wang-cats-innetwork-infer-01"/>
+</reference>

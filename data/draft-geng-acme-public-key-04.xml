@@ -1,0 +1,19 @@
+<reference anchor="I-D.geng-acme-public-key" target="https://datatracker.ietf.org/doc/html/draft-geng-acme-public-key-04">
+  <front>
+    <title>Automated Certificate Management Environment (ACME) Extension for Public Key Challenges</title>
+    <author fullname="Feng Geng" initials="F." surname="Geng">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Panyu Wu" initials="P." surname="Wu">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Liang Xia" initials="L." surname="Xia">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date year="2026" month="March" day="2"/>
+    <abstract>
+      <t>This document implements automated certificate provisioning through "public key identity challenge + private key ownership verification" by introducing the pk-01 challenge to the ACME protocol [RFC8555]. It serves as a valuable complement to existing external resource verification challenge types such as DNS/HTTP, extending the ACME protocol's applicability beyond Web-PKI to other scenarios. This enables automated certificate issuance for devices and accounts. The core design objective of this document's extension to ACME's pk-01 challenge is to introduce a trusted identity provider (IdP) during the digital certificate application process. This provider verifies the certificate applicant's identity and obtains the corresponding identity public key. It enables the ACME server to use public key identity authentication protocols (e.g., WebAuthn and Opaque [RFC9807]) to verify whether the genuine application behind the ACME client controls the public key. It ensures strong consistency between the public key used during the challenge phase and the public key ultimately used to sign the certificate, preventing tampering with the public key during the CSR submission phase. This enhances the security of the digital certificate issuance process. Similar related work can be found in [RFC9883]. This document also defines an optional process extension that allows removal of the CSR under the pk-01 challenge, enabling the ACME server to issue a certificate directly after successful public key verification. This document provides an example of practical application at the end, illustrating the integration of the OPAQUE [RFC9807], strong asymmetric password authenticated key exchange (saPAKE) protocol with the pk-01 challenge.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-geng-acme-public-key-04"/>
+</reference>

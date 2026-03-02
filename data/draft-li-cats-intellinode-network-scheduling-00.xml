@@ -1,0 +1,19 @@
+<reference anchor="I-D.li-cats-intellinode-network-scheduling" target="https://datatracker.ietf.org/doc/html/draft-li-cats-intellinode-network-scheduling-00">
+  <front>
+    <title>IntelliNode: In-Network Intelligent Scheduling Extensions for CATS</title>
+    <author fullname="Qing Li" initials="Q." surname="Li">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author fullname="Teng Gao" initials="T." surname="Gao">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author fullname="Yong Jiang" initials="Y." surname="Jiang">
+      <organization>Tsinghua Shenzhen International Graduate School &amp; Pengcheng Laboratory</organization>
+    </author>
+    <date year="2026" month="March" day="2"/>
+    <abstract>
+      <t>This document introduces IntelliNode, an in-network intelligent scheduling mechanism built upon the Computing-Aware Traffic Steering (CATS) framework. Modern large-scale AI training and inference heavily rely on distributed heterogeneous clusters (GPU/CPU/FPGA). However, existing networks lack awareness of tensor semantics, training phases, and heterogeneous computing capabilities, leading to high communication latency, low resource utilization, and pipeline stalls. IntelliNode shifts away from the traditional passive scheduling paradigms that rely on probes and controllers. By bypassing traditional paths and integrating FPGAs alongside programmable Switch ASICs, it constructs a rapid data-plane closed loop of "Perception- Inference-Decision-Execution". This architecture performs feature extraction at line rate, leverages lightweight prediction models to infer short-term network behavior, and drives real-time heuristic scheduling decisions (e.g., path selection, tensor slicing, and compute matching). This document defines the four core functional layers and extension signaling that support this architecture, laying the foundation for an AI-native, scalable distributed computing network.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-li-cats-intellinode-network-scheduling-00"/>
+</reference>

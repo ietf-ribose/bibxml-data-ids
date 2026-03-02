@@ -1,0 +1,25 @@
+<reference anchor="I-D.fu-sidrops-rpki-repositories-monitoring" target="https://datatracker.ietf.org/doc/html/draft-fu-sidrops-rpki-repositories-monitoring-00">
+  <front>
+    <title>Operational Monitoring of RPKI Repositories Health and Safety</title>
+    <author fullname="Yonghong Fu" initials="Y." surname="Fu">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author fullname="Mingwei Xu" initials="M." surname="Xu">
+      <organization>Tsinghua</organization>
+    </author>
+    <author fullname="Yangyang Wang" initials="Y." surname="Wang">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author fullname="Jia Zhang" initials="J." surname="Zhang">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author fullname="Yuanyuan Zhang" initials="Y." surname="Zhang">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <date year="2026" month="March" day="1"/>
+    <abstract>
+      <t>The Resource Public Key Infrastructure (RPKI) relies on a globally distributed set of repositories to deliver signed routing authorization data to Relying Parties (RPs). Internet Service Providers (ISPs) depend on RPs to collect RPKI objects from distributed repositories and validate them cryptographically, resulting in hundreds of thousands of Validated Route origin authorization Payloads (VRPs). Nevertheless, even with multiple RPs deployed, ISPs have limited insight into the operational health and reliability of each repository. When a large number of ROAs suddenly change from valid to unknown or invalid, operators often lack sufficient information to diagnose the cause, which may stem from an outage or instability in a specific repository. Consequently, ISPs cannot easily determine whether these changes are caused by routine updates, malicious behavior, or underlying repository instability. Consequently, ISPs cannot easily determine whether these changes are caused by routine updates, malicious behavior, or underlying repository instability. This document provides operational guidance for monitoring the health and safety of RPKI repositories on a per- repository basis. It defines measurable indicators related to reachability, availability, and content integrity, and explains how these metrics can be used to detect degraded performance or potentially unsafe repository behavior. The document discusses and provides recommendations for repositories alerting and operational response. The goal is to improve the transparency, operational availability and security of the RPKI ecosystem.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-fu-sidrops-rpki-repositories-monitoring-00"/>
+</reference>

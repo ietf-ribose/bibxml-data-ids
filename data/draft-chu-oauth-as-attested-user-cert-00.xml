@@ -1,0 +1,22 @@
+<reference anchor="I-D.chu-oauth-as-attested-user-cert" target="https://datatracker.ietf.org/doc/html/draft-chu-oauth-as-attested-user-cert-00">
+  <front>
+    <title>OAuth 2.0 Rich Authorization Requests for AS-Attested User Certificates</title>
+    <author fullname="Cheng-Kang Chu" initials="C." surname="Chu">
+      <organization>Huawei Int. Pte Ltd</organization>
+    </author>
+    <author fullname="Li Ruochen" initials="L." surname="Ruochen">
+      <organization>Huawei Int. Pte Ltd</organization>
+    </author>
+    <author fullname="Haiguang Wang" initials="H." surname="Wang">
+      <organization>Huawei Int. Pte Ltd</organization>
+    </author>
+    <author fullname="Tieyan Li" initials="T." surname="Li">
+      <organization>Huawei Int. Pte Ltd</organization>
+    </author>
+    <date year="2026" month="March" day="2"/>
+    <abstract>
+      <t>This document defines an extension to the OAuth 2.0 Rich Authorization Requests (RAR) framework. It introduces a mechanism that allows a Client, such as an autonomous AI Agent, to request an Authorization Server (AS) to include an AS-attested Resource Owner public key certificate within, or bound to, an Access Token. This mechanism enables the Resource Server (RS) to securely obtain the Resource Owner's trusted public key, which can then be used to verify application-layer delegation evidence (e.g., Verifiable Credentials) signed by the Resource Owner.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-chu-oauth-as-attested-user-cert-00"/>
+</reference>

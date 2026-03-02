@@ -1,0 +1,25 @@
+<reference anchor="I-D.lkspa-wimse-verifiable-geo-fence" target="https://datatracker.ietf.org/doc/html/draft-lkspa-wimse-verifiable-geo-fence-04">
+  <front>
+    <title>Privacy Preserving Verifiable Geofencing with Residency Proofs for Sovereign Workloads</title>
+    <author fullname="Ramki Krishnan" initials="R." surname="Krishnan">
+      <organization>JPMorgan Chase &amp; Co.</organization>
+    </author>
+    <author fullname="Ned Smith" initials="N." surname="Smith">
+      <organization>Intel</organization>
+    </author>
+    <author fullname="Diego Lopez" initials="D." surname="Lopez">
+      <organization>Telefonica</organization>
+    </author>
+    <author fullname="A Prasad" initials="A." surname="Prasad">
+      <organization>Oracle</organization>
+    </author>
+    <author fullname="Srinivasa Addepalli" initials="S." surname="Addepalli">
+      <organization>Aryaka</organization>
+    </author>
+    <date year="2026" month="March" day="1"/>
+    <abstract>
+      <t>Modern cloud and distributed computing rely heavily on software-only identities and bearer tokens that are easily stolen, replayed, or used from unauthorized locations. Furthermore, traditional methods of location verification - such as IP-address-based geolocation - are easily spoofed via VPNs or proxies and significantly compromise infrastructure security and privacy for *Sovereign Workloads* and high-assurance environments. This document defines a *High-Assurance Profile* designed to solve these challenges through hardware-rooted cryptographic verifiability. A host machine runs a workload identity agent for managing the workload identities on that platform. This proposal replaces implicit trust and spoofable indicators with cryptographically verifiable hardware-rooted evidence of integrity and location for this agent. Critically, this framework prioritizes *Location Privacy* by utilizing Zero-Knowledge Proofs (ZKP), allowing a workload to prove it is within a compliant "Sovereign Zone" without disclosing precise coordinates that could be used for tracking or exploitation. By binding software identities to persistent silicon identities and verified physical residency, this solution establishes a "Silicon-to- Workload" chain of trust. It ensures that sensitive operations are only performed by authorized workloads running on untampered hardware in cryptographically verified, privacy-preserving geographic boundaries, fulfilling the high-assurance requirements of the *WIMSE Architecture* [[I-D.ietf-wimse-architecture]].</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-lkspa-wimse-verifiable-geo-fence-04"/>
+</reference>
