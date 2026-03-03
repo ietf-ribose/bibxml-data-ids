@@ -1,0 +1,13 @@
+<reference anchor="I-D.irtf-cfrg-fiat-shamir" target="https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-fiat-shamir-02">
+  <front>
+    <title>Fiat-Shamir Transformation</title>
+    <author fullname="Michele Orrù" initials="M." surname="Orrù">
+      <organization>CNRS</organization>
+    </author>
+    <date year="2026" month="March" day="2"/>
+    <abstract>
+      <t>This document describes how to construct a non-interactive proof via the Fiat–Shamir transformation, using a generic procedure that compiles an interactive proof into a non-interactive one by relying on a stateful duplex sponge object. The duplex sponge interface requires two methods: absorb and squeeze, which respectively read and write elements of a specified base type. The absorb operation incrementally updates the duplex sponge's internal state, while the squeeze operation produces variable-length, unpredictable outputs. This interface can be instantiated with different constructions based on permutation or compression functions. This specification also defines codecs to securely map prover messages into the duplex sponge domain, from the duplex sponge domain into verifier messages. It also establishes how the non-interactive argument string should be serialized.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-irtf-cfrg-fiat-shamir-02"/>
+</reference>

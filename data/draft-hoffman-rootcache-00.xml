@@ -1,0 +1,13 @@
+<reference anchor="I-D.hoffman-rootcache" target="https://datatracker.ietf.org/doc/html/draft-hoffman-rootcache-00">
+  <front>
+    <title>RootCache: Filling Resolver Caches with Root Zone Records</title>
+    <author fullname="Paul E. Hoffman" initials="P. E." surname="Hoffman">
+      <organization>ICANN</organization>
+    </author>
+    <date year="2026" month="March" day="2"/>
+    <abstract>
+      <t>Some DNS recursive resolver operators want to reduce the number of queries they send to the root servers of the global DNS in order to give faster responses to their clients. Some DNS recursive resolver operators want to prevent snooping by third parties of requests sent to DNS root servers. In both cases, resolvers can reduce the number of queries sent to root server, and thus prevent observation of requests, by caching a copy of the full root zone. This document shows how a resolver can securely receive the full root zone and put it into the resolver's cache. This document obsoletes RFC 8806.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-hoffman-rootcache-00"/>
+</reference>

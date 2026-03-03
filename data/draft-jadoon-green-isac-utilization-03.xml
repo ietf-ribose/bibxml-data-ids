@@ -1,0 +1,19 @@
+<reference anchor="I-D.jadoon-green-isac-utilization" target="https://datatracker.ietf.org/doc/html/draft-jadoon-green-isac-utilization-03">
+  <front>
+    <title>A YANG Data Model for Reporting Utilization Scores in ISAC</title>
+    <author fullname="Muhammad Awais Jadoon" initials="M. A." surname="Jadoon">
+      <organization>InterDigital Europe Ltd</organization>
+    </author>
+    <author fullname="Sebastian Robitzsch" initials="S." surname="Robitzsch">
+      <organization>InterDigital Europe Ltd</organization>
+    </author>
+    <author fullname="Marisol Palmero" initials="M. P." surname="Palmero">
+      <organization>Individual</organization>
+    </author>
+    <date year="2026" month="March" day="2"/>
+    <abstract>
+      <t>This document defines a YANG data model to report an ISAC Utilization Score (US) in Integrated Sensing and Communication (ISAC) systems. The US is an abstract, normalized score (0..100) that summarizes the relative resource cost of executing a sensing operation on a device. The model supports a mandatory overall US and optional explanatory component impact scores (compute, memory, energy, storage, latency). The model also supports optional metadata (e.g., timestamp, aggregation window, and scoring method identification) describing how a reported score was derived. This revision aligns terminology and leaf names to reduce ambiguity between normalized impact scores and raw resource telemetry, removes per-measurement-related objects to keep the model focused on an overall score, and specifies a companion augmentation module (Path 1) that attaches ISAC utilization telemetry to a GREEN Energy Object (as defined by the GREEN Power and Energy YANG Module) for correlation with power/energy telemetry.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-jadoon-green-isac-utilization-03"/>
+</reference>

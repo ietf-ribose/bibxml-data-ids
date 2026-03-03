@@ -1,0 +1,31 @@
+<reference anchor="I-D.ietf-pce-multipath" target="https://datatracker.ietf.org/doc/html/draft-ietf-pce-multipath-20">
+  <front>
+    <title>Path Computation Element Communication Protocol (PCEP) Extensions for Signaling Multipath Information</title>
+    <author fullname="Mike Koldychev" initials="M." surname="Koldychev">
+      <organization>Ciena Corporation</organization>
+    </author>
+    <author fullname="Siva Sivabalan" initials="S." surname="Sivabalan">
+      <organization>Ciena Corporation</organization>
+    </author>
+    <author fullname="Tarek Saad" initials="T." surname="Saad">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Vishnu Pavan Beeram" initials="V. P." surname="Beeram">
+      <organization>Juniper Networks, Inc.</organization>
+    </author>
+    <author fullname="Hooman Bidgoli" initials="H." surname="Bidgoli">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Shuping Peng" initials="S." surname="Peng">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Samuel Sidor" initials="S." surname="Sidor">
+      <organization>Cisco Systems.</organization>
+    </author>
+    <date year="2026" month="March" day="2"/>
+    <abstract>
+      <t>A Segment Routing (SR) Policy Candidate Path can contain multiple Segment Lists, allowing for load-balancing and protection across diverse paths. However, current PCEP extensions for SR Policy only allow signaling of a single Segment List per Candidate Path. This document defines PCEP extensions to encode multiple Segment Lists within an SR Policy Candidate Path, enabling multipath capabilities such as weighted or equal-cost load-balancing across Segment Lists. The extensions are designed to be generic and reusable for future path types beyond SR Policy, and are applicable to both stateless and stateful PCEP.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-pce-multipath-20"/>
+</reference>

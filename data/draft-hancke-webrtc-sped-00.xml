@@ -1,0 +1,19 @@
+<reference anchor="I-D.hancke-webrtc-sped" target="https://datatracker.ietf.org/doc/html/draft-hancke-webrtc-sped-00">
+  <front>
+    <title>STUN Protocol for Embedding DTLS (SPED)</title>
+    <author fullname="Philipp Hancke" initials="P." surname="Hancke">
+      <organization>Meta Platforms Inc.</organization>
+    </author>
+    <author fullname="Justin Uberti" initials="J." surname="Uberti">
+      <organization>OpenAI</organization>
+    </author>
+    <author fullname="Jonas Oreland" initials="J." surname="Oreland">
+      <organization>Google</organization>
+    </author>
+    <date year="2026" month="March" day="2"/>
+    <abstract>
+      <t>WebRTC setup normally serializes ICE and DTLS, adding at least one extra round trip before secure media can flow. This document defines the STUN Protocol for Embedding DTLS (SPED), which carries DTLS handshake data and acknowledgements inside STUN Binding Requests and Responses. SPED allows ICE and DTLS to proceed in parallel, improves setup behavior under loss, and remains backward compatible with existing ICE processing.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-hancke-webrtc-sped-00"/>
+</reference>

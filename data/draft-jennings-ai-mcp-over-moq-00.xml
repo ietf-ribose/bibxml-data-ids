@@ -1,0 +1,22 @@
+<reference anchor="I-D.jennings-ai-mcp-over-moq" target="https://datatracker.ietf.org/doc/html/draft-jennings-ai-mcp-over-moq-00">
+  <front>
+    <title>Model Context Protocol and Agent Skills over Media over QUIC Transport</title>
+    <author fullname="Cullen Fluffy Jennings" initials="C. F." surname="Jennings">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author fullname="Ian Swett" initials="I." surname="Swett">
+      <organization>Google</organization>
+    </author>
+    <author fullname="Jonathan Rosenberg" initials="J." surname="Rosenberg">
+      <organization>Five9</organization>
+    </author>
+    <author fullname="Suhas Nandakumar" initials="S." surname="Nandakumar">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date year="2026" month="March" day="2"/>
+    <abstract>
+      <t>This document defines how to use Media over QUIC Transport (MOQT) as the underlying transport protocol for the Model Context Protocol (MCP). MCP is a protocol that enables seamless integration between language model applications and external data sources and tools. MOQT provides efficient, low-latency, publish-subscribe media delivery over QUIC and WebTransport. This specification describes the mapping of MCP messages onto MOQT objects and defines the procedures for establishing and maintaining MCP sessions over MOQT. It covers transport of MCP's core primitives including resources, tools, prompts, and notifications through dedicated MOQT tracks with appropriate priority management and delivery guarantees. A key focus of this document is the delivery and execution of Agent Skills - composed instructions that extend AI capabilities beyond atomic tool operations. Skills use progressive loading (metadata, instructions, resources) that aligns naturally with MOQT's object- based delivery, enabling efficient bandwidth utilization and aggressive caching strategies. The specification also describes relay support for scalable MCP deployments, including subscription aggregation, content caching, and multi-hop architectures that enable global distribution of MCP services with optimized performance.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-jennings-ai-mcp-over-moq-00"/>
+</reference>
