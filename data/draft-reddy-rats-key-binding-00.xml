@@ -1,0 +1,16 @@
+<reference anchor="I-D.reddy-rats-key-binding" target="https://datatracker.ietf.org/doc/html/draft-reddy-rats-key-binding-00">
+  <front>
+    <title>Key Attestation for Entity Attestation Tokens (EAT)</title>
+    <author fullname="Tirumaleswar Reddy.K" initials="T." surname="Reddy.K">
+      <organization>Nokia</organization>
+    </author>
+    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+      <organization>University of the Bundeswehr Munich</organization>
+    </author>
+    <date year="2026" month="March" day="15"/>
+    <abstract>
+      <t>This document defines a CWT-based Entity Attestation Token (EAT) profile and a new EAT claim that cryptographically bind a private key used to sign a certificate signing request (CSR), or the private key corresponding to an end-entity certificate used for TLS authentication, to an attested execution environment. The subject public key is conveyed using the EAT cnf claim defined in [RFC8747], and freshness uses the EAT nonce claim defined in [RFC9711]. The proof of possession of the subject key is obtained from the surrounding protocol, such as TLS certificate-based authentication or CSR signature verification. Because the EAT is signed by a hardware-backed Attestation Key (AK), successful verification of the EAT signature together with protocol-level proof of possession establishes a cryptographic binding between the private key and the attested platform state. This mechanism addresses key substitution attacks that arise when attestation evidence and the certificate private keys are validated independently.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-reddy-rats-key-binding-00"/>
+</reference>
