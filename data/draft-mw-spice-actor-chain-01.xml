@@ -1,0 +1,22 @@
+<reference anchor="I-D.mw-spice-actor-chain" target="https://datatracker.ietf.org/doc/html/draft-mw-spice-actor-chain-01">
+  <front>
+    <title>Cryptographically Verifiable Actor Chains for OAuth 2.0 Token Exchange</title>
+    <author fullname="A Prasad" initials="A." surname="Prasad">
+      <organization>Oracle</organization>
+    </author>
+    <author fullname="Ramki Krishnan" initials="R." surname="Krishnan">
+      <organization>JPMorgan Chase &amp; Co</organization>
+    </author>
+    <author fullname="Diego Lopez" initials="D." surname="Lopez">
+      <organization>Telefonica</organization>
+    </author>
+    <author fullname="Srinivasa Addepalli" initials="S." surname="Addepalli">
+      <organization>Aryaka</organization>
+    </author>
+    <date year="2026" month="March" day="15"/>
+    <abstract>
+      <t>This document defines five actor-chain profiles for OAuth 2.0 Token Exchange {{!RFC8693}}. {{!RFC8693}} permits nested act claims, but prior actors remain informational only and token exchange does not define how a delegation path is preserved and validated across successive exchanges. This document defines profile-specific processing for linear multi- hop workflows. The profiles are Asserted Delegation Path, Selectively Disclosed Asserted Delegation Path, Committed Delegation Path, Commitment-Only Delegation Path, and Selectively Disclosed Committed Delegation Path. These profiles preserve the existing meanings of sub and act, support same- domain and cross-domain delegation, require sender-constrained tokens, and provide different tradeoffs among readable chain-based authorization, cryptographic accountability, auditability, privacy, and long-running workflow support.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-mw-spice-actor-chain-01"/>
+</reference>

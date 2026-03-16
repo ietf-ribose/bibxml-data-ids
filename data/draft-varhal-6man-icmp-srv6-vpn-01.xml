@@ -1,0 +1,16 @@
+<reference anchor="I-D.varhal-6man-icmp-srv6-vpn" target="https://datatracker.ietf.org/doc/html/draft-varhal-6man-icmp-srv6-vpn-01">
+  <front>
+    <title>ICMP Error Handling for VPNs in SRv6 Networks</title>
+    <author fullname="Balazs Varga" initials="B." surname="Varga">
+      <organization>Ericsson</organization>
+    </author>
+    <author fullname="Joel M. Halpern" initials="J. M." surname="Halpern">
+      <organization>JMH</organization>
+    </author>
+    <date year="2026" month="March" day="16"/>
+    <abstract>
+      <t>This document specifies ICMP error handling in SRv6-based Virtual Private Networks, that support direct localization of failures. It provides a solution for connectivity check and fault localization without adding complexity to P nodes and keeps P nodes service agnostic. ICMP processing is changed only on ingress PE nodes and gains from adding VPN-specific information to the SRv6 encapsulated packet. Egress PE nodes are not involved in the forwarding of the ICMP error messages. Therefore, the solution provides visibility upto the failure even if ingress PE to egress PE connectivity is broken within the SR domain.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-varhal-6man-icmp-srv6-vpn-01"/>
+</reference>
