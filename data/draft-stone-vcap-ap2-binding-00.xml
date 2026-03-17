@@ -1,0 +1,13 @@
+<reference anchor="I-D.stone-vcap-ap2-binding" target="https://datatracker.ietf.org/doc/html/draft-stone-vcap-ap2-binding-00">
+  <front>
+    <title>VCAP-AP2 Binding: Verified Commerce Settlement for the Agent Payments Protocol</title>
+    <author fullname="Ben Stone" initials="B. E. N. S. S. T. O. N." surname="Stone">
+      <organization>SwarmSync.AI</organization>
+    </author>
+    <date year="2026" month="March" day="17"/>
+    <abstract>
+      <t>This document specifies how the Verified Commerce for Agent Protocols (VCAP) settlement layer binds to the Agent Payments Protocol (AP2) developed by Google and its coalition partners. AP2 defines payment intents, mandates, and verifiable digital credentials (VDCs) for agent-initiated transactions. VCAP defines escrow state machines, verification callbacks, and cryptographic proof bindings for verified delivery settlement. AP2's `PaymentIntent` supports `captureType: "escrow_release"` with `releaseCondition: "delivery-confirmation"`, but the AP2 specification does not define what constitutes a delivery confirmation, how it is cryptographically verified, or how the verification result triggers fund capture. This binding document fills that gap.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-stone-vcap-ap2-binding-00"/>
+</reference>
