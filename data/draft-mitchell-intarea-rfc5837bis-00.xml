@@ -1,0 +1,13 @@
+<reference anchor="I-D.mitchell-intarea-rfc5837bis" target="https://datatracker.ietf.org/doc/html/draft-mitchell-intarea-rfc5837bis-00">
+  <front>
+    <title>Extending ICMP for Interface and Next-Hop Identification</title>
+    <author fullname="Jon Mitchell" initials="J." surname="Mitchell">
+      <organization>Google LLC</organization>
+    </author>
+    <date year="2026" month="March" day="18"/>
+    <abstract>
+      <t>This memo defines a data structure that can be appended to selected ICMP messages. The ICMP extension defined herein can be used to identify any combination of the following: the IP interface upon which a datagram arrived, the sub-IP component of an IP interface upon which a datagram arrived, the IP interface through which the datagram would have been forwarded had it been forwardable, the sub- IP component of an IP interface through which the datagram would have been forwarded had it been forwardable, and the IP next hop to which the datagram would have been forwarded. This document obsoletes RFC 5837. Devices can use this ICMP extension to identify interfaces and their components by any combination of the following: ifIndex, IPv4 address, IPv6 address, name, and MTU. ICMP-aware devices can use these extensions to identify both numbered and unnumbered interfaces.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-mitchell-intarea-rfc5837bis-00"/>
+</reference>

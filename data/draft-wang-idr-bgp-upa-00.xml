@@ -1,0 +1,16 @@
+<reference anchor="I-D.wang-idr-bgp-upa" target="https://datatracker.ietf.org/doc/html/draft-wang-idr-bgp-upa-00">
+  <front>
+    <title>BGP-based Unreachable Prefix Advertisement for Inter-Domain Fast Reroute</title>
+    <author fullname="Haibo Wang" initials="H." surname="Wang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author fullname="Jie Dong" initials="J." surname="Dong">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date year="2026" month="March" day="18"/>
+    <abstract>
+      <t>This document specifies a mechanism for advertising unreachable prefixes across Autonomous Systems using BGP. The mechanism enables fast convergence in VPN services when backbone source nodes become unreachable, by allowing Unreachable Prefix Advertisement (UPA) routes propagated through BGP across AS boundaries. This solution extends the IGP-based UPA mechanism defined in RFC9929 to inter- domain scenarios, ensuring remote PEs can promptly detect and react to failures in source domains. The route is not used for packet forwarding but solely for BGP next-hop reachability resolution, enabling fast failover of BGP VPN routes.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-wang-idr-bgp-upa-00"/>
+</reference>

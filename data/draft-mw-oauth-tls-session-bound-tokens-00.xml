@@ -1,0 +1,22 @@
+<reference anchor="I-D.mw-oauth-tls-session-bound-tokens" target="https://datatracker.ietf.org/doc/html/draft-mw-oauth-tls-session-bound-tokens-00">
+  <front>
+    <title>TLS-Session-Bound Access Tokens for OAuth 2.0</title>
+    <author fullname="Ramki Krishnan" initials="R." surname="Krishnan">
+      <organization>JPMorgan Chase &amp; Co</organization>
+    </author>
+    <author fullname="A Prasad" initials="A." surname="Prasad">
+      <organization>Oracle</organization>
+    </author>
+    <author fullname="Diego Lopez" initials="D." surname="Lopez">
+      <organization>Telefonica</organization>
+    </author>
+    <author fullname="Srinivasa Addepalli" initials="S." surname="Addepalli">
+      <organization>Aryaka</organization>
+    </author>
+    <date year="2026" month="March" day="18"/>
+    <abstract>
+      <t>This document defines a mechanism for binding OAuth 2.0 access tokens to a specific mutual TLS (mTLS) session. The binding is achieved through a per-request proof token that incorporates the TLS Exporter value {{!RFC5705}} derived from the current session and an access token hash, signed by the client's private key corresponding to its mTLS certificate. This mechanism prevents stolen bearer tokens from being replayed on a different TLS connection. While applicable to any OAuth 2.0 access token presented over mTLS, this specification is primarily motivated by the Token Exchange protocol {{!RFC8693}}, where multi-hop delegation chains in autonomous, agent-driven architectures create elevated replay risk.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-mw-oauth-tls-session-bound-tokens-00"/>
+</reference>
