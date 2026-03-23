@@ -1,0 +1,13 @@
+<reference anchor="I-D.urien-core-racsl" target="https://datatracker.ietf.org/doc/html/draft-urien-core-racsl-00">
+  <front>
+    <title>Remote APDU Call Secure Lite(RACSL)</title>
+    <author fullname="Pascal Urien" initials="P." surname="Urien">
+      <organization>Telecom Paris</organization>
+    </author>
+    <date year="2026" month="March" day="22"/>
+    <abstract>
+      <t>The Remote APDU Call Lite protocol (RACSL) is a lightweight version of the Remote APDU Call Secure protocol (RACS). RACS is designed for Grids of Secure Elements (GoSE), where servers host Secure Elements (SEs), i.e., tamper-resistant chips providing secure storage and cryptographic capabilities. It supports commands for GoSE inventory and data exchange with secure elements. RACSL targets environments hosting a limited number of secure element-typically one-within an IoT device managed by a microcontroller. It provides commands for data exchange with secure elements, in particular for managing their embedded applications. These commands are transported over TLS 1.3 pre-shared key (PSK) sessions, which MAY be secured using a TLS Identity Module (TLS-IM) application hosted within a secure element. RACSL can be used to update TLS-IM applications or to remotely access computing and storage resources hosted in secure elements.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-urien-core-racsl-00"/>
+</reference>
