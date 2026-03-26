@@ -1,0 +1,13 @@
+<reference anchor="I-D.dns-content-delivery" target="https://datatracker.ietf.org/doc/html/draft-dns-content-delivery-00">
+  <front>
+    <title>DNS-Based Content Delivery &amp; Fallback Mechanism</title>
+    <author fullname="April Faye John" initials="A. F." surname="John">
+      <organization/>
+    </author>
+    <date year="2026" month="March" day="26"/>
+    <abstract>
+      <t>This document specifies a mechanism for serving content, such as HTML or JSON, directly via DNS TXT records. This feature is intended as a fallback mechanism when a primary service (A/AAAA record) is unreachable, or as a lightweight hosting solution for parked domains to display landing pages without requiring active HTTP servers or individual SSL certificates. Trust is established via DNSSEC, allowing browsers to treat the content as secure.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-dns-content-delivery-00"/>
+</reference>
