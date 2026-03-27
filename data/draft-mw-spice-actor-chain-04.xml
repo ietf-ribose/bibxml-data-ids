@@ -1,0 +1,22 @@
+<reference anchor="I-D.mw-spice-actor-chain" target="https://datatracker.ietf.org/doc/html/draft-mw-spice-actor-chain-04">
+  <front>
+    <title>Cryptographically Verifiable Actor Chains for OAuth 2.0 Token Exchange</title>
+    <author fullname="A Prasad" initials="A." surname="Prasad">
+      <organization>Oracle</organization>
+    </author>
+    <author fullname="Ramki Krishnan" initials="R." surname="Krishnan">
+      <organization>JPMorgan Chase &amp; Co</organization>
+    </author>
+    <author fullname="Diego Lopez" initials="D." surname="Lopez">
+      <organization>Telefonica</organization>
+    </author>
+    <author fullname="Srinivasa Addepalli" initials="S." surname="Addepalli">
+      <organization>Aryaka</organization>
+    </author>
+    <date year="2026" month="March" day="26"/>
+    <abstract>
+      <t>Multi-hop service-to-service and agentic workflows need a standardized way to preserve and validate delegation-path continuity across successive token exchanges. This document defines six actor- chain profiles for OAuth 2.0 Token Exchange {{!RFC8693}}. {{!RFC8693}} permits nested act claims, but prior actors remain informational only and token exchange does not define how a delegation path is preserved and validated across successive exchanges. This document profiles delegation-chain tokens and defines profile- specific processing for multi-hop workflows. The six profiles are: Declared Full Disclosure; Declared Subset Disclosure; Declared Actor- Only Disclosure; Verified Full Disclosure; Verified Subset Disclosure; and Verified Actor-Only Disclosure. These profiles preserve the existing meanings of sub, act, and may_act. They support same-domain and cross-domain delegation and provide different tradeoffs among visible chain-based authorization, cryptographic accountability, auditability, privacy, and long-running workflow support. Plain RFC 8693 impersonation-shaped outputs remain valid RFC 8693 behavior but are outside this profile family.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-mw-spice-actor-chain-04"/>
+</reference>
