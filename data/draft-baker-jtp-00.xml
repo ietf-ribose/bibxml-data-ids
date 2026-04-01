@@ -1,0 +1,13 @@
+<reference anchor="I-D.baker-jtp" target="https://datatracker.ietf.org/doc/html/draft-baker-jtp-00">
+  <front>
+    <title>Jason Transfer Protocol (JTP)</title>
+    <author fullname="Matthew Baker" initials="M." surname="Baker">
+      <organization>Independent</organization>
+    </author>
+    <date year="2026" month="March" day="31"/>
+    <abstract>
+      <t>This document specifies the Jason Transfer Protocol (JTP), a compact binary protocol for listing and transferring images over a reliable ordered byte stream. JTP is designed to be simple to implement and efficient to parse. Images are addressed by a content-derived 64-bit identifier computed using xxHash64. The protocol supports catalog enumeration, point retrieval by identifier, delta synchronization, and connection reuse via a keep-alive mechanism. Transport security may be provided by TLS with an ALPN protocol identifier of "jtp/1". This document specifies the on-wire format of JTP version 1. It does not specify any particular implementation.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-baker-jtp-00"/>
+</reference>
