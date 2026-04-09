@@ -1,0 +1,13 @@
+<reference anchor="I-D.jovancevic-saip" target="https://datatracker.ietf.org/doc/html/draft-jovancevic-saip-01">
+  <front>
+    <title>SAIP: Signed Agent Identity Protocol</title>
+    <author fullname="Srecko Jovancevic" initials="S." surname="Jovancevic">
+      <organization/>
+    </author>
+    <date year="2026" month="April" day="9"/>
+    <abstract>
+      <t>The modern internet lacks a reliable mechanism for verifying the identity of automated software agents. Existing methods such as User-Agent strings and IP-based attribution are insufficient due to spoofing, shared infrastructure (NAT), and the rapid growth of automated agents including AI crawlers, IoT devices, and enterprise automation systems. This document specifies SAIP (Signed Agent Identity Protocol), a lightweight, opt-in mechanism for verifiable client identity at the application layer. SAIP enables servers to distinguish legitimate automated traffic from malicious actors through cryptographic identity at three levels of granularity: vendor, agent type, and individual instance. SAIP is protocol-agnostic and applicable to HTTP, SMTP, and other header-based protocols. The design rationale, extended use cases, and implementation guidance are documented in [GENESIS].</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-jovancevic-saip-01"/>
+</reference>
