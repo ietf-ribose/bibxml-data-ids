@@ -1,0 +1,16 @@
+<reference anchor="I-D.mondal-llm-serving-workload-profiles" target="https://datatracker.ietf.org/doc/html/draft-mondal-llm-serving-workload-profiles-00">
+  <front>
+    <title>Benchmarking Workload Profiles for Large Language Model Serving</title>
+    <author fullname="Mohadeb Mondal" initials="M." surname="Mondal">
+      <organization>Independent</organization>
+    </author>
+    <author fullname="Madhava Gaikwad" initials="M." surname="Gaikwad">
+      <organization>Independent</organization>
+    </author>
+    <date year="2026" month="April" day="9"/>
+    <abstract>
+      <t>This document defines standard workload profiles for benchmarking Large Language Model (LLM) inference serving systems. Each profile represents one class of production workload. A profile is defined by its input and output token distribution, output structure, latency sensitivity, concurrency pattern, and caching behavior. Profiles are organized into six groups: Non-Generative, Minimal Output, Interactive Streaming, Prefill-Heavy Generative, Decode-Heavy Generative, and Multi-Step Chained. This document works with "Benchmarking Methodology for Large Language Model Serving" [LLM-METHOD]. It specifies the workloads that the methodology's tests SHOULD be run against.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-mondal-llm-serving-workload-profiles-00"/>
+</reference>
