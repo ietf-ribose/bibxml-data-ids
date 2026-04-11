@@ -1,0 +1,13 @@
+<reference anchor="I-D.sharif-apki-agent-pki" target="https://datatracker.ietf.org/doc/html/draft-sharif-apki-agent-pki-00">
+  <front>
+    <title>Agent Public Key Infrastructure (APKI): Certificate-Based Identity and Trust for Autonomous AI Agents</title>
+    <author fullname="Raza Sharif" initials="R." surname="Sharif">
+      <organization>CyberSecAI Ltd</organization>
+    </author>
+    <date year="2026" month="April" day="10"/>
+    <abstract>
+      <t>Autonomous artificial intelligence (AI) agents are increasingly performing actions on the Internet that require verifiable identity: financial transactions, regulated data access, tool invocations, and inter-agent coordination. Traditional Public Key Infrastructure (PKI) based on X.509 certificates was designed for human-operated clients and long-lived servers. It lacks primitives for graduated trust scoring, capability constraints, delegation chains, model provenance, and the ephemeral lifecycles characteristic of AI agents. This document defines Agent Public Key Infrastructure (APKI), a certificate-based identity and trust system for autonomous AI agents. APKI extends X.509v3 with five agent-specific extensions, defines the agent:// URI scheme for agent identification, specifies Agent Transparency Logs modelled on Certificate Transparency (RFC 9162), and provides mechanisms for cross-organizational trust federation. APKI is designed to be compatible with existing PKI deployments, SPIFFE workload identity, and the IETF WIMSE working group's specifications.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-sharif-apki-agent-pki-00"/>
+</reference>
