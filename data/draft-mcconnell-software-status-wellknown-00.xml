@@ -1,0 +1,13 @@
+<reference anchor="I-D.mcconnell-software-status-wellknown" target="https://datatracker.ietf.org/doc/html/draft-mcconnell-software-status-wellknown-00">
+  <front>
+    <title>A Well-Known URI for Software Lifecycle Status</title>
+    <author fullname="jim mcconnell" initials="J." surname="mcconnell">
+      <organization>Ask McConnell</organization>
+    </author>
+    <date year="2026" month="April" day="14"/>
+    <abstract>
+      <t>This document defines a Well-Known URI [RFC8615] at which software vendors and open-source maintainers may publish machine-readable lifecycle status information for their products. A JSON resource retrieved from /.well-known/software-status.json allows consumers — including security tools, software composition analysis (SCA) platforms, vulnerability scanners, and system administrators — to programmatically determine whether a specific version of a software product is actively supported, in long-term support (LTS), under security-only maintenance, or at end-of-life (EOL). This document also describes, in Appendix A (#appendix-a), a companion convention for open-source projects hosted on version- control platforms to publish equivalent information within the repository at.github/software-status.json.</t>
+    </abstract>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-mcconnell-software-status-wellknown-00"/>
+</reference>
