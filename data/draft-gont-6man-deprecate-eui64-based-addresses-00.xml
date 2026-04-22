@@ -1,22 +1,33 @@
 <reference anchor="I-D.gont-6man-deprecate-eui64-based-addresses" target="https://datatracker.ietf.org/doc/html/draft-gont-6man-deprecate-eui64-based-addresses-00">
   <front>
     <title>Deprecating EUI-64 Based IPv6 Addresses</title>
-    <author fullname="Fernando Gont" initials="F." surname="Gont">
-      <organization/>
-    </author>
-    <author fullname="Alissa Cooper" initials="A." surname="Cooper">
+    <seriesInfo name="Internet-Draft" value="draft-gont-6man-deprecate-eui64-based-addresses-00"/>
+    <author initials="F." surname="Gont" fullname="Fernando Gont"/>
+    <author initials="A." surname="Cooper" fullname="Alissa Cooper">
       <organization>CDT</organization>
     </author>
-    <author fullname="Dave Thaler" initials="D." surname="Thaler">
+    <author initials="D." surname="Thaler" fullname="Dave Thaler">
       <organization>Microsoft</organization>
     </author>
-    <author fullname="Will (Shucheng) LIU" initials="W. S." surname="LIU">
+    <author initials="W. S." surname="LIU" fullname="Will (Shucheng) LIU">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2013" month="October" day="21"/>
+    <date day="21" month="October" year="2013"></date>
     <abstract>
-      <t>Stateless Address Autoconfiguration (SLAAC) for IPv6 typically results in hosts configuring one or more stable addresses composed of a network prefix advertised by a local router, and an Interface Identifier that typically embeds a hardware address (e.g., an IEEE LAN MAC address). The security and privacy implications of embedding hardware addresses in the Interface Identifier have been known and understood for some time now, and some popular IPv6 implementations have already deviated from such scheme to mitigate these issues. This document deprecates the use of hardware addresses in IPv6 Interface Identifiers, and recommends the use of an alternative scheme ([I-D.ietf-6man-stable-privacy-addresses]) for the generation of IPv6 stable addresses.</t>
+      <t>   Stateless Address Autoconfiguration (SLAAC) for IPv6 typically
+   results in hosts configuring one or more stable addresses composed of
+   a network prefix advertised by a local router, and an Interface
+   Identifier that typically embeds a hardware address (e.g., an IEEE
+   LAN MAC address).  The security and privacy implications of embedding
+   hardware addresses in the Interface Identifier have been known and
+   understood for some time now, and some popular IPv6 implementations
+   have already deviated from such scheme to mitigate these issues.
+   This document deprecates the use of hardware addresses in IPv6
+   Interface Identifiers, and recommends the use of an alternative
+   scheme ([I-D.ietf-6man-stable-privacy-addresses]) for the generation
+   of IPv6 stable addresses.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-gont-6man-deprecate-eui64-based-addresses-00"/>
 </reference>

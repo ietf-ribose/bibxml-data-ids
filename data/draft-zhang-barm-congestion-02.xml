@@ -1,16 +1,28 @@
 <reference anchor="I-D.zhang-barm-congestion" target="https://datatracker.ietf.org/doc/html/draft-zhang-barm-congestion-02">
   <front>
     <title>Binomial Congestion Control At Receivers for Multicast (BARM)</title>
-    <author fullname="Bing Zhang" initials="B." surname="Zhang">
+    <seriesInfo name="Internet-Draft" value="draft-zhang-barm-congestion-02"/>
+    <author initials="B." surname="Zhang" fullname="Bing Zhang">
       <organization>Xidian Univ.</organization>
     </author>
-    <author fullname="Zengji Liu" initials="Z." surname="Liu">
+    <author initials="Z." surname="Liu" fullname="Zengji Liu">
       <organization>Xidian Univ.</organization>
     </author>
-    <date year="2006" month="January" day="24"/>
+    <date day="24" month="January" year="2006"></date>
     <abstract>
-      <t>This document specifies Binomial congestion control At Receivers for Multicast (BARM). BARM is a single rate multicast congestion control protocol for streaming media applications in the best effort Internet environment. Combining aspects of window-based and rate-based congestion control, the protocol shifts most of the congestion control mechanisms to multicast receivers. A congestion window is maintained and updated by each receiver independently according to TCP-friendly binomial algorithm, and is converted to the expected sending rate which is then fed back to the sender if permitted. To suppress feedback implosion, a representative receiver is selected among receivers and a distributed suppression mechanism is used. BARM has good TCP-friendliness, smoothness, scalability, and acceptable responsiveness.</t>
+      <t>This document specifies Binomial congestion control At Receivers for
+Multicast (BARM). BARM is a single rate multicast congestion control
+protocol for streaming media applications in the best effort Internet
+environment. Combining aspects of window-based and rate-based congestion
+control, the protocol shifts most of the congestion control mechanisms
+to multicast receivers. A congestion window is maintained and updated
+by each receiver independently according to TCP-friendly binomial
+algorithm, and is converted to the expected sending rate which is then
+fed back to the sender if permitted. To suppress feedback implosion, a
+representative receiver is selected among receivers and a distributed
+suppression mechanism is used. BARM has good TCP-friendliness,
+smoothness, scalability, and acceptable responsiveness.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-zhang-barm-congestion-02"/>
 </reference>

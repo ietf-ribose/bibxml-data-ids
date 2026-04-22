@@ -1,16 +1,17 @@
 <reference anchor="I-D.ietf-avt-rtp-midi-format" target="https://datatracker.ietf.org/doc/html/draft-ietf-avt-rtp-midi-format-15">
   <front>
     <title>RTP Payload Format for MIDI</title>
-    <author fullname="John Wawrzynek" initials="J." surname="Wawrzynek">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-avt-rtp-midi-format-15"/>
+    <author initials="J." surname="Wawrzynek" fullname="John Wawrzynek">
       <organization>UC Berkeley</organization>
     </author>
-    <author fullname="John Lazzaro" initials="J." surname="Lazzaro">
+    <author initials="J." surname="Lazzaro" fullname="John Lazzaro">
       <organization>UC Berkeley</organization>
     </author>
-    <date year="2006" month="January" day="25"/>
+    <date day="25" month="January" year="2006"></date>
     <abstract>
-      <t>This memo describes a Real-time Transport Protocol (RTP) payload format for the MIDI (Musical Instrument Digital Interface) command language. The format encodes all commands that may legally appear on a MIDI 1.0 DIN cable. The format is suitable for interactive applications (such as network musical performance) and content-delivery applications (such as file streaming). The format may be used over unicast and multicast UDP and TCP, and it defines tools for graceful recovery from packet loss. Stream behavior, including the MIDI rendering method, may be customized during session setup. The format also serves as a mode for the mpeg4-generic format, to support the MPEG 4 Audio Object Types for General MIDI, Downloadable Sounds Level 2, and Structured Audio. [STANDARDS-TRACK]</t>
+      <t>This memo describes a Real-time Transport Protocol (RTP) payload format for the MIDI (Musical Instrument Digital Interface) command language.  The format encodes all commands that may legally appear on a MIDI 1.0 DIN cable.  The format is suitable for interactive applications (such as network musical performance) and content-delivery applications (such as file streaming).  The format may be used over unicast and multicast UDP and TCP, and it defines tools for graceful recovery from packet loss.  Stream behavior, including the MIDI rendering method, may be customized during session setup.  The format also serves as a mode for the mpeg4-generic format, to support the MPEG 4 Audio Object Types for General MIDI, Downloadable Sounds Level 2, and Structured Audio. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-avt-rtp-midi-format-15"/>
 </reference>

@@ -1,16 +1,29 @@
 <reference anchor="I-D.fielding-http-key" target="https://datatracker.ietf.org/doc/html/draft-fielding-http-key-03">
   <front>
     <title>The Key HTTP Response Header Field</title>
-    <author fullname="Roy T. Fielding" initials="R. T." surname="Fielding">
+    <seriesInfo name="Internet-Draft" value="draft-fielding-http-key-03"/>
+    <author initials="R. T." surname="Fielding" fullname="Roy T. Fielding">
       <organization>Adobe Systems Incorporated</organization>
     </author>
-    <author fullname="Mark Nottingham" initials="M." surname="Nottingham">
-      <organization/>
-    </author>
-    <date year="2015" month="September" day="23"/>
+    <author initials="M." surname="Nottingham" fullname="Mark Nottingham"/>
+    <date day="23" month="September" year="2015"></date>
     <abstract>
-      <t>The 'Key' header field for HTTP responses allows an origin server to describe the secondary cache key ([RFC7234], section 4.1) for a resource, by conveying what is effectively a short algorithm that can be used upon later requests to determine if a stored response is reusable for a given request. Key has the advantage of avoiding an additional round trip for validation whenever a new request differs slightly, but not significantly, from prior requests. Key also informs user agents of the request characteristics that might result in different content, which can be useful if the user agent is not sending request header fields in order to reduce the risk of fingerprinting.</t>
+      <t>   The 'Key' header field for HTTP responses allows an origin server to
+   describe the secondary cache key ([RFC7234], section 4.1) for a
+   resource, by conveying what is effectively a short algorithm that can
+   be used upon later requests to determine if a stored response is
+   reusable for a given request.
+
+   Key has the advantage of avoiding an additional round trip for
+   validation whenever a new request differs slightly, but not
+   significantly, from prior requests.
+
+   Key also informs user agents of the request characteristics that
+   might result in different content, which can be useful if the user
+   agent is not sending request header fields in order to reduce the
+   risk of fingerprinting.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-fielding-http-key-03"/>
 </reference>

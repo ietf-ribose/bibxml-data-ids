@@ -1,25 +1,32 @@
 <reference anchor="I-D.vanderstok-ace-coap-est" target="https://datatracker.ietf.org/doc/html/draft-vanderstok-ace-coap-est-01">
   <front>
     <title>EST over secure CoAP (EST-coaps)</title>
-    <author fullname="Sandeep S. Kumar" initials="S. S." surname="Kumar">
-      <organization/>
-    </author>
-    <author fullname="Peter Van der Stok" initials="P." surname="Van der Stok">
-      <organization/>
-    </author>
-    <author fullname="Panos Kampanakis" initials="P." surname="Kampanakis">
-      <organization/>
-    </author>
-    <author fullname="Martin Furuhed" initials="M." surname="Furuhed">
-      <organization/>
-    </author>
-    <author fullname="Shahid Raza" initials="S." surname="Raza">
-      <organization/>
-    </author>
-    <date year="2017" month="March" day="9"/>
+    <seriesInfo name="Internet-Draft" value="draft-vanderstok-ace-coap-est-01"/>
+    <author initials="S. S." surname="Kumar" fullname="Sandeep S. Kumar"/>
+    <author initials="P." surname="Van der Stok" fullname="Peter Van der Stok"/>
+    <author initials="P." surname="Kampanakis" fullname="Panos Kampanakis"/>
+    <author initials="M." surname="Furuhed" fullname="Martin Furuhed"/>
+    <author initials="S." surname="Raza" fullname="Shahid Raza"/>
+    <date day="09" month="March" year="2017"></date>
     <abstract>
-      <t>Low-resource devices in a Low-power and Lossy Network (LLN) can operate in a mesh network using the IPv6 over Low-power Wireless Personal Area Networks (6LoWPAN) and IEEE 802.15.4 link-layer standards. Provisioning these devices in a secure manner with keys (often called secure bootstrapping) used to encrypt and authenticate messages is the subject of Bootstrapping of Remote Secure Key Infrastructures (BRSKI) [I-D.ietf-anima-bootstrapping-keyinfra] and 6tisch Secure Join [I-D.ietf-6tisch-dtsecurity-secure-join]. Enrollment over Secure Transport (EST) [RFC7030], based on TLS and HTTP, is used in BRSKI. Low-resource devices often use the lightweight Constrained Application Protocol (CoAP) [RFC7252] for message exchanges. This document defines how low-resource devices are expected to use EST over secure CoAP (EST-coaps) for secure bootstrapping and certificate enrollment. 6LoWPAN fragmentation management and minor extensions to CoAP are needed to enable EST- coaps.</t>
+      <t>   Low-resource devices in a Low-power and Lossy Network (LLN) can
+   operate in a mesh network using the IPv6 over Low-power Wireless
+   Personal Area Networks (6LoWPAN) and IEEE 802.15.4 link-layer
+   standards.  Provisioning these devices in a secure manner with keys
+   (often called secure bootstrapping) used to encrypt and authenticate
+   messages is the subject of Bootstrapping of Remote Secure Key
+   Infrastructures (BRSKI) [I-D.ietf-anima-bootstrapping-keyinfra] and
+   6tisch Secure Join [I-D.ietf-6tisch-dtsecurity-secure-join].
+   Enrollment over Secure Transport (EST) [RFC7030], based on TLS and
+   HTTP, is used in BRSKI.  Low-resource devices often use the
+   lightweight Constrained Application Protocol (CoAP) [RFC7252] for
+   message exchanges.  This document defines how low-resource devices
+   are expected to use EST over secure CoAP (EST-coaps) for secure
+   bootstrapping and certificate enrollment. 6LoWPAN fragmentation
+   management and minor extensions to CoAP are needed to enable EST-
+   coaps.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-vanderstok-ace-coap-est-01"/>
 </reference>

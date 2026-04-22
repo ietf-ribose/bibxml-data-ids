@@ -1,25 +1,30 @@
 <reference anchor="I-D.ietf-grow-simple-va" target="https://datatracker.ietf.org/doc/html/draft-ietf-grow-simple-va-12">
   <front>
     <title>Simple Virtual Aggregation (S-VA)</title>
-    <author fullname="Robert Raszuk" initials="R." surname="Raszuk">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-grow-simple-va-12"/>
+    <author initials="R." surname="Raszuk" fullname="Robert Raszuk">
       <organization>NTT MCL</organization>
     </author>
-    <author fullname="Jakob Heitz" initials="J." surname="Heitz">
+    <author initials="J." surname="Heitz" fullname="Jakob Heitz">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Alton Lo" initials="A." surname="Lo">
+    <author initials="A." surname="Lo" fullname="Alton Lo">
       <organization>Arista</organization>
     </author>
-    <author fullname="Lixia Zhang" initials="L." surname="Zhang">
+    <author initials="L." surname="Zhang" fullname="Lixia Zhang">
       <organization>UCLA</organization>
     </author>
-    <author fullname="Xiaohu Xu" initials="X." surname="Xu">
+    <author initials="X." surname="Xu" fullname="Xiaohu Xu">
       <organization>Huawei</organization>
     </author>
-    <date year="2012" month="August" day="16"/>
+    <date day="16" month="August" year="2012"></date>
     <abstract>
-      <t>All BGP routers in the Default-Free Zone (DFZ) are required to carry all routes in the Default-Free Routing Table (DFRT). This document describes a technique, Simple Virtual Aggregation (S-VA), that allows some BGP routers not to install all of those routes into the Forwarding Information Base (FIB). Some routers in an Autonomous System (AS) announce an aggregate (the VA prefix) in addition to the routes they already announce. This enables other routers not to install the routes covered by the VA prefix into the FIB as long as those routes have the same next-hop as the VA prefix. The VA prefixes that are announced within an AS are not announced to any other AS. The described functionality is of very low operational complexity, as it proposes a confined BGP speaker solution without any dependency on network-wide configuration or requirement for any form of intra-domain tunneling. This document is not an Internet Standards Track specification; it is published for informational purposes.</t>
+      <t>All BGP routers in the Default-Free Zone (DFZ) are required to carry all routes in the Default-Free Routing Table (DFRT). This document describes a technique, Simple Virtual Aggregation (S-VA), that allows some BGP routers not to install all of those routes into the Forwarding Information Base (FIB).
+
+ Some routers in an Autonomous System (AS) announce an aggregate (the VA prefix) in addition to the routes they already announce. This enables other routers not to install the routes covered by the VA prefix into the FIB as long as those routes have the same next-hop as the VA prefix.
+
+ The VA prefixes that are announced within an AS are not announced to any other AS. The described functionality is of very low operational complexity, as it proposes a confined BGP speaker solution without any dependency on network-wide configuration or requirement for any form of intra-domain tunneling. This document is not an Internet Standards Track specification; it is published for informational purposes.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-grow-simple-va-12"/>
 </reference>

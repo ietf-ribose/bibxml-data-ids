@@ -1,19 +1,30 @@
 <reference anchor="I-D.cheng-ipfix-packet-selector" target="https://datatracker.ietf.org/doc/html/draft-cheng-ipfix-packet-selector-00">
   <front>
     <title>A Composite IP Packet Selector</title>
-    <author fullname="Hua Wu" initials="H." surname="Wu">
+    <seriesInfo name="Internet-Draft" value="draft-cheng-ipfix-packet-selector-00"/>
+    <author initials="H." surname="Wu" fullname="Hua Wu">
       <organization>Southeast University</organization>
     </author>
-    <author fullname="Jian Gong" initials="J." surname="Gong">
+    <author initials="J." surname="Gong" fullname="Jian Gong">
       <organization>w. Zhang</organization>
     </author>
-    <author fullname="Guang Cheng" initials="G." surname="Cheng">
+    <author initials="G." surname="Cheng" fullname="Guang Cheng">
       <organization>w. Zhang</organization>
     </author>
-    <date year="2011" month="June" day="20"/>
+    <date day="20" month="June" year="2011"></date>
     <abstract>
-      <t>This document specifies a composite IP packet selector in Metering Process of the IP Flow Information Export protocol (IPFIX). The composite selector is realized by combining a sampling selector using systematic or random sampling technique followed by a hash- based filtering selector computing the hash function on 5-tuples information (source/ destination IP address, source/destination port number, port). Taking flow sampling into account in packet selection, the designed composite selector could better solve the short-flow lost problem meeting in simple systematic or random sampling selector.</t>
+      <t>This document specifies a composite IP packet selector in Metering
+Process of the IP Flow Information Export protocol (IPFIX). The
+composite selector is realized by combining a sampling selector
+using systematic or random sampling technique followed by a hash-
+based filtering selector computing the hash function on 5-tuples
+information (source/ destination IP address, source/destination port
+number, port). Taking flow sampling into account in packet selection,
+the designed composite selector could better solve the short-flow
+lost problem meeting in simple systematic or random sampling
+selector.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-cheng-ipfix-packet-selector-00"/>
 </reference>

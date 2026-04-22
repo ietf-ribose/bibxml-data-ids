@@ -2,19 +2,29 @@
   <front>
     <title>An extension to IMAP BODYSTRUCTURE for returning
 Content-Location information</title>
-    <author fullname="Mark Crispin" initials="M." surname="Crispin">
+    <seriesInfo name="Internet-Draft" value="draft-melnikov-imap-content-location-00"/>
+    <author initials="M." surname="Crispin" fullname="Mark Crispin">
       <organization>University of Washington</organization>
     </author>
-    <author fullname="Steve Hole" initials="S." surname="Hole">
+    <author initials="S." surname="Hole" fullname="Steve Hole">
       <organization>ACI WorldWide/MessagingDirect</organization>
     </author>
-    <author fullname="Alexey Melnikov" initials="A." surname="Melnikov">
+    <author initials="A." surname="Melnikov" fullname="Alexey Melnikov">
       <organization>ACI WorldWide/MessagingDirect</organization>
     </author>
-    <date year="2002" month="June" day="5"/>
+    <date day="05" month="June" year="2002"></date>
     <abstract>
-      <t>The [IMAP4] BODYSTRUCTURE FETCH data item allows a client to learn about the MIME structure of a message without the need to download the entire message. This document extends the syntax of the [IMAP4] BODYSTRUCTURE FETCH response data item to include information from the Content-Location header field described in [MHTML]. This extension helps MHTML-aware IMAP clients to save both the number of round trips and the amount of information sent across the network. Fallback strategies are also discussed when an IMAP server doesn't support this extension.</t>
+      <t>The [IMAP4] BODYSTRUCTURE FETCH data item allows a client to learn about
+the MIME structure of a message without the need to download the entire
+message.
+This document extends the syntax of the [IMAP4] BODYSTRUCTURE FETCH
+response data item to include information from the Content-Location
+header field described in [MHTML]. This extension helps MHTML-aware
+IMAP clients to save both the number of round trips and the amount of
+information sent across the network.
+Fallback strategies are also discussed when an IMAP server doesn't
+support this extension.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-melnikov-imap-content-location-00"/>
 </reference>

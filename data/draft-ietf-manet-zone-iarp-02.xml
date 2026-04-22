@@ -1,19 +1,32 @@
 <reference anchor="I-D.ietf-manet-zone-iarp" target="https://datatracker.ietf.org/doc/html/draft-ietf-manet-zone-iarp-02">
   <front>
     <title>The Intrazone Routing Protocol (IARP) for Ad Hoc Networks</title>
-    <author fullname="Zygmunt Haas" initials="Z." surname="Haas">
-      <organization/>
-    </author>
-    <author fullname="Marc R. Pearlman" initials="M. R." surname="Pearlman">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-manet-zone-iarp-02"/>
+    <author initials="Z." surname="Haas" fullname="Zygmunt Haas"/>
+    <author initials="M. R." surname="Pearlman" fullname="Marc R. Pearlman">
       <organization>Cornell University</organization>
     </author>
-    <author fullname="Prince Samar" initials="P." surname="Samar">
+    <author initials="P." surname="Samar" fullname="Prince Samar">
       <organization>    Cornell University</organization>
     </author>
-    <date year="2002" month="July" day="5"/>
+    <date day="05" month="July" year="2002"></date>
     <abstract>
-      <t>This document describes the Intrazone Routing Protocol (IARP), a limited scope proactive routing protocol used to improve the performance of existing globally reactive routing protocols. With each node monitoring changes in its surrounding R-hop neighborhood (routing zone), global route discoveries to local destinations can be avoided. When a global route search is needed, the IARP's routing zones can be used to efficiently guide route queries outwards (via bordercasting) rather than blindly relaying queries from neighbor to neighbor. The proactive maintenance of routing zones also helps improve the quality of discovered routes, by making them more robust to changes in network topology. Once routes have been discovered, IARP's routing zone offers enhanced, real-time, route maintenance. Link failures can be bypassed by multiple hop paths within the routing zone. Similarly, suboptimal route segments can be identified and traffic re-routed along shorter paths.</t>
+      <t>This document describes the Intrazone Routing Protocol (IARP), a
+limited scope proactive routing protocol used to improve the
+performance of existing globally reactive routing protocols.  With
+each node monitoring changes in its surrounding R-hop neighborhood
+(routing zone), global route discoveries to local destinations can be
+avoided.  When a global route search is needed, the IARP's routing
+zones can be used to efficiently guide route queries outwards (via
+bordercasting) rather than blindly relaying queries from neighbor
+to neighbor.  The proactive maintenance of routing zones also helps
+improve the quality of discovered routes, by making them more robust
+to changes in network topology.  Once routes have been discovered,
+IARP's routing zone offers enhanced, real-time, route maintenance.
+Link failures can be bypassed by multiple hop paths within the
+routing zone.  Similarly, suboptimal route segments can be identified
+and traffic re-routed along shorter paths.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-manet-zone-iarp-02"/>
 </reference>

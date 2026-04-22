@@ -1,19 +1,29 @@
 <reference anchor="I-D.fairhurst-udp-options-cco" target="https://datatracker.ietf.org/doc/html/draft-fairhurst-udp-options-cco-00">
   <front>
     <title>Checksum Compensation Options for UDP Options</title>
-    <author fullname="Gorry Fairhurst" initials="G." surname="Fairhurst">
+    <seriesInfo name="Internet-Draft" value="draft-fairhurst-udp-options-cco-00"/>
+    <author initials="G." surname="Fairhurst" fullname="Gorry Fairhurst">
       <organization>University of Aberdeen</organization>
     </author>
-    <author fullname="Tom Jones" initials="T." surname="Jones">
+    <author initials="T." surname="Jones" fullname="Tom Jones">
       <organization>University of Aberdeen</organization>
     </author>
-    <author fullname="Raffaele Zullo" initials="R." surname="Zullo">
+    <author initials="R." surname="Zullo" fullname="Raffaele Zullo">
       <organization>University of Aberdeen</organization>
     </author>
-    <date year="2018" month="October" day="19"/>
+    <date day="19" month="October" year="2018"></date>
     <abstract>
-      <t>This document describes a robust method for calculating checksums for use with UDP Options. The new method proposes an alternative checksum calculation for coverage of the option space. This is based on the IP checksum calculation, but uses an updated pseudoheader. The new method only checks the option portion of a UDP packet, but creates a checksum that compensates for the range of IP and UDP chekcsum validation methods that have been deployed, in this way the new method enhances the proability of NAPT traversal for packets that carry UDP-Options.</t>
+      <t>   This document describes a robust method for calculating checksums for
+   use with UDP Options.  The new method proposes an alternative
+   checksum calculation for coverage of the option space.  This is based
+   on the IP checksum calculation, but uses an updated pseudoheader.
+   The new method only checks the option portion of a UDP packet, but
+   creates a checksum that compensates for the range of IP and UDP
+   chekcsum validation methods that have been deployed, in this way the
+   new method enhances the proability of NAPT traversal for packets that
+   carry UDP-Options.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-fairhurst-udp-options-cco-00"/>
 </reference>

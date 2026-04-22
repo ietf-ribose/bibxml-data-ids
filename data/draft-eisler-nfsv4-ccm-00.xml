@@ -1,13 +1,24 @@
 <reference anchor="I-D.eisler-nfsv4-ccm" target="https://datatracker.ietf.org/doc/html/draft-eisler-nfsv4-ccm-00">
   <front>
     <title>CCM: The Credential Cache GSS Mechanism</title>
-    <author fullname="Mike Eisler" initials="M." surname="Eisler">
+    <seriesInfo name="Internet-Draft" value="draft-eisler-nfsv4-ccm-00"/>
+    <author initials="M." surname="Eisler" fullname="Mike Eisler">
       <organization>Network Appliance</organization>
     </author>
-    <date year="2003" month="February" day="24"/>
+    <date day="24" month="February" year="2003"></date>
     <abstract>
-      <t>This document describes a new mechanism under the GSS [RFC2743]. Some protocols, such as RPCSEC_GSS [RFC2203], use GSS to authenticate every message transfer, thereby incurring significant overhead due to the costs of cryptographic computation. While hardware-based cryptographic accelerators can mitigate such overhead, it is more likely that acceleration will be available for lower layer protocols, such as IPsec [RFC2401] than for upper layer protocols like RPCSEC_GSS. CCM can be used as a way to allow GSS mechanism- independent upper layer protocols to leverage the data stream protections of lower layer protocols, without the inconvenience of modifying the upper layer protocol to do so.</t>
+      <t>This document describes a new mechanism under the GSS [RFC2743].
+Some protocols, such as RPCSEC_GSS [RFC2203], use GSS to authenticate
+every message transfer, thereby incurring significant overhead due to
+the costs of cryptographic computation. While hardware-based
+cryptographic accelerators can mitigate such overhead, it is more
+likely that acceleration will be available for lower layer protocols,
+such as IPsec [RFC2401] than for upper layer protocols like
+RPCSEC_GSS.  CCM can be used as a way to allow GSS mechanism-
+independent upper layer protocols to leverage the data stream
+protections of lower layer protocols, without the inconvenience of
+modifying the upper layer protocol to do so.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-eisler-nfsv4-ccm-00"/>
 </reference>

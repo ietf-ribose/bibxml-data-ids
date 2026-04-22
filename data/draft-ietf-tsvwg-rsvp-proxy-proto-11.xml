@@ -1,25 +1,26 @@
 <reference anchor="I-D.ietf-tsvwg-rsvp-proxy-proto" target="https://datatracker.ietf.org/doc/html/draft-ietf-tsvwg-rsvp-proxy-proto-11">
   <front>
     <title>Resource Reservation Protocol (RSVP) Extensions for Path-Triggered RSVP Receiver Proxy</title>
-    <author fullname="Hemant Malik" initials="H." surname="Malik">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-rsvp-proxy-proto-11"/>
+    <author initials="H." surname="Malik" fullname="Hemant Malik">
       <organization>Airtel</organization>
     </author>
-    <author fullname="Allan Guillou" initials="A." surname="Guillou">
+    <author initials="A." surname="Guillou" fullname="Allan Guillou">
       <organization>SFR</organization>
     </author>
-    <author fullname="Ashok Narayanan" initials="A." surname="Narayanan">
+    <author initials="A." surname="Narayanan" fullname="Ashok Narayanan">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Jukka Manner" initials="J." surname="Manner">
+    <author initials="J." surname="Manner" fullname="Jukka Manner">
       <organization>Aalto University</organization>
     </author>
-    <author fullname="François Le Faucheur" initials="F." surname="Le Faucheur">
+    <author initials="F." surname="Le Faucheur" fullname="François Le Faucheur">
       <organization>Cisco</organization>
     </author>
-    <date year="2010" month="March" day="8"/>
+    <date day="08" month="March" year="2010"></date>
     <abstract>
-      <t>Resource Reservation Protocol (RSVP) signaling can be used to make end-to-end resource reservations in an IP network in order to guarantee the Quality of Service (QoS) required by certain flows. With conventional RSVP, both the data sender and receiver of a given flow take part in RSVP signaling. Yet, there are many use cases where resource reservation is required, but the receiver, the sender, or both, is not RSVP-capable. Where the receiver is not RSVP- capable, an RSVP router may behave as an RSVP Receiver Proxy, thereby performing RSVP signaling on behalf of the receiver. This allows resource reservations to be established on the segment of the end-to- end path from the sender to the RSVP Receiver Proxy. However, as discussed in the companion document "RSVP Proxy Approaches", RSVP extensions are needed to facilitate operations with an RSVP Receiver Proxy whose signaling is triggered by receipt of RSVP Path messages from the sender. This document specifies these extensions. [STANDARDS-TRACK]</t>
+      <t>Resource Reservation Protocol (RSVP) signaling can be used to make end-to-end resource reservations in an IP network in order to guarantee the Quality of Service (QoS) required by certain flows.  With conventional RSVP, both the data sender and receiver of a given flow take part in RSVP signaling.  Yet, there are many use cases where resource reservation is required, but the receiver, the sender, or both, is not RSVP-capable.  Where the receiver is not RSVP- capable, an RSVP router may behave as an RSVP Receiver Proxy, thereby performing RSVP signaling on behalf of the receiver.  This allows resource reservations to be established on the segment of the end-to- end path from the sender to the RSVP Receiver Proxy.  However, as discussed in the companion document "RSVP Proxy Approaches", RSVP extensions are needed to facilitate operations with an RSVP Receiver Proxy whose signaling is triggered by receipt of RSVP Path messages from the sender.  This document specifies these extensions. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-rsvp-proxy-proto-11"/>
 </reference>

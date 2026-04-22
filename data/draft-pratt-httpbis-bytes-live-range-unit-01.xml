@@ -1,19 +1,27 @@
 <reference anchor="I-D.pratt-httpbis-bytes-live-range-unit" target="https://datatracker.ietf.org/doc/html/draft-pratt-httpbis-bytes-live-range-unit-01">
   <front>
     <title>HTTP bytes-live Range Unit for Live Content</title>
-    <author fullname="Craig Pratt" initials="C." surname="Pratt">
+    <seriesInfo name="Internet-Draft" value="draft-pratt-httpbis-bytes-live-range-unit-01"/>
+    <author initials="C." surname="Pratt" fullname="Craig Pratt">
       <organization>CableLabs</organization>
     </author>
-    <author fullname="Barbara Stark" initials="B." surname="Stark">
+    <author initials="B." surname="Stark" fullname="Barbara Stark">
       <organization>AT&amp;T</organization>
     </author>
-    <author fullname="Darshak Thakore" initials="D." surname="Thakore">
+    <author initials="D." surname="Thakore" fullname="Darshak Thakore">
       <organization>CableLabs</organization>
     </author>
-    <date year="2016" month="April" day="18"/>
+    <date day="18" month="April" year="2016"></date>
     <abstract>
-      <t>To accommodate byte range requests for content that has data appended over time, this document defines a new HTTP range unit named "bytes- live". The "bytes-live" range unit provides the ability for a client to specify a byte range in a GET or HEAD request which starts at an arbitrary byte offset within the representation and ends at an indeterminate offset, represented by "*".</t>
+      <t>   To accommodate byte range requests for content that has data appended
+   over time, this document defines a new HTTP range unit named "bytes-
+   live".  The "bytes-live" range unit provides the ability for a client
+   to specify a byte range in a GET or HEAD request which starts at an
+   arbitrary byte offset within the representation and ends at an
+   indeterminate offset, represented by "*".
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-pratt-httpbis-bytes-live-range-unit-01"/>
 </reference>

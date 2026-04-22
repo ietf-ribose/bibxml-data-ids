@@ -1,19 +1,20 @@
 <reference anchor="I-D.ietf-avt-rtp-cnames" target="https://datatracker.ietf.org/doc/html/draft-ietf-avt-rtp-cnames-05">
   <front>
     <title>Guidelines for Choosing RTP Control Protocol (RTCP) Canonical Names (CNAMEs)</title>
-    <author fullname="Colin Perkins" initials="C." surname="Perkins">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-avt-rtp-cnames-05"/>
+    <author initials="C." surname="Perkins" fullname="Colin Perkins">
       <organization>University of Glasgow</organization>
     </author>
-    <author fullname="Ali C. Begen" initials="A. C." surname="Begen">
+    <author initials="A. C." surname="Begen" fullname="Ali C. Begen">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Dan Wing" initials="D." surname="Wing">
+    <author initials="D." surname="Wing" fullname="Dan Wing">
       <organization>Cisco</organization>
     </author>
-    <date year="2011" month="January" day="25"/>
+    <date day="25" month="January" year="2011"></date>
     <abstract>
-      <t>The RTP Control Protocol (RTCP) Canonical Name (CNAME) is a persistent transport-level identifier for an RTP endpoint. While the Synchronization Source (SSRC) identifier of an RTP endpoint may change if a collision is detected or when the RTP application is restarted, its RTCP CNAME is meant to stay unchanged, so that RTP endpoints can be uniquely identified and associated with their RTP media streams. For proper functionality, RTCP CNAMEs should be unique within the participants of an RTP session. However, the existing guidelines for choosing the RTCP CNAME provided in the RTP standard are insufficient to achieve this uniqueness. This memo updates those guidelines to allow endpoints to choose unique RTCP CNAMEs. [STANDARDS-TRACK]</t>
+      <t>The RTP Control Protocol (RTCP) Canonical Name (CNAME) is a persistent transport-level identifier for an RTP endpoint.  While the Synchronization Source (SSRC) identifier of an RTP endpoint may change if a collision is detected or when the RTP application is restarted, its RTCP CNAME is meant to stay unchanged, so that RTP endpoints can be uniquely identified and associated with their RTP media streams.  For proper functionality, RTCP CNAMEs should be unique within the participants of an RTP session.  However, the existing guidelines for choosing the RTCP CNAME provided in the RTP standard are insufficient to achieve this uniqueness.  This memo updates those guidelines to allow endpoints to choose unique RTCP CNAMEs. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-avt-rtp-cnames-05"/>
 </reference>

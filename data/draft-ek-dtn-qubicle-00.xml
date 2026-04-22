@@ -1,16 +1,23 @@
 <reference anchor="I-D.ek-dtn-qubicle" target="https://datatracker.ietf.org/doc/html/draft-ek-dtn-qubicle-00">
   <front>
     <title>DTN QUIC Bundle Protocol Convergence Layer (qubicle)</title>
-    <author fullname="Rick Taylor" initials="R." surname="Taylor">
+    <seriesInfo name="Internet-Draft" value="draft-ek-dtn-qubicle-00"/>
+    <author initials="R." surname="Taylor" fullname="Rick Taylor">
       <organization>Aalyria Technologies</organization>
     </author>
-    <author fullname="Erik Kline" initials="E." surname="Kline">
+    <author initials="E." surname="Kline" fullname="Erik Kline">
       <organization>Aalyria Technologies</organization>
     </author>
-    <date year="2026" month="March" day="15"/>
+    <date day="15" month="March" year="2026"></date>
     <abstract>
-      <t>This document specifies a minimal convergence layer protocol for transferring Bundle Protocol version 7 (BPv7) bundles over QUIC. The protocol leverages QUIC's native capabilities for reliable streaming, connection management, and security, requiring no application-layer framing for reliable transfers. Unreliable transfers use the Bundle Transfer Protocol - Unidirectional (BTP-U) over QUIC datagrams.</t>
+      <t>   This document specifies a minimal convergence layer protocol for
+   transferring Bundle Protocol version 7 (BPv7) bundles over QUIC.  The
+   protocol leverages QUIC's native capabilities for reliable streaming,
+   connection management, and security, requiring no application-layer
+   framing for reliable transfers.  Unreliable transfers use the Bundle
+   Transfer Protocol - Unidirectional (BTP-U) over QUIC datagrams.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ek-dtn-qubicle-00"/>
 </reference>

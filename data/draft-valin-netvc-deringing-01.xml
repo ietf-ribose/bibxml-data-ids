@@ -1,13 +1,22 @@
 <reference anchor="I-D.valin-netvc-deringing" target="https://datatracker.ietf.org/doc/html/draft-valin-netvc-deringing-01">
   <front>
     <title>Directional Deringing Filter</title>
-    <author fullname="Jean-Marc Valin" initials="J." surname="Valin">
+    <seriesInfo name="Internet-Draft" value="draft-valin-netvc-deringing-01"/>
+    <author initials="J." surname="Valin" fullname="Jean-Marc Valin">
       <organization>Mozilla</organization>
     </author>
-    <date year="2016" month="March" day="21"/>
+    <date day="21" month="March" year="2016"></date>
     <abstract>
-      <t>This document describes a deringing filter that takes into account the direction of edges and patterns being filtered. The filter works by identifying the direction of each block and then adaptively filtering along the identified direction. In a second pass, the blocks are also filtered in a different direction, with more conservative thresholds to avoid blurring edges. The proposed deringing filter is shown to improve the quality of both Daala and the Alliance for Open Media (AOM) video codec.</t>
+      <t>   This document describes a deringing filter that takes into account
+   the direction of edges and patterns being filtered.  The filter works
+   by identifying the direction of each block and then adaptively
+   filtering along the identified direction.  In a second pass, the
+   blocks are also filtered in a different direction, with more
+   conservative thresholds to avoid blurring edges.  The proposed
+   deringing filter is shown to improve the quality of both Daala and
+   the Alliance for Open Media (AOM) video codec.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-valin-netvc-deringing-01"/>
 </reference>

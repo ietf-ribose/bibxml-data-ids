@@ -1,22 +1,30 @@
 <reference anchor="I-D.westerlund-masque-transport-issues" target="https://datatracker.ietf.org/doc/html/draft-westerlund-masque-transport-issues-02">
   <front>
     <title>Transport Considerations for IP and UDP Proxying in MASQUE</title>
-    <author fullname="Magnus Westerlund" initials="M." surname="Westerlund">
+    <seriesInfo name="Internet-Draft" value="draft-westerlund-masque-transport-issues-02"/>
+    <author initials="M." surname="Westerlund" fullname="Magnus Westerlund">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Marcus Ihlar" initials="M." surname="Ihlar">
+    <author initials="M." surname="Ihlar" fullname="Marcus Ihlar">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Zaheduzzaman Sarker" initials="Z." surname="Sarker">
+    <author initials="Z." surname="Sarker" fullname="Zaheduzzaman Sarker">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Mirja Kühlewind" initials="M." surname="Kühlewind">
+    <author initials="M." surname="Kühlewind" fullname="Mirja Kühlewind">
       <organization>Ericsson</organization>
     </author>
-    <date year="2021" month="July" day="12"/>
+    <date day="12" month="July" year="2021"></date>
     <abstract>
-      <t>The HTTP Connect method uses back-to-back TCP connections to and from a proxy. Such a solution takes care of many transport aspects as well as IP Flow related concerns. With UDP and IP proxying on the other hand, there are several per-packet and per-flow aspects that need consideration to preserve the properties of end- to-end IP/UDP flows. The aim of this document is to highlight and provide solutions for these issues related to UDP and IP proxying.</t>
+      <t>   The HTTP Connect method uses back-to-back TCP connections to and from
+   a proxy.  Such a solution takes care of many transport aspects as
+   well as IP Flow related concerns.  With UDP and IP proxying on the
+   other hand, there are several per-packet and per-flow aspects that
+   need consideration to preserve the properties of end- to-end IP/UDP
+   flows.  The aim of this document is to highlight and provide
+   solutions for these issues related to UDP and IP proxying.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-westerlund-masque-transport-issues-02"/>
 </reference>

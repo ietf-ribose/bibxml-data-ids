@@ -1,25 +1,34 @@
 <reference anchor="I-D.fu-cats-flow-lb" target="https://datatracker.ietf.org/doc/html/draft-fu-cats-flow-lb-02">
   <front>
     <title>Flow-Level Load Balancing of Computing-Aware Traffic Steering (CATS)</title>
-    <author fullname="Huakai.Fu" initials="" surname="Huakai.Fu">
+    <seriesInfo name="Internet-Draft" value="draft-fu-cats-flow-lb-02"/>
+    <author surname="Huakai.Fu" fullname="Huakai.Fu">
       <organization>ZTE Corporation</organization>
     </author>
-    <author fullname="Daniel Huang" initials="D." surname="Huang">
+    <author initials="D." surname="Huang" fullname="Daniel Huang">
       <organization>ZTE Corporation</organization>
     </author>
-    <author fullname="Liwei Ma" initials="L." surname="Ma">
+    <author initials="L." surname="Ma" fullname="Liwei Ma">
       <organization>ZTE Corporation</organization>
     </author>
-    <author fullname="Wei Duan" initials="W." surname="Duan">
+    <author initials="W." surname="Duan" fullname="Wei Duan">
       <organization>ZTE Corporation</organization>
     </author>
-    <author fullname="Bin Tan" initials="B." surname="Tan">
+    <author initials="B." surname="Tan" fullname="Bin Tan">
       <organization>ZTE Corporation</organization>
     </author>
-    <date year="2025" month="August" day="19"/>
+    <date day="19" month="August" year="2025"></date>
     <abstract>
-      <t>This document proposes a flow-level load balancing solution for CATS, and is designed to effectively manage CS-ID traffic by addressing issues like frequent control plane operations and uneven use of computing resources. The approach entails concurrently identifying multiple next-hop choices, factoring in both network pathways and service instances. Traffic is then distributed among these service instances using flow-based load balancing, which relies on the five- tuple characteristics of packets.</t>
+      <t>   This document proposes a flow-level load balancing solution for CATS,
+   and is designed to effectively manage CS-ID traffic by addressing
+   issues like frequent control plane operations and uneven use of
+   computing resources.  The approach entails concurrently identifying
+   multiple next-hop choices, factoring in both network pathways and
+   service instances.  Traffic is then distributed among these service
+   instances using flow-based load balancing, which relies on the five-
+   tuple characteristics of packets.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-fu-cats-flow-lb-02"/>
 </reference>

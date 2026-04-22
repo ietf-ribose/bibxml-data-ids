@@ -1,25 +1,28 @@
 <reference anchor="I-D.atlas-icmp-unnumbered" target="https://datatracker.ietf.org/doc/html/draft-atlas-icmp-unnumbered-09">
   <front>
     <title>Extending ICMP for Interface and Next-Hop Identification</title>
-    <author fullname="Alia Atlas" initials="A." surname="Atlas">
+    <seriesInfo name="Internet-Draft" value="draft-atlas-icmp-unnumbered-09"/>
+    <author initials="A." surname="Atlas" fullname="Alia Atlas">
       <organization>BT</organization>
     </author>
-    <author fullname="JR. Rivers" initials="J." surname="Rivers">
+    <author initials="J." surname="Rivers" fullname="JR. Rivers">
       <organization>Consultant</organization>
     </author>
-    <author fullname="Naiming Shen" initials="N." surname="Shen">
+    <author initials="N." surname="Shen" fullname="Naiming Shen">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Ron Bonica" initials="R." surname="Bonica">
+    <author initials="R." surname="Bonica" fullname="Ron Bonica">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Carlos Pignataro" initials="C." surname="Pignataro">
+    <author initials="C." surname="Pignataro" fullname="Carlos Pignataro">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2010" month="January" day="6"/>
+    <date day="06" month="January" year="2010"></date>
     <abstract>
-      <t>This memo defines a data structure that can be appended to selected ICMP messages. The ICMP extension defined herein can be used to identify any combination of the following: the IP interface upon which a datagram arrived, the sub-IP component of an IP interface upon which a datagram arrived, the IP interface through which the datagram would have been forwarded had it been forwardable, and the IP next hop to which the datagram would have been forwarded. Devices can use this ICMP extension to identify interfaces and their components by any combination of the following: ifIndex, IPv4 address, IPv6 address, name, and MTU. ICMP-aware devices can use these extensions to identify both numbered and unnumbered interfaces. [STANDARDS-TRACK]</t>
+      <t>This memo defines a data structure that can be appended to selected ICMP messages. The ICMP extension defined herein can be used to identify any combination of the following: the IP interface upon which a datagram arrived, the sub-IP component of an IP interface upon which a datagram arrived, the IP interface through which the datagram would have been forwarded had it been forwardable, and the IP next hop to which the datagram would have been forwarded.
+
+ Devices can use this ICMP extension to identify interfaces and their components by any combination of the following: ifIndex, IPv4 address, IPv6 address, name, and MTU. ICMP-aware devices can use these extensions to identify both numbered and unnumbered interfaces. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-atlas-icmp-unnumbered-09"/>
 </reference>

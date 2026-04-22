@@ -1,22 +1,33 @@
 <reference anchor="I-D.ietf-kitten-krb-spake-preauth" target="https://datatracker.ietf.org/doc/html/draft-ietf-kitten-krb-spake-preauth-01">
   <front>
     <title>SPAKE Pre-Authentication</title>
-    <author fullname="Nathaniel McCallum" initials="N." surname="McCallum">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-kitten-krb-spake-preauth-01"/>
+    <author initials="N." surname="McCallum" fullname="Nathaniel McCallum">
       <organization>Red Hat, Inc.</organization>
     </author>
-    <author fullname="Simo Sorce" initials="S." surname="Sorce">
+    <author initials="S." surname="Sorce" fullname="Simo Sorce">
       <organization>Red Hat, Inc.</organization>
     </author>
-    <author fullname="Robbie Harwood" initials="R." surname="Harwood">
+    <author initials="R." surname="Harwood" fullname="Robbie Harwood">
       <organization>Red Hat, Inc.</organization>
     </author>
-    <author fullname="Greg Hudson" initials="G." surname="Hudson">
+    <author initials="G." surname="Hudson" fullname="Greg Hudson">
       <organization>MIT</organization>
     </author>
-    <date year="2017" month="September" day="15"/>
+    <date day="15" month="September" year="2017"></date>
     <abstract>
-      <t>This document defines a new pre-authentication mechanism for the Kerberos protocol that uses a password authenticated key exchange. This document has three goals. First, increase the security of Kerberos pre-authentication exchanges by making offline brute-force attacks infeasible. Second, enable the use of second factor authentication without relying on FAST. This is achieved using the existing trust relationship established by the shared first factor. Third, make Kerberos pre-authentication more resilient against time synchronization errors by removing the need to transfer an encrypted timestamp from the client.</t>
+      <t>   This document defines a new pre-authentication mechanism for the
+   Kerberos protocol that uses a password authenticated key exchange.
+   This document has three goals.  First, increase the security of
+   Kerberos pre-authentication exchanges by making offline brute-force
+   attacks infeasible.  Second, enable the use of second factor
+   authentication without relying on FAST.  This is achieved using the
+   existing trust relationship established by the shared first factor.
+   Third, make Kerberos pre-authentication more resilient against time
+   synchronization errors by removing the need to transfer an encrypted
+   timestamp from the client.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-kitten-krb-spake-preauth-01"/>
 </reference>

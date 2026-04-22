@@ -1,22 +1,37 @@
 <reference anchor="I-D.ietf-suit-architecture" target="https://datatracker.ietf.org/doc/html/draft-ietf-suit-architecture-03">
   <front>
     <title>A Firmware Update Architecture for Internet of Things Devices</title>
-    <author fullname="Brendan Moran" initials="B." surname="Moran">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-suit-architecture-03"/>
+    <author initials="B." surname="Moran" fullname="Brendan Moran">
       <organization>Arm Limited</organization>
     </author>
-    <author fullname="Milosch Meriac" initials="M." surname="Meriac">
+    <author initials="M." surname="Meriac" fullname="Milosch Meriac">
       <organization>Consultant</organization>
     </author>
-    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+    <author initials="H." surname="Tschofenig" fullname="Hannes Tschofenig">
       <organization>Arm Limited</organization>
     </author>
-    <author fullname="David Brown" initials="D." surname="Brown">
+    <author initials="D." surname="Brown" fullname="David Brown">
       <organization>Linaro</organization>
     </author>
-    <date year="2019" month="March" day="11"/>
+    <date day="11" month="March" year="2019"></date>
     <abstract>
-      <t>Vulnerabilities with Internet of Things (IoT) devices have raised the need for a solid and secure firmware update mechanism that is also suitable for constrained devices. Incorporating such update mechanism to fix vulnerabilities, to update configuration settings as well as adding new functionality is recommended by security experts. This document lists requirements and describes an architecture for a firmware update mechanism suitable for IoT devices. The architecture is agnostic to the transport of the firmware images and associated meta-data. This version of the document assumes asymmetric cryptography and a public key infrastructure. Future versions may also describe a symmetric key approach for very constrained devices.</t>
+      <t>   Vulnerabilities with Internet of Things (IoT) devices have raised the
+   need for a solid and secure firmware update mechanism that is also
+   suitable for constrained devices.  Incorporating such update
+   mechanism to fix vulnerabilities, to update configuration settings as
+   well as adding new functionality is recommended by security experts.
+
+   This document lists requirements and describes an architecture for a
+   firmware update mechanism suitable for IoT devices.  The architecture
+   is agnostic to the transport of the firmware images and associated
+   meta-data.
+
+   This version of the document assumes asymmetric cryptography and a
+   public key infrastructure.  Future versions may also describe a
+   symmetric key approach for very constrained devices.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-suit-architecture-03"/>
 </reference>

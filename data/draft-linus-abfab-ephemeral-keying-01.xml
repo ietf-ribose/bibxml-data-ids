@@ -1,16 +1,26 @@
 <reference anchor="I-D.linus-abfab-ephemeral-keying" target="https://datatracker.ietf.org/doc/html/draft-linus-abfab-ephemeral-keying-01">
   <front>
     <title>Ephemeral keying for ABFAB</title>
-    <author fullname="Linus Nordberg" initials="L." surname="Nordberg">
+    <seriesInfo name="Internet-Draft" value="draft-linus-abfab-ephemeral-keying-01"/>
+    <author initials="L." surname="Nordberg" fullname="Linus Nordberg">
       <organization>NORDUnet</organization>
     </author>
-    <author fullname="Josh Howlett" initials="J." surname="Howlett">
+    <author initials="J." surname="Howlett" fullname="Josh Howlett">
       <organization>JANET(UK)</organization>
     </author>
-    <date year="2014" month="March" day="6"/>
+    <date day="06" month="March" year="2014"></date>
     <abstract>
-      <t>This document describes how EAP-GSS provides forward secrecy by encrypting each session in an ephemeral key generated in the initial state of the context establishment. This Diffie-Hellman key is shared by the initiator (EAP peer) and acceptor (EAP authenticator). The goal is to stop a passive attacker with access to the traffic between an ABFAB user and the service she uses (Relying Party), from getting access to key material and information linkable to the user or from being able to fingerprint the user.</t>
+      <t>   This document describes how EAP-GSS provides forward secrecy by
+   encrypting each session in an ephemeral key generated in the initial
+   state of the context establishment.  This Diffie-Hellman key is
+   shared by the initiator (EAP peer) and acceptor (EAP authenticator).
+
+   The goal is to stop a passive attacker with access to the traffic
+   between an ABFAB user and the service she uses (Relying Party), from
+   getting access to key material and information linkable to the user
+   or from being able to fingerprint the user.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-linus-abfab-ephemeral-keying-01"/>
 </reference>

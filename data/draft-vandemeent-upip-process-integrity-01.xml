@@ -1,16 +1,35 @@
 <reference anchor="I-D.vandemeent-upip-process-integrity" target="https://datatracker.ietf.org/doc/html/draft-vandemeent-upip-process-integrity-01">
   <front>
     <title>UPIP: Universal Process Integrity Protocol with Fork Tokens for Multi-Actor Continuation</title>
-    <author fullname="Jasper van de Meent" initials="J." surname="van de Meent">
+    <seriesInfo name="Internet-Draft" value="draft-vandemeent-upip-process-integrity-01"/>
+    <author initials="J." surname="van de Meent" fullname="Jasper van de Meent">
       <organization>Humotica</organization>
     </author>
-    <author fullname="Root AI" initials="R." surname="AI">
+    <author initials="R." surname="AI" fullname="Root AI">
       <organization>Humotica</organization>
     </author>
-    <date year="2026" month="March" day="29"/>
+    <date day="29" month="March" year="2026"></date>
     <abstract>
-      <t>This document defines UPIP (Universal Process Integrity Protocol), a five-layer protocol for capturing, verifying, and reproducing computational processes across machines, actors, and trust domains. UPIP defines a cryptographic hash chain over five layers: STATE (input), DEPS (dependencies), PROCESS (execution), RESULT (output), and VERIFY (cross- machine proof). The stack hash chains these layers, ensuring that modification of any component is detectable. This document also defines Fork Tokens, a continuation mechanism for multi-actor process handoff. Fork tokens freeze the UPIP stack at a specific point and transfer it to another actor with cryptographic chain of custody. The receiving actor can verify what was handed off, validate capabilities, and continue the process with full provenance. UPIP integrates with TIBET [TIBET] for provenance tokens, JIS [JIS] for actor identity, and is transport-agnostic with JSON as the baseline serialization.</t>
+      <t>   This document defines UPIP (Universal Process Integrity Protocol), a
+   five-layer protocol for capturing, verifying, and reproducing
+   computational processes across machines, actors, and trust domains.
+   UPIP defines a cryptographic hash chain over five layers: STATE
+   (input), DEPS (dependencies), PROCESS (execution), RESULT (output),
+   and VERIFY (cross- machine proof).  The stack hash chains these
+   layers, ensuring that modification of any component is detectable.
+
+   This document also defines Fork Tokens, a continuation mechanism for
+   multi-actor process handoff.  Fork tokens freeze the UPIP stack at a
+   specific point and transfer it to another actor with cryptographic
+   chain of custody.  The receiving actor can verify what was handed
+   off, validate capabilities, and continue the process with full
+   provenance.
+
+   UPIP integrates with TIBET [TIBET] for provenance tokens, JIS [JIS]
+   for actor identity, and is transport-agnostic with JSON as the
+   baseline serialization.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-vandemeent-upip-process-integrity-01"/>
 </reference>

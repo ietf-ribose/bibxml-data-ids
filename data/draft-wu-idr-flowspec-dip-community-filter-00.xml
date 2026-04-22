@@ -1,22 +1,31 @@
 <reference anchor="I-D.wu-idr-flowspec-dip-community-filter" target="https://datatracker.ietf.org/doc/html/draft-wu-idr-flowspec-dip-community-filter-00">
   <front>
     <title>Destination-IP-Community Filter for BGP Flow Specification</title>
-    <author fullname="Tianhao Wu" initials="T." surname="Wu">
+    <seriesInfo name="Internet-Draft" value="draft-wu-idr-flowspec-dip-community-filter-00"/>
+    <author initials="T." surname="Wu" fullname="Tianhao Wu">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Jun Ge" initials="J." surname="Ge">
+    <author initials="J." surname="Ge" fullname="Jun Ge">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Xiangfeng Ding" initials="X." surname="Ding">
+    <author initials="X." surname="Ding" fullname="Xiangfeng Ding">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Haibo Wang" initials="H." surname="Wang">
+    <author initials="H." surname="Wang" fullname="Haibo Wang">
       <organization>Huawei</organization>
     </author>
-    <date year="2024" month="February" day="29"/>
+    <date day="29" month="February" year="2024"></date>
     <abstract>
-      <t>BGP Flowspec mechanism (BGP-FS) propagates both traffic Flow Specifications and Traffic Filtering Actions by making use of the BGP NLRI and the BGP Extended Community encoding formats. This document specifies a new BGP-FS component type to support community-level filtering. The match field is the community of the destination IP address that is encoded in the Flowspec NLRI. This function is applied in a single administrative domain.</t>
+      <t>   BGP Flowspec mechanism (BGP-FS) propagates both traffic Flow
+   Specifications and Traffic Filtering Actions by making use of the BGP
+   NLRI and the BGP Extended Community encoding formats.  This document
+   specifies a new BGP-FS component type to support community-level
+   filtering.  The match field is the community of the destination IP
+   address that is encoded in the Flowspec NLRI.  This function is
+   applied in a single administrative domain.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wu-idr-flowspec-dip-community-filter-00"/>
 </reference>

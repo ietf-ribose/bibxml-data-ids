@@ -1,22 +1,27 @@
 <reference anchor="I-D.hu-trill-pseudonode-nickname" target="https://datatracker.ietf.org/doc/html/draft-hu-trill-pseudonode-nickname-02">
   <front>
     <title>RBridge: Pseudo-Nickname</title>
-    <author fullname="Hongjun Zhai" initials="H." surname="Zhai">
-      <organization/>
-    </author>
-    <author fullname="fangwei hu" initials="F." surname="hu">
-      <organization/>
-    </author>
-    <author fullname="Radia Perlman" initials="R." surname="Perlman">
-      <organization/>
-    </author>
-    <author fullname="Donald E. Eastlake 3rd" initials="D. E." surname="Eastlake">
-      <organization/>
-    </author>
-    <date year="2012" month="May" day="15"/>
+    <seriesInfo name="Internet-Draft" value="draft-hu-trill-pseudonode-nickname-02"/>
+    <author initials="H." surname="Zhai" fullname="Hongjun Zhai"/>
+    <author initials="F." surname="hu" fullname="fangwei hu"/>
+    <author initials="R." surname="Perlman" fullname="Radia Perlman"/>
+    <author initials="D. E." surname="Eastlake" fullname="Donald E. Eastlake 3rd"/>
+    <date day="15" month="May" year="2012"></date>
     <abstract>
-      <t>At the edg of TRILL campus, some RBridges provide end-station services to their attached end stations, these RBridges are called edge RBridges. To avoid potential frame duplication or loops in TRILL campus, only one edge RBridge is permitted to provide end- station services in a VLAN x at all times for its attached end stations. However, in some application scenarios, for example in Link Aggregation Group (LAG), more than one edge RBridge is required to provide end-station services to an end stations even in a VLAN, which causes the flip-flopping of the egress RBridge nickname for such an end node in remote RBridges' forwarding tables if nothing to do. In this document, the concept of Virtual RBridge, along with its pseudo-nickname, is introduced to fix the above problem.</t>
+      <t>   At the edg of TRILL campus, some RBridges provide end-station
+   services to their attached end stations, these RBridges are called
+   edge RBridges.  To avoid potential frame duplication or loops in
+   TRILL campus, only one edge RBridge is permitted to provide end-
+   station services in a VLAN x at all times for its attached end
+   stations.  However, in some application scenarios, for example in
+   Link Aggregation Group (LAG), more than one edge RBridge is required
+   to provide end-station services to an end stations even in a VLAN,
+   which causes the flip-flopping of the egress RBridge nickname for
+   such an end node in remote RBridges' forwarding tables if nothing to
+   do.  In this document, the concept of Virtual RBridge, along with its
+   pseudo-nickname, is introduced to fix the above problem.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hu-trill-pseudonode-nickname-02"/>
 </reference>

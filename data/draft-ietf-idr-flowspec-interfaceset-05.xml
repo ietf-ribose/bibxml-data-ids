@@ -1,25 +1,46 @@
 <reference anchor="I-D.ietf-idr-flowspec-interfaceset" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-flowspec-interfaceset-05">
   <front>
     <title>Applying BGP flowspec rules on a specific interface set</title>
-    <author fullname="Stephane Litkowski" initials="S." surname="Litkowski">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-flowspec-interfaceset-05"/>
+    <author initials="S." surname="Litkowski" fullname="Stephane Litkowski">
       <organization>Individual</organization>
     </author>
-    <author fullname="Adam Simpson" initials="A." surname="Simpson">
+    <author initials="A." surname="Simpson" fullname="Adam Simpson">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
+    <author initials="K." surname="Patel" fullname="Keyur Patel">
       <organization>Arrcus, Inc</organization>
     </author>
-    <author fullname="Jeffrey Haas" initials="J." surname="Haas">
+    <author initials="J." surname="Haas" fullname="Jeffrey Haas">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Lucy Yong" initials="L." surname="Yong">
+    <author initials="L." surname="Yong" fullname="Lucy Yong">
       <organization>Huawei</organization>
     </author>
-    <date year="2019" month="November" day="18"/>
+    <date day="18" month="November" year="2019"></date>
     <abstract>
-      <t>The BGP Flow Specification (flowspec) Network Layer Reachability Information (BGP NLRI) extension (draft-ietf-idr-rfc5575bis) is used to distribute traffic flow specifications into BGP. The primary application of this extension is the distribution of traffic filtering policies for the mitigation of distributed denial of service (DDoS) attacks. By default, flow specification filters are applied on all forwarding interfaces that are enabled for use by the BGP flowspec extension. A network operator may wish to apply a given filter selectively to a subset of interfaces based on an internal classification scheme. Examples of this include "all customer interfaces", "all peer interfaces", "all transit interfaces", etc. This document defines BGP Extended Communities (RFC4360) that allow such filters to be selectively applied to sets of forwarding interfaces sharing a common group identifier. The BGP Extended Communities carrying this group identifier are referred to as the BGP Flowspec "interface-set" Extended Communities.</t>
+      <t>   The BGP Flow Specification (flowspec) Network Layer Reachability
+   Information (BGP NLRI) extension (draft-ietf-idr-rfc5575bis) is used
+   to distribute traffic flow specifications into BGP.  The primary
+   application of this extension is the distribution of traffic
+   filtering policies for the mitigation of distributed denial of
+   service (DDoS) attacks.
+
+   By default, flow specification filters are applied on all forwarding
+   interfaces that are enabled for use by the BGP flowspec extension.  A
+   network operator may wish to apply a given filter selectively to a
+   subset of interfaces based on an internal classification scheme.
+   Examples of this include "all customer interfaces", "all peer
+   interfaces", "all transit interfaces", etc.
+
+   This document defines BGP Extended Communities (RFC4360) that allow
+   such filters to be selectively applied to sets of forwarding
+   interfaces sharing a common group identifier.  The BGP Extended
+   Communities carrying this group identifier are referred to as the BGP
+   Flowspec "interface-set" Extended Communities.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-flowspec-interfaceset-05"/>
 </reference>

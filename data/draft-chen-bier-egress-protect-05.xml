@@ -1,43 +1,56 @@
 <reference anchor="I-D.chen-bier-egress-protect" target="https://datatracker.ietf.org/doc/html/draft-chen-bier-egress-protect-05">
   <front>
     <title>BIER Egress Protection</title>
-    <author fullname="Huaimo Chen" initials="H." surname="Chen">
+    <seriesInfo name="Internet-Draft" value="draft-chen-bier-egress-protect-05"/>
+    <author initials="H." surname="Chen" fullname="Huaimo Chen">
       <organization>Futurewei</organization>
     </author>
-    <author fullname="Mike McBride" initials="M." surname="McBride">
+    <author initials="M." surname="McBride" fullname="Mike McBride">
       <organization>Futurewei</organization>
     </author>
-    <author fullname="Aijun Wang" initials="A." surname="Wang">
+    <author initials="A." surname="Wang" fullname="Aijun Wang">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Gyan Mishra" initials="G. S." surname="Mishra">
+    <author initials="G. S." surname="Mishra" fullname="Gyan Mishra">
       <organization>Verizon Inc.</organization>
     </author>
-    <author fullname="Yisong Liu" initials="Y." surname="Liu">
+    <author initials="Y." surname="Liu" fullname="Yisong Liu">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Michael Menth" initials="M." surname="Menth">
+    <author initials="M." surname="Menth" fullname="Michael Menth">
       <organization>University of Tuebingen</organization>
     </author>
-    <author fullname="Boris Khasanov" initials="B." surname="Khasanov">
+    <author initials="B." surname="Khasanov" fullname="Boris Khasanov">
       <organization>Yandex LLC</organization>
     </author>
-    <author fullname="Xuesong Geng" initials="X." surname="Geng">
+    <author initials="X." surname="Geng" fullname="Xuesong Geng">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Yanhe Fan" initials="Y." surname="Fan">
+    <author initials="Y." surname="Fan" fullname="Yanhe Fan">
       <organization>Casa Systems</organization>
     </author>
-    <author fullname="Lei Liu" initials="L." surname="Liu">
+    <author initials="L." surname="Liu" fullname="Lei Liu">
       <organization>Fujitsu</organization>
     </author>
-    <author fullname="Xufeng Liu" initials="X." surname="Liu">
+    <author initials="X." surname="Liu" fullname="Xufeng Liu">
       <organization>Volta Networks</organization>
     </author>
-    <date year="2023" month="June" day="25"/>
+    <date day="25" month="June" year="2023"></date>
     <abstract>
-      <t>This document describes a mechanism for fast protection against the failure of an egress node of a "Bit Index Explicit Replication" (BIER) domain. It is called BIER egress protection. It does not require any per-flow state in the core of the domain. With BIER egress protection the failure of a primary BFER (Bit Forwarding Egress Router) is protected with a backup BFER such that traffic destined to the primary BFER in the BIER domain is fast rerouted by a neighbor BFR to the backup BFER on the BIER layer. The mechanism is applicable if all BIER traffic sent to the primary BFER can reach its destination also via the backup BFER. It is complementary to BIER- FRR which cannot protect against the failure of a BFER.</t>
+      <t>   This document describes a mechanism for fast protection against the
+   failure of an egress node of a "Bit Index Explicit Replication"
+   (BIER) domain.  It is called BIER egress protection.  It does not
+   require any per-flow state in the core of the domain.  With BIER
+   egress protection the failure of a primary BFER (Bit Forwarding
+   Egress Router) is protected with a backup BFER such that traffic
+   destined to the primary BFER in the BIER domain is fast rerouted by a
+   neighbor BFR to the backup BFER on the BIER layer.  The mechanism is
+   applicable if all BIER traffic sent to the primary BFER can reach its
+   destination also via the backup BFER.  It is complementary to BIER-
+   FRR which cannot protect against the failure of a BFER.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-chen-bier-egress-protect-05"/>
 </reference>

@@ -1,28 +1,48 @@
 <reference anchor="I-D.bittau-tcp-crypt" target="https://datatracker.ietf.org/doc/html/draft-bittau-tcp-crypt-04">
   <front>
     <title>Cryptographic protection of TCP Streams (tcpcrypt)</title>
-    <author fullname="Andrea Bittau" initials="A." surname="Bittau">
+    <seriesInfo name="Internet-Draft" value="draft-bittau-tcp-crypt-04"/>
+    <author initials="A." surname="Bittau" fullname="Andrea Bittau">
       <organization>Stanford University</organization>
     </author>
-    <author fullname="Dan Boneh" initials="D." surname="Boneh">
+    <author initials="D." surname="Boneh" fullname="Dan Boneh">
       <organization>Stanford University</organization>
     </author>
-    <author fullname="Mike Hamburg" initials="M." surname="Hamburg">
+    <author initials="M." surname="Hamburg" fullname="Mike Hamburg">
       <organization>Stanford University</organization>
     </author>
-    <author fullname="Mark J. Handley" initials="M. J." surname="Handley">
+    <author initials="M. J." surname="Handley" fullname="Mark J. Handley">
       <organization>University College London</organization>
     </author>
-    <author fullname="David Mazieres" initials="D." surname="Mazieres">
+    <author initials="D." surname="Mazieres" fullname="David Mazieres">
       <organization>Stanford University</organization>
     </author>
-    <author fullname="Quinn Slack" initials="Q." surname="Slack">
+    <author initials="Q." surname="Slack" fullname="Quinn Slack">
       <organization>Stanford University</organization>
     </author>
-    <date year="2014" month="February" day="14"/>
+    <date day="14" month="February" year="2014"></date>
     <abstract>
-      <t>This document presents tcpcrypt, a TCP extension for cryptographically protecting TCP segments. Tcpcrypt maintains the confidentiality of data transmitted in TCP segments against a passive eavesdropper. It protects connections against denial-of-service attacks involving desynchronizing of sequence numbers, and when enabled, against forged RST segments. Finally, applications that perform authentication can obtain end-to-end confidentiality and integrity guarantees by tying authentication to tcpcrypt Session ID values. The extension defines two new TCP options, CRYPT and MAC, which are designed to provide compatible interworking with TCPs that do not implement tcpcrypt. The CRYPT option allows hosts to negotiate the use of tcpcrypt and establish shared secret encryption keys. The MAC option carries a message authentication code with which hosts can verify the integrity of transmitted TCP segments. Tcpcrypt is designed to require relatively low overhead, particularly at servers, so as to be useful even in the case of servers accepting many TCP connections per second.</t>
+      <t>   This document presents tcpcrypt, a TCP extension for
+   cryptographically protecting TCP segments.  Tcpcrypt maintains the
+   confidentiality of data transmitted in TCP segments against a passive
+   eavesdropper.  It protects connections against denial-of-service
+   attacks involving desynchronizing of sequence numbers, and when
+   enabled, against forged RST segments.  Finally, applications that
+   perform authentication can obtain end-to-end confidentiality and
+   integrity guarantees by tying authentication to tcpcrypt Session ID
+   values.
+
+   The extension defines two new TCP options, CRYPT and MAC, which are
+   designed to provide compatible interworking with TCPs that do not
+   implement tcpcrypt.  The CRYPT option allows hosts to negotiate the
+   use of tcpcrypt and establish shared secret encryption keys.  The MAC
+   option carries a message authentication code with which hosts can
+   verify the integrity of transmitted TCP segments.  Tcpcrypt is
+   designed to require relatively low overhead, particularly at servers,
+   so as to be useful even in the case of servers accepting many TCP
+   connections per second.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-bittau-tcp-crypt-04"/>
 </reference>

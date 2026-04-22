@@ -1,16 +1,34 @@
 <reference anchor="I-D.kucherawy-dmarc-base" target="https://datatracker.ietf.org/doc/html/draft-kucherawy-dmarc-base-07">
   <front>
     <title>Domain-based Message Authentication, Reporting and Conformance (DMARC)</title>
-    <author fullname="Murray Kucherawy" initials="M." surname="Kucherawy">
-      <organization/>
-    </author>
-    <author fullname="Elizabeth Zwicky" initials="E." surname="Zwicky">
-      <organization/>
-    </author>
-    <date year="2014" month="November" day="14"/>
+    <seriesInfo name="Internet-Draft" value="draft-kucherawy-dmarc-base-07"/>
+    <author initials="M." surname="Kucherawy" fullname="Murray Kucherawy"/>
+    <author initials="E." surname="Zwicky" fullname="Elizabeth Zwicky"/>
+    <date day="14" month="November" year="2014"></date>
     <abstract>
-      <t>Domain-based Message Authentication, Reporting and Conformance (DMARC) is a scalable mechanism by which a mail-originating organization can express domain-level policies and preferences for message validation, disposition, and reporting, and a mail receiving organization can use those policies and preferences to improve mail handling. Originators of Internet Mail need to be able to associate reliable and authenticated domain identifiers with messages, communicate policies about messages that use those identifiers, and report about mail using those identifiers. These abilities have several benefits: Receivers can provide feedback to domain owners about the use of their domains, which can provide valuable insight about the management of internal operations and the presence of external domain name abuse. DMARC does not produce or encourage elevated delivery privilege of authenticated email. DMARC is a mechanism for policy distribution that enables increasingly strict handling of messages that fail authentication checks, ranging from no action, through altered delivery, up to message rejection.</t>
+      <t>   Domain-based Message Authentication, Reporting and Conformance
+   (DMARC) is a scalable mechanism by which a mail-originating
+   organization can express domain-level policies and preferences for
+   message validation, disposition, and reporting, and a mail receiving
+   organization can use those policies and preferences to improve mail
+   handling.
+
+   Originators of Internet Mail need to be able to associate reliable
+   and authenticated domain identifiers with messages, communicate
+   policies about messages that use those identifiers, and report about
+   mail using those identifiers.  These abilities have several benefits:
+   Receivers can provide feedback to domain owners about the use of
+   their domains, which can provide valuable insight about the
+   management of internal operations and the presence of external domain
+   name abuse.
+
+   DMARC does not produce or encourage elevated delivery privilege of
+   authenticated email.  DMARC is a mechanism for policy distribution
+   that enables increasingly strict handling of messages that fail
+   authentication checks, ranging from no action, through altered
+   delivery, up to message rejection.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kucherawy-dmarc-base-07"/>
 </reference>

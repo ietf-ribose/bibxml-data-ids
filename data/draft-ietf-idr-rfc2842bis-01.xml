@@ -1,16 +1,25 @@
 <reference anchor="I-D.ietf-idr-rfc2842bis" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-rfc2842bis-01">
   <front>
     <title>Capabilities Advertisement with BGP-4</title>
-    <author fullname="John Scudder" initials="J." surname="Scudder">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-rfc2842bis-01"/>
+    <author initials="J." surname="Scudder" fullname="John Scudder">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Ravi Chandra" initials="R." surname="Chandra">
+    <author initials="R." surname="Chandra" fullname="Ravi Chandra">
       <organization>Redback Networks</organization>
     </author>
-    <date year="2002" month="April" day="17"/>
+    <date day="17" month="April" year="2002"></date>
     <abstract>
-      <t>Currently BGP-4 requires that when a BGP speaker receives an OPEN message with one or more unrecognized Optional Parameters, the speaker must terminate BGP peering. This complicates introduction of new capabilities in BGP. This document defines new Optional Parameter, called Capabilities, that is expected to facilitate introduction of new capabilities in BGP by providing graceful capability advertisement without requiring that BGP peering be terminated. This document obsoletes RFC2842.</t>
+      <t>Currently BGP-4 requires that when a BGP speaker receives an OPEN
+message with one or more unrecognized Optional Parameters, the
+speaker must terminate BGP peering. This complicates introduction of
+new capabilities in BGP.
+This document defines new Optional Parameter, called Capabilities,
+that is expected to facilitate introduction of new capabilities in
+BGP by providing graceful capability advertisement without requiring
+that BGP peering be terminated.
+This document obsoletes RFC2842.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-rfc2842bis-01"/>
 </reference>

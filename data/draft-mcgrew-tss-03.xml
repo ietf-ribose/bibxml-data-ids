@@ -1,19 +1,30 @@
 <reference anchor="I-D.mcgrew-tss" target="https://datatracker.ietf.org/doc/html/draft-mcgrew-tss-03">
   <front>
     <title>Threshold Secret Sharing</title>
-    <author fullname="David McGrew" initials="D." surname="McGrew">
+    <seriesInfo name="Internet-Draft" value="draft-mcgrew-tss-03"/>
+    <author initials="D." surname="McGrew" fullname="David McGrew">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Praveen Patnala" initials="P." surname="Patnala">
+    <author initials="P." surname="Patnala" fullname="Praveen Patnala">
       <organization>Consultant</organization>
     </author>
-    <author fullname="Alfred Hoenes" initials="A." surname="Hoenes">
+    <author initials="A." surname="Hoenes" fullname="Alfred Hoenes">
       <organization>TR-Sys</organization>
     </author>
-    <date year="2010" month="March" day="3"/>
+    <date day="03" month="March" year="2010"></date>
     <abstract>
-      <t>Threshold Secret Sharing (TSS) provides a way to generate N shares from a value, so that any M of those shares can be used to reconstruct the original value, but any M-1 shares provide no information about that value. This method can provide shared access control on key material and other secrets that must be strongly protected. This note defines a threshold secret sharing method based on polynomial interpolation in GF(256) and a format for the storage and transmission of shares. It also provides usage guidance, describes how to test an implementation, and supplies test cases.</t>
+      <t>Threshold Secret Sharing (TSS) provides a way to generate N shares
+from a value, so that any M of those shares can be used to
+reconstruct the original value, but any M-1 shares provide no
+information about that value.  This method can provide shared access
+control on key material and other secrets that must be strongly
+protected.
+
+This note defines a threshold secret sharing method based on
+polynomial interpolation in GF(256) and a format for the storage and
+transmission of shares.  It also provides usage guidance, describes
+how to test an implementation, and supplies test cases.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mcgrew-tss-03"/>
 </reference>

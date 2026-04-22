@@ -1,22 +1,23 @@
 <reference anchor="I-D.ietf-avt-rtp-svc" target="https://datatracker.ietf.org/doc/html/draft-ietf-avt-rtp-svc-27">
   <front>
     <title>RTP Payload Format for Scalable Video Coding</title>
-    <author fullname="Thomas Schierl" initials="T." surname="Schierl">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-avt-rtp-svc-27"/>
+    <author initials="T." surname="Schierl" fullname="Thomas Schierl">
       <organization>Fraunhofer HHI</organization>
     </author>
-    <author fullname="Alex Eleftheriadis" initials="A." surname="Eleftheriadis">
+    <author initials="A." surname="Eleftheriadis" fullname="Alex Eleftheriadis">
       <organization>Vidyo</organization>
     </author>
-    <author fullname="Stephan Wenger" initials="S." surname="Wenger">
+    <author initials="S." surname="Wenger" fullname="Stephan Wenger">
       <organization>Independent</organization>
     </author>
-    <author fullname="Ye-Kui Wang" initials="Y." surname="Wang">
+    <author initials="Y." surname="Wang" fullname="Ye-Kui Wang">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2011" month="February" day="1"/>
+    <date day="01" month="February" year="2011"></date>
     <abstract>
-      <t>This memo describes an RTP payload format for Scalable Video Coding (SVC) as defined in Annex G of ITU-T Recommendation H.264, which is technically identical to Amendment 3 of ISO/IEC International Standard 14496-10. The RTP payload format allows for packetization of one or more Network Abstraction Layer (NAL) units in each RTP packet payload, as well as fragmentation of a NAL unit in multiple RTP packets. Furthermore, it supports transmission of an SVC stream over a single as well as multiple RTP sessions. The payload format defines a new media subtype name "H264-SVC", but is still backward compatible to RFC 6184 since the base layer, when encapsulated in its own RTP stream, must use the H.264 media subtype name ("H264") and the packetization method specified in RFC 6184. The payload format has wide applicability in videoconferencing, Internet video streaming, and high-bitrate entertainment-quality video, among others. [STANDARDS-TRACK]</t>
+      <t>This memo describes an RTP payload format for Scalable Video Coding (SVC) as defined in Annex G of ITU-T Recommendation H.264, which is technically identical to Amendment 3 of ISO/IEC International Standard 14496-10.  The RTP payload format allows for packetization of one or more Network Abstraction Layer (NAL) units in each RTP packet payload, as well as fragmentation of a NAL unit in multiple RTP packets.  Furthermore, it supports transmission of an SVC stream over a single as well as multiple RTP sessions.  The payload format defines a new media subtype name "H264-SVC", but is still backward compatible to RFC 6184 since the base layer, when encapsulated in its own RTP stream, must use the H.264 media subtype name ("H264") and the packetization method specified in RFC 6184.  The payload format has wide applicability in videoconferencing, Internet video streaming, and high-bitrate entertainment-quality video, among others. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-avt-rtp-svc-27"/>
 </reference>

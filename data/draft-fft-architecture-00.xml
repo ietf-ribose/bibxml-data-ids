@@ -1,25 +1,39 @@
 <reference anchor="I-D.fft-architecture" target="https://datatracker.ietf.org/doc/html/draft-fft-architecture-00">
   <front>
     <title>Fast Fault Tolerance Architecture for Programmable Datacenter Networks</title>
-    <author fullname="Dan Li" initials="D." surname="Li">
+    <seriesInfo name="Internet-Draft" value="draft-fft-architecture-00"/>
+    <author initials="D." surname="Li" fullname="Dan Li">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Kaihui Gao" initials="K." surname="Gao">
+    <author initials="K." surname="Gao" fullname="Kaihui Gao">
       <organization>Zhongguancun Laboratory</organization>
     </author>
-    <author fullname="Shuai Wang" initials="S." surname="Wang">
+    <author initials="S." surname="Wang" fullname="Shuai Wang">
       <organization>Zhongguancun Laboratory</organization>
     </author>
-    <author fullname="Li Chen" initials="L." surname="Chen">
+    <author initials="L." surname="Chen" fullname="Li Chen">
       <organization>Zhongguancun Laboratory</organization>
     </author>
-    <author fullname="Xuesong Geng" initials="X." surname="Geng">
+    <author initials="X." surname="Geng" fullname="Xuesong Geng">
       <organization>Huawei</organization>
     </author>
-    <date year="2024" month="October" day="21"/>
+    <date day="21" month="October" year="2024"></date>
     <abstract>
-      <t>This document introduces a fast rerouting architecture for enhancing network resilience through rapid failure detection and swift traffic rerouting within the programmable data plane, leveraging in-band network telemetry and source routing. Unlike traditional methods that rely on the control plane and face significant delays in traffic rerouting, the proposed architecture utilizes a white-box modeling of the data plane to distinguish and analyze packet losses accurately, enabling immediate identification for link failures (including black- hole and gray failures). By utilizing real-time telemetry and SR- based rerouting, the proposed solution significantly reduces rerouting times to a few milliseconds, offering a substantial improvement over existing practices and marking a pivotal advancement in fault tolerance of datacenter networks.</t>
+      <t>   This document introduces a fast rerouting architecture for enhancing
+   network resilience through rapid failure detection and swift traffic
+   rerouting within the programmable data plane, leveraging in-band
+   network telemetry and source routing.  Unlike traditional methods
+   that rely on the control plane and face significant delays in traffic
+   rerouting, the proposed architecture utilizes a white-box modeling of
+   the data plane to distinguish and analyze packet losses accurately,
+   enabling immediate identification for link failures (including black-
+   hole and gray failures).  By utilizing real-time telemetry and SR-
+   based rerouting, the proposed solution significantly reduces
+   rerouting times to a few milliseconds, offering a substantial
+   improvement over existing practices and marking a pivotal advancement
+   in fault tolerance of datacenter networks.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-fft-architecture-00"/>
 </reference>

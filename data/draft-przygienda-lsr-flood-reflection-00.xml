@@ -1,25 +1,35 @@
 <reference anchor="I-D.przygienda-lsr-flood-reflection" target="https://datatracker.ietf.org/doc/html/draft-przygienda-lsr-flood-reflection-00">
   <front>
     <title>Flood Reflectors</title>
-    <author fullname="Tony Przygienda" initials="T." surname="Przygienda">
+    <seriesInfo name="Internet-Draft" value="draft-przygienda-lsr-flood-reflection-00"/>
+    <author initials="T." surname="Przygienda" fullname="Tony Przygienda">
       <organization>Juniper</organization>
     </author>
-    <author fullname="Chris Bowers" initials="C." surname="Bowers">
+    <author initials="C." surname="Bowers" fullname="Chris Bowers">
       <organization>Juniper</organization>
     </author>
-    <author fullname="Yiu Lee" initials="Y." surname="Lee">
+    <author initials="Y." surname="Lee" fullname="Yiu Lee">
       <organization>Comcast</organization>
     </author>
-    <author fullname="Alankar Sharma" initials="A." surname="Sharma">
+    <author initials="A." surname="Sharma" fullname="Alankar Sharma">
       <organization>Comcast</organization>
     </author>
-    <author fullname="Russ White" initials="R." surname="White">
+    <author initials="R." surname="White" fullname="Russ White">
       <organization>Juniper</organization>
     </author>
-    <date year="2019" month="November" day="3"/>
+    <date day="03" month="November" year="2019"></date>
     <abstract>
-      <t>This document provides specification of an optional ISIS extension that allows to create l2 flood reflector topologies allowing forwarding through all paths within L1 areas when they are used as 'transit' to guarantee L2 connectivity between L2 'islands'. Only routers participating in the flood reflection have to be upgraded and with that the feature allows to significantly increase practical size of ISIS L2 backbone without forklifting the whole domain or complex configuration requirements.</t>
+      <t>   This document provides specification of an optional ISIS extension
+   that allows to create l2 flood reflector topologies allowing
+   forwarding through all paths within L1 areas when they are used as
+   'transit' to guarantee L2 connectivity between L2 'islands'.  Only
+   routers participating in the flood reflection have to be upgraded and
+   with that the feature allows to significantly increase practical size
+   of ISIS L2 backbone without forklifting the whole domain or complex
+   configuration requirements.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-przygienda-lsr-flood-reflection-00"/>
 </reference>

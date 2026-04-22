@@ -1,31 +1,53 @@
 <reference anchor="I-D.clt-dmm-tn-aware-mobility" target="https://datatracker.ietf.org/doc/html/draft-clt-dmm-tn-aware-mobility-06">
   <front>
     <title>Transport Network aware Mobility for 5G</title>
-    <author fullname="Uma Chunduri" initials="U." surname="Chunduri">
+    <seriesInfo name="Internet-Draft" value="draft-clt-dmm-tn-aware-mobility-06"/>
+    <author initials="U." surname="Chunduri" fullname="Uma Chunduri">
       <organization>Futurewei</organization>
     </author>
-    <author fullname="Richard Li" initials="R." surname="Li">
+    <author initials="R." surname="Li" fullname="Richard Li">
       <organization>Futurewei</organization>
     </author>
-    <author fullname="Sridhar Bhaskaran" initials="S." surname="Bhaskaran">
+    <author initials="S." surname="Bhaskaran" fullname="Sridhar Bhaskaran">
       <organization>Altiostar</organization>
     </author>
-    <author fullname="John Kaippallimalil" initials="J." surname="Kaippallimalil">
+    <author initials="J." surname="Kaippallimalil" fullname="John Kaippallimalil">
       <organization>Futurewei</organization>
     </author>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+    <author initials="J." surname="Tantsura" fullname="Jeff Tantsura">
       <organization>Apstra, Inc.</organization>
     </author>
-    <author fullname="Luis M. Contreras" initials="L. M." surname="Contreras">
+    <author initials="L. M." surname="Contreras" fullname="Luis M. Contreras">
       <organization>Telefonica</organization>
     </author>
-    <author fullname="Praveen Muley" initials="P." surname="Muley">
+    <author initials="P." surname="Muley" fullname="Praveen Muley">
       <organization>Nokia</organization>
     </author>
-    <date year="2020" month="March" day="9"/>
+    <date day="09" month="March" year="2020"></date>
     <abstract>
-      <t>This document specifies a framework and mapping from slices in 5G mobile systems to transport slices in IP and Layer 2 transport networks. Slices in 5G systems are characterized by latency bounds, reservation guarantees, jitter, data rates, availability, mobility speed, usage density, criticality and priority should be mapped to transport slice characteristics that include bandwidth, latency and criteria such as isolation, directionality and disjoint routes. Mobile slice criteria need to be mapped to the appropriate transport slice and capabilities offered in backhaul, midhaul and fronthaul connectivity segments between radio side network functions and user plane function (gateway). This document describes how mobile network functions map its slice criteria to identifiers in IP packets that transport segments use to grant transport layer services. This is based on mapping between mobile and IP transport underlays (IPv6, MPLS, IPv4, Segment Routing). Applicability of this framework and a new transport network underlay routing mechanism, Preferred Path Routing (PPR), which brings slice properties and works with any underlying transport (L2, IPv4, SR and MPLS) is also discussed.</t>
+      <t>   This document specifies a framework and mapping from slices in 5G
+   mobile systems to transport slices in IP and Layer 2 transport
+   networks.  Slices in 5G systems are characterized by latency bounds,
+   reservation guarantees, jitter, data rates, availability, mobility
+   speed, usage density, criticality and priority should be mapped to
+   transport slice characteristics that include bandwidth, latency and
+   criteria such as isolation, directionality and disjoint routes.
+   Mobile slice criteria need to be mapped to the appropriate transport
+   slice and capabilities offered in backhaul, midhaul and fronthaul
+   connectivity segments between radio side network functions and user
+   plane function (gateway).
+
+   This document describes how mobile network functions map its slice
+   criteria to identifiers in IP packets that transport segments use to
+   grant transport layer services.  This is based on mapping between
+   mobile and IP transport underlays (IPv6, MPLS, IPv4, Segment
+   Routing).  Applicability of this framework and a new transport
+   network underlay routing mechanism, Preferred Path Routing (PPR),
+   which brings slice properties and works with any underlying transport
+   (L2, IPv4, SR and MPLS) is also discussed.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-clt-dmm-tn-aware-mobility-06"/>
 </reference>

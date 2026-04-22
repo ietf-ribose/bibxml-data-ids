@@ -1,25 +1,31 @@
 <reference anchor="I-D.ietf-acme-dns-account-challenge" target="https://datatracker.ietf.org/doc/html/draft-ietf-acme-dns-account-challenge-00">
   <front>
     <title>Automated Certificate Management Environment (ACME) DNS Labeled With ACME Account ID Challenge</title>
-    <author fullname="Antonios Chariton" initials="A." surname="Chariton">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-acme-dns-account-challenge-00"/>
+    <author initials="A." surname="Chariton" fullname="Antonios Chariton">
       <organization>Independent Contributor</organization>
     </author>
-    <author fullname="Amir Omidi" initials="A." surname="Omidi">
+    <author initials="A." surname="Omidi" fullname="Amir Omidi">
       <organization>Google</organization>
     </author>
-    <author fullname="James Kasten" initials="J." surname="Kasten">
+    <author initials="J." surname="Kasten" fullname="James Kasten">
       <organization>Google</organization>
     </author>
-    <author fullname="Fotis Loukos" initials="F." surname="Loukos">
+    <author initials="F." surname="Loukos" fullname="Fotis Loukos">
       <organization>Google</organization>
     </author>
-    <author fullname="Stanislaw A. Janikowski" initials="S. A." surname="Janikowski">
+    <author initials="S. A." surname="Janikowski" fullname="Stanislaw A. Janikowski">
       <organization>Google</organization>
     </author>
-    <date year="2023" month="July" day="11"/>
+    <date day="11" month="July" year="2023"></date>
     <abstract>
-      <t>This document outlines a new challenge for the ACME protocol, enabling an ACME client to answer a domain control validation challenge from an ACME server using a DNS resource linked to the ACME Account ID. This allows multiple systems or environments to handle challenge-solving for a single domain.</t>
+      <t>   This document outlines a new challenge for the ACME protocol,
+   enabling an ACME client to answer a domain control validation
+   challenge from an ACME server using a DNS resource linked to the ACME
+   Account ID.  This allows multiple systems or environments to handle
+   challenge-solving for a single domain.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-acme-dns-account-challenge-00"/>
 </reference>

@@ -1,16 +1,25 @@
 <reference anchor="I-D.woundy-dhcpleasequery" target="https://datatracker.ietf.org/doc/html/draft-woundy-dhcpleasequery-04">
   <front>
     <title>DHCP Lease Query</title>
-    <author fullname="Richard Woundy" initials="R." surname="Woundy">
-      <organization/>
-    </author>
-    <author fullname="Kenneth E. Kinnear Jr." initials="K. E." surname="Kinnear">
-      <organization/>
-    </author>
-    <date year="2000" month="March" day="16"/>
+    <seriesInfo name="Internet-Draft" value="draft-woundy-dhcpleasequery-04"/>
+    <author initials="R." surname="Woundy" fullname="Richard Woundy"/>
+    <author initials="K. E." surname="Kinnear" fullname="Kenneth E. Kinnear Jr."/>
+    <date day="16" month="March" year="2000"></date>
     <abstract>
-      <t>Access concentrators that act as DHCP relay agents need to determine the endpoint locations of IP addresses across public broadband access networks such as cable, DSL, and wireless networks. Because ARP broadcasts are undesirable in public networks, many access concentrator implementations 'glean' location information from DHCP messages forwarded by its relay agent function. Unfortunately, the typical access concentrator loses its gleaned information when the access concentrator is rebooted or is replaced. This memo proposes that when gleaned DHCP information is not available, the access concentrator/relay agent obtains the location information directly from the DHCP server(s) using a new, lightweight DHCPLEASEQUERY message.</t>
+      <t>Access concentrators that act as DHCP relay agents need to determine
+the endpoint locations of IP addresses across public broadband access
+networks such as cable, DSL, and wireless networks. Because ARP
+broadcasts are undesirable in public networks, many access
+concentrator implementations 'glean' location information from DHCP
+messages forwarded by its relay agent function. Unfortunately, the
+typical access concentrator loses its gleaned information when the
+access concentrator is rebooted or is replaced. This memo proposes
+that when gleaned DHCP information is not available, the access
+concentrator/relay agent obtains the location information directly
+from the DHCP server(s) using a new, lightweight DHCPLEASEQUERY
+message.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-woundy-dhcpleasequery-04"/>
 </reference>

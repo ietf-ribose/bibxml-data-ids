@@ -1,22 +1,24 @@
 <reference anchor="I-D.ietf-idr-route-oscillation-stop" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-route-oscillation-stop-00">
   <front>
     <title>BGP Persistent Route Oscillation Solutions</title>
-    <author fullname="Daniel Walton" initials="D." surname="Walton">
-      <organization/>
-    </author>
-    <author fullname="Alvaro Retana" initials="A." surname="Retana">
-      <organization/>
-    </author>
-    <author fullname="Enke Chen" initials="E." surname="Chen">
-      <organization/>
-    </author>
-    <author fullname="John Scudder" initials="J." surname="Scudder">
-      <organization/>
-    </author>
-    <date year="2015" month="February" day="2"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-route-oscillation-stop-00"/>
+    <author initials="D." surname="Walton" fullname="Daniel Walton"/>
+    <author initials="A." surname="Retana" fullname="Alvaro Retana"/>
+    <author initials="E." surname="Chen" fullname="Enke Chen"/>
+    <author initials="J." surname="Scudder" fullname="John Scudder"/>
+    <date day="02" month="February" year="2015"></date>
     <abstract>
-      <t>In this document we present two sets of paths for an address prefix that can be advertised by a BGP route reflector or confederation ASBR to eliminate the MED-induced route oscillations in a network. The first set involves all the available paths, and would achieve the same routing consistency as the full IBGP mesh. The second set, which is a subset of the first one, involves the neighbor-AS based Group Best Paths, and would be sufficient to eliminate the MED- induced route oscillations (subject to certain commonly adopted topological constrains).</t>
+      <t>   In this document we present two sets of paths for an address prefix
+   that can be advertised by a BGP route reflector or confederation ASBR
+   to eliminate the MED-induced route oscillations in a network.  The
+   first set involves all the available paths, and would achieve the
+   same routing consistency as the full IBGP mesh.  The second set,
+   which is a subset of the first one, involves the neighbor-AS based
+   Group Best Paths, and would be sufficient to eliminate the MED-
+   induced route oscillations (subject to certain commonly adopted
+   topological constrains).
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-route-oscillation-stop-00"/>
 </reference>

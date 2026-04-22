@@ -1,28 +1,42 @@
 <reference anchor="I-D.taylor-v6ops-fragdrop" target="https://datatracker.ietf.org/doc/html/draft-taylor-v6ops-fragdrop-02">
   <front>
     <title>Why Operators Filter Fragments and What It Implies</title>
-    <author fullname="Joel Jaeggli" initials="J." surname="Jaeggli">
+    <seriesInfo name="Internet-Draft" value="draft-taylor-v6ops-fragdrop-02"/>
+    <author initials="J." surname="Jaeggli" fullname="Joel Jaeggli">
       <organization>Zynga</organization>
     </author>
-    <author fullname="Lorenzo Colitti" initials="L." surname="Colitti">
+    <author initials="L." surname="Colitti" fullname="Lorenzo Colitti">
       <organization>Google</organization>
     </author>
-    <author fullname="Warren &quot;Ace&quot; Kumari" initials="W. A." surname="Kumari">
+    <author initials="W. A." surname="Kumari" fullname="Warren &quot;Ace&quot; Kumari">
       <organization>Google</organization>
     </author>
-    <author fullname="Éric Vyncke" initials="E." surname="Vyncke">
+    <author initials="E." surname="Vyncke" fullname="Éric Vyncke">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Merike Kaeo" initials="M." surname="Kaeo">
+    <author initials="M." surname="Kaeo" fullname="Merike Kaeo">
       <organization>Double Shot Security</organization>
     </author>
-    <author fullname="Tom Taylor" initials="T." surname="Taylor">
+    <author initials="T." surname="Taylor" fullname="Tom Taylor">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2013" month="December" day="3"/>
+    <date day="03" month="December" year="2013"></date>
     <abstract>
-      <t>This memo was written to make application developers and network operators aware of the significant possibility that IPv6 packets containing fragmentation extension headers may fail to reach their destination. Some protocol or application assumptions about the ability to use messages larger than a single packet may accordingly not be supportable in all networks or circumstances. This memo provides observational evidence for the dropping of IPv6 fragments along a significant number of paths, explores the operational impact of fragmentation and the reasons and scenarios where drops occur, and considers the effect of fragment drops on applications where fragmentation is known to occur, particularly including DNS.</t>
+      <t>   This memo was written to make application developers and network
+   operators aware of the significant possibility that IPv6 packets
+   containing fragmentation extension headers may fail to reach their
+   destination.  Some protocol or application assumptions about the
+   ability to use messages larger than a single packet may accordingly
+   not be supportable in all networks or circumstances.
+
+   This memo provides observational evidence for the dropping of IPv6
+   fragments along a significant number of paths, explores the
+   operational impact of fragmentation and the reasons and scenarios
+   where drops occur, and considers the effect of fragment drops on
+   applications where fragmentation is known to occur, particularly
+   including DNS.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-taylor-v6ops-fragdrop-02"/>
 </reference>

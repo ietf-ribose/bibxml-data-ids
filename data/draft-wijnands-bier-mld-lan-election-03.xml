@@ -1,22 +1,31 @@
 <reference anchor="I-D.wijnands-bier-mld-lan-election" target="https://datatracker.ietf.org/doc/html/draft-wijnands-bier-mld-lan-election-03">
   <front>
     <title>Generic Multicast Router Election on LAN's</title>
-    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
+    <seriesInfo name="Internet-Draft" value="draft-wijnands-bier-mld-lan-election-03"/>
+    <author initials="I." surname="Wijnands" fullname="IJsbrand Wijnands">
       <organization>Arrcus</organization>
     </author>
-    <author fullname="Stig Venaas" initials="S." surname="Venaas">
+    <author initials="S." surname="Venaas" fullname="Stig Venaas">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+    <author initials="Z. J." surname="Zhang" fullname="Zhaohui (Jeffrey) Zhang">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Zheng Zhang" initials="Z." surname="Zhang">
+    <author initials="Z." surname="Zhang" fullname="Zheng Zhang">
       <organization>ZTE Corporation</organization>
     </author>
-    <date year="2024" month="April" day="21"/>
+    <date day="21" month="April" year="2024"></date>
     <abstract>
-      <t>When a host is connected to multiple multicast capable routers, each of these routers is a candidate to process the multicast flow for that LAN, but only one router should be elected to process it. This document proposes a generic multicast router election mechanism using Internet Group Management Protocol (IGMP) and Multicast Listener Discovery (MLD) that can be used by any Multicast Overlay Signalling Protocol (MOSP). Having such generic election mechanism removes a dependency on Protocol Independent Multicast (PIM).</t>
+      <t>   When a host is connected to multiple multicast capable routers, each
+   of these routers is a candidate to process the multicast flow for
+   that LAN, but only one router should be elected to process it.  This
+   document proposes a generic multicast router election mechanism using
+   Internet Group Management Protocol (IGMP) and Multicast Listener
+   Discovery (MLD) that can be used by any Multicast Overlay Signalling
+   Protocol (MOSP).  Having such generic election mechanism removes a
+   dependency on Protocol Independent Multicast (PIM).
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wijnands-bier-mld-lan-election-03"/>
 </reference>

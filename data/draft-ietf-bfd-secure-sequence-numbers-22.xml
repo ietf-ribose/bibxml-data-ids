@@ -1,25 +1,32 @@
 <reference anchor="I-D.ietf-bfd-secure-sequence-numbers" target="https://datatracker.ietf.org/doc/html/draft-ietf-bfd-secure-sequence-numbers-22">
   <front>
     <title>Meticulous Keyed ISAAC for BFD Optimized Authentication</title>
-    <author fullname="Alan DeKok" initials="A." surname="DeKok">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bfd-secure-sequence-numbers-22"/>
+    <author initials="A." surname="DeKok" fullname="Alan DeKok">
       <organization>InkBridge Networks</organization>
     </author>
-    <author fullname="Mahesh Jethanandani" initials="M." surname="Jethanandani">
+    <author initials="M." surname="Jethanandani" fullname="Mahesh Jethanandani">
       <organization>Kloud Services</organization>
     </author>
-    <author fullname="Sonal Agarwal" initials="S." surname="Agarwal">
+    <author initials="S." surname="Agarwal" fullname="Sonal Agarwal">
       <organization>Cisco Systems, Inc</organization>
     </author>
-    <author fullname="Ashesh Mishra" initials="A." surname="Mishra">
+    <author initials="A." surname="Mishra" fullname="Ashesh Mishra">
       <organization>Aalyria Technologies</organization>
     </author>
-    <author fullname="Jeffrey Haas" initials="J." surname="Haas">
+    <author initials="J." surname="Haas" fullname="Jeffrey Haas">
       <organization>HPE</organization>
     </author>
-    <date year="2025" month="July" day="6"/>
+    <date day="06" month="July" year="2025"></date>
     <abstract>
-      <t>This document describes a new BFD Optimized Authentication Mode, Meticulous Keyed ISAAC Authentication. This mode can be used to authenticate BFD packets with less CPU time cost than using MD5 or SHA1, with the tradeoff of decreased security. This mechanism cannot be used to signal state changes, but it can be used to maintain a session in the the "Up" state.</t>
+      <t>   This document describes a new BFD Optimized Authentication Mode,
+   Meticulous Keyed ISAAC Authentication.  This mode can be used to
+   authenticate BFD packets with less CPU time cost than using MD5 or
+   SHA1, with the tradeoff of decreased security.  This mechanism cannot
+   be used to signal state changes, but it can be used to maintain a
+   session in the the "Up" state.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-bfd-secure-sequence-numbers-22"/>
 </reference>

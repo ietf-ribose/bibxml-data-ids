@@ -1,22 +1,37 @@
 <reference anchor="I-D.ietf-deleg" target="https://datatracker.ietf.org/doc/html/draft-ietf-deleg-01">
   <front>
     <title>Extensible Delegation for DNS</title>
-    <author fullname="Tim April" initials="T." surname="April">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-deleg-01"/>
+    <author initials="T." surname="April" fullname="Tim April">
       <organization>Google, LLC</organization>
     </author>
-    <author fullname="Petr Špaček" initials="P." surname="Špaček">
+    <author initials="P." surname="Špaček" fullname="Petr Špaček">
       <organization>ISC</organization>
     </author>
-    <author fullname="Ralf Weber" initials="R." surname="Weber">
+    <author initials="R." surname="Weber" fullname="Ralf Weber">
       <organization>Akamai Technologies</organization>
     </author>
-    <author fullname="David C Lawrence" initials="" surname="Lawrence">
+    <author surname="Lawrence" fullname="David C Lawrence">
       <organization>Salesforce</organization>
     </author>
-    <date year="2025" month="July" day="7"/>
+    <date day="07" month="July" year="2025"></date>
     <abstract>
-      <t>A delegation in the Domain Name System (DNS) is a mechanism that enables efficient and distributed management of the DNS namespace. It involves delegating authority over subdomains to specific DNS servers via NS records, allowing for a hierarchical structure and distributing the responsibility for maintaining DNS records. An NS record contains the hostname of the nameserver for the delegated namespace. Any facilities of that nameserver must be discovered through other mechanisms. This document proposes a new extensible DNS record type, DELEG, for delegation of the authority for a domain. Future documents then can use this mechanism to use additional information about the delegated namespace and the capabilities of authoritative nameservers for the delegated namespace.</t>
+      <t>   A delegation in the Domain Name System (DNS) is a mechanism that
+   enables efficient and distributed management of the DNS namespace.
+   It involves delegating authority over subdomains to specific DNS
+   servers via NS records, allowing for a hierarchical structure and
+   distributing the responsibility for maintaining DNS records.
+
+   An NS record contains the hostname of the nameserver for the
+   delegated namespace.  Any facilities of that nameserver must be
+   discovered through other mechanisms.  This document proposes a new
+   extensible DNS record type, DELEG, for delegation of the authority
+   for a domain.  Future documents then can use this mechanism to use
+   additional information about the delegated namespace and the
+   capabilities of authoritative nameservers for the delegated
+   namespace.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-deleg-01"/>
 </reference>

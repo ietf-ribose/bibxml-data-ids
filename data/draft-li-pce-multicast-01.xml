@@ -1,25 +1,33 @@
 <reference anchor="I-D.li-pce-multicast" target="https://datatracker.ietf.org/doc/html/draft-li-pce-multicast-01">
   <front>
     <title>Multicast Tree Setup via PCEP</title>
-    <author fullname="Huanan Li" initials="H." surname="Li">
+    <seriesInfo name="Internet-Draft" value="draft-li-pce-multicast-01"/>
+    <author initials="H." surname="Li" fullname="Huanan Li">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Aijun Wang" initials="A." surname="Wang">
+    <author initials="A." surname="Wang" fullname="Aijun Wang">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+    <author initials="Z. J." surname="Zhang" fullname="Zhaohui (Jeffrey) Zhang">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Huaimo Chen" initials="H." surname="Chen">
+    <author initials="H." surname="Chen" fullname="Huaimo Chen">
       <organization>Futurewei</organization>
     </author>
-    <author fullname="Ran Chen" initials="R." surname="Chen">
+    <author initials="R." surname="Chen" fullname="Ran Chen">
       <organization>ZTE Corporation</organization>
     </author>
-    <date year="2022" month="March" day="20"/>
+    <date day="20" month="March" year="2022"></date>
     <abstract>
-      <t>Multicast forwarding requires per-tree state on certain nodes. Even with BIER, per-tree state is needed on ingress/egress BIER routers (though not needed on transit BIER routers). This documents specifies PCEP protocol to collect tree information (e.g. root, leaf, constraints) to allow a PCE to calculate a tree, and the procedures to set up per-tree forwarding state on relevant nodes for various multicast trees and various replication technologies.</t>
+      <t>   Multicast forwarding requires per-tree state on certain nodes.  Even
+   with BIER, per-tree state is needed on ingress/egress BIER routers
+   (though not needed on transit BIER routers).  This documents
+   specifies PCEP protocol to collect tree information (e.g. root, leaf,
+   constraints) to allow a PCE to calculate a tree, and the procedures
+   to set up per-tree forwarding state on relevant nodes for various
+   multicast trees and various replication technologies.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-li-pce-multicast-01"/>
 </reference>

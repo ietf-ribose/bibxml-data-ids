@@ -1,19 +1,33 @@
 <reference anchor="I-D.wakikawa-netext-pmip-cp-up-separation" target="https://datatracker.ietf.org/doc/html/draft-wakikawa-netext-pmip-cp-up-separation-00">
   <front>
     <title>Separation of Control and User Plane for Proxy Mobile IPv6</title>
-    <author fullname="Ryuji Wakikawa" initials="R." surname="Wakikawa">
+    <seriesInfo name="Internet-Draft" value="draft-wakikawa-netext-pmip-cp-up-separation-00"/>
+    <author initials="R." surname="Wakikawa" fullname="Ryuji Wakikawa">
       <organization>Softbank Mobile</organization>
     </author>
-    <author fullname="Rajesh Pazhyannur" initials="R." surname="Pazhyannur">
+    <author initials="R." surname="Pazhyannur" fullname="Rajesh Pazhyannur">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Sri Gundavelli" initials="S." surname="Gundavelli">
+    <author initials="S." surname="Gundavelli" fullname="Sri Gundavelli">
       <organization>Cisco</organization>
     </author>
-    <date year="2013" month="July" day="15"/>
+    <date day="15" month="July" year="2013"></date>
     <abstract>
-      <t>This document describes splitting of Control Plane (CP) and User Plane (UP) for a Proxy Mobile IPv6 based network infrastructure. Existing specifications allow a MAG to perform splitting of its control and user plane using Alternate Care of address mobility option for IPv6, or Alternate IPv4 Care of Address option for IPv4. However, the current specification does not have semantics for allowing the LMA to perform such functional split. To realize this requirement, this specification defines a mobility option that enables a local mobility anchor to provide an alternate LMA address to be used for the bi-directional tunnel between the MAG and LMA. With this extension, a local mobility anchor will be able to use an IP address for its user plane which is different than what is used for the control plane.</t>
+      <t>   This document describes splitting of Control Plane (CP) and User
+   Plane (UP) for a Proxy Mobile IPv6 based network infrastructure.
+   Existing specifications allow a MAG to perform splitting of its
+   control and user plane using Alternate Care of address mobility
+   option for IPv6, or Alternate IPv4 Care of Address option for IPv4.
+   However, the current specification does not have semantics for
+   allowing the LMA to perform such functional split.  To realize this
+   requirement, this specification defines a mobility option that
+   enables a local mobility anchor to provide an alternate LMA address
+   to be used for the bi-directional tunnel between the MAG and LMA.
+   With this extension, a local mobility anchor will be able to use an
+   IP address for its user plane which is different than what is used
+   for the control plane.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wakikawa-netext-pmip-cp-up-separation-00"/>
 </reference>

@@ -1,25 +1,35 @@
 <reference anchor="I-D.ietf-pce-segment-routing-policy-cp" target="https://datatracker.ietf.org/doc/html/draft-ietf-pce-segment-routing-policy-cp-07">
   <front>
     <title>PCEP extension to support Segment Routing Policy Candidate Paths</title>
-    <author fullname="Mike Koldychev" initials="M." surname="Koldychev">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pce-segment-routing-policy-cp-07"/>
+    <author initials="M." surname="Koldychev" fullname="Mike Koldychev">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Siva Sivabalan" initials="S." surname="Sivabalan">
+    <author initials="S." surname="Sivabalan" fullname="Siva Sivabalan">
       <organization>Ciena Corporation</organization>
     </author>
-    <author fullname="Colby Barth" initials="C." surname="Barth">
+    <author initials="C." surname="Barth" fullname="Colby Barth">
       <organization>Juniper Networks, Inc.</organization>
     </author>
-    <author fullname="Shuping Peng" initials="S." surname="Peng">
+    <author initials="S." surname="Peng" fullname="Shuping Peng">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Hooman Bidgoli" initials="H." surname="Bidgoli">
+    <author initials="H." surname="Bidgoli" fullname="Hooman Bidgoli">
       <organization>Nokia</organization>
     </author>
-    <date year="2022" month="April" day="21"/>
+    <date day="21" month="April" year="2022"></date>
     <abstract>
-      <t>This document introduces a mechanism to specify a Segment Routing (SR) policy, as a collection of SR candidate paths. An SR policy is identified by &lt;headend, color, endpoint&gt; tuple. An SR policy can contain one or more candidate paths where each candidate path is identified in PCEP by its uniquely assigned PLSP-ID. This document proposes extension to PCEP to support association among candidate paths of a given SR policy. The mechanism proposed in this document is applicable to both MPLS and IPv6 data planes of SR.</t>
+      <t>   This document introduces a mechanism to specify a Segment Routing
+   (SR) policy, as a collection of SR candidate paths.  An SR policy is
+   identified by &lt;headend, color, endpoint&gt; tuple.  An SR policy can
+   contain one or more candidate paths where each candidate path is
+   identified in PCEP by its uniquely assigned PLSP-ID.  This document
+   proposes extension to PCEP to support association among candidate
+   paths of a given SR policy.  The mechanism proposed in this document
+   is applicable to both MPLS and IPv6 data planes of SR.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-pce-segment-routing-policy-cp-07"/>
 </reference>

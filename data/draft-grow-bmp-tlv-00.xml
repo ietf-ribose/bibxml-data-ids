@@ -1,19 +1,31 @@
 <reference anchor="I-D.grow-bmp-tlv" target="https://datatracker.ietf.org/doc/html/draft-grow-bmp-tlv-00">
   <front>
     <title>TLV support for BMP Route Monitoring and Peer Down Messages</title>
-    <author fullname="Paolo Lucente" initials="P." surname="Lucente">
+    <seriesInfo name="Internet-Draft" value="draft-grow-bmp-tlv-00"/>
+    <author initials="P." surname="Lucente" fullname="Paolo Lucente">
       <organization>NTT</organization>
     </author>
-    <author fullname="Yunan Gu" initials="Y." surname="Gu">
+    <author initials="Y." surname="Gu" fullname="Yunan Gu">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Henk Smit" initials="H." surname="Smit">
+    <author initials="H." surname="Smit" fullname="Henk Smit">
       <organization>Independent</organization>
     </author>
-    <date year="2019" month="September" day="3"/>
+    <date day="03" month="September" year="2019"></date>
     <abstract>
-      <t>Most of the message types defined by the BGP Monitoring Protocol (BMP) do provision for optional trailing data; however Route Monitoring message (to provide a snapshot of the monitored Routing Information Base) and Peer Down message (to indicate that a peering session was terminated) do not. Supporting optional data in TLV format across all BMP message types allows for an homogeneous and extensible surface that would be useful for the most different use- cases that need to convey additional data to a BMP station. While this document does not want to cover any specific utilization scenario, it defines a simple way to support optional TLV data in all message types.</t>
+      <t>   Most of the message types defined by the BGP Monitoring Protocol
+   (BMP) do provision for optional trailing data; however Route
+   Monitoring message (to provide a snapshot of the monitored Routing
+   Information Base) and Peer Down message (to indicate that a peering
+   session was terminated) do not.  Supporting optional data in TLV
+   format across all BMP message types allows for an homogeneous and
+   extensible surface that would be useful for the most different use-
+   cases that need to convey additional data to a BMP station.  While
+   this document does not want to cover any specific utilization
+   scenario, it defines a simple way to support optional TLV data in all
+   message types.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-grow-bmp-tlv-00"/>
 </reference>

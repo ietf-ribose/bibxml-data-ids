@@ -1,19 +1,35 @@
 <reference anchor="I-D.despres-softwire-6a44" target="https://datatracker.ietf.org/doc/html/draft-despres-softwire-6a44-01">
   <front>
     <title>Native IPv6 Across NAT44 CPEs (6a44)</title>
-    <author fullname="Rémi Després" initials="R." surname="Després">
+    <seriesInfo name="Internet-Draft" value="draft-despres-softwire-6a44-01"/>
+    <author initials="R." surname="Després" fullname="Rémi Després">
       <organization>RD-IPtech</organization>
     </author>
-    <author fullname="Brian E. Carpenter" initials="B. E." surname="Carpenter">
+    <author initials="B. E." surname="Carpenter" fullname="Brian E. Carpenter">
       <organization>Univ. of Auckland</organization>
     </author>
-    <author fullname="Sheng Jiang" initials="S." surname="Jiang">
+    <author initials="S." surname="Jiang" fullname="Sheng Jiang">
       <organization>Huawei Technologies Co., Ltd</organization>
     </author>
-    <date year="2010" month="October" day="12"/>
+    <date day="12" month="October" year="2010"></date>
     <abstract>
-      <t>Most CPEs should soon be dual stack, but a large installed base of IPv4-only CPEs is likely to remain for several years. Also, with the IPv4 address shortage, more and more ISPs will assign private IPv4 addresses to their customers. The need for IPv6 connectivity therefore concerns hosts behind IPv4-only CPEs, including such CPEs that are assigned private addresses. The 6a44 mechanism specified in this document addresses this need, without limitations and operational complexities of Tunnel Brokers and Teredo to do the same. 6a44 is based on an address mapping and on a mechanism whereby suitably upgraded hosts behind a NAT may obtain IPv6 connectivity via a stateless 6a44 server function operated by their Internet Service Provider. With it, IPv6 traffic between two 6a44 hosts in a single site remains within the site. Except for IANA numbers that remain to be assigned, the specification is intended to be complete enough for running codes to be independently written and interwork.</t>
+      <t>Most CPEs should soon be dual stack, but a large installed base of
+IPv4-only CPEs is likely to remain for several years.  Also, with the
+IPv4 address shortage, more and more ISPs will assign private IPv4
+addresses to their customers.  The need for IPv6 connectivity
+therefore concerns hosts behind IPv4-only CPEs, including such CPEs
+that are assigned private addresses.  The 6a44 mechanism specified in
+this document addresses this need, without limitations and
+operational complexities of Tunnel Brokers and Teredo to do the same.
+
+6a44 is based on an address mapping and on a mechanism whereby
+suitably upgraded hosts behind a NAT may obtain IPv6 connectivity via
+a stateless 6a44 server function operated by their Internet Service
+Provider.  With it, IPv6 traffic between two 6a44 hosts in a single
+site remains within the site.  Except for IANA numbers that remain to
+be assigned, the specification is intended to be complete enough for
+running codes to be independently written and interwork.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-despres-softwire-6a44-01"/>
 </reference>

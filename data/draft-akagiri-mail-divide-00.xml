@@ -1,25 +1,26 @@
 <reference anchor="I-D.akagiri-mail-divide" target="https://datatracker.ietf.org/doc/html/draft-akagiri-mail-divide-00">
   <front>
     <title>Mail Divide Framework</title>
-    <author fullname="Takehito Akagiri" initials="T." surname="Akagiri">
-      <organization/>
-    </author>
-    <author fullname="Kaoru Maeda" initials="K." surname="Maeda">
-      <organization/>
-    </author>
-    <author fullname="Kouji Okada" initials="K." surname="Okada">
-      <organization/>
-    </author>
-    <author fullname="Tatsuya Hayashi" initials="T." surname="Hayashi">
-      <organization/>
-    </author>
-    <author fullname="Masaki Kase" initials="M." surname="Kase">
-      <organization/>
-    </author>
-    <date year="2015" month="July" day="5"/>
+    <seriesInfo name="Internet-Draft" value="draft-akagiri-mail-divide-00"/>
+    <author initials="T." surname="Akagiri" fullname="Takehito Akagiri"/>
+    <author initials="K." surname="Maeda" fullname="Kaoru Maeda"/>
+    <author initials="K." surname="Okada" fullname="Kouji Okada"/>
+    <author initials="T." surname="Hayashi" fullname="Tatsuya Hayashi"/>
+    <author initials="M." surname="Kase" fullname="Masaki Kase"/>
+    <date day="05" month="July" year="2015"></date>
     <abstract>
-      <t>Mail Divide Framework (MDF) is a recipient driven partitioning framework for E-Mail delivery. A protocol to divide mail delivery at the source of the message is defined in this draft. A mechanism called Reputation Service Provider is also introduced so that a third-party authority can assure senders' trust. With MDF, subdomaining is used for category-specific MTA designation. Senders decide which category the outgoing mail belongs. It then looks up DNS TXT record to find whether the recipient advertises a specific server for that category. The specified server puts the received mail into a corresponding per-category inbox for the user.</t>
+      <t>   Mail Divide Framework (MDF) is a recipient driven partitioning
+   framework for E-Mail delivery.  A protocol to divide mail delivery at
+   the source of the message is defined in this draft.  A mechanism
+   called Reputation Service Provider is also introduced so that a
+   third-party authority can assure senders' trust.  With MDF,
+   subdomaining is used for category-specific MTA designation.  Senders
+   decide which category the outgoing mail belongs.  It then looks up
+   DNS TXT record to find whether the recipient advertises a specific
+   server for that category.  The specified server puts the received
+   mail into a corresponding per-category inbox for the user.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-akagiri-mail-divide-00"/>
 </reference>

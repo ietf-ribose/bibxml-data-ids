@@ -1,19 +1,35 @@
 <reference anchor="I-D.loreto-http-timeout" target="https://datatracker.ietf.org/doc/html/draft-loreto-http-timeout-00">
   <front>
     <title>Hypertext Transfer Protocol (HTTP) Timeouts</title>
-    <author fullname="Salvatore Loreto" initials="S." surname="Loreto">
+    <seriesInfo name="Internet-Draft" value="draft-loreto-http-timeout-00"/>
+    <author initials="S." surname="Loreto" fullname="Salvatore Loreto">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Martin Thomson" initials="M." surname="Thomson">
+    <author initials="M." surname="Thomson" fullname="Martin Thomson">
       <organization>Andrew Corporation</organization>
     </author>
-    <author fullname="Greg Wilkins" initials="G." surname="Wilkins">
+    <author initials="G." surname="Wilkins" fullname="Greg Wilkins">
       <organization>Webtide</organization>
     </author>
-    <date year="2010" month="June" day="8"/>
+    <date day="08" month="June" year="2010"></date>
     <abstract>
-      <t>A Timeout header is defined for Hypertext Transfer Protocol (HTTP). This end-to-end header informs an origin server and any intermediaries of the maximum time that a client will await a response to its request. A server can use this header to ensure that a timely response is generated. This also identifies requests as being potentially long-lived, and allows for better resource allocation for these requests. A Connection-Timeout header is defined for HTTP. This hop-by-hop header informs the entity at the other end of a connection of the maximum time that an idle connection is kept open. This header improves reliability by providing better information about the idle connection management policy of HTTP hosts. Comments and feedback for this draft should be directed to the authors and the Apps Discuss list (discuss@apps.ietf.org).</t>
+      <t>A Timeout header is defined for Hypertext Transfer Protocol (HTTP).
+This end-to-end header informs an origin server and any
+intermediaries of the maximum time that a client will await a
+response to its request.  A server can use this header to ensure that
+a timely response is generated.  This also identifies requests as
+being potentially long-lived, and allows for better resource
+allocation for these requests.
+
+A Connection-Timeout header is defined for HTTP.  This hop-by-hop
+header informs the entity at the other end of a connection of the
+maximum time that an idle connection is kept open.  This header
+improves reliability by providing better information about the idle
+connection management policy of HTTP hosts.
+
+Comments and feedback for this draft should be directed to the
+authors and the Apps Discuss list (discuss@apps.ietf.org).
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-loreto-http-timeout-00"/>
 </reference>

@@ -1,25 +1,35 @@
 <reference anchor="I-D.ietf-dmarc-arc-protocol" target="https://datatracker.ietf.org/doc/html/draft-ietf-dmarc-arc-protocol-14">
   <front>
     <title>Authenticated Received Chain (ARC) Protocol</title>
-    <author fullname="Kurt Andersen" initials="K." surname="Andersen">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dmarc-arc-protocol-14"/>
+    <author initials="K." surname="Andersen" fullname="Kurt Andersen">
       <organization>LinkedIn</organization>
     </author>
-    <author fullname="Brandon Long" initials="B." surname="Long">
+    <author initials="B." surname="Long" fullname="Brandon Long">
       <organization>Google</organization>
     </author>
-    <author fullname="Steven M Jones" initials="S. M." surname="Jones">
+    <author initials="S. M." surname="Jones" fullname="Steven M Jones">
       <organization>TDP</organization>
     </author>
-    <author fullname="Seth Blank" initials="S." surname="Blank">
+    <author initials="S." surname="Blank" fullname="Seth Blank">
       <organization>Valimail</organization>
     </author>
-    <author fullname="Murray Kucherawy" initials="M." surname="Kucherawy">
+    <author initials="M." surname="Kucherawy" fullname="Murray Kucherawy">
       <organization>TDP</organization>
     </author>
-    <date year="2018" month="April" day="23"/>
+    <date day="23" month="April" year="2018"></date>
     <abstract>
-      <t>The Authenticated Received Chain (ARC) protocol creates a mechanism whereby a series of handlers of an email message can conduct authentication of the email message as it passes among them on the way to its destination, and create an attached, authenticated record of the status at each step along the handling path, for use by the final recipient in making choices about the disposition of the message. Changes in the message that might break existing authentication mechanisms can be identified through the ARC Set of header fields.</t>
+      <t>   The Authenticated Received Chain (ARC) protocol creates a mechanism
+   whereby a series of handlers of an email message can conduct
+   authentication of the email message as it passes among them on the
+   way to its destination, and create an attached, authenticated record
+   of the status at each step along the handling path, for use by the
+   final recipient in making choices about the disposition of the
+   message.  Changes in the message that might break existing
+   authentication mechanisms can be identified through the ARC Set of
+   header fields.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dmarc-arc-protocol-14"/>
 </reference>

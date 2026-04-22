@@ -1,16 +1,34 @@
 <reference anchor="I-D.rosen-l3vpn-mvpn-infra-addrs" target="https://datatracker.ietf.org/doc/html/draft-rosen-l3vpn-mvpn-infra-addrs-00">
   <front>
     <title>IPv4 and IPv6 Infrastructure Addresses in MCAST-VPN Routes</title>
-    <author fullname="Rahul Aggarwal" initials="R." surname="Aggarwal">
+    <seriesInfo name="Internet-Draft" value="draft-rosen-l3vpn-mvpn-infra-addrs-00"/>
+    <author initials="R." surname="Aggarwal" fullname="Rahul Aggarwal">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Eric C. Rosen" initials="E. C." surname="Rosen">
+    <author initials="E. C." surname="Rosen" fullname="Eric C. Rosen">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2010" month="June" day="11"/>
+    <date day="11" month="June" year="2010"></date>
     <abstract>
-      <t>To provide Multicast VPN service, a provider edge router originates "MCAST-VPN" BGP routes. These routes encode addresses from the customer's address space as well as addresses from the provider's address space. The customer's address space may be either IPv4 or IPv6. Independently, the provider's address space may be either IPv4 or IPv6. The MCAST-VPN BGP routes always contain an "address family" field that specifies whether the customer addresses are IPv4 addresses or whether they are IPv6 addresses. However, there is no field that explicitly specifies whether the provider addresses are IPv4 addresses or whether they are IPv6 addresses. The existing specifications do not explicitly say how to determine whether a given provider address is IPv4 or IPv6, and there are differing precedents about the method used to encode IPv4 addresses in messages that also contain IPv6 addresses. This document removes any ambiguity by specifying that MCAST-VPN routes always encode provider IPv4 addresses as four-octet addresses, and that the distinction between an IPv4 address and an IPv6 address is signaled solely by the length of the address field.</t>
+      <t>To provide Multicast VPN service, a provider edge router originates
+"MCAST-VPN" BGP routes.  These routes encode addresses from the
+customer's address space as well as addresses from the provider's
+address space.  The customer's address space may be either IPv4 or
+IPv6.  Independently, the provider's address space may be either IPv4
+or IPv6.  The MCAST-VPN BGP routes always contain an "address family"
+field that specifies whether the customer addresses are IPv4
+addresses or whether they are IPv6 addresses.  However, there is no
+field that explicitly specifies whether the provider addresses are
+IPv4 addresses or whether they are IPv6 addresses.  The existing
+specifications do not explicitly say how to determine whether a given
+provider address is IPv4 or IPv6, and there are differing precedents
+about the method used to encode IPv4 addresses in messages that also
+contain IPv6 addresses.  This document removes any ambiguity by
+specifying that MCAST-VPN routes always encode provider IPv4
+addresses as four-octet addresses, and that the distinction between
+an IPv4 address and an IPv6 address is signaled solely by the length
+of the address field.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-rosen-l3vpn-mvpn-infra-addrs-00"/>
 </reference>

@@ -1,16 +1,33 @@
 <reference anchor="I-D.mlevy-v6ops-auto-v6-allocation-per-asn" target="https://datatracker.ietf.org/doc/html/draft-mlevy-v6ops-auto-v6-allocation-per-asn-00">
   <front>
     <title>A mechanism to allocate IPv6 blocks for BGP networks based on the networks AS Number</title>
-    <author fullname="Martin J. Levy" initials="M. J." surname="Levy">
+    <seriesInfo name="Internet-Draft" value="draft-mlevy-v6ops-auto-v6-allocation-per-asn-00"/>
+    <author initials="M. J." surname="Levy" fullname="Martin J. Levy">
       <organization>Hurricane Electric</organization>
     </author>
-    <author fullname="Matthew Pounsett" initials="M." surname="Pounsett">
+    <author initials="M." surname="Pounsett" fullname="Matthew Pounsett">
       <organization>Afilias</organization>
     </author>
-    <date year="2013" month="January" day="24"/>
+    <date day="24" month="January" year="2013"></date>
     <abstract>
-      <t>This document provides a methodology for automatically allocating IPv6 [RFC2460] address blocks for networks that run BGP [RFC4271] and are either single-homed or multi-homed [BARBER2011]. The automatic allocation is taken from a specific /16 block assigned by IANA for this purpose. Networks that require more than this single /48 can still request additional allocations via the existing RIR process. Networks are not forced to use this allocation and can ignore this completely. Availability of the /48 assignment via this mechanism does not change existing mechanisms for obtaining IPv6 assignments through the existing RIR (Regional Internet Registry) or LIR (Local Internet Registry) mechanisms. There is an implicit assumption that it's a good thing to promote networks to enable IPv6 with a near-zero effort.</t>
+      <t>   This document provides a methodology for automatically allocating
+   IPv6 [RFC2460] address blocks for networks that run BGP [RFC4271] and
+   are either single-homed or multi-homed [BARBER2011].  The automatic
+   allocation is taken from a specific /16 block assigned by IANA for
+   this purpose.
+
+   Networks that require more than this single /48 can still request
+   additional allocations via the existing RIR process.  Networks are
+   not forced to use this allocation and can ignore this completely.
+   Availability of the /48 assignment via this mechanism does not change
+   existing mechanisms for obtaining IPv6 assignments through the
+   existing RIR (Regional Internet Registry) or LIR (Local Internet
+   Registry) mechanisms.
+
+   There is an implicit assumption that it's a good thing to promote
+   networks to enable IPv6 with a near-zero effort.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mlevy-v6ops-auto-v6-allocation-per-asn-00"/>
 </reference>

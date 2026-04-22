@@ -1,25 +1,38 @@
 <reference anchor="I-D.ietf-cose-hpke" target="https://datatracker.ietf.org/doc/html/draft-ietf-cose-hpke-25">
   <front>
     <title>Use of Hybrid Public-Key Encryption (HPKE) with CBOR Object Signing and Encryption (COSE)</title>
-    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-cose-hpke-25"/>
+    <author initials="H." surname="Tschofenig" fullname="Hannes Tschofenig">
       <organization>University of the Bundeswehr Munich</organization>
     </author>
-    <author fullname="Michael B. Jones" initials="M. B." surname="Jones">
+    <author initials="M. B." surname="Jones" fullname="Michael B. Jones">
       <organization>Self-Issued Consulting</organization>
     </author>
-    <author fullname="Orie Steele" initials="O." surname="Steele">
+    <author initials="O." surname="Steele" fullname="Orie Steele">
       <organization>Tradeverifyd</organization>
     </author>
-    <author fullname="Ajitomi, Daisuke" initials="A." surname="Daisuke">
+    <author initials="A." surname="Daisuke" fullname="Ajitomi, Daisuke">
       <organization>bibital LLC</organization>
     </author>
-    <author fullname="Laurence Lundblade" initials="L." surname="Lundblade">
+    <author initials="L." surname="Lundblade" fullname="Laurence Lundblade">
       <organization>Security Theory LLC</organization>
     </author>
-    <date year="2026" month="April" day="7"/>
+    <date day="07" month="April" year="2026"></date>
     <abstract>
-      <t>This specification defines hybrid public-key encryption (HPKE) for use with CBOR Object Signing and Encryption (COSE). HPKE offers a variant of public-key encryption of arbitrary-sized plaintexts for a recipient public key. HPKE is a general encryption framework utilizing an asymmetric key encapsulation mechanism (KEM), a key derivation function (KDF), and an Authenticated Encryption with Associated Data (AEAD) algorithm. This document defines the use of HPKE with COSE. Authentication for HPKE in COSE is provided by COSE-native security mechanisms or by the pre-shared key authenticated variant of HPKE.</t>
+      <t>   This specification defines hybrid public-key encryption (HPKE) for
+   use with CBOR Object Signing and Encryption (COSE).  HPKE offers a
+   variant of public-key encryption of arbitrary-sized plaintexts for a
+   recipient public key.
+
+   HPKE is a general encryption framework utilizing an asymmetric key
+   encapsulation mechanism (KEM), a key derivation function (KDF), and
+   an Authenticated Encryption with Associated Data (AEAD) algorithm.
+
+   This document defines the use of HPKE with COSE.  Authentication for
+   HPKE in COSE is provided by COSE-native security mechanisms or by the
+   pre-shared key authenticated variant of HPKE.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-cose-hpke-25"/>
 </reference>

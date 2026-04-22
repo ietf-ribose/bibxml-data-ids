@@ -1,19 +1,29 @@
 <reference anchor="I-D.yourtchenko-two-party-initial-window" target="https://datatracker.ietf.org/doc/html/draft-yourtchenko-two-party-initial-window-00">
   <front>
     <title>TIE: Two-Party Selection of TCP Initial Congestion Window Estimate</title>
-    <author fullname="Andrew Yourtchenko" initials="A." surname="Yourtchenko">
+    <seriesInfo name="Internet-Draft" value="draft-yourtchenko-two-party-initial-window-00"/>
+    <author initials="A." surname="Yourtchenko" fullname="Andrew Yourtchenko">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Ali C. Begen" initials="A. C." surname="Begen">
+    <author initials="A. C." surname="Begen" fullname="Ali C. Begen">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Anantha Ramaiah" initials="A." surname="Ramaiah">
+    <author initials="A." surname="Ramaiah" fullname="Anantha Ramaiah">
       <organization>Cisco</organization>
     </author>
-    <date year="2010" month="December" day="3"/>
+    <date day="03" month="December" year="2010"></date>
     <abstract>
-      <t>There are several proposals on increasing the TCP initial congestion window to a new hardcoded value and subsequent updates of this hardcoded value. This document explores the mechanism of dynamically determining the potentially unbounded Initial Window. This would allow for the future growth after only one software upgrade of the existing TCP stacks. Also this would allow automatic adjustment of the Initial Window size depending on the connectivity properties of the particular Internet host, while minimizing the retransmissions that result from overly optimistic initial congestion window selection.</t>
+      <t>There are several proposals on increasing the TCP initial congestion
+window to a new hardcoded value and subsequent updates of this
+hardcoded value.  This document explores the mechanism of dynamically
+determining the potentially unbounded Initial Window.  This would
+allow for the future growth after only one software upgrade of the
+existing TCP stacks.  Also this would allow automatic adjustment of
+the Initial Window size depending on the connectivity properties of
+the particular Internet host, while minimizing the retransmissions
+that result from overly optimistic initial congestion window
+selection.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-yourtchenko-two-party-initial-window-00"/>
 </reference>

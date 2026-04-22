@@ -1,28 +1,32 @@
 <reference anchor="I-D.oiwa-httpauth-multihop-template" target="https://datatracker.ietf.org/doc/html/draft-oiwa-httpauth-multihop-template-00">
   <front>
     <title>Common Template for HTTP Message-based Multi-hop Authentication</title>
-    <author fullname="Yutaka Oiwa" initials="Y." surname="Oiwa">
+    <seriesInfo name="Internet-Draft" value="draft-oiwa-httpauth-multihop-template-00"/>
+    <author initials="Y." surname="Oiwa" fullname="Yutaka Oiwa">
       <organization>RISEC, AIST</organization>
     </author>
-    <author fullname="Hajime Watanabe" initials="H." surname="Watanabe">
+    <author initials="H." surname="Watanabe" fullname="Hajime Watanabe">
       <organization>RISEC, AIST</organization>
     </author>
-    <author fullname="Hiromitsu Takagi" initials="H." surname="Takagi">
-      <organization/>
-    </author>
-    <author fullname="Boku Kihara" initials="B." surname="Kihara">
-      <organization/>
-    </author>
-    <author fullname="Tatsuya Hayashi" initials="T." surname="Hayashi">
-      <organization/>
-    </author>
-    <author fullname="Yuichi Ioku" initials="Y." surname="Ioku">
-      <organization/>
-    </author>
-    <date year="2013" month="February" day="18"/>
+    <author initials="H." surname="Takagi" fullname="Hiromitsu Takagi"/>
+    <author initials="B." surname="Kihara" fullname="Boku Kihara"/>
+    <author initials="T." surname="Hayashi" fullname="Tatsuya Hayashi"/>
+    <author initials="Y." surname="Ioku" fullname="Yuichi Ioku"/>
+    <date day="18" month="February" year="2013"></date>
     <abstract>
-      <t>This document specifies a common protocol design template for authentication on the Hyper-text Transport Protocol (HTTP) involving multi-hop message exchanges. To facilitate advanced authentication technologies such as hash-based exchanges, zero-knowledge password proof, or public-key authentications on HTTP, a kind of state management and key management facilities are required on the general HTTP authentication message framework. Also, to optimize performance of such authentication schemes, a well-designed mechanism for key caching and re-authentication are needed. The template defined in this document provides a generic foundation for implementing such advanced authentication technologies.</t>
+      <t>   This document specifies a common protocol design template for
+   authentication on the Hyper-text Transport Protocol (HTTP) involving
+   multi-hop message exchanges.  To facilitate advanced authentication
+   technologies such as hash-based exchanges, zero-knowledge password
+   proof, or public-key authentications on HTTP, a kind of state
+   management and key management facilities are required on the general
+   HTTP authentication message framework.  Also, to optimize performance
+   of such authentication schemes, a well-designed mechanism for key
+   caching and re-authentication are needed.  The template defined in
+   this document provides a generic foundation for implementing such
+   advanced authentication technologies.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-oiwa-httpauth-multihop-template-00"/>
 </reference>

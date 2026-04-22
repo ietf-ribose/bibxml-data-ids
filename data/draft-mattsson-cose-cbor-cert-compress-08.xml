@@ -1,25 +1,40 @@
 <reference anchor="I-D.mattsson-cose-cbor-cert-compress" target="https://datatracker.ietf.org/doc/html/draft-mattsson-cose-cbor-cert-compress-08">
   <front>
     <title>CBOR Encoded X.509 Certificates (C509 Certificates)</title>
-    <author fullname="Shahid Raza" initials="S." surname="Raza">
+    <seriesInfo name="Internet-Draft" value="draft-mattsson-cose-cbor-cert-compress-08"/>
+    <author initials="S." surname="Raza" fullname="Shahid Raza">
       <organization>RISE AB</organization>
     </author>
-    <author fullname="Joel Höglund" initials="J." surname="Höglund">
+    <author initials="J." surname="Höglund" fullname="Joel Höglund">
       <organization>RISE AB</organization>
     </author>
-    <author fullname="Göran Selander" initials="G." surname="Selander">
+    <author initials="G." surname="Selander" fullname="Göran Selander">
       <organization>Ericsson AB</organization>
     </author>
-    <author fullname="John Preuß Mattsson" initials="J. P." surname="Mattsson">
+    <author initials="J. P." surname="Mattsson" fullname="John Preuß Mattsson">
       <organization>Ericsson AB</organization>
     </author>
-    <author fullname="Martin Furuhed" initials="M." surname="Furuhed">
+    <author initials="M." surname="Furuhed" fullname="Martin Furuhed">
       <organization>Nexus Group</organization>
     </author>
-    <date year="2021" month="February" day="22"/>
+    <date day="22" month="February" year="2021"></date>
     <abstract>
-      <t>This document specifies a CBOR encoding of X.509 certificates. The resulting certificates are called C509 Certificates. The CBOR encoding supports a large subset of RFC 5280 and significantly reduces the size of certificates compatible with e.g. RFC 7925, IEEE 802.1AR (DevID), CNSA, and CA/Browser Forum Baseline Requirements. When used to re-encode DER encoded X.509 certificates, the CBOR encoding can in many cases reduce the size of RFC 7925 profiled certificates with over 50%. The CBOR encoded structure can alternatively be signed directly ("natively signed"), which does not require re-encoding for the signature to be verified. The document also specifies COSE headers as well as a TLS certificate type for C509 certificates. NOTE: "C509" is a placeholder, name to be decided by the COSE WG.</t>
+      <t>   This document specifies a CBOR encoding of X.509 certificates.  The
+   resulting certificates are called C509 Certificates.  The CBOR
+   encoding supports a large subset of RFC 5280 and significantly
+   reduces the size of certificates compatible with e.g.  RFC 7925, IEEE
+   802.1AR (DevID), CNSA, and CA/Browser Forum Baseline Requirements.
+   When used to re-encode DER encoded X.509 certificates, the CBOR
+   encoding can in many cases reduce the size of RFC 7925 profiled
+   certificates with over 50%.  The CBOR encoded structure can
+   alternatively be signed directly ("natively signed"), which does not
+   require re-encoding for the signature to be verified.  The document
+   also specifies COSE headers as well as a TLS certificate type for
+   C509 certificates.
+
+   NOTE: "C509" is a placeholder, name to be decided by the COSE WG.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mattsson-cose-cbor-cert-compress-08"/>
 </reference>

@@ -1,19 +1,23 @@
 <reference anchor="I-D.habault-gallet-homenet-multihoming-sdsa" target="https://datatracker.ietf.org/doc/html/draft-habault-gallet-homenet-multihoming-sdsa-00">
   <front>
     <title>Proposal for selecting the default-route according to source address</title>
-    <author fullname="Guillaume Habault" initials="G." surname="Habault">
+    <seriesInfo name="Internet-Draft" value="draft-habault-gallet-homenet-multihoming-sdsa-00"/>
+    <author initials="G." surname="Habault" fullname="Guillaume Habault">
       <organization>Telecom Bretagne</organization>
     </author>
-    <author fullname="Laurent Toutain" initials="L." surname="Toutain">
+    <author initials="L." surname="Toutain" fullname="Laurent Toutain">
       <organization>Telecom Bretagne</organization>
     </author>
-    <author fullname="Etienne Gall Santerre" initials="E. G." surname="Santerre">
-      <organization/>
-    </author>
-    <date year="2012" month="February" day="23"/>
+    <author initials="E. G." surname="Santerre" fullname="Etienne Gall Santerre"/>
+    <date day="23" month="February" year="2012"></date>
     <abstract>
-      <t>SDSA approach is to assure that packets, going out the multihomed site, have the correct source address, regarding to the ISP and thus to avoid the ingress filtering problem. In that purpose, SDSA takes into account the source address in the site routing decision for outgoing packets, when default-route is involved.</t>
+      <t>   SDSA approach is to assure that packets, going out the multihomed
+   site, have the correct source address, regarding to the ISP and thus
+   to avoid the ingress filtering problem.  In that purpose, SDSA takes
+   into account the source address in the site routing decision for
+   outgoing packets, when default-route is involved.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-habault-gallet-homenet-multihoming-sdsa-00"/>
 </reference>

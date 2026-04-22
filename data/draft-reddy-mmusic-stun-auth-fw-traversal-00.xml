@@ -1,22 +1,32 @@
 <reference anchor="I-D.reddy-mmusic-stun-auth-fw-traversal" target="https://datatracker.ietf.org/doc/html/draft-reddy-mmusic-stun-auth-fw-traversal-00">
   <front>
     <title>STUN Extensions for Firewall Traversal</title>
-    <author fullname="Tirumaleswar Reddy.K" initials="T." surname="Reddy.K">
+    <seriesInfo name="Internet-Draft" value="draft-reddy-mmusic-stun-auth-fw-traversal-00"/>
+    <author initials="T." surname="Reddy.K" fullname="Tirumaleswar Reddy.K">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Muthu Arul Perumal" initials="M. A." surname="Perumal">
+    <author initials="M. A." surname="Perumal" fullname="Muthu Arul Perumal">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Ram R" initials="R." surname="R">
+    <author initials="R." surname="R" fullname="Ram R">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Dan Wing" initials="D." surname="Wing">
+    <author initials="D." surname="Wing" fullname="Dan Wing">
       <organization>Cisco</organization>
     </author>
-    <date year="2012" month="October" day="15"/>
+    <date day="15" month="October" year="2012"></date>
     <abstract>
-      <t>Some networks deploy firewalls configured to block UDP traffic. When SIP user agents or WebRTC endpoints are deployed behind such firewalls, media cannot be sent over UDP across the firewall, but must be sent using TCP (which causes a different user experience) or through a session border controller. This draft describes an alternate model wherein extensions to ICE connectivity checks can be examined by the firewall to permit outgoing UDP flows across the firewall.</t>
+      <t>   Some networks deploy firewalls configured to block UDP traffic.  When
+   SIP user agents or WebRTC endpoints are deployed behind such
+   firewalls, media cannot be sent over UDP across the firewall, but
+   must be sent using TCP (which causes a different user experience) or
+   through a session border controller.
+
+   This draft describes an alternate model wherein extensions to ICE
+   connectivity checks can be examined by the firewall to permit
+   outgoing UDP flows across the firewall.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-reddy-mmusic-stun-auth-fw-traversal-00"/>
 </reference>

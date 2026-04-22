@@ -1,28 +1,39 @@
 <reference anchor="I-D.keyupate-idr-bgp-prefix-sid" target="https://datatracker.ietf.org/doc/html/draft-keyupate-idr-bgp-prefix-sid-05">
   <front>
     <title>Segment Routing Prefix SID extensions for BGP</title>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
+    <seriesInfo name="Internet-Draft" value="draft-keyupate-idr-bgp-prefix-sid-05"/>
+    <author initials="K." surname="Patel" fullname="Keyur Patel">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Stefano Previdi" initials="S." surname="Previdi">
+    <author initials="S." surname="Previdi" fullname="Stefano Previdi">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils">
+    <author initials="C." surname="Filsfils" fullname="Clarence Filsfils">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Arjun Sreekantiah" initials="A." surname="Sreekantiah">
+    <author initials="A." surname="Sreekantiah" fullname="Arjun Sreekantiah">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Saikat Ray" initials="S." surname="Ray">
+    <author initials="S." surname="Ray" fullname="Saikat Ray">
       <organization>Unaffiliated</organization>
     </author>
-    <author fullname="Hannes Gredler" initials="H." surname="Gredler">
+    <author initials="H." surname="Gredler" fullname="Hannes Gredler">
       <organization>Juniper Networks</organization>
     </author>
-    <date year="2015" month="July" day="20"/>
+    <date day="20" month="July" year="2015"></date>
     <abstract>
-      <t>Segment Routing (SR) architecture allows a node to steer a packet flow through any topological path and service chain by leveraging source routing. The ingress node prepends a SR header to a packet containing a set of "segments". Each segment represents a topological or a service-based instruction. Per-flow state is maintained only at the ingress node of the SR domain. This document describes the BGP extension for announcing BGP Prefix Segment Identifier (BGP Prefix SID) information.</t>
+      <t>   Segment Routing (SR) architecture allows a node to steer a packet
+   flow through any topological path and service chain by leveraging
+   source routing.  The ingress node prepends a SR header to a packet
+   containing a set of "segments".  Each segment represents a
+   topological or a service-based instruction.  Per-flow state is
+   maintained only at the ingress node of the SR domain.
+
+   This document describes the BGP extension for announcing BGP Prefix
+   Segment Identifier (BGP Prefix SID) information.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-keyupate-idr-bgp-prefix-sid-05"/>
 </reference>

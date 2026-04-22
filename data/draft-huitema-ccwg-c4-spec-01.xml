@@ -1,19 +1,29 @@
 <reference anchor="I-D.huitema-ccwg-c4-spec" target="https://datatracker.ietf.org/doc/html/draft-huitema-ccwg-c4-spec-01">
   <front>
     <title>Specification of Christian's Congestion Control Code (C4)</title>
-    <author fullname="Christian Huitema" initials="C." surname="Huitema">
+    <seriesInfo name="Internet-Draft" value="draft-huitema-ccwg-c4-spec-01"/>
+    <author initials="C." surname="Huitema" fullname="Christian Huitema">
       <organization>Private Octopus Inc.</organization>
     </author>
-    <author fullname="Suhas Nandakumar" initials="S." surname="Nandakumar">
+    <author initials="S." surname="Nandakumar" fullname="Suhas Nandakumar">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Cullen Fluffy Jennings" initials="C. F." surname="Jennings">
+    <author initials="C. F." surname="Jennings" fullname="Cullen Fluffy Jennings">
       <organization>Cisco</organization>
     </author>
-    <date year="2026" month="February" day="26"/>
+    <date day="26" month="February" year="2026"></date>
     <abstract>
-      <t>Christian's Congestion Control Code is a new congestion control algorithm designed to support Real-Time applications such as Media over QUIC. It is designed to drive towards low delays, with good support for the "application limited" behavior frequently found when using variable rate encoding, and with fast reaction to congestion to avoid the "priority inversion" happening when congestion control overestimates the available capacity. The design emphasizes simplicity and avoids making too many assumptions about the "model" of the network.</t>
+      <t>   Christian's Congestion Control Code is a new congestion control
+   algorithm designed to support Real-Time applications such as Media
+   over QUIC.  It is designed to drive towards low delays, with good
+   support for the "application limited" behavior frequently found when
+   using variable rate encoding, and with fast reaction to congestion to
+   avoid the "priority inversion" happening when congestion control
+   overestimates the available capacity.  The design emphasizes
+   simplicity and avoids making too many assumptions about the "model"
+   of the network.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-huitema-ccwg-c4-spec-01"/>
 </reference>

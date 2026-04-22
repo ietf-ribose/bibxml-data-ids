@@ -1,37 +1,55 @@
 <reference anchor="I-D.dawra-idr-bgp-ls-sr-service-segments" target="https://datatracker.ietf.org/doc/html/draft-dawra-idr-bgp-ls-sr-service-segments-02">
   <front>
     <title>BGP-LS Advertisement of Segment Routing Service Segments</title>
-    <author fullname="Gaurav Dawra" initials="G." surname="Dawra">
+    <seriesInfo name="Internet-Draft" value="draft-dawra-idr-bgp-ls-sr-service-segments-02"/>
+    <author initials="G." surname="Dawra" fullname="Gaurav Dawra">
       <organization>LinkedIn</organization>
     </author>
-    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils">
+    <author initials="C." surname="Filsfils" fullname="Clarence Filsfils">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Daniel Bernier" initials="D." surname="Bernier">
+    <author initials="D." surname="Bernier" fullname="Daniel Bernier">
       <organization>Bell Canada</organization>
     </author>
-    <author fullname="Jim Uttaro" initials="J." surname="Uttaro">
+    <author initials="J." surname="Uttaro" fullname="Jim Uttaro">
       <organization>AT&amp;T</organization>
     </author>
-    <author fullname="Bruno Decraene" initials="B." surname="Decraene">
+    <author initials="B." surname="Decraene" fullname="Bruno Decraene">
       <organization>Orange</organization>
     </author>
-    <author fullname="Hani Elmalky" initials="H." surname="Elmalky">
+    <author initials="H." surname="Elmalky" fullname="Hani Elmalky">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Xiaohu Xu" initials="X." surname="Xu">
+    <author initials="X." surname="Xu" fullname="Xiaohu Xu">
       <organization>Alibaba</organization>
     </author>
-    <author fullname="Francois Clad" initials="F." surname="Clad">
+    <author initials="F." surname="Clad" fullname="Francois Clad">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Ketan Talaulikar" initials="K." surname="Talaulikar">
+    <author initials="K." surname="Talaulikar" fullname="Ketan Talaulikar">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2019" month="July" day="8"/>
+    <date day="08" month="July" year="2019"></date>
     <abstract>
-      <t>BGP Link-State (BGP-LS) enables distribution of topology information from the network to a Path Computation Engine (PCE) or any controller/application in general so it can learn the network topology. Service functions are deployed as virtualized elements along with network elements or on servers in data centers. The advertisement of such attached service capabilities along with the network nodes that they are attached to or associated with enable their discovery and for programming of service paths that use these service functions. Segment Routing (SR) bring in the concept of segments which can be topological or service instructions. SR Policies enable setup of paths which are a mix of topological and service segments. This document specifies the extensions to BGP-LS for discovery and advertisement of service segments so as to enable setup of service programming paths using Segment Routing.</t>
+      <t>   BGP Link-State (BGP-LS) enables distribution of topology information
+   from the network to a Path Computation Engine (PCE) or any
+   controller/application in general so it can learn the network
+   topology.  Service functions are deployed as virtualized elements
+   along with network elements or on servers in data centers.  The
+   advertisement of such attached service capabilities along with the
+   network nodes that they are attached to or associated with enable
+   their discovery and for programming of service paths that use these
+   service functions.  Segment Routing (SR) bring in the concept of
+   segments which can be topological or service instructions.  SR
+   Policies enable setup of paths which are a mix of topological and
+   service segments.
+
+   This document specifies the extensions to BGP-LS for discovery and
+   advertisement of service segments so as to enable setup of service
+   programming paths using Segment Routing.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-dawra-idr-bgp-ls-sr-service-segments-02"/>
 </reference>

@@ -1,28 +1,41 @@
 <reference anchor="I-D.kumar-sfc-nsh-udp-transport" target="https://datatracker.ietf.org/doc/html/draft-kumar-sfc-nsh-udp-transport-03">
   <front>
     <title>UDP Transport for Network Service Header</title>
-    <author fullname="Surendra Kumar" initials="S." surname="Kumar">
+    <seriesInfo name="Internet-Draft" value="draft-kumar-sfc-nsh-udp-transport-03"/>
+    <author initials="S." surname="Kumar" fullname="Surendra Kumar">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Larry Kreeger" initials="L." surname="Kreeger">
+    <author initials="L." surname="Kreeger" fullname="Larry Kreeger">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Sumandra Majee" initials="S." surname="Majee">
+    <author initials="S." surname="Majee" fullname="Sumandra Majee">
       <organization>F5 Networks</organization>
     </author>
-    <author fullname="Walter Haeffner" initials="W." surname="Haeffner">
+    <author initials="W." surname="Haeffner" fullname="Walter Haeffner">
       <organization>Vodafone</organization>
     </author>
-    <author fullname="Rajeev Manur" initials="R." surname="Manur">
+    <author initials="R." surname="Manur" fullname="Rajeev Manur">
       <organization>Broadcom</organization>
     </author>
-    <author fullname="David T. Melman" initials="D. T." surname="Melman">
+    <author initials="D. T." surname="Melman" fullname="David T. Melman">
       <organization>Marvell</organization>
     </author>
-    <date year="2017" month="February" day="22"/>
+    <date day="22" month="February" year="2017"></date>
     <abstract>
-      <t>This draft describes the transport encapsulation to carry Network Service Header (NSH) over UDP transport protocol. This enables applications and services using NSH to communicate over a simple layer-3 network without topological constraints. It brings down the barrier to deploy NSH by not requiring additional overhead as is typical of overlay encapsulation mechanisms designed on top of UDP. As a first benefit, this method eases the deployment of Service Function Chaining (SFC) by allowing SFC components to utilize the basic UDP/IP stack available in virtually all network elements and end systems to setup the virtual network and realize Service Function Chains (SFCs).</t>
+      <t>   This draft describes the transport encapsulation to carry Network
+   Service Header (NSH) over UDP transport protocol.  This enables
+   applications and services using NSH to communicate over a simple
+   layer-3 network without topological constraints.  It brings down the
+   barrier to deploy NSH by not requiring additional overhead as is
+   typical of overlay encapsulation mechanisms designed on top of UDP.
+
+   As a first benefit, this method eases the deployment of Service
+   Function Chaining (SFC) by allowing SFC components to utilize the
+   basic UDP/IP stack available in virtually all network elements and
+   end systems to setup the virtual network and realize Service Function
+   Chains (SFCs).
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kumar-sfc-nsh-udp-transport-03"/>
 </reference>

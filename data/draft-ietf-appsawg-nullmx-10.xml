@@ -1,16 +1,17 @@
 <reference anchor="I-D.ietf-appsawg-nullmx" target="https://datatracker.ietf.org/doc/html/draft-ietf-appsawg-nullmx-10">
   <front>
     <title>A "Null MX" No Service Resource Record for Domains That Accept No Mail</title>
-    <author fullname="John R. Levine" initials="J. R." surname="Levine">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-appsawg-nullmx-10"/>
+    <author initials="J. R." surname="Levine" fullname="John R. Levine">
       <organization>Taughannock Networks</organization>
     </author>
-    <author fullname="Mark Delany" initials="M." surname="Delany">
+    <author initials="M." surname="Delany" fullname="Mark Delany">
       <organization>Apple Inc.</organization>
     </author>
-    <date year="2014" month="September" day="13"/>
+    <date day="13" month="September" year="2014"></date>
     <abstract>
-      <t>Internet mail determines the address of a receiving server through the DNS, first by looking for an MX record and then by looking for an A/AAAA record as a fallback. Unfortunately, this means that the A/AAAA record is taken to be mail server address even when that address does not accept mail. The No Service MX RR, informally called "null MX", formalizes the existing mechanism by which a domain announces that it accepts no mail, without having to provide a mail server; this permits significant operational efficiencies.</t>
+      <t>Internet mail determines the address of a receiving server through the DNS, first by looking for an MX record and then by looking for an A/AAAA record as a fallback.  Unfortunately, this means that the A/AAAA record is taken to be mail server address even when that address does not accept mail.  The No Service MX RR, informally called "null MX", formalizes the existing mechanism by which a domain announces that it accepts no mail, without having to provide a mail server; this permits significant operational efficiencies.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-appsawg-nullmx-10"/>
 </reference>

@@ -1,16 +1,23 @@
 <reference anchor="I-D.ietf-conex-abstract-mech" target="https://datatracker.ietf.org/doc/html/draft-ietf-conex-abstract-mech-03">
   <front>
     <title>Congestion Exposure (ConEx) Concepts and Abstract Mechanism</title>
-    <author fullname="Matt Mathis" initials="M." surname="Mathis">
-      <organization/>
-    </author>
-    <author fullname="Bob Briscoe" initials="B." surname="Briscoe">
-      <organization/>
-    </author>
-    <date year="2011" month="October" day="31"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-conex-abstract-mech-03"/>
+    <author initials="M." surname="Mathis" fullname="Matt Mathis"/>
+    <author initials="B." surname="Briscoe" fullname="Bob Briscoe"/>
+    <date day="31" month="October" year="2011"></date>
     <abstract>
-      <t>This document describes an abstract mechanism by which senders inform the network about the congestion encountered by packets earlier in the same flow. Today, the network may signal congestion to the receiver by ECN markings or by dropping packets, and the receiver passes this information back to the sender in transport-layer feedback. The mechanism to be developed by the ConEx WG will enable the sender to also relay this congestion information back into the network in-band at the IP layer, such that the total level of congestion is visible to all IP devices along the path, where it could, for example, be used to provide input to traffic management.</t>
+      <t>   This document describes an abstract mechanism by which senders inform
+   the network about the congestion encountered by packets earlier in
+   the same flow.  Today, the network may signal congestion to the
+   receiver by ECN markings or by dropping packets, and the receiver
+   passes this information back to the sender in transport-layer
+   feedback.  The mechanism to be developed by the ConEx WG will enable
+   the sender to also relay this congestion information back into the
+   network in-band at the IP layer, such that the total level of
+   congestion is visible to all IP devices along the path, where it
+   could, for example, be used to provide input to traffic management.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-conex-abstract-mech-03"/>
 </reference>

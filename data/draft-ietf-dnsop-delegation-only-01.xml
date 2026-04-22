@@ -1,16 +1,28 @@
 <reference anchor="I-D.ietf-dnsop-delegation-only" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-delegation-only-01">
   <front>
     <title>The DELEGATION_ONLY DNSKEY flag</title>
-    <author fullname="Paul Wouters" initials="P." surname="Wouters">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-delegation-only-01"/>
+    <author initials="P." surname="Wouters" fullname="Paul Wouters">
       <organization>Red Hat</organization>
     </author>
-    <author fullname="Wes Hardaker" initials="W." surname="Hardaker">
+    <author initials="W." surname="Hardaker" fullname="Wes Hardaker">
       <organization>USC/ISI</organization>
     </author>
-    <date year="2020" month="July" day="13"/>
+    <date day="13" month="July" year="2020"></date>
     <abstract>
-      <t>This document introduces a new DNSKEY flag called DELEGATION_ONLY that indicates that this zone will only produce delegation responses for data outside of its own apex (or _underscore labels). That is, the Answer Section for queries that do not involve the apex (or _underscore labels) of the zone is empty, and only glue records in the Authority Section and Additional Section will be acceptable data in the response message. Additionally, it indicates that it is not expected that the parent of this delegation-only zone bypasses or removes the delegation to this zone. DNSSEC Validating Resolvers can use this flag to mark any data that violates the DELEGATION_ONLY policy as Bogus.</t>
+      <t>   This document introduces a new DNSKEY flag called DELEGATION_ONLY
+   that indicates that this zone will only produce delegation responses
+   for data outside of its own apex (or _underscore labels).  That is,
+   the Answer Section for queries that do not involve the apex (or
+   _underscore labels) of the zone is empty, and only glue records in
+   the Authority Section and Additional Section will be acceptable data
+   in the response message.  Additionally, it indicates that it is not
+   expected that the parent of this delegation-only zone bypasses or
+   removes the delegation to this zone.  DNSSEC Validating Resolvers can
+   use this flag to mark any data that violates the DELEGATION_ONLY
+   policy as Bogus.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-delegation-only-01"/>
 </reference>

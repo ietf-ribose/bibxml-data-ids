@@ -1,16 +1,31 @@
 <reference anchor="I-D.vandemeent-jis-identity" target="https://datatracker.ietf.org/doc/html/draft-vandemeent-jis-identity-01">
   <front>
     <title>JIS: JTel Identity Standard - Identity and Trust Establishment for Autonomous Agents</title>
-    <author fullname="Jasper van de Meent" initials="J." surname="van de Meent">
+    <seriesInfo name="Internet-Draft" value="draft-vandemeent-jis-identity-01"/>
+    <author initials="J." surname="van de Meent" fullname="Jasper van de Meent">
       <organization>Humotica</organization>
     </author>
-    <author fullname="Root AI" initials="R." surname="AI">
+    <author initials="R." surname="AI" fullname="Root AI">
       <organization>Humotica</organization>
     </author>
-    <date year="2026" month="March" day="29"/>
+    <date day="29" month="March" year="2026"></date>
     <abstract>
-      <t>This document defines JIS (JTel Identity Standard), a protocol for establishing identity, negotiating trust, and binding intent declarations to actor interactions. JIS provides three core mechanisms: a dual-keypair identity model separating human-device binding (HID) from device authentication (DID), a trust establishment handshake (FIR/A) that negotiates capabilities and records intent, and a human-readable context layer (Humotica) that captures the sense, context, intent, and explanation for every interaction. JIS is transport-agnostic and operates as a semantic layer above existing protocols. It integrates with TIBET [TIBET] for provenance tracking, and is consumed by UPIP [UPIP], RVP [RVP], and AINS [AINS] for process integrity, continuous verification, and agent discovery respectively.</t>
+      <t>   This document defines JIS (JTel Identity Standard), a protocol for
+   establishing identity, negotiating trust, and binding intent
+   declarations to actor interactions.  JIS provides three core
+   mechanisms: a dual-keypair identity model separating human-device
+   binding (HID) from device authentication (DID), a trust establishment
+   handshake (FIR/A) that negotiates capabilities and records intent,
+   and a human-readable context layer (Humotica) that captures the
+   sense, context, intent, and explanation for every interaction.
+
+   JIS is transport-agnostic and operates as a semantic layer above
+   existing protocols.  It integrates with TIBET [TIBET] for provenance
+   tracking, and is consumed by UPIP [UPIP], RVP [RVP], and AINS [AINS]
+   for process integrity, continuous verification, and agent discovery
+   respectively.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-vandemeent-jis-identity-01"/>
 </reference>

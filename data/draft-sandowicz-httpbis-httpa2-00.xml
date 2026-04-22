@@ -1,25 +1,38 @@
 <reference anchor="I-D.sandowicz-httpbis-httpa2" target="https://datatracker.ietf.org/doc/html/draft-sandowicz-httpbis-httpa2-00">
   <front>
     <title>The Hypertext Transfer Protocol Attestable (HTTPA) Version 2</title>
-    <author fullname="Hans Wang" initials="H." surname="Wang">
+    <seriesInfo name="Internet-Draft" value="draft-sandowicz-httpbis-httpa2-00"/>
+    <author initials="H." surname="Wang" fullname="Hans Wang">
       <organization>Intel</organization>
     </author>
-    <author fullname="Gordon King" initials="G." surname="King">
+    <author initials="G." surname="King" fullname="Gordon King">
       <organization>Intel</organization>
     </author>
-    <author fullname="Nick Li" initials="N." surname="Li">
+    <author initials="N." surname="Li" fullname="Nick Li">
       <organization>Intel</organization>
     </author>
-    <author fullname="Ned Smith" initials="N." surname="Smith">
+    <author initials="N." surname="Smith" fullname="Ned Smith">
       <organization>Intel</organization>
     </author>
-    <author fullname="Krzysztof Sandowicz" initials="K." surname="Sandowicz">
+    <author initials="K." surname="Sandowicz" fullname="Krzysztof Sandowicz">
       <organization>Intel</organization>
     </author>
-    <date year="2022" month="October" day="13"/>
+    <date day="13" month="October" year="2022"></date>
     <abstract>
-      <t>The Hypertext Transfer Protocol Attestable version 2 (HTTPA/2) is an HTTP extension. It is a transaction-based protocol agnostic to Transport Layer Security (TLS) in which the Trusted Execution Environment (TEE) is considered a new type of requested resource over the Internet. The original Hypertext Transfer Protocol Attestable (HTTPA) (referred to as HTTPA/1 in the rest of the document) includes remote attestation (RA) process onto the HTTPS protocol in the assumption of using Transport Layer Security (TLS) across the Internet. In contrast, the design of HTTPA/2 could establish a trusted (attested) and more secure communication without dependence on TLS.</t>
+      <t>   The Hypertext Transfer Protocol Attestable version 2 (HTTPA/2) is an
+   HTTP extension.  It is a transaction-based protocol agnostic to
+   Transport Layer Security (TLS) in which the Trusted Execution
+   Environment (TEE) is considered a new type of requested resource over
+   the Internet.  The original Hypertext Transfer Protocol Attestable
+   (HTTPA) (referred to as HTTPA/1 in the rest of the document) includes
+   remote attestation (RA) process onto the HTTPS protocol in the
+   assumption of using Transport Layer Security (TLS) across the
+   Internet.  In contrast, the design of HTTPA/2 could establish a
+   trusted (attested) and more secure communication without dependence
+   on TLS.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sandowicz-httpbis-httpa2-00"/>
 </reference>

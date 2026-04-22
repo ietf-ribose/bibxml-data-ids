@@ -1,25 +1,33 @@
 <reference anchor="I-D.ietf-ospf-ospfv3-lsa-extend" target="https://datatracker.ietf.org/doc/html/draft-ietf-ospf-ospfv3-lsa-extend-16">
   <front>
     <title>OSPFv3 LSA Extendibility</title>
-    <author fullname="Acee Lindem" initials="A." surname="Lindem">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-ospfv3-lsa-extend-16"/>
+    <author initials="A." surname="Lindem" fullname="Acee Lindem">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Abhay Roy" initials="A." surname="Roy">
+    <author initials="A." surname="Roy" fullname="Abhay Roy">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Dirk Goethals" initials="D." surname="Goethals">
+    <author initials="D." surname="Goethals" fullname="Dirk Goethals">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Veerendranatha Reddy Vallem" initials="V. R." surname="Vallem">
+    <author initials="V. R." surname="Vallem" fullname="Veerendranatha Reddy Vallem">
       <organization>Huawei, Inc</organization>
     </author>
-    <author fullname="Fred Baker" initials="F." surname="Baker">
-      <organization/>
-    </author>
-    <date year="2017" month="October" day="28"/>
+    <author initials="F." surname="Baker" fullname="Fred Baker"/>
+    <date day="28" month="October" year="2017"></date>
     <abstract>
-      <t>OSPFv3 requires functional extension beyond what can readily be done with the fixed-format Link State Advertisement (LSA) as described in RFC 5340. Without LSA extension, attributes associated with OSPFv3 links and advertised IPv6 prefixes must be advertised in separate LSAs and correlated to the fixed-format LSAs. This document extends the LSA format by encoding the existing OSPFv3 LSA information in Type-Length-Value (TLV) tuples and allowing advertisement of additional information with additional TLVs. Backward compatibility mechanisms are also described.</t>
+      <t>   OSPFv3 requires functional extension beyond what can readily be done
+   with the fixed-format Link State Advertisement (LSA) as described in
+   RFC 5340.  Without LSA extension, attributes associated with OSPFv3
+   links and advertised IPv6 prefixes must be advertised in separate
+   LSAs and correlated to the fixed-format LSAs.  This document extends
+   the LSA format by encoding the existing OSPFv3 LSA information in
+   Type-Length-Value (TLV) tuples and allowing advertisement of
+   additional information with additional TLVs.  Backward compatibility
+   mechanisms are also described.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-ospfv3-lsa-extend-16"/>
 </reference>

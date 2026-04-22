@@ -1,22 +1,40 @@
 <reference anchor="I-D.ietf-behave-syslog-nat-logging" target="https://datatracker.ietf.org/doc/html/draft-ietf-behave-syslog-nat-logging-06">
   <front>
     <title>Syslog Format for NAT Logging</title>
-    <author fullname="Zhonghua Chen" initials="Z." surname="Chen">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-behave-syslog-nat-logging-06"/>
+    <author initials="Z." surname="Chen" fullname="Zhonghua Chen">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Cathy Zhou" initials="C." surname="Zhou">
+    <author initials="C." surname="Zhou" fullname="Cathy Zhou">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Tina Tsou (Ting ZOU)" initials="T." surname="Tsou">
+    <author initials="T." surname="Tsou" fullname="Tina Tsou (Ting ZOU)">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Tom Taylor" initials="T." surname="Taylor">
+    <author initials="T." surname="Taylor" fullname="Tom Taylor">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2014" month="January" day="24"/>
+    <date day="24" month="January" year="2014"></date>
     <abstract>
-      <t>NAT devices are required to log events like creation and deletion of translations and information about the resources the NAT is managing. The logs are required to identify an attacker or a host that was used to launch malicious attacks, and for various other purposes of accounting and management. Since there is no standard way of logging this information, different NAT devices behave differently. The lack of a consistent way makes it difficult to write the collector applications that would receive this data and process it to present useful information. This document describes the information that is required to be logged by the NAT devices. It goes on to standardize formats for reporting these events and parameters using SYSLOG (RFC 5424). A companion document specifies formats for reporting the same events and parameters using IPFIX (RFC 7011). Applicability statements are provided in this document and its companion to guide operators and implementors in their choice of which technology to use for logging.</t>
+      <t>   NAT devices are required to log events like creation and deletion of
+   translations and information about the resources the NAT is managing.
+   The logs are required to identify an attacker or a host that was used
+   to launch malicious attacks, and for various other purposes of
+   accounting and management.  Since there is no standard way of logging
+   this information, different NAT devices behave differently.  The lack
+   of a consistent way makes it difficult to write the collector
+   applications that would receive this data and process it to present
+   useful information.
+
+   This document describes the information that is required to be logged
+   by the NAT devices.  It goes on to standardize formats for reporting
+   these events and parameters using SYSLOG (RFC 5424).  A companion
+   document specifies formats for reporting the same events and
+   parameters using IPFIX (RFC 7011).  Applicability statements are
+   provided in this document and its companion to guide operators and
+   implementors in their choice of which technology to use for logging.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-behave-syslog-nat-logging-06"/>
 </reference>

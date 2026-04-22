@@ -1,16 +1,25 @@
 <reference anchor="I-D.ietf-ldapext-referral" target="https://datatracker.ietf.org/doc/html/draft-ietf-ldapext-referral-00">
   <front>
     <title>Referrals and Knowledge References in LDAP Directories</title>
-    <author fullname="Mark Wahl" initials="M." surname="Wahl">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ldapext-referral-00"/>
+    <author initials="M." surname="Wahl" fullname="Mark Wahl">
       <organization>Critical Angle</organization>
     </author>
-    <author fullname="Tim Howes" initials="T." surname="Howes">
+    <author initials="T." surname="Howes" fullname="Tim Howes">
       <organization>Netscape Communications Corp.</organization>
     </author>
-    <date year="1998" month="March" day="13"/>
+    <date day="13" month="March" year="1998"></date>
     <abstract>
-      <t>This document defines a ''ref'' attribute and associated ''referral'' object class for representing generic knowledge information in LDAP directories [RFC2251]. The attribute uses URIs [RFC1738] to represent knowledge, enabling LDAP and non-LDAP services alike to be referenced. The object class can be used to construct entries in an LDAP directory containing references to other directories or services. This document also defines procedures directory servers should follow when supporting these schema elements.</t>
+      <t>This document defines a ''ref'' attribute and associated ''referral'' object
+class for representing generic knowledge information in LDAP directories
+[RFC2251].  The attribute uses URIs [RFC1738] to represent knowledge,
+enabling LDAP and non-LDAP services alike to be referenced.  The object
+class can be used to construct entries in an LDAP directory containing
+references to other directories or services. This document also defines
+procedures directory servers should follow when supporting these schema
+elements.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ldapext-referral-00"/>
 </reference>

@@ -1,16 +1,21 @@
 <reference anchor="I-D.blanton-dupack-thresh-adjust" target="https://datatracker.ietf.org/doc/html/draft-blanton-dupack-thresh-adjust-00">
   <front>
     <title>Adjusting the Duplicate ACK Threshold to Avoid Spurious Retransmits</title>
-    <author fullname="Ethan Blanton" initials="E." surname="Blanton">
+    <seriesInfo name="Internet-Draft" value="draft-blanton-dupack-thresh-adjust-00"/>
+    <author initials="E." surname="Blanton" fullname="Ethan Blanton">
       <organization>Ohio University</organization>
     </author>
-    <author fullname="Mark Allman" initials="M." surname="Allman">
+    <author initials="M." surname="Allman" fullname="Mark Allman">
       <organization>BBN/NASA GRC</organization>
     </author>
-    <date year="2001" month="July" day="16"/>
+    <date day="16" month="July" year="2001"></date>
     <abstract>
-      <t>This document outlines steps TCP and SCTP senders can take after the determine that a spurious retransmission has been sent to revert a needless change of the congestion control state. In addition, we present several methods to prevent or mitigate unnecessary TCP and SCTP fast retransmits in the face of segment reordering.</t>
+      <t>This document outlines steps TCP and SCTP senders can take after the
+determine that a spurious retransmission has been sent to revert a
+needless change of the congestion control state.  In addition, we
+present several methods to prevent or mitigate unnecessary TCP and
+SCTP fast retransmits in the face of segment reordering.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-blanton-dupack-thresh-adjust-00"/>
 </reference>

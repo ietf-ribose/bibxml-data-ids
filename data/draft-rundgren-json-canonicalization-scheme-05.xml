@@ -1,19 +1,32 @@
 <reference anchor="I-D.rundgren-json-canonicalization-scheme" target="https://datatracker.ietf.org/doc/html/draft-rundgren-json-canonicalization-scheme-05">
   <front>
     <title>JSON Canonicalization Scheme (JCS)</title>
-    <author fullname="Anders Rundgren" initials="A." surname="Rundgren">
+    <seriesInfo name="Internet-Draft" value="draft-rundgren-json-canonicalization-scheme-05"/>
+    <author initials="A." surname="Rundgren" fullname="Anders Rundgren">
       <organization>Independent</organization>
     </author>
-    <author fullname="Bret Jordan" initials="B." surname="Jordan">
+    <author initials="B." surname="Jordan" fullname="Bret Jordan">
       <organization>Symantec Corporation</organization>
     </author>
-    <author fullname="Samuel Erdtman" initials="S." surname="Erdtman">
+    <author initials="S." surname="Erdtman" fullname="Samuel Erdtman">
       <organization>Spotify AB</organization>
     </author>
-    <date year="2019" month="February" day="16"/>
+    <date day="16" month="February" year="2019"></date>
     <abstract>
-      <t>Cryptographic operations like hashing and signing requires that the original data does not change during serialization or parsing. By applying the rules defined by the JSON Canonicalization Scheme (JCS), data provided in JSON [RFC8259] format can be exchanged "as is", while still being usable by secure cryptographic operations. JCS achieves this by building on the strict serialization formats for JSON primitives defined by ECMAScript [ES6], constraining JSON data to the I-JSON [RFC7493] subset, and through a platform independent property sorting scheme. The intended audiences of this document are JSON tool vendors, as well as designers of JSON based cryptographic solutions.</t>
+      <t>   Cryptographic operations like hashing and signing requires that the
+   original data does not change during serialization or parsing.  By
+   applying the rules defined by the JSON Canonicalization Scheme (JCS),
+   data provided in JSON [RFC8259] format can be exchanged "as is",
+   while still being usable by secure cryptographic operations.  JCS
+   achieves this by building on the strict serialization formats for
+   JSON primitives defined by ECMAScript [ES6], constraining JSON data
+   to the I-JSON [RFC7493] subset, and through a platform independent
+   property sorting scheme.
+
+   The intended audiences of this document are JSON tool vendors, as
+   well as designers of JSON based cryptographic solutions.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-rundgren-json-canonicalization-scheme-05"/>
 </reference>

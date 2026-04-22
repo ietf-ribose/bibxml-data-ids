@@ -1,22 +1,35 @@
 <reference anchor="I-D.ietf-dhc-dhcpv6-pd-relay-requirements" target="https://datatracker.ietf.org/doc/html/draft-ietf-dhc-dhcpv6-pd-relay-requirements-00">
   <front>
     <title>DHCPv6 Prefix Delegating Relay</title>
-    <author fullname="Ian Farrer" initials="I." surname="Farrer">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dhc-dhcpv6-pd-relay-requirements-00"/>
+    <author initials="I." surname="Farrer" fullname="Ian Farrer">
       <organization>Deutsche Telekom AG</organization>
     </author>
-    <author fullname="Naveen Kottapalli" initials="N." surname="Kottapalli">
+    <author initials="N." surname="Kottapalli" fullname="Naveen Kottapalli">
       <organization>Benu Networks</organization>
     </author>
-    <author fullname="Martin Huněk" initials="M." surname="Huněk">
+    <author initials="M." surname="Huněk" fullname="Martin Huněk">
       <organization>Technical University of Liberec</organization>
     </author>
-    <author fullname="Richard Patterson" initials="R." surname="Patterson">
-      <organization/>
-    </author>
-    <date year="2020" month="March" day="5"/>
+    <author initials="R." surname="Patterson" fullname="Richard Patterson"/>
+    <date day="05" month="March" year="2020"></date>
     <abstract>
-      <t>Operational experience with DHCPv6 prefix delegation has shown that when the DHCPv6 relay function is not co-located with the DHCPv6 server function, issues such as timer synchronization between the DHCP functional elements, rejection of client's messages by the relay, and other problems have been observed. These problems can result in prefix delegation failing or traffic to/from clients addressed from the delegated prefix being unrouteable. Although [RFC8415] mentions this deployment scenario, it does not provide necessary detail on how the relay element should behave when used with PD. This document describes functional requirements for a DHCPv6 PD relay when used for relaying prefixes delegated by a separate DHCPv6 server.</t>
+      <t>   Operational experience with DHCPv6 prefix delegation has shown that
+   when the DHCPv6 relay function is not co-located with the DHCPv6
+   server function, issues such as timer synchronization between the
+   DHCP functional elements, rejection of client's messages by the
+   relay, and other problems have been observed.  These problems can
+   result in prefix delegation failing or traffic to/from clients
+   addressed from the delegated prefix being unrouteable.  Although
+   [RFC8415] mentions this deployment scenario, it does not provide
+   necessary detail on how the relay element should behave when used
+   with PD.
+
+   This document describes functional requirements for a DHCPv6 PD relay
+   when used for relaying prefixes delegated by a separate DHCPv6
+   server.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dhc-dhcpv6-pd-relay-requirements-00"/>
 </reference>

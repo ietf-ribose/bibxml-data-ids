@@ -1,16 +1,26 @@
 <reference anchor="I-D.liu-mpls-rsvp-te-gr-frr" target="https://datatracker.ietf.org/doc/html/draft-liu-mpls-rsvp-te-gr-frr-00">
   <front>
     <title>RSVP-TE Graceful Restart under Fast Re-route conditions</title>
-    <author fullname="Autumn Liu" initials="A." surname="Liu">
+    <seriesInfo name="Internet-Draft" value="draft-liu-mpls-rsvp-te-gr-frr-00"/>
+    <author initials="A." surname="Liu" fullname="Autumn Liu">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Sriganesh Kini" initials="S." surname="Kini">
+    <author initials="S." surname="Kini" fullname="Sriganesh Kini">
       <organization>Ericsson</organization>
     </author>
-    <date year="2009" month="October" day="15"/>
+    <date day="15" month="October" year="2009"></date>
     <abstract>
-      <t>During RSVP-TE graceful restart (GR), the LSR communicates with its directly connected neighbors to synchronize LSP state to recover from control plane failure conditions. However, when the LSP has undergone a Fast Re-route (FRR), the directly connected neighbor of the Point of Local Repair (PLR) or Merge Point (MP) could be down. The FRR condition of the LSP could exist for a substantial period of time. During this period the network is vulnerable to traffic loss if control plane experiences a failure on the PLR or MP. This draft describes a mechanism to extend RSVP- TE GR to work under conditions where FRR has occurred.</t>
+      <t>During RSVP-TE graceful restart (GR), the LSR communicates with
+ its directly connected neighbors to synchronize LSP state to
+ recover from control plane failure conditions. However, when the
+ LSP has undergone a Fast Re-route (FRR), the directly connected
+ neighbor of the Point of Local Repair (PLR) or Merge Point (MP)
+ could be down. The FRR condition of the LSP could exist for a
+ substantial period of time. During this period the network is
+ vulnerable to traffic loss if control plane experiences a failure
+ on the PLR or MP. This draft describes a mechanism to extend RSVP-
+ TE GR to work under conditions where FRR has occurred.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-liu-mpls-rsvp-te-gr-frr-00"/>
 </reference>

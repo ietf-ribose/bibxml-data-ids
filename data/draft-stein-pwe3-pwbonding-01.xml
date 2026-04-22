@@ -1,19 +1,29 @@
 <reference anchor="I-D.stein-pwe3-pwbonding" target="https://datatracker.ietf.org/doc/html/draft-stein-pwe3-pwbonding-01">
   <front>
     <title>PW Bonding</title>
-    <author fullname="Yaakov (J) Stein" initials="Y. J." surname="Stein">
+    <seriesInfo name="Internet-Draft" value="draft-stein-pwe3-pwbonding-01"/>
+    <author initials="Y. J." surname="Stein" fullname="Yaakov (J) Stein">
       <organization>RAD Data Communications</organization>
     </author>
-    <author fullname="Itai Mendelsohn" initials="I." surname="Mendelsohn">
+    <author initials="I." surname="Mendelsohn" fullname="Itai Mendelsohn">
       <organization>RAD Data Communications</organization>
     </author>
-    <author fullname="Ron Insler" initials="R." surname="Insler">
+    <author initials="R." surname="Insler" fullname="Ron Insler">
       <organization>RAD Data Communications</organization>
     </author>
-    <date year="2008" month="November" day="3"/>
+    <date day="03" month="November" year="2008"></date>
     <abstract>
-      <t>There are times when pseudowires must be transported over physical links with limited bandwidth. We shall use the term "bonding" (also variously known as inverse multiplexing, link aggregation, trunking, teaming, etc.) to mean an efficient mechanism for separating the PW traffic over several links. Unlike load balancing and equal cost multipath, bonding makes no assumption that the PW traffic can be decomposed into distinguishable flows, and thus bonding requires delay compensation and packet reordering. Furthermore, PW bonding can optionally track bandwidth constraints in order to minimize packet loss.</t>
+      <t>There are times when pseudowires must be transported over physical
+links with limited bandwidth.  We shall use the term "bonding" (also
+variously known as inverse multiplexing, link aggregation, trunking,
+teaming, etc.) to mean an efficient mechanism for separating the PW
+traffic over several links.  Unlike load balancing and equal cost
+multipath, bonding makes no assumption that the PW traffic can be
+decomposed into distinguishable flows, and thus bonding requires
+delay compensation and packet reordering.  Furthermore, PW bonding
+can optionally track bandwidth constraints in order to minimize
+packet loss.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-stein-pwe3-pwbonding-01"/>
 </reference>

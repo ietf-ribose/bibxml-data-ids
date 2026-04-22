@@ -1,16 +1,26 @@
 <reference anchor="I-D.huitema-tls-sni-encryption" target="https://datatracker.ietf.org/doc/html/draft-huitema-tls-sni-encryption-00">
   <front>
     <title>SNI Encryption in TLS Through Tunneling</title>
-    <author fullname="Christian Huitema" initials="C." surname="Huitema">
+    <seriesInfo name="Internet-Draft" value="draft-huitema-tls-sni-encryption-00"/>
+    <author initials="C." surname="Huitema" fullname="Christian Huitema">
       <organization>Private Octopus Inc.</organization>
     </author>
-    <author fullname="Eric Rescorla" initials="E." surname="Rescorla">
+    <author initials="E." surname="Rescorla" fullname="Eric Rescorla">
       <organization>RTFM, Inc.</organization>
     </author>
-    <date year="2017" month="June" day="21"/>
+    <date day="21" month="June" year="2017"></date>
     <abstract>
-      <t>This draft describes the general problem of encryption of the Server Name Identification (SNI) parameter. The proposed solutions hide a Hidden Service behind a Fronting Service, only disclosing the SNI of the Fronting Service to external observers. The draft starts by listing known attacks against SNI encryption, and then presents two potential solutions that might mitigate these attacks. The first solution is based on TLS in TLS "quasi tunneling", and the second solution is based on "combined tickets". These solutions only require minimal extensions to the TLS protocol.</t>
+      <t>   This draft describes the general problem of encryption of the Server
+   Name Identification (SNI) parameter.  The proposed solutions hide a
+   Hidden Service behind a Fronting Service, only disclosing the SNI of
+   the Fronting Service to external observers.  The draft starts by
+   listing known attacks against SNI encryption, and then presents two
+   potential solutions that might mitigate these attacks.  The first
+   solution is based on TLS in TLS "quasi tunneling", and the second
+   solution is based on "combined tickets".  These solutions only
+   require minimal extensions to the TLS protocol.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-huitema-tls-sni-encryption-00"/>
 </reference>

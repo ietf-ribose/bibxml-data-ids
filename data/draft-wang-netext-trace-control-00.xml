@@ -1,16 +1,28 @@
 <reference anchor="I-D.wang-netext-trace-control" target="https://datatracker.ietf.org/doc/html/draft-wang-netext-trace-control-00">
   <front>
     <title>Trace Control Support for Proxy Mobile IPv6</title>
-    <author fullname="Yungui Wang" initials="Y." surname="Wang">
+    <seriesInfo name="Internet-Draft" value="draft-wang-netext-trace-control-00"/>
+    <author initials="Y." surname="Wang" fullname="Yungui Wang">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Qin Wu" initials="Q." surname="Wu">
+    <author initials="Q." surname="Wu" fullname="Qin Wu">
       <organization>Huawei</organization>
     </author>
-    <date year="2009" month="July" day="6"/>
+    <date day="06" month="July" year="2009"></date>
     <abstract>
-      <t>In some Proxy Mobile IPv6 (PMIPv6) [RFC5213] deployments, a mobility session needs to be traced by the back-end network manager for network diagnosis, troubleshooting, new service testing, etc. This document defines a Trace Session option for PMIPv6 protocol to control and manage (activation and de-activation) a trace session associated with a mobility session of the mobile node. This option is sent by the mobile access gateway in Proxy Binding Update message to request the local mobile anchor to activate the trace session. When the local mobile anchor successfully processes the Proxy Binding Update, it then activates the trace session and starts to record/report the traced mobility session based on the corresponding trace parameters.</t>
+      <t>In some Proxy Mobile IPv6 (PMIPv6) [RFC5213] deployments, a mobility
+session needs to be traced by the back-end network manager for
+network diagnosis, troubleshooting, new service testing, etc. This
+document defines a Trace Session option for PMIPv6 protocol to
+control and manage (activation and de-activation) a trace session
+associated with a mobility session of the mobile node. This option is
+sent by the mobile access gateway in Proxy Binding Update message to
+request the local mobile anchor to activate the trace session. When
+the local mobile anchor successfully processes the Proxy Binding
+Update, it then activates the trace session and starts to
+record/report the traced mobility session based on the corresponding
+trace parameters.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wang-netext-trace-control-00"/>
 </reference>

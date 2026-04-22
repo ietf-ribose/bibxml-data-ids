@@ -1,19 +1,32 @@
 <reference anchor="I-D.yamanouchi-radius-ext" target="https://datatracker.ietf.org/doc/html/draft-yamanouchi-radius-ext-00">
   <front>
     <title>RADIUS Extension for Multicast Router Authentication</title>
-    <author fullname="Nagatsugu Yamanouchi" initials="N." surname="Yamanouchi">
+    <seriesInfo name="Internet-Draft" value="draft-yamanouchi-radius-ext-00"/>
+    <author initials="N." surname="Yamanouchi" fullname="Nagatsugu Yamanouchi">
       <organization>NTT</organization>
     </author>
-    <author fullname="Osamu Takahashi" initials="O." surname="Takahashi">
+    <author initials="O." surname="Takahashi" fullname="Osamu Takahashi">
       <organization>NTT</organization>
     </author>
-    <author fullname="Norihiro Ishikawa" initials="N." surname="Ishikawa">
+    <author initials="N." surname="Ishikawa" fullname="Norihiro Ishikawa">
       <organization>NTT</organization>
     </author>
-    <date year="1998" month="March" day="18"/>
+    <date day="18" month="March" year="1998"></date>
     <abstract>
-      <t>This memo describes an extension of RADIUS authentication protocol (RFC2138) and RADIUS accounting protocol (RFC2139) to provide authentication service about multicast receivers and senders to the ingress and egress routers, and to keep track of the receiving and sending clients for multicast data feed service management. New services and attributes are added to the RADIUS definitions while the authentication transaction mechanisms are preserved. The authentication server authenticates the multicast receiver/sender by using the CHAP-based mechanism. The account server logs the start and stop points of multicast route usage. This extension is intended to be used in conjunction with the IGMP extension for multicast receiver and sender authentication.</t>
+      <t>     This memo describes an  extension of RADIUS authentication protocol
+     (RFC2138)   and RADIUS accounting    protocol (RFC2139) to  provide
+     authentication service about multicast receivers and senders to the
+     ingress and egress routers, and to  keep track of the receiving and
+     sending  clients for multicast data   feed service management.  New
+     services and  attributes are added  to the RADIUS definitions while
+     the   authentication transaction  mechanisms   are preserved.   The
+     authentication server  authenticates the multicast  receiver/sender
+     by using the  CHAP-based  mechanism.  The account  server  logs the
+     start and stop points of multicast route  usage.  This extension is
+     intended  to  be used in  conjunction  with the  IGMP extension for
+     multicast receiver and sender authentication.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-yamanouchi-radius-ext-00"/>
 </reference>

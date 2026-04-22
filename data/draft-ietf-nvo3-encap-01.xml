@@ -1,40 +1,51 @@
 <reference anchor="I-D.ietf-nvo3-encap" target="https://datatracker.ietf.org/doc/html/draft-ietf-nvo3-encap-01">
   <front>
     <title>NVO3 Encapsulation Considerations</title>
-    <author fullname="Sami Boutros" initials="S." surname="Boutros">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-nvo3-encap-01"/>
+    <author initials="S." surname="Boutros" fullname="Sami Boutros">
       <organization>Ed.</organization>
     </author>
-    <author fullname="Ilango Ganga" initials="I." surname="Ganga">
+    <author initials="I." surname="Ganga" fullname="Ilango Ganga">
       <organization>Intel</organization>
     </author>
-    <author fullname="Pankaj Garg" initials="P." surname="Garg">
+    <author initials="P." surname="Garg" fullname="Pankaj Garg">
       <organization>Microsoft</organization>
     </author>
-    <author fullname="Rajeev Manur" initials="R." surname="Manur">
+    <author initials="R." surname="Manur" fullname="Rajeev Manur">
       <organization>Broadcom</organization>
     </author>
-    <author fullname="Tal Mizrahi" initials="T." surname="Mizrahi">
+    <author initials="T." surname="Mizrahi" fullname="Tal Mizrahi">
       <organization>Marvell</organization>
     </author>
-    <author fullname="David Mozes" initials="D." surname="Mozes">
-      <organization/>
-    </author>
-    <author fullname="Erik Nordmark" initials="E." surname="Nordmark">
-      <organization/>
-    </author>
-    <author fullname="Michael Smith" initials="M." surname="Smith">
+    <author initials="D." surname="Mozes" fullname="David Mozes"/>
+    <author initials="E." surname="Nordmark" fullname="Erik Nordmark"/>
+    <author initials="M." surname="Smith" fullname="Michael Smith">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Sam Aldrin" initials="S." surname="Aldrin">
+    <author initials="S." surname="Aldrin" fullname="Sam Aldrin">
       <organization>Google</organization>
     </author>
-    <author fullname="Ignas Bagdonas" initials="I." surname="Bagdonas">
+    <author initials="I." surname="Bagdonas" fullname="Ignas Bagdonas">
       <organization>Equinix</organization>
     </author>
-    <date year="2017" month="October" day="25"/>
+    <date day="25" month="October" year="2017"></date>
     <abstract>
-      <t>As communicated by WG Chairs, the IETF NVO3 chairs and Routing Area director have chartered a design team to take forward the encapsulation discussion and see if there is potential to design a common encapsulation that addresses the various technical concerns. There are implications of different encapsulations in real environments consisting of both software and hardware implementations and spanning multiple data centers. For example, OAM functions such as path MTU discovery become challenging with multiple encapsulations along the data path. The design team recommend Geneve with few modifications as the common encapsulation, more details are described in section 7.</t>
+      <t>   As communicated by WG Chairs, the IETF NVO3 chairs and Routing Area
+   director have chartered a design team to take forward the
+   encapsulation discussion and see if there is potential to design a
+   common encapsulation that addresses the various technical concerns.
+
+   There are implications of different encapsulations in real
+   environments consisting of both software and hardware implementations
+   and spanning multiple data centers. For example, OAM functions such
+   as path MTU discovery become challenging with multiple encapsulations
+   along the data path.
+
+   The design team recommend Geneve with few modifications as the common
+   encapsulation, more details are described in section 7.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-nvo3-encap-01"/>
 </reference>

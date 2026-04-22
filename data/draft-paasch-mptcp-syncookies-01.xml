@@ -1,19 +1,24 @@
 <reference anchor="I-D.paasch-mptcp-syncookies" target="https://datatracker.ietf.org/doc/html/draft-paasch-mptcp-syncookies-01">
   <front>
     <title>Making Multipath TCP robust for stateless webservers</title>
-    <author fullname="Christoph Paasch" initials="C." surname="Paasch">
-      <organization/>
-    </author>
-    <author fullname="Anumita Biswas" initials="A." surname="Biswas">
-      <organization/>
-    </author>
-    <author fullname="Darren Haas" initials="D." surname="Haas">
-      <organization/>
-    </author>
-    <date year="2015" month="September" day="3"/>
+    <seriesInfo name="Internet-Draft" value="draft-paasch-mptcp-syncookies-01"/>
+    <author initials="C." surname="Paasch" fullname="Christoph Paasch"/>
+    <author initials="A." surname="Biswas" fullname="Anumita Biswas"/>
+    <author initials="D." surname="Haas" fullname="Darren Haas"/>
+    <date day="03" month="September" year="2015"></date>
     <abstract>
-      <t>This document proposes a modification of the MPTCP handshake that allows it to work efficiently with stateless servers. We first identify the issues around stateless connection establishment using SYN-cookies. Further, we suggest an extension to Multipath TCP to overcome these issues and discuss alternatives. As a side-effect, the proposed modification to the handshake opens the door to reduce the size of the MP_CAPABLE option in the SYN. This reduces the growing pressure on the TCP-option space in the SYN- segment, giving space for future extensions to TCP.</t>
+      <t>   This document proposes a modification of the MPTCP handshake that
+   allows it to work efficiently with stateless servers.  We first
+   identify the issues around stateless connection establishment using
+   SYN-cookies.  Further, we suggest an extension to Multipath TCP to
+   overcome these issues and discuss alternatives.
+
+   As a side-effect, the proposed modification to the handshake opens
+   the door to reduce the size of the MP_CAPABLE option in the SYN.
+   This reduces the growing pressure on the TCP-option space in the SYN-
+   segment, giving space for future extensions to TCP.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-paasch-mptcp-syncookies-01"/>
 </reference>

@@ -1,16 +1,25 @@
 <reference anchor="I-D.sullivan-randomness-improvements" target="https://datatracker.ietf.org/doc/html/draft-sullivan-randomness-improvements-00">
   <front>
     <title>Randomness Improvements for Security Protocols</title>
-    <author fullname="Luke Garratt" initials="L." surname="Garratt">
+    <seriesInfo name="Internet-Draft" value="draft-sullivan-randomness-improvements-00"/>
+    <author initials="L." surname="Garratt" fullname="Luke Garratt">
       <organization>University of Oxford</organization>
     </author>
-    <author fullname="Nick Sullivan" initials="N." surname="Sullivan">
+    <author initials="N." surname="Sullivan" fullname="Nick Sullivan">
       <organization>Cloudflare</organization>
     </author>
-    <date year="2017" month="October" day="30"/>
+    <date day="30" month="October" year="2017"></date>
     <abstract>
-      <t>Randomness is a crucial ingredient for TLS and related transport security protocols. Weak or predictable cryptographically-strong pseudorandom number generators (CSPRNGs) can be abused or exploited for malicious purposes. See the Dual EC random number backdoor for a relevant example of this problem. This document describes a way for security protocol participants to mix their long-term private key into the entropy pool from which random values are derived. This may help mitigate problems that stem from broken CSPRNGs.</t>
+      <t>   Randomness is a crucial ingredient for TLS and related transport
+   security protocols.  Weak or predictable cryptographically-strong
+   pseudorandom number generators (CSPRNGs) can be abused or exploited
+   for malicious purposes.  See the Dual EC random number backdoor for a
+   relevant example of this problem.  This document describes a way for
+   security protocol participants to mix their long-term private key
+   into the entropy pool from which random values are derived.  This may
+   help mitigate problems that stem from broken CSPRNGs.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sullivan-randomness-improvements-00"/>
 </reference>

@@ -1,16 +1,26 @@
 <reference anchor="I-D.elvey-refuse-sieve" target="https://datatracker.ietf.org/doc/html/draft-elvey-refuse-sieve-02">
   <front>
     <title>The SIEVE mail filtering language - refuse extension</title>
-    <author fullname="Matthew Elvey" initials="M." surname="Elvey">
+    <seriesInfo name="Internet-Draft" value="draft-elvey-refuse-sieve-02"/>
+    <author initials="M." surname="Elvey" fullname="Matthew Elvey">
       <organization>The Elvey Partnership</organization>
     </author>
-    <author fullname="Alexey Melnikov" initials="A." surname="Melnikov">
+    <author initials="A." surname="Melnikov" fullname="Alexey Melnikov">
       <organization>Isode Ltd</organization>
     </author>
-    <date year="2004" month="June" day="28"/>
+    <date day="28" month="June" year="2004"></date>
     <abstract>
-      <t>This memo defines the SIEVE mail filtering language [SIEVE] "refuse" extension. A Joe-job is a spam run forged to appear as though it came from an innocent party, who is then generally flooded by the bounces, MDNs and messages with complaints. With the Sieve "reject" action, MDNs contribute to the flood of Joe-job spam to victims of Joe-jobs; SMTP level refusals usually don't. With "refuse", Sieve gains the ability to simply not accept an email during the SMTP transaction (instead of accepting it and then sending an MDN [MDN] back to the alleged sender using "reject").</t>
+      <t>   This memo defines the SIEVE mail filtering language [SIEVE]
+   "refuse" extension.
+   A Joe-job is a spam run forged to appear as though it came from an
+   innocent party, who is then generally flooded by the bounces, MDNs
+   and messages with complaints.  With the Sieve "reject" action, MDNs
+   contribute to the flood of Joe-job spam to victims of Joe-jobs;
+   SMTP level refusals usually don't.  With "refuse", Sieve gains the
+   ability to simply not accept an email during the SMTP transaction
+   (instead of accepting it and then sending an MDN [MDN] back to the
+   alleged sender using "reject").
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-elvey-refuse-sieve-02"/>
 </reference>

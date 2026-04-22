@@ -1,25 +1,37 @@
 <reference anchor="I-D.ma-netmod-with-system" target="https://datatracker.ietf.org/doc/html/draft-ma-netmod-with-system-04">
   <front>
     <title>System-defined Configuration</title>
-    <author fullname="Qiufang Ma" initials="Q." surname="Ma">
+    <seriesInfo name="Internet-Draft" value="draft-ma-netmod-with-system-04"/>
+    <author initials="Q." surname="Ma" fullname="Qiufang Ma">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Kent Watsen" initials="K." surname="Watsen">
+    <author initials="K." surname="Watsen" fullname="Kent Watsen">
       <organization>Watsen Networks</organization>
     </author>
-    <author fullname="Qin Wu" initials="Q." surname="Wu">
+    <author initials="Q." surname="Wu" fullname="Qin Wu">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Chong Feng" initials="C." surname="Feng">
+    <author initials="C." surname="Feng" fullname="Chong Feng">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Jan Lindblad" initials="J." surname="Lindblad">
+    <author initials="J." surname="Lindblad" fullname="Jan Lindblad">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2022" month="August" day="9"/>
+    <date day="09" month="August" year="2022"></date>
     <abstract>
-      <t>This document updates NMDA to define a read-only conventional configuration datastore called "system" to hold system-defined configurations. To avoid clients' explicit copy/paste of referenced system-defined configuration into the target configuration datastore (e.g., &lt;running&gt;), a "resolve-system" parameter has been defined to allow the server acting as a "system client" to copy referenced system-defined nodes automatically. The solution enables clients manipulating the target configuration datastore (e.g., &lt;running&gt;) to overlay and reference nodes defined in &lt;system&gt;, override values of configurations defined in &lt;system&gt;, and configure descendant nodes of system-defined nodes.</t>
+      <t>   This document updates NMDA to define a read-only conventional
+   configuration datastore called "system" to hold system-defined
+   configurations.  To avoid clients' explicit copy/paste of referenced
+   system-defined configuration into the target configuration datastore
+   (e.g., &lt;running&gt;), a "resolve-system" parameter has been defined to
+   allow the server acting as a "system client" to copy referenced
+   system-defined nodes automatically.  The solution enables clients
+   manipulating the target configuration datastore (e.g., &lt;running&gt;) to
+   overlay and reference nodes defined in &lt;system&gt;, override values of
+   configurations defined in &lt;system&gt;, and configure descendant nodes of
+   system-defined nodes.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ma-netmod-with-system-04"/>
 </reference>

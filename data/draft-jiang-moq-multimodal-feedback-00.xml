@@ -1,19 +1,31 @@
 <reference anchor="I-D.jiang-moq-multimodal-feedback" target="https://datatracker.ietf.org/doc/html/draft-jiang-moq-multimodal-feedback-00">
   <front>
     <title>MoQ Multimodal Feedback</title>
-    <author fullname="Minghui Jiang" initials="M." surname="Jiang">
+    <seriesInfo name="Internet-Draft" value="draft-jiang-moq-multimodal-feedback-00"/>
+    <author initials="M." surname="Jiang" fullname="Minghui Jiang">
       <organization>Alibaba Inc.</organization>
     </author>
-    <author fullname="Yanmei Liu" initials="Y." surname="Liu">
+    <author initials="Y." surname="Liu" fullname="Yanmei Liu">
       <organization>Alibaba Inc.</organization>
     </author>
-    <author fullname="Ronghua Wu" initials="R." surname="Wu">
+    <author initials="R." surname="Wu" fullname="Ronghua Wu">
       <organization>Ant Group.</organization>
     </author>
-    <date year="2026" month="March" day="16"/>
+    <date day="16" month="March" year="2026"></date>
     <abstract>
-      <t>This document defines an extension to Media over QUIC Transport (MOQT) that enables MoQ receivers to report delivery quality information for media Objects to senders. The MoQ layer synthesizes MMF feedback and local congestion control (CC) output to compute control decisions such as bitrate, frame rate, and pacing, and inform the CC algorithm module via a cross-layer control interface. This mechanism reuses the MOQT Track/Object data model without introducing new control message types. While QUIC ACK and reception timestamp extensions continue to provide per-packet CC signals; this mechanism adds per-Object media semantic feedback when the MMF extension is negotiated and enabled.</t>
+      <t>   This document defines an extension to Media over QUIC Transport
+   (MOQT) that enables MoQ receivers to report delivery quality
+   information for media Objects to senders.  The MoQ layer synthesizes
+   MMF feedback and local congestion control (CC) output to compute
+   control decisions such as bitrate, frame rate, and pacing, and inform
+   the CC algorithm module via a cross-layer control interface.  This
+   mechanism reuses the MOQT Track/Object data model without introducing
+   new control message types.  While QUIC ACK and reception timestamp
+   extensions continue to provide per-packet CC signals; this mechanism
+   adds per-Object media semantic feedback when the MMF extension is
+   negotiated and enabled.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-jiang-moq-multimodal-feedback-00"/>
 </reference>

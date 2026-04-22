@@ -1,28 +1,39 @@
 <reference anchor="I-D.birgelee-lamps-caa-security" target="https://datatracker.ietf.org/doc/html/draft-birgelee-lamps-caa-security-00">
   <front>
     <title>CAA Security Tag for Cryptographic Domain Validation</title>
-    <author fullname="Henry Birge-Lee" initials="H." surname="Birge-Lee">
+    <seriesInfo name="Internet-Draft" value="draft-birgelee-lamps-caa-security-00"/>
+    <author initials="H." surname="Birge-Lee" fullname="Henry Birge-Lee">
       <organization>Princeton University</organization>
     </author>
-    <author fullname="Grace Cimaszewski" initials="G." surname="Cimaszewski">
+    <author initials="G." surname="Cimaszewski" fullname="Grace Cimaszewski">
       <organization>Princeton University</organization>
     </author>
-    <author fullname="Cyrill Krähenbühl" initials="C." surname="Krähenbühl">
+    <author initials="C." surname="Krähenbühl" fullname="Cyrill Krähenbühl">
       <organization>Princeton University</organization>
     </author>
-    <author fullname="Liang Wang" initials="L." surname="Wang">
+    <author initials="L." surname="Wang" fullname="Liang Wang">
       <organization>Princeton University</organization>
     </author>
-    <author fullname="Aaron Gable" initials="A." surname="Gable">
+    <author initials="A." surname="Gable" fullname="Aaron Gable">
       <organization>ISRG</organization>
     </author>
-    <author fullname="Prateek Mittal" initials="P." surname="Mittal">
+    <author initials="P." surname="Mittal" fullname="Prateek Mittal">
       <organization>Princeton University</organization>
     </author>
-    <date year="2024" month="November" day="14"/>
+    <date day="14" month="November" year="2024"></date>
     <abstract>
-      <t>CAA "security" tags are a type of CAA record (defined in RFC 6844) with the critical flag set that specify that for a certificate to be issued, the issuance process must be conducted in a manner that is robust against global man-in-the-middle adversaries by leveraging authenticated communication between a CA and a domain. Cryptographic domain validation procedures are authenticated and resilient against attacks by both on-path and off-path network attackers which may be between the CA and the domain contained in the certificate. This document defines the syntax of "security" CAA records as well as acceptable means for validating domains in a cryptographic manner.</t>
+      <t>   CAA "security" tags are a type of CAA record (defined in RFC 6844)
+   with the critical flag set that specify that for a certificate to be
+   issued, the issuance process must be conducted in a manner that is
+   robust against global man-in-the-middle adversaries by leveraging
+   authenticated communication between a CA and a domain.  Cryptographic
+   domain validation procedures are authenticated and resilient against
+   attacks by both on-path and off-path network attackers which may be
+   between the CA and the domain contained in the certificate.  This
+   document defines the syntax of "security" CAA records as well as
+   acceptable means for validating domains in a cryptographic manner.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-birgelee-lamps-caa-security-00"/>
 </reference>

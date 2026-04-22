@@ -1,16 +1,37 @@
 <reference anchor="I-D.otis-dkim-tpa-label" target="https://datatracker.ietf.org/doc/html/draft-otis-dkim-tpa-label-06">
   <front>
     <title>DKIM Third-Party Authorization Label</title>
-    <author fullname="Douglas Otis" initials="D." surname="Otis">
+    <seriesInfo name="Internet-Draft" value="draft-otis-dkim-tpa-label-06"/>
+    <author initials="D." surname="Otis" fullname="Douglas Otis">
       <organization>Trend Micro</organization>
     </author>
-    <author fullname="Daniel Black" initials="D." surname="Black">
-      <organization/>
-    </author>
-    <date year="2010" month="August" day="10"/>
+    <author initials="D." surname="Black" fullname="Daniel Black"/>
+    <date day="10" month="August" year="2010"></date>
     <abstract>
-      <t>A third party authorization label (TPA-Label) is a DNS-based extension for DKIM ADSP records that allows domains in the From header field to authorize acceptable third-party signatures. This approach allows autonomous and unilateral authorizations for third- party domains using scalable, individual DNS transactions. The extended scope of DKIM signing practice assertions introduced here supplants transparent authorization schemes that are more difficult to administer. Alternatives for facilitating third-party authorizations currently necessitate coordination between two or more domains to synchronously set up selector/key DNS records, DNS zone delegations, and/or a regular exchange of public/private keys. Checking TPA-Label Resource Records for signing practices might occur infrequently when a message is not compliant with restrictive ADSP practices, where an Author Domain Signature is either missing or invalid. When a third-party signature is found, TPA-Label Resource Record transactions offer an efficient means for Author Domains to authorize specific third-party signing domains. Recipients are afforded a method to determine whether authorization exists in situations where other modes of authorization are impractical. TPA- Label Resource Records permit Author Domains a means to influence message handling selectively, for messages otherwise lacking valid Author Domain signatures.</t>
+      <t>A third party authorization label (TPA-Label) is a DNS-based
+extension for DKIM ADSP records that allows domains in the From
+header field to authorize acceptable third-party signatures.  This
+approach allows autonomous and unilateral authorizations for third-
+party domains using scalable, individual DNS transactions.  The
+extended scope of DKIM signing practice assertions introduced here
+supplants transparent authorization schemes that are more difficult
+to administer.  Alternatives for facilitating third-party
+authorizations currently necessitate coordination between two or more
+domains to synchronously set up selector/key DNS records, DNS zone
+delegations, and/or a regular exchange of public/private keys.
+
+Checking TPA-Label Resource Records for signing practices might occur
+infrequently when a message is not compliant with restrictive ADSP
+practices, where an Author Domain Signature is either missing or
+invalid.  When a third-party signature is found, TPA-Label Resource
+Record transactions offer an efficient means for Author Domains to
+authorize specific third-party signing domains.  Recipients are
+afforded a method to determine whether authorization exists in
+situations where other modes of authorization are impractical.  TPA-
+Label Resource Records permit Author Domains a means to influence
+message handling selectively, for messages otherwise lacking valid
+Author Domain signatures.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-otis-dkim-tpa-label-06"/>
 </reference>

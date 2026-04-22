@@ -1,16 +1,25 @@
 <reference anchor="I-D.ietf-dhc-dhcp-dns" target="https://datatracker.ietf.org/doc/html/draft-ietf-dhc-dhcp-dns-12">
   <front>
     <title>Interaction between DHCP and DNS</title>
-    <author fullname="Yakov Rekhter" initials="Y." surname="Rekhter">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dhc-dhcp-dns-12"/>
+    <author initials="Y." surname="Rekhter" fullname="Yakov Rekhter">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Mark Stapp" initials="M." surname="Stapp">
+    <author initials="M." surname="Stapp" fullname="Mark Stapp">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2000" month="March" day="16"/>
+    <date day="16" month="March" year="2000"></date>
     <abstract>
-      <t>DHCP provides a powerful mechanism for IP host configuration. However, the configuration capability provided by DHCP does not include updating DNS, and specifically updating the name to address and address to name mappings maintained in the DNS. This document specifies how DHCP clients and servers should use the Dynamic DNS Updates mechanism in [RFC2136] to update the DNS name to address and address to name mappings so that the mappings for DHCP clients will be consistent with the IP addresses that the clients acquire via DHCP.</t>
+      <t>DHCP provides a powerful mechanism for IP host configuration.
+However, the configuration capability provided by DHCP does not
+include updating DNS, and specifically updating the name to address
+and address to name mappings maintained in the DNS.
+This document specifies how DHCP clients and servers should use the
+Dynamic DNS Updates mechanism in [RFC2136] to update the DNS name to
+address and address to name mappings so that the mappings for DHCP
+clients will be consistent with the IP addresses that the clients
+acquire via DHCP.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dhc-dhcp-dns-12"/>
 </reference>

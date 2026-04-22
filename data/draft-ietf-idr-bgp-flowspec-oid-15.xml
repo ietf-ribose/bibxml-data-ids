@@ -1,25 +1,28 @@
 <reference anchor="I-D.ietf-idr-bgp-flowspec-oid" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-bgp-flowspec-oid-15">
   <front>
     <title>Revised Validation Procedure for BGP Flow Specifications</title>
-    <author fullname="Jim Uttaro" initials="J." surname="Uttaro">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-flowspec-oid-15"/>
+    <author initials="J." surname="Uttaro" fullname="Jim Uttaro">
       <organization>AT&amp;T</organization>
     </author>
-    <author fullname="Juan Alcaide" initials="J." surname="Alcaide">
+    <author initials="J." surname="Alcaide" fullname="Juan Alcaide">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils">
+    <author initials="C." surname="Filsfils" fullname="Clarence Filsfils">
       <organization>Cisco</organization>
     </author>
-    <author fullname="David Smith" initials="D." surname="Smith">
+    <author initials="D." surname="Smith" fullname="David Smith">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Prodosh Mohapatra" initials="P." surname="Mohapatra">
+    <author initials="P." surname="Mohapatra" fullname="Prodosh Mohapatra">
       <organization>Sproute Networks</organization>
     </author>
-    <date year="2021" month="June" day="3"/>
+    <date day="03" month="June" year="2021"></date>
     <abstract>
-      <t>This document describes a modification to the validation procedure defined for the dissemination of BGP Flow Specifications. The dissemination of BGP Flow Specifications as specified in RFC 8955 requires that the originator of the Flow Specification match the originator of the best-match unicast route for the destination prefix embedded in the Flow Specification. For an Internal Border Gateway Protocol (iBGP) received route, the originator is typically a border router within the same autonomous system (AS). The objective is to allow only BGP speakers within the data forwarding path to originate BGP Flow Specifications. Sometimes it is desirable to originate the BGP Flow Specification from any place within the autonomous system itself, for example, from a centralized BGP route controller. However, the validation procedure described in RFC 8955 will fail in this scenario. The modification proposed herein relaxes the validation rule to enable Flow Specifications to be originated within the same autonomous system as the BGP speaker performing the validation. Additionally, this document revises the AS_PATH validation rules so Flow Specifications received from an External Border Gateway Protocol (eBGP) peer can be validated when such a peer is a BGP route server. This document updates the validation procedure in RFC 8955.</t>
+      <t>This document describes a modification to the validation procedure defined for the dissemination of BGP Flow Specifications. The dissemination of BGP Flow Specifications as specified in RFC 8955 requires that the originator of the Flow Specification match the originator of the best-match unicast route for the destination prefix embedded in the Flow Specification. For an Internal Border Gateway Protocol (iBGP) received route, the originator is typically a border router within the same autonomous system (AS). The objective is to allow only BGP speakers within the data forwarding path to originate BGP Flow Specifications. Sometimes it is desirable to originate the BGP Flow Specification from any place within the autonomous system itself, for example, from a centralized BGP route controller. However, the validation procedure described in RFC 8955 will fail in this scenario. The modification proposed herein relaxes the validation rule to enable Flow Specifications to be originated within the same autonomous system as the BGP speaker performing the validation. Additionally, this document revises the AS_PATH validation rules so Flow Specifications received from an External Border Gateway Protocol (eBGP) peer can be validated when such a peer is a BGP route server.
+
+ This document updates the validation procedure in RFC 8955.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-flowspec-oid-15"/>
 </reference>

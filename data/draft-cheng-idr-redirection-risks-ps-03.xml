@@ -1,28 +1,38 @@
 <reference anchor="I-D.cheng-idr-redirection-risks-ps" target="https://datatracker.ietf.org/doc/html/draft-cheng-idr-redirection-risks-ps-03">
   <front>
     <title>Problem statement of Inter-domain Traffic Redirection Risks</title>
-    <author fullname="Weiqiang Cheng" initials="W." surname="Cheng">
+    <seriesInfo name="Internet-Draft" value="draft-cheng-idr-redirection-risks-ps-03"/>
+    <author initials="W." surname="Cheng" fullname="Weiqiang Cheng">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Dan Li" initials="D." surname="Li">
+    <author initials="D." surname="Li" fullname="Dan Li">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Ce Zheng" initials="C." surname="Zheng">
+    <author initials="C." surname="Zheng" fullname="Ce Zheng">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Mingqing Huang" initials="M." surname="Huang">
+    <author initials="M." surname="Huang" fullname="Mingqing Huang">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Fang Gao" initials="F." surname="Gao">
+    <author initials="F." surname="Gao" fullname="Fang Gao">
       <organization>Zhongguancun Laboratory</organization>
     </author>
-    <author fullname="Mingxing Liu" initials="" surname="Liu">
+    <author surname="Liu" fullname="Mingxing Liu">
       <organization>Huawei</organization>
     </author>
-    <date year="2023" month="July" day="9"/>
+    <date day="09" month="July" year="2023"></date>
     <abstract>
-      <t>BGP Update includes the destination prefix and AS_PATH that records the AS number through which it passes. The traffic routing to the destination prefix should be forwarded along the AS sequence in AS_PATH. However, due to traffic redirection, route aggregation and etc., the AS path of forwarding and the AS_PATH of BGP Update often do not match. The inconsistency leads to security risks such as black holes, loops in inter-domain forwarding, and the possibility of forwarding through malicious AS that source/upstream AS does not want to pass through.</t>
+      <t>   BGP Update includes the destination prefix and AS_PATH that records
+   the AS number through which it passes.  The traffic routing to the
+   destination prefix should be forwarded along the AS sequence in
+   AS_PATH.  However, due to traffic redirection, route aggregation and
+   etc., the AS path of forwarding and the AS_PATH of BGP Update often
+   do not match.  The inconsistency leads to security risks such as
+   black holes, loops in inter-domain forwarding, and the possibility of
+   forwarding through malicious AS that source/upstream AS does not want
+   to pass through.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-cheng-idr-redirection-risks-ps-03"/>
 </reference>

@@ -1,22 +1,37 @@
 <reference anchor="I-D.adpkja-dnsop-special-names-problem" target="https://datatracker.ietf.org/doc/html/draft-adpkja-dnsop-special-names-problem-01">
   <front>
     <title>Problem Statement for the Reservation of Top-Level Domains in the Special-Use Domain Names Registry</title>
-    <author fullname="Joe Abley" initials="J." surname="Abley">
-      <organization/>
-    </author>
-    <author fullname="Peter Koch" initials="P." surname="Koch">
-      <organization/>
-    </author>
-    <author fullname="Alain Durand" initials="A." surname="Durand">
-      <organization/>
-    </author>
-    <author fullname="Warren &quot;Ace&quot; Kumari" initials="W. A." surname="Kumari">
-      <organization/>
-    </author>
-    <date year="2016" month="March" day="8"/>
+    <seriesInfo name="Internet-Draft" value="draft-adpkja-dnsop-special-names-problem-01"/>
+    <author initials="J." surname="Abley" fullname="Joe Abley"/>
+    <author initials="P." surname="Koch" fullname="Peter Koch"/>
+    <author initials="A." surname="Durand" fullname="Alain Durand"/>
+    <author initials="W. A." surname="Kumari" fullname="Warren &quot;Ace&quot; Kumari"/>
+    <date day="08" month="March" year="2016"></date>
     <abstract>
-      <t>The dominant protocol for name resolution on the Internet is the Domain Name System (DNS). However, other protocols exist that are fundamentally different from the DNS, and may or may not share the same namespace. When an end-user triggers resolution of a name on a system which supports multiple, different protocols (or resolution mechanisms) for name resolution, it is desirable that the protocol used is unambiguous, and that requests intended for one protocol are not inadvertently answered using another. [RFC6761] introduced a framework by which, under certain circumstances, a particular domain name could be acknowledged as being special. This framework has been used twice to reserve top- level domains (.local and.onion) that should not be used within the DNS to avoid the possibility of namespace collisions in parallel use of non-DNS name resolution protocols. Various challenges have become apparent with this application of the guidance provided in [RFC6761]. This document aims to document those challenges in the form of a problem statement, to facilitate further discussion of potential solutions.</t>
+      <t>   The dominant protocol for name resolution on the Internet is the
+   Domain Name System (DNS).  However, other protocols exist that are
+   fundamentally different from the DNS, and may or may not share the
+   same namespace.
+
+   When an end-user triggers resolution of a name on a system which
+   supports multiple, different protocols (or resolution mechanisms) for
+   name resolution, it is desirable that the protocol used is
+   unambiguous, and that requests intended for one protocol are not
+   inadvertently answered using another.
+
+   [RFC6761] introduced a framework by which, under certain
+   circumstances, a particular domain name could be acknowledged as
+   being special.  This framework has been used twice to reserve top-
+   level domains (.local and .onion) that should not be used within the
+   DNS to avoid the possibility of namespace collisions in parallel use
+   of non-DNS name resolution protocols.
+
+   Various challenges have become apparent with this application of the
+   guidance provided in [RFC6761].  This document aims to document those
+   challenges in the form of a problem statement, to facilitate further
+   discussion of potential solutions.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-adpkja-dnsop-special-names-problem-01"/>
 </reference>

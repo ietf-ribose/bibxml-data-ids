@@ -1,13 +1,25 @@
 <reference anchor="I-D.sharhalakis-httphreq" target="https://datatracker.ietf.org/doc/html/draft-sharhalakis-httphreq-01">
   <front>
     <title>Header Request for HTTP</title>
-    <author fullname="Stefanos Harhalakis" initials="S." surname="Harhalakis">
+    <seriesInfo name="Internet-Draft" value="draft-sharhalakis-httphreq-01"/>
+    <author initials="S." surname="Harhalakis" fullname="Stefanos Harhalakis">
       <organization>TEI of Thessaloniki</organization>
     </author>
-    <date year="2007" month="September" day="4"/>
+    <date day="04" month="September" year="2007"></date>
     <abstract>
-      <t>This document describes a method that extends HTTP to support optional on-demand headers as an addition to its dialogs. Any server side application using this method becomes able to request additional headers from conforming HTTP clients. It can also serve as an intermediate step for introducing new HTTP headers without placing the need for always exchanging them. An additional HTTP header is described and its ABNF description is provided. IANA is requested to extend its HTTP registry to support the 'on-demand' flag. IANA is also requested to provide support for header names that actually identify groups of headers.</t>
+      <t>   This document describes a method that extends HTTP to support
+   optional on-demand headers as an addition to its dialogs.  Any server
+   side application using this method becomes able to request additional
+   headers from conforming HTTP clients.  It can also serve as an
+   intermediate step for introducing new HTTP headers without placing
+   the need for always exchanging them.
+
+   An additional HTTP header is described and its ABNF description is
+   provided.  IANA is requested to extend its HTTP registry to support
+   the 'on-demand' flag.  IANA is also requested to provide support for
+   header names that actually identify groups of headers.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sharhalakis-httphreq-01"/>
 </reference>

@@ -1,16 +1,26 @@
 <reference anchor="I-D.ietf-dnssec-secfail" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnssec-secfail-00">
   <front>
     <title>Intermediate Security Failures in DNSSEC</title>
-    <author fullname="Ólafur Guðmundsson" initials="O." surname="Guðmundsson">
-      <organization/>
-    </author>
-    <author fullname="Brian Wellington" initials="B." surname="Wellington">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnssec-secfail-00"/>
+    <author initials="O." surname="Guðmundsson" fullname="Ólafur Guðmundsson"/>
+    <author initials="B." surname="Wellington" fullname="Brian Wellington">
       <organization>O. Gudmundsson</organization>
     </author>
-    <date year="1998" month="August" day="6"/>
+    <date day="06" month="August" year="1998"></date>
     <abstract>
-      <t>This document identifies the situations where a signature verification fails in a recursive security aware DNS server, and how DNS servers should handle these cases, and the errors that should be reported to DNS resolvers. This document proposes a new error to be returned by DNSSEC capable servers. A DNSSEC server acting as a recursive server MUST validate the signatures on RRsets in a response it passes on; this draft addresses the case when the data it receives fails signature verification. The end resolver must be notified of this occurence in such a way that it will not confuse it with another error.</t>
+      <t>     This document identifies the situations where a signature
+     verification fails in a recursive security aware DNS server, and
+     how DNS servers should handle these cases, and the errors that
+     should be reported to DNS resolvers.  This document proposes a new
+     error to be returned by DNSSEC capable servers.
+ 
+     A DNSSEC server acting as a recursive server MUST validate the
+     signatures on RRsets in a response it passes on; this draft
+     addresses the case when the data it receives fails signature
+     verification.  The end resolver must be notified of this occurence
+     in such a way that it will not confuse it with another error.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dnssec-secfail-00"/>
 </reference>

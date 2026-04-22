@@ -1,13 +1,23 @@
 <reference anchor="I-D.tian-mpls-mi-ldp" target="https://datatracker.ietf.org/doc/html/draft-tian-mpls-mi-ldp-00">
   <front>
     <title>Multi-Instance(MI) support in LDP</title>
-    <author fullname="Albert Tian" initials="A." surname="Tian">
+    <seriesInfo name="Internet-Draft" value="draft-tian-mpls-mi-ldp-00"/>
+    <author initials="A." surname="Tian" fullname="Albert Tian">
       <organization>Redback Networks</organization>
     </author>
-    <date year="2004" month="February" day="10"/>
+    <date day="10" month="February" year="2004"></date>
     <abstract>
-      <t>Many of the routing protocols today can support multiple topologies or multiple instances [ISISMT] [OSPFV3] [OSPFMT]. In such an environment, prefix, address family, and topology/instance together define an FEC. But the current LDP specificaiton is not sufficient to allow multi-topology/multi-instance to share the same LDP session. In this document we introduce a concept of 'Label Binding Instance' to LDP so that FECs can be unambiguiously identified in a multi- topology/multi-instance routing environment.</t>
+      <t>   Many of the routing protocols today can support multiple topologies
+   or multiple instances [ISISMT] [OSPFV3] [OSPFMT]. In such an
+   environment, prefix, address family, and topology/instance together
+   define an FEC. But the current LDP specificaiton is not sufficient to
+   allow multi-topology/multi-instance to share the same LDP session.
+
+   In this document we introduce a concept of 'Label Binding Instance'
+   to LDP so that FECs can be unambiguiously identified in a multi-
+   topology/multi-instance routing environment.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-tian-mpls-mi-ldp-00"/>
 </reference>

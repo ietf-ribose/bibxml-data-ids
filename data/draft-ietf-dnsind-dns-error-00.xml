@@ -1,16 +1,30 @@
 <reference anchor="I-D.ietf-dnsind-dns-error" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsind-dns-error-00">
   <front>
     <title>Error Record (ERR) for DNS</title>
-    <author fullname="Ólafur Guðmundsson" initials="O." surname="Guðmundsson">
-      <organization/>
-    </author>
-    <author fullname="Robert Watson" initials="R." surname="Watson">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsind-dns-error-00"/>
+    <author initials="O." surname="Guðmundsson" fullname="Ólafur Guðmundsson"/>
+    <author initials="R." surname="Watson" fullname="Robert Watson">
       <organization>TIS</organization>
     </author>
-    <date year="1997" month="July" day="30"/>
+    <date day="30" month="July" year="1997"></date>
     <abstract>
-      <t>The DNS protocol defines a 4-bit RCODE field in the header of the DNS envelope. This field is used to indicate the completion status of requests. Defined values exist to describe successful completion as well as a variety of error conditions that could result from DNS server operations. As DNS has been expanded to perform additional functions, the number of possible error conditions has increased significantly, and the field no longer has space for new error codes to be added. To address this problem, a new RR type is defined. The Error Record contains a machine-readable extended error value, as well as an optional human-readable ASCII text string. Additionally, it contains a domain-name source field to identify the entity generating the error condition. This RR may also be used in non- error conditions to provide extended information about server responses, such as security information on specific records in the response.</t>
+      <t>The DNS protocol defines a 4-bit RCODE field in the header of the DNS
+   envelope.  This field is used to indicate the completion status of
+   requests.  Defined values exist to describe successful completion as
+   well as a variety of error conditions that could result from DNS
+   server operations.  As DNS has been expanded to perform additional
+   functions, the number of possible error conditions has increased
+   significantly, and the field no longer has space for new error codes
+   to be added.  To address this problem, a new RR type is defined.
+ 
+   The Error Record contains a machine-readable extended error value, as
+   well as an optional human-readable ASCII text string.  Additionally,
+   it contains a domain-name source field to identify the entity
+   generating the error condition.  This RR may also be used in non-
+   error conditions to provide extended information about server
+   responses, such as security information on specific records in the
+   response.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsind-dns-error-00"/>
 </reference>

@@ -1,13 +1,23 @@
 <reference anchor="I-D.kashi-attr-scoped-query" target="https://datatracker.ietf.org/doc/html/draft-kashi-attr-scoped-query-01">
   <front>
     <title>Attribute Scoped Query: control for searching DN-valued multi-value attributes</title>
-    <author fullname="Asaf Kashi" initials="A." surname="Kashi">
+    <seriesInfo name="Internet-Draft" value="draft-kashi-attr-scoped-query-01"/>
+    <author initials="A." surname="Kashi" fullname="Asaf Kashi">
       <organization>Microsoft Corporation</organization>
     </author>
-    <date year="2001" month="November" day="20"/>
+    <date day="20" month="November" year="2001"></date>
     <abstract>
-      <t>There are times when an LDAP search would return a DN-valued attribute with multiple values. As the number of values in a multi- value attribute increases, it becomes apparent that a way to query the multi-valued attribute is increasingly valuable. This document describes an LDAP extended search control that returns DN-valued attributes as objects and their respective attributes in the searchResultEntry and also allows filters to be applied to the values in a large multi-valued attribute. Using this control to search multi-valued attributes reduces the number of client round trips.</t>
+      <t>There are times when an LDAP search would return a DN-valued 
+attribute with multiple values.  As the number of values in a multi-
+value attribute increases, it becomes apparent that a way to query 
+the multi-valued attribute is increasingly valuable.  This document 
+describes an LDAP extended search control that returns DN-valued 
+attributes as objects and their respective attributes in the 
+searchResultEntry and also allows filters to be applied to the 
+values in a large multi-valued attribute.  Using this control to 
+search multi-valued attributes reduces the number of client round 
+trips.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kashi-attr-scoped-query-01"/>
 </reference>

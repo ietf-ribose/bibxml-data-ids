@@ -1,13 +1,32 @@
 <reference anchor="I-D.hardaker-isms-dtls-tm" target="https://datatracker.ietf.org/doc/html/draft-hardaker-isms-dtls-tm-05">
   <front>
     <title>Transport Layer Security Transport Model for SNMP</title>
-    <author fullname="Wes Hardaker" initials="W." surname="Hardaker">
+    <seriesInfo name="Internet-Draft" value="draft-hardaker-isms-dtls-tm-05"/>
+    <author initials="W." surname="Hardaker" fullname="Wes Hardaker">
       <organization>Sparta, Inc.</organization>
     </author>
-    <date year="2009" month="June" day="24"/>
+    <date day="24" month="June" year="2009"></date>
     <abstract>
-      <t>This document describes a Transport Model for the Simple Network Management Protocol (SNMP), that uses either the Transport Layer Security protocol or the Datagram Transport Layer Security (DTLS) protocol. The TLS and DTLS protocols provide authentication and privacy services for SNMP applications. This document describes how the TLS Transport Model (TLSTM) implements the needed features of a SNMP Transport Subsystem to make this protection possible in an interoperable way. This transport model is designed to meet the security and operational needs of network administrators. The TLS mode can make use of TCP's improved support for larger packet sizes and the DTLS mode provides potentially superior operation in environments where a connectionless (e.g. UDP or SCTP) transport is preferred. Both TLS and DTLS integrate well into existing public keying infrastructures. This document also defines a portion of the Management Information Base (MIB) for monitoring and managing the TLS Transport Model for SNMP.</t>
+      <t>This document describes a Transport Model for the Simple Network
+Management Protocol (SNMP), that uses either the Transport Layer
+Security protocol or the Datagram Transport Layer Security (DTLS)
+protocol.  The TLS and DTLS protocols provide authentication and
+privacy services for SNMP applications.  This document describes how
+the TLS Transport Model (TLSTM) implements the needed features of a
+SNMP Transport Subsystem to make this protection possible in an
+interoperable way.
+
+This transport model is designed to meet the security and operational
+needs of network administrators.  The TLS mode can make use of TCP's
+improved support for larger packet sizes and the DTLS mode provides
+potentially superior operation in environments where a connectionless
+(e.g.  UDP or SCTP) transport is preferred.  Both TLS and DTLS
+integrate well into existing public keying infrastructures.
+
+This document also defines a portion of the Management Information
+Base (MIB) for monitoring and managing the TLS Transport Model for
+SNMP.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hardaker-isms-dtls-tm-05"/>
 </reference>

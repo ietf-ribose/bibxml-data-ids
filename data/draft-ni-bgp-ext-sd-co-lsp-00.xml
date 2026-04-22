@@ -1,16 +1,28 @@
 <reference anchor="I-D.ni-bgp-ext-sd-co-lsp" target="https://datatracker.ietf.org/doc/html/draft-ni-bgp-ext-sd-co-lsp-00">
   <front>
     <title>BGP Extensions for Service-Driven Co-Routed MPLS Traffic Engineering LSP</title>
-    <author fullname="Hui Ni" initials="H." surname="Ni">
+    <seriesInfo name="Internet-Draft" value="draft-ni-bgp-ext-sd-co-lsp-00"/>
+    <author initials="H." surname="Ni" fullname="Hui Ni">
       <organization>ShunWan Zhuang</organization>
     </author>
-    <author fullname="Zhenbin Li" initials="Z." surname="Li">
+    <author initials="Z." surname="Li" fullname="Zhenbin Li">
       <organization>Huawei</organization>
     </author>
-    <date year="2013" month="July" day="8"/>
+    <date day="08" month="July" year="2013"></date>
     <abstract>
-      <t>In some large scale L3VPN deployment scenarios like mobile backhaul network, it is required that tunnels between two PEs could be setup automatically driven by L3VPN service to reduce manual configuration effort. Moreover the tunnels must be setup co-routed for the goodness of performance monitoring and uniform protection behavior for link failure on two directions. This is described in [I-D.li- mpls-serv-driven-co-lsp-fmwk]. This document introduces a new BGP VT route based on [I-D.ni-bgp-ext-l3vpn-pm]. The route is utilized by on side PE to advertise Tunnel ID to other side PE, so inverse direction co-routed LSPs can be setup based on path information of member LSPs in the first tunnel.</t>
+      <t>   In some large scale L3VPN deployment scenarios like mobile backhaul
+   network, it is required that tunnels between two PEs could be setup
+   automatically driven by L3VPN service to reduce manual configuration
+   effort. Moreover the tunnels must be setup co-routed for the
+   goodness of performance monitoring and uniform protection behavior
+   for link failure on two directions. This is described in [I-D.li-
+   mpls-serv-driven-co-lsp-fmwk]. This document introduces a new
+   BGP VT route based on [I-D.ni-bgp-ext-l3vpn-pm]. The route is
+   utilized by on side PE to advertise Tunnel ID to other side PE,
+   so inverse direction co-routed LSPs can be setup based on path
+   information of member LSPs in the first tunnel.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ni-bgp-ext-sd-co-lsp-00"/>
 </reference>

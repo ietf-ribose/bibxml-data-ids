@@ -1,34 +1,56 @@
 <reference anchor="I-D.rizzo-6lo-6legacy" target="https://datatracker.ietf.org/doc/html/draft-rizzo-6lo-6legacy-03">
   <front>
     <title>IPv6 mapping to non-IP protocols</title>
-    <author fullname="Gianluca Rizzo" initials="G." surname="Rizzo">
+    <seriesInfo name="Internet-Draft" value="draft-rizzo-6lo-6legacy-03"/>
+    <author initials="G." surname="Rizzo" fullname="Gianluca Rizzo">
       <organization>HES-SO</organization>
     </author>
-    <author fullname="Antonio J. Jara" initials="A. J." surname="Jara">
+    <author initials="A. J." surname="Jara" fullname="Antonio J. Jara">
       <organization>HES-SO</organization>
     </author>
-    <author fullname="Alex C. Olivieri" initials="A. C." surname="Olivieri">
+    <author initials="A. C." surname="Olivieri" fullname="Alex C. Olivieri">
       <organization>HES-SO</organization>
     </author>
-    <author fullname="Yann Bocchi" initials="Y." surname="Bocchi">
+    <author initials="Y." surname="Bocchi" fullname="Yann Bocchi">
       <organization>HES-SO</organization>
     </author>
-    <author fullname="Maria Rita Palattella" initials="M. R." surname="Palattella">
+    <author initials="M. R." surname="Palattella" fullname="Maria Rita Palattella">
       <organization>SnT/Univ. of Luxembourg</organization>
     </author>
-    <author fullname="Latif Ladid" initials="L." surname="Ladid">
+    <author initials="L." surname="Ladid" fullname="Latif Ladid">
       <organization>SnT/Univ. of Luxembourg/IPv6 Forum</organization>
     </author>
-    <author fullname="Sebastien Ziegler" initials="S." surname="Ziegler">
+    <author initials="S." surname="Ziegler" fullname="Sebastien Ziegler">
       <organization>Mandat International</organization>
     </author>
-    <author fullname="Cedric Crettaz" initials="C." surname="Crettaz">
+    <author initials="C." surname="Crettaz" fullname="Cedric Crettaz">
       <organization>Mandat International</organization>
     </author>
-    <date year="2015" month="March" day="28"/>
+    <date day="28" month="March" year="2015"></date>
     <abstract>
-      <t>IPv6 is an important enabler of the Internet of Things, since it provides an addressing space large enough to encompass a vast and ubiquitous set of sensors and devices, allowing them to interconnect and interact seamlessly. To date, an important fraction of those devices is based on networking technologies other than IP. An important problem to solve in order to include them into an IPv6-based Internet of Things, is to define a mechanism for assigning an IPv6 address to each of them, in a way which avoids conflicts and protocol aliasing. The only existing proposal for such a mapping leaves many problems unsolved and it is nowadays inadequate to cope with the new scenarios which the Internet of Things presents. This document defines a mechanism, 6TONon-IP, for assigning automatically an IPv6 address to devices which do not support IPv6 or IPv4, in a way which minimizes the chances of address conflicts, and of frequent configuration changes due to instability of connection among devices. Such a mapping mechanism enables stateless autoconfiguration for legacy technology devices, allowing them to interconnect through the Internet and to fully integrate into a world wide scale, IPv6-based IoT.</t>
+      <t>   IPv6 is an important enabler of the Internet of Things, since it
+   provides an addressing space large enough to encompass a vast and
+   ubiquitous set of sensors and devices, allowing them to interconnect
+   and interact seamlessly.  To date, an important fraction of those
+   devices is based on networking technologies other than IP.  An
+   important problem to solve in order to include them into an
+   IPv6-based Internet of Things, is to define a mechanism for assigning
+   an IPv6 address to each of them, in a way which avoids conflicts and
+   protocol aliasing.
+
+   The only existing proposal for such a mapping leaves many problems
+   unsolved and it is nowadays inadequate to cope with the new scenarios
+   which the Internet of Things presents.  This document defines a
+   mechanism, 6TONon-IP, for assigning automatically an IPv6 address to
+   devices which do not support IPv6 or IPv4, in a way which minimizes
+   the chances of address conflicts, and of frequent configuration
+   changes due to instability of connection among devices.  Such a
+   mapping mechanism enables stateless autoconfiguration for legacy
+   technology devices, allowing them to interconnect through the
+   Internet and to fully integrate into a world wide scale, IPv6-based
+   IoT.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-rizzo-6lo-6legacy-03"/>
 </reference>

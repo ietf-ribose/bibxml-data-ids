@@ -1,13 +1,24 @@
 <reference anchor="I-D.ludwig-tsvwg-tcp-eifel-alg" target="https://datatracker.ietf.org/doc/html/draft-ludwig-tsvwg-tcp-eifel-alg-00">
   <front>
     <title>The Eifel Algorithm for TCP</title>
-    <author fullname="Ludwig Reiner" initials="L." surname="Reiner">
+    <seriesInfo name="Internet-Draft" value="draft-ludwig-tsvwg-tcp-eifel-alg-00"/>
+    <author initials="L." surname="Reiner" fullname="Ludwig Reiner">
       <organization>Ericsson Research</organization>
     </author>
-    <date year="2000" month="November" day="20"/>
+    <date day="20" month="November" year="2000"></date>
     <abstract>
-      <t>TCP's intertwined error and congestion control is not robust against spurious timeouts nor is it robust against packet re-orderings. A packet that is delayed in the network beyond the expiration of TCP's retransmission timer, is mistaken for a packet loss by a TCP sender. Also, a packet that is re-ordered in the network beyond TCP's duplicate acknowledgment threshold, is eventually mistaken for a packet loss by a TCP sender. Both situations lead to a spurious retransmit of the oldest outstanding segment, and an unnecessary reduction of the congestion window at the sender. Moreover, a spurious timeout forces the sender into a go-back-N retransmission mode leading to spurious retransmits of all outstanding segments.</t>
+      <t>TCP's intertwined error and congestion control is not robust against
+spurious timeouts nor is it robust against packet re-orderings. A
+packet that is delayed in the network beyond the expiration of TCP's
+retransmission timer, is mistaken for a packet loss by a TCP sender.
+Also, a packet that is re-ordered in the network beyond TCP's
+duplicate acknowledgment threshold, is eventually mistaken for a
+packet loss by a TCP sender. Both situations lead to a spurious
+retransmit of the oldest outstanding segment, and an unnecessary
+reduction of the congestion window at the sender. Moreover, a
+spurious timeout forces the sender into a go-back-N retransmission
+mode leading to spurious retransmits of all outstanding segments.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ludwig-tsvwg-tcp-eifel-alg-00"/>
 </reference>

@@ -1,22 +1,26 @@
 <reference anchor="I-D.vandergaast-edns-client-ip" target="https://datatracker.ietf.org/doc/html/draft-vandergaast-edns-client-ip-01">
   <front>
     <title>Client IP information in DNS requests</title>
-    <author fullname="Carlo Contavalli" initials="C." surname="Contavalli">
+    <seriesInfo name="Internet-Draft" value="draft-vandergaast-edns-client-ip-01"/>
+    <author initials="C." surname="Contavalli" fullname="Carlo Contavalli">
       <organization>Google</organization>
     </author>
-    <author fullname="Wilmer van der Gaast" initials="W." surname="van der Gaast">
+    <author initials="W." surname="van der Gaast" fullname="Wilmer van der Gaast">
       <organization>Google</organization>
     </author>
-    <author fullname="Sean Leach" initials="S." surname="Leach">
+    <author initials="S." surname="Leach" fullname="Sean Leach">
       <organization>Name.com</organization>
     </author>
-    <author fullname="Darryl Rodden" initials="D." surname="Rodden">
+    <author initials="D." surname="Rodden" fullname="Darryl Rodden">
       <organization>Neustar</organization>
     </author>
-    <date year="2010" month="May" day="21"/>
+    <date day="21" month="May" year="2010"></date>
     <abstract>
-      <t>This draft defines an EDNS0 extension to carry relevant network range information. In a query, it conveys the network address of the originator. In a response, it conveys the scope of network addresses that the answer is intended.</t>
+      <t>This draft defines an EDNS0 extension to carry relevant network range
+information.  In a query, it conveys the network address of the
+originator.  In a response, it conveys the scope of network addresses
+that the answer is intended.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-vandergaast-edns-client-ip-01"/>
 </reference>

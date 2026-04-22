@@ -1,25 +1,28 @@
 <reference anchor="I-D.ietf-idr-restart" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-restart-13">
   <front>
     <title>Graceful Restart Mechanism for BGP</title>
-    <author fullname="Yakov Rekhter" initials="Y." surname="Rekhter">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-restart-13"/>
+    <author initials="Y." surname="Rekhter" fullname="Yakov Rekhter">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="John Scudder" initials="J." surname="Scudder">
+    <author initials="J." surname="Scudder" fullname="John Scudder">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Srihari R. Sangli" initials="S. R." surname="Sangli">
+    <author initials="S. R." surname="Sangli" fullname="Srihari R. Sangli">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Enke Chen" initials="E." surname="Chen">
+    <author initials="E." surname="Chen" fullname="Enke Chen">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Rex Fernando" initials="R." surname="Fernando">
+    <author initials="R." surname="Fernando" fullname="Rex Fernando">
       <organization>Juniper Networks</organization>
     </author>
-    <date year="2006" month="July" day="19"/>
+    <date day="19" month="July" year="2006"></date>
     <abstract>
-      <t>This document describes a mechanism for BGP that would help minimize the negative effects on routing caused by BGP restart. An End-of-RIB marker is specified and can be used to convey routing convergence information. A new BGP capability, termed "Graceful Restart Capability", is defined that would allow a BGP speaker to express its ability to preserve forwarding state during BGP restart. Finally, procedures are outlined for temporarily retaining routing information across a TCP session termination/re-establishment. The mechanisms described in this document are applicable to all routers, both those with the ability to preserve forwarding state during BGP restart and those without (although the latter need to implement only a subset of the mechanisms described in this document). [STANDARDS-TRACK]</t>
+      <t>This document describes a mechanism for BGP that would help minimize the negative effects on routing caused by BGP restart. An End-of-RIB marker is specified and can be used to convey routing convergence information. A new BGP capability, termed "Graceful Restart Capability", is defined that would allow a BGP speaker to express its ability to preserve forwarding state during BGP restart. Finally, procedures are outlined for temporarily retaining routing information across a TCP session termination/re-establishment.
+
+ The mechanisms described in this document are applicable to all routers, both those with the ability to preserve forwarding state during BGP restart and those without (although the latter need to implement only a subset of the mechanisms described in this document). [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-restart-13"/>
 </reference>

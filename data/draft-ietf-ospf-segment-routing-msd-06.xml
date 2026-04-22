@@ -1,22 +1,32 @@
 <reference anchor="I-D.ietf-ospf-segment-routing-msd" target="https://datatracker.ietf.org/doc/html/draft-ietf-ospf-segment-routing-msd-06">
   <front>
     <title>Signaling  MSD (Maximum SID Depth) using OSPF</title>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-segment-routing-msd-06"/>
+    <author initials="J." surname="Tantsura" fullname="Jeff Tantsura">
       <organization>Individual</organization>
     </author>
-    <author fullname="Uma Chunduri" initials="U." surname="Chunduri">
+    <author initials="U." surname="Chunduri" fullname="Uma Chunduri">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Sam Aldrin" initials="S." surname="Aldrin">
+    <author initials="S." surname="Aldrin" fullname="Sam Aldrin">
       <organization>Google, Inc</organization>
     </author>
-    <author fullname="Peter Psenak" initials="P." surname="Psenak">
+    <author initials="P." surname="Psenak" fullname="Peter Psenak">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2017" month="November" day="30"/>
+    <date day="30" month="November" year="2017"></date>
     <abstract>
-      <t>This document proposes a way to signal Maximum SID Depth (MSD) supported by a node at node and/or link granularity by an OSPF Router. In a Segment Routing (SR) enabled network a centralized controller that programs SR tunnels needs to know the MSD supported by the head-end at node and/or link granularity to impose the SID stack of an appropriate depth. MSD is relevant to the head-end of a SR tunnel or Binding-SID anchor node where Binding-SID expansions might result in creation of a new SID stack. Here the term OSPF means both OSPFv2 and OSPFv3.</t>
+      <t>   This document proposes a way to signal Maximum SID Depth (MSD)
+   supported by a node at node and/or link granularity by an OSPF
+   Router.  In a Segment Routing (SR) enabled network a centralized
+   controller that programs SR tunnels needs to know the MSD supported
+   by the head-end at node and/or link granularity to impose the SID
+   stack of an appropriate depth.  MSD is relevant to the head-end of a
+   SR tunnel or Binding-SID anchor node where Binding-SID expansions
+   might result in creation of a new SID stack.  Here the term OSPF
+   means both OSPFv2 and OSPFv3.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-segment-routing-msd-06"/>
 </reference>

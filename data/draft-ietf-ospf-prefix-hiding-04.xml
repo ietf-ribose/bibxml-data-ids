@@ -1,19 +1,25 @@
 <reference anchor="I-D.ietf-ospf-prefix-hiding" target="https://datatracker.ietf.org/doc/html/draft-ietf-ospf-prefix-hiding-04">
   <front>
     <title>Hiding Transit-only Networks in OSPF</title>
-    <author fullname="Yi Yang" initials="Y." surname="Yang">
-      <organization/>
-    </author>
-    <author fullname="Alvaro Retana" initials="A." surname="Retana">
-      <organization/>
-    </author>
-    <author fullname="Abhay Roy" initials="A." surname="Roy">
-      <organization/>
-    </author>
-    <date year="2012" month="June" day="20"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-prefix-hiding-04"/>
+    <author initials="Y." surname="Yang" fullname="Yi Yang"/>
+    <author initials="A." surname="Retana" fullname="Alvaro Retana"/>
+    <author initials="A." surname="Roy" fullname="Abhay Roy"/>
+    <date day="20" month="June" year="2012"></date>
     <abstract>
-      <t>A transit-only network is defined as a network connecting routers only. In OSPF, transit-only networks are usually configured with routable IP addresses, which are advertised in Link State Advertisements (LSAs) but not needed for data traffic. In addition, remote attacks can be launched against routers by sending packets to these transit-only networks. This document presents a mechanism to hide transit-only networks to speed up network convergence and minimize remote attack vulnerability. This document updates RFC 2328 and RFC 5340.</t>
+      <t>   A transit-only network is defined as a network connecting routers
+   only.  In OSPF, transit-only networks are usually configured with
+   routable IP addresses, which are advertised in Link State
+   Advertisements (LSAs) but not needed for data traffic.  In addition,
+   remote attacks can be launched against routers by sending packets to
+   these transit-only networks.  This document presents a mechanism to
+   hide transit-only networks to speed up network convergence and
+   minimize remote attack vulnerability.
+
+   This document updates RFC 2328 and RFC 5340.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-prefix-hiding-04"/>
 </reference>

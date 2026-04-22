@@ -1,28 +1,35 @@
 <reference anchor="I-D.ali-ccamp-rc-objective-function-metric-bound" target="https://datatracker.ietf.org/doc/html/draft-ali-ccamp-rc-objective-function-metric-bound-02">
   <front>
     <title>Resource ReserVation Protocol-Traffic Engineering (RSVP-TE) extension for signaling Objective Function and Metric Bound</title>
-    <author fullname="Zafar Ali" initials="Z." surname="Ali">
-      <organization/>
-    </author>
-    <author fullname="George Swallow" initials="G." surname="Swallow">
-      <organization/>
-    </author>
-    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils">
-      <organization/>
-    </author>
-    <author fullname="Luyuan Fang" initials="L." surname="Fang">
-      <organization/>
-    </author>
-    <author fullname="Kenji Kumaki" initials="K." surname="Kumaki">
-      <organization/>
-    </author>
-    <author fullname="Ruediger Kunze" initials="R." surname="Kunze">
-      <organization/>
-    </author>
-    <date year="2012" month="July" day="16"/>
+    <seriesInfo name="Internet-Draft" value="draft-ali-ccamp-rc-objective-function-metric-bound-02"/>
+    <author initials="Z." surname="Ali" fullname="Zafar Ali"/>
+    <author initials="G." surname="Swallow" fullname="George Swallow"/>
+    <author initials="C." surname="Filsfils" fullname="Clarence Filsfils"/>
+    <author initials="L." surname="Fang" fullname="Luyuan Fang"/>
+    <author initials="K." surname="Kumaki" fullname="Kenji Kumaki"/>
+    <author initials="R." surname="Kunze" fullname="Ruediger Kunze"/>
+    <date day="16" month="July" year="2012"></date>
     <abstract>
-      <t>In particular networks such as those used by financial institutions, network performance criteria such as latency are becoming as critical to data path selection. However cost is still an important consideration. This leads to a situation where path calculation involves multiple metrics an more complex objective functions. When using GMPLS control plane, the ingress node may need to request remote node to perform path computation or expansion. In such cases, ingress node needs to convey the required objective function to the remote node, to enable it to perform the desired path computation. Similarly, there are cases the ingress needs to indicate a TE metric bound for a loose segment that is expanded by a remote node. This document defines extensions to the RSVP-TE Protocol to allow an ingress node to request the required objective function for the path computation, as well as a metric bound to influence route computation decisions at a remote node(s).</t>
+      <t>     In particular networks such as those used by financial
+     institutions, network performance criteria such as latency are
+     becoming as critical to data path selection.  However cost is still
+     an important consideration.  This leads to a situation where path
+     calculation involves multiple metrics an more complex objective
+     functions.
+
+     When using GMPLS control plane, the ingress node may need to
+     request remote node to perform path computation or expansion. In
+     such cases, ingress node needs to convey the required objective
+     function to the remote node, to enable it to perform the desired
+     path computation. Similarly, there are cases the ingress needs to
+     indicate a TE metric bound for a loose segment that is expanded by
+     a remote node. This document defines extensions to the RSVP-TE
+     Protocol to allow an ingress node to request the required objective
+     function for the path computation, as well as a metric bound to
+     influence route computation decisions at a remote node(s).
+
+     
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ali-ccamp-rc-objective-function-metric-bound-02"/>
 </reference>

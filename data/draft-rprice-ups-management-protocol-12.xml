@@ -1,13 +1,26 @@
 <reference anchor="I-D.rprice-ups-management-protocol" target="https://datatracker.ietf.org/doc/html/draft-rprice-ups-management-protocol-12">
   <front>
     <title>Uninterruptible Power Supply (UPS) Management Protocol -- Commands and Responses</title>
-    <author fullname="Roger Price" initials="R." surname="Price">
+    <seriesInfo name="Internet-Draft" value="draft-rprice-ups-management-protocol-12"/>
+    <author initials="R." surname="Price" fullname="Roger Price">
       <organization>Network UPS Tools Project</organization>
     </author>
-    <date year="2022" month="April" day="12"/>
+    <date day="12" month="April" year="2022"></date>
     <abstract>
-      <t>This document describes the command/response protocol currently used in the management of Uninterruptible Power Supply (UPS) units and other power devices often deployed in small offices, and in IT installations subject to an erratic public power supply. The UPS units typically interface to an Attachment Daemon in the system they protect. This daemon is in turn polled by a Management Daemon which notifies users and system administrators of power supply incidents, and automates system shutdown decisions. The commands and responses described by this document are exchanged between the UPS Attachment Daemon and the Management Daemon. Current practice when this text was written risks weak security and this is addressed in the Security Considerations sections of this document.</t>
+      <t>   This document describes the command/response protocol currently used
+   in the management of Uninterruptible Power Supply (UPS) units and
+   other power devices often deployed in small offices, and in IT
+   installations subject to an erratic public power supply.  The UPS
+   units typically interface to an Attachment Daemon in the system they
+   protect.  This daemon is in turn polled by a Management Daemon which
+   notifies users and system administrators of power supply incidents,
+   and automates system shutdown decisions.  The commands and responses
+   described by this document are exchanged between the UPS Attachment
+   Daemon and the Management Daemon.  Current practice when this text
+   was written risks weak security and this is addressed in the Security
+   Considerations sections of this document.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-rprice-ups-management-protocol-12"/>
 </reference>

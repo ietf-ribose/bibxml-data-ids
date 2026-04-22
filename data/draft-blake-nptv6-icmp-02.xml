@@ -1,16 +1,26 @@
 <reference anchor="I-D.blake-nptv6-icmp" target="https://datatracker.ietf.org/doc/html/draft-blake-nptv6-icmp-02">
   <front>
     <title>ICMP Handling in IPv6-to-IPv6 Network Prefix Translation</title>
-    <author fullname="Steven Blake" initials="S." surname="Blake">
+    <seriesInfo name="Internet-Draft" value="draft-blake-nptv6-icmp-02"/>
+    <author initials="S." surname="Blake" fullname="Steven Blake">
       <organization>Extreme Networks</organization>
     </author>
-    <author fullname="Terry Moes" initials="T." surname="Moes">
+    <author initials="T." surname="Moes" fullname="Terry Moes">
       <organization>Deltatec</organization>
     </author>
-    <date year="2012" month="March" day="12"/>
+    <date day="12" month="March" year="2012"></date>
     <abstract>
-      <t>NPTv6 is a stateless, transport-agnostic IPv6-to-IPv6 Network Prefix Translation function that provides the address-independence benefit associated with IPv4-to-IPv4 NAT without some of that mechanism's drawbacks. NPTv6 is intended to be deployed in environments where a host might not know its "external" network prefix(es). In such an environment, a NPTv6 device must also translate network prefixes present in in-bound and out-bound ICMPv6 error message payloads. This document describes the required processing of ICMPv6 error messages.</t>
+      <t>   NPTv6 is a stateless, transport-agnostic IPv6-to-IPv6 Network Prefix
+   Translation function that provides the address-independence benefit
+   associated with IPv4-to-IPv4 NAT without some of that mechanism's
+   drawbacks.  NPTv6 is intended to be deployed in environments where a
+   host might not know its "external" network prefix(es).  In such an
+   environment, a NPTv6 device must also translate network prefixes
+   present in in-bound and out-bound ICMPv6 error message payloads.
+   This document describes the required processing of ICMPv6 error
+   messages.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-blake-nptv6-icmp-02"/>
 </reference>

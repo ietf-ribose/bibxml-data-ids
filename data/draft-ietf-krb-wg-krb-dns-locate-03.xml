@@ -1,16 +1,31 @@
 <reference anchor="I-D.ietf-krb-wg-krb-dns-locate" target="https://datatracker.ietf.org/doc/html/draft-ietf-krb-wg-krb-dns-locate-03">
   <front>
     <title>Distributing Kerberos KDC and Realm Information with DNS</title>
-    <author fullname="Ken Hornstein" initials="K." surname="Hornstein">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-krb-wg-krb-dns-locate-03"/>
+    <author initials="K." surname="Hornstein" fullname="Ken Hornstein">
       <organization>NRL</organization>
     </author>
-    <author fullname="Jeffrey E. Altman" initials="J. E." surname="Altman">
+    <author initials="J. E." surname="Altman" fullname="Jeffrey E. Altman">
       <organization>Columbia University</organization>
     </author>
-    <date year="2002" month="July" day="29"/>
+    <date day="29" month="July" year="2002"></date>
     <abstract>
-      <t>Neither the Kerberos V5 protocol [RFC1510] nor the Kerberos V4 proto- col [RFC????] describe any mechanism for clients to learn critical configuration information necessary for proper operation of the pro- tocol. Such information includes the location of Kerberos key dis- tribution centers or a mapping between DNS domains and Kerberos realms. Current Kerberos implementations generally store such configuration information in a file on each client machine. Experience has shown this method of storing configuration information presents problems with out-of-date information and scaling problems, especially when using cross-realm authentication. This memo describes a method for using the Domain Name System [RFC1035] for storing such configuration information. Specifically, methods for storing KDC location and hostname/domain name to realm mapping information are discussed.</t>
+      <t>Neither the Kerberos V5 protocol [RFC1510] nor the Kerberos V4 proto-
+col [RFC????] describe any mechanism for clients to learn critical
+configuration information necessary for proper operation of the pro-
+tocol.  Such information includes the location of Kerberos key dis-
+tribution centers or a mapping between DNS domains and Kerberos
+realms.
+Current Kerberos implementations generally store such configuration
+information in a file on each client machine.  Experience has shown
+this method of storing configuration information presents problems
+with out-of-date information and scaling problems, especially when
+using cross-realm authentication.
+This memo describes a method for using the Domain Name System
+[RFC1035] for storing such configuration information.  Specifically,
+methods for storing KDC location and hostname/domain name to realm
+mapping information are discussed.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-krb-wg-krb-dns-locate-03"/>
 </reference>

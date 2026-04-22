@@ -1,16 +1,27 @@
 <reference anchor="I-D.ietf-v6ops-464xlat-optimization" target="https://datatracker.ietf.org/doc/html/draft-ietf-v6ops-464xlat-optimization-01">
   <front>
     <title>464XLAT/NAT64 Optimization</title>
-    <author fullname="Jordi Palet Martinez" initials="J. P." surname="Martinez">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-v6ops-464xlat-optimization-01"/>
+    <author initials="J. P." surname="Martinez" fullname="Jordi Palet Martinez">
       <organization>The IPv6 Company</organization>
     </author>
-    <author fullname="Alejandro D'Egidio" initials="A." surname="D'Egidio">
+    <author initials="A." surname="D'Egidio" fullname="Alejandro D'Egidio">
       <organization>Telecentro</organization>
     </author>
-    <date year="2020" month="July" day="7"/>
+    <date day="07" month="July" year="2020"></date>
     <abstract>
-      <t>This document proposes possible solutions to avoid certain drawbacks of IP/ICMP Translation Algorithm (SIIT) when the destinations are already available with IPv6. When SIIT is used as a stateless NAT46 and IPv4-only devices or applications initiate traffic flows to dual- stack services (in the operator network or Internet), those flows will be translated back to IPv4 by a NAT64. Avoiding this dual- translation will significantly reduce the usage of the NAT64 and the relevant logging, which may be a high impact when traffic flows are towards CDNs, caches or similar resources. This is the case for 464XLAT and MAP-T.</t>
+      <t>   This document proposes possible solutions to avoid certain drawbacks
+   of IP/ICMP Translation Algorithm (SIIT) when the destinations are
+   already available with IPv6.  When SIIT is used as a stateless NAT46
+   and IPv4-only devices or applications initiate traffic flows to dual-
+   stack services (in the operator network or Internet), those flows
+   will be translated back to IPv4 by a NAT64.  Avoiding this dual-
+   translation will significantly reduce the usage of the NAT64 and the
+   relevant logging, which may be a high impact when traffic flows are
+   towards CDNs, caches or similar resources.  This is the case for
+   464XLAT and MAP-T.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-v6ops-464xlat-optimization-01"/>
 </reference>

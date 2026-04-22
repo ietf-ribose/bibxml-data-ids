@@ -1,19 +1,28 @@
 <reference anchor="I-D.ietf-suit-firmware-encryption" target="https://datatracker.ietf.org/doc/html/draft-ietf-suit-firmware-encryption-04">
   <front>
     <title>Firmware Encryption with SUIT Manifests</title>
-    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-suit-firmware-encryption-04"/>
+    <author initials="H." surname="Tschofenig" fullname="Hannes Tschofenig">
       <organization>Arm Limited</organization>
     </author>
-    <author fullname="Russ Housley" initials="R." surname="Housley">
+    <author initials="R." surname="Housley" fullname="Russ Housley">
       <organization>Vigil Security, LLC</organization>
     </author>
-    <author fullname="Brendan Moran" initials="B." surname="Moran">
+    <author initials="B." surname="Moran" fullname="Brendan Moran">
       <organization>Arm Limited</organization>
     </author>
-    <date year="2022" month="April" day="20"/>
+    <date day="20" month="April" year="2022"></date>
     <abstract>
-      <t>This document specifies a firmware update mechanism where the firmware image is encrypted. Firmware encryption uses the IETF SUIT manifest with key establishment provided by the hybrid public-key encryption (HPKE) scheme and the AES Key Wrap (AES-KW) with a pre- shared key-encryption key. Encryption of the firmware image is accomplished using the established content encryption key and a mutually agreed symmetric encryption algorithm, such as AES-GCM or AES-CCM.</t>
+      <t>   This document specifies a firmware update mechanism where the
+   firmware image is encrypted.  Firmware encryption uses the IETF SUIT
+   manifest with key establishment provided by the hybrid public-key
+   encryption (HPKE) scheme and the AES Key Wrap (AES-KW) with a pre-
+   shared key-encryption key.  Encryption of the firmware image is
+   accomplished using the established content encryption key and a
+   mutually agreed symmetric encryption algorithm, such as AES-GCM or
+   AES-CCM.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-suit-firmware-encryption-04"/>
 </reference>

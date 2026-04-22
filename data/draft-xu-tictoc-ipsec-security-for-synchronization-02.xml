@@ -1,13 +1,25 @@
 <reference anchor="I-D.xu-tictoc-ipsec-security-for-synchronization" target="https://datatracker.ietf.org/doc/html/draft-xu-tictoc-ipsec-security-for-synchronization-02">
   <front>
     <title>IPsec security for packet based synchronization</title>
-    <author fullname="Yixian Xu" initials="Y." surname="Xu">
+    <seriesInfo name="Internet-Draft" value="draft-xu-tictoc-ipsec-security-for-synchronization-02"/>
+    <author initials="Y." surname="Xu" fullname="Yixian Xu">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2011" month="September" day="16"/>
+    <date day="16" month="September" year="2011"></date>
     <abstract>
-      <t>Cellular networks often use Internet standard technologies to handle synchronization. This document defines an extension based on WESP. Usually, several traffic flows are carried in one IPsec tunnel, for some applications, such as, 1588 or NTP, the packets need to be identified after IPsec encryption to handle specially. In order to achieve high scalability in implement, a separate IPsec tunnel will not be established for some special traffic. This document analyses the need for security methods for synchronization messages distributed over the Internet. This document also gives a solution on how to mark the synchronization message when IPSec is implemented in end to end frequency synchronization."</t>
+      <t>   Cellular networks often use Internet standard technologies to handle
+   synchronization.  This document defines an extension based on WESP.
+   Usually, several traffic flows are carried in one IPsec tunnel, for
+   some applications, such as, 1588 or NTP, the packets need to be
+   identified after IPsec encryption to handle specially.  In order to
+   achieve high scalability in implement, a separate IPsec tunnel will
+   not be established for some special traffic.  This document analyses
+   the need for security methods for synchronization messages
+   distributed over the Internet.  This document also gives a solution
+   on how to mark the synchronization message when IPSec is implemented
+   in end to end frequency synchronization."
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-xu-tictoc-ipsec-security-for-synchronization-02"/>
 </reference>

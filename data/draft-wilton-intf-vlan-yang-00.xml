@@ -1,19 +1,30 @@
 <reference anchor="I-D.wilton-intf-vlan-yang" target="https://datatracker.ietf.org/doc/html/draft-wilton-intf-vlan-yang-00">
   <front>
     <title>Interface VLAN YANG Data Models</title>
-    <author fullname="Robert Wilton" initials="R." surname="Wilton">
+    <seriesInfo name="Internet-Draft" value="draft-wilton-intf-vlan-yang-00"/>
+    <author initials="R." surname="Wilton" fullname="Robert Wilton">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="David Ball" initials="D." surname="Ball">
+    <author initials="D." surname="Ball" fullname="David Ball">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Giles Heron" initials="G." surname="Heron">
+    <author initials="G." surname="Heron" fullname="Giles Heron">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2015" month="March" day="9"/>
+    <date day="09" month="March" year="2015"></date>
     <abstract>
-      <t>This document defines a YANG configuration data model for the management of VLAN sub-interfaces that augments the generic interfaces data model defined in RFC 7223 [RFC7223]. It provides support for basic tag matching to allow termination of an L2 VLAN segement into L3 services. It also provides support for flexible matching and rewriting of L2 header fields for L2 services. The model differs from an IEEE 802.1Q VLAN derived model in that the configuration is interface/sub-interface based as opposed to being VLAN based.</t>
+      <t>   This document defines a YANG configuration data model for the
+   management of VLAN sub-interfaces that augments the generic
+   interfaces data model defined in RFC 7223 [RFC7223].  It provides
+   support for basic tag matching to allow termination of an L2 VLAN
+   segement into L3 services.  It also provides support for flexible
+   matching and rewriting of L2 header fields for L2 services.
+
+   The model differs from an IEEE 802.1Q VLAN derived model in that the
+   configuration is interface/sub-interface based as opposed to being
+   VLAN based.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wilton-intf-vlan-yang-00"/>
 </reference>

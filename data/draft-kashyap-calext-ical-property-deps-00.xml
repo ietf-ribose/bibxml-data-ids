@@ -1,13 +1,23 @@
 <reference anchor="I-D.kashyap-calext-ical-property-deps" target="https://datatracker.ietf.org/doc/html/draft-kashyap-calext-ical-property-deps-00">
   <front>
     <title>Machine-Readable Property Dependencies for iCalendar (RFC 5545)</title>
-    <author fullname="Ravi Kashyap" initials="R." surname="Kashyap">
+    <seriesInfo name="Internet-Draft" value="draft-kashyap-calext-ical-property-deps-00"/>
+    <author initials="R." surname="Kashyap" fullname="Ravi Kashyap">
       <organization>iCalDAV Project</organization>
     </author>
-    <date year="2026" month="March" day="30"/>
+    <date day="30" month="March" year="2026"></date>
     <abstract>
-      <t>RFC 5545 defines inter-property interaction rules for iCalendar components in prose scattered across multiple RFC sections. No published, standalone representation of these rules exists in a form suitable for machine consumption. This document specifies a formal dependency graph for VEVENT components with 27 properties and 20 edges spanning six edge types. It classifies properties into five merge safety categories that determine whether concurrent edits can be combined without user intervention. The specification is published as YAML and JSON artifacts for cross-language consumption.</t>
+      <t>   RFC 5545 defines inter-property interaction rules for iCalendar
+   components in prose scattered across multiple RFC sections.  No
+   published, standalone representation of these rules exists in a form
+   suitable for machine consumption.  This document specifies a formal
+   dependency graph for VEVENT components with 27 properties and 20
+   edges spanning six edge types.  It classifies properties into five
+   merge safety categories that determine whether concurrent edits can
+   be combined without user intervention.  The specification is
+   published as YAML and JSON artifacts for cross-language consumption.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kashyap-calext-ical-property-deps-00"/>
 </reference>

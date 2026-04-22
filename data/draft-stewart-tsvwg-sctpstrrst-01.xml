@@ -1,19 +1,31 @@
 <reference anchor="I-D.stewart-tsvwg-sctpstrrst" target="https://datatracker.ietf.org/doc/html/draft-stewart-tsvwg-sctpstrrst-01">
   <front>
     <title>Stream Control Transmission Protocol (SCTP) Stream Reconfiguration</title>
-    <author fullname="Randall R. Stewart" initials="R. R." surname="Stewart">
+    <seriesInfo name="Internet-Draft" value="draft-stewart-tsvwg-sctpstrrst-01"/>
+    <author initials="R. R." surname="Stewart" fullname="Randall R. Stewart">
       <organization>Researcher</organization>
     </author>
-    <author fullname="Peter Lei" initials="P." surname="Lei">
+    <author initials="P." surname="Lei" fullname="Peter Lei">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Michael Tüxen" initials="M." surname="Tüxen">
+    <author initials="M." surname="Tüxen" fullname="Michael Tüxen">
       <organization>Muenster Univ. of Applied Sciences</organization>
     </author>
-    <date year="2009" month="February" day="16"/>
+    <date day="16" month="February" year="2009"></date>
     <abstract>
-      <t>Many applications that desire to use SCTP have requested the ability to "reset" a stream. The intention of resetting a stream is to start the numbering sequence of the stream back at 'zero' with a corresponding notification to the upper layer that this act as been performed. The applications that have requested this feature normally desire it so that they can "re-use" streams for different purposes but still utilize the stream sequence number for the application to track the message flows. Thus, without this feature, a new use on an old stream would result in message numbers larger than expected without a protocol mechanism to "start the streams back at zero". This documents presents also a method for resetting the transport sequence numbers and all stream sequence numbers.</t>
+      <t>Many applications that desire to use SCTP have requested the ability
+to "reset" a stream.  The intention of resetting a stream is to start
+the numbering sequence of the stream back at 'zero' with a
+corresponding notification to the upper layer that this act as been
+performed.  The applications that have requested this feature
+normally desire it so that they can "re-use" streams for different
+purposes but still utilize the stream sequence number for the
+application to track the message flows.  Thus, without this feature,
+a new use on an old stream would result in message numbers larger
+than expected without a protocol mechanism to "start the streams back
+at zero".  This documents presents also a method for resetting the
+transport sequence numbers and all stream sequence numbers.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-stewart-tsvwg-sctpstrrst-01"/>
 </reference>

@@ -1,16 +1,17 @@
 <reference anchor="I-D.ietf-bess-pta-flags" target="https://datatracker.ietf.org/doc/html/draft-ietf-bess-pta-flags-03">
   <front>
     <title>Registry and Extensions for P-Multicast Service Interface Tunnel Attribute Flags</title>
-    <author fullname="Eric C. Rosen" initials="E. C." surname="Rosen">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bess-pta-flags-03"/>
+    <author initials="E. C." surname="Rosen" fullname="Eric C. Rosen">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Thomas Morin" initials="T." surname="Morin">
+    <author initials="T." surname="Morin" fullname="Thomas Morin">
       <organization>Orange</organization>
     </author>
-    <date year="2016" month="May" day="3"/>
+    <date day="03" month="May" year="2016"></date>
     <abstract>
-      <t>The BGP-based control procedures for Multicast Virtual Private Networks (MVPNs) make use of a BGP attribute known as the "P-Multicast Service Interface (PMSI) Tunnel" attribute. The attribute contains a one-octet "Flags" field. The purpose of this document is to establish an IANA registry for the assignment of the bits in this field. Since the "Flags" field contains only eight bits, this document also defines a new BGP Extended Community, "Additional PMSI Tunnel Attribute Flags", that can be used to carry additional flags for the "P-Multicast Service Interface (PMSI) Tunnel" attribute. This document updates RFC 6514.</t>
+      <t>The BGP-based control procedures for Multicast Virtual Private Networks (MVPNs) make use of a BGP attribute known as the "P-Multicast Service Interface (PMSI) Tunnel" attribute.  The attribute contains a one-octet "Flags" field.  The purpose of this document is to establish an IANA registry for the assignment of the bits in this field.  Since the "Flags" field contains only eight bits, this document also defines a new BGP Extended Community, "Additional PMSI Tunnel Attribute Flags", that can be used to carry additional flags for the "P-Multicast Service Interface (PMSI) Tunnel" attribute.  This document updates RFC 6514.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-bess-pta-flags-03"/>
 </reference>

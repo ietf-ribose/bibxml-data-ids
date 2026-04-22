@@ -1,16 +1,34 @@
 <reference anchor="I-D.perlman-strong-pass" target="https://datatracker.ietf.org/doc/html/draft-perlman-strong-pass-00">
   <front>
     <title>Strong Password-Based Authentication Using Pseudorandom Moduli</title>
-    <author fullname="Radia Perlman" initials="R." surname="Perlman">
+    <seriesInfo name="Internet-Draft" value="draft-perlman-strong-pass-00"/>
+    <author initials="R." surname="Perlman" fullname="Radia Perlman">
       <organization>Sun Microsystems</organization>
     </author>
-    <author fullname="Charlie W. Kaufman" initials="C. W." surname="Kaufman">
+    <author initials="C. W." surname="Kaufman" fullname="Charlie W. Kaufman">
       <organization>Iris Associates</organization>
     </author>
-    <date year="2000" month="July" day="7"/>
+    <date day="07" month="July" year="2000"></date>
     <abstract>
-      <t>This document specifies a new password-based protocol that can be used as the basis of mutual authentication, or downloading of a private key. The only thing the client needs to know is the user's password. The protocol is constructed such that an eavesdropper cannot do off-line password-guessing attacks. Someone stealing the server's database cannot directly impersonate the user, although they can do an off-line password-guessing attack on the contents. The protocol presented in this paper is similar in functionality, higher in performance at the server, but lower in performance at the client, to the extended EKE and SPEKE, and SRP schemes. Additional properties of this scheme are salt, no password-equivalent stored at the server, and prevention of servers on which the user has the same password from impersonating each other to the user. This document gives an overview of the approach, but not wire-formats, which are premature at this stage. The purpose of this document is to advertise this new scheme to various groups that might be interested (CAT, for a GSS-API mechanism, LDAP, for download of a private key).</t>
+      <t>This document specifies a new password-based protocol that can be
+used as the basis of mutual authentication, or downloading of a
+private key. The only thing the client needs to know is the user's
+password. The protocol is constructed such that an eavesdropper
+cannot do off-line password-guessing attacks. Someone stealing the
+server's database cannot directly impersonate the user, although they
+can do an off-line password-guessing attack on the contents. The
+protocol presented in this paper is similar in functionality, higher
+in performance at the server, but lower in performance at the client,
+to the extended EKE and SPEKE, and SRP schemes.  Additional
+properties of this scheme are salt, no password-equivalent stored at
+the server, and prevention of servers on which the user has the same
+password from impersonating each other to the user. This document
+gives an overview of the approach, but not wire-formats, which are
+premature at this stage. The purpose of this document is to advertise
+this new scheme to various groups that might be interested (CAT, for
+a GSS-API mechanism, LDAP, for download of a private key).
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-perlman-strong-pass-00"/>
 </reference>

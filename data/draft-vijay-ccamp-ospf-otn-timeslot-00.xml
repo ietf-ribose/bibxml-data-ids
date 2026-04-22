@@ -1,13 +1,24 @@
 <reference anchor="I-D.vijay-ccamp-ospf-otn-timeslot" target="https://datatracker.ietf.org/doc/html/draft-vijay-ccamp-ospf-otn-timeslot-00">
   <front>
     <title>Advertising OTN Fixed Time slot constraints in OSPF</title>
-    <author fullname="Vijayanand Chandrasekar" initials="V." surname="Chandrasekar">
+    <seriesInfo name="Internet-Draft" value="draft-vijay-ccamp-ospf-otn-timeslot-00"/>
+    <author initials="V." surname="Chandrasekar" fullname="Vijayanand Chandrasekar">
       <organization>Individual Contributor</organization>
     </author>
-    <date year="2019" month="August" day="16"/>
+    <date day="16" month="August" year="2019"></date>
     <abstract>
-      <t>This document describes the extensions needed to OSPF for advertising the constraints that exists in some OTN switches while switching timeslots between ports. This advertisement would be needed for computing path of LSP through these switches taking into account the above mentioned constraint. This document proposes extensions to existing OSPF for advertising the timeslots available on each OTN port in a new sub-tlv and the connectivity matrix representing the capability of the device to cross connect these timeslots in another new sub-tlv</t>
+      <t>   This document describes the extensions needed to OSPF for
+   advertising the constraints that exists in some OTN switches while
+   switching timeslots between ports. This advertisement would be
+   needed for computing path of LSP through these switches taking into
+   account the above mentioned constraint.
+
+   This document proposes extensions to existing OSPF for advertising
+   the timeslots available on each OTN port in a new sub-tlv and the
+   connectivity matrix representing the capability of the device to
+   cross connect these timeslots in another new sub-tlv
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-vijay-ccamp-ospf-otn-timeslot-00"/>
 </reference>

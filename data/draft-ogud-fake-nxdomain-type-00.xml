@@ -1,16 +1,27 @@
 <reference anchor="I-D.ogud-fake-nxdomain-type" target="https://datatracker.ietf.org/doc/html/draft-ogud-fake-nxdomain-type-00">
   <front>
     <title>Signaling NSEC record owner name nonexistence</title>
-    <author fullname="Ólafur Guðmundsson" initials="O." surname="Guðmundsson">
+    <seriesInfo name="Internet-Draft" value="draft-ogud-fake-nxdomain-type-00"/>
+    <author initials="O." surname="Guðmundsson" fullname="Ólafur Guðmundsson">
       <organization>CloudFlare Inc.</organization>
     </author>
-    <author fullname="Filippo Valsorda" initials="F." surname="Valsorda">
+    <author initials="F." surname="Valsorda" fullname="Filippo Valsorda">
       <organization>CloudFlare Inc.</organization>
     </author>
-    <date year="2015" month="May" day="7"/>
+    <date day="07" month="May" year="2015"></date>
     <abstract>
-      <t>DNSSEC was to large extent designed for off-line signing. A number of new opportunities arise when on-line signing is used. In negative answers case there is no real need for the wildcard proof and the server can just state that the queried name and type do not exist in a single NSEC/NSEC3 record. But such a minimally covering NSEC record that shares the name with the query name can not set the NXDOMAIN RCODE. Still, some applications want to explicitly know if the name does exist. This document allocates a new DNS RRtype that can be used to signal nonexistence of the owner names of NSEC/NSEC3 records.</t>
+      <t>   DNSSEC was to large extent designed for off-line signing.  A number
+   of new opportunities arise when on-line signing is used.  In negative
+   answers case there is no real need for the wildcard proof and the
+   server can just state that the queried name and type do not exist in
+   a single NSEC/NSEC3 record.  But such a minimally covering NSEC
+   record that shares the name with the query name can not set the
+   NXDOMAIN RCODE.  Still, some applications want to explicitly know if
+   the name does exist.  This document allocates a new DNS RRtype that
+   can be used to signal nonexistence of the owner names of NSEC/NSEC3
+   records.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ogud-fake-nxdomain-type-00"/>
 </reference>

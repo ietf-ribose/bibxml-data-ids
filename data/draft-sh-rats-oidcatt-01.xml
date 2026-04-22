@@ -1,16 +1,26 @@
 <reference anchor="I-D.sh-rats-oidcatt" target="https://datatracker.ietf.org/doc/html/draft-sh-rats-oidcatt-01">
   <front>
     <title>Attestation in OpenID-Connect</title>
-    <author fullname="Ned Smith" initials="N." surname="Smith">
+    <seriesInfo name="Internet-Draft" value="draft-sh-rats-oidcatt-01"/>
+    <author initials="N." surname="Smith" fullname="Ned Smith">
       <organization>Intel Corporation</organization>
     </author>
-    <author fullname="Thomas Hardjono" initials="T." surname="Hardjono">
+    <author initials="T." surname="Hardjono" fullname="Thomas Hardjono">
       <organization>Massachusetts Institute of Technology</organization>
     </author>
-    <date year="2023" month="August" day="9"/>
+    <date day="09" month="August" year="2023"></date>
     <abstract>
-      <t>This document defines message flows and extensions to OpenID-Connect (OIDC) messages that support attestation. Attestation Evidence and Attestation Results is accessed via appropriate APIs that presumably require authorization using OAuth 2.0 access tokens. A common use case for OIDC is retrieval of user identity information authorized by an OIDC identity token. The Relying Party may require Attestation Results that describes the trust properties of the UserInfo Endpoint. Trust properties may be a condition of accepting the user identity information.</t>
+      <t>   This document defines message flows and extensions to OpenID-Connect
+   (OIDC) messages that support attestation.  Attestation Evidence and
+   Attestation Results is accessed via appropriate APIs that presumably
+   require authorization using OAuth 2.0 access tokens.  A common use
+   case for OIDC is retrieval of user identity information authorized by
+   an OIDC identity token.  The Relying Party may require Attestation
+   Results that describes the trust properties of the UserInfo Endpoint.
+   Trust properties may be a condition of accepting the user identity
+   information.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sh-rats-oidcatt-01"/>
 </reference>

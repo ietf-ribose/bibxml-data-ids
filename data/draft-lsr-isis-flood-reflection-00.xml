@@ -1,25 +1,40 @@
 <reference anchor="I-D.lsr-isis-flood-reflection" target="https://datatracker.ietf.org/doc/html/draft-lsr-isis-flood-reflection-00">
   <front>
     <title>IS-IS Flood Reflection</title>
-    <author fullname="Tony Przygienda" initials="T." surname="Przygienda">
+    <seriesInfo name="Internet-Draft" value="draft-lsr-isis-flood-reflection-00"/>
+    <author initials="T." surname="Przygienda" fullname="Tony Przygienda">
       <organization>Juniper</organization>
     </author>
-    <author fullname="Chris Bowers" initials="C." surname="Bowers">
+    <author initials="C." surname="Bowers" fullname="Chris Bowers">
       <organization>Juniper</organization>
     </author>
-    <author fullname="Yiu Lee" initials="Y." surname="Lee">
+    <author initials="Y." surname="Lee" fullname="Yiu Lee">
       <organization>Comcast</organization>
     </author>
-    <author fullname="Alankar Sharma" initials="A." surname="Sharma">
+    <author initials="A." surname="Sharma" fullname="Alankar Sharma">
       <organization>Comcast</organization>
     </author>
-    <author fullname="Russ White" initials="R." surname="White">
+    <author initials="R." surname="White" fullname="Russ White">
       <organization>Juniper</organization>
     </author>
-    <date year="2020" month="July" day="1"/>
+    <date day="01" month="July" year="2020"></date>
     <abstract>
-      <t>This document describes an optional ISIS extension that allows the creation of IS-IS flood reflection topologies. Flood reflection allows the creation of topologies where L1 areas provide transit forwarding for L2 destinations within an L2 topology. It accomplishes this by creating L2 flood reflection adjacencies within each L1 area. The L2 flood reflection adjacencies are used to flood L2 LSPDUs, and they are used in the L2 SPF computation. However, they are not used for forwarding. This arrangement gives the L2 topology better scaling properties. In addition, only those routers directly participating in flood reflection have to support the feature. This allows for the incremental deployment of scalable L1 transit areas in an existing network, without the necessity of upgrading other routers in the network.</t>
+      <t>   This document describes an optional ISIS extension that allows the
+   creation of IS-IS flood reflection topologies.  Flood reflection
+   allows the creation of topologies where L1 areas provide transit
+   forwarding for L2 destinations within an L2 topology.  It
+   accomplishes this by creating L2 flood reflection adjacencies within
+   each L1 area.  The L2 flood reflection adjacencies are used to flood
+   L2 LSPDUs, and they are used in the L2 SPF computation.  However,
+   they are not used for forwarding.  This arrangement gives the L2
+   topology better scaling properties.  In addition, only those routers
+   directly participating in flood reflection have to support the
+   feature.  This allows for the incremental deployment of scalable L1
+   transit areas in an existing network, without the necessity of
+   upgrading other routers in the network.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-lsr-isis-flood-reflection-00"/>
 </reference>

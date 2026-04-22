@@ -1,19 +1,28 @@
 <reference anchor="I-D.heitz-idr-diagnostic-attr" target="https://datatracker.ietf.org/doc/html/draft-heitz-idr-diagnostic-attr-00">
   <front>
     <title>BGP Diagnostic Path Attribute</title>
-    <author fullname="Jakob Heitz" initials="J." surname="Heitz">
+    <seriesInfo name="Internet-Draft" value="draft-heitz-idr-diagnostic-attr-00"/>
+    <author initials="J." surname="Heitz" fullname="Jakob Heitz">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Prasad S. Narasimha" initials="P. S." surname="Narasimha">
+    <author initials="P. S." surname="Narasimha" fullname="Prasad S. Narasimha">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Sameer Gulrajani" initials="S." surname="Gulrajani">
+    <author initials="S." surname="Gulrajani" fullname="Sameer Gulrajani">
       <organization>Cisco</organization>
     </author>
-    <date year="2019" month="March" day="11"/>
+    <date day="11" month="March" year="2019"></date>
     <abstract>
-      <t>A BGP path attribute for the purpose of network diagnostics is described. It is non-transitive, such that BGP speakers will not forward it by default. It is structured as a list of elements. An element begins with the BGP identifier and AS number of the speaker that adds the element and includes a list of TLVs. Any speaker can add or remove an element to/from the list. TLVs for a timestamp and for a checksum are described.</t>
+      <t>   A BGP path attribute for the purpose of network diagnostics is
+   described.  It is non-transitive, such that BGP speakers will not
+   forward it by default.  It is structured as a list of elements.  An
+   element begins with the BGP identifier and AS number of the speaker
+   that adds the element and includes a list of TLVs.  Any speaker can
+   add or remove an element to/from the list.  TLVs for a timestamp and
+   for a checksum are described.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-heitz-idr-diagnostic-attr-00"/>
 </reference>

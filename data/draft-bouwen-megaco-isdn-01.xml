@@ -1,16 +1,35 @@
 <reference anchor="I-D.bouwen-megaco-isdn" target="https://datatracker.ietf.org/doc/html/draft-bouwen-megaco-isdn-01">
   <front>
     <title>Issues for Megaco - Sigtran Interworking in ISDN Access Gateways</title>
-    <author fullname="Miek Dekeyser" initials="M." surname="Dekeyser">
+    <seriesInfo name="Internet-Draft" value="draft-bouwen-megaco-isdn-01"/>
+    <author initials="M." surname="Dekeyser" fullname="Miek Dekeyser">
       <organization>Alcatel</organization>
     </author>
-    <author fullname="Jan Bouwen" initials="J." surname="Bouwen">
+    <author initials="J." surname="Bouwen" fullname="Jan Bouwen">
       <organization>Alcatel</organization>
     </author>
-    <date year="2000" month="July" day="17"/>
+    <date day="17" month="July" year="2000"></date>
     <abstract>
-      <t>This document introduces the concept of an ISDN access gateway in the context of Megaco/H.248 and Sigtran protocols. For these ISDN access gateways, the ISDN B channels may be controlled by the Media Gateway Controller using megaco/H.248 while the User-to-Network signaling running over the D channels may be relayed to the Media Gateway Controller using either megaco/H.248 or the Sigtran protocols. The main issues involved are: * Megaco/H.248 and Sigtran protocols may interwork in different ways in ISDN access gateways, leaving room for non - interoperable solutions; * Megaco needs additional packages in order to support ISDN terminations in the ISDN access gateway; * A data service may be offered to ISDN users via the ISDN D- channel, introducing the need to introduce a NAS package for the D-channel. This document addresses these issues, proposes and explains different solutions and suggests best practice guideline for megaco / sigtran interworking in ISDN access gateways.</t>
+      <t>This document introduces the concept of an ISDN access gateway in
+the context of Megaco/H.248 and Sigtran protocols. For these ISDN
+access gateways, the ISDN B channels may be controlled by the Media
+Gateway Controller using megaco/H.248 while the User-to-Network
+signaling running over the D channels may be relayed to the Media
+Gateway Controller using either megaco/H.248 or the Sigtran
+protocols.
+The main issues involved are:
+* Megaco/H.248 and Sigtran protocols may interwork in different ways
+in ISDN access gateways, leaving room for non - interoperable
+solutions;
+* Megaco needs additional packages in order to support ISDN
+terminations in the ISDN access gateway;
+* A data service may be offered to ISDN users via the ISDN D-
+channel, introducing the need to introduce a NAS package for the
+D-channel.
+This document addresses these issues, proposes and explains
+different solutions and suggests best practice guideline for megaco
+/ sigtran interworking in ISDN access gateways.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-bouwen-megaco-isdn-01"/>
 </reference>

@@ -1,19 +1,32 @@
 <reference anchor="I-D.raszuk-bgp-diagnostic-message" target="https://datatracker.ietf.org/doc/html/draft-raszuk-bgp-diagnostic-message-02">
   <front>
     <title>BGP Diagnostic Message</title>
-    <author fullname="Robert Raszuk" initials="R." surname="Raszuk">
+    <seriesInfo name="Internet-Draft" value="draft-raszuk-bgp-diagnostic-message-02"/>
+    <author initials="R." surname="Raszuk" fullname="Robert Raszuk">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Enke Chen" initials="E." surname="Chen">
+    <author initials="E." surname="Chen" fullname="Enke Chen">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Bruno Decraene" initials="B." surname="Decraene">
+    <author initials="B." surname="Decraene" fullname="Bruno Decraene">
       <organization>France Telecom</organization>
     </author>
-    <date year="2011" month="March" day="11"/>
+    <date day="11" month="March" year="2011"></date>
     <abstract>
-      <t>BGP protocol lacks self diagnostic tools which would allow for monitoring and detection of any possible bgp state database differences between BGP_RIB_Out of the sender and BGP_RIB_In of the receiver over BGP peering session. It also lacks of build in mechanism to inform peer about subset of prefixes received over session which experienced some errors and which per protocol specification either resulted in attribute drop or "treat-as- withdraw" action. The intention of this document is to start a new class of work which will make BGP protocol and therefor assuring services constructed with the help of BGP protocol to become much more reliable and robust.</t>
+      <t>BGP protocol lacks self diagnostic tools which would allow for
+monitoring and detection of any possible bgp state database
+differences between BGP_RIB_Out of the sender and BGP_RIB_In of the
+receiver over BGP peering session.  It also lacks of build in
+mechanism to inform peer about subset of prefixes received over
+session which experienced some errors and which per protocol
+specification either resulted in attribute drop or "treat-as-
+withdraw" action.
+
+The intention of this document is to start a new class of work which
+will make BGP protocol and therefor assuring services constructed
+with the help of BGP protocol to become much more reliable and
+robust.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-raszuk-bgp-diagnostic-message-02"/>
 </reference>

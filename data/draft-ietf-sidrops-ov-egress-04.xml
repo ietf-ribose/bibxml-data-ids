@@ -1,19 +1,18 @@
 <reference anchor="I-D.ietf-sidrops-ov-egress" target="https://datatracker.ietf.org/doc/html/draft-ietf-sidrops-ov-egress-04">
   <front>
     <title>Resource Public Key Infrastructure (RPKI) Origin Validation for BGP Export</title>
-    <author fullname="Randy Bush" initials="R." surname="Bush">
-      <organization/>
-    </author>
-    <author fullname="Rüdiger Volk" initials="R." surname="Volk">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-sidrops-ov-egress-04"/>
+    <author initials="R." surname="Bush" fullname="Randy Bush"/>
+    <author initials="R." surname="Volk" fullname="Rüdiger Volk">
       <organization>Deutsche Telekom</organization>
     </author>
-    <author fullname="Jakob Heitz" initials="J." surname="Heitz">
+    <author initials="J." surname="Heitz" fullname="Jakob Heitz">
       <organization>Cisco</organization>
     </author>
-    <date year="2020" month="April" day="8"/>
+    <date day="08" month="April" year="2020"></date>
     <abstract>
-      <t>A BGP speaker may perform Resource Public Key Infrastructure (RPKI) origin validation not only on routes received from BGP neighbors and routes that are redistributed from other routing protocols, but also on routes it sends to BGP neighbors. For egress policy, it is important that the classification use the 'effective origin AS' of the processed route, which may specifically be altered by the commonly available knobs, such as removing private ASes, confederation handling, and other modifications of the origin AS. This document updates RFC 6811.</t>
+      <t>A BGP speaker may perform Resource Public Key Infrastructure (RPKI) origin validation not only on routes received from BGP neighbors and routes that are redistributed from other routing protocols, but also on routes it sends to BGP neighbors.  For egress policy, it is important that the classification use the 'effective origin AS' of the processed route, which may specifically be altered by the commonly available knobs, such as removing private ASes, confederation handling, and other modifications of the origin AS.  This document updates RFC 6811.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-sidrops-ov-egress-04"/>
 </reference>

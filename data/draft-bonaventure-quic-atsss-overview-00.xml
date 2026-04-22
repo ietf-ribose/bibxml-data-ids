@@ -1,43 +1,56 @@
 <reference anchor="I-D.bonaventure-quic-atsss-overview" target="https://datatracker.ietf.org/doc/html/draft-bonaventure-quic-atsss-overview-00">
   <front>
     <title>3GPP Access Traffic Steering Switching and Splitting (ATSSS) - Overview for IETF Participants</title>
-    <author fullname="Mohamed Boucadair" initials="M." surname="Boucadair">
+    <seriesInfo name="Internet-Draft" value="draft-bonaventure-quic-atsss-overview-00"/>
+    <author initials="M." surname="Boucadair" fullname="Mohamed Boucadair">
       <organization>Orange</organization>
     </author>
-    <author fullname="Olivier Bonaventure" initials="O." surname="Bonaventure">
+    <author initials="O." surname="Bonaventure" fullname="Olivier Bonaventure">
       <organization>UCLouvain</organization>
     </author>
-    <author fullname="Maxime Piraux" initials="M." surname="Piraux">
+    <author initials="M." surname="Piraux" fullname="Maxime Piraux">
       <organization>UCLouvain</organization>
     </author>
-    <author fullname="Quentin De Coninck" initials="Q." surname="De Coninck">
+    <author initials="Q." surname="De Coninck" fullname="Quentin De Coninck">
       <organization>UCLouvain</organization>
     </author>
-    <author fullname="Spencer Dawkins" initials="S." surname="Dawkins">
+    <author initials="S." surname="Dawkins" fullname="Spencer Dawkins">
       <organization>Tencent America</organization>
     </author>
-    <author fullname="Mirja Kühlewind" initials="M." surname="Kühlewind">
+    <author initials="M." surname="Kühlewind" fullname="Mirja Kühlewind">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Markus Amend" initials="M." surname="Amend">
+    <author initials="M." surname="Amend" fullname="Markus Amend">
       <organization>Deutsche Telekom</organization>
     </author>
-    <author fullname="Andreas Kassler" initials="A." surname="Kassler">
+    <author initials="A." surname="Kassler" fullname="Andreas Kassler">
       <organization>Karlstad University</organization>
     </author>
-    <author fullname="Qing An" initials="Q." surname="An">
+    <author initials="Q." surname="An" fullname="Qing An">
       <organization>Alibaba Group</organization>
     </author>
-    <author fullname="Nicolas Keukeleire" initials="N." surname="Keukeleire">
+    <author initials="N." surname="Keukeleire" fullname="Nicolas Keukeleire">
       <organization>Tessares</organization>
     </author>
-    <author fullname="SungHoon Seo" initials="S." surname="Seo">
+    <author initials="S." surname="Seo" fullname="SungHoon Seo">
       <organization>Korea Telecom</organization>
     </author>
-    <date year="2020" month="May" day="30"/>
+    <date day="30" month="May" year="2020"></date>
     <abstract>
-      <t>This document briefly presents the Access Traffic Steering, Switching, and Splitting (ATSSS) service being specified within the 3rd Generation Partnership Project (3GPP). The ATSSS service provides network support for multihomed devices to select a path for transmission (steer), move traffic from one path to another (switch), or use multiple paths simultaneously (split). TS 23.501 specifies an ATSSS architecture for TCP traffic. This document presents a snap-shot of the ongoing discussion in the 3GPP to enable ATSSS for non-TCP traffic, based on the use of QUIC, and assesses to what extent IETF specifications can be used to meet the ATSSS design goals. Apparent gaps are also documented.</t>
+      <t>   This document briefly presents the Access Traffic Steering,
+   Switching, and Splitting (ATSSS) service being specified within the
+   3rd Generation Partnership Project (3GPP).  The ATSSS service
+   provides network support for multihomed devices to select a path for
+   transmission (steer), move traffic from one path to another (switch),
+   or use multiple paths simultaneously (split).  TS 23.501 specifies an
+   ATSSS architecture for TCP traffic.
+
+   This document presents a snap-shot of the ongoing discussion in the
+   3GPP to enable ATSSS for non-TCP traffic, based on the use of QUIC,
+   and assesses to what extent IETF specifications can be used to meet
+   the ATSSS design goals.  Apparent gaps are also documented.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-bonaventure-quic-atsss-overview-00"/>
 </reference>

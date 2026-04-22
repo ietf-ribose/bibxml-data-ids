@@ -1,25 +1,38 @@
 <reference anchor="I-D.piraux-quic-plugins" target="https://datatracker.ietf.org/doc/html/draft-piraux-quic-plugins-00">
   <front>
     <title>QUIC Plugins</title>
-    <author fullname="Maxime Piraux" initials="M." surname="Piraux">
+    <seriesInfo name="Internet-Draft" value="draft-piraux-quic-plugins-00"/>
+    <author initials="M." surname="Piraux" fullname="Maxime Piraux">
       <organization>UCLouvain</organization>
     </author>
-    <author fullname="Quentin De Coninck" initials="Q." surname="De Coninck">
+    <author initials="Q." surname="De Coninck" fullname="Quentin De Coninck">
       <organization>UCLouvain</organization>
     </author>
-    <author fullname="François Michel" initials="F." surname="Michel">
+    <author initials="F." surname="Michel" fullname="François Michel">
       <organization>UCLouvain</organization>
     </author>
-    <author fullname="Florentin Rochet" initials="F." surname="Rochet">
+    <author initials="F." surname="Rochet" fullname="Florentin Rochet">
       <organization>UCLouvain</organization>
     </author>
-    <author fullname="Olivier Bonaventure" initials="O." surname="Bonaventure">
+    <author initials="O." surname="Bonaventure" fullname="Olivier Bonaventure">
       <organization>UCLouvain</organization>
     </author>
-    <date year="2020" month="March" day="9"/>
+    <date day="09" month="March" year="2020"></date>
     <abstract>
-      <t>The extensibility of Internet protocols is a key factor to their success. Yet, their implementations are often not designed with agility in mind. In this document, we leverage the features of the QUIC protocol and propose a solution to dynamically extend QUIC implementations. Our solution relies on QUIC Plugins that allow tuning and extending the QUIC protocol on a per-connection basis. These platform-independent plugins are executed inside a sandboxed environment which can be included in QUIC implementations. We describe how such plugins can be used in different use cases. This document is a straw-man proposal. It aims at sparking discussions on the proposed approach.</t>
+      <t>   The extensibility of Internet protocols is a key factor to their
+   success.  Yet, their implementations are often not designed with
+   agility in mind.  In this document, we leverage the features of the
+   QUIC protocol and propose a solution to dynamically extend QUIC
+   implementations.  Our solution relies on QUIC Plugins that allow
+   tuning and extending the QUIC protocol on a per-connection basis.
+   These platform-independent plugins are executed inside a sandboxed
+   environment which can be included in QUIC implementations.  We
+   describe how such plugins can be used in different use cases.
+
+   This document is a straw-man proposal.  It aims at sparking
+   discussions on the proposed approach.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-piraux-quic-plugins-00"/>
 </reference>

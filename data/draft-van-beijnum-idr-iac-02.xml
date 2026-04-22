@@ -1,16 +1,28 @@
 <reference anchor="I-D.van-beijnum-idr-iac" target="https://datatracker.ietf.org/doc/html/draft-van-beijnum-idr-iac-02">
   <front>
     <title>A BGP Inter-AS Cost Attribute</title>
-    <author fullname="Iljitsch van Beijnum" initials="I." surname="van Beijnum">
+    <seriesInfo name="Internet-Draft" value="draft-van-beijnum-idr-iac-02"/>
+    <author initials="I." surname="van Beijnum" fullname="Iljitsch van Beijnum">
       <organization>IMDEA Networks</organization>
     </author>
-    <author fullname="Rolf Winter" initials="R." surname="Winter">
+    <author initials="R." surname="Winter" fullname="Rolf Winter">
       <organization>NEC Labs Europe</organization>
     </author>
-    <date year="2009" month="March" day="9"/>
+    <date day="09" month="March" year="2009"></date>
     <abstract>
-      <t>Although BGP implementations have extensive path selection algorithms, in practice operators have trouble performing satisfactory traffic engineering of incoming traffic based on BGP attributes that are taken into account in the path selection algorithm alone. For this reason, many ASes deaggregate their address range(s) into smaller blocks and announce these blocks differently to different neighboring ASes in order to arrive at the desired traffic flow. This practice contributes to the growth of the global routing table, which drives up capital expenditures for networks engaging in inter-domain routing. This memo introduces a new inter-domain metric that supports finer-grained traffic engineering than current BGP attributes.</t>
+      <t>Although BGP implementations have extensive path selection
+algorithms, in practice operators have trouble performing
+satisfactory traffic engineering of incoming traffic based on BGP
+attributes that are taken into account in the path selection
+algorithm alone.  For this reason, many ASes deaggregate their
+address range(s) into smaller blocks and announce these blocks
+differently to different neighboring ASes in order to arrive at the
+desired traffic flow.  This practice contributes to the growth of the
+global routing table, which drives up capital expenditures for
+networks engaging in inter-domain routing.  This memo introduces a
+new inter-domain metric that supports finer-grained traffic
+engineering than current BGP attributes.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-van-beijnum-idr-iac-02"/>
 </reference>

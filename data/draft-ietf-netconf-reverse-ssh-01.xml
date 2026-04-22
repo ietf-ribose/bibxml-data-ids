@@ -1,13 +1,19 @@
 <reference anchor="I-D.ietf-netconf-reverse-ssh" target="https://datatracker.ietf.org/doc/html/draft-ietf-netconf-reverse-ssh-01">
   <front>
     <title>Reverse Secure Shell (Reverse SSH)</title>
-    <author fullname="Kent Watsen" initials="K." surname="Watsen">
-      <organization/>
-    </author>
-    <date year="2013" month="June" day="21"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-netconf-reverse-ssh-01"/>
+    <author initials="K." surname="Watsen" fullname="Kent Watsen"/>
+    <date day="21" month="June" year="2013"></date>
     <abstract>
-      <t>This memo presents a technique for a NETCONF server to initiate a SSH connection to a NETCONF client. This is accomplished by the NETCONF client listening on IANA-assigned TCP port YYYY and starting the SSH client protocol immediately after accepting a TCP connection on it. This role-reversal is necessary as the NETCONF server must also be the SSH Server, in order for the NETCONF client to open the IANA- assigned SSH subsystem "netconf".</t>
+      <t>   This memo presents a technique for a NETCONF server to initiate a SSH
+   connection to a NETCONF client.  This is accomplished by the NETCONF
+   client listening on IANA-assigned TCP port YYYY and starting the SSH
+   client protocol immediately after accepting a TCP connection on it.
+   This role-reversal is necessary as the NETCONF server must also be
+   the SSH Server, in order for the NETCONF client to open the IANA-
+   assigned SSH subsystem "netconf".
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-netconf-reverse-ssh-01"/>
 </reference>

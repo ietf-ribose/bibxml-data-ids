@@ -1,13 +1,20 @@
 <reference anchor="I-D.wickman-nfsv4-directory-delegations" target="https://datatracker.ietf.org/doc/html/draft-wickman-nfsv4-directory-delegations-00">
   <front>
     <title>NFSv4.1: Directory Delegations</title>
-    <author fullname="Brain J. Wickman" initials="B. J." surname="Wickman">
-      <organization/>
-    </author>
-    <date year="2005" month="February" day="14"/>
+    <seriesInfo name="Internet-Draft" value="draft-wickman-nfsv4-directory-delegations-00"/>
+    <author initials="B. J." surname="Wickman" fullname="Brain J. Wickman"/>
+    <date day="14" month="February" year="2005"></date>
     <abstract>
-      <t>NFS version 4 (NFSv4) introduces the use of file delegations to improve the ability of clients to cache file data and to provide locks in certain sharing environments without performing a round-trip communication to the server. Directory caching in NFSv4, however, is similar to previous versions and generates unnecessary revalidation traffic to maintain consistency weaker than delegations can provide. This document addresses the issues involved in providing a directory delegation mechanism and specifies a new operation, REQUEST_DELEGA- TION, to enable directory delegations.</t>
+      <t>   NFS version 4 (NFSv4) introduces the use of file delegations to
+   improve the ability of clients to cache file data and to provide
+   locks in certain sharing environments without performing a round-trip
+   communication to the server.  Directory caching in NFSv4, however, is
+   similar to previous versions and generates unnecessary revalidation
+   traffic to maintain consistency weaker than delegations can provide.
+   This document addresses the issues involved in providing a directory
+   delegation mechanism and specifies a new operation, REQUEST_DELEGA-
+   TION, to enable directory delegations.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wickman-nfsv4-directory-delegations-00"/>
 </reference>

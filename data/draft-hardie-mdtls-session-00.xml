@@ -1,16 +1,24 @@
 <reference anchor="I-D.hardie-mdtls-session" target="https://datatracker.ietf.org/doc/html/draft-hardie-mdtls-session-00">
   <front>
     <title>Multipath DTLS Session Layer</title>
-    <author fullname="Ted Hardie" initials="T." surname="Hardie">
+    <seriesInfo name="Internet-Draft" value="draft-hardie-mdtls-session-00"/>
+    <author initials="T." surname="Hardie" fullname="Ted Hardie">
       <organization>Panasonic Wireless Research Lab</organization>
     </author>
-    <author fullname="Jake Khuon" initials="J." surname="Khuon">
-      <organization/>
-    </author>
-    <date year="2010" month="October" day="18"/>
+    <author initials="J." surname="Khuon" fullname="Jake Khuon"/>
+    <date day="18" month="October" year="2010"></date>
     <abstract>
-      <t>The Internet model has traditionally avoided the complication of an explicit session layer, in favor of having applications and transports divide the relevant work between them. While this has been a successful strategy when the packet flows from two hosts all take the same path, there may be advantages in using a session-layer strategy when a host initiates related flows from multiple interfaces in independent routing domains (e.g. a 3G or 4G interface and a WiFi interface). This draft discusses an approach re-using the security association mechanisms present in DTLS [RFC4347] to create a simple session layer.</t>
+      <t>The Internet model has traditionally avoided the complication of an
+explicit session layer, in favor of having applications and
+transports divide the relevant work between them.  While this has
+been a successful strategy when the packet flows from two hosts all
+take the same path, there may be advantages in using a session-layer
+strategy when a host initiates related flows from multiple interfaces
+in independent routing domains (e.g. a 3G or 4G interface and a WiFi
+interface).  This draft discusses an approach re-using the security
+association mechanisms present in DTLS [RFC4347] to create a simple
+session layer.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hardie-mdtls-session-00"/>
 </reference>

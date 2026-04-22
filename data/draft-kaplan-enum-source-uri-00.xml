@@ -1,22 +1,27 @@
 <reference anchor="I-D.kaplan-enum-source-uri" target="https://datatracker.ietf.org/doc/html/draft-kaplan-enum-source-uri-00">
   <front>
     <title>DNS Extension for ENUM Source-URI</title>
-    <author fullname="Hadriel Kaplan" initials="H." surname="Kaplan">
+    <seriesInfo name="Internet-Draft" value="draft-kaplan-enum-source-uri-00"/>
+    <author initials="H." surname="Kaplan" fullname="Hadriel Kaplan">
       <organization>Acme Packet</organization>
     </author>
-    <author fullname="Robert Walter" initials="R." surname="Walter">
+    <author initials="R." surname="Walter" fullname="Robert Walter">
       <organization>NetNumber</organization>
     </author>
-    <author fullname="Raja Gopal" initials="R." surname="Gopal">
+    <author initials="R." surname="Gopal" fullname="Raja Gopal">
       <organization>Nominum</organization>
     </author>
-    <author fullname="Tom Creighton" initials="T." surname="Creighton">
+    <author initials="T." surname="Creighton" fullname="Tom Creighton">
       <organization>Comcast Cable Communications</organization>
     </author>
-    <date year="2007" month="December" day="11"/>
+    <date day="11" month="December" year="2007"></date>
     <abstract>
-      <t>This document defines a specific DNS extension, based on the EDNS0 OPT RR, for an ENUM query to include the source URI which caused the ENUM request. This is useful, for example, to specify the originating SIP or TEL URI from a SIP request which triggered the ENUM query, so the ENUM server can provide a different response.</t>
+      <t>This document defines a specific DNS extension, based on the EDNS0 
+OPT RR, for an ENUM query to include the source URI which caused the 
+ENUM request.  This is useful, for example, to specify the 
+originating SIP or TEL URI from a SIP request which triggered the 
+ENUM query, so the ENUM server can provide a different response.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kaplan-enum-source-uri-00"/>
 </reference>

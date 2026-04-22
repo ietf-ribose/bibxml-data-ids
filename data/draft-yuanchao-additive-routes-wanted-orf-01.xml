@@ -1,13 +1,25 @@
 <reference anchor="I-D.yuanchao-additive-routes-wanted-orf" target="https://datatracker.ietf.org/doc/html/draft-yuanchao-additive-routes-wanted-orf-01">
   <front>
     <title>Additive-Routes-Wanted Outbound Route Filter for BGP-4</title>
-    <author fullname="Yuanchao Su" initials="Y." surname="Su">
+    <seriesInfo name="Internet-Draft" value="draft-yuanchao-additive-routes-wanted-orf-01"/>
+    <author initials="Y." surname="Su" fullname="Yuanchao Su">
       <organization>CCS</organization>
     </author>
-    <date year="2009" month="June" day="29"/>
+    <date day="29" month="June" year="2009"></date>
     <abstract>
-      <t>This document describes a solution for overcoming the limitations of existing route reflect mechanism:even there are equal routes,route reflector(RR) would use the nexthop router ID to break tie and only reflect the route with lower router ID to its clients,so RR clients send all the traffic for the destination to only one nexthop which leads to traffic unbalanced in an AS. Additive-Routes-Wanted ORF extends ORF to not only filter BGP routes but also give RR client the ablility to ask RR for additive BGP routes in its BGP database. With the additive routes, RR clients could make inner-AS native IP and VPNV4 load sharing easier.</t>
+      <t>This document describes a solution for overcoming the limitations 
+   of existing route reflect mechanism:even there are equal 
+   routes,route reflector(RR) would use the nexthop router ID to 
+   break tie and only reflect the route with lower router ID to its 
+   clients,so RR clients send all the traffic for the destination to 
+   only one nexthop which leads to traffic unbalanced in an AS. 
+   Additive-Routes-Wanted ORF extends ORF to not only filter BGP 
+   routes but also give RR client the ablility to ask RR for additive 
+   BGP routes in its BGP database. With the additive routes, RR 
+   clients could make inner-AS native IP and VPNV4 load sharing 
+   easier. 
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-yuanchao-additive-routes-wanted-orf-01"/>
 </reference>

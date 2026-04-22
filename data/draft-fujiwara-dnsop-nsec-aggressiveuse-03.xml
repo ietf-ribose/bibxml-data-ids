@@ -1,16 +1,26 @@
 <reference anchor="I-D.fujiwara-dnsop-nsec-aggressiveuse" target="https://datatracker.ietf.org/doc/html/draft-fujiwara-dnsop-nsec-aggressiveuse-03">
   <front>
     <title>Aggressive use of NSEC/NSEC3</title>
-    <author fullname="Kazunori Fujiwara" initials="K." surname="Fujiwara">
+    <seriesInfo name="Internet-Draft" value="draft-fujiwara-dnsop-nsec-aggressiveuse-03"/>
+    <author initials="K." surname="Fujiwara" fullname="Kazunori Fujiwara">
       <organization>JPRS</organization>
     </author>
-    <author fullname="Akira Kato" initials="A." surname="Kato">
+    <author initials="A." surname="Kato" fullname="Akira Kato">
       <organization>Keio/WIDE</organization>
     </author>
-    <date year="2016" month="March" day="17"/>
+    <date day="17" month="March" year="2016"></date>
     <abstract>
-      <t>While DNS highly depends on cache, its cache usage of non-existence information has been limited to exact matching. This draft proposes the aggressive use of a NSEC/NSEC3 resource record, which is able to express non-existence of a range of names authoritatively. With this proposal, it is expected that shorter latency to many of negative responses as well as some level of mitigation of random sub-domain attacks (referred to as "Water Torture" attacks). It is also expected that non-existent TLD queries to Root DNS servers will decrease.</t>
+      <t>   While DNS highly depends on cache, its cache usage of non-existence
+   information has been limited to exact matching.  This draft proposes
+   the aggressive use of a NSEC/NSEC3 resource record, which is able to
+   express non-existence of a range of names authoritatively.  With this
+   proposal, it is expected that shorter latency to many of negative
+   responses as well as some level of mitigation of random sub-domain
+   attacks (referred to as "Water Torture" attacks).  It is also
+   expected that non-existent TLD queries to Root DNS servers will
+   decrease.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-fujiwara-dnsop-nsec-aggressiveuse-03"/>
 </reference>

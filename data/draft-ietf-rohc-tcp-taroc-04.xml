@@ -1,13 +1,21 @@
 <reference anchor="I-D.ietf-rohc-tcp-taroc" target="https://datatracker.ietf.org/doc/html/draft-ietf-rohc-tcp-taroc-04">
   <front>
     <title>TCP-Aware RObust Header Compression (TAROC)</title>
-    <author fullname="HongBin Liao" initials="H." surname="Liao">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-rohc-tcp-taroc-04"/>
+    <author initials="H." surname="Liao" fullname="HongBin Liao">
       <organization>Microsoft Research Asia</organization>
     </author>
-    <date year="2001" month="November" day="28"/>
+    <date day="28" month="November" year="2001"></date>
     <abstract>
-      <t>As a major transport protocol of current Internet, TCP has the problem of the large header overhead on bandwidth-limited links. Header compression has been proven to be efficient for using TCP over bandwidth-limited reliable links. Unfortunately, existing TCP/IP header compression schemes do not work well on noisy links, especially the one with high bit error rate and long roundtrip time. In addition, existing schemes [2, 3] have not addressed some TCP options such as SACK [4, 5] and Timestamps [6].</t>
+      <t>As a major transport protocol of current Internet, TCP has the 
+problem of the large header overhead on bandwidth-limited links. 
+Header compression has been proven to be efficient for using TCP 
+over bandwidth-limited reliable links. Unfortunately, existing 
+TCP/IP header compression schemes do not work well on noisy links, 
+especially the one with high bit error rate and long roundtrip time.  
+In addition, existing schemes [2, 3] have not addressed some TCP 
+options such as SACK [4, 5] and Timestamps [6].
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-rohc-tcp-taroc-04"/>
 </reference>

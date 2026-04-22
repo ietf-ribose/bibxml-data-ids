@@ -1,16 +1,30 @@
 <reference anchor="I-D.jaye-http-trust-state-mgt" target="https://datatracker.ietf.org/doc/html/draft-jaye-http-trust-state-mgt-01">
   <front>
     <title>HTTP Trust Mechanism for State Management</title>
-    <author fullname="Eric Brunner" initials="E." surname="Brunner">
+    <seriesInfo name="Internet-Draft" value="draft-jaye-http-trust-state-mgt-01"/>
+    <author initials="E." surname="Brunner" fullname="Eric Brunner">
       <organization>Engage</organization>
     </author>
-    <author fullname="Daniel J. Jaye" initials="D. J." surname="Jaye">
+    <author initials="D. J." surname="Jaye" fullname="Daniel J. Jaye">
       <organization>Engage</organization>
     </author>
-    <date year="2000" month="July" day="25"/>
+    <date day="25" month="July" year="2000"></date>
     <abstract>
-      <t>This document describes an extension to the HTTP/1.1 state management mechanism described in [Kristol]. This mechanism, 'trust-labels', associates digitally signed labels with Set-Cookie or Set-Cookie2 headers. The labels allow additional semantics to attach to cookies and cookie processing, and the digital signatures allow trust models to be associated with processing rules for labeled cookies. The intent is to provide a mechanism that allows user agent implementors to implement evaluation of the authenticity and content of cookie-associated labels, and to implement additional processing rules for cookie handling. The intended use is browser determination of server privacy practices and acceptance, rejection, modification or redirection of cookies based on those practices. The more general use of trust model scoped, label semantic scoped processing of HTTP state artifacts is not precluded by this intended use.</t>
+      <t>This document describes an extension to the HTTP/1.1 state management
+mechanism described in [Kristol].  This mechanism, 'trust-labels',
+associates digitally signed labels with Set-Cookie or Set-Cookie2
+headers.  The labels allow additional semantics to attach to cookies
+and cookie processing, and the digital signatures allow trust models
+to be associated with processing rules for labeled cookies.
+The intent is to provide a mechanism that allows user agent
+implementors to implement evaluation of the authenticity and content
+of cookie-associated labels, and to implement additional processing
+rules for cookie handling.  The intended use is browser determination
+of server privacy practices and acceptance, rejection, modification
+or redirection of cookies based on those practices.  The more general
+use of trust model scoped, label semantic scoped processing of HTTP
+state artifacts is not precluded by this intended use.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-jaye-http-trust-state-mgt-01"/>
 </reference>

@@ -1,16 +1,29 @@
 <reference anchor="I-D.jovev-tsvwg-sctp-rto" target="https://datatracker.ietf.org/doc/html/draft-jovev-tsvwg-sctp-rto-02">
   <front>
     <title>Determining SCTP's Retransmission Timer</title>
-    <author fullname="Dimitar Jovev" initials="D." surname="Jovev">
+    <seriesInfo name="Internet-Draft" value="draft-jovev-tsvwg-sctp-rto-02"/>
+    <author initials="D." surname="Jovev" fullname="Dimitar Jovev">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Maksim Proshin" initials="M." surname="Proshin">
+    <author initials="M." surname="Proshin" fullname="Maksim Proshin">
       <organization>Ericsson</organization>
     </author>
-    <date year="2018" month="May" day="14"/>
+    <date day="14" month="May" year="2018"></date>
     <abstract>
-      <t>This document defines a modification in the RFC 4960 [RFC4960] defined Stream Control Transmission Protocol's (SCTP's) Retransmission Timer (RTO) calculation method. The modification is aimed to reduce the frequency of spurious T3 timeouts, which are caused by underestimated RTO values, derived by the [RFC4960] defend RTO calculation method. The proposed modification aligns the RTO calculation method with the characteristics of the statistical estimator algorithms, which are used for SRTT and RTTVAR calculation, the SCTP protocol data transfer rules and the characteristics of the data packets' arrival pattern in the telecom signalling networks.</t>
+      <t>   This document defines a modification in the RFC 4960 [RFC4960]
+   defined Stream Control Transmission Protocol's (SCTP's)
+   Retransmission Timer (RTO) calculation method.
+
+   The modification is aimed to reduce the frequency of spurious T3
+   timeouts, which are caused by underestimated RTO values, derived by
+   the [RFC4960] defend RTO calculation method.  The proposed
+   modification aligns the RTO calculation method with the
+   characteristics of the statistical estimator algorithms, which are
+   used for SRTT and RTTVAR calculation, the SCTP protocol data transfer
+   rules and the characteristics of the data packets' arrival pattern in
+   the telecom signalling networks.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-jovev-tsvwg-sctp-rto-02"/>
 </reference>

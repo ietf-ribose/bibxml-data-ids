@@ -1,13 +1,23 @@
 <reference anchor="I-D.briscoe-re-pcn-border-cheat" target="https://datatracker.ietf.org/doc/html/draft-briscoe-re-pcn-border-cheat-03">
   <front>
     <title>Emulating Border Flow Policing using Re-PCN on Bulk Data</title>
-    <author fullname="Bob Briscoe" initials="B." surname="Briscoe">
+    <seriesInfo name="Internet-Draft" value="draft-briscoe-re-pcn-border-cheat-03"/>
+    <author initials="B." surname="Briscoe" fullname="Bob Briscoe">
       <organization>BT</organization>
     </author>
-    <date year="2009" month="October" day="26"/>
+    <date day="26" month="October" year="2009"></date>
     <abstract>
-      <t>Scaling per flow admission control to the Internet is a hard problem. The approach of combining Diffserv and pre-congestion notification (PCN) provides a service slightly better than Intserv controlled load that scales to networks of any size without needing Diffserv's usual overprovisioning, but only if domains trust each other to comply with admission control and rate policing. This memo claims to solve this trust problem without losing scalability. It provides a sufficient emulation of per-flow policing at borders but with only passive bulk metering rather than per-flow processing. Measurements are sufficient to apply penalties against cheating neighbour networks.</t>
+      <t>Scaling per flow admission control to the Internet is a hard problem.
+The approach of combining Diffserv and pre-congestion notification
+(PCN) provides a service slightly better than Intserv controlled load
+that scales to networks of any size without needing Diffserv's usual
+overprovisioning, but only if domains trust each other to comply with
+admission control and rate policing.  This memo claims to solve this
+trust problem without losing scalability.  It provides a sufficient
+emulation of per-flow policing at borders but with only passive bulk
+metering rather than per-flow processing.  Measurements are
+sufficient to apply penalties against cheating neighbour networks.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-briscoe-re-pcn-border-cheat-03"/>
 </reference>

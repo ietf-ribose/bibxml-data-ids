@@ -1,19 +1,26 @@
 <reference anchor="I-D.lennox-avt-rtp-audio-level-exthdr" target="https://datatracker.ietf.org/doc/html/draft-lennox-avt-rtp-audio-level-exthdr-02">
   <front>
     <title>A Real-Time Transport Protocol (RTP) Header Extension for Client-to- Mixer Audio Level Indication</title>
-    <author fullname="Jonathan Lennox" initials="J." surname="Lennox">
+    <seriesInfo name="Internet-Draft" value="draft-lennox-avt-rtp-audio-level-exthdr-02"/>
+    <author initials="J." surname="Lennox" fullname="Jonathan Lennox">
       <organization>Vidyo</organization>
     </author>
-    <author fullname="Emil Ivov" initials="E." surname="Ivov">
+    <author initials="E." surname="Ivov" fullname="Emil Ivov">
       <organization>SIP Communicator</organization>
     </author>
-    <author fullname="Enrico Marocco" initials="E." surname="Marocco">
+    <author initials="E." surname="Marocco" fullname="Enrico Marocco">
       <organization>Telecom Italia</organization>
     </author>
-    <date year="2010" month="July" day="11"/>
+    <date day="11" month="July" year="2010"></date>
     <abstract>
-      <t>This document defines a mechanism by which packets of Real-Time Transport Protocol (RTP) audio streams can indicate, in an RTP header extension, the audio level of the audio sample carried in the RTP packet. In large conferences, this can reduce the load on an audio mixer or other middlebox which wants to forward only a few of the loudest audio streams, without requiring it to decode and measure every stream that is received.</t>
+      <t>This document defines a mechanism by which packets of Real-Time
+Transport Protocol (RTP) audio streams can indicate, in an RTP header
+extension, the audio level of the audio sample carried in the RTP
+packet.  In large conferences, this can reduce the load on an audio
+mixer or other middlebox which wants to forward only a few of the
+loudest audio streams, without requiring it to decode and measure
+every stream that is received.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-lennox-avt-rtp-audio-level-exthdr-02"/>
 </reference>

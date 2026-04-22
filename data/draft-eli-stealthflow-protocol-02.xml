@@ -1,13 +1,26 @@
 <reference anchor="I-D.eli-stealthflow-protocol" target="https://datatracker.ietf.org/doc/html/draft-eli-stealthflow-protocol-02">
   <front>
     <title>StealthFlow Protocol (SFP)</title>
-    <author fullname="pootBnel" initials="" surname="pootBnel">
+    <seriesInfo name="Internet-Draft" value="draft-eli-stealthflow-protocol-02"/>
+    <author surname="pootBnel" fullname="pootBnel">
       <organization>Independent Researcher</organization>
     </author>
-    <date year="2026" month="March" day="21"/>
+    <date day="21" month="March" year="2026"></date>
     <abstract>
-      <t>The StealthFlow Protocol (SFP) is a lightweight, hardware-aware proof- of-work (PoW) based admission control mechanism designed to mitigate DDoS attacks at the network edge. This document specifies version 1.5 of SFP, which introduces de-IP PoW design, 8-bit physical fingerprinting embedded in random padding, XDP-level three-lane (Green/Yellow/Black) traffic steering, and a closed-loop multi-layer firewall integration (Edge → XDP → SSL/L7 → reverse XDP). These enhancements eliminate IP- based reuse attacks, provide coarse-grained real-device verification, achieve &lt;10% false-positive rate, and enable precise per-client isolation even under NAT environments. SFP operates entirely at the XDP/eBPF layer with Fail-Silent behavior and requires no changes to existing TLS/QUIC stacks.</t>
+      <t>The StealthFlow Protocol (SFP) is a lightweight, hardware-aware proof-
+of-work (PoW) based admission control mechanism designed to mitigate
+DDoS attacks at the network edge.  This document specifies version 1.5
+of SFP, which introduces de-IP PoW design, 8-bit physical fingerprinting
+embedded in random padding, XDP-level three-lane (Green/Yellow/Black)
+traffic steering, and a closed-loop multi-layer firewall integration
+(Edge → XDP → SSL/L7 → reverse XDP).  These enhancements eliminate IP-
+based reuse attacks, provide coarse-grained real-device verification,
+achieve &lt;10% false-positive rate, and enable precise per-client
+isolation even under NAT environments.  SFP operates entirely at the
+XDP/eBPF layer with Fail-Silent behavior and requires no changes to
+existing TLS/QUIC stacks.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-eli-stealthflow-protocol-02"/>
 </reference>

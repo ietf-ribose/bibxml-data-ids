@@ -1,22 +1,24 @@
 <reference anchor="I-D.wkumari-dnsop-hammer" target="https://datatracker.ietf.org/doc/html/draft-wkumari-dnsop-hammer-01">
   <front>
     <title>Highly Automated Method for Maintaining Expiring Records</title>
-    <author fullname="Warren &quot;Ace&quot; Kumari" initials="W. A." surname="Kumari">
-      <organization/>
-    </author>
-    <author fullname="Roy Arends" initials="R." surname="Arends">
-      <organization/>
-    </author>
-    <author fullname="Suzanne Woolf" initials="S." surname="Woolf">
-      <organization/>
-    </author>
-    <author fullname="Daniel Migault" initials="D." surname="Migault">
-      <organization/>
-    </author>
-    <date year="2014" month="July" day="4"/>
+    <seriesInfo name="Internet-Draft" value="draft-wkumari-dnsop-hammer-01"/>
+    <author initials="W. A." surname="Kumari" fullname="Warren &quot;Ace&quot; Kumari"/>
+    <author initials="R." surname="Arends" fullname="Roy Arends"/>
+    <author initials="S." surname="Woolf" fullname="Suzanne Woolf"/>
+    <author initials="D." surname="Migault" fullname="Daniel Migault"/>
+    <date day="04" month="July" year="2014"></date>
     <abstract>
-      <t>This document describes a simple DNS cache optimization which keeps the most popular records in the DNS cache: Highly Automated Method for Maintaining Expiring Records (HAMMER). The principle is that records in the cache are fetched, that is to say resolved before their TTL expires and the record is flushed from the cache. By fetching Records before they are being queried by an end user, HAMMER is expected to improve the quality of experience of the end users as well as to optimize the resources involved in large DNSSEC resolving platforms.</t>
+      <t>   This document describes a simple DNS cache optimization which keeps
+   the most popular records in the DNS cache: Highly Automated Method
+   for Maintaining Expiring Records (HAMMER).  The principle is that
+   records in the cache are fetched, that is to say resolved before
+   their TTL expires and the record is flushed from the cache.  By
+   fetching Records before they are being queried by an end user, HAMMER
+   is expected to improve the quality of experience of the end users as
+   well as to optimize the resources involved in large DNSSEC resolving
+   platforms.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wkumari-dnsop-hammer-01"/>
 </reference>

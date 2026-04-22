@@ -1,13 +1,26 @@
 <reference anchor="I-D.noctem-cogitator-witness-protocol" target="https://datatracker.ietf.org/doc/html/draft-noctem-cogitator-witness-protocol-00">
   <front>
     <title>COGITATOR Witness Protocol: Cryptographically Verifiable Audit Records for AI Agent Execution</title>
-    <author fullname="George Gallagher" initials="G." surname="Gallagher">
-      <organization/>
-    </author>
-    <date year="2026" month="April" day="9"/>
+    <seriesInfo name="Internet-Draft" value="draft-noctem-cogitator-witness-protocol-00"/>
+    <author initials="G." surname="Gallagher" fullname="George Gallagher"/>
+    <date day="09" month="April" year="2026"></date>
     <abstract>
-      <t>This document specifies the COGITATOR Witness Protocol -- a scheme for producing cryptographically verifiable, tamper-evident records of AI agent execution. A conforming implementation produces a single witness root value that any third party can independently recompute from the same inputs to verify the record was not altered after the fact. The protocol is implementation-agnostic. The reference implementation is COGITATOR (Rust), but any language or framework can produce conforming witness bundles. This document also describes how the COGITATOR Witness Protocol relates to the IETF SCITT architecture, with which it is designed to be used as a payload inside SCITT Signed Statements.</t>
+      <t>   This document specifies the COGITATOR Witness Protocol -- a scheme
+   for producing cryptographically verifiable, tamper-evident records of
+   AI agent execution.  A conforming implementation produces a single
+   witness root value that any third party can independently recompute
+   from the same inputs to verify the record was not altered after the
+   fact.
+
+   The protocol is implementation-agnostic.  The reference
+   implementation is COGITATOR (Rust), but any language or framework can
+   produce conforming witness bundles.
+
+   This document also describes how the COGITATOR Witness Protocol
+   relates to the IETF SCITT architecture, with which it is designed to
+   be used as a payload inside SCITT Signed Statements.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-noctem-cogitator-witness-protocol-00"/>
 </reference>

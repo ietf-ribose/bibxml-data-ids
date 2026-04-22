@@ -1,25 +1,24 @@
 <reference anchor="I-D.ietf-sidr-delta-protocol" target="https://datatracker.ietf.org/doc/html/draft-ietf-sidr-delta-protocol-02">
   <front>
     <title>RPKI Repository Delta Protocol</title>
-    <author fullname="Tim Bruijnzeels" initials="T." surname="Bruijnzeels">
-      <organization/>
-    </author>
-    <author fullname="Oleg Muravskiy" initials="O." surname="Muravskiy">
-      <organization/>
-    </author>
-    <author fullname="Bryan Weber" initials="B." surname="Weber">
-      <organization/>
-    </author>
-    <author fullname="Rob Austein" initials="R." surname="Austein">
-      <organization/>
-    </author>
-    <author fullname="David Mandelberg" initials="D." surname="Mandelberg">
-      <organization/>
-    </author>
-    <date year="2016" month="March" day="21"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-sidr-delta-protocol-02"/>
+    <author initials="T." surname="Bruijnzeels" fullname="Tim Bruijnzeels"/>
+    <author initials="O." surname="Muravskiy" fullname="Oleg Muravskiy"/>
+    <author initials="B." surname="Weber" fullname="Bryan Weber"/>
+    <author initials="R." surname="Austein" fullname="Rob Austein"/>
+    <author initials="D." surname="Mandelberg" fullname="David Mandelberg"/>
+    <date day="21" month="March" year="2016"></date>
     <abstract>
-      <t>In the Resource Public Key Infrastructure (RPKI), certificate authorities publish certificates, including end entity certificates, Certificate Revocation Lists (CRL), and RPKI signed objects to repositories. Relying Parties (RP) retrieve the published information from those repositories. This document specifies a delta protocol which provides relying parties with a mechanism to query a repository for incremental updates, thus enabling the RP to keep its state in sync with the repository.</t>
+      <t>   In the Resource Public Key Infrastructure (RPKI), certificate
+   authorities publish certificates, including end entity certificates,
+   Certificate Revocation Lists (CRL), and RPKI signed objects to
+   repositories.  Relying Parties (RP) retrieve the published
+   information from those repositories.  This document specifies a delta
+   protocol which provides relying parties with a mechanism to query a
+   repository for incremental updates, thus enabling the RP to keep its
+   state in sync with the repository.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-sidr-delta-protocol-02"/>
 </reference>

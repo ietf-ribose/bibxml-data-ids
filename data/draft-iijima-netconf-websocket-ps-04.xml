@@ -1,22 +1,37 @@
 <reference anchor="I-D.iijima-netconf-websocket-ps" target="https://datatracker.ietf.org/doc/html/draft-iijima-netconf-websocket-ps-04">
   <front>
     <title>NETCONF over WebSocket</title>
-    <author fullname="Tomoyuki Iijima" initials="T." surname="Iijima">
+    <seriesInfo name="Internet-Draft" value="draft-iijima-netconf-websocket-ps-04"/>
+    <author initials="T." surname="Iijima" fullname="Tomoyuki Iijima">
       <organization>Hitachi, Ltd.</organization>
     </author>
-    <author fullname="Hiroyasu Kimura" initials="H." surname="Kimura">
+    <author initials="H." surname="Kimura" fullname="Hiroyasu Kimura">
       <organization>Alaxala Networks Corp.</organization>
     </author>
-    <author fullname="Yoshifumi Atarashi" initials="Y." surname="Atarashi">
+    <author initials="Y." surname="Atarashi" fullname="Yoshifumi Atarashi">
       <organization>Alaxala Networks Corp.</organization>
     </author>
-    <author fullname="Hidemitsu Higuchi" initials="H." surname="Higuchi">
+    <author initials="H." surname="Higuchi" fullname="Hidemitsu Higuchi">
       <organization>Alaxala Networks Corp.</organization>
     </author>
-    <date year="2012" month="October" day="16"/>
+    <date day="16" month="October" year="2012"></date>
     <abstract>
-      <t>This memo proposes a way of transporting NETCONF over WebSocket protocol. Web-related technologies are advancing and number of Web- based systems are increasing. Management systems that adopt Web- related technologies or that have browser-based management interface are getting common. It is natural to expect that there is a standard network operation and management protocol to be used over HTTP. Currently, however, there are few efforts in this area. Although NETCONF[RFC6241] once defined itself to be sent over SOAP/ HTTPS[RFC4743], supposedly due to unfamiliarity to SOAP or lack of bi-directional capability, such efforts aren't successful enough[I-D.ietf-netconf-rfc4743-rfc4744-to-historic]. But now, WebSocket protocol, the update of HTTP equipped with bi-directional capability, is available[RFC6455]. This memo describes how NETCONF should be treated over WebSocket protocol.</t>
+      <t>   This memo proposes a way of transporting NETCONF over WebSocket
+   protocol.  Web-related technologies are advancing and number of Web-
+   based systems are increasing.  Management systems that adopt Web-
+   related technologies or that have browser-based management interface
+   are getting common.  It is natural to expect that there is a standard
+   network operation and management protocol to be used over HTTP.
+   Currently, however, there are few efforts in this area.  Although
+   NETCONF[RFC6241] once defined itself to be sent over SOAP/
+   HTTPS[RFC4743], supposedly due to unfamiliarity to SOAP or lack of
+   bi-directional capability, such efforts aren't successful
+   enough[I-D.ietf-netconf-rfc4743-rfc4744-to-historic].  But now,
+   WebSocket protocol, the update of HTTP equipped with bi-directional
+   capability, is available[RFC6455].  This memo describes how NETCONF
+   should be treated over WebSocket protocol.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-iijima-netconf-websocket-ps-04"/>
 </reference>

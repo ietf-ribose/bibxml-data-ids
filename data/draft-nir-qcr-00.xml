@@ -1,13 +1,21 @@
 <reference anchor="I-D.nir-qcr" target="https://datatracker.ietf.org/doc/html/draft-nir-qcr-00">
   <front>
     <title>A Quick Crash Recovery Method for IKE</title>
-    <author fullname="Yoav Nir" initials="Y." surname="Nir">
+    <seriesInfo name="Internet-Draft" value="draft-nir-qcr-00"/>
+    <author initials="Y." surname="Nir" fullname="Yoav Nir">
       <organization>Check Point</organization>
     </author>
-    <date year="2008" month="March" day="16"/>
+    <date day="16" month="March" year="2008"></date>
     <abstract>
-      <t>This document describes an extension to the IKEv2 protocol that allows for faster crash recovery using a saved token method. When an IPsec tunnel between two IKEv2 implementations is disconnected due to a restart of one peer, it can take as much as several minutes to recover. In this text we propose an extension to the protocol, that allows for recovery within a few seconds of the reboot.</t>
+      <t>This document describes an extension to the IKEv2 protocol that
+allows for faster crash recovery using a saved token method.
+
+When an IPsec tunnel between two IKEv2 implementations is
+disconnected due to a restart of one peer, it can take as much as
+several minutes to recover.  In this text we propose an extension to
+the protocol, that allows for recovery within a few seconds of the
+reboot.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-nir-qcr-00"/>
 </reference>

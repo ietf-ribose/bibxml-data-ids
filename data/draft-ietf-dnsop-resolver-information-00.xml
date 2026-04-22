@@ -1,19 +1,29 @@
 <reference anchor="I-D.ietf-dnsop-resolver-information" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-resolver-information-00">
   <front>
     <title>DNS Resolver Information Self-publication</title>
-    <author fullname="Puneet Sood" initials="P." surname="Sood">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-resolver-information-00"/>
+    <author initials="P." surname="Sood" fullname="Puneet Sood">
       <organization>Google</organization>
     </author>
-    <author fullname="Roy Arends" initials="R." surname="Arends">
+    <author initials="R." surname="Arends" fullname="Roy Arends">
       <organization>ICANN</organization>
     </author>
-    <author fullname="Paul E. Hoffman" initials="P. E." surname="Hoffman">
+    <author initials="P. E." surname="Hoffman" fullname="Paul E. Hoffman">
       <organization>ICANN</organization>
     </author>
-    <date year="2019" month="August" day="19"/>
+    <date day="19" month="August" year="2019"></date>
     <abstract>
-      <t>This document describes methods for DNS resolvers to self-publish information about themselves, such as whether they perform DNSSEC validation or are available over transports other than what is defined in RFC 1035. The information is returned as a JSON object. The names in this object are defined in an IANA registry that allows for light-weight registration. Applications and operating systems can use the methods defined here to get the information from resolvers in order to make choices about how to send future queries to those resolvers.</t>
+      <t>   This document describes methods for DNS resolvers to self-publish
+   information about themselves, such as whether they perform DNSSEC
+   validation or are available over transports other than what is
+   defined in RFC 1035.  The information is returned as a JSON object.
+   The names in this object are defined in an IANA registry that allows
+   for light-weight registration.  Applications and operating systems
+   can use the methods defined here to get the information from
+   resolvers in order to make choices about how to send future queries
+   to those resolvers.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-resolver-information-00"/>
 </reference>

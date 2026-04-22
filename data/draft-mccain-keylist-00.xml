@@ -1,19 +1,30 @@
 <reference anchor="I-D.mccain-keylist" target="https://datatracker.ietf.org/doc/html/draft-mccain-keylist-00">
   <front>
     <title>Distributing OpenPGP Keys with Signed Keylist Subscriptions</title>
-    <author fullname="R. Miles McCain" initials="R. M." surname="McCain">
+    <seriesInfo name="Internet-Draft" value="draft-mccain-keylist-00"/>
+    <author initials="R. M." surname="McCain" fullname="R. Miles McCain">
       <organization>First Look Media</organization>
     </author>
-    <author fullname="Micah Lee" initials="M." surname="Lee">
+    <author initials="M." surname="Lee" fullname="Micah Lee">
       <organization>The Intercept</organization>
     </author>
-    <author fullname="Nat Welch" initials="N." surname="Welch">
+    <author initials="N." surname="Welch" fullname="Nat Welch">
       <organization>First Look Media</organization>
     </author>
-    <date year="2018" month="August" day="6"/>
+    <date day="06" month="August" year="2018"></date>
     <abstract>
-      <t>This document specifies a system by which an OpenPGP client may subscribe to an organization's keylist to keep its internal keystore up-to-date. Ensuring that all members of an organization have their colleagues' most recent PGP public keys is critical to maintaining operational security. Without the most recent keys and a source of trust for those keys (as this document specifies), users must manually update and sign each others keys -- a system that is untenable in larger organizations. This document proposes a standard format for the keylist file as well as requirements for clients who wish to implement keylist subscription functionality.</t>
+      <t>   This document specifies a system by which an OpenPGP client may
+   subscribe to an organization's keylist to keep its internal keystore
+   up-to-date.  Ensuring that all members of an organization have their
+   colleagues' most recent PGP public keys is critical to maintaining
+   operational security.  Without the most recent keys and a source of
+   trust for those keys (as this document specifies), users must
+   manually update and sign each others keys -- a system that is
+   untenable in larger organizations.  This document proposes a standard
+   format for the keylist file as well as requirements for clients who
+   wish to implement keylist subscription functionality.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mccain-keylist-00"/>
 </reference>

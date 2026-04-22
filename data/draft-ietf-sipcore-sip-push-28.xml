@@ -1,16 +1,28 @@
 <reference anchor="I-D.ietf-sipcore-sip-push" target="https://datatracker.ietf.org/doc/html/draft-ietf-sipcore-sip-push-28">
   <front>
     <title>Push Notification with the Session Initiation Protocol (SIP)</title>
-    <author fullname="Christer Holmberg" initials="C." surname="Holmberg">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-sipcore-sip-push-28"/>
+    <author initials="C." surname="Holmberg" fullname="Christer Holmberg">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Michael Arnold" initials="M." surname="Arnold">
+    <author initials="M." surname="Arnold" fullname="Michael Arnold">
       <organization>Metaswitch Networks</organization>
     </author>
-    <date year="2019" month="March" day="10"/>
+    <date day="10" month="March" year="2019"></date>
     <abstract>
-      <t>This document describes how a Push Notification Service (PNS) can be used to wake a suspended Session Initiation Protocol (SIP) User Agent (UA) with push notifications, and also describes how the UA can send binding-refresh REGISTER requests and receive incoming SIP requests in an environment in which the UA may be suspended. The document defines new SIP URI parameters to exchange PNS information between the UA and the SIP entity that will then request that push notifications be sent to the UA, and to trigger such push notification requests. The document also defines new feature- capability indicators that can be used to indicate support of this mechanism.</t>
+      <t>   This document describes how a Push Notification Service (PNS) can be
+   used to wake a suspended Session Initiation Protocol (SIP) User Agent
+   (UA) with push notifications, and also describes how the UA can send
+   binding-refresh REGISTER requests and receive incoming SIP requests
+   in an environment in which the UA may be suspended.  The document
+   defines new SIP URI parameters to exchange PNS information between
+   the UA and the SIP entity that will then request that push
+   notifications be sent to the UA, and to trigger such push
+   notification requests.  The document also defines new feature-
+   capability indicators that can be used to indicate support of this
+   mechanism.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-sipcore-sip-push-28"/>
 </reference>

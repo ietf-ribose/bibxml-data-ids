@@ -1,22 +1,32 @@
 <reference anchor="I-D.ietf-bier-ospfv3-extensions" target="https://datatracker.ietf.org/doc/html/draft-ietf-bier-ospfv3-extensions-09">
   <front>
     <title>OSPFv3 Extensions for BIER</title>
-    <author fullname="Peter Psenak" initials="P." surname="Psenak">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bier-ospfv3-extensions-09"/>
+    <author initials="P." surname="Psenak" fullname="Peter Psenak">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Nagendra Kumar Nainar" initials="N. K." surname="Nainar">
+    <author initials="N. K." surname="Nainar" fullname="Nagendra Kumar Nainar">
       <organization>Oracle</organization>
     </author>
-    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
+    <author initials="I." surname="Wijnands" fullname="IJsbrand Wijnands">
       <organization>Individual Contributor</organization>
     </author>
-    <author fullname="Zheng Zhang" initials="Z." surname="Zhang">
+    <author initials="Z." surname="Zhang" fullname="Zheng Zhang">
       <organization>ZTE Corporation</organization>
     </author>
-    <date year="2026" month="January" day="21"/>
+    <date day="21" month="January" year="2026"></date>
     <abstract>
-      <t>Bit Index Explicit Replication (BIER) is an architecture that provides multicast forwarding through a "BIER domain" without requiring intermediate routers to maintain multicast related per-flow state. The BIER architecture uses MPLS or other encapsulations to steer the multicast traffic towards the receivers. This document describes the OSPFv3 protocol extensions required for BIER with MPLS encapsulation. Support for other encapsulation types is outside the scope of this document.</t>
+      <t>   Bit Index Explicit Replication (BIER) is an architecture that
+   provides multicast forwarding through a "BIER domain" without
+   requiring intermediate routers to maintain multicast related per-flow
+   state.  The BIER architecture uses MPLS or other encapsulations to
+   steer the multicast traffic towards the receivers.
+
+   This document describes the OSPFv3 protocol extensions required for
+   BIER with MPLS encapsulation.  Support for other encapsulation types
+   is outside the scope of this document.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-bier-ospfv3-extensions-09"/>
 </reference>

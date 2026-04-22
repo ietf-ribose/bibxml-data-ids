@@ -1,13 +1,23 @@
 <reference anchor="I-D.herz-moq-nmsf" target="https://datatracker.ietf.org/doc/html/draft-herz-moq-nmsf-00">
   <front>
     <title>NMSF - Neural Video Codec Packaging for MOQT Streaming Format</title>
-    <author fullname="Erik Herz" initials="E." surname="Herz">
+    <seriesInfo name="Internet-Draft" value="draft-herz-moq-nmsf-00"/>
+    <author initials="E." surname="Herz" fullname="Erik Herz">
       <organization>Vivoh, Inc.</organization>
     </author>
-    <date year="2026" month="April" day="5"/>
+    <date day="05" month="April" year="2026"></date>
     <abstract>
-      <t>This document updates the MOQT Streaming Format (MSF) by defining a new optional feature for the streaming format. It specifies the syntax and semantics for adding Neural Video Codec (NVC) packaged media to MSF. NVC codecs use learned neural network transforms for video compression, and their bitstreams require a distinct packaging model from traditional block-based codecs. NMSF maps neural keyframes (Intra) and delta frames (Inter) onto MoQ Groups and Objects, enabling real-time neural video streaming over any standard MoQ relay.</t>
+      <t>   This document updates the MOQT Streaming Format (MSF) by defining a
+   new optional feature for the streaming format.  It specifies the
+   syntax and semantics for adding Neural Video Codec (NVC) packaged
+   media to MSF.  NVC codecs use learned neural network transforms for
+   video compression, and their bitstreams require a distinct packaging
+   model from traditional block-based codecs.  NMSF maps neural
+   keyframes (Intra) and delta frames (Inter) onto MoQ Groups and
+   Objects, enabling real-time neural video streaming over any standard
+   MoQ relay.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-herz-moq-nmsf-00"/>
 </reference>

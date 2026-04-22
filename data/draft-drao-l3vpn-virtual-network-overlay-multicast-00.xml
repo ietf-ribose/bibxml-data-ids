@@ -1,16 +1,40 @@
 <reference anchor="I-D.drao-l3vpn-virtual-network-overlay-multicast" target="https://datatracker.ietf.org/doc/html/draft-drao-l3vpn-virtual-network-overlay-multicast-00">
   <front>
     <title>L3VPN Virtual Network Overlay Multicast</title>
-    <author fullname="Dhananjaya Rao" initials="D." surname="Rao">
+    <seriesInfo name="Internet-Draft" value="draft-drao-l3vpn-virtual-network-overlay-multicast-00"/>
+    <author initials="D." surname="Rao" fullname="Dhananjaya Rao">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Vipin Jain" initials="V." surname="Jain">
+    <author initials="V." surname="Jain" fullname="Vipin Jain">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2013" month="July" day="15"/>
+    <date day="15" month="July" year="2013"></date>
     <abstract>
-      <t>Virtual network overlays are extremely useful for supporting multicast applications in multi-tenant data center networks, by distributing the per-tenant multicast state and forwarding actions at the network edges with minimal control plane load and simpler forwarding in the core. A virtual overlay network may use existing encapsulations such as MPLS-in-GRE or newer IP based encapsulations such as VXLAN and NVGRE. IP multicast sources and receivers are very commonly spread out across multiple subnets. Sources and receivers may also be spread within and outside a single network domain such as a data center. Hence, a Layer-3 multicast paradigm is the most suitable and efficient approach for delivery of IP multicast traffic. BGP based MVPNs provide a good basis for providing a solution to support IP multicast across these overlay networks. An appropriate subset of the MVPN control plane and procedures are sufficient to support the requirements, providing for a simpler model of operation. This document describes the use of BGP based MVPNs alongwith the new IP-based virtual network overlay encapsulations to provide a Layer-3 virtualization solution for IP multicast traffic, and specifies mechanisms to use the new encapsulations while continuing to leverage the BGP MVPN control plane techniques and extensions.</t>
+      <t>   Virtual network overlays are extremely useful for supporting
+   multicast applications in multi-tenant data center networks, by
+   distributing the per-tenant multicast state and forwarding actions at
+   the network edges with minimal control plane load and simpler
+   forwarding in the core.  A virtual overlay network may use existing
+   encapsulations such as MPLS-in-GRE or newer IP based encapsulations
+   such as VXLAN and NVGRE.
+
+   IP multicast sources and receivers are very commonly spread out
+   across multiple subnets.  Sources and receivers may also be spread
+   within and outside a single network domain such as a data center.
+   Hence, a Layer-3 multicast paradigm is the most suitable and
+   efficient approach for delivery of IP multicast traffic.
+
+   BGP based MVPNs provide a good basis for providing a solution to
+   support IP multicast across these overlay networks.  An appropriate
+   subset of the MVPN control plane and procedures are sufficient to
+   support the requirements, providing for a simpler model of operation.
+   This document describes the use of BGP based MVPNs alongwith the new
+   IP-based virtual network overlay encapsulations to provide a Layer-3
+   virtualization solution for IP multicast traffic, and specifies
+   mechanisms to use the new encapsulations while continuing to leverage
+   the BGP MVPN control plane techniques and extensions.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-drao-l3vpn-virtual-network-overlay-multicast-00"/>
 </reference>

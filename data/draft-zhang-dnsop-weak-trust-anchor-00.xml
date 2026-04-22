@@ -1,31 +1,41 @@
 <reference anchor="I-D.zhang-dnsop-weak-trust-anchor" target="https://datatracker.ietf.org/doc/html/draft-zhang-dnsop-weak-trust-anchor-00">
   <front>
     <title>Weak Trust Anchor Introduction</title>
-    <author fullname="XiaoDong Lee" initials="X." surname="Lee">
+    <seriesInfo name="Internet-Draft" value="draft-zhang-dnsop-weak-trust-anchor-00"/>
+    <author initials="X." surname="Lee" fullname="XiaoDong Lee">
       <organization>cnnic</organization>
     </author>
-    <author fullname="Haikuo Zhang" initials="H." surname="Zhang">
+    <author initials="H." surname="Zhang" fullname="Haikuo Zhang">
       <organization>cnnic</organization>
     </author>
-    <author fullname="Nan Wang" initials="N." surname="Wang">
+    <author initials="N." surname="Wang" fullname="Nan Wang">
       <organization>cnnic</organization>
     </author>
-    <author fullname="Peng Zuo" initials="P." surname="Zuo">
+    <author initials="P." surname="Zuo" fullname="Peng Zuo">
       <organization>cnnic</organization>
     </author>
-    <author fullname="Xiali Yan" initials="X." surname="Yan">
+    <author initials="X." surname="Yan" fullname="Xiali Yan">
       <organization>cnnic</organization>
     </author>
-    <author fullname="Ce Luo" initials="C." surname="Luo">
+    <author initials="C." surname="Luo" fullname="Ce Luo">
       <organization>cnnic</organization>
     </author>
-    <author fullname="Hongtao Li" initials="H." surname="Li">
+    <author initials="H." surname="Li" fullname="Hongtao Li">
       <organization>cnnic</organization>
     </author>
-    <date year="2014" month="May" day="29"/>
+    <date day="29" month="May" year="2014"></date>
     <abstract>
-      <t>DNS Security Extensions (DNSSEC) is an effective method to provide security protection for resolvers and end users in the DNS protocols. But the DNSSEC is too aggressive for the DNS service in the poor network infrastructure, because the domain name will be invisible when large DNSSEC messages were dropped by some other network equipments, like the routers which have MTU problem or the old firewalls which do not support ENDS0. This document defines a new concept weak trust anchor which can be used on a security-aware resolver to get rid of the above problem.</t>
+      <t>   DNS Security Extensions (DNSSEC) is an effective method to provide
+   security protection for resolvers and end users in the DNS protocols.
+   But the DNSSEC is too aggressive for the DNS service in the poor
+   network infrastructure, because the domain name will be invisible
+   when large DNSSEC messages were dropped by some other network
+   equipments, like the routers which have MTU problem or the old
+   firewalls which do not support ENDS0.  This document defines a new
+   concept weak trust anchor which can be used on a security-aware
+   resolver to get rid of the above problem.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-zhang-dnsop-weak-trust-anchor-00"/>
 </reference>

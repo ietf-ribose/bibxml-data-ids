@@ -1,16 +1,30 @@
 <reference anchor="I-D.howlett-radsec-knp" target="https://datatracker.ietf.org/doc/html/draft-howlett-radsec-knp-02">
   <front>
     <title>Key Negotiation Protocol (KNP)</title>
-    <author fullname="Josh Howlett" initials="J." surname="Howlett">
+    <seriesInfo name="Internet-Draft" value="draft-howlett-radsec-knp-02"/>
+    <author initials="J." surname="Howlett" fullname="Josh Howlett">
       <organization>JANET(UK)</organization>
     </author>
-    <author fullname="Sam Hartman" initials="S." surname="Hartman">
+    <author initials="S." surname="Hartman" fullname="Sam Hartman">
       <organization>Painless Security</organization>
     </author>
-    <date year="2011" month="October" day="21"/>
+    <date day="21" month="October" year="2011"></date>
     <abstract>
-      <t>The Key Negotiation Protocol enables an untrusting RADIUS client and RADIUS server to derive a key by reference to a mutually trusted actor called the Introducer. This key may subsequently be used for one of two purposes. First, it can credential a TLS PSK ciphersuite applied to a RadSec connection between the RADIUS client and RADIUS server; or secondly, to establish a trust relationship between the RADIUS client and a second Introducer that is trusted by the first Introducer. The composition of these capabilities enables a RADIUS client to establish a RadSec connection with any RADIUS server with whom it shares a direct or indirect trust relationship via one or more Introducers.</t>
+      <t>   The Key Negotiation Protocol enables an untrusting RADIUS client and
+   RADIUS server to derive a key by reference to a mutually trusted
+   actor called the Introducer.  This key may subsequently be used for
+   one of two purposes.  First, it can credential a TLS PSK ciphersuite
+   applied to a RadSec connection between the RADIUS client and RADIUS
+   server; or secondly, to establish a trust relationship between the
+   RADIUS client and a second Introducer that is trusted by the first
+   Introducer.
+
+   The composition of these capabilities enables a RADIUS client to
+   establish a RadSec connection with any RADIUS server with whom it
+   shares a direct or indirect trust relationship via one or more
+   Introducers.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-howlett-radsec-knp-02"/>
 </reference>

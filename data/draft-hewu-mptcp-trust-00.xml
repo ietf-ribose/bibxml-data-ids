@@ -1,28 +1,39 @@
 <reference anchor="I-D.hewu-mptcp-trust" target="https://datatracker.ietf.org/doc/html/draft-hewu-mptcp-trust-00">
   <front>
     <title>Trusted Multipath-TCP (MPTCP) extension</title>
-    <author fullname="Hewu Li" initials="H." surname="Li">
+    <seriesInfo name="Internet-Draft" value="draft-hewu-mptcp-trust-00"/>
+    <author initials="H." surname="Li" fullname="Hewu Li">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Qian Wu" initials="Q." surname="Wu">
+    <author initials="Q." surname="Wu" fullname="Qian Wu">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Boyang Wu" initials="B." surname="Wu">
+    <author initials="B." surname="Wu" fullname="Boyang Wu">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Qi Zhang" initials="Q." surname="Zhang">
+    <author initials="Q." surname="Zhang" fullname="Qi Zhang">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Jiang Zhou" initials="J." surname="Zhou">
+    <author initials="J." surname="Zhou" fullname="Jiang Zhou">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Jun Liu" initials="J." surname="Liu">
+    <author initials="J." surname="Liu" fullname="Jun Liu">
       <organization>Tsinghua University</organization>
     </author>
-    <date year="2019" month="October" day="30"/>
+    <date day="30" month="October" year="2019"></date>
     <abstract>
-      <t>Multipath TCP (MPTCP) adds the capability of using multiple paths to a regular TCP session and is being deployed extensively. Source Address Validation (SAV) technologies are proposed to prevent network nodes from spoofing others' IP addresses and thus improve the accountability of networks. This document proposes a trusted MPTCP extension based on SAV, which enables MPTCP to work with SAV and thus improve the accountability of MPTCP connections. This extension doesn't intend to replace the security solutions to resolving IP forged attacks, like Hash-based Message Authentication Code (HMAC), but to improve the accountability of them and the whole connection.</t>
+      <t>   Multipath TCP (MPTCP) adds the capability of using multiple paths to
+   a regular TCP session and is being deployed extensively.  Source
+   Address Validation (SAV) technologies are proposed to prevent network
+   nodes from spoofing others' IP addresses and thus improve the
+   accountability of networks.  This document proposes a trusted MPTCP
+   extension based on SAV, which enables MPTCP to work with SAV and thus
+   improve the accountability of MPTCP connections.  This extension
+   doesn't intend to replace the security solutions to resolving IP
+   forged attacks, like Hash-based Message Authentication Code (HMAC),
+   but to improve the accountability of them and the whole connection.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hewu-mptcp-trust-00"/>
 </reference>

@@ -1,16 +1,28 @@
 <reference anchor="I-D.otis-smtp-tbr-ext" target="https://datatracker.ietf.org/doc/html/draft-otis-smtp-tbr-ext-00">
   <front>
     <title>SMTP Transferred-By-Reference (TBR) Extension</title>
-    <author fullname="Douglas Otis" initials="D." surname="Otis">
+    <seriesInfo name="Internet-Draft" value="draft-otis-smtp-tbr-ext-00"/>
+    <author initials="D." surname="Otis" fullname="Douglas Otis">
       <organization>Trend Micro</organization>
     </author>
-    <author fullname="John Leslie" initials="J." surname="Leslie">
+    <author initials="J." surname="Leslie" fullname="John Leslie">
       <organization>JLC.net</organization>
     </author>
-    <date year="2007" month="November" day="9"/>
+    <date day="09" month="November" year="2007"></date>
     <abstract>
-      <t>This document describes an extension to SMTP that allows email to be exchanged as a storage system immutable XAM (eXtensible Access Method) reference. When MTAs employ the TBR mode, message origination can not be spoofed, and message acceptance is not asserted until retrieval of the referenced message. This strategy ensures a minimal SMTP overhead, increasing the responsibility of senders in order to limit the load of unwanted messages upon receivers. In addition, the TBR extension requires an [RFC2821] MAIL FROM address in the same domain as the server from which the XAM will be fetched, so that a dependable status-reporting path is assured.</t>
+      <t>   This document describes an extension to SMTP that allows email to be
+   exchanged as a storage system immutable XAM (eXtensible Access
+   Method) reference.  When MTAs employ the TBR mode, message
+   origination can not be spoofed, and message acceptance is not
+   asserted until retrieval of the referenced message.  This strategy
+   ensures a minimal SMTP overhead, increasing the responsibility of
+   senders in order to limit the load of unwanted messages upon
+   receivers.
+
+   In addition, the TBR extension requires an [RFC2821] MAIL FROM
+   address in the same domain as the server from which the XAM will be
+   fetched, so that a dependable status-reporting path is assured.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-otis-smtp-tbr-ext-00"/>
 </reference>

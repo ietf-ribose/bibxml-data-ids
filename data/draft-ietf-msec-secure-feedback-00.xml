@@ -1,16 +1,25 @@
 <reference anchor="I-D.ietf-msec-secure-feedback" target="https://datatracker.ietf.org/doc/html/draft-ietf-msec-secure-feedback-00">
   <front>
     <title>Securing Feedback Messages: Secure and Scalable Many-to-one Communication</title>
-    <author fullname="Lakshminath R. Dondeti" initials="L. R." surname="Dondeti">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-msec-secure-feedback-00"/>
+    <author initials="L. R." surname="Dondeti" fullname="Lakshminath R. Dondeti">
       <organization>Nortel Networks</organization>
     </author>
-    <author fullname="Thomas Hardjono" initials="T." surname="Hardjono">
+    <author initials="T." surname="Hardjono" fullname="Thomas Hardjono">
       <organization>Nortel Networks</organization>
     </author>
-    <date year="2003" month="June" day="24"/>
+    <date day="24" month="June" year="2003"></date>
     <abstract>
-      <t>Members in a secure group may need to communicate to the GCKS to Deregister from the group, for SA resynchronization, or to request retransmission of a Rekey message. A simple solution is to keep the registration SA around, but that comes at the expense of O(n) SA maintenance, and storage at the GCKS. Each member is also responsible for maintaining an extra SA. We propose an efficient method for mem- bers to securely send messages to the GCKS, using the Rekey SA.</t>
+      <t>Members in a secure group may need to communicate to the GCKS to
+Deregister from the group, for SA resynchronization, or to request
+retransmission of a Rekey message. A simple solution is to keep the
+registration SA around, but that comes at the expense of O(n) SA
+maintenance, and storage at the GCKS. Each member is also responsible
+for maintaining an extra SA. We propose an efficient method for mem-
+bers to securely send messages to the GCKS, using the Rekey SA.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-msec-secure-feedback-00"/>
 </reference>

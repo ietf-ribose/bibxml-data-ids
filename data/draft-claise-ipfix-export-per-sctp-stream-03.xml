@@ -1,13 +1,21 @@
 <reference anchor="I-D.claise-ipfix-export-per-sctp-stream" target="https://datatracker.ietf.org/doc/html/draft-claise-ipfix-export-per-sctp-stream-03">
   <front>
     <title>IPFIX Export per SCTP Stream</title>
-    <author fullname="Benoît Claise" initials="B." surname="Claise">
+    <seriesInfo name="Internet-Draft" value="draft-claise-ipfix-export-per-sctp-stream-03"/>
+    <author initials="B." surname="Claise" fullname="Benoît Claise">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2008" month="February" day="25"/>
+    <date day="25" month="February" year="2008"></date>
     <abstract>
-      <t>This document specifies an improvement to the use of SCTP as specified in the IPFIX specifications in order to be able to deduce the data record loss per template record in case of partially-reliable SCTP export. This specification offers several extra advantages: immediate export of the template withdrawal message, immediate reuse of template ID within a stream, and the collecting process's job is easier.</t>
+      <t>This document specifies an improvement to the use of SCTP 
+        as specified in the IPFIX specifications in order to be 
+        able to deduce the data record loss per template record in 
+        case of partially-reliable SCTP export.  This specification 
+        offers several extra advantages: immediate export of the 
+        template withdrawal message, immediate reuse of template ID 
+        within a stream, and the collecting process's job is 
+        easier. 
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-claise-ipfix-export-per-sctp-stream-03"/>
 </reference>

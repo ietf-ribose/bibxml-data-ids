@@ -1,19 +1,36 @@
 <reference anchor="I-D.jabley-dnsop-dns-onion" target="https://datatracker.ietf.org/doc/html/draft-jabley-dnsop-dns-onion-00">
   <front>
     <title>DNS Privacy with a Hint of Onion</title>
-    <author fullname="Roy Arends" initials="R." surname="Arends">
+    <seriesInfo name="Internet-Draft" value="draft-jabley-dnsop-dns-onion-00"/>
+    <author initials="R." surname="Arends" fullname="Roy Arends">
       <organization>Nominet</organization>
     </author>
-    <author fullname="Joe Abley" initials="J." surname="Abley">
+    <author initials="J." surname="Abley" fullname="Joe Abley">
       <organization>Dyn, Inc.</organization>
     </author>
-    <author fullname="Joao da Silva Damas" initials="J. D. S." surname="Damas">
+    <author initials="J. D. S." surname="Damas" fullname="Joao da Silva Damas">
       <organization>Dyn, Inc.</organization>
     </author>
-    <date year="2014" month="March" day="6"/>
+    <date day="06" month="March" year="2014"></date>
     <abstract>
-      <t>The Domain Name System (DNS) has no inherent capability to protect the privacy of end users. The data associated with DNS queries and responses can be observed by intermediate systems, and such observations could provide a source of metadata relating to end user behaviour. This document describes an approach which separates the data in DNS queries and responses from the identity of the DNS resolver used by DNS clients. This approach does not address privacy concerns between a stub resolver and a recursive resolver. This approach imposes no requirement for modification of authority servers, and does not depend upon widespread deployment of DNSSEC signing or validation.</t>
+      <t>   The Domain Name System (DNS) has no inherent capability to protect
+   the privacy of end users.  The data associated with DNS queries and
+   responses can be observed by intermediate systems, and such
+   observations could provide a source of metadata relating to end user
+   behaviour.
+
+   This document describes an approach which separates the data in DNS
+   queries and responses from the identity of the DNS resolver used by
+   DNS clients.
+
+   This approach does not address privacy concerns between a stub
+   resolver and a recursive resolver.
+
+   This approach imposes no requirement for modification of authority
+   servers, and does not depend upon widespread deployment of DNSSEC
+   signing or validation.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-jabley-dnsop-dns-onion-00"/>
 </reference>

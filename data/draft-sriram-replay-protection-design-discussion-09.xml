@@ -1,16 +1,33 @@
 <reference anchor="I-D.sriram-replay-protection-design-discussion" target="https://datatracker.ietf.org/doc/html/draft-sriram-replay-protection-design-discussion-09">
   <front>
     <title>Design Discussion and Comparison of Protection Mechanisms for Replay Attack and Withdrawal Suppression in BGPsec</title>
-    <author fullname="Kotikalapudi Sriram" initials="K." surname="Sriram">
+    <seriesInfo name="Internet-Draft" value="draft-sriram-replay-protection-design-discussion-09"/>
+    <author initials="K." surname="Sriram" fullname="Kotikalapudi Sriram">
       <organization>US NIST</organization>
     </author>
-    <author fullname="Doug Montgomery" initials="D." surname="Montgomery">
+    <author initials="D." surname="Montgomery" fullname="Doug Montgomery">
       <organization>US NIST</organization>
     </author>
-    <date year="2017" month="October" day="17"/>
+    <date day="17" month="October" year="2017"></date>
     <abstract>
-      <t>In the context of BGPsec, a withdrawal suppression occurs when an adversary AS suppresses a prefix withdrawal with the intension of continuing to attract traffic for that prefix based on a previous (signed and valid) BGPsec announcement that was earlier propagated. Subsequently if the adversary AS had a BGPsec session reset with a neighboring BGPsec speaker and when the session is restored, the AS replays said previous BGPsec announcement (even though it was withdrawn), then such a replay action is called a replay attack. The BGPsec protocol should incorporate a method for protection from Replay Attack and Withdrawal Suppression (RAWS), at least to control the window of exposure. This informational document provides design discussion and comparison of multiple alternative RAWS protection mechanisms weighing their pros and cons. This is meant to be a companion document to the standards track draft-ietf-sidrops-bgpsec- rollover that will specify a method to be used with BGPsec for RAWS protection.</t>
+      <t>   In the context of BGPsec, a withdrawal suppression occurs when an
+   adversary AS suppresses a prefix withdrawal with the intension of
+   continuing to attract traffic for that prefix based on a previous
+   (signed and valid) BGPsec announcement that was earlier propagated.
+   Subsequently if the adversary AS had a BGPsec session reset with a
+   neighboring BGPsec speaker and when the session is restored, the AS
+   replays said previous BGPsec announcement (even though it was
+   withdrawn), then such a replay action is called a replay attack.  The
+   BGPsec protocol should incorporate a method for protection from
+   Replay Attack and Withdrawal Suppression (RAWS), at least to control
+   the window of exposure.  This informational document provides design
+   discussion and comparison of multiple alternative RAWS protection
+   mechanisms weighing their pros and cons.  This is meant to be a
+   companion document to the standards track draft-ietf-sidrops-bgpsec-
+   rollover that will specify a method to be used with BGPsec for RAWS
+   protection.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sriram-replay-protection-design-discussion-09"/>
 </reference>

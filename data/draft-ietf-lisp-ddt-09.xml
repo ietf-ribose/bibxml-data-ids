@@ -1,25 +1,26 @@
 <reference anchor="I-D.ietf-lisp-ddt" target="https://datatracker.ietf.org/doc/html/draft-ietf-lisp-ddt-09">
   <front>
     <title>Locator/ID Separation Protocol Delegated Database Tree (LISP-DDT)</title>
-    <author fullname="Vince Fuller" initials="V." surname="Fuller">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-lisp-ddt-09"/>
+    <author initials="V." surname="Fuller" fullname="Vince Fuller">
       <organization>VAF.NET Internet Consulting</organization>
     </author>
-    <author fullname="Darrel Lewis" initials="D." surname="Lewis">
+    <author initials="D." surname="Lewis" fullname="Darrel Lewis">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Vina Ermagan" initials="V." surname="Ermagan">
+    <author initials="V." surname="Ermagan" fullname="Vina Ermagan">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Amit Jain" initials="A." surname="Jain">
+    <author initials="A." surname="Jain" fullname="Amit Jain">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Anton Smirnov" initials="A." surname="Smirnov">
+    <author initials="A." surname="Smirnov" fullname="Anton Smirnov">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2017" month="January" day="18"/>
+    <date day="18" month="January" year="2017"></date>
     <abstract>
-      <t>This document describes the Locator/ID Separation Protocol Delegated Database Tree (LISP-DDT), a hierarchical distributed database that embodies the delegation of authority to provide mappings from LISP Endpoint Identifiers (EIDs) to Routing Locators (RLOCs). It is a statically defined distribution of the EID namespace among a set of LISP-speaking servers called "DDT nodes". Each DDT node is configured as "authoritative" for one or more EID-prefixes, along with the set of RLOCs for Map-Servers or "child" DDT nodes to which more-specific EID-prefixes are delegated.</t>
+      <t>This document describes the Locator/ID Separation Protocol Delegated Database Tree (LISP-DDT), a hierarchical distributed database that embodies the delegation of authority to provide mappings from LISP Endpoint Identifiers (EIDs) to Routing Locators (RLOCs).  It is a statically defined distribution of the EID namespace among a set of LISP-speaking servers called "DDT nodes".  Each DDT node is configured as "authoritative" for one or more EID-prefixes, along with the set of RLOCs for Map-Servers or "child" DDT nodes to which more-specific EID-prefixes are delegated.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-lisp-ddt-09"/>
 </reference>

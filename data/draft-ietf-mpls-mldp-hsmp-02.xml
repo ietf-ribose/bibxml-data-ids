@@ -1,22 +1,26 @@
 <reference anchor="I-D.ietf-mpls-mldp-hsmp" target="https://datatracker.ietf.org/doc/html/draft-ietf-mpls-mldp-hsmp-02">
   <front>
     <title>LDP Extensions for Hub &amp; Spoke Multipoint Label Switched Path</title>
-    <author fullname="Lizhong Jin" initials="L." surname="Jin">
-      <organization/>
-    </author>
-    <author fullname="Frederic JOUNAY" initials="F." surname="JOUNAY">
-      <organization/>
-    </author>
-    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
-      <organization/>
-    </author>
-    <author fullname="Nicolai Leymann" initials="N." surname="Leymann">
-      <organization/>
-    </author>
-    <date year="2013" month="October" day="12"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-mldp-hsmp-02"/>
+    <author initials="L." surname="Jin" fullname="Lizhong Jin"/>
+    <author initials="F." surname="JOUNAY" fullname="Frederic JOUNAY"/>
+    <author initials="I." surname="Wijnands" fullname="IJsbrand Wijnands"/>
+    <author initials="N." surname="Leymann" fullname="Nicolai Leymann"/>
+    <date day="12" month="October" year="2013"></date>
     <abstract>
-      <t>This draft introduces a hub &amp; spoke multipoint LSP (or HSMP LSP for short), which allows traffic both from root to leaf through P2MP LSP and also leaf to root along the co-routed reverse path. That means traffic entering the HSMP LSP from application/customer at the root node travels downstream to each leaf node, exactly as if it is travelling downstream along a P2MP LSP to each leaf node. Upstream traffic entering the HSMP LSP at any leaf node travels upstream along the tree to the root, as if it is unicast to the root, and strictly follows the downstream path of the tree rather than routing protocol based unicast path to the root.</t>
+      <t>   This draft introduces a hub &amp; spoke multipoint LSP (or HSMP LSP for
+   short), which allows traffic both from root to leaf through P2MP LSP
+   and also leaf to root along the co-routed reverse path.  That means
+   traffic entering the HSMP LSP from application/customer at the root
+   node travels downstream to each leaf node, exactly as if it is
+   travelling downstream along a P2MP LSP to each leaf node.  Upstream
+   traffic entering the HSMP LSP at any leaf node travels upstream along
+   the tree to the root, as if it is unicast to the root, and strictly
+   follows the downstream path of the tree rather than routing protocol
+   based unicast path to the root.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-mldp-hsmp-02"/>
 </reference>

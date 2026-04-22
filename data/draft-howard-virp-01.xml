@@ -1,13 +1,34 @@
 <reference anchor="I-D.howard-virp" target="https://datatracker.ietf.org/doc/html/draft-howard-virp-01">
   <front>
     <title>Verified Infrastructure Response Protocol (VIRP) Specification</title>
-    <author fullname="Nathan Howard" initials="N." surname="Howard">
+    <seriesInfo name="Internet-Draft" value="draft-howard-virp-01"/>
+    <author initials="N." surname="Howard" fullname="Nathan Howard">
       <organization>Third Level IT LLC</organization>
     </author>
-    <date year="2026" month="March" day="20"/>
+    <date day="20" month="March" year="2026"></date>
     <abstract>
-      <t>This document specifies the Verified Infrastructure Response Protocol (VIRP), a cryptographic trust framework for AI-managed network infrastructure. VIRP provides structural guarantees that observations of network state are authentic and that proposed changes are authorized, through channel-separated key binding and tiered approval enforcement. VIRP addresses the emerging threat of AI fabrication in network automation, where language model-based systems generate plausible but false device output, configuration state, or security findings. The protocol makes fabrication structurally impossible by requiring cryptographic proof of observation at the point of collection. This revision introduces the Observation Gate, a post-response structural enforcement mechanism that verifies every device reference in an AI agent's output against the session's signed observation chain. Device claims without corresponding HMAC-signed observations are flagged before reaching the operator, closing the gap between cryptographic signing at collection and trust at the point of consumption.</t>
+      <t>   This document specifies the Verified Infrastructure Response Protocol
+   (VIRP), a cryptographic trust framework for AI-managed network
+   infrastructure.  VIRP provides structural guarantees that
+   observations of network state are authentic and that proposed changes
+   are authorized, through channel-separated key binding and tiered
+   approval enforcement.
+
+   VIRP addresses the emerging threat of AI fabrication in network
+   automation, where language model-based systems generate plausible but
+   false device output, configuration state, or security findings.  The
+   protocol makes fabrication structurally impossible by requiring
+   cryptographic proof of observation at the point of collection.
+
+   This revision introduces the Observation Gate, a post-response
+   structural enforcement mechanism that verifies every device reference
+   in an AI agent's output against the session's signed observation
+   chain.  Device claims without corresponding HMAC-signed observations
+   are flagged before reaching the operator, closing the gap between
+   cryptographic signing at collection and trust at the point of
+   consumption.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-howard-virp-01"/>
 </reference>

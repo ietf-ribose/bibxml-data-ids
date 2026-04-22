@@ -1,13 +1,16 @@
 <reference anchor="I-D.ietf-avtcore-srtp-encrypted-header-ext" target="https://datatracker.ietf.org/doc/html/draft-ietf-avtcore-srtp-encrypted-header-ext-05">
   <front>
     <title>Encryption of Header Extensions in the Secure Real-time Transport Protocol (SRTP)</title>
-    <author fullname="Jonathan Lennox" initials="J." surname="Lennox">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-avtcore-srtp-encrypted-header-ext-05"/>
+    <author initials="J." surname="Lennox" fullname="Jonathan Lennox">
       <organization>Vidyo</organization>
     </author>
-    <date year="2013" month="February" day="8"/>
+    <date day="08" month="February" year="2013"></date>
     <abstract>
-      <t>The Secure Real-time Transport Protocol (SRTP) provides authentication, but not encryption, of the headers of Real-time Transport Protocol (RTP) packets. However, RTP header extensions may carry sensitive information for which participants in multimedia sessions want confidentiality. This document provides a mechanism, extending the mechanisms of SRTP, to selectively encrypt RTP header extensions in SRTP. This document updates RFC 3711, the Secure Real-time Transport Protocol specification, to require that all future SRTP encryption transforms specify how RTP header extensions are to be encrypted.</t>
+      <t>The Secure Real-time Transport Protocol (SRTP) provides authentication, but not encryption, of the headers of Real-time Transport Protocol (RTP) packets. However, RTP header extensions may carry sensitive information for which participants in multimedia sessions want confidentiality. This document provides a mechanism, extending the mechanisms of SRTP, to selectively encrypt RTP header extensions in SRTP.
+
+ This document updates RFC 3711, the Secure Real-time Transport Protocol specification, to require that all future SRTP encryption transforms specify how RTP header extensions are to be encrypted.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-avtcore-srtp-encrypted-header-ext-05"/>
 </reference>

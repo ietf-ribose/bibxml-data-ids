@@ -1,25 +1,39 @@
 <reference anchor="I-D.mmm-bfd-on-lags" target="https://datatracker.ietf.org/doc/html/draft-mmm-bfd-on-lags-07">
   <front>
     <title>Bidirectional Forwarding Detection (BFD) on Link Aggregation Group (LAG) Interfaces</title>
-    <author fullname="Manav Bhatia" initials="M." surname="Bhatia">
+    <seriesInfo name="Internet-Draft" value="draft-mmm-bfd-on-lags-07"/>
+    <author initials="M." surname="Bhatia" fullname="Manav Bhatia">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <author fullname="Mach Chen" initials="M." surname="Chen">
+    <author initials="M." surname="Chen" fullname="Mach Chen">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Sami Boutros" initials="S." surname="Boutros">
+    <author initials="S." surname="Boutros" fullname="Sami Boutros">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Marc Binderberger" initials="M." surname="Binderberger">
+    <author initials="M." surname="Binderberger" fullname="Marc Binderberger">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Jeffrey Haas" initials="J." surname="Haas">
+    <author initials="J." surname="Haas" fullname="Jeffrey Haas">
       <organization>Juniper Networks</organization>
     </author>
-    <date year="2013" month="April" day="12"/>
+    <date day="12" month="April" year="2013"></date>
     <abstract>
-      <t>This document proposes a mechanism to run BFD on Link Aggregation Group (LAG) interfaces. It does so by running an independent Asynchronous mode BFD session on every LAG member link. This mechanism allows the verification of member link continuity, either in combination with, or in absence of, LACP. It provides a shorter detection time than what LACP offers. The continuity check can also cover elements of layer 3 bidirectional forwarding. This mechanism utilizes a well-known UDP port distinct from that of single-hop BFD over IP. This new UDP port removes the ambiguity of BFD over LAG packets from BFD over single-hop IP.</t>
+      <t>   This document proposes a mechanism to run BFD on Link Aggregation
+   Group (LAG) interfaces.  It does so by running an independent
+   Asynchronous mode BFD session on every LAG member link.
+
+   This mechanism allows the verification of member link continuity,
+   either in combination with, or in absence of, LACP.  It provides a
+   shorter detection time than what LACP offers.  The continuity check
+   can also cover elements of layer 3 bidirectional forwarding.
+
+   This mechanism utilizes a well-known UDP port distinct from that of
+   single-hop BFD over IP.  This new UDP port removes the ambiguity of
+   BFD over LAG packets from BFD over single-hop IP.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mmm-bfd-on-lags-07"/>
 </reference>

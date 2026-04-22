@@ -1,16 +1,25 @@
 <reference anchor="I-D.sullivan-dnsop-refer-down" target="https://datatracker.ietf.org/doc/html/draft-sullivan-dnsop-refer-down-00">
   <front>
     <title>Please See Below: Use Only Downward Referrals in the DNS</title>
-    <author fullname="Andrew Sullivan" initials="A." surname="Sullivan">
+    <seriesInfo name="Internet-Draft" value="draft-sullivan-dnsop-refer-down-00"/>
+    <author initials="A." surname="Sullivan" fullname="Andrew Sullivan">
       <organization>Oracle</organization>
     </author>
-    <author fullname="Joe Abley" initials="J." surname="Abley">
+    <author initials="J." surname="Abley" fullname="Joe Abley">
       <organization>Snake Hill Labs</organization>
     </author>
-    <date year="2017" month="November" day="28"/>
+    <date day="28" month="November" year="2017"></date>
     <abstract>
-      <t>A server in the Domain Name System can use a mechanism called "referral" to indicate that the server is not authoritative for a given zone, and to redirect the query to another, more appropriate server. The mechanism was originally specified such that a referral might be to any location in the DNS. Operational experience indicates dubious value to referrals other than those to zones below the zones for which a server is authoritative. This memo therefore recommends such referrals and discourages other kinds of referrals.</t>
+      <t>   A server in the Domain Name System can use a mechanism called
+   "referral" to indicate that the server is not authoritative for a
+   given zone, and to redirect the query to another, more appropriate
+   server.  The mechanism was originally specified such that a referral
+   might be to any location in the DNS.  Operational experience
+   indicates dubious value to referrals other than those to zones below
+   the zones for which a server is authoritative.  This memo therefore
+   recommends such referrals and discourages other kinds of referrals.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sullivan-dnsop-refer-down-00"/>
 </reference>

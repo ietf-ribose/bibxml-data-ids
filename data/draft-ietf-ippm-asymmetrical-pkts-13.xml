@@ -1,25 +1,38 @@
 <reference anchor="I-D.ietf-ippm-asymmetrical-pkts" target="https://datatracker.ietf.org/doc/html/draft-ietf-ippm-asymmetrical-pkts-13">
   <front>
     <title>Performance Measurement with Asymmetrical Traffic Using Simple Two-Way Active Measurement Protocol (STAMP)</title>
-    <author fullname="Greg Mirsky" initials="G." surname="Mirsky">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ippm-asymmetrical-pkts-13"/>
+    <author initials="G." surname="Mirsky" fullname="Greg Mirsky">
       <organization>Independent</organization>
     </author>
-    <author fullname="Ernesto Ruffini" initials="E." surname="Ruffini">
+    <author initials="E." surname="Ruffini" fullname="Ernesto Ruffini">
       <organization>OutSys</organization>
     </author>
-    <author fullname="Henrik Nydell" initials="H." surname="Nydell">
+    <author initials="H." surname="Nydell" fullname="Henrik Nydell">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Richard &quot;Footer&quot; Foote" initials="R. F." surname="Foote">
+    <author initials="R. F." surname="Foote" fullname="Richard &quot;Footer&quot; Foote">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Will Hawkins" initials="W." surname="Hawkins">
+    <author initials="W." surname="Hawkins" fullname="Will Hawkins">
       <organization>University of Cincinnati</organization>
     </author>
-    <date year="2026" month="March" day="15"/>
+    <date day="15" month="March" year="2026"></date>
     <abstract>
-      <t>This document defines an optional extension to the Simple Two-Way Active Measurement Protocol (STAMP) that enables a Session-Reflector to send asymmetrical packets, that is, response packets whose size or quantity differs from those sent by the Session-Sender. While standard STAMP exchanges are symmetrical, certain measurement scenarios benefit from reflected packets of different lengths or additional responses to better approximate application traffic conditions. The extension specifies the Reflected Test Packet Control TLV and associated procedures, analyzes challenges in active performance measurement (including in multicast environments), and describes STAMP behaviors to improve measurement efficiency and reduce network impact.</t>
+      <t>   This document defines an optional extension to the Simple Two-Way
+   Active Measurement Protocol (STAMP) that enables a Session-Reflector
+   to send asymmetrical packets, that is, response packets whose size or
+   quantity differs from those sent by the Session-Sender.  While
+   standard STAMP exchanges are symmetrical, certain measurement
+   scenarios benefit from reflected packets of different lengths or
+   additional responses to better approximate application traffic
+   conditions.  The extension specifies the Reflected Test Packet
+   Control TLV and associated procedures, analyzes challenges in active
+   performance measurement (including in multicast environments), and
+   describes STAMP behaviors to improve measurement efficiency and
+   reduce network impact.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ippm-asymmetrical-pkts-13"/>
 </reference>

@@ -1,13 +1,22 @@
 <reference anchor="I-D.tkeiser-rxrpc-sec-clear" target="https://datatracker.ietf.org/doc/html/draft-tkeiser-rxrpc-sec-clear-02">
   <front>
     <title>Rx Security Object Providing Cleartext Peer Identity Assertions</title>
-    <author fullname="Thomas Keiser" initials="T." surname="Keiser">
+    <seriesInfo name="Internet-Draft" value="draft-tkeiser-rxrpc-sec-clear-02"/>
+    <author initials="T." surname="Keiser" fullname="Thomas Keiser">
       <organization>Sine Nomine</organization>
     </author>
-    <date year="2010" month="April" day="17"/>
+    <date day="17" month="April" year="2010"></date>
     <abstract>
-      <t>RxRPC was originally designed as the remote procedure call layer for AFS-3. Today there are a number of anonymous RxRPC applications which require identity assertions in order to ensure that the desired peer receives and processes a procedure call. This memo defines a replacement for the rxnull security class which provides a means for mutually agreeing upon who is communicating, without incurring cryptographic overhead. It should be noted that, much like rxnull, this security object is not suitable for use in a distributed environment due to its inability to provide integrity protection.</t>
+      <t>RxRPC was originally designed as the remote procedure call layer for
+AFS-3.  Today there are a number of anonymous RxRPC applications
+which require identity assertions in order to ensure that the desired
+peer receives and processes a procedure call.  This memo defines a
+replacement for the rxnull security class which provides a means for
+mutually agreeing upon who is communicating, without incurring
+cryptographic overhead.  It should be noted that, much like rxnull,
+this security object is not suitable for use in a distributed
+environment due to its inability to provide integrity protection.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-tkeiser-rxrpc-sec-clear-02"/>
 </reference>

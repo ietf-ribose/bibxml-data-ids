@@ -1,25 +1,32 @@
 <reference anchor="I-D.hao-mpls-ip-hard-pipe" target="https://datatracker.ietf.org/doc/html/draft-hao-mpls-ip-hard-pipe-02">
   <front>
     <title>Architecture of an IP/MPLS Network with Hardened Pipes</title>
-    <author fullname="JiangTao Hao" initials="J." surname="Hao">
+    <seriesInfo name="Internet-Draft" value="draft-hao-mpls-ip-hard-pipe-02"/>
+    <author initials="J." surname="Hao" fullname="JiangTao Hao">
       <organization>Huawei Technologies Co., Ltd</organization>
     </author>
-    <author fullname="Praveen Maheshwari" initials="P." surname="Maheshwari">
+    <author initials="P." surname="Maheshwari" fullname="Praveen Maheshwari">
       <organization>Bharti Airtel</organization>
     </author>
-    <author fullname="River Huang" initials="R." surname="Huang">
+    <author initials="R." surname="Huang" fullname="River Huang">
       <organization>Huawei Technologies Co., Ltd</organization>
     </author>
-    <author fullname="Loa Andersson" initials="L." surname="Andersson">
+    <author initials="L." surname="Andersson" fullname="Loa Andersson">
       <organization>Huawei Technologies Co., Ltd</organization>
     </author>
-    <author fullname="Mach Chen" initials="M." surname="Chen">
+    <author initials="M." surname="Chen" fullname="Mach Chen">
       <organization>Huawei Technologies Co., Ltd</organization>
     </author>
-    <date year="2015" month="May" day="12"/>
+    <date day="12" month="May" year="2015"></date>
     <abstract>
-      <t>This document describes an IP/MPLS network that has an infrastructure that can be separated into two or more strata. For the implementation described in this document, the infrastructure has been separated into two strata: one for the "Hard Pipes", called the "Hard Pipe Stratum", and one for the normal IP/MPLS traffic, called the "Normal IP/MPLS Stratum". This document introduces the concept of a Hard Pipe -- an MPLS Label Switched Path (LSP) or a pseudowire (PW) with a bandwidth that is guaranteed and can neither be exceeded nor infringed upon. The Hard Pipe stratum does not use statistical multiplexing; for the LSPs and PWs set up within this stratum, the bandwidth is guaranteed end to end. The document does not specify any new protocol or procedures. It does explain how the MPLS standards implementation has been deployed and operated to meet the requirements from operators that offer traditional Virtual Leased Line (VLL) services.</t>
+      <t>This document describes an IP/MPLS network that has an infrastructure that can be separated into two or more strata. For the implementation described in this document, the infrastructure has been separated into two strata: one for the "Hard Pipes", called the "Hard Pipe Stratum", and one for the normal IP/MPLS traffic, called the "Normal IP/MPLS Stratum".
+
+ This document introduces the concept of a Hard Pipe -- an MPLS Label Switched Path (LSP) or a pseudowire (PW) with a bandwidth that is guaranteed and can neither be exceeded nor infringed upon.
+
+ The Hard Pipe stratum does not use statistical multiplexing; for the LSPs and PWs set up within this stratum, the bandwidth is guaranteed end to end.
+
+ The document does not specify any new protocol or procedures. It does explain how the MPLS standards implementation has been deployed and operated to meet the requirements from operators that offer traditional Virtual Leased Line (VLL) services.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hao-mpls-ip-hard-pipe-02"/>
 </reference>

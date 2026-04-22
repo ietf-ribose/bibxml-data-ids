@@ -1,22 +1,26 @@
 <reference anchor="I-D.esale-mpls-ldp-node-frr" target="https://datatracker.ietf.org/doc/html/draft-esale-mpls-ldp-node-frr-02">
   <front>
     <title>Fast Reroute for Node Protection in LDP-based LSPs</title>
-    <author fullname="Santosh Esale" initials="S." surname="Esale">
-      <organization/>
-    </author>
-    <author fullname="Raveendra Torvi" initials="R." surname="Torvi">
-      <organization/>
-    </author>
-    <author fullname="Luyuan Fang" initials="L." surname="Fang">
-      <organization/>
-    </author>
-    <author fullname="Luay Jalil" initials="L." surname="Jalil">
-      <organization/>
-    </author>
-    <date year="2015" month="November" day="1"/>
+    <seriesInfo name="Internet-Draft" value="draft-esale-mpls-ldp-node-frr-02"/>
+    <author initials="S." surname="Esale" fullname="Santosh Esale"/>
+    <author initials="R." surname="Torvi" fullname="Raveendra Torvi"/>
+    <author initials="L." surname="Fang" fullname="Luyuan Fang"/>
+    <author initials="L." surname="Jalil" fullname="Luay Jalil"/>
+    <date day="01" month="November" year="2015"></date>
     <abstract>
-      <t>This document describes procedures to support node protection for unicast Label Switched Paths (LSPs) established by Label Distribution Protocol (LDP). In order to protect a node N, the Point of Local Repair (PLR) of N must discover the Merge Points (MPs) of node N such that traffic can be redirected to them in case of node N failure. Redirecting the traffic around the failed node N depends on existing point-to-point LSPs originated from the PLR to the MPs while bypassing the protected node N. The procedures described in this document are topology independent in a sense that they provide node protection in any topology.</t>
+      <t>   This document describes procedures to support node protection for
+   unicast Label Switched Paths (LSPs) established by Label Distribution
+   Protocol (LDP).  In order to protect a node N, the Point of Local
+   Repair (PLR) of N must discover the Merge Points (MPs) of node N such
+   that traffic can be redirected to them in case of node N failure.
+   Redirecting the traffic around the failed node N depends on existing
+   point-to-point LSPs originated from the PLR to the MPs while
+   bypassing the protected node N.  The procedures described in this
+   document are topology independent in a sense that they provide node
+   protection in any topology.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-esale-mpls-ldp-node-frr-02"/>
 </reference>

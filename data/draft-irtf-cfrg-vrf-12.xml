@@ -1,22 +1,33 @@
 <reference anchor="I-D.irtf-cfrg-vrf" target="https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-vrf-12">
   <front>
     <title>Verifiable Random Functions (VRFs)</title>
-    <author fullname="Sharon Goldberg" initials="S." surname="Goldberg">
+    <seriesInfo name="Internet-Draft" value="draft-irtf-cfrg-vrf-12"/>
+    <author initials="S." surname="Goldberg" fullname="Sharon Goldberg">
       <organization>Boston University</organization>
     </author>
-    <author fullname="Leonid Reyzin" initials="L." surname="Reyzin">
+    <author initials="L." surname="Reyzin" fullname="Leonid Reyzin">
       <organization>Boston University and Algorand</organization>
     </author>
-    <author fullname="Dimitrios Papadopoulos" initials="D." surname="Papadopoulos">
+    <author initials="D." surname="Papadopoulos" fullname="Dimitrios Papadopoulos">
       <organization>Hong Kong University of Science and Technology</organization>
     </author>
-    <author fullname="Jan Včelák" initials="J." surname="Včelák">
+    <author initials="J." surname="Včelák" fullname="Jan Včelák">
       <organization>NS1</organization>
     </author>
-    <date year="2022" month="May" day="26"/>
+    <date day="26" month="May" year="2022"></date>
     <abstract>
-      <t>A Verifiable Random Function (VRF) is the public-key version of a keyed cryptographic hash. Only the holder of the private key can compute the hash, but anyone with the public key can verify the correctness of the hash. VRFs are useful for preventing enumeration of hash-based data structures. This document specifies several VRF constructions based on RSA and Elliptic Curves that are secure in the cryptographic random oracle model. This document is a product of the Crypto Forum Research Group (CFRG) in the IRTF.</t>
+      <t>   A Verifiable Random Function (VRF) is the public-key version of a
+   keyed cryptographic hash.  Only the holder of the private key can
+   compute the hash, but anyone with the public key can verify the
+   correctness of the hash.  VRFs are useful for preventing enumeration
+   of hash-based data structures.  This document specifies several VRF
+   constructions based on RSA and Elliptic Curves that are secure in the
+   cryptographic random oracle model.
+
+   This document is a product of the Crypto Forum Research Group (CFRG)
+   in the IRTF.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-irtf-cfrg-vrf-12"/>
 </reference>

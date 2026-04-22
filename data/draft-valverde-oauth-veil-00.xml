@@ -1,0 +1,25 @@
+<reference anchor="I-D.valverde-oauth-veil" target="https://datatracker.ietf.org/doc/html/draft-valverde-oauth-veil-00">
+  <front>
+    <title>VEIL: Verified Ephemeral Identity Layer for OAuth 2.1</title>
+    <seriesInfo name="Internet-Draft" value="draft-valverde-oauth-veil-00"/>
+    <author initials="G." surname="Valverde" fullname="Gustavo Valverde">
+      <organization>Zentity</organization>
+    </author>
+    <date day="18" month="April" year="2026"></date>
+    <abstract>
+      <t>   VEIL (Verified Ephemeral Identity Layer) is a security profile of
+   OAuth 2.1 for privacy-preserving identity verification.  It separates
+   claims into two tracks: proof claims (boolean verification results,
+   compliance flags, assurance levels) travel through standard token
+   claims, while identity claims (name, date of birth, address,
+   nationality) travel only through an ephemeral, single-consume channel
+   that keeps personally identifiable information off long-lived tokens.
+   Subject identifiers are pairwise by default.  Consent records are
+   HMAC-protected.  Step-up authentication scales with operation
+   sensitivity.  VEIL is the base profile for domain-specific
+   extensions.
+
+	 </t>
+    </abstract>
+  </front>
+</reference>

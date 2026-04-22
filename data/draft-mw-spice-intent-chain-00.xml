@@ -1,22 +1,39 @@
 <reference anchor="I-D.mw-spice-intent-chain" target="https://datatracker.ietf.org/doc/html/draft-mw-spice-intent-chain-00">
   <front>
     <title>Cryptographically Verifiable Intent Chain for AI Agent Content Provenance</title>
-    <author fullname="Ramki Krishnan" initials="R." surname="Krishnan">
+    <seriesInfo name="Internet-Draft" value="draft-mw-spice-intent-chain-00"/>
+    <author initials="R." surname="Krishnan" fullname="Ramki Krishnan">
       <organization>JPMorgan Chase &amp; Co</organization>
     </author>
-    <author fullname="A Prasad" initials="A." surname="Prasad">
+    <author initials="A." surname="Prasad" fullname="A Prasad">
       <organization>Oracle</organization>
     </author>
-    <author fullname="Diego Lopez" initials="D." surname="Lopez">
+    <author initials="D." surname="Lopez" fullname="Diego Lopez">
       <organization>Telefonica</organization>
     </author>
-    <author fullname="Srinivasa Addepalli" initials="S." surname="Addepalli">
+    <author initials="S." surname="Addepalli" fullname="Srinivasa Addepalli">
       <organization>Aryaka</organization>
     </author>
-    <date year="2026" month="March" day="17"/>
+    <date day="17" month="March" year="2026"></date>
     <abstract>
-      <t>This document defines the intent_chain claim as a companion to the actor_chain claim defined in {{!I-D.draft-mw-spice-actor-chain}}. While the actor chain addresses delegation provenance (WHO delegated to whom), the intent chain addresses content provenance (WHAT was produced and HOW it was transformed). In AI agent workflows, content flows through multiple processing stages including AI agents and filters. The intent chain provides a cryptographically verifiable, tamper-evident record of this content journey. The full intent chain is stored as ordered logs, with only the Merkle root included in the OAuth token for efficiency. Together, the actor chain and intent chain provide complete governance for autonomous AI agent systems, addressing Spoofing, Tampering, Repudiation, and Elevation of Privilege threats in the STRIDE threat model.</t>
+      <t>   This document defines the intent_chain claim as a companion to the
+   actor_chain claim defined in {{!I-D.draft-mw-spice-actor-chain}}.
+   While the actor chain addresses delegation provenance (WHO delegated
+   to whom), the intent chain addresses content provenance (WHAT was
+   produced and HOW it was transformed).
+
+   In AI agent workflows, content flows through multiple processing
+   stages including AI agents and filters.  The intent chain provides a
+   cryptographically verifiable, tamper-evident record of this content
+   journey.  The full intent chain is stored as ordered logs, with only
+   the Merkle root included in the OAuth token for efficiency.
+
+   Together, the actor chain and intent chain provide complete
+   governance for autonomous AI agent systems, addressing Spoofing,
+   Tampering, Repudiation, and Elevation of Privilege threats in the
+   STRIDE threat model.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mw-spice-intent-chain-00"/>
 </reference>

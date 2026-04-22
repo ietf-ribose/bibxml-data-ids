@@ -1,13 +1,26 @@
 <reference anchor="I-D.watson-fecframe-raptor" target="https://datatracker.ietf.org/doc/html/draft-watson-fecframe-raptor-00">
   <front>
     <title>Raptor FEC Schemes for FECFRAME</title>
-    <author fullname="Mark Watson" initials="M." surname="Watson">
+    <seriesInfo name="Internet-Draft" value="draft-watson-fecframe-raptor-00"/>
+    <author initials="M." surname="Watson" fullname="Mark Watson">
       <organization>Digital Fountain</organization>
     </author>
-    <date year="2008" month="July" day="7"/>
+    <date day="07" month="July" year="2008"></date>
     <abstract>
-      <t>This document describes Fully-Specified Forward Error Correction (FEC) Schemes for the Raptor code and its application to reliable delivery of media streams in the context of FEC Framework. The Raptor code is a systematic code, where a number of repair symbols are generated from a set of source symbols and sent in one or more repair flows in addition to the source symbols that are sent to the receiver(s) within a source flow. The Raptor code offers a close to optimal protection against arbitrary packet losses at a low computational complexity. Two FEC Schemes are defined, one for protection of arbitrary packet flows and another for protection of a single flow that already contains a sequence number. Repair data may be sent over arbitrary datagram transport (e.g. UDP) or using RTP. An RTP Payload Type is defined for this latter case.</t>
+      <t>This document describes Fully-Specified Forward Error Correction
+(FEC) Schemes for the Raptor code and its application to reliable
+delivery of media streams in the context of FEC Framework.  The
+Raptor code is a systematic code, where a number of repair symbols
+are generated from a set of source symbols and sent in one or more
+repair flows in addition to the source symbols that are sent to the
+receiver(s) within a source flow.  The Raptor code offers a close to
+optimal protection against arbitrary packet losses at a low
+computational complexity.  Two FEC Schemes are defined, one for
+protection of arbitrary packet flows and another for protection of a
+single flow that already contains a sequence number.  Repair data may
+be sent over arbitrary datagram transport (e.g.  UDP) or using RTP.
+An RTP Payload Type is defined for this latter case.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-watson-fecframe-raptor-00"/>
 </reference>

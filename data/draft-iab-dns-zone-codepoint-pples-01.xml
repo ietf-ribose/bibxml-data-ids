@@ -1,22 +1,26 @@
 <reference anchor="I-D.iab-dns-zone-codepoint-pples" target="https://datatracker.ietf.org/doc/html/draft-iab-dns-zone-codepoint-pples-01">
   <front>
     <title>Principles for Unicode Code Point Inclusion in Labels in the DNS</title>
-    <author fullname="Andrew Sullivan" initials="A." surname="Sullivan">
-      <organization/>
-    </author>
-    <author fullname="Dave Thaler" initials="D." surname="Thaler">
-      <organization/>
-    </author>
-    <author fullname="Dr. John C. Klensin" initials="J. C." surname="Klensin">
-      <organization/>
-    </author>
-    <author fullname="Olaf Kolkman" initials="O." surname="Kolkman">
-      <organization/>
-    </author>
-    <date year="2012" month="December" day="4"/>
+    <seriesInfo name="Internet-Draft" value="draft-iab-dns-zone-codepoint-pples-01"/>
+    <author initials="A." surname="Sullivan" fullname="Andrew Sullivan"/>
+    <author initials="D." surname="Thaler" fullname="Dave Thaler"/>
+    <author initials="J. C." surname="Klensin" fullname="Dr. John C. Klensin"/>
+    <author initials="O." surname="Kolkman" fullname="Olaf Kolkman"/>
+    <date day="04" month="December" year="2012"></date>
     <abstract>
-      <t>IDNA makes available to DNS zone administrators a very wide range of Unicode code points. Most operators of zones should probably not permit registration of U-labels using the entire range. This is especially true of zones that accept registrations across organizational boundaries, such as top-level domains and, most importantly, the root. It is unfortunately not possible to generate algorithms to determine whether permitting a code point presents a low risk. This memo presents a set of principles that can be used to guide the decision of whether a Unicode code point may be wisely included in the repertoire of permissible code points in a U-label in a zone.</t>
+      <t>   IDNA makes available to DNS zone administrators a very wide range of
+   Unicode code points.  Most operators of zones should probably not
+   permit registration of U-labels using the entire range.  This is
+   especially true of zones that accept registrations across
+   organizational boundaries, such as top-level domains and, most
+   importantly, the root.  It is unfortunately not possible to generate
+   algorithms to determine whether permitting a code point presents a
+   low risk.  This memo presents a set of principles that can be used to
+   guide the decision of whether a Unicode code point may be wisely
+   included in the repertoire of permissible code points in a U-label in
+   a zone.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-iab-dns-zone-codepoint-pples-01"/>
 </reference>

@@ -1,13 +1,20 @@
 <reference anchor="I-D.drees-http-maxage-vary-cookie" target="https://datatracker.ietf.org/doc/html/draft-drees-http-maxage-vary-cookie-00">
   <front>
     <title>The maxage-vary-cookie HTTP Cache-Control Extension</title>
-    <author fullname="Ben Drees" initials="B." surname="Drees">
+    <seriesInfo name="Internet-Draft" value="draft-drees-http-maxage-vary-cookie-00"/>
+    <author initials="B." surname="Drees" fullname="Ben Drees">
       <organization>Metaweb Technologies</organization>
     </author>
-    <date year="2010" month="June" day="14"/>
+    <date day="14" month="June" year="2010"></date>
     <abstract>
-      <t>The maxage-vary-cookie HTTP response Cache-Control extension allows an origin server to instruct caches to serve a stale response if the Date header field-value received with the response is greater than a specified date-valued request cookie. It can be used to implement a simple view consistency mechanism for read/write applications while extending freshness lifetimes, reducing latency, bandwidth usage, and origin server load in some situations.</t>
+      <t>The maxage-vary-cookie HTTP response Cache-Control extension allows
+an origin server to instruct caches to serve a stale response if the
+Date header field-value received with the response is greater than a
+specified date-valued request cookie.  It can be used to implement a
+simple view consistency mechanism for read/write applications while
+extending freshness lifetimes, reducing latency, bandwidth usage, and
+origin server load in some situations.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-drees-http-maxage-vary-cookie-00"/>
 </reference>

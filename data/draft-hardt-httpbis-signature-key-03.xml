@@ -1,16 +1,27 @@
 <reference anchor="I-D.hardt-httpbis-signature-key" target="https://datatracker.ietf.org/doc/html/draft-hardt-httpbis-signature-key-03">
   <front>
     <title>HTTP Signature-Key Header</title>
-    <author fullname="Dick Hardt" initials="D." surname="Hardt">
+    <seriesInfo name="Internet-Draft" value="draft-hardt-httpbis-signature-key-03"/>
+    <author initials="D." surname="Hardt" fullname="Dick Hardt">
       <organization>Hellō</organization>
     </author>
-    <author fullname="Thibault Meunier" initials="T." surname="Meunier">
+    <author initials="T." surname="Meunier" fullname="Thibault Meunier">
       <organization>Cloudflare</organization>
     </author>
-    <date year="2026" month="April" day="4"/>
+    <date day="04" month="April" year="2026"></date>
     <abstract>
-      <t>This document defines the Signature-Key HTTP header field for distributing public keys used to verify HTTP Message Signatures as defined in RFC 9421. Five initial key distribution schemes are defined: pseudonymous inline keys (hwk), self-issued key delegation via JWK Thumbprint JWTs (jkt-jwt), identified signers with JWKS URI discovery (jwks_uri), JWT-based delegation (jwt), and X.509 certificate chains (x509). These schemes enable flexible trust models ranging from privacy-preserving pseudonymous verification to PKI-based identity chains and horizontally-scalable delegated authentication.</t>
+      <t>   This document defines the Signature-Key HTTP header field for
+   distributing public keys used to verify HTTP Message Signatures as
+   defined in RFC 9421.  Five initial key distribution schemes are
+   defined: pseudonymous inline keys (hwk), self-issued key delegation
+   via JWK Thumbprint JWTs (jkt-jwt), identified signers with JWKS URI
+   discovery (jwks_uri), JWT-based delegation (jwt), and X.509
+   certificate chains (x509).  These schemes enable flexible trust
+   models ranging from privacy-preserving pseudonymous verification to
+   PKI-based identity chains and horizontally-scalable delegated
+   authentication.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hardt-httpbis-signature-key-03"/>
 </reference>

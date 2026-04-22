@@ -1,19 +1,33 @@
 <reference anchor="I-D.wing-dnsop-dnsodtls" target="https://datatracker.ietf.org/doc/html/draft-wing-dnsop-dnsodtls-01">
   <front>
     <title>DNS over DTLS (DNSoD)</title>
-    <author fullname="Tirumaleswar Reddy.K" initials="T." surname="Reddy.K">
+    <seriesInfo name="Internet-Draft" value="draft-wing-dnsop-dnsodtls-01"/>
+    <author initials="T." surname="Reddy.K" fullname="Tirumaleswar Reddy.K">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Dan Wing" initials="D." surname="Wing">
+    <author initials="D." surname="Wing" fullname="Dan Wing">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Prashanth Patil" initials="P." surname="Patil">
+    <author initials="P." surname="Patil" fullname="Prashanth Patil">
       <organization>Cisco</organization>
     </author>
-    <date year="2014" month="July" day="4"/>
+    <date day="04" month="July" year="2014"></date>
     <abstract>
-      <t>DNS queries and responses are visible to network elements on the path between the DNS client and its server. These queries and responses can contain privacy-sensitive information which is valuable to protect. An active attacker can send bogus responses causing misdirection of the subsequent connection. To counter passive listening and active attacks, this document proposes the use of Datagram Transport Layer Security (DTLS) for DNS, to protect against passive listeners and certain active attacks. As DNS needs to remain fast, this proposal also discusses mechanisms to reduce DTLS round trips and reduce DTLS handshake size. The proposed mechanism runs over the default DNS port and can also run over an alternate port.</t>
+      <t>   DNS queries and responses are visible to network elements on the path
+   between the DNS client and its server.  These queries and responses
+   can contain privacy-sensitive information which is valuable to
+   protect.  An active attacker can send bogus responses causing
+   misdirection of the subsequent connection.
+
+   To counter passive listening and active attacks, this document
+   proposes the use of Datagram Transport Layer Security (DTLS) for DNS,
+   to protect against passive listeners and certain active attacks.  As
+   DNS needs to remain fast, this proposal also discusses mechanisms to
+   reduce DTLS round trips and reduce DTLS handshake size.  The proposed
+   mechanism runs over the default DNS port and can also run over an
+   alternate port.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wing-dnsop-dnsodtls-01"/>
 </reference>

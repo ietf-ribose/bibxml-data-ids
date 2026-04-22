@@ -1,25 +1,44 @@
 <reference anchor="I-D.yan-iba-routing-security-requirements" target="https://datatracker.ietf.org/doc/html/draft-yan-iba-routing-security-requirements-01">
   <front>
     <title>Security Requirements for Intent-based Agent Routing</title>
-    <author fullname="严豫" initials="Y." surname="严豫">
+    <seriesInfo name="Internet-Draft" value="draft-yan-iba-routing-security-requirements-01"/>
+    <author initials="Y." surname="严豫" fullname="严豫">
       <organization>Institute of Computing Technology, Chinese Academy of Sciences</organization>
     </author>
-    <author fullname="ShengSun" initials="" surname="ShengSun">
+    <author surname="ShengSun" fullname="ShengSun">
       <organization>Institute of Computing Technology, Chinese Academy of Sciences</organization>
     </author>
-    <author fullname="Qiangzhou Gao" initials="Q." surname="Gao">
+    <author initials="Q." surname="Gao" fullname="Qiangzhou Gao">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Liu Min" initials="L." surname="Min">
+    <author initials="L." surname="Min" fullname="Liu Min">
       <organization>Institute of Computing Technology, Chinese Academy of Sciences</organization>
     </author>
-    <author fullname="Xinyi Zhang" initials="X." surname="Zhang">
+    <author initials="X." surname="Zhang" fullname="Xinyi Zhang">
       <organization>Computer Network Information Center, Chinese Academy of Sciences</organization>
     </author>
-    <date year="2026" month="April" day="8"/>
+    <date day="08" month="April" year="2026"></date>
     <abstract>
-      <t>This document specifies security requirements for intent-based agent routing. It defines a security architecture, phase-specific attack surface analysis, and normative protections for the Registration, Resolution, and Dispatch phases of routing. It also describes a secure operational process and an annotated interaction flow for protecting routing decisions, intent privacy, and capability integrity. Intent-based routing enables autonomous agents to collaborate based on semantic intent rather than static addresses, but this model introduces new security risks beyond those addressed by traditional channel protection and endpoint authentication. Existing mechanisms such as Transport Layer Security (TLS) and Public Key Infrastructure (PKI) verify identity and protect transport, but do not constrain what an agent claims to be capable of, nor do they protect the semantic content of intent queries during routing. This document establishes requirements to mitigate these risks and provides a comprehensive security framework for intent-based agent networks.</t>
+      <t>   This document specifies security requirements for intent-based agent
+   routing.  It defines a security architecture, phase-specific attack
+   surface analysis, and normative protections for the Registration,
+   Resolution, and Dispatch phases of routing.  It also describes a
+   secure operational process and an annotated interaction flow for
+   protecting routing decisions, intent privacy, and capability
+   integrity.
+
+   Intent-based routing enables autonomous agents to collaborate based
+   on semantic intent rather than static addresses, but this model
+   introduces new security risks beyond those addressed by traditional
+   channel protection and endpoint authentication.  Existing mechanisms
+   such as Transport Layer Security (TLS) and Public Key Infrastructure
+   (PKI) verify identity and protect transport, but do not constrain
+   what an agent claims to be capable of, nor do they protect the
+   semantic content of intent queries during routing.  This document
+   establishes requirements to mitigate these risks and provides a
+   comprehensive security framework for intent-based agent networks.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-yan-iba-routing-security-requirements-01"/>
 </reference>

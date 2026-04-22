@@ -1,13 +1,23 @@
 <reference anchor="I-D.roach-sip-herfp-avoidance" target="https://datatracker.ietf.org/doc/html/draft-roach-sip-herfp-avoidance-00">
   <front>
     <title>An Extension to Avoid the Occurance of HERFP</title>
-    <author fullname="Adam Roach" initials="A." surname="Roach">
+    <seriesInfo name="Internet-Draft" value="draft-roach-sip-herfp-avoidance-00"/>
+    <author initials="A." surname="Roach" fullname="Adam Roach">
       <organization>Estacado Systems</organization>
     </author>
-    <date year="2005" month="October" day="20"/>
+    <date day="20" month="October" year="2005"></date>
     <abstract>
-      <t>The processing of SIP reqeusts by certain types of proxies can lead to situations in which multiple non-sucessful responses are generated, only one of which is ultimately reported to the originator of the response. In many cases, these non-successful responses indicate conditions that can be addressed by the requestor, and then retried; therefore, the elision of them by proxies can lead to a decrease in the rechability of certain network entites. This document defines a mechanism that can be employed to avoid the dropping of such requests with minimal implementation complexity.</t>
+      <t>   The processing of SIP reqeusts by certain types of proxies can lead
+   to situations in which multiple non-sucessful responses are
+   generated, only one of which is ultimately reported to the originator
+   of the response.  In many cases, these non-successful responses
+   indicate conditions that can be addressed by the requestor, and then
+   retried; therefore, the elision of them by proxies can lead to a
+   decrease in the rechability of certain network entites.
+
+   This document defines a mechanism that can be employed to avoid the
+   dropping of such requests with minimal implementation complexity.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-roach-sip-herfp-avoidance-00"/>
 </reference>

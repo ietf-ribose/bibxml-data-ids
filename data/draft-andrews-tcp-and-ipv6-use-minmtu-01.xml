@@ -1,13 +1,21 @@
 <reference anchor="I-D.andrews-tcp-and-ipv6-use-minmtu" target="https://datatracker.ietf.org/doc/html/draft-andrews-tcp-and-ipv6-use-minmtu-01">
   <front>
     <title>TCP Fails To Respect IPV6_USE_MIN_MTU</title>
-    <author fullname="Mark P. Andrews" initials="M. P." surname="Andrews">
-      <organization/>
-    </author>
-    <date year="2015" month="October" day="16"/>
+    <seriesInfo name="Internet-Draft" value="draft-andrews-tcp-and-ipv6-use-minmtu-01"/>
+    <author initials="M. P." surname="Andrews" fullname="Mark P. Andrews"/>
+    <date day="16" month="October" year="2015"></date>
     <abstract>
-      <t>The IPV6_USE_MIN_MTU [RFC3542], Section 11.1, socket option directs the IP layer to limit the IPv6 packet size to the minimum required supported MTU from the base IPv6 specification [RFC2460], i.e. 1280 bytes. Many implementations of TCP running over IPv6 neglect to check the IPV6_USE_MIN_MTU value when performing MSS negotiation and when constructing a TCP segment. This leads to oversized IPv6 packets being sent resulting in unintended Path Maximum Transport Unit Discovery (PMTUD) [RFC1191] being performed and to fragmented IPv6 packets being sent.</t>
+      <t>   The IPV6_USE_MIN_MTU [RFC3542], Section 11.1, socket option directs
+   the IP layer to limit the IPv6 packet size to the minimum required
+   supported MTU from the base IPv6 specification [RFC2460], i.e. 1280
+   bytes.  Many implementations of TCP running over IPv6 neglect to
+   check the IPV6_USE_MIN_MTU value when performing MSS negotiation and
+   when constructing a TCP segment.  This leads to oversized IPv6
+   packets being sent resulting in unintended Path Maximum Transport
+   Unit Discovery (PMTUD) [RFC1191] being performed and to fragmented
+   IPv6 packets being sent.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-andrews-tcp-and-ipv6-use-minmtu-01"/>
 </reference>

@@ -1,16 +1,28 @@
 <reference anchor="I-D.huitema-multi6-hosts" target="https://datatracker.ietf.org/doc/html/draft-huitema-multi6-hosts-03">
   <front>
     <title>Host-Centric IPv6 Multihoming</title>
-    <author fullname="Christian Huitema" initials="C." surname="Huitema">
+    <seriesInfo name="Internet-Draft" value="draft-huitema-multi6-hosts-03"/>
+    <author initials="C." surname="Huitema" fullname="Christian Huitema">
       <organization>Microsoft</organization>
     </author>
-    <author fullname="Richard P. Draves" initials="R. P." surname="Draves">
+    <author initials="R. P." surname="Draves" fullname="Richard P. Draves">
       <organization>Microsoft</organization>
     </author>
-    <date year="2004" month="February" day="11"/>
+    <date day="11" month="February" year="2004"></date>
     <abstract>
-      <t>A way to solve the issue of site multihoming is to have a separate site prefix for each connection of the site, and to derive as many addresses for each hosts. This approach to multi-homing, which we call Host-Centric IPv6 Multihoming, has the advantage of minimal impact on the inter-domain routing fabric, since each site prefix can be aggregated within the larger prefix of a specific provider; however, it opens a number of issues, which we will discuss in this memo, including the problem created by the interaction between ingress filtering and multihoming, which we analyze in detail. We then propose a set of specific solutions that enable host centric multihoming, and we review how these solutions meet the requirements of IPv6 site multihoming.</t>
+      <t>A way to solve the issue of site multihoming is to have a separate
+site prefix for each connection of the site, and to derive as many
+addresses for each hosts. This approach to multi-homing, which we
+call Host-Centric IPv6 Multihoming, has the advantage of minimal
+impact on the inter-domain routing fabric, since each site prefix can
+be aggregated within the larger prefix of a specific provider;
+however, it opens a number of issues, which we will discuss in this
+memo, including the problem created by the interaction between
+ingress filtering and multihoming, which we analyze in detail. We
+then propose a set of specific solutions that enable host centric
+multihoming, and we review how these solutions meet the requirements
+of IPv6 site multihoming.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-huitema-multi6-hosts-03"/>
 </reference>

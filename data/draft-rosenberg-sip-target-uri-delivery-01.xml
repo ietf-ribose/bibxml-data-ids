@@ -1,19 +1,28 @@
 <reference anchor="I-D.rosenberg-sip-target-uri-delivery" target="https://datatracker.ietf.org/doc/html/draft-rosenberg-sip-target-uri-delivery-01">
   <front>
     <title>Delivery of Request-URI Targets to User Agents</title>
-    <author fullname="Christer Holmberg" initials="C." surname="Holmberg">
+    <seriesInfo name="Internet-Draft" value="draft-rosenberg-sip-target-uri-delivery-01"/>
+    <author initials="C." surname="Holmberg" fullname="Christer Holmberg">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Jonathan Rosenberg" initials="J." surname="Rosenberg">
+    <author initials="J." surname="Rosenberg" fullname="Jonathan Rosenberg">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Shida Schubert" initials="S." surname="Schubert">
+    <author initials="S." surname="Schubert" fullname="Shida Schubert">
       <organization>NTT</organization>
     </author>
-    <date year="2009" month="March" day="9"/>
+    <date day="09" month="March" year="2009"></date>
     <abstract>
-      <t>When a Session Initiation Protocol (SIP) proxy receives a request targeted at a URI identifying a user or resource it is responsible for, the proxy translates the URI to a registered or configured contact URI of an agent representing that user or resource. In the process, the original URI is removed from the request. Numerous use cases have arisen which require this information to be delivered to the user agent. This document describes these use cases and defines an extension to the History-Info header field which allows it to be used to support those cases.</t>
+      <t>When a Session Initiation Protocol (SIP) proxy receives a request
+   targeted at a URI identifying a user or resource it is responsible
+   for, the proxy translates the URI to a registered or configured
+   contact URI of an agent representing that user or resource.  In the
+   process, the original URI is removed from the request.  Numerous use
+   cases have arisen which require this information to be delivered to
+   the user agent.  This document describes these use cases and defines
+   an extension to the History-Info header field which allows it to be
+   used to support those cases.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-rosenberg-sip-target-uri-delivery-01"/>
 </reference>

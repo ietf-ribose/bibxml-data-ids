@@ -1,13 +1,26 @@
 <reference anchor="I-D.mglt-6lo-diet-esp-context-ikev2-extension" target="https://datatracker.ietf.org/doc/html/draft-mglt-6lo-diet-esp-context-ikev2-extension-02">
   <front>
     <title>Diet-ESP Context IKEv2 Extension</title>
-    <author fullname="Daniel Migault" initials="D." surname="Migault">
+    <seriesInfo name="Internet-Draft" value="draft-mglt-6lo-diet-esp-context-ikev2-extension-02"/>
+    <author initials="D." surname="Migault" fullname="Daniel Migault">
       <organization>Ericsson</organization>
     </author>
-    <date year="2015" month="February" day="16"/>
+    <date day="16" month="February" year="2015"></date>
     <abstract>
-      <t>Diet-ESP has been designed for IoT to limit the IPsec ESP overhead in each IPsec packet. Diet-ESP is based on the standard IPsec ESP, and needs that peers agree on a Diet-ESP Context that defines how standard ESP packets can be compressed before being sent over the wire. Standard IPsec ESP can be agreed between peers using IKEv2. However, current IKEv2 does not make possible to negotiate a Diet-ESP Context, and thus to negotiate a Diet-ESP communication. This draft defines an extension for IKEv2 so peers can agree the Diet-ESP Context, and thus negotiate a Diet-ESP association.</t>
+      <t>   Diet-ESP has been designed for IoT to limit the IPsec ESP overhead in
+   each IPsec packet.  Diet-ESP is based on the standard IPsec ESP, and
+   needs that peers agree on a Diet-ESP Context that defines how
+   standard ESP packets can be compressed before being sent over the
+   wire.
+
+   Standard IPsec ESP can be agreed between peers using IKEv2.  However,
+   current IKEv2 does not make possible to negotiate a Diet-ESP Context,
+   and thus to negotiate a Diet-ESP communication.
+
+   This draft defines an extension for IKEv2 so peers can agree the
+   Diet-ESP Context, and thus negotiate a Diet-ESP association.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mglt-6lo-diet-esp-context-ikev2-extension-02"/>
 </reference>

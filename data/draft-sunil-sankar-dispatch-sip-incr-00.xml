@@ -1,13 +1,21 @@
 <reference anchor="I-D.sunil-sankar-dispatch-sip-incr" target="https://datatracker.ietf.org/doc/html/draft-sunil-sankar-dispatch-sip-incr-00">
   <front>
     <title>Only Incremented header transmitted in Session Initiation Protocol (SIP)</title>
-    <author fullname="Sunil Kumar Sinha" initials="S. K." surname="Sinha">
+    <seriesInfo name="Internet-Draft" value="draft-sunil-sankar-dispatch-sip-incr-00"/>
+    <author initials="S. K." surname="Sinha" fullname="Sunil Kumar Sinha">
       <organization>Cisco</organization>
     </author>
-    <date year="2016" month="June" day="2"/>
+    <date day="02" month="June" year="2016"></date>
     <abstract>
-      <t>This document outlines a new optional tag called "incr" as an extension for the SIP Message indicating that only those header(s) will be present in the subsequent request or response whose attribute is changed. This is necessary to increase the processing speed of any proxy server and also prevents fragmentation of messages over UDP and provides congestion control for larger messages in the Session Initiation Protocol.</t>
+      <t>   This document outlines a new optional tag called "incr" as an
+   extension for the SIP Message indicating that only those header(s)
+   will be present in the subsequent request or response whose attribute
+   is changed. This is necessary to increase the processing speed of any
+   proxy server and also prevents fragmentation of messages over UDP and
+   provides congestion control for larger messages in the Session
+   Initiation Protocol.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sunil-sankar-dispatch-sip-incr-00"/>
 </reference>

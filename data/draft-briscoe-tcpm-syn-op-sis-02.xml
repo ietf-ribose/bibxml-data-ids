@@ -1,13 +1,23 @@
 <reference anchor="I-D.briscoe-tcpm-syn-op-sis" target="https://datatracker.ietf.org/doc/html/draft-briscoe-tcpm-syn-op-sis-02">
   <front>
     <title>Extended TCP Option Space in the Payload of an Alternative SYN</title>
-    <author fullname="Bob Briscoe" initials="B." surname="Briscoe">
-      <organization/>
-    </author>
-    <date year="2014" month="September" day="22"/>
+    <seriesInfo name="Internet-Draft" value="draft-briscoe-tcpm-syn-op-sis-02"/>
+    <author initials="B." surname="Briscoe" fullname="Bob Briscoe"/>
+    <date day="22" month="September" year="2014"></date>
     <abstract>
-      <t>This document describes an experimental method to extend the option space for connection parameters within the initial TCP SYN segment at the start of a TCP connection. In this method the TCP client sends two alternative SYNs: one intended for legacy servers and one intended for upgraded servers. Once it establishes which type of server has responded, it continues the connection appropriate to that server type and aborts the other. The SYN intended for upgraded servers includes additional options at the end of the payload. It is designed to traverse all known middleboxes. In the longer term, clients will be able to send only the SYN intended for upgraded servers.</t>
+      <t>   This document describes an experimental method to extend the option
+   space for connection parameters within the initial TCP SYN segment at
+   the start of a TCP connection.  In this method the TCP client sends
+   two alternative SYNs: one intended for legacy servers and one
+   intended for upgraded servers.  Once it establishes which type of
+   server has responded, it continues the connection appropriate to that
+   server type and aborts the other.  The SYN intended for upgraded
+   servers includes additional options at the end of the payload.  It is
+   designed to traverse all known middleboxes.  In the longer term,
+   clients will be able to send only the SYN intended for upgraded
+   servers.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-briscoe-tcpm-syn-op-sis-02"/>
 </reference>

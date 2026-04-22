@@ -1,16 +1,29 @@
 <reference anchor="I-D.ietf-idmr-gum" target="https://datatracker.ietf.org/doc/html/draft-ietf-idmr-gum-04">
   <front>
     <title>Border Gateway Multicast Protocol (BGMP): Protocol Specification</title>
-    <author fullname="Dr. Deborah Estrin" initials="D." surname="Estrin">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idmr-gum-04"/>
+    <author initials="D." surname="Estrin" fullname="Dr. Deborah Estrin">
       <organization>USC/ISI</organization>
     </author>
-    <author fullname="Dave Thaler" initials="D." surname="Thaler">
+    <author initials="D." surname="Thaler" fullname="Dave Thaler">
       <organization>USC/ISI</organization>
     </author>
-    <date year="1998" month="November" day="20"/>
+    <date day="20" month="November" year="1998"></date>
     <abstract>
-      <t>This document describes BGMP, a protocol for inter-domain multicast routing. BGMP builds shared trees for active multicast groups, and allows receiver domains to build source-specific, inter-domain, distribution branches where needed. Building upon concepts from CBT and PIM-SM, BGMP requires that each multicast group be associated with a single root (in BGMP it is referred to as the root domain). BGMP assumes that at any point in time, different ranges of the class D space are associated (e.g., with MASC [MASC]) with different domains. Each of these domains then becomes the root of the shared domain-trees for all groups in its range. Multicast participants will generally receive better multicast service if the session initiator's address allocator selects addresses from its own domain's part of the space, thereby</t>
+      <t>This document describes BGMP, a protocol for inter-domain multicast
+routing. BGMP builds shared trees for active multicast groups, and
+allows receiver domains to build source-specific, inter-domain,
+distribution branches where needed. Building upon concepts from CBT and
+PIM-SM, BGMP requires that each multicast group be associated with a
+single root (in BGMP it is referred to as the root domain).  BGMP
+assumes that at any point in time, different ranges of the class D space
+are associated (e.g., with MASC [MASC]) with different domains.  Each of
+these domains then becomes the root of the shared domain-trees for all
+groups in its range.  Multicast participants will generally receive
+better multicast service if the session initiator's address allocator
+selects addresses from its own domain's part of the space, thereby
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-idmr-gum-04"/>
 </reference>

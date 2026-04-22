@@ -1,16 +1,24 @@
 <reference anchor="I-D.denis-icmpv6-generation-for-teredo" target="https://datatracker.ietf.org/doc/html/draft-denis-icmpv6-generation-for-teredo-01">
   <front>
     <title>Generation of ICMPv6 Echo Replies for Teredo Clients</title>
-    <author fullname="Teemu Savolainen" initials="T." surname="Savolainen">
+    <seriesInfo name="Internet-Draft" value="draft-denis-icmpv6-generation-for-teredo-01"/>
+    <author initials="T." surname="Savolainen" fullname="Teemu Savolainen">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Remi Denis-Courmont" initials="R." surname="Denis-Courmont">
+    <author initials="R." surname="Denis-Courmont" fullname="Remi Denis-Courmont">
       <organization>Nokia</organization>
     </author>
-    <date year="2009" month="September" day="16"/>
+    <date day="16" month="September" year="2009"></date>
     <abstract>
-      <t>Teredo uses return routing to discover the closest Teredo relay corresponding to any given peer. Discovery is achieved by sending an ICMPv6 Echo Request and waiting for the appropriate relay to forward the ICMPv6 Echo Reply back. Unanswered ICMPv6 Echo Requests make Teredo clients assume that the peer is unreachable. This document identifies two scenarios where a stateful middlebox can detect the lack of ICMPv6 Echo Reply and craft one for the Teredo client in order to avoid possibly erroneous peer unreachability assumptions.</t>
+      <t>Teredo uses return routing to discover the closest Teredo relay
+corresponding to any given peer.  Discovery is achieved by sending an
+ICMPv6 Echo Request and waiting for the appropriate relay to forward
+the ICMPv6 Echo Reply back.  Unanswered ICMPv6 Echo Requests make
+Teredo clients assume that the peer is unreachable.  This document
+identifies two scenarios where a stateful middlebox can detect the
+lack of ICMPv6 Echo Reply and craft one for the Teredo client in
+order to avoid possibly erroneous peer unreachability assumptions.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-denis-icmpv6-generation-for-teredo-01"/>
 </reference>

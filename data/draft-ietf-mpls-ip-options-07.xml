@@ -1,22 +1,23 @@
 <reference anchor="I-D.ietf-mpls-ip-options" target="https://datatracker.ietf.org/doc/html/draft-ietf-mpls-ip-options-07">
   <front>
     <title>Label Edge Router Forwarding of IPv4 Option Packets</title>
-    <author fullname="Tom Scholl" initials="T." surname="Scholl">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-ip-options-07"/>
+    <author initials="T." surname="Scholl" fullname="Tom Scholl">
       <organization>nLayer Communications</organization>
     </author>
-    <author fullname="John Mullooly" initials="J." surname="Mullooly">
+    <author initials="J." surname="Mullooly" fullname="John Mullooly">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="David Smith" initials="D." surname="Smith">
+    <author initials="D." surname="Smith" fullname="David Smith">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="William Jaeger" initials="W." surname="Jaeger">
+    <author initials="W." surname="Jaeger" fullname="William Jaeger">
       <organization>AT&amp;T</organization>
     </author>
-    <date year="2010" month="December" day="24"/>
+    <date day="24" month="December" year="2010"></date>
     <abstract>
-      <t>This document specifies how Label Edge Routers (LERs) should behave when determining whether to MPLS encapsulate an IPv4 packet with header options. Lack of a formal standard has resulted in different LER forwarding behaviors for IPv4 packets with header options despite being associated with a prefix-based Forwarding Equivalence Class (FEC). IPv4 option packets that belong to a prefix-based FEC, yet are forwarded into an IPv4/MPLS network without being MPLS- encapsulated, present a security risk against the MPLS infrastructure. Further, LERs that are unable to MPLS encapsulate IPv4 packets with header options cannot operate in certain MPLS environments. While this newly defined LER behavior is mandatory to implement, it is optional to invoke. [STANDARDS-TRACK]</t>
+      <t>This document specifies how Label Edge Routers (LERs) should behave when determining whether to MPLS encapsulate an IPv4 packet with header options.  Lack of a formal standard has resulted in different LER forwarding behaviors for IPv4 packets with header options despite being associated with a prefix-based Forwarding Equivalence Class (FEC).  IPv4 option packets that belong to a prefix-based FEC, yet are forwarded into an IPv4/MPLS network without being MPLS- encapsulated, present a security risk against the MPLS infrastructure.  Further, LERs that are unable to MPLS encapsulate IPv4 packets with header options cannot operate in certain MPLS environments.  While this newly defined LER behavior is mandatory to implement, it is optional to invoke. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-ip-options-07"/>
 </reference>

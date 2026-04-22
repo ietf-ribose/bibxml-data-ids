@@ -1,19 +1,27 @@
 <reference anchor="I-D.thomson-http-scd" target="https://datatracker.ietf.org/doc/html/draft-thomson-http-scd-02">
   <front>
     <title>An Architecture for Secure Content Delegation using HTTP</title>
-    <author fullname="Martin Thomson" initials="M." surname="Thomson">
+    <seriesInfo name="Internet-Draft" value="draft-thomson-http-scd-02"/>
+    <author initials="M." surname="Thomson" fullname="Martin Thomson">
       <organization>Mozilla</organization>
     </author>
-    <author fullname="Goran Eriksson" initials="G." surname="Eriksson">
+    <author initials="G." surname="Eriksson" fullname="Goran Eriksson">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Christer Holmberg" initials="C." surname="Holmberg">
+    <author initials="C." surname="Holmberg" fullname="Christer Holmberg">
       <organization>Ericsson</organization>
     </author>
-    <date year="2016" month="October" day="30"/>
+    <date day="30" month="October" year="2016"></date>
     <abstract>
-      <t>An architecture is described for content distribution using a secondary server that might be operated with reduced privileges. This architecture allows a primary server to delegate the responsibility for delivery of the payload of an HTTP response to a secondary server. The secondary server is unable to modify this content. The content is encrypted, which in some cases will prevent the secondary server from learning about the content.</t>
+      <t>   An architecture is described for content distribution using a
+   secondary server that might be operated with reduced privileges.
+   This architecture allows a primary server to delegate the
+   responsibility for delivery of the payload of an HTTP response to a
+   secondary server.  The secondary server is unable to modify this
+   content.  The content is encrypted, which in some cases will prevent
+   the secondary server from learning about the content.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-thomson-http-scd-02"/>
 </reference>

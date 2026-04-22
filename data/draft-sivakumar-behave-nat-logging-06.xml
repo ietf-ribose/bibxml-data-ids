@@ -1,16 +1,30 @@
 <reference anchor="I-D.sivakumar-behave-nat-logging" target="https://datatracker.ietf.org/doc/html/draft-sivakumar-behave-nat-logging-06">
   <front>
     <title>IPFIX Information Elements for logging NAT Events</title>
-    <author fullname="Senthil Sivakumar" initials="S." surname="Sivakumar">
+    <seriesInfo name="Internet-Draft" value="draft-sivakumar-behave-nat-logging-06"/>
+    <author initials="S." surname="Sivakumar" fullname="Senthil Sivakumar">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Reinaldo Penno" initials="R." surname="Penno">
+    <author initials="R." surname="Penno" fullname="Reinaldo Penno">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2013" month="January" day="14"/>
+    <date day="14" month="January" year="2013"></date>
     <abstract>
-      <t>NAT devices are required to log events like creation and deletion of translations and information about the resources it is managing. With the wide deployment of Carrier Grade NAT (CGN) devices, the logging of events have become very important for legal purposes. The logs are required in many cases to identify an attacker or a host that was used to launch malicious attacks and/or for various other purposes of accounting. Since there is no standard way of logging this information, different NAT devices behave differently and hence it is difficult to expect a consistent behavior. The lack of a consistent way makes it difficult to write the collector applications that would receive this data and process it to present useful information. This document describes the information that is required to be logged by the NAT devices.</t>
+      <t>   NAT devices are required to log events like creation and deletion of
+   translations and information about the resources it is managing.
+   With the wide deployment of Carrier Grade NAT (CGN) devices, the
+   logging of events have become very important for legal purposes.  The
+   logs are required in many cases to identify an attacker or a host
+   that was used to launch malicious attacks and/or for various other
+   purposes of accounting.  Since there is no standard way of logging
+   this information, different NAT devices behave differently and hence
+   it is difficult to expect a consistent behavior.  The lack of a
+   consistent way makes it difficult to write the collector applications
+   that would receive this data and process it to present useful
+   information.  This document describes the information that is
+   required to be logged by the NAT devices.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sivakumar-behave-nat-logging-06"/>
 </reference>

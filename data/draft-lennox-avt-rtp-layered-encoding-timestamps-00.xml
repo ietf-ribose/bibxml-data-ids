@@ -1,19 +1,32 @@
 <reference anchor="I-D.lennox-avt-rtp-layered-encoding-timestamps" target="https://datatracker.ietf.org/doc/html/draft-lennox-avt-rtp-layered-encoding-timestamps-00">
   <front>
     <title>Real-Time Transport Protocol (RTP) Timestamps for Layered Encodings</title>
-    <author fullname="Jonathan Lennox" initials="J." surname="Lennox">
+    <seriesInfo name="Internet-Draft" value="draft-lennox-avt-rtp-layered-encoding-timestamps-00"/>
+    <author initials="J." surname="Lennox" fullname="Jonathan Lennox">
       <organization>Vidyo</organization>
     </author>
-    <author fullname="Thomas Schierl" initials="T." surname="Schierl">
+    <author initials="T." surname="Schierl" fullname="Thomas Schierl">
       <organization>Fraunhofer HHI</organization>
     </author>
-    <author fullname="Sam Ganesan" initials="S." surname="Ganesan">
+    <author initials="S." surname="Ganesan" fullname="Sam Ganesan">
       <organization>Motorola</organization>
     </author>
-    <date year="2008" month="June" day="2"/>
+    <date day="02" month="June" year="2008"></date>
     <abstract>
-      <t>The Real-Time Transport Protocol (RTP) specification defines how layered encodings can be sent over a layered transmission system. A source can stripe the progressive layers of a hierarchically represented signal across multiple RTP sessions, each carried on, for example, its own multicast group. These layered encodings are given special treatment in RTP, notably in that the same synchronization source (SSRC) identifier space is used across the sessions of all layers. The RTP protocol specification does not, however, explicitly state how RTP timestamps are to be used with layered encodings. This document updates the RTP specification to require that RTP timestamps for layered encodings be synchronized, i.e. that every layer chooses the same random initial value for the timestamp.</t>
+      <t>The Real-Time Transport Protocol (RTP) specification defines how
+layered encodings can be sent over a layered transmission system.  A
+source can stripe the progressive layers of a hierarchically
+represented signal across multiple RTP sessions, each carried on, for
+example, its own multicast group.  These layered encodings are given
+special treatment in RTP, notably in that the same synchronization
+source (SSRC) identifier space is used across the sessions of all
+layers.
+The RTP protocol specification does not, however, explicitly state
+how RTP timestamps are to be used with layered encodings.  This
+document updates the RTP specification to require that RTP timestamps
+for layered encodings be synchronized, i.e. that every layer chooses
+the same random initial value for the timestamp.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-lennox-avt-rtp-layered-encoding-timestamps-00"/>
 </reference>

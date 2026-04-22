@@ -1,19 +1,34 @@
 <reference anchor="I-D.fossati-core-publish-option" target="https://datatracker.ietf.org/doc/html/draft-fossati-core-publish-option-03">
   <front>
     <title>Publish Option for CoAP</title>
-    <author fullname="Thomas Fossati" initials="T." surname="Fossati">
+    <seriesInfo name="Internet-Draft" value="draft-fossati-core-publish-option-03"/>
+    <author initials="T." surname="Fossati" fullname="Thomas Fossati">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <author fullname="Pierpaolo Giacomin" initials="P." surname="Giacomin">
+    <author initials="P." surname="Giacomin" fullname="Pierpaolo Giacomin">
       <organization>Freelance</organization>
     </author>
-    <author fullname="Salvatore Loreto" initials="S." surname="Loreto">
+    <author initials="S." surname="Loreto" fullname="Salvatore Loreto">
       <organization>Ericsson</organization>
     </author>
-    <date year="2014" month="January" day="6"/>
+    <date day="06" month="January" year="2014"></date>
     <abstract>
-      <t>This memo defines the Publish Option for the Constrained Application Protocol (CoAP). The Publish Option is used by a CoAP Endpoint to control the authority delegation of one of its resources to another Endpoint. All the phases of the authority delegation process (setup, renewal, cancellation) are controlled by a simple RESTful protocol. This memo also introduces the 'proxies' Web Linking relation type, to be used by a CoAP Proxy to explicitly advertise the resources that it can serve - either from its cache, or by forwarding the Client's request upstream. The Publish Option and the 'proxies' relation provide the building blocks for a comprehensive, in-protocol, solution to the sleepy/ intermittent Endpoint use case.</t>
+      <t>   This memo defines the Publish Option for the Constrained Application
+   Protocol (CoAP).  The Publish Option is used by a CoAP Endpoint to
+   control the authority delegation of one of its resources to another
+   Endpoint.  All the phases of the authority delegation process (setup,
+   renewal, cancellation) are controlled by a simple RESTful protocol.
+
+   This memo also introduces the 'proxies' Web Linking relation type, to
+   be used by a CoAP Proxy to explicitly advertise the resources that it
+   can serve - either from its cache, or by forwarding the Client's
+   request upstream.
+
+   The Publish Option and the 'proxies' relation provide the building
+   blocks for a comprehensive, in-protocol, solution to the sleepy/
+   intermittent Endpoint use case.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-fossati-core-publish-option-03"/>
 </reference>

@@ -1,31 +1,47 @@
 <reference anchor="I-D.xu-pce-sr-sfc" target="https://datatracker.ietf.org/doc/html/draft-xu-pce-sr-sfc-05">
   <front>
     <title>PCEP Extensions for Unifed Source Routing-based SFC</title>
-    <author fullname="Xiaohu Xu" initials="X." surname="Xu">
+    <seriesInfo name="Internet-Draft" value="draft-xu-pce-sr-sfc-05"/>
+    <author initials="X." surname="Xu" fullname="Xiaohu Xu">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Jianjie You" initials="J." surname="You">
-      <organization/>
-    </author>
-    <author fullname="Siva Sivabalan" initials="S." surname="Sivabalan">
+    <author initials="J." surname="You" fullname="Jianjie You"/>
+    <author initials="S." surname="Sivabalan" fullname="Siva Sivabalan">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Himanshu C. Shah" initials="H. C." surname="Shah">
+    <author initials="H. C." surname="Shah" fullname="Himanshu C. Shah">
       <organization>Ciena</organization>
     </author>
-    <author fullname="Luis M. Contreras" initials="L. M." surname="Contreras">
+    <author initials="L. M." surname="Contreras" fullname="Luis M. Contreras">
       <organization>Telefonica I+D</organization>
     </author>
-    <author fullname="Daniel Bernier" initials="D." surname="Bernier">
+    <author initials="D." surname="Bernier" fullname="Daniel Bernier">
       <organization>Bell Canada</organization>
     </author>
-    <author fullname="Shaowen Ma" initials="S." surname="Ma">
+    <author initials="S." surname="Ma" fullname="Shaowen Ma">
       <organization>Juniper</organization>
     </author>
-    <date year="2017" month="July" day="3"/>
+    <date day="03" month="July" year="2017"></date>
     <abstract>
-      <t>MPLS-SPRING (a.k.a., MPLS Segment Routing) could be leveraged to realize a unified source routing mechanism across MPLS, IPv4 and IPv6 data planes by using a unified source routing instruction set while preserving backward compatibility with MPLS-SPRING. More specifically, the source routing instruction set information contained in a source routed packet could be uniformly encoded as an MPLS label stack no matter the underlay is IPv4, IPv6 or MPLS. The unified source routing mechanism could be leveraged to realize a transport-independent service function chaining by encoding the service function path information or service function chain information as an MPLS label stack. This document describes extensions to the Path Computation Element Protocol (PCEP) that allow a PCE to compute and instantiate service function paths in the unifed source routing based service function chaining context. The extensions specified in this document are applicable to both the stateless PCE model and the stateful PCE model.</t>
+      <t>   MPLS-SPRING (a.k.a., MPLS Segment Routing) could be leveraged to
+   realize a unified source routing mechanism across MPLS, IPv4 and IPv6
+   data planes by using a unified source routing instruction set while
+   preserving backward compatibility with MPLS-SPRING.  More
+   specifically, the source routing instruction set information
+   contained in a source routed packet could be uniformly encoded as an
+   MPLS label stack no matter the underlay is IPv4, IPv6 or MPLS.  The
+   unified source routing mechanism could be leveraged to realize a
+   transport-independent service function chaining by encoding the
+   service function path information or service function chain
+   information as an MPLS label stack.  This document describes
+   extensions to the Path Computation Element Protocol (PCEP) that allow
+   a PCE to compute and instantiate service function paths in the unifed
+   source routing based service function chaining context.  The
+   extensions specified in this document are applicable to both the
+   stateless PCE model and the stateful PCE model.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-xu-pce-sr-sfc-05"/>
 </reference>

@@ -1,28 +1,38 @@
 <reference anchor="I-D.ietf-dprive-start-tls-for-dns" target="https://datatracker.ietf.org/doc/html/draft-ietf-dprive-start-tls-for-dns-01">
   <front>
     <title>TLS for DNS: Initiation and Performance Considerations</title>
-    <author fullname="Zi Hu" initials="Z." surname="Hu">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dprive-start-tls-for-dns-01"/>
+    <author initials="Z." surname="Hu" fullname="Zi Hu">
       <organization>USC/Information Sciences</organization>
     </author>
-    <author fullname="Liang Zhu" initials="L." surname="Zhu">
+    <author initials="L." surname="Zhu" fullname="Liang Zhu">
       <organization>USC/Information Sciences</organization>
     </author>
-    <author fullname="John Heidemann" initials="J." surname="Heidemann">
+    <author initials="J." surname="Heidemann" fullname="John Heidemann">
       <organization>USC/Information Sciences</organization>
     </author>
-    <author fullname="Allison Mankin" initials="A." surname="Mankin">
+    <author initials="A." surname="Mankin" fullname="Allison Mankin">
       <organization>Verisign Labs</organization>
     </author>
-    <author fullname="Duane Wessels" initials="D." surname="Wessels">
+    <author initials="D." surname="Wessels" fullname="Duane Wessels">
       <organization>Verisign Labs</organization>
     </author>
-    <author fullname="Paul E. Hoffman" initials="P. E." surname="Hoffman">
+    <author initials="P. E." surname="Hoffman" fullname="Paul E. Hoffman">
       <organization>ICANN</organization>
     </author>
-    <date year="2015" month="July" day="5"/>
+    <date day="05" month="July" year="2015"></date>
     <abstract>
-      <t>This document offers an approach to initiating TLS for DNS: use of a dedicated DNS-over-TLS port, and fallback to a mechanism for upgrading a DNS-over-TCP connection over the standard port (TCP/53) to a DNS-over-TLS connection. Encryption provided by TLS eliminates opportunities for eavesdropping on DNS queries in the network, such as discussed in RFC 7258. In addition it specifies two usage profiles for DNS-over-TLS. Finally, it provides advice on performance considerations to minimize overheads from using TCP and TLS with DNS, pertaining to both approaches.</t>
+      <t>   This document offers an approach to initiating TLS for DNS: use of a
+   dedicated DNS-over-TLS port, and fallback to a mechanism for
+   upgrading a DNS-over-TCP connection over the standard port (TCP/53)
+   to a DNS-over-TLS connection.  Encryption provided by TLS eliminates
+   opportunities for eavesdropping on DNS queries in the network, such
+   as discussed in RFC 7258.  In addition it specifies two usage
+   profiles for DNS-over-TLS.  Finally, it provides advice on
+   performance considerations to minimize overheads from using TCP and
+   TLS with DNS, pertaining to both approaches.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dprive-start-tls-for-dns-01"/>
 </reference>

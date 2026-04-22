@@ -1,16 +1,32 @@
 <reference anchor="I-D.hoffman-dns-over-https" target="https://datatracker.ietf.org/doc/html/draft-hoffman-dns-over-https-01">
   <front>
     <title>DNS Queries over HTTPS</title>
-    <author fullname="Paul E. Hoffman" initials="P. E." surname="Hoffman">
+    <seriesInfo name="Internet-Draft" value="draft-hoffman-dns-over-https-01"/>
+    <author initials="P. E." surname="Hoffman" fullname="Paul E. Hoffman">
       <organization>ICANN</organization>
     </author>
-    <author fullname="Patrick McManus" initials="P." surname="McManus">
+    <author initials="P." surname="McManus" fullname="Patrick McManus">
       <organization>Mozilla</organization>
     </author>
-    <date year="2017" month="June" day="6"/>
+    <date day="06" month="June" year="2017"></date>
     <abstract>
-      <t>DNS queries sometimes experience problems with end to end connectivity at times and places where HTTPS flows freely. HTTPS provides the most practical mechanism for reliable end to end communication. Its use of TLS provides integrity and confidentiality guarantees and its use of HTTP allows it to interoperate with proxies, firewalls, and authentication systems where required for transit. This document describes how to run DNS service over HTTP using https:// URIs. [ This paragraph is to be removed when this document is published as an RFC ] Comments on this draft can be sent to the DNS over HTTP mailing list at https://www.ietf.org/mailman/listinfo/dnsoverhttp.</t>
+      <t>   DNS queries sometimes experience problems with end to end
+   connectivity at times and places where HTTPS flows freely.
+
+   HTTPS provides the most practical mechanism for reliable end to end
+   communication.  Its use of TLS provides integrity and confidentiality
+   guarantees and its use of HTTP allows it to interoperate with
+   proxies, firewalls, and authentication systems where required for
+   transit.
+
+   This document describes how to run DNS service over HTTP using
+   https:// URIs.
+
+   [ This paragraph is to be removed when this document is published as
+   an RFC ] Comments on this draft can be sent to the DNS over HTTP
+   mailing list at https://www.ietf.org/mailman/listinfo/dnsoverhttp .
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hoffman-dns-over-https-01"/>
 </reference>

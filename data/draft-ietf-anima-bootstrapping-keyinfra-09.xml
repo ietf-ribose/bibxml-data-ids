@@ -1,25 +1,38 @@
 <reference anchor="I-D.ietf-anima-bootstrapping-keyinfra" target="https://datatracker.ietf.org/doc/html/draft-ietf-anima-bootstrapping-keyinfra-09">
   <front>
     <title>Bootstrapping Remote Secure Key Infrastructures (BRSKI)</title>
-    <author fullname="Max Pritikin" initials="M." surname="Pritikin">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-anima-bootstrapping-keyinfra-09"/>
+    <author initials="M." surname="Pritikin" fullname="Max Pritikin">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Michael Richardson" initials="M." surname="Richardson">
+    <author initials="M." surname="Richardson" fullname="Michael Richardson">
       <organization>Sandelman Software Works</organization>
     </author>
-    <author fullname="Michael H. Behringer" initials="M. H." surname="Behringer">
+    <author initials="M. H." surname="Behringer" fullname="Michael H. Behringer">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Steinthor Bjarnason" initials="S." surname="Bjarnason">
+    <author initials="S." surname="Bjarnason" fullname="Steinthor Bjarnason">
       <organization>Arbor Networks</organization>
     </author>
-    <author fullname="Kent Watsen" initials="K." surname="Watsen">
+    <author initials="K." surname="Watsen" fullname="Kent Watsen">
       <organization>Juniper Networks</organization>
     </author>
-    <date year="2017" month="October" day="30"/>
+    <date day="30" month="October" year="2017"></date>
     <abstract>
-      <t>This document specifies automated bootstrapping of a remote secure key infrastructure (BRSKI) using vendor installed X.509 certificate, in combination with a vendor's authorizing service, both online and offline. Bootstrapping a new device can occur using a routable address and a cloud service, or using only link-local connectivity, or on limited/disconnected networks. Support for lower security models, including devices with minimal identity, is described for legacy reasons but not encouraged. Bootstrapping is complete when the cryptographic identity of the new key infrastructure is successfully deployed to the device but the established secure connection can be used to deploy a locally issued certificate to the device as well.</t>
+      <t>   This document specifies automated bootstrapping of a remote secure
+   key infrastructure (BRSKI) using vendor installed X.509 certificate,
+   in combination with a vendor's authorizing service, both online and
+   offline.  Bootstrapping a new device can occur using a routable
+   address and a cloud service, or using only link-local connectivity,
+   or on limited/disconnected networks.  Support for lower security
+   models, including devices with minimal identity, is described for
+   legacy reasons but not encouraged.  Bootstrapping is complete when
+   the cryptographic identity of the new key infrastructure is
+   successfully deployed to the device but the established secure
+   connection can be used to deploy a locally issued certificate to the
+   device as well.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-anima-bootstrapping-keyinfra-09"/>
 </reference>

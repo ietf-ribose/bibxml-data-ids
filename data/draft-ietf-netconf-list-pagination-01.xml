@@ -1,25 +1,37 @@
 <reference anchor="I-D.ietf-netconf-list-pagination" target="https://datatracker.ietf.org/doc/html/draft-ietf-netconf-list-pagination-01">
   <front>
     <title>List Pagination for YANG-driven Protocols</title>
-    <author fullname="Kent Watsen" initials="K." surname="Watsen">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-netconf-list-pagination-01"/>
+    <author initials="K." surname="Watsen" fullname="Kent Watsen">
       <organization>Watsen Networks</organization>
     </author>
-    <author fullname="Qin Wu" initials="Q." surname="Wu">
+    <author initials="Q." surname="Wu" fullname="Qin Wu">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Olof Hagsand" initials="O." surname="Hagsand">
+    <author initials="O." surname="Hagsand" fullname="Olof Hagsand">
       <organization>Netgate</organization>
     </author>
-    <author fullname="Hongwei Li" initials="H." surname="Li">
+    <author initials="H." surname="Li" fullname="Hongwei Li">
       <organization>Hewlett Packard Enterprise</organization>
     </author>
-    <author fullname="Per Andersson" initials="P." surname="Andersson">
+    <author initials="P." surname="Andersson" fullname="Per Andersson">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2023" month="March" day="11"/>
+    <date day="11" month="March" year="2023"></date>
     <abstract>
-      <t>In some circumstances, instances of YANG modeled "list" and "leaf- list" nodes may contain numerous entries. Retrieval of all the entries can lead to inefficiencies in the server, the client, and the network in between. This document defines a model for list pagination that can be implemented by YANG-driven management protocols such as NETCONF and RESTCONF. The model supports paging over optionally filtered and/or sorted entries. The solution additionally enables servers to constrain query expressions on some "config false" lists or leaf- lists.</t>
+      <t>   In some circumstances, instances of YANG modeled "list" and "leaf-
+   list" nodes may contain numerous entries.  Retrieval of all the
+   entries can lead to inefficiencies in the server, the client, and the
+   network in between.
+
+   This document defines a model for list pagination that can be
+   implemented by YANG-driven management protocols such as NETCONF and
+   RESTCONF.  The model supports paging over optionally filtered and/or
+   sorted entries.  The solution additionally enables servers to
+   constrain query expressions on some "config false" lists or leaf-
+   lists.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-netconf-list-pagination-01"/>
 </reference>

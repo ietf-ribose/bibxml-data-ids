@@ -1,19 +1,20 @@
 <reference anchor="I-D.mglt-ipsecme-implicit-iv" target="https://datatracker.ietf.org/doc/html/draft-mglt-ipsecme-implicit-iv-00">
   <front>
     <title>Implicit IV for Counter-based Ciphers in IPsec</title>
-    <author fullname="Daniel Migault" initials="D." surname="Migault">
-      <organization/>
-    </author>
-    <author fullname="Tobias Guggemos" initials="T." surname="Guggemos">
-      <organization/>
-    </author>
-    <author fullname="Yoav Nir" initials="Y." surname="Nir">
-      <organization/>
-    </author>
-    <date year="2016" month="June" day="9"/>
+    <seriesInfo name="Internet-Draft" value="draft-mglt-ipsecme-implicit-iv-00"/>
+    <author initials="D." surname="Migault" fullname="Daniel Migault"/>
+    <author initials="T." surname="Guggemos" fullname="Tobias Guggemos"/>
+    <author initials="Y." surname="Nir" fullname="Yoav Nir"/>
+    <date day="09" month="June" year="2016"></date>
     <abstract>
-      <t>IPsec ESP sends an initialization vector (IV) or nonce in each packet, adding 8 or 16 octets. Some algorithms such as AES-GCM, AES- CCM, AES-CTR and ChaCha20-Poly1305 require a unique nonce but do not require an unpredictable nonce. When using such algorithms the packet counter value can be used to generate a nonce, saving 8 octets per packet. This document describes how to do this.</t>
+      <t>   IPsec ESP sends an initialization vector (IV) or nonce in each
+   packet, adding 8 or 16 octets.  Some algorithms such as AES-GCM, AES-
+   CCM, AES-CTR and ChaCha20-Poly1305 require a unique nonce but do not
+   require an unpredictable nonce.  When using such algorithms the
+   packet counter value can be used to generate a nonce, saving 8 octets
+   per packet.  This document describes how to do this.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mglt-ipsecme-implicit-iv-00"/>
 </reference>

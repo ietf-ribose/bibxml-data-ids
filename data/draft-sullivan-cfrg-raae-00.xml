@@ -1,13 +1,29 @@
 <reference anchor="I-D.sullivan-cfrg-raae" target="https://datatracker.ietf.org/doc/html/draft-sullivan-cfrg-raae-00">
   <front>
     <title>Random-Access Authenticated Encryption</title>
-    <author fullname="Nick Sullivan" initials="N." surname="Sullivan">
+    <seriesInfo name="Internet-Draft" value="draft-sullivan-cfrg-raae-00"/>
+    <author initials="N." surname="Sullivan" fullname="Nick Sullivan">
       <organization>Cryptography Consulting LLC</organization>
     </author>
-    <date year="2026" month="March" day="25"/>
+    <date day="25" month="March" year="2026"></date>
     <abstract>
-      <t>This document defines Random-Access Authenticated Encryption (raAE), a mechanism for encrypting segmented content that supports decryption of individual segments without processing others, selective re- encryption of individual segments in place, and content-level integrity via an accumulator binding all segment authentication tags. raAE is parameterized over an Authenticated Encryption with Associated Data (AEAD) algorithm, a key derivation function (KDF), segment size, epoch length, and nonce generation mode. raAE does not define wire formats, IANA registries, or key management; applications instantiate it with a chosen parameter set and protocol identifier. This document also defines "raAE-v1", a concrete profile with test vectors, supporting five AEAD algorithms: AES-256-GCM, ChaCha20-Poly1305, AES-256-GCM-SIV, AEGIS-256, and AEGIS-256X2, each with HKDF-SHA-256 and 65536-octet segments.</t>
+      <t>   This document defines Random-Access Authenticated Encryption (raAE),
+   a mechanism for encrypting segmented content that supports decryption
+   of individual segments without processing others, selective re-
+   encryption of individual segments in place, and content-level
+   integrity via an accumulator binding all segment authentication tags.
+   raAE is parameterized over an Authenticated Encryption with
+   Associated Data (AEAD) algorithm, a key derivation function (KDF),
+   segment size, epoch length, and nonce generation mode.
+
+   raAE does not define wire formats, IANA registries, or key
+   management; applications instantiate it with a chosen parameter set
+   and protocol identifier.  This document also defines "raAE-v1", a
+   concrete profile with test vectors, supporting five AEAD algorithms:
+   AES-256-GCM, ChaCha20-Poly1305, AES-256-GCM-SIV, AEGIS-256, and
+   AEGIS-256X2, each with HKDF-SHA-256 and 65536-octet segments.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sullivan-cfrg-raae-00"/>
 </reference>

@@ -1,19 +1,27 @@
 <reference anchor="I-D.naveen-l2tpext-sessupdate" target="https://datatracker.ietf.org/doc/html/draft-naveen-l2tpext-sessupdate-00">
   <front>
     <title>L2TP Session Update Mechanism</title>
-    <author fullname="Naveen Gowda" initials="N." surname="Gowda">
-      <organization/>
-    </author>
-    <author fullname="Elwin Stelzer" initials="E." surname="Stelzer">
+    <seriesInfo name="Internet-Draft" value="draft-naveen-l2tpext-sessupdate-00"/>
+    <author initials="N." surname="Gowda" fullname="Naveen Gowda"/>
+    <author initials="E." surname="Stelzer" fullname="Elwin Stelzer">
       <organization>Corona Networks</organization>
     </author>
-    <author fullname="Umesh Sirsiwal" initials="U." surname="Sirsiwal">
+    <author initials="U." surname="Sirsiwal" fullname="Umesh Sirsiwal">
       <organization>Avian Communications</organization>
     </author>
-    <date year="2001" month="June" day="11"/>
+    <date day="11" month="June" year="2001"></date>
     <abstract>
-      <t>Once a L2TP session is established, the current standard [RFC 2661] has no explicit mechanism to update the session characteristics, during the life of the session, between the L2TP tunnel endpoints. One such requirement for this mechanism is, LNS informing LAC about the PPP-user's service characteristics, so that user-specific service actions can be applied at LAC. Eg: DSCP marking. There is a need for additional messages that will address similar requirements. Two additional messages are defined in this draft for this.</t>
+      <t>Once a L2TP session is established, the current standard [RFC 2661]
+has no explicit mechanism to update the session characteristics,
+during the life of the session, between the L2TP tunnel
+endpoints. One such requirement for this mechanism is, LNS informing
+LAC about the PPP-user's service characteristics, so that
+user-specific service actions can be applied at LAC. Eg: DSCP
+marking.
+There is a need for additional messages that will address similar
+requirements. Two additional messages are defined in this draft for
+this.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-naveen-l2tpext-sessupdate-00"/>
 </reference>

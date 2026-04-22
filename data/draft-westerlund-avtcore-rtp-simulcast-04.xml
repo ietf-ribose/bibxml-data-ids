@@ -1,19 +1,31 @@
 <reference anchor="I-D.westerlund-avtcore-rtp-simulcast" target="https://datatracker.ietf.org/doc/html/draft-westerlund-avtcore-rtp-simulcast-04">
   <front>
     <title>Using Simulcast in RTP Sessions</title>
-    <author fullname="Magnus Westerlund" initials="M." surname="Westerlund">
+    <seriesInfo name="Internet-Draft" value="draft-westerlund-avtcore-rtp-simulcast-04"/>
+    <author initials="M." surname="Westerlund" fullname="Magnus Westerlund">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Bo Burman" initials="B." surname="Burman">
+    <author initials="B." surname="Burman" fullname="Bo Burman">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Suhas Nandakumar" initials="S." surname="Nandakumar">
+    <author initials="S." surname="Nandakumar" fullname="Suhas Nandakumar">
       <organization>Cisco</organization>
     </author>
-    <date year="2014" month="July" day="4"/>
+    <date day="04" month="July" year="2014"></date>
     <abstract>
-      <t>In some application scenarios it may be desirable to send multiple differently encoded versions of the same media source in independent RTP streams. This is called simulcast. This document discusses the best way of accomplishing simulcast in RTP and how to signal it in SDP. A solution is defined by making an extension to SDP, and using RTP/RTCP identification methods to relate RTP streams belonging to the same media source. The SDP extension consists a new media level SDP attribute that express capability to send and/or receive simulcast RTP streams. One part of the RTP/RTCP identification method is included as a reference to a separate document, since it is useful also for other purposes.</t>
+      <t>   In some application scenarios it may be desirable to send multiple
+   differently encoded versions of the same media source in independent
+   RTP streams.  This is called simulcast.  This document discusses the
+   best way of accomplishing simulcast in RTP and how to signal it in
+   SDP.  A solution is defined by making an extension to SDP, and using
+   RTP/RTCP identification methods to relate RTP streams belonging to
+   the same media source.  The SDP extension consists a new media level
+   SDP attribute that express capability to send and/or receive
+   simulcast RTP streams.  One part of the RTP/RTCP identification
+   method is included as a reference to a separate document, since it is
+   useful also for other purposes.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-westerlund-avtcore-rtp-simulcast-04"/>
 </reference>

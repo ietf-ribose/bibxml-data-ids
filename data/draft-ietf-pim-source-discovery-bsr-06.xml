@@ -1,22 +1,32 @@
 <reference anchor="I-D.ietf-pim-source-discovery-bsr" target="https://datatracker.ietf.org/doc/html/draft-ietf-pim-source-discovery-bsr-06">
   <front>
     <title>PIM flooding mechanism and source discovery</title>
-    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pim-source-discovery-bsr-06"/>
+    <author initials="I." surname="Wijnands" fullname="IJsbrand Wijnands">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Stig Venaas" initials="S." surname="Venaas">
+    <author initials="S." surname="Venaas" fullname="Stig Venaas">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Michael Brig" initials="M." surname="Brig">
+    <author initials="M." surname="Brig" fullname="Michael Brig">
       <organization>Aegis BMD Program Office</organization>
     </author>
-    <author fullname="Anders Jonasson" initials="A." surname="Jonasson">
+    <author initials="A." surname="Jonasson" fullname="Anders Jonasson">
       <organization>Swedish Defence Material Administration</organization>
     </author>
-    <date year="2017" month="March" day="10"/>
+    <date day="10" month="March" year="2017"></date>
     <abstract>
-      <t>PIM Sparse-Mode uses a Rendezvous Point and shared trees to forward multicast packets from new sources. Once last hop routers receive packets from a new source, they may join the Shortest Path Tree for the source for optimal forwarding. This draft defines a new mechanism that provides a way to support PIM Sparse Mode (SM) without the need for PIM registers, RPs or shared trees. Multicast source information is flooded throughout the multicast domain using a new generic PIM flooding mechanism. This allows last hop routers to learn about new sources without receiving initial data packets.</t>
+      <t>   PIM Sparse-Mode uses a Rendezvous Point and shared trees to forward
+   multicast packets from new sources.  Once last hop routers receive
+   packets from a new source, they may join the Shortest Path Tree for
+   the source for optimal forwarding.  This draft defines a new
+   mechanism that provides a way to support PIM Sparse Mode (SM) without
+   the need for PIM registers, RPs or shared trees.  Multicast source
+   information is flooded throughout the multicast domain using a new
+   generic PIM flooding mechanism.  This allows last hop routers to
+   learn about new sources without receiving initial data packets.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-pim-source-discovery-bsr-06"/>
 </reference>

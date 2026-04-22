@@ -1,19 +1,29 @@
 <reference anchor="I-D.hui-6man-rpl-headers" target="https://datatracker.ietf.org/doc/html/draft-hui-6man-rpl-headers-00">
   <front>
     <title>Using RPL Headers Without IP-in-IP</title>
-    <author fullname="Jonathan Hui" initials="J." surname="Hui">
+    <seriesInfo name="Internet-Draft" value="draft-hui-6man-rpl-headers-00"/>
+    <author initials="J." surname="Hui" fullname="Jonathan Hui">
       <organization>Arch Rock Corporation</organization>
     </author>
-    <author fullname="Pascal Thubert" initials="P." surname="Thubert">
+    <author initials="P." surname="Thubert" fullname="Pascal Thubert">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="JP Vasseur" initials="V." surname="Jp">
+    <author initials="V." surname="Jp" fullname="JP Vasseur">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2010" month="July" day="28"/>
+    <date day="28" month="July" year="2010"></date>
     <abstract>
-      <t>Routing for Low Power and Lossy Networks (RPL) is a routing protocol designed for Low power and Lossy Networks (LLNs). RPL includes routing information in IPv6 data plane datagrams to help maintain the routing topology. When forwarding a datagram into a RPL domain, a RPL router may need to expand the datagram to include routing information in IPv6 Extension headers. A generic solution has been defined that uses IP-in-IP tunneling to include RPL routing information. This document describes an alternative to inserting and removing RPL information in datagrams without the use of IP-in-IP tunneling.</t>
+      <t>Routing for Low Power and Lossy Networks (RPL) is a routing protocol
+designed for Low power and Lossy Networks (LLNs).  RPL includes
+routing information in IPv6 data plane datagrams to help maintain the
+routing topology.  When forwarding a datagram into a RPL domain, a
+RPL router may need to expand the datagram to include routing
+information in IPv6 Extension headers.  A generic solution has been
+defined that uses IP-in-IP tunneling to include RPL routing
+information.  This document describes an alternative to inserting and
+removing RPL information in datagrams without the use of IP-in-IP
+tunneling.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hui-6man-rpl-headers-00"/>
 </reference>

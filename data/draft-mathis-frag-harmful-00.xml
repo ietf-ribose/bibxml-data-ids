@@ -1,13 +1,21 @@
 <reference anchor="I-D.mathis-frag-harmful" target="https://datatracker.ietf.org/doc/html/draft-mathis-frag-harmful-00">
   <front>
     <title>Fragmentation Considered Very Harmful</title>
-    <author fullname="Matt Mathis" initials="M." surname="Mathis">
+    <seriesInfo name="Internet-Draft" value="draft-mathis-frag-harmful-00"/>
+    <author initials="M." surname="Mathis" fullname="Matt Mathis">
       <organization>PSC</organization>
     </author>
-    <date year="2004" month="July" day="12"/>
+    <date day="12" month="July" year="2004"></date>
     <abstract>
-      <t>IPv4 fragmentation is not sufficiently robust for general use in today's Internet. The 16-bit IP identification field is not large enough to prevent frequent missassociated IP fragments and the TCP and UDP checksums are insufficient to prevent the resulting corrupted data from being delivered to higher protocol layers. In this note we describe some easily reproduced experiments demonstrating the problem and estimate the scale the data corruption in the presence of ever growing data rates.</t>
+      <t>   IPv4 fragmentation is not sufficiently robust for general use in
+   today's Internet. The 16-bit IP identification field is not large
+   enough to prevent frequent missassociated IP fragments and the TCP
+   and UDP checksums are insufficient to prevent the resulting corrupted
+   data from being delivered to higher protocol layers.  In this note we
+   describe some easily reproduced experiments demonstrating the problem
+   and estimate the scale the data corruption in the presence of ever
+   growing data rates.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mathis-frag-harmful-00"/>
 </reference>

@@ -1,13 +1,25 @@
 <reference anchor="I-D.dimitri-ospf-phased-db-sync" target="https://datatracker.ietf.org/doc/html/draft-dimitri-ospf-phased-db-sync-00">
   <front>
     <title>Phased OSPF Link-State Database Synchronization </title>
-    <author fullname="Papadimitriou Dimitri" initials="P." surname="Dimitri">
+    <seriesInfo name="Internet-Draft" value="draft-dimitri-ospf-phased-db-sync-00"/>
+    <author initials="P." surname="Dimitri" fullname="Papadimitriou Dimitri">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <date year="2010" month="May" day="23"/>
+    <date day="23" month="May" year="2010"></date>
     <abstract>
-      <t>Opaque Link-State Advertisements (LSA) extend the topological link state of Open Shortest Path First (OSPF). The information contained in Opaque LSA may be used directly by OSPF or indirectly by some application wishing to distribute information throughout the OSPF domain. However the Link-State Database (LSDB) synchronization process is kept unified, i.e., there is no messaging or processing allowing to order the exchanges in the link state database synchronization process. We call this ordering, phasing of logically segmented LSDB into Opaque and non-Opaque. The motivation is to prevent delaying reaching Full state whereas synchronizing over the entire LSDB would delay full adjacency establishment.</t>
+      <t>       Opaque Link-State Advertisements (LSA) extend the topological 
+       link state of Open Shortest Path First (OSPF). The information 
+       contained in Opaque LSA may be used directly by OSPF or 
+       indirectly by some application wishing to distribute information 
+       throughout the OSPF domain. However the Link-State Database 
+       (LSDB) synchronization process is kept unified, i.e., there is  
+       no messaging or processing allowing to order the exchanges in 
+       the link state database synchronization process. We call this 
+       ordering, phasing of logically segmented LSDB into Opaque and 
+       non-Opaque. The motivation is to prevent delaying reaching Full 
+       state whereas synchronizing over the entire LSDB would delay 
+       full adjacency establishment. 
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-dimitri-ospf-phased-db-sync-00"/>
 </reference>

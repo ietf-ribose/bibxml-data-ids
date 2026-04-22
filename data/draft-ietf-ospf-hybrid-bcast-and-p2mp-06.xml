@@ -1,19 +1,22 @@
 <reference anchor="I-D.ietf-ospf-hybrid-bcast-and-p2mp" target="https://datatracker.ietf.org/doc/html/draft-ietf-ospf-hybrid-bcast-and-p2mp-06">
   <front>
     <title>OSPF Hybrid Broadcast and Point-to-Multipoint Interface Type</title>
-    <author fullname="Nischal Sheth" initials="N." surname="Sheth">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-hybrid-bcast-and-p2mp-06"/>
+    <author initials="N." surname="Sheth" fullname="Nischal Sheth">
       <organization>Contrail Systems</organization>
     </author>
-    <author fullname="Lili Wang" initials="L." surname="Wang">
+    <author initials="L." surname="Wang" fullname="Lili Wang">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+    <author initials="Z. J." surname="Zhang" fullname="Zhaohui (Jeffrey) Zhang">
       <organization>Juniper Networks</organization>
     </author>
-    <date year="2012" month="November" day="5"/>
+    <date day="05" month="November" year="2012"></date>
     <abstract>
-      <t>This document describes a mechanism to model a broadcast network as a hybrid of broadcast and point-to-multipoint networks for purposes of OSPF operation. Neighbor discovery and maintenance as well as Link State Advertisement (LSA) database synchronization are performed using the broadcast model, but the network is represented using the point-to-multipoint model in the router-LSAs of the routers connected to it. This allows an accurate representation of the cost of communication between different routers on the network, while maintaining the network efficiency of broadcast operation. This approach is relatively simple and requires minimal changes to OSPF. This document updates both OSPFv2 (RFC 2328) and OSPFv3 (RFC 5340). [STANDARDS-TRACK]</t>
+      <t>This document describes a mechanism to model a broadcast network as a hybrid of broadcast and point-to-multipoint networks for purposes of OSPF operation. Neighbor discovery and maintenance as well as Link State Advertisement (LSA) database synchronization are performed using the broadcast model, but the network is represented using the point-to-multipoint model in the router-LSAs of the routers connected to it. This allows an accurate representation of the cost of communication between different routers on the network, while maintaining the network efficiency of broadcast operation. This approach is relatively simple and requires minimal changes to OSPF.
+
+ This document updates both OSPFv2 (RFC 2328) and OSPFv3 (RFC 5340). [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-hybrid-bcast-and-p2mp-06"/>
 </reference>

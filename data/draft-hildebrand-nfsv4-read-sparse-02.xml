@@ -1,16 +1,23 @@
 <reference anchor="I-D.hildebrand-nfsv4-read-sparse" target="https://datatracker.ietf.org/doc/html/draft-hildebrand-nfsv4-read-sparse-02">
   <front>
     <title>Simple and Efficient Read Support for Sparse Files</title>
-    <author fullname="Dean Hildebrand" initials="D." surname="Hildebrand">
+    <seriesInfo name="Internet-Draft" value="draft-hildebrand-nfsv4-read-sparse-02"/>
+    <author initials="D." surname="Hildebrand" fullname="Dean Hildebrand">
       <organization>IBM Almaden</organization>
     </author>
-    <author fullname="Marc Eshel" initials="M." surname="Eshel">
+    <author initials="M." surname="Eshel" fullname="Marc Eshel">
       <organization>IBM Almaden</organization>
     </author>
-    <date year="2010" month="December" day="6"/>
+    <date day="06" month="December" year="2010"></date>
     <abstract>
-      <t>This document proposes a new READPLUS operation for NFSv4.2 to support efficient reading of sparse files, which are growing in the data center due to the increasing number of virtual disk images. READPLUS has all the features and functionality of READ, but has an extensible return value that includes an easy and efficient way for administrators to copy and manage sparse files without wasting disk space or transferring data unnecessarily.</t>
+      <t>This document proposes a new READPLUS operation for NFSv4.2 to
+support efficient reading of sparse files, which are growing in the
+data center due to the increasing number of virtual disk images.
+READPLUS has all the features and functionality of READ, but has an
+extensible return value that includes an easy and efficient way for
+administrators to copy and manage sparse files without wasting disk
+space or transferring data unnecessarily.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hildebrand-nfsv4-read-sparse-02"/>
 </reference>

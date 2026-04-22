@@ -1,22 +1,27 @@
 <reference anchor="I-D.ietf-dnsop-refuse-any" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-refuse-any-07">
   <front>
     <title>Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY</title>
-    <author fullname="Joe Abley" initials="J." surname="Abley">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-refuse-any-07"/>
+    <author initials="J." surname="Abley" fullname="Joe Abley">
       <organization>Afilias</organization>
     </author>
-    <author fullname="Ólafur Guðmundsson" initials="O." surname="Guðmundsson">
+    <author initials="O." surname="Guðmundsson" fullname="Ólafur Guðmundsson">
       <organization>Cloudflare Inc.</organization>
     </author>
-    <author fullname="Marek Majkowski" initials="M." surname="Majkowski">
+    <author initials="M." surname="Majkowski" fullname="Marek Majkowski">
       <organization>Cloudflare Inc.</organization>
     </author>
-    <author fullname="Evan Hunt" initials="E." surname="Hunt">
+    <author initials="E." surname="Hunt" fullname="Evan Hunt">
       <organization>ISC</organization>
     </author>
-    <date year="2018" month="August" day="14"/>
+    <date day="14" month="August" year="2018"></date>
     <abstract>
-      <t>The Domain Name System (DNS) specifies a query type (QTYPE) "ANY". The operator of an authoritative DNS server might choose not to respond to such queries for reasons of local policy, motivated by security, performance, or other reasons. The DNS specification does not include specific guidance for the behavior of DNS servers or clients in this situation. This document aims to provide such guidance. This document updates RFCs 1034 and 1035.</t>
+      <t>The Domain Name System (DNS) specifies a query type (QTYPE) "ANY". The operator of an authoritative DNS server might choose not to respond to such queries for reasons of local policy, motivated by security, performance, or other reasons.
+
+ The DNS specification does not include specific guidance for the behavior of DNS servers or clients in this situation. This document aims to provide such guidance.
+
+ This document updates RFCs 1034 and 1035.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-refuse-any-07"/>
 </reference>

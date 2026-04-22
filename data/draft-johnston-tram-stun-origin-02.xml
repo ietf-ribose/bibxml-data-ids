@@ -1,22 +1,29 @@
 <reference anchor="I-D.johnston-tram-stun-origin" target="https://datatracker.ietf.org/doc/html/draft-johnston-tram-stun-origin-02">
   <front>
     <title>An Origin Attribute for the STUN Protocol</title>
-    <author fullname="Alan Johnston" initials="A." surname="Johnston">
-      <organization/>
-    </author>
-    <author fullname="Justin Uberti" initials="J." surname="Uberti">
-      <organization/>
-    </author>
-    <author fullname="John Yoakum" initials="J." surname="Yoakum">
-      <organization/>
-    </author>
-    <author fullname="Kundan Singh" initials="K." surname="Singh">
-      <organization/>
-    </author>
-    <date year="2014" month="March" day="31"/>
+    <seriesInfo name="Internet-Draft" value="draft-johnston-tram-stun-origin-02"/>
+    <author initials="A." surname="Johnston" fullname="Alan Johnston"/>
+    <author initials="J." surname="Uberti" fullname="Justin Uberti"/>
+    <author initials="J." surname="Yoakum" fullname="John Yoakum"/>
+    <author initials="K." surname="Singh" fullname="Kundan Singh"/>
+    <date day="31" month="March" year="2014"></date>
     <abstract>
-      <t>STUN, or Session Traversal Utilities for NAT, is a protocol used to assist other protocols traverse Network Address Translators or NATs. STUN, and STUN extensions such as TURN, or Traversal Using Relays around NAT, and ICE, Interactive Communications Establishment, have been around for many years but with WebRTC, Web Real-Time Communications, STUN and related extensions are about to see major deployments and implementation due to these protocols being implemented in browsers. This specification defines an ORIGIN attribute for STUN that can be used in similar ways to the HTTP header field of the same name. WebRTC browsers utilizing STUN and TURN would include this attribute which would provide servers with additional information about the STUN and TURN requests they receive. This specification defines the usage of the STUN ORIGIN attribute for web and SIP contexts.</t>
+      <t>   STUN, or Session Traversal Utilities for NAT, is a protocol used to
+   assist other protocols traverse Network Address Translators or NATs.
+   STUN, and STUN extensions such as TURN, or Traversal Using Relays
+   around NAT, and ICE, Interactive Communications Establishment, have
+   been around for many years but with WebRTC, Web Real-Time
+   Communications, STUN and related extensions are about to see major
+   deployments and implementation due to these protocols being
+   implemented in browsers.  This specification defines an ORIGIN
+   attribute for STUN that can be used in similar ways to the HTTP
+   header field of the same name.  WebRTC browsers utilizing STUN and
+   TURN would include this attribute which would provide servers with
+   additional information about the STUN and TURN requests they receive.
+   This specification defines the usage of the STUN ORIGIN attribute for
+   web and SIP contexts.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-johnston-tram-stun-origin-02"/>
 </reference>

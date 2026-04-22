@@ -1,16 +1,23 @@
 <reference anchor="I-D.shen-mpls-rsvp-setup-protection" target="https://datatracker.ietf.org/doc/html/draft-shen-mpls-rsvp-setup-protection-02">
   <front>
     <title>RSVP Setup Protection</title>
-    <author fullname="Yimin Shen" initials="Y." surname="Shen">
-      <organization/>
-    </author>
-    <author fullname="Yuji Kamite" initials="Y." surname="Kamite">
-      <organization/>
-    </author>
-    <date year="2013" month="February" day="8"/>
+    <seriesInfo name="Internet-Draft" value="draft-shen-mpls-rsvp-setup-protection-02"/>
+    <author initials="Y." surname="Shen" fullname="Yimin Shen"/>
+    <author initials="Y." surname="Kamite" fullname="Yuji Kamite"/>
+    <date day="08" month="February" year="2013"></date>
     <abstract>
-      <t>RFC 4090 specifies an RSVP facility-backup fast reroute mechanism for protecting established LSPs against link and node failures. This document extends the mechanism to provide so-called "setup protection" for LSPs during their initial Path message signaling time. In particular, it enables a router to reroute an LSP via an existing bypass LSP, when there is a failure of the immediate downstream link or node along the desired path. Therefore, it can be used to reduce LSP setup time in such a situation, or allow LSPs with strict paths to be established successfully when alternative paths are unavailable in the network or unable to be computed by ingress.</t>
+      <t>   RFC 4090 specifies an RSVP facility-backup fast reroute mechanism for
+   protecting established LSPs against link and node failures.  This
+   document extends the mechanism to provide so-called "setup
+   protection" for LSPs during their initial Path message signaling
+   time.  In particular, it enables a router to reroute an LSP via an
+   existing bypass LSP, when there is a failure of the immediate
+   downstream link or node along the desired path.  Therefore, it can be
+   used to reduce LSP setup time in such a situation, or allow LSPs with
+   strict paths to be established successfully when alternative paths
+   are unavailable in the network or unable to be computed by ingress.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-shen-mpls-rsvp-setup-protection-02"/>
 </reference>

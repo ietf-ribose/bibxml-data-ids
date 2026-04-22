@@ -1,13 +1,23 @@
 <reference anchor="I-D.putman-tls-preshared-ecdh" target="https://datatracker.ietf.org/doc/html/draft-putman-tls-preshared-ecdh-00">
   <front>
     <title>ECDH-based Authentication using Pre-Shared Asymmetric Keypairs for (Datagram) Transport Layer Security ((D)TLS) Protocol version 1.2</title>
-    <author fullname="Tony Putman" initials="T." surname="Putman">
+    <seriesInfo name="Internet-Draft" value="draft-putman-tls-preshared-ecdh-00"/>
+    <author initials="T." surname="Putman" fullname="Tony Putman">
       <organization>Dyson Technology</organization>
     </author>
-    <date year="2017" month="November" day="30"/>
+    <date day="30" month="November" year="2017"></date>
     <abstract>
-      <t>This document defines a new mutual authentication method for the Transport Layer Security (TLS) protocol version 1.2. The authentication method requires that the client and server are each pre-provisioned with a unique asymmetric Elliptic Curve Diffie- Hellman (ECDH) keypair and with the public ECDH key of the peer. The handshake provides ephemeral ECDH keys, and a premaster key is agreed using Double- or Triple-ECDH; confirmation of possession of this key provides mutual authentication. Multiple new cipher suites which use this authentication method are specified.</t>
+      <t>   This document defines a new mutual authentication method for the
+   Transport Layer Security (TLS) protocol version 1.2.  The
+   authentication method requires that the client and server are each
+   pre-provisioned with a unique asymmetric Elliptic Curve Diffie-
+   Hellman (ECDH) keypair and with the public ECDH key of the peer.  The
+   handshake provides ephemeral ECDH keys, and a premaster key is agreed
+   using Double- or Triple-ECDH; confirmation of possession of this key
+   provides mutual authentication.  Multiple new cipher suites which use
+   this authentication method are specified.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-putman-tls-preshared-ecdh-00"/>
 </reference>

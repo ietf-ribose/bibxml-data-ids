@@ -1,16 +1,25 @@
 <reference anchor="I-D.wallace-lamps-key-attestation-ext" target="https://datatracker.ietf.org/doc/html/draft-wallace-lamps-key-attestation-ext-01">
   <front>
     <title>Key Attestation Extension for Certificate Management Protocols</title>
-    <author fullname="Carl Wallace" initials="C." surname="Wallace">
+    <seriesInfo name="Internet-Draft" value="draft-wallace-lamps-key-attestation-ext-01"/>
+    <author initials="C." surname="Wallace" fullname="Carl Wallace">
       <organization>Red Hound Software</organization>
     </author>
-    <author fullname="Sean Turner" initials="S." surname="Turner">
+    <author initials="S." surname="Turner" fullname="Sean Turner">
       <organization>sn3rd</organization>
     </author>
-    <date year="2022" month="August" day="10"/>
+    <date day="10" month="August" year="2022"></date>
     <abstract>
-      <t>Certification Authorities (CAs) issue certificates for public keys conveyed to the CA via a certificate management message or protocol. In some cases, a CA may wish to tailor certificate contents based on whether the corresponding private key is secured by hardware in non- exportable form. This document describes extensions that may be included in any of several widely used certificate management protocols to convey attestations about the private key to the CA to support this determination.</t>
+      <t>   Certification Authorities (CAs) issue certificates for public keys
+   conveyed to the CA via a certificate management message or protocol.
+   In some cases, a CA may wish to tailor certificate contents based on
+   whether the corresponding private key is secured by hardware in non-
+   exportable form.  This document describes extensions that may be
+   included in any of several widely used certificate management
+   protocols to convey attestations about the private key to the CA to
+   support this determination.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wallace-lamps-key-attestation-ext-01"/>
 </reference>

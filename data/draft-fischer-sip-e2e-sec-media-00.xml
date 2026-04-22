@@ -1,13 +1,30 @@
 <reference anchor="I-D.fischer-sip-e2e-sec-media" target="https://datatracker.ietf.org/doc/html/draft-fischer-sip-e2e-sec-media-00">
   <front>
     <title>End-to-End Security for DTLS-SRTP</title>
-    <author fullname="Kai Fischer" initials="K." surname="Fischer">
+    <seriesInfo name="Internet-Draft" value="draft-fischer-sip-e2e-sec-media-00"/>
+    <author initials="K." surname="Fischer" fullname="Kai Fischer">
       <organization>Siemens Enterprise Communications</organization>
     </author>
-    <date year="2008" month="January" day="23"/>
+    <date day="23" month="January" year="2008"></date>
     <abstract>
-      <t>The end-to-end security properties of DTLS-SRTP depend on the authenticity of the certificate fingerprint exchanged in the signalling channel. In current approaches the authenticity is protected by SIP-Identity or SIP-Identity-Media. These types of signatures are broken if intermediaries like Session Border Controllers in other domains change specific information of the SIP header or the SIP body. The end-to-end security property between the originating and terminating domain is lost if these intermediaries re-sign the SIP message and create a new identity signature using their own domain credentials. This document defines a new signature type 'Fingerprint-Identity' which is exchanged in the signalling channel. Fingerprint-Identity covers only those elements of a SIP message necessary to authenticate the certificate fingerprint and to secure media end-to-end. It is independent from SIP-Identity and SIP-Identity-Media and can be applied in parallel to them.</t>
+      <t>The end-to-end security properties of DTLS-SRTP depend on the
+authenticity of the certificate fingerprint exchanged in the
+signalling channel.  In current approaches the authenticity is
+protected by SIP-Identity or SIP-Identity-Media.  These types of
+signatures are broken if intermediaries like Session Border
+Controllers in other domains change specific information of the SIP
+header or the SIP body.  The end-to-end security property between the
+originating and terminating domain is lost if these intermediaries
+re-sign the SIP message and create a new identity signature using
+their own domain credentials.
+
+This document defines a new signature type 'Fingerprint-Identity'
+which is exchanged in the signalling channel.  Fingerprint-Identity
+covers only those elements of a SIP message necessary to authenticate
+the certificate fingerprint and to secure media end-to-end.  It is
+independent from SIP-Identity and SIP-Identity-Media and can be
+applied in parallel to them.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-fischer-sip-e2e-sec-media-00"/>
 </reference>

@@ -1,13 +1,29 @@
 <reference anchor="I-D.tcr-tef" target="https://datatracker.ietf.org/doc/html/draft-tcr-tef-00">
   <front>
     <title>Triageable Evidence Format (TEF)</title>
-    <author fullname="John Carroll" initials="J." surname="Carroll">
+    <seriesInfo name="Internet-Draft" value="draft-tcr-tef-00"/>
+    <author initials="J." surname="Carroll" fullname="John Carroll">
       <organization>The Clearing Room</organization>
     </author>
-    <date year="2026" month="April" day="9"/>
+    <date day="09" month="April" year="2026"></date>
     <abstract>
-      <t>This document defines the Triageable Evidence Format (TEF), a YAML- based format for structured vulnerability evidence submission. TEF provides a standard way for security researchers to describe software defects so that triage systems, whether human or automated, can classify them without ambiguity. TEF combines YAML data structure with a Given/When/Then evidence model. Each submission carries structured metadata, one or more evidence scenarios with preconditions, triggers, and observed outcomes, location data identifying where the defect exists, and reproduction artefacts proving its presence. TEF is an intake format. It does not replace vulnerability publication formats (CVE, CSAF, OSV) or scan output formats (SARIF). It fills the gap between discovery and classification.</t>
+      <t>   This document defines the Triageable Evidence Format (TEF), a YAML-
+   based format for structured vulnerability evidence submission.  TEF
+   provides a standard way for security researchers to describe software
+   defects so that triage systems, whether human or automated, can
+   classify them without ambiguity.
+
+   TEF combines YAML data structure with a Given/When/Then evidence
+   model.  Each submission carries structured metadata, one or more
+   evidence scenarios with preconditions, triggers, and observed
+   outcomes, location data identifying where the defect exists, and
+   reproduction artefacts proving its presence.
+
+   TEF is an intake format.  It does not replace vulnerability
+   publication formats (CVE, CSAF, OSV) or scan output formats (SARIF).
+   It fills the gap between discovery and classification.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-tcr-tef-00"/>
 </reference>

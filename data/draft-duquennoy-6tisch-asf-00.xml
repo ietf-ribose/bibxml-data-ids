@@ -1,19 +1,31 @@
 <reference anchor="I-D.duquennoy-6tisch-asf" target="https://datatracker.ietf.org/doc/html/draft-duquennoy-6tisch-asf-00">
   <front>
     <title>6TiSCH Autonomous Scheduling Function (ASF)</title>
-    <author fullname="Simon Duquennoy" initials="S." surname="Duquennoy">
+    <seriesInfo name="Internet-Draft" value="draft-duquennoy-6tisch-asf-00"/>
+    <author initials="S." surname="Duquennoy" fullname="Simon Duquennoy">
       <organization>Inria</organization>
     </author>
-    <author fullname="Xavier Vilajosana" initials="X." surname="Vilajosana">
+    <author initials="X." surname="Vilajosana" fullname="Xavier Vilajosana">
       <organization>Universitat Oberta de Catalunya</organization>
     </author>
-    <author fullname="Thomas Watteyne" initials="T." surname="Watteyne">
+    <author initials="T." surname="Watteyne" fullname="Thomas Watteyne">
       <organization>Inria</organization>
     </author>
-    <date year="2017" month="July" day="3"/>
+    <date day="03" month="July" year="2017"></date>
     <abstract>
-      <t>This document defines a Scheduling Function called "ASF": the 6TiSCH Autoonomous Scheduling Function. With ASF, nodes maintain their TSCH schedule based on local neighborhood knowledge, without any signaling. Hashes of the nodes' MAC address are used to deterministically derive the [slotOffset,channelOffset] location of cells in the TSCH schedule. The MAC, control, and application traffic planes are assigned to distinct slotframes, for isolation and flexible dimensioning. This approach provides over-provisioned schedules with low maintenance, in pursuit for simplicity rather than optimality.</t>
+      <t>   This document defines a Scheduling Function called "ASF": the 6TiSCH
+   Autoonomous Scheduling Function.  With ASF, nodes maintain their TSCH
+   schedule based on local neighborhood knowledge, without any
+   signaling.  Hashes of the nodes' MAC address are used to
+   deterministically derive the [slotOffset,channelOffset] location of
+   cells in the TSCH schedule.  The MAC, control, and application
+   traffic planes are assigned to distinct slotframes, for isolation and
+   flexible dimensioning.  This approach provides over-provisioned
+   schedules with low maintenance, in pursuit for simplicity rather than
+   optimality.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-duquennoy-6tisch-asf-00"/>
 </reference>

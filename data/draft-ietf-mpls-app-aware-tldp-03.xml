@@ -1,25 +1,30 @@
 <reference anchor="I-D.ietf-mpls-app-aware-tldp" target="https://datatracker.ietf.org/doc/html/draft-ietf-mpls-app-aware-tldp-03">
   <front>
     <title>Application-aware Targeted LDP</title>
-    <author fullname="Santosh Esale" initials="S." surname="Esale">
-      <organization/>
-    </author>
-    <author fullname="Raveendra Torvi" initials="R." surname="Torvi">
-      <organization/>
-    </author>
-    <author fullname="Luay Jalil" initials="L." surname="Jalil">
-      <organization/>
-    </author>
-    <author fullname="Uma Chunduri" initials="U." surname="Chunduri">
-      <organization/>
-    </author>
-    <author fullname="Syed Raza" initials="S." surname="Raza">
-      <organization/>
-    </author>
-    <date year="2016" month="March" day="18"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-app-aware-tldp-03"/>
+    <author initials="S." surname="Esale" fullname="Santosh Esale"/>
+    <author initials="R." surname="Torvi" fullname="Raveendra Torvi"/>
+    <author initials="L." surname="Jalil" fullname="Luay Jalil"/>
+    <author initials="U." surname="Chunduri" fullname="Uma Chunduri"/>
+    <author initials="S." surname="Raza" fullname="Syed Raza"/>
+    <date day="18" month="March" year="2016"></date>
     <abstract>
-      <t>Recent targeted LDP applications such as remote loop-free alternate (LFA) and BGP auto discovered pseudowire may automatically establish a tLDP session to any LSR in a network. The initiating LSR has information about the targeted applications to administratively control initiation of the session. However, the responding LSR has no such information to control acceptance of this session. This document defines a mechanism to advertise and negotiate Targeted Applications Capability during LDP session initialization. As the responding LSR becomes aware of targeted applications, it may establish a limited number of tLDP sessions for certain applications. In addition, each targeted application is mapped to LDP Forwarding Equivalence Class (FEC) Elements to advertise only necessary LDP FEC-label bindings over the session.</t>
+      <t>   Recent targeted LDP applications such as remote loop-free alternate
+   (LFA) and BGP auto discovered pseudowire may automatically establish
+   a tLDP session to any LSR in a network.  The initiating LSR has
+   information about the targeted applications to administratively
+   control initiation of the session. However, the responding LSR has no
+   such information to control acceptance of this session. This document
+   defines a mechanism to advertise and negotiate Targeted Applications
+   Capability during LDP session initialization.  As the responding LSR
+   becomes aware of targeted applications, it may establish a limited
+   number of tLDP sessions for certain applications. In addition, each
+   targeted application is mapped to LDP Forwarding Equivalence Class
+   (FEC) Elements to advertise only necessary LDP FEC-label bindings
+   over the session.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-app-aware-tldp-03"/>
 </reference>

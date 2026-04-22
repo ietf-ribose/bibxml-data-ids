@@ -1,19 +1,32 @@
 <reference anchor="I-D.ietf-l3vpn-mvpn-pe-ce" target="https://datatracker.ietf.org/doc/html/draft-ietf-l3vpn-mvpn-pe-ce-02">
   <front>
     <title>BGP as an MVPN PE-CE Protocol</title>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-l3vpn-mvpn-pe-ce-02"/>
+    <author initials="K." surname="Patel" fullname="Keyur Patel">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Yakov Rekhter" initials="Y." surname="Rekhter">
+    <author initials="Y." surname="Rekhter" fullname="Yakov Rekhter">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Eric C. Rosen" initials="E. C." surname="Rosen">
+    <author initials="E. C." surname="Rosen" fullname="Eric C. Rosen">
       <organization>Juniper Networks</organization>
     </author>
-    <date year="2014" month="October" day="15"/>
+    <date day="15" month="October" year="2014"></date>
     <abstract>
-      <t>When a Service Provider offers BGP/MPLS IP VPN service to its customers, RFCs 6513 and 6514 describe protocols and procedures that the Service Provider can use in order to carry the customer's IP multicast traffic from one customer site to others. BGP can be used to carry customer multicast routing information from one Provider Edge (PE) router to another, but it is assumed that PIM is running on the interface between a Customer Edge (CE) router and a PE router. This document specifies protocols and procedures that, under certain conditions, allow customer multicast routing information to carried between PE and CE via BGP. This can eliminate the need to run PIM on the PE-CE interfaces, potentially eliminating the need to run PIM on the PE routers at all.</t>
+      <t>   When a Service Provider offers BGP/MPLS IP VPN service to its
+   customers, RFCs 6513 and 6514 describe protocols and procedures that
+   the Service Provider can use in order to carry the customer's IP
+   multicast traffic from one customer site to others.  BGP can be used
+   to carry customer multicast routing information from one Provider
+   Edge (PE) router to another, but it is assumed that PIM is running on
+   the interface between a Customer Edge (CE) router and a PE router.
+   This document specifies protocols and procedures that, under certain
+   conditions, allow customer multicast routing information to carried
+   between PE and CE via BGP.  This can eliminate the need to run PIM on
+   the PE-CE interfaces, potentially eliminating the need to run PIM on
+   the PE routers at all.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-l3vpn-mvpn-pe-ce-02"/>
 </reference>

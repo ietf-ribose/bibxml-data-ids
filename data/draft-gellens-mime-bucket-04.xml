@@ -1,19 +1,24 @@
 <reference anchor="I-D.gellens-mime-bucket" target="https://datatracker.ietf.org/doc/html/draft-gellens-mime-bucket-04">
   <front>
     <title>The Codecs Parameter for "Bucket" Media Types</title>
-    <author fullname="Per Frojdh" initials="P." surname="Frojdh">
+    <seriesInfo name="Internet-Draft" value="draft-gellens-mime-bucket-04"/>
+    <author initials="P." surname="Frojdh" fullname="Per Frojdh">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="David Singer" initials="D." surname="Singer">
+    <author initials="D." surname="Singer" fullname="David Singer">
       <organization>Apple</organization>
     </author>
-    <author fullname="Randall Gellens" initials="R." surname="Gellens">
+    <author initials="R." surname="Gellens" fullname="Randall Gellens">
       <organization>Qualcomm</organization>
     </author>
-    <date year="2005" month="June" day="3"/>
+    <date day="03" month="June" year="2005"></date>
     <abstract>
-      <t>Several MIME type/subtype combinations exist that can contain different media formats. A receiving agent thus needs to examine the details of such media content to determine if the specific elements can be rendered given an available set of codecs. Especially when the end system has limited resources, or the connection to the end system has limited bandwidth, it would be helpful to know from the Content-Type alone if the content can be rendered. This document adds a new parameter, "codecs", to various type/subtype combinations to allow for unambiguous specification of the codecs indicated by the media formats contained within. By labeling content with the specific codecs indicated to render the contained media, receiving systems can determine if the codecs are supported by the end system, and if not, can take appropriate action (such as rejecting the content, sending notification of the situation, transcoding the content to a supported type, fetching and installing the required codecs, further inspection to determine if it will be sufficient to support a subset of the indicated codecs, etc.) [STANDARDS-TRACK]</t>
+      <t>Several MIME type/subtype combinations exist that can contain different media formats. A receiving agent thus needs to examine the details of such media content to determine if the specific elements can be rendered given an available set of codecs. Especially when the end system has limited resources, or the connection to the end system has limited bandwidth, it would be helpful to know from the Content-Type alone if the content can be rendered.
+
+ This document adds a new parameter, "codecs", to various type/subtype combinations to allow for unambiguous specification of the codecs indicated by the media formats contained within.
+
+ By labeling content with the specific codecs indicated to render the contained media, receiving systems can determine if the codecs are supported by the end system, and if not, can take appropriate action (such as rejecting the content, sending notification of the situation, transcoding the content to a supported type, fetching and installing the required codecs, further inspection to determine if it will be sufficient to support a subset of the indicated codecs, etc.) [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-gellens-mime-bucket-04"/>
 </reference>

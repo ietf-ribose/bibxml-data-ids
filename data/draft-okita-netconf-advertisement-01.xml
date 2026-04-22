@@ -1,19 +1,30 @@
 <reference anchor="I-D.okita-netconf-advertisement" target="https://datatracker.ietf.org/doc/html/draft-okita-netconf-advertisement-01">
   <front>
     <title>NETCONF Configuration Interface Advertisement with WSDL and XSD</title>
-    <author fullname="Hideki Okita" initials="H." surname="Okita">
+    <seriesInfo name="Internet-Draft" value="draft-okita-netconf-advertisement-01"/>
+    <author initials="H." surname="Okita" fullname="Hideki Okita">
       <organization>Hitachi, Ltd.</organization>
     </author>
-    <author fullname="Iijima Tomoyuki" initials="I." surname="Tomoyuki">
+    <author initials="I." surname="Tomoyuki" fullname="Iijima Tomoyuki">
       <organization>Alaxala Corp.</organization>
     </author>
-    <author fullname="Yoshifumi Atarashi" initials="Y." surname="Atarashi">
+    <author initials="Y." surname="Atarashi" fullname="Yoshifumi Atarashi">
       <organization>Alaxala Corp.</organization>
     </author>
-    <date year="2008" month="March" day="10"/>
+    <date day="10" month="March" year="2008"></date>
     <abstract>
-      <t>This memo describes a configuration interface advertisement method for NETCONF device developers. In the proposal, the developers take a configuration interface definition information of target NETCONF devices. On their development environment, they generate stab classes to control the devices. The NETCONF device advertises their configuration interface by a WSDL file. The WSDL file describes message type of each NETCONF operation of the device. The WSDL file contains XML Schema in its types element and describes definition of the types definition used to configuration data. By this configuration interface advertisement, Network management System (NMS) developers can improve their development efficiency of the NMS.</t>
+      <t>This memo describes a configuration interface advertisement method
+for NETCONF device developers.  In the proposal, the developers take
+a configuration interface definition information of target NETCONF
+devices.  On their development environment, they generate stab
+classes to control the devices.  The NETCONF device advertises their
+configuration interface by a WSDL file.  The WSDL file describes
+message type of each NETCONF operation of the device.  The WSDL file
+contains XML Schema in its types element and describes definition of
+the types definition used to configuration data.  By this
+configuration interface advertisement, Network management System
+(NMS) developers can improve their development efficiency of the NMS.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-okita-netconf-advertisement-01"/>
 </reference>

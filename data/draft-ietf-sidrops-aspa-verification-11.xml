@@ -1,28 +1,36 @@
 <reference anchor="I-D.ietf-sidrops-aspa-verification" target="https://datatracker.ietf.org/doc/html/draft-ietf-sidrops-aspa-verification-11">
   <front>
     <title>BGP AS_PATH Verification Based on Resource Public Key Infrastructure (RPKI) Autonomous System Provider Authorization (ASPA) Objects</title>
-    <author fullname="Alexander Azimov" initials="A." surname="Azimov">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-sidrops-aspa-verification-11"/>
+    <author initials="A." surname="Azimov" fullname="Alexander Azimov">
       <organization>Yandex</organization>
     </author>
-    <author fullname="Eugene Bogomazov" initials="E." surname="Bogomazov">
+    <author initials="E." surname="Bogomazov" fullname="Eugene Bogomazov">
       <organization>Qrator Labs</organization>
     </author>
-    <author fullname="Randy Bush" initials="R." surname="Bush">
+    <author initials="R." surname="Bush" fullname="Randy Bush">
       <organization>Internet Initiative Japan &amp; Arrcus, Inc.</organization>
     </author>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
+    <author initials="K." surname="Patel" fullname="Keyur Patel">
       <organization>Arrcus</organization>
     </author>
-    <author fullname="Job Snijders" initials="J." surname="Snijders">
+    <author initials="J." surname="Snijders" fullname="Job Snijders">
       <organization>Fastly</organization>
     </author>
-    <author fullname="Kotikalapudi Sriram" initials="K." surname="Sriram">
+    <author initials="K." surname="Sriram" fullname="Kotikalapudi Sriram">
       <organization>USA National Institute of Standards and Technology</organization>
     </author>
-    <date year="2022" month="October" day="24"/>
+    <date day="24" month="October" year="2022"></date>
     <abstract>
-      <t>This document defines the semantics of an Autonomous System Provider Authorization object in the Resource Public Key Infrastructure to verify the Border Gateway Protocol (BGP) AS_PATH attribute of advertised routes. This type of AS_PATH verification is primarily intended for detection and mitigation of route leaks. It also to some degree provides protection against forged-origin prefix hijacks.</t>
+      <t>   This document defines the semantics of an Autonomous System Provider
+   Authorization object in the Resource Public Key Infrastructure to
+   verify the Border Gateway Protocol (BGP) AS_PATH attribute of
+   advertised routes.  This type of AS_PATH verification is primarily
+   intended for detection and mitigation of route leaks.  It also to
+   some degree provides protection against forged-origin prefix hijacks.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-sidrops-aspa-verification-11"/>
 </reference>

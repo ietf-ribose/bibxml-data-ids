@@ -1,13 +1,21 @@
 <reference anchor="I-D.ietf-ospf-mlinks" target="https://datatracker.ietf.org/doc/html/draft-ietf-ospf-mlinks-03">
   <front>
     <title>OSPF Multiple Area Links</title>
-    <author fullname="Dr. Patrick W. Murphy" initials="P. W." surname="Murphy">
-      <organization/>
-    </author>
-    <date year="2002" month="February" day="20"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-mlinks-03"/>
+    <author initials="P. W." surname="Murphy" fullname="Dr. Patrick W. Murphy"/>
+    <date day="20" month="February" year="2002"></date>
     <abstract>
-      <t>This memo describes an option to the OSPF Version 2 specification which allows multiple areas to share the same OSPF link. One area is always configured as the link's primary area. The link's remaining areas are termed secondary. Two border routers adjacent across the same secondary area may forward the area's intra-area traffic across the link. This option applies to standard areas, stub areas, and NSSAs. It works over any OSPF interface. Routers with this option configured are backward compatible with routers running the standard OSPF Version 2 compliant implementation as defined in RFC 2328. Please send comments to ospf@discuss.microsoft.com.</t>
+      <t>This memo describes an option to the OSPF Version 2 specification
+which allows multiple areas to share the same OSPF link. One area is
+always configured as the link's primary area. The link's remaining
+areas are termed secondary. Two border routers adjacent across the
+same secondary area may forward the area's intra-area traffic across
+the link. This option applies to standard areas, stub areas, and
+NSSAs. It works over any OSPF interface.  Routers with this option
+configured are backward compatible with routers running the standard
+OSPF Version 2 compliant implementation as defined in RFC 2328.
+Please send comments to ospf@discuss.microsoft.com.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-mlinks-03"/>
 </reference>

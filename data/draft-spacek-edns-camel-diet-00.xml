@@ -1,19 +1,23 @@
 <reference anchor="I-D.spacek-edns-camel-diet" target="https://datatracker.ietf.org/doc/html/draft-spacek-edns-camel-diet-00">
   <front>
     <title>Minimal EDNS compliance requirements</title>
-    <author fullname="Petr Špaček" initials="P." surname="Špaček">
+    <seriesInfo name="Internet-Draft" value="draft-spacek-edns-camel-diet-00"/>
+    <author initials="P." surname="Špaček" fullname="Petr Špaček">
       <organization>CZ.NIC</organization>
     </author>
-    <author fullname="Ólafur Guðmundsson" initials="O." surname="Guðmundsson">
+    <author initials="O." surname="Guðmundsson" fullname="Ólafur Guðmundsson">
       <organization>Cloudflare</organization>
     </author>
-    <author fullname="Ondřej Surý" initials="O." surname="Surý">
+    <author initials="O." surname="Surý" fullname="Ondřej Surý">
       <organization>ISC</organization>
     </author>
-    <date year="2018" month="March" day="21"/>
+    <date day="21" month="March" year="2018"></date>
     <abstract>
-      <t>DNS responders must either follow RFC 6891 by implementing EDNS or respond with RCODE=FORMERR to queries containing OPT record. Non- compliant implementations are not worth talking to.</t>
+      <t>   DNS responders must either follow RFC 6891 by implementing EDNS or
+   respond with RCODE=FORMERR to queries containing OPT record.  Non-
+   compliant implementations are not worth talking to.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-spacek-edns-camel-diet-00"/>
 </reference>

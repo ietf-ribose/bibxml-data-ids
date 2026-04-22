@@ -1,25 +1,45 @@
 <reference anchor="I-D.choi-dice-finegrained-dtls-security" target="https://datatracker.ietf.org/doc/html/draft-choi-dice-finegrained-dtls-security-01">
   <front>
     <title>Fine-grained Support of Security Services for Constrained Devices using DTLS</title>
-    <author fullname="Jaeduck Choi" initials="J." surname="Choi">
+    <seriesInfo name="Internet-Draft" value="draft-choi-dice-finegrained-dtls-security-01"/>
+    <author initials="J." surname="Choi" fullname="Jaeduck Choi">
       <organization>NSRI</organization>
     </author>
-    <author fullname="Gunhee Lee" initials="G." surname="Lee">
+    <author initials="G." surname="Lee" fullname="Gunhee Lee">
       <organization>NSRI</organization>
     </author>
-    <author fullname="Namhi Kang" initials="N." surname="Kang">
+    <author initials="N." surname="Kang" fullname="Namhi Kang">
       <organization>Duksung Women's University</organization>
     </author>
-    <author fullname="Seung Wook Jung" initials="S. W." surname="Jung">
+    <author initials="S. W." surname="Jung" fullname="Seung Wook Jung">
       <organization>Soongsil University</organization>
     </author>
-    <author fullname="Souhwan Jung" initials="S." surname="Jung">
+    <author initials="S." surname="Jung" fullname="Souhwan Jung">
       <organization>Soongsil University</organization>
     </author>
-    <date year="2015" month="March" day="24"/>
+    <date day="24" month="March" year="2015"></date>
     <abstract>
-      <t>This document proposes a method that can selectively apply application data encryption to the DTLS record layer. The CoAP used for resource-constrained devices defines the use of DTLS as a basic security mechanism, and CoAP standard specifies the use of AES_CCM that provides data integrity and confidentiality as a cipher suite for DTLS. However, not all CoAP messages require both data integrity and confidentiality. For example, in case of CoAP messages that include information for turning a light off at home or in a building, or simple ACK information, encryption might not be necessary because such information might not be useful to attackers. Furthermore, from the perspective of effective resource use of resource-constrained devices, reducing the computation load required to perform data encryption every time is necessary. This document describes the methods for CoAP nodes to establish DTLS security channels using the AES_CCM cipher suite, and to selectively apply the encryption function in the DTLS record layer by considering sensitivity to application data leakage.</t>
+      <t>   This document proposes a method that can selectively apply
+   application data encryption to the DTLS record layer. The CoAP used
+   for resource-constrained devices defines the use of DTLS as a basic
+   security mechanism, and CoAP standard specifies the use of AES_CCM
+   that provides data integrity and confidentiality as a cipher suite
+   for DTLS. However, not all CoAP messages require both data integrity
+   and confidentiality. For example, in case of CoAP messages that
+   include information for turning a light off at home or in a building,
+   or simple ACK information, encryption might not be necessary because
+   such information might not be useful to attackers. Furthermore, from
+   the perspective of effective resource use of resource-constrained
+   devices, reducing the computation load required to perform data
+   encryption every time is necessary. This document describes the
+   methods for CoAP nodes to establish DTLS security channels using the
+   AES_CCM cipher suite, and to selectively apply the encryption
+   function in the DTLS record layer by considering sensitivity to
+   application data leakage.
+
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-choi-dice-finegrained-dtls-security-01"/>
 </reference>

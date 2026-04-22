@@ -1,13 +1,20 @@
 <reference anchor="I-D.worley-trace" target="https://datatracker.ietf.org/doc/html/draft-worley-trace-00">
   <front>
     <title>SIP Tracing Facility</title>
-    <author fullname="Dale R. Worley" initials="D. R." surname="Worley">
+    <seriesInfo name="Internet-Draft" value="draft-worley-trace-00"/>
+    <author initials="D. R." surname="Worley" fullname="Dale R. Worley">
       <organization>Nortel Networks</organization>
     </author>
-    <date year="2009" month="March" day="3"/>
+    <date day="03" month="March" year="2009"></date>
     <abstract>
-      <t>This document defines a SIP option tag, "trace", to be used within SIP messages to request that SIP elements (both proxies and UASs) that receive the message reflect to the UAC the request they received and the response they gave by encapsulating the request and response in a provisional response. A new provisional response code "170" is defined to carry the request and response. This option tag is expected to be used solely for diagnostic purposes.</t>
+      <t>This document defines a SIP option tag, "trace", to be used within
+SIP messages to request that SIP elements (both proxies and UASs)
+that receive the message reflect to the UAC the request they received
+and the response they gave by encapsulating the request and response
+in a provisional response.  A new provisional response code "170" is
+defined to carry the request and response.  This option tag is
+expected to be used solely for diagnostic purposes.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-worley-trace-00"/>
 </reference>

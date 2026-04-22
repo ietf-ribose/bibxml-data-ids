@@ -1,19 +1,31 @@
 <reference anchor="I-D.huston-sidr-bogons" target="https://datatracker.ietf.org/doc/html/draft-huston-sidr-bogons-01">
   <front>
     <title>A Profile for Bogon Origin Attestations (BOAs)</title>
-    <author fullname="Geoff Huston" initials="G." surname="Huston">
+    <seriesInfo name="Internet-Draft" value="draft-huston-sidr-bogons-01"/>
+    <author initials="G." surname="Huston" fullname="Geoff Huston">
       <organization>APNIC</organization>
     </author>
-    <author fullname="Terry Manderson" initials="T." surname="Manderson">
+    <author initials="T." surname="Manderson" fullname="Terry Manderson">
       <organization>APNIC</organization>
     </author>
-    <author fullname="George G. Michaelson" initials="G. G." surname="Michaelson">
+    <author initials="G. G." surname="Michaelson" fullname="George G. Michaelson">
       <organization>APNIC</organization>
     </author>
-    <date year="2008" month="April" day="22"/>
+    <date day="22" month="April" year="2008"></date>
     <abstract>
-      <t>This document defines a standard profile for Bogon Origin Attestations (BOAs). A BOA is a digitally signed object that provides a means of verifying that an IP address block holder has not authorized any Autonomous System (AS) to originate routes that are equivalent to any of the addresses listed in the BOA, and also provides a means of verifying that BGP speaker is not using an AS as a BGP speaker without appropriate authority to use that AS. The proposed application of BOAs is intended to fit within the requirements for adding security measures to inter-domain routing, including the ability to support incremental and piecemeal deployment of such measures, and does not require any changes to the specification of BGP.</t>
+      <t>This document defines a standard profile for Bogon Origin
+Attestations (BOAs).  A BOA is a digitally signed object that
+provides a means of verifying that an IP address block holder has not
+authorized any Autonomous System (AS) to originate routes that are
+equivalent to any of the addresses listed in the BOA, and also
+provides a means of verifying that BGP speaker is not using an AS as
+a BGP speaker without appropriate authority to use that AS.  The
+proposed application of BOAs is intended to fit within the
+requirements for adding security measures to inter-domain routing,
+including the ability to support incremental and piecemeal deployment
+of such measures, and does not require any changes to the
+specification of BGP.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-huston-sidr-bogons-01"/>
 </reference>

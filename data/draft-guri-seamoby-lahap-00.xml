@@ -1,16 +1,30 @@
 <reference anchor="I-D.guri-seamoby-lahap" target="https://datatracker.ietf.org/doc/html/draft-guri-seamoby-lahap-00">
   <front>
     <title>Layer-2 aided mobility independent dormant host alerting protocol</title>
-    <author fullname="Sridhar Gurivireddy" initials="S." surname="Gurivireddy">
+    <seriesInfo name="Internet-Draft" value="draft-guri-seamoby-lahap-00"/>
+    <author initials="S." surname="Gurivireddy" fullname="Sridhar Gurivireddy">
       <organization>Alcatel USA</organization>
     </author>
-    <author fullname="Andrew Krywaniuk" initials="A." surname="Krywaniuk">
+    <author initials="A." surname="Krywaniuk" fullname="Andrew Krywaniuk">
       <organization>Alcatel USA</organization>
     </author>
-    <date year="2001" month="September" day="19"/>
+    <date day="19" month="September" year="2001"></date>
     <abstract>
-      <t>This document introduces a new paging protocol nick-named LAHAP, which makes use of layer 2 triggers to anticipate events related to paging in layer 2. LAHAP uses the architectural entities defined in RFC 3154 to support dormant mode in hosts connected to the Internet. LAHAP is not dependent on any mobility protocol. Tracking agent keeps track of the paging area of the HOST using layer 2 triggers. Dormant monitoring agent intercepts the traffic for the node and queries tracking agent for the last registered paging area. Dormant monitoring agent asks paging agent to page the host. The paging is done in the paging areas if available and on the subnet. The host deregisters its paging registration after entering into the active mode.</t>
+      <t>This document introduces a new paging protocol nick-named
+LAHAP, which makes use of layer 2 triggers to anticipate
+events related to paging in layer 2. LAHAP uses the
+architectural entities defined in RFC 3154 to support dormant
+mode in hosts connected to the Internet. LAHAP is not dependent
+on any mobility protocol. Tracking agent keeps track of the
+paging area of the HOST using layer 2 triggers. Dormant
+monitoring agent intercepts the traffic for the node and queries
+tracking agent for the last registered paging area. Dormant
+monitoring agent asks paging agent to page the host. The paging
+is done in the paging areas if available and on the subnet. The
+host deregisters its paging registration after entering into the
+active mode.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-guri-seamoby-lahap-00"/>
 </reference>

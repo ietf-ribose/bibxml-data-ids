@@ -1,28 +1,42 @@
 <reference anchor="I-D.csf-dhc-dynamic-shared-v4allocation" target="https://datatracker.ietf.org/doc/html/draft-csf-dhc-dynamic-shared-v4allocation-00">
   <front>
     <title>Dynamic Allocation of Shared IPv4 Addresses</title>
-    <author fullname="Yong Cui" initials="Y." surname="Cui">
+    <seriesInfo name="Internet-Draft" value="draft-csf-dhc-dynamic-shared-v4allocation-00"/>
+    <author initials="Y." surname="Cui" fullname="Yong Cui">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Qiong Sun" initials="Q." surname="Sun">
+    <author initials="Q." surname="Sun" fullname="Qiong Sun">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Ian Farrer" initials="I." surname="Farrer">
+    <author initials="I." surname="Farrer" fullname="Ian Farrer">
       <organization>Deutsche Telekom AG</organization>
     </author>
-    <author fullname="Yiu Lee" initials="Y." surname="Lee">
+    <author initials="Y." surname="Lee" fullname="Yiu Lee">
       <organization>Comcast</organization>
     </author>
-    <author fullname="Qi Sun" initials="Q." surname="Sun">
+    <author initials="Q." surname="Sun" fullname="Qi Sun">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Mohamed Boucadair" initials="M." surname="Boucadair">
+    <author initials="M." surname="Boucadair" fullname="Mohamed Boucadair">
       <organization>France Telecom</organization>
     </author>
-    <date year="2014" month="February" day="14"/>
+    <date day="14" month="February" year="2014"></date>
     <abstract>
-      <t>This memo describes the dynamic allocation of shared IPv4 addresses to clients using the DHCPv4 protocol. Address sharing allows a single IPv4 address to be allocated to multiple, active clients simultaneously, each client being differentiated by a unique set of L4 source ports. The changes necessary to existing DHCPv4 client and server behaviour are described and a new DHCPv4 option for provisioning clients with shared IPv4 addresses is included. Due to the nature of sharing IP addresses, there are necessarily some limitations to the applicability. This memo describes those limitations and recommends suitable architectures and technologies where address sharing may be utilized.</t>
+      <t>   This memo describes the dynamic allocation of shared IPv4 addresses
+   to clients using the DHCPv4 protocol.  Address sharing allows a
+   single IPv4 address to be allocated to multiple, active clients
+   simultaneously, each client being differentiated by a unique set of
+   L4 source ports.  The changes necessary to existing DHCPv4 client and
+   server behaviour are described and a new DHCPv4 option for
+   provisioning clients with shared IPv4 addresses is included.
+
+   Due to the nature of sharing IP addresses, there are necessarily some
+   limitations to the applicability.  This memo describes those
+   limitations and recommends suitable architectures and technologies
+   where address sharing may be utilized.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-csf-dhc-dynamic-shared-v4allocation-00"/>
 </reference>

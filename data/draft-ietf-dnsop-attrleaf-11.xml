@@ -1,13 +1,25 @@
 <reference anchor="I-D.ietf-dnsop-attrleaf" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-attrleaf-11">
   <front>
     <title>DNS Scoped Data Through 'underscore' Naming of Attribute Leaves</title>
-    <author fullname="Dave Crocker" initials="D." surname="Crocker">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-attrleaf-11"/>
+    <author initials="D." surname="Crocker" fullname="Dave Crocker">
       <organization>Brandenburg InternetWorking</organization>
     </author>
-    <date year="2018" month="July" day="15"/>
+    <date day="15" month="July" year="2018"></date>
     <abstract>
-      <t>Formally, any DNS resource record may occur under any domain name. However some services have defined an operational convention, which applies to DNS leaf nodes that are under a DNS branch having one or more reserved node names, each beginning with an _underscore. The underscored naming construct defines a semantic scope for DNS record types that are associated with the parent domain, above the underscored branch. This specification explores the nature of this DNS usage and defines the "DNS Global Underscore Scoped Entry Registry" with IANA. The purpose of the Underscore registry is to avoid collisions resulting from the use of the same underscore-based name, for different services.</t>
+      <t>   Formally, any DNS resource record may occur under any domain name.
+   However some services have defined an operational convention, which
+   applies to DNS leaf nodes that are under a DNS branch having one or
+   more reserved node names, each beginning with an _underscore.  The
+   underscored naming construct defines a semantic scope for DNS record
+   types that are associated with the parent domain, above the
+   underscored branch.  This specification explores the nature of this
+   DNS usage and defines the "DNS Global Underscore Scoped Entry
+   Registry" with IANA.  The purpose of the Underscore registry is to
+   avoid collisions resulting from the use of the same underscore-based
+   name, for different services.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-attrleaf-11"/>
 </reference>

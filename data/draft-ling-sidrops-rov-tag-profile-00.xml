@@ -1,25 +1,35 @@
 <reference anchor="I-D.ling-sidrops-rov-tag-profile" target="https://datatracker.ietf.org/doc/html/draft-ling-sidrops-rov-tag-profile-00">
   <front>
     <title>A Profile for ROV Deployment Transparency</title>
-    <author fullname="Sitong Ling" initials="S." surname="Ling">
+    <seriesInfo name="Internet-Draft" value="draft-ling-sidrops-rov-tag-profile-00"/>
+    <author initials="S." surname="Ling" fullname="Sitong Ling">
       <organization>Zhongguancun Lab</organization>
     </author>
-    <author fullname="Ke Xu" initials="K." surname="Xu">
+    <author initials="K." surname="Xu" fullname="Ke Xu">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Li Qi" initials="L." surname="Qi">
+    <author initials="L." surname="Qi" fullname="Li Qi">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Zhuotao liu" initials="Z." surname="liu">
+    <author initials="Z." surname="liu" fullname="Zhuotao liu">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Xiaoliang Wang" initials="X." surname="Wang">
+    <author initials="X." surname="Wang" fullname="Xiaoliang Wang">
       <organization>Capital Normal University</organization>
     </author>
-    <date year="2026" month="February" day="5"/>
+    <date day="05" month="February" year="2026"></date>
     <abstract>
-      <t>This document defines a Cryptographic Message Syntax (CMS) protected content type for ROV Deployment Transparency (ROV_TAG) objects for use with the Resource Public Key Infrastructure (RPKI). An ROV_TAG is a digitally signed object through which an Autonomous System (AS) that has deployed Route Origin Validation (ROV) can declare its ROV deployment status. When validated, an ROV_TAG's eContent can be used by ASes to identify which ASes have deployed ROV, enabling secure path selection and optimized ROV validation that reduces redundant validation operations in partial ROV deployment scenarios.</t>
+      <t>   This document defines a Cryptographic Message Syntax (CMS) protected
+   content type for ROV Deployment Transparency (ROV_TAG) objects for
+   use with the Resource Public Key Infrastructure (RPKI).  An ROV_TAG
+   is a digitally signed object through which an Autonomous System (AS)
+   that has deployed Route Origin Validation (ROV) can declare its ROV
+   deployment status.  When validated, an ROV_TAG's eContent can be used
+   by ASes to identify which ASes have deployed ROV, enabling secure
+   path selection and optimized ROV validation that reduces redundant
+   validation operations in partial ROV deployment scenarios.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ling-sidrops-rov-tag-profile-00"/>
 </reference>

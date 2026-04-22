@@ -1,13 +1,27 @@
 <reference anchor="I-D.whittle-ivip-drtm" target="https://datatracker.ietf.org/doc/html/draft-whittle-ivip-drtm-01">
   <front>
     <title>DRTM - Distributed Real Time Mapping for Ivip and LISP</title>
-    <author fullname="Robin Whittle" initials="R." surname="Whittle">
+    <seriesInfo name="Internet-Draft" value="draft-whittle-ivip-drtm-01"/>
+    <author initials="R." surname="Whittle" fullname="Robin Whittle">
       <organization>First Principles</organization>
     </author>
-    <date year="2010" month="March" day="6"/>
+    <date day="06" month="March" year="2010"></date>
     <abstract>
-      <t>Distributed Real Time Mapping (DRTM) is intended for Ivip, but may be useful for other Core-Edge Separation solutions to the routing scaling problem, such as LISP. End-user networks - or other organizations they appoint - control the mapping of each or their one or more micronets (ranges of "edge" space with a single mapping) via sending commands to the organizations from whom they lease this space. This is conveyed to all ITRs which need it in "real-time" such as a second or two, globally. There is no need for any single set of servers to handle all the mapping updates, or to store all the mapping databases for all the MABs (Mapped Address Block) of "edge" space. Networks with ITRs use purely caching Resolving query servers (QSRs), in contrast to previous Ivip arrangements which required them to run a query server which contained the real-time updated full mapping database for all MABs.</t>
+      <t>Distributed Real Time Mapping (DRTM) is intended for Ivip, but may be
+useful for other Core-Edge Separation solutions to the routing
+scaling problem, such as LISP.  End-user networks - or other
+organizations they appoint - control the mapping of each or their one
+or more micronets (ranges of "edge" space with a single mapping) via
+sending commands to the organizations from whom they lease this
+space.  This is conveyed to all ITRs which need it in "real-time"
+such as a second or two, globally.  There is no need for any single
+set of servers to handle all the mapping updates, or to store all the
+mapping databases for all the MABs (Mapped Address Block) of "edge"
+space.  Networks with ITRs use purely caching Resolving query servers
+(QSRs), in contrast to previous Ivip arrangements which required them
+to run a query server which contained the real-time updated full
+mapping database for all MABs.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-whittle-ivip-drtm-01"/>
 </reference>

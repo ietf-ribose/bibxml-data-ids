@@ -1,13 +1,24 @@
 <reference anchor="I-D.calvert-concast-svc" target="https://datatracker.ietf.org/doc/html/draft-calvert-concast-svc-02">
   <front>
     <title>Internet Concast Service</title>
-    <author fullname="Ken Calvert" initials="K." surname="Calvert">
-      <organization/>
-    </author>
-    <date year="2001" month="July" day="19"/>
+    <seriesInfo name="Internet-Draft" value="draft-calvert-concast-svc-02"/>
+    <author initials="K." surname="Calvert" fullname="Ken Calvert"/>
+    <date day="19" month="July" year="2001"></date>
     <abstract>
-      <t>Concast is a many-to-one best-effort network service that allows a receiver to treat a group of senders as a single entity, in much the same way that IP multicast allows a sender to treat a group of receivers as one. Each concast datagram delivered to a receiver is derived from (possibly many) datagrams sent by different members of the concast group to that receiver, according to a 'merge specification'. Concast allows the semantics of this merging operation to vary to suit the needs of different applications. This document describes the concast service and presents a framework for defining merge semantics. It also describes the processing of concast datagrams by concast-capable routers and hosts. The concast signaling protocol (CSP), an integral part of the concast service, is specified in a separate document.</t>
+      <t>Concast is a many-to-one best-effort network service that allows a
+receiver to treat a group of senders as a single entity, in much the
+same way that IP multicast allows a sender to treat a group of
+receivers as one.  Each concast datagram delivered to a receiver is
+derived from (possibly many) datagrams sent by different members of
+the concast group to that receiver, according to a 'merge
+specification'.  Concast allows the semantics of this merging
+operation to vary to suit the needs of different applications.  This
+document describes the concast service and presents a framework for
+defining merge semantics.  It also describes the processing of
+concast datagrams by concast-capable routers and hosts.  The concast
+signaling protocol (CSP), an integral part of the concast service, is
+specified in a separate document.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-calvert-concast-svc-02"/>
 </reference>

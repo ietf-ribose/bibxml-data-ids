@@ -1,13 +1,14 @@
 <reference anchor="I-D.ietf-tsvwg-slowstart" target="https://datatracker.ietf.org/doc/html/draft-ietf-tsvwg-slowstart-00">
   <front>
     <title>Limited Slow-Start for TCP with Large Congestion Windows</title>
-    <author fullname="Sally Floyd" initials="S." surname="Floyd">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-slowstart-00"/>
+    <author initials="S." surname="Floyd" fullname="Sally Floyd">
       <organization>ICSI</organization>
     </author>
-    <date year="2003" month="July" day="25"/>
+    <date day="25" month="July" year="2003"></date>
     <abstract>
-      <t>This document describes an optional modification for TCP's slow-start for use with TCP connections with large congestion windows. For TCP connections that are able to use congestion windows of thousands (or tens of thousands) of MSS-sized segments (for MSS the sender's MAXIMUM SEGMENT SIZE), the current slow-start procedure can result in increasing the congestion window by thousands of segments in a single round-trip time. Such an increase can easily result in thousands of packets being dropped in one round-trip time. This is often counter-productive for the TCP flow itself, and is also hard on the rest of the traffic sharing the congested link. This note describes Limited Slow-Start as an optional mechanism for limiting the number of segments by which the congestion window is increased for one window of data during slow-start, in order to improve performance for TCP connections with large congestion windows. This memo defines an Experimental Protocol for the Internet community.</t>
+      <t>This document describes an optional modification for TCP's slow-start for use with TCP connections with large congestion windows.  For TCP connections that are able to use congestion windows of thousands (or tens of thousands) of MSS-sized segments (for MSS the sender's MAXIMUM SEGMENT SIZE), the current slow-start procedure can result in increasing the congestion window by thousands of segments in a single round-trip time.  Such an increase can easily result in thousands of packets being dropped in one round-trip time.  This is often counter-productive for the TCP flow itself, and is also hard on the rest of the traffic sharing the congested link.  This note describes Limited Slow-Start as an optional mechanism for limiting the number of segments by which the congestion window is increased for one window of data during slow-start, in order to improve performance for TCP connections with large congestion windows.  This memo defines an Experimental Protocol for the Internet community.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-slowstart-00"/>
 </reference>

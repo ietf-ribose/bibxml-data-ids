@@ -1,13 +1,23 @@
 <reference anchor="I-D.ietf-6man-grand" target="https://datatracker.ietf.org/doc/html/draft-ietf-6man-grand-06">
   <front>
     <title>Gratuitous Neighbor Discovery: Creating Neighbor Cache Entries on First-Hop Routers</title>
-    <author fullname="Jen Linkova" initials="J." surname="Linkova">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-6man-grand-06"/>
+    <author initials="J." surname="Linkova" fullname="Jen Linkova">
       <organization>Google</organization>
     </author>
-    <date year="2021" month="June" day="30"/>
+    <date day="30" month="June" year="2021"></date>
     <abstract>
-      <t>Neighbor Discovery (RFC4861) is used by IPv6 nodes to determine the link-layer addresses of neighboring nodes as well as to discover and maintain reachability information. This document updates RFC4861 to allow routers to proactively create a Neighbor Cache entry when a new IPv6 address is assigned to a node. It also updates RFC4861 and recommends nodes to send unsolicited Neighbor Advertisements upon assigning a new IPv6 address. The proposed change will minimize the delay and packet loss when a node initiates connections to an off- link destination from a new IPv6 address.</t>
+      <t>   Neighbor Discovery (RFC4861) is used by IPv6 nodes to determine the
+   link-layer addresses of neighboring nodes as well as to discover and
+   maintain reachability information.  This document updates RFC4861 to
+   allow routers to proactively create a Neighbor Cache entry when a new
+   IPv6 address is assigned to a node.  It also updates RFC4861 and
+   recommends nodes to send unsolicited Neighbor Advertisements upon
+   assigning a new IPv6 address.  The proposed change will minimize the
+   delay and packet loss when a node initiates connections to an off-
+   link destination from a new IPv6 address.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-6man-grand-06"/>
 </reference>

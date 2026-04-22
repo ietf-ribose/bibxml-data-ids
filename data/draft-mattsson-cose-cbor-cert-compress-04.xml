@@ -1,25 +1,37 @@
 <reference anchor="I-D.mattsson-cose-cbor-cert-compress" target="https://datatracker.ietf.org/doc/html/draft-mattsson-cose-cbor-cert-compress-04">
   <front>
     <title>CBOR Encoding of X.509 Certificates (CBOR Certificates)</title>
-    <author fullname="Shahid Raza" initials="S." surname="Raza">
+    <seriesInfo name="Internet-Draft" value="draft-mattsson-cose-cbor-cert-compress-04"/>
+    <author initials="S." surname="Raza" fullname="Shahid Raza">
       <organization>RISE AB</organization>
     </author>
-    <author fullname="Joel Höglund" initials="J." surname="Höglund">
+    <author initials="J." surname="Höglund" fullname="Joel Höglund">
       <organization>RISE AB</organization>
     </author>
-    <author fullname="Göran Selander" initials="G." surname="Selander">
+    <author initials="G." surname="Selander" fullname="Göran Selander">
       <organization>Ericsson AB</organization>
     </author>
-    <author fullname="John Preuß Mattsson" initials="J. P." surname="Mattsson">
+    <author initials="J. P." surname="Mattsson" fullname="John Preuß Mattsson">
       <organization>Ericsson AB</organization>
     </author>
-    <author fullname="Martin Furuhed" initials="M." surname="Furuhed">
+    <author initials="M." surname="Furuhed" fullname="Martin Furuhed">
       <organization>Nexus Group</organization>
     </author>
-    <date year="2020" month="November" day="24"/>
+    <date day="24" month="November" year="2020"></date>
     <abstract>
-      <t>This document specifies a CBOR encoding of PKIX profiled X.509 Certificates. The resulting certificates are called "CBOR certificates". The CBOR encoding supports a large subset of RFC 5280, while at the same time producing very small sizes for certificates compatible with RFC 7925. The CBOR encoding can be used to compress DER encoded X.509 certificates and to encode natively signed certificates. When uses to compress DER encoded X.509 certificates, the CBOR encoding can in many cases compress RFC 7925 profiled certificates with over 50%. The document also specifies COSE headers for CBOR certificates as well as a TLS certificate type for CBOR certificates.</t>
+      <t>   This document specifies a CBOR encoding of PKIX profiled X.509
+   Certificates.  The resulting certificates are called "CBOR
+   certificates".  The CBOR encoding supports a large subset of RFC
+   5280, while at the same time producing very small sizes for
+   certificates compatible with RFC 7925.  The CBOR encoding can be used
+   to compress DER encoded X.509 certificates and to encode natively
+   signed certificates.  When uses to compress DER encoded X.509
+   certificates, the CBOR encoding can in many cases compress RFC 7925
+   profiled certificates with over 50%. The document also specifies COSE
+   headers for CBOR certificates as well as a TLS certificate type for
+   CBOR certificates.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mattsson-cose-cbor-cert-compress-04"/>
 </reference>

@@ -1,25 +1,37 @@
 <reference anchor="I-D.haiyangjiang-i2bgp" target="https://datatracker.ietf.org/doc/html/draft-haiyangjiang-i2bgp-01">
   <front>
     <title>Desensitize Intra-domain Information for Inter-domain Routing</title>
-    <author fullname="HaiyangJiang" initials="" surname="HaiyangJiang">
+    <seriesInfo name="Internet-Draft" value="draft-haiyangjiang-i2bgp-01"/>
+    <author surname="HaiyangJiang" fullname="HaiyangJiang">
       <organization>Beijing University of Posts and Telecommunications</organization>
     </author>
-    <author fullname="Peizhuang Cong" initials="P." surname="Cong">
+    <author initials="P." surname="Cong" fullname="Peizhuang Cong">
       <organization>Beijing University of Posts and Telecommunications</organization>
     </author>
-    <author fullname="Lei Wang" initials="L." surname="Wang">
+    <author initials="L." surname="Wang" fullname="Lei Wang">
       <organization>Beijing University of Posts and Telecommunications</organization>
     </author>
-    <author fullname="Yuchao Zhang" initials="Y." surname="Zhang">
+    <author initials="Y." surname="Zhang" fullname="Yuchao Zhang">
       <organization>Beijing University of Posts and Telecommunications</organization>
     </author>
-    <author fullname="Wendong Wang" initials="W." surname="Wang">
+    <author initials="W." surname="Wang" fullname="Wendong Wang">
       <organization>Beijing University of Posts and Telecommunications</organization>
     </author>
-    <date year="2022" month="November" day="16"/>
+    <date day="16" month="November" year="2022"></date>
     <abstract>
-      <t>Border Gateway Protocol (BGP) is a routing protocol for autonomous systems running on TCP. It is currently the only protocol capable of handling multiple connections between unrelated routing domains, such as the size of the Internet. BGP is built on the experience of EGP. The main function of BGP system is to exchange network access information with other BGP systems. However, it cannot fully utilizethe complete information in the domain to achieve the optimal decision. This document proposes I2BGP, which describes how to obtain desensitization information in the domain to optimize routing decisions.</t>
+      <t>   Border Gateway Protocol (BGP) is a routing protocol for autonomous
+   systems running on TCP.  It is currently the only protocol capable of
+   handling multiple connections between unrelated routing domains, such
+   as the size of the Internet.  BGP is built on the experience of EGP.
+
+   The main function of BGP system is to exchange network access
+   information with other BGP systems.  However, it cannot fully
+   utilizethe complete information in the domain to achieve the optimal
+   decision.  This document proposes I2BGP, which describes how to
+   obtain desensitization information in the domain to optimize routing
+   decisions.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-haiyangjiang-i2bgp-01"/>
 </reference>

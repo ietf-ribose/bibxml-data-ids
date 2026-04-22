@@ -1,28 +1,44 @@
 <reference anchor="I-D.sun-softwire-lw4over6-radext" target="https://datatracker.ietf.org/doc/html/draft-sun-softwire-lw4over6-radext-01">
   <front>
     <title>Radius Extension for Lightweight 4over6</title>
-    <author fullname="Chongfeng Xie" initials="C." surname="Xie">
+    <seriesInfo name="Internet-Draft" value="draft-sun-softwire-lw4over6-radext-01"/>
+    <author initials="C." surname="Xie" fullname="Chongfeng Xie">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Qi Sun" initials="Q." surname="Sun">
+    <author initials="Q." surname="Sun" fullname="Qi Sun">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Qiong Sun" initials="Q." surname="Sun">
+    <author initials="Q." surname="Sun" fullname="Qiong Sun">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Cathy Zhou" initials="C." surname="Zhou">
+    <author initials="C." surname="Zhou" fullname="Cathy Zhou">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Tina Tsou (Ting ZOU)" initials="T." surname="Tsou">
+    <author initials="T." surname="Tsou" fullname="Tina Tsou (Ting ZOU)">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="ZiLong Liu" initials="Z." surname="Liu">
+    <author initials="Z." surname="Liu" fullname="ZiLong Liu">
       <organization>Tsinghua University</organization>
     </author>
-    <date year="2014" month="March" day="6"/>
+    <date day="06" month="March" year="2014"></date>
     <abstract>
-      <t>lightweight 4over6(lw4over6) [I-D.ietf-softwire-lw4over6] is an extension to DS-Lite in which the amount of state maintained in lwAFTR has been reduced to per-subscriber-level. The lwB4 needs to be provisioned with the public IPv4 address and port set it is allowed to use. The DHCPv4 over DHCPv6 Transport [I.D-ietf-dhc- dhcpv4-over-dhcpv6] and Dynamic Host Configuration Protocol (DHCP) Option for Port Set [I.D-sun-dhc-port-set-option] can be used for lwB4 to provison with the public IPv4 address and port set. However, in many networks, the configuration information may be stored in Authentication Authorization and Accounting (AAA) servers while user configuration is mainly from Broadband Network Gateway (BNG). This document defines a Remote Authentication Dial In User Service (RADIUS) attribute that carries lightweight 4over6 configuration information from AAA server to BNG.</t>
+      <t>   lightweight 4over6(lw4over6) [I-D.ietf-softwire-lw4over6] is an
+   extension to DS-Lite in which the amount of state maintained in
+   lwAFTR has been reduced to per-subscriber-level.  The lwB4 needs to
+   be provisioned with the public IPv4 address and port set it is
+   allowed to use.  The DHCPv4 over DHCPv6 Transport [I.D-ietf-dhc-
+   dhcpv4-over-dhcpv6] and Dynamic Host Configuration Protocol (DHCP)
+   Option for Port Set [I.D-sun-dhc-port-set-option] can be used for
+   lwB4 to provison with the public IPv4 address and port set.
+
+   However, in many networks, the configuration information may be
+   stored in Authentication Authorization and Accounting (AAA) servers
+   while user configuration is mainly from Broadband Network Gateway
+   (BNG).  This document defines a Remote Authentication Dial In User
+   Service (RADIUS) attribute that carries lightweight 4over6
+   configuration information from AAA server to BNG.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sun-softwire-lw4over6-radext-01"/>
 </reference>

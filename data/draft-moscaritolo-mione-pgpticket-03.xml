@@ -1,16 +1,26 @@
 <reference anchor="I-D.moscaritolo-mione-pgpticket" target="https://datatracker.ietf.org/doc/html/draft-moscaritolo-mione-pgpticket-03">
   <front>
     <title>PGPticket</title>
-    <author fullname="Vinnie Moscaritolo" initials="V." surname="Moscaritolo">
+    <seriesInfo name="Internet-Draft" value="draft-moscaritolo-mione-pgpticket-03"/>
+    <author initials="V." surname="Moscaritolo" fullname="Vinnie Moscaritolo">
       <organization>Apple Computer Corp.</organization>
     </author>
-    <author fullname="Antonino N. Mione" initials="A. N." surname="Mione">
+    <author initials="A. N." surname="Mione" fullname="Antonino N. Mione">
       <organization>Rutgers University Computing Services</organization>
     </author>
-    <date year="1999" month="August" day="17"/>
+    <date day="17" month="August" year="1999"></date>
     <abstract>
-      <t>OpenPGP specifies message formats and certificate formats used for exchange of encrypted and/or authenticated objects. This document discusses methods of extending OpenPGP's message formats to support an authorization system. This system would use public key cryptography to authenticate a user to a server and establish the user's access permissions. The concept is that the user acquires a ticket signed by some issuer that specifies what they are entitled to do. That ticket is then submitted to a server. The server uses a challenge/response method to verify that the holder really has the matching private key. The server then allows the access specified.</t>
+      <t>OpenPGP specifies message formats and certificate formats used for
+exchange of encrypted and/or authenticated objects. This document
+discusses methods of extending OpenPGP's message formats to support
+an authorization system. This system would use public key
+cryptography to authenticate a user to a server and establish the
+user's access permissions. The concept is that the user acquires a
+ticket signed by some issuer that specifies what they are entitled to
+do. That ticket is then submitted to a server. The server uses a
+challenge/response method to verify that the holder really has the
+matching private key. The server then allows the access specified.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-moscaritolo-mione-pgpticket-03"/>
 </reference>

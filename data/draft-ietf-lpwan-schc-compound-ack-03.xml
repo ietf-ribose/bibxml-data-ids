@@ -1,28 +1,39 @@
 <reference anchor="I-D.ietf-lpwan-schc-compound-ack" target="https://datatracker.ietf.org/doc/html/draft-ietf-lpwan-schc-compound-ack-03">
   <front>
     <title>SCHC Compound ACK</title>
-    <author fullname="Juan-Carlos Zúñiga" initials="J. C." surname="Zúñiga">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-lpwan-schc-compound-ack-03"/>
+    <author initials="J. C." surname="Zúñiga" fullname="Juan-Carlos Zúñiga">
       <organization>SIGFOX</organization>
     </author>
-    <author fullname="Carles Gomez" initials="C." surname="Gomez">
+    <author initials="C." surname="Gomez" fullname="Carles Gomez">
       <organization>Universitat Politècnica de Catalunya</organization>
     </author>
-    <author fullname="Sergio Aguilar" initials="S." surname="Aguilar">
+    <author initials="S." surname="Aguilar" fullname="Sergio Aguilar">
       <organization>Universitat Politècnica de Catalunya</organization>
     </author>
-    <author fullname="Laurent Toutain" initials="L." surname="Toutain">
+    <author initials="L." surname="Toutain" fullname="Laurent Toutain">
       <organization>IMT-Atlantique</organization>
     </author>
-    <author fullname="Sandra Cespedes" initials="S." surname="Cespedes">
+    <author initials="S." surname="Cespedes" fullname="Sandra Cespedes">
       <organization>NIC Labs, Universidad de Chile</organization>
     </author>
-    <author fullname="Diego S. Wistuba La Torre" initials="D. S. W. L." surname="Torre">
+    <author initials="D. S. W. L." surname="Torre" fullname="Diego S. Wistuba La Torre">
       <organization>NIC Labs, Universidad de Chile</organization>
     </author>
-    <date year="2022" month="February" day="9"/>
+    <date day="09" month="February" year="2022"></date>
     <abstract>
-      <t>The present document describes an extension to the SCHC (Static Context Header Compression and fragmentation) protocol [RFC8724]. It defines a SCHC Compound ACK message format, which is intended to reduce the number of response transmissions (i.e., SCHC ACKs) by accumulating bitmaps of several windows in a single SCHC message (i.e., the SCHC Compound ACK). The message format is generic, and can be used, for instance, by any of the four LWPAN technologies defined in [RFC8376], being Sigfox, LoRaWAN, NB-IoT and IEEE 802.15.4w.</t>
+      <t>   The present document describes an extension to the SCHC (Static
+   Context Header Compression and fragmentation) protocol [RFC8724].  It
+   defines a SCHC Compound ACK message format, which is intended to
+   reduce the number of response transmissions (i.e., SCHC ACKs) by
+   accumulating bitmaps of several windows in a single SCHC message
+   (i.e., the SCHC Compound ACK).
+
+   The message format is generic, and can be used, for instance, by any
+   of the four LWPAN technologies defined in [RFC8376], being Sigfox,
+   LoRaWAN, NB-IoT and IEEE 802.15.4w.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-lpwan-schc-compound-ack-03"/>
 </reference>

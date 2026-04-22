@@ -1,22 +1,39 @@
 <reference anchor="I-D.wu-l3sm-rfc8049bis" target="https://datatracker.ietf.org/doc/html/draft-wu-l3sm-rfc8049bis-00">
   <front>
     <title>YANG Data Model for L3VPN Service Delivery</title>
-    <author fullname="Qin Wu" initials="Q." surname="Wu">
+    <seriesInfo name="Internet-Draft" value="draft-wu-l3sm-rfc8049bis-00"/>
+    <author initials="Q." surname="Wu" fullname="Qin Wu">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Stephane Litkowski" initials="S." surname="Litkowski">
+    <author initials="S." surname="Litkowski" fullname="Stephane Litkowski">
       <organization>Orange Business Services</organization>
     </author>
-    <author fullname="Luis Tomotaki" initials="L." surname="Tomotaki">
+    <author initials="L." surname="Tomotaki" fullname="Luis Tomotaki">
       <organization>Verizon</organization>
     </author>
-    <author fullname="Kenichi Ogaki" initials="K." surname="Ogaki">
+    <author initials="K." surname="Ogaki" fullname="Kenichi Ogaki">
       <organization>KDDI Corporation</organization>
     </author>
-    <date year="2017" month="June" day="22"/>
+    <date day="22" month="June" year="2017"></date>
     <abstract>
-      <t>This document defines a YANG data model that can be used for communication between customers and network operators and to deliver a Layer 3 provider-provisioned VPN service. This document is limited to BGP PE-based VPNs as described in RFCs 4026, 4110, and 4364. This model is intended to be instantiated at the management system to deliver the overall service. It is not a configuration model to be used directly on network elements. This model provides an abstracted view of the Layer 3 IP VPN service configuration components. It will be up to the management system to take this model as input and use specific configuration models to configure the different network elements to deliver the service. How the configuration of network elements is done is out of scope for this document. If approved, this document obsoletes RFC 8049. The changes are a series of small fixes to the YANG module, and some clarifications to the text.</t>
+      <t>   This document defines a YANG data model that can be used for
+   communication between customers and network operators and to deliver
+   a Layer 3 provider-provisioned VPN service.  This document is limited
+   to BGP PE-based VPNs as described in RFCs 4026, 4110, and 4364.  This
+   model is intended to be instantiated at the management system to
+   deliver the overall service.  It is not a configuration model to be
+   used directly on network elements.  This model provides an abstracted
+   view of the Layer 3 IP VPN service configuration components.  It will
+   be up to the management system to take this model as input and use
+   specific configuration models to configure the different network
+   elements to deliver the service.  How the configuration of network
+   elements is done is out of scope for this document.
+
+   If approved, this document obsoletes RFC 8049.  The changes are a
+   series of small fixes to the YANG module, and some clarifications to
+   the text.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wu-l3sm-rfc8049bis-00"/>
 </reference>

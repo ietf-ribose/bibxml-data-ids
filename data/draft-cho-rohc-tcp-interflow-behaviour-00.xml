@@ -1,13 +1,23 @@
 <reference anchor="I-D.cho-rohc-tcp-interflow-behaviour" target="https://datatracker.ietf.org/doc/html/draft-cho-rohc-tcp-interflow-behaviour-00">
   <front>
     <title>Statistical Inter-flow Field Behaviour for Context Replication in ROHC-TCP</title>
-    <author fullname="Chia Yuan Cho" initials="C. Y." surname="Cho">
-      <organization/>
-    </author>
-    <date year="2004" month="February" day="12"/>
+    <seriesInfo name="Internet-Draft" value="draft-cho-rohc-tcp-interflow-behaviour-00"/>
+    <author initials="C. Y." surname="Cho" fullname="Chia Yuan Cho"/>
+    <date day="12" month="February" year="2004"></date>
     <abstract>
-      <t>Context replication increases header compression gains by reducing the redundancy between flows via efficient replicate (IR-CR) packets. The optimum design of IR-CR packet formats requires elaborate understanding of the inter-flow redundancy. As context replication is most well-suited for TCP, this document presents a statistical analysis of TCP/IP inter-flow field behaviour. Based on the analysis, recommendations on ROHC-TCP packet format specifications for context replication are made. It is also shown that inter-flow field behaviour is inherently and significantly asymmetrical, and various ways of handling it are considered. Finally, based on the inter-flow behaviour of TCP Window field, it is noted that current encoding methods do not compress it efficiently.</t>
+      <t>   Context replication increases header compression gains by reducing 
+   the redundancy between flows via efficient replicate (IR-CR) packets. 
+   The optimum design of IR-CR packet formats requires elaborate    
+   understanding of the inter-flow redundancy. As context replication is 
+   most well-suited for TCP, this document presents a statistical 
+   analysis of TCP/IP inter-flow field behaviour. Based on the analysis, 
+   recommendations on ROHC-TCP packet format specifications for context 
+   replication are made. It is also shown that inter-flow field 
+   behaviour is inherently and significantly asymmetrical, and various 
+   ways of handling it are considered. Finally, based on the inter-flow 
+   behaviour of TCP Window field, it is noted that current encoding 
+   methods do not compress it efficiently.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-cho-rohc-tcp-interflow-behaviour-00"/>
 </reference>

@@ -1,28 +1,41 @@
 <reference anchor="I-D.ietf-bier-frr" target="https://datatracker.ietf.org/doc/html/draft-ietf-bier-frr-07">
   <front>
     <title>BIER Fast ReRoute</title>
-    <author fullname="Huaimo Chen" initials="H." surname="Chen">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bier-frr-07"/>
+    <author initials="H." surname="Chen" fullname="Huaimo Chen">
       <organization>Futurewei</organization>
     </author>
-    <author fullname="Mike McBride" initials="M." surname="McBride">
+    <author initials="M." surname="McBride" fullname="Mike McBride">
       <organization>Futurewei</organization>
     </author>
-    <author fullname="Steffen Lindner" initials="S." surname="Lindner">
+    <author initials="S." surname="Lindner" fullname="Steffen Lindner">
       <organization>University of Tuebingen</organization>
     </author>
-    <author fullname="Michael Menth" initials="M." surname="Menth">
+    <author initials="M." surname="Menth" fullname="Michael Menth">
       <organization>University of Tuebingen</organization>
     </author>
-    <author fullname="Aijun Wang" initials="A." surname="Wang">
+    <author initials="A." surname="Wang" fullname="Aijun Wang">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Gyan Mishra" initials="G. S." surname="Mishra">
+    <author initials="G. S." surname="Mishra" fullname="Gyan Mishra">
       <organization>Verizon Inc.</organization>
     </author>
-    <date year="2025" month="February" day="24"/>
+    <date day="24" month="February" year="2025"></date>
     <abstract>
-      <t>This document describes a mechanism for Fast Reroute (FRR) in Bit Index Explicit Replication (BIER) networks. The proposed solution enhances the resiliency of BIER by providing a method to quickly reroute traffic in the event of a link or node failure, thereby minimizing packet loss and service disruption. The document details the procedures for detecting failures and selecting backup paths within the BIER domain, ensuring that multicast traffic continues to reach its intended destinations without requiring per-flow state or additional signaling. This FRR mechanism is designed to integrate seamlessly with existing BIER operations, offering a robust solution for improving network reliability.</t>
+      <t>   This document describes a mechanism for Fast Reroute (FRR) in Bit
+   Index Explicit Replication (BIER) networks.  The proposed solution
+   enhances the resiliency of BIER by providing a method to quickly
+   reroute traffic in the event of a link or node failure, thereby
+   minimizing packet loss and service disruption.  The document details
+   the procedures for detecting failures and selecting backup paths
+   within the BIER domain, ensuring that multicast traffic continues to
+   reach its intended destinations without requiring per-flow state or
+   additional signaling.  This FRR mechanism is designed to integrate
+   seamlessly with existing BIER operations, offering a robust solution
+   for improving network reliability.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-bier-frr-07"/>
 </reference>

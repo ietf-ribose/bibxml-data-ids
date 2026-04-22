@@ -1,19 +1,35 @@
 <reference anchor="I-D.hu-lsr-igp-ca-flex-algorithm" target="https://datatracker.ietf.org/doc/html/draft-hu-lsr-igp-ca-flex-algorithm-00">
   <front>
     <title>IGP Flexible Algorithm with Common Address</title>
-    <author fullname="Zhibo Hu" initials="Z." surname="Hu">
+    <seriesInfo name="Internet-Draft" value="draft-hu-lsr-igp-ca-flex-algorithm-00"/>
+    <author initials="Z." surname="Hu" fullname="Zhibo Hu">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Guoqi Xu" initials="G." surname="Xu">
+    <author initials="G." surname="Xu" fullname="Guoqi Xu">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Jie Dong" initials="J." surname="Dong">
+    <author initials="J." surname="Dong" fullname="Jie Dong">
       <organization>Huawei</organization>
     </author>
-    <date year="2022" month="July" day="7"/>
+    <date day="07" month="July" year="2022"></date>
     <abstract>
-      <t>An IGP Flexible Algorithm (Flex-Algorithm) allows IGPs to compute constraint-based paths. IGP Flex-Algorithm can be used with Segment Routing (SR) or IP data plane. When used with SR data plane, Flex- Algorithm requires to allocate algorithm specific Prefix Segment Identifiers (SIDs) or algorithm specific SRv6 Locators. When used with IP data plane, Flex-Algorithm requires to allocate algorithm specfic IPv4 or IPv6 prefixes. This increases the complexity and overhead of managing, advertising and maintaining additional SR SIDs, SRv6 Locators and IPv4 or IPv6 prefixes, which may not be affordable to some networks and network devices. This document extends IGP Flex-Algorithm to allow the use of common SR SIDs, SRv6 Locators and IP prefixes among multiple Flex- Algorithms.</t>
+      <t>   An IGP Flexible Algorithm (Flex-Algorithm) allows IGPs to compute
+   constraint-based paths.  IGP Flex-Algorithm can be used with Segment
+   Routing (SR) or IP data plane.  When used with SR data plane, Flex-
+   Algorithm requires to allocate algorithm specific Prefix Segment
+   Identifiers (SIDs) or algorithm specific SRv6 Locators.  When used
+   with IP data plane, Flex-Algorithm requires to allocate algorithm
+   specfic IPv4 or IPv6 prefixes.  This increases the complexity and
+   overhead of managing, advertising and maintaining additional SR SIDs,
+   SRv6 Locators and IPv4 or IPv6 prefixes, which may not be affordable
+   to some networks and network devices.
+
+   This document extends IGP Flex-Algorithm to allow the use of common
+   SR SIDs, SRv6 Locators and IP prefixes among multiple Flex-
+   Algorithms.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hu-lsr-igp-ca-flex-algorithm-00"/>
 </reference>

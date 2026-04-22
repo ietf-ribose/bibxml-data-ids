@@ -1,13 +1,22 @@
 <reference anchor="I-D.ietf-webdav-properties-extension" target="https://datatracker.ietf.org/doc/html/draft-ietf-webdav-properties-extension-00">
   <front>
     <title>Proposed Extensions to WebDAV Properties</title>
-    <author fullname="Jim Amsden" initials="J." surname="Amsden">
-      <organization/>
-    </author>
-    <date year="1999" month="September" day="13"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-webdav-properties-extension-00"/>
+    <author initials="J." surname="Amsden" fullname="Jim Amsden"/>
+    <date day="13" month="September" year="1999"></date>
     <abstract>
-      <t>The WebDAV protocol defines facilities for adding properties to Web resources. These properties consist of name/value pairs interchanged using XML. The protocol includes the PROPFIND method for accessing properties, and the PROPPATCH method for updating and removing properties. Experience building both WebDAV clients and a WebDAV server indicates the need for three minor extensions to the current properties protocol: 1) allow PROPPATCH to create and initialize the properties of a resource that did not exist, 2) distinguish between adding a new property, and setting the value of an existing property of a resource, and 3) give client applications more control in specifying how PROPPATCH errors should be handled.</t>
+      <t>The WebDAV protocol defines facilities for adding properties to Web 
+resources. These properties consist of name/value pairs interchanged 
+using XML. The protocol includes the PROPFIND method for accessing 
+properties, and the PROPPATCH method for updating and removing 
+properties. Experience building both WebDAV clients and a WebDAV 
+server indicates the need for three minor extensions to the current 
+properties protocol: 1) allow PROPPATCH to create and initialize the 
+properties of a resource that did not exist, 2) distinguish between 
+adding a new property, and setting the value of an existing property 
+of a resource, and 3) give client applications more control in 
+specifying how PROPPATCH errors should be handled.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-webdav-properties-extension-00"/>
 </reference>

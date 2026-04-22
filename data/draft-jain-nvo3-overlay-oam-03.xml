@@ -1,31 +1,51 @@
 <reference anchor="I-D.jain-nvo3-overlay-oam" target="https://datatracker.ietf.org/doc/html/draft-jain-nvo3-overlay-oam-03">
   <front>
     <title>Generic Overlay OAM and Datapath Failure Detection</title>
-    <author fullname="Pradeep Jain" initials="P." surname="Jain">
+    <seriesInfo name="Internet-Draft" value="draft-jain-nvo3-overlay-oam-03"/>
+    <author initials="P." surname="Jain" fullname="Pradeep Jain">
       <organization>Nuage Networks</organization>
     </author>
-    <author fullname="Kanwar Singh" initials="K." surname="Singh">
+    <author initials="K." surname="Singh" fullname="Kanwar Singh">
       <organization>Nuage Networks</organization>
     </author>
-    <author fullname="Diego Garcia del Rio" initials="D. G. D." surname="Rio">
+    <author initials="D. G. D." surname="Rio" fullname="Diego Garcia del Rio">
       <organization>Nuage Networks</organization>
     </author>
-    <author fullname="Wim Henderickx" initials="W." surname="Henderickx">
+    <author initials="W." surname="Henderickx" fullname="Wim Henderickx">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <author fullname="Vinay Bannai" initials="V." surname="Bannai">
+    <author initials="V." surname="Bannai" fullname="Vinay Bannai">
       <organization>PayPal</organization>
     </author>
-    <author fullname="Ravi Shekhar" initials="R." surname="Shekhar">
+    <author initials="R." surname="Shekhar" fullname="Ravi Shekhar">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Anil Lohiya" initials="A." surname="Lohiya">
+    <author initials="A." surname="Lohiya" fullname="Anil Lohiya">
       <organization>Juniper Networks</organization>
     </author>
-    <date year="2015" month="March" day="7"/>
+    <date day="07" month="March" year="2015"></date>
     <abstract>
-      <t>This proposal describes a mechanism that can be used to detect Data Path Failures of various overlay technologies as VXLAN, NVGRE, MPLSoGRE and MPLSoUDP and verifying/sanity of their Control and Data Plane for given Overlay Segment. This document defines the following for each of the above Overlay Technologies: o Encapsulation of OAM Packet, such that it has same Outer and Overlay Header as any End-System's data going over the same Overlay Segment. o The mechanism to trace the Underlay that is exercised by any Overlay Segment. o Procedure to verify presence of any given Tenant VM or End-System within a given Overlay Segment at Overlay End-Point. Even though the present proposal addresses Overlay OAM for VXLAN, NVGRE, MPLSoGRE and MPLSoUDP, but the procedures described are generic enough to accommodate OAM for any other Overlay Technology.</t>
+      <t>   This proposal describes a mechanism that can be used to detect Data
+   Path Failures of various overlay technologies as VXLAN, NVGRE,
+   MPLSoGRE and MPLSoUDP and verifying/sanity of their Control and Data
+   Plane for given Overlay Segment.  This document defines the following
+   for each of the above Overlay Technologies:
+
+   o  Encapsulation of OAM Packet, such that it has same Outer and
+      Overlay Header as any End-System's data going over the same
+      Overlay Segment.
+
+   o  The mechanism to trace the Underlay that is exercised by any
+      Overlay Segment.
+
+   o  Procedure to verify presence of any given Tenant VM or End-System
+      within a given Overlay Segment at Overlay End-Point.
+
+   Even though the present proposal addresses Overlay OAM for VXLAN,
+   NVGRE, MPLSoGRE and MPLSoUDP, but the procedures described are
+   generic enough to accommodate OAM for any other Overlay Technology.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-jain-nvo3-overlay-oam-03"/>
 </reference>

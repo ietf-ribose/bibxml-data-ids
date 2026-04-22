@@ -1,19 +1,34 @@
 <reference anchor="I-D.loukola-dynamic" target="https://datatracker.ietf.org/doc/html/draft-loukola-dynamic-00">
   <front>
     <title>Dynamic RT/NRT PHB Group</title>
-    <author fullname="Kalevi Kilkki" initials="K." surname="Kilkki">
+    <seriesInfo name="Internet-Draft" value="draft-loukola-dynamic-00"/>
+    <author initials="K." surname="Kilkki" fullname="Kalevi Kilkki">
       <organization>Nokia Research Center</organization>
     </author>
-    <author fullname="Mika Loukola" initials="M." surname="Loukola">
+    <author initials="M." surname="Loukola" fullname="Mika Loukola">
       <organization>Helsinki University of Technology</organization>
     </author>
-    <author fullname="Jussi Ruutu" initials="J." surname="Ruutu">
+    <author initials="J." surname="Ruutu" fullname="Jussi Ruutu">
       <organization>Nokia Research Center</organization>
     </author>
-    <date year="1998" month="November" day="9"/>
+    <date day="09" month="November" year="1998"></date>
     <abstract>
-      <t>This document defines a general use Differentiated Services (DS) [Blake] Per-Hop-Behavior (PHB) Group called Dynamic RT/NRT (DRT) PHB Group. This PHB Group provides delivery of real-time and non-real- time IP traffic. DRT introduces two independently forwarded classes: a real-time (RT) class, and a non-real-time (NRT) class. Within each class an IP packet can be assigned one of six different levels of drop precedence. These levels have a relative order so that a single service (RT / NRT) is formed inside which the packet loss of lower levels does not have any significant effect on upper levels. This concept introduces dynamic RT and NRT services that allow the user to dynamically adjust the packet loss probability in response to the varying network load. A DS node does not re-order IP packets of the same microflow if they belong to the same DRT class. Recommended codepoints for this PHB Group are given.</t>
+      <t>   This document defines a general use Differentiated Services (DS)
+   [Blake] Per-Hop-Behavior (PHB) Group called Dynamic RT/NRT (DRT) PHB
+   Group.  This PHB Group provides delivery of real-time and non-real-
+   time IP traffic.  DRT introduces two independently forwarded classes:
+   a real-time (RT) class, and a non-real-time (NRT) class.  Within each
+   class an IP packet can be assigned one of six different levels of
+   drop precedence.  These levels have a relative order so that a single
+   service (RT / NRT) is formed inside which the packet loss of lower
+   levels does not have any significant effect on upper levels.  This
+   concept introduces dynamic RT and NRT services that allow the user to
+   dynamically adjust the packet loss probability in response to the
+   varying network load.  A DS node does not re-order IP packets of the
+   same microflow if they belong to the same DRT class.  Recommended
+   codepoints for this PHB Group are given.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-loukola-dynamic-00"/>
 </reference>

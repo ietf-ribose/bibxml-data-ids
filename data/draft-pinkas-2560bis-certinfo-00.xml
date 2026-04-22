@@ -1,13 +1,31 @@
 <reference anchor="I-D.pinkas-2560bis-certinfo" target="https://datatracker.ietf.org/doc/html/draft-pinkas-2560bis-certinfo-00">
   <front>
     <title>CertInfo single response extension Update to OCSP &lt; draft-pinkas-2560bis-certinfo-00.txt &gt;</title>
-    <author fullname="Denis Pinkas" initials="D." surname="Pinkas">
+    <seriesInfo name="Internet-Draft" value="draft-pinkas-2560bis-certinfo-00"/>
+    <author initials="D." surname="Pinkas" fullname="Denis Pinkas">
       <organization>Bull SAS</organization>
     </author>
-    <date year="2012" month="August" day="31"/>
+    <date day="31" month="August" year="2012"></date>
     <abstract>
-      <t>OCSP [RFC2560] has been designed to allow an OCSP server to use any kind of trustable information to answer to a client varying from CRLs to an access to a database of issued certificates. In its original version, OCSP does not allow taking full advantage of an access to a database of issued certificates. When a database of issued certificates is used by an OCSP server, this document explains how the OCSP server shall respond and how OCSP clients shall react. The proposal is intended to update 2560bis. It defines a new single extension in a single response, called certInfo. The extension is non critical. The meaning of "good", "revoked" and "unknown" are unchanged.</t>
+      <t>   OCSP [RFC2560] has been designed to allow an OCSP server to use
+   any kind of trustable information to answer to a client varying
+   from CRLs to an access to a database of issued certificates.
+
+   In its original version, OCSP does not allow taking full advantage
+   of an access to a database of issued certificates.
+
+   When a database of issued certificates is used by an OCSP server,
+   this document explains how the OCSP server shall respond and how
+   OCSP clients shall react.
+
+   The proposal is intended to update 2560bis. It defines a new single
+   extension in a single response, called certInfo.  The extension is
+   non critical.  The meaning of "good", "revoked" and "unknown" are
+   unchanged.
+
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-pinkas-2560bis-certinfo-00"/>
 </reference>

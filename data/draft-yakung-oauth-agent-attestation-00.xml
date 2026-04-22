@@ -1,13 +1,28 @@
 <reference anchor="I-D.yakung-oauth-agent-attestation" target="https://datatracker.ietf.org/doc/html/draft-yakung-oauth-agent-attestation-00">
   <front>
     <title>Agent Credential Attestation Protocol (ACAP)</title>
-    <author fullname="Chudah Yakung" initials="C." surname="Yakung">
+    <seriesInfo name="Internet-Draft" value="draft-yakung-oauth-agent-attestation-00"/>
+    <author initials="C." surname="Yakung" fullname="Chudah Yakung">
       <organization>Attest</organization>
     </author>
-    <date year="2026" month="March" day="26"/>
+    <date day="26" month="March" year="2026"></date>
     <abstract>
-      <t>This document defines the Agent Credential Attestation Protocol (ACAP), a cryptographic credentialing protocol for autonomous AI agent pipelines. An ACAP credential is a short-lived JSON Web Token (JWT) signed with RS256 that carries scope-limited permissions together with a SHA-256 hash of the original human instruction that initiated the task. Credentials may be delegated to child agents; each delegation narrows scope, cannot outlive its parent, increments a delegation depth counter, and extends a tamper-evident chain of token identifiers. Every lifecycle event is recorded in an append- only, hash-chained audit log. This document specifies the credential format, issuance rules, delegation rules, verification algorithm, revocation semantics, human-in-the-loop approval protocol, and audit log structure.</t>
+      <t>   This document defines the Agent Credential Attestation Protocol
+   (ACAP), a cryptographic credentialing protocol for autonomous AI
+   agent pipelines.  An ACAP credential is a short-lived JSON Web Token
+   (JWT) signed with RS256 that carries scope-limited permissions
+   together with a SHA-256 hash of the original human instruction that
+   initiated the task.  Credentials may be delegated to child agents;
+   each delegation narrows scope, cannot outlive its parent, increments
+   a delegation depth counter, and extends a tamper-evident chain of
+   token identifiers.  Every lifecycle event is recorded in an append-
+   only, hash-chained audit log.
+
+   This document specifies the credential format, issuance rules,
+   delegation rules, verification algorithm, revocation semantics,
+   human-in-the-loop approval protocol, and audit log structure.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-yakung-oauth-agent-attestation-00"/>
 </reference>

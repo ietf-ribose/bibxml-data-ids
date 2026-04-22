@@ -1,13 +1,20 @@
 <reference anchor="I-D.bellovin-dnsext-bloomfilt" target="https://datatracker.ietf.org/doc/html/draft-bellovin-dnsext-bloomfilt-00">
   <front>
     <title>Using Bloom Filters for Authenticated Yes/No Answers in the DNS</title>
-    <author fullname="Steven M. Bellovin" initials="S. M." surname="Bellovin">
+    <seriesInfo name="Internet-Draft" value="draft-bellovin-dnsext-bloomfilt-00"/>
+    <author initials="S. M." surname="Bellovin" fullname="Steven M. Bellovin">
       <organization>AT&amp;T Labs Research</organization>
     </author>
-    <date year="2001" month="December" day="17"/>
+    <date day="17" month="December" year="2001"></date>
     <abstract>
-      <t>Some aspects of DNSSEC, such as NXDOMAIN error messages, require an authenticated answer. Producing this answer requires complex mechanisms, online storage of the zone's secret key, expensive online computations, or massive zone files. As an alternative, we propose storage of authenticated pointers to Bloom filters. This scheme provides large reductions in the size of, and computational expense to produce, partially-signed zone files.</t>
+      <t>Some aspects of DNSSEC, such as NXDOMAIN error messages, require an
+authenticated answer.  Producing this answer requires complex
+mechanisms, online storage of the zone's secret key, expensive online
+computations, or massive zone files.  As an alternative, we propose
+storage of authenticated pointers to Bloom filters.  This scheme
+provides large reductions in the size of, and computational expense
+to produce, partially-signed zone files.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-bellovin-dnsext-bloomfilt-00"/>
 </reference>

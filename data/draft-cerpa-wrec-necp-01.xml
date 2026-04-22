@@ -1,37 +1,52 @@
 <reference anchor="I-D.cerpa-wrec-necp" target="https://datatracker.ietf.org/doc/html/draft-cerpa-wrec-necp-01">
   <front>
     <title>NECP the Network Element Control Protocol</title>
-    <author fullname="Hooman Beheshti" initials="H." surname="Beheshti">
+    <seriesInfo name="Internet-Draft" value="draft-cerpa-wrec-necp-01"/>
+    <author initials="H." surname="Beheshti" fullname="Hooman Beheshti">
       <organization>Radware, Inc.</organization>
     </author>
-    <author fullname="Chuck Neerdaels" initials="C." surname="Neerdaels">
+    <author initials="C." surname="Neerdaels" fullname="Chuck Neerdaels">
       <organization>Inktomi Corporation</organization>
     </author>
-    <author fullname="Alberto Cerpa" initials="A." surname="Cerpa">
+    <author initials="A." surname="Cerpa" fullname="Alberto Cerpa">
       <organization>USC</organization>
     </author>
-    <author fullname="Dr. Peter B. Danzig" initials="P. B." surname="Danzig">
+    <author initials="P. B." surname="Danzig" fullname="Dr. Peter B. Danzig">
       <organization>Akamai Technologies</organization>
     </author>
-    <author fullname="Raj Jalan" initials="R." surname="Jalan">
+    <author initials="R." surname="Jalan" fullname="Raj Jalan">
       <organization>Foundry Networks</organization>
     </author>
-    <author fullname="Anawat Chankhunthod" initials="A." surname="Chankhunthod">
+    <author initials="A." surname="Chankhunthod" fullname="Anawat Chankhunthod">
       <organization>Network Appliance</organization>
     </author>
-    <author fullname="Jeremy Elson" initials="J." surname="Elson">
+    <author initials="J." surname="Elson" fullname="Jeremy Elson">
       <organization>USC</organization>
     </author>
-    <author fullname="Ted Schroeder" initials="T." surname="Schroeder">
+    <author initials="T." surname="Schroeder" fullname="Ted Schroeder">
       <organization>Alteon Web Systems</organization>
     </author>
-    <author fullname="Gary Tomlinson" initials="G." surname="Tomlinson">
+    <author initials="G." surname="Tomlinson" fullname="Gary Tomlinson">
       <organization>Novell Inc.</organization>
     </author>
-    <date year="1999" month="December" day="13"/>
+    <date day="13" month="December" year="1999"></date>
     <abstract>
-      <t>This document describes 'NECP', a lightweight protocol for signalling between servers and the network elements that forward traffic to them. It is intended for use in a wide variety of server applications, including for origin servers, proxies, and transparent proxies. The network element may also be a range of devices, including so-called L4 or content-aware switches and load-balancing routers. NECP provides methods for network elements to learn about servers' capabilities, availability, and hints as to which flows can and can not be serviced. This allows network elements to perform load balancing across a farm of servers, redirection to network transparent proxies, and cut-through of flows that can not be served by the farm.</t>
+      <t>This document describes 'NECP', a lightweight protocol for
+signalling between servers and the network elements that forward
+traffic to them.  It is intended for use in a wide variety of server
+applications, including for origin servers, proxies, and
+transparent proxies.  The network element may also be a range of
+devices, including so-called L4 or content-aware switches and
+load-balancing routers.
+NECP provides methods for network elements to learn about servers'
+capabilities, availability, and hints as to which flows can and can
+not be serviced.  This allows network elements to perform load
+balancing across a farm of servers, redirection to network
+transparent proxies, and cut-through of flows that can not be
+served by the farm.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-cerpa-wrec-necp-01"/>
 </reference>

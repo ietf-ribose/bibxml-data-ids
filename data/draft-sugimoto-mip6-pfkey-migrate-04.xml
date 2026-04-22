@@ -1,19 +1,30 @@
 <reference anchor="I-D.sugimoto-mip6-pfkey-migrate" target="https://datatracker.ietf.org/doc/html/draft-sugimoto-mip6-pfkey-migrate-04">
   <front>
     <title>PF_KEY Extension as an Interface between Mobile IPv6 and IPsec/IKE</title>
-    <author fullname="Shinta Sugimoto" initials="S." surname="Sugimoto">
+    <seriesInfo name="Internet-Draft" value="draft-sugimoto-mip6-pfkey-migrate-04"/>
+    <author initials="S." surname="Sugimoto" fullname="Shinta Sugimoto">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Francis Dupont" initials="F." surname="Dupont">
+    <author initials="F." surname="Dupont" fullname="Francis Dupont">
       <organization>CELAR</organization>
     </author>
-    <author fullname="Masahide Nakamura" initials="M." surname="Nakamura">
+    <author initials="M." surname="Nakamura" fullname="Masahide Nakamura">
       <organization>Hitachi</organization>
     </author>
-    <date year="2007" month="December" day="15"/>
+    <date day="15" month="December" year="2007"></date>
     <abstract>
-      <t>This document describes the need for an interface between Mobile IPv6 and IPsec/IKE and show how the two protocols can interwork. We propose a set of extensions to the PF_KEY framework which allows smooth and solid operation of IKE in a Mobile IPv6 environment. The first extension is called PF_KEY MIGRATE and is for migrating the endpoint addresses of a IPsec Security Association pair in tunnel mode. The second extension is named SADB_X_EXT_PACKET and allows IKE to make the right choice for address selection in bootstrapping process. Both extensions are helpful for assuring smooth interworking between Mobile IPv6 and IPsec/IKE and achieving performance optimization.</t>
+      <t>This document describes the need for an interface between Mobile IPv6
+and IPsec/IKE and show how the two protocols can interwork.  We
+propose a set of extensions to the PF_KEY framework which allows
+smooth and solid operation of IKE in a Mobile IPv6 environment.  The
+first extension is called PF_KEY MIGRATE and is for migrating the
+endpoint addresses of a IPsec Security Association pair in tunnel
+mode.  The second extension is named SADB_X_EXT_PACKET and allows IKE
+to make the right choice for address selection in bootstrapping
+process.  Both extensions are helpful for assuring smooth
+interworking between Mobile IPv6 and IPsec/IKE and achieving
+performance optimization.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sugimoto-mip6-pfkey-migrate-04"/>
 </reference>

@@ -1,13 +1,25 @@
 <reference anchor="I-D.rundgren-json-canonicalization-scheme" target="https://datatracker.ietf.org/doc/html/draft-rundgren-json-canonicalization-scheme-00">
   <front>
     <title>JSON Canonicalization Scheme (JCS)</title>
-    <author fullname="Anders Rundgren" initials="A." surname="Rundgren">
+    <seriesInfo name="Internet-Draft" value="draft-rundgren-json-canonicalization-scheme-00"/>
+    <author initials="A." surname="Rundgren" fullname="Anders Rundgren">
       <organization>Independent</organization>
     </author>
-    <date year="2018" month="May" day="19"/>
+    <date day="19" month="May" year="2018"></date>
     <abstract>
-      <t>Cryptographic operations like hashing and signing depend on that the target data does not change during serialization, transport, or parsing. By applying the rules defined by JCS (JSON Canonicalization Scheme), data provided in the JSON [RFC8259] format can be exchanged "as is", while still being subject to secure cryptographic operations. JCS achieves this by combining the strict serialization of JSON primitives defined in ECMAScript [ES6] with a platform independent sorting scheme. The intended audiences of this document are JSON tool vendors, as well as designers of JSON based cryptographic solutions.</t>
+      <t>   Cryptographic operations like hashing and signing depend on that the
+   target data does not change during serialization, transport, or
+   parsing.  By applying the rules defined by JCS (JSON Canonicalization
+   Scheme), data provided in the JSON [RFC8259] format can be exchanged
+   "as is", while still being subject to secure cryptographic
+   operations.  JCS achieves this by combining the strict serialization
+   of JSON primitives defined in ECMAScript [ES6] with a platform
+   independent sorting scheme.
+
+   The intended audiences of this document are JSON tool vendors, as
+   well as designers of JSON based cryptographic solutions.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-rundgren-json-canonicalization-scheme-00"/>
 </reference>

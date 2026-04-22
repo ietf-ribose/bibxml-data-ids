@@ -1,16 +1,24 @@
 <reference anchor="I-D.wing-nat-reveal-option" target="https://datatracker.ietf.org/doc/html/draft-wing-nat-reveal-option-03">
   <front>
     <title>Revealing hosts sharing an IP address using TCP option</title>
-    <author fullname="Andrew Yourtchenko" initials="A." surname="Yourtchenko">
+    <seriesInfo name="Internet-Draft" value="draft-wing-nat-reveal-option-03"/>
+    <author initials="A." surname="Yourtchenko" fullname="Andrew Yourtchenko">
       <organization>cisco</organization>
     </author>
-    <author fullname="Dan Wing" initials="D." surname="Wing">
+    <author initials="D." surname="Wing" fullname="Dan Wing">
       <organization>cisco</organization>
     </author>
-    <date year="2011" month="December" day="8"/>
+    <date day="08" month="December" year="2011"></date>
     <abstract>
-      <t>When an IP address is shared among several subscribers -- with a NAT or with an application-level proxy -- it is impossible for the server to differentiate between different clients. Such differentiation is valuable in several scenarios. This memo describes a technique to differentiate TCP clients sharing an IP address. The proposed method uses a TCP option, which avoids altering the application-level payload and works well with SSL-protected connections.</t>
+      <t>   When an IP address is shared among several subscribers -- with a NAT
+   or with an application-level proxy -- it is impossible for the server
+   to differentiate between different clients.  Such differentiation is
+   valuable in several scenarios.  This memo describes a technique to
+   differentiate TCP clients sharing an IP address.  The proposed method
+   uses a TCP option, which avoids altering the application-level
+   payload and works well with SSL-protected connections.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wing-nat-reveal-option-03"/>
 </reference>

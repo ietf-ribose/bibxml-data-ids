@@ -1,19 +1,27 @@
 <reference anchor="I-D.tuexen-tsvwg-sctp-ppid-frag" target="https://datatracker.ietf.org/doc/html/draft-tuexen-tsvwg-sctp-ppid-frag-02">
   <front>
     <title>Payload Protocol Identifier based Fragmentation and Reassembly for the Stream Control Transmission Protocol</title>
-    <author fullname="Michael Tüxen" initials="M." surname="Tüxen">
+    <seriesInfo name="Internet-Draft" value="draft-tuexen-tsvwg-sctp-ppid-frag-02"/>
+    <author initials="M." surname="Tüxen" fullname="Michael Tüxen">
       <organization>Münster University of Applied Sciences</organization>
     </author>
-    <author fullname="Randell Jesup" initials="R." surname="Jesup">
+    <author initials="R." surname="Jesup" fullname="Randell Jesup">
       <organization>Mozilla Corporation</organization>
     </author>
-    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
-      <organization/>
-    </author>
-    <date year="2024" month="September" day="7"/>
+    <author initials="H." surname="Tschofenig" fullname="Hannes Tschofenig"/>
+    <date day="07" month="September" year="2024"></date>
     <abstract>
-      <t>This document describes a method for the Stream Control Transmission Protocol (SCTP) allowing the upper layer to perform fragmentation, reassembly, and interleaving of large ordered user messages by using the payload protocol identifier (PPID). According to the base specification supporting fragmentation of large user messages is optional. And even if an SCTP implementation supports fragmentation, interleaving of user messages is not supported by the base specification.</t>
+      <t>   This document describes a method for the Stream Control Transmission
+   Protocol (SCTP) allowing the upper layer to perform fragmentation,
+   reassembly, and interleaving of large ordered user messages by using
+   the payload protocol identifier (PPID).
+
+   According to the base specification supporting fragmentation of large
+   user messages is optional.  And even if an SCTP implementation
+   supports fragmentation, interleaving of user messages is not
+   supported by the base specification.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-tuexen-tsvwg-sctp-ppid-frag-02"/>
 </reference>

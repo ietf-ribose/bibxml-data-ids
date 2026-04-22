@@ -1,25 +1,36 @@
 <reference anchor="I-D.snr-bess-pbb-evpn-isid-cmacflush" target="https://datatracker.ietf.org/doc/html/draft-snr-bess-pbb-evpn-isid-cmacflush-06">
   <front>
     <title>PBB-EVPN ISID-based CMAC-Flush</title>
-    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+    <seriesInfo name="Internet-Draft" value="draft-snr-bess-pbb-evpn-isid-cmacflush-06"/>
+    <author initials="J." surname="Rabadan" fullname="Jorge Rabadan">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Senthil Sathappan" initials="S." surname="Sathappan">
+    <author initials="S." surname="Sathappan" fullname="Senthil Sathappan">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Kiran Nagaraj" initials="K." surname="Nagaraj">
+    <author initials="K." surname="Nagaraj" fullname="Kiran Nagaraj">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Masahiro Miyake" initials="M." surname="Miyake">
+    <author initials="M." surname="Miyake" fullname="Masahiro Miyake">
       <organization>Softbank</organization>
     </author>
-    <author fullname="Taku Matsuda" initials="T." surname="Matsuda">
+    <author initials="T." surname="Matsuda" fullname="Taku Matsuda">
       <organization>Softbank</organization>
     </author>
-    <date year="2019" month="July" day="26"/>
+    <date day="26" month="July" year="2019"></date>
     <abstract>
-      <t>Provider Backbone Bridging (PBB) can be combined with Ethernet VPN (EVPN) to deploy ELAN services in very large MPLS networks (PBB- EVPN). Single-Active Multi-homing and per-ISID Load-Balancing can be provided to access devices and aggregation networks. In order to speed up the network convergence in case of failures on Single-Active Multi-Homed Ethernet Segments, PBB-EVPN defines a CMAC-Flush mechanism that works for different Ethernet Segment BMAC address allocation models. This document complements those CMAC-Flush procedures for cases in which no PBB-EVPN Ethernet Segments are defined (ESI 0) and an ISID-based CMAC-Flush granularity is desired.</t>
+      <t>   Provider Backbone Bridging (PBB) can be combined with Ethernet VPN
+   (EVPN) to deploy ELAN services in very large MPLS networks (PBB-
+   EVPN). Single-Active Multi-homing and per-ISID Load-Balancing can be
+   provided to access devices and aggregation networks. In order to
+   speed up the network convergence in case of failures on Single-Active
+   Multi-Homed Ethernet Segments, PBB-EVPN defines a CMAC-Flush
+   mechanism that works for different Ethernet Segment BMAC address
+   allocation models. This document complements those CMAC-Flush
+   procedures for cases in which no PBB-EVPN Ethernet Segments are
+   defined (ESI 0) and an ISID-based CMAC-Flush granularity is desired.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-snr-bess-pbb-evpn-isid-cmacflush-06"/>
 </reference>

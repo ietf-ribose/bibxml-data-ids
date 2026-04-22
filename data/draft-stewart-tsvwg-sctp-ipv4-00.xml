@@ -1,16 +1,24 @@
 <reference anchor="I-D.stewart-tsvwg-sctp-ipv4" target="https://datatracker.ietf.org/doc/html/draft-stewart-tsvwg-sctp-ipv4-00">
   <front>
     <title>Stream Control Transmission Protocol (SCTP) IPv4 Address Scoping</title>
-    <author fullname="Randall R. Stewart" initials="R. R." surname="Stewart">
+    <seriesInfo name="Internet-Draft" value="draft-stewart-tsvwg-sctp-ipv4-00"/>
+    <author initials="R. R." surname="Stewart" fullname="Randall R. Stewart">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Michael Tüxen" initials="M." surname="Tüxen">
+    <author initials="M." surname="Tüxen" fullname="Michael Tüxen">
       <organization>Siemens AG</organization>
     </author>
-    <date year="2002" month="May" day="16"/>
+    <date day="16" month="May" year="2002"></date>
     <abstract>
-      <t>Stream Control Transmission Protocol RFC2960 [5] provides transparent multi-homing to its upper layer users. This multi-homing is accomplished through the passing of address parameters in the initial setup message used by SCTP. In an IPv4 network addresses SHOULD NOT be passed without consideration of their routeablility. This document defines considerations and enumerates general rules that an SCTP endpoint MUST use in formulating both the INIT and INIT-ACK chunks when including IPv4 addresses.</t>
+      <t>Stream Control Transmission Protocol RFC2960 [5] provides transparent
+multi-homing to its upper layer users.  This multi-homing is
+accomplished through the passing of address parameters in the initial
+setup message used by SCTP.  In an IPv4 network addresses SHOULD NOT
+be passed without consideration of their routeablility.  This
+document defines considerations and enumerates general rules that an
+SCTP endpoint MUST use in formulating both the INIT and INIT-ACK
+chunks when including IPv4 addresses.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-stewart-tsvwg-sctp-ipv4-00"/>
 </reference>

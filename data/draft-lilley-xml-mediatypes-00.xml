@@ -1,22 +1,41 @@
 <reference anchor="I-D.lilley-xml-mediatypes" target="https://datatracker.ietf.org/doc/html/draft-lilley-xml-mediatypes-00">
   <front>
     <title>XML Media Types</title>
-    <author fullname="Chris Lilley" initials="C." surname="Lilley">
+    <seriesInfo name="Internet-Draft" value="draft-lilley-xml-mediatypes-00"/>
+    <author initials="C." surname="Lilley" fullname="Chris Lilley">
       <organization>W3C</organization>
     </author>
-    <author fullname="Murata Makoto" initials="M." surname="Makoto">
+    <author initials="M." surname="Makoto" fullname="Murata Makoto">
       <organization>International University of Japan</organization>
     </author>
-    <author fullname="Alexey Melnikov" initials="A." surname="Melnikov">
+    <author initials="A." surname="Melnikov" fullname="Alexey Melnikov">
       <organization>Isode Ltd.</organization>
     </author>
-    <author fullname="Henry S. Thompson" initials="H. S." surname="Thompson">
+    <author initials="H. S." surname="Thompson" fullname="Henry S. Thompson">
       <organization>University of Edinburgh</organization>
     </author>
-    <date year="2012" month="October" day="15"/>
+    <date day="15" month="October" year="2012"></date>
     <abstract>
-      <t>This specification standardizes three media types -- application/xml, application/xml-external-parsed-entity, and application/xml-dtd -- for use in exchanging network entities that are related to the Extensible Markup Language (XML) while defining text/xml and text/ xml-external-parsed-entity as aliases for the respective application/ types. This specification also standardizes a convention (using the suffix '+xml') for naming media types outside of these five types when those media types represent XML MIME entities. XML MIME entities are currently exchanged via the HyperText Transfer Protocol on the World Wide Web, are an integral part of the WebDAV protocol for remote web authoring, and are expected to have utility in many domains. Major differences from [RFC3023] are alignment of charset handling for text/xml and text/xml-external-parsed-entity with application/ xml, the addition of XPointer and XML Base as fragment identifiers and base URIs, respectively, mention of the XPointer Registry, and updating of many references.</t>
+      <t>   This specification standardizes three media types -- application/xml,
+   application/xml-external-parsed-entity, and application/xml-dtd --
+   for use in exchanging network entities that are related to the
+   Extensible Markup Language (XML) while defining text/xml and text/
+   xml-external-parsed-entity as aliases for the respective application/
+   types.  This specification also standardizes a convention (using the
+   suffix '+xml') for naming media types outside of these five types
+   when those media types represent XML MIME entities.  XML MIME
+   entities are currently exchanged via the HyperText Transfer Protocol
+   on the World Wide Web, are an integral part of the WebDAV protocol
+   for remote web authoring, and are expected to have utility in many
+   domains.
+
+   Major differences from [RFC3023] are alignment of charset handling
+   for text/xml and text/xml-external-parsed-entity with application/
+   xml, the addition of XPointer and XML Base as fragment identifiers
+   and base URIs, respectively, mention of the XPointer Registry, and
+   updating of many references.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-lilley-xml-mediatypes-00"/>
 </reference>

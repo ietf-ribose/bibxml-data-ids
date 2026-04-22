@@ -1,16 +1,24 @@
 <reference anchor="I-D.hsmit-lsr-isis-flooding-over-tcp" target="https://datatracker.ietf.org/doc/html/draft-hsmit-lsr-isis-flooding-over-tcp-00">
   <front>
     <title>IS-IS Flooding over TCP</title>
-    <author fullname="Henk Smit" initials="H." surname="Smit">
-      <organization/>
-    </author>
-    <author fullname="Gunter Van de Velde" initials="G." surname="Van de Velde">
+    <seriesInfo name="Internet-Draft" value="draft-hsmit-lsr-isis-flooding-over-tcp-00"/>
+    <author initials="H." surname="Smit" fullname="Henk Smit"/>
+    <author initials="G." surname="Van de Velde" fullname="Gunter Van de Velde">
       <organization>Nokia</organization>
     </author>
-    <date year="2018" month="October" day="12"/>
+    <date day="12" month="October" year="2018"></date>
     <abstract>
-      <t>This document proposes a solution to use TCP for IS-IS flooding. The proposed solution is a relative simple extension to implement. IS-IS flooding over TCP brings BGP's property of scalable transport via TCP to Link-State protocols. This proposal defines a new TLV in point-to-point IIHs to signal the intent of a router to do flooding over TCP, and it defines a small header to encapsulate IS-IS PDUs in the TCP byte-stream.</t>
+      <t>   This document proposes a solution to use TCP for IS-IS flooding.  The
+   proposed solution is a relative simple extension to implement.  IS-IS
+   flooding over TCP brings BGP's property of scalable transport via TCP
+   to Link-State protocols.
+
+   This proposal defines a new TLV in point-to-point IIHs to signal the
+   intent of a router to do flooding over TCP, and it defines a small
+   header to encapsulate IS-IS PDUs in the TCP byte-stream.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hsmit-lsr-isis-flooding-over-tcp-00"/>
 </reference>

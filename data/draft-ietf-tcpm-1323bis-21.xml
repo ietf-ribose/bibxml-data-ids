@@ -1,22 +1,25 @@
 <reference anchor="I-D.ietf-tcpm-1323bis" target="https://datatracker.ietf.org/doc/html/draft-ietf-tcpm-1323bis-21">
   <front>
     <title>TCP Extensions for High Performance</title>
-    <author fullname="David Borman" initials="D." surname="Borman">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-1323bis-21"/>
+    <author initials="D." surname="Borman" fullname="David Borman">
       <organization>Quantum Corporation</organization>
     </author>
-    <author fullname="Robert T. Braden" initials="R. T." surname="Braden">
+    <author initials="R. T." surname="Braden" fullname="Robert T. Braden">
       <organization>University of Southern California</organization>
     </author>
-    <author fullname="Van Jacobson" initials="V." surname="Jacobson">
+    <author initials="V." surname="Jacobson" fullname="Van Jacobson">
       <organization>Google, Inc.</organization>
     </author>
-    <author fullname="Richard Scheffenegger" initials="R." surname="Scheffenegger">
+    <author initials="R." surname="Scheffenegger" fullname="Richard Scheffenegger">
       <organization>NetApp, Inc.</organization>
     </author>
-    <date year="2014" month="April" day="11"/>
+    <date day="11" month="April" year="2014"></date>
     <abstract>
-      <t>This document specifies a set of TCP extensions to improve performance over paths with a large bandwidth * delay product and to provide reliable operation over very high-speed paths. It defines the TCP Window Scale (WS) option and the TCP Timestamps (TS) option and their semantics. The Window Scale option is used to support larger receive windows, while the Timestamps option can be used for at least two distinct mechanisms, Protection Against Wrapped Sequences (PAWS) and Round-Trip Time Measurement (RTTM), that are also described herein. This document obsoletes RFC 1323 and describes changes from it.</t>
+      <t>This document specifies a set of TCP extensions to improve performance over paths with a large bandwidth * delay product and to provide reliable operation over very high-speed paths. It defines the TCP Window Scale (WS) option and the TCP Timestamps (TS) option and their semantics. The Window Scale option is used to support larger receive windows, while the Timestamps option can be used for at least two distinct mechanisms, Protection Against Wrapped Sequences (PAWS) and Round-Trip Time Measurement (RTTM), that are also described herein.
+
+ This document obsoletes RFC 1323 and describes changes from it.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-1323bis-21"/>
 </reference>

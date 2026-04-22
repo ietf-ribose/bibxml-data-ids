@@ -1,25 +1,34 @@
 <reference anchor="I-D.tbruijnzeels-sidr-delta-protocol" target="https://datatracker.ietf.org/doc/html/draft-tbruijnzeels-sidr-delta-protocol-03">
   <front>
     <title>RPKI Repository Delta Protocol</title>
-    <author fullname="Tim Bruijnzeels" initials="T." surname="Bruijnzeels">
+    <seriesInfo name="Internet-Draft" value="draft-tbruijnzeels-sidr-delta-protocol-03"/>
+    <author initials="T." surname="Bruijnzeels" fullname="Tim Bruijnzeels">
       <organization>RIPE NCC</organization>
     </author>
-    <author fullname="Oleg Muravskiy" initials="O." surname="Muravskiy">
+    <author initials="O." surname="Muravskiy" fullname="Oleg Muravskiy">
       <organization>RIPE NCC</organization>
     </author>
-    <author fullname="Bryan Weber" initials="B." surname="Weber">
+    <author initials="B." surname="Weber" fullname="Bryan Weber">
       <organization>Cobenian</organization>
     </author>
-    <author fullname="Rob Austein" initials="R." surname="Austein">
+    <author initials="R." surname="Austein" fullname="Rob Austein">
       <organization>Dragon Research Labs</organization>
     </author>
-    <author fullname="David Mandelberg" initials="D." surname="Mandelberg">
+    <author initials="D." surname="Mandelberg" fullname="David Mandelberg">
       <organization>BBN Technologies</organization>
     </author>
-    <date year="2014" month="December" day="22"/>
+    <date day="22" month="December" year="2014"></date>
     <abstract>
-      <t>In the Resource Public Key Infrastructure (RPKI), certificate authorities publish certificates, including end entity certificates, and CRLs to repositories on publication servers. Relying Parties (RP) retrieve the published information from the repository and MAY store it in a cache. This document specifies a delta protocol which provides relying parties with a mechanism to query a repository for changes, thus enabling the RP to keep its state in sync with the repository.</t>
+      <t>   In the Resource Public Key Infrastructure (RPKI), certificate
+   authorities publish certificates, including end entity certificates,
+   and CRLs to repositories on publication servers.  Relying Parties
+   (RP) retrieve the published information from the repository and MAY
+   store it in a cache.  This document specifies a delta protocol which
+   provides relying parties with a mechanism to query a repository for
+   changes, thus enabling the RP to keep its state in sync with the
+   repository.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-tbruijnzeels-sidr-delta-protocol-03"/>
 </reference>

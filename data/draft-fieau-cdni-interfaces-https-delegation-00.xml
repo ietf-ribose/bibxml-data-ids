@@ -1,19 +1,26 @@
 <reference anchor="I-D.fieau-cdni-interfaces-https-delegation" target="https://datatracker.ietf.org/doc/html/draft-fieau-cdni-interfaces-https-delegation-00">
   <front>
     <title>CDNI interfaces update for HTTPS delegation</title>
-    <author fullname="Frédéric Fieau" initials="F." surname="Fieau">
-      <organization/>
-    </author>
-    <author fullname="Stephan Emile" initials="S." surname="Emile">
-      <organization/>
-    </author>
-    <author fullname="Sanjay Mishra" initials="S." surname="Mishra">
-      <organization/>
-    </author>
-    <date year="2017" month="March" day="13"/>
+    <seriesInfo name="Internet-Draft" value="draft-fieau-cdni-interfaces-https-delegation-00"/>
+    <author initials="F." surname="Fieau" fullname="Frédéric Fieau"/>
+    <author initials="S." surname="Emile" fullname="Stephan Emile"/>
+    <author initials="S." surname="Mishra" fullname="Sanjay Mishra"/>
+    <date day="13" month="March" year="2017"></date>
     <abstract>
-      <t>Content delivery includes one or more CDNs and in many instances involves cascaded delegation when handling encrypted data. The delivery of such content over HTTPS though raises credential management issues. Two models of HTTPS delegation can be considered: direct delegation, and "cascaded" delegation. While the first model of delegation is addressed by most of the work at the IETF, in the latter case, it is up to downstream CDN(s) delivering the content to an end-user to present legacy credentials of either the origin or of the upstream CDN which delegated the delivery to the aforementioned dCDN. This document presents updates needed in CDNI Control and Metadata interfaces to setup HTTPS delegation between an uCDN and dCDN.</t>
+      <t>   Content delivery includes one or more CDNs and in many instances
+   involves cascaded delegation when handling encrypted data.  The
+   delivery of such content over HTTPS though raises credential
+   management issues.  Two models of HTTPS delegation can be considered:
+   direct delegation, and "cascaded" delegation.  While the first model
+   of delegation is addressed by most of the work at the IETF, in the
+   latter case, it is up to downstream CDN(s) delivering the content to
+   an end-user to present legacy credentials of either the origin or of
+   the upstream CDN which delegated the delivery to the aforementioned
+   dCDN.  This document presents updates needed in CDNI Control and
+   Metadata interfaces to setup HTTPS delegation between an uCDN and
+   dCDN.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-fieau-cdni-interfaces-https-delegation-00"/>
 </reference>

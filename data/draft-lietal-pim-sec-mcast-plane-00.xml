@@ -1,19 +1,32 @@
 <reference anchor="I-D.lietal-pim-sec-mcast-plane" target="https://datatracker.ietf.org/doc/html/draft-lietal-pim-sec-mcast-plane-00">
   <front>
     <title>Secure Multicast Plane between PIM-SM Domains (SMPP)</title>
-    <author fullname="Billy C. Ng" initials="B. C." surname="Ng">
+    <seriesInfo name="Internet-Draft" value="draft-lietal-pim-sec-mcast-plane-00"/>
+    <author initials="B. C." surname="Ng" fullname="Billy C. Ng">
       <organization>Nortel Networks</organization>
     </author>
-    <author fullname="Yunzhou Li" initials="Y." surname="Li">
+    <author initials="Y." surname="Li" fullname="Yunzhou Li">
       <organization>Nortel Networks</organization>
     </author>
-    <author fullname="Jyothi Hayes" initials="J." surname="Hayes">
+    <author initials="J." surname="Hayes" fullname="Jyothi Hayes">
       <organization>Nortel Networks</organization>
     </author>
-    <date year="1999" month="June" day="10"/>
+    <date day="10" month="June" year="1999"></date>
     <abstract>
-      <t>This memo proposes a secure multicast plane between PIM-SM domains through a MSDP bridge. The MSDP bridge is the MSDP peering topology with a GRE tunnel associated with each pair of MSDP routers. A multicast protocol such as DVMRP, PIM-DM or BGMP runs over the MSDP bridge to forward secure multicast data in the global key space. As a RP, each security broker in an interested domain translates the data from the MSDP bridge to the local domain and forwards the data in the local key space. This approach is perceived as a transitional solution to the multicast security between PIM-SM domains. It will enable group security association to differ from one shared tree to another, and will essentially facilitate group key distribution.</t>
+      <t>This memo proposes a secure multicast plane between PIM-SM domains 
+through a MSDP bridge. The MSDP bridge is the MSDP peering topology 
+with a GRE tunnel associated with each pair of MSDP routers. A 
+multicast protocol such as DVMRP, PIM-DM or BGMP runs over the MSDP 
+bridge to forward secure multicast data in the global key space. As 
+a RP, each security broker in an interested domain translates the 
+data from the MSDP bridge to the local domain and forwards the data 
+in the local key space. 
+This approach is perceived as a transitional solution to the 
+multicast security between PIM-SM domains. It will enable group 
+security association to differ from one shared tree to another, and 
+will essentially facilitate group key distribution.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-lietal-pim-sec-mcast-plane-00"/>
 </reference>

@@ -1,19 +1,33 @@
 <reference anchor="I-D.anish-pim-stream-discovery" target="https://datatracker.ietf.org/doc/html/draft-anish-pim-stream-discovery-01">
   <front>
     <title>PIM source discovery in Last-Hop-Router</title>
-    <author fullname="Anish Peter" initials="A." surname="Peter">
+    <seriesInfo name="Internet-Draft" value="draft-anish-pim-stream-discovery-01"/>
+    <author initials="A." surname="Peter" fullname="Anish Peter">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Robert Kebler" initials="R." surname="Kebler">
+    <author initials="R." surname="Kebler" fullname="Robert Kebler">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Vikram Nagarajan" initials="V." surname="Nagarajan">
+    <author initials="V." surname="Nagarajan" fullname="Vikram Nagarajan">
       <organization>Juniper Networks</organization>
     </author>
-    <date year="2015" month="July" day="6"/>
+    <date day="06" month="July" year="2015"></date>
     <abstract>
-      <t>This specification introduces a mechanism in PIM-SM [RFC4601] for the Last-Hop-Router (LHR) router to discover the stream information. Once this mechanism is available the complications of the shared tree procedures can be avoided. The document introduces a hard-state, reliable transport for the information about multicast streams active in the network. This specification uses the existing PIM reliability mechanisms defined by PIM Over Reliable Transport [RFC6559]. This is simply a means to transmit reliable PIM messages and does not require the support for Join/Prune messages over PORT as defined in [RFC6559].</t>
+      <t>   This specification introduces a mechanism in PIM-SM [RFC4601] for the
+   Last-Hop-Router (LHR) router to discover the stream information.
+   Once this mechanism is available the complications of the shared tree
+   procedures can be avoided.
+
+   The document introduces a hard-state, reliable transport for the
+   information about multicast streams active in the network.
+
+   This specification uses the existing PIM reliability mechanisms
+   defined by PIM Over Reliable Transport [RFC6559].  This is simply a
+   means to transmit reliable PIM messages and does not require the
+   support for Join/Prune messages over PORT as defined in [RFC6559].
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-anish-pim-stream-discovery-01"/>
 </reference>

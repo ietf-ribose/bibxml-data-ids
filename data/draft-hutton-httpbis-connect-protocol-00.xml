@@ -1,19 +1,27 @@
 <reference anchor="I-D.hutton-httpbis-connect-protocol" target="https://datatracker.ietf.org/doc/html/draft-hutton-httpbis-connect-protocol-00">
   <front>
     <title>HTTP Connect - Tunnel Protocol For WebRTC</title>
-    <author fullname="Andrew Hutton" initials="A." surname="Hutton">
+    <seriesInfo name="Internet-Draft" value="draft-hutton-httpbis-connect-protocol-00"/>
+    <author initials="A." surname="Hutton" fullname="Andrew Hutton">
       <organization>Unify</organization>
     </author>
-    <author fullname="Justin Uberti" initials="J." surname="Uberti">
+    <author initials="J." surname="Uberti" fullname="Justin Uberti">
       <organization>Google</organization>
     </author>
-    <author fullname="Martin Thomson" initials="M." surname="Thomson">
+    <author initials="M." surname="Thomson" fullname="Martin Thomson">
       <organization>Mozilla</organization>
     </author>
-    <date year="2014" month="June" day="27"/>
+    <date day="27" month="June" year="2014"></date>
     <abstract>
-      <t>This document describes a mechanism to enable HTTP Clients to provide an indication within a HTTP Connect request as to which protocol will be used within the tunnel established to the Server identified by the target resource. The tunneled protocol is declared using the Tunnel- Protocol HTTP Request header field. Label usage relating to the use of HTTP Connect by WebRTC clients (e.g. turn, webrtc) are described in this document.</t>
+      <t>   This document describes a mechanism to enable HTTP Clients to provide
+   an indication within a HTTP Connect request as to which protocol will
+   be used within the tunnel established to the Server identified by the
+   target resource.  The tunneled protocol is declared using the Tunnel-
+   Protocol HTTP Request header field.  Label usage relating to the use
+   of HTTP Connect by WebRTC clients (e.g. turn, webrtc) are described
+   in this document.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hutton-httpbis-connect-protocol-00"/>
 </reference>

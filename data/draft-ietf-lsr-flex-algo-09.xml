@@ -1,25 +1,35 @@
 <reference anchor="I-D.ietf-lsr-flex-algo" target="https://datatracker.ietf.org/doc/html/draft-ietf-lsr-flex-algo-09">
   <front>
     <title>IGP Flexible Algorithm</title>
-    <author fullname="Peter Psenak" initials="P." surname="Psenak">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-lsr-flex-algo-09"/>
+    <author initials="P." surname="Psenak" fullname="Peter Psenak">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Shraddha Hegde" initials="S." surname="Hegde">
+    <author initials="S." surname="Hegde" fullname="Shraddha Hegde">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils">
+    <author initials="C." surname="Filsfils" fullname="Clarence Filsfils">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Ketan Talaulikar" initials="K." surname="Talaulikar">
+    <author initials="K." surname="Talaulikar" fullname="Ketan Talaulikar">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Arkadiy Gulko" initials="A." surname="Gulko">
+    <author initials="A." surname="Gulko" fullname="Arkadiy Gulko">
       <organization>Refinitiv</organization>
     </author>
-    <date year="2020" month="August" day="14"/>
+    <date day="14" month="August" year="2020"></date>
     <abstract>
-      <t>IGP protocols traditionally compute best paths over the network based on the IGP metric assigned to the links. Many network deployments use RSVP-TE based or Segment Routing based Traffic Engineering to steer traffic over a path that is computed using different metrics or constraints than the shortest IGP path. This document proposes a solution that allows IGPs themselves to compute constraint-based paths over the network. This document also specifies a way of using Segment Routing (SR) Prefix-SIDs and SRv6 locators to steer packets along the constraint-based paths.</t>
+      <t>   IGP protocols traditionally compute best paths over the network based
+   on the IGP metric assigned to the links.  Many network deployments
+   use RSVP-TE based or Segment Routing based Traffic Engineering to
+   steer traffic over a path that is computed using different metrics or
+   constraints than the shortest IGP path.  This document proposes a
+   solution that allows IGPs themselves to compute constraint-based
+   paths over the network.  This document also specifies a way of using
+   Segment Routing (SR) Prefix-SIDs and SRv6 locators to steer packets
+   along the constraint-based paths.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-lsr-flex-algo-09"/>
 </reference>

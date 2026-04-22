@@ -1,19 +1,26 @@
 <reference anchor="I-D.ietf-pim-ipv6-zeroconf-assignment" target="https://datatracker.ietf.org/doc/html/draft-ietf-pim-ipv6-zeroconf-assignment-08">
   <front>
     <title>Zero-Configuration Assignment of IPv6 Multicast Addresses</title>
-    <author fullname="Nathan Karstens" initials="N." surname="Karstens">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pim-ipv6-zeroconf-assignment-08"/>
+    <author initials="N." surname="Karstens" fullname="Nathan Karstens">
       <organization>Garmin International, Inc.</organization>
     </author>
-    <author fullname="Dino Farinacci" initials="D." surname="Farinacci">
+    <author initials="D." surname="Farinacci" fullname="Dino Farinacci">
       <organization>lispers.net</organization>
     </author>
-    <author fullname="Mike McBride" initials="M." surname="McBride">
+    <author initials="M." surname="McBride" fullname="Mike McBride">
       <organization>Futurewei</organization>
     </author>
-    <date year="2026" month="March" day="30"/>
+    <date day="30" month="March" year="2026"></date>
     <abstract>
-      <t>Describes a zero-configuration protocol for dynamically assigning IPv6 multicast addresses. Applications randomly assign multicast group IDs from a specified range and prevent collisions by using Multicast DNS (mDNS) to publish records under a new "eth-addr.arpa" domain. This protocol satisfies all of the criteria listed in draft- ietf-pim-zeroconf-mcast-addr-alloc-ps.</t>
+      <t>   Describes a zero-configuration protocol for dynamically assigning
+   IPv6 multicast addresses.  Applications randomly assign multicast
+   group IDs from a specified range and prevent collisions by using
+   Multicast DNS (mDNS) to publish records under a new "eth-addr.arpa"
+   domain.  This protocol satisfies all of the criteria listed in draft-
+   ietf-pim-zeroconf-mcast-addr-alloc-ps.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-pim-ipv6-zeroconf-assignment-08"/>
 </reference>

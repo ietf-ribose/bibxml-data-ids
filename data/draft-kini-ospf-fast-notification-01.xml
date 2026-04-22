@@ -1,19 +1,27 @@
 <reference anchor="I-D.kini-ospf-fast-notification" target="https://datatracker.ietf.org/doc/html/draft-kini-ospf-fast-notification-01">
   <front>
     <title>OSPF Fast Notification</title>
-    <author fullname="Sriganesh Kini" initials="S." surname="Kini">
+    <seriesInfo name="Internet-Draft" value="draft-kini-ospf-fast-notification-01"/>
+    <author initials="S." surname="Kini" fullname="Sriganesh Kini">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Wenhu Lu" initials="W." surname="Lu">
+    <author initials="W." surname="Lu" fullname="Wenhu Lu">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Albert Tian" initials="A." surname="Tian">
+    <author initials="A." surname="Tian" fullname="Albert Tian">
       <organization>Ericsson</organization>
     </author>
-    <date year="2011" month="March" day="14"/>
+    <date day="14" month="March" year="2011"></date>
     <abstract>
-      <t>The current OSPF link-state database (LSDB) flooding mechanism involves control-plane processing and forwarding at each hop. The delay due to the involvement of the control-plane adversely affects OSPF convergence. This document describes a mechanism to transmit link-state advertisements (LSA) multiple hops away without involving control-plane processing at the intermediate routers. This helps to achieve faster convergence. It complements the current LSDB flooding mechanism.</t>
+      <t>The current OSPF link-state database (LSDB) flooding mechanism
+involves control-plane processing and forwarding at each hop. The
+delay due to the involvement of the control-plane adversely affects
+OSPF convergence. This document describes a mechanism to transmit
+link-state advertisements (LSA)  multiple hops away without involving
+control-plane processing at the intermediate routers. This helps to
+achieve faster convergence. It complements the current LSDB flooding
+mechanism.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kini-ospf-fast-notification-01"/>
 </reference>

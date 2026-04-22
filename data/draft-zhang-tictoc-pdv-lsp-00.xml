@@ -1,16 +1,31 @@
 <reference anchor="I-D.zhang-tictoc-pdv-lsp" target="https://datatracker.ietf.org/doc/html/draft-zhang-tictoc-pdv-lsp-00">
   <front>
     <title>PDV-based PTP LSP Setup,Reoptimization and Recovery</title>
-    <author fullname="Junhui Zhang" initials="J." surname="Zhang">
+    <seriesInfo name="Internet-Draft" value="draft-zhang-tictoc-pdv-lsp-00"/>
+    <author initials="J." surname="Zhang" fullname="Junhui Zhang">
       <organization>ZTE Corporation</organization>
     </author>
-    <author fullname="Liang Xia" initials="L." surname="Xia">
+    <author initials="L." surname="Xia" fullname="Liang Xia">
       <organization>ZTE Corporation</organization>
     </author>
-    <date year="2011" month="October" day="20"/>
+    <date day="20" month="October" year="2011"></date>
     <abstract>
-      <t>This document defines a mechanism for the setup,reoptimization and recovery of PTP LSP based on the PDV metrics between the 1588 Master and the 1588 Slave. When a PTP communication path goes through the third party networks (e.g. the MPLS networks), the PDV noise caused by the third party networks will have a significant impact on the synchronization performance. So, the PDV metrics should be considered in the setup of PTP LSP. In addition, when the PDV noise exceeds to a certain degree, it is necessary to notify the head-end LSR(i.e. the 1588 Master) to switch to the backup PTP LSP and to reoptimize the primary PTP LSP in order to improve the PTP reliability.</t>
+      <t>   This document defines a mechanism for the setup,reoptimization and
+   recovery of PTP LSP based on the PDV metrics between the 1588 Master
+   and the 1588 Slave.
+
+   When a PTP communication path goes through the third party networks
+   (e.g. the MPLS networks), the PDV noise caused by the third party
+   networks will have a significant impact on the synchronization
+   performance.  So, the PDV metrics should be considered in the setup
+   of PTP LSP.
+
+   In addition, when the PDV noise exceeds to a certain degree, it is
+   necessary to notify the head-end LSR(i.e. the 1588 Master) to switch
+   to the backup PTP LSP and to reoptimize the primary PTP LSP in order
+   to improve the PTP reliability.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-zhang-tictoc-pdv-lsp-00"/>
 </reference>

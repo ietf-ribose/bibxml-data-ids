@@ -1,16 +1,22 @@
 <reference anchor="I-D.weiler-dnsext-dnssec-online-signing" target="https://datatracker.ietf.org/doc/html/draft-weiler-dnsext-dnssec-online-signing-01">
   <front>
     <title>Minimally Covering NSEC Records and DNSSEC On-line Signing</title>
-    <author fullname="Samuel Weiler" initials="S." surname="Weiler">
+    <seriesInfo name="Internet-Draft" value="draft-weiler-dnsext-dnssec-online-signing-01"/>
+    <author initials="S." surname="Weiler" fullname="Samuel Weiler">
       <organization>SPARTA, Inc</organization>
     </author>
-    <author fullname="Johan Stenstam" initials="J." surname="Stenstam">
+    <author initials="J." surname="Stenstam" fullname="Johan Stenstam">
       <organization>Autonomica AB</organization>
     </author>
-    <date year="2005" month="February" day="21"/>
+    <date day="21" month="February" year="2005"></date>
     <abstract>
-      <t>This document describes how to construct DNSSEC NSEC resource records that cover a smaller range of names than called for by [-records]. By generating and signing these records on demand, authoritative name servers can effectively stop the disclosure of zone contents otherwise made possible by walking the chain of NSEC records in a signed zone.</t>
+      <t>This document describes how to construct DNSSEC NSEC resource records
+   that cover a smaller range of names than called for by [-records].
+   By generating and signing these records on demand, authoritative name
+   servers can effectively stop the disclosure of zone contents
+   otherwise made possible by walking the chain of NSEC records in a
+   signed zone.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-weiler-dnsext-dnssec-online-signing-01"/>
 </reference>

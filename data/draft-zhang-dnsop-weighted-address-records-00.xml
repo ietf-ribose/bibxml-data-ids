@@ -1,19 +1,27 @@
 <reference anchor="I-D.zhang-dnsop-weighted-address-records" target="https://datatracker.ietf.org/doc/html/draft-zhang-dnsop-weighted-address-records-00">
   <front>
     <title>New weighted resource record for traffic scheduling</title>
-    <author fullname="Haikuo Zhang" initials="H." surname="Zhang">
+    <seriesInfo name="Internet-Draft" value="draft-zhang-dnsop-weighted-address-records-00"/>
+    <author initials="H." surname="Zhang" fullname="Haikuo Zhang">
       <organization>CNNIC</organization>
     </author>
-    <author fullname="Peng Zuo" initials="P." surname="Zuo">
+    <author initials="P." surname="Zuo" fullname="Peng Zuo">
       <organization>CNNIC</organization>
     </author>
-    <author fullname="Jiankang Yao" initials="J." surname="Yao">
+    <author initials="J." surname="Yao" fullname="Jiankang Yao">
       <organization>CNNIC</organization>
     </author>
-    <date year="2018" month="September" day="25"/>
+    <date day="25" month="September" year="2018"></date>
     <abstract>
-      <t>Scheduling traffic in proportion to different nodes can optimize bandwidth utilization and improve user experience when the Internet traffic exceeds the bandwidth limit of a CDN cache node. This document defines AX and AAAAX RR types by adding weight field to existing A and AAAA resource records. A group of weighted records will be sorted in the DNS response according to the weight in AX and AAAAX records.</t>
+      <t>   Scheduling traffic in proportion to different nodes can optimize
+   bandwidth utilization and improve user experience when the Internet
+   traffic exceeds the bandwidth limit of a CDN cache node.  This
+   document defines AX and AAAAX RR types by adding weight field to
+   existing A and AAAA resource records.  A group of weighted records
+   will be sorted in the DNS response according to the weight in AX and
+   AAAAX records.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-zhang-dnsop-weighted-address-records-00"/>
 </reference>

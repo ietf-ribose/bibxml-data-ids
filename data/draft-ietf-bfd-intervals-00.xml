@@ -1,19 +1,27 @@
 <reference anchor="I-D.ietf-bfd-intervals" target="https://datatracker.ietf.org/doc/html/draft-ietf-bfd-intervals-00">
   <front>
     <title>Common Interval Support in BFD</title>
-    <author fullname="Nobo Akiya" initials="N." surname="Akiya">
-      <organization/>
-    </author>
-    <author fullname="Marc Binderberger" initials="M." surname="Binderberger">
-      <organization/>
-    </author>
-    <author fullname="Greg Mirsky" initials="G." surname="Mirsky">
-      <organization/>
-    </author>
-    <date year="2014" month="March" day="10"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bfd-intervals-00"/>
+    <author initials="N." surname="Akiya" fullname="Nobo Akiya"/>
+    <author initials="M." surname="Binderberger" fullname="Marc Binderberger"/>
+    <author initials="G." surname="Mirsky" fullname="Greg Mirsky"/>
+    <date day="10" month="March" year="2014"></date>
     <abstract>
-      <t>Some BFD implementations may be restricted to only support several interval values. When such BFD implementations speak to each other, there is a possibility of two sides not being able to find a common interval value to run BFD sessions. This document defines a small set of interval values for BFD that we call "Common intervals", and recommends implementations to support the defined intervals. This solves the problem of finding an interval value that both BFD speakers can support while allowing a simplified implementation as seen for hardware-based BFD. It does not restrict an implementation from supporting more intervals in addition to the Common intervals.</t>
+      <t>   Some BFD implementations may be restricted to only support several
+   interval values.  When such BFD implementations speak to each other,
+   there is a possibility of two sides not being able to find a common
+   interval value to run BFD sessions.
+
+   This document defines a small set of interval values for BFD that we
+   call "Common intervals", and recommends implementations to support
+   the defined intervals.  This solves the problem of finding an
+   interval value that both BFD speakers can support while allowing a
+   simplified implementation as seen for hardware-based BFD.  It does
+   not restrict an implementation from supporting more intervals in
+   addition to the Common intervals.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-bfd-intervals-00"/>
 </reference>

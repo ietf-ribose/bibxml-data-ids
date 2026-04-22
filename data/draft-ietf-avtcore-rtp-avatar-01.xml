@@ -1,22 +1,30 @@
 <reference anchor="I-D.ietf-avtcore-rtp-avatar" target="https://datatracker.ietf.org/doc/html/draft-ietf-avtcore-rtp-avatar-01">
   <front>
     <title>RTP Payload Format for Avatar Representation Format (ARF) Animation Stream</title>
-    <author fullname="Hyunsik Yang" initials="H." surname="Yang">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-avtcore-rtp-avatar-01"/>
+    <author initials="H." surname="Yang" fullname="Hyunsik Yang">
       <organization>InterDigital</organization>
     </author>
-    <author fullname="Xavier de Foy" initials="X." surname="de Foy">
+    <author initials="X." surname="de Foy" fullname="Xavier de Foy">
       <organization>InterDigital</organization>
     </author>
-    <author fullname="Ahmed Hamza" initials="A." surname="Hamza">
+    <author initials="A." surname="Hamza" fullname="Ahmed Hamza">
       <organization>InterDigital</organization>
     </author>
-    <author fullname="Imed Bouazizi" initials="I." surname="Bouazizi">
+    <author initials="I." surname="Bouazizi" fullname="Imed Bouazizi">
       <organization>Qualcomm</organization>
     </author>
-    <date year="2026" month="March" day="2"/>
+    <date day="02" month="March" year="2026"></date>
     <abstract>
-      <t>This memo outlines RTP payload formats for the animation stream format as defined in the ISO/IEC 23090-39 standard (MPEG-I Avatar Representation Format), in the following referred to as ARF. ARF is composed of Avatar Animation Units (AAU) including an AAU header and zero or more AAU packets. The RTP payload header format allows for packetization of an AAU unit in an RTP packet payload as well as fragmentation of an AAU into multiple RTP packets.</t>
+      <t>   This memo outlines RTP payload formats for the animation stream
+   format as defined in the ISO/IEC 23090-39 standard (MPEG-I Avatar
+   Representation Format), in the following referred to as ARF.  ARF is
+   composed of Avatar Animation Units (AAU) including an AAU header and
+   zero or more AAU packets.  The RTP payload header format allows for
+   packetization of an AAU unit in an RTP packet payload as well as
+   fragmentation of an AAU into multiple RTP packets.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-avtcore-rtp-avatar-01"/>
 </reference>

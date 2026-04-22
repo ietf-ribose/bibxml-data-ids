@@ -1,22 +1,34 @@
 <reference anchor="I-D.zzhang-rift-sr" target="https://datatracker.ietf.org/doc/html/draft-zzhang-rift-sr-03">
   <front>
     <title>SRIFT: Segment Routing in Fat Trees</title>
-    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+    <seriesInfo name="Internet-Draft" value="draft-zzhang-rift-sr-03"/>
+    <author initials="Z. J." surname="Zhang" fullname="Zhaohui (Jeffrey) Zhang">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+    <author initials="J." surname="Tantsura" fullname="Jeff Tantsura">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Jordan Head" initials="J." surname="Head">
+    <author initials="J." surname="Head" fullname="Jordan Head">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Don Fedyk" initials="D." surname="Fedyk">
+    <author initials="D." surname="Fedyk" fullname="Don Fedyk">
       <organization>Individual</organization>
     </author>
-    <date year="2021" month="February" day="22"/>
+    <date day="22" month="February" year="2021"></date>
     <abstract>
-      <t>This document specifies signaling procedures for Segment Routing in RIFT. Each node's loopback address, Segment Routing Global Block (SRGB) and Node Segment Identifier (Node-SID), which are typically assigned by a configuration management system and distibuted by routing protocols, are distributed southbound from the Top Of Fabric (TOF) nodes via RIFT's Key-Value distribution mechanism, so that each node can compute how to reach a segment represented by the active SID in a packet. An SR controller signals SR policies to ingress nodes so that they can send packets with a desired segment list to steer traffic.</t>
+      <t>   This document specifies signaling procedures for Segment Routing in
+   RIFT.  Each node's loopback address, Segment Routing Global Block
+   (SRGB) and Node Segment Identifier (Node-SID), which are typically
+   assigned by a configuration management system and distibuted by
+   routing protocols, are distributed southbound from the Top Of Fabric
+   (TOF) nodes via RIFT's Key-Value distribution mechanism, so that each
+   node can compute how to reach a segment represented by the active SID
+   in a packet.  An SR controller signals SR policies to ingress nodes
+   so that they can send packets with a desired segment list to steer
+   traffic.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-zzhang-rift-sr-03"/>
 </reference>

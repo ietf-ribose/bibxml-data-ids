@@ -1,22 +1,30 @@
 <reference anchor="I-D.lee-dnsop-recursion-performance-improvement" target="https://datatracker.ietf.org/doc/html/draft-lee-dnsop-recursion-performance-improvement-00">
   <front>
     <title>An approach to improve recursion performance </title>
-    <author fullname="XiaoDong Lee" initials="X." surname="Lee">
+    <seriesInfo name="Internet-Draft" value="draft-lee-dnsop-recursion-performance-improvement-00"/>
+    <author initials="X." surname="Lee" fullname="XiaoDong Lee">
       <organization>CNNIC</organization>
     </author>
-    <author fullname="Hongtao Li" initials="H." surname="Li">
+    <author initials="H." surname="Li" fullname="Hongtao Li">
       <organization>CNNIC</organization>
     </author>
-    <author fullname="Haikuo Zhang" initials="H." surname="Zhang">
+    <author initials="H." surname="Zhang" fullname="Haikuo Zhang">
       <organization>CNNIC</organization>
     </author>
-    <author fullname="Peng Zuo" initials="P." surname="Zuo">
+    <author initials="P." surname="Zuo" fullname="Peng Zuo">
       <organization>CNNIC</organization>
     </author>
-    <date year="2015" month="December" day="11"/>
+    <date day="11" month="December" year="2015"></date>
     <abstract>
-      <t>A recursive DNS server generally uses random port numbers to send outbound requests to protect against DNS spoofing attacks. Due to the limitation of operation system, a process typically can only open numerable file descriptors simultaneously. This limit reduces recursion performance of resolvers. This draft offers an approach to improve both recursion performance and security for recursive servers.</t>
+      <t>   A recursive DNS server generally uses random port numbers to send
+   outbound requests to protect against DNS spoofing attacks.  Due to
+   the limitation of operation system, a process typically can only open
+   numerable file descriptors simultaneously.  This limit reduces
+   recursion performance of resolvers.  This draft offers an approach to
+   improve both recursion performance and security for recursive
+   servers.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-lee-dnsop-recursion-performance-improvement-00"/>
 </reference>

@@ -1,16 +1,15 @@
 <reference anchor="I-D.mohali-dispatch-cause-for-service-number" target="https://datatracker.ietf.org/doc/html/draft-mohali-dispatch-cause-for-service-number-14">
   <front>
     <title>SIP "cause" URI Parameter for Service Number Translation</title>
-    <author fullname="Marianne Mohali" initials="M." surname="Mohali">
+    <seriesInfo name="Internet-Draft" value="draft-mohali-dispatch-cause-for-service-number-14"/>
+    <author initials="M." surname="Mohali" fullname="Marianne Mohali">
       <organization>Orange</organization>
     </author>
-    <author fullname="Mary Barnes" initials="M." surname="Barnes">
-      <organization/>
-    </author>
-    <date year="2017" month="January" day="30"/>
+    <author initials="M." surname="Barnes" fullname="Mary Barnes"/>
+    <date day="30" month="January" year="2017"></date>
     <abstract>
-      <t>RFC 4458 (regarding SIP URIs for applications) defines a "cause" URI parameter, which may appear in the Request-URI of a SIP request, that is used to indicate a reason why the request arrived to the User Agent Server (UAS) receiving the message. This document updates RFC 4458 by creating a new predefined value for the "cause" URI parameter to cover service number translation for cases of retargeting due to specific service action leading to the translation of a called service access number. This document also provides guidance, which was missing in RFC 4458, for using the "cause" URI parameter within the History-Info header field, since this use is mandatory in some IP networks' implementations.</t>
+      <t>RFC 4458 (regarding SIP URIs for applications) defines a "cause" URI parameter, which may appear in the Request-URI of a SIP request, that is used to indicate a reason why the request arrived to the User Agent Server (UAS) receiving the message.  This document updates RFC 4458 by creating a new predefined value for the "cause" URI parameter to cover service number translation for cases of retargeting due to specific service action leading to the translation of a called service access number.  This document also provides guidance, which was missing in RFC 4458, for using the "cause" URI parameter within the History-Info header field, since this use is mandatory in some IP networks' implementations.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mohali-dispatch-cause-for-service-number-14"/>
 </reference>

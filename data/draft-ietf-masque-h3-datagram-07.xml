@@ -1,16 +1,25 @@
 <reference anchor="I-D.ietf-masque-h3-datagram" target="https://datatracker.ietf.org/doc/html/draft-ietf-masque-h3-datagram-07">
   <front>
     <title>Using Datagrams with HTTP</title>
-    <author fullname="David Schinazi" initials="D." surname="Schinazi">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-masque-h3-datagram-07"/>
+    <author initials="D." surname="Schinazi" fullname="David Schinazi">
       <organization>Google LLC</organization>
     </author>
-    <author fullname="Lucas Pardue" initials="L." surname="Pardue">
+    <author initials="L." surname="Pardue" fullname="Lucas Pardue">
       <organization>Cloudflare</organization>
     </author>
-    <date year="2022" month="March" day="21"/>
+    <date day="21" month="March" year="2022"></date>
     <abstract>
-      <t>The QUIC DATAGRAM extension provides application protocols running over QUIC with a mechanism to send unreliable data while leveraging the security and congestion-control properties of QUIC. However, QUIC DATAGRAM frames do not provide a means to demultiplex application contexts. This document describes how to use QUIC DATAGRAM frames with HTTP/3 by association with HTTP requests. Additionally, this document defines the Capsule Protocol that can convey datagrams over prior versions of HTTP.</t>
+      <t>   The QUIC DATAGRAM extension provides application protocols running
+   over QUIC with a mechanism to send unreliable data while leveraging
+   the security and congestion-control properties of QUIC.  However,
+   QUIC DATAGRAM frames do not provide a means to demultiplex
+   application contexts.  This document describes how to use QUIC
+   DATAGRAM frames with HTTP/3 by association with HTTP requests.
+   Additionally, this document defines the Capsule Protocol that can
+   convey datagrams over prior versions of HTTP.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-masque-h3-datagram-07"/>
 </reference>

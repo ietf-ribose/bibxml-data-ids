@@ -1,16 +1,24 @@
 <reference anchor="I-D.ietf-avt-variable-rate-audio" target="https://datatracker.ietf.org/doc/html/draft-ietf-avt-variable-rate-audio-00">
   <front>
     <title>RTP Timestamp Frequency for Variable Rate Audio Codecs</title>
-    <author fullname="Stephan Wenger" initials="S." surname="Wenger">
-      <organization/>
-    </author>
-    <author fullname="Colin Perkins" initials="C." surname="Perkins">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-avt-variable-rate-audio-00"/>
+    <author initials="S." surname="Wenger" fullname="Stephan Wenger"/>
+    <author initials="C." surname="Perkins" fullname="Colin Perkins">
       <organization>C. Perkins</organization>
     </author>
-    <date year="2004" month="October" day="19"/>
+    <date day="19" month="October" year="2004"></date>
     <abstract>
-      <t>This memo discusses the problems of audio codecs with variable external sampling rates. Historically, for audio codecs, the RTP timestamp frequency was chosen to match the sampling rate of the audio codec. However, this choice is nowadays more difficult to justify, because of the advent of audio codecs (and, even more important, practical use cases) that support multiple sample rates and the switch between the sample rates during the lifetime of an RTP session. This Internet draft addresses the problem by suggesting that RTP Payload RFCs for such codecs to utilize a single, high, unified RTP timestamp frequency.</t>
+      <t>   This memo discusses the problems of audio codecs with variable 
+   external sampling rates.  Historically, for audio codecs, the RTP 
+   timestamp frequency was chosen to match the sampling rate of the 
+   audio codec.  However, this choice is nowadays more difficult to 
+   justify, because of the advent of audio codecs (and, even more 
+   important, practical use cases) that support multiple sample rates 
+   and the switch between the sample rates during the lifetime of an 
+   RTP session.  This Internet draft addresses the problem by 
+   suggesting that RTP Payload RFCs for such codecs to utilize a 
+   single, high, unified RTP timestamp frequency.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-avt-variable-rate-audio-00"/>
 </reference>

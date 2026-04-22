@@ -1,25 +1,46 @@
 <reference anchor="I-D.tuwien-dsg-diameterofthings" target="https://datatracker.ietf.org/doc/html/draft-tuwien-dsg-diameterofthings-01">
   <front>
     <title>Diameter of Things (DoT): A Protocol for Real-time Telemetry of IoT Applications</title>
-    <author fullname="Soheil" initials="" surname="Soheil">
+    <seriesInfo name="Internet-Draft" value="draft-tuwien-dsg-diameterofthings-01"/>
+    <author surname="Soheil" fullname="Soheil">
       <organization>TU Wien</organization>
     </author>
-    <author fullname="Samira Mahdizadeh" initials="S." surname="Mahdizadeh">
+    <author initials="S." surname="Mahdizadeh" fullname="Samira Mahdizadeh">
       <organization>TU Wien</organization>
     </author>
-    <author fullname="Schahram Dustdar" initials="S." surname="Dustdar">
+    <author initials="S." surname="Dustdar" fullname="Schahram Dustdar">
       <organization>TU Wien</organization>
     </author>
-    <author fullname="Negar Behinaein" initials="N." surname="Behinaein">
+    <author initials="N." surname="Behinaein" fullname="Negar Behinaein">
       <organization>BIHE</organization>
     </author>
-    <author fullname="Rabee Rahimzadeh" initials="R." surname="Rahimzadeh">
+    <author initials="R." surname="Rahimzadeh" fullname="Rabee Rahimzadeh">
       <organization>BIHE</organization>
     </author>
-    <date year="2015" month="September" day="21"/>
+    <date day="21" month="September" year="2015"></date>
     <abstract>
-      <t>The Diameter of Things (DoT) protocol is intended to provide a real- time metering framework for IoT applications in resource-constraint gateways. Respecting resource capacity constraints on edge devices establishes a firm requirement for a lightweight protocol in support of fine-grained telemetry of IoT deployment units. Such metering capability is needed when lack of resources among competing applications dictates our schedule and credit allocation. In response to these findings, the authors offer the DoT protocol that can be incorporated to implement real-time metering of IoT services for prepaid subscribers as well as Pay-per-use economic models. The DoT employs mechanisms to handle the composite application resource usage units consumed/charged against a single user balance. Such charging methods come in two models of time-based and event-based patterns. The former is used for scenarios where the charged units are continuously consumed while the latter is typically used when units are implicit invocation events. The DoT-enabled platform performs a chained metering transaction on a graph of dependent IoT microservices, collects the emitted usage data, then generates billable artifacts from the chain of metering tokens. Finally it permits micropayments to take place in parallel.</t>
+      <t>  The Diameter of Things (DoT) protocol is intended to provide a real-
+  time metering framework for IoT applications in resource-constraint
+  gateways. Respecting resource capacity constraints on edge devices
+  establishes a firm requirement for a lightweight protocol in support
+  of fine-grained telemetry of IoT deployment units. Such metering
+  capability is needed when lack of resources among competing
+  applications dictates our schedule and credit allocation. In response
+  to these findings, the authors offer the DoT protocol that can be
+  incorporated to implement real-time metering of IoT services for
+  prepaid subscribers as well as Pay-per-use economic models. The DoT
+  employs mechanisms to handle the composite application resource usage
+  units consumed/charged against a single user balance. Such charging
+  methods come in two models of time-based and event-based patterns. The
+  former is used for scenarios where the charged units are continuously
+  consumed while the latter is typically used when units are implicit
+  invocation events. The DoT-enabled platform performs a chained
+  metering transaction on a graph of dependent IoT microservices,
+  collects the emitted usage data, then generates billable artifacts
+  from the chain of metering tokens. Finally it permits micropayments to
+  take place in parallel.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-tuwien-dsg-diameterofthings-01"/>
 </reference>

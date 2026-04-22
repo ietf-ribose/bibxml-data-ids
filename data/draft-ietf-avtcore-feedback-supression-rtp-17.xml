@@ -1,19 +1,20 @@
 <reference anchor="I-D.ietf-avtcore-feedback-supression-rtp" target="https://datatracker.ietf.org/doc/html/draft-ietf-avtcore-feedback-supression-rtp-17">
   <front>
     <title>RTP Control Protocol (RTCP) Extension for a Third-Party Loss Report</title>
-    <author fullname="Qin Wu" initials="Q." surname="Wu">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-avtcore-feedback-supression-rtp-17"/>
+    <author initials="Q." surname="Wu" fullname="Qin Wu">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Frank Xia" initials="F." surname="Xia">
+    <author initials="F." surname="Xia" fullname="Frank Xia">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Roni Even" initials="R." surname="Even">
+    <author initials="R." surname="Even" fullname="Roni Even">
       <organization>Huawei</organization>
     </author>
-    <date year="2012" month="April" day="13"/>
+    <date day="13" month="April" year="2012"></date>
     <abstract>
-      <t>In a large RTP session using the RTP Control Protocol (RTCP) feedback mechanism defined in RFC 4585, a feedback target may experience transient overload if some event causes a large number of receivers to send feedback at once. This overload is usually avoided by ensuring that feedback reports are forwarded to all receivers, allowing them to avoid sending duplicate feedback reports. However, there are cases where it is not recommended to forward feedback reports, and this may allow feedback implosion. This memo discusses these cases and defines a new RTCP Third-Party Loss Report that can be used to inform receivers that the feedback target is aware of some loss event, allowing them to suppress feedback. Associated Session Description Protocol (SDP) signaling is also defined. [STANDARDS-TRACK]</t>
+      <t>In a large RTP session using the RTP Control Protocol (RTCP) feedback mechanism defined in RFC 4585, a feedback target may experience transient overload if some event causes a large number of receivers to send feedback at once.  This overload is usually avoided by ensuring that feedback reports are forwarded to all receivers, allowing them to avoid sending duplicate feedback reports.  However, there are cases where it is not recommended to forward feedback reports, and this may allow feedback implosion.  This memo discusses these cases and defines a new RTCP Third-Party Loss Report that can be used to inform receivers that the feedback target is aware of some loss event, allowing them to suppress feedback.  Associated Session Description Protocol (SDP) signaling is also defined. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-avtcore-feedback-supression-rtp-17"/>
 </reference>

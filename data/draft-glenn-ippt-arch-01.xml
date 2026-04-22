@@ -1,16 +1,22 @@
 <reference anchor="I-D.glenn-ippt-arch" target="https://datatracker.ietf.org/doc/html/draft-glenn-ippt-arch-01">
   <front>
     <title>An Architecture for IP Packet Tracing</title>
-    <author fullname="Dr. Gargi Keeni" initials="G." surname="Keeni">
-      <organization/>
-    </author>
-    <author fullname="Yoshitaka Kuwata" initials="Y." surname="Kuwata">
+    <seriesInfo name="Internet-Draft" value="draft-glenn-ippt-arch-01"/>
+    <author initials="G." surname="Keeni" fullname="Dr. Gargi Keeni"/>
+    <author initials="Y." surname="Kuwata" fullname="Yoshitaka Kuwata">
       <organization>NTT-Data</organization>
     </author>
-    <date year="2004" month="October" day="28"/>
+    <date day="28" month="October" year="2004"></date>
     <abstract>
-      <t>This document presents an architecture for use in tracing packets across the Internet. It envisages a two-tier model wherein at the top level a Packet Tracer Application (PTA) queries relevant Autonomous System (AS) packet tracers (ASPT) with details of the packet to be traced. The PTA constructs the complete path from the responses of the queried ASPTs. At the lower level an ASPT receives queries from a PTA, traces the path of a packet within the AS and sends back the result to the PTA.</t>
+      <t>   This document presents an architecture for use in tracing packets
+   across the Internet. It envisages a two-tier model wherein
+   at the top level a Packet Tracer Application (PTA) queries relevant
+   Autonomous System (AS) packet tracers (ASPT) with details of the
+   packet to be traced. The PTA constructs the complete path from the
+   responses of the queried ASPTs. At the lower level an ASPT receives
+   queries from a PTA, traces the path of a packet within the AS and
+   sends back the result to the PTA.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-glenn-ippt-arch-01"/>
 </reference>

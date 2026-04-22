@@ -1,28 +1,31 @@
 <reference anchor="I-D.ietf-dprive-dns-over-tls" target="https://datatracker.ietf.org/doc/html/draft-ietf-dprive-dns-over-tls-09">
   <front>
     <title>Specification for DNS over Transport Layer Security (TLS)</title>
-    <author fullname="Zi Hu" initials="Z." surname="Hu">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dprive-dns-over-tls-09"/>
+    <author initials="Z." surname="Hu" fullname="Zi Hu">
       <organization>USC/ISI</organization>
     </author>
-    <author fullname="Liang Zhu" initials="L." surname="Zhu">
+    <author initials="L." surname="Zhu" fullname="Liang Zhu">
       <organization>USC/ISI</organization>
     </author>
-    <author fullname="John Heidemann" initials="J." surname="Heidemann">
+    <author initials="J." surname="Heidemann" fullname="John Heidemann">
       <organization>USC/ISI</organization>
     </author>
-    <author fullname="Allison Mankin" initials="A." surname="Mankin">
+    <author initials="A." surname="Mankin" fullname="Allison Mankin">
       <organization>Independent</organization>
     </author>
-    <author fullname="Duane Wessels" initials="D." surname="Wessels">
+    <author initials="D." surname="Wessels" fullname="Duane Wessels">
       <organization>Verisign Labs</organization>
     </author>
-    <author fullname="Paul E. Hoffman" initials="P. E." surname="Hoffman">
+    <author initials="P. E." surname="Hoffman" fullname="Paul E. Hoffman">
       <organization>ICANN</organization>
     </author>
-    <date year="2016" month="March" day="17"/>
+    <date day="17" month="March" year="2016"></date>
     <abstract>
-      <t>This document describes the use of Transport Layer Security (TLS) to provide privacy for DNS. Encryption provided by TLS eliminates opportunities for eavesdropping and on-path tampering with DNS queries in the network, such as discussed in RFC 7626. In addition, this document specifies two usage profiles for DNS over TLS and provides advice on performance considerations to minimize overhead from using TCP and TLS with DNS. This document focuses on securing stub-to-recursive traffic, as per the charter of the DPRIVE Working Group. It does not prevent future applications of the protocol to recursive-to-authoritative traffic.</t>
+      <t>This document describes the use of Transport Layer Security (TLS) to provide privacy for DNS. Encryption provided by TLS eliminates opportunities for eavesdropping and on-path tampering with DNS queries in the network, such as discussed in RFC 7626. In addition, this document specifies two usage profiles for DNS over TLS and provides advice on performance considerations to minimize overhead from using TCP and TLS with DNS.
+
+ This document focuses on securing stub-to-recursive traffic, as per the charter of the DPRIVE Working Group. It does not prevent future applications of the protocol to recursive-to-authoritative traffic.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dprive-dns-over-tls-09"/>
 </reference>

@@ -1,19 +1,23 @@
 <reference anchor="I-D.ietf-tsvwg-sctpcsum" target="https://datatracker.ietf.org/doc/html/draft-ietf-tsvwg-sctpcsum-07">
   <front>
     <title>Stream Control Transmission Protocol (SCTP) Checksum Change</title>
-    <author fullname="Randall R. Stewart" initials="R. R." surname="Stewart">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-sctpcsum-07"/>
+    <author initials="R. R." surname="Stewart" fullname="Randall R. Stewart">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Jonathan Stone" initials="J." surname="Stone">
+    <author initials="J." surname="Stone" fullname="Jonathan Stone">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Douglas Otis" initials="D." surname="Otis">
+    <author initials="D." surname="Otis" fullname="Douglas Otis">
       <organization>SANlight</organization>
     </author>
-    <date year="2002" month="May" day="7"/>
+    <date day="07" month="May" year="2002"></date>
     <abstract>
-      <t>Stream Control Transmission Protocol [RFC2960] (SCTP) currently uses an Adler-32 checksum. For small packets Adler-32 provides weak detection of errors. This document changes that checksum and updates SCTP to use a 32 bit CRC checksum.</t>
+      <t>Stream Control Transmission Protocol [RFC2960] (SCTP) currently uses an 
+Adler-32 checksum.  For small packets Adler-32 provides weak detection 
+of errors.  This document changes that checksum and updates SCTP to 
+use a 32 bit CRC checksum.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-sctpcsum-07"/>
 </reference>

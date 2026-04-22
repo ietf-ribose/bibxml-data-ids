@@ -1,19 +1,31 @@
 <reference anchor="I-D.xia-avt-mpeg2ts-preamble" target="https://datatracker.ietf.org/doc/html/draft-xia-avt-mpeg2ts-preamble-04">
   <front>
     <title>Preamble Acquisition of MPEG2-TS Multicast Sessions</title>
-    <author fullname="Peilin Yang" initials="P." surname="Yang">
+    <seriesInfo name="Internet-Draft" value="draft-xia-avt-mpeg2ts-preamble-04"/>
+    <author initials="P." surname="Yang" fullname="Peilin Yang">
       <organization>Huawei Technologies Co., Ltd.</organization>
     </author>
-    <author fullname="Frank Xia" initials="F." surname="Xia">
+    <author initials="F." surname="Xia" fullname="Frank Xia">
       <organization>Huawei Technologies Co., Ltd.</organization>
     </author>
-    <author fullname="Xingfen Wu" initials="X." surname="Wu">
+    <author initials="X." surname="Wu" fullname="Xingfen Wu">
       <organization>Huawei Technologies Co., Ltd.</organization>
     </author>
-    <date year="2010" month="October" day="24"/>
+    <date day="24" month="October" year="2010"></date>
     <abstract>
-      <t>The ITU-T Rec. H.222.0 | ISO/IEC 13818-1 Transport Stream (MPEG2-TS) addresses the combining of one or more elementary streams of video and audio, as well as other data, into single or multiple streams which are suitable for storage or transmission. The necessary and sufficient information contained in the Program Specific Information(PSI) tables to demultiplex and present programs must be acquired before a RTP receiver can process any data received in MPEG2-TS. In this document, a Retransmission Server is specified to deliver MPEG2-TS preamble prior to unicast burst RTP packets. The Retransmission Server caches raw RTP packets with MPEG2-TS preamble information, and sends them to the RTP receiver which initiates rapid acquisition of MPEG2-TS multicast sessions.</t>
+      <t>The ITU-T Rec. H.222.0 | ISO/IEC 13818-1 Transport Stream (MPEG2-TS)
+addresses the combining of one or more elementary streams of video
+and audio, as well as other data, into single or multiple streams
+which are suitable for storage or transmission.  The necessary and
+sufficient information contained in the Program Specific
+Information(PSI) tables to demultiplex and present programs must be
+acquired before a RTP receiver can process any data received in
+MPEG2-TS.  In this document, a Retransmission Server is specified to
+deliver MPEG2-TS preamble prior to unicast burst RTP packets.  The
+Retransmission Server caches raw RTP packets with MPEG2-TS preamble
+information, and sends them to the RTP receiver which initiates rapid
+acquisition of MPEG2-TS multicast sessions.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-xia-avt-mpeg2ts-preamble-04"/>
 </reference>

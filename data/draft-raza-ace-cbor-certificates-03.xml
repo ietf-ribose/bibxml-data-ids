@@ -1,25 +1,36 @@
 <reference anchor="I-D.raza-ace-cbor-certificates" target="https://datatracker.ietf.org/doc/html/draft-raza-ace-cbor-certificates-03">
   <front>
     <title>CBOR Profile of X.509 Certificates</title>
-    <author fullname="Shahid Raza" initials="S." surname="Raza">
+    <seriesInfo name="Internet-Draft" value="draft-raza-ace-cbor-certificates-03"/>
+    <author initials="S." surname="Raza" fullname="Shahid Raza">
       <organization>RISE AB</organization>
     </author>
-    <author fullname="Joel Höglund" initials="J." surname="Höglund">
+    <author initials="J." surname="Höglund" fullname="Joel Höglund">
       <organization>RISE AB</organization>
     </author>
-    <author fullname="Göran Selander" initials="G." surname="Selander">
+    <author initials="G." surname="Selander" fullname="Göran Selander">
       <organization>Ericsson AB</organization>
     </author>
-    <author fullname="John Preuß Mattsson" initials="J. P." surname="Mattsson">
+    <author initials="J. P." surname="Mattsson" fullname="John Preuß Mattsson">
       <organization>Ericsson AB</organization>
     </author>
-    <author fullname="Martin Furuhed" initials="M." surname="Furuhed">
+    <author initials="M." surname="Furuhed" fullname="Martin Furuhed">
       <organization>Nexus Group</organization>
     </author>
-    <date year="2019" month="December" day="20"/>
+    <date day="20" month="December" year="2019"></date>
     <abstract>
-      <t>This document specifies a CBOR encoding and profiling of X.509 public key certificate suitable for Internet of Things (IoT) deployments. The full X.509 public key certificate format and commonly used ASN.1 encoding is overly verbose for constrained IoT environments. Profiling together with CBOR encoding reduces the certificate size significantly with associated known performance benefits. The CBOR certificates are compatible with the existing X.509 standard, enabling the use of profiled and compressed X.509 certificates without modifications in the existing X.509 standard.</t>
+      <t>   This document specifies a CBOR encoding and profiling of X.509 public
+   key certificate suitable for Internet of Things (IoT) deployments.
+   The full X.509 public key certificate format and commonly used ASN.1
+   encoding is overly verbose for constrained IoT environments.
+   Profiling together with CBOR encoding reduces the certificate size
+   significantly with associated known performance benefits.
+
+   The CBOR certificates are compatible with the existing X.509
+   standard, enabling the use of profiled and compressed X.509
+   certificates without modifications in the existing X.509 standard.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-raza-ace-cbor-certificates-03"/>
 </reference>

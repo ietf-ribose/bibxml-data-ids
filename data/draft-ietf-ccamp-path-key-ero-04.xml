@@ -1,19 +1,24 @@
 <reference anchor="I-D.ietf-ccamp-path-key-ero" target="https://datatracker.ietf.org/doc/html/draft-ietf-ccamp-path-key-ero-04">
   <front>
     <title>Resource Reservation Protocol (RSVP) Extensions for Path Key Support</title>
-    <author fullname="Richard Bradford" initials="R." surname="Bradford">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ccamp-path-key-ero-04"/>
+    <author initials="R." surname="Bradford" fullname="Richard Bradford">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="JP Vasseur" initials="V." surname="Jp">
+    <author initials="V." surname="Jp" fullname="JP Vasseur">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Adrian Farrel" initials="A." surname="Farrel">
+    <author initials="A." surname="Farrel" fullname="Adrian Farrel">
       <organization>Old Dog Consulting</organization>
     </author>
-    <date year="2009" month="March" day="7"/>
+    <date day="07" month="March" year="2009"></date>
     <abstract>
-      <t>The paths taken by Multiprotocol Label Switching (MPLS) and Generalized MPLS (GMPLS) Traffic Engineering (TE) Label Switched Paths (LSPs) may be computed by Path Computation Elements (PCEs). Where the TE LSP crosses multiple domains, such as Autonomous Systems (ASes), the path may be computed by multiple PCEs that cooperate, with each responsible for computing a segment of the path. To preserve confidentiality of topology within each AS, the PCEs support a mechanism to hide the contents of a segment of a path (such as the segment of the path that traverses an AS), called the Confidential Path Segment (CPS), by encoding the contents as a Path Key Subobject (PKS) and embedding this subobject within the result of its path computation. This document describes how to carry Path Key Subobjects in the Resource Reservation Protocol (RSVP) Explicit Route Objects (EROs) and Record Route Objects (RROs) so as to facilitate confidentiality in the signaling of inter-domain TE LSPs. [STANDARDS-TRACK]</t>
+      <t>The paths taken by Multiprotocol Label Switching (MPLS) and Generalized MPLS (GMPLS) Traffic Engineering (TE) Label Switched Paths (LSPs) may be computed by Path Computation Elements (PCEs). Where the TE LSP crosses multiple domains, such as Autonomous Systems (ASes), the path may be computed by multiple PCEs that cooperate, with each responsible for computing a segment of the path.
+
+ To preserve confidentiality of topology within each AS, the PCEs support a mechanism to hide the contents of a segment of a path (such as the segment of the path that traverses an AS), called the Confidential Path Segment (CPS), by encoding the contents as a Path Key Subobject (PKS) and embedding this subobject within the result of its path computation.
+
+ This document describes how to carry Path Key Subobjects in the Resource Reservation Protocol (RSVP) Explicit Route Objects (EROs) and Record Route Objects (RROs) so as to facilitate confidentiality in the signaling of inter-domain TE LSPs. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ccamp-path-key-ero-04"/>
 </reference>

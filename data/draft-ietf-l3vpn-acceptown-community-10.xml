@@ -1,25 +1,26 @@
 <reference anchor="I-D.ietf-l3vpn-acceptown-community" target="https://datatracker.ietf.org/doc/html/draft-ietf-l3vpn-acceptown-community-10">
   <front>
     <title>BGP ACCEPT_OWN Community Attribute</title>
-    <author fullname="Jim Uttaro" initials="J." surname="Uttaro">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-l3vpn-acceptown-community-10"/>
+    <author initials="J." surname="Uttaro" fullname="Jim Uttaro">
       <organization>AT&amp;T</organization>
     </author>
-    <author fullname="Prodosh Mohapatra" initials="P." surname="Mohapatra">
+    <author initials="P." surname="Mohapatra" fullname="Prodosh Mohapatra">
       <organization>Sproute Networks</organization>
     </author>
-    <author fullname="David Smith" initials="D." surname="Smith">
+    <author initials="D." surname="Smith" fullname="David Smith">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Robert Raszuk" initials="R." surname="Raszuk">
+    <author initials="R." surname="Raszuk" fullname="Robert Raszuk">
       <organization>Mirantis Inc.</organization>
     </author>
-    <author fullname="John Scudder" initials="J." surname="Scudder">
+    <author initials="J." surname="Scudder" fullname="John Scudder">
       <organization>Juniper Networks</organization>
     </author>
-    <date year="2015" month="June" day="24"/>
+    <date day="24" month="June" year="2015"></date>
     <abstract>
-      <t>Under certain conditions, it is desirable for a Border Gateway Protocol (BGP) route reflector to be able to modify the Route Target (RT) list of a Virtual Private Network (VPN) route that the route reflector distributes, enabling the route reflector to control how a route originated within one VPN Routing and Forwarding table (VRF) is imported into other VRFs. This technique works effectively as long as the VRF that exports the route is not on the same Provider Edge (PE) router as the VRF(s) that imports the route. However, due to the constraints of BGP, it does not work if the two are on the same PE. This document describes a modification to BGP allowing this technique to work when the VRFs are on the same PE and to be used in a standard manner throughout an autonomous system.</t>
+      <t>Under certain conditions, it is desirable for a Border Gateway Protocol (BGP) route reflector to be able to modify the Route Target (RT) list of a Virtual Private Network (VPN) route that the route reflector distributes, enabling the route reflector to control how a route originated within one VPN Routing and Forwarding table (VRF) is imported into other VRFs.  This technique works effectively as long as the VRF that exports the route is not on the same Provider Edge (PE) router as the VRF(s) that imports the route.  However, due to the constraints of BGP, it does not work if the two are on the same PE.  This document describes a modification to BGP allowing this technique to work when the VRFs are on the same PE and to be used in a standard manner throughout an autonomous system.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-l3vpn-acceptown-community-10"/>
 </reference>

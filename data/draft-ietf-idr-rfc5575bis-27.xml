@@ -1,25 +1,30 @@
 <reference anchor="I-D.ietf-idr-rfc5575bis" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-rfc5575bis-27">
   <front>
     <title>Dissemination of Flow Specification Rules</title>
-    <author fullname="Christoph Loibl" initials="C." surname="Loibl">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-rfc5575bis-27"/>
+    <author initials="C." surname="Loibl" fullname="Christoph Loibl">
       <organization>next layer Telekom GmbH</organization>
     </author>
-    <author fullname="Susan Hares" initials="S." surname="Hares">
+    <author initials="S." surname="Hares" fullname="Susan Hares">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Robert Raszuk" initials="R." surname="Raszuk">
+    <author initials="R." surname="Raszuk" fullname="Robert Raszuk">
       <organization>Bloomberg LP</organization>
     </author>
-    <author fullname="Danny R. McPherson" initials="D. R." surname="McPherson">
+    <author initials="D. R." surname="McPherson" fullname="Danny R. McPherson">
       <organization>Verisign</organization>
     </author>
-    <author fullname="Martin Bacher" initials="M." surname="Bacher">
+    <author initials="M." surname="Bacher" fullname="Martin Bacher">
       <organization>T-Mobile Austria</organization>
     </author>
-    <date year="2020" month="October" day="15"/>
+    <date day="15" month="October" year="2020"></date>
     <abstract>
-      <t>This document defines a Border Gateway Protocol Network Layer Reachability Information (BGP NLRI) encoding format that can be used to distribute (intra-domain and inter-domain) traffic Flow Specifications for IPv4 unicast and IPv4 BGP/MPLS VPN services. This allows the routing system to propagate information regarding more specific components of the traffic aggregate defined by an IP destination prefix. It also specifies BGP Extended Community encoding formats, which can be used to propagate Traffic Filtering Actions along with the Flow Specification NLRI. Those Traffic Filtering Actions encode actions a routing system can take if the packet matches the Flow Specification. This document obsoletes both RFC 5575 and RFC 7674.</t>
+      <t>This document defines a Border Gateway Protocol Network Layer Reachability Information (BGP NLRI) encoding format that can be used to distribute (intra-domain and inter-domain) traffic Flow Specifications for IPv4 unicast and IPv4 BGP/MPLS VPN services. This allows the routing system to propagate information regarding more specific components of the traffic aggregate defined by an IP destination prefix.
+
+ It also specifies BGP Extended Community encoding formats, which can be used to propagate Traffic Filtering Actions along with the Flow Specification NLRI. Those Traffic Filtering Actions encode actions a routing system can take if the packet matches the Flow Specification.
+
+ This document obsoletes both RFC 5575 and RFC 7674.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-rfc5575bis-27"/>
 </reference>

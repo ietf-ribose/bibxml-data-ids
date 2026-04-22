@@ -1,13 +1,34 @@
 <reference anchor="I-D.ietf-idr-rfc7752bis" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-rfc7752bis-11">
   <front>
     <title>Distribution of Link-State and Traffic Engineering Information Using BGP</title>
-    <author fullname="Ketan Talaulikar" initials="K." surname="Talaulikar">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-rfc7752bis-11"/>
+    <author initials="K." surname="Talaulikar" fullname="Ketan Talaulikar">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2022" month="September" day="29"/>
+    <date day="29" month="September" year="2022"></date>
     <abstract>
-      <t>In many environments, a component external to a network is called upon to perform computations based on the network topology and the current state of the connections within the network, including Traffic Engineering (TE) information. This is information typically distributed by IGP routing protocols within the network. This document describes a mechanism by which link-state and TE information can be collected from networks and shared with external components using the BGP routing protocol. This is achieved using a new BGP Network Layer Reachability Information (NLRI) encoding format. The mechanism applies to physical and virtual (e.g., tunnel) IGP links. The mechanism described is subject to policy control. Applications of this technique include Application-Layer Traffic Optimization (ALTO) servers and Path Computation Elements (PCEs). This document obsoletes RFC7752 by completely replacing that document. It makes some small changes and clarifications to the previous specification. This document also obsoletes RFC9029 by incorporating the updates that it made to RFC7752.</t>
+      <t>   In many environments, a component external to a network is called
+   upon to perform computations based on the network topology and the
+   current state of the connections within the network, including
+   Traffic Engineering (TE) information.  This is information typically
+   distributed by IGP routing protocols within the network.
+
+   This document describes a mechanism by which link-state and TE
+   information can be collected from networks and shared with external
+   components using the BGP routing protocol.  This is achieved using a
+   new BGP Network Layer Reachability Information (NLRI) encoding
+   format.  The mechanism applies to physical and virtual (e.g., tunnel)
+   IGP links.  The mechanism described is subject to policy control.
+
+   Applications of this technique include Application-Layer Traffic
+   Optimization (ALTO) servers and Path Computation Elements (PCEs).
+
+   This document obsoletes RFC7752 by completely replacing that
+   document.  It makes some small changes and clarifications to the
+   previous specification.  This document also obsoletes RFC9029 by
+   incorporating the updates that it made to RFC7752.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-rfc7752bis-11"/>
 </reference>

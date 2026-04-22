@@ -1,16 +1,30 @@
 <reference anchor="I-D.pappas-dnsop-long-ttl" target="https://datatracker.ietf.org/doc/html/draft-pappas-dnsop-long-ttl-04">
   <front>
     <title>Improving DNS Service Availability by Using Long TTL Values</title>
-    <author fullname="Eric Osterweil" initials="E." surname="Osterweil">
+    <seriesInfo name="Internet-Draft" value="draft-pappas-dnsop-long-ttl-04"/>
+    <author initials="E." surname="Osterweil" fullname="Eric Osterweil">
       <organization>Verisign</organization>
     </author>
-    <author fullname="Vasileios Pappas" initials="V." surname="Pappas">
+    <author initials="V." surname="Pappas" fullname="Vasileios Pappas">
       <organization>IBM</organization>
     </author>
-    <date year="2012" month="February" day="23"/>
+    <date day="23" month="February" year="2012"></date>
     <abstract>
-      <t>Due to the hierarchical tree structure of the Domain Name System [RFC1034][RFC1035], losing all of the authoritative servers that serve a zone can disrupt services to not only that zone but all of its descendants. This problem is particularly severe if all the authoritative servers of the root zone, or of a top level domain's zone, fail. Although proper placement of secondary servers, as discussed in [RFC2182], can be an effective means against isolated failures, it is insufficient to protect the DNS service against a Distributed Denial of Service (DDoS) attack. This document proposes to reduce the impact of DDoS attacks against top level DNS servers by setting long TTL values for NS records and their associated A and AAAA records. Our proposed changes are purely operational and can be deployed incrementally.</t>
+      <t>   Due to the hierarchical tree structure of the Domain Name System
+   [RFC1034][RFC1035], losing all of the authoritative servers that
+   serve a zone can disrupt services to not only that zone but all of
+   its descendants.  This problem is particularly severe if all the
+   authoritative servers of the root zone, or of a top level domain's
+   zone, fail.  Although proper placement of secondary servers, as
+   discussed in [RFC2182], can be an effective means against isolated
+   failures, it is insufficient to protect the DNS service against a
+   Distributed Denial of Service (DDoS) attack.  This document proposes
+   to reduce the impact of DDoS attacks against top level DNS servers by
+   setting long TTL values for NS records and their associated A and
+   AAAA records.  Our proposed changes are purely operational and can be
+   deployed incrementally.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-pappas-dnsop-long-ttl-04"/>
 </reference>

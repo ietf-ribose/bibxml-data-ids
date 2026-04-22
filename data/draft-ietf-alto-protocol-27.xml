@@ -1,34 +1,39 @@
 <reference anchor="I-D.ietf-alto-protocol" target="https://datatracker.ietf.org/doc/html/draft-ietf-alto-protocol-27">
   <front>
     <title>Application-Layer Traffic Optimization (ALTO) Protocol</title>
-    <author fullname="Sebastian Kiesel" initials="S." surname="Kiesel">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-alto-protocol-27"/>
+    <author initials="S." surname="Kiesel" fullname="Sebastian Kiesel">
       <organization>University of Stuttgart</organization>
     </author>
-    <author fullname="Wendy Roome" initials="W." surname="Roome">
+    <author initials="W." surname="Roome" fullname="Wendy Roome">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <author fullname="Richard Woundy" initials="R." surname="Woundy">
+    <author initials="R." surname="Woundy" fullname="Richard Woundy">
       <organization>Comcast</organization>
     </author>
-    <author fullname="Stefano Previdi" initials="S." surname="Previdi">
+    <author initials="S." surname="Previdi" fullname="Stefano Previdi">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Stanislav Shalunov" initials="S." surname="Shalunov">
+    <author initials="S." surname="Shalunov" fullname="Stanislav Shalunov">
       <organization>Open Garden</organization>
     </author>
-    <author fullname="Richard Alimi" initials="R." surname="Alimi">
+    <author initials="R." surname="Alimi" fullname="Richard Alimi">
       <organization>Google</organization>
     </author>
-    <author fullname="Reinaldo Penno" initials="R." surname="Penno">
+    <author initials="R." surname="Penno" fullname="Reinaldo Penno">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Y. Richard Yang" initials="Y. R." surname="Yang">
+    <author initials="Y. R." surname="Yang" fullname="Y. Richard Yang">
       <organization>Yale University</organization>
     </author>
-    <date year="2014" month="March" day="5"/>
+    <date day="05" month="March" year="2014"></date>
     <abstract>
-      <t>Applications using the Internet already have access to some topology information of Internet Service Provider (ISP) networks. For example, views to Internet routing tables at Looking Glass servers are available and can be practically downloaded to many network application clients. What is missing is knowledge of the underlying network topologies from the point of view of ISPs. In other words, what an ISP prefers in terms of traffic optimization -- and a way to distribute it. The Application-Layer Traffic Optimization (ALTO) services defined in this document provide network information (e.g., basic network location structure and preferences of network paths) with the goal of modifying network resource consumption patterns while maintaining or improving application performance. The basic information of ALTO is based on abstract maps of a network. These maps provide a simplified view, yet enough information about a network for applications to effectively utilize them. Additional services are built on top of the maps. This document describes a protocol implementing the ALTO services. Although the ALTO services would primarily be provided by ISPs, other entities, such as content service providers, could also provide ALTO services. Applications that could use the ALTO services are those that have a choice to which end points to connect. Examples of such applications are peer-to-peer (P2P) and content delivery networks.</t>
+      <t>Applications using the Internet already have access to some topology information of Internet Service Provider (ISP) networks. For example, views to Internet routing tables at Looking Glass servers are available and can be practically downloaded to many network application clients. What is missing is knowledge of the underlying network topologies from the point of view of ISPs. In other words, what an ISP prefers in terms of traffic optimization -- and a way to distribute it.
+
+ The Application-Layer Traffic Optimization (ALTO) services defined in this document provide network information (e.g., basic network location structure and preferences of network paths) with the goal of modifying network resource consumption patterns while maintaining or improving application performance. The basic information of ALTO is based on abstract maps of a network. These maps provide a simplified view, yet enough information about a network for applications to effectively utilize them. Additional services are built on top of the maps.
+
+ This document describes a protocol implementing the ALTO services. Although the ALTO services would primarily be provided by ISPs, other entities, such as content service providers, could also provide ALTO services. Applications that could use the ALTO services are those that have a choice to which end points to connect. Examples of such applications are peer-to-peer (P2P) and content delivery networks.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-alto-protocol-27"/>
 </reference>

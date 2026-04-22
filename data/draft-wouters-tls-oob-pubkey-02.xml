@@ -1,25 +1,42 @@
 <reference anchor="I-D.wouters-tls-oob-pubkey" target="https://datatracker.ietf.org/doc/html/draft-wouters-tls-oob-pubkey-02">
   <front>
     <title>TLS out-of-band public key validation</title>
-    <author fullname="Paul Wouters" initials="P." surname="Wouters">
+    <seriesInfo name="Internet-Draft" value="draft-wouters-tls-oob-pubkey-02"/>
+    <author initials="P." surname="Wouters" fullname="Paul Wouters">
       <organization>Xelerance</organization>
     </author>
-    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+    <author initials="H." surname="Tschofenig" fullname="Hannes Tschofenig">
       <organization>Nokia Siemens Networks</organization>
     </author>
-    <author fullname="John IETF Gilmore" initials="J. I." surname="Gilmore">
-      <organization/>
-    </author>
-    <author fullname="Tero Kivinen" initials="T." surname="Kivinen">
+    <author initials="J. I." surname="Gilmore" fullname="John IETF Gilmore"/>
+    <author initials="T." surname="Kivinen" fullname="Tero Kivinen">
       <organization>AuthenTec</organization>
     </author>
-    <author fullname="Samuel Weiler" initials="S." surname="Weiler">
+    <author initials="S." surname="Weiler" fullname="Samuel Weiler">
       <organization>SPARTA, Inc.</organization>
     </author>
-    <date year="2011" month="November" day="17"/>
+    <date day="17" month="November" year="2011"></date>
     <abstract>
-      <t>This document specifies a new TLS certificate type for exchanging raw public keys in Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS) for use with out-of-band authentication. Currently, TLS authentication can only occur via PKIX or OpenPGP certificates. By specifying a minimum resource for raw public key exchange, implementations can use alternative authentication methods. One such method is using DANE Resource Records secured by DNSSEC, Another use case is to provide authentication functionality when used with devices in a constrained environment that use whitelists and blacklists, as is the case with sensors and other embedded devices that are constrained by memory, computational, and communication limitations where the usage of PKIX is not feasible. The new certificate type specified can also be used to reduce the latency of a TLS client that is already in possession of a validated public key of the TLS server before it starts a (non-resumed) TLS handshake.</t>
+      <t>   This document specifies a new TLS certificate type for exchanging raw
+   public keys in Transport Layer Security (TLS) and Datagram Transport
+   Layer Security (DTLS) for use with out-of-band authentication.
+   Currently, TLS authentication can only occur via PKIX or OpenPGP
+   certificates.  By specifying a minimum resource for raw public key
+   exchange, implementations can use alternative authentication methods.
+
+   One such method is using DANE Resource Records secured by DNSSEC,
+   Another use case is to provide authentication functionality when used
+   with devices in a constrained environment that use whitelists and
+   blacklists, as is the case with sensors and other embedded devices
+   that are constrained by memory, computational, and communication
+   limitations where the usage of PKIX is not feasible.
+
+   The new certificate type specified can also be used to reduce the
+   latency of a TLS client that is already in possession of a validated
+   public key of the TLS server before it starts a (non-resumed) TLS
+   handshake.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wouters-tls-oob-pubkey-02"/>
 </reference>

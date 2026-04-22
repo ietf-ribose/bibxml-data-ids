@@ -1,22 +1,27 @@
 <reference anchor="I-D.westerlund-avtcore-rtp-simulcast" target="https://datatracker.ietf.org/doc/html/draft-westerlund-avtcore-rtp-simulcast-02">
   <front>
     <title>Using Simulcast in RTP Sessions</title>
-    <author fullname="Magnus Westerlund" initials="M." surname="Westerlund">
-      <organization/>
-    </author>
-    <author fullname="Bo Burman" initials="B." surname="Burman">
-      <organization/>
-    </author>
-    <author fullname="Morgan Lindqvist" initials="M." surname="Lindqvist">
-      <organization/>
-    </author>
-    <author fullname="Fredrik Jansson" initials="F." surname="Jansson">
-      <organization/>
-    </author>
-    <date year="2013" month="February" day="25"/>
+    <seriesInfo name="Internet-Draft" value="draft-westerlund-avtcore-rtp-simulcast-02"/>
+    <author initials="M." surname="Westerlund" fullname="Magnus Westerlund"/>
+    <author initials="B." surname="Burman" fullname="Bo Burman"/>
+    <author initials="M." surname="Lindqvist" fullname="Morgan Lindqvist"/>
+    <author initials="F." surname="Jansson" fullname="Fredrik Jansson"/>
+    <date day="25" month="February" year="2013"></date>
     <abstract>
-      <t>In some applications it may be necessary to send multiple media encodings derived from the same media source in independent RTP media streams. This is called Simulcast. This document discusses the best way of accomplishing this in RTP and how to signal it in SDP. It is concluded that a solution where the different simulcast versions are based on separate SDP media descriptions provides best support for simulcast. A solution is defined by making two extensions to SDP. The first extension consists of two new attributes in SDP that express capability to send or receive simulcast streams, respectively. The second extension describes how to group media descriptions belonging to the same simulcast source by using the grouping framework.</t>
+      <t>   In some applications it may be necessary to send multiple media
+   encodings derived from the same media source in independent RTP media
+   streams.  This is called Simulcast.  This document discusses the best
+   way of accomplishing this in RTP and how to signal it in SDP.  It is
+   concluded that a solution where the different simulcast versions are
+   based on separate SDP media descriptions provides best support for
+   simulcast.  A solution is defined by making two extensions to SDP.
+   The first extension consists of two new attributes in SDP that
+   express capability to send or receive simulcast streams,
+   respectively.  The second extension describes how to group media
+   descriptions belonging to the same simulcast source by using the
+   grouping framework.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-westerlund-avtcore-rtp-simulcast-02"/>
 </reference>

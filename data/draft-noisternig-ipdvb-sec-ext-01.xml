@@ -1,19 +1,41 @@
 <reference anchor="I-D.noisternig-ipdvb-sec-ext" target="https://datatracker.ietf.org/doc/html/draft-noisternig-ipdvb-sec-ext-01">
   <front>
     <title>Security Extension for Unidirectional Lightweight Encapsulation Protocol</title>
-    <author fullname="Michael Noisternig" initials="M." surname="Noisternig">
+    <seriesInfo name="Internet-Draft" value="draft-noisternig-ipdvb-sec-ext-01"/>
+    <author initials="M." surname="Noisternig" fullname="Michael Noisternig">
       <organization>University of Salzburg</organization>
     </author>
-    <author fullname="Prashant Pillai" initials="P." surname="Pillai">
+    <author initials="P." surname="Pillai" fullname="Prashant Pillai">
       <organization>University of Bradford</organization>
     </author>
-    <author fullname="Haitham Cruickshank" initials="H." surname="Cruickshank">
+    <author initials="H." surname="Cruickshank" fullname="Haitham Cruickshank">
       <organization>University of Surrey</organization>
     </author>
-    <date year="2009" month="July" day="13"/>
+    <date day="13" month="July" year="2009"></date>
     <abstract>
-      <t>The Unidirectional Lightweight Encapsulation (ULE) protocol provides an efficient mechanism for transporting IP and other network layer protocol data over MPEG-2 networks. Such networks, widely used especially for providing digital TV services, often use broadcast wireless transmission media, and are hence vulnerable to various types of security attacks. This document describes a new mandatory ULE extension to protect ULE traffic using security features such as data confidentiality, data integrity, data origin authentication, and prevention against replay attacks. Additionally, destination addresses may be hidden from unauthorized receiver devices using the identity protection feature. The format of the security extension header as well as the processing at receivers and transmitters are described in detail. The extension aims to be lightweight and flexible such that it may be implemented in low-cost, resource-scarce transceivers, and different levels of security may be selected. The security extension may be easily adapted to the Generic Stream Encapsulation (GSE) protocol, which uses a similar extension header mechanism.</t>
+      <t>The Unidirectional Lightweight Encapsulation (ULE) protocol provides
+an efficient mechanism for transporting IP and other network layer
+protocol data over MPEG-2 networks. Such networks, widely used
+especially for providing digital TV services, often use broadcast
+wireless transmission media, and are hence vulnerable to various
+types of security attacks.
+
+This document describes a new mandatory ULE extension to protect ULE
+traffic using security features such as data confidentiality, data
+integrity, data origin authentication, and prevention against replay
+attacks. Additionally, destination addresses may be hidden from
+unauthorized receiver devices using the identity protection feature.
+
+The format of the security extension header as well as the processing
+at receivers and transmitters are described in detail. The extension
+aims to be lightweight and flexible such that it may be implemented
+in low-cost, resource-scarce transceivers, and different levels of
+security may be selected.
+
+The security extension may be easily adapted to the Generic Stream
+Encapsulation (GSE) protocol, which uses a similar extension header
+mechanism.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-noisternig-ipdvb-sec-ext-01"/>
 </reference>

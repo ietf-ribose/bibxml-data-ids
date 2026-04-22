@@ -1,22 +1,40 @@
 <reference anchor="I-D.ietf-dhc-enhance-requirements" target="https://datatracker.ietf.org/doc/html/draft-ietf-dhc-enhance-requirements-00">
   <front>
     <title>Requirements for Extending DHCP into New Environments</title>
-    <author fullname="Anthony McAuley" initials="A." surname="McAuley">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dhc-enhance-requirements-00"/>
+    <author initials="A." surname="McAuley" fullname="Anthony McAuley">
       <organization>Telcordia Technologies</organization>
     </author>
-    <author fullname="Shinichi Baba" initials="S." surname="Baba">
+    <author initials="S." surname="Baba" fullname="Shinichi Baba">
       <organization>Toshiba America Research Inc.</organization>
     </author>
-    <author fullname="Subir Das" initials="S." surname="Das">
+    <author initials="S." surname="Das" fullname="Subir Das">
       <organization>Telcordia Technologies</organization>
     </author>
-    <author fullname="Dr. Yasuro Shobatake" initials="Y." surname="Shobatake">
+    <author initials="Y." surname="Shobatake" fullname="Dr. Yasuro Shobatake">
       <organization>Toshiba America Research Inc.</organization>
     </author>
-    <date year="2000" month="March" day="10"/>
+    <date day="10" month="March" year="2000"></date>
     <abstract>
-      <t>The Dynamic Host Configuration Protocol (DHCP) provides a widely deployed framework for host registration and configuration [DHC]. DHCP, however, was designed only for fixed hosts on physically secure LANs. Other protocols fill some of the gap. PPP [PPP] is a good solution for many commercial service providers (where framing is needed). Mobile IP [MIP] is ideal for registering and configuring roaming users (when transparent address binding is needed). This still leaves many environments where there is no ideal solution, such as: roaming users who do not need transparent address binding e.g., a mobile web browser), and commercial service providers who want to support home networking with multiple nodes. This draft proposes DHCP as the best protocol to meet these new needs, because it leave open how (and whether) to provide other functions, such as framing (e.g., PPP), locating (e.g., Mobile IP in co-located mode), inter-domain AAA (e.g., [AAAR]), or address distribution (e.g., [DAAP]). We describe and solicit feedback on seven new requirements that would be placed on DHCP to meet these needs.</t>
+      <t>The Dynamic Host Configuration Protocol (DHCP) provides a widely 
+deployed framework for host registration and configuration [DHC]. 
+DHCP, however, was designed only for fixed hosts on physically secure
+LANs. Other protocols fill some of the gap. PPP [PPP] is a good 
+solution for many commercial service providers (where framing is 
+needed). Mobile IP [MIP] is ideal for registering and configuring
+roaming users (when transparent address binding is needed). This 
+still leaves many environments where there is no ideal solution,
+such as: roaming users who do not need transparent address binding
+e.g., a mobile web browser), and commercial service providers 
+who want to support home networking with multiple nodes. This draft
+proposes DHCP as the best protocol to meet these new needs, because 
+it leave open how (and whether) to provide other functions, such as 
+framing (e.g., PPP), locating (e.g., Mobile IP in co-located mode), 
+inter-domain AAA (e.g., [AAAR]), or address distribution (e.g., 
+[DAAP]). We describe and solicit feedback on seven new requirements 
+that would be placed on DHCP to meet these needs.  
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dhc-enhance-requirements-00"/>
 </reference>

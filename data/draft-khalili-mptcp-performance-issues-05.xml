@@ -1,22 +1,25 @@
 <reference anchor="I-D.khalili-mptcp-performance-issues" target="https://datatracker.ietf.org/doc/html/draft-khalili-mptcp-performance-issues-05">
   <front>
     <title>Performance Issues with MPTCP</title>
-    <author fullname="Ramin Khalili" initials="R." surname="Khalili">
-      <organization/>
-    </author>
-    <author fullname="Nicolas Gast" initials="N." surname="Gast">
-      <organization/>
-    </author>
-    <author fullname="Miroslav Popovic" initials="M." surname="Popovic">
-      <organization/>
-    </author>
-    <author fullname="Jean-Yves Le Boudec" initials="J." surname="Le Boudec">
-      <organization/>
-    </author>
-    <date year="2014" month="February" day="14"/>
+    <seriesInfo name="Internet-Draft" value="draft-khalili-mptcp-performance-issues-05"/>
+    <author initials="R." surname="Khalili" fullname="Ramin Khalili"/>
+    <author initials="N." surname="Gast" fullname="Nicolas Gast"/>
+    <author initials="M." surname="Popovic" fullname="Miroslav Popovic"/>
+    <author initials="J." surname="Le Boudec" fullname="Jean-Yves Le Boudec"/>
+    <date day="14" month="February" year="2014"></date>
     <abstract>
-      <t>We show, by measurements over a testbed and by mathematical analysis, that the current MPTCP suffers from two problems: (P1) Upgrading some TCP users to MPTCP can reduce the throughput of others without any benefit to the upgraded users; and (P2) MPTCP users can be excessively aggressive towards TCP users. We attribute these problems to the "Linked Increases" Algorithm (LIA) of MPTCP [4], and more specifically, to an excessive amount of traffic transmitted over congested paths. Our results show that these problems are important and can be mitigated. We believe that the design of the congestion control of MPTCP should be improved.</t>
+      <t>   We show, by measurements over a testbed and by mathematical analysis,
+   that the current MPTCP suffers from two problems: (P1) Upgrading some
+   TCP users to MPTCP can reduce the throughput of others without any
+   benefit to the upgraded users; and (P2) MPTCP users can be
+   excessively aggressive towards TCP users. We attribute these problems
+   to the "Linked Increases" Algorithm (LIA) of MPTCP [4], and more
+   specifically, to an excessive amount of traffic transmitted over
+   congested paths. Our results show that these problems are important
+   and can be mitigated. We believe that the design of the congestion
+   control of MPTCP should be improved.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-khalili-mptcp-performance-issues-05"/>
 </reference>

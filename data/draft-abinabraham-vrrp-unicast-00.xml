@@ -1,0 +1,33 @@
+<reference anchor="I-D.abinabraham-vrrp-unicast" target="https://datatracker.ietf.org/doc/html/draft-abinabraham-vrrp-unicast-00">
+  <front>
+    <title>Unicast Support for the Virtual Router Redundancy Protocol (VRRP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-abinabraham-vrrp-unicast-00"/>
+    <author initials="A." surname="Dogra" fullname="Aditya Dogra">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author initials="A. M." surname="Abraham" fullname="Abin Mathew Abraham">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author initials="S." surname="Krishnamurthy" fullname="Seshan Krishnamurthy">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date day="19" month="April" year="2026"></date>
+    <abstract>
+      <t>   The Virtual Router Redundancy Protocol (VRRP) is specified for
+   multicast operation on a shared LAN in RFC 9568.  Some deployments,
+   including virtualized and cloud environments, require VRRP-like
+   first-hop redundancy but cannot use multicast delivery for VRRP
+   advertisements.  This document updates RFC 9568 by defining an
+   optional unicast mode for VRRP.
+
+   In unicast mode, VRRP advertisements are sent to configured peer
+   addresses rather than to the VRRP multicast group.  This document
+   preserves the VRRP packet format, protocol number, virtual IP
+   semantics, and host-facing forwarding behavior defined in RFC 9568,
+   while adding explicit peer configuration and receive-side source
+   validation for unicast operation.
+
+	 </t>
+    </abstract>
+  </front>
+</reference>

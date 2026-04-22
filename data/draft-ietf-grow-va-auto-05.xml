@@ -1,28 +1,37 @@
 <reference anchor="I-D.ietf-grow-va-auto" target="https://datatracker.ietf.org/doc/html/draft-ietf-grow-va-auto-05">
   <front>
     <title>Auto-Configuration in Virtual Aggregation</title>
-    <author fullname="Paul Francis" initials="P." surname="Francis">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-grow-va-auto-05"/>
+    <author initials="P." surname="Francis" fullname="Paul Francis">
       <organization>MPI-SWS</organization>
     </author>
-    <author fullname="Xiaohu Xu" initials="X." surname="Xu">
+    <author initials="X." surname="Xu" fullname="Xiaohu Xu">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Hitesh Ballani" initials="H." surname="Ballani">
+    <author initials="H." surname="Ballani" fullname="Hitesh Ballani">
       <organization>Cornell U.</organization>
     </author>
-    <author fullname="Dan Jen" initials="D." surname="Jen">
+    <author initials="D." surname="Jen" fullname="Dan Jen">
       <organization>UCLA</organization>
     </author>
-    <author fullname="Robert Raszuk" initials="R." surname="Raszuk">
+    <author initials="R." surname="Raszuk" fullname="Robert Raszuk">
       <organization>NTT MCL Inc.</organization>
     </author>
-    <author fullname="Lixia Zhang" initials="L." surname="Zhang">
+    <author initials="L." surname="Zhang" fullname="Lixia Zhang">
       <organization>UCLA</organization>
     </author>
-    <date year="2011" month="December" day="30"/>
+    <date day="30" month="December" year="2011"></date>
     <abstract>
-      <t>Virtual Aggregation as specified in [I-D.ietf-grow-va] requires configuration of a static "VP-List" on all routers. The VP-List allows routers to know which prefixes may or may not be FIB- installed. This draft specified an optional method of determining this that requires far less configuration. Specifically, it requires the configuration of a "VP-Range" in ASBRs connected to transit and peer ISPs. A Non-transitive Extended Communities Attribute is used to convey to other routers that a given route can be FIB-suppressed.</t>
+      <t>   Virtual Aggregation as specified in [I-D.ietf-grow-va] requires
+   configuration of a static "VP-List" on all routers.  The VP-List
+   allows routers to know which prefixes may or may not be FIB-
+   installed.  This draft specified an optional method of determining
+   this that requires far less configuration.  Specifically, it requires
+   the configuration of a "VP-Range" in ASBRs connected to transit and
+   peer ISPs.  A Non-transitive Extended Communities Attribute is used
+   to convey to other routers that a given route can be FIB-suppressed.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-grow-va-auto-05"/>
 </reference>

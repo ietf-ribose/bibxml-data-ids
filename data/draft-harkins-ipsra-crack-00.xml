@@ -2,16 +2,24 @@
   <front>
     <title>IKE Challenge/Response for Authenticated Cryptographic Keys (Revised)
 </title>
-    <author fullname="Dan Harkins" initials="D." surname="Harkins">
-      <organization/>
-    </author>
-    <author fullname="Derrell Piper" initials="D." surname="Piper">
-      <organization/>
-    </author>
-    <date year="2000" month="August" day="25"/>
+    <seriesInfo name="Internet-Draft" value="draft-harkins-ipsra-crack-00"/>
+    <author initials="D." surname="Harkins" fullname="Dan Harkins"/>
+    <author initials="D." surname="Piper" fullname="Derrell Piper"/>
+    <date day="25" month="August" year="2000"></date>
     <abstract>
-      <t>This memo describes a new IKE authentication method ([HC98]) which provides for mutual authentication when one side is using a legacy- based secret-key authentication technique such as RADIUS, SecurID, or OTP and the other side is using public-key authentication, with optional digital certificates. The generic protocol described herein is an open-ended IKE phase 1 exchange ([HC98]). The result of this exchange is a mutually authenticated IKE security association ([HC98]). The keys that are derived from this SA are also authenticated and thereby convey this state to any SA's created from it for any other security service, such as IPsec [Pip98].</t>
+      <t>This memo describes a new IKE authentication method ([HC98]) which
+provides for mutual authentication when one side is using a legacy-
+based secret-key authentication technique such as RADIUS, SecurID, or
+OTP and the other side is using public-key authentication, with
+optional digital certificates.
+The generic protocol described herein is an open-ended IKE phase 1
+exchange ([HC98]).  The result of this exchange is a mutually
+authenticated IKE security association ([HC98]).  The keys that are
+derived from this SA are also authenticated and thereby convey this
+state to any SA's created from it for any other security service,
+such as IPsec [Pip98].
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-harkins-ipsra-crack-00"/>
 </reference>

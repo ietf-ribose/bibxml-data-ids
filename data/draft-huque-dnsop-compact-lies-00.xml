@@ -1,16 +1,22 @@
 <reference anchor="I-D.huque-dnsop-compact-lies" target="https://datatracker.ietf.org/doc/html/draft-huque-dnsop-compact-lies-00">
   <front>
     <title>Compact Denial of Existence in DNSSEC</title>
-    <author fullname="Shumon Huque" initials="S." surname="Huque">
+    <seriesInfo name="Internet-Draft" value="draft-huque-dnsop-compact-lies-00"/>
+    <author initials="S." surname="Huque" fullname="Shumon Huque">
       <organization>Salesforce</organization>
     </author>
-    <author fullname="Christian Elmerot" initials="C." surname="Elmerot">
+    <author initials="C." surname="Elmerot" fullname="Christian Elmerot">
       <organization>Cloudflare</organization>
     </author>
-    <date year="2023" month="February" day="27"/>
+    <date day="27" month="February" year="2023"></date>
     <abstract>
-      <t>This document describes a technique to generate a signed DNS response on demand for a non-existent name by claiming that the name exists but doesn't have any data for the queried record type. Such answers require only one NSEC record and allow online signing servers to minimize signing operations and response sizes.</t>
+      <t>   This document describes a technique to generate a signed DNS response
+   on demand for a non-existent name by claiming that the name exists
+   but doesn't have any data for the queried record type.  Such answers
+   require only one NSEC record and allow online signing servers to
+   minimize signing operations and response sizes.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-huque-dnsop-compact-lies-00"/>
 </reference>

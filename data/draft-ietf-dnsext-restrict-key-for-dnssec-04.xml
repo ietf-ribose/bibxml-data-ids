@@ -1,16 +1,17 @@
 <reference anchor="I-D.ietf-dnsext-restrict-key-for-dnssec" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsext-restrict-key-for-dnssec-04">
   <front>
     <title>Limiting the Scope of the KEY Resource Record (RR)</title>
-    <author fullname="Scott Rose" initials="S." surname="Rose">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsext-restrict-key-for-dnssec-04"/>
+    <author initials="S." surname="Rose" fullname="Scott Rose">
       <organization>NIST</organization>
     </author>
-    <author fullname="Dan Massey" initials="D." surname="Massey">
+    <author initials="D." surname="Massey" fullname="Dan Massey">
       <organization>USC/ISI</organization>
     </author>
-    <date year="2002" month="September" day="11"/>
+    <date day="11" month="September" year="2002"></date>
     <abstract>
-      <t>This document limits the Domain Name System (DNS) KEY Resource Record (RR) to only keys used by the Domain Name System Security Extensions (DNSSEC). The original KEY RR used sub-typing to store both DNSSEC keys and arbitrary application keys. Storing both DNSSEC and application keys with the same record type is a mistake. This document removes application keys from the KEY record by redefining the Protocol Octet field in the KEY RR Data. As a result of removing application keys, all but one of the flags in the KEY record become unnecessary and are redefined. Three existing application key sub-types are changed to reserved, but the format of the KEY record is not changed. This document updates RFC 2535. [STANDARDS-TRACK]</t>
+      <t>This document limits the Domain Name System (DNS) KEY Resource Record (RR) to only keys used by the Domain Name System Security Extensions (DNSSEC).  The original KEY RR used sub-typing to store both DNSSEC keys and arbitrary application keys.  Storing both DNSSEC and application keys with the same record type is a mistake.  This document removes application keys from the KEY record by redefining the Protocol Octet field in the KEY RR Data.  As a result of removing application keys, all but one of the flags in the KEY record become unnecessary and are redefined.  Three existing application key sub-types are changed to reserved, but the format of the KEY record is not changed.  This document updates RFC 2535. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsext-restrict-key-for-dnssec-04"/>
 </reference>

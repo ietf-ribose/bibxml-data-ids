@@ -1,34 +1,46 @@
 <reference anchor="I-D.trammell-quic-spin" target="https://datatracker.ietf.org/doc/html/draft-trammell-quic-spin-00">
   <front>
     <title>The Addition of a Spin Bit to the QUIC Transport Protocol</title>
-    <author fullname="Brian Trammell" initials="B." surname="Trammell">
+    <seriesInfo name="Internet-Draft" value="draft-trammell-quic-spin-00"/>
+    <author initials="B." surname="Trammell" fullname="Brian Trammell">
       <organization>ETH Zurich</organization>
     </author>
-    <author fullname="Piet De Vaere" initials="P." surname="De Vaere">
+    <author initials="P." surname="De Vaere" fullname="Piet De Vaere">
       <organization>ETH Zurich</organization>
     </author>
-    <author fullname="Roni Even" initials="R." surname="Even">
+    <author initials="R." surname="Even" fullname="Roni Even">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Giuseppe Fioccola" initials="G." surname="Fioccola">
+    <author initials="G." surname="Fioccola" fullname="Giuseppe Fioccola">
       <organization>Telecom Italia</organization>
     </author>
-    <author fullname="Thomas Fossati" initials="T." surname="Fossati">
+    <author initials="T." surname="Fossati" fullname="Thomas Fossati">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Marcus Ihlar" initials="M." surname="Ihlar">
+    <author initials="M." surname="Ihlar" fullname="Marcus Ihlar">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Al Morton" initials="A. C." surname="Morton">
+    <author initials="A. C." surname="Morton" fullname="Al Morton">
       <organization>AT&amp;T Labs</organization>
     </author>
-    <author fullname="Stephan Emile" initials="S." surname="Emile">
+    <author initials="S." surname="Emile" fullname="Stephan Emile">
       <organization>Orange</organization>
     </author>
-    <date year="2017" month="November" day="29"/>
+    <date day="29" month="November" year="2017"></date>
     <abstract>
-      <t>This document summarizes work to date on the addition of a "spin bit", intended for explicit measurability of end-to-end RTT on QUIC flows. It proposes a detailed mechanism for the spin bit, describes how to use it to measure end-to-end latency, discusses corner cases and workarounds therefor in the measurement, describes experimental evaluation of the mechanism done to date, and examines the utility and privacy implications of the spin bit. As the overhead and risk associated with the spin bit are negligible, and the utility of a passive RTT measurement signal at higher resolution than once per flow is clear, this document advocates for the addition of the spin bit to the protocol.</t>
+      <t>   This document summarizes work to date on the addition of a "spin
+   bit", intended for explicit measurability of end-to-end RTT on QUIC
+   flows.  It proposes a detailed mechanism for the spin bit, describes
+   how to use it to measure end-to-end latency, discusses corner cases
+   and workarounds therefor in the measurement, describes experimental
+   evaluation of the mechanism done to date, and examines the utility
+   and privacy implications of the spin bit.  As the overhead and risk
+   associated with the spin bit are negligible, and the utility of a
+   passive RTT measurement signal at higher resolution than once per
+   flow is clear, this document advocates for the addition of the spin
+   bit to the protocol.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-trammell-quic-spin-00"/>
 </reference>

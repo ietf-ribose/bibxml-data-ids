@@ -1,13 +1,18 @@
 <reference anchor="I-D.thomson-tls-sic" target="https://datatracker.ietf.org/doc/html/draft-thomson-tls-sic-00">
   <front>
     <title>Suppressing Intermediate Certificates in TLS</title>
-    <author fullname="Martin Thomson" initials="M." surname="Thomson">
+    <seriesInfo name="Internet-Draft" value="draft-thomson-tls-sic-00"/>
+    <author initials="M." surname="Thomson" fullname="Martin Thomson">
       <organization>Mozilla</organization>
     </author>
-    <date year="2019" month="March" day="27"/>
+    <date day="27" month="March" year="2019"></date>
     <abstract>
-      <t>A TLS client that has access to the complete set of published intermediate certificates can inform servers of this fact so that the server can avoid sending intermediates, reducing the size of the TLS handshake.</t>
+      <t>   A TLS client that has access to the complete set of published
+   intermediate certificates can inform servers of this fact so that the
+   server can avoid sending intermediates, reducing the size of the TLS
+   handshake.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-thomson-tls-sic-00"/>
 </reference>

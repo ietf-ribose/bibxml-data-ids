@@ -1,16 +1,34 @@
 <reference anchor="I-D.vasseur-mpls-loose-path-reopt" target="https://datatracker.ietf.org/doc/html/draft-vasseur-mpls-loose-path-reopt-02">
   <front>
     <title>Reoptimization of MPLS Traffic Engineering loosely routed explicit LSP paths</title>
-    <author fullname="Yuichi Ikejiri" initials="Y." surname="Ikejiri">
+    <seriesInfo name="Internet-Draft" value="draft-vasseur-mpls-loose-path-reopt-02"/>
+    <author initials="Y." surname="Ikejiri" fullname="Yuichi Ikejiri">
       <organization>NTT Communications Corporation</organization>
     </author>
-    <author fullname="JP Vasseur" initials="V." surname="Jp">
+    <author initials="V." surname="Jp" fullname="JP Vasseur">
       <organization>NTT Communications Corporation</organization>
     </author>
-    <date year="2003" month="June" day="27"/>
+    <date day="27" month="June" year="2003"></date>
     <abstract>
-      <t>The aim of this document is to propose a mechanism for the reoptimization of MPLS Traffic Engineering loosely routed explicit LSP paths. A loosely routed explicit LSP path is a path specified as a combination of strict and loose hop(s) that contains at least one loose hop and zero or more strict hop(s). The path calculation (which implies ERO expansion) to reach a loose hop is made on the previous hop defined in the TE LSP path. This draft proposes a mechanism that allows: - The TE LSP Head-end LSR to trigger a new ERO expansion on every hop having a next hop defined as a loose hop, - An LSR to signal to the TE LSP head-end that a better path exists to reach a loose hop (than the current path in use). A better path is defined as a path with a lower cost, where the cost is determined by the metric used to compute the path. This primarily applies to inter-area TE LSPs and inter-AS TE LSPs when the path is defined as a list of loose hops (generally the loose hops are the ABRs/ASBRs) but the following mechanism is also applicable to any loosely routed explicit path within a single routing domain.</t>
+      <t>The aim of this document is to propose a mechanism for the 
+reoptimization of MPLS Traffic Engineering loosely routed explicit LSP 
+paths. A loosely routed explicit LSP path is  a path specified as a 
+combination of strict and loose hop(s) that contains at least one loose 
+hop and zero or more strict hop(s). The path calculation (which implies 
+ERO expansion) to reach a loose hop is made on the previous hop defined 
+in the TE LSP path. This draft proposes a mechanism that allows: 
+- The TE LSP Head-end LSR to trigger a new ERO expansion on every 
+hop having a next hop defined as a loose hop,   
+- An LSR to signal to the TE LSP head-end that a better path exists 
+to reach a loose hop (than the current path in use). A better path 
+is defined as a path with a lower cost, where the cost is determined 
+by the metric used to compute the path.  
+This primarily applies to inter-area TE LSPs and inter-AS TE LSPs when 
+the path is defined as a list of loose hops (generally the loose hops 
+are the ABRs/ASBRs) but the following mechanism is also applicable to 
+any loosely routed explicit path within a single routing domain. 
+ 
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-vasseur-mpls-loose-path-reopt-02"/>
 </reference>

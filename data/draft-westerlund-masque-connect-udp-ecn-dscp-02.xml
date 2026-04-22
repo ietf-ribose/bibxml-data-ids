@@ -1,22 +1,31 @@
 <reference anchor="I-D.westerlund-masque-connect-udp-ecn-dscp" target="https://datatracker.ietf.org/doc/html/draft-westerlund-masque-connect-udp-ecn-dscp-02">
   <front>
     <title>ECN and DSCP support for HTTPS's Connect-UDP</title>
-    <author fullname="Magnus Westerlund" initials="M." surname="Westerlund">
+    <seriesInfo name="Internet-Draft" value="draft-westerlund-masque-connect-udp-ecn-dscp-02"/>
+    <author initials="M." surname="Westerlund" fullname="Magnus Westerlund">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Marten Seemann" initials="M." surname="Seemann">
+    <author initials="M." surname="Seemann" fullname="Marten Seemann">
       <organization>Smallstep</organization>
     </author>
-    <author fullname="Mirja Kühlewind" initials="M." surname="Kühlewind">
+    <author initials="M." surname="Kühlewind" fullname="Mirja Kühlewind">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Marcus Ihlar" initials="L. M." surname="Ihlar">
+    <author initials="L. M." surname="Ihlar" fullname="Marcus Ihlar">
       <organization>Ericsson</organization>
     </author>
-    <date year="2026" month="March" day="17"/>
+    <date day="17" month="March" year="2026"></date>
     <abstract>
-      <t>HTTP's Extended Connect's Connect-UDP protocol enables a client to proxy a UDP flow from the HTTP server towards a specified target IP address and UDP port. QUIC and Real-time transport protocol (RTP) are examples of transport protocols that use UDP and support Explicit Congestion Notification (ECN) and provide the necessary feedback. This document specifies how ECN and DSCP can be supported through an extension to the Connect-UDP protocol for HTTP without per-packet byte overhead, soley using Context IDs.</t>
+      <t>   HTTP's Extended Connect's Connect-UDP protocol enables a client to
+   proxy a UDP flow from the HTTP server towards a specified target IP
+   address and UDP port.  QUIC and Real-time transport protocol (RTP)
+   are examples of transport protocols that use UDP and support Explicit
+   Congestion Notification (ECN) and provide the necessary feedback.
+   This document specifies how ECN and DSCP can be supported through an
+   extension to the Connect-UDP protocol for HTTP without per-packet
+   byte overhead, soley using Context IDs.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-westerlund-masque-connect-udp-ecn-dscp-02"/>
 </reference>

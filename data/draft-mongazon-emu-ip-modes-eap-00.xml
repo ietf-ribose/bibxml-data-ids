@@ -1,16 +1,29 @@
 <reference anchor="I-D.mongazon-emu-ip-modes-eap" target="https://datatracker.ietf.org/doc/html/draft-mongazon-emu-ip-modes-eap-00">
   <front>
     <title>IP Connectivity modes Hint for EAP</title>
-    <author fullname="Bruno Mongazon-Cazavet" initials="B." surname="Mongazon-Cazavet">
-      <organization/>
-    </author>
-    <author fullname="Yacine Mghazli" initials="Y." surname="Mghazli">
+    <seriesInfo name="Internet-Draft" value="draft-mongazon-emu-ip-modes-eap-00"/>
+    <author initials="B." surname="Mongazon-Cazavet" fullname="Bruno Mongazon-Cazavet"/>
+    <author initials="Y." surname="Mghazli" fullname="Yacine Mghazli">
       <organization>Alcatel-Lucent Bell Labs</organization>
     </author>
-    <date year="2010" month="October" day="11"/>
+    <date day="11" month="October" year="2010"></date>
     <abstract>
-      <t>The Extensible Authentication Protocol (EAP) is defined in [RFC3748]. This document defines a mechanism that allows an access network to provide IP connectivity modes hints to an EAP peer -- the end of the link that responds to the authenticator. The purpose is to allow the EAP peer in executing in a reliable and efficient manner the IP connectivity step as soon as the authentication phase completes. This is useful in situations where a peer and the networks it visits support various IP connectivity modes. Without the hint, such a peer might fail or take some time to select a valid IP connectivity mode on the visited network. With the help of the hint, a visited network provides the peer with a list of supported IP connectivity modes and allows it to execute successfully the convenient IP connectivity as soon as the authentication is complete. The hint is particularly useful when users are performing vertical handovers through different network technologies such as wireless ones.</t>
+      <t>The Extensible Authentication Protocol (EAP) is defined in [RFC3748].
+This document defines a mechanism that allows an access network to
+provide IP connectivity modes hints to an EAP peer -- the end of the
+link that responds to the authenticator.  The purpose is to allow the
+EAP peer in executing in a reliable and efficient manner the IP
+connectivity step as soon as the authentication phase completes.
+This is useful in situations where a peer and the networks it visits
+support various IP connectivity modes.  Without the hint, such a peer
+might fail or take some time to select a valid IP connectivity mode
+on the visited network.  With the help of the hint, a visited network
+provides the peer with a list of supported IP connectivity modes and
+allows it to execute successfully the convenient IP connectivity as
+soon as the authentication is complete.  The hint is particularly
+useful when users are performing vertical handovers through different
+network technologies such as wireless ones.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mongazon-emu-ip-modes-eap-00"/>
 </reference>

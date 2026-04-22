@@ -1,19 +1,29 @@
 <reference anchor="I-D.egge-netvc-cfl" target="https://datatracker.ietf.org/doc/html/draft-egge-netvc-cfl-01">
   <front>
     <title>Chroma From Luma Intra Prediction for NETVC</title>
-    <author fullname="Nathan E. Egge" initials="N. E." surname="Egge">
+    <seriesInfo name="Internet-Draft" value="draft-egge-netvc-cfl-01"/>
+    <author initials="N. E." surname="Egge" fullname="Nathan E. Egge">
       <organization>Mozilla</organization>
     </author>
-    <author fullname="Luc N. Trudeau" initials="L. N." surname="Trudeau">
+    <author initials="L. N." surname="Trudeau" fullname="Luc N. Trudeau">
       <organization>Mozilla</organization>
     </author>
-    <author fullname="David M. Barr" initials="D. M." surname="Barr">
+    <author initials="D. M." surname="Barr" fullname="David M. Barr">
       <organization>Xiph.Org Foundation</organization>
     </author>
-    <date year="2017" month="November" day="14"/>
+    <date day="14" month="November" year="2017"></date>
     <abstract>
-      <t>Chroma from luma (CfL) prediction is a new and promising chroma-only intra predictor that models chroma pixels as a linear function of the coincident reconstructed luma pixels. In this document, we propose the CfL predictor adopted in Alliance Video 1 (AV1) to the NETVC working group. The proposed CfL distinguishes itself from prior art not only by reducing decoder complexity, but also by producing more accurate predictions. On average, CfL reduces the BD-rate, when measured with CIEDE2000, by 5% for still images and 2% for video sequences.</t>
+      <t>   Chroma from luma (CfL) prediction is a new and promising chroma-only
+   intra predictor that models chroma pixels as a linear function of the
+   coincident reconstructed luma pixels.  In this document, we propose
+   the CfL predictor adopted in Alliance Video 1 (AV1) to the NETVC
+   working group.  The proposed CfL distinguishes itself from prior art
+   not only by reducing decoder complexity, but also by producing more
+   accurate predictions.  On average, CfL reduces the BD-rate, when
+   measured with CIEDE2000, by 5% for still images and 2% for video
+   sequences.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-egge-netvc-cfl-01"/>
 </reference>

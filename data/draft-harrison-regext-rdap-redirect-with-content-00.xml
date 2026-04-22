@@ -1,16 +1,29 @@
 <reference anchor="I-D.harrison-regext-rdap-redirect-with-content" target="https://datatracker.ietf.org/doc/html/draft-harrison-regext-rdap-redirect-with-content-00">
   <front>
     <title>RDAP Redirect with Content</title>
-    <author fullname="Tom Harrison" initials="T." surname="Harrison">
+    <seriesInfo name="Internet-Draft" value="draft-harrison-regext-rdap-redirect-with-content-00"/>
+    <author initials="T." surname="Harrison" fullname="Tom Harrison">
       <organization>Asia-Pacific Network Information Centre</organization>
     </author>
-    <author fullname="George G. Michaelson" initials="G. G." surname="Michaelson">
+    <author initials="G. G." surname="Michaelson" fullname="George G. Michaelson">
       <organization>Asia-Pacific Network Information Centre</organization>
     </author>
-    <date year="2020" month="November" day="1"/>
+    <date day="01" month="November" year="2020"></date>
     <abstract>
-      <t>The Registration Data Access Protocol (RDAP) is used by Regional Internet Registries (RIRs) and Domain Name Registries (DNRs) to provide access to their resource registration information. When an RDAP service operator has delegated authority for a resource to a third party, the operator will configure its RDAP service to redirect requests for that resource to the third party. However, the client may be interested in the resource registration data that the first service operator has in its own right, for various reasons. This document defines a conformance code that a service operator can use to indicate that when redirecting requests, it will also include as the body of the response the RDAP object (if any) that it has in its own right for the requested resource.</t>
+      <t>   The Registration Data Access Protocol (RDAP) is used by Regional
+   Internet Registries (RIRs) and Domain Name Registries (DNRs) to
+   provide access to their resource registration information.  When an
+   RDAP service operator has delegated authority for a resource to a
+   third party, the operator will configure its RDAP service to redirect
+   requests for that resource to the third party.  However, the client
+   may be interested in the resource registration data that the first
+   service operator has in its own right, for various reasons.  This
+   document defines a conformance code that a service operator can use
+   to indicate that when redirecting requests, it will also include as
+   the body of the response the RDAP object (if any) that it has in its
+   own right for the requested resource.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-harrison-regext-rdap-redirect-with-content-00"/>
 </reference>

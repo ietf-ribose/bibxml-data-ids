@@ -1,19 +1,34 @@
 <reference anchor="I-D.rafiee-cga-tsig" target="https://datatracker.ietf.org/doc/html/draft-rafiee-cga-tsig-00">
   <front>
     <title>Transaction SIGnature (TSIG) using CGA Algorithm in IPv6</title>
-    <author fullname="Hosnieh Rafiee" initials="" surname="Rafiee">
+    <seriesInfo name="Internet-Draft" value="draft-rafiee-cga-tsig-00"/>
+    <author surname="Rafiee" fullname="Hosnieh Rafiee">
       <organization>Hasso Plattner Institute</organization>
     </author>
-    <author fullname="Martin von Loewis" initials="M." surname="von Loewis">
+    <author initials="M." surname="von Loewis" fullname="Martin von Loewis">
       <organization>Hasso Plattner Institute</organization>
     </author>
-    <author fullname="Christoph Meinel" initials="C." surname="Meinel">
+    <author initials="C." surname="Meinel" fullname="Christoph Meinel">
       <organization>Hasso Plattner Institute</organization>
     </author>
-    <date year="2012" month="October" day="2"/>
+    <date day="02" month="October" year="2012"></date>
     <abstract>
-      <t>The first step of Transaction SIGnature (TSIG) (RFC 2845) is to generate a shared secret and exchange it manually between a DNS server and a host. This document, CGA-TSIG, proposes a possible way to automate the now manual process for the authentication of a node with a DNS server during the DNS Update process by using the same parameters as are used in generating a secure address in IPv6 networks, i.e., Cryptographically Generated Addresses (CGA) (RFC 3972). CGA-TSIG facilitates this authentication process and reduces the time needed for DNS Updates. The current signature generation process and verification mechanism in TSIG are thus replaced with CGA. This algorithm is added, as an extension, to TSIG to eliminate the human intervention needed for generation and exchange of keys between a DNS server and a host when SEcure Neighbor Discovery (SEND) (RFC 3971) is used.</t>
+      <t>   The first step of Transaction SIGnature (TSIG) (RFC 2845) is to
+   generate a shared secret and exchange it manually between a DNS
+   server and a host. This document, CGA-TSIG, proposes a possible way
+   to automate the now manual process for the authentication of a node
+   with a DNS server during the DNS Update process by using the same
+   parameters as are used in generating a secure address in IPv6
+   networks, i.e., Cryptographically Generated Addresses (CGA) (RFC
+   3972). CGA-TSIG facilitates this authentication process and reduces
+   the time needed for DNS Updates. The current signature generation
+   process and verification mechanism in TSIG are thus replaced with
+   CGA. This algorithm is added, as an extension, to TSIG to eliminate
+   the human intervention needed for generation and exchange of keys
+   between a DNS server and a host when SEcure Neighbor Discovery (SEND)
+   (RFC 3971) is used.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-rafiee-cga-tsig-00"/>
 </reference>

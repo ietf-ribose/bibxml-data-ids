@@ -1,16 +1,27 @@
 <reference anchor="I-D.westerlund-rtcweb-codec-control" target="https://datatracker.ietf.org/doc/html/draft-westerlund-rtcweb-codec-control-00">
   <front>
     <title>Codec Control for WebRTC</title>
-    <author fullname="Magnus Westerlund" initials="M." surname="Westerlund">
+    <seriesInfo name="Internet-Draft" value="draft-westerlund-rtcweb-codec-control-00"/>
+    <author initials="M." surname="Westerlund" fullname="Magnus Westerlund">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Bo Burman" initials="B." surname="Burman">
+    <author initials="B." surname="Burman" fullname="Bo Burman">
       <organization>Ericsson</organization>
     </author>
-    <date year="2012" month="May" day="16"/>
+    <date day="16" month="May" year="2012"></date>
     <abstract>
-      <t>This document proposes how WebRTC should handle media codec control between peers. With media codec control we mean such parameters as video resolution and frame-rate. This includes both initial establishment of capabilities using the SDP based JSEP signalling and during ongoing real-time interactive sessions in response to user and application events. The solution uses SDP for initial boundary establishment that are rarely, if ever changed. During the session the RTCP based Codec Operations Point (COP) signaling solution is used for dynamic control of parameters enabling timely and responsive controls.</t>
+      <t>   This document proposes how WebRTC should handle media codec control
+   between peers.  With media codec control we mean such parameters as
+   video resolution and frame-rate.  This includes both initial
+   establishment of capabilities using the SDP based JSEP signalling and
+   during ongoing real-time interactive sessions in response to user and
+   application events.  The solution uses SDP for initial boundary
+   establishment that are rarely, if ever changed.  During the session
+   the RTCP based Codec Operations Point (COP) signaling solution is
+   used for dynamic control of parameters enabling timely and responsive
+   controls.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-westerlund-rtcweb-codec-control-00"/>
 </reference>

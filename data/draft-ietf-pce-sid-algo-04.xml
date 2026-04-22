@@ -1,34 +1,44 @@
 <reference anchor="I-D.ietf-pce-sid-algo" target="https://datatracker.ietf.org/doc/html/draft-ietf-pce-sid-algo-04">
   <front>
     <title>Carrying SR Algorithm information in PCE-based Networks.</title>
-    <author fullname="Samuel Sidor" initials="S." surname="Sidor">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pce-sid-algo-04"/>
+    <author initials="S." surname="Sidor" fullname="Samuel Sidor">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Alexej Tokar" initials="A." surname="Tokar">
+    <author initials="A." surname="Tokar" fullname="Alexej Tokar">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Shaofu Peng" initials="S." surname="Peng">
+    <author initials="S." surname="Peng" fullname="Shaofu Peng">
       <organization>ZTE Corporation</organization>
     </author>
-    <author fullname="Siva Sivabalan" initials="S." surname="Sivabalan">
+    <author initials="S." surname="Sivabalan" fullname="Siva Sivabalan">
       <organization>Ciena</organization>
     </author>
-    <author fullname="Tarek Saad" initials="T." surname="Saad">
+    <author initials="T." surname="Saad" fullname="Tarek Saad">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Shuping Peng" initials="S." surname="Peng">
+    <author initials="S." surname="Peng" fullname="Shuping Peng">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Andrew Stone" initials="A." surname="Stone">
+    <author initials="A." surname="Stone" fullname="Andrew Stone">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Mahendra Singh Negi" initials="M. S." surname="Negi">
+    <author initials="M. S." surname="Negi" fullname="Mahendra Singh Negi">
       <organization>RtBrick Inc</organization>
     </author>
-    <date year="2023" month="August" day="3"/>
+    <date day="03" month="August" year="2023"></date>
     <abstract>
-      <t>The Algorithm associated with a prefix Segment-ID (SID) defines the path computation Algorithm used by Interior Gateway Protocols (IGPs). This information is available to controllers such as the Path Computation Element (PCE) via topology learning. This document proposes an approach for informing headend routers regarding the Algorithm associated with each prefix SID used in PCE-computed paths, as well as signalling a specific SR algorithm as a constraint to the PCE.</t>
+      <t>   The Algorithm associated with a prefix Segment-ID (SID) defines the
+   path computation Algorithm used by Interior Gateway Protocols (IGPs).
+   This information is available to controllers such as the Path
+   Computation Element (PCE) via topology learning.  This document
+   proposes an approach for informing headend routers regarding the
+   Algorithm associated with each prefix SID used in PCE-computed paths,
+   as well as signalling a specific SR algorithm as a constraint to the
+   PCE.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-pce-sid-algo-04"/>
 </reference>

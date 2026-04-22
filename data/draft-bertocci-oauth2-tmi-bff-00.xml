@@ -1,16 +1,24 @@
 <reference anchor="I-D.bertocci-oauth2-tmi-bff" target="https://datatracker.ietf.org/doc/html/draft-bertocci-oauth2-tmi-bff-00">
   <front>
     <title>Token Mediating and session Information Backend For Frontend</title>
-    <author fullname="Vittorio Bertocci" initials="V." surname="Bertocci">
+    <seriesInfo name="Internet-Draft" value="draft-bertocci-oauth2-tmi-bff-00"/>
+    <author initials="V." surname="Bertocci" fullname="Vittorio Bertocci">
       <organization>auth0.com</organization>
     </author>
-    <author fullname="Brian Campbell" initials="B." surname="Campbell">
+    <author initials="B." surname="Campbell" fullname="Brian Campbell">
       <organization>Ping Identity</organization>
     </author>
-    <date year="2021" month="February" day="12"/>
+    <date day="12" month="February" year="2021"></date>
     <abstract>
-      <t>This document describes how a JavaScript frontend can delegate access token acquisition to a backend component. In so doing, the frontend can access resource servers directly without taking on the burden of communicating with the authorization server, persisting tokens, and performing operations that are fraught with security challenges when executed in a user agent, but are safe and well proven when executed by a confidential client running on a backend.</t>
+      <t>   This document describes how a JavaScript frontend can delegate access
+   token acquisition to a backend component.  In so doing, the frontend
+   can access resource servers directly without taking on the burden of
+   communicating with the authorization server, persisting tokens, and
+   performing operations that are fraught with security challenges when
+   executed in a user agent, but are safe and well proven when executed
+   by a confidential client running on a backend.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-bertocci-oauth2-tmi-bff-00"/>
 </reference>

@@ -1,22 +1,34 @@
 <reference anchor="I-D.natarajan-httpbis-sctp" target="https://datatracker.ietf.org/doc/html/draft-natarajan-httpbis-sctp-00">
   <front>
     <title>Using SCTP as a Transport Layer Protocol for HTTP</title>
-    <author fullname="Preethi Natarajan" initials="P." surname="Natarajan">
+    <seriesInfo name="Internet-Draft" value="draft-natarajan-httpbis-sctp-00"/>
+    <author initials="P." surname="Natarajan" fullname="Preethi Natarajan">
       <organization>University of Delaware</organization>
     </author>
-    <author fullname="Professor Paul D. Amer" initials="P. D." surname="Amer">
+    <author initials="P. D." surname="Amer" fullname="Professor Paul D. Amer">
       <organization>University of Delaware</organization>
     </author>
-    <author fullname="Jonathan Leighton" initials="J." surname="Leighton">
+    <author initials="J." surname="Leighton" fullname="Jonathan Leighton">
       <organization>University of Delaware</organization>
     </author>
-    <author fullname="Fred Baker" initials="F." surname="Baker">
+    <author initials="F." surname="Baker" fullname="Fred Baker">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2008" month="October" day="27"/>
+    <date day="27" month="October" year="2008"></date>
     <abstract>
-      <t>Hyper-Text Transfer Protocol (HTTP) [RFC2116] requires a reliable transport for end-to-end communication. While historically TCP has been used for this purpose, this document proposes an alternative -- the Stream Control Transmission Protocol (SCTP) [RFC4960]. Similar to TCP, SCTP offers a reliable end-to-end transport connection to applications. Additionally, SCTP offers other innovative services unavailable in TCP. The objectives of this draft are three-fold: (i) to highlight SCTP services that better match HTTP's needs than TCP, (ii) to propose a design for persistent and pipelined HTTP 1.1 transactions over SCTP's multistreaming service, and (iii) to share some lessons learned from implementing HTTP over SCTP. Finally, open issues warranting more discussion and/or investigation are listed.</t>
+      <t>Hyper-Text Transfer Protocol (HTTP) [RFC2116] requires a reliable
+transport for end-to-end communication.  While historically TCP has
+been used for this purpose, this document proposes an alternative --
+the Stream Control Transmission Protocol (SCTP) [RFC4960].  Similar
+to TCP, SCTP offers a reliable end-to-end transport connection to
+applications.  Additionally, SCTP offers other innovative services
+unavailable in TCP.  The objectives of this draft are three-fold: (i)
+to highlight SCTP services that better match HTTP's needs than TCP,
+(ii) to propose a design for persistent and pipelined HTTP 1.1
+transactions over SCTP's multistreaming service, and (iii) to share
+some lessons learned from implementing HTTP over SCTP.  Finally, open
+issues warranting more discussion and/or investigation are listed.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-natarajan-httpbis-sctp-00"/>
 </reference>

@@ -1,13 +1,18 @@
 <reference anchor="I-D.melnikov-imap-search-res" target="https://datatracker.ietf.org/doc/html/draft-melnikov-imap-search-res-07">
   <front>
     <title>IMAP Extension for Referencing the Last SEARCH Result</title>
-    <author fullname="Alexey Melnikov" initials="A." surname="Melnikov">
+    <seriesInfo name="Internet-Draft" value="draft-melnikov-imap-search-res-07"/>
+    <author initials="A." surname="Melnikov" fullname="Alexey Melnikov">
       <organization>Isode Ltd.</organization>
     </author>
-    <date year="2008" month="January" day="28"/>
+    <date day="28" month="January" year="2008"></date>
     <abstract>
-      <t>Many IMAP clients use the result of a SEARCH command as the input to perform another operation, for example, fetching the found messages, deleting them, or copying them to another mailbox. This can be achieved using standard IMAP operations described in RFC 3501; however, this would be suboptimal. The server will send the list of found messages to the client; after that, the client will have to parse the list, reformat it, and send it back to the server. The client can't pipeline the SEARCH command with the subsequent command, and, as a result, the server might not be able to perform some optimizations. This document proposes an IMAP extension that allows a client to tell a server to use the result of a SEARCH (or Unique Identifier (UID) SEARCH) command as an input to any subsequent command. [STANDARDS-TRACK]</t>
+      <t>Many IMAP clients use the result of a SEARCH command as the input to perform another operation, for example, fetching the found messages, deleting them, or copying them to another mailbox.
+
+ This can be achieved using standard IMAP operations described in RFC 3501; however, this would be suboptimal. The server will send the list of found messages to the client; after that, the client will have to parse the list, reformat it, and send it back to the server. The client can't pipeline the SEARCH command with the subsequent command, and, as a result, the server might not be able to perform some optimizations.
+
+ This document proposes an IMAP extension that allows a client to tell a server to use the result of a SEARCH (or Unique Identifier (UID) SEARCH) command as an input to any subsequent command. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-melnikov-imap-search-res-07"/>
 </reference>

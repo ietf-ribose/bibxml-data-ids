@@ -1,19 +1,27 @@
 <reference anchor="I-D.ietf-core-interfaces" target="https://datatracker.ietf.org/doc/html/draft-ietf-core-interfaces-04">
   <front>
     <title>Reusable Interface Definitions for Constrained RESTful Environments</title>
-    <author fullname="Zach Shelby" initials="Z." surname="Shelby">
-      <organization/>
-    </author>
-    <author fullname="Matthieu Vial" initials="M." surname="Vial">
-      <organization/>
-    </author>
-    <author fullname="Michael Koster" initials="M." surname="Koster">
-      <organization/>
-    </author>
-    <date year="2015" month="October" day="19"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-core-interfaces-04"/>
+    <author initials="Z." surname="Shelby" fullname="Zach Shelby"/>
+    <author initials="M." surname="Vial" fullname="Matthieu Vial"/>
+    <author initials="M." surname="Koster" fullname="Michael Koster"/>
+    <date day="19" month="October" year="2015"></date>
     <abstract>
-      <t>This document defines a set of reusable REST resource design patterns suitable for use in constrained environments, based on IETF CoRE standards for information representation and information exchange. Interface types for Sensors, Actuators, Parameters, and resource Collections are defined using the "if" link attribute defined by CoRE Link Format [RFC6690]. Clients may use the "if" attribute to determine how to consume resources. Dynamic linking of state updates between resources, either on an endpoint or between endpoints, is defined with the concept of Link Bindings. We also define conditional observation attributes that work with Link Bindings or with simple CoAP Observe [RFC7641].</t>
+      <t>   This document defines a set of reusable REST resource design patterns
+   suitable for use in constrained environments, based on IETF CoRE
+   standards for information representation and information exchange.
+
+   Interface types for Sensors, Actuators, Parameters, and resource
+   Collections are defined using the "if" link attribute defined by CoRE
+   Link Format [RFC6690].  Clients may use the "if" attribute to
+   determine how to consume resources.
+
+   Dynamic linking of state updates between resources, either on an
+   endpoint or between endpoints, is defined with the concept of Link
+   Bindings.  We also define conditional observation attributes that
+   work with Link Bindings or with simple CoAP Observe [RFC7641].
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-core-interfaces-04"/>
 </reference>

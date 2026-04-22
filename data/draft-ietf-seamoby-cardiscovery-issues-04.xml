@@ -1,25 +1,41 @@
 <reference anchor="I-D.ietf-seamoby-cardiscovery-issues" target="https://datatracker.ietf.org/doc/html/draft-ietf-seamoby-cardiscovery-issues-04">
   <front>
     <title>Issues in candidate access router discovery for seamless IP-level handoffs</title>
-    <author fullname="Dirk Trossen" initials="D." surname="Trossen">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-seamoby-cardiscovery-issues-04"/>
+    <author initials="D." surname="Trossen" fullname="Dirk Trossen">
       <organization>DoCoMo</organization>
     </author>
-    <author fullname="Hemant Chaskar" initials="H." surname="Chaskar">
-      <organization/>
-    </author>
-    <author fullname="Govind Krishnamurthi" initials="G." surname="Krishnamurthi">
-      <organization/>
-    </author>
-    <author fullname="James Kempf" initials="J." surname="Kempf">
+    <author initials="H." surname="Chaskar" fullname="Hemant Chaskar"/>
+    <author initials="G." surname="Krishnamurthi" fullname="Govind Krishnamurthi"/>
+    <author initials="J." surname="Kempf" fullname="James Kempf">
       <organization>DoCoMo</organization>
     </author>
-    <author fullname="Hemant Chaskar" initials="H." surname="Chaskar">
+    <author initials="H." surname="Chaskar" fullname="Hemant Chaskar">
       <organization>DoCoMo</organization>
     </author>
-    <date year="2002" month="October" day="17"/>
+    <date day="17" month="October" year="2002"></date>
     <abstract>
-      <t>Handoff in IP mobility protocols involves moving a mobile node's Layer 3 routing reachability point from one access router to another, before or after the mobile node has established a Layer 2 connection with the radio access point that is covered by the new access router. In addition, other context information about the mobile node's IP service may be transferred from the old access router to the new one, in order to minimize the service disruption during the handoff process. While the exact details of how this is accomplished vary depending on the IP mobility and seamless handoff protocols, one common thread required for IP-level handoffs is discovering the candidate access routers for the mobile node's handoff. Discovering the candidate access router involves identifying its IP address as well as its capabilities that the mobile node might be interested in. At the time of IP-level handoff, if a collection of candidates is identified, an algorithm is run to determine the target access router for the mobile node's handoff. This document describes the problem of candidate access router discovery. The document does not discuss the algorithm by which the actual target access router is selected, nor how the handoff to the target is achieved.</t>
+      <t>Handoff in IP mobility protocols involves moving a mobile node's
+Layer 3 routing reachability point from one access router to
+another, before or after the mobile node has established a Layer 2
+connection with the radio access point that is covered by the new
+access router. In addition, other context information about the
+mobile node's IP service may be transferred from the old access
+router to the new one, in order to minimize the service disruption
+during the handoff process. While the exact details of how this is
+accomplished vary depending on the IP mobility and seamless handoff
+protocols, one common thread required for IP-level handoffs is
+discovering the candidate access routers for the mobile node's
+handoff. Discovering the candidate access router involves
+identifying its IP address as well as its capabilities that the
+mobile node might be interested in. At the time of IP-level handoff,
+if a collection of candidates is identified, an algorithm is run to
+determine the target access router for the mobile node's handoff.
+This document describes the problem of candidate access router
+discovery. The document does not discuss the algorithm by which the
+actual target access router is selected, nor how the handoff to the
+target is achieved.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-seamoby-cardiscovery-issues-04"/>
 </reference>

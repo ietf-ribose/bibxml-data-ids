@@ -1,13 +1,22 @@
 <reference anchor="I-D.madden-jose-ecdh-1pu" target="https://datatracker.ietf.org/doc/html/draft-madden-jose-ecdh-1pu-01">
   <front>
     <title>Public Key Authenticated Encryption for JOSE: ECDH-1PU</title>
-    <author fullname="Neil Madden" initials="N." surname="Madden">
+    <seriesInfo name="Internet-Draft" value="draft-madden-jose-ecdh-1pu-01"/>
+    <author initials="N." surname="Madden" fullname="Neil Madden">
       <organization>ForgeRock</organization>
     </author>
-    <date year="2019" month="May" day="12"/>
+    <date day="12" month="May" year="2019"></date>
     <abstract>
-      <t>This document describes the ECDH-1PU public key authenticated encryption algorithm for JWE. The algorithm is similar to the existing ECDH-ES encryption algorithm, but adds an additional ECDH key agreement between static keys of the sender and recipient. This additional step allows the recipient to be assured of sender authenticity without requiring a nested signed-then-encrypted message structure. The mode is also a useful building block for constructing interactive handshake protocols on top of JOSE.</t>
+      <t>   This document describes the ECDH-1PU public key authenticated
+   encryption algorithm for JWE.  The algorithm is similar to the
+   existing ECDH-ES encryption algorithm, but adds an additional ECDH
+   key agreement between static keys of the sender and recipient.  This
+   additional step allows the recipient to be assured of sender
+   authenticity without requiring a nested signed-then-encrypted message
+   structure.  The mode is also a useful building block for constructing
+   interactive handshake protocols on top of JOSE.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-madden-jose-ecdh-1pu-01"/>
 </reference>

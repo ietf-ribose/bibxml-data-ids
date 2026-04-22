@@ -1,16 +1,34 @@
 <reference anchor="I-D.guo-roll-loop-free-rpl" target="https://datatracker.ietf.org/doc/html/draft-guo-roll-loop-free-rpl-02">
   <front>
     <title>Loop Free RPL</title>
-    <author fullname="Jianlin Guo" initials="J." surname="Guo">
+    <seriesInfo name="Internet-Draft" value="draft-guo-roll-loop-free-rpl-02"/>
+    <author initials="J." surname="Guo" fullname="Jianlin Guo">
       <organization>Mitsubishi Electric Research Labs</organization>
     </author>
-    <author fullname="Philip Orlik" initials="P." surname="Orlik">
+    <author initials="P." surname="Orlik" fullname="Philip Orlik">
       <organization>Mitsubishi Electric Research Labs</organization>
     </author>
-    <date year="2013" month="June" day="26"/>
+    <date day="26" month="June" year="2013"></date>
     <abstract>
-      <t>The IETF has developed the IPv6 based standards for Low-power and Lossy Networks (LLNs) to meet requirements of constrained applications, such as field monitoring, inventory control and so on. The IPv6 Routing Protocol for LLNs (RPL) was published as [RFC6550] in March 2012. Based on routing metrics and constraints [RFC6551], RPL builds Directed Acyclic Graph (DAG) topology to establish bidirectional routes for LLNs for traffic types of multipoint-to- point, point-to-multipoint, and point-to-point. RPL routes are optimized for traffic to or from one or more roots that act as sinks. As a result, a DAG is partitioned into one or more Destination Oriented DAGs (DODAGs), one DODAG per sink. RPL is widely considered as a feasible routing protocol for LLNs. However, DODAG loops and lack of a loop free DODAG local repair mechanism are two open issues to be addressed. This draft introduces an alternative rank and an Objective Function to eliminate DODAG loops in RPL. Based on the proposed rank and Objective Function, this draft introduces a loop free RPL.</t>
+      <t>   The IETF has developed the IPv6 based standards for Low-power and
+   Lossy Networks (LLNs) to meet requirements of constrained
+   applications, such as field monitoring, inventory control and so on.
+   The IPv6 Routing Protocol for LLNs (RPL) was published as [RFC6550]
+   in March 2012. Based on routing metrics and constraints [RFC6551],
+   RPL builds Directed Acyclic Graph (DAG) topology to establish
+   bidirectional routes for LLNs for traffic types of multipoint-to-
+   point, point-to-multipoint, and point-to-point. RPL routes are
+   optimized for traffic to or from one or more roots that act as sinks.
+   As a result, a DAG is partitioned into one or more Destination
+   Oriented DAGs (DODAGs), one DODAG per sink. RPL is widely considered
+   as a feasible routing protocol for LLNs. However, DODAG loops and
+   lack of a loop free DODAG local repair mechanism are two open issues
+   to be addressed. This draft introduces an alternative rank and an
+   Objective Function to eliminate DODAG loops in RPL. Based on the
+   proposed rank and Objective Function, this draft introduces a loop
+   free RPL.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-guo-roll-loop-free-rpl-02"/>
 </reference>

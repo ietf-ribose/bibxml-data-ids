@@ -1,19 +1,32 @@
 <reference anchor="I-D.paasch-mptcp-loadbalancer" target="https://datatracker.ietf.org/doc/html/draft-paasch-mptcp-loadbalancer-00">
   <front>
     <title>Multipath TCP behind Layer-4 loadbalancers</title>
-    <author fullname="Christoph Paasch" initials="C." surname="Paasch">
+    <seriesInfo name="Internet-Draft" value="draft-paasch-mptcp-loadbalancer-00"/>
+    <author initials="C." surname="Paasch" fullname="Christoph Paasch">
       <organization>Apple, Inc.</organization>
     </author>
-    <author fullname="Greg Greenway" initials="G." surname="Greenway">
+    <author initials="G." surname="Greenway" fullname="Greg Greenway">
       <organization>Apple, Inc.</organization>
     </author>
-    <author fullname="Alan Ford" initials="A." surname="Ford">
+    <author initials="A." surname="Ford" fullname="Alan Ford">
       <organization>Pexip</organization>
     </author>
-    <date year="2015" month="September" day="7"/>
+    <date day="07" month="September" year="2015"></date>
     <abstract>
-      <t>Large webserver farms consist of thousands of frontend proxies that serve as endpoints for the TCP and TLS connection and relay traffic to the (sometimes distant) backend servers. Load-balancing across those server is done by layer-4 loadbalancers that ensure that a TCP flow will always reach the same server. Multipath TCP's use of multiple TCP subflows for the transmission of the data stream requires those loadbalancers to be aware of MPTCP to ensure that all subflows belonging to the same MPTCP connection reach the same frontend proxy. In this document we analyze the challenges related to this and suggest a simple modification to the generation of the MPTCP-token to overcome those challenges.</t>
+      <t>   Large webserver farms consist of thousands of frontend proxies that
+   serve as endpoints for the TCP and TLS connection and relay traffic
+   to the (sometimes distant) backend servers.  Load-balancing across
+   those server is done by layer-4 loadbalancers that ensure that a TCP
+   flow will always reach the same server.
+
+   Multipath TCP's use of multiple TCP subflows for the transmission of
+   the data stream requires those loadbalancers to be aware of MPTCP to
+   ensure that all subflows belonging to the same MPTCP connection reach
+   the same frontend proxy.  In this document we analyze the challenges
+   related to this and suggest a simple modification to the generation
+   of the MPTCP-token to overcome those challenges.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-paasch-mptcp-loadbalancer-00"/>
 </reference>

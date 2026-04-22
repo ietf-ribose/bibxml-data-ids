@@ -1,22 +1,38 @@
 <reference anchor="I-D.tanaka-pce-stateful-pce-data-ctrl" target="https://datatracker.ietf.org/doc/html/draft-tanaka-pce-stateful-pce-data-ctrl-02">
   <front>
     <title>Stateful PCE Extensions for Data Plane Switchover and Balancing</title>
-    <author fullname="Yosuke Tanaka" initials="Y." surname="Tanaka">
+    <seriesInfo name="Internet-Draft" value="draft-tanaka-pce-stateful-pce-data-ctrl-02"/>
+    <author initials="Y." surname="Tanaka" fullname="Yosuke Tanaka">
       <organization>NTT Communications</organization>
     </author>
-    <author fullname="Yuji Kamite" initials="Y." surname="Kamite">
+    <author initials="Y." surname="Kamite" fullname="Yuji Kamite">
       <organization>NTT Communications</organization>
     </author>
-    <author fullname="Ina Minei" initials="I." surname="Minei">
+    <author initials="I." surname="Minei" fullname="Ina Minei">
       <organization>Google</organization>
     </author>
-    <author fullname="Dhruv Dhody" initials="D." surname="Dhody">
+    <author initials="D." surname="Dhody" fullname="Dhruv Dhody">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2014" month="February" day="13"/>
+    <date day="13" month="February" year="2014"></date>
     <abstract>
-      <t>Stateful Path Computation Element (PCE) and its corresponding protocol extensions provide a mechanism that enables PCE to do stateful control of Multiprotocol Label Switching (MPLS) Traffic Engineering Label Switched Paths (TE LSP). One application that stateful PCE can realize is data traffic reoptimization among the LSPs. Data traffic traversed in a LSP can be switched to another PCE-initiated LSP. Moreover, data traffic can be balanced to multiple PCE-initiated LSPs and may also be policed based on a signaling bandwidth of a PCE-Initiated LSP using stateful PCE. This document specifies the extensions to Path Computation Element Protocol (PCEP) that allow a stateful PCE to do switchover, balancing and policing of data traffic with PCE-initiated LSPs. This document also specifies the extensions, usage and handling of stateful PCEP messages and the expected behavior of PCC as the RSVP-TE headend.</t>
+      <t>   Stateful Path Computation Element (PCE) and its corresponding
+   protocol extensions provide a mechanism that enables PCE to do
+   stateful control of Multiprotocol Label Switching (MPLS) Traffic
+   Engineering Label Switched Paths (TE LSP).  One application that
+   stateful PCE can realize is data traffic reoptimization among the
+   LSPs.  Data traffic traversed in a LSP can be switched to another
+   PCE-initiated LSP.  Moreover, data traffic can be balanced to
+   multiple PCE-initiated LSPs and may also be policed based on a
+   signaling bandwidth of a PCE-Initiated LSP using stateful PCE.
+
+   This document specifies the extensions to Path Computation Element
+   Protocol (PCEP) that allow a stateful PCE to do switchover, balancing
+   and policing of data traffic with PCE-initiated LSPs.  This document
+   also specifies the extensions, usage and handling of stateful PCEP
+   messages and the expected behavior of PCC as the RSVP-TE headend.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-tanaka-pce-stateful-pce-data-ctrl-02"/>
 </reference>

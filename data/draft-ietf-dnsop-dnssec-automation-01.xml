@@ -1,16 +1,22 @@
 <reference anchor="I-D.ietf-dnsop-dnssec-automation" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-dnssec-automation-01">
   <front>
     <title>DNSSEC automation</title>
-    <author fullname="Ulrich Wisser" initials="U." surname="Wisser">
-      <organization/>
-    </author>
-    <author fullname="Shumon Huque" initials="S." surname="Huque">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-dnssec-automation-01"/>
+    <author initials="U." surname="Wisser" fullname="Ulrich Wisser"/>
+    <author initials="S." surname="Huque" fullname="Shumon Huque">
       <organization>Salesforce</organization>
     </author>
-    <date year="2023" month="February" day="6"/>
+    <date day="06" month="February" year="2023"></date>
     <abstract>
-      <t>This document describes an algorithm and a protocol to automate DNSSEC Multi-Signer [RFC8901] "Multi-Signer DNSSEC Models" setup, operations and decomissioning. Using Model 2 of the Multi-Signer specification, where each operator has their own distinct KSK and ZSK sets (or CSK sets), [RFC8078] "Managing DS Records from the Parent via CDS/CDNSKEY" and [RFC7477] "Child-to-Parent Synchronization in DNS" to accomplish this.</t>
+      <t>   This document describes an algorithm and a protocol to automate
+   DNSSEC Multi-Signer [RFC8901] "Multi-Signer DNSSEC Models" setup,
+   operations and decomissioning.  Using Model 2 of the Multi-Signer
+   specification, where each operator has their own distinct KSK and ZSK
+   sets (or CSK sets), [RFC8078] "Managing DS Records from the Parent
+   via CDS/CDNSKEY" and [RFC7477] "Child-to-Parent Synchronization in
+   DNS" to accomplish this.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-dnssec-automation-01"/>
 </reference>

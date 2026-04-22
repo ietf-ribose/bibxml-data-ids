@@ -1,19 +1,27 @@
 <reference anchor="I-D.ietf-dnsop-rfc8109bis" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-rfc8109bis-07">
   <front>
     <title>Initializing a DNS Resolver with Priming Queries</title>
-    <author fullname="Peter Koch" initials="P." surname="Koch">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-rfc8109bis-07"/>
+    <author initials="P." surname="Koch" fullname="Peter Koch">
       <organization>DENIC eG</organization>
     </author>
-    <author fullname="Matt Larson" initials="M." surname="Larson">
+    <author initials="M." surname="Larson" fullname="Matt Larson">
       <organization>ICANN</organization>
     </author>
-    <author fullname="Paul E. Hoffman" initials="P. E." surname="Hoffman">
+    <author initials="P. E." surname="Hoffman" fullname="Paul E. Hoffman">
       <organization>ICANN</organization>
     </author>
-    <date year="2024" month="August" day="27"/>
+    <date day="27" month="August" year="2024"></date>
     <abstract>
-      <t>This document describes the queries that a DNS resolver should emit to initialize its cache. The result is that the resolver gets both a current NS resource record set (RRset) for the root zone and the necessary address information for reaching the root servers. This document, when published, obsoletes RFC 8109. See Appendix A for the list of changes from RFC 8109.</t>
+      <t>   This document describes the queries that a DNS resolver should emit
+   to initialize its cache.  The result is that the resolver gets both a
+   current NS resource record set (RRset) for the root zone and the
+   necessary address information for reaching the root servers.
+
+   This document, when published, obsoletes RFC 8109.  See Appendix A
+   for the list of changes from RFC 8109.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-rfc8109bis-07"/>
 </reference>

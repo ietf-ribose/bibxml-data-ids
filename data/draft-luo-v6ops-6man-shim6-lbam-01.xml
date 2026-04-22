@@ -1,22 +1,38 @@
 <reference anchor="I-D.luo-v6ops-6man-shim6-lbam" target="https://datatracker.ietf.org/doc/html/draft-luo-v6ops-6man-shim6-lbam-01">
   <front>
     <title>Load Balancing based on IPv6 Anycast and pseudo-Mobility</title>
-    <author fullname="Wanming Luo" initials="W." surname="Luo">
+    <seriesInfo name="Internet-Draft" value="draft-luo-v6ops-6man-shim6-lbam-01"/>
+    <author initials="W." surname="Luo" fullname="Wanming Luo">
       <organization>CNNIC</organization>
     </author>
-    <author fullname="XiaoDong Lee" initials="X." surname="Lee">
+    <author initials="X." surname="Lee" fullname="XiaoDong Lee">
       <organization>CNNIC</organization>
     </author>
-    <author fullname="Wei MAO" initials="W." surname="MAO">
+    <author initials="W." surname="MAO" fullname="Wei MAO">
       <organization>CNNIC</organization>
     </author>
-    <author fullname="Mei Wang" initials="M." surname="Wang">
+    <author initials="M." surname="Wang" fullname="Mei Wang">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2009" month="March" day="23"/>
+    <date day="23" month="March" year="2009"></date>
     <abstract>
-      <t>Load balancing is a key factor for both IPv4 to IPv6 transition mechnisms, e.g.NAT-PT or Tunnel broker, and Multihoming to improve their scalability and Robustness. In fact, that is a method, by which IP packet can be distributed across a pool of servers, instead of directing to a single server.Load balancing has been widely used by NAT, Web service and FTP service. However, current load balancing software and implementations have problems such as poor scalability, inability to balance session flow, long latency time and topological constraint on server pool. This document describes a method using pseudo-anycast and pseudo- mobility based on Mobile IPv6 to implement load balancing in session level in IPv6 network, by which those problems above can be solved. Futhermore, this method only need little modification to Mobile IPv6 in the servers' and agent's side; as for the general users, it need not any modification.</t>
+      <t>Load balancing is a key factor for both IPv4 to IPv6 transition
+mechnisms, e.g.NAT-PT or Tunnel broker, and Multihoming to improve
+their scalability and Robustness.  In fact, that is a method, by
+which IP packet can be distributed across a pool of servers, instead
+of directing to a single server.Load balancing has been widely used
+by NAT, Web service and FTP service.  However, current load balancing
+software and implementations have problems such as poor scalability,
+inability to balance session flow, long latency time and topological
+constraint on server pool.
+
+This document describes a method using pseudo-anycast and pseudo-
+mobility based on Mobile IPv6 to implement load balancing in session
+level in IPv6 network, by which those problems above can be solved.
+Futhermore, this method only need little modification to Mobile IPv6
+in the servers' and agent's side; as for the general users, it need
+not any modification.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-luo-v6ops-6man-shim6-lbam-01"/>
 </reference>

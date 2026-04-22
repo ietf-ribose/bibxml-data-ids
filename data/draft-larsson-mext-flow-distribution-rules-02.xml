@@ -1,25 +1,37 @@
 <reference anchor="I-D.larsson-mext-flow-distribution-rules" target="https://datatracker.ietf.org/doc/html/draft-larsson-mext-flow-distribution-rules-02">
   <front>
     <title>Flow Distribution Rule Language for Multi-Access Nodes</title>
-    <author fullname="Conny Larsson" initials="C." surname="Larsson">
+    <seriesInfo name="Internet-Draft" value="draft-larsson-mext-flow-distribution-rules-02"/>
+    <author initials="C." surname="Larsson" fullname="Conny Larsson">
       <organization>Ericsson Research</organization>
     </author>
-    <author fullname="Michael Eriksson" initials="M." surname="Eriksson">
+    <author initials="M." surname="Eriksson" fullname="Michael Eriksson">
       <organization>Ericsson Research</organization>
     </author>
-    <author fullname="Koshiro Mitsuya" initials="K." surname="Mitsuya">
+    <author initials="K." surname="Mitsuya" fullname="Koshiro Mitsuya">
       <organization>Keio University</organization>
     </author>
-    <author fullname="Kazuyuki Tasaka" initials="K." surname="Tasaka">
+    <author initials="K." surname="Tasaka" fullname="Kazuyuki Tasaka">
       <organization>KDDI R&amp;D Lab</organization>
     </author>
-    <author fullname="Romain Kuntz" initials="R." surname="Kuntz">
+    <author initials="R." surname="Kuntz" fullname="Romain Kuntz">
       <organization>Louis Pasteur University</organization>
     </author>
-    <date year="2009" month="February" day="24"/>
+    <date day="24" month="February" year="2009"></date>
     <abstract>
-      <t>This document defines an OS independent rule language as a mean to define and perform per flow path selection for a multi-homed node. Per flow path selection is typically needed when there exist multiple network interfaces, each with different network characteristics, and an application has specific performance requirements for a data flow that makes one network interface more suitable than another. The flow distribution rule set is used by the node itself but also exchanged with other nodes that needs to know about the multi-homed node's capability of receiving data on multiple network interfaces. This document does not define how the rule set is transferred between nodes.</t>
+      <t>This document defines an OS independent rule language as a mean to
+define and perform per flow path selection for a multi-homed node.
+Per flow path selection is typically needed when there exist multiple
+network interfaces, each with different network characteristics, and
+an application has specific performance requirements for a data flow
+that makes one network interface more suitable than another.
+
+The flow distribution rule set is used by the node itself but also
+exchanged with other nodes that needs to know about the multi-homed
+node's capability of receiving data on multiple network interfaces.
+This document does not define how the rule set is transferred between
+nodes.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-larsson-mext-flow-distribution-rules-02"/>
 </reference>

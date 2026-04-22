@@ -1,25 +1,38 @@
 <reference anchor="I-D.lai-tsvwg-normalizer" target="https://datatracker.ietf.org/doc/html/draft-lai-tsvwg-normalizer-02">
   <front>
     <title>Normalization Marker for AF PHB Group in DiffServ</title>
-    <author fullname="Cheng-Jia Lai" initials="C." surname="Lai">
+    <seriesInfo name="Internet-Draft" value="draft-lai-tsvwg-normalizer-02"/>
+    <author initials="C." surname="Lai" fullname="Cheng-Jia Lai">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Wenyi Wang" initials="W." surname="Wang">
+    <author initials="W." surname="Wang" fullname="Wenyi Wang">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Stan Yang" initials="S." surname="Yang">
+    <author initials="S." surname="Yang" fullname="Stan Yang">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Toerless Eckert" initials="T. T." surname="Eckert">
+    <author initials="T. T." surname="Eckert" fullname="Toerless Eckert">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Fred Yip" initials="F." surname="Yip">
+    <author initials="F." surname="Yip" fullname="Fred Yip">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2013" month="July" day="8"/>
+    <date day="08" month="July" year="2013"></date>
     <abstract>
-      <t>In DiffServ, preferential dropping of packets in AF PHB groups has long been considered beneficial, typically for video flows with discardable packets. Unfortunately, the ecosystem of bandwidth contention at congestion is very likely to discourage those video endpoints from generating packets with lower precedence markings, i.e. they would lose more packets if doing so. Thus, to offer an incentive for more collaborative and mutually beneficial behaviors of video endpoints in AF PHB groups, we propose a Normalization Marker (NM) for traffic conditioning at network edges. Deployment of NM will encourage the video endpoints to generate finer layers of intra- flow precedence (IFP) with discardable packets in more balanced distributions.</t>
+      <t>   In DiffServ, preferential dropping of packets in AF PHB groups has
+   long been considered beneficial, typically for video flows with
+   discardable packets.  Unfortunately, the ecosystem of bandwidth
+   contention at congestion is very likely to discourage those video
+   endpoints from generating packets with lower precedence markings,
+   i.e. they would lose more packets if doing so.  Thus, to offer an
+   incentive for more collaborative and mutually beneficial behaviors of
+   video endpoints in AF PHB groups, we propose a Normalization Marker
+   (NM) for traffic conditioning at network edges.  Deployment of NM
+   will encourage the video endpoints to generate finer layers of intra-
+   flow precedence (IFP) with discardable packets in more balanced
+   distributions.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-lai-tsvwg-normalizer-02"/>
 </reference>

@@ -1,16 +1,27 @@
 <reference anchor="I-D.melia-dhc-pco" target="https://datatracker.ietf.org/doc/html/draft-melia-dhc-pco-00">
   <front>
     <title>DHCP option to transport Protocol Configuration Options</title>
-    <author fullname="Telemaco Melia" initials="T." surname="Melia">
+    <seriesInfo name="Internet-Draft" value="draft-melia-dhc-pco-00"/>
+    <author initials="T." surname="Melia" fullname="Telemaco Melia">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <author fullname="Yacine Mghazli" initials="Y." surname="Mghazli">
+    <author initials="Y." surname="Mghazli" fullname="Yacine Mghazli">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <date year="2009" month="February" day="23"/>
+    <date day="23" month="February" year="2009"></date>
     <abstract>
-      <t>This document specifies how to convey Protocol Configuration Options (PCO) [24008] from/to the access network to/from the Mobile Node (MN). There are scenarios defined in 3GPP (TS 23.402) and WiMax forum NWG where the mobile node accessing the non-3GPP trusted system needs to convey such information to the Mobility Access Gateway (MAG) functionality implemented in the serving gateway (S-GW). The MAG requires the PCO field to send such information to the Local Mobility Agent (LMA) (implemented in the PDN gateway, P-GW) in a Proxy Binding Update (PBU) message. PCO options are exchanged between the MN and the LMA to transport information such as P-CSCF address, DNS server address.</t>
+      <t>This document specifies how to convey Protocol Configuration Options
+(PCO) [24008] from/to the access network to/from the Mobile Node
+(MN).  There are scenarios defined in 3GPP (TS 23.402) and WiMax
+forum NWG where the mobile node accessing the non-3GPP trusted system
+needs to convey such information to the Mobility Access Gateway (MAG)
+functionality implemented in the serving gateway (S-GW).  The MAG
+requires the PCO field to send such information to the Local Mobility
+Agent (LMA) (implemented in the PDN gateway, P-GW) in a Proxy Binding
+Update (PBU) message.  PCO options are exchanged between the MN and
+the LMA to transport information such as P-CSCF address, DNS server
+address.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-melia-dhc-pco-00"/>
 </reference>

@@ -1,13 +1,32 @@
 <reference anchor="I-D.callec-dive" target="https://datatracker.ietf.org/doc/html/draft-callec-dive-00">
   <front>
     <title>Domain-based Integrity Verification Enforcement (DIVE) Version 0.1</title>
-    <author fullname="Mateo Florian Callec" initials="M. F." surname="Callec">
+    <seriesInfo name="Internet-Draft" value="draft-callec-dive-00"/>
+    <author initials="M. F." surname="Callec" fullname="Mateo Florian Callec">
       <organization>Independent</organization>
     </author>
-    <date year="2026" month="April" day="1"/>
+    <date day="01" month="April" year="2026"></date>
     <abstract>
-      <t>Domain-based Integrity Verification Enforcement (DIVE) version 0.1 is an application-layer protocol that provides cryptographic integrity and authenticity verification of web resources by leveraging the Domain Name System Security Extensions (DNSSEC) as an independent verification channel. DIVE operates as an additional security layer above HTTP and HTTPS. Public keys and policy configuration are published as DNS TXT records protected by DNSSEC, while HTTP response headers carry per-resource cryptographic signatures. A client implementing DIVE verifies each covered resource against the corresponding DNS-published public key before accepting it. An attacker must therefore compromise both the DNS infrastructure and the origin server simultaneously in order to deliver a tampered resource to a DIVE-compliant client. This document defines the DNS record format, the HTTP header format, the client verification algorithm, the reporting mechanism, and the operational recommendations for the DIVE 0.1 protocol.</t>
+      <t>   Domain-based Integrity Verification Enforcement (DIVE) version 0.1 is
+   an application-layer protocol that provides cryptographic integrity
+   and authenticity verification of web resources by leveraging the
+   Domain Name System Security Extensions (DNSSEC) as an independent
+   verification channel.
+
+   DIVE operates as an additional security layer above HTTP and HTTPS.
+   Public keys and policy configuration are published as DNS TXT records
+   protected by DNSSEC, while HTTP response headers carry per-resource
+   cryptographic signatures.  A client implementing DIVE verifies each
+   covered resource against the corresponding DNS-published public key
+   before accepting it.  An attacker must therefore compromise both the
+   DNS infrastructure and the origin server simultaneously in order to
+   deliver a tampered resource to a DIVE-compliant client.
+
+   This document defines the DNS record format, the HTTP header format,
+   the client verification algorithm, the reporting mechanism, and the
+   operational recommendations for the DIVE 0.1 protocol.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-callec-dive-00"/>
 </reference>

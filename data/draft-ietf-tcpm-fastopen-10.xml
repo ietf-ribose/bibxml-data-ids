@@ -1,22 +1,23 @@
 <reference anchor="I-D.ietf-tcpm-fastopen" target="https://datatracker.ietf.org/doc/html/draft-ietf-tcpm-fastopen-10">
   <front>
     <title>TCP Fast Open</title>
-    <author fullname="Yuchung Cheng" initials="Y." surname="Cheng">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-fastopen-10"/>
+    <author initials="Y." surname="Cheng" fullname="Yuchung Cheng">
       <organization>Google</organization>
     </author>
-    <author fullname="Jerry Chu" initials="J." surname="Chu">
+    <author initials="J." surname="Chu" fullname="Jerry Chu">
       <organization>Google</organization>
     </author>
-    <author fullname="Sivasankar Radhakrishnan" initials="S." surname="Radhakrishnan">
+    <author initials="S." surname="Radhakrishnan" fullname="Sivasankar Radhakrishnan">
       <organization>Google</organization>
     </author>
-    <author fullname="Arvind Jain" initials="A." surname="Jain">
+    <author initials="A." surname="Jain" fullname="Arvind Jain">
       <organization>Google</organization>
     </author>
-    <date year="2014" month="September" day="29"/>
+    <date day="29" month="September" year="2014"></date>
     <abstract>
-      <t>This document describes an experimental TCP mechanism called TCP Fast Open (TFO). TFO allows data to be carried in the SYN and SYN-ACK packets and consumed by the receiving end during the initial connection handshake, and saves up to one full round-trip time (RTT) compared to the standard TCP, which requires a three-way handshake (3WHS) to complete before data can be exchanged. However, TFO deviates from the standard TCP semantics, since the data in the SYN could be replayed to an application in some rare circumstances. Applications should not use TFO unless they can tolerate this issue, as detailed in the Applicability section.</t>
+      <t>This document describes an experimental TCP mechanism called TCP Fast Open (TFO).  TFO allows data to be carried in the SYN and SYN-ACK packets and consumed by the receiving end during the initial connection handshake, and saves up to one full round-trip time (RTT) compared to the standard TCP, which requires a three-way handshake (3WHS) to complete before data can be exchanged.  However, TFO deviates from the standard TCP semantics, since the data in the SYN could be replayed to an application in some rare circumstances.  Applications should not use TFO unless they can tolerate this issue, as detailed in the Applicability section.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-fastopen-10"/>
 </reference>

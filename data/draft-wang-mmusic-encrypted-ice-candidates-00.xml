@@ -1,19 +1,31 @@
 <reference anchor="I-D.wang-mmusic-encrypted-ice-candidates" target="https://datatracker.ietf.org/doc/html/draft-wang-mmusic-encrypted-ice-candidates-00">
   <front>
     <title>Encrypting ICE candidates to improve privacy and connectivity</title>
-    <author fullname="Alex Drake" initials="A." surname="Drake">
+    <seriesInfo name="Internet-Draft" value="draft-wang-mmusic-encrypted-ice-candidates-00"/>
+    <author initials="A." surname="Drake" fullname="Alex Drake">
       <organization>Google</organization>
     </author>
-    <author fullname="Justin Uberti" initials="J." surname="Uberti">
+    <author initials="J." surname="Uberti" fullname="Justin Uberti">
       <organization>Google</organization>
     </author>
-    <author fullname="Qingsi Wang" initials="Q." surname="Wang">
+    <author initials="Q." surname="Wang" fullname="Qingsi Wang">
       <organization>Google</organization>
     </author>
-    <date year="2019" month="November" day="1"/>
+    <date day="01" month="November" year="2019"></date>
     <abstract>
-      <t>WebRTC applications collect ICE candidates as part of the process of creating peer-to-peer connections. To maximize the probability of a direct peer-to-peer connection, client private IP addresses can be included in this candidate collection, but this has privacy implications. This document describes a way to share local IP addresses with local peers without compromising client privacy. During the ICE process, local IP addresses are encrypted and authenticated using a pre-shared key and cipher suite before being put into ICE candidates as hostnames with an ".encrypted" pseudo-top- level domain. Other peers who also have the PSK are able to decrypt these addresses and use them normally in ICE processing.</t>
+      <t>   WebRTC applications collect ICE candidates as part of the process of
+   creating peer-to-peer connections.  To maximize the probability of a
+   direct peer-to-peer connection, client private IP addresses can be
+   included in this candidate collection, but this has privacy
+   implications.  This document describes a way to share local IP
+   addresses with local peers without compromising client privacy.
+   During the ICE process, local IP addresses are encrypted and
+   authenticated using a pre-shared key and cipher suite before being
+   put into ICE candidates as hostnames with an ".encrypted" pseudo-top-
+   level domain.  Other peers who also have the PSK are able to decrypt
+   these addresses and use them normally in ICE processing.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wang-mmusic-encrypted-ice-candidates-00"/>
 </reference>

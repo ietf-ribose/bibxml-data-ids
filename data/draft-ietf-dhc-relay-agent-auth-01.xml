@@ -1,19 +1,30 @@
 <reference anchor="I-D.ietf-dhc-relay-agent-auth" target="https://datatracker.ietf.org/doc/html/draft-ietf-dhc-relay-agent-auth-01">
   <front>
     <title>The Authentication Suboption for the DHCP Relay Agent Option</title>
-    <author fullname="Mark Stapp" initials="M." surname="Stapp">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dhc-relay-agent-auth-01"/>
+    <author initials="M." surname="Stapp" fullname="Mark Stapp">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Ralph Droms" initials="R." surname="Droms">
+    <author initials="R." surname="Droms" fullname="Ralph Droms">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Ted Lemon" initials="T." surname="Lemon">
+    <author initials="T." surname="Lemon" fullname="Ted Lemon">
       <organization>Nominum, Inc.</organization>
     </author>
-    <date year="2003" month="June" day="9"/>
+    <date day="09" month="June" year="2003"></date>
     <abstract>
-      <t>The DHCP Relay Agent Information Option (RFC 3046) conveys information between a DHCP relay agent and a DHCP server. This specification defines two mechanisms for securing the messages exchanged between a relay agent and a server. The first mechanism defines a new authentication suboption for the Relay Agent Information Option that supports source entity authentication and data integrity for relayed DHCP messages. The authentication suboption contains a cryptographic signature in a payload derived from the option used in DHCP Authentication (RFC 3118). The second mechanism uses IPsec (RFC 2041) to protect messages exchanged between relay agents and servers.</t>
+      <t>The DHCP Relay Agent Information Option (RFC 3046) conveys
+information between a DHCP relay agent and a DHCP server.  This
+specification defines two mechanisms for securing the messages
+exchanged between a relay agent and a server.  The first mechanism
+defines a new authentication suboption for the Relay Agent
+Information Option that supports source entity authentication and
+data integrity for relayed DHCP messages.  The authentication
+suboption contains a cryptographic signature in a payload derived
+from the option used in DHCP Authentication (RFC 3118).  The second
+mechanism uses IPsec (RFC 2041) to protect messages exchanged between
+relay agents and servers.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dhc-relay-agent-auth-01"/>
 </reference>

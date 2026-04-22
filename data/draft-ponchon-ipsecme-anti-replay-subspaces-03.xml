@@ -1,25 +1,35 @@
 <reference anchor="I-D.ponchon-ipsecme-anti-replay-subspaces" target="https://datatracker.ietf.org/doc/html/draft-ponchon-ipsecme-anti-replay-subspaces-03">
   <front>
     <title>IPsec and IKE anti-replay sequence number subspaces for traffic-engineered paths and multi-core processing</title>
-    <author fullname="Paul Ponchon" initials="P." surname="Ponchon">
+    <seriesInfo name="Internet-Draft" value="draft-ponchon-ipsecme-anti-replay-subspaces-03"/>
+    <author initials="P." surname="Ponchon" fullname="Paul Ponchon">
       <organization>Cisco Meraki</organization>
     </author>
-    <author fullname="Mohsin Shaikh" initials="M." surname="Shaikh">
+    <author initials="M." surname="Shaikh" fullname="Mohsin Shaikh">
       <organization>Cisco Meraki</organization>
     </author>
-    <author fullname="Hadi Dernaika" initials="H." surname="Dernaika">
+    <author initials="H." surname="Dernaika" fullname="Hadi Dernaika">
       <organization>Cisco Meraki</organization>
     </author>
-    <author fullname="Pierre Pfister" initials="P." surname="Pfister">
+    <author initials="P." surname="Pfister" fullname="Pierre Pfister">
       <organization>Cisco Meraki</organization>
     </author>
-    <author fullname="Guillaume Solignac" initials="G." surname="Solignac">
+    <author initials="G." surname="Solignac" fullname="Guillaume Solignac">
       <organization>Cisco Meraki</organization>
     </author>
-    <date year="2023" month="October" day="23"/>
+    <date day="23" month="October" year="2023"></date>
     <abstract>
-      <t>This document discusses the challenges of running IPsec with anti- replay in multi-core environments where packets may be re-ordered (e.g., when sent over multiple IP paths, traffic-engineered paths and/or using different QoS classes). A new solution based on splitting the anti-replay sequence number space into multiple different sequencing subspaces is proposed. Since this solution requires support on both parties, an IKE extension is proposed in order to negotiate the use of the anti-replay sequence number subspaces.</t>
+      <t>   This document discusses the challenges of running IPsec with anti-
+   replay in multi-core environments where packets may be re-ordered
+   (e.g., when sent over multiple IP paths, traffic-engineered paths
+   and/or using different QoS classes).  A new solution based on
+   splitting the anti-replay sequence number space into multiple
+   different sequencing subspaces is proposed.  Since this solution
+   requires support on both parties, an IKE extension is proposed in
+   order to negotiate the use of the anti-replay sequence number
+   subspaces.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ponchon-ipsecme-anti-replay-subspaces-03"/>
 </reference>

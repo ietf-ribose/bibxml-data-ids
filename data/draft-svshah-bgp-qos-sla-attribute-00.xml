@@ -1,19 +1,36 @@
 <reference anchor="I-D.svshah-bgp-qos-sla-attribute" target="https://datatracker.ietf.org/doc/html/draft-svshah-bgp-qos-sla-attribute-00">
   <front>
     <title>BGP attribute for QoS SLA advertisement</title>
-    <author fullname="Shitanshu Shah" initials="S." surname="Shah">
+    <seriesInfo name="Internet-Draft" value="draft-svshah-bgp-qos-sla-attribute-00"/>
+    <author initials="S." surname="Shah" fullname="Shitanshu Shah">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
+    <author initials="K." surname="Patel" fullname="Keyur Patel">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Sandeep Bajaj" initials="S." surname="Bajaj">
+    <author initials="S." surname="Bajaj" fullname="Sandeep Bajaj">
       <organization>Juniper Networks</organization>
     </author>
-    <date year="2012" month="March" day="1"/>
+    <date day="01" month="March" year="2012"></date>
     <abstract>
-      <t>Out-of-band manual learning of SLA details and provisioning them in general can be complex work for network administrators. For example, Enterprise network administrators not only have to know what is their SLA, for voice, video etc application traffic, with their Provider, but they also require translating application groups to Classifier groups as per provider's definition as well translate SLA to vendor specific provisioning language. An in-band method of QoS signaling can help to simplify some of the complexities. An optional transitive BGP attribute proposed in this document intends to signal SLA details in-band, across administrative boundaries (considered as Autonomous Systems (AS)), and thus simplify/speed-up some of the complex tasks. Though the use-case with the proposed attribute is explicitly defined in this document, purpose of this attribute is not limited to this use-case only.</t>
+      <t>   Out-of-band manual learning of SLA details and provisioning them in
+   general can be complex work for network administrators.  For example,
+   Enterprise network administrators not only have to know what is their
+   SLA, for voice, video etc application traffic, with their Provider,
+   but they also require translating application groups to Classifier
+   groups as per provider's definition as well translate SLA to vendor
+   specific provisioning language.  An in-band method of QoS signaling
+   can help to simplify some of the complexities.  An optional
+   transitive BGP attribute proposed in this document intends to signal
+   SLA details in-band, across administrative boundaries (considered as
+   Autonomous Systems (AS)), and thus simplify/speed-up some of the
+   complex tasks.
+
+   Though the use-case with the proposed attribute is explicitly defined
+   in this document, purpose of this attribute is not limited to this
+   use-case only.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-svshah-bgp-qos-sla-attribute-00"/>
 </reference>

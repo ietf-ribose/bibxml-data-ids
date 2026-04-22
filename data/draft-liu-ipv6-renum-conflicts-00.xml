@@ -1,16 +1,26 @@
 <reference anchor="I-D.liu-ipv6-renum-conflicts" target="https://datatracker.ietf.org/doc/html/draft-liu-ipv6-renum-conflicts-00">
   <front>
     <title>SLAAC/DHCPv6 conflicts diagnostic during site renumbering</title>
-    <author fullname="Bing Liu" initials="B." surname="Liu">
+    <seriesInfo name="Internet-Draft" value="draft-liu-ipv6-renum-conflicts-00"/>
+    <author initials="B." surname="Liu" fullname="Bing Liu">
       <organization>Huawei Technologies Co., Ltd</organization>
     </author>
-    <author fullname="Sheng Jiang" initials="S." surname="Jiang">
+    <author initials="S." surname="Jiang" fullname="Sheng Jiang">
       <organization>Huawei Technologies Co., Ltd</organization>
     </author>
-    <date year="2011" month="March" day="7"/>
+    <date day="07" month="March" year="2011"></date>
     <abstract>
-      <t>While an IPv6 site is being renumbered, both DHCPv6 and ND may be used to reconfigure the host addresses. This may cause potential address configuration conflicts during renumbering procedure. The issue mainly include two situations: a) Address configuration method conflict, which means a host receives a new prefix comes from another address configuration protocol. b) Address prefix conflict, a host receives both DHCPv6 and ND address configuration messages which assign different address prefixes. This documents analyzes the conflict issues and proposes a conflict report mechanism for hosts to report the conflicts to DHCPv6 servers.</t>
+      <t>While an IPv6 site is being renumbered, both DHCPv6 and ND may be
+used to reconfigure the host addresses. This may cause potential
+address configuration conflicts during renumbering procedure. The
+issue mainly include two situations: a) Address configuration method
+conflict, which means a host receives a new prefix comes from another
+address configuration protocol. b) Address prefix conflict, a host
+receives both DHCPv6 and ND address configuration messages which
+assign different address prefixes. This documents analyzes the
+conflict issues and proposes a conflict report mechanism for hosts to
+report the conflicts to DHCPv6 servers.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-liu-ipv6-renum-conflicts-00"/>
 </reference>

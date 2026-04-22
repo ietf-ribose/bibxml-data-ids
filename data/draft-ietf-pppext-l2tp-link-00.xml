@@ -1,16 +1,30 @@
 <reference anchor="I-D.ietf-pppext-l2tp-link" target="https://datatracker.ietf.org/doc/html/draft-ietf-pppext-l2tp-link-00">
   <front>
     <title>L2TP Link Extensions</title>
-    <author fullname="William Palter" initials="W." surname="Palter">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pppext-l2tp-link-00"/>
+    <author initials="W." surname="Palter" fullname="William Palter">
       <organization>Network Alchemy</organization>
     </author>
-    <author fullname="Mark Townsley" initials="M." surname="Townsley">
+    <author initials="M." surname="Townsley" fullname="Mark Townsley">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="1998" month="November" day="23"/>
+    <date day="23" month="November" year="1998"></date>
     <abstract>
-      <t>The physical separation of the LAC and LNS with L2TP[2] and logical separation of the responsibilities of each with respect to negotiated link parameters introduces a lack of awareness between the tunnel endpoints that does not exist in a typical PPP dialup device. When possible, Proxy LCP provides a manner in which to negotiate link parameters at the LAC and communication of these in full to the LNS. If these options can be made acceptable to the LNS, then there should not be any insurmountable difficulty with regard to mismatch of link expectations. However, given that there are instances where negotiation of LCP[1] must take place at the LNS, some direction by the LAC as to what parameters are acceptable, as well as some communication from the LNS as to what parameters have been negotiated, is desirable.</t>
+      <t>   The physical separation of the LAC and LNS with L2TP[2] and logical
+   separation of the responsibilities of each with respect to negotiated
+   link parameters introduces a lack of awareness between the tunnel
+   endpoints that does not exist in a typical PPP dialup device. When
+   possible, Proxy LCP provides a manner in which to negotiate link
+   parameters at the LAC and communication of these in full to the LNS.
+   If these options can be made acceptable to the LNS, then there should
+   not be any insurmountable difficulty with regard to mismatch of link
+   expectations. However, given that there are instances where
+   negotiation of LCP[1] must take place at the LNS, some direction by
+   the LAC as to what parameters are acceptable, as well as some
+   communication from the LNS as to what parameters have been
+   negotiated, is desirable.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-pppext-l2tp-link-00"/>
 </reference>

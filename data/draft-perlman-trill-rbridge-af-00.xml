@@ -1,22 +1,36 @@
 <reference anchor="I-D.perlman-trill-rbridge-af" target="https://datatracker.ietf.org/doc/html/draft-perlman-trill-rbridge-af-00">
   <front>
     <title>RBridges: Appointed Forwarders</title>
-    <author fullname="Radia Perlman" initials="R." surname="Perlman">
+    <seriesInfo name="Internet-Draft" value="draft-perlman-trill-rbridge-af-00"/>
+    <author initials="R." surname="Perlman" fullname="Radia Perlman">
       <organization>Intel Labs</organization>
     </author>
-    <author fullname="Donald E. Eastlake 3rd" initials="D. E." surname="Eastlake">
+    <author initials="D. E." surname="Eastlake" fullname="Donald E. Eastlake 3rd">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Ayan Banerjee" initials="A." surname="Banerjee">
+    <author initials="A." surname="Banerjee" fullname="Ayan Banerjee">
       <organization>Cisco</organization>
     </author>
-    <author fullname="fangwei hu" initials="F." surname="hu">
+    <author initials="F." surname="hu" fullname="fangwei hu">
       <organization>ZTE</organization>
     </author>
-    <date year="2011" month="March" day="29"/>
+    <date day="29" month="March" year="2011"></date>
     <abstract>
-      <t>The IETF TRILL protocol provides optimal pair-wise data forwarding without configuration, safe forwarding even during periods of temporary loops, and support for multipathing of both unicast and multicast traffic. TRILL accomplishes this by using IS-IS link state routing and by encapsulating traffic using a header that includes a hop count. Devices that implement TRILL are called RBridges. TRILL supports multi-access LAN links that can have multiple end stations and RBridges attached. Where multiple RBridges are attached to a link, native traffic to and from end stations on that link is handled by a subset of those RBridges called Appointed Forwarders, with the intent that native traffic in each VLAN be handled by at most one RBridge. The purpose of this document is to improve the documentation of the Appointed Forwarder mechanism.</t>
+      <t>The IETF TRILL protocol provides optimal pair-wise data forwarding
+without configuration, safe forwarding even during periods of
+temporary loops, and support for multipathing of both unicast and
+multicast traffic. TRILL accomplishes this by using IS-IS link state
+routing and by encapsulating traffic using a header that includes a
+hop count. Devices that implement TRILL are called RBridges.
+
+TRILL supports multi-access LAN links that can have multiple end
+stations and RBridges attached. Where multiple RBridges are attached
+to a link, native traffic to and from end stations on that link is
+handled by a subset of those RBridges called Appointed Forwarders,
+with the intent that native traffic in each VLAN be handled by at
+most one RBridge.  The purpose of this document is to improve the
+documentation of the Appointed Forwarder mechanism.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-perlman-trill-rbridge-af-00"/>
 </reference>

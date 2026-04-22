@@ -1,16 +1,33 @@
 <reference anchor="I-D.ounsworth-pq-composite-sigs" target="https://datatracker.ietf.org/doc/html/draft-ounsworth-pq-composite-sigs-02">
   <front>
     <title>Composite Keys and Signatures For Use In Internet PKI</title>
-    <author fullname="Mike Ounsworth" initials="M." surname="Ounsworth">
+    <seriesInfo name="Internet-Draft" value="draft-ounsworth-pq-composite-sigs-02"/>
+    <author initials="M." surname="Ounsworth" fullname="Mike Ounsworth">
       <organization>Entrust Datacard Limited</organization>
     </author>
-    <author fullname="Massimiliano Pala" initials="M." surname="Pala">
+    <author initials="M." surname="Pala" fullname="Massimiliano Pala">
       <organization>CableLabs</organization>
     </author>
-    <date year="2020" month="January" day="16"/>
+    <date day="16" month="January" year="2020"></date>
     <abstract>
-      <t>With the widespread adoption of post-quantum cryptography will come the need for an entity to possess multiple public keys on different cryptographic algorithms. Since the trustworthiness of individual post-quantum algorithms is at question, a multi-key cryptographic operation will need to be performed in such a way that breaking it requires breaking each of the component algorithms individually. This requires defining new structures for holding composite public keys and composite signature data. This document defines the structures CompositePublicKey, CompositeSignatureValue, and CompositeParams, which are sequences of the respective structure for each component algorithm. This document also defines algorithms for generating and verifying composite signatures. This document makes no assumptions about what the component algorithms are, provided that their algorithm identifiers and signature generation and verification algorithms are defined.</t>
+      <t>   With the widespread adoption of post-quantum cryptography will come
+   the need for an entity to possess multiple public keys on different
+   cryptographic algorithms.  Since the trustworthiness of individual
+   post-quantum algorithms is at question, a multi-key cryptographic
+   operation will need to be performed in such a way that breaking it
+   requires breaking each of the component algorithms individually.
+   This requires defining new structures for holding composite public
+   keys and composite signature data.
+
+   This document defines the structures CompositePublicKey,
+   CompositeSignatureValue, and CompositeParams, which are sequences of
+   the respective structure for each component algorithm.  This document
+   also defines algorithms for generating and verifying composite
+   signatures.  This document makes no assumptions about what the
+   component algorithms are, provided that their algorithm identifiers
+   and signature generation and verification algorithms are defined.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ounsworth-pq-composite-sigs-02"/>
 </reference>

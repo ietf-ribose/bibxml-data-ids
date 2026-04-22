@@ -1,13 +1,21 @@
 <reference anchor="I-D.jholland-idr-mcast-source-nexthop-over-amt" target="https://datatracker.ietf.org/doc/html/draft-jholland-idr-mcast-source-nexthop-over-amt-00">
   <front>
     <title>MBGP Extensions For Multicast Source Reachability Via AMT</title>
-    <author fullname="Jake Holland" initials="J." surname="Holland">
+    <seriesInfo name="Internet-Draft" value="draft-jholland-idr-mcast-source-nexthop-over-amt-00"/>
+    <author initials="J." surname="Holland" fullname="Jake Holland">
       <organization>Akamai Technologies, Inc.</organization>
     </author>
-    <date year="2017" month="December" day="7"/>
+    <date day="07" month="December" year="2017"></date>
     <abstract>
-      <t>This document describes a BGP-based method to communicate source IP reverse-path reachability for sources of multicast IP traffic which is available via AMT (RFC 7450). This document defines a new SAFI (Subsequent Address Family Identifier) Parameter type for MBGP which declares the next hop for RPF (Reverse Path Forwarding) of a source IP to be the AMT tunnel discovered via an explicitly provided anycast IP address for AMT Relay Discovery.</t>
+      <t>   This document describes a BGP-based method to communicate source IP
+   reverse-path reachability for sources of multicast IP traffic which
+   is available via AMT (RFC 7450).  This document defines a new SAFI
+   (Subsequent Address Family Identifier) Parameter type for MBGP which
+   declares the next hop for RPF (Reverse Path Forwarding) of a source
+   IP to be the AMT tunnel discovered via an explicitly provided anycast
+   IP address for AMT Relay Discovery.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-jholland-idr-mcast-source-nexthop-over-amt-00"/>
 </reference>

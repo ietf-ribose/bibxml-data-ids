@@ -1,19 +1,29 @@
 <reference anchor="I-D.li-l2vpn-segment-evpn" target="https://datatracker.ietf.org/doc/html/draft-li-l2vpn-segment-evpn-01">
   <front>
     <title>Segment-Based EVPN(S-EVPN)</title>
-    <author fullname="Zhenbin Li" initials="Z." surname="Li">
+    <seriesInfo name="Internet-Draft" value="draft-li-l2vpn-segment-evpn-01"/>
+    <author initials="Z." surname="Li" fullname="Zhenbin Li">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Lucy Yong" initials="L." surname="Yong">
+    <author initials="L." surname="Yong" fullname="Lucy Yong">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Junlin Zhang" initials="J." surname="Zhang">
+    <author initials="J." surname="Zhang" fullname="Junlin Zhang">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2014" month="February" day="13"/>
+    <date day="13" month="February" year="2014"></date>
     <abstract>
-      <t>This document proposes an enhanced EVPN mechanism, segment-based EVPN (S-EVPN). It satisfies the requirements of PBB-EVPN but does not require PBB implementation on PE. The solution uses a global label for each Ethernet Segment (ES) in an EVPN. It inserts the source ES label into packets at ingress PE and learns C-MAC and source ES label binding at egress PE. The solution makes the implementation easier and closer to E-VPN compared to PBB-EVPN but has the PBB-EVPN benefits.</t>
+      <t>   This document proposes an enhanced EVPN mechanism, segment-based EVPN
+   (S-EVPN).  It satisfies the requirements of PBB-EVPN but does not
+   require PBB implementation on PE.  The solution uses a global label
+   for each Ethernet Segment (ES) in an EVPN.  It inserts the source ES
+   label into packets at ingress PE and learns C-MAC and source ES label
+   binding at egress PE.  The solution makes the implementation easier
+   and closer to E-VPN compared to PBB-EVPN but has the PBB-EVPN
+   benefits.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-li-l2vpn-segment-evpn-01"/>
 </reference>

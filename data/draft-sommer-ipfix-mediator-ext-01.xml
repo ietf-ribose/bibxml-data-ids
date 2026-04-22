@@ -1,19 +1,29 @@
 <reference anchor="I-D.sommer-ipfix-mediator-ext" target="https://datatracker.ietf.org/doc/html/draft-sommer-ipfix-mediator-ext-01">
   <front>
     <title>Mediator-Specific Extensions to IPFIX Protocol and Information Model</title>
-    <author fullname="Christoph Sommer" initials="C." surname="Sommer">
+    <seriesInfo name="Internet-Draft" value="draft-sommer-ipfix-mediator-ext-01"/>
+    <author initials="C." surname="Sommer" fullname="Christoph Sommer">
       <organization>Univ. Erlangen</organization>
     </author>
-    <author fullname="Falko Dressler" initials="F." surname="Dressler">
+    <author initials="F." surname="Dressler" fullname="Falko Dressler">
       <organization>Univ. Erlangen</organization>
     </author>
-    <author fullname="Gerhard Muenz" initials="G." surname="Muenz">
+    <author initials="G." surname="Muenz" fullname="Gerhard Muenz">
       <organization>Univ. Tuebingen</organization>
     </author>
-    <date year="2008" month="July" day="14"/>
+    <date day="14" month="July" year="2008"></date>
     <abstract>
-      <t>IPFIX supports the concept of a Mediator, a device that receives, transforms, and exports data streams using IPFIX. One of the most important requirements is the reduction of the volume of IPFIX traffic by aggregating and discarding received information. This document introduces a number of extensions to the IPFIX Information Model that support the export of aggregated IPFIX data, introducing abstract data types and Information Elements that optimize the transport of descriptive information in terms of flow records' amount and size. All extensions are directly applicable to the IPFIX Mediator but can be used in many different applications as well.</t>
+      <t>IPFIX supports the concept of a Mediator, a device that receives,
+transforms, and exports data streams using IPFIX.  One of the most
+important requirements is the reduction of the volume of IPFIX
+traffic by aggregating and discarding received information.  This
+document introduces a number of extensions to the IPFIX Information
+Model that support the export of aggregated IPFIX data, introducing
+abstract data types and Information Elements that optimize the
+transport of descriptive information in terms of flow records' amount
+and size.  All extensions are directly applicable to the IPFIX
+Mediator but can be used in many different applications as well.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sommer-ipfix-mediator-ext-01"/>
 </reference>

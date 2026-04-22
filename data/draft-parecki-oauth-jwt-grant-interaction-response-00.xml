@@ -1,19 +1,28 @@
 <reference anchor="I-D.parecki-oauth-jwt-grant-interaction-response" target="https://datatracker.ietf.org/doc/html/draft-parecki-oauth-jwt-grant-interaction-response-00">
   <front>
     <title>JWT Authorization Grant Interaction Response</title>
-    <author fullname="Aaron Parecki" initials="A." surname="Parecki">
+    <seriesInfo name="Internet-Draft" value="draft-parecki-oauth-jwt-grant-interaction-response-00"/>
+    <author initials="A." surname="Parecki" fullname="Aaron Parecki">
       <organization>Okta</organization>
     </author>
-    <author fullname="Brian Campbell" initials="B." surname="Campbell">
+    <author initials="B." surname="Campbell" fullname="Brian Campbell">
       <organization>Ping Identity</organization>
     </author>
-    <author fullname="Dapeng Liu" initials="D." surname="Liu">
+    <author initials="D." surname="Liu" fullname="Dapeng Liu">
       <organization>Alibaba Group</organization>
     </author>
-    <date year="2026" month="March" day="24"/>
+    <date day="24" month="March" year="2026"></date>
     <abstract>
-      <t>This document defines an extension to the JWT Authorization Grant [RFC7523] that enables an authorization server to indicate that user interaction is required in order to complete an authorization request. Instead of returning an access token or an error, the authorization server returns a URI that the client launches where the user can interact with the authorization server, along with a polling interval. The client can then poll for the access token or wait for a redirect before retrying the original request.</t>
+      <t>   This document defines an extension to the JWT Authorization Grant
+   [RFC7523] that enables an authorization server to indicate that user
+   interaction is required in order to complete an authorization
+   request.  Instead of returning an access token or an error, the
+   authorization server returns a URI that the client launches where the
+   user can interact with the authorization server, along with a polling
+   interval.  The client can then poll for the access token or wait for
+   a redirect before retrying the original request.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-parecki-oauth-jwt-grant-interaction-response-00"/>
 </reference>

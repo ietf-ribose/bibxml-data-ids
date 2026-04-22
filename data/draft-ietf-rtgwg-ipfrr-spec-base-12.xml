@@ -1,16 +1,17 @@
 <reference anchor="I-D.ietf-rtgwg-ipfrr-spec-base" target="https://datatracker.ietf.org/doc/html/draft-ietf-rtgwg-ipfrr-spec-base-12">
   <front>
     <title>Basic Specification for IP Fast Reroute: Loop-Free Alternates</title>
-    <author fullname="Alia Atlas" initials="A." surname="Atlas">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-rtgwg-ipfrr-spec-base-12"/>
+    <author initials="A." surname="Atlas" fullname="Alia Atlas">
       <organization>BT</organization>
     </author>
-    <author fullname="Alex D. Zinin" initials="A. D." surname="Zinin">
+    <author initials="A. D." surname="Zinin" fullname="Alex D. Zinin">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <date year="2008" month="March" day="27"/>
+    <date day="27" month="March" year="2008"></date>
     <abstract>
-      <t>This document describes the use of loop-free alternates to provide local protection for unicast traffic in pure IP and MPLS/LDP networks in the event of a single failure, whether link, node, or shared risk link group (SRLG). The goal of this technology is to reduce the packet loss that happens while routers converge after a topology change due to a failure. Rapid failure repair is achieved through use of precalculated backup next-hops that are loop-free and safe to use until the distributed network convergence process completes. This simple approach does not require any support from other routers. The extent to which this goal can be met by this specification is dependent on the topology of the network. [STANDARDS-TRACK]</t>
+      <t>This document describes the use of loop-free alternates to provide local protection for unicast traffic in pure IP and MPLS/LDP networks in the event of a single failure, whether link, node, or shared risk link group (SRLG).  The goal of this technology is to reduce the packet loss that happens while routers converge after a topology change due to a failure.  Rapid failure repair is achieved through use of precalculated backup next-hops that are loop-free and safe to use until the distributed network convergence process completes.  This simple approach does not require any support from other routers.  The extent to which this goal can be met by this specification is dependent on the topology of the network. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-rtgwg-ipfrr-spec-base-12"/>
 </reference>

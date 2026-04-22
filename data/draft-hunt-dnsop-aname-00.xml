@@ -1,19 +1,25 @@
 <reference anchor="I-D.hunt-dnsop-aname" target="https://datatracker.ietf.org/doc/html/draft-hunt-dnsop-aname-00">
   <front>
     <title>Address-specific DNS Name Redirection (ANAME)</title>
-    <author fullname="Evan Hunt" initials="E." surname="Hunt">
+    <seriesInfo name="Internet-Draft" value="draft-hunt-dnsop-aname-00"/>
+    <author initials="E." surname="Hunt" fullname="Evan Hunt">
       <organization>ISC</organization>
     </author>
-    <author fullname="Peter van Dijk" initials="P." surname="van Dijk">
+    <author initials="P." surname="van Dijk" fullname="Peter van Dijk">
       <organization>PowerDNS</organization>
     </author>
-    <author fullname="Anthony Eden" initials="A." surname="Eden">
+    <author initials="A." surname="Eden" fullname="Anthony Eden">
       <organization>DNSimple</organization>
     </author>
-    <date year="2017" month="April" day="7"/>
+    <date day="07" month="April" year="2017"></date>
     <abstract>
-      <t>This document defines the "ANAME" DNS RR type, to provide similar functionality to CNAME, but only redirects type A and AAAA queries. Unlike CNAME, an ANAME can coexist with other record types. The ANAME RR allows zone owners to redirect queries for apex domain names in a standards compliant manner.</t>
+      <t>   This document defines the "ANAME" DNS RR type, to provide similar
+   functionality to CNAME, but only redirects type A and AAAA queries.
+   Unlike CNAME, an ANAME can coexist with other record types.  The
+   ANAME RR allows zone owners to redirect queries for apex domain names
+   in a standards compliant manner.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hunt-dnsop-aname-00"/>
 </reference>

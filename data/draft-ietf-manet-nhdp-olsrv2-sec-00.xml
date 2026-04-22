@@ -1,19 +1,24 @@
 <reference anchor="I-D.ietf-manet-nhdp-olsrv2-sec" target="https://datatracker.ietf.org/doc/html/draft-ietf-manet-nhdp-olsrv2-sec-00">
   <front>
     <title>Integrity Protection for Control Messages in NHDP and OLSRv2</title>
-    <author fullname="Ulrich Herberg" initials="U." surname="Herberg">
-      <organization/>
-    </author>
-    <author fullname="Christopher Dearlove" initials="C." surname="Dearlove">
-      <organization/>
-    </author>
-    <author fullname="Thomas H. Clausen" initials="T. H." surname="Clausen">
-      <organization/>
-    </author>
-    <date year="2013" month="March" day="23"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-manet-nhdp-olsrv2-sec-00"/>
+    <author initials="U." surname="Herberg" fullname="Ulrich Herberg"/>
+    <author initials="C." surname="Dearlove" fullname="Christopher Dearlove"/>
+    <author initials="T. H." surname="Clausen" fullname="Thomas H. Clausen"/>
+    <date day="23" month="March" year="2013"></date>
     <abstract>
-      <t>This document specifies integrity and replay protection for required implementation in the MANET Neighborhood Discovery Protocol (NHDP) and the Optimized Link State Routing Protocol version 2 (OLSRv2). This document specifies how an included integrity check value (ICV) and a timestamp TLV, defined in RFC6622bis, are used by NHDP and OLSRv2 for countering a number of security threats. The ICV TLV uses a SHA-256 based HMAC and a single shared secret key. The timestamp TLV is based on POSIX time, assuming router synchronization. The mechanism in this specification can also be used for other MANET protocols using RFC5444.</t>
+      <t>   This document specifies integrity and replay protection for required
+   implementation in the MANET Neighborhood Discovery Protocol (NHDP)
+   and the Optimized Link State Routing Protocol version 2 (OLSRv2).
+   This document specifies how an included integrity check value (ICV)
+   and a timestamp TLV, defined in RFC6622bis, are used by NHDP and
+   OLSRv2 for countering a number of security threats.  The ICV TLV uses
+   a SHA-256 based HMAC and a single shared secret key.  The timestamp
+   TLV is based on POSIX time, assuming router synchronization.  The
+   mechanism in this specification can also be used for other MANET
+   protocols using RFC5444.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-manet-nhdp-olsrv2-sec-00"/>
 </reference>

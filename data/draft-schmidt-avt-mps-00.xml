@@ -1,22 +1,30 @@
 <reference anchor="I-D.schmidt-avt-mps" target="https://datatracker.ietf.org/doc/html/draft-schmidt-avt-mps-00">
   <front>
     <title>RTP Payload Format for Elementary Streams with MPEG Surround multi- channel audio</title>
-    <author fullname="Frans de Bont" initials="F." surname="de Bont">
+    <seriesInfo name="Internet-Draft" value="draft-schmidt-avt-mps-00"/>
+    <author initials="F." surname="de Bont" fullname="Frans de Bont">
       <organization>Philips Electronics</organization>
     </author>
-    <author fullname="Stefan Doehla" initials="S." surname="Doehla">
+    <author initials="S." surname="Doehla" fullname="Stefan Doehla">
       <organization>Fraunhofer IIS</organization>
     </author>
-    <author fullname="Malte Schmidt" initials="M." surname="Schmidt">
+    <author initials="M." surname="Schmidt" fullname="Malte Schmidt">
       <organization>Dolby Laboratories</organization>
     </author>
-    <author fullname="Ralph Sperschneider" initials="R." surname="Sperschneider">
+    <author initials="R." surname="Sperschneider" fullname="Ralph Sperschneider">
       <organization>Fraunhofer IIS</organization>
     </author>
-    <date year="2008" month="May" day="15"/>
+    <date day="15" month="May" year="2008"></date>
     <abstract>
-      <t>This memo describes extensions for the RTP payload format defined in RFC3640 for the transport of MPEG Surround multi-channel audio. Additional MIME Type parameters are defined to signal backwards compatible transmission inside an MPEG-4 audio elementary stream. In addition a layered transmission scheme without using the MPEG-4 systems framework is presented to transport an MPEG Surround elementary stream via RTP in parallel with an RTP stream containing the downmixed audio data.</t>
+      <t>This memo describes extensions for the RTP payload format defined in
+RFC3640 for the transport of MPEG Surround multi-channel audio.
+Additional MIME Type parameters are defined to signal backwards
+compatible transmission inside an MPEG-4 audio elementary stream.  In
+addition a layered transmission scheme without using the MPEG-4
+systems framework is presented to transport an MPEG Surround
+elementary stream via RTP in parallel with an RTP stream containing
+the downmixed audio data.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-schmidt-avt-mps-00"/>
 </reference>

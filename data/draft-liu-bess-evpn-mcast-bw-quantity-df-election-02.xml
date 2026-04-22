@@ -1,19 +1,33 @@
 <reference anchor="I-D.liu-bess-evpn-mcast-bw-quantity-df-election" target="https://datatracker.ietf.org/doc/html/draft-liu-bess-evpn-mcast-bw-quantity-df-election-02">
   <front>
     <title>Multicast DF Election for EVPN based on bandwidth or quantity</title>
-    <author fullname="Yisong Liu" initials="Y." surname="Liu">
+    <seriesInfo name="Internet-Draft" value="draft-liu-bess-evpn-mcast-bw-quantity-df-election-02"/>
+    <author initials="Y." surname="Liu" fullname="Yisong Liu">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Mike McBride" initials="M." surname="McBride">
+    <author initials="M." surname="McBride" fullname="Mike McBride">
       <organization>Futurewei</organization>
     </author>
-    <author fullname="Zheng Zhang" initials="Z." surname="Zhang">
+    <author initials="Z." surname="Zhang" fullname="Zheng Zhang">
       <organization>ZTE</organization>
     </author>
-    <date year="2020" month="June" day="30"/>
+    <date day="30" month="June" year="2020"></date>
     <abstract>
-      <t>Ethernet Virtual Private Network (EVPN, RFC7432) is becoming prevalent in Data Centers, Data Center Interconnect (DCI) and Service Provider VPN applications. When multi-homing from a CE to multiple PEs, including links in an EVPN instance on a given Ethernet Segment, in an all-active redundancy mode, [RFC7432] describes a basic mechanism to elect a Designated Forwarder (DF), and [RFC8584] improves basic DF election by a HRW algorithm. [I- D.ietf-bess-evpn-per-mcast-flow-df-election] enhances the HRW algorithm for the multicast flows to perform DF election at the granularity of (ESI, VLAN, Mcast flow). This document specifies a new algorithm, based on multicast bandwidth utilization and multicast state quantity, in order for the multicast flows to elect a DF.</t>
+      <t>   Ethernet Virtual Private Network (EVPN, RFC7432) is becoming
+   prevalent in Data Centers, Data Center Interconnect (DCI) and
+   Service Provider VPN applications. When multi-homing from a CE to
+   multiple PEs, including links in an EVPN instance on a given
+   Ethernet Segment, in an all-active redundancy mode, [RFC7432]
+   describes a basic mechanism to elect a Designated Forwarder (DF),
+   and [RFC8584] improves basic DF election by a HRW algorithm. [I-
+   D.ietf-bess-evpn-per-mcast-flow-df-election] enhances the HRW
+   algorithm for the multicast flows to perform DF election at the
+   granularity of (ESI, VLAN, Mcast flow). This document specifies a
+   new algorithm, based on multicast bandwidth utilization and
+   multicast state quantity, in order for the multicast flows to elect
+   a DF.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-liu-bess-evpn-mcast-bw-quantity-df-election-02"/>
 </reference>

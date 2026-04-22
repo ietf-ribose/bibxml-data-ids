@@ -1,16 +1,17 @@
 <reference anchor="I-D.ietf-mpls-ldp-igp-sync-bcast" target="https://datatracker.ietf.org/doc/html/draft-ietf-mpls-ldp-igp-sync-bcast-06">
   <front>
     <title>LDP IGP Synchronization for Broadcast Networks</title>
-    <author fullname="Wenhu Lu" initials="W." surname="Lu">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-ldp-igp-sync-bcast-06"/>
+    <author initials="W." surname="Lu" fullname="Wenhu Lu">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Sriganesh Kini" initials="S." surname="Kini">
+    <author initials="S." surname="Kini" fullname="Sriganesh Kini">
       <organization>Ericsson</organization>
     </author>
-    <date year="2010" month="November" day="23"/>
+    <date day="23" month="November" year="2010"></date>
     <abstract>
-      <t>RFC 5443 describes a mechanism to achieve LDP IGP synchronization to prevent black-holing traffic (e.g., VPN) when an Interior Gateway Protocol (IGP) is operational on a link but Label Distribution Protocol (LDP) is not. If this mechanism is applied to broadcast links that have more than one LDP peer, the metric increase procedure can only be applied to the link as a whole but not to an individual peer. When a new LDP peer comes up on a broadcast network, this can result in loss of traffic through other established peers on that network. This document describes a mechanism to address that use-case without dropping traffic. The mechanism does not introduce any protocol message changes. This document is not an Internet Standards Track specification; it is published for informational purposes.</t>
+      <t>RFC 5443 describes a mechanism to achieve LDP IGP synchronization to prevent black-holing traffic (e.g., VPN) when an Interior Gateway Protocol (IGP) is operational on a link but Label Distribution Protocol (LDP) is not.  If this mechanism is applied to broadcast links that have more than one LDP peer, the metric increase procedure can only be applied to the link as a whole but not to an individual peer.  When a new LDP peer comes up on a broadcast network, this can result in loss of traffic through other established peers on that network.  This document describes a mechanism to address that use-case without dropping traffic.  The mechanism does not introduce any protocol message changes.  This document is not an Internet Standards Track specification; it is published for informational purposes.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-ldp-igp-sync-bcast-06"/>
 </reference>

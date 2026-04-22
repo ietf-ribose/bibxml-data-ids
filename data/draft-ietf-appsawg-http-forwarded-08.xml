@@ -1,16 +1,23 @@
 <reference anchor="I-D.ietf-appsawg-http-forwarded" target="https://datatracker.ietf.org/doc/html/draft-ietf-appsawg-http-forwarded-08">
   <front>
     <title>Forwarded HTTP Extension</title>
-    <author fullname="Andreas Petersson" initials="A." surname="Petersson">
-      <organization/>
-    </author>
-    <author fullname="Martin Nilsson" initials="M." surname="Nilsson">
-      <organization/>
-    </author>
-    <date year="2012" month="September" day="5"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-appsawg-http-forwarded-08"/>
+    <author initials="A." surname="Petersson" fullname="Andreas Petersson"/>
+    <author initials="M." surname="Nilsson" fullname="Martin Nilsson"/>
+    <date day="05" month="September" year="2012"></date>
     <abstract>
-      <t>This document defines an HTTP extension header field that allows proxy components to disclose information lost in the proxying process, for example, the originating IP address of a request or IP address of the proxy on the user-agent-facing interface. Given a trusted path of proxying components, this makes it possible to arrange it so that each subsequent component will have access to, for example, all IP addresses used in the chain of proxied HTTP requests. This document also specifies guidelines for a proxy administrator to anonymize the origin of a request.</t>
+      <t>   This document defines an HTTP extension header field that allows
+   proxy components to disclose information lost in the proxying
+   process, for example, the originating IP address of a request or IP
+   address of the proxy on the user-agent-facing interface.  Given a
+   trusted path of proxying components, this makes it possible to
+   arrange it so that each subsequent component will have access to, for
+   example, all IP addresses used in the chain of proxied HTTP requests.
+
+   This document also specifies guidelines for a proxy administrator to
+   anonymize the origin of a request.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-appsawg-http-forwarded-08"/>
 </reference>

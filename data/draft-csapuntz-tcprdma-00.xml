@@ -1,16 +1,25 @@
 <reference anchor="I-D.csapuntz-tcprdma" target="https://datatracker.ietf.org/doc/html/draft-csapuntz-tcprdma-00">
   <front>
     <title>TCP RDMA option</title>
-    <author fullname="Dr. David R. Cheriton" initials="D. R." surname="Cheriton">
+    <seriesInfo name="Internet-Draft" value="draft-csapuntz-tcprdma-00"/>
+    <author initials="D. R." surname="Cheriton" fullname="Dr. David R. Cheriton">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Costa Sapuntzakis" initials="C." surname="Sapuntzakis">
+    <author initials="C." surname="Sapuntzakis" fullname="Costa Sapuntzakis">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2000" month="February" day="25"/>
+    <date day="25" month="February" year="2000"></date>
     <abstract>
-      <t>The TCP option introduced in this draft reduces the overhead of receiving data with TCP-based protocols such as NFS and HTTP. It enables the construction of a simple hardware accelerator that copies data directly from the incoming packet into application buffers, avoiding expensive copies in the protocol stack. Even without hardware acceleration, the option enables the protocol stack to decrease the number of copies it must do.</t>
+      <t>The TCP option introduced in this draft reduces the overhead of
+receiving data with TCP-based protocols such as NFS and HTTP.  It
+enables the construction of a simple hardware accelerator that
+copies data directly from the incoming packet into application
+buffers, avoiding expensive copies in the protocol stack.  Even
+without hardware acceleration, the option enables the protocol
+stack to decrease the number of copies it must do.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-csapuntz-tcprdma-00"/>
 </reference>

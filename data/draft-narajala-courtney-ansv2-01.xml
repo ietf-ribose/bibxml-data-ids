@@ -1,25 +1,43 @@
 <reference anchor="I-D.narajala-courtney-ansv2" target="https://datatracker.ietf.org/doc/html/draft-narajala-courtney-ansv2-01">
   <front>
     <title>Agent Name Service v2 (ANS): A Domain-Anchored Trust Layer for Autonomous AI Agent Identity</title>
-    <author fullname="Scott Courtney" initials="S." surname="Courtney">
+    <seriesInfo name="Internet-Draft" value="draft-narajala-courtney-ansv2-01"/>
+    <author initials="S." surname="Courtney" fullname="Scott Courtney">
       <organization>GoDaddy</organization>
     </author>
-    <author fullname="Vineeth Sai Narajala" initials="V. S." surname="Narajala">
+    <author initials="V. S." surname="Narajala" fullname="Vineeth Sai Narajala">
       <organization>OWASP</organization>
     </author>
-    <author fullname="Ken Huang" initials="K." surname="Huang">
+    <author initials="K." surname="Huang" fullname="Ken Huang">
       <organization>DistributedApps.ai</organization>
     </author>
-    <author fullname="Idan Habler" initials="I." surname="Habler">
+    <author initials="I." surname="Habler" fullname="Idan Habler">
       <organization>OWASP</organization>
     </author>
-    <author fullname="Akram Sheriff" initials="A." surname="Sheriff">
+    <author initials="A." surname="Sheriff" fullname="Akram Sheriff">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2026" month="April" day="13"/>
+    <date day="13" month="April" year="2026"></date>
     <abstract>
-      <t>Autonomous AI agents execute transactions across organizational boundaries. No single agent platform provides the trust infrastructure they need. This document defines the Agent Name Service (ANS) v2 protocol, which anchors every agent identity to a DNS domain name. A Registration Authority (RA) verifies domain ownership via ACME, issues dual certificates (a Server Certificate from a public CA and an Identity Certificate from a private CA binding a version-specific ANSName), and seals every lifecycle event into an append-only Transparency Log aligned with IETF SCITT. Three verification tiers -- Bronze (PKI), Silver (PKI + DANE), and Gold (PKI + DANE + Transparency Log) -- let clients choose assurance levels appropriate to transaction risk. The architecture decouples identity from discovery: the RA publishes sealed events; independent Discovery Services build competitive indexes. A three-layer trust framework separates foundational identity (Layer 1, this protocol), operational maturity (Layer 2, third-party attestors), and behavioral reputation (Layer 3, real-time scoring).</t>
+      <t>   Autonomous AI agents execute transactions across organizational
+   boundaries.  No single agent platform provides the trust
+   infrastructure they need.  This document defines the Agent Name
+   Service (ANS) v2 protocol, which anchors every agent identity to a
+   DNS domain name.  A Registration Authority (RA) verifies domain
+   ownership via ACME, issues dual certificates (a Server Certificate
+   from a public CA and an Identity Certificate from a private CA
+   binding a version-specific ANSName), and seals every lifecycle event
+   into an append-only Transparency Log aligned with IETF SCITT.  Three
+   verification tiers -- Bronze (PKI), Silver (PKI + DANE), and Gold
+   (PKI + DANE + Transparency Log) -- let clients choose assurance
+   levels appropriate to transaction risk.  The architecture decouples
+   identity from discovery: the RA publishes sealed events; independent
+   Discovery Services build competitive indexes.  A three-layer trust
+   framework separates foundational identity (Layer 1, this protocol),
+   operational maturity (Layer 2, third-party attestors), and behavioral
+   reputation (Layer 3, real-time scoring).
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-narajala-courtney-ansv2-01"/>
 </reference>

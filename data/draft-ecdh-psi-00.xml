@@ -1,25 +1,34 @@
 <reference anchor="I-D.ecdh-psi" target="https://datatracker.ietf.org/doc/html/draft-ecdh-psi-00">
   <front>
     <title>PSI based on ECDH</title>
-    <author fullname="wangyuchen" initials="" surname="wangyuchen">
+    <seriesInfo name="Internet-Draft" value="draft-ecdh-psi-00"/>
+    <author surname="wangyuchen" fullname="wangyuchen">
       <organization>Ant Group</organization>
     </author>
-    <author fullname="Chang" initials="" surname="Chang">
+    <author surname="Chang" fullname="Chang">
       <organization>Ant Group</organization>
     </author>
-    <author fullname="Yufei Lu" initials="Y." surname="Lu">
+    <author initials="Y." surname="Lu" fullname="Yufei Lu">
       <organization>Ant Group</organization>
     </author>
-    <author fullname="Cheng Hong" initials="C." surname="Hong">
+    <author initials="C." surname="Hong" fullname="Cheng Hong">
       <organization>Ant Group</organization>
     </author>
-    <author fullname="Jin Peng" initials="J." surname="Peng">
+    <author initials="J." surname="Peng" fullname="Jin Peng">
       <organization>Ant Group</organization>
     </author>
-    <date year="2024" month="October" day="21"/>
+    <date day="21" month="October" year="2024"></date>
     <abstract>
-      <t>This document describes Elliptic Curve Diffie-Hellman Private Set Intersection (ECDH-PSI). It instantiates the classical Meadows match-making protocol with standard elliptic curves and hash-to-curve methods. In ECDH-PSI, data items are encoded to points on an elliptic curve, and masked by the private keys of both parties. After collecting the mutually masked datasets from both parties, a participant computes their intersection and outputs the corresponding original data items as result.</t>
+      <t>   This document describes Elliptic Curve Diffie-Hellman Private Set
+   Intersection (ECDH-PSI).  It instantiates the classical Meadows
+   match-making protocol with standard elliptic curves and hash-to-curve
+   methods.  In ECDH-PSI, data items are encoded to points on an
+   elliptic curve, and masked by the private keys of both parties.
+   After collecting the mutually masked datasets from both parties, a
+   participant computes their intersection and outputs the corresponding
+   original data items as result.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ecdh-psi-00"/>
 </reference>

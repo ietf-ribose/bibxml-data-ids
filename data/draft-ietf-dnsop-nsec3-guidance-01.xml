@@ -1,16 +1,23 @@
 <reference anchor="I-D.ietf-dnsop-nsec3-guidance" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-nsec3-guidance-01">
   <front>
     <title>Guidance for NSEC3 parameter settings</title>
-    <author fullname="Wes Hardaker" initials="W." surname="Hardaker">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-nsec3-guidance-01"/>
+    <author initials="W." surname="Hardaker" fullname="Wes Hardaker">
       <organization>USC/ISI</organization>
     </author>
-    <author fullname="Viktor Dukhovni" initials="V." surname="Dukhovni">
+    <author initials="V." surname="Dukhovni" fullname="Viktor Dukhovni">
       <organization>Bloomberg, L.P.</organization>
     </author>
-    <date year="2021" month="October" day="15"/>
+    <date day="15" month="October" year="2021"></date>
     <abstract>
-      <t>NSEC3 is a DNSSEC mechanism providing proof of non-existence by promising there are no names that exist between two domainnames within a zone. Unlike its counterpart NSEC, NSEC3 avoids directly disclosing the bounding domainname pairs. This document provides guidance on setting NSEC3 parameters based on recent operational deployment experience.</t>
+      <t>   NSEC3 is a DNSSEC mechanism providing proof of non-existence by
+   promising there are no names that exist between two domainnames
+   within a zone.  Unlike its counterpart NSEC, NSEC3 avoids directly
+   disclosing the bounding domainname pairs.  This document provides
+   guidance on setting NSEC3 parameters based on recent operational
+   deployment experience.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-nsec3-guidance-01"/>
 </reference>

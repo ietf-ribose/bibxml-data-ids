@@ -1,16 +1,33 @@
 <reference anchor="I-D.white-tsvwg-nqb" target="https://datatracker.ietf.org/doc/html/draft-white-tsvwg-nqb-02">
   <front>
     <title>Identifying and Handling Non Queue Building Flows in a Bottleneck Link</title>
-    <author fullname="Greg White" initials="G." surname="White">
+    <seriesInfo name="Internet-Draft" value="draft-white-tsvwg-nqb-02"/>
+    <author initials="G." surname="White" fullname="Greg White">
       <organization>CableLabs</organization>
     </author>
-    <author fullname="Thomas Fossati" initials="T." surname="Fossati">
+    <author initials="T." surname="Fossati" fullname="Thomas Fossati">
       <organization>ARM</organization>
     </author>
-    <date year="2019" month="June" day="28"/>
+    <date day="28" month="June" year="2019"></date>
     <abstract>
-      <t>This draft proposes the definition of a standardized DiffServ code point (DSCP) to identify Non-Queue-Building flows (for example: interactive voice and video, gaming, machine to machine applications), along with a Per-Hop-Behavior (PHB) that provides a separate queue for such flows. The purpose of such a marking scheme is to enable networks to provide and utilize queues that are optimized to provide low latency and low loss for such Non-Queue-Building flows (e.g. shallow buffers, optimized media access parameters, etc.). This marking scheme and PHB has been developed primarily for use by access network segments, where queuing delays and queuing loss caused by Queue-Building protocols are manifested. In particular, applications to cable broadband links and mobile network radio and core segments are discussed.</t>
+      <t>   This draft proposes the definition of a standardized DiffServ code
+   point (DSCP) to identify Non-Queue-Building flows (for example:
+   interactive voice and video, gaming, machine to machine
+   applications), along with a Per-Hop-Behavior (PHB) that provides a
+   separate queue for such flows.
+
+   The purpose of such a marking scheme is to enable networks to provide
+   and utilize queues that are optimized to provide low latency and low
+   loss for such Non-Queue-Building flows (e.g. shallow buffers,
+   optimized media access parameters, etc.).
+
+   This marking scheme and PHB has been developed primarily for use by
+   access network segments, where queuing delays and queuing loss caused
+   by Queue-Building protocols are manifested.  In particular,
+   applications to cable broadband links and mobile network radio and
+   core segments are discussed.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-white-tsvwg-nqb-02"/>
 </reference>

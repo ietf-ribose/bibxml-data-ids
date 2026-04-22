@@ -1,19 +1,35 @@
 <reference anchor="I-D.brockners-diameter-nat-control" target="https://datatracker.ietf.org/doc/html/draft-brockners-diameter-nat-control-00">
   <front>
     <title>Diameter NAT Control Application</title>
-    <author fullname="Frank Brockners" initials="F." surname="Brockners">
+    <seriesInfo name="Internet-Draft" value="draft-brockners-diameter-nat-control-00"/>
+    <author initials="F." surname="Brockners" fullname="Frank Brockners">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Shwetha Bhandari" initials="S." surname="Bhandari">
+    <author initials="S." surname="Bhandari" fullname="Shwetha Bhandari">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Vaneeta Singh" initials="V." surname="Singh">
+    <author initials="V." surname="Singh" fullname="Vaneeta Singh">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2009" month="March" day="3"/>
+    <date day="03" month="March" year="2009"></date>
     <abstract>
-      <t>This document describes the framework, messages, and procedures for the Diameter NAT Control Application (DNCA), allowing for per- endpoint control of large scale NAT devices, which are put in place to cope with IPv4-address space completion. The Diameter NAT Control Application allows external devices to configure and manage a Large Scale NAT (LSN) device - expanding the existing Diameter-based AAA and policy control capabilities with a NAT control component. These external devices can be network elements in the data plane such as a Network Access Server (NAS), or can be more centralized control plane devices such as AAA-servers. DNCA establishes a context to commonly identify and manage endpoints on a gateway or server, and a large scale NAT device. This includes, for example, the control of the total number of NAT-bindings allowed or the allocation of a specific NAT-binding for a particular endpoint. In addition, it allows large scale NAT devices to provide information relevant to accounting purposes.</t>
+      <t>This document describes the framework, messages, and procedures for 
+the Diameter NAT Control Application (DNCA), allowing for per-
+endpoint control of large scale NAT devices, which are put in place 
+to cope with IPv4-address space completion.  The Diameter NAT Control 
+Application allows external devices to configure and manage a Large 
+Scale NAT (LSN) device - expanding the existing Diameter-based AAA 
+and policy control capabilities with a NAT control component. These 
+external devices can be network elements in the data plane such as a 
+Network Access Server (NAS), or can be more centralized control plane 
+devices such as AAA-servers. DNCA establishes a context to commonly 
+identify and manage endpoints on a gateway or server, and a large 
+scale NAT device. This includes, for example, the control of the 
+total number of NAT-bindings allowed or the allocation of a specific 
+NAT-binding for a particular endpoint. In addition, it allows large 
+scale NAT devices to provide information relevant to accounting 
+purposes.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-brockners-diameter-nat-control-00"/>
 </reference>

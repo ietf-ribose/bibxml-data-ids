@@ -1,16 +1,23 @@
 <reference anchor="I-D.scheffenegger-tcpm-timestamp-negotiation" target="https://datatracker.ietf.org/doc/html/draft-scheffenegger-tcpm-timestamp-negotiation-03">
   <front>
     <title>Additional negotiation in the TCP Timestamp Option field during the TCP handshake</title>
-    <author fullname="Mirja Kühlewind" initials="M." surname="Kühlewind">
-      <organization/>
-    </author>
-    <author fullname="Richard Scheffenegger" initials="R." surname="Scheffenegger">
-      <organization/>
-    </author>
-    <date year="2011" month="October" day="31"/>
+    <seriesInfo name="Internet-Draft" value="draft-scheffenegger-tcpm-timestamp-negotiation-03"/>
+    <author initials="M." surname="Kühlewind" fullname="Mirja Kühlewind"/>
+    <author initials="R." surname="Scheffenegger" fullname="Richard Scheffenegger"/>
+    <date day="31" month="October" year="2011"></date>
     <abstract>
-      <t>A number of TCP enhancements in so diverse fields as congestion control, loss recovery or side-band signaling could be improved by allowing both ends of a TCP session to interpret the values carried in the Timestamp option. Further enhancements are enabled by changing the receiver side processing of timestamps in the presence of Selective Acknowledgements. This documents updates RFC1323 and specifies a backwards compatible way of negotiating for Timestamp capabilities, and lists a number of benefits and drawbacks of this approach.</t>
+      <t>   A number of TCP enhancements in so diverse fields as congestion
+   control, loss recovery or side-band signaling could be improved by
+   allowing both ends of a TCP session to interpret the values carried
+   in the Timestamp option.  Further enhancements are enabled by
+   changing the receiver side processing of timestamps in the presence
+   of Selective Acknowledgements.
+
+   This documents updates RFC1323 and specifies a backwards compatible
+   way of negotiating for Timestamp capabilities, and lists a number of
+   benefits and drawbacks of this approach.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-scheffenegger-tcpm-timestamp-negotiation-03"/>
 </reference>

@@ -1,34 +1,46 @@
 <reference anchor="I-D.brandenburg-avtcore-rtcp-for-idms" target="https://datatracker.ietf.org/doc/html/draft-brandenburg-avtcore-rtcp-for-idms-00">
   <front>
     <title>RTCP for inter-destination media synchronization</title>
-    <author fullname="Ray van Brandenburg" initials="R." surname="van Brandenburg">
-      <organization/>
-    </author>
-    <author fullname="Hans Stokking" initials="H." surname="Stokking">
+    <seriesInfo name="Internet-Draft" value="draft-brandenburg-avtcore-rtcp-for-idms-00"/>
+    <author initials="R." surname="van Brandenburg" fullname="Ray van Brandenburg"/>
+    <author initials="H." surname="Stokking" fullname="Hans Stokking">
       <organization>TNO Netherlands</organization>
     </author>
-    <author fullname="Oskar van Deventer" initials="O." surname="van Deventer">
+    <author initials="O." surname="van Deventer" fullname="Oskar van Deventer">
       <organization>TNO Netherlands</organization>
     </author>
-    <author fullname="Omar Niamut" initials="O." surname="Niamut">
+    <author initials="O." surname="Niamut" fullname="Omar Niamut">
       <organization>TNO Netherlands</organization>
     </author>
-    <author fullname="Fabian Walraven" initials="F." surname="Walraven">
+    <author initials="F." surname="Walraven" fullname="Fabian Walraven">
       <organization>TNO Netherlands</organization>
     </author>
-    <author fullname="Ishan Vaishnavi" initials="I." surname="Vaishnavi">
+    <author initials="I." surname="Vaishnavi" fullname="Ishan Vaishnavi">
       <organization>CWI Netherlands</organization>
     </author>
-    <author fullname="Fernando Boronat" initials="F." surname="Boronat">
+    <author initials="F." surname="Boronat" fullname="Fernando Boronat">
       <organization>Universidad Politecnica de Valencia</organization>
     </author>
-    <author fullname="Mario Montagud" initials="M." surname="Montagud">
+    <author initials="M." surname="Montagud" fullname="Mario Montagud">
       <organization>Universidad Politecnica de Valencia</organization>
     </author>
-    <date year="2011" month="March" day="7"/>
+    <date day="07" month="March" year="2011"></date>
     <abstract>
-      <t>This document gives information on an RTCP Packet Type and RTCP XR Block Type including associated SDP parameters for inter-destination media synchronization (IDMS). The RTCP XR Block Type, registered with IANA based on an ETSI specification, is used to collect media play- out information from participants in a group playing-out (watching, listening, etc.) a specific RTP media stream. The RTCP packet type specified by this document is used to distribute a summary of the collected information so that the participants can synchronize play- out. Typical applications for IDMS are social TV, shared service control (i.e. applications where two or more geographically separated users are watching a media stream together), distance learning, network quiz shows, multi-playing online games, etc.</t>
+      <t>This document gives information on an RTCP Packet Type and RTCP XR
+Block Type including associated SDP parameters for inter-destination
+media synchronization (IDMS). The RTCP XR Block Type, registered with
+IANA based on an ETSI specification, is used to collect media play-
+out information from participants in a group playing-out (watching,
+listening, etc.) a specific RTP media stream. The RTCP packet type
+specified by this document is used to distribute a summary of the
+collected information so that the participants can synchronize play-
+out.
+
+Typical applications for IDMS are social TV, shared service control
+(i.e. applications where two or more geographically separated users
+are watching a media stream together), distance learning, network
+quiz shows, multi-playing online games, etc.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-brandenburg-avtcore-rtcp-for-idms-00"/>
 </reference>

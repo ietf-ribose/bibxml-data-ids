@@ -1,19 +1,34 @@
 <reference anchor="I-D.jhjung-core-sensor-streaming" target="https://datatracker.ietf.org/doc/html/draft-jhjung-core-sensor-streaming-00">
   <front>
     <title>CoAP Sensor Streaming Using Buffer Control</title>
-    <author fullname="Joong-Hwa Jung" initials="J." surname="Jung">
+    <seriesInfo name="Internet-Draft" value="draft-jhjung-core-sensor-streaming-00"/>
+    <author initials="J." surname="Jung" fullname="Joong-Hwa Jung">
       <organization>Kyungpook National University</organization>
     </author>
-    <author fullname="Dong-Kyu Choi" initials="D." surname="Choi">
+    <author initials="D." surname="Choi" fullname="Dong-Kyu Choi">
       <organization>Kyungpook National University</organization>
     </author>
-    <author fullname="Seok Joo Koh" initials="S. J." surname="Koh">
+    <author initials="S. J." surname="Koh" fullname="Seok Joo Koh">
       <organization>Kyungpook National University</organization>
     </author>
-    <date year="2018" month="October" day="22"/>
+    <date day="22" month="October" year="2018"></date>
     <abstract>
-      <t>As the Internet of Things (IoT) technology grows with the development of wireless communication and sensors, many people are interested in Constrained Application Protocol (CoAP), which is the representative protocol of the IoT. In addition, attempts have been made to apply CoAP to sensors that support existing real-time streaming services. However, the CoAP is not suitable for services to support streaming services such as smart band and CCTV. To overcome this drawback, there is an extension called CoAP Observe, but streaming services using CoAP Observe imposes a load on the server, which is not suitable for environments where low power devices act as servers, such as data transfer between sensors and gateways. In this specification, we are considering the situation in which the sensor acts as a server, and in this environment, we define one mechanism to provide efficient streaming service.</t>
+      <t>   As the Internet of Things (IoT) technology grows with the development
+   of wireless communication and sensors, many people are interested in
+   Constrained Application Protocol (CoAP), which is the representative
+   protocol of the IoT. In addition, attempts have been made to apply
+   CoAP to sensors that support existing real-time streaming services.
+   However, the CoAP is not suitable for services to support streaming
+   services such as smart band and CCTV. To overcome this drawback,
+   there is an extension called CoAP Observe, but streaming services
+   using CoAP Observe imposes a load on the server, which is not
+   suitable for environments where low power devices act as servers,
+   such as data transfer between sensors and gateways. In this
+   specification, we are considering the situation in which the sensor
+   acts as a server, and in this environment, we define one mechanism to
+   provide efficient streaming service.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-jhjung-core-sensor-streaming-00"/>
 </reference>

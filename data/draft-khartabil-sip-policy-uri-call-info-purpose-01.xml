@@ -1,13 +1,23 @@
 <reference anchor="I-D.khartabil-sip-policy-uri-call-info-purpose" target="https://datatracker.ietf.org/doc/html/draft-khartabil-sip-policy-uri-call-info-purpose-01">
   <front>
     <title>Conveying a Conference Policy Uniform Resource Identifier (URI) in the Session Initiation Protocol (SIP)</title>
-    <author fullname="Hisham Khartabil" initials="H." surname="Khartabil">
+    <seriesInfo name="Internet-Draft" value="draft-khartabil-sip-policy-uri-call-info-purpose-01"/>
+    <author initials="H." surname="Khartabil" fullname="Hisham Khartabil">
       <organization>Nokia</organization>
     </author>
-    <date year="2004" month="May" day="18"/>
+    <date day="18" month="May" year="2004"></date>
     <abstract>
-      <t>The Session Initiation Protocol (SIP) defines the Call-Info header field. This header field delivers additional information about the originator or recipient of a SIP request. Information in the Call-Info is generally a Uniform Resource Identifier (URI), and the exact purpose of this URI is described with the "purpose" parameter. This document introduces a new purpose parameter value of "conf-policy" that can be used by a conference server to indicate to a conference participant User Agent (UA) that the URI carried in the Call-Info header field is a URI for accessing the conference policy of a particular conference.</t>
+      <t>   The Session Initiation Protocol (SIP) defines the Call-Info header
+   field.  This header field delivers additional information about the
+   originator or recipient of a SIP request.  Information in the
+   Call-Info is generally a Uniform Resource Identifier (URI), and the
+   exact purpose of this URI is described with the "purpose" parameter.
+   This document introduces a new purpose parameter value of
+   "conf-policy" that can be used by a conference server to indicate to
+   a conference participant User Agent (UA) that the URI carried in the
+   Call-Info header field is a URI for accessing the conference policy
+   of a particular conference.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-khartabil-sip-policy-uri-call-info-purpose-01"/>
 </reference>

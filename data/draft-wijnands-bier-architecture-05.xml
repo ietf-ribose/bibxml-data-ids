@@ -1,25 +1,40 @@
 <reference anchor="I-D.wijnands-bier-architecture" target="https://datatracker.ietf.org/doc/html/draft-wijnands-bier-architecture-05">
   <front>
     <title>Multicast using Bit Index Explicit Replication</title>
-    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
+    <seriesInfo name="Internet-Draft" value="draft-wijnands-bier-architecture-05"/>
+    <author initials="I." surname="Wijnands" fullname="IJsbrand Wijnands">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Eric C. Rosen" initials="E. C." surname="Rosen">
+    <author initials="E. C." surname="Rosen" fullname="Eric C. Rosen">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Andrew Dolganow" initials="A." surname="Dolganow">
+    <author initials="A." surname="Dolganow" fullname="Andrew Dolganow">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <author fullname="Tony Przygienda" initials="T." surname="Przygienda">
+    <author initials="T." surname="Przygienda" fullname="Tony Przygienda">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Sam Aldrin" initials="S." surname="Aldrin">
+    <author initials="S." surname="Aldrin" fullname="Sam Aldrin">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2015" month="March" day="6"/>
+    <date day="06" month="March" year="2015"></date>
     <abstract>
-      <t>This document specifies a new architecture for the forwarding of multicast data packets. It provides optimal forwarding of multicast packets through a "multicast domain". However, it does not require any explicit tree-building protocol, nor does it require intermediate nodes to maintain any per-flow state. This architecture is known as "Bit Index Explicit Replication" (BIER). When a multicast data packet enters the domain, the ingress router determines the set of egress routers to which the packet needs to be sent. The ingress router then encapsulates the packet in a BIER header. The BIER header contains a bitstring in which each bit represents exactly one egress router in the domain; to forward the packet to a given set of egress routers, the bits corresponding to those routers are set in the BIER header. Elimination of the per-flow state and the explicit tree-building protocols results in a considerable simplification.</t>
+      <t>   This document specifies a new architecture for the forwarding of
+   multicast data packets.  It provides optimal forwarding of multicast
+   packets through a "multicast domain".  However, it does not require
+   any explicit tree-building protocol, nor does it require intermediate
+   nodes to maintain any per-flow state.  This architecture is known as
+   "Bit Index Explicit Replication" (BIER).  When a multicast data
+   packet enters the domain, the ingress router determines the set of
+   egress routers to which the packet needs to be sent.  The ingress
+   router then encapsulates the packet in a BIER header.  The BIER
+   header contains a bitstring in which each bit represents exactly one
+   egress router in the domain; to forward the packet to a given set of
+   egress routers, the bits corresponding to those routers are set in
+   the BIER header.  Elimination of the per-flow state and the explicit
+   tree-building protocols results in a considerable simplification.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wijnands-bier-architecture-05"/>
 </reference>

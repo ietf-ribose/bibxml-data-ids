@@ -1,25 +1,39 @@
 <reference anchor="I-D.chen-grow-enhanced-as-loop-detection" target="https://datatracker.ietf.org/doc/html/draft-chen-grow-enhanced-as-loop-detection-08">
   <front>
     <title>Enhanced AS-Loop Detection for BGP</title>
-    <author fullname="Huanan Chen" initials="H." surname="Chen">
+    <seriesInfo name="Internet-Draft" value="draft-chen-grow-enhanced-as-loop-detection-08"/>
+    <author initials="H." surname="Chen" fullname="Huanan Chen">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Di Ma" initials="D." surname="Ma">
+    <author initials="D." surname="Ma" fullname="Di Ma">
       <organization>ZDNS</organization>
     </author>
-    <author fullname="Nan Geng" initials="N." surname="Geng">
+    <author initials="N." surname="Geng" fullname="Nan Geng">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Shunwan Zhuang" initials="S." surname="Zhuang">
+    <author initials="S." surname="Zhuang" fullname="Shunwan Zhuang">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Haibo Wang" initials="H." surname="Wang">
+    <author initials="H." surname="Wang" fullname="Haibo Wang">
       <organization>Huawei</organization>
     </author>
-    <date year="2025" month="November" day="25"/>
+    <date day="25" month="November" year="2025"></date>
     <abstract>
-      <t>Misconfiguration and malicious manipulation of BGP AS_Path may lead to route hijack. This document proposes to enhance the BGP [RFC4271] Inbound/ Outbound route processing in the case of detecting an AS loop. It is an enhancement to the current BGP's Inbound/Outbound processing and can be implemented directly on the device, and this document also proposes a centralized usecase. This could empower networks to quickly and accurately figure out they're being victimized. Two options are proposed for the enhancement, a) a local check at the device; b) data collection/analysis at the remote network controller/ server. Both approaches are beneficial for route hijack detection.</t>
+      <t>   Misconfiguration and malicious manipulation of BGP AS_Path may lead
+   to route hijack.  This document proposes to enhance the BGP [RFC4271]
+   Inbound/ Outbound route processing in the case of detecting an AS
+   loop.  It is an enhancement to the current BGP's Inbound/Outbound
+   processing and can be implemented directly on the device, and this
+   document also proposes a centralized usecase.  This could empower
+   networks to quickly and accurately figure out they're being
+   victimized.
+
+   Two options are proposed for the enhancement, a) a local check at the
+   device; b) data collection/analysis at the remote network controller/
+   server.  Both approaches are beneficial for route hijack detection.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-chen-grow-enhanced-as-loop-detection-08"/>
 </reference>

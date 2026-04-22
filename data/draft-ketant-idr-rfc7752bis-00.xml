@@ -1,28 +1,45 @@
 <reference anchor="I-D.ketant-idr-rfc7752bis" target="https://datatracker.ietf.org/doc/html/draft-ketant-idr-rfc7752bis-00">
   <front>
     <title>Distribution of Link-State and Traffic Engineering Information Using BGP</title>
-    <author fullname="Ketan Talaulikar" initials="K." surname="Talaulikar">
+    <seriesInfo name="Internet-Draft" value="draft-ketant-idr-rfc7752bis-00"/>
+    <author initials="K." surname="Talaulikar" fullname="Ketan Talaulikar">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Hannes Gredler" initials="H." surname="Gredler">
+    <author initials="H." surname="Gredler" fullname="Hannes Gredler">
       <organization>Rtbrick</organization>
     </author>
-    <author fullname="Jan Medved" initials="J." surname="Medved">
+    <author initials="J." surname="Medved" fullname="Jan Medved">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Stefano Previdi" initials="S." surname="Previdi">
+    <author initials="S." surname="Previdi" fullname="Stefano Previdi">
       <organization>Individual Contributor</organization>
     </author>
-    <author fullname="Adrian Farrel" initials="A." surname="Farrel">
+    <author initials="A." surname="Farrel" fullname="Adrian Farrel">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Saikat Ray" initials="S." surname="Ray">
+    <author initials="S." surname="Ray" fullname="Saikat Ray">
       <organization>Individual Contributor</organization>
     </author>
-    <date year="2019" month="March" day="25"/>
+    <date day="25" month="March" year="2019"></date>
     <abstract>
-      <t>In a number of environments, a component external to a network is called upon to perform computations based on the network topology and current state of the connections within the network, including Traffic Engineering (TE) information. This is information typically distributed by IGP routing protocols within the network. This document describes a mechanism by which link-state and TE information can be collected from networks and shared with external components using the BGP routing protocol. This is achieved using a new BGP Network Layer Reachability Information (NLRI) encoding format. The mechanism is applicable to physical and virtual IGP links. The mechanism described is subject to policy control. Applications of this technique include Application-Layer Traffic Optimization (ALTO) servers and Path Computation Elements (PCEs).</t>
+      <t>   In a number of environments, a component external to a network is
+   called upon to perform computations based on the network topology and
+   current state of the connections within the network, including
+   Traffic Engineering (TE) information.  This is information typically
+   distributed by IGP routing protocols within the network.
+
+   This document describes a mechanism by which link-state and TE
+   information can be collected from networks and shared with external
+   components using the BGP routing protocol.  This is achieved using a
+   new BGP Network Layer Reachability Information (NLRI) encoding
+   format.  The mechanism is applicable to physical and virtual IGP
+   links.  The mechanism described is subject to policy control.
+
+   Applications of this technique include Application-Layer Traffic
+   Optimization (ALTO) servers and Path Computation Elements (PCEs).
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ketant-idr-rfc7752bis-00"/>
 </reference>

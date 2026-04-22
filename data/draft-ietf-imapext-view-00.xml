@@ -2,19 +2,25 @@
   <front>
     <title>IMAP VIEW Extension
 </title>
-    <author fullname="Cyrus Daboo" initials="C." surname="Daboo">
-      <organization/>
-    </author>
-    <author fullname="Mark Pustilnik" initials="M." surname="Pustilnik">
-      <organization/>
-    </author>
-    <author fullname="Mark Crispin" initials="M." surname="Crispin">
-      <organization/>
-    </author>
-    <date year="2000" month="July" day="18"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-imapext-view-00"/>
+    <author initials="C." surname="Daboo" fullname="Cyrus Daboo"/>
+    <author initials="M." surname="Pustilnik" fullname="Mark Pustilnik"/>
+    <author initials="M." surname="Crispin" fullname="Mark Crispin"/>
+    <date day="18" month="July" year="2000"></date>
     <abstract>
-      <t>The VIEW extension to the Internet Message Access Protocol [IMAP4] permits a subset of messages in the mailbox to be processed separately from the entire set of messages in the mailbox. This allows a client to restrict its view to only the messages appearing in this set. The subset of messages also need not be returned in order of their sequence numbers, allowing clients to access messages in a particular sort order. The subsetting and sorting of messages is handled by existing [IMAP4] commands that return a set of messages as their result. This extension takes the set returned from such a command and applies the VIEW methodology to it.</t>
+      <t>The VIEW extension to the Internet Message Access Protocol [IMAP4]
+permits a subset of messages in the mailbox to be processed
+separately from the entire set of messages in the mailbox.  This
+allows a client to restrict its view to only the messages appearing
+in this set.  The subset of messages also need not be returned in
+order of their sequence numbers, allowing clients to access messages
+in a particular sort order.
+The subsetting and sorting of messages is handled by existing
+[IMAP4] commands that return a set of messages as their result.
+This extension takes the set returned from such a command and
+applies the VIEW methodology to it.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-imapext-view-00"/>
 </reference>

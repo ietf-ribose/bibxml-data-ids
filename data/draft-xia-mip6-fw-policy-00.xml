@@ -1,16 +1,29 @@
 <reference anchor="I-D.xia-mip6-fw-policy" target="https://datatracker.ietf.org/doc/html/draft-xia-mip6-fw-policy-00">
   <front>
     <title>Policy-based Firewall Traversal for Mobile IPv6</title>
-    <author fullname="Frank Xia" initials="F." surname="Xia">
+    <seriesInfo name="Internet-Draft" value="draft-xia-mip6-fw-policy-00"/>
+    <author initials="F." surname="Xia" fullname="Frank Xia">
       <organization>Huawei USA</organization>
     </author>
-    <author fullname="Behcet Sarikaya" initials="B." surname="Sarikaya">
+    <author initials="B." surname="Sarikaya" fullname="Behcet Sarikaya">
       <organization>Huawei USA</organization>
     </author>
-    <date year="2007" month="July" day="3"/>
+    <date day="03" month="July" year="2007"></date>
     <abstract>
-      <t>Most of firewalls deployed today are Mobile IPv6 unaware. Widespread Mobile IPv6 deployment is not possible unless Mobile IPv6 messages can pass through these firewalls. In this memo, policy servers are used to communicate with firewalls and instruct them to bypass Mobile IPv6 messages. To achieve the goal, Network Access Identifier (NAI) and authentication information are included in Mobile IPv6 control signalling or data packets. Firewalls extract these information and send them to a policy server, and the policy server then installs corresponding states in firewalls based on authentication result and user's predefined policy. The new defined IPv6 extension header and the policy-based frame can also facilitate dynamic configuration in any application firewall traversal.</t>
+      <t>   Most of firewalls deployed today are Mobile IPv6 unaware.  Widespread
+   Mobile IPv6 deployment is not possible unless Mobile IPv6 messages
+   can pass through these firewalls.  In this memo, policy servers are
+   used to communicate with firewalls and instruct them to bypass Mobile
+   IPv6 messages.  To achieve the goal, Network Access Identifier (NAI)
+   and authentication information are included in Mobile IPv6 control
+   signalling or data packets.  Firewalls extract these information and
+   send them to a policy server, and the policy server then installs
+   corresponding states in firewalls based on authentication result and
+   user's predefined policy.  The new defined IPv6 extension header and
+   the policy-based frame can also facilitate dynamic configuration in
+   any application firewall traversal.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-xia-mip6-fw-policy-00"/>
 </reference>

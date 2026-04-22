@@ -1,28 +1,37 @@
 <reference anchor="I-D.ietf-grow-as-path-prepending" target="https://datatracker.ietf.org/doc/html/draft-ietf-grow-as-path-prepending-03">
   <front>
     <title>AS Path Prepending</title>
-    <author fullname="Mike McBride" initials="M." surname="McBride">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-grow-as-path-prepending-03"/>
+    <author initials="M." surname="McBride" fullname="Mike McBride">
       <organization>Futurewei</organization>
     </author>
-    <author fullname="Doug Madory" initials="D." surname="Madory">
+    <author initials="D." surname="Madory" fullname="Doug Madory">
       <organization>Kentik</organization>
     </author>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+    <author initials="J." surname="Tantsura" fullname="Jeff Tantsura">
       <organization>Apstra</organization>
     </author>
-    <author fullname="Robert Raszuk" initials="R." surname="Raszuk">
+    <author initials="R." surname="Raszuk" fullname="Robert Raszuk">
       <organization>Bloomberg LP</organization>
     </author>
-    <author fullname="Hongwei Li" initials="H." surname="Li">
+    <author initials="H." surname="Li" fullname="Hongwei Li">
       <organization>HPE</organization>
     </author>
-    <author fullname="Jakob Heitz" initials="J." surname="Heitz">
+    <author initials="J." surname="Heitz" fullname="Jakob Heitz">
       <organization>Cisco</organization>
     </author>
-    <date year="2021" month="February" day="8"/>
+    <date day="08" month="February" year="2021"></date>
     <abstract>
-      <t>AS Path Prepending provides a tool to manipulate the BGP AS_Path attribute through prepending multiple entries of an AS. AS Path Prepending is used to deprioritize a route or alternate path. By prepending the local ASN multiple times, ASs can make advertised AS paths appear artificially longer. Excessive AS Path Prepending has caused routing issues in the internet. This document provides guidance,to the internet community, with how best to utilize AS Path Prepending in order to avoid negatively affecting the internet.</t>
+      <t>   AS Path Prepending provides a tool to manipulate the BGP AS_Path
+   attribute through prepending multiple entries of an AS.  AS Path
+   Prepending is used to deprioritize a route or alternate path.  By
+   prepending the local ASN multiple times, ASs can make advertised AS
+   paths appear artificially longer.  Excessive AS Path Prepending has
+   caused routing issues in the internet.  This document provides
+   guidance,to the internet community, with how best to utilize AS Path
+   Prepending in order to avoid negatively affecting the internet.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-grow-as-path-prepending-03"/>
 </reference>

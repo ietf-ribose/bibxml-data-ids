@@ -1,22 +1,32 @@
 <reference anchor="I-D.kurapati-l3vpn-dynamicrp-bgpmvpn" target="https://datatracker.ietf.org/doc/html/draft-kurapati-l3vpn-dynamicrp-bgpmvpn-00">
   <front>
     <title>Dynamic RP encodings in BGP based MVPNs</title>
-    <author fullname="Pavan Kurapati" initials="P." surname="Kurapati">
+    <seriesInfo name="Internet-Draft" value="draft-kurapati-l3vpn-dynamicrp-bgpmvpn-00"/>
+    <author initials="P." surname="Kurapati" fullname="Pavan Kurapati">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Marco Rodrigues" initials="M." surname="Rodrigues">
+    <author initials="M." surname="Rodrigues" fullname="Marco Rodrigues">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Kurt Windisch" initials="K." surname="Windisch">
+    <author initials="K." surname="Windisch" fullname="Kurt Windisch">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Saud Asif" initials="S." surname="Asif">
+    <author initials="S." surname="Asif" fullname="Saud Asif">
       <organization>AT&amp;T LABS</organization>
     </author>
-    <date year="2013" month="May" day="24"/>
+    <date day="24" month="May" year="2013"></date>
     <abstract>
-      <t>PIM Group-to-RP mappings are distributed dynamically using protocols such as BSR or Auto-RP. The BGP-MVPN specification provides for this information to be encapsulated in an I-PMSI or S-PMSI provider tunnel between the PEs in an MVPN environment. Since this is control information, it is desirable to signal this information in BGP between PEs, similar to carrying other customer control state such as C-Multicast routes. This document specifies the mechanisms and procedures to carry bootstrap information via BGP to provide true control and data plane separation.</t>
+      <t>   PIM Group-to-RP mappings are distributed dynamically using protocols
+   such as BSR or Auto-RP.  The BGP-MVPN specification provides for this
+   information to be encapsulated in an I-PMSI or S-PMSI provider tunnel
+   between the PEs in an MVPN environment.  Since this is control
+   information, it is desirable to signal this information in BGP
+   between PEs, similar to carrying other customer control state such as
+   C-Multicast routes.  This document specifies the mechanisms and
+   procedures to carry bootstrap information via BGP to provide true
+   control and data plane separation.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kurapati-l3vpn-dynamicrp-bgpmvpn-00"/>
 </reference>

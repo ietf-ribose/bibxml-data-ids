@@ -1,22 +1,33 @@
 <reference anchor="I-D.hunt-scim-tokensearch" target="https://datatracker.ietf.org/doc/html/draft-hunt-scim-tokensearch-00">
   <front>
     <title>SCIM 2.0 Token Search Extension</title>
-    <author fullname="Phil Hunt" initials="P." surname="Hunt">
+    <seriesInfo name="Internet-Draft" value="draft-hunt-scim-tokensearch-00"/>
+    <author initials="P." surname="Hunt" fullname="Phil Hunt">
       <organization>Oracle</organization>
     </author>
-    <author fullname="Kelly Grizzle" initials="K." surname="Grizzle">
+    <author initials="K." surname="Grizzle" fullname="Kelly Grizzle">
       <organization>Sailpoint</organization>
     </author>
-    <author fullname="Morteza Ansari" initials="M." surname="Ansari">
-      <organization/>
-    </author>
-    <author fullname="Dale Olds" initials="D." surname="Olds">
-      <organization/>
-    </author>
-    <date year="2012" month="December" day="23"/>
+    <author initials="M." surname="Ansari" fullname="Morteza Ansari"/>
+    <author initials="D." surname="Olds" fullname="Dale Olds"/>
+    <date day="23" month="December" year="2012"></date>
     <abstract>
-      <t>The SCIM 2.0 Core API defines a simple profile for searching for specific resource types using filters and qualifiers in combination with the HTTP GET verb. The Token Search specification defines the following additional features: o Specification of search terms within an HTTP POST verb to avoid accidental leakage of confidential information via HTTP GET URLs, o An optional result set token enabling clients to page through results in a state consistent fashion, and o The ability to search across multiple resource types (endpoints) and return one or more resource types.</t>
+      <t>   The SCIM 2.0 Core API defines a simple profile for searching for
+   specific resource types using filters and qualifiers in combination
+   with the HTTP GET verb.  The Token Search specification defines the
+   following additional features:
+
+   o  Specification of search terms within an HTTP POST verb to avoid
+      accidental leakage of confidential information via HTTP GET URLs,
+
+   o  An optional result set token enabling clients to page through
+      results in a state consistent fashion, and
+
+   o  The ability to search across multiple resource types (endpoints)
+      and return one or more resource types.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hunt-scim-tokensearch-00"/>
 </reference>

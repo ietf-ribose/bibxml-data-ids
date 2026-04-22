@@ -1,16 +1,25 @@
 <reference anchor="I-D.dunbar-idr-sdwan-port-safi" target="https://datatracker.ietf.org/doc/html/draft-dunbar-idr-sdwan-port-safi-06">
   <front>
     <title>SDWAN WAN Ports Property Advertisement in BGP UPDATE</title>
-    <author fullname="Linda Dunbar" initials="L." surname="Dunbar">
+    <seriesInfo name="Internet-Draft" value="draft-dunbar-idr-sdwan-port-safi-06"/>
+    <author initials="L." surname="Dunbar" fullname="Linda Dunbar">
       <organization>Futurewei</organization>
     </author>
-    <author fullname="Susan Hares" initials="S." surname="Hares">
+    <author initials="S." surname="Hares" fullname="Susan Hares">
       <organization>Hickory Hill</organization>
     </author>
-    <date year="2019" month="November" day="21"/>
+    <date day="21" month="November" year="2019"></date>
     <abstract>
-      <t>The document describes how the SDWAN SAFI, which is assigned by IANA in the First Come First Server range, is used for SDWAN edge nodes to propagate its WAN port properties to its controller. In the context of this document, BGP Route Reflectors (RR) is the component of the SDWAN Controller that receives the BGP UPDATE from SDWAN edges and in turns propagate the information to a group of authorized SDWAN edges reachable via overlay networks.</t>
+      <t>   The document describes how the SDWAN SAFI, which is assigned by IANA
+   in the First Come First Server range, is used for SDWAN edge nodes
+   to propagate its WAN port properties to its controller.
+
+   In the context of this document, BGP Route Reflectors (RR) is the
+   component of the SDWAN Controller that receives the BGP UPDATE from
+   SDWAN edges and in turns propagate the information to a group of
+   authorized SDWAN edges reachable via overlay networks.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-dunbar-idr-sdwan-port-safi-06"/>
 </reference>

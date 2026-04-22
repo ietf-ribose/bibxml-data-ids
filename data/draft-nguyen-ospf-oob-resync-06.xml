@@ -1,19 +1,22 @@
 <reference anchor="I-D.nguyen-ospf-oob-resync" target="https://datatracker.ietf.org/doc/html/draft-nguyen-ospf-oob-resync-06">
   <front>
     <title>OSPF Out-of-Band Link State Database (LSDB) Resynchronization</title>
-    <author fullname="Liem Nguyen" initials="L." surname="Nguyen">
+    <seriesInfo name="Internet-Draft" value="draft-nguyen-ospf-oob-resync-06"/>
+    <author initials="L." surname="Nguyen" fullname="Liem Nguyen">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Abhay Roy" initials="A." surname="Roy">
+    <author initials="A." surname="Roy" fullname="Abhay Roy">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Alex D. Zinin" initials="A. D." surname="Zinin">
+    <author initials="A. D." surname="Zinin" fullname="Alex D. Zinin">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <date year="2006" month="October" day="27"/>
+    <date day="27" month="October" year="2006"></date>
     <abstract>
-      <t>OSPF is a link-state intra-domain routing protocol used in IP networks. Link State Database (LSDB) synchronization in OSPF is achieved via two methods -- initial LSDB synchronization when an OSPF router has just been connected to the network and asynchronous flooding that ensures continuous LSDB synchronization in the presence of topology changes after the initial procedure was completed. It may sometime be necessary for OSPF routers to resynchronize their LSDBs. The OSPF standard, however, does not allow routers to do so without actually changing the topology view of the network. This memo describes a vendor-specific mechanism to perform such a form of out-of-band LSDB synchronization. The mechanism described in this document was proposed before Graceful OSPF Restart, as described in RFC 3623, came into existence. It is implemented/supported by at least one major vendor and is currently deployed in the field. The purpose of this document is to capture the details of this mechanism for public use. This mechanism is not an IETF standard. This memo provides information for the Internet community.</t>
+      <t>OSPF is a link-state intra-domain routing protocol used in IP networks. Link State Database (LSDB) synchronization in OSPF is achieved via two methods -- initial LSDB synchronization when an OSPF router has just been connected to the network and asynchronous flooding that ensures continuous LSDB synchronization in the presence of topology changes after the initial procedure was completed. It may sometime be necessary for OSPF routers to resynchronize their LSDBs. The OSPF standard, however, does not allow routers to do so without actually changing the topology view of the network.
+
+ This memo describes a vendor-specific mechanism to perform such a form of out-of-band LSDB synchronization. The mechanism described in this document was proposed before Graceful OSPF Restart, as described in RFC 3623, came into existence. It is implemented/supported by at least one major vendor and is currently deployed in the field. The purpose of this document is to capture the details of this mechanism for public use. This mechanism is not an IETF standard. This memo provides information for the Internet community.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-nguyen-ospf-oob-resync-06"/>
 </reference>

@@ -1,13 +1,26 @@
 <reference anchor="I-D.stenn-ntp-leap-smear-refid" target="https://datatracker.ietf.org/doc/html/draft-stenn-ntp-leap-smear-refid-01">
   <front>
     <title>Network Time Protocol Leap Smear REFID</title>
-    <author fullname="Harlan Stenn" initials="H." surname="Stenn">
+    <seriesInfo name="Internet-Draft" value="draft-stenn-ntp-leap-smear-refid-01"/>
+    <author initials="H." surname="Stenn" fullname="Harlan Stenn">
       <organization>Network Time Foundation</organization>
     </author>
-    <date year="2018" month="November" day="4"/>
+    <date day="04" month="November" year="2018"></date>
     <abstract>
-      <t>Leap Seconds are part of UTC. NTP timestamps are based on POSIX timestamps, which require each day to have exactly 86,400 seconds per day. Some applications and environments choose to "smear" leap second corrections over a period that can last up to 24 hours' time, and implement NTP servers that offer smeared time to clients asking them for the time. Both NTP clients and operators have no current way to tell if an NTP server is offering leap-smeared time or not. This is a problem. This proposal offers a mechanism by which clients (and operators) can trivially detect a server that is offering leap-smeared time.</t>
+      <t>   Leap Seconds are part of UTC.  NTP timestamps are based on POSIX
+   timestamps, which require each day to have exactly 86,400 seconds per
+   day.  Some applications and environments choose to "smear" leap
+   second corrections over a period that can last up to 24 hours' time,
+   and implement NTP servers that offer smeared time to clients asking
+   them for the time.
+
+   Both NTP clients and operators have no current way to tell if an NTP
+   server is offering leap-smeared time or not.  This is a problem.
+
+   This proposal offers a mechanism by which clients (and operators) can
+   trivially detect a server that is offering leap-smeared time.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-stenn-ntp-leap-smear-refid-01"/>
 </reference>

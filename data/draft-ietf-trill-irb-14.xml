@@ -1,25 +1,34 @@
 <reference anchor="I-D.ietf-trill-irb" target="https://datatracker.ietf.org/doc/html/draft-ietf-trill-irb-14">
   <front>
     <title>Transparent Interconnection of Lots of Links (TRILL) Distributed Layer 3 Gateway</title>
-    <author fullname="Hao Weiguo" initials="H." surname="Weiguo">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-trill-irb-14"/>
+    <author initials="H." surname="Weiguo" fullname="Hao Weiguo">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Yizhou Li" initials="Y." surname="Li">
+    <author initials="Y." surname="Li" fullname="Yizhou Li">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Andrew Qu" initials="A." surname="Qu">
+    <author initials="A." surname="Qu" fullname="Andrew Qu">
       <organization>MediaTec</organization>
     </author>
-    <author fullname="Muhammad Durrani" initials="M." surname="Durrani">
+    <author initials="M." surname="Durrani" fullname="Muhammad Durrani">
       <organization>Equinix Inc.</organization>
     </author>
-    <author fullname="Ponkarthick Sivamurugan" initials="P." surname="Sivamurugan">
+    <author initials="P." surname="Sivamurugan" fullname="Ponkarthick Sivamurugan">
       <organization>IP Infusion</organization>
     </author>
-    <date year="2016" month="July" day="3"/>
+    <date day="03" month="July" year="2016"></date>
     <abstract>
-      <t>The base TRILL (Transparent Interconnection of Lots of Links) protocol provides optimal pair-wise data frame forwarding for Layer 2 intra-subnet traffic but not for Layer 3 inter-subnet traffic. A centralized gateway solution is typically used for Layer 3 inter-subnet traffic forwarding but has the following issues: 1. Sub-optimum forwarding paths for inter-subnet traffic. 2. A centralized gateway that may need to support a very large number of gateway interfaces in a Data Center, one per tenant per Data Label used by that tenant, to provide interconnect functionality for all the Layer 2 Virtual Networks in a TRILL campus. 3. A traffic bottleneck at the gateway. This document specifies an optional TRILL distributed gateway solution that resolves these centralized gateway issues.</t>
+      <t>The base TRILL (Transparent Interconnection of Lots of Links) protocol provides optimal pair-wise data frame forwarding for Layer 2 intra-subnet traffic but not for Layer 3 inter-subnet traffic. A centralized gateway solution is typically used for Layer 3 inter-subnet traffic forwarding but has the following issues:
+
+ 1. Sub-optimum forwarding paths for inter-subnet traffic.
+
+ 2. A centralized gateway that may need to support a very large number of gateway interfaces in a Data Center, one per tenant per Data Label used by that tenant, to provide interconnect functionality for all the Layer 2 Virtual Networks in a TRILL campus.
+
+ 3. A traffic bottleneck at the gateway.
+
+ This document specifies an optional TRILL distributed gateway solution that resolves these centralized gateway issues.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-trill-irb-14"/>
 </reference>

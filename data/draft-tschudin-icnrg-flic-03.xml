@@ -1,16 +1,25 @@
 <reference anchor="I-D.tschudin-icnrg-flic" target="https://datatracker.ietf.org/doc/html/draft-tschudin-icnrg-flic-03">
   <front>
     <title>File-Like ICN Collection (FLIC)</title>
-    <author fullname="Christian Tschudin" initials="C." surname="Tschudin">
+    <seriesInfo name="Internet-Draft" value="draft-tschudin-icnrg-flic-03"/>
+    <author initials="C." surname="Tschudin" fullname="Christian Tschudin">
       <organization>University of Basel</organization>
     </author>
-    <author fullname="Christopher A. Wood" initials="C. A." surname="Wood">
+    <author initials="C. A." surname="Wood" fullname="Christopher A. Wood">
       <organization>University of California Irvine</organization>
     </author>
-    <date year="2017" month="March" day="13"/>
+    <date day="13" month="March" year="2017"></date>
     <abstract>
-      <t>This document describes a bare bones "index table"-approach for organizing a set of ICN data objects into a large, File-Like ICN Collection (FLIC). At the core of this collection is a so called manifest which acts as the collection's root node. The manifest contains an index table with pointers, each pointer being a hash value pointing to either a final data block or another index table node.</t>
+      <t>   This document describes a bare bones "index table"-approach for
+   organizing a set of ICN data objects into a large, File-Like ICN
+   Collection (FLIC).
+
+   At the core of this collection is a so called manifest which acts as
+   the collection's root node.  The manifest contains an index table
+   with pointers, each pointer being a hash value pointing to either a
+   final data block or another index table node.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-tschudin-icnrg-flic-03"/>
 </reference>

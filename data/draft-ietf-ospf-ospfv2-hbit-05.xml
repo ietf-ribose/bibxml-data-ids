@@ -1,22 +1,31 @@
 <reference anchor="I-D.ietf-ospf-ospfv2-hbit" target="https://datatracker.ietf.org/doc/html/draft-ietf-ospf-ospfv2-hbit-05">
   <front>
     <title>H-bit Support for OSPFv2</title>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-ospfv2-hbit-05"/>
+    <author initials="K." surname="Patel" fullname="Keyur Patel">
       <organization>Arrcus</organization>
     </author>
-    <author fullname="Padma Pillay-Esnault" initials="P." surname="Pillay-Esnault">
+    <author initials="P." surname="Pillay-Esnault" fullname="Padma Pillay-Esnault">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Manish Bhardwaj" initials="M." surname="Bhardwaj">
+    <author initials="M." surname="Bhardwaj" fullname="Manish Bhardwaj">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Serpil Bayraktar" initials="S." surname="Bayraktar">
+    <author initials="S." surname="Bayraktar" fullname="Serpil Bayraktar">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2018" month="August" day="1"/>
+    <date day="01" month="August" year="2018"></date>
     <abstract>
-      <t>OSPFv3 defines an option bit for router-LSAs known as the R-bit in RFC5340. If the R-bit is clear, an OSPFv3 router can participate in OSPF topology flooding, however it will not used as a transit router. In such cases, other routers in the OSPFv3 routing domain only install routes to allow local traffic delivery. This draft defines the H-bit functionality to prevent other OSPFv2 routers from using the router for transit traffic in OSPFv2 routing domains as described in RFC 2328.</t>
+      <t>   OSPFv3 defines an option bit for router-LSAs known as the R-bit in
+   RFC5340.  If the R-bit is clear, an OSPFv3 router can participate in
+   OSPF topology flooding, however it will not used as a transit router.
+   In such cases, other routers in the OSPFv3 routing domain only
+   install routes to allow local traffic delivery.  This draft defines
+   the H-bit functionality to prevent other OSPFv2 routers from using
+   the router for transit traffic in OSPFv2 routing domains as described
+   in RFC 2328.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-ospfv2-hbit-05"/>
 </reference>

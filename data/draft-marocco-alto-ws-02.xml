@@ -1,16 +1,30 @@
 <reference anchor="I-D.marocco-alto-ws" target="https://datatracker.ietf.org/doc/html/draft-marocco-alto-ws-02">
   <front>
     <title>WebSocket-based server-to-client notifications for the Application-Layer Traffic Optimization (ALTO) Protocol</title>
-    <author fullname="Enrico Marocco" initials="E." surname="Marocco">
+    <seriesInfo name="Internet-Draft" value="draft-marocco-alto-ws-02"/>
+    <author initials="E." surname="Marocco" fullname="Enrico Marocco">
       <organization>Telecom Italia</organization>
     </author>
-    <author fullname="Jan Seedorf" initials="J." surname="Seedorf">
+    <author initials="J." surname="Seedorf" fullname="Jan Seedorf">
       <organization>NEC</organization>
     </author>
-    <date year="2014" month="February" day="14"/>
+    <date day="14" month="February" year="2014"></date>
     <abstract>
-      <t>The Application-Layer Traffic Optimization (ALTO) protocol is designed to allow entities with knowledge about the network infrastructure to export such information to applications that need to choose one or more endpoints to connect to among large sets of logically equivalent ones. The base protocol specification adopts a simple pull-based model, according to which the client retrieves the information encoded as JSON objects over HTTP directly from the server. This document proposes (for discussion) a mechanism for providing server-initiated information update notifications through a WebSocket-based ALTO protocol extension that easily integrates in the basic protocol model.</t>
+      <t>   The Application-Layer Traffic Optimization (ALTO) protocol is
+   designed to allow entities with knowledge about the network
+   infrastructure to export such information to applications that need
+   to choose one or more endpoints to connect to among large sets of
+   logically equivalent ones.  The base protocol specification adopts a
+   simple pull-based model, according to which the client retrieves the
+   information encoded as JSON objects over HTTP directly from the
+   server.
+
+   This document proposes (for discussion) a mechanism for providing
+   server-initiated information update notifications through a
+   WebSocket-based ALTO protocol extension that easily integrates in the
+   basic protocol model.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-marocco-alto-ws-02"/>
 </reference>

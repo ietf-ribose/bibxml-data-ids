@@ -1,13 +1,20 @@
 <reference anchor="I-D.kwatsen-netconf-trust-anchors" target="https://datatracker.ietf.org/doc/html/draft-kwatsen-netconf-trust-anchors-00">
   <front>
     <title>YANG Data Model for Global Trust Anchors</title>
-    <author fullname="Kent Watsen" initials="K." surname="Watsen">
+    <seriesInfo name="Internet-Draft" value="draft-kwatsen-netconf-trust-anchors-00"/>
+    <author initials="K." surname="Watsen" fullname="Kent Watsen">
       <organization>Juniper Networks</organization>
     </author>
-    <date year="2018" month="March" day="5"/>
+    <date day="05" month="March" year="2018"></date>
     <abstract>
-      <t>This document defines a YANG data model for configuring global sets of X.509 certificates and SSH host-keys that can be referenced by other data models for trust. While the SSH host-keys are uniquely for the SSH protocol, the X.509 certificates may be used for multiple uses, including authenticating protocol peers and verifying signatures.</t>
+      <t>   This document defines a YANG data model for configuring global sets
+   of X.509 certificates and SSH host-keys that can be referenced by
+   other data models for trust.  While the SSH host-keys are uniquely
+   for the SSH protocol, the X.509 certificates may be used for multiple
+   uses, including authenticating protocol peers and verifying
+   signatures.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kwatsen-netconf-trust-anchors-00"/>
 </reference>

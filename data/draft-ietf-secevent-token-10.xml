@@ -1,22 +1,32 @@
 <reference anchor="I-D.ietf-secevent-token" target="https://datatracker.ietf.org/doc/html/draft-ietf-secevent-token-10">
   <front>
     <title>Security Event Token (SET)</title>
-    <author fullname="Phil Hunt" initials="P." surname="Hunt">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-secevent-token-10"/>
+    <author initials="P." surname="Hunt" fullname="Phil Hunt">
       <organization>Oracle Corporation</organization>
     </author>
-    <author fullname="Michael Jones" initials="M." surname="Jones">
+    <author initials="M." surname="Jones" fullname="Michael Jones">
       <organization>Microsoft</organization>
     </author>
-    <author fullname="William Denniss" initials="W." surname="Denniss">
+    <author initials="W." surname="Denniss" fullname="William Denniss">
       <organization>Google</organization>
     </author>
-    <author fullname="Morteza Ansari" initials="M." surname="Ansari">
+    <author initials="M." surname="Ansari" fullname="Morteza Ansari">
       <organization>Cisco</organization>
     </author>
-    <date year="2018" month="May" day="1"/>
+    <date day="01" month="May" year="2018"></date>
     <abstract>
-      <t>This specification defines the Security Event Token (SET) data structure. A SET describes statements of fact from the perspective of an issuer about a subject. These statements of fact represent an event that occurred directly to or about a security subject, for example, a statement about the issuance or revocation of a token on behalf of a subject. This specification is intended to enable representing security- and identity-related events. A SET is a JSON Web Token (JWT), which can be optionally signed and/or encrypted. SETs can be distributed via protocols such as HTTP.</t>
+      <t>   This specification defines the Security Event Token (SET) data
+   structure.  A SET describes statements of fact from the perspective
+   of an issuer about a subject.  These statements of fact represent an
+   event that occurred directly to or about a security subject, for
+   example, a statement about the issuance or revocation of a token on
+   behalf of a subject.  This specification is intended to enable
+   representing security- and identity-related events.  A SET is a JSON
+   Web Token (JWT), which can be optionally signed and/or encrypted.
+   SETs can be distributed via protocols such as HTTP.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-secevent-token-10"/>
 </reference>

@@ -1,19 +1,27 @@
 <reference anchor="I-D.decraene-lsr-lag-indication" target="https://datatracker.ietf.org/doc/html/draft-decraene-lsr-lag-indication-03">
   <front>
     <title>LAG indication</title>
-    <author fullname="Bruno Decraene" initials="B." surname="Decraene">
+    <seriesInfo name="Internet-Draft" value="draft-decraene-lsr-lag-indication-03"/>
+    <author initials="B." surname="Decraene" fullname="Bruno Decraene">
       <organization>Orange</organization>
     </author>
-    <author fullname="Shraddha Hegde" initials="S." surname="Hegde">
+    <author initials="S." surname="Hegde" fullname="Shraddha Hegde">
       <organization>Juniper Networks Inc.</organization>
     </author>
-    <author fullname="Joel M. Halpern" initials="J. M." surname="Halpern">
+    <author initials="J. M." surname="Halpern" fullname="Joel M. Halpern">
       <organization>Ericsson</organization>
     </author>
-    <date year="2022" month="August" day="1"/>
+    <date day="01" month="August" year="2022"></date>
     <abstract>
-      <t>This document defines a new link flag to advertise that a layer-three link is composed of multiple layer-two sub-links, such as when this link is a Link Aggregation Group (LAG). This allows a large single flow (an elephant flow) to be aware that the link capacity will be lower than expected as this single flow is not load-balanced across the multiple layer-two sub-links. A path computation logic may use that information to route that elephant flow along a different path.</t>
+      <t>   This document defines a new link flag to advertise that a layer-three
+   link is composed of multiple layer-two sub-links, such as when this
+   link is a Link Aggregation Group (LAG).  This allows a large single
+   flow (an elephant flow) to be aware that the link capacity will be
+   lower than expected as this single flow is not load-balanced across
+   the multiple layer-two sub-links.  A path computation logic may use
+   that information to route that elephant flow along a different path.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-decraene-lsr-lag-indication-03"/>
 </reference>

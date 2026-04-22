@@ -1,19 +1,29 @@
 <reference anchor="I-D.ietf-pcn-3-state-encoding" target="https://datatracker.ietf.org/doc/html/draft-ietf-pcn-3-state-encoding-02">
   <front>
     <title>A PCN encoding using 2 DSCPs to provide 3 or more states</title>
-    <author fullname="Toby Moncaster" initials="T." surname="Moncaster">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pcn-3-state-encoding-02"/>
+    <author initials="T." surname="Moncaster" fullname="Toby Moncaster">
       <organization>University of Cambridge</organization>
     </author>
-    <author fullname="Bob Briscoe" initials="B." surname="Briscoe">
+    <author initials="B." surname="Briscoe" fullname="Bob Briscoe">
       <organization>BT</organization>
     </author>
-    <author fullname="Michael Menth" initials="M." surname="Menth">
+    <author initials="M." surname="Menth" fullname="Michael Menth">
       <organization>University of Tuebingen</organization>
     </author>
-    <date year="2012" month="March" day="12"/>
+    <date day="12" month="March" year="2012"></date>
     <abstract>
-      <t>Pre-congestion notification (PCN) is a mechanism designed to protect the Quality of Service of inelastic flows within a controlled domain. It does this by marking packets when traffic load on a link is approaching or has exceeded a threshold below the physical link rate. This experimental encoding scheme specifies how three encoding states can be carried in the IP header using a combination of two DSCPs and the ECN bits. The Basic scheme only allows for three encoding states. The Full scheme provides 6 states, enough for limited end- to-end support for ECN as well.</t>
+      <t>   Pre-congestion notification (PCN) is a mechanism designed to protect
+   the Quality of Service of inelastic flows within a controlled domain.
+   It does this by marking packets when traffic load on a link is
+   approaching or has exceeded a threshold below the physical link rate.
+   This experimental encoding scheme specifies how three encoding states
+   can be carried in the IP header using a combination of two DSCPs and
+   the ECN bits.  The Basic scheme only allows for three encoding
+   states.  The Full scheme provides 6 states, enough for limited end-
+   to-end support for ECN as well.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-pcn-3-state-encoding-02"/>
 </reference>

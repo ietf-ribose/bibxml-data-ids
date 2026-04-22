@@ -1,19 +1,39 @@
 <reference anchor="I-D.boucadair-tcpm-dhc-converter" target="https://datatracker.ietf.org/doc/html/draft-boucadair-tcpm-dhc-converter-02">
   <front>
     <title>DHCP Options for 0-RTT TCP Converters</title>
-    <author fullname="Mohamed Boucadair" initials="M." surname="Boucadair">
+    <seriesInfo name="Internet-Draft" value="draft-boucadair-tcpm-dhc-converter-02"/>
+    <author initials="M." surname="Boucadair" fullname="Mohamed Boucadair">
       <organization>Orange</organization>
     </author>
-    <author fullname="Christian Jacquenet" initials="C." surname="Jacquenet">
+    <author initials="C." surname="Jacquenet" fullname="Christian Jacquenet">
       <organization>Orange</organization>
     </author>
-    <author fullname="Tirumaleswar Reddy.K" initials="T." surname="Reddy.K">
+    <author initials="T." surname="Reddy.K" fullname="Tirumaleswar Reddy.K">
       <organization>McAfee, Inc.</organization>
     </author>
-    <date year="2019" month="April" day="15"/>
+    <date day="15" month="April" year="2019"></date>
     <abstract>
-      <t>Because of the lack of Multipath TCP (MPTCP) support at the server side, some service providers now consider a network-assisted model that relies upon the activation of a dedicated function called Converters. Network-assisted MPTCP deployment models are designed to facilitate the adoption of MPTCP for the establishment of multi-path communications without making any assumption about the support of MPTCP by the communicating peers. Converters located in the network are responsible for establishing multi-path communications on behalf of endpoints, thereby taking advantage of MPTCP capabilities to achieve different goals that include (but are not limited to) optimization of resource usage (e.g., bandwidth aggregation), of resiliency (e.g., primary/backup communication paths), and traffic offload management. This document focuses on the explicit deployment scheme where the identity of the Converters is explicitly configured on connected hosts. This document specifies DHCP (IPv4 and IPv6) options to configure hosts with Converters parameters.</t>
+      <t>   Because of the lack of Multipath TCP (MPTCP) support at the server
+   side, some service providers now consider a network-assisted model
+   that relies upon the activation of a dedicated function called
+   Converters.  Network-assisted MPTCP deployment models are designed to
+   facilitate the adoption of MPTCP for the establishment of multi-path
+   communications without making any assumption about the support of
+   MPTCP by the communicating peers.  Converters located in the network
+   are responsible for establishing multi-path communications on behalf
+   of endpoints, thereby taking advantage of MPTCP capabilities to
+   achieve different goals that include (but are not limited to)
+   optimization of resource usage (e.g., bandwidth aggregation), of
+   resiliency (e.g., primary/backup communication paths), and traffic
+   offload management.
+
+   This document focuses on the explicit deployment scheme where the
+   identity of the Converters is explicitly configured on connected
+   hosts.  This document specifies DHCP (IPv4 and IPv6) options to
+   configure hosts with Converters parameters.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-boucadair-tcpm-dhc-converter-02"/>
 </reference>

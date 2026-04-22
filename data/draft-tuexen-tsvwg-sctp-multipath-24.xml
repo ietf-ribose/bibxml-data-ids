@@ -1,34 +1,42 @@
 <reference anchor="I-D.tuexen-tsvwg-sctp-multipath" target="https://datatracker.ietf.org/doc/html/draft-tuexen-tsvwg-sctp-multipath-24">
   <front>
     <title>Load Sharing for the Stream Control Transmission Protocol (SCTP)</title>
-    <author fullname="Professor Paul D. Amer" initials="P. D." surname="Amer">
+    <seriesInfo name="Internet-Draft" value="draft-tuexen-tsvwg-sctp-multipath-24"/>
+    <author initials="P. D." surname="Amer" fullname="Professor Paul D. Amer">
       <organization>University of Delaware, Computer and Information Sciences Department</organization>
     </author>
-    <author fullname="Martin Becke" initials="M." surname="Becke">
+    <author initials="M." surname="Becke" fullname="Martin Becke">
       <organization>HAW Hamburg, Informatics Department</organization>
     </author>
-    <author fullname="Thomas Dreibholz" initials="T." surname="Dreibholz">
+    <author initials="T." surname="Dreibholz" fullname="Thomas Dreibholz">
       <organization>Simula Metropolitan Centre for Digital Engineering</organization>
     </author>
-    <author fullname="Nasif Ekiz" initials="N." surname="Ekiz">
+    <author initials="N." surname="Ekiz" fullname="Nasif Ekiz">
       <organization>University of Delaware, Computer and Information Sciences Department</organization>
     </author>
-    <author fullname="Jana Iyengar" initials="J." surname="Iyengar">
+    <author initials="J." surname="Iyengar" fullname="Jana Iyengar">
       <organization>Franklin and Marshall College, Mathematics and Computer Science</organization>
     </author>
-    <author fullname="Preethi Natarajan" initials="P." surname="Natarajan">
+    <author initials="P." surname="Natarajan" fullname="Preethi Natarajan">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Randall R. Stewart" initials="R. R." surname="Stewart">
+    <author initials="R. R." surname="Stewart" fullname="Randall R. Stewart">
       <organization>Netflix</organization>
     </author>
-    <author fullname="Michael Tüxen" initials="M." surname="Tüxen">
+    <author initials="M." surname="Tüxen" fullname="Michael Tüxen">
       <organization>Münster University of Applied Sciences</organization>
     </author>
-    <date year="2022" month="August" day="23"/>
+    <date day="23" month="August" year="2022"></date>
     <abstract>
-      <t>The Stream Control Transmission Protocol (SCTP) supports multi-homing for providing network fault tolerance. However, mainly one path is used for data transmission. Only timer-based retransmissions are carried over other paths as well. This document describes how multiple paths can be used simultaneously for transmitting user messages.</t>
+      <t>   The Stream Control Transmission Protocol (SCTP) supports multi-homing
+   for providing network fault tolerance.  However, mainly one path is
+   used for data transmission.  Only timer-based retransmissions are
+   carried over other paths as well.
+
+   This document describes how multiple paths can be used simultaneously
+   for transmitting user messages.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-tuexen-tsvwg-sctp-multipath-24"/>
 </reference>

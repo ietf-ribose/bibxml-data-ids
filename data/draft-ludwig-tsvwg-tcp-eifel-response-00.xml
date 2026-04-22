@@ -1,16 +1,27 @@
 <reference anchor="I-D.ludwig-tsvwg-tcp-eifel-response" target="https://datatracker.ietf.org/doc/html/draft-ludwig-tsvwg-tcp-eifel-response-00">
   <front>
     <title>The Eifel Response Algorithm for TCP</title>
-    <author fullname="Ludwig Reiner" initials="L." surname="Reiner">
+    <seriesInfo name="Internet-Draft" value="draft-ludwig-tsvwg-tcp-eifel-response-00"/>
+    <author initials="L." surname="Reiner" fullname="Ludwig Reiner">
       <organization>Ericsson Research</organization>
     </author>
-    <author fullname="Andrei Gurtov" initials="A." surname="Gurtov">
+    <author initials="A." surname="Gurtov" fullname="Andrei Gurtov">
       <organization>Sonera Corporation</organization>
     </author>
-    <date year="2002" month="July" day="24"/>
+    <date day="24" month="July" year="2002"></date>
     <abstract>
-      <t>The Eifel response algorithm uses the Eifel detection algorithm to detect a posteriori whether the TCP sender has entered loss recovery unnecessarily. In response to a spurious timeout it avoids the go-back-N retransmits that would otherwise be sent, and reinitializes the RTT estimators to avoid further spurious timeouts. Likewise, it adapts the duplicate acknowledgement threshold in response to a spurious fast retransmit. In both cases, the Eifel response algorithm restores the congestion control state in way that avoids packet bursts.</t>
+      <t>The Eifel response algorithm uses the Eifel detection algorithm to
+detect a posteriori whether the TCP sender has entered loss recovery
+unnecessarily. In response to a spurious timeout it avoids the
+go-back-N retransmits that would otherwise be sent, and reinitializes
+the RTT estimators to avoid further spurious timeouts. Likewise, it
+adapts the duplicate acknowledgement threshold in response to a
+spurious fast retransmit. In both cases, the Eifel response algorithm
+restores the congestion control state in way that avoids packet
+bursts.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ludwig-tsvwg-tcp-eifel-response-00"/>
 </reference>

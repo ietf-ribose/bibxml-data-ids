@@ -1,25 +1,31 @@
 <reference anchor="I-D.dukhovni-tls-dnssec-chain" target="https://datatracker.ietf.org/doc/html/draft-dukhovni-tls-dnssec-chain-02">
   <front>
     <title>The DANE Authentication Chain Extension for TLS</title>
-    <author fullname="Viktor Dukhovni" initials="V." surname="Dukhovni">
+    <seriesInfo name="Internet-Draft" value="draft-dukhovni-tls-dnssec-chain-02"/>
+    <author initials="V." surname="Dukhovni" fullname="Viktor Dukhovni">
       <organization>Two Sigma</organization>
     </author>
-    <author fullname="Shumon Huque" initials="S." surname="Huque">
+    <author initials="S." surname="Huque" fullname="Shumon Huque">
       <organization>Salesforce</organization>
     </author>
-    <author fullname="Willem Toorop" initials="W." surname="Toorop">
+    <author initials="W." surname="Toorop" fullname="Willem Toorop">
       <organization>NLnet Labs</organization>
     </author>
-    <author fullname="Paul Wouters" initials="P." surname="Wouters">
+    <author initials="P." surname="Wouters" fullname="Paul Wouters">
       <organization>Red Hat</organization>
     </author>
-    <author fullname="Melinda Shore" initials="M." surname="Shore">
+    <author initials="M." surname="Shore" fullname="Melinda Shore">
       <organization>Fastly</organization>
     </author>
-    <date year="2020" month="June" day="14"/>
+    <date day="14" month="June" year="2020"></date>
     <abstract>
-      <t>This draft describes a new TLS extension for in-band transport of the complete set of DNSSEC validated records needed to perform DANE authentication of a TLS server without the need to perform separate out-of-band DNS lookups. When the requisite DNS records do not exist, the extension conveys a validated denial of existence proof.</t>
+      <t>   This draft describes a new TLS extension for in-band transport of the
+   complete set of DNSSEC validated records needed to perform DANE
+   authentication of a TLS server without the need to perform separate
+   out-of-band DNS lookups.  When the requisite DNS records do not
+   exist, the extension conveys a validated denial of existence proof.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-dukhovni-tls-dnssec-chain-02"/>
 </reference>

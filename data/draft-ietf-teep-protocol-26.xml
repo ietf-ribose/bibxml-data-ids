@@ -1,25 +1,34 @@
 <reference anchor="I-D.ietf-teep-protocol" target="https://datatracker.ietf.org/doc/html/draft-ietf-teep-protocol-26">
   <front>
     <title>Trusted Execution Environment Provisioning (TEEP) Protocol</title>
-    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-teep-protocol-26"/>
+    <author initials="H." surname="Tschofenig" fullname="Hannes Tschofenig">
       <organization>University of Applied Sciences Bonn-Rhein-Sieg</organization>
     </author>
-    <author fullname="Mingliang Pei" initials="M." surname="Pei">
+    <author initials="M." surname="Pei" fullname="Mingliang Pei">
       <organization>Broadcom</organization>
     </author>
-    <author fullname="Dave Wheeler" initials="D. M." surname="Wheeler">
+    <author initials="D. M." surname="Wheeler" fullname="Dave Wheeler">
       <organization>Amazon</organization>
     </author>
-    <author fullname="Dave Thaler" initials="D." surname="Thaler">
+    <author initials="D." surname="Thaler" fullname="Dave Thaler">
       <organization>Microsoft</organization>
     </author>
-    <author fullname="Akira Tsukamoto" initials="A." surname="Tsukamoto">
+    <author initials="A." surname="Tsukamoto" fullname="Akira Tsukamoto">
       <organization>Openchip &amp; Software Technologies, S.L.</organization>
     </author>
-    <date year="2026" month="February" day="26"/>
+    <date day="26" month="February" year="2026"></date>
     <abstract>
-      <t>This document specifies the Trusted Execution Environment Provisioning (TEEP) Protocol, which enables secure lifecycle management of Trusted Components in devices with a Trusted Execution Environment (TEE). The protocol defines message exchanges between a Trusted Application Manager (TAM) and a TEEP Agent to query device state, convey attestation evidence, and install, update, or delete Trusted Components. Messages are encoded in CBOR and secured using COSE.</t>
+      <t>   This document specifies the Trusted Execution Environment
+   Provisioning (TEEP) Protocol, which enables secure lifecycle
+   management of Trusted Components in devices with a Trusted Execution
+   Environment (TEE).  The protocol defines message exchanges between a
+   Trusted Application Manager (TAM) and a TEEP Agent to query device
+   state, convey attestation evidence, and install, update, or delete
+   Trusted Components.  Messages are encoded in CBOR and secured using
+   COSE.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-teep-protocol-26"/>
 </reference>

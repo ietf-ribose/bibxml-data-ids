@@ -1,16 +1,29 @@
 <reference anchor="I-D.bouwen-megaco-isdn-bcp" target="https://datatracker.ietf.org/doc/html/draft-bouwen-megaco-isdn-bcp-01">
   <front>
     <title>Best Current Practice for Megaco-Sigtran Interaction in ISDN Access Gateways</title>
-    <author fullname="Jan Bouwen" initials="J." surname="Bouwen">
+    <seriesInfo name="Internet-Draft" value="draft-bouwen-megaco-isdn-bcp-01"/>
+    <author initials="J." surname="Bouwen" fullname="Jan Bouwen">
       <organization>Alcatel</organization>
     </author>
-    <author fullname="Ken Morneault" initials="K." surname="Morneault">
+    <author initials="K." surname="Morneault" fullname="Ken Morneault">
       <organization>Cisco</organization>
     </author>
-    <date year="2001" month="February" day="23"/>
+    <date day="23" month="February" year="2001"></date>
     <abstract>
-      <t>A Media Gateway with ISDN terminations will use both Megaco [1] and Sigtran protocols for communication with the Media Gateway Controller. In an ISDN Access Gateway the media carrying B-channels are controlled by the Media Gateway Controller using Megaco, while the User-to-Network signalling running over the D-channels will be relayed to the Media Gateway Controller using Sigtran protocols (IUA [3] over SCTP [2]). At the moment, in the absence of appropriate specifications, the Megaco and Sigtran protocols may interact in different ways in the Access Gateway, leaving room for non-interoperable solutions. This draft proposes a set of guidelines for the Megaco-Sigtran interworking, documenting a best current practice for ISDN Access Gateways.</t>
+      <t>A Media Gateway with ISDN terminations will use both Megaco [1] and
+Sigtran protocols for communication with the Media Gateway
+Controller. In an ISDN Access Gateway the media carrying B-channels
+are controlled by the Media Gateway Controller using Megaco, while
+the User-to-Network signalling running over the D-channels will be
+relayed to the Media Gateway Controller using Sigtran protocols (IUA
+[3] over SCTP [2]).
+At the moment, in the absence of appropriate specifications, the
+Megaco and Sigtran protocols may interact in different ways in the
+Access Gateway, leaving room for non-interoperable solutions.
+This draft proposes a set of guidelines for the Megaco-Sigtran
+interworking, documenting a best current practice for ISDN Access
+Gateways.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-bouwen-megaco-isdn-bcp-01"/>
 </reference>

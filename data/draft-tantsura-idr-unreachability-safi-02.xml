@@ -1,31 +1,41 @@
 <reference anchor="I-D.tantsura-idr-unreachability-safi" target="https://datatracker.ietf.org/doc/html/draft-tantsura-idr-unreachability-safi-02">
   <front>
     <title>BGP Unreachability Information SAFI</title>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+    <seriesInfo name="Internet-Draft" value="draft-tantsura-idr-unreachability-safi-02"/>
+    <author initials="J." surname="Tantsura" fullname="Jeff Tantsura">
       <organization>Nvidia</organization>
     </author>
-    <author fullname="Donald Sharp" initials="D." surname="Sharp">
+    <author initials="D." surname="Sharp" fullname="Donald Sharp">
       <organization>Nvidia</organization>
     </author>
-    <author fullname="Vivek Venkatraman" initials="V." surname="Venkatraman">
+    <author initials="V." surname="Venkatraman" fullname="Vivek Venkatraman">
       <organization>Nvidia</organization>
     </author>
-    <author fullname="Karthikeya Venkat Muppalla" initials="K. V." surname="Muppalla">
+    <author initials="K. V." surname="Muppalla" fullname="Karthikeya Venkat Muppalla">
       <organization>Nvidia</organization>
     </author>
-    <author fullname="Maciej Rzehak" initials="M." surname="Rzehak">
+    <author initials="M." surname="Rzehak" fullname="Maciej Rzehak">
       <organization>CoreWeave</organization>
     </author>
-    <author fullname="Abderrahman Jouhari" initials="A." surname="Jouhari">
+    <author initials="A." surname="Jouhari" fullname="Abderrahman Jouhari">
       <organization>Oracle</organization>
     </author>
-    <author fullname="Smit Parikh" initials="S." surname="Parikh">
+    <author initials="S." surname="Parikh" fullname="Smit Parikh">
       <organization>Oracle</organization>
     </author>
-    <date year="2026" month="April" day="12"/>
+    <date day="12" month="April" year="2026"></date>
     <abstract>
-      <t>This document defines a new BGP Subsequent Address Family Identifier (SAFI) called "Unreachability Information" that allows the propagation of prefix unreachability information through BGP without affecting the installation or removal of routes in the Routing Information Base (RIB) or Forwarding Information Base (FIB). This mechanism enables network operators to share information about unreachable prefixes for monitoring, debugging, and coordination purposes while maintaining complete separation from the active routing plane.</t>
+      <t>   This document defines a new BGP Subsequent Address Family Identifier
+   (SAFI) called "Unreachability Information" that allows the
+   propagation of prefix unreachability information through BGP without
+   affecting the installation or removal of routes in the Routing
+   Information Base (RIB) or Forwarding Information Base (FIB).  This
+   mechanism enables network operators to share information about
+   unreachable prefixes for monitoring, debugging, and coordination
+   purposes while maintaining complete separation from the active
+   routing plane.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-tantsura-idr-unreachability-safi-02"/>
 </reference>

@@ -1,19 +1,32 @@
 <reference anchor="I-D.zzhang-rift-sr" target="https://datatracker.ietf.org/doc/html/draft-zzhang-rift-sr-00">
   <front>
     <title>SRIFT: Segment Routing In Fat Trees</title>
-    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+    <seriesInfo name="Internet-Draft" value="draft-zzhang-rift-sr-00"/>
+    <author initials="Z. J." surname="Zhang" fullname="Zhaohui (Jeffrey) Zhang">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+    <author initials="J." surname="Tantsura" fullname="Jeff Tantsura">
       <organization>Apstra, Inc</organization>
     </author>
-    <author fullname="Don Fedyk" initials="D." surname="Fedyk">
+    <author initials="D." surname="Fedyk" fullname="Don Fedyk">
       <organization>HPE</organization>
     </author>
-    <date year="2018" month="October" day="22"/>
+    <date day="22" month="October" year="2018"></date>
     <abstract>
-      <t>This document specifies signaling procedures for Segment Routing [RFC8402] with RIFT. Each node's loopback address, Segment Routing Global Block (SRGB) and Node Segment Identifier (SID), which must be unique within the SR domain and are typically assigned by SR controllers or management, are distributed southbound from the Top Of Fabric (TOF) nodes via the Key-Value distribution mechanism, so that each node can compute how to reach a node represented by the topmost Node SIDs. For an ingress node to send SR traffic to another node via an explicit path, an SR controller signals the corresponding label stack to the ingress node so that the ingress node can send packets accordingly.</t>
+      <t>   This document specifies signaling procedures for Segment Routing
+   [RFC8402] with RIFT.  Each node's loopback address, Segment Routing
+   Global Block (SRGB) and Node Segment Identifier (SID), which must be
+   unique within the SR domain and are typically assigned by SR
+   controllers or management, are distributed southbound from the Top Of
+   Fabric (TOF) nodes via the Key-Value distribution mechanism, so that
+   each node can compute how to reach a node represented by the topmost
+   Node SIDs .  For an ingress node to send SR traffic to another node
+   via an explicit path, an SR controller signals the corresponding
+   label stack to the ingress node so that the ingress node can send
+   packets accordingly.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-zzhang-rift-sr-00"/>
 </reference>

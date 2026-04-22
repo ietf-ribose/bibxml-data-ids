@@ -1,28 +1,37 @@
 <reference anchor="I-D.chen-idr-mbinding" target="https://datatracker.ietf.org/doc/html/draft-chen-idr-mbinding-02">
   <front>
     <title>BGP for Mirror Binding</title>
-    <author fullname="Huaimo Chen" initials="H." surname="Chen">
+    <seriesInfo name="Internet-Draft" value="draft-chen-idr-mbinding-02"/>
+    <author initials="H." surname="Chen" fullname="Huaimo Chen">
       <organization>Futurewei</organization>
     </author>
-    <author fullname="Bruno Decraene" initials="B." surname="Decraene">
+    <author initials="B." surname="Decraene" fullname="Bruno Decraene">
       <organization>Orange</organization>
     </author>
-    <author fullname="Gyan Mishra" initials="G. S." surname="Mishra">
+    <author initials="G. S." surname="Mishra" fullname="Gyan Mishra">
       <organization>Verizon</organization>
     </author>
-    <author fullname="Yanhe Fan" initials="Y." surname="Fan">
+    <author initials="Y." surname="Fan" fullname="Yanhe Fan">
       <organization>Casa Systems</organization>
     </author>
-    <author fullname="Aijun Wang" initials="A." surname="Wang">
+    <author initials="A." surname="Wang" fullname="Aijun Wang">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Xufeng Liu" initials="X." surname="Liu">
+    <author initials="X." surname="Liu" fullname="Xufeng Liu">
       <organization>IBM Corporation</organization>
     </author>
-    <date year="2023" month="May" day="10"/>
+    <date day="10" month="May" year="2023"></date>
     <abstract>
-      <t>BGP is used to distribute a binding to a node. The binding includes a binding SID and a path represented by a list of SIDs. This document describes extensions to BGP for distributing the information about the binding to a protecting node. For an SR path via the node with the binding SID, when the node fails, the protecting node such as the upstream neighbor on the path uses the information to protect the binding SID of the failed node.</t>
+      <t>   BGP is used to distribute a binding to a node.  The binding includes
+   a binding SID and a path represented by a list of SIDs.  This
+   document describes extensions to BGP for distributing the information
+   about the binding to a protecting node.  For an SR path via the node
+   with the binding SID, when the node fails, the protecting node such
+   as the upstream neighbor on the path uses the information to protect
+   the binding SID of the failed node.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-chen-idr-mbinding-02"/>
 </reference>

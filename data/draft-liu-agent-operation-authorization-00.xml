@@ -1,16 +1,34 @@
 <reference anchor="I-D.liu-agent-operation-authorization" target="https://datatracker.ietf.org/doc/html/draft-liu-agent-operation-authorization-00">
   <front>
     <title>Agent Operation Authorization</title>
-    <author fullname="Dapeng Liu" initials="D." surname="Liu">
+    <seriesInfo name="Internet-Draft" value="draft-liu-agent-operation-authorization-00"/>
+    <author initials="D." surname="Liu" fullname="Dapeng Liu">
       <organization>Alibaba</organization>
     </author>
-    <author fullname="Judy Zhu" initials="J." surname="Zhu">
+    <author initials="J." surname="Zhu" fullname="Judy Zhu">
       <organization>Alibaba</organization>
     </author>
-    <date year="2025" month="November" day="25"/>
+    <date day="25" month="November" year="2025"></date>
     <abstract>
-      <t>This document specifies the Agent Operation Authorization framework — a structured mechanism that enables verifiable delegation of actions from human principals to autonomous AI agents with fine-grained agent operation authorization. The framework introduces two distinct phases: * *Agent Operation Authorization Request:* A human-readable proposal of operations derived from natural language input and converted to a JSON Web Token (JWT). * *Agent Operation Authorization Token:* A JSON Web Token representing confirmed authorization for a specific agent operation, enforceable at runtime by agents and verifiers. It cryptographically verifies user intent, prevents unauthorized or hallucinated actions, and ensures auditable traceability of each authorized operation.</t>
+      <t>   This document specifies the Agent Operation Authorization framework —
+   a structured mechanism that enables verifiable delegation of actions
+   from human principals to autonomous AI agents with fine-grained agent
+   operation authorization.
+
+   The framework introduces two distinct phases:
+
+   *  *Agent Operation Authorization Request:* A human-readable proposal
+      of operations derived from natural language input and converted to
+      a JSON Web Token (JWT).
+
+   *  *Agent Operation Authorization Token:* A JSON Web Token
+      representing confirmed authorization for a specific agent
+      operation, enforceable at runtime by agents and verifiers.  It
+      cryptographically verifies user intent, prevents unauthorized or
+      hallucinated actions, and ensures auditable traceability of each
+      authorized operation.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-liu-agent-operation-authorization-00"/>
 </reference>

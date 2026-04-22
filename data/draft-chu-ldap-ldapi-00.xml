@@ -1,13 +1,22 @@
 <reference anchor="I-D.chu-ldap-ldapi" target="https://datatracker.ietf.org/doc/html/draft-chu-ldap-ldapi-00">
   <front>
     <title>Using LDAP Over IPC Mechanisms</title>
-    <author fullname="Howard Chu" initials="H." surname="Chu">
+    <seriesInfo name="Internet-Draft" value="draft-chu-ldap-ldapi-00"/>
+    <author initials="H." surname="Chu" fullname="Howard Chu">
       <organization>Symas Corp.</organization>
     </author>
-    <date year="2007" month="March" day="1"/>
+    <date day="01" month="March" year="2007"></date>
     <abstract>
-      <t>When both the LDAP client and server reside on the same machine, communication efficiency can be greatly improved using host- specific IPC mechanisms instead of a TCP session. Such mechanisms can also implicitly provide the client's identity to the server for extremely lightweight authentication. This document describes the implementation of LDAP over Unix IPC that has been in use in OpenLDAP since January 2000, including the URL format used to specify an IPC session.</t>
+      <t>   When both the LDAP client and server reside on the same machine,
+   communication efficiency can be greatly improved using host- specific
+   IPC mechanisms instead of a TCP session.  Such mechanisms can also
+   implicitly provide the client's identity to the server for extremely
+   lightweight authentication.  This document describes the
+   implementation of LDAP over Unix IPC that has been in use in OpenLDAP
+   since January 2000, including the URL format used to specify an IPC
+   session.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-chu-ldap-ldapi-00"/>
 </reference>

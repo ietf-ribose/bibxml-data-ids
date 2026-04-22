@@ -1,25 +1,30 @@
 <reference anchor="I-D.ietf-isis-purge-tlv" target="https://datatracker.ietf.org/doc/html/draft-ietf-isis-purge-tlv-05">
   <front>
     <title>Purge Originator Identification TLV for IS-IS</title>
-    <author fullname="Yue Qin" initials="Y." surname="Qin">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-isis-purge-tlv-05"/>
+    <author initials="Y." surname="Qin" fullname="Yue Qin">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Zhenqiang Li" initials="Z." surname="Li">
+    <author initials="Z." surname="Li" fullname="Zhenqiang Li">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Fang Wei" initials="F." surname="Wei">
+    <author initials="F." surname="Wei" fullname="Fang Wei">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Jie Dong" initials="J." surname="Dong">
+    <author initials="J." surname="Dong" fullname="Jie Dong">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Tony Li" initials="T." surname="Li">
+    <author initials="T." surname="Li" fullname="Tony Li">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2010" month="October" day="25"/>
+    <date day="25" month="October" year="2010"></date>
     <abstract>
-      <t>At present, an IS-IS purge does not contain any information identifying the Intermediate System (IS) that generates the purge. This makes it difficult to locate the source IS. To address this issue, this document defines a TLV to be added to purges to record the system ID of the IS generating it. Since normal Link State Protocol Data Unit (LSP) flooding does not change LSP contents, this TLV should propagate with the purge. This document updates RFC 5301, RFC 5304, and RFC 5310. [STANDARDS-TRACK]</t>
+      <t>At present, an IS-IS purge does not contain any information identifying the Intermediate System (IS) that generates the purge. This makes it difficult to locate the source IS.
+
+ To address this issue, this document defines a TLV to be added to purges to record the system ID of the IS generating it. Since normal Link State Protocol Data Unit (LSP) flooding does not change LSP contents, this TLV should propagate with the purge.
+
+ This document updates RFC 5301, RFC 5304, and RFC 5310. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-isis-purge-tlv-05"/>
 </reference>

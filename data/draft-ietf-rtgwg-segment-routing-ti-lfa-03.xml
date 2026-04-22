@@ -1,34 +1,45 @@
 <reference anchor="I-D.ietf-rtgwg-segment-routing-ti-lfa" target="https://datatracker.ietf.org/doc/html/draft-ietf-rtgwg-segment-routing-ti-lfa-03">
   <front>
     <title>Topology Independent Fast Reroute using Segment Routing</title>
-    <author fullname="Stephane Litkowski" initials="S." surname="Litkowski">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-rtgwg-segment-routing-ti-lfa-03"/>
+    <author initials="S." surname="Litkowski" fullname="Stephane Litkowski">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Ahmed Bashandy" initials="A." surname="Bashandy">
+    <author initials="A." surname="Bashandy" fullname="Ahmed Bashandy">
       <organization>Individual</organization>
     </author>
-    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils">
+    <author initials="C." surname="Filsfils" fullname="Clarence Filsfils">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Bruno Decraene" initials="B." surname="Decraene">
+    <author initials="B." surname="Decraene" fullname="Bruno Decraene">
       <organization>Orange</organization>
     </author>
-    <author fullname="Pierre Francois" initials="P." surname="Francois">
+    <author initials="P." surname="Francois" fullname="Pierre Francois">
       <organization>INSA Lyon</organization>
     </author>
-    <author fullname="Daniel Voyer" initials="D." surname="Voyer">
+    <author initials="D." surname="Voyer" fullname="Daniel Voyer">
       <organization>Bell Canada</organization>
     </author>
-    <author fullname="Francois Clad" initials="F." surname="Clad">
+    <author initials="F." surname="Clad" fullname="Francois Clad">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Pablo Camarillo" initials="P." surname="Camarillo">
+    <author initials="P." surname="Camarillo" fullname="Pablo Camarillo">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2020" month="March" day="5"/>
+    <date day="05" month="March" year="2020"></date>
     <abstract>
-      <t>This document presents Topology Independent Loop-free Alternate Fast Re-route (TI-LFA), aimed at providing protection of node and adjacency segments within the Segment Routing (SR) framework. This Fast Re-route (FRR) behavior builds on proven IP-FRR concepts being LFAs, remote LFAs (RLFA), and remote LFAs with directed forwarding (DLFA). It extends these concepts to provide guaranteed coverage in any IGP network. A key aspect of TI-LFA is the FRR path selection approach establishing protection over the expected post-convergence paths from the point of local repair, dramatically reducing the operational need to control the tie-breaks among various FRR options.</t>
+      <t>   This document presents Topology Independent Loop-free Alternate Fast
+   Re-route (TI-LFA), aimed at providing protection of node and
+   adjacency segments within the Segment Routing (SR) framework.  This
+   Fast Re-route (FRR) behavior builds on proven IP-FRR concepts being
+   LFAs, remote LFAs (RLFA), and remote LFAs with directed forwarding
+   (DLFA).  It extends these concepts to provide guaranteed coverage in
+   any IGP network.  A key aspect of TI-LFA is the FRR path selection
+   approach establishing protection over the expected post-convergence
+   paths from the point of local repair, dramatically reducing the
+   operational need to control the tie-breaks among various FRR options.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-rtgwg-segment-routing-ti-lfa-03"/>
 </reference>

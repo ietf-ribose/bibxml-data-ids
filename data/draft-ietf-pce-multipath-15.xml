@@ -1,37 +1,50 @@
 <reference anchor="I-D.ietf-pce-multipath" target="https://datatracker.ietf.org/doc/html/draft-ietf-pce-multipath-15">
   <front>
     <title>Path Computation Element Communication Protocol (PCEP) Extensions for Signaling Multipath Information</title>
-    <author fullname="Mike Koldychev" initials="M." surname="Koldychev">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pce-multipath-15"/>
+    <author initials="M." surname="Koldychev" fullname="Mike Koldychev">
       <organization>Ciena Corporation</organization>
     </author>
-    <author fullname="Siva Sivabalan" initials="S." surname="Sivabalan">
+    <author initials="S." surname="Sivabalan" fullname="Siva Sivabalan">
       <organization>Ciena Corporation</organization>
     </author>
-    <author fullname="Tarek Saad" initials="T." surname="Saad">
+    <author initials="T." surname="Saad" fullname="Tarek Saad">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Vishnu Pavan Beeram" initials="V. P." surname="Beeram">
+    <author initials="V. P." surname="Beeram" fullname="Vishnu Pavan Beeram">
       <organization>Juniper Networks, Inc.</organization>
     </author>
-    <author fullname="Hooman Bidgoli" initials="H." surname="Bidgoli">
+    <author initials="H." surname="Bidgoli" fullname="Hooman Bidgoli">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Bhupendra Yadav" initials="B." surname="Yadav">
+    <author initials="B." surname="Yadav" fullname="Bhupendra Yadav">
       <organization>Ciena</organization>
     </author>
-    <author fullname="Shuping Peng" initials="S." surname="Peng">
+    <author initials="S." surname="Peng" fullname="Shuping Peng">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Gyan Mishra" initials="G. S." surname="Mishra">
+    <author initials="G. S." surname="Mishra" fullname="Gyan Mishra">
       <organization>Verizon Inc.</organization>
     </author>
-    <author fullname="Samuel Sidor" initials="S." surname="Sidor">
+    <author initials="S." surname="Sidor" fullname="Samuel Sidor">
       <organization>Cisco Systems.</organization>
     </author>
-    <date year="2025" month="October" day="16"/>
+    <date day="16" month="October" year="2025"></date>
     <abstract>
-      <t>Certain traffic engineering path computation problems require solutions that consist of multiple traffic paths that together form a solution. Returning a single traffic path does not provide a valid solution. This document defines mechanisms to encode multiple paths for a single set of objectives and constraints. This allows encoding of multiple Segment Lists per Candidate Path within a Segment Routing Policy. The new Path Computation Element Communication Protocol (PCEP) mechanisms are designed to be generic, where possible, to allow for future re-use outside of SR Policy. The new PCEP mechanisms are applicable to both stateless and stateful PCEP. Additionally, this document updates RFC 8231 to allow encoding of multiple Segment Lists in PCEP.</t>
+      <t>   Certain traffic engineering path computation problems require
+   solutions that consist of multiple traffic paths that together form a
+   solution.  Returning a single traffic path does not provide a valid
+   solution.  This document defines mechanisms to encode multiple paths
+   for a single set of objectives and constraints.  This allows encoding
+   of multiple Segment Lists per Candidate Path within a Segment Routing
+   Policy.  The new Path Computation Element Communication Protocol
+   (PCEP) mechanisms are designed to be generic, where possible, to
+   allow for future re-use outside of SR Policy.  The new PCEP
+   mechanisms are applicable to both stateless and stateful PCEP.
+   Additionally, this document updates RFC 8231 to allow encoding of
+   multiple Segment Lists in PCEP.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-pce-multipath-15"/>
 </reference>

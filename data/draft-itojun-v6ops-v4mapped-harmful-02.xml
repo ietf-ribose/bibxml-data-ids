@@ -1,16 +1,27 @@
 <reference anchor="I-D.itojun-v6ops-v4mapped-harmful" target="https://datatracker.ietf.org/doc/html/draft-itojun-v6ops-v4mapped-harmful-02">
   <front>
     <title>IPv4-Mapped Addresses on the Wire Considered Harmful</title>
-    <author fullname="Christopher Y. Metz" initials="C. Y." surname="Metz">
-      <organization/>
-    </author>
-    <author fullname="Jun-ichiro Itoh" initials="J." surname="Itoh">
+    <seriesInfo name="Internet-Draft" value="draft-itojun-v6ops-v4mapped-harmful-02"/>
+    <author initials="C. Y." surname="Metz" fullname="Christopher Y. Metz"/>
+    <author initials="J." surname="Itoh" fullname="Jun-ichiro Itoh">
       <organization>Research Lab</organization>
     </author>
-    <date year="2003" month="October" day="23"/>
+    <date day="23" month="October" year="2003"></date>
     <abstract>
-      <t>The IPv6 Addressing Architecture [Hinden, 1998] defines the 'IPv4-mapped IPv6 address.' These addresses are used in the IPv6 basic API [Gilligan, 1999] to denote IPv4 addresses using AF_INET6 sockets. These addresses are used in protocol proposals such as SIIT [Nordmark, 2000] to denote IPv6 communication using AF_INET6 sockets. Therefore, IPv4-mapped addresses have two different meanings, and they are not distinguishable from the user-land applications. This draft discusses security threats due to this ambiguity of IPv4-mapped address. It also discusses threats due to the additional complexities introduced by IPv4-mapped addresses. Finally, it proposes to resolve these problems by forbidding protocols from using IPv4-mapped addresses for IPv6 communications.</t>
+      <t>The IPv6 Addressing Architecture [Hinden, 1998] defines the 'IPv4-mapped
+IPv6 address.'  These addresses are used in the IPv6 basic API
+[Gilligan, 1999] to denote IPv4 addresses using AF_INET6 sockets.  These
+addresses are used in protocol proposals such as SIIT [Nordmark, 2000]
+to denote IPv6 communication using AF_INET6 sockets.  Therefore,
+IPv4-mapped addresses have two different meanings, and they are not
+distinguishable from the user-land applications.
+
+This draft discusses security threats due to this ambiguity of
+IPv4-mapped address.  It also discusses threats due to the additional
+complexities introduced by IPv4-mapped addresses.  Finally, it proposes
+to resolve these problems by forbidding protocols from using IPv4-mapped
+addresses for IPv6 communications.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-itojun-v6ops-v4mapped-harmful-02"/>
 </reference>

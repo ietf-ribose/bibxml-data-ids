@@ -1,16 +1,29 @@
 <reference anchor="I-D.vandemeent-tibet-provenance" target="https://datatracker.ietf.org/doc/html/draft-vandemeent-tibet-provenance-01">
   <front>
     <title>TIBET: Transaction/Interaction-Based Evidence Trail</title>
-    <author fullname="Jasper van de Meent" initials="J." surname="van de Meent">
+    <seriesInfo name="Internet-Draft" value="draft-vandemeent-tibet-provenance-01"/>
+    <author initials="J." surname="van de Meent" fullname="Jasper van de Meent">
       <organization>Humotica</organization>
     </author>
-    <author fullname="Root AI" initials="R." surname="AI">
+    <author initials="R." surname="AI" fullname="Root AI">
       <organization>Humotica</organization>
     </author>
-    <date year="2026" month="March" day="29"/>
+    <date day="29" month="March" year="2026"></date>
     <abstract>
-      <t>This document defines TIBET (Transaction/Interaction-Based Evidence Trail), a data model and protocol for constructing cryptographically linked provenance chains over interactions between autonomous agents, human actors, and automated processes. A TIBET token captures four dimensions of provenance: content (ERIN), references (ERAAN), context (EROMHEEN), and intent (ERACHTER). Tokens are cryptographically signed, hash-chained, and designed for append-only storage. TIBET is transport-agnostic and encoding-flexible, with JSON over HTTPS as the baseline serialization. This document specifies the token data model, chain semantics, canonicalization rules, verification procedures, and integration points with companion protocols JIS [JIS], UPIP [UPIP], RVP [RVP], and AINS [AINS].</t>
+      <t>   This document defines TIBET (Transaction/Interaction-Based Evidence
+   Trail), a data model and protocol for constructing cryptographically
+   linked provenance chains over interactions between autonomous agents,
+   human actors, and automated processes.  A TIBET token captures four
+   dimensions of provenance: content (ERIN), references (ERAAN), context
+   (EROMHEEN), and intent (ERACHTER).  Tokens are cryptographically
+   signed, hash-chained, and designed for append-only storage.  TIBET is
+   transport-agnostic and encoding-flexible, with JSON over HTTPS as the
+   baseline serialization.  This document specifies the token data
+   model, chain semantics, canonicalization rules, verification
+   procedures, and integration points with companion protocols JIS
+   [JIS], UPIP [UPIP], RVP [RVP], and AINS [AINS].
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-vandemeent-tibet-provenance-01"/>
 </reference>

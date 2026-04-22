@@ -1,16 +1,25 @@
 <reference anchor="I-D.pfister-bier-over-ipv6" target="https://datatracker.ietf.org/doc/html/draft-pfister-bier-over-ipv6-01">
   <front>
     <title>An IPv6 based BIER Encapsulation and Encoding</title>
-    <author fullname="Pierre Pfister" initials="P." surname="Pfister">
+    <seriesInfo name="Internet-Draft" value="draft-pfister-bier-over-ipv6-01"/>
+    <author initials="P." surname="Pfister" fullname="Pierre Pfister">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
+    <author initials="I." surname="Wijnands" fullname="IJsbrand Wijnands">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2016" month="October" day="31"/>
+    <date day="31" month="October" year="2016"></date>
     <abstract>
-      <t>This document specifies the packet format and procedures for transporting IPv6 payloads to multiple IPv6 destinations using the Bit Index Explicit Replication (BIER). The BIER BitString is stored within the low-order bits of the IPv6 destination address while the high-order bits are used for unicast forwarding before entering the destination BIER domain, identifying whether a packet is a BIER packet, the destination Sub-Domain, the Set Identifier and the BitString length.</t>
+      <t>   This document specifies the packet format and procedures for
+   transporting IPv6 payloads to multiple IPv6 destinations using the
+   Bit Index Explicit Replication (BIER).  The BIER BitString is stored
+   within the low-order bits of the IPv6 destination address while the
+   high-order bits are used for unicast forwarding before entering the
+   destination BIER domain, identifying whether a packet is a BIER
+   packet, the destination Sub-Domain, the Set Identifier and the
+   BitString length.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-pfister-bier-over-ipv6-01"/>
 </reference>

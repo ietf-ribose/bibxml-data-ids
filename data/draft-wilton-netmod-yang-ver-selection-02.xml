@@ -1,25 +1,35 @@
 <reference anchor="I-D.wilton-netmod-yang-ver-selection" target="https://datatracker.ietf.org/doc/html/draft-wilton-netmod-yang-ver-selection-02">
   <front>
     <title>YANG Schema Selection</title>
-    <author fullname="Robert Wilton" initials="R." surname="Wilton">
+    <seriesInfo name="Internet-Draft" value="draft-wilton-netmod-yang-ver-selection-02"/>
+    <author initials="R." surname="Wilton" fullname="Robert Wilton">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Reshad Rahman" initials="R." surname="Rahman">
+    <author initials="R." surname="Rahman" fullname="Reshad Rahman">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Joe Clarke" initials="J." surname="Clarke">
+    <author initials="J." surname="Clarke" fullname="Joe Clarke">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Jason Sterne" initials="J." surname="Sterne">
+    <author initials="J." surname="Sterne" fullname="Jason Sterne">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Bo Wu" initials="B." surname="Wu">
+    <author initials="B." surname="Wu" fullname="Bo Wu">
       <organization>Huawei</organization>
     </author>
-    <date year="2020" month="February" day="28"/>
+    <date day="28" month="February" year="2020"></date>
     <abstract>
-      <t>This document defines a mechanism to allow clients, using NETCONF or RESTCONF, to configure and select YANG schema for interactions with a server. This functionality can help servers support clients using older revisions of YANG modules even if later revisions contain non- backwards-compatible changes. It can also be used to allow clients to select between YANG schema defined by different organizations. This draft provides a solution to YANG versioning requirements 3.1 and 3.2.</t>
+      <t>   This document defines a mechanism to allow clients, using NETCONF or
+   RESTCONF, to configure and select YANG schema for interactions with a
+   server.  This functionality can help servers support clients using
+   older revisions of YANG modules even if later revisions contain non-
+   backwards-compatible changes.  It can also be used to allow clients
+   to select between YANG schema defined by different organizations.
+
+   This draft provides a solution to YANG versioning requirements 3.1
+   and 3.2.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wilton-netmod-yang-ver-selection-02"/>
 </reference>

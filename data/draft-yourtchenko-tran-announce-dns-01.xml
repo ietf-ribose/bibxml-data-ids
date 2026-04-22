@@ -1,16 +1,23 @@
 <reference anchor="I-D.yourtchenko-tran-announce-dns" target="https://datatracker.ietf.org/doc/html/draft-yourtchenko-tran-announce-dns-01">
   <front>
     <title>A la carte: Announcing the supported transport protocols via DNS</title>
-    <author fullname="Andrew Yourtchenko" initials="A." surname="Yourtchenko">
+    <seriesInfo name="Internet-Draft" value="draft-yourtchenko-tran-announce-dns-01"/>
+    <author initials="A." surname="Yourtchenko" fullname="Andrew Yourtchenko">
       <organization>cisco</organization>
     </author>
-    <author fullname="Dan Wing" initials="D." surname="Wing">
+    <author initials="D." surname="Wing" fullname="Dan Wing">
       <organization>cisco</organization>
     </author>
-    <date year="2010" month="March" day="31"/>
+    <date day="31" month="March" year="2010"></date>
     <abstract>
-      <t>While TCP has enjoyed many enhancements over the decades, it is useful to allow applications to use new transports, such as SCTP. It is inefficient to naively probe the server using the new transport protocol. This document proposes a new DNS resource record which provides an efficient way to query which protocols are supported by a server. The presence of this record will allow the client to avoid the excessive probing.</t>
+      <t>While TCP has enjoyed many enhancements over the decades, it is
+useful to allow applications to use new transports, such as SCTP.  It
+is inefficient to naively probe the server using the new transport
+protocol.  This document proposes a new DNS resource record which
+provides an efficient way to query which protocols are supported by a
+server.  The presence of this record will allow the client to avoid
+the excessive probing.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-yourtchenko-tran-announce-dns-01"/>
 </reference>

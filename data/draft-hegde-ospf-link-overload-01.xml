@@ -1,22 +1,36 @@
 <reference anchor="I-D.hegde-ospf-link-overload" target="https://datatracker.ietf.org/doc/html/draft-hegde-ospf-link-overload-01">
   <front>
     <title>OSPF Link Overload</title>
-    <author fullname="Shraddha Hegde" initials="S." surname="Hegde">
+    <seriesInfo name="Internet-Draft" value="draft-hegde-ospf-link-overload-01"/>
+    <author initials="S." surname="Hegde" fullname="Shraddha Hegde">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Hannes Gredler" initials="H." surname="Gredler">
+    <author initials="H." surname="Gredler" fullname="Hannes Gredler">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Mohan Nanduri" initials="M." surname="Nanduri">
+    <author initials="M." surname="Nanduri" fullname="Mohan Nanduri">
       <organization>Microsoft Corporation</organization>
     </author>
-    <author fullname="Luay Jalil" initials="L." surname="Jalil">
+    <author initials="L." surname="Jalil" fullname="Luay Jalil">
       <organization>Verizon</organization>
     </author>
-    <date year="2015" month="July" day="19"/>
+    <date day="19" month="July" year="2015"></date>
     <abstract>
-      <t>Many OSPFv2 or OSPFv3 deployments run on overlay networks provisioned by means of pseudo-wires or L2-circuits. when the devices in the underlying network go for maintenance, it is useful to divert the traffic away from the node before the maintenance is actually scheduled. Since the nodes in the underlying network are not visible to OSPF, existing stub router mechanism described in [RFC3137] cannot be used. It is useful for routers in OSPFv2 or OSPFv3 routing domain to be able to advertise a link being in overload state to indicate impending maintenance activity in the underlying network devices. This document describes the protocol extensions to disseminate link overload information in OSPFv2 and OSPFv3 protocol.</t>
+      <t>   Many OSPFv2 or OSPFv3 deployments run on overlay networks provisioned
+   by means of pseudo-wires or L2-circuits.  when the devices in the
+   underlying network go for maintenance, it is useful to divert the
+   traffic away from the node before the maintenance is actually
+   scheduled.  Since the nodes in the underlying network are not visible
+   to OSPF, existing stub router mechanism described in [RFC3137] cannot
+   be used.  It is useful for routers in OSPFv2 or OSPFv3 routing domain
+   to be able to advertise a link being in overload state to indicate
+   impending maintenance activity in the underlying network devices.
+
+   This document describes the protocol extensions to disseminate link
+   overload information in OSPFv2 and OSPFv3 protocol.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hegde-ospf-link-overload-01"/>
 </reference>

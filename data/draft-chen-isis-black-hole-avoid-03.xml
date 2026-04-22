@@ -1,19 +1,29 @@
 <reference anchor="I-D.chen-isis-black-hole-avoid" target="https://datatracker.ietf.org/doc/html/draft-chen-isis-black-hole-avoid-03">
   <front>
     <title>Avoiding Traffic Black-Holes for Route Aggregation in IS-IS</title>
-    <author fullname="Zhe Chen" initials="Z." surname="Chen">
+    <seriesInfo name="Internet-Draft" value="draft-chen-isis-black-hole-avoid-03"/>
+    <author initials="Z." surname="Chen" fullname="Zhe Chen">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Xiaohu Xu" initials="X." surname="Xu">
+    <author initials="X." surname="Xu" fullname="Xiaohu Xu">
       <organization>Alibaba</organization>
     </author>
-    <author fullname="Dean Cheng" initials="D." surname="Cheng">
+    <author initials="D." surname="Cheng" fullname="Dean Cheng">
       <organization>Huawei</organization>
     </author>
-    <date year="2018" month="September" day="6"/>
+    <date day="06" month="September" year="2018"></date>
     <abstract>
-      <t>When the Intermediate System to Intermediate System (IS-IS) routing protocol is adopted by a highly symmetric network such as the Leaf- Spine or Fat-Tree network, the Leaf nodes (e.g., Top of Rack switches in datacenters) are recommended to be prevented from receiving other nodes' explicit routes in order to achieve scalability. However, such a setup would cause traffic black-holes or suboptimal routing if link failure happens in the network. This document introduces INFINITE cost to IS-IS LSPs to solve this problem.</t>
+      <t>   When the Intermediate System to Intermediate System (IS-IS) routing
+   protocol is adopted by a highly symmetric network such as the Leaf-
+   Spine or Fat-Tree network, the Leaf nodes (e.g., Top of Rack switches
+   in datacenters) are recommended to be prevented from receiving other
+   nodes' explicit routes in order to achieve scalability.  However,
+   such a setup would cause traffic black-holes or suboptimal routing if
+   link failure happens in the network.  This document introduces
+   INFINITE cost to IS-IS LSPs to solve this problem.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-chen-isis-black-hole-avoid-03"/>
 </reference>

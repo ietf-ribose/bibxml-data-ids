@@ -1,25 +1,31 @@
 <reference anchor="I-D.ietf-extra-imap-uidonly" target="https://datatracker.ietf.org/doc/html/draft-ietf-extra-imap-uidonly-06">
   <front>
     <title>IMAP Extension for only using and returning UIDs</title>
-    <author fullname="Alexey Melnikov" initials="A." surname="Melnikov">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-extra-imap-uidonly-06"/>
+    <author initials="A." surname="Melnikov" fullname="Alexey Melnikov">
       <organization>Isode Limited</organization>
     </author>
-    <author fullname="ArunPrakash Achuthan" initials="A." surname="Achuthan">
+    <author initials="A." surname="Achuthan" fullname="ArunPrakash Achuthan">
       <organization>Yahoo Inc.</organization>
     </author>
-    <author fullname="Vikram Nagulakonda" initials="V." surname="Nagulakonda">
+    <author initials="V." surname="Nagulakonda" fullname="Vikram Nagulakonda">
       <organization>Yahoo Inc.</organization>
     </author>
-    <author fullname="Ashutosh Singh" initials="A." surname="Singh">
+    <author initials="A." surname="Singh" fullname="Ashutosh Singh">
       <organization>Yahoo Inc.</organization>
     </author>
-    <author fullname="Luis Alves" initials="L." surname="Alves">
-      <organization/>
-    </author>
-    <date year="2023" month="December" day="5"/>
+    <author initials="L." surname="Alves" fullname="Luis Alves"/>
+    <date day="05" month="December" year="2023"></date>
     <abstract>
-      <t>The UIDONLY extension to the Internet Message Access Protocol (RFC 3501/RFC 9051) allows clients to enable a mode in which information about mailbox changes is returned using only UIDs. Message numbers are not returned in responses, and can't be used in requests once this extension is enabled. This helps both clients and servers to reduce resource usage required to maintain a map between message numbers and UIDs.</t>
+      <t>   The UIDONLY extension to the Internet Message Access Protocol (RFC
+   3501/RFC 9051) allows clients to enable a mode in which information
+   about mailbox changes is returned using only UIDs.  Message numbers
+   are not returned in responses, and can't be used in requests once
+   this extension is enabled.  This helps both clients and servers to
+   reduce resource usage required to maintain a map between message
+   numbers and UIDs.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-extra-imap-uidonly-06"/>
 </reference>

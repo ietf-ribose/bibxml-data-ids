@@ -1,28 +1,31 @@
 <reference anchor="I-D.jen-apt" target="https://datatracker.ietf.org/doc/html/draft-jen-apt-01">
   <front>
     <title>APT: A Practical Transit Mapping Service</title>
-    <author fullname="Dan Jen" initials="D." surname="Jen">
-      <organization/>
-    </author>
-    <author fullname="Michael Meisel" initials="M." surname="Meisel">
-      <organization/>
-    </author>
-    <author fullname="Dan Massey" initials="D." surname="Massey">
-      <organization/>
-    </author>
-    <author fullname="Lan Wang" initials="L." surname="Wang">
-      <organization/>
-    </author>
-    <author fullname="Beichuan Zhang" initials="B." surname="Zhang">
-      <organization/>
-    </author>
-    <author fullname="Lixia Zhang" initials="L." surname="Zhang">
-      <organization/>
-    </author>
-    <date year="2007" month="November" day="19"/>
+    <seriesInfo name="Internet-Draft" value="draft-jen-apt-01"/>
+    <author initials="D." surname="Jen" fullname="Dan Jen"/>
+    <author initials="M." surname="Meisel" fullname="Michael Meisel"/>
+    <author initials="D." surname="Massey" fullname="Dan Massey"/>
+    <author initials="L." surname="Wang" fullname="Lan Wang"/>
+    <author initials="B." surname="Zhang" fullname="Beichuan Zhang"/>
+    <author initials="L." surname="Zhang" fullname="Lixia Zhang"/>
+    <date day="19" month="November" year="2007"></date>
     <abstract>
-      <t>The size of the global routing table is a rapidly growing problem. Several solutions have been proposed. These solutions commonly divide the Internet into two address spaces, one for determining the delivery location, and one to use during transit. Packets destined for delivery addresses are tunneled through the default-free zone (DFZ), which uses only transit addresses. For this process to work, there must be a mapping service that can supply an appropriate destination transit address for any given delivery address. We present a design for such a mapping service. We adhere to a "do no harm" design philosophy: maintain all desirable features of the current architecture without negatively affecting its security or reliability. Our design aims to minimize delay and prevent loss in packet encapsulation, minimize the number of modifications to existing hardware, minimize the number of new devices, and keep the level of control traffic manageable.</t>
+      <t>The size of the global routing table is a rapidly growing problem.
+Several solutions have been proposed.  These solutions commonly
+divide the Internet into two address spaces, one for determining the
+delivery location, and one to use during transit.  Packets destined
+for delivery addresses are tunneled through the default-free zone
+(DFZ), which uses only transit addresses.  For this process to work,
+there must be a mapping service that can supply an appropriate
+destination transit address for any given delivery address.  We
+present a design for such a mapping service.  We adhere to a "do no
+harm" design philosophy: maintain all desirable features of the
+current architecture without negatively affecting its security or
+reliability.  Our design aims to minimize delay and prevent loss in
+packet encapsulation, minimize the number of modifications to
+existing hardware, minimize the number of new devices, and keep the
+level of control traffic manageable.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-jen-apt-01"/>
 </reference>

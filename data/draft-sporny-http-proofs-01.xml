@@ -1,13 +1,24 @@
 <reference anchor="I-D.sporny-http-proofs" target="https://datatracker.ietf.org/doc/html/draft-sporny-http-proofs-01">
   <front>
     <title>Proof-based Authentication for HTTP Messages</title>
-    <author fullname="Manu Sporny" initials="M." surname="Sporny">
+    <seriesInfo name="Internet-Draft" value="draft-sporny-http-proofs-01"/>
+    <author initials="M." surname="Sporny" fullname="Manu Sporny">
       <organization>D. Longley</organization>
     </author>
-    <date year="2015" month="June" day="27"/>
+    <date day="27" month="June" year="2015"></date>
     <abstract>
-      <t>For a client to access a particular resource on the Web, a server must expend a certain amount of computational effort to respond to the request. In some cases this computational effort is sizeable and the server may want to only respond to certain clients. For example, in a distributed denial-of-service attack, a server may require all clients to expend a certain amount of resources via a client-run proof-of-work algorithm to throttle the number of incoming requests to a more manageable number. This document details a new authentication scheme for HTTP that may be used to request and transmit proofs in HTTP headers.</t>
+      <t>   For a client to access a particular resource on the Web, a server
+   must expend a certain amount of computational effort to respond to
+   the request.  In some cases this computational effort is sizeable and
+   the server may want to only respond to certain clients.  For example,
+   in a distributed denial-of-service attack, a server may require all
+   clients to expend a certain amount of resources via a client-run
+   proof-of-work algorithm to throttle the number of incoming requests
+   to a more manageable number.  This document details a new
+   authentication scheme for HTTP that may be used to request and
+   transmit proofs in HTTP headers.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sporny-http-proofs-01"/>
 </reference>

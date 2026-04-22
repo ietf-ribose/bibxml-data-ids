@@ -1,25 +1,45 @@
 <reference anchor="I-D.delregno-pwe3-vccv-mandatory-features" target="https://datatracker.ietf.org/doc/html/draft-delregno-pwe3-vccv-mandatory-features-02">
   <front>
     <title>Mandatory Features of Virtual Circuit Connectivity Verification Implementations</title>
-    <author fullname="Nick Del Regno" initials="N. D." surname="Regno">
+    <seriesInfo name="Internet-Draft" value="draft-delregno-pwe3-vccv-mandatory-features-02"/>
+    <author initials="N. D." surname="Regno" fullname="Nick Del Regno">
       <organization>Verizon</organization>
     </author>
-    <author fullname="Vishwas Manral" initials="V." surname="Manral">
+    <author initials="V." surname="Manral" fullname="Vishwas Manral">
       <organization>IPInfusion Inc.</organization>
     </author>
-    <author fullname="Ruediger Kunze" initials="R." surname="Kunze">
+    <author initials="R." surname="Kunze" fullname="Ruediger Kunze">
       <organization>Deutsche Telekom</organization>
     </author>
-    <author fullname="Manuel Paul" initials="M." surname="Paul">
+    <author initials="M." surname="Paul" fullname="Manuel Paul">
       <organization>Deutsche Telekom</organization>
     </author>
-    <author fullname="Thomas Nadeau" initials="T." surname="Nadeau">
+    <author initials="T." surname="Nadeau" fullname="Thomas Nadeau">
       <organization>Huawei</organization>
     </author>
-    <date year="2010" month="October" day="15"/>
+    <date day="15" month="October" year="2010"></date>
     <abstract>
-      <t>Pseudowire Virtual Circuit Connectivity Verification (VCCV) [RFC5085] defines several Control Channel (CC) Types for MPLS PW's, none of which are preferred or mandatory. As a result, independent implementations of different subsets of the three options have resulted in interoperability challenges. In RFC5085 the CV type of LSP Ping is made the default for MPLS PW's and ICMP Ping is made optional. This however, is a recommendation and not a requirement for implementations which can also lead to interoperability challenges. To enable interoperability between implementations, this document defines a subset of control channels that is considered mandatory for VCCV implementation. This will ensure that VCCV remains the valuable tool it was designed to be in multi-vendor, multi-implementation and multi-carrier networks. This document also states requirements for the CV type too. This draft is specific to MPLS PW's and not L2TPv3 PW. For the L2TPv3 PW only one CC and CV type are specified and the issues raised in this draft do not arise.</t>
+      <t>Pseudowire Virtual Circuit Connectivity Verification (VCCV) [RFC5085]
+defines several Control Channel (CC) Types for MPLS PW's , none of
+which are preferred or mandatory.  As a result, independent
+implementations of different subsets of the three options have
+resulted in interoperability challenges.  In RFC5085 the CV type of
+LSP Ping is made the default for MPLS PW's and ICMP Ping is made
+optional.  This however, is a recommendation and not a requirement
+for implementations which can also lead to interoperability
+challenges.
+
+To enable interoperability between implementations, this document
+defines a subset of control channels that is considered mandatory for
+VCCV implementation.  This will ensure that VCCV remains the valuable
+tool it was designed to be in multi-vendor, multi-implementation and
+multi-carrier networks.  This document also states requirements for
+the CV type too.
+
+This draft is specific to MPLS PW's and not L2TPv3 PW.  For the
+L2TPv3 PW only one CC and CV type are specified and the issues raised
+in this draft do not arise.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-delregno-pwe3-vccv-mandatory-features-02"/>
 </reference>

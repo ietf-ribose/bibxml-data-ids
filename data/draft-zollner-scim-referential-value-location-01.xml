@@ -1,13 +1,24 @@
 <reference anchor="I-D.zollner-scim-referential-value-location" target="https://datatracker.ietf.org/doc/html/draft-zollner-scim-referential-value-location-01">
   <front>
     <title>SCIM Referential Value Location Extension</title>
-    <author fullname="Danny Zollner" initials="D." surname="Zollner">
+    <seriesInfo name="Internet-Draft" value="draft-zollner-scim-referential-value-location-01"/>
+    <author initials="D." surname="Zollner" fullname="Danny Zollner">
       <organization>Microsoft</organization>
     </author>
-    <date year="2022" month="July" day="29"/>
+    <date day="29" month="July" year="2022"></date>
     <abstract>
-      <t>The System for Cross-domain Identity Management standard's schema RFC [RFC7643], as well as custom schemas, may have attribute values that have a finite set of acceptable values. These acceptable values are frequently tied to a value on another resource. For instance, an organization may only allow values in the Enterprise User schema's costCenter attribute that are valid identifiers of cost centers defined in another location. This draft aims to provide a way for a SCIM client to determine if an attribute in a schema is limited to a specific set of values, and where those values may be located on another SCIM resource type.</t>
+      <t>   The System for Cross-domain Identity Management standard's schema RFC
+   [RFC7643], as well as custom schemas, may have attribute values that
+   have a finite set of acceptable values.  These acceptable values are
+   frequently tied to a value on another resource.  For instance, an
+   organization may only allow values in the Enterprise User schema's
+   costCenter attribute that are valid identifiers of cost centers
+   defined in another location.  This draft aims to provide a way for a
+   SCIM client to determine if an attribute in a schema is limited to a
+   specific set of values, and where those values may be located on
+   another SCIM resource type.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-zollner-scim-referential-value-location-01"/>
 </reference>

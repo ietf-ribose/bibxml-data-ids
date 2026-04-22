@@ -1,22 +1,34 @@
 <reference anchor="I-D.irtf-cfrg-bbs-signatures" target="https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-bbs-signatures-06">
   <front>
     <title>The BBS Signature Scheme</title>
-    <author fullname="Tobias Looker" initials="T." surname="Looker">
+    <seriesInfo name="Internet-Draft" value="draft-irtf-cfrg-bbs-signatures-06"/>
+    <author initials="T." surname="Looker" fullname="Tobias Looker">
       <organization>MATTR</organization>
     </author>
-    <author fullname="Vasilis Kalos" initials="V." surname="Kalos">
+    <author initials="V." surname="Kalos" fullname="Vasilis Kalos">
       <organization>MATTR</organization>
     </author>
-    <author fullname="Andrew Whitehead" initials="A." surname="Whitehead">
+    <author initials="A." surname="Whitehead" fullname="Andrew Whitehead">
       <organization>Portage</organization>
     </author>
-    <author fullname="Mike Lodder" initials="M." surname="Lodder">
+    <author initials="M." surname="Lodder" fullname="Mike Lodder">
       <organization>CryptID</organization>
     </author>
-    <date year="2024" month="June" day="26"/>
+    <date day="26" month="June" year="2024"></date>
     <abstract>
-      <t>This document describes the BBS Signature scheme, a secure, multi- message digital signature protocol, supporting proving knowledge of a signature while selectively disclosing any subset of the signed messages. Concretely, the scheme allows for signing multiple messages whilst producing a single, constant size, digital signature. Additionally, the possessor of a BBS signatures is able to create zero-knowledge, proofs-of-knowledge of a signature, while selectively disclosing subsets of the signed messages. Being zero-knowledge, the BBS proofs do not reveal any information about the undisclosed messages or the signature it self, while at the same time, guarantying the authenticity and integrity of the disclosed messages.</t>
+      <t>   This document describes the BBS Signature scheme, a secure, multi-
+   message digital signature protocol, supporting proving knowledge of a
+   signature while selectively disclosing any subset of the signed
+   messages.  Concretely, the scheme allows for signing multiple
+   messages whilst producing a single, constant size, digital signature.
+   Additionally, the possessor of a BBS signatures is able to create
+   zero-knowledge, proofs-of-knowledge of a signature, while selectively
+   disclosing subsets of the signed messages.  Being zero-knowledge, the
+   BBS proofs do not reveal any information about the undisclosed
+   messages or the signature it self, while at the same time,
+   guarantying the authenticity and integrity of the disclosed messages.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-irtf-cfrg-bbs-signatures-06"/>
 </reference>

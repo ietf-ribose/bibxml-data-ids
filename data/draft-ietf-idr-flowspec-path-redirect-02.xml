@@ -1,19 +1,31 @@
 <reference anchor="I-D.ietf-idr-flowspec-path-redirect" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-flowspec-path-redirect-02">
   <front>
     <title>Flowspec Indirection-id Redirect</title>
-    <author fullname="Gunter Van de Velde" initials="G." surname="Van de Velde">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-flowspec-path-redirect-02"/>
+    <author initials="G." surname="Van de Velde" fullname="Gunter Van de Velde">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
+    <author initials="K." surname="Patel" fullname="Keyur Patel">
       <organization>Arrcus</organization>
     </author>
-    <author fullname="Zhenbin Li" initials="Z." surname="Li">
+    <author initials="Z." surname="Li" fullname="Zhenbin Li">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2017" month="August" day="30"/>
+    <date day="30" month="August" year="2017"></date>
     <abstract>
-      <t>This document defines a new extended community known as flowspec redirect-to-indirection-id. This extended community triggers advanced redirection capabilities to flowspec clients. When activated, this flowspec extended community is used by a flowspec client to find the correct next-hop information within a localised indirection-id mapping table. The functionality detailed in this document allows a network controller to decouple the BGP flowspec redirection instruction from the actual redirection path selected.</t>
+      <t>   This document defines a new extended community known as flowspec
+   redirect-to-indirection-id.  This extended community triggers
+   advanced redirection capabilities to flowspec clients.  When
+   activated, this flowspec extended community is used by a flowspec
+   client to find the correct next-hop information within a localised
+   indirection-id mapping table.
+
+   The functionality detailed in this document allows a network
+   controller to decouple the BGP flowspec redirection instruction from
+   the actual redirection path selected.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-flowspec-path-redirect-02"/>
 </reference>

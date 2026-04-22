@@ -1,13 +1,23 @@
 <reference anchor="I-D.sullivan-domain-origin-assert" target="https://datatracker.ietf.org/doc/html/draft-sullivan-domain-origin-assert-02">
   <front>
     <title>Asserting DNS Administrative Boundaries Within DNS Zones</title>
-    <author fullname="Andrew Sullivan" initials="A." surname="Sullivan">
+    <seriesInfo name="Internet-Draft" value="draft-sullivan-domain-origin-assert-02"/>
+    <author initials="A." surname="Sullivan" fullname="Andrew Sullivan">
       <organization>Dyn, Inc.</organization>
     </author>
-    <date year="2012" month="October" day="22"/>
+    <date day="22" month="October" year="2012"></date>
     <abstract>
-      <t>Some clients on the Internet make inferences about the administrative relationships among servers on the Internet based on the domain names of those servers. Perhaps unfortunately, it is not currently possible to detect the real administrative boundaries in the DNS, and therefore such inferences can go wrong in several ways. Mitigation strategies deployed so far will not scale. The solution to this is to provide a way to make an explicit assertion about the relationships between different domain names and perhaps the services provided at them.</t>
+      <t>   Some clients on the Internet make inferences about the administrative
+   relationships among servers on the Internet based on the domain names
+   of those servers.  Perhaps unfortunately, it is not currently
+   possible to detect the real administrative boundaries in the DNS, and
+   therefore such inferences can go wrong in several ways.  Mitigation
+   strategies deployed so far will not scale.  The solution to this is
+   to provide a way to make an explicit assertion about the
+   relationships between different domain names and perhaps the services
+   provided at them.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sullivan-domain-origin-assert-02"/>
 </reference>

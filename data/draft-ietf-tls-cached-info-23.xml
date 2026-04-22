@@ -1,16 +1,17 @@
 <reference anchor="I-D.ietf-tls-cached-info" target="https://datatracker.ietf.org/doc/html/draft-ietf-tls-cached-info-23">
   <front>
     <title>Transport Layer Security (TLS) Cached Information Extension</title>
-    <author fullname="Stefan Santesson" initials="S." surname="Santesson">
-      <organization/>
-    </author>
-    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tls-cached-info-23"/>
+    <author initials="S." surname="Santesson" fullname="Stefan Santesson"/>
+    <author initials="H." surname="Tschofenig" fullname="Hannes Tschofenig">
       <organization>ARM Ltd.</organization>
     </author>
-    <date year="2016" month="May" day="11"/>
+    <date day="11" month="May" year="2016"></date>
     <abstract>
-      <t>Transport Layer Security (TLS) handshakes often include fairly static information, such as the server certificate and a list of trusted certification authorities (CAs). This information can be of considerable size, particularly if the server certificate is bundled with a complete certificate chain (i.e., the certificates of intermediate CAs up to the root CA). This document defines an extension that allows a TLS client to inform a server of cached information, thereby enabling the server to omit already available information.</t>
+      <t>Transport Layer Security (TLS) handshakes often include fairly static information, such as the server certificate and a list of trusted certification authorities (CAs). This information can be of considerable size, particularly if the server certificate is bundled with a complete certificate chain (i.e., the certificates of intermediate CAs up to the root CA).
+
+ This document defines an extension that allows a TLS client to inform a server of cached information, thereby enabling the server to omit already available information.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-tls-cached-info-23"/>
 </reference>

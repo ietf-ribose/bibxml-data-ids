@@ -1,34 +1,31 @@
 <reference anchor="I-D.kumar-sfc-nsh-forwarding" target="https://datatracker.ietf.org/doc/html/draft-kumar-sfc-nsh-forwarding-00">
   <front>
     <title>Infrastructure Service Forwarding For NSH</title>
-    <author fullname="Surendra Kumar" initials="S." surname="Kumar">
-      <organization/>
-    </author>
-    <author fullname="Kent Leung" initials="K." surname="Leung">
-      <organization/>
-    </author>
-    <author fullname="Peter Bosch" initials="P." surname="Bosch">
-      <organization/>
-    </author>
-    <author fullname="Dongkee Lee" initials="D." surname="Lee">
-      <organization/>
-    </author>
-    <author fullname="Rajeev Manur" initials="R." surname="Manur">
-      <organization/>
-    </author>
-    <author fullname="Andrew Dolganow" initials="A." surname="Dolganow">
-      <organization/>
-    </author>
-    <author fullname="Sumandra Majee" initials="S." surname="Majee">
-      <organization/>
-    </author>
-    <author fullname="Joel M. Halpern" initials="J. M." surname="Halpern">
-      <organization/>
-    </author>
-    <date year="2016" month="February" day="15"/>
+    <seriesInfo name="Internet-Draft" value="draft-kumar-sfc-nsh-forwarding-00"/>
+    <author initials="S." surname="Kumar" fullname="Surendra Kumar"/>
+    <author initials="K." surname="Leung" fullname="Kent Leung"/>
+    <author initials="P." surname="Bosch" fullname="Peter Bosch"/>
+    <author initials="D." surname="Lee" fullname="Dongkee Lee"/>
+    <author initials="R." surname="Manur" fullname="Rajeev Manur"/>
+    <author initials="A." surname="Dolganow" fullname="Andrew Dolganow"/>
+    <author initials="S." surname="Majee" fullname="Sumandra Majee"/>
+    <author initials="J. M." surname="Halpern" fullname="Joel M. Halpern"/>
+    <date day="15" month="February" year="2016"></date>
     <abstract>
-      <t>This draft describes the separation of service forwarding function and service delivery function abstractions, along with the mechanics of NSH encapsulated packet forwarding with such separation, in SFC deployments. This separation frees the service functions from making forwarding decisions and the necessary control plane integration, thereby keeping the service functions simple and focused on service delivery. Further, this separation fully contains the forwarding decisions in forwarding functions, thereby allowing implementations to enforce integrity of the forwarding state carried in NSH which in turn is required for correctly forwarding NSH encapsulated packets.</t>
+      <t>   This draft describes the separation of service forwarding function
+   and service delivery function abstractions, along with the mechanics
+   of NSH encapsulated packet forwarding with such separation, in SFC
+   deployments.
+
+   This separation frees the service functions from making forwarding
+   decisions and the necessary control plane integration, thereby
+   keeping the service functions simple and focused on service delivery.
+   Further, this separation fully contains the forwarding decisions in
+   forwarding functions, thereby allowing implementations to enforce
+   integrity of the forwarding state carried in NSH which in turn is
+   required for correctly forwarding NSH encapsulated packets.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kumar-sfc-nsh-forwarding-00"/>
 </reference>

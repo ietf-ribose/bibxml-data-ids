@@ -1,19 +1,29 @@
 <reference anchor="I-D.pfeiffenberger-prtokens" target="https://datatracker.ietf.org/doc/html/draft-pfeiffenberger-prtokens-00">
   <front>
     <title>Probabilistic Reveal Tokens</title>
-    <author fullname="Philipp Pfeiffenberger" initials="P." surname="Pfeiffenberger">
+    <seriesInfo name="Internet-Draft" value="draft-pfeiffenberger-prtokens-00"/>
+    <author initials="P." surname="Pfeiffenberger" fullname="Philipp Pfeiffenberger">
       <organization>Google</organization>
     </author>
-    <author fullname="Jonathan S. Katz" initials="J. S." surname="Katz">
+    <author initials="J. S." surname="Katz" fullname="Jonathan S. Katz">
       <organization>Google</organization>
     </author>
-    <author fullname="Theodore Olsauskas-Warren" initials="T." surname="Olsauskas-Warren">
+    <author initials="T." surname="Olsauskas-Warren" fullname="Theodore Olsauskas-Warren">
       <organization>Google</organization>
     </author>
-    <date year="2025" month="July" day="21"/>
+    <date day="21" month="July" year="2025"></date>
     <abstract>
-      <t>Fraud detection often relies on high-entropy signals that can also be used to track users across sites. Probabilistic Reveal Tokens (PRTs) attempt to balance the needs of fraud detection and tracking prevention by sampling at a rate that is too low for scaled cross- site tracking, but sufficient for fraud detection in aggregate scenarios. This document describes the PRT protocol, which allows browsers to reveal sensitive signals (e.g., IP address) on a per-site basis with provable probability p_reveal, while websites can use PRTs to measure traffic quality and update denylists.</t>
+      <t>   Fraud detection often relies on high-entropy signals that can also be
+   used to track users across sites.  Probabilistic Reveal Tokens (PRTs)
+   attempt to balance the needs of fraud detection and tracking
+   prevention by sampling at a rate that is too low for scaled cross-
+   site tracking, but sufficient for fraud detection in aggregate
+   scenarios.  This document describes the PRT protocol, which allows
+   browsers to reveal sensitive signals (e.g., IP address) on a per-site
+   basis with provable probability p_reveal, while websites can use PRTs
+   to measure traffic quality and update denylists.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-pfeiffenberger-prtokens-00"/>
 </reference>

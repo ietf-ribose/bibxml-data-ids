@@ -1,22 +1,31 @@
 <reference anchor="I-D.hildebrand-nfsv4-ioadvise" target="https://datatracker.ietf.org/doc/html/draft-hildebrand-nfsv4-ioadvise-02">
   <front>
     <title>Support for Application IO Hints</title>
-    <author fullname="Dean Hildebrand" initials="D." surname="Hildebrand">
+    <seriesInfo name="Internet-Draft" value="draft-hildebrand-nfsv4-ioadvise-02"/>
+    <author initials="D." surname="Hildebrand" fullname="Dean Hildebrand">
       <organization>IBM Almaden</organization>
     </author>
-    <author fullname="Mike Eisler" initials="M." surname="Eisler">
+    <author initials="M." surname="Eisler" fullname="Mike Eisler">
       <organization>NetApp</organization>
     </author>
-    <author fullname="Trond Myklebust" initials="T." surname="Myklebust">
+    <author initials="T." surname="Myklebust" fullname="Trond Myklebust">
       <organization>NetApp</organization>
     </author>
-    <author fullname="Sam Falkner" initials="S." surname="Falkner">
+    <author initials="S." surname="Falkner" fullname="Sam Falkner">
       <organization>Oracle</organization>
     </author>
-    <date year="2011" month="October" day="11"/>
+    <date day="11" month="October" year="2011"></date>
     <abstract>
-      <t>This document proposes a new IO_ADVISE operation for NFSv4.2 that clients can use to communicate expected I/O behavior to the server. By communicating future I/O behavior such as whether a file will be accessed sequentially or randomly, and whether a file will or will not be accessed in the near future, servers can optimize future I/O requests for a file by, for example, prefetching or evicting data. This operation can be used to support the posix_fadvise function as well as other applications such as databases and video editors.</t>
+      <t>   This document proposes a new IO_ADVISE operation for NFSv4.2 that
+   clients can use to communicate expected I/O behavior to the server.
+   By communicating future I/O behavior such as whether a file will be
+   accessed sequentially or randomly, and whether a file will or will
+   not be accessed in the near future, servers can optimize future I/O
+   requests for a file by, for example, prefetching or evicting data.
+   This operation can be used to support the posix_fadvise function as
+   well as other applications such as databases and video editors.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hildebrand-nfsv4-ioadvise-02"/>
 </reference>

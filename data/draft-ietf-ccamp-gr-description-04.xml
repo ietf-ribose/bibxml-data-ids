@@ -1,22 +1,31 @@
 <reference anchor="I-D.ietf-ccamp-gr-description" target="https://datatracker.ietf.org/doc/html/draft-ietf-ccamp-gr-description-04">
   <front>
     <title>Description of the Resource Reservation Protocol - Traffic-Engineered (RSVP-TE) Graceful Restart Procedures</title>
-    <author fullname="Snigdho Bardalai" initials="S." surname="Bardalai">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ccamp-gr-description-04"/>
+    <author initials="S." surname="Bardalai" fullname="Snigdho Bardalai">
       <organization>Fujitsu</organization>
     </author>
-    <author fullname="Arun Satyanarayana" initials="A." surname="Satyanarayana">
+    <author initials="A." surname="Satyanarayana" fullname="Arun Satyanarayana">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Jianhua Gao" initials="J." surname="Gao">
+    <author initials="J." surname="Gao" fullname="Jianhua Gao">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Dan Li" initials="D." surname="Li">
+    <author initials="D." surname="Li" fullname="Dan Li">
       <organization>Huawei</organization>
     </author>
-    <date year="2009" month="January" day="20"/>
+    <date day="20" month="January" year="2009"></date>
     <abstract>
-      <t>The Hello message for the Resource Reservation Protocol (RSVP) has been defined to establish and maintain basic signaling node adjacencies for Label Switching Routers (LSRs) participating in a Multiprotocol Label Switching (MPLS) traffic-engineered (TE) network. The Hello message has been extended for use in Generalized MPLS (GMPLS) networks for state recovery of control channel or nodal faults. The GMPLS protocol definitions for RSVP also allow a restarting node to learn which label it previously allocated for use on a Label Switched Path (LSP). Further RSVP protocol extensions have been defined to enable a restarting node to recover full control plane state by exchanging RSVP messages with its upstream and downstream neighbors. This document provides an informational clarification of the control plane procedures for a GMPLS network when there are multiple node failures, and describes how full control plane state can be recovered in different scenarios where the order in which the nodes restart is different. This document does not define any new processes or procedures. All protocol mechanisms are already defined in the referenced documents. This memo provides information for the Internet community.</t>
+      <t>The Hello message for the Resource Reservation Protocol (RSVP) has been defined to establish and maintain basic signaling node adjacencies for Label Switching Routers (LSRs) participating in a Multiprotocol Label Switching (MPLS) traffic-engineered (TE) network. The Hello message has been extended for use in Generalized MPLS (GMPLS) networks for state recovery of control channel or nodal faults.
+
+ The GMPLS protocol definitions for RSVP also allow a restarting node to learn which label it previously allocated for use on a Label Switched Path (LSP).
+
+ Further RSVP protocol extensions have been defined to enable a restarting node to recover full control plane state by exchanging RSVP messages with its upstream and downstream neighbors.
+
+ This document provides an informational clarification of the control plane procedures for a GMPLS network when there are multiple node failures, and describes how full control plane state can be recovered in different scenarios where the order in which the nodes restart is different.
+
+ This document does not define any new processes or procedures. All protocol mechanisms are already defined in the referenced documents. This memo provides information for the Internet community.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ccamp-gr-description-04"/>
 </reference>

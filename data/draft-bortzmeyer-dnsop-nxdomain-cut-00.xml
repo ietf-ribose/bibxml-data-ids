@@ -1,13 +1,20 @@
 <reference anchor="I-D.bortzmeyer-dnsop-nxdomain-cut" target="https://datatracker.ietf.org/doc/html/draft-bortzmeyer-dnsop-nxdomain-cut-00">
   <front>
     <title>NXDOMAIN really means there is nothing underneath</title>
-    <author fullname="Stéphane Bortzmeyer" initials="S." surname="Bortzmeyer">
-      <organization/>
-    </author>
-    <date year="2015" month="November" day="6"/>
+    <seriesInfo name="Internet-Draft" value="draft-bortzmeyer-dnsop-nxdomain-cut-00"/>
+    <author initials="S." surname="Bortzmeyer" fullname="Stéphane Bortzmeyer"/>
+    <date day="06" month="November" year="2015"></date>
     <abstract>
-      <t>This document states clearly that when a DNS resolver receives a response with status code NXDOMAIN, it means that the name in the question section AND ALL THE NAMES UNDER IT do not exist. REMOVE BEFORE PUBLICATION: this document should be discussed in the IETF DNSOP (DNS Operations) group, through its mailing list. The source of the document, as well as a list of open issues, is currently kept on at Github [1].</t>
+      <t>   This document states clearly that when a DNS resolver receives a
+   response with status code NXDOMAIN, it means that the name in the
+   question section AND ALL THE NAMES UNDER IT do not exist.
+
+   REMOVE BEFORE PUBLICATION: this document should be discussed in the
+   IETF DNSOP (DNS Operations) group, through its mailing list.  The
+   source of the document, as well as a list of open issues, is
+   currently kept on at Github [1].
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-bortzmeyer-dnsop-nxdomain-cut-00"/>
 </reference>

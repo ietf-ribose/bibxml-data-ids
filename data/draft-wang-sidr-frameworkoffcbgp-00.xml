@@ -1,25 +1,33 @@
 <reference anchor="I-D.wang-sidr-frameworkoffcbgp" target="https://datatracker.ietf.org/doc/html/draft-wang-sidr-frameworkoffcbgp-00">
   <front>
     <title>Framework of Forwarding Commitment BGP</title>
-    <author fullname="Ke Xu" initials="K." surname="Xu">
+    <seriesInfo name="Internet-Draft" value="draft-wang-sidr-frameworkoffcbgp-00"/>
+    <author initials="K." surname="Xu" fullname="Ke Xu">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Xiaoliang Wang" initials="X." surname="Wang">
+    <author initials="X." surname="Wang" fullname="Xiaoliang Wang">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Zhuotao liu" initials="Z." surname="liu">
+    <author initials="Z." surname="liu" fullname="Zhuotao liu">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Li Qi" initials="L." surname="Qi">
+    <author initials="L." surname="Qi" fullname="Li Qi">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Jianping Wu" initials="J." surname="Wu">
+    <author initials="J." surname="Wu" fullname="Jianping Wu">
       <organization>Tsinghua University</organization>
     </author>
-    <date year="2023" month="October" day="23"/>
+    <date day="23" month="October" year="2023"></date>
     <abstract>
-      <t>This document defines a standard profile for the framework of Forwarding Commitment BGP (FC-BGP). Forwarding Commitment（FC）is a cryptographically signed code to certify an AS's routing intent on its directly connected hops. Based on FC, the goal of FC-BGP is to build a secure inter-domain system that can simultaneously authenticate AS_PATH attribute in BGP-UPDATE and validate network forwarding on the dataplane.</t>
+      <t>   This document defines a standard profile for the framework of
+   Forwarding Commitment BGP (FC-BGP).  Forwarding Commitment（FC）is a
+   cryptographically signed code to certify an AS's routing intent on
+   its directly connected hops.  Based on FC, the goal of FC-BGP is to
+   build a secure inter-domain system that can simultaneously
+   authenticate AS_PATH attribute in BGP-UPDATE and validate network
+   forwarding on the dataplane.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wang-sidr-frameworkoffcbgp-00"/>
 </reference>

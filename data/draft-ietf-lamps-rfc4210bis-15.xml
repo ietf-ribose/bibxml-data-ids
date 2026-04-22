@@ -1,22 +1,45 @@
 <reference anchor="I-D.ietf-lamps-rfc4210bis" target="https://datatracker.ietf.org/doc/html/draft-ietf-lamps-rfc4210bis-15">
   <front>
     <title>Internet X.509 Public Key Infrastructure -- Certificate Management Protocol (CMP)</title>
-    <author fullname="Hendrik Brockhaus" initials="H." surname="Brockhaus">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-lamps-rfc4210bis-15"/>
+    <author initials="H." surname="Brockhaus" fullname="Hendrik Brockhaus">
       <organization>Siemens</organization>
     </author>
-    <author fullname="David von Oheimb" initials="D." surname="von Oheimb">
+    <author initials="D." surname="von Oheimb" fullname="David von Oheimb">
       <organization>Siemens</organization>
     </author>
-    <author fullname="Mike Ounsworth" initials="M." surname="Ounsworth">
+    <author initials="M." surname="Ounsworth" fullname="Mike Ounsworth">
       <organization>Entrust</organization>
     </author>
-    <author fullname="John Gray" initials="J." surname="Gray">
+    <author initials="J." surname="Gray" fullname="John Gray">
       <organization>Entrust</organization>
     </author>
-    <date year="2024" month="November" day="18"/>
+    <date day="18" month="November" year="2024"></date>
     <abstract>
-      <t>This document describes the Internet X.509 Public Key Infrastructure (PKI) Certificate Management Protocol (CMP). Protocol messages are defined for X.509v3 certificate creation and management. CMP provides interactions between client systems and PKI components such as a Registration Authority (RA) and a Certification Authority (CA). This document adds support for management of KEM certificates and use EnvelopedData instead of EncryptedValue. This document also includes the updates specified in Section 2 and Appendix A.2 of RFC 9480. The updates maintain backward compatibility with CMP version 2 wherever possible. Updates to CMP version 2 are improving crypto agility, extending the polling mechanism, adding new general message types, and adding extended key usages to identify special CMP server authorizations. CMP version 3 is introduced for changes to the ASN.1 syntax, which are support of EnvelopedData, certConf with hashAlg, POPOPrivKey with agreeMAC, and RootCaKeyUpdateContent in ckuann messages. This document obsoletes RFC 4210 and together with I-D.ietf-lamps- rfc6712bis and it also obsoletes RFC 9480. Appendix F of this document updates the Section 9 of RFC 5912.</t>
+      <t>   This document describes the Internet X.509 Public Key Infrastructure
+   (PKI) Certificate Management Protocol (CMP).  Protocol messages are
+   defined for X.509v3 certificate creation and management.  CMP
+   provides interactions between client systems and PKI components such
+   as a Registration Authority (RA) and a Certification Authority (CA).
+
+   This document adds support for management of KEM certificates and use
+   EnvelopedData instead of EncryptedValue.  This document also includes
+   the updates specified in Section 2 and Appendix A.2 of RFC 9480.
+
+   The updates maintain backward compatibility with CMP version 2
+   wherever possible.  Updates to CMP version 2 are improving crypto
+   agility, extending the polling mechanism, adding new general message
+   types, and adding extended key usages to identify special CMP server
+   authorizations.  CMP version 3 is introduced for changes to the ASN.1
+   syntax, which are support of EnvelopedData, certConf with hashAlg,
+   POPOPrivKey with agreeMAC, and RootCaKeyUpdateContent in ckuann
+   messages.
+
+   This document obsoletes RFC 4210 and together with I-D.ietf-lamps-
+   rfc6712bis and it also obsoletes RFC 9480.  Appendix F of this
+   document updates the Section 9 of RFC 5912.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-lamps-rfc4210bis-15"/>
 </reference>

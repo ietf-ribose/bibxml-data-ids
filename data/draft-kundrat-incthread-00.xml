@@ -1,13 +1,20 @@
 <reference anchor="I-D.kundrat-incthread" target="https://datatracker.ietf.org/doc/html/draft-kundrat-incthread-00">
   <front>
     <title>IMAP Extension for Incremental Threading (INCTHREAD)</title>
-    <author fullname="Jan Kundrat" initials="J." surname="Kundrat">
-      <organization/>
-    </author>
-    <date year="2012" month="August" day="25"/>
+    <seriesInfo name="Internet-Draft" value="draft-kundrat-incthread-00"/>
+    <author initials="J." surname="Kundrat" fullname="Jan Kundrat"/>
+    <date day="25" month="August" year="2012"></date>
     <abstract>
-      <t>This document describes the INCTHREAD IMAP extension which enables clients to retrieve incremental updates of the mailbox threading. The extension repurposes the ESEARCH response for passing along the threading information and builds on top of Arnt Gulbrandsen's work on the INTHREAD search key. The UID THREAD command is also extended to allow activating this extension. Together, these changes make it possible for clients not to fetch the complete mailbox threading each time a new message arrives.</t>
+      <t>   This document describes the INCTHREAD IMAP extension which enables
+   clients to retrieve incremental updates of the mailbox threading.
+   The extension repurposes the ESEARCH response for passing along the
+   threading information and builds on top of Arnt Gulbrandsen's work on
+   the INTHREAD search key.  The UID THREAD command is also extended to
+   allow activating this extension.  Together, these changes make it
+   possible for clients not to fetch the complete mailbox threading each
+   time a new message arrives.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kundrat-incthread-00"/>
 </reference>

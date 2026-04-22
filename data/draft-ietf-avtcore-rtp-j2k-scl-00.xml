@@ -1,17 +1,22 @@
 <reference anchor="I-D.ietf-avtcore-rtp-j2k-scl" target="https://datatracker.ietf.org/doc/html/draft-ietf-avtcore-rtp-j2k-scl-00">
   <front>
     <title>RTP Payload Format for sub-codestream latency JPEG 2000 streaming</title>
-    <author fullname="Pierre-Anthony Lemieux" initials="P." surname="Lemieux">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-avtcore-rtp-j2k-scl-00"/>
+    <author initials="P." surname="Lemieux" fullname="Pierre-Anthony Lemieux">
       <organization>Sandflow Consulting LLC</organization>
     </author>
-    <author fullname="David Scott Taubman" initials="D. S." surname="Taubman">
+    <author initials="D. S." surname="Taubman" fullname="David Scott Taubman">
       <organization>University of New
       South Wales</organization>
     </author>
-    <date year="2023" month="November" day="17"/>
+    <date day="17" month="November" year="2023"></date>
     <abstract>
-      <t>This RTP payload format defines the streaming of a video signal encoded as a sequence of JPEG 2000 codestreams. The format allows sub-codestream latency, such that the first RTP packet for a given codestream can be emitted before the entire codestream is available.</t>
+      <t>   This RTP payload format defines the streaming of a video signal
+   encoded as a sequence of JPEG 2000 codestreams.  The format allows
+   sub-codestream latency, such that the first RTP packet for a given
+   codestream can be emitted before the entire codestream is available.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-avtcore-rtp-j2k-scl-00"/>
 </reference>

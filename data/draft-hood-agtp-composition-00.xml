@@ -1,13 +1,26 @@
 <reference anchor="I-D.hood-agtp-composition" target="https://datatracker.ietf.org/doc/html/draft-hood-agtp-composition-00">
   <front>
     <title>AGTP Composition with Agent Group Messaging Protocols</title>
-    <author fullname="Chris Hood" initials="C." surname="Hood">
+    <seriesInfo name="Internet-Draft" value="draft-hood-agtp-composition-00"/>
+    <author initials="C." surname="Hood" fullname="Chris Hood">
       <organization>Nomotic, Inc.</organization>
     </author>
-    <date year="2026" month="March" day="23"/>
+    <date day="23" month="March" year="2026"></date>
     <abstract>
-      <t>Agent Group Messaging Protocols (AGMPs) -- including the Model Context Protocol (MCP), the Agent-to-Agent Protocol (A2A), and the Agent Communication Protocol (ACP) -- define what AI agents say to each other. The Agent Transfer Protocol (AGTP) defines how those messages move across a network. This document specifies how AGMP messages are carried over AGTP as a transport substrate, providing normative mapping rules for identity, authority scope, delegation, and session fields between the AGMP and AGTP layers. AGTP headers take precedence over equivalent AGMP payload fields for all infrastructure-level routing, enforcement, and audit operations. Agents gain transport-level governance, observability, and identity without modification to the AGMP layer.</t>
+      <t>   Agent Group Messaging Protocols (AGMPs) -- including the Model
+   Context Protocol (MCP), the Agent-to-Agent Protocol (A2A), and the
+   Agent Communication Protocol (ACP) -- define what AI agents say to
+   each other.  The Agent Transfer Protocol (AGTP) defines how those
+   messages move across a network.  This document specifies how AGMP
+   messages are carried over AGTP as a transport substrate, providing
+   normative mapping rules for identity, authority scope, delegation,
+   and session fields between the AGMP and AGTP layers.  AGTP headers
+   take precedence over equivalent AGMP payload fields for all
+   infrastructure-level routing, enforcement, and audit operations.
+   Agents gain transport-level governance, observability, and identity
+   without modification to the AGMP layer.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hood-agtp-composition-00"/>
 </reference>

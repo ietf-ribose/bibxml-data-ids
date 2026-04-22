@@ -1,25 +1,37 @@
 <reference anchor="I-D.ietf-mpls-spring-inter-domain-oam" target="https://datatracker.ietf.org/doc/html/draft-ietf-mpls-spring-inter-domain-oam-16">
   <front>
     <title>Path Monitoring System/Head-end based MPLS Ping and Traceroute in Inter-domain Segment Routing Networks</title>
-    <author fullname="Shraddha Hegde" initials="S." surname="Hegde">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-spring-inter-domain-oam-16"/>
+    <author initials="S." surname="Hegde" fullname="Shraddha Hegde">
       <organization>Juniper Networks Inc.</organization>
     </author>
-    <author fullname="Kapil Arora" initials="K." surname="Arora">
+    <author initials="K." surname="Arora" fullname="Kapil Arora">
       <organization>Individual Contributor</organization>
     </author>
-    <author fullname="Mukul Srivastava" initials="M." surname="Srivastava">
+    <author initials="M." surname="Srivastava" fullname="Mukul Srivastava">
       <organization>Juniper Networks Inc.</organization>
     </author>
-    <author fullname="Samson Ninan" initials="S." surname="Ninan">
+    <author initials="S." surname="Ninan" fullname="Samson Ninan">
       <organization>Ciena</organization>
     </author>
-    <author fullname="Nagendra Kumar Nainar" initials="N. K." surname="Nainar">
+    <author initials="N. K." surname="Nainar" fullname="Nagendra Kumar Nainar">
       <organization>Oracle</organization>
     </author>
-    <date year="2024" month="May" day="22"/>
+    <date day="22" month="May" year="2024"></date>
     <abstract>
-      <t>The Segment Routing (SR) architecture leverages source routing and can be directly applied to the use of an MPLS data plane. An SR-MPLS network may consist of multiple IGP domains or multiple Autonomous Systems(ASes) under the control of the same organization. It is useful to have the Label Switched Path (LSP) ping and traceroute procedures when an SR end-to-end path traverses multiple ASes or domains. This document describes mechanisms to facilitate LSP ping and traceroute in inter-AS and inter-domain SR-MPLS networks efficiently with a simple Operations, Administration and Maintenance (OAM) protocol extension which uses data plane forwarding alone for forwarding echo replies on transit nodes.</t>
+      <t>   The Segment Routing (SR) architecture leverages source routing and
+   can be directly applied to the use of an MPLS data plane.  An SR-MPLS
+   network may consist of multiple IGP domains or multiple Autonomous
+   Systems(ASes) under the control of the same organization.  It is
+   useful to have the Label Switched Path (LSP) ping and traceroute
+   procedures when an SR end-to-end path traverses multiple ASes or
+   domains.  This document describes mechanisms to facilitate LSP ping
+   and traceroute in inter-AS and inter-domain SR-MPLS networks
+   efficiently with a simple Operations, Administration and Maintenance
+   (OAM) protocol extension which uses data plane forwarding alone for
+   forwarding echo replies on transit nodes.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-spring-inter-domain-oam-16"/>
 </reference>

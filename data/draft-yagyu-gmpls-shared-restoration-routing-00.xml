@@ -2,19 +2,29 @@
   <front>
     <title>Extensions to OSPF-TE for supporting shared mesh restoration
 </title>
-    <author fullname="Tomohiko Yagyu" initials="T." surname="Yagyu">
-      <organization/>
-    </author>
-    <author fullname="Yoshihiko Suemura" initials="Y." surname="Suemura">
-      <organization/>
-    </author>
-    <author fullname="Aleksandar Kolarov" initials="A." surname="Kolarov">
+    <seriesInfo name="Internet-Draft" value="draft-yagyu-gmpls-shared-restoration-routing-00"/>
+    <author initials="T." surname="Yagyu" fullname="Tomohiko Yagyu"/>
+    <author initials="Y." surname="Suemura" fullname="Yoshihiko Suemura"/>
+    <author initials="A." surname="Kolarov" fullname="Aleksandar Kolarov">
       <organization>NEC Corporation</organization>
     </author>
-    <date year="2002" month="June" day="3"/>
+    <date day="03" month="June" year="2002"></date>
     <abstract>
-      <t>Shared mesh restoration technique efficiently uses network resources since restoration capacity is shared across multiple independent failures. In this scheme, when a new working LSP is established, its corresponding backup LSP is pre-calculated and resources along the restoration route are reserved. The resources reserved on each link along the restoration path may be shared across different working LSPs that are not expected to fail simultaneously. To make the method for selection of backup LSPs more efficient in terms of utilization of network resources, each link should provide the route calculator with information about its restoration capacity and SRLGs of working LSPs whose backup LSPs share the link restoration capacity. In this document we propose extensions to OSPF-TE in support of carrying link 'Sharable Bandwidth' information.</t>
+      <t>Shared mesh restoration technique efficiently uses network resources
+since restoration capacity is shared across multiple independent
+failures. In this scheme, when a new working LSP is established, its
+corresponding backup LSP is pre-calculated and resources along the
+restoration route are reserved. The resources reserved on each link
+along the restoration path may be shared across different working
+LSPs that are not expected to fail simultaneously. To make the method
+for selection of backup LSPs more efficient in terms of utilization
+of network resources, each link should provide the route calculator
+with information about its restoration capacity and SRLGs of working
+LSPs whose backup LSPs share the link restoration capacity. In this
+document we propose extensions to OSPF-TE in support of carrying link
+'Sharable Bandwidth' information.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-yagyu-gmpls-shared-restoration-routing-00"/>
 </reference>

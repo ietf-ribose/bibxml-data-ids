@@ -1,16 +1,25 @@
 <reference anchor="I-D.black-pnfs-block" target="https://datatracker.ietf.org/doc/html/draft-black-pnfs-block-02">
   <front>
     <title>pNFS Block/Volume Layout</title>
-    <author fullname="David L. Black" initials="D. L." surname="Black">
+    <seriesInfo name="Internet-Draft" value="draft-black-pnfs-block-02"/>
+    <author initials="D. L." surname="Black" fullname="David L. Black">
       <organization>EMC Corporation</organization>
     </author>
-    <author fullname="Stephen Fridella" initials="S." surname="Fridella">
+    <author initials="S." surname="Fridella" fullname="Stephen Fridella">
       <organization>EMC Corporation</organization>
     </author>
-    <date year="2005" month="October" day="24"/>
+    <date day="24" month="October" year="2005"></date>
     <abstract>
-      <t>Parallel NFS (pNFS) extends NFSv4 to allow clients to directly access file data on the storage used by the NFSv4 server. This ability to bypass the server for data access can increase both performance and parallelism, but requires additional client functionality for data access, some of which is dependent on the class of storage used. The main pNFS operations draft specifies storage-class-independent extensions to NFS; this draft specifies the additional extensions (primarily data structures) for use of pNFS with block and volume based storage.</t>
+      <t>   Parallel NFS (pNFS) extends NFSv4 to allow clients to directly access 
+   file data on the storage used by the NFSv4 server.  This ability to 
+   bypass the server for data access can increase both performance and 
+   parallelism, but requires additional client functionality for data 
+   access, some of which is dependent on the class of storage used.  The 
+   main pNFS operations draft specifies storage-class-independent 
+   extensions to NFS; this draft specifies the additional extensions 
+   (primarily data structures) for use of pNFS with block and volume 
+   based storage. 
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-black-pnfs-block-02"/>
 </reference>

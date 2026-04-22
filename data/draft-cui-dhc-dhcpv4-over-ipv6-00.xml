@@ -1,22 +1,31 @@
 <reference anchor="I-D.cui-dhc-dhcpv4-over-ipv6" target="https://datatracker.ietf.org/doc/html/draft-cui-dhc-dhcpv4-over-ipv6-00">
   <front>
     <title>DHCPv4 over IPv6 transport</title>
-    <author fullname="Yong Cui" initials="Y." surname="Cui">
+    <seriesInfo name="Internet-Draft" value="draft-cui-dhc-dhcpv4-over-ipv6-00"/>
+    <author initials="Y." surname="Cui" fullname="Yong Cui">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Peng Wu" initials="P." surname="Wu">
+    <author initials="P." surname="Wu" fullname="Peng Wu">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Jianping Wu" initials="J." surname="Wu">
+    <author initials="J." surname="Wu" fullname="Jianping Wu">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Ted Lemon" initials="T." surname="Lemon">
+    <author initials="T." surname="Lemon" fullname="Ted Lemon">
       <organization>Nominum, Inc.</organization>
     </author>
-    <date year="2011" month="October" day="20"/>
+    <date day="20" month="October" year="2011"></date>
     <abstract>
-      <t>Recently, there are demands arising for IPv4 address allocation under IPv6 environment, especially in IPv6 transition scenarios. This document describes the mechanism to survive DHCPv4 over IPv6 network. DHCPv4 messages are transported in IPv6 packets when traversing the IPv6 network. DHCPv4 protocol behavior is extended to support this IPv6 transport. And for the relay case, a new suboption of the Relay Agent Information Option is defined to carry the remote IPv6 address of the clients.</t>
+      <t>   Recently, there are demands arising for IPv4 address allocation under
+   IPv6 environment, especially in IPv6 transition scenarios.  This
+   document describes the mechanism to survive DHCPv4 over IPv6 network.
+   DHCPv4 messages are transported in IPv6 packets when traversing the
+   IPv6 network.  DHCPv4 protocol behavior is extended to support this
+   IPv6 transport.  And for the relay case, a new suboption of the Relay
+   Agent Information Option is defined to carry the remote IPv6 address
+   of the clients.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-cui-dhc-dhcpv4-over-ipv6-00"/>
 </reference>

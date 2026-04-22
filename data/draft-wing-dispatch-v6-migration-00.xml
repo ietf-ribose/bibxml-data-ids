@@ -1,16 +1,26 @@
 <reference anchor="I-D.wing-dispatch-v6-migration" target="https://datatracker.ietf.org/doc/html/draft-wing-dispatch-v6-migration-00">
   <front>
     <title>Migrating SIP to IPv6 Media Without Connectivity Checks</title>
-    <author fullname="Dan Wing" initials="D." surname="Wing">
+    <seriesInfo name="Internet-Draft" value="draft-wing-dispatch-v6-migration-00"/>
+    <author initials="D." surname="Wing" fullname="Dan Wing">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Andrew Yourtchenko" initials="A." surname="Yourtchenko">
+    <author initials="A." surname="Yourtchenko" fullname="Andrew Yourtchenko">
       <organization>Cisco</organization>
     </author>
-    <date year="2010" month="August" day="27"/>
+    <date day="27" month="August" year="2010"></date>
     <abstract>
-      <t>During the migration from IPv4 to IPv6, it is anticipated that an IPv6 path might be broken for a variety of reasons, causing endpoints to not receive RTP data. Connectivity checks would detect and avoid the user noticing such a problem, but there is industry reluctance to implement connectivity checks. This document describes a mechanism allowing dual-stack SIP endpoints to attempt communications over IPv6 and fall back to IPv4 if the IPv6 path is not working. The mechanism does not require connectivity checks.</t>
+      <t>During the migration from IPv4 to IPv6, it is anticipated that an
+IPv6 path might be broken for a variety of reasons, causing endpoints
+to not receive RTP data.  Connectivity checks would detect and avoid
+the user noticing such a problem, but there is industry reluctance to
+implement connectivity checks.
+
+This document describes a mechanism allowing dual-stack SIP endpoints
+to attempt communications over IPv6 and fall back to IPv4 if the IPv6
+path is not working.  The mechanism does not require connectivity
+checks.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wing-dispatch-v6-migration-00"/>
 </reference>

@@ -1,22 +1,23 @@
 <reference anchor="I-D.ietf-tsvwg-sctp-dtls-encaps" target="https://datatracker.ietf.org/doc/html/draft-ietf-tsvwg-sctp-dtls-encaps-09">
   <front>
     <title>Datagram Transport Layer Security (DTLS) Encapsulation of SCTP Packets</title>
-    <author fullname="Michael Tüxen" initials="M." surname="Tüxen">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-sctp-dtls-encaps-09"/>
+    <author initials="M." surname="Tüxen" fullname="Michael Tüxen">
       <organization>Muenster Univ. of Appl. Sciences</organization>
     </author>
-    <author fullname="Randall R. Stewart" initials="R. R." surname="Stewart">
+    <author initials="R. R." surname="Stewart" fullname="Randall R. Stewart">
       <organization>Netflix, Inc.</organization>
     </author>
-    <author fullname="Randell Jesup" initials="R." surname="Jesup">
+    <author initials="R." surname="Jesup" fullname="Randell Jesup">
       <organization>WorldGate Communications</organization>
     </author>
-    <author fullname="Salvatore Loreto" initials="S." surname="Loreto">
+    <author initials="S." surname="Loreto" fullname="Salvatore Loreto">
       <organization>Ericsson</organization>
     </author>
-    <date year="2015" month="January" day="24"/>
+    <date day="24" month="January" year="2015"></date>
     <abstract>
-      <t>The Stream Control Transmission Protocol (SCTP) is a transport protocol originally defined to run on top of the network protocols IPv4 or IPv6. This document specifies how SCTP can be used on top of the Datagram Transport Layer Security (DTLS) protocol. Using the encapsulation method described in this document, SCTP is unaware of the protocols being used below DTLS; hence, explicit IP addresses cannot be used in the SCTP control chunks. As a consequence, the SCTP associations carried over DTLS can only be single-homed.</t>
+      <t>The Stream Control Transmission Protocol (SCTP) is a transport protocol originally defined to run on top of the network protocols IPv4 or IPv6.  This document specifies how SCTP can be used on top of the Datagram Transport Layer Security (DTLS) protocol.  Using the encapsulation method described in this document, SCTP is unaware of the protocols being used below DTLS; hence, explicit IP addresses cannot be used in the SCTP control chunks.  As a consequence, the SCTP associations carried over DTLS can only be single-homed.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-sctp-dtls-encaps-09"/>
 </reference>

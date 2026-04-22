@@ -1,19 +1,33 @@
 <reference anchor="I-D.worley-sip-he-connection" target="https://datatracker.ietf.org/doc/html/draft-worley-sip-he-connection-01">
   <front>
     <title>Happy EarBalls: Success with Dual-Stack, Connection-Oriented SIP</title>
-    <author fullname="Olle E. Johansson" initials="O. E." surname="Johansson">
+    <seriesInfo name="Internet-Draft" value="draft-worley-sip-he-connection-01"/>
+    <author initials="O. E." surname="Johansson" fullname="Olle E. Johansson">
       <organization>Edvina AB</organization>
     </author>
-    <author fullname="Gonzalo Salgueiro" initials="G." surname="Salgueiro">
+    <author initials="G." surname="Salgueiro" fullname="Gonzalo Salgueiro">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Dale R. Worley" initials="D. R." surname="Worley">
+    <author initials="D. R." surname="Worley" fullname="Dale R. Worley">
       <organization>Ariadne</organization>
     </author>
-    <date year="2016" month="December" day="12"/>
+    <date day="12" month="December" year="2016"></date>
     <abstract>
-      <t>The Session Initiation Protocol (SIP) supports multiple transports running both over IPv4 and IPv6 protocols. In more and more cases, a SIP user agent (UA) is connected to multiple network interfaces. In these cases setting up a connection from a dual stack client to a dual stack server may suffer from the issues described in RFC 6555 [RFC6555] ("Happy Eyeballs") - significant delays in the process of setting up a working flow to a server. This negatively affects user experience. This document builds on RFC 6555 and explains how a [RFC3261] compliant SIP implementation can minimize delays when contacting a host name (obtained by using DNS NAPTR and SRV lookups) in a dual stack network using connection-oriented transport protocols.</t>
+      <t>   The Session Initiation Protocol (SIP) supports multiple transports
+   running both over IPv4 and IPv6 protocols.  In more and more cases, a
+   SIP user agent (UA) is connected to multiple network interfaces.  In
+   these cases setting up a connection from a dual stack client to a
+   dual stack server may suffer from the issues described in RFC 6555
+   [RFC6555] ("Happy Eyeballs") - significant delays in the process of
+   setting up a working flow to a server.  This negatively affects user
+   experience.
+
+   This document builds on RFC 6555 and explains how a [RFC3261]
+   compliant SIP implementation can minimize delays when contacting a
+   host name (obtained by using DNS NAPTR and SRV lookups) in a dual
+   stack network using connection-oriented transport protocols.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-worley-sip-he-connection-01"/>
 </reference>

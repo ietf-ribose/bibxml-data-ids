@@ -1,22 +1,22 @@
 <reference anchor="I-D.ietf-tsvwg-gre-in-udp-encap" target="https://datatracker.ietf.org/doc/html/draft-ietf-tsvwg-gre-in-udp-encap-05">
   <front>
     <title>GRE-in-UDP Encapsulation</title>
-    <author fullname="Edward Crabbe" initials="E." surname="Crabbe">
-      <organization/>
-    </author>
-    <author fullname="Lucy Yong" initials="L." surname="Yong">
-      <organization/>
-    </author>
-    <author fullname="Xiaohu Xu" initials="X." surname="Xu">
-      <organization/>
-    </author>
-    <author fullname="Tom Herbert" initials="T." surname="Herbert">
-      <organization/>
-    </author>
-    <date year="2015" month="March" day="6"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-gre-in-udp-encap-05"/>
+    <author initials="E." surname="Crabbe" fullname="Edward Crabbe"/>
+    <author initials="L." surname="Yong" fullname="Lucy Yong"/>
+    <author initials="X." surname="Xu" fullname="Xiaohu Xu"/>
+    <author initials="T." surname="Herbert" fullname="Tom Herbert"/>
+    <date day="06" month="March" year="2015"></date>
     <abstract>
-      <t>This document describes a method of encapsulating network protocol packets within GRE and UDP headers. In this encapsulation, the source UDP port can be used as an entropy field for purposes of load balancing, while the protocol of the encapsulated packet in the GRE payload is identified by the GRE Protocol Type. Usage restrictions apply to GRE-in-UDP usage for traffic that is not congestion controlled and to UDP zero checksum usage with IPv6.</t>
+      <t>   This document describes a method of encapsulating network protocol
+   packets within GRE and UDP headers.  In this encapsulation, the
+   source UDP port can be used as an entropy field for purposes of load
+   balancing, while the protocol of the encapsulated packet in the GRE
+   payload is identified by the GRE Protocol Type. Usage restrictions
+   apply to GRE-in-UDP usage for traffic that is not congestion
+   controlled and to UDP zero checksum usage with IPv6.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-gre-in-udp-encap-05"/>
 </reference>

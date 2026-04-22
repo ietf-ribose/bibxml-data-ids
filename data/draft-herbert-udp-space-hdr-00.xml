@@ -1,13 +1,19 @@
 <reference anchor="I-D.herbert-udp-space-hdr" target="https://datatracker.ietf.org/doc/html/draft-herbert-udp-space-hdr-00">
   <front>
     <title>UDP Surplus Space Header</title>
-    <author fullname="Tom Herbert" initials="T." surname="Herbert">
+    <seriesInfo name="Internet-Draft" value="draft-herbert-udp-space-hdr-00"/>
+    <author initials="T." surname="Herbert" fullname="Tom Herbert">
       <organization>Quantonium</organization>
     </author>
-    <date year="2019" month="March" day="11"/>
+    <date day="11" month="March" year="2019"></date>
     <abstract>
-      <t>This draft defines a header for surplus space in UDP. The UDP surplus space is bytes between the end of the UDP payload and the end of the IP packet. The purpose of the header is to disambiguate uses of the surplus space. The UDP surplus space header includes a type, length, and checksum field that covers the space.</t>
+      <t>   This draft defines a header for surplus space in UDP. The UDP surplus
+   space is bytes between the end of the UDP payload and the end of the
+   IP packet. The purpose of the header is to disambiguate uses of the
+   surplus space. The UDP surplus space header includes a type, length,
+   and checksum field that covers the space.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-herbert-udp-space-hdr-00"/>
 </reference>

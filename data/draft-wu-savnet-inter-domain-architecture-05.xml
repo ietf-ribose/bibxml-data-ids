@@ -1,31 +1,44 @@
 <reference anchor="I-D.wu-savnet-inter-domain-architecture" target="https://datatracker.ietf.org/doc/html/draft-wu-savnet-inter-domain-architecture-05">
   <front>
     <title>Inter-domain Source Address Validation (SAVNET) Architecture</title>
-    <author fullname="Jianping Wu" initials="J." surname="Wu">
+    <seriesInfo name="Internet-Draft" value="draft-wu-savnet-inter-domain-architecture-05"/>
+    <author initials="J." surname="Wu" fullname="Jianping Wu">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Dan Li" initials="D." surname="Li">
+    <author initials="D." surname="Li" fullname="Dan Li">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Mingqing Huang" initials="M." surname="Huang">
+    <author initials="M." surname="Huang" fullname="Mingqing Huang">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Li Chen" initials="L." surname="Chen">
+    <author initials="L." surname="Chen" fullname="Li Chen">
       <organization>Zhongguancun Laboratory</organization>
     </author>
-    <author fullname="Nan Geng" initials="N." surname="Geng">
+    <author initials="N." surname="Geng" fullname="Nan Geng">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Libin Liu" initials="L." surname="Liu">
+    <author initials="L." surname="Liu" fullname="Libin Liu">
       <organization>Zhongguancun Laboratory</organization>
     </author>
-    <author fullname="Lancheng Qin" initials="L." surname="Qin">
+    <author initials="L." surname="Qin" fullname="Lancheng Qin">
       <organization>Tsinghua University</organization>
     </author>
-    <date year="2023" month="October" day="23"/>
+    <date day="23" month="October" year="2023"></date>
     <abstract>
-      <t>This document introduces an inter-domain SAVNET architecture, providing a comprehensive framework for guiding the design of inter- domain SAV mechanisms. The proposed architecture empowers ASes to establish SAV rules by sharing SAV-specific Information between themselves. During the incremental or partial deployment of SAV- specific Information, it can rely on general information, such as routing information from the RIB, to construct the SAV table when SAV-specific Information for an AS's prefixes is unavailable. Rather than delving into protocol extensions or implementations, this document primarily concentrates on proposing SAV-specific and general information and guiding how to utilize them to generate SAV rules. It also defines the architectural components and their relations.</t>
+      <t>   This document introduces an inter-domain SAVNET architecture,
+   providing a comprehensive framework for guiding the design of inter-
+   domain SAV mechanisms.  The proposed architecture empowers ASes to
+   establish SAV rules by sharing SAV-specific Information between
+   themselves.  During the incremental or partial deployment of SAV-
+   specific Information, it can rely on general information, such as
+   routing information from the RIB, to construct the SAV table when
+   SAV-specific Information for an AS's prefixes is unavailable.  Rather
+   than delving into protocol extensions or implementations, this
+   document primarily concentrates on proposing SAV-specific and general
+   information and guiding how to utilize them to generate SAV rules.
+   It also defines the architectural components and their relations.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wu-savnet-inter-domain-architecture-05"/>
 </reference>

@@ -1,16 +1,26 @@
 <reference anchor="I-D.zhai-vrrp-extension-ft-fm" target="https://datatracker.ietf.org/doc/html/draft-zhai-vrrp-extension-ft-fm-00">
   <front>
     <title>Extensions to VRRP for Fast Transition of Failed Master</title>
-    <author fullname="Hongjun Zhai" initials="H." surname="Zhai">
+    <seriesInfo name="Internet-Draft" value="draft-zhai-vrrp-extension-ft-fm-00"/>
+    <author initials="H." surname="Zhai" fullname="Hongjun Zhai">
       <organization>ZTE Corporation</organization>
     </author>
-    <author fullname="Xiefeng Gong" initials="X." surname="Gong">
+    <author initials="X." surname="Gong" fullname="Xiefeng Gong">
       <organization>ZTE Corporation</organization>
     </author>
-    <date year="2010" month="October" day="17"/>
+    <date day="17" month="October" year="2010"></date>
     <abstract>
-      <t>This document extends VRRP mechanism to support fast transition of non-master router to master when the original master router (is not functioning or) becomes unavailable. Through introducing another state of router, named alternate state, when the failure of master router is detected by alternate router with fast detection technology, such as BFD, it will transmit to master immediately. Then the new master will inform other routers in its VRRP group to elect a new alternate router, and a fast detection session will be established between alternate and master routers, through which the availability of the master can be detected by alternate router.</t>
+      <t>This document extends VRRP mechanism to support fast transition of
+non-master router to master when the original master router (is not
+functioning or) becomes unavailable.  Through introducing another
+state of router, named alternate state, when the failure of master
+router is detected by alternate router with fast detection
+technology, such as BFD, it will transmit to master immediately.
+Then the new master will inform other routers in its VRRP group to
+elect a new alternate router, and a fast detection session will be
+established between alternate and master routers, through which the
+availability of the master can be detected by alternate router.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-zhai-vrrp-extension-ft-fm-00"/>
 </reference>

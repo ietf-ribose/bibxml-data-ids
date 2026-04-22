@@ -1,31 +1,48 @@
 <reference anchor="I-D.ietf-bess-evpn-ipvpn-interworking" target="https://datatracker.ietf.org/doc/html/draft-ietf-bess-evpn-ipvpn-interworking-16">
   <front>
     <title>Interconnecting EVPN and IPVPN Domains</title>
-    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bess-evpn-ipvpn-interworking-16"/>
+    <author initials="J." surname="Rabadan" fullname="Jorge Rabadan">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Ali Sajassi" initials="A." surname="Sajassi">
+    <author initials="A." surname="Sajassi" fullname="Ali Sajassi">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Eric C. Rosen" initials="E. C." surname="Rosen">
+    <author initials="E. C." surname="Rosen" fullname="Eric C. Rosen">
       <organization>Individual</organization>
     </author>
-    <author fullname="John Drake" initials="J." surname="Drake">
+    <author initials="J." surname="Drake" fullname="John Drake">
       <organization>Independent</organization>
     </author>
-    <author fullname="W. Lin" initials="W." surname="Lin">
+    <author initials="W." surname="Lin" fullname="W. Lin">
       <organization>HPE</organization>
     </author>
-    <author fullname="Jim Uttaro" initials="J." surname="Uttaro">
+    <author initials="J." surname="Uttaro" fullname="Jim Uttaro">
       <organization>Independent</organization>
     </author>
-    <author fullname="Adam Simpson" initials="A." surname="Simpson">
+    <author initials="A." surname="Simpson" fullname="Adam Simpson">
       <organization>Nokia</organization>
     </author>
-    <date year="2026" month="February" day="28"/>
+    <date day="28" month="February" year="2026"></date>
     <abstract>
-      <t>Ethernet Virtual Private Network (EVPN) provides a unified BGP control plane for both intra- and inter-subnet forwarding within tenant networks. When a tenant network spans multiple domains, including any combination of EVPN and IPVPN domains, it becomes necessary to define the interworking mechanisms among these BGP domains (EVPN and VPN-IP) to ensure seamless end-to-end tenant connectivity. This document defines these interworking procedures. In addition, this document defines a new BGP Path Attribute, referred to as D-PATH (Domain PATH), which provides loop prevention for gateway nodes by protecting against control plane loops. The introduction of D-PATH modifies the BGP best path selection process for Multiprotocol BGP inter-subnet forwarding routes of SAFI 128 (IPVPN) and SAFI 70 (EVPN). As a result, this specification updates the BGP best path selection procedure, but only in the context of IPVPN and EVPN route families.</t>
+      <t>   Ethernet Virtual Private Network (EVPN) provides a unified BGP
+   control plane for both intra- and inter-subnet forwarding within
+   tenant networks.  When a tenant network spans multiple domains,
+   including any combination of EVPN and IPVPN domains, it becomes
+   necessary to define the interworking mechanisms among these BGP
+   domains (EVPN and VPN-IP) to ensure seamless end-to-end tenant
+   connectivity.  This document defines these interworking procedures.
+
+   In addition, this document defines a new BGP Path Attribute, referred
+   to as D-PATH (Domain PATH), which provides loop prevention for
+   gateway nodes by protecting against control plane loops.  The
+   introduction of D-PATH modifies the BGP best path selection process
+   for Multiprotocol BGP inter-subnet forwarding routes of SAFI 128
+   (IPVPN) and SAFI 70 (EVPN).  As a result, this specification updates
+   the BGP best path selection procedure, but only in the context of
+   IPVPN and EVPN route families.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-bess-evpn-ipvpn-interworking-16"/>
 </reference>

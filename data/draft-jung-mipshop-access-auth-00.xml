@@ -1,16 +1,26 @@
 <reference anchor="I-D.jung-mipshop-access-auth" target="https://datatracker.ietf.org/doc/html/draft-jung-mipshop-access-auth-00">
   <front>
     <title>Access Authentication Protocol in FMIP6</title>
-    <author fullname="Souhwan Jung" initials="S." surname="Jung">
+    <seriesInfo name="Internet-Draft" value="draft-jung-mipshop-access-auth-00"/>
+    <author initials="S." surname="Jung" fullname="Souhwan Jung">
       <organization>Soongsil University</organization>
     </author>
-    <author fullname="Jaeduck Choi" initials="J." surname="Choi">
+    <author initials="J." surname="Choi" fullname="Jaeduck Choi">
       <organization>Soongsil University</organization>
     </author>
-    <date year="2006" month="March" day="2"/>
+    <date day="02" month="March" year="2006"></date>
     <abstract>
-      <t>This memo describes a secure authentication protocol between the MN and NAR(New Access Router) in FMIP6. The main idea is that the MN generates an authentication key for handoff, and delivers it to the NAR through an existing secure channel via the AAA server during a pre-authentication process. The NAR verifies the MN using the delivered key when the MN attaches to itself. The main advantage of this scheme over the full authentication procedure is to distribute the heavy overhead of the AAA server such as key generation and management to the MNs. The AAA server in this scheme just forwards the key information to the NAR using an existing secure channel.</t>
+      <t>   This memo describes a secure authentication protocol between the MN 
+   and NAR(New Access Router) in FMIP6. The main idea is that the MN 
+   generates an authentication key for handoff, and delivers it to the 
+   NAR through an existing secure channel via the AAA server during a 
+   pre-authentication process. The NAR verifies the MN using the 
+   delivered key when the MN attaches to itself. The main advantage of 
+   this scheme over the full authentication procedure is to distribute 
+   the heavy overhead of the AAA server such as key generation and 
+   management to the MNs. The AAA server in this scheme just forwards 
+   the key information to the NAR using an existing secure channel. 
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-jung-mipshop-access-auth-00"/>
 </reference>

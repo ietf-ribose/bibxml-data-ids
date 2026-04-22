@@ -1,16 +1,24 @@
 <reference anchor="I-D.tremblay-pt66ac" target="https://datatracker.ietf.org/doc/html/draft-tremblay-pt66ac-00">
   <front>
     <title>Addressing bit compression for stateless IPv6 prefix translation</title>
-    <author fullname="Jean-Francois Tremblay" initials="J." surname="Tremblay">
+    <seriesInfo name="Internet-Draft" value="draft-tremblay-pt66ac-00"/>
+    <author initials="J." surname="Tremblay" fullname="Jean-Francois Tremblay">
       <organization>Videotron</organization>
     </author>
-    <author fullname="Scott Beuker" initials="S." surname="Beuker">
+    <author initials="S." surname="Beuker" fullname="Scott Beuker">
       <organization>Shaw Communications</organization>
     </author>
-    <date year="2010" month="November" day="25"/>
+    <date day="25" month="November" year="2010"></date>
     <abstract>
-      <t>This document describes a method to extend IPv6 prefix translation [NAT66] to statelessly translate between IPv6 prefixes of differing lengths. This technique, called PT66 addressing bit compression (PT66-AC), provides a way to map a shorter prefix (such as the fixed [6to4] prefix) to a longer global unicast prefix, while avoiding stateful translation. The difference between the prefix lengths is compensated for by removing an unused string of subnetting bits, as specified, from the addresses within the shorter prefix.</t>
+      <t>This document describes a method to extend IPv6 prefix translation
+[NAT66] to statelessly translate between IPv6 prefixes of differing
+lengths.  This technique, called PT66 addressing bit compression
+(PT66-AC), provides a way to map a shorter prefix (such as the fixed
+[6to4] prefix) to a longer global unicast prefix, while avoiding
+stateful translation.  The difference between the prefix lengths is
+compensated for by removing an unused string of subnetting bits, as
+specified, from the addresses within the shorter prefix.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-tremblay-pt66ac-00"/>
 </reference>

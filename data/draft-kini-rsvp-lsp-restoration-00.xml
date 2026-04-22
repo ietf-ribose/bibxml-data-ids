@@ -1,22 +1,31 @@
 <reference anchor="I-D.kini-rsvp-lsp-restoration" target="https://datatracker.ietf.org/doc/html/draft-kini-rsvp-lsp-restoration-00">
   <front>
     <title>ReSerVation Protocol with Traffic Engineering extensions.Extension for Label Switched Path estoration</title>
-    <author fullname="Sriganesh Kini" initials="S." surname="Kini">
+    <seriesInfo name="Internet-Draft" value="draft-kini-rsvp-lsp-restoration-00"/>
+    <author initials="S." surname="Kini" fullname="Sriganesh Kini">
       <organization>T.V.Lakshman</organization>
     </author>
-    <author fullname="Murali Kodialam" initials="M." surname="Kodialam">
+    <author initials="M." surname="Kodialam" fullname="Murali Kodialam">
       <organization>T.V.Lakshman</organization>
     </author>
-    <author fullname="T. V. Lakshman" initials="T. V." surname="Lakshman">
-      <organization/>
-    </author>
-    <author fullname="Curtis Villamizar" initials="C." surname="Villamizar">
-      <organization/>
-    </author>
-    <date year="2000" month="November" day="8"/>
+    <author initials="T. V." surname="Lakshman" fullname="T. V. Lakshman"/>
+    <author initials="C." surname="Villamizar" fullname="Curtis Villamizar"/>
+    <date day="08" month="November" year="2000"></date>
     <abstract>
-      <t>Traffic engineering using MPLS involves the setting up of label switched paths (LSP) possibly with explicit routing and with bandwidth guarantees. The reliability of these LSPs can be increased by providing a backup LSP onto which traffic can be switched upon failure of an element in the path of the active LSP. Backup LSPs can be routed in a way that bandwidth can be shared between backup links of more than one active path while still guaranteeing recoverability for a set of failures. This sharing greatly increases the network efficiency thereby increasing the number of LSPs that can be carried while maintaining guarantees. Algorithms which can route such recoverable LSPs while using only aggregate network usage information are being developed. Keeping these algorithms as the primary motivation this document describes a mechanism to signal shared backup LSPs using RSVP.</t>
+      <t>Traffic engineering using MPLS involves the setting up of label 
+switched paths (LSP) possibly with explicit routing and with bandwidth
+guarantees. The reliability of these LSPs can be increased by providing
+a backup LSP onto which traffic can be switched upon failure of an
+element in the path of the active LSP. Backup LSPs can be routed in a
+way that bandwidth can be shared between backup links of more than one
+active path while still guaranteeing recoverability for a set of
+failures. This sharing greatly increases the network efficiency thereby
+increasing the number of LSPs that can be carried while maintaining
+guarantees. Algorithms which can route such recoverable LSPs while
+using only aggregate network usage information are being developed.
+Keeping these algorithms as the primary motivation this document
+describes a mechanism to signal shared backup LSPs using RSVP.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kini-rsvp-lsp-restoration-00"/>
 </reference>

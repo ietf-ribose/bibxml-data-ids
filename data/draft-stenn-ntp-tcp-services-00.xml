@@ -1,19 +1,29 @@
 <reference anchor="I-D.stenn-ntp-tcp-services" target="https://datatracker.ietf.org/doc/html/draft-stenn-ntp-tcp-services-00">
   <front>
     <title>Network Time Protocol: TCP Services</title>
-    <author fullname="Harlan Stenn" initials="H." surname="Stenn">
+    <seriesInfo name="Internet-Draft" value="draft-stenn-ntp-tcp-services-00"/>
+    <author initials="H." surname="Stenn" fullname="Harlan Stenn">
       <organization>Network Time Foundation</organization>
     </author>
-    <author fullname="Professor David L. Mills" initials="D. L." surname="Mills">
+    <author initials="D. L." surname="Mills" fullname="Professor David L. Mills">
       <organization>Network Time Foundation</organization>
     </author>
-    <author fullname="Philip Prindeville" initials="P." surname="Prindeville">
+    <author initials="P." surname="Prindeville" fullname="Philip Prindeville">
       <organization>Network Time Foundation</organization>
     </author>
-    <date year="2018" month="July" day="2"/>
+    <date day="02" month="July" year="2018"></date>
     <abstract>
-      <t>NTP was assigned port number 123 in 1985, in RFC 960. Traditionally, it has only used the UDP port as while UDP is useful for time synchronization, TCP is not suitable for time synchronization. UDP packet have length limits, and there are rate limits imposed by the protocol specification. Between the UDP packet length and rate limits, some other mechanism must be provided for efficient exchange of larger data packets. A TCP connection can be used for these uses. Additionally, we can perform better authentication and authorization checks using a TCP connection.</t>
+      <t>   NTP was assigned port number 123 in 1985, in RFC 960.  Traditionally,
+   it has only used the UDP port as while UDP is useful for time
+   synchronization, TCP is not suitable for time synchronization.  UDP
+   packet have length limits, and there are rate limits imposed by the
+   protocol specification.  Between the UDP packet length and rate
+   limits, some other mechanism must be provided for efficient exchange
+   of larger data packets.  A TCP connection can be used for these uses.
+   Additionally, we can perform better authentication and authorization
+   checks using a TCP connection.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-stenn-ntp-tcp-services-00"/>
 </reference>

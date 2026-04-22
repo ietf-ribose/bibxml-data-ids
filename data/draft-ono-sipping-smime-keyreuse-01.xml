@@ -1,16 +1,27 @@
 <reference anchor="I-D.ono-sipping-smime-keyreuse" target="https://datatracker.ietf.org/doc/html/draft-ono-sipping-smime-keyreuse-01">
   <front>
     <title>Key reuse in Secure MIME for the Session Initiation Protocol(SIP)</title>
-    <author fullname="Shinya Tachimoto" initials="S." surname="Tachimoto">
+    <seriesInfo name="Internet-Draft" value="draft-ono-sipping-smime-keyreuse-01"/>
+    <author initials="S." surname="Tachimoto" fullname="Shinya Tachimoto">
       <organization>NTT Corporation</organization>
     </author>
-    <author fullname="Kumiko Ono" initials="K." surname="Ono">
+    <author initials="K." surname="Ono" fullname="Kumiko Ono">
       <organization>NTT Corporation</organization>
     </author>
-    <date year="2005" month="July" day="20"/>
+    <date day="20" month="July" year="2005"></date>
     <abstract>
-      <t>The SIP User Agent uses Secure MIME (S/MIME) Cryptographic Message Syntax (CMS) EnvelopedData to protect SIP messages for confidentiality. While SIP messages can be encrypted with different keying materials for each message in a dialog, it usually requires a public key operation for each message and the computational cost of such operations are relatively expensive. This draft proposes a method of bidirectional key exchange to reuse keying materials for S/MIME-secured messages in a dialog and use a symmetric key mechanism instead of an asymmetric key mechanism such as a public key operation. The proposed mechanism also achieves the sharing of keying material among multiple entities simply.</t>
+      <t>The SIP User Agent uses Secure MIME (S/MIME) Cryptographic Message
+   Syntax (CMS) EnvelopedData to protect SIP messages for
+   confidentiality.  While SIP messages can be encrypted with different
+   keying materials for each message in a dialog, it usually requires a
+   public key operation for each message and the computational cost of
+   such operations are relatively expensive.  This draft proposes a
+   method of bidirectional key exchange to reuse keying materials for
+   S/MIME-secured messages in a dialog and use a symmetric key mechanism
+   instead of an asymmetric key mechanism such as a public key
+   operation.  The proposed mechanism also achieves the sharing of
+   keying material among multiple entities simply.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ono-sipping-smime-keyreuse-01"/>
 </reference>

@@ -1,19 +1,36 @@
 <reference anchor="I-D.yan-ospf-sync-group" target="https://datatracker.ietf.org/doc/html/draft-yan-ospf-sync-group-01">
   <front>
     <title>OSPF Synchronization Group</title>
-    <author fullname="Gang Yan" initials="G." surname="Yan">
+    <seriesInfo name="Internet-Draft" value="draft-yan-ospf-sync-group-01"/>
+    <author initials="G." surname="Yan" fullname="Gang Yan">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Yuanjiao Liu" initials="Y." surname="Liu">
+    <author initials="Y." surname="Liu" fullname="Yuanjiao Liu">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Xudong Zhang" initials="X." surname="Zhang">
+    <author initials="X." surname="Zhang" fullname="Xudong Zhang">
       <organization>Huawei</organization>
     </author>
-    <date year="2014" month="November" day="10"/>
+    <date day="10" month="November" year="2014"></date>
     <abstract>
-      <t>OSPF is a fundamental component for a routing system. It depends on the flooding mechanism to advertise and synchronize link-state database among distributed nodes in a network. As modern networks become larger and more complex, more and more nodes and adjacencies are involved. As a result, massive link-state information are generated and synchronized which are becoming an overhead of networks nowadays. This document proposes a new design of OSPF database synchronization that is slightly different from the one stated in OSPF. This new design can help to alleviate the overhead by dividing OSPF routers into independent synchronization groups and limiting synchronization across the group border. Since less burden from synchronization, it is possible to accommodate more OSPF routers and adjacencies in a network.</t>
+      <t>   OSPF is a fundamental component for a routing system.  It depends on
+   the flooding mechanism to advertise and synchronize link-state
+   database among distributed nodes in a network.  As modern networks
+   become larger and more complex, more and more nodes and adjacencies
+   are involved.  As a result, massive link-state information are
+   generated and synchronized which are becoming an overhead of networks
+   nowadays.
+
+   This document proposes a new design of OSPF database synchronization
+   that is slightly different from the one stated in OSPF.  This new
+   design can help to alleviate the overhead by dividing OSPF routers
+   into independent synchronization groups and limiting synchronization
+   across the group border.  Since less burden from synchronization, it
+   is possible to accommodate more OSPF routers and adjacencies in a
+   network.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-yan-ospf-sync-group-01"/>
 </reference>

@@ -1,16 +1,29 @@
 <reference anchor="I-D.ono-dispatch-attribute-validation" target="https://datatracker.ietf.org/doc/html/draft-ono-dispatch-attribute-validation-00">
   <front>
     <title>Referencing and Validating User Attributes</title>
-    <author fullname="Kumiko Ono" initials="K." surname="Ono">
+    <seriesInfo name="Internet-Draft" value="draft-ono-dispatch-attribute-validation-00"/>
+    <author initials="K." surname="Ono" fullname="Kumiko Ono">
       <organization>Columbia University</organization>
     </author>
-    <author fullname="Henning Schulzrinne" initials="H." surname="Schulzrinne">
+    <author initials="H." surname="Schulzrinne" fullname="Henning Schulzrinne">
       <organization>Columbia University</organization>
     </author>
-    <date year="2011" month="October" day="20"/>
+    <date day="20" month="October" year="2011"></date>
     <abstract>
-      <t>This document describes a mechanism for referencing and validating user attributes in SIP communication. User attributes, such as an organizational affiliation and role, are helpful for the recipients of a communication request to decide whether or not to grant the sender access to the recipient's resources, especially when the sender identity is unknown to the recipients. This mechanism allows the sender to claim her attributes to recipients using an attribute reference identifier without needing to prove the sender identity. This document defines a new SIP "Sender-References" header field to convey one or more attribute reference identifiers. This mechanism satisfies all the requirements for trait-based authorization defined in RFC 4484, except that it provides only one assertion scheme.</t>
+      <t>   This document describes a mechanism for referencing and validating
+   user attributes in SIP communication.  User attributes, such as an
+   organizational affiliation and role, are helpful for the recipients
+   of a communication request to decide whether or not to grant the
+   sender access to the recipient's resources, especially when the
+   sender identity is unknown to the recipients.  This mechanism allows
+   the sender to claim her attributes to recipients using an attribute
+   reference identifier without needing to prove the sender identity.
+   This document defines a new SIP "Sender-References" header field to
+   convey one or more attribute reference identifiers.  This mechanism
+   satisfies all the requirements for trait-based authorization defined
+   in RFC 4484, except that it provides only one assertion scheme.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ono-dispatch-attribute-validation-00"/>
 </reference>

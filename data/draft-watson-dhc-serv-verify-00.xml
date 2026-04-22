@@ -1,16 +1,25 @@
 <reference anchor="I-D.watson-dhc-serv-verify" target="https://datatracker.ietf.org/doc/html/draft-watson-dhc-serv-verify-00">
   <front>
     <title>DHCP Server Verification by Client Via DNSSEC</title>
-    <author fullname="Ólafur Guðmundsson" initials="O." surname="Guðmundsson">
-      <organization/>
-    </author>
-    <author fullname="Robert Watson" initials="R." surname="Watson">
+    <seriesInfo name="Internet-Draft" value="draft-watson-dhc-serv-verify-00"/>
+    <author initials="O." surname="Guðmundsson" fullname="Ólafur Guðmundsson"/>
+    <author initials="R." surname="Watson" fullname="Robert Watson">
       <organization>TIS</organization>
     </author>
-    <date year="1997" month="July" day="30"/>
+    <date day="30" month="July" year="1997"></date>
     <abstract>
-      <t>The document defines a mechanism to allow a DHCP client to verify the authenticity of a DHCP server configuration offer using DNSSEC. Currently DHCP clients have no way to assess which of DHCP OFFERS are from valid DHCP servers, and which are not. Malicious DHCP servers can cause various network problems for unsuspecting clients. In order to support DHCP server authorization a new DNS Resource Record type (ALLOC) is added. Using the ALLOC record in combination with the servers KEY record the client can authoritatively assess if the server is authorized.</t>
+      <t>The document defines a mechanism to allow a DHCP client to verify
+   the authenticity of a DHCP server configuration offer using
+   DNSSEC.   Currently DHCP clients have no way to assess which of
+   DHCP OFFERS are from valid DHCP servers, and which are not.
+   Malicious DHCP servers can cause various network problems for
+   unsuspecting clients. 
+
+   In order to support DHCP server authorization a new DNS Resource 
+   Record type (ALLOC) is added. Using the ALLOC record in combination 
+   with the servers KEY record the client can authoritatively assess if
+   the server is authorized.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-watson-dhc-serv-verify-00"/>
 </reference>

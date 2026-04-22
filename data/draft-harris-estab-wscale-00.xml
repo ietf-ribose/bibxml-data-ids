@@ -1,13 +1,20 @@
 <reference anchor="I-D.harris-estab-wscale" target="https://datatracker.ietf.org/doc/html/draft-harris-estab-wscale-00">
   <front>
     <title>WSCALE options in established TCP connections</title>
-    <author fullname="Jeremy Harris" initials="J." surname="Harris">
+    <seriesInfo name="Internet-Draft" value="draft-harris-estab-wscale-00"/>
+    <author initials="J." surname="Harris" fullname="Jeremy Harris">
       <organization>None</organization>
     </author>
-    <date year="2016" month="October" day="31"/>
+    <date day="31" month="October" year="2016"></date>
     <abstract>
-      <t>The TCP Window Scale option modifies the interpretation of packets in a flow but is transmitted only at the start of the connection. As such there is a problem for observability and fault-finding, since a packet capture by a third party may miss the start of a relevant connection. This document describes the use of TCP options to provide the scale values during a connection.</t>
+      <t>   The TCP Window Scale option modifies the interpretation of packets in
+   a flow but is transmitted only at the start of the connection.  As
+   such there is a problem for observability and fault-finding, since a
+   packet capture by a third party may miss the start of a relevant
+   connection.  This document describes the use of TCP options to
+   provide the scale values during a connection.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-harris-estab-wscale-00"/>
 </reference>

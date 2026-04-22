@@ -1,16 +1,27 @@
 <reference anchor="I-D.roome-alto-incr-updates" target="https://datatracker.ietf.org/doc/html/draft-roome-alto-incr-updates-00">
   <front>
     <title>ALTO Incremental Updates</title>
-    <author fullname="Wendy Roome" initials="W." surname="Roome">
-      <organization/>
-    </author>
-    <author fullname="Nico Schwan" initials="N." surname="Schwan">
-      <organization/>
-    </author>
-    <date year="2014" month="February" day="13"/>
+    <seriesInfo name="Internet-Draft" value="draft-roome-alto-incr-updates-00"/>
+    <author initials="W." surname="Roome" fullname="Wendy Roome"/>
+    <author initials="N." surname="Schwan" fullname="Nico Schwan"/>
+    <date day="13" month="February" year="2014"></date>
     <abstract>
-      <t>The goal of Application-Layer Traffic Optimization (ALTO) is to bridge the gap between network and applications by provisioning network related information. This allows applications to make informed decisions, for example when selecting a target host from a set of candidates. Therefore an ALTO server provides network and cost maps to its clients. However, those maps can be very large, and portions of those maps may change frequently (the cost map in particular). This draft presents a method to provide incremental updates for these maps. The goal is to reduce the load on the ALTO client and server by transmitting just the updated portions of those maps.</t>
+      <t>   The goal of Application-Layer Traffic Optimization (ALTO) is to
+   bridge the gap between network and applications by provisioning
+   network related information.  This allows applications to make
+   informed decisions, for example when selecting a target host from a
+   set of candidates.
+
+   Therefore an ALTO server provides network and cost maps to its
+   clients.  However, those maps can be very large, and portions of
+   those maps may change frequently (the cost map in particular).
+
+   This draft presents a method to provide incremental updates for these
+   maps.  The goal is to reduce the load on the ALTO client and server
+   by transmitting just the updated portions of those maps.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-roome-alto-incr-updates-00"/>
 </reference>

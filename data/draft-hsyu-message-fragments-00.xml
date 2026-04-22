@@ -1,16 +1,22 @@
 <reference anchor="I-D.hsyu-message-fragments" target="https://datatracker.ietf.org/doc/html/draft-hsyu-message-fragments-00">
   <front>
     <title>DNS message fragments</title>
-    <author fullname="haisheng yu" initials="H." surname="yu">
+    <seriesInfo name="Internet-Draft" value="draft-hsyu-message-fragments-00"/>
+    <author initials="H." surname="yu" fullname="haisheng yu">
       <organization>Guangzhou Genlian</organization>
     </author>
-    <author fullname="Yan Liu" initials="Y." surname="Liu">
+    <author initials="Y." surname="Liu" fullname="Yan Liu">
       <organization>Guangzhou Genlian</organization>
     </author>
-    <date year="2022" month="April" day="27"/>
+    <date day="27" month="April" year="2022"></date>
     <abstract>
-      <t>This document describes a method to transmit DNS messages over multiple UDP datagrams by fragmenting them at the application layer. The objective is to allow authoriative servers to successfully reply to DNS queries via UDP using multiple smaller datagrams, where larger datagrams may not pass through the network successfully.</t>
+      <t>   This document describes a method to transmit DNS messages over
+   multiple UDP datagrams by fragmenting them at the application layer.
+   The objective is to allow authoriative servers to successfully reply
+   to DNS queries via UDP using multiple smaller datagrams, where larger
+   datagrams may not pass through the network successfully.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hsyu-message-fragments-00"/>
 </reference>

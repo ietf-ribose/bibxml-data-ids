@@ -1,19 +1,28 @@
 <reference anchor="I-D.keyupate-idr-bgp-gr-extension" target="https://datatracker.ietf.org/doc/html/draft-keyupate-idr-bgp-gr-extension-00">
   <front>
     <title>Graceful Restart Extensions for BGP</title>
-    <author fullname="John Scudder" initials="J." surname="Scudder">
+    <seriesInfo name="Internet-Draft" value="draft-keyupate-idr-bgp-gr-extension-00"/>
+    <author initials="J." surname="Scudder" fullname="John Scudder">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Rex Fernando" initials="R." surname="Fernando">
+    <author initials="R." surname="Fernando" fullname="Rex Fernando">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
+    <author initials="K." surname="Patel" fullname="Keyur Patel">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2011" month="March" day="7"/>
+    <date day="07" month="March" year="2011"></date>
     <abstract>
-      <t>The current BGP Graceful Restart mechanism limits the usage of BGP Graceful Restart to BGP protocol messages other than a BGP NOTIFICATION message. This document defines an extension to the BGP Graceful Restart that permits the Graceful Restart procedures to be performed when the BGP speaker receives a BGP NOTIFICATION Message. This document also defines a new BGP NOTIFICATION Cease Error subcode to prevent BGP speakers supporting the extension defined in this document from performing a Graceful Restart.</t>
+      <t>The current BGP Graceful Restart mechanism limits the usage of BGP
+   Graceful Restart to BGP protocol messages other than a BGP
+   NOTIFICATION message.  This document defines an extension to the BGP
+   Graceful Restart that permits the Graceful Restart procedures to be
+   performed when the BGP speaker receives a BGP NOTIFICATION Message.
+   This document also defines a new BGP NOTIFICATION Cease Error subcode
+   to prevent BGP speakers supporting the extension defined in this
+   document from performing a Graceful Restart.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-keyupate-idr-bgp-gr-extension-00"/>
 </reference>

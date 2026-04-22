@@ -1,22 +1,31 @@
 <reference anchor="I-D.martinsen-tram-turnbandwidthprobe" target="https://datatracker.ietf.org/doc/html/draft-martinsen-tram-turnbandwidthprobe-00">
   <front>
     <title>Traversal Using Relays around NAT (TURN) Bandwidth Probe</title>
-    <author fullname="Paal-Erik Martinsen" initials="P." surname="Martinsen">
+    <seriesInfo name="Internet-Draft" value="draft-martinsen-tram-turnbandwidthprobe-00"/>
+    <author initials="P." surname="Martinsen" fullname="Paal-Erik Martinsen">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Trond Andersen" initials="T." surname="Andersen">
+    <author initials="T." surname="Andersen" fullname="Trond Andersen">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Gonzalo Salgueiro" initials="G." surname="Salgueiro">
+    <author initials="G." surname="Salgueiro" fullname="Gonzalo Salgueiro">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Marc Petit-Huguenin" initials="M." surname="Petit-Huguenin">
+    <author initials="M." surname="Petit-Huguenin" fullname="Marc Petit-Huguenin">
       <organization>Impedance Mismatch</organization>
     </author>
-    <date year="2015" month="May" day="29"/>
+    <date day="29" month="May" year="2015"></date>
     <abstract>
-      <t>Performing pre-call probing to discover a reasonable value for the available bandwidth, is useful information that can be utilized by bandwidth sensitive or bandwidth intensive network devices (e.g., video encoders). The method described herein is intended to produce an initial bandwidth value. Applications using this mechanism should also employ appropriate rate adaptation techniques. In addition to bandwidth, latency and bufferbloat can also be measured. No modification is needed on the server side.</t>
+      <t>   Performing pre-call probing to discover a reasonable value for the
+   available bandwidth, is useful information that can be utilized by
+   bandwidth sensitive or bandwidth intensive network devices (e.g.,
+   video encoders).  The method described herein is intended to produce
+   an initial bandwidth value.  Applications using this mechanism should
+   also employ appropriate rate adaptation techniques.  In addition to
+   bandwidth, latency and bufferbloat can also be measured.  No
+   modification is needed on the server side.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-martinsen-tram-turnbandwidthprobe-00"/>
 </reference>

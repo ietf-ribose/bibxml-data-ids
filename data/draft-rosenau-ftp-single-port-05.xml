@@ -1,13 +1,24 @@
 <reference anchor="I-D.rosenau-ftp-single-port" target="https://datatracker.ietf.org/doc/html/draft-rosenau-ftp-single-port-05">
   <front>
     <title>FTP EXTENSION ALLOWING IP FORWARDING (NATs)</title>
-    <author fullname="Martin Rosenau" initials="M." surname="Rosenau">
-      <organization/>
-    </author>
-    <date year="2008" month="September" day="18"/>
+    <seriesInfo name="Internet-Draft" value="draft-rosenau-ftp-single-port-05"/>
+    <author initials="M." surname="Rosenau" fullname="Martin Rosenau"/>
+    <date day="18" month="September" year="2008"></date>
     <abstract>
-      <t>The FTP protocol [1] needs two connections. A control and a data connection. Using networks with "port forwarding" (eg. SSH, DSL routers, VPN etc.) there is often only the possibility for the server to listen on only one TCP port. In such networks the traditional FTP protocol cannot be used. This memo describes an extension to the FTP protocol that allows the use of FTP using only one TCP port number for both control connections and passive-mode data connections. The extension can also be used to use the FTP protocol over network protocols that do not have a "port" concept (such as the NetBIOS protocol).</t>
+      <t>The FTP protocol [1] needs two connections. A control and a data
+connection. Using networks with "port forwarding" (eg. SSH, DSL
+routers, VPN etc.) there is often only the possibility for the
+server to listen on only one TCP port. In such networks the
+traditional FTP protocol cannot be used.
+
+This memo describes an extension to the FTP protocol that allows the
+use of FTP using only one TCP port number for both control
+connections and passive-mode data connections.
+
+The extension can also be used to use the FTP protocol over network
+protocols that do not have a "port" concept (such as the NetBIOS
+protocol).
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-rosenau-ftp-single-port-05"/>
 </reference>

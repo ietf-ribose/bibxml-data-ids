@@ -1,34 +1,44 @@
 <reference anchor="I-D.ppsenak-lsr-igp-ureach-prefix-announce" target="https://datatracker.ietf.org/doc/html/draft-ppsenak-lsr-igp-ureach-prefix-announce-04">
   <front>
     <title>IGP Unreachable Prefix Announcement</title>
-    <author fullname="Peter Psenak" initials="P." surname="Psenak">
+    <seriesInfo name="Internet-Draft" value="draft-ppsenak-lsr-igp-ureach-prefix-announce-04"/>
+    <author initials="P." surname="Psenak" fullname="Peter Psenak">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils">
+    <author initials="C." surname="Filsfils" fullname="Clarence Filsfils">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Stephane Litkowski" initials="S." surname="Litkowski">
+    <author initials="S." surname="Litkowski" fullname="Stephane Litkowski">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Daniel Voyer" initials="D." surname="Voyer">
+    <author initials="D." surname="Voyer" fullname="Daniel Voyer">
       <organization>Bell Canada</organization>
     </author>
-    <author fullname="Amit Dhamija" initials="A." surname="Dhamija">
+    <author initials="A." surname="Dhamija" fullname="Amit Dhamija">
       <organization>Rakuten</organization>
     </author>
-    <author fullname="Shraddha Hegde" initials="S." surname="Hegde">
+    <author initials="S." surname="Hegde" fullname="Shraddha Hegde">
       <organization>Juniper Networks, Inc.</organization>
     </author>
-    <author fullname="Gunter Van de Velde" initials="G." surname="Van de Velde">
+    <author initials="G." surname="Van de Velde" fullname="Gunter Van de Velde">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Gyan Mishra" initials="G. S." surname="Mishra">
+    <author initials="G. S." surname="Mishra" fullname="Gyan Mishra">
       <organization>Verizon Inc.</organization>
     </author>
-    <date year="2023" month="August" day="22"/>
+    <date day="22" month="August" year="2023"></date>
     <abstract>
-      <t>In the presence of summarization, there is a need to signal loss of reachability to an individual prefix covered by the summary in order to enable fast convergence away from paths to the node which owns the prefix which is no longer reachable. This document describes how to use the existing protocol mechanisms in IS-IS and OSPF, together with the two new flags, to advertise such prefix reachability loss.</t>
+      <t>   In the presence of summarization, there is a need to signal loss of
+   reachability to an individual prefix covered by the summary in order
+   to enable fast convergence away from paths to the node which owns the
+   prefix which is no longer reachable.
+
+   This document describes how to use the existing protocol mechanisms
+   in IS-IS and OSPF, together with the two new flags, to advertise such
+   prefix reachability loss.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ppsenak-lsr-igp-ureach-prefix-announce-04"/>
 </reference>

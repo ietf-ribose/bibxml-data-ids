@@ -1,22 +1,35 @@
 <reference anchor="I-D.kompella-mpls-mspl4fa" target="https://datatracker.ietf.org/doc/html/draft-kompella-mpls-mspl4fa-00">
   <front>
     <title>Multi-purpose Special Purpose Label for Forwarding Actions</title>
-    <author fullname="Kireeti Kompella" initials="K." surname="Kompella">
+    <seriesInfo name="Internet-Draft" value="draft-kompella-mpls-mspl4fa-00"/>
+    <author initials="K." surname="Kompella" fullname="Kireeti Kompella">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Vishnu Pavan Beeram" initials="V. P." surname="Beeram">
+    <author initials="V. P." surname="Beeram" fullname="Vishnu Pavan Beeram">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Tarek Saad" initials="T." surname="Saad">
+    <author initials="T." surname="Saad" fullname="Tarek Saad">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Israel Meilik" initials="I." surname="Meilik">
+    <author initials="I." surname="Meilik" fullname="Israel Meilik">
       <organization>Broadcom</organization>
     </author>
-    <date year="2021" month="February" day="22"/>
+    <date day="22" month="February" year="2021"></date>
     <abstract>
-      <t>A Slice Selector is packet metadata that dictates the packet's forwarding handling in order to conform to its slice requirements. There are multiple proposals for carrying slice selectors in MPLS networks. One of the more practical proposals is the "Global Identifier for Slice Selector" (GISS). Global uniqueness requires the GISS label be identified as such, via a special purpose label (ideally a base special purpose label (bSPL)). However, bSPLs are a precious commodity, and there are many requests for them. This document serves two purposes: to define a bSPL for carrying a GISS, and to show how this bSPL can consolidate many current requests for special purpose labels while carrying associated data compactly and efficiently.</t>
+      <t>   A Slice Selector is packet metadata that dictates the packet's
+   forwarding handling in order to conform to its slice requirements.
+   There are multiple proposals for carrying slice selectors in MPLS
+   networks.  One of the more practical proposals is the "Global
+   Identifier for Slice Selector" (GISS).  Global uniqueness requires
+   the GISS label be identified as such, via a special purpose label
+   (ideally a base special purpose label (bSPL)).  However, bSPLs are a
+   precious commodity, and there are many requests for them.  This
+   document serves two purposes: to define a bSPL for carrying a GISS,
+   and to show how this bSPL can consolidate many current requests for
+   special purpose labels while carrying associated data compactly and
+   efficiently.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kompella-mpls-mspl4fa-00"/>
 </reference>

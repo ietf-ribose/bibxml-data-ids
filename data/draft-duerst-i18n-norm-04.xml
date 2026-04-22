@@ -1,16 +1,24 @@
 <reference anchor="I-D.duerst-i18n-norm" target="https://datatracker.ietf.org/doc/html/draft-duerst-i18n-norm-04">
   <front>
     <title>Character Normalization in IETF Protocols</title>
-    <author fullname="Martin J. Dürst" initials="M. J." surname="Dürst">
+    <seriesInfo name="Internet-Draft" value="draft-duerst-i18n-norm-04"/>
+    <author initials="M. J." surname="Dürst" fullname="Martin J. Dürst">
       <organization>W3C/Keio University</organization>
     </author>
-    <author fullname="Mark Davis" initials="M." surname="Davis">
-      <organization/>
-    </author>
-    <date year="2000" month="September" day="13"/>
+    <author initials="M." surname="Davis" fullname="Mark Davis"/>
+    <date day="13" month="September" year="2000"></date>
     <abstract>
-      <t>The Universal Character Set (UCS) [ISO10646, Unicode] covers a very wide repertoire of characters. The IETF, in [RFC 2277], requires that future IETF protocols support UTF-8 [RFC 2279], an ASCII-compatible encoding of UCS. The wide range of characters included in the UCS has lead to some cases of duplicate encodings. This document proposes that in IETF protocols, the class of duplicates called canonical equivalents be dealt with by using Early Uniform Normalization according to Unicode Normalization Form C, Canonical Composition (NFC) [UTR15]. This document describes both Early Uniform Normalization and Normalization Form C.</t>
+      <t>The Universal Character Set (UCS) [ISO10646, Unicode] covers a very
+wide repertoire of characters. The IETF, in [RFC 2277], requires that
+future IETF protocols support UTF-8 [RFC 2279], an ASCII-compatible
+encoding of UCS. The wide range of characters included in the UCS has
+lead to some cases of duplicate encodings. This document proposes
+that in IETF protocols, the class of duplicates called canonical
+equivalents be dealt with by using Early Uniform Normalization
+according to Unicode Normalization Form C, Canonical Composition (NFC)
+[UTR15]. This document describes both Early Uniform Normalization
+and Normalization Form C.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-duerst-i18n-norm-04"/>
 </reference>

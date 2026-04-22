@@ -1,16 +1,23 @@
 <reference anchor="I-D.ietf-appsawg-multimailbox-search" target="https://datatracker.ietf.org/doc/html/draft-ietf-appsawg-multimailbox-search-00">
   <front>
     <title>IMAP4 Multimailbox SEARCH Extension</title>
-    <author fullname="Barry Leiba" initials="B." surname="Leiba">
-      <organization/>
-    </author>
-    <author fullname="Alexey Melnikov" initials="A." surname="Melnikov">
-      <organization/>
-    </author>
-    <date year="2014" month="March" day="3"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-appsawg-multimailbox-search-00"/>
+    <author initials="B." surname="Leiba" fullname="Barry Leiba"/>
+    <author initials="A." surname="Melnikov" fullname="Alexey Melnikov"/>
+    <date day="03" month="March" year="2014"></date>
     <abstract>
-      <t>The IMAP4 specification allows the searching of only the selected mailbox. A user often wants to search multiple mailboxes, and a client that wishes to support this must issue a series of SELECT and SEARCH commands, waiting for each to complete before moving on to the next. This extension allows a client to search multiple mailboxes with one command, limiting round trips delay, and not requiring disruption of the currently selected mailbox. This extension also uses MAILBOX and TAG fields in ESEARCH responses, allowing a client to pipeline the searches if it chooses. This document updates RFC 4466 and obsoletes RFC 6237.</t>
+      <t>   The IMAP4 specification allows the searching of only the selected
+   mailbox.  A user often wants to search multiple mailboxes, and a
+   client that wishes to support this must issue a series of SELECT and
+   SEARCH commands, waiting for each to complete before moving on to the
+   next.  This extension allows a client to search multiple mailboxes
+   with one command, limiting round trips delay, and not requiring
+   disruption of the currently selected mailbox.  This extension also
+   uses MAILBOX and TAG fields in ESEARCH responses, allowing a client
+   to pipeline the searches if it chooses.  This document updates RFC
+   4466 and obsoletes RFC 6237.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-appsawg-multimailbox-search-00"/>
 </reference>

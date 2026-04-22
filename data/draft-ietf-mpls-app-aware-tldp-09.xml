@@ -1,25 +1,26 @@
 <reference anchor="I-D.ietf-mpls-app-aware-tldp" target="https://datatracker.ietf.org/doc/html/draft-ietf-mpls-app-aware-tldp-09">
   <front>
     <title>Application-Aware Targeted LDP</title>
-    <author fullname="Santosh Esale" initials="S." surname="Esale">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-app-aware-tldp-09"/>
+    <author initials="S." surname="Esale" fullname="Santosh Esale">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Raveendra Torvi" initials="R." surname="Torvi">
+    <author initials="R." surname="Torvi" fullname="Raveendra Torvi">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Luay Jalil" initials="L." surname="Jalil">
+    <author initials="L." surname="Jalil" fullname="Luay Jalil">
       <organization>Verizon</organization>
     </author>
-    <author fullname="Uma Chunduri" initials="U." surname="Chunduri">
+    <author initials="U." surname="Chunduri" fullname="Uma Chunduri">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Syed Raza" initials="S." surname="Raza">
+    <author initials="S." surname="Raza" fullname="Syed Raza">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2017" month="June" day="27"/>
+    <date day="27" month="June" year="2017"></date>
     <abstract>
-      <t>Recent Targeted Label Distribution Protocol (tLDP) applications, such as remote Loop-Free Alternates (LFAs) and BGP auto-discovered pseudowires, may automatically establish a tLDP session with any Label Switching Router (LSR) in a network. The initiating LSR has information about the targeted applications to administratively control initiation of the session. However, the responding LSR has no such information to control acceptance of this session. This document defines a mechanism to advertise and negotiate the Targeted Application Capability (TAC) during LDP session initialization. As the responding LSR becomes aware of targeted applications, it may establish a limited number of tLDP sessions for certain applications. In addition, each targeted application is mapped to LDP Forwarding Equivalence Class (FEC) elements to advertise only necessary LDP FEC label bindings over the session. This document updates RFC 7473 for enabling advertisement of LDP FEC label bindings over the session.</t>
+      <t>Recent Targeted Label Distribution Protocol (tLDP) applications, such as remote Loop-Free Alternates (LFAs) and BGP auto-discovered pseudowires, may automatically establish a tLDP session with any Label Switching Router (LSR) in a network.  The initiating LSR has information about the targeted applications to administratively control initiation of the session.  However, the responding LSR has no such information to control acceptance of this session.  This document defines a mechanism to advertise and negotiate the Targeted Application Capability (TAC) during LDP session initialization.  As the responding LSR becomes aware of targeted applications, it may establish a limited number of tLDP sessions for certain applications.  In addition, each targeted application is mapped to LDP Forwarding Equivalence Class (FEC) elements to advertise only necessary LDP FEC label bindings over the session.  This document updates RFC 7473 for enabling advertisement of LDP FEC label bindings over the session.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-app-aware-tldp-09"/>
 </reference>

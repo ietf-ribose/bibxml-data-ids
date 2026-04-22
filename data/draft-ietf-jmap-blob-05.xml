@@ -1,13 +1,23 @@
 <reference anchor="I-D.ietf-jmap-blob" target="https://datatracker.ietf.org/doc/html/draft-ietf-jmap-blob-05">
   <front>
     <title>JMAP Blob management extension</title>
-    <author fullname="Bron Gondwana" initials="B." surname="Gondwana">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-jmap-blob-05"/>
+    <author initials="B." surname="Gondwana" fullname="Bron Gondwana">
       <organization>Fastmail</organization>
     </author>
-    <date year="2021" month="October" day="28"/>
+    <date day="28" month="October" year="2021"></date>
     <abstract>
-      <t>The JMAP base protocol (RFC8620) provides the ability to upload and download arbitrary binary data via HTTP POST and GET on defined endpoint. This binary data is called a "Blob". This extension adds additional ways to create and access Blobs, by making inline method calls within a standard JMAP request. This extension also adds a reverse lookup mechanism to discover where blobs are referenced within other data types.</t>
+      <t>   The JMAP base protocol (RFC8620) provides the ability to upload and
+   download arbitrary binary data via HTTP POST and GET on defined
+   endpoint.  This binary data is called a "Blob".
+
+   This extension adds additional ways to create and access Blobs, by
+   making inline method calls within a standard JMAP request.
+
+   This extension also adds a reverse lookup mechanism to discover where
+   blobs are referenced within other data types.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-jmap-blob-05"/>
 </reference>

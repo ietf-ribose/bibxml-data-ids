@@ -1,28 +1,32 @@
 <reference anchor="I-D.bgp-path-marking" target="https://datatracker.ietf.org/doc/html/draft-bgp-path-marking-00">
   <front>
     <title>BGP Path Marking</title>
-    <author fullname="Camilo Cardona" initials="C." surname="Cardona">
+    <seriesInfo name="Internet-Draft" value="draft-bgp-path-marking-00"/>
+    <author initials="C." surname="Cardona" fullname="Camilo Cardona">
       <organization>P. Pierre Francois</organization>
     </author>
-    <author fullname="Pierre Francois" initials="P." surname="Francois">
-      <organization/>
-    </author>
-    <author fullname="Saikat Ray" initials="S." surname="Ray">
+    <author initials="P." surname="Francois" fullname="Pierre Francois"/>
+    <author initials="S." surname="Ray" fullname="Saikat Ray">
       <organization>P. Paolo Lucente</organization>
     </author>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
+    <author initials="K." surname="Patel" fullname="Keyur Patel">
       <organization>P. Paolo Lucente</organization>
     </author>
-    <author fullname="Paolo Lucente" initials="P." surname="Lucente">
-      <organization/>
-    </author>
-    <author fullname="Prodosh Mohapatra" initials="P." surname="Mohapatra">
+    <author initials="P." surname="Lucente" fullname="Paolo Lucente"/>
+    <author initials="P." surname="Mohapatra" fullname="Prodosh Mohapatra">
       <organization>Cumulus Networks</organization>
     </author>
-    <date year="2013" month="July" day="10"/>
+    <date day="10" month="July" year="2013"></date>
     <abstract>
-      <t>The potential advertisement of non-best paths by a BGP speaker supporting the add-path or the best-external extensions makes it difficult for other BGP speakers to identify the paths that have been selected as best by those who advertise them. This information is required for proper operation of some applications. Towards that end, this document proposes marking the paths using extended communities that encode the path type.</t>
+      <t>   The potential advertisement of non-best paths by a BGP speaker
+   supporting the add-path or the best-external extensions makes it
+   difficult for other BGP speakers to identify the paths that have been
+   selected as best by those who advertise them.  This information is
+   required for proper operation of some applications.  Towards that
+   end, this document proposes marking the paths using extended
+   communities that encode the path type.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-bgp-path-marking-00"/>
 </reference>

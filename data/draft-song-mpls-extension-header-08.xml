@@ -1,34 +1,48 @@
 <reference anchor="I-D.song-mpls-extension-header" target="https://datatracker.ietf.org/doc/html/draft-song-mpls-extension-header-08">
   <front>
     <title>MPLS Post-Stack Extension Header</title>
-    <author fullname="Haoyu Song" initials="H." surname="Song">
+    <seriesInfo name="Internet-Draft" value="draft-song-mpls-extension-header-08"/>
+    <author initials="H." surname="Song" fullname="Haoyu Song">
       <organization>Futurewei Technologies</organization>
     </author>
-    <author fullname="Zhenbin Li" initials="Z." surname="Li">
+    <author initials="Z." surname="Li" fullname="Zhenbin Li">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Tianran Zhou" initials="T." surname="Zhou">
+    <author initials="T." surname="Zhou" fullname="Tianran Zhou">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Loa Andersson" initials="L." surname="Andersson">
+    <author initials="L." surname="Andersson" fullname="Loa Andersson">
       <organization>Bronze Dragon Consulting</organization>
     </author>
-    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+    <author initials="Z. J." surname="Zhang" fullname="Zhaohui (Jeffrey) Zhang">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Rakesh Gandhi" initials="R." surname="Gandhi">
+    <author initials="R." surname="Gandhi" fullname="Rakesh Gandhi">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Jaganbabu Rajamanickam" initials="J." surname="Rajamanickam">
+    <author initials="J." surname="Rajamanickam" fullname="Jaganbabu Rajamanickam">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Jisu Bhattacharya" initials="J." surname="Bhattacharya">
+    <author initials="J." surname="Bhattacharya" fullname="Jisu Bhattacharya">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2022" month="August" day="9"/>
+    <date day="09" month="August" year="2022"></date>
     <abstract>
-      <t>Motivated by the need to support multiple in-network services and functions in an MPLS network (a.k.a. MPLS Network Actions (MNA)), this document describes a generic and extensible method to encapsulate extension headers into MPLS packets. The encapsulation method allows stacking multiple post-stack extension headers and quickly accessing any of them as well as the original upper layer protocol header and payload. We show how the post-stack extension header can be used to support several new MNAs as a generic mechanism. This document strictly confines to specifying the solution of encoding of the MPLS Post-Stack Extension Header.</t>
+      <t>   Motivated by the need to support multiple in-network services and
+   functions in an MPLS network (a.k.a.  MPLS Network Actions (MNA)),
+   this document describes a generic and extensible method to
+   encapsulate extension headers into MPLS packets.  The encapsulation
+   method allows stacking multiple post-stack extension headers and
+   quickly accessing any of them as well as the original upper layer
+   protocol header and payload.  We show how the post-stack extension
+   header can be used to support several new MNAs as a generic
+   mechanism.
+
+   This document strictly confines to specifying the solution of
+   encoding of the MPLS Post-Stack Extension Header.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-song-mpls-extension-header-08"/>
 </reference>

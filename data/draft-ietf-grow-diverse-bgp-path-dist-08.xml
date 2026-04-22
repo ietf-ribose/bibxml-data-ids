@@ -1,25 +1,30 @@
 <reference anchor="I-D.ietf-grow-diverse-bgp-path-dist" target="https://datatracker.ietf.org/doc/html/draft-ietf-grow-diverse-bgp-path-dist-08">
   <front>
     <title>Distribution of Diverse BGP Paths</title>
-    <author fullname="Robert Raszuk" initials="R." surname="Raszuk">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-grow-diverse-bgp-path-dist-08"/>
+    <author initials="R." surname="Raszuk" fullname="Robert Raszuk">
       <organization>NTT MCL</organization>
     </author>
-    <author fullname="Rex Fernando" initials="R." surname="Fernando">
+    <author initials="R." surname="Fernando" fullname="Rex Fernando">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
+    <author initials="K." surname="Patel" fullname="Keyur Patel">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Danny R. McPherson" initials="D. R." surname="McPherson">
+    <author initials="D. R." surname="McPherson" fullname="Danny R. McPherson">
       <organization>Verisign</organization>
     </author>
-    <author fullname="Kenji Kumaki" initials="K." surname="Kumaki">
+    <author initials="K." surname="Kumaki" fullname="Kenji Kumaki">
       <organization>KDDI Corporation</organization>
     </author>
-    <date year="2012" month="July" day="31"/>
+    <date day="31" month="July" year="2012"></date>
     <abstract>
-      <t>The BGP4 protocol specifies the selection and propagation of a single best path for each prefix. As defined and widely deployed today, BGP has no mechanisms to distribute alternate paths that are not considered best path between its speakers. This behavior results in a number of disadvantages for new applications and services. The main objective of this document is to observe that by simply adding a new session between a route reflector and its client, the Nth best path can be distributed. This document also compares existing solutions and proposed ideas that enable distribution of more paths than just the best path. This proposal does not specify any changes to the BGP protocol definition. It does not require a software upgrade of provider edge (PE) routers acting as route reflector clients. This document is not an Internet Standards Track specification; it is published for informational purposes.</t>
+      <t>The BGP4 protocol specifies the selection and propagation of a single best path for each prefix. As defined and widely deployed today, BGP has no mechanisms to distribute alternate paths that are not considered best path between its speakers. This behavior results in a number of disadvantages for new applications and services.
+
+ The main objective of this document is to observe that by simply adding a new session between a route reflector and its client, the Nth best path can be distributed. This document also compares existing solutions and proposed ideas that enable distribution of more paths than just the best path.
+
+ This proposal does not specify any changes to the BGP protocol definition. It does not require a software upgrade of provider edge (PE) routers acting as route reflector clients. This document is not an Internet Standards Track specification; it is published for informational purposes.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-grow-diverse-bgp-path-dist-08"/>
 </reference>

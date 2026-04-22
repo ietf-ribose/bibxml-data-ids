@@ -1,19 +1,27 @@
 <reference anchor="I-D.ietf-ipsec-intragkm" target="https://datatracker.ietf.org/doc/html/draft-ietf-ipsec-intragkm-03">
   <front>
     <title>Intra-Domain Group Key Management Protocol</title>
-    <author fullname="Bradley Cain" initials="B." surname="Cain">
-      <organization/>
-    </author>
-    <author fullname="Indermohan S. Monga" initials="I. S." surname="Monga">
-      <organization/>
-    </author>
-    <author fullname="Thomas Hardjono" initials="T." surname="Hardjono">
-      <organization/>
-    </author>
-    <date year="2000" month="February" day="23"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ipsec-intragkm-03"/>
+    <author initials="B." surname="Cain" fullname="Bradley Cain"/>
+    <author initials="I. S." surname="Monga" fullname="Indermohan S. Monga"/>
+    <author initials="T." surname="Hardjono" fullname="Thomas Hardjono"/>
+    <date day="23" month="February" year="2000"></date>
     <abstract>
-      <t>This document describes a protocol for intra-domain group key management for IP multicast security, based on the framework of [HCD99]. In order to support multicast groups, the domain is divided into a number of administratively-scoped 'areas'. A host-member of a multicast group is defined to reside within one (and only one) of these areas. The purpose of placing host-members in areas is to achieve flexible and efficient key management, particularly in the face of the problem of changes (joining, leaving, ejections) in the membership of a multicast group. A separate administratively-scoped area control-group is defined for each (data) multicast group, for the express purpose of key management and other control-message delivery.</t>
+      <t>This document describes a protocol for intra-domain group key 
+management for IP multicast security, based on the framework of 
+[HCD99]. In order to support multicast groups, the domain is divided 
+into a number of administratively-scoped 'areas'.  A host-member of 
+a multicast group is defined to reside within one (and only one) of 
+these areas.  The purpose of placing host-members in areas is to 
+achieve flexible and efficient key management, particularly in the 
+face of the problem of changes (joining, leaving, ejections) in the 
+membership of a multicast group. A separate administratively-scoped 
+area control-group is defined for each (data) multicast group, for 
+the express purpose of key management and other control-message 
+delivery.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ipsec-intragkm-03"/>
 </reference>

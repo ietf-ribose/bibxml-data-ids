@@ -1,16 +1,24 @@
 <reference anchor="I-D.ietf-masque-connect-ip-dns" target="https://datatracker.ietf.org/doc/html/draft-ietf-masque-connect-ip-dns-03">
   <front>
     <title>DNS Configuration for Proxying IP in HTTP</title>
-    <author fullname="David Schinazi" initials="D." surname="Schinazi">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-masque-connect-ip-dns-03"/>
+    <author initials="D." surname="Schinazi" fullname="David Schinazi">
       <organization>Google LLC</organization>
     </author>
-    <author fullname="Yaroslav Rosomakho" initials="Y." surname="Rosomakho">
+    <author initials="Y." surname="Rosomakho" fullname="Yaroslav Rosomakho">
       <organization>Zscaler</organization>
     </author>
-    <date year="2025" month="March" day="3"/>
+    <date day="03" month="March" year="2025"></date>
     <abstract>
-      <t>Proxying IP in HTTP allows building a VPN through HTTP load balancers. However, at the time of writing, that mechanism doesn't offer a mechanism for communicating DNS configuration information inline. In contrast, most existing VPN protocols provide a mechanism to exchange DNS configuration information. This document describes an extension that exchanges this information using HTTP capsules. This mechanism supports encrypted DNS transports.</t>
+      <t>   Proxying IP in HTTP allows building a VPN through HTTP load
+   balancers.  However, at the time of writing, that mechanism doesn't
+   offer a mechanism for communicating DNS configuration information
+   inline.  In contrast, most existing VPN protocols provide a mechanism
+   to exchange DNS configuration information.  This document describes
+   an extension that exchanges this information using HTTP capsules.
+   This mechanism supports encrypted DNS transports.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-masque-connect-ip-dns-03"/>
 </reference>

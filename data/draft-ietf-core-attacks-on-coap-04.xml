@@ -1,25 +1,35 @@
 <reference anchor="I-D.ietf-core-attacks-on-coap" target="https://datatracker.ietf.org/doc/html/draft-ietf-core-attacks-on-coap-04">
   <front>
     <title>Attacks on the Constrained Application Protocol (CoAP)</title>
-    <author fullname="John Preuß Mattsson" initials="J. P." surname="Mattsson">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-core-attacks-on-coap-04"/>
+    <author initials="J. P." surname="Mattsson" fullname="John Preuß Mattsson">
       <organization>Ericsson AB</organization>
     </author>
-    <author fullname="John Fornehed" initials="J." surname="Fornehed">
+    <author initials="J." surname="Fornehed" fullname="John Fornehed">
       <organization>Ericsson AB</organization>
     </author>
-    <author fullname="Göran Selander" initials="G." surname="Selander">
+    <author initials="G." surname="Selander" fullname="Göran Selander">
       <organization>Ericsson AB</organization>
     </author>
-    <author fullname="Francesca Palombini" initials="F." surname="Palombini">
+    <author initials="F." surname="Palombini" fullname="Francesca Palombini">
       <organization>Ericsson AB</organization>
     </author>
-    <author fullname="Christian Amsüss" initials="C." surname="Amsüss">
-      <organization/>
-    </author>
-    <date year="2024" month="February" day="21"/>
+    <author initials="C." surname="Amsüss" fullname="Christian Amsüss"/>
+    <date day="21" month="February" year="2024"></date>
     <abstract>
-      <t>Being able to securely retrieve information from sensors and control actuators while providing guards against distributed denial-of- service (DDoS) attacks are key requirements for CoAP deployments. To that aim, a security protocol (e.g., DTLS, TLS, or OSCORE) can be enabled to ensure secure CoAP operation, including protection against many attacks. This document identifies a set of known CoAP attacks and shows that simply using CoAP with a security protocol is not always enough for secure operation. Several of the identified attacks can be mitigated with a security protocol providing confidentiality and integrity combined with the solutions specified in RFC 9175.</t>
+      <t>   Being able to securely retrieve information from sensors and control
+   actuators while providing guards against distributed denial-of-
+   service (DDoS) attacks are key requirements for CoAP deployments.  To
+   that aim, a security protocol (e.g., DTLS, TLS, or OSCORE) can be
+   enabled to ensure secure CoAP operation, including protection against
+   many attacks.  This document identifies a set of known CoAP attacks
+   and shows that simply using CoAP with a security protocol is not
+   always enough for secure operation.  Several of the identified
+   attacks can be mitigated with a security protocol providing
+   confidentiality and integrity combined with the solutions specified
+   in RFC 9175.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-core-attacks-on-coap-04"/>
 </reference>

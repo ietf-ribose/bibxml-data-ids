@@ -1,16 +1,23 @@
 <reference anchor="I-D.valsorda-dnsop-black-lies" target="https://datatracker.ietf.org/doc/html/draft-valsorda-dnsop-black-lies-00">
   <front>
     <title>Compact DNSSEC Denial of Existence or Black Lies</title>
-    <author fullname="Filippo Valsorda" initials="F." surname="Valsorda">
+    <seriesInfo name="Internet-Draft" value="draft-valsorda-dnsop-black-lies-00"/>
+    <author initials="F." surname="Valsorda" fullname="Filippo Valsorda">
       <organization>CloudFlare Inc.</organization>
     </author>
-    <author fullname="Ólafur Guðmundsson" initials="O." surname="Guðmundsson">
+    <author initials="O." surname="Guðmundsson" fullname="Ólafur Guðmundsson">
       <organization>CloudFlare Inc.</organization>
     </author>
-    <date year="2016" month="March" day="21"/>
+    <date day="21" month="March" year="2016"></date>
     <abstract>
-      <t>This document describes a technique to generate valid DNSSEC answers on demand for non-existing names by claiming the name exists and returning a NSEC record for it. These answers require only one NSEC record and allow live-signing servers to minimize signing operations, packet size, disclosure of zone contents and required knowledge of the zone layout.</t>
+      <t>   This document describes a technique to generate valid DNSSEC answers
+   on demand for non-existing names by claiming the name exists and
+   returning a NSEC record for it.  These answers require only one NSEC
+   record and allow live-signing servers to minimize signing operations,
+   packet size, disclosure of zone contents and required knowledge of
+   the zone layout.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-valsorda-dnsop-black-lies-00"/>
 </reference>

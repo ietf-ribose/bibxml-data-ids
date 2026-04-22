@@ -1,22 +1,31 @@
 <reference anchor="I-D.fuller-lisp-ddt" target="https://datatracker.ietf.org/doc/html/draft-fuller-lisp-ddt-04">
   <front>
     <title>LISP Delegated Database Tree</title>
-    <author fullname="Vince Fuller" initials="V." surname="Fuller">
+    <seriesInfo name="Internet-Draft" value="draft-fuller-lisp-ddt-04"/>
+    <author initials="V." surname="Fuller" fullname="Vince Fuller">
       <organization>cisco Systems</organization>
     </author>
-    <author fullname="Darrel Lewis" initials="D." surname="Lewis">
+    <author initials="D." surname="Lewis" fullname="Darrel Lewis">
       <organization>cisco Systems</organization>
     </author>
-    <author fullname="Vina Ermagan" initials="V." surname="Ermagan">
+    <author initials="V." surname="Ermagan" fullname="Vina Ermagan">
       <organization>cisco Systems</organization>
     </author>
-    <author fullname="Amit Jain" initials="A." surname="Jain">
+    <author initials="A." surname="Jain" fullname="Amit Jain">
       <organization>cisco Systems</organization>
     </author>
-    <date year="2012" month="September" day="28"/>
+    <date day="28" month="September" year="2012"></date>
     <abstract>
-      <t>This draft describes the LISP Delegated Database Tree (LISP-DDT), a hierarchical, distributed database which embodies the delegation of authority to provide mappings from LISP Endpoint Identifiers (EIDs) to Routing Locators (RLOCs). It is a statically-defined distribution of the EID namespace among a set of LISP-speaking servers, called DDT nodes. Each DDT node is configured as "authoritative" for one or more EID-prefixes, along with the set of RLOCs for Map Servers or "child" DDT nodes to which more-specific EID-prefixes are delegated.</t>
+      <t>   This draft describes the LISP Delegated Database Tree (LISP-DDT), a
+   hierarchical, distributed database which embodies the delegation of
+   authority to provide mappings from LISP Endpoint Identifiers (EIDs)
+   to Routing Locators (RLOCs).  It is a statically-defined distribution
+   of the EID namespace among a set of LISP-speaking servers, called DDT
+   nodes.  Each DDT node is configured as "authoritative" for one or
+   more EID-prefixes, along with the set of RLOCs for Map Servers or
+   "child" DDT nodes to which more-specific EID-prefixes are delegated.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-fuller-lisp-ddt-04"/>
 </reference>

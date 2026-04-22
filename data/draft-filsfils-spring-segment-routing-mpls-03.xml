@@ -1,46 +1,59 @@
 <reference anchor="I-D.filsfils-spring-segment-routing-mpls" target="https://datatracker.ietf.org/doc/html/draft-filsfils-spring-segment-routing-mpls-03">
   <front>
     <title>Segment Routing with MPLS data plane</title>
-    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils">
+    <seriesInfo name="Internet-Draft" value="draft-filsfils-spring-segment-routing-mpls-03"/>
+    <author initials="C." surname="Filsfils" fullname="Clarence Filsfils">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Stefano Previdi" initials="S." surname="Previdi">
+    <author initials="S." surname="Previdi" fullname="Stefano Previdi">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Ahmed Bashandy" initials="A." surname="Bashandy">
+    <author initials="A." surname="Bashandy" fullname="Ahmed Bashandy">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Bruno Decraene" initials="B." surname="Decraene">
+    <author initials="B." surname="Decraene" fullname="Bruno Decraene">
       <organization>Orange</organization>
     </author>
-    <author fullname="Stephane Litkowski" initials="S." surname="Litkowski">
+    <author initials="S." surname="Litkowski" fullname="Stephane Litkowski">
       <organization>Orange</organization>
     </author>
-    <author fullname="Martin Horneffer" initials="M." surname="Horneffer">
+    <author initials="M." surname="Horneffer" fullname="Martin Horneffer">
       <organization>Deutsche Telekom</organization>
     </author>
-    <author fullname="Igor Milojevic" initials="I." surname="Milojevic">
+    <author initials="I." surname="Milojevic" fullname="Igor Milojevic">
       <organization>Telekom Srbija</organization>
     </author>
-    <author fullname="Rob Shakir" initials="R." surname="Shakir">
+    <author initials="R." surname="Shakir" fullname="Rob Shakir">
       <organization>British Telecom</organization>
     </author>
-    <author fullname="Saku Ytti" initials="S." surname="Ytti">
+    <author initials="S." surname="Ytti" fullname="Saku Ytti">
       <organization>TDC Oy</organization>
     </author>
-    <author fullname="Wim Henderickx" initials="W." surname="Henderickx">
+    <author initials="W." surname="Henderickx" fullname="Wim Henderickx">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+    <author initials="J." surname="Tantsura" fullname="Jeff Tantsura">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Edward Crabbe" initials="E." surname="Crabbe">
+    <author initials="E." surname="Crabbe" fullname="Edward Crabbe">
       <organization>Google, Inc.</organization>
     </author>
-    <date year="2014" month="August" day="1"/>
+    <date day="01" month="August" year="2014"></date>
     <abstract>
-      <t>Segment Routing (SR) leverages the source routing paradigm. A node steers a packet through a controlled set of instructions, called segments, by prepending the packet with an SR header. A segment can represent any instruction, topological or service-based. SR allows to enforce a flow through any topological path and service chain while maintaining per-flow state only at the ingress node to the SR domain. Segment Routing can be directly applied to the MPLS architecture with no change in the forwarding plane. This drafts describes how Segment Routing operates on top of the MPLS data plane.</t>
+      <t>   Segment Routing (SR) leverages the source routing paradigm.  A node
+   steers a packet through a controlled set of instructions, called
+   segments, by prepending the packet with an SR header.  A segment can
+   represent any instruction, topological or service-based.  SR allows
+   to enforce a flow through any topological path and service chain
+   while maintaining per-flow state only at the ingress node to the SR
+   domain.
+
+   Segment Routing can be directly applied to the MPLS architecture with
+   no change in the forwarding plane.  This drafts describes how Segment
+   Routing operates on top of the MPLS data plane.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-filsfils-spring-segment-routing-mpls-03"/>
 </reference>

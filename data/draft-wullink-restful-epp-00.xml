@@ -1,19 +1,33 @@
 <reference anchor="I-D.wullink-restful-epp" target="https://datatracker.ietf.org/doc/html/draft-wullink-restful-epp-00">
   <front>
     <title>RESTful interface for the Extensible Provisioning Protocol</title>
-    <author fullname="Maarten Wullink" initials="M." surname="Wullink">
+    <seriesInfo name="Internet-Draft" value="draft-wullink-restful-epp-00"/>
+    <author initials="M." surname="Wullink" fullname="Maarten Wullink">
       <organization>SIDN</organization>
     </author>
-    <author fullname="Marco Davids" initials="M." surname="Davids">
+    <author initials="M." surname="Davids" fullname="Marco Davids">
       <organization>SIDN Labs</organization>
     </author>
-    <author fullname="R. (Miek) Gieben" initials="R. M." surname="Gieben">
+    <author initials="R. M." surname="Gieben" fullname="R. (Miek) Gieben">
       <organization>SIDN Labs</organization>
     </author>
-    <date year="2012" month="April" day="23"/>
+    <date day="23" month="April" year="2012"></date>
     <abstract>
-      <t>This document specifies a 'RESTful interface for EPP' (REPP) with the aim to improve efficiency and interoperability of EPP systems. This document includes a new EPP Protocol Extension as well as a mapping of [RFC5730] XML-commands to an HTTP based (RESTful) interface. Existing semantics and mappings as defined in [RFC5731], [RFC5732] and [RFC5733] are largely retained and reusable in RESTful EPP. With REPP, no session is created on the EPP server. Each request from client to server will contain all of the information necessary to understand the request. The server will close the connection after each HTTP request.</t>
+      <t>   This document specifies a 'RESTful interface for EPP' (REPP) with the
+   aim to improve efficiency and interoperability of EPP systems.
+
+   This document includes a new EPP Protocol Extension as well as a
+   mapping of [RFC5730] XML-commands to an HTTP based (RESTful)
+   interface.  Existing semantics and mappings as defined in [RFC5731],
+   [RFC5732] and [RFC5733] are largely retained and reusable in RESTful
+   EPP.
+
+   With REPP, no session is created on the EPP server.  Each request
+   from client to server will contain all of the information necessary
+   to understand the request.  The server will close the connection
+   after each HTTP request.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wullink-restful-epp-00"/>
 </reference>

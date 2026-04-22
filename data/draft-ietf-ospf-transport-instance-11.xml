@@ -1,19 +1,30 @@
 <reference anchor="I-D.ietf-ospf-transport-instance" target="https://datatracker.ietf.org/doc/html/draft-ietf-ospf-transport-instance-11">
   <front>
     <title>OSPF Transport Instance Extensions</title>
-    <author fullname="Acee Lindem" initials="A." surname="Lindem">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-transport-instance-11"/>
+    <author initials="A." surname="Lindem" fullname="Acee Lindem">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Abhay Roy" initials="A." surname="Roy">
+    <author initials="A." surname="Roy" fullname="Abhay Roy">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Sina Mirtorabi" initials="S." surname="Mirtorabi">
+    <author initials="S." surname="Mirtorabi" fullname="Sina Mirtorabi">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2014" month="June" day="25"/>
+    <date day="25" month="June" year="2014"></date>
     <abstract>
-      <t>OSPFv2 and OSPFv3 include a reliable flooding mechanism to disseminate routing topology and Traffic Engineering (TE) information within a routing domain. Given the effectiveness of these mechanisms, it is convenient to envision using the same mechanism for dissemination of other types of information within the domain. However, burdening OSPF with this additional information will impact intra-domain routing convergence and possibly jeopardize the stability of the OSPF routing domain. This document presents mechanism to relegate this ancillary information to a separate OSPF instance and minimize the impact.</t>
+      <t>   OSPFv2 and OSPFv3 include a reliable flooding mechanism to
+   disseminate routing topology and Traffic Engineering (TE) information
+   within a routing domain.  Given the effectiveness of these
+   mechanisms, it is convenient to envision using the same mechanism for
+   dissemination of other types of information within the domain.
+   However, burdening OSPF with this additional information will impact
+   intra-domain routing convergence and possibly jeopardize the
+   stability of the OSPF routing domain.  This document presents
+   mechanism to relegate this ancillary information to a separate OSPF
+   instance and minimize the impact.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-transport-instance-11"/>
 </reference>

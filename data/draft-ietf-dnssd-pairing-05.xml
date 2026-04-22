@@ -1,16 +1,27 @@
 <reference anchor="I-D.ietf-dnssd-pairing" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnssd-pairing-05">
   <front>
     <title>Device Pairing Using Short Authentication Strings</title>
-    <author fullname="Christian Huitema" initials="C." surname="Huitema">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnssd-pairing-05"/>
+    <author initials="C." surname="Huitema" fullname="Christian Huitema">
       <organization>Private Octopus Inc.</organization>
     </author>
-    <author fullname="Daniel Kaiser" initials="D." surname="Kaiser">
-      <organization/>
-    </author>
-    <date year="2018" month="October" day="15"/>
+    <author initials="D." surname="Kaiser" fullname="Daniel Kaiser"/>
+    <date day="15" month="October" year="2018"></date>
     <abstract>
-      <t>This document proposes a device pairing mechanism that establishes a relation between two devices by agreeing on a secret and manually verifying the secret's authenticity using an SAS (short authentication string). Pairing has to be performed only once per pair of devices, as for a re-discovery at any later point in time, the exchanged secret can be used for mutual authentication. The proposed pairing method is suited for each application area where human operated devices need to establish a relation that allows configurationless and privacy preserving re-discovery at any later point in time. Since privacy preserving applications are the main suitors, we especially care about privacy.</t>
+      <t>   This document proposes a device pairing mechanism that establishes a
+   relation between two devices by agreeing on a secret and manually
+   verifying the secret's authenticity using an SAS (short
+   authentication string).  Pairing has to be performed only once per
+   pair of devices, as for a re-discovery at any later point in time,
+   the exchanged secret can be used for mutual authentication.
+
+   The proposed pairing method is suited for each application area where
+   human operated devices need to establish a relation that allows
+   configurationless and privacy preserving re-discovery at any later
+   point in time.  Since privacy preserving applications are the main
+   suitors, we especially care about privacy.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dnssd-pairing-05"/>
 </reference>

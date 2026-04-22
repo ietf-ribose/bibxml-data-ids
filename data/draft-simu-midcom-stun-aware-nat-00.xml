@@ -2,19 +2,31 @@
   <front>
     <title>STUN-aware NAT
 </title>
-    <author fullname="Adina Simu" initials="A." surname="Simu">
+    <seriesInfo name="Internet-Draft" value="draft-simu-midcom-stun-aware-nat-00"/>
+    <author initials="A." surname="Simu" fullname="Adina Simu">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Rohan Mahy" initials="R." surname="Mahy">
+    <author initials="R." surname="Mahy" fullname="Rohan Mahy">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Mahadev Somasundaram" initials="M." surname="Somasundaram">
+    <author initials="M." surname="Somasundaram" fullname="Mahadev Somasundaram">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2002" month="April" day="11"/>
+    <date day="11" month="April" year="2002"></date>
     <abstract>
-      <t>STUN provides an easy way to traverse some types of NATs and it will work satisfactorily in many NAT deployments. To overcome STUN's limitations, one solution is to accept the idea that NATs can change too (and they've been proven to change, an example being the proliferation of IPsec pass-thru NAT devices) and to colocate STUN server functionality on the NAT box itself. Upon receipt of a STUN request, the server colocated within the NAT device allocates addresses and ports, and installs bindings. This allows hosts running the STUN client software to transparently achieve symmetric NAT traversal and to make themselves addressable from the Global Internet.</t>
+      <t>STUN provides an easy way to traverse some types of NATs and it will
+work satisfactorily in many NAT deployments.  To overcome STUN's
+limitations, one solution is to accept the idea that NATs can change
+too (and they've been proven to change, an example being the
+proliferation of IPsec pass-thru NAT devices) and to colocate STUN
+server functionality on the NAT box itself.  Upon receipt of a STUN
+request, the server colocated within the NAT device allocates
+addresses and ports, and installs bindings.  This allows hosts
+running the STUN client software to transparently achieve symmetric
+NAT traversal and to make themselves addressable from the Global
+Internet.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-simu-midcom-stun-aware-nat-00"/>
 </reference>

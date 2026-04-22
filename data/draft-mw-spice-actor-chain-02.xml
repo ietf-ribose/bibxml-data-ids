@@ -1,22 +1,40 @@
 <reference anchor="I-D.mw-spice-actor-chain" target="https://datatracker.ietf.org/doc/html/draft-mw-spice-actor-chain-02">
   <front>
     <title>Cryptographically Verifiable Actor Chains for OAuth 2.0 Token Exchange</title>
-    <author fullname="A Prasad" initials="A." surname="Prasad">
+    <seriesInfo name="Internet-Draft" value="draft-mw-spice-actor-chain-02"/>
+    <author initials="A." surname="Prasad" fullname="A Prasad">
       <organization>Oracle</organization>
     </author>
-    <author fullname="Ramki Krishnan" initials="R." surname="Krishnan">
+    <author initials="R." surname="Krishnan" fullname="Ramki Krishnan">
       <organization>JPMorgan Chase &amp; Co</organization>
     </author>
-    <author fullname="Diego Lopez" initials="D." surname="Lopez">
+    <author initials="D." surname="Lopez" fullname="Diego Lopez">
       <organization>Telefonica</organization>
     </author>
-    <author fullname="Srinivasa Addepalli" initials="S." surname="Addepalli">
+    <author initials="S." surname="Addepalli" fullname="Srinivasa Addepalli">
       <organization>Aryaka</organization>
     </author>
-    <date year="2026" month="March" day="17"/>
+    <date day="17" month="March" year="2026"></date>
     <abstract>
-      <t>This document defines five actor-chain profiles for OAuth 2.0 Token Exchange {{!RFC8693}}. {{!RFC8693}} permits nested act claims, but prior actors remain informational only and token exchange does not define how a delegation path is preserved and validated across successive exchanges. This document defines profile-specific processing for linear multi- hop workflows. The five profiles are: Asserted Chain with Full Disclosure; Asserted Chain with Subset Disclosure; Committed Chain with Full Disclosure; Committed Chain with Subset Disclosure; and Committed Chain with No Chain Disclosure. These profiles preserve the existing meanings of sub and act, support same-domain and cross-domain delegation, require sender-constrained tokens, and provide different tradeoffs among readable chain-based authorization, cryptographic accountability, auditability, privacy, and long-running workflow support.</t>
+      <t>   This document defines five actor-chain profiles for OAuth 2.0 Token
+   Exchange {{!RFC8693}}. {{!RFC8693}} permits nested act claims, but
+   prior actors remain informational only and token exchange does not
+   define how a delegation path is preserved and validated across
+   successive exchanges.
+
+   This document defines profile-specific processing for linear multi-
+   hop workflows.  The five profiles are: Asserted Chain with Full
+   Disclosure; Asserted Chain with Subset Disclosure; Committed Chain
+   with Full Disclosure; Committed Chain with Subset Disclosure; and
+   Committed Chain with No Chain Disclosure.
+
+   These profiles preserve the existing meanings of sub and act, support
+   same-domain and cross-domain delegation, require sender-constrained
+   tokens, and provide different tradeoffs among readable chain-based
+   authorization, cryptographic accountability, auditability, privacy,
+   and long-running workflow support.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mw-spice-actor-chain-02"/>
 </reference>

@@ -1,19 +1,32 @@
 <reference anchor="I-D.petrescu-mip4-tuntype-change" target="https://datatracker.ietf.org/doc/html/draft-petrescu-mip4-tuntype-change-00">
   <front>
     <title>Tunnel Type Change for Mobile IPv4 (TTC)</title>
-    <author fullname="Alexandre Petrescu" initials="A." surname="Petrescu">
+    <seriesInfo name="Internet-Draft" value="draft-petrescu-mip4-tuntype-change-00"/>
+    <author initials="A." surname="Petrescu" fullname="Alexandre Petrescu">
       <organization>CEA LIST</organization>
     </author>
-    <author fullname="Christophe Janneteau" initials="C." surname="Janneteau">
+    <author initials="C." surname="Janneteau" fullname="Christophe Janneteau">
       <organization>CEA LIST</organization>
     </author>
-    <author fullname="Nicolas Demailly" initials="N." surname="Demailly">
+    <author initials="N." surname="Demailly" fullname="Nicolas Demailly">
       <organization>iXXi</organization>
     </author>
-    <date year="2011" month="March" day="7"/>
+    <date day="07" month="March" year="2011"></date>
     <abstract>
-      <t>The protocol Mobile IPv4 may use a number of encapsulation methods between an MN and its HA. The UDP method is used to perform NAT Traversal (if a NAT sits between MN and HA) whereas IP-in-IP method may be used if there is no NAT (CoA is a publicly routable address). Although these methods are individually specified, a mechanism for changing between one to another is not, which may lead to incoherent implementations. This draft briefly presents the scenario of a MN performing a handover between private space (NAT) and public space (non-NAT), the implementation problem (type of tunnel can not be changed dynamically), and some potential solutions as textual modifications, better implementations, or protocol extensions.</t>
+      <t>The protocol Mobile IPv4 may use a number of encapsulation methods
+between an MN and its HA.  The UDP method is used to perform NAT
+Traversal (if a NAT sits between MN and HA) whereas IP-in-IP method
+may be used if there is no NAT (CoA is a publicly routable address).
+Although these methods are individually specified, a mechanism for
+changing between one to another is not, which may lead to incoherent
+implementations.
+
+This draft briefly presents the scenario of a MN performing a
+handover between private space (NAT) and public space (non-NAT), the
+implementation problem (type of tunnel can not be changed
+dynamically), and some potential solutions as textual modifications,
+better implementations, or protocol extensions.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-petrescu-mip4-tuntype-change-00"/>
 </reference>

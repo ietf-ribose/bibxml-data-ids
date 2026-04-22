@@ -1,16 +1,29 @@
 <reference anchor="I-D.tiloca-core-oscore-capable-proxies" target="https://datatracker.ietf.org/doc/html/draft-tiloca-core-oscore-capable-proxies-01">
   <front>
     <title>OSCORE-capable Proxies</title>
-    <author fullname="Marco Tiloca" initials="M." surname="Tiloca">
+    <seriesInfo name="Internet-Draft" value="draft-tiloca-core-oscore-capable-proxies-01"/>
+    <author initials="M." surname="Tiloca" fullname="Marco Tiloca">
       <organization>RISE AB</organization>
     </author>
-    <author fullname="Rikard Höglund" initials="R." surname="Höglund">
+    <author initials="R." surname="Höglund" fullname="Rikard Höglund">
       <organization>RISE AB</organization>
     </author>
-    <date year="2021" month="October" day="25"/>
+    <date day="25" month="October" year="2021"></date>
     <abstract>
-      <t>Object Security for Constrained RESTful Environments (OSCORE) can be used to protect CoAP messages end-to-end between two endpoints at the application layer, also in the presence of intermediaries such as proxies. This document defines how OSCORE is used to protect CoAP messages also between an origin application endpoint and an intermediary, or between two intermediaries. Besides, it defines how a CoAP message can be double-protected through "OSCORE-in-OSCORE", i.e., both end-to-end between origin application endpoints, as well as between an application endpoint and an intermediary or between two intermediaries. Thus, this document updates RFC 8613. The same approach applies to Group OSCORE, for protecting CoAP messages when group communication with intermediaries is used.</t>
+      <t>   Object Security for Constrained RESTful Environments (OSCORE) can be
+   used to protect CoAP messages end-to-end between two endpoints at the
+   application layer, also in the presence of intermediaries such as
+   proxies.  This document defines how OSCORE is used to protect CoAP
+   messages also between an origin application endpoint and an
+   intermediary, or between two intermediaries.  Besides, it defines how
+   a CoAP message can be double-protected through "OSCORE-in-OSCORE",
+   i.e., both end-to-end between origin application endpoints, as well
+   as between an application endpoint and an intermediary or between two
+   intermediaries.  Thus, this document updates RFC 8613.  The same
+   approach applies to Group OSCORE, for protecting CoAP messages when
+   group communication with intermediaries is used.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-tiloca-core-oscore-capable-proxies-01"/>
 </reference>

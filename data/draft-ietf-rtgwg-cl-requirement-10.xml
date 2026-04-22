@@ -1,25 +1,30 @@
 <reference anchor="I-D.ietf-rtgwg-cl-requirement" target="https://datatracker.ietf.org/doc/html/draft-ietf-rtgwg-cl-requirement-10">
   <front>
     <title>Requirements for Composite Links in MPLS Networks</title>
-    <author fullname="Curtis Villamizar" initials="C." surname="Villamizar">
-      <organization/>
-    </author>
-    <author fullname="Dave McDysan" initials="D." surname="McDysan">
-      <organization/>
-    </author>
-    <author fullname="Ning So" initials="N." surname="So">
-      <organization/>
-    </author>
-    <author fullname="Andrew G. Malis" initials="A. G." surname="Malis">
-      <organization/>
-    </author>
-    <author fullname="Lucy Yong" initials="L." surname="Yong">
-      <organization/>
-    </author>
-    <date year="2013" month="March" day="22"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-rtgwg-cl-requirement-10"/>
+    <author initials="C." surname="Villamizar" fullname="Curtis Villamizar"/>
+    <author initials="D." surname="McDysan" fullname="Dave McDysan"/>
+    <author initials="N." surname="So" fullname="Ning So"/>
+    <author initials="A. G." surname="Malis" fullname="Andrew G. Malis"/>
+    <author initials="L." surname="Yong" fullname="Lucy Yong"/>
+    <date day="22" month="March" year="2013"></date>
     <abstract>
-      <t>There is often a need to provide large aggregates of bandwidth that are best provided using parallel links between routers or MPLS LSR. In core networks there is often no alternative since the aggregate capacities of core networks today far exceed the capacity of a single physical link or single packet processing element. The presence of parallel links, with each link potentially comprised of multiple layers has resulted in additional requirements. Certain services may benefit from being restricted to a subset of the component links or a specific component link, where component link characteristics, such as latency, differ. Certain services require that an LSP be treated as atomic and avoid reordering. Other services will continue to require only that reordering not occur within a microflow as is current practice.</t>
+      <t>   There is often a need to provide large aggregates of bandwidth that
+   are best provided using parallel links between routers or MPLS LSR.
+   In core networks there is often no alternative since the aggregate
+   capacities of core networks today far exceed the capacity of a single
+   physical link or single packet processing element.
+
+   The presence of parallel links, with each link potentially comprised
+   of multiple layers has resulted in additional requirements.  Certain
+   services may benefit from being restricted to a subset of the
+   component links or a specific component link, where component link
+   characteristics, such as latency, differ.  Certain services require
+   that an LSP be treated as atomic and avoid reordering.  Other
+   services will continue to require only that reordering not occur
+   within a microflow as is current practice.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-rtgwg-cl-requirement-10"/>
 </reference>

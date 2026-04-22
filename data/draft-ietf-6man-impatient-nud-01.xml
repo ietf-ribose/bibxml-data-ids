@@ -1,16 +1,22 @@
 <reference anchor="I-D.ietf-6man-impatient-nud" target="https://datatracker.ietf.org/doc/html/draft-ietf-6man-impatient-nud-01">
   <front>
     <title>Neighbor Unreachability Detection is too impatient</title>
-    <author fullname="Erik Nordmark" initials="E." surname="Nordmark">
-      <organization/>
-    </author>
-    <author fullname="Igor Gashinsky" initials="I." surname="Gashinsky">
-      <organization/>
-    </author>
-    <date year="2012" month="March" day="12"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-6man-impatient-nud-01"/>
+    <author initials="E." surname="Nordmark" fullname="Erik Nordmark"/>
+    <author initials="I." surname="Gashinsky" fullname="Igor Gashinsky"/>
+    <date day="12" month="March" year="2012"></date>
     <abstract>
-      <t>IPv6 Neighbor Discovery includes Neighbor Unreachability Detection. That function is very useful when a host has an alternative, for instance multiple default routers, since it allows the host to switch to the alternative in short time. This time is 3 seconds after the node starts probing by default. However, if there are no alternatives, this is far too impatient. This document specifies relaxed rules for Neighbor Discovery retransmissions that allows an implementation to choose different timeout behavior based on whether or not there are alternatives.</t>
+      <t>   IPv6 Neighbor Discovery includes Neighbor Unreachability Detection.
+   That function is very useful when a host has an alternative, for
+   instance multiple default routers, since it allows the host to switch
+   to the alternative in short time.  This time is 3 seconds after the
+   node starts probing by default.  However, if there are no
+   alternatives, this is far too impatient.  This document specifies
+   relaxed rules for Neighbor Discovery retransmissions that allows an
+   implementation to choose different timeout behavior based on whether
+   or not there are alternatives.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-6man-impatient-nud-01"/>
 </reference>

@@ -1,22 +1,42 @@
 <reference anchor="I-D.shpiner-multi-path-synchronization" target="https://datatracker.ietf.org/doc/html/draft-shpiner-multi-path-synchronization-03">
   <front>
     <title>Multi-Path Time Synchronization</title>
-    <author fullname="Alex Shpiner" initials="A." surname="Shpiner">
-      <organization/>
-    </author>
-    <author fullname="Richard Tse" initials="R." surname="Tse">
+    <seriesInfo name="Internet-Draft" value="draft-shpiner-multi-path-synchronization-03"/>
+    <author initials="A." surname="Shpiner" fullname="Alex Shpiner"/>
+    <author initials="R." surname="Tse" fullname="Richard Tse">
       <organization>PMC-Sierra</organization>
     </author>
-    <author fullname="Craig Schelp" initials="C." surname="Schelp">
+    <author initials="C." surname="Schelp" fullname="Craig Schelp">
       <organization>PMC-Sierra</organization>
     </author>
-    <author fullname="Tal Mizrahi" initials="T." surname="Mizrahi">
+    <author initials="T." surname="Mizrahi" fullname="Tal Mizrahi">
       <organization>Marvell</organization>
     </author>
-    <date year="2014" month="February" day="11"/>
+    <date day="11" month="February" year="2014"></date>
     <abstract>
-      <t>Clock synchronization protocols are very widely used in IP-based networks. The Network Time Protocol (NTP) has been commonly deployed for many years, and the last few years have seen an increasingly rapid deployment of the Precision Time Protocol (PTP). As time- sensitive applications evolve, clock accuracy requirements are becoming increasingly stringent, requiring the time synchronization protocols to provide high accuracy. Slave Diversity is a recently introduced approach, where the master and slave clocks (also known as server and client) are connected through multiple network paths, and the slave combines the information received through all paths to obtain a higher clock accuracy compared to the conventional one-path approach. This document describes a multi-path approach to PTP and NTP over IP networks, allowing the protocols to run concurrently over multiple communication paths between the master and slave clocks. The multi-path approach can significantly contribute to clock accuracy, security and fault protection. The Multi-Path Precision Time Protocol (MPPTP) and Multi-Path Network Time Protocol (MPNTP) define an additional layer that extends the existing PTP and NTP without the need to modify these protocols. MPPTP and MPNTP also allow backward compatibility with nodes that do not support the multi-path extension.</t>
+      <t>   Clock synchronization protocols are very widely used in IP-based
+   networks. The Network Time Protocol (NTP) has been commonly deployed
+   for many years, and the last few years have seen an increasingly
+   rapid deployment of the Precision Time Protocol (PTP). As time-
+   sensitive applications evolve, clock accuracy requirements are
+   becoming increasingly stringent, requiring the time synchronization
+   protocols to provide high accuracy. Slave Diversity is a recently
+   introduced approach, where the master and slave clocks (also known as
+   server and client) are connected through multiple network paths, and
+   the slave combines the information received through all paths to
+   obtain a higher clock accuracy compared to the conventional one-path
+   approach.  This document describes a multi-path approach to PTP and
+   NTP over IP networks, allowing the protocols to run concurrently over
+   multiple communication paths between the master and slave clocks. The
+   multi-path approach can significantly contribute to clock accuracy,
+   security and fault protection. The Multi-Path Precision Time Protocol
+   (MPPTP) and Multi-Path Network Time Protocol (MPNTP) define an
+   additional layer that extends the existing PTP and NTP without the
+   need to modify these protocols. MPPTP and MPNTP also allow backward
+   compatibility with nodes that do not support the multi-path
+   extension.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-shpiner-multi-path-synchronization-03"/>
 </reference>

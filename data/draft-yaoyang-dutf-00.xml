@@ -1,13 +1,21 @@
 <reference anchor="I-D.yaoyang-dutf" target="https://datatracker.ietf.org/doc/html/draft-yaoyang-dutf-00">
   <front>
     <title>DUTF, a Dynamic Unicode Transformation Format</title>
-    <author fullname="杨尧" initials="Y." surname="杨尧">
-      <organization/>
-    </author>
-    <date year="2023" month="February" day="19"/>
+    <seriesInfo name="Internet-Draft" value="draft-yaoyang-dutf-00"/>
+    <author initials="Y." surname="杨尧" fullname="杨尧"/>
+    <date day="19" month="February" year="2023"></date>
     <abstract>
-      <t>The Unicode Standard and ISO/IEC 10646 jointly define a coded character set, referred to as Unicode, which encompasses most of the world's writing systems. Characters of the same language are arranged close to each other in the Unicode code table. This memo proposes a dynamic Unicode transformation format(DUTF). DUTF has the characteristic of preserving the full US-ASCII range, and uses XOR to calculate the offset value between the Unicode code point of adjacent non-ASCII characters in the source string, then encodes the result as a variable-length sequence of octets.</t>
+      <t>   The Unicode Standard and ISO/IEC 10646 jointly define a coded
+   character set, referred to as Unicode, which encompasses most of the
+   world's writing systems.  Characters of the same language are
+   arranged close to each other in the Unicode code table.  This memo
+   proposes a dynamic Unicode transformation format(DUTF).  DUTF has the
+   characteristic of preserving the full US-ASCII range, and uses XOR to
+   calculate the offset value between the Unicode code point of adjacent
+   non-ASCII characters in the source string, then encodes the result as
+   a variable-length sequence of octets.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-yaoyang-dutf-00"/>
 </reference>

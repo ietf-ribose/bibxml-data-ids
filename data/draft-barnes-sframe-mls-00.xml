@@ -1,16 +1,26 @@
 <reference anchor="I-D.barnes-sframe-mls" target="https://datatracker.ietf.org/doc/html/draft-barnes-sframe-mls-00">
   <front>
     <title>Using Messaging Layer Security (MLS) to Provide Keys for SFrame</title>
-    <author fullname="Richard Barnes" initials="R." surname="Barnes">
+    <seriesInfo name="Internet-Draft" value="draft-barnes-sframe-mls-00"/>
+    <author initials="R." surname="Barnes" fullname="Richard Barnes">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Raphael Robert" initials="R." surname="Robert">
+    <author initials="R." surname="Robert" fullname="Raphael Robert">
       <organization>Wire</organization>
     </author>
-    <date year="2020" month="November" day="15"/>
+    <date day="15" month="November" year="2020"></date>
     <abstract>
-      <t>Secure Frames (SFrame) defines a compact scheme for encrypting real- time media. In order for SFrame to address cases where media are exchanged among many participants (e.g., real-time conferencing), it needs to be augmented with a group key management protocol. The Messaging Layer Security (MLS) protocol provides continuous group authenticated key exchange, allowing a group of participants in a media session to authenticate each other and agree on a group key. This document defines how the group keys produced by MLS can be used with SFrame to secure real-time sessions for groups.</t>
+      <t>   Secure Frames (SFrame) defines a compact scheme for encrypting real-
+   time media.  In order for SFrame to address cases where media are
+   exchanged among many participants (e.g., real-time conferencing), it
+   needs to be augmented with a group key management protocol.  The
+   Messaging Layer Security (MLS) protocol provides continuous group
+   authenticated key exchange, allowing a group of participants in a
+   media session to authenticate each other and agree on a group key.
+   This document defines how the group keys produced by MLS can be used
+   with SFrame to secure real-time sessions for groups.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-barnes-sframe-mls-00"/>
 </reference>

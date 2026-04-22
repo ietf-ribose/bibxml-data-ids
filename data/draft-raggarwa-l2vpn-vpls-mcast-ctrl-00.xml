@@ -1,13 +1,25 @@
 <reference anchor="I-D.raggarwa-l2vpn-vpls-mcast-ctrl" target="https://datatracker.ietf.org/doc/html/draft-raggarwa-l2vpn-vpls-mcast-ctrl-00">
   <front>
     <title>Propagation of VPLS IP Multicast Group Membership Information</title>
-    <author fullname="Rahul Aggarwal" initials="R." surname="Aggarwal">
+    <seriesInfo name="Internet-Draft" value="draft-raggarwa-l2vpn-vpls-mcast-ctrl-00"/>
+    <author initials="R." surname="Aggarwal" fullname="Rahul Aggarwal">
       <organization>Juniper Networks</organization>
     </author>
-    <date year="2005" month="July" day="12"/>
+    <date day="12" month="July" year="2005"></date>
     <abstract>
-      <t>The PEs participating in VPLS need to learn the IP multicast group membership information from remote VPLS sites to enable them to send an IP multicast packet to only those other PEs in the VPLS that have receivers interested in that particular IP multicast packet's multicast source and group. This document describes procedures for propagating multicast control information, learned from local Virtual Private LAN Service (VPLS) sites, to remote VPLS sites. IGMP or PIM snooping is required only on the customer facing interfaces. The procedures do not require IGMP or PIM snooping on the Service Provider backbone links. Instead they use reliable protocol messages to exchange multicast control information between the PEs.</t>
+      <t>   The PEs participating in VPLS need to learn the IP multicast group
+   membership information from remote VPLS sites to enable them to send
+   an IP multicast packet to only those other PEs in the VPLS that have
+   receivers interested in that particular IP multicast packet's
+   multicast source and group. This document describes procedures for
+   propagating multicast control information, learned from local Virtual
+
+   Private LAN Service (VPLS) sites, to remote VPLS sites. IGMP or PIM
+   snooping is required only on the customer facing interfaces. The
+   procedures do not require IGMP or PIM snooping on the Service
+   Provider backbone links. Instead they use reliable protocol messages
+   to exchange multicast control information between the PEs.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-raggarwa-l2vpn-vpls-mcast-ctrl-00"/>
 </reference>

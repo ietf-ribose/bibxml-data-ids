@@ -1,13 +1,23 @@
 <reference anchor="I-D.stjohns-dnssec-trustupdate" target="https://datatracker.ietf.org/doc/html/draft-stjohns-dnssec-trustupdate-01">
   <front>
     <title>Automated Updates of DNSSEC Trust Anchors</title>
-    <author fullname="Michael StJohns" initials="M." surname="StJohns">
+    <seriesInfo name="Internet-Draft" value="draft-stjohns-dnssec-trustupdate-01"/>
+    <author initials="M." surname="StJohns" fullname="Michael StJohns">
       <organization>Nominum, Inc.</organization>
     </author>
-    <date year="2004" month="July" day="19"/>
+    <date day="19" month="July" year="2004"></date>
     <abstract>
-      <t>This document describes a means for automated, authenticated and authorized updating of DNSSEC "trust anchors". The method provides protection against single key compromise of a key in the trust point key set. Based on the trust established by the presence of a current anchor, other anchors may be added at the same place in the hierarchy, and, ultimately, supplant the existing anchor. This mechanism, if adopted, will require changes to resolver management behavior (but not resolver resolution behavior), and the addition of a single flag bit to the DNSKEY record.</t>
+      <t>This document describes a means for automated, authenticated and
+   authorized updating of DNSSEC "trust anchors".  The method provides
+   protection against single key compromise of a key in the trust point
+   key set.  Based on the trust established by the presence of a current
+   anchor, other anchors may be added at the same place in the
+   hierarchy, and, ultimately, supplant the existing anchor.
+
+   This mechanism, if adopted, will require changes to resolver
+   management behavior (but not resolver resolution behavior), and the
+   addition of a single flag bit to the DNSKEY record.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-stjohns-dnssec-trustupdate-01"/>
 </reference>

@@ -1,19 +1,25 @@
 <reference anchor="I-D.gandhishah-teas-assoc-corouted-bidir" target="https://datatracker.ietf.org/doc/html/draft-gandhishah-teas-assoc-corouted-bidir-00">
   <front>
     <title>RSVP-TE Extensions For Associated Co-routed Bidirectional Label Switched Paths (LSPs)</title>
-    <author fullname="Rakesh Gandhi" initials="R." surname="Gandhi">
-      <organization/>
-    </author>
-    <author fullname="Himanshu C. Shah" initials="H. C." surname="Shah">
-      <organization/>
-    </author>
-    <author fullname="Jeremy Whittaker" initials="J." surname="Whittaker">
-      <organization/>
-    </author>
-    <date year="2016" month="March" day="7"/>
+    <seriesInfo name="Internet-Draft" value="draft-gandhishah-teas-assoc-corouted-bidir-00"/>
+    <author initials="R." surname="Gandhi" fullname="Rakesh Gandhi"/>
+    <author initials="H. C." surname="Shah" fullname="Himanshu C. Shah"/>
+    <author initials="J." surname="Whittaker" fullname="Jeremy Whittaker"/>
+    <date day="07" month="March" year="2016"></date>
     <abstract>
-      <t>In packet transport networks, there are requirements where reverse unidirectional LSP of a bidirectional LSP needs to follow the same path as its forward unidirectional LSP. This document describes how RSVP Extended ASSOCIATION Object can be used to bind two co-routed point-to-point unidirectional LSPs into an associated co-routed bidirectional LSP in single-sided provisioning case. The RSVP REVERSE_LSP Object is used to enable an endpoint to trigger creation of the reverse LSP along the same path as the forward LSP. Fast-reroute procedures to ensure that the traffic flows on the co-routed path after a failure event are also described.</t>
+      <t>   In packet transport networks, there are requirements where reverse
+   unidirectional LSP of a bidirectional LSP needs to follow the same
+   path as its forward unidirectional LSP.  This document describes how
+   RSVP Extended ASSOCIATION Object can be used to bind two co-routed
+   point-to-point unidirectional LSPs into an associated co-routed
+   bidirectional LSP in single-sided provisioning case.  The RSVP
+   REVERSE_LSP Object is used to enable an endpoint to trigger creation
+   of the reverse LSP along the same path as the forward LSP.
+   Fast-reroute procedures to ensure that the traffic flows on the
+   co-routed path after a failure event are also described.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-gandhishah-teas-assoc-corouted-bidir-00"/>
 </reference>

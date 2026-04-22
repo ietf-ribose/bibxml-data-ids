@@ -1,16 +1,32 @@
 <reference anchor="I-D.touch-tcpm-tcp-simple-auth" target="https://datatracker.ietf.org/doc/html/draft-touch-tcpm-tcp-simple-auth-03">
   <front>
     <title>The TCP Simple Authentication Option</title>
-    <author fullname="Dr. Joseph D. Touch" initials="J. D." surname="Touch">
+    <seriesInfo name="Internet-Draft" value="draft-touch-tcpm-tcp-simple-auth-03"/>
+    <author initials="J. D." surname="Touch" fullname="Dr. Joseph D. Touch">
       <organization>USC/ISI</organization>
     </author>
-    <author fullname="Allison J. Mankin" initials="A. J." surname="Mankin">
-      <organization/>
-    </author>
-    <date year="2007" month="July" day="9"/>
+    <author initials="A. J." surname="Mankin" fullname="Allison J. Mankin"/>
+    <date day="09" month="July" year="2007"></date>
     <abstract>
-      <t>This document specifies a TCP Simple Authentication Option (TCP-SA) which is intended to replace the TCP MD5 Signature option of RFC-2385 (TCP/MD5). TCP-SA specifies the use of stronger HMAC-based hashes and provides more details on the association of security associations with TCP connections. TCP-SA assumes an external, out-of-band mechanism (manual or via a separate protocol) for session key establishment, parameter negotiation, and rekeying, replicating the separation of key management and key use as in the IPsec suite. The result is intended to be a simple modification to support current infrastructure uses of TCP/MD5, such as to protect BGP and LDP, to support a larger set of hashes with minimal other system and operational changes. TCP-SA requires no new option identifier, though it is intended to be mutually exclusive with TCP/MD5 on a given TCP connection. It can be used in the presence of NATs/NAPTs, and supports IPv6, and is fully compatible with requirements under development for an update to TCP/MD5.</t>
+      <t>   This document specifies a TCP Simple Authentication Option (TCP-SA) 
+   which is intended to replace the TCP MD5 Signature option of RFC-2385 
+   (TCP/MD5). TCP-SA specifies the use of stronger HMAC-based hashes and 
+   provides more details on the association of security associations 
+   with TCP connections. TCP-SA assumes an external, out-of-band 
+
+   mechanism (manual or via a separate protocol) for session key 
+   establishment, parameter negotiation, and rekeying, replicating the 
+   separation of key management and key use as in the IPsec suite. The 
+   result is intended to be a simple modification to support current 
+   infrastructure uses of TCP/MD5, such as to protect BGP and LDP, to 
+   support a larger set of hashes with minimal other system and 
+   operational changes. TCP-SA requires no new option identifier, though 
+   it is intended to be mutually exclusive with TCP/MD5 on a given TCP 
+   connection. It can be used in the presence of NATs/NAPTs, and 
+   supports IPv6, and is fully compatible with requirements under 
+   development for an update to TCP/MD5. 
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-touch-tcpm-tcp-simple-auth-03"/>
 </reference>

@@ -1,16 +1,26 @@
 <reference anchor="I-D.barnes-telnet-rsp-opt" target="https://datatracker.ietf.org/doc/html/draft-barnes-telnet-rsp-opt-01">
   <front>
     <title>Telnet Remote Serial Port (RSP) Option</title>
-    <author fullname="Russ Barnes" initials="R." surname="Barnes">
-      <organization/>
-    </author>
-    <author fullname="Murray Bennett" initials="M." surname="Bennett">
-      <organization/>
-    </author>
-    <date year="1997" month="September" day="10"/>
+    <seriesInfo name="Internet-Draft" value="draft-barnes-telnet-rsp-opt-01"/>
+    <author initials="R." surname="Barnes" fullname="Russ Barnes"/>
+    <author initials="M." surname="Bennett" fullname="Murray Bennett"/>
+    <date day="10" month="September" year="1997"></date>
     <abstract>
-      <t>Many (if not all) terminal servers support the ability to set up a telnet listener on a serial port. This allows a connection to a port to be made via the network, however only (two way) data can be transferred between the client and the port. By using the Remote Serial Port (RSP) telnet option, the client is able to control non-data aspects of the port such as baud rate and modem signals. This is especially important where the port is attached to a modem and modem signals are required to hangup the modem. This document defines a simple protocol which allows terminal servers (and other systems which provide access to serial ports via a network connection) to provide access to these features.</t>
+      <t>Many (if not all) terminal servers support the ability to set up a
+   telnet listener on a serial port.  This allows a connection to a port
+   to be made via the network, however only (two way) data can be
+   transferred between the client and the port.
+ 
+   By using the Remote Serial Port (RSP) telnet option, the client is
+   able to control non-data aspects of the port such as baud rate and
+   modem signals.  This is especially important where the port is
+   attached to a modem and modem signals are required to hangup the
+   modem.
+ 
+   This document defines a simple protocol which allows terminal servers
+   (and other systems which provide access to serial ports via a network
+   connection) to provide access to these features.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-barnes-telnet-rsp-opt-01"/>
 </reference>

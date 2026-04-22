@@ -1,25 +1,41 @@
 <reference anchor="I-D.kuhn-quic-careful-resume" target="https://datatracker.ietf.org/doc/html/draft-kuhn-quic-careful-resume-02">
   <front>
     <title>Careful resumption of congestion control from retained state with QUIC</title>
-    <author fullname="Nicolas Kuhn" initials="N." surname="Kuhn">
+    <seriesInfo name="Internet-Draft" value="draft-kuhn-quic-careful-resume-02"/>
+    <author initials="N." surname="Kuhn" fullname="Nicolas Kuhn">
       <organization>Thales Alenia Space</organization>
     </author>
-    <author fullname="Stephan Emile" initials="S." surname="Emile">
+    <author initials="S." surname="Emile" fullname="Stephan Emile">
       <organization>Orange</organization>
     </author>
-    <author fullname="Gorry Fairhurst" initials="G." surname="Fairhurst">
+    <author initials="G." surname="Fairhurst" fullname="Gorry Fairhurst">
       <organization>University of Aberdeen</organization>
     </author>
-    <author fullname="Tom Jones" initials="T." surname="Jones">
+    <author initials="T." surname="Jones" fullname="Tom Jones">
       <organization>University of Aberdeen</organization>
     </author>
-    <author fullname="Christian Huitema" initials="C." surname="Huitema">
+    <author initials="C." surname="Huitema" fullname="Christian Huitema">
       <organization>Private Octopus Inc.</organization>
     </author>
-    <date year="2022" month="July" day="10"/>
+    <date day="10" month="July" year="2022"></date>
     <abstract>
-      <t>This document discusses careful resumption of congestion control parameters in QUIC with a cautious method that enables faster startup of new connections. The method uses a set of computed congestion control parameters that are based on the previously observed path characteristics, such as the bottleneck bandwidth, available capacity, or the RTT. These parameters are stored and can then used to modify the congestion control behaviour of a subsequent connection. The draft discusses assumptions around how a server ought to utilise these parameters to provide opportunities for a new connection to more quickly get up to speed (i.e. utilise available capacity). It discusses how these changes impact the capacity at a shared network bottleneck and the response that is needed after any indication that the new rate is inappropriate.</t>
+      <t>   This document discusses careful resumption of congestion control
+   parameters in QUIC with a cautious method that enables faster startup
+   of new connections.
+
+   The method uses a set of computed congestion control parameters that
+   are based on the previously observed path characteristics, such as
+   the bottleneck bandwidth, available capacity, or the RTT.  These
+   parameters are stored and can then used to modify the congestion
+   control behaviour of a subsequent connection.  The draft discusses
+   assumptions around how a server ought to utilise these parameters to
+   provide opportunities for a new connection to more quickly get up to
+   speed (i.e. utilise available capacity).  It discusses how these
+   changes impact the capacity at a shared network bottleneck and the
+   response that is needed after any indication that the new rate is
+   inappropriate.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kuhn-quic-careful-resume-02"/>
 </reference>

@@ -1,16 +1,38 @@
 <reference anchor="I-D.cmcc-asrp" target="https://datatracker.ietf.org/doc/html/draft-cmcc-asrp-01">
   <front>
     <title>Available Session Recovery Protocol</title>
-    <author fullname="Zhaoyu Luo" initials="Z." surname="Luo">
+    <seriesInfo name="Internet-Draft" value="draft-cmcc-asrp-01"/>
+    <author initials="Z." surname="Luo" fullname="Zhaoyu Luo">
       <organization>CMCC</organization>
     </author>
-    <author fullname="Haishuang Yan" initials="H." surname="Yan">
+    <author initials="H." surname="Yan" fullname="Haishuang Yan">
       <organization>CMCC</organization>
     </author>
-    <date year="2025" month="December" day="25"/>
+    <date day="25" month="December" year="2025"></date>
     <abstract>
-      <t>This document describes an experimental protocol named the Available Session Recovery Protocol (ASRP). The protocol aims to optimize high-availability network cluster architectures, providing a superior cluster high-availability solution for stateful network services such as load balancing and Network Address Translation (NAT). ASRP defines the procedures for session backup and recovery, along with the message formats used in interactions, enabling efficient and streamlined session state management. Unlike traditional high-availability technologies that back up session states within the cluster, the core innovation of ASRP lies in distributing state information to clients or servers. This approach offers multiple advantages, significantly enhancing the cluster's elastic scaling capability; supporting rapid recovery from single-point or even multi-point failures; reducing resource redundancy by eliminating centralized backup nodes; and substantially simplifying cluster implementation complexity. The ASRP protocol provides network clusters with ultimate elastic scalability, facilitating the implementation and deployment of large- scale elastic network clusters.</t>
+      <t>   This document describes an experimental protocol named the Available
+   Session Recovery Protocol (ASRP).  The protocol aims to optimize
+   high-availability network cluster architectures, providing a superior
+   cluster high-availability solution for stateful network services such
+   as load balancing and Network Address Translation (NAT).  ASRP
+   defines the procedures for session backup and recovery, along with
+   the message formats used in interactions, enabling efficient and
+   streamlined session state management.
+
+   Unlike traditional high-availability technologies that back up
+   session states within the cluster, the core innovation of ASRP lies
+   in distributing state information to clients or servers.  This
+   approach offers multiple advantages, significantly enhancing the
+   cluster's elastic scaling capability; supporting rapid recovery from
+   single-point or even multi-point failures; reducing resource
+   redundancy by eliminating centralized backup nodes; and substantially
+   simplifying cluster implementation complexity.
+
+   The ASRP protocol provides network clusters with ultimate elastic
+   scalability, facilitating the implementation and deployment of large-
+   scale elastic network clusters.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-cmcc-asrp-01"/>
 </reference>

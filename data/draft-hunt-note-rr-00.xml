@@ -1,16 +1,19 @@
 <reference anchor="I-D.hunt-note-rr" target="https://datatracker.ietf.org/doc/html/draft-hunt-note-rr-00">
   <front>
     <title>A DNS Resource Record for Confidential Comments (NOTE RR)</title>
-    <author fullname="Evan Hunt" initials="E." surname="Hunt">
-      <organization/>
-    </author>
-    <author fullname="Dan Mahoney" initials="D." surname="Mahoney">
-      <organization/>
-    </author>
-    <date year="2014" month="May" day="27"/>
+    <seriesInfo name="Internet-Draft" value="draft-hunt-note-rr-00"/>
+    <author initials="E." surname="Hunt" fullname="Evan Hunt"/>
+    <author initials="D." surname="Mahoney" fullname="Dan Mahoney"/>
+    <date day="27" month="May" year="2014"></date>
     <abstract>
-      <t>While the DNS zone master file format has always allowed comments, there is no existing mechanism to preserve comments once the zone has been loaded into memory or converted to a binary representation. This note proposes a new "NOTE" RR type, which is stored alongside zone data and may be included in zone transfers, but is not returned in response to DNS queries.</t>
+      <t>   While the DNS zone master file format has always allowed comments,
+   there is no existing mechanism to preserve comments once the zone has
+   been loaded into memory or converted to a binary representation.
+   This note proposes a new "NOTE" RR type, which is stored alongside
+   zone data and may be included in zone transfers, but is not returned
+   in response to DNS queries.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hunt-note-rr-00"/>
 </reference>

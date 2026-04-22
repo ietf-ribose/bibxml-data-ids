@@ -1,22 +1,30 @@
 <reference anchor="I-D.korhonen-dime-nai-routing" target="https://datatracker.ietf.org/doc/html/draft-korhonen-dime-nai-routing-02">
   <front>
     <title>Diameter User-Name and Realm Based Request Routing Clarifications</title>
-    <author fullname="Jouni Korhonen" initials="J." surname="Korhonen">
+    <seriesInfo name="Internet-Draft" value="draft-korhonen-dime-nai-routing-02"/>
+    <author initials="J." surname="Korhonen" fullname="Jouni Korhonen">
       <organization>TeliaSonera</organization>
     </author>
-    <author fullname="Mark Jones" initials="M." surname="Jones">
+    <author initials="M." surname="Jones" fullname="Mark Jones">
       <organization>Bridgewater Systems</organization>
     </author>
-    <author fullname="Lionel Morand" initials="L." surname="Morand">
+    <author initials="L." surname="Morand" fullname="Lionel Morand">
       <organization>Orange Labs</organization>
     </author>
-    <author fullname="Tina Tsou (Ting ZOU)" initials="T." surname="Tsou">
+    <author initials="T." surname="Tsou" fullname="Tina Tsou (Ting ZOU)">
       <organization>Huawei</organization>
     </author>
-    <date year="2008" month="October" day="27"/>
+    <date day="27" month="October" year="2008"></date>
     <abstract>
-      <t>This specification clarifies the Diameter realm based request routing. We focus on the case where a Network Access Identifier in the User-Name AVP is used to populate the Destination-Realm AVP and the Network Access Identifier contains more than one realm. This particular case is possible when the Network Access Identifier decoration is used to force a routing of request messages through a predefined list of realms. However, this functionality is not unambiguously specified in the Diameter Base Protocol specification.</t>
+      <t>This specification clarifies the Diameter realm based request
+routing.  We focus on the case where a Network Access Identifier in
+the User-Name AVP is used to populate the Destination-Realm AVP and
+the Network Access Identifier contains more than one realm.  This
+particular case is possible when the Network Access Identifier
+decoration is used to force a routing of request messages through a
+predefined list of realms.  However, this functionality is not
+unambiguously specified in the Diameter Base Protocol specification.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-korhonen-dime-nai-routing-02"/>
 </reference>

@@ -1,19 +1,24 @@
 <reference anchor="I-D.zhang-l3vpn-label-sharing" target="https://datatracker.ietf.org/doc/html/draft-zhang-l3vpn-label-sharing-01">
   <front>
     <title>Label Sharing for Fast PE Protection</title>
-    <author fullname="Mingui Zhang" initials="M." surname="Zhang">
-      <organization/>
-    </author>
-    <author fullname="Peng Zhou" initials="P." surname="Zhou">
-      <organization/>
-    </author>
-    <author fullname="Russ White" initials="R." surname="White">
-      <organization/>
-    </author>
-    <date year="2013" month="October" day="21"/>
+    <seriesInfo name="Internet-Draft" value="draft-zhang-l3vpn-label-sharing-01"/>
+    <author initials="M." surname="Zhang" fullname="Mingui Zhang"/>
+    <author initials="P." surname="Zhou" fullname="Peng Zhou"/>
+    <author initials="R." surname="White" fullname="Russ White"/>
+    <date day="21" month="October" year="2013"></date>
     <abstract>
-      <t>This document describes a method to be used by Service Providers to provide fast protection of VPN connections for a CE. Egress PEs in a redundant group always assign the same label for VPN routes from a VRF. These egress PEs create a BGP virtual Next Hop (vNH) in the domain of the IP/MPLS backbone network as an agent of the CE router. Primary and backup tunnels terminated at the vNH are set up by the BGP/MPLS IP VPN based on IGP FRR. If the primary egress PE fails, the backup egress PEs can recognize the "shared" VPN route label, so that the failure affected traffic can be smoothly switched to the backup PE for delivery without changing its VPN route label.</t>
+      <t>   This document describes a method to be used by Service Providers to
+   provide fast protection of VPN connections for a CE. Egress PEs in a
+   redundant group always assign the same label for VPN routes from a
+   VRF. These egress PEs create a BGP virtual Next Hop (vNH) in the
+   domain of the IP/MPLS backbone network as an agent of the CE router.
+   Primary and backup tunnels terminated at the vNH are set up by the
+   BGP/MPLS IP VPN based on IGP FRR. If the primary egress PE fails, the
+   backup egress PEs can recognize the "shared" VPN route label, so that
+   the failure affected traffic can be smoothly switched to the backup
+   PE for delivery without changing its VPN route label.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-zhang-l3vpn-label-sharing-01"/>
 </reference>

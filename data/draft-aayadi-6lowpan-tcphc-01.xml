@@ -1,19 +1,26 @@
 <reference anchor="I-D.aayadi-6lowpan-tcphc" target="https://datatracker.ietf.org/doc/html/draft-aayadi-6lowpan-tcphc-01">
   <front>
     <title>TCP header compression for 6LoWPAN</title>
-    <author fullname="Ahmed Ayadi" initials="A." surname="Ayadi">
+    <seriesInfo name="Internet-Draft" value="draft-aayadi-6lowpan-tcphc-01"/>
+    <author initials="A." surname="Ayadi" fullname="Ahmed Ayadi">
       <organization>Telecom Bretagne</organization>
     </author>
-    <author fullname="David Ros" initials="D." surname="Ros">
+    <author initials="D." surname="Ros" fullname="David Ros">
       <organization>Telecom Bretagne</organization>
     </author>
-    <author fullname="Laurent Toutain" initials="L." surname="Toutain">
+    <author initials="L." surname="Toutain" fullname="Laurent Toutain">
       <organization>Telecom Bretagne</organization>
     </author>
-    <date year="2010" month="October" day="25"/>
+    <date day="25" month="October" year="2010"></date>
     <abstract>
-      <t>This document describes LOWPAN_TCPHC, a scheme for compressing the header of Transmission Control Protocol (TCP) segments, in order to reduce the overhead on low-power and lossy networks. It also specifies the LOWPAN_TCPHC header fields for the transmission of TCP segments over IPv6 for Low-power Wireless Personal Area Networks (6LoWPAN). In many cases, the 20 bytes of the mandatory TCP header can be compressed into as little as 6 bytes.</t>
+      <t>This document describes LOWPAN_TCPHC, a scheme for compressing the
+header of Transmission Control Protocol (TCP) segments, in order to
+reduce the overhead on low-power and lossy networks.  It also
+specifies the LOWPAN_TCPHC header fields for the transmission of TCP
+segments over IPv6 for Low-power Wireless Personal Area Networks
+(6LoWPAN).  In many cases, the 20 bytes of the mandatory TCP header
+can be compressed into as little as 6 bytes.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-aayadi-6lowpan-tcphc-01"/>
 </reference>

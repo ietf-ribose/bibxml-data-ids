@@ -1,16 +1,25 @@
 <reference anchor="I-D.pauly-tsvwg-tcp-encapsulation" target="https://datatracker.ietf.org/doc/html/draft-pauly-tsvwg-tcp-encapsulation-00">
   <front>
     <title>TCP Encapsulation Considerations</title>
-    <author fullname="Tommy Pauly" initials="T." surname="Pauly">
+    <seriesInfo name="Internet-Draft" value="draft-pauly-tsvwg-tcp-encapsulation-00"/>
+    <author initials="T." surname="Pauly" fullname="Tommy Pauly">
       <organization>Apple Inc.</organization>
     </author>
-    <author fullname="Eric Kinnear" initials="E." surname="Kinnear">
+    <author initials="E." surname="Kinnear" fullname="Eric Kinnear">
       <organization>Apple Inc.</organization>
     </author>
-    <date year="2018" month="July" day="2"/>
+    <date day="02" month="July" year="2018"></date>
     <abstract>
-      <t>Network protocols other than TCP, such as UDP, are often blocked or suboptimally handled by network middleboxes. One strategy that applications can use to continue to send non-TCP traffic on such networks is to encapsulate datagrams or messages within in a TCP stream. However, encapsulating datagrams within TCP streams can lead to performance degradation. This document provides guidelines for how to use TCP for encapsulation, a summary of performance concerns, and some suggested mitigations for these concerns.</t>
+      <t>   Network protocols other than TCP, such as UDP, are often blocked or
+   suboptimally handled by network middleboxes.  One strategy that
+   applications can use to continue to send non-TCP traffic on such
+   networks is to encapsulate datagrams or messages within in a TCP
+   stream.  However, encapsulating datagrams within TCP streams can lead
+   to performance degradation.  This document provides guidelines for
+   how to use TCP for encapsulation, a summary of performance concerns,
+   and some suggested mitigations for these concerns.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-pauly-tsvwg-tcp-encapsulation-00"/>
 </reference>

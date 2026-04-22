@@ -1,19 +1,29 @@
 <reference anchor="I-D.pillay-esnault-ospf-rbit" target="https://datatracker.ietf.org/doc/html/draft-pillay-esnault-ospf-rbit-00">
   <front>
     <title>OSPFv2 No Transit Capability</title>
-    <author fullname="Padma Pillay-Esnault" initials="P." surname="Pillay-Esnault">
+    <seriesInfo name="Internet-Draft" value="draft-pillay-esnault-ospf-rbit-00"/>
+    <author initials="P." surname="Pillay-Esnault" fullname="Padma Pillay-Esnault">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Michael Barnes" initials="M." surname="Barnes">
+    <author initials="M." surname="Barnes" fullname="Michael Barnes">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Paul Wells" initials="P." surname="Wells">
+    <author initials="P." surname="Wells" fullname="Paul Wells">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2010" month="March" day="1"/>
+    <date day="01" month="March" year="2010"></date>
     <abstract>
-      <t>Open Shortest Path First for IPv6 incorporates an R-bit in the router Link State Advertisement that controls whether or not other routers will compute transit paths through that node when they perform their Shortest Path First computation. This is a very useful feature of the protocol which is currently unavailable in Open Shortest Path First Version 2. This document extends the Open Shortest Path First Version 2 specification by adding a similar capability in a way that can safely coexist with implementations lacking this feature.</t>
+      <t>Open Shortest Path First for IPv6 incorporates an R-bit in the router
+Link State Advertisement that controls whether or not other routers
+will compute transit paths through that node when they perform their
+Shortest Path First computation.  This is a very useful feature of
+the protocol which is currently unavailable in Open Shortest Path
+First Version 2.
+
+This document extends the Open Shortest Path First Version 2
+specification by adding a similar capability in a way that can safely
+coexist with implementations lacking this feature.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-pillay-esnault-ospf-rbit-00"/>
 </reference>

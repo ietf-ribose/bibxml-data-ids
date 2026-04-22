@@ -1,19 +1,31 @@
 <reference anchor="I-D.kuehlewind-taps-crypto-sep" target="https://datatracker.ietf.org/doc/html/draft-kuehlewind-taps-crypto-sep-00">
   <front>
     <title>Separating Crypto Negotiation and Communication</title>
-    <author fullname="Mirja Kühlewind" initials="M." surname="Kühlewind">
+    <seriesInfo name="Internet-Draft" value="draft-kuehlewind-taps-crypto-sep-00"/>
+    <author initials="M." surname="Kühlewind" fullname="Mirja Kühlewind">
       <organization>ETH Zurich</organization>
     </author>
-    <author fullname="Tommy Pauly" initials="T." surname="Pauly">
+    <author initials="T." surname="Pauly" fullname="Tommy Pauly">
       <organization>Apple Inc.</organization>
     </author>
-    <author fullname="Christopher A. Wood" initials="C. A." surname="Wood">
+    <author initials="C. A." surname="Wood" fullname="Christopher A. Wood">
       <organization>Apple Inc.</organization>
     </author>
-    <date year="2017" month="July" day="3"/>
+    <date day="03" month="July" year="2017"></date>
     <abstract>
-      <t>Due to the latency involved in connection setup and security handshakes, there is an increasing deployment of cryptographic session resumption mechanisms. While cryptographic context and endpoint capabilities need to be be known before encrypted application data can be sent, there is otherwise no technical constraint that the crypto handshake must be performed on the same transport connection. This document recommends a logical separation between the mechanism(s) used to negotiate capabilities and set up encryption context (handshake protocol), the application of encryption and authentication state to data (record protocol), and the associated transport connection(s).</t>
+      <t>   Due to the latency involved in connection setup and security
+   handshakes, there is an increasing deployment of cryptographic
+   session resumption mechanisms.  While cryptographic context and
+   endpoint capabilities need to be be known before encrypted
+   application data can be sent, there is otherwise no technical
+   constraint that the crypto handshake must be performed on the same
+   transport connection.  This document recommends a logical separation
+   between the mechanism(s) used to negotiate capabilities and set up
+   encryption context (handshake protocol), the application of
+   encryption and authentication state to data (record protocol), and
+   the associated transport connection(s).
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kuehlewind-taps-crypto-sep-00"/>
 </reference>

@@ -1,13 +1,40 @@
 <reference anchor="I-D.wang-jep-judgment-event-protocol" target="https://datatracker.ietf.org/doc/html/draft-wang-jep-judgment-event-protocol-00">
   <front>
     <title>JEP: A Judgment Event Protocol</title>
-    <author fullname="yuqiang wang" initials="Y." surname="wang">
+    <seriesInfo name="Internet-Draft" value="draft-wang-jep-judgment-event-protocol-00"/>
+    <author initials="Y." surname="wang" fullname="yuqiang wang">
       <organization>HJS Foundation Ltd.</organization>
     </author>
-    <date year="2026" month="March" day="19"/>
+    <date day="19" month="March" year="2026"></date>
     <abstract>
-      <t>This document defines the Judgment Event Protocol (JEP), an accountability attribution framework for distributed AI systems. JEP provides a responsibility tracing mechanism for judgment behaviors, operating with identity verification (OAuth/DID) and environmental trust (RATS). Core Design: - Four-primitive model: $Judge, $Delegate, $Terminate, $Verify, covering the complete judgment lifecycle. - Three-tier privacy architecture: Public Governance Tier (Tier 1), Logical Accountability Tier (Tier 2), Private Payload Tier (Tier 3), balancing transparency and privacy. - Minimal core fields: eight fields (verb, who, when, what, based_on, nonce, signature, time_anchor) form the atomic evidence set for accountability. - Progressive verification strategy: from open mode (local verification) to platform mode (platform-enhanced), adapting to different scenarios. - Compliance-friendly design: cryptographic erasure mechanism supports GDPR "right to be forgotten" and similar requirements, with specific policies configured via IANA‑registered extensions. JEP follows a "minimal intrusion, maximum compatibility" philosophy, adding verifiable accountability capabilities to critical judgment nodes without reconstructing AI systems, working with IETF standards including SCITT, RATS, and OAuth.</t>
+      <t>   This document defines the Judgment Event Protocol (JEP), an
+   accountability attribution framework for distributed AI systems.
+   JEP provides a responsibility tracing mechanism for judgment
+   behaviors, operating with identity verification (OAuth/DID) and
+   environmental trust (RATS).
+
+   Core Design:
+   - Four-primitive model: $Judge, $Delegate, $Terminate, $Verify,
+     covering the complete judgment lifecycle.
+   - Three-tier privacy architecture: Public Governance Tier (Tier 1),
+     Logical Accountability Tier (Tier 2), Private Payload Tier (Tier 3),
+     balancing transparency and privacy.
+   - Minimal core fields: eight fields (verb, who, when, what, based_on,
+     nonce, signature, time_anchor) form the atomic evidence set for
+     accountability.
+   - Progressive verification strategy: from open mode (local
+     verification) to platform mode (platform-enhanced), adapting to
+     different scenarios.
+   - Compliance-friendly design: cryptographic erasure mechanism
+     supports GDPR "right to be forgotten" and similar requirements,
+     with specific policies configured via IANA‑registered extensions.
+
+   JEP follows a "minimal intrusion, maximum compatibility" philosophy,
+   adding verifiable accountability capabilities to critical judgment
+   nodes without reconstructing AI systems, working with IETF standards
+   including SCITT, RATS, and OAuth.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wang-jep-judgment-event-protocol-00"/>
 </reference>

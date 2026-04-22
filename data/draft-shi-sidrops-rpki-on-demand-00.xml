@@ -1,22 +1,33 @@
 <reference anchor="I-D.shi-sidrops-rpki-on-demand" target="https://datatracker.ietf.org/doc/html/draft-shi-sidrops-rpki-on-demand-00">
   <front>
     <title>Considerations for On-Demand Retrieval of Multiple RPKI Object Types</title>
-    <author fullname="Jiayi Shi" initials="J." surname="Shi">
+    <seriesInfo name="Internet-Draft" value="draft-shi-sidrops-rpki-on-demand-00"/>
+    <author initials="J." surname="Shi" fullname="Jiayi Shi">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Libin Liu" initials="L." surname="Liu">
+    <author initials="L." surname="Liu" fullname="Libin Liu">
       <organization>Zhongguancun Laboratory</organization>
     </author>
-    <author fullname="Lancheng Qin" initials="L." surname="Qin">
+    <author initials="L." surname="Qin" fullname="Lancheng Qin">
       <organization>Zhongguancun Laboratory</organization>
     </author>
-    <author fullname="Dan Li" initials="D." surname="Li">
+    <author initials="D." surname="Li" fullname="Dan Li">
       <organization>Tsinghua University</organization>
     </author>
-    <date year="2026" month="January" day="29"/>
+    <date day="29" month="January" year="2026"></date>
     <abstract>
-      <t>The Resource Public Key Infrastructure (RPKI) RFC6480 [RFC6481] relies on Publication Points (PPs) to distribute cryptographically verifiable objects. Under the current design, Relying Parties (RPs) retrieve the complete set of RPKI objects from repositories, even when their operational requirements are limited to a specific subset, for example, ROAs only. This all-or-nothing retrieval model may result in increased bandwidth consumption, higher synchronization latency, and unnecessary computational overhead. This document examines these challenges and discusses directions for enabling more selective and efficient access to RPKI data.</t>
+      <t>   The Resource Public Key Infrastructure (RPKI) RFC6480 [RFC6481]
+   relies on Publication Points (PPs) to distribute cryptographically
+   verifiable objects.  Under the current design, Relying Parties (RPs)
+   retrieve the complete set of RPKI objects from repositories, even
+   when their operational requirements are limited to a specific subset,
+   for example, ROAs only.  This all-or-nothing retrieval model may
+   result in increased bandwidth consumption, higher synchronization
+   latency, and unnecessary computational overhead.  This document
+   examines these challenges and discusses directions for enabling more
+   selective and efficient access to RPKI data.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-shi-sidrops-rpki-on-demand-00"/>
 </reference>

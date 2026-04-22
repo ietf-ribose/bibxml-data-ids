@@ -1,13 +1,30 @@
 <reference anchor="I-D.crocker-mast-proposal" target="https://datatracker.ietf.org/doc/html/draft-crocker-mast-proposal-01">
   <front>
     <title>MULTIPLE ADDRESS SERVICE FOR TRANSPORT (MAST):AN EXTENDED PROPOSAL</title>
-    <author fullname="Dave Crocker" initials="D." surname="Crocker">
+    <seriesInfo name="Internet-Draft" value="draft-crocker-mast-proposal-01"/>
+    <author initials="D." surname="Crocker" fullname="Dave Crocker">
       <organization>Brandenburg</organization>
     </author>
-    <date year="2003" month="September" day="29"/>
+    <date day="29" month="September" year="2003"></date>
     <abstract>
-      <t>Classic Internet transport protocols use a single source IP address and a single destination IP address, as part of the identification for an individual data flow. TCP includes these in its definition of a connection and its calculation of the header checksum. Hence the transport service is tied to a particular IP address pair. This is problematic for multihomed hosts and for mobile hosts. They cannot use more than one, for any single transport association (context). Multiple Address Service for Transport (MAST) defines a mechanism that supports association of multiple IP addresses with any transport association. It requires no change to the Internet infrastructure, no change to IP modules or transport modules in the end-systems, and no new administrative effort. Instead, it defines a layer between classic IP and transport that operates only in the end systems and affects only participating hosts. Additional functionality is obtained by use of a DNS and 'presence' rendezvous service.</t>
+      <t>Classic Internet transport protocols use a single source IP
+address and a single destination IP address, as part of the
+identification for an individual data flow.  TCP includes these
+in its definition of a connection and its calculation of the
+header checksum.  Hence the transport service is tied to a
+particular IP address pair. This is problematic for multihomed
+hosts and for mobile hosts. They cannot use more than one, for
+any single transport association (context).  Multiple Address
+Service for Transport (MAST) defines a mechanism that supports
+association of multiple IP addresses with any transport
+association.  It requires no change to the Internet
+infrastructure, no change to IP modules or transport modules in
+the end-systems, and no new administrative effort. Instead, it
+defines a layer between classic IP and transport that operates
+only in the end systems and affects only participating hosts.
+Additional functionality is obtained by use of a DNS and
+'presence' rendezvous service.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-crocker-mast-proposal-01"/>
 </reference>

@@ -1,16 +1,27 @@
 <reference anchor="I-D.melnikov-imapext-status-in-list" target="https://datatracker.ietf.org/doc/html/draft-melnikov-imapext-status-in-list-00">
   <front>
     <title>IMAP4 Extension for returning STATUS information in extended LIST</title>
-    <author fullname="Alexey Melnikov" initials="A." surname="Melnikov">
+    <seriesInfo name="Internet-Draft" value="draft-melnikov-imapext-status-in-list-00"/>
+    <author initials="A." surname="Melnikov" fullname="Alexey Melnikov">
       <organization>Isode Limited</organization>
     </author>
-    <author fullname="Timo Sirainen" initials="T." surname="Sirainen">
-      <organization/>
-    </author>
-    <date year="2008" month="June" day="10"/>
+    <author initials="T." surname="Sirainen" fullname="Timo Sirainen"/>
+    <date day="10" month="June" year="2008"></date>
     <abstract>
-      <t>Many IMAP clients display information about total number of messages/ total number of unseen messages in IMAP mailboxes. In order to do that they are forced to issue a LIST or LSUB command, to list all available mailboxes, followed by a STATUS command for each mailbox found. This document provides an extension to LIST command that allows the client to request STATUS information for mailboxes together with other information typically returned by the LIST command.Note A revised version of this draft document will be submitted to the RFC editor as a Proposed Standard for the Internet Community. Discussion and suggestions for improvement are requested, and should be sent to morg@ietf.org.</t>
+      <t>Many IMAP clients display information about total number of messages/
+total number of unseen messages in IMAP mailboxes.  In order to do
+that they are forced to issue a LIST or LSUB command, to list all
+available mailboxes, followed by a STATUS command for each mailbox
+found.  This document provides an extension to LIST command that
+allows the client to request STATUS information for mailboxes
+together with other information typically returned by the LIST
+command.Note
+
+A revised version of this draft document will be submitted to the RFC
+editor as a Proposed Standard for the Internet Community.  Discussion
+and suggestions for improvement are requested, and should be sent to
+morg@ietf.org.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-melnikov-imapext-status-in-list-00"/>
 </reference>

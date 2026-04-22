@@ -1,22 +1,25 @@
 <reference anchor="I-D.vinapamula-flow-ha" target="https://datatracker.ietf.org/doc/html/draft-vinapamula-flow-ha-14">
   <front>
     <title>Application-Initiated Check-Pointing via the Port Control Protocol (PCP)</title>
-    <author fullname="Suresh Vinapamula" initials="S." surname="Vinapamula">
+    <seriesInfo name="Internet-Draft" value="draft-vinapamula-flow-ha-14"/>
+    <author initials="S." surname="Vinapamula" fullname="Suresh Vinapamula">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Senthil Sivakumar" initials="S." surname="Sivakumar">
+    <author initials="S." surname="Sivakumar" fullname="Senthil Sivakumar">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Mohamed Boucadair" initials="M." surname="Boucadair">
+    <author initials="M." surname="Boucadair" fullname="Mohamed Boucadair">
       <organization>Orange</organization>
     </author>
-    <author fullname="Tirumaleswar Reddy.K" initials="T." surname="Reddy.K">
+    <author initials="T." surname="Reddy.K" fullname="Tirumaleswar Reddy.K">
       <organization>Cisco</organization>
     </author>
-    <date year="2015" month="November" day="1"/>
+    <date day="01" month="November" year="2015"></date>
     <abstract>
-      <t>This document specifies a mechanism for a host to indicate via the Port Control Protocol (PCP) which connections should be protected against network failures. These connections will then be subject to high-availability mechanisms enabled on the network side. This approach assumes that applications and/or users have more visibility about sensitive connections than any heuristic that can be enabled on the network side to guess which connections should be check-pointed.</t>
+      <t>This document specifies a mechanism for a host to indicate via the Port Control Protocol (PCP) which connections should be protected against network failures. These connections will then be subject to high-availability mechanisms enabled on the network side.
+
+ This approach assumes that applications and/or users have more visibility about sensitive connections than any heuristic that can be enabled on the network side to guess which connections should be check-pointed.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-vinapamula-flow-ha-14"/>
 </reference>

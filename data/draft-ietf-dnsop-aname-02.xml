@@ -1,22 +1,28 @@
 <reference anchor="I-D.ietf-dnsop-aname" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-aname-02">
   <front>
     <title>Address-specific DNS aliases (ANAME)</title>
-    <author fullname="Tony Finch" initials="T." surname="Finch">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-aname-02"/>
+    <author initials="T." surname="Finch" fullname="Tony Finch">
       <organization>University of Cambridge</organization>
     </author>
-    <author fullname="Evan Hunt" initials="E." surname="Hunt">
+    <author initials="E." surname="Hunt" fullname="Evan Hunt">
       <organization>ISC</organization>
     </author>
-    <author fullname="Peter van Dijk" initials="P." surname="van Dijk">
+    <author initials="P." surname="van Dijk" fullname="Peter van Dijk">
       <organization>PowerDNS.COM B.V.</organization>
     </author>
-    <author fullname="Anthony Eden" initials="A." surname="Eden">
+    <author initials="A." surname="Eden" fullname="Anthony Eden">
       <organization>DNSimple</organization>
     </author>
-    <date year="2018" month="October" day="19"/>
+    <date day="19" month="October" year="2018"></date>
     <abstract>
-      <t>This document defines the "ANAME" DNS RR type, to provide similar functionality to CNAME, but only for type A and AAAA queries. Unlike CNAME, an ANAME can coexist with other record types. The ANAME RR allows zone owners to make an apex domain name into an alias in a standards compliant manner.</t>
+      <t>   This document defines the "ANAME" DNS RR type, to provide similar
+   functionality to CNAME, but only for type A and AAAA queries.  Unlike
+   CNAME, an ANAME can coexist with other record types.  The ANAME RR
+   allows zone owners to make an apex domain name into an alias in a
+   standards compliant manner.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-aname-02"/>
 </reference>

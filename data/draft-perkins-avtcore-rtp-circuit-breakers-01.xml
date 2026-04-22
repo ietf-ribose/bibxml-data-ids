@@ -1,16 +1,30 @@
 <reference anchor="I-D.perkins-avtcore-rtp-circuit-breakers" target="https://datatracker.ietf.org/doc/html/draft-perkins-avtcore-rtp-circuit-breakers-01">
   <front>
     <title>RTP Congestion Control: Circuit Breakers for Unicast Sessions</title>
-    <author fullname="Colin Perkins" initials="C." surname="Perkins">
+    <seriesInfo name="Internet-Draft" value="draft-perkins-avtcore-rtp-circuit-breakers-01"/>
+    <author initials="C." surname="Perkins" fullname="Colin Perkins">
       <organization>University of Glasgow</organization>
     </author>
-    <author fullname="Varun Singh" initials="V." surname="Singh">
+    <author initials="V." surname="Singh" fullname="Varun Singh">
       <organization>Aalto University</organization>
     </author>
-    <date year="2012" month="July" day="16"/>
+    <date day="16" month="July" year="2012"></date>
     <abstract>
-      <t>The Real-time Transport Protocol (RTP) is widely used in telephony, video conferencing, and telepresence applications. Such applications are often run on best-effort UDP/IP networks. If congestion control is not implemented in the applications, then network congestion will deteriorate the user's multimedia experience. This document does not propose a congestion control algorithm; rather, it defines a minimal set of "circuit-breakers". Circuit-breakers are conditions under which an RTP flow is expected to stop transmiting media to protect the network from excessive congestion. It is expected that all RTP applications running on best-effort networks will be able to run without triggering these circuit breakers in normal operation. Any future RTP congestion control specification is expected to operate within the envelope defined by these circuit breakers.</t>
+      <t>   The Real-time Transport Protocol (RTP) is widely used in telephony,
+   video conferencing, and telepresence applications.  Such applications
+   are often run on best-effort UDP/IP networks.  If congestion control
+   is not implemented in the applications, then network congestion will
+   deteriorate the user's multimedia experience.  This document does not
+   propose a congestion control algorithm; rather, it defines a minimal
+   set of "circuit-breakers".  Circuit-breakers are conditions under
+   which an RTP flow is expected to stop transmiting media to protect
+   the network from excessive congestion.  It is expected that all RTP
+   applications running on best-effort networks will be able to run
+   without triggering these circuit breakers in normal operation.  Any
+   future RTP congestion control specification is expected to operate
+   within the envelope defined by these circuit breakers.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-perkins-avtcore-rtp-circuit-breakers-01"/>
 </reference>

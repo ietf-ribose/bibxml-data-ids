@@ -1,19 +1,27 @@
 <reference anchor="I-D.sun-idr-bgp-ls-notification" target="https://datatracker.ietf.org/doc/html/draft-sun-idr-bgp-ls-notification-00">
   <front>
     <title>&lt;BGP Support for Fast Link Status Notification&gt;</title>
-    <author fullname="Marcus Sun" initials="M." surname="Sun">
+    <seriesInfo name="Internet-Draft" value="draft-sun-idr-bgp-ls-notification-00"/>
+    <author initials="M." surname="Sun" fullname="Marcus Sun">
       <organization>HUAWEI Technologies</organization>
     </author>
-    <author fullname="Burjiz" initials="B." surname="Burjiz">
+    <author initials="B." surname="Burjiz" fullname="Burjiz">
       <organization>HUAWEI Technologies</organization>
     </author>
-    <author fullname="Feng Gao" initials="F." surname="Gao">
+    <author initials="F." surname="Gao" fullname="Feng Gao">
       <organization>Baidu Inc</organization>
     </author>
-    <date year="2017" month="June" day="27"/>
+    <date day="27" month="June" year="2017"></date>
     <abstract>
-      <t>This document describes the use of Border Gateway Protocol (BGP) community. This optional transitive community will instruct router to monitor itself ports. With this community, controller only needs to send route update message once and will get the feedback only if link status changes. In particular this community can help controller get the link status changing notification much faster than current method.</t>
+      <t>   This document describes the use of Border Gateway Protocol (BGP)
+   community. This optional transitive community will instruct router to
+   monitor itself ports . With this community, controller only needs to
+   send route update message once and will get the feedback only if link
+   status changes. In particular this community can help controller get
+   the link status changing notification much faster than current
+   method.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sun-idr-bgp-ls-notification-00"/>
 </reference>

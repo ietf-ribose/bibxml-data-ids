@@ -1,40 +1,54 @@
 <reference anchor="I-D.ietf-teas-yang-path-computation" target="https://datatracker.ietf.org/doc/html/draft-ietf-teas-yang-path-computation-04">
   <front>
     <title>Yang model for requesting Path Computation</title>
-    <author fullname="Italo Busi" initials="I." surname="Busi">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-teas-yang-path-computation-04"/>
+    <author initials="I." surname="Busi" fullname="Italo Busi">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Sergio Belotti" initials="S." surname="Belotti">
+    <author initials="S." surname="Belotti" fullname="Sergio Belotti">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Victor Lopez" initials="V." surname="Lopez">
+    <author initials="V." surname="Lopez" fullname="Victor Lopez">
       <organization>Telefonica</organization>
     </author>
-    <author fullname="Oscar Gonzalez de Dios" initials="O. G." surname="de Dios">
+    <author initials="O. G." surname="de Dios" fullname="Oscar Gonzalez de Dios">
       <organization>Telefonica</organization>
     </author>
-    <author fullname="Anurag Sharma" initials="A." surname="Sharma">
+    <author initials="A." surname="Sharma" fullname="Anurag Sharma">
       <organization>Google</organization>
     </author>
-    <author fullname="Yan Shi" initials="Y." surname="Shi">
+    <author initials="Y." surname="Shi" fullname="Yan Shi">
       <organization>China Unicom</organization>
     </author>
-    <author fullname="Ricard Vilalta" initials="R." surname="Vilalta">
+    <author initials="R." surname="Vilalta" fullname="Ricard Vilalta">
       <organization>CTTC</organization>
     </author>
-    <author fullname="Karthik Sethuraman" initials="K." surname="Sethuraman">
+    <author initials="K." surname="Sethuraman" fullname="Karthik Sethuraman">
       <organization>NEC</organization>
     </author>
-    <author fullname="Michael Scharf" initials="M." surname="Scharf">
+    <author initials="M." surname="Scharf" fullname="Michael Scharf">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Daniele Ceccarelli" initials="D." surname="Ceccarelli">
+    <author initials="D." surname="Ceccarelli" fullname="Daniele Ceccarelli">
       <organization>Ericsson</organization>
     </author>
-    <date year="2018" month="November" day="4"/>
+    <date day="04" month="November" year="2018"></date>
     <abstract>
-      <t>There are scenarios, typically in a hierarchical SDN context, where the topology information provided by a TE network provider may not be sufficient for its client to perform end-to-end path computation. In these cases the client would need to request the provider to calculate some (partial) feasible paths. This document defines a YANG data model for a stateless RPC to request path computation. This model complements the stateful solution defined in [TE-TUNNEL]. Moreover this document describes some use cases where a path computation request, via YANG-based protocols (e.g., NETCONF or RESTCONF), can be needed.</t>
+      <t>   There are scenarios, typically in a hierarchical SDN context, where
+   the topology information provided by a TE network provider may not
+   be sufficient for its client to perform end-to-end path computation.
+   In these cases the client would need to request the provider to
+   calculate some (partial) feasible paths.
+
+   This document defines a YANG data model for a stateless RPC to
+   request path computation. This model complements the stateful
+   solution defined in [TE-TUNNEL].
+
+   Moreover this document describes some use cases where a path
+   computation request, via YANG-based protocols (e.g., NETCONF or
+   RESTCONF), can be needed.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-teas-yang-path-computation-04"/>
 </reference>

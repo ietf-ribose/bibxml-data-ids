@@ -1,16 +1,24 @@
 <reference anchor="I-D.montenegro-httpbis-http2-server-profiles" target="https://datatracker.ietf.org/doc/html/draft-montenegro-httpbis-http2-server-profiles-00">
   <front>
     <title>Profiles for Initial Server Settings</title>
-    <author fullname="Roberto Peon" initials="R." surname="Peon">
+    <seriesInfo name="Internet-Draft" value="draft-montenegro-httpbis-http2-server-profiles-00"/>
+    <author initials="R." surname="Peon" fullname="Roberto Peon">
       <organization>Google</organization>
     </author>
-    <author fullname="Gabriel Montenegro" initials="G." surname="Montenegro">
+    <author initials="G." surname="Montenegro" fullname="Gabriel Montenegro">
       <organization>Microsoft Corporation</organization>
     </author>
-    <date year="2013" month="September" day="6"/>
+    <date day="06" month="September" year="2013"></date>
     <abstract>
-      <t>In HTTP/2.0, if running over TLS, the client is the first to transmit HTTP/2.0 frames on the new session. With its first transmission to the server, the client can already overrun some of the server settings and preferences, leading to failure conditions and unnecessary complexity. This document proposes a solution to this problem based on a very small set of server profiles for initial settings sent within the TLS handshake.</t>
+      <t>   In HTTP/2.0, if running over TLS, the client is the first to
+   transmit HTTP/2.0 frames on the new session. With its first
+   transmission to the server, the client can already overrun some
+   of the server settings and preferences, leading to failure
+   conditions and unnecessary complexity. This document proposes a
+   solution to this problem based on a very small set of server
+   profiles for initial settings sent within the TLS handshake.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-montenegro-httpbis-http2-server-profiles-00"/>
 </reference>

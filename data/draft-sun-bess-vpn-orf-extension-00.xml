@@ -1,19 +1,33 @@
 <reference anchor="I-D.sun-bess-vpn-orf-extension" target="https://datatracker.ietf.org/doc/html/draft-sun-bess-vpn-orf-extension-00">
   <front>
     <title>Controlling VPN Routes More Precisely by ORF Extension</title>
-    <author fullname="Chunxia Sun" initials="C." surname="Sun">
+    <seriesInfo name="Internet-Draft" value="draft-sun-bess-vpn-orf-extension-00"/>
+    <author initials="C." surname="Sun" fullname="Chunxia Sun">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Yaokun Zhang" initials="Y." surname="Zhang">
+    <author initials="Y." surname="Zhang" fullname="Yaokun Zhang">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Donald E. Eastlake 3rd" initials="D. E." surname="Eastlake">
+    <author initials="D. E." surname="Eastlake" fullname="Donald E. Eastlake 3rd">
       <organization>Huawei</organization>
     </author>
-    <date year="2018" month="October" day="22"/>
+    <date day="22" month="October" year="2018"></date>
     <abstract>
-      <t>RFC 4684 defines Multi-Protocol BGP (MP-BGP) procedures that allow BGP speakers to exchange Route Target reachability information which can be used to build a route distribution graph in order to limit the propagation of Virtual Private Network (VPN) Network Layer Reachability Information (NLRI) between different autonomous systems or distinct clusters of the same autonomous system. However, according to RFC 4684, in some scenarios, more routes will be sent than need to be sent. This document extends RFC 4684. This extension allows a BGP speaker to advertise VPN routes more precisely.</t>
+      <t>   RFC 4684 defines Multi-Protocol BGP (MP-BGP) procedures that allow
+   BGP speakers to exchange Route Target reachability information which
+   can be used to build a route distribution graph in order to limit the
+   propagation of Virtual Private Network (VPN) Network Layer
+   Reachability Information (NLRI) between different autonomous systems
+   or distinct clusters of the same autonomous system.
+
+   However, according to RFC 4684, in some scenarios, more routes will
+   be sent than need to be sent.
+
+   This document extends RFC 4684. This extension allows a BGP speaker
+   to advertise VPN routes more precisely.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sun-bess-vpn-orf-extension-00"/>
 </reference>

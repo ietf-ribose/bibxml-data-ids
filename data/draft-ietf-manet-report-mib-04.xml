@@ -1,19 +1,32 @@
 <reference anchor="I-D.ietf-manet-report-mib" target="https://datatracker.ietf.org/doc/html/draft-ietf-manet-report-mib-04">
   <front>
     <title>Definition of Managed Objects for Performance Reporting</title>
-    <author fullname="Robert Cole" initials="R." surname="Cole">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-manet-report-mib-04"/>
+    <author initials="R." surname="Cole" fullname="Robert Cole">
       <organization>US Army CERDEC</organization>
     </author>
-    <author fullname="Joseph P. Macker" initials="J. P." surname="Macker">
+    <author initials="J. P." surname="Macker" fullname="Joseph P. Macker">
       <organization>Naval Research Laboratory</organization>
     </author>
-    <author fullname="Andy Bierman" initials="A." surname="Bierman">
+    <author initials="A." surname="Bierman" fullname="Andy Bierman">
       <organization>YumaWorks, Inc.</organization>
     </author>
-    <date year="2014" month="December" day="8"/>
+    <date day="08" month="December" year="2014"></date>
     <abstract>
-      <t>This memo defines a portion of the Management Information Base (MIB) for use with network management protocols in the Internet community. In particular, it describes objects for configuring autonomous report generation on any device that supports MIBs containing objects that resolve to type Integer32 (i.e., Integer32, Counter, Gauge, or TimeTicks). to be used for performance monitoring. This allows a management station to instruct a device to build off-line reports to be collected either through notifications to the management station or queried asynchronously by the management station. Hence, this capability allows network operators to reduce the SNMP polling traffic burden on Mobile Ad-Hoc and Disruption Tolerant Networks which is problematic of SNMP performance management applications.</t>
+      <t>   This memo defines a portion of the Management Information Base (MIB)
+   for use with network management protocols in the Internet community.
+   In particular, it describes objects for configuring autonomous report
+   generation on any device that supports MIBs containing objects that
+   resolve to type Integer32 (i.e., Integer32, Counter, Gauge, or
+   TimeTicks). to be used for performance monitoring.  This allows a
+   management station to instruct a device to build off-line reports to
+   be collected either through notifications to the management station
+   or queried asynchronously by the management station.  Hence, this
+   capability allows network operators to reduce the SNMP polling
+   traffic burden on Mobile Ad-Hoc and Disruption Tolerant Networks
+   which is problematic of SNMP performance management applications.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-manet-report-mib-04"/>
 </reference>

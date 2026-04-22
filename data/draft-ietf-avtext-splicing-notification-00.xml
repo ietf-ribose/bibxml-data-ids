@@ -1,22 +1,26 @@
 <reference anchor="I-D.ietf-avtext-splicing-notification" target="https://datatracker.ietf.org/doc/html/draft-ietf-avtext-splicing-notification-00">
   <front>
     <title>RTP/RTCP Extension for RTP Splicing Notification</title>
-    <author fullname="Jinwei Xia" initials="J." surname="Xia">
-      <organization/>
-    </author>
-    <author fullname="Roni Even" initials="R." surname="Even">
-      <organization/>
-    </author>
-    <author fullname="Rachel Huang" initials="R." surname="Huang">
-      <organization/>
-    </author>
-    <author fullname="Deng Lingli" initials="D." surname="Lingli">
-      <organization/>
-    </author>
-    <date year="2014" month="July" day="29"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-avtext-splicing-notification-00"/>
+    <author initials="J." surname="Xia" fullname="Jinwei Xia"/>
+    <author initials="R." surname="Even" fullname="Roni Even"/>
+    <author initials="R." surname="Huang" fullname="Rachel Huang"/>
+    <author initials="D." surname="Lingli" fullname="Deng Lingli"/>
+    <date day="29" month="July" year="2014"></date>
     <abstract>
-      <t>Content splicing is a process that replaces the content of a main multimedia stream with other multimedia content, and delivers the substitutive multimedia content to the receivers for a period of time. The RTP mixer is designed to handle RTP splicing in [RFC6828], but how the RTP mixer knows when to start and end the splicing is still unspecified. This memo defines two RTP/RTCP extensions to indicate the splicing related information to the RTP mixer: an RTP header extension that conveys the information in-band and an RTCP packet that conveys the information out-of-band.</t>
+      <t>   Content splicing is a process that replaces the content of a main
+   multimedia stream with other multimedia content, and delivers the
+   substitutive multimedia content to the receivers for a period of
+   time. The RTP mixer is designed to handle RTP splicing in [RFC6828],
+   but how the RTP mixer knows when to start and end the splicing is
+   still unspecified.
+
+   This memo defines two RTP/RTCP extensions to indicate the splicing
+   related information to the RTP mixer: an RTP header extension that
+   conveys the information in-band and an RTCP packet that conveys the
+   information out-of-band.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-avtext-splicing-notification-00"/>
 </reference>

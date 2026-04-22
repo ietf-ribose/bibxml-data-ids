@@ -1,13 +1,14 @@
 <reference anchor="I-D.ietf-hybi-permessage-compression" target="https://datatracker.ietf.org/doc/html/draft-ietf-hybi-permessage-compression-28">
   <front>
     <title>Compression Extensions for WebSocket</title>
-    <author fullname="Takeshi Yoshino" initials="T." surname="Yoshino">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-hybi-permessage-compression-28"/>
+    <author initials="T." surname="Yoshino" fullname="Takeshi Yoshino">
       <organization>Google, Inc.</organization>
     </author>
-    <date year="2015" month="August" day="24"/>
+    <date day="24" month="August" year="2015"></date>
     <abstract>
-      <t>This document defines a framework for creating WebSocket extensions that add compression functionality to the WebSocket Protocol. An extension based on this framework compresses the payload data portion of WebSocket data messages on a per-message basis using parameters negotiated during the opening handshake. This framework provides a general method for applying a compression algorithm to the contents of WebSocket messages. Each compression algorithm has to be defined in a document defining the extension by specifying the parameter negotiation and the payload transformation algorithm in detail. This document also specifies one specific compression extension using the DEFLATE algorithm.</t>
+      <t>This document defines a framework for creating WebSocket extensions that add compression functionality to the WebSocket Protocol.  An extension based on this framework compresses the payload data portion of WebSocket data messages on a per-message basis using parameters negotiated during the opening handshake.  This framework provides a general method for applying a compression algorithm to the contents of WebSocket messages.  Each compression algorithm has to be defined in a document defining the extension by specifying the parameter negotiation and the payload transformation algorithm in detail.  This document also specifies one specific compression extension using the DEFLATE algorithm.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-hybi-permessage-compression-28"/>
 </reference>

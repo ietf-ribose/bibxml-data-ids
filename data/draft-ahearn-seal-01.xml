@@ -1,0 +1,29 @@
+<reference anchor="I-D.ahearn-seal" target="https://datatracker.ietf.org/doc/html/draft-ahearn-seal-01">
+  <front>
+    <title>Signed Email Authentication Layer (SEAL)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ahearn-seal-01"/>
+    <author initials="T." surname="Ahearn" fullname="Tim Ahearn">
+      <organization>Independent</organization>
+    </author>
+    <date day="16" month="April" year="2026"></date>
+    <abstract>
+      <t>   This document defines the Signed Email Authentication Layer (SEAL), a
+   cryptographically signed identity envelope carried within a new
+   message header field, SEAL-Envelope.  SEAL provides a stable,
+   forwarding-resilient identity assertion that binds the origin domain
+   to a specific message instance using the SEAL-MSGID header, which
+   contains a SEAL-protected copy of the [RFC5322] Message-ID present at
+   message creation time.  After SEAL-MSGID is set, intermediaries may
+   modify or discard the visible [RFC5322] Message-ID header without
+   affecting SEAL validity.  SEAL also records the canonical [RFC5322]
+   From header value in the envelope, enabling detection of From
+   rewriting without affecting SEAL validity.  SEAL is designed to
+   complement current approaches such as DKIM, DMARC, and ARC by
+   reducing their dependency on mutable message components and by
+   providing a canonical, tamper-evident identity layer that can remain
+   valid across many common transformations.
+
+	 </t>
+    </abstract>
+  </front>
+</reference>

@@ -1,19 +1,34 @@
 <reference anchor="I-D.ietf-ldup-infomod" target="https://datatracker.ietf.org/doc/html/draft-ietf-ldup-infomod-08">
   <front>
     <title>LDUP Replication Information Model</title>
-    <author fullname="John McMeeking" initials="J." surname="McMeeking">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ldup-infomod-08"/>
+    <author initials="J." surname="McMeeking" fullname="John McMeeking">
       <organization>IBM</organization>
     </author>
-    <author fullname="Dr. Rick Huber" initials="R." surname="Huber">
+    <author initials="R." surname="Huber" fullname="Dr. Rick Huber">
       <organization>AT&amp;T Laboratories</organization>
     </author>
-    <author fullname="Ryan Moats" initials="R." surname="Moats">
+    <author initials="R." surname="Moats" fullname="Ryan Moats">
       <organization>Lemur Networks</organization>
     </author>
-    <date year="2003" month="October" day="23"/>
+    <date day="23" month="October" year="2003"></date>
     <abstract>
-      <t>[LDUP Model] describes the architectural approach to replication of LDAP directory contents. This document describes the information model and schema elements which support LDAP Replication Services which conform to [LDUP Model]. Directory schema is extended to provide object classes, subentries, and attributes to describe areas of the namespace which are under common administrative authority, units of replication (ie, subtrees, or partitions of the namespace, which are replicated), servers which hold replicas of various types for the various partitions of the namespace, which namespaces are held on given servers, and the progress of various namespace management and replication operations. Among other things, this knowledge of where directory content is located will provide the basis for dynamic generation of LDAP referrals for clients who can follow them.</t>
+      <t>[LDUP Model] describes the architectural approach to replication of
+LDAP directory contents.  This document describes the information
+model and schema elements which support LDAP Replication Services
+which conform to [LDUP Model].
+
+Directory schema is extended to provide object classes, subentries,
+and attributes to describe areas of the namespace which are under
+common administrative authority, units of replication (ie, subtrees,
+or partitions of the namespace, which are replicated), servers which
+hold replicas of various types for the various partitions of the
+namespace, which namespaces are held on given servers, and the
+progress of various namespace management and replication operations.
+Among other things, this knowledge of where directory content is
+located will provide the basis for dynamic generation of LDAP
+referrals for clients who can follow them.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ldup-infomod-08"/>
 </reference>

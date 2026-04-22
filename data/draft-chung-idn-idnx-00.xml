@@ -1,16 +1,28 @@
 <reference anchor="I-D.chung-idn-idnx" target="https://datatracker.ietf.org/doc/html/draft-chung-idn-idnx-00">
   <front>
     <title>Internationalized Domain Name Transition (IDNX)</title>
-    <author fullname="Edmon Chung" initials="E." surname="Chung">
-      <organization/>
-    </author>
-    <author fullname="David Leung" initials="D." surname="Leung">
-      <organization/>
-    </author>
-    <date year="2002" month="June" day="27"/>
+    <seriesInfo name="Internet-Draft" value="draft-chung-idn-idnx-00"/>
+    <author initials="E." surname="Chung" fullname="Edmon Chung"/>
+    <author initials="D." surname="Leung" fullname="David Leung"/>
+    <date day="27" month="June" year="2002"></date>
     <abstract>
-      <t>This document describes a strategy for domain name server operators to prepare and transition their services for multilingual domain names (IDN – Internationalized Domain Names). The IDNX approach accepts that users with non-IDN aware applications will be attempting to access multilingual domain names. Hence it is the registry or domain operator's responsibility to provide an IDN solution that resolves these issues to make it a seamless transition experience for technically unsophisticated users. In essence, the IDNX approach embraces a complementary server-side implementation to smooth the transition. IDNX compliant domain servers will successfully resolve IDN requests sent via non-IDN aware applications, whether they are formatted in local encoding, UTF-8 or an identifiable variant. The IDNX approach also utilizes a dynamic CNAME mechanism to provision for the sub-delegation of multilingual domain names to hosts running non-IDN aware DNS servers.</t>
+      <t>This document describes a strategy for domain name server operators 
+to prepare and transition their services for multilingual domain 
+names (IDN – Internationalized Domain Names). 
+The IDNX approach accepts that users with non-IDN aware applications 
+will be attempting to access multilingual domain names.  Hence it is 
+the registry or domain operator's responsibility to provide an IDN 
+solution that resolves these issues to make it a seamless transition 
+experience for technically unsophisticated users. 
+In essence, the IDNX approach embraces a complementary server-side 
+implementation to smooth the transition.  IDNX compliant domain 
+servers will successfully resolve IDN requests sent via non-IDN aware 
+applications, whether they are formatted in local encoding, UTF-8 or 
+an identifiable variant. 
+The IDNX approach also utilizes a dynamic CNAME mechanism to 
+provision for the sub-delegation of multilingual domain names to 
+hosts running non-IDN aware DNS servers.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-chung-idn-idnx-00"/>
 </reference>

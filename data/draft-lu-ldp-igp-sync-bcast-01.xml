@@ -1,16 +1,25 @@
 <reference anchor="I-D.lu-ldp-igp-sync-bcast" target="https://datatracker.ietf.org/doc/html/draft-lu-ldp-igp-sync-bcast-01">
   <front>
     <title>LDP IGP Synchronization for broadcast networks</title>
-    <author fullname="Wenhu Lu" initials="W." surname="Lu">
+    <seriesInfo name="Internet-Draft" value="draft-lu-ldp-igp-sync-bcast-01"/>
+    <author initials="W." surname="Lu" fullname="Wenhu Lu">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Sriganesh Kini" initials="S." surname="Kini">
+    <author initials="S." surname="Kini" fullname="Sriganesh Kini">
       <organization>Ericsson</organization>
     </author>
-    <date year="2009" month="October" day="20"/>
+    <date day="20" month="October" year="2009"></date>
     <abstract>
-      <t>[LDP-IGP-SYNC] describes a mechanism to prevent black-holing traffic (e.g. VPN) when IGP is operational on a link but LDP is not. If this mechanism is applied to broadcast links that have more than one LDP/IGP peer, the cost-out procedure can only be applied to the link as a whole but not an individual peer. When a new LDP peer comes up on a broadcast network, this can result in loss of traffic through other established peers on that network. This document describes a mechanism to address that use-case without dropping traffic. The mechanism does not introduce any protocol changes.</t>
+      <t>[LDP-IGP-SYNC] describes a mechanism to prevent black-holing traffic 
+(e.g. VPN) when IGP is operational on a link but LDP is not. If this 
+mechanism is applied to broadcast links that have more than one 
+LDP/IGP peer, the cost-out procedure can only be applied to the link 
+as a whole but not an individual peer. When a new LDP peer comes up 
+on a broadcast network, this can result in loss of traffic through 
+other established peers on that network. This document describes a 
+mechanism to address that use-case without dropping traffic. The 
+mechanism does not introduce any protocol changes.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-lu-ldp-igp-sync-bcast-01"/>
 </reference>

@@ -1,19 +1,23 @@
 <reference anchor="I-D.ietf-idr-bgp-multisession" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-bgp-multisession-06">
   <front>
     <title>Multisession BGP</title>
-    <author fullname="John Scudder" initials="J." surname="Scudder">
-      <organization/>
-    </author>
-    <author fullname="Chandrashekhar Appanna" initials="C." surname="Appanna">
-      <organization/>
-    </author>
-    <author fullname="Ilya Varlashkin" initials="I." surname="Varlashkin">
-      <organization/>
-    </author>
-    <date year="2011" month="March" day="29"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-multisession-06"/>
+    <author initials="J." surname="Scudder" fullname="John Scudder"/>
+    <author initials="C." surname="Appanna" fullname="Chandrashekhar Appanna"/>
+    <author initials="I." surname="Varlashkin" fullname="Ilya Varlashkin"/>
+    <date day="29" month="March" year="2011"></date>
     <abstract>
-      <t>This specification augments "Multiprotocol Extensions for BGP-4" (MP- BGP) by proposing a mechanism to facilitate the use of multiple sessions between a given pair of BGP speakers. Each session is used to transport routes related by some session-based attribute such as AFI/SAFI. This provides an alternative to the MP-BGP approach of multiplexing all routes onto a single connection. Use of this approach is expected to provide finer-grained fault management and isolation as the BGP protocol is used to support more and more diverse services.</t>
+      <t>This specification augments "Multiprotocol Extensions for BGP-4" (MP-
+BGP) by proposing a mechanism to facilitate the use of multiple
+sessions between a given pair of BGP speakers.  Each session is used
+to transport routes related by some session-based attribute such as
+AFI/SAFI.  This provides an alternative to the MP-BGP approach of
+multiplexing all routes onto a single connection.
+
+Use of this approach is expected to provide finer-grained fault
+management and isolation as the BGP protocol is used to support more
+and more diverse services.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-multisession-06"/>
 </reference>

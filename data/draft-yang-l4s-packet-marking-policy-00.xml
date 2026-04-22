@@ -1,25 +1,36 @@
 <reference anchor="I-D.yang-l4s-packet-marking-policy" target="https://datatracker.ietf.org/doc/html/draft-yang-l4s-packet-marking-policy-00">
   <front>
     <title>A Packet Marking Policy for Low Latency, Low Loss, and Scalable Throughput (L4S)</title>
-    <author fullname="Wanghong Yang" initials="W." surname="Yang">
+    <seriesInfo name="Internet-Draft" value="draft-yang-l4s-packet-marking-policy-00"/>
+    <author initials="W." surname="Yang" fullname="Wanghong Yang">
       <organization>CNIC</organization>
     </author>
-    <author fullname="Yongmao Ren" initials="Y." surname="Ren">
+    <author initials="Y." surname="Ren" fullname="Yongmao Ren">
       <organization>CNIC</organization>
     </author>
-    <author fullname="Xu Zhou" initials="X." surname="Zhou">
+    <author initials="X." surname="Zhou" fullname="Xu Zhou">
       <organization>CNIC</organization>
     </author>
-    <author fullname="Qinghua Wu" initials="Q." surname="Wu">
+    <author initials="Q." surname="Wu" fullname="Qinghua Wu">
       <organization>ICT</organization>
     </author>
-    <author fullname="Gaogang Xie" initials="G." surname="Xie">
+    <author initials="G." surname="Xie" fullname="Gaogang Xie">
       <organization>CNIC</organization>
     </author>
-    <date year="2025" month="November" day="2"/>
+    <date day="02" month="November" year="2025"></date>
     <abstract>
-      <t>Low Latency, Low Loss, and Scalable Throughput (L4S)[RFC9330] is a technology designed to mitigate queueing delays while maintaining high throughput for IP traffic. In real-time communication (RTC) applications over 5G networks, rapidly fluctuating wireless link conditions impose strict requirements on congestion control algorithms, which must simultaneously ensure low latency and high bandwidth utilization. This document proposes a packet marking policy for L4S in 5G networks, where intermediate base station devices compute a link load factor and use it as a probabilistic signal to mark packets in L4S flows.</t>
+      <t>   Low Latency, Low Loss, and Scalable Throughput (L4S)[RFC9330] is a
+   technology designed to mitigate queueing delays while maintaining
+   high throughput for IP traffic.  In real-time communication (RTC)
+   applications over 5G networks, rapidly fluctuating wireless link
+   conditions impose strict requirements on congestion control
+   algorithms, which must simultaneously ensure low latency and high
+   bandwidth utilization.  This document proposes a packet marking
+   policy for L4S in 5G networks, where intermediate base station
+   devices compute a link load factor and use it as a probabilistic
+   signal to mark packets in L4S flows.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-yang-l4s-packet-marking-policy-00"/>
 </reference>

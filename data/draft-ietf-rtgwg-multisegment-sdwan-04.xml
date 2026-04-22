@@ -1,25 +1,41 @@
 <reference anchor="I-D.ietf-rtgwg-multisegment-sdwan" target="https://datatracker.ietf.org/doc/html/draft-ietf-rtgwg-multisegment-sdwan-04">
   <front>
     <title>Multi-segment SD-WAN via Cloud DCs</title>
-    <author fullname="Kausik Majumdar" initials="K." surname="Majumdar">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-rtgwg-multisegment-sdwan-04"/>
+    <author initials="K." surname="Majumdar" fullname="Kausik Majumdar">
       <organization>Oracle</organization>
     </author>
-    <author fullname="Linda Dunbar" initials="L." surname="Dunbar">
+    <author initials="L." surname="Dunbar" fullname="Linda Dunbar">
       <organization>Futurewei</organization>
     </author>
-    <author fullname="Venkit Kasiviswanathan" initials="V." surname="Kasiviswanathan">
+    <author initials="V." surname="Kasiviswanathan" fullname="Venkit Kasiviswanathan">
       <organization>Arista</organization>
     </author>
-    <author fullname="Ashok Ramchandra" initials="A." surname="Ramchandra">
+    <author initials="A." surname="Ramchandra" fullname="Ashok Ramchandra">
       <organization>Microsoft</organization>
     </author>
-    <author fullname="Aseem Choudhary" initials="A." surname="Choudhary">
+    <author initials="A." surname="Choudhary" fullname="Aseem Choudhary">
       <organization>Aviatrix</organization>
     </author>
-    <date year="2025" month="July" day="7"/>
+    <date day="07" month="July" year="2025"></date>
     <abstract>
-      <t>This document describes a method for SD-WAN Customer Premises Equipment (CPEs) to use GENEVE encapsulation (RFC8926) to transport IPsec-encrypted packets across a Cloud Backbone without requiring decryption at Cloud Gateways (GWs). In this approach, SD-WAN CPEs encapsulate IPsec-encrypted payloads within GENEVE headers and forward them to their nearest Cloud GWs. These Cloud GWs then steer the encrypted traffic through the Cloud Backbone while preserving its confidentiality, ensuring seamless transport to the destination Cloud GWs. The egress Cloud GWs subsequently deliver the original IPsec- encrypted payloads to the receiving CPEs. This mechanism enables the Cloud Backbone to interconnect multiple SD-WAN segments efficiently, eliminating the need for Cloud GWs to decrypt and re-encrypt payloads, thus enhancing the performance.</t>
+      <t>   This document describes a method for SD-WAN Customer Premises
+   Equipment (CPEs) to use GENEVE encapsulation (RFC8926) to
+   transport IPsec-encrypted packets across a Cloud Backbone
+   without requiring decryption at Cloud Gateways (GWs). In this
+   approach, SD-WAN CPEs encapsulate IPsec-encrypted payloads
+   within GENEVE headers and forward them to their nearest Cloud
+   GWs. These Cloud GWs then steer the encrypted traffic through
+   the Cloud Backbone while preserving its confidentiality,
+   ensuring seamless transport to the destination Cloud GWs. The
+   egress Cloud GWs subsequently deliver the original IPsec-
+   encrypted payloads to the receiving CPEs. This mechanism
+   enables the Cloud Backbone to interconnect multiple SD-WAN
+   segments efficiently, eliminating the need for Cloud GWs to
+   decrypt and re-encrypt payloads, thus enhancing the
+   performance.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-rtgwg-multisegment-sdwan-04"/>
 </reference>

@@ -1,13 +1,22 @@
 <reference anchor="I-D.levy-abegnoli-savi-plbt" target="https://datatracker.ietf.org/doc/html/draft-levy-abegnoli-savi-plbt-02">
   <front>
     <title>Preference Level based Binding Table</title>
-    <author fullname="Eric Levy-Abegnoli" initials="E." surname="Levy-Abegnoli">
+    <seriesInfo name="Internet-Draft" value="draft-levy-abegnoli-savi-plbt-02"/>
+    <author initials="E." surname="Levy-Abegnoli" fullname="Eric Levy-Abegnoli">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2010" month="March" day="8"/>
+    <date day="08" month="March" year="2010"></date>
     <abstract>
-      <t>Different documents [savi-fcfs] [savi-dhcp] [savi-send] propose different preference schemes to resolve binding entry collisions (same L3 address, different binding anchors) based of the address- assignment method that they cover. For instance [fcfs] keeps the first entry and rejects others. However, in heterogeneous deployments, all address-assignment methods co-exist, and there is a need for defining an algorithm that compare colliding entries across these different methods (and any other method not covered) to pick up a preferred one. This document describes one such algorithum.</t>
+      <t>Different documents [savi-fcfs] [savi-dhcp] [savi-send] propose
+different preference schemes to resolve binding entry collisions
+(same L3 address, different binding anchors) based of the address-
+assignment method that they cover.  For instance [fcfs] keeps the
+first entry and rejects others.  However, in heterogeneous
+deployments, all address-assignment methods co-exist, and there is a
+need for defining an algorithm that compare colliding entries across
+these different methods (and any other method not covered) to pick up
+a preferred one.  This document describes one such algorithum.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-levy-abegnoli-savi-plbt-02"/>
 </reference>

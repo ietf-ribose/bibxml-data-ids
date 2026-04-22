@@ -1,16 +1,22 @@
 <reference anchor="I-D.carlberg-avtext-classifier" target="https://datatracker.ietf.org/doc/html/draft-carlberg-avtext-classifier-01">
   <front>
     <title>A Real-time Transport Protocol (RTP) Classifier Header Extension</title>
-    <author fullname="Ken Carlberg" initials="K." surname="Carlberg">
-      <organization/>
-    </author>
-    <author fullname="Toerless Eckert" initials="T. T." surname="Eckert">
-      <organization/>
-    </author>
-    <date year="2013" month="October" day="21"/>
+    <seriesInfo name="Internet-Draft" value="draft-carlberg-avtext-classifier-01"/>
+    <author initials="K." surname="Carlberg" fullname="Ken Carlberg"/>
+    <author initials="T. T." surname="Eckert" fullname="Toerless Eckert"/>
+    <date day="21" month="October" year="2013"></date>
     <abstract>
-      <t>This document defines a new RTP header extension. The purpose of the extension is to provide additional information that further distinguishes the RTP datagram (and its payload) from other datagrams containing the same type of payload. The information may be used to assist functions performed by application layer gateways (such as Session Border Controller or MCUs) and/or by routers/switches through deep packet inspection. Examples of these functions include intelligent dropping of packets or (re)setting the IP header diff-serv code points at ingress/egress boundaries of a diff-serv domain.</t>
+      <t>   This document defines a new RTP header extension. The purpose of the
+   extension is to provide additional information that further
+   distinguishes the RTP datagram (and its payload) from other datagrams
+   containing the same type of payload.  The information may be used to
+   assist functions performed by application layer gateways (such as
+   Session Border Controller or MCUs) and/or by routers/switches through
+   deep packet inspection. Examples of these functions include intelligent
+   dropping of packets or (re)setting the IP header diff-serv code points
+   at ingress/egress boundaries of a diff-serv domain.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-carlberg-avtext-classifier-01"/>
 </reference>

@@ -1,16 +1,31 @@
 <reference anchor="I-D.hsmit-lsr-isis-dnfm" target="https://datatracker.ietf.org/doc/html/draft-hsmit-lsr-isis-dnfm-00">
   <front>
     <title>IS-IS Sparse Link-State Flooding</title>
-    <author fullname="Henk Smit" initials="H." surname="Smit">
-      <organization/>
-    </author>
-    <author fullname="Gunter Van de Velde" initials="G." surname="Van de Velde">
+    <seriesInfo name="Internet-Draft" value="draft-hsmit-lsr-isis-dnfm-00"/>
+    <author initials="H." surname="Smit" fullname="Henk Smit"/>
+    <author initials="G." surname="Van de Velde" fullname="Gunter Van de Velde">
       <organization>Nokia</organization>
     </author>
-    <date year="2018" month="October" day="22"/>
+    <date day="22" month="October" year="2018"></date>
     <abstract>
-      <t>This document describes a technology extension to reduce link-state flooding in highly resilient dense networks. It does this by using simple and backwards-compatible extensions to reduce the number of adjacencies over which link-state flooding takes place. "IS-IS Sparse Link-State Flooding" is an extension to the IS-IS routing protocol. It is relatively easy to understand and implement. It is backwards compatible. It requires no per-node configuration. It uses a distributed algorithm, therefor no centralized computations are required. No complex computations are required on each node in the network. The algorithm has no requirements for the network topology. It can be deployed in a redundant way to improve robustness and convergence-times.</t>
+      <t>   This document describes a technology extension to reduce link-state
+   flooding in highly resilient dense networks.  It does this by using
+   simple and backwards-compatible extensions to reduce the number of
+   adjacencies over which link-state flooding takes place.
+
+   "IS-IS Sparse Link-State Flooding" is an extension to the IS-IS
+   routing protocol.
+
+   It is relatively easy to understand and implement.  It is backwards
+   compatible.  It requires no per-node configuration.  It uses a
+   distributed algorithm, therefor no centralized computations are
+   required.  No complex computations are required on each node in the
+   network.  The algorithm has no requirements for the network topology.
+   It can be deployed in a redundant way to improve robustness and
+   convergence-times.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hsmit-lsr-isis-dnfm-00"/>
 </reference>

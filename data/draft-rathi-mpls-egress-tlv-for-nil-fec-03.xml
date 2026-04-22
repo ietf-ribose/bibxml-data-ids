@@ -1,25 +1,36 @@
 <reference anchor="I-D.rathi-mpls-egress-tlv-for-nil-fec" target="https://datatracker.ietf.org/doc/html/draft-rathi-mpls-egress-tlv-for-nil-fec-03">
   <front>
     <title>Egress TLV for Nil FEC in Label Switched Path Ping and Traceroute Mechanisms</title>
-    <author fullname="Deepti N. Rathi" initials="D. N." surname="Rathi">
+    <seriesInfo name="Internet-Draft" value="draft-rathi-mpls-egress-tlv-for-nil-fec-03"/>
+    <author initials="D. N." surname="Rathi" fullname="Deepti N. Rathi">
       <organization>Juniper Networks Inc.</organization>
     </author>
-    <author fullname="Kapil Arora" initials="K." surname="Arora">
+    <author initials="K." surname="Arora" fullname="Kapil Arora">
       <organization>Juniper Networks Inc.</organization>
     </author>
-    <author fullname="Shraddha Hegde" initials="S." surname="Hegde">
+    <author initials="S." surname="Hegde" fullname="Shraddha Hegde">
       <organization>Juniper Networks Inc.</organization>
     </author>
-    <author fullname="Zafar Ali" initials="Z." surname="Ali">
+    <author initials="Z." surname="Ali" fullname="Zafar Ali">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Nagendra Kumar Nainar" initials="N. K." surname="Nainar">
+    <author initials="N. K." surname="Nainar" fullname="Nagendra Kumar Nainar">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <date year="2020" month="December" day="7"/>
+    <date day="07" month="December" year="2020"></date>
     <abstract>
-      <t>Segment routing supports the creation of explicit paths using adjacency- sids, node-sids, and anycast-sids. The SR-TE paths are built by stacking the labels that represent the nodes and links in the explicit path. A very useful Operations And Maintenance (OAM) requirement is to be able to ping and trace these paths. A simple mpls ping/traceroute mechanism comprises of ability to traverse the SR-TE path without having to validate the control plane state. This document describes mpls ping and traceroute procedures using Nil FEC with additional extensions.</t>
+      <t>   Segment routing supports the creation of explicit paths using
+   adjacency- sids, node-sids, and anycast-sids.  The SR-TE paths are
+   built by stacking the labels that represent the nodes and links in
+   the explicit path.  A very useful Operations And Maintenance (OAM)
+   requirement is to be able to ping and trace these paths.  A simple
+   mpls ping/traceroute mechanism comprises of ability to traverse the
+   SR-TE path without having to validate the control plane state.  This
+   document describes mpls ping and traceroute procedures using Nil FEC
+   with additional extensions.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-rathi-mpls-egress-tlv-for-nil-fec-03"/>
 </reference>

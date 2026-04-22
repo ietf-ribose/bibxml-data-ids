@@ -1,22 +1,36 @@
 <reference anchor="I-D.xu-lsr-isis-flooding-reduction-in-msdc" target="https://datatracker.ietf.org/doc/html/draft-xu-lsr-isis-flooding-reduction-in-msdc-05">
   <front>
     <title>IS-IS Flooding Reduction in MSDC</title>
-    <author fullname="Xiaohu Xu" initials="X." surname="Xu">
+    <seriesInfo name="Internet-Draft" value="draft-xu-lsr-isis-flooding-reduction-in-msdc-05"/>
+    <author initials="X." surname="Xu" fullname="Xiaohu Xu">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Luyuan Fang" initials="L." surname="Fang">
+    <author initials="L." surname="Fang" fullname="Luyuan Fang">
       <organization>eBay</organization>
     </author>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+    <author initials="J." surname="Tantsura" fullname="Jeff Tantsura">
       <organization>Nvidia</organization>
     </author>
-    <author fullname="Shaowen Ma" initials="S." surname="Ma">
+    <author initials="S." surname="Ma" fullname="Shaowen Ma">
       <organization>Google</organization>
     </author>
-    <date year="2024" month="January" day="30"/>
+    <date day="30" month="January" year="2024"></date>
     <abstract>
-      <t>IS-IS is a commonly used routing protocol in MSDC (Massively Scalable Data Center) networks where CLOS is the most popular topology. In a CLOS topology, each IS-IS router would receive multiple copies of the same LSP (Link State Packet) from multiple IS-IS neighbors. Moreover, two IS-IS neighbors may send each other the same LSP simultaneously. The unnecessary link-state information flooding results in a large waste of resources for IS-IS routers, as there are too many neighbors for each router. To address this scaling problem, this document introduces some extensions to the IS-IS protocol. These extensions aim to significantly reduce the IS-IS flooding within MSDC networks, which can greatly improve the scalability of such networks.</t>
+      <t>   IS-IS is a commonly used routing protocol in MSDC (Massively Scalable
+   Data Center) networks where CLOS is the most popular topology.  In a
+   CLOS topology, each IS-IS router would receive multiple copies of the
+   same LSP (Link State Packet) from multiple IS-IS neighbors.
+   Moreover, two IS-IS neighbors may send each other the same LSP
+   simultaneously.  The unnecessary link-state information flooding
+   results in a large waste of resources for IS-IS routers, as there are
+   too many neighbors for each router.  To address this scaling problem,
+   this document introduces some extensions to the IS-IS protocol.
+   These extensions aim to significantly reduce the IS-IS flooding
+   within MSDC networks, which can greatly improve the scalability of
+   such networks.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-xu-lsr-isis-flooding-reduction-in-msdc-05"/>
 </reference>

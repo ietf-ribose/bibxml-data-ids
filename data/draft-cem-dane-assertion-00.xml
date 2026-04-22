@@ -1,13 +1,23 @@
 <reference anchor="I-D.cem-dane-assertion" target="https://datatracker.ietf.org/doc/html/draft-cem-dane-assertion-00">
   <front>
     <title>HTTP DANE Validation Assertion</title>
-    <author fullname="Carl Mehner" initials="C." surname="Mehner">
+    <seriesInfo name="Internet-Draft" value="draft-cem-dane-assertion-00"/>
+    <author initials="C." surname="Mehner" fullname="Carl Mehner">
       <organization>USAA</organization>
     </author>
-    <date year="2014" month="November" day="20"/>
+    <date day="20" month="November" year="2014"></date>
     <abstract>
-      <t>This document defines a new HTTP header that allows web host operators to instruct user agents to remember the hosts' request for DANE (DNS-Based Authentication of Named Entities) validation over a period of time. During that time, UAs will require that the host presents a certificate chain that will authenticate the Transport Layer Security connection using DANE. By having hosts explicitly state that they have adopted DANE, UAs will only expend resources attempting DANE validation on hosts that request it. Comments are solicited and should be addressed to the author</t>
+      <t>   This document defines a new HTTP header that allows web host
+   operators to instruct user agents to remember the hosts' request for
+   DANE (DNS-Based Authentication of Named Entities) validation over a
+   period of time.  During that time, UAs will require that the host
+   presents a certificate chain that will authenticate the Transport
+   Layer Security connection using DANE.  By having hosts explicitly
+   state that they have adopted DANE, UAs will only expend resources
+   attempting DANE validation on hosts that request it.  Comments are
+   solicited and should be addressed to the author
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-cem-dane-assertion-00"/>
 </reference>

@@ -1,19 +1,30 @@
 <reference anchor="I-D.ietf-tls-dtls-connection-id" target="https://datatracker.ietf.org/doc/html/draft-ietf-tls-dtls-connection-id-03">
   <front>
     <title>Connection Identifiers for DTLS 1.2</title>
-    <author fullname="Eric Rescorla" initials="E." surname="Rescorla">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tls-dtls-connection-id-03"/>
+    <author initials="E." surname="Rescorla" fullname="Eric Rescorla">
       <organization>RTFM, Inc.</organization>
     </author>
-    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+    <author initials="H." surname="Tschofenig" fullname="Hannes Tschofenig">
       <organization>Arm Limited</organization>
     </author>
-    <author fullname="Thomas Fossati" initials="T." surname="Fossati">
+    <author initials="T." surname="Fossati" fullname="Thomas Fossati">
       <organization>Arm Limited</organization>
     </author>
-    <date year="2019" month="February" day="27"/>
+    <date day="27" month="February" year="2019"></date>
     <abstract>
-      <t>This document specifies the Connection ID (CID) construct for the Datagram Transport Layer Security (DTLS) protocol version 1.2. A CID is an identifier carried in the record layer header that gives the recipient additional information for selecting the appropriate security association. In "classical" DTLS, selecting a security association of an incoming DTLS record is accomplished with the help of the 5-tuple. If the source IP address and/or source port changes during the lifetime of an ongoing DTLS session then the receiver will be unable to locate the correct security context.</t>
+      <t>   This document specifies the Connection ID (CID) construct for the
+   Datagram Transport Layer Security (DTLS) protocol version 1.2.
+
+   A CID is an identifier carried in the record layer header that gives
+   the recipient additional information for selecting the appropriate
+   security association.  In "classical" DTLS, selecting a security
+   association of an incoming DTLS record is accomplished with the help
+   of the 5-tuple.  If the source IP address and/or source port changes
+   during the lifetime of an ongoing DTLS session then the receiver will
+   be unable to locate the correct security context.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-tls-dtls-connection-id-03"/>
 </reference>

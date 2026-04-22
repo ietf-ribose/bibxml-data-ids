@@ -1,19 +1,28 @@
 <reference anchor="I-D.ietf-fecframe-raptor" target="https://datatracker.ietf.org/doc/html/draft-ietf-fecframe-raptor-09">
   <front>
     <title>Raptor FEC Schemes for FECFRAME</title>
-    <author fullname="Mark Watson" initials="M." surname="Watson">
-      <organization/>
-    </author>
-    <author fullname="Thomas Stockhammer" initials="T." surname="Stockhammer">
-      <organization/>
-    </author>
-    <author fullname="Michael Luby" initials="M." surname="Luby">
-      <organization/>
-    </author>
-    <date year="2012" month="March" day="1"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-fecframe-raptor-09"/>
+    <author initials="M." surname="Watson" fullname="Mark Watson"/>
+    <author initials="T." surname="Stockhammer" fullname="Thomas Stockhammer"/>
+    <author initials="M." surname="Luby" fullname="Michael Luby"/>
+    <date day="01" month="March" year="2012"></date>
     <abstract>
-      <t>This document describes Fully-Specified Forward Error Correction (FEC) Schemes for the Raptor and RaptorQ codes and their application to reliable delivery of media streams in the context of FEC Framework. The Raptor and RaptorQ codes are systematic codes, where a number of repair symbols are generated from a set of source symbols and sent in one or more repair flows in addition to the source symbols that are sent to the receiver(s) within a source flow. The Raptor and RaptorQ codes offer close to optimal protection against arbitrary packet losses at a low computational complexity. Six FEC Schemes are defined, two for protection of arbitrary packet flows, two that are optimised for small source blocks and another two for protection of a single flow that already contains a sequence number. Repair data may be sent over arbitrary datagram transport (e.g. UDP) or using RTP.</t>
+      <t>   This document describes Fully-Specified Forward Error Correction
+   (FEC) Schemes for the Raptor and RaptorQ codes and their application
+   to reliable delivery of media streams in the context of FEC
+   Framework.  The Raptor and RaptorQ codes are systematic codes, where
+   a number of repair symbols are generated from a set of source symbols
+   and sent in one or more repair flows in addition to the source
+   symbols that are sent to the receiver(s) within a source flow.  The
+   Raptor and RaptorQ codes offer close to optimal protection against
+   arbitrary packet losses at a low computational complexity.  Six FEC
+   Schemes are defined, two for protection of arbitrary packet flows,
+   two that are optimised for small source blocks and another two for
+   protection of a single flow that already contains a sequence number.
+   Repair data may be sent over arbitrary datagram transport (e.g.  UDP)
+   or using RTP.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-fecframe-raptor-09"/>
 </reference>

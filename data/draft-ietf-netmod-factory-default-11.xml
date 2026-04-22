@@ -1,19 +1,31 @@
 <reference anchor="I-D.ietf-netmod-factory-default" target="https://datatracker.ietf.org/doc/html/draft-ietf-netmod-factory-default-11">
   <front>
     <title>Factory Default Setting</title>
-    <author fullname="Qin Wu" initials="Q." surname="Wu">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-netmod-factory-default-11"/>
+    <author initials="Q." surname="Wu" fullname="Qin Wu">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Balázs Lengyel" initials="B." surname="Lengyel">
+    <author initials="B." surname="Lengyel" fullname="Balázs Lengyel">
       <organization>Ericsson Hungary</organization>
     </author>
-    <author fullname="Ye Niu" initials="Y." surname="Niu">
+    <author initials="Y." surname="Niu" fullname="Ye Niu">
       <organization>Huawei</organization>
     </author>
-    <date year="2020" month="February" day="12"/>
+    <date day="12" month="February" year="2020"></date>
     <abstract>
-      <t>This document defines a method to reset a server to its factory default content. The reset operation may be used, e.g., when the existing configuration has major errors so re-starting the configuration process from scratch is the best option. A new "factory-reset" RPC is defined. When resetting a device, all previous configuration settings will be lost and replaced by the factory default content. A new optional "factory-default" read-only datastore is defined, that contains the factory default configuration for the device.</t>
+      <t>   This document defines a method to reset a server to its factory
+   default content.  The reset operation may be used, e.g., when the
+   existing configuration has major errors so re-starting the
+   configuration process from scratch is the best option.
+
+   A new "factory-reset" RPC is defined.  When resetting a device, all
+   previous configuration settings will be lost and replaced by the
+   factory default content.
+
+   A new optional "factory-default" read-only datastore is defined, that
+   contains the factory default configuration for the device.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-netmod-factory-default-11"/>
 </reference>

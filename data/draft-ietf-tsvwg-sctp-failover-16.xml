@@ -1,25 +1,32 @@
 <reference anchor="I-D.ietf-tsvwg-sctp-failover" target="https://datatracker.ietf.org/doc/html/draft-ietf-tsvwg-sctp-failover-16">
   <front>
     <title>SCTP-PF: A Quick Failover Algorithm for the Stream Control Transmission Protocol</title>
-    <author fullname="Yoshifumi Nishida" initials="Y." surname="Nishida">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-sctp-failover-16"/>
+    <author initials="Y." surname="Nishida" fullname="Yoshifumi Nishida">
       <organization>GE Global Research</organization>
     </author>
-    <author fullname="Preethi Natarajan" initials="P." surname="Natarajan">
+    <author initials="P." surname="Natarajan" fullname="Preethi Natarajan">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Armando L. Caro" initials="A. L." surname="Caro">
+    <author initials="A. L." surname="Caro" fullname="Armando L. Caro">
       <organization>BBN Technologies</organization>
     </author>
-    <author fullname="Paul D. Amer" initials="P. D." surname="Amer">
+    <author initials="P. D." surname="Amer" fullname="Paul D. Amer">
       <organization>University of Delaware</organization>
     </author>
-    <author fullname="karen Nielsen" initials="K." surname="Nielsen">
+    <author initials="K." surname="Nielsen" fullname="karen Nielsen">
       <organization>Ericsson</organization>
     </author>
-    <date year="2016" month="February" day="17"/>
+    <date day="17" month="February" year="2016"></date>
     <abstract>
-      <t>The Stream Control Transmission Protocol (SCTP) supports multihoming. However, when the failover operation specified in RFC 4960 is followed, there can be significant delay and performance degradation in the data transfer path failover. This document specifies a quick failover algorithm and introduces the SCTP Potentially Failed (SCTP-PF) destination state in SCTP Path Management. This document also specifies a dormant state operation of SCTP that is required to be followed by an SCTP-PF implementation, but it may equally well be applied by a standard SCTP implementation, as described in RFC 4960. Additionally, this document introduces an alternative switchback operation mode called "Primary Path Switchover" that will be beneficial in certain situations. This mode of operation applies to both a standard SCTP implementation and an SCTP-PF implementation. The procedures defined in the document require only minimal modifications to the specification in RFC 4960. The procedures are sender-side only and do not impact the SCTP receiver.</t>
+      <t>The Stream Control Transmission Protocol (SCTP) supports multihoming. However, when the failover operation specified in RFC 4960 is followed, there can be significant delay and performance degradation in the data transfer path failover. This document specifies a quick failover algorithm and introduces the SCTP Potentially Failed (SCTP-PF) destination state in SCTP Path Management.
+
+ This document also specifies a dormant state operation of SCTP that is required to be followed by an SCTP-PF implementation, but it may equally well be applied by a standard SCTP implementation, as described in RFC 4960.
+
+ Additionally, this document introduces an alternative switchback operation mode called "Primary Path Switchover" that will be beneficial in certain situations. This mode of operation applies to both a standard SCTP implementation and an SCTP-PF implementation.
+
+ The procedures defined in the document require only minimal modifications to the specification in RFC 4960. The procedures are sender-side only and do not impact the SCTP receiver.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-sctp-failover-16"/>
 </reference>

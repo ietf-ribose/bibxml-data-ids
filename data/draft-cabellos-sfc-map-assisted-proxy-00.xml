@@ -1,28 +1,36 @@
 <reference anchor="I-D.cabellos-sfc-map-assisted-proxy" target="https://datatracker.ietf.org/doc/html/draft-cabellos-sfc-map-assisted-proxy-00">
   <front>
     <title>Map-Assisted SFC Proxy using LISP</title>
-    <author fullname="Albert Cabellos-Aparicio" initials="A." surname="Cabellos-Aparicio">
+    <seriesInfo name="Internet-Draft" value="draft-cabellos-sfc-map-assisted-proxy-00"/>
+    <author initials="A." surname="Cabellos-Aparicio" fullname="Albert Cabellos-Aparicio">
       <organization>UPC-BarcelonaTech</organization>
     </author>
-    <author fullname="Sharon Barkai" initials="S." surname="Barkai">
+    <author initials="S." surname="Barkai" fullname="Sharon Barkai">
       <organization>Hewlett Packard Enterprise</organization>
     </author>
-    <author fullname="Barak Perlman" initials="B." surname="Perlman">
+    <author initials="B." surname="Perlman" fullname="Barak Perlman">
       <organization>Hewlett Packard Enterprise</organization>
     </author>
-    <author fullname="Vina Ermagan" initials="V." surname="Ermagan">
+    <author initials="V." surname="Ermagan" fullname="Vina Ermagan">
       <organization>Cisco Systems Inc</organization>
     </author>
-    <author fullname="Fabio Maino" initials="F." surname="Maino">
+    <author initials="F." surname="Maino" fullname="Fabio Maino">
       <organization>Cisco Systems Inc</organization>
     </author>
-    <author fullname="Alberto Rodriguez-Natal" initials="A." surname="Rodriguez-Natal">
+    <author initials="A." surname="Rodriguez-Natal" fullname="Alberto Rodriguez-Natal">
       <organization>UPC-BarcelonaTech</organization>
     </author>
-    <date year="2015" month="October" day="19"/>
+    <date day="19" month="October" year="2015"></date>
     <abstract>
-      <t>This document specifies a map-assisted SFC proxy. The SFC proxy uses the LISP Mapping System to store the NSH header indexed by 5-tuple, before decapsulating and forwarding the packet to the legacy function. After the function has processed the packet, the SFC proxy retrieves the NSH header from the Mapping System to SFC encapsulate it.</t>
+      <t>   This document specifies a map-assisted SFC proxy.  The SFC proxy uses
+   the LISP Mapping System to store the NSH header indexed by 5-tuple,
+   before decapsulating and forwarding the packet to the legacy
+   function.  After the function has processed the packet, the SFC proxy
+   retrieves the NSH header from the Mapping System to SFC encapsulate
+   it.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-cabellos-sfc-map-assisted-proxy-00"/>
 </reference>

@@ -1,13 +1,24 @@
 <reference anchor="I-D.moreau-pkix-aixcm" target="https://datatracker.ietf.org/doc/html/draft-moreau-pkix-aixcm-00">
   <front>
     <title>Auto Issued X.509 Certificate Mechanism (AIXCM)</title>
-    <author fullname="Thierry Moreau" initials="T." surname="Moreau">
+    <seriesInfo name="Internet-Draft" value="draft-moreau-pkix-aixcm-00"/>
+    <author initials="T." surname="Moreau" fullname="Thierry Moreau">
       <organization>CONNOTECH</organization>
     </author>
-    <date year="2008" month="August" day="6"/>
+    <date day="06" month="August" year="2008"></date>
     <abstract>
-      <t>The Transport Layer Security (TLS) protocol does not support the use of client public key pairs without X.509 security certificates. This document circumvents this limitation: an end-entity has access to the public domain private key of a dummy (or "explicitly meaningless") Certification Authority (CA), and can thus freely issue an X.509 security certificate for interoperability purposes. Given these workaround requirement and solution approach, the document limits itself to the strict minimal set of standardization provisions. This supports the orderly cohabitation of auto issued certificates and normal TLS traffic relying on the full Public Key Infrastructure (PKI) model.</t>
+      <t>The Transport Layer Security (TLS) protocol does not support the use
+ of client public key pairs without X.509 security certificates. This
+ document circumvents this limitation: an end-entity has access to
+ the public domain private key of a dummy (or "explicitly
+ meaningless") Certification Authority (CA), and can thus freely
+ issue an X.509 security certificate for interoperability purposes.
+ Given these workaround requirement and solution approach, the
+ document limits itself to the strict minimal set of standardization
+ provisions. This supports the orderly cohabitation of auto issued
+ certificates and normal TLS traffic relying on the full Public Key
+ Infrastructure (PKI) model.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-moreau-pkix-aixcm-00"/>
 </reference>

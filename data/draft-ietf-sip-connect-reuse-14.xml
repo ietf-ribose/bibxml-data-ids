@@ -1,19 +1,20 @@
 <reference anchor="I-D.ietf-sip-connect-reuse" target="https://datatracker.ietf.org/doc/html/draft-ietf-sip-connect-reuse-14">
   <front>
     <title>Connection Reuse in the Session Initiation Protocol (SIP)</title>
-    <author fullname="Vijay K. Gurbani" initials="V. K." surname="Gurbani">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-sip-connect-reuse-14"/>
+    <author initials="V. K." surname="Gurbani" fullname="Vijay K. Gurbani">
       <organization>Bell Laboratories</organization>
     </author>
-    <author fullname="Brett Tate" initials="B." surname="Tate">
+    <author initials="B." surname="Tate" fullname="Brett Tate">
       <organization>BroadSoft</organization>
     </author>
-    <author fullname="Rohan Mahy" initials="R." surname="Mahy">
+    <author initials="R." surname="Mahy" fullname="Rohan Mahy">
       <organization>Unaffiliated</organization>
     </author>
-    <date year="2009" month="August" day="5"/>
+    <date day="05" month="August" year="2009"></date>
     <abstract>
-      <t>This document enables a pair of communicating proxies to reuse a congestion-controlled connection between themselves for sending requests in the forwards and backwards direction. Because the connection is essentially aliased for requests going in the backwards direction, reuse is predicated upon both the communicating endpoints authenticating themselves using X.509 certificates through Transport Layer Security (TLS). For this reason, we only consider connection reuse for TLS over TCP and TLS over Stream Control Transmission Protocol (SCTP). This document also provides guidelines on connection reuse and virtual SIP servers and the interaction of connection reuse and DNS SRV lookups in SIP. [STANDARDS-TRACK]</t>
+      <t>This document enables a pair of communicating proxies to reuse a congestion-controlled connection between themselves for sending requests in the forwards and backwards direction.  Because the connection is essentially aliased for requests going in the backwards direction, reuse is predicated upon both the communicating endpoints authenticating themselves using X.509 certificates through Transport Layer Security (TLS).  For this reason, we only consider connection reuse for TLS over TCP and TLS over Stream Control Transmission Protocol (SCTP).  This document also provides guidelines on connection reuse and virtual SIP servers and the interaction of connection reuse and DNS SRV lookups in SIP. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-sip-connect-reuse-14"/>
 </reference>

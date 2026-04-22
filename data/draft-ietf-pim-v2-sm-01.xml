@@ -1,40 +1,54 @@
 <reference anchor="I-D.ietf-pim-v2-sm" target="https://datatracker.ietf.org/doc/html/draft-ietf-pim-v2-sm-01">
   <front>
     <title>Protocol Independent Multicast-Sparse Mode (PIM-SM): Protocol Specification</title>
-    <author fullname="Dr. Deborah Estrin" initials="D." surname="Estrin">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pim-v2-sm-01"/>
+    <author initials="D." surname="Estrin" fullname="Dr. Deborah Estrin">
       <organization>USC</organization>
     </author>
-    <author fullname="Van Jacobson" initials="V." surname="Jacobson">
+    <author initials="V." surname="Jacobson" fullname="Van Jacobson">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Dino Farinacci" initials="D." surname="Farinacci">
+    <author initials="D." surname="Farinacci" fullname="Dino Farinacci">
       <organization>Procket</organization>
     </author>
-    <author fullname="Liming Wei" initials="L." surname="Wei">
-      <organization/>
-    </author>
-    <author fullname="Dr. Steve E. Deering" initials="S. E." surname="Deering">
+    <author initials="L." surname="Wei" fullname="Liming Wei"/>
+    <author initials="S. E." surname="Deering" fullname="Dr. Steve E. Deering">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Mark J. Handley" initials="M. J." surname="Handley">
+    <author initials="M. J." surname="Handley" fullname="Mark J. Handley">
       <organization>ACIRI</organization>
     </author>
-    <author fullname="Dave Thaler" initials="D." surname="Thaler">
+    <author initials="D." surname="Thaler" fullname="Dave Thaler">
       <organization>Microsoft</organization>
     </author>
-    <author fullname="Ching-Gung Liu" initials="C." surname="Liu">
+    <author initials="C." surname="Liu" fullname="Ching-Gung Liu">
       <organization>Fujitsu</organization>
     </author>
-    <author fullname="Puneet Sharma" initials="P." surname="Sharma">
+    <author initials="P." surname="Sharma" fullname="Puneet Sharma">
       <organization>HPL</organization>
     </author>
-    <author fullname="Ahmed Helmy" initials="A." surname="Helmy">
+    <author initials="A." surname="Helmy" fullname="Ahmed Helmy">
       <organization>USC</organization>
     </author>
-    <date year="1999" month="December" day="1"/>
+    <date day="01" month="December" year="1999"></date>
     <abstract>
-      <t>This document describes a protocol for efficiently routing to multicast groups that may span wide-area (and inter-domain) internets. We refer to the approach as Protocol Independent Multicast--Sparse Mode (PIM-SM) because it is not dependent on any particular unicast routing protocol, and because it is designed to support sparse groups as defined in [1][2]. This document describes the protocol details. For the motivation behind the design and a description of the architecture, see [1][2]. Section 2 summarizes PIM-SM operation. It describes the protocol from a network perspective, in particular, how the participating routers interact to create and maintain the multicast distribution tree. Section 3 describes PIM-SM operations from the perspective of a single router implementing the protocol; this section constitutes the main body of the protocol specification. It is organized according to PIM-SM message type; for each message type we describe its contents, its generation, and its processing.</t>
+      <t>This document describes a protocol for efficiently routing to
+multicast groups that may span wide-area (and inter-domain)
+internets.  We refer to the approach as Protocol Independent
+Multicast--Sparse Mode (PIM-SM) because it is not dependent on any
+particular unicast routing protocol, and because it is designed to
+support sparse groups as defined in [1][2]. This document describes
+the protocol details. For the motivation behind the design and a
+description of the architecture, see [1][2]. Section 2 summarizes
+PIM-SM operation.  It describes the protocol from a network
+perspective, in particular, how the participating routers interact to
+create and maintain the multicast distribution tree.  Section 3
+describes PIM-SM operations from the perspective of a single router
+implementing the protocol; this section constitutes the main body of
+the protocol specification.  It is organized according to PIM-SM
+message type; for each message type we describe its contents, its
+generation, and its processing.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-pim-v2-sm-01"/>
 </reference>

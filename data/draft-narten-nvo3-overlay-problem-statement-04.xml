@@ -1,31 +1,43 @@
 <reference anchor="I-D.narten-nvo3-overlay-problem-statement" target="https://datatracker.ietf.org/doc/html/draft-narten-nvo3-overlay-problem-statement-04">
   <front>
     <title>Problem Statement: Overlays for Network Virtualization</title>
-    <author fullname="Dr. Thomas Narten" initials="T." surname="Narten">
+    <seriesInfo name="Internet-Draft" value="draft-narten-nvo3-overlay-problem-statement-04"/>
+    <author initials="T." surname="Narten" fullname="Dr. Thomas Narten">
       <organization>IBM</organization>
     </author>
-    <author fullname="Dinesh Dutt" initials="D." surname="Dutt">
-      <organization/>
-    </author>
-    <author fullname="Luyuan Fang" initials="L." surname="Fang">
+    <author initials="D." surname="Dutt" fullname="Dinesh Dutt"/>
+    <author initials="L." surname="Fang" fullname="Luyuan Fang">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Eric Gray" initials="E. W." surname="Gray">
+    <author initials="E. W." surname="Gray" fullname="Eric Gray">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Larry Kreeger" initials="L." surname="Kreeger">
+    <author initials="L." surname="Kreeger" fullname="Larry Kreeger">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Maria Napierala" initials="M." surname="Napierala">
+    <author initials="M." surname="Napierala" fullname="Maria Napierala">
       <organization>AT&amp;T</organization>
     </author>
-    <author fullname="Murari Sridharan" initials="M." surname="Sridharan">
+    <author initials="M." surname="Sridharan" fullname="Murari Sridharan">
       <organization>Microsoft</organization>
     </author>
-    <date year="2012" month="August" day="10"/>
+    <date day="10" month="August" year="2012"></date>
     <abstract>
-      <t>This document describes issues associated with providing multi- tenancy in large data center networks that require an overlay-based network virtualization approach to addressing them. A key multi- tenancy requirement is traffic isolation, so that a tenant's traffic is not visible to any other tenant. This isolation can be achieved by assigning one or more virtual networks to each tenant such that traffic within a virtual network is isolated from traffic in other virtual networks. The primary functionality required is provisioning virtual networks, associating a virtual machine's virtual network interface(s) with the appropriate virtual network, and maintaining that association as the virtual machine is activated, migrated and/or deactivated. Use of an overlay-based approach enables scalable deployment on large network infrastructures.</t>
+      <t>   This document describes issues associated with providing multi-
+   tenancy in large data center networks that require an overlay-based
+   network virtualization approach to addressing them.  A key multi-
+   tenancy requirement is traffic isolation, so that a tenant's traffic
+   is not visible to any other tenant.  This isolation can be achieved
+   by assigning one or more virtual networks to each tenant such that
+   traffic within a virtual network is isolated from traffic in other
+   virtual networks.  The primary functionality required is provisioning
+   virtual networks, associating a virtual machine's virtual network
+   interface(s) with the appropriate virtual network, and maintaining
+   that association as the virtual machine is activated, migrated and/or
+   deactivated.  Use of an overlay-based approach enables scalable
+   deployment on large network infrastructures.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-narten-nvo3-overlay-problem-statement-04"/>
 </reference>

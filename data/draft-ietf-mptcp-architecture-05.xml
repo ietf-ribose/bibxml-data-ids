@@ -1,25 +1,28 @@
 <reference anchor="I-D.ietf-mptcp-architecture" target="https://datatracker.ietf.org/doc/html/draft-ietf-mptcp-architecture-05">
   <front>
     <title>Architectural Guidelines for Multipath TCP Development</title>
-    <author fullname="Jana Iyengar" initials="J." surname="Iyengar">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-mptcp-architecture-05"/>
+    <author initials="J." surname="Iyengar" fullname="Jana Iyengar">
       <organization>Franklin and Marshall College</organization>
     </author>
-    <author fullname="Costin Raiciu" initials="C." surname="Raiciu">
+    <author initials="C." surname="Raiciu" fullname="Costin Raiciu">
       <organization>University College London</organization>
     </author>
-    <author fullname="Sebastien Barre" initials="S." surname="Barre">
+    <author initials="S." surname="Barre" fullname="Sebastien Barre">
       <organization>Universite catholique de Louvain</organization>
     </author>
-    <author fullname="Mark J. Handley" initials="M. J." surname="Handley">
+    <author initials="M. J." surname="Handley" fullname="Mark J. Handley">
       <organization>University College London</organization>
     </author>
-    <author fullname="Alan Ford" initials="A." surname="Ford">
+    <author initials="A." surname="Ford" fullname="Alan Ford">
       <organization>Roke Manor Research</organization>
     </author>
-    <date year="2011" month="January" day="21"/>
+    <date day="21" month="January" year="2011"></date>
     <abstract>
-      <t>Hosts are often connected by multiple paths, but TCP restricts communications to a single path per transport connection. Resource usage within the network would be more efficient were these multiple paths able to be used concurrently. This should enhance user experience through improved resilience to network failure and higher throughput. This document outlines architectural guidelines for the development of a Multipath Transport Protocol, with references to how these architectural components come together in the development of a Multipath TCP (MPTCP). This document lists certain high-level design decisions that provide foundations for the design of the MPTCP protocol, based upon these architectural requirements. This document is not an Internet Standards Track specification; it is published for informational purposes.</t>
+      <t>Hosts are often connected by multiple paths, but TCP restricts communications to a single path per transport connection. Resource usage within the network would be more efficient were these multiple paths able to be used concurrently. This should enhance user experience through improved resilience to network failure and higher throughput.
+
+ This document outlines architectural guidelines for the development of a Multipath Transport Protocol, with references to how these architectural components come together in the development of a Multipath TCP (MPTCP). This document lists certain high-level design decisions that provide foundations for the design of the MPTCP protocol, based upon these architectural requirements. This document is not an Internet Standards Track specification; it is published for informational purposes.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-mptcp-architecture-05"/>
 </reference>

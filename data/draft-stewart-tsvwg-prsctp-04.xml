@@ -1,25 +1,35 @@
 <reference anchor="I-D.stewart-tsvwg-prsctp" target="https://datatracker.ietf.org/doc/html/draft-stewart-tsvwg-prsctp-04">
   <front>
     <title>SCTP Partial Reliability Extension</title>
-    <author fullname="Michael A. Ramalho" initials="M. A." surname="Ramalho">
+    <seriesInfo name="Internet-Draft" value="draft-stewart-tsvwg-prsctp-04"/>
+    <author initials="M. A." surname="Ramalho" fullname="Michael A. Ramalho">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Michael Tüxen" initials="M." surname="Tüxen">
+    <author initials="M." surname="Tüxen" fullname="Michael Tüxen">
       <organization>Univ. of Applied Sciences Muenster</organization>
     </author>
-    <author fullname="Phillip Conrad" initials="P." surname="Conrad">
+    <author initials="P." surname="Conrad" fullname="Phillip Conrad">
       <organization>Temple University</organization>
     </author>
-    <author fullname="Qiaobing Xie" initials="Q." surname="Xie">
+    <author initials="Q." surname="Xie" fullname="Qiaobing Xie">
       <organization>Motorola, Inc.</organization>
     </author>
-    <author fullname="Randall R. Stewart" initials="R. R." surname="Stewart">
+    <author initials="R. R." surname="Stewart" fullname="Randall R. Stewart">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2003" month="May" day="19"/>
+    <date day="19" month="May" year="2003"></date>
     <abstract>
-      <t>This memo describes an extension to the Stream Control Transmission Protocol (SCTP) RFC2960 [4] that allows an SCTP endpoint to signal to its peer that it should move the cumulative ack point forward. When both sides of an SCTP association support this extension, it can be used by an SCTP implementation to provide partially reliable data transmission service to an upper layer protocol. This memo describes (1) the protocol extensions, which consist of a new parameter for INIT and INIT ACK, and a new FORWARD TSN chunk type (2) one example partially reliable service that can be provided to the upper layer via this mechanism.</t>
+      <t>This memo describes an extension to the Stream Control Transmission
+Protocol (SCTP) RFC2960 [4] that allows an SCTP endpoint to signal to
+its peer that it should move the cumulative ack point forward.  When
+both sides of an SCTP association support this extension, it can be
+used by an SCTP implementation to provide partially reliable data
+transmission service to an upper layer protocol.  This memo describes
+(1) the protocol extensions, which consist of a new parameter for
+INIT and INIT ACK, and a new FORWARD TSN chunk type (2) one example
+partially reliable service that can be provided to the upper layer
+via this mechanism.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-stewart-tsvwg-prsctp-04"/>
 </reference>

@@ -1,22 +1,33 @@
 <reference anchor="I-D.zhang-qoe-driven-transport-requirement" target="https://datatracker.ietf.org/doc/html/draft-zhang-qoe-driven-transport-requirement-01">
   <front>
     <title>QoE-Driven Application-Transport Cooperation Requirements</title>
-    <author fullname="Jiaxing Zhang" initials="J." surname="Zhang">
+    <seriesInfo name="Internet-Draft" value="draft-zhang-qoe-driven-transport-requirement-01"/>
+    <author initials="J." surname="Zhang" fullname="Jiaxing Zhang">
       <organization>Chinese Academy of Sciences</organization>
     </author>
-    <author fullname="吕格瑞" initials="G." surname="吕格瑞">
+    <author initials="G." surname="吕格瑞" fullname="吕格瑞">
       <organization>Chinese Academy of Sciences</organization>
     </author>
-    <author fullname="Qinghua Wu" initials="Q." surname="Wu">
+    <author initials="Q." surname="Wu" fullname="Qinghua Wu">
       <organization>Chinese Academy of Sciences</organization>
     </author>
-    <author fullname="Zhenyu Li" initials="Z." surname="Li">
+    <author initials="Z." surname="Li" fullname="Zhenyu Li">
       <organization>Chinese Academy of Sciences</organization>
     </author>
-    <date year="2025" month="November" day="24"/>
+    <date day="24" month="November" year="2025"></date>
     <abstract>
-      <t>This document specifies requirements for a QoE-driven transport system, which enables network stack to adjust its transport strategy according to the QoE intent expressed by applications. The Application Layer MUST provide a structured QoE Intent Signal detailing performance objectives to the transport layer. A QoE Mapping Engine is required to translate this intent into adaptive transport strategies. The Transport Protocol Stack SHOULD continuously feed a Transport Feedback Signal on current performance and network status back to the Application Layer, thereby closing the control loop essential for continuous QoE optimization.</t>
+      <t>   This document specifies requirements for a QoE-driven transport
+   system, which enables network stack to adjust its transport strategy
+   according to the QoE intent expressed by applications.  The
+   Application Layer MUST provide a structured QoE Intent Signal
+   detailing performance objectives to the transport layer.  A QoE
+   Mapping Engine is required to translate this intent into adaptive
+   transport strategies.  The Transport Protocol Stack SHOULD
+   continuously feed a Transport Feedback Signal on current performance
+   and network status back to the Application Layer, thereby closing the
+   control loop essential for continuous QoE optimization.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-zhang-qoe-driven-transport-requirement-01"/>
 </reference>

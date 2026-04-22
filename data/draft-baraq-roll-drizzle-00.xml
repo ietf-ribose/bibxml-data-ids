@@ -1,22 +1,38 @@
 <reference anchor="I-D.baraq-roll-drizzle" target="https://datatracker.ietf.org/doc/html/draft-baraq-roll-drizzle-00">
   <front>
     <title>Drizzle Algorithm</title>
-    <author fullname="Baraq Ghaleb" initials="B." surname="Ghaleb">
+    <seriesInfo name="Internet-Draft" value="draft-baraq-roll-drizzle-00"/>
+    <author initials="B." surname="Ghaleb" fullname="Baraq Ghaleb">
       <organization>Edinburgh Napier University</organization>
     </author>
-    <author fullname="Ahmed Al-Dubai" initials="A." surname="Al-Dubai">
+    <author initials="A." surname="Al-Dubai" fullname="Ahmed Al-Dubai">
       <organization>Edinburgh Napier University</organization>
     </author>
-    <author fullname="Imed Romdhani" initials="I." surname="Romdhani">
+    <author initials="I." surname="Romdhani" fullname="Imed Romdhani">
       <organization>Edinburgh Napier University</organization>
     </author>
-    <author fullname="Mamoun Qasem" initials="M." surname="Qasem">
+    <author initials="M." surname="Qasem" fullname="Mamoun Qasem">
       <organization>Edinburgh Napier University</organization>
     </author>
-    <date year="2018" month="March" day="23"/>
+    <date day="23" month="March" year="2018"></date>
     <abstract>
-      <t>Trickle algorithm used in RPL routing protocol suffers from some issues related to power, network convergence time and overhead and load-distribution. To optimize this algorithm for Low-power and Lossy Networks (LLNs), a new algorithm called Drizzle is introduced. Drizzle uses an adaptive suppression mechanism that permits the nodes to have different transmission probabilities, which are consistent with their transmission history. Compared to Trickle, Drizzle removes the listen-only period from Drizzle's intervals, thus, leading to faster convergence time. Furthermore, a new policy for setting the redundancy coefficient has been used to mitigate the negative effect of the short-listen problem presented when removing the listen-only period and to further boost the fairness in the network.</t>
+      <t>   Trickle algorithm used in RPL routing protocol suffers from some
+   issues related to power, network convergence time and overhead and
+   load-distribution. To optimize this algorithm for Low-power and Lossy
+   Networks (LLNs), a new algorithm called Drizzle is introduced.
+   Drizzle uses an adaptive suppression mechanism that permits the nodes
+   to have different transmission probabilities, which are consistent
+   with their transmission history. Compared to Trickle, Drizzle removes
+   the listen-only period from Drizzle's intervals, thus, leading to
+   faster convergence time. Furthermore, a new policy for setting the
+   redundancy coefficient has been used to mitigate the negative effect
+   of the short-listen problem presented when removing the listen-only
+   period and to further boost the fairness in the network.
+
+
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-baraq-roll-drizzle-00"/>
 </reference>

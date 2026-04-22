@@ -1,25 +1,39 @@
 <reference anchor="I-D.ls-idr-bgp-ls-service-metadata" target="https://datatracker.ietf.org/doc/html/draft-ls-idr-bgp-ls-service-metadata-04">
   <front>
     <title>Distribution of Service Metadata in BGP-LS</title>
-    <author fullname="Cheng Li" initials="C." surname="Li">
+    <seriesInfo name="Internet-Draft" value="draft-ls-idr-bgp-ls-service-metadata-04"/>
+    <author initials="C." surname="Li" fullname="Cheng Li">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Hang Shi" initials="H." surname="Shi">
+    <author initials="H." surname="Shi" fullname="Hang Shi">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Tao He" initials="T." surname="He">
+    <author initials="T." surname="He" fullname="Tao He">
       <organization>China Unicom</organization>
     </author>
-    <author fullname="Ran Pang" initials="R." surname="Pang">
+    <author initials="R." surname="Pang" fullname="Ran Pang">
       <organization>China Unicom</organization>
     </author>
-    <author fullname="Guofeng Qian" initials="G." surname="Qian">
+    <author initials="G." surname="Qian" fullname="Guofeng Qian">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2024" month="June" day="27"/>
+    <date day="27" month="June" year="2024"></date>
     <abstract>
-      <t>In edge computing, a service may be deployed on multiple instances within one or more sites, called edge service. The edge service is associated with an ANYCAST address in the IP layer, and the route of it with potential service metadata will be distributed to the network. The Edge Service Metadata can be used by ingress routers to make path selections not only based on the routing cost but also the running environment of the edge services. The service route with metadata can be collected by a PCE(Path Compute Element) or an analyzer for calculating the best path to the best site/instance. This draft describes a mechanism to collect information of the service routes and related service metadata in BGP-LS.</t>
+      <t>   In edge computing, a service may be deployed on multiple instances
+   within one or more sites, called edge service.  The edge service is
+   associated with an ANYCAST address in the IP layer, and the route of
+   it with potential service metadata will be distributed to the
+   network.  The Edge Service Metadata can be used by ingress routers to
+   make path selections not only based on the routing cost but also the
+   running environment of the edge services.
+
+   The service route with metadata can be collected by a PCE(Path
+   Compute Element) or an analyzer for calculating the best path to the
+   best site/instance.  This draft describes a mechanism to collect
+   information of the service routes and related service metadata in
+   BGP-LS.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ls-idr-bgp-ls-service-metadata-04"/>
 </reference>

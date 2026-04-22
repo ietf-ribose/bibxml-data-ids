@@ -1,19 +1,28 @@
 <reference anchor="I-D.hildebrand-nfsv4-fadvise" target="https://datatracker.ietf.org/doc/html/draft-hildebrand-nfsv4-fadvise-02">
   <front>
     <title>Support for posix_fadvise</title>
-    <author fullname="Dean Hildebrand" initials="D." surname="Hildebrand">
+    <seriesInfo name="Internet-Draft" value="draft-hildebrand-nfsv4-fadvise-02"/>
+    <author initials="D." surname="Hildebrand" fullname="Dean Hildebrand">
       <organization>IBM Almaden</organization>
     </author>
-    <author fullname="Trond Myklebust" initials="T." surname="Myklebust">
+    <author initials="T." surname="Myklebust" fullname="Trond Myklebust">
       <organization>NetApp</organization>
     </author>
-    <author fullname="Sam Falkner" initials="S." surname="Falkner">
+    <author initials="S." surname="Falkner" fullname="Sam Falkner">
       <organization>Oracle</organization>
     </author>
-    <date year="2011" month="July" day="7"/>
+    <date day="07" month="July" year="2011"></date>
     <abstract>
-      <t>This document proposes a new FADVISE operation for NFSv4.2 to support the posix_fadvise function. FADVISE will communicate expected application behavior to the server, allowing servers to optimize future I/O requests for a file. The posix_fadvise function is supported in Linux and many other operating systems and is starting be widely used by applications. In addition, the FADVISE operation can communicate other application directions such as the use of direct I/O.</t>
+      <t>   This document proposes a new FADVISE operation for NFSv4.2 to support
+   the posix_fadvise function.  FADVISE will communicate expected
+   application behavior to the server, allowing servers to optimize
+   future I/O requests for a file.  The posix_fadvise function is
+   supported in Linux and many other operating systems and is starting
+   be widely used by applications. In addition, the FADVISE operation
+   can communicate other application directions such as the use of
+   direct I/O.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hildebrand-nfsv4-fadvise-02"/>
 </reference>

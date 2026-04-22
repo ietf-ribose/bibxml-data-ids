@@ -1,22 +1,42 @@
 <reference anchor="I-D.kumaki-pce-bgp-disco-attribute" target="https://datatracker.ietf.org/doc/html/draft-kumaki-pce-bgp-disco-attribute-06">
   <front>
     <title>BGP Protocol Extensions for Path Computation Element (PCE) Discovery in a BGP/MPLS IP-VPN</title>
-    <author fullname="Kenji Kumaki" initials="K." surname="Kumaki">
+    <seriesInfo name="Internet-Draft" value="draft-kumaki-pce-bgp-disco-attribute-06"/>
+    <author initials="K." surname="Kumaki" fullname="Kenji Kumaki">
       <organization>KDDI Corporation</organization>
     </author>
-    <author fullname="Tomoki Murai" initials="T." surname="Murai">
+    <author initials="T." surname="Murai" fullname="Tomoki Murai">
       <organization>Furukawa Network Solutions Corp.</organization>
     </author>
-    <author fullname="Tomohiro Yamagata" initials="T." surname="Yamagata">
+    <author initials="T." surname="Yamagata" fullname="Tomohiro Yamagata">
       <organization>KDDI Corporation</organization>
     </author>
-    <author fullname="Chikara Sasaki" initials="C." surname="Sasaki">
+    <author initials="C." surname="Sasaki" fullname="Chikara Sasaki">
       <organization>KDDI R&amp;D Labs</organization>
     </author>
-    <date year="2010" month="March" day="7"/>
+    <date day="07" month="March" year="2010"></date>
     <abstract>
-      <t>Connectivity between customer sites in an IP Virtual Private Network (VPN) supported by BGP/MPLS may be achieved using MPLS Traffic Engineered (TE) Label Switched Paths (LSPs). The paths of these LSPs must be computed to provide the end-to-end connectivity desired, and the paths selected may depend upon the VPN being served, and the location and reachability of target addresses within customer sites. The Path Computation Element (PCE) is a server that can compute the paths of TE LSPs in an MPLS network. Where one or more VPNs is supported over a core network, different PCEs may serve computations for different VPNs. PCE discovery allows a Path Computation Client (PCC) to determine which PCEs are available to service its computation requests. Using an IGP to distribute PCE discovery information for VPN use would result in the information being needlessly flooded to all core nodes regardless of whether they are aware of the VPN. These nodes do not need to be aware of per-VPN PCE function. This document describes how BGP can be used to distribute PCE discovery information specifically for use in VPN path computation.</t>
+      <t>Connectivity between customer sites in an IP Virtual Private Network
+(VPN) supported by BGP/MPLS may be achieved using MPLS Traffic
+Engineered (TE) Label Switched Paths (LSPs). The paths of these LSPs
+must be computed to provide the end-to-end connectivity desired, and
+the paths selected may depend upon the VPN being served, and the
+location and reachability of target addresses within customer sites.
+
+The Path Computation Element (PCE) is a server that can compute the
+paths of TE LSPs in an MPLS network. Where one or more VPNs is
+supported over a core network, different PCEs may serve computations
+for different VPNs.
+
+PCE discovery allows a Path Computation Client (PCC) to determine
+which PCEs are available to service its computation requests.
+Using an IGP to distribute PCE discovery information for VPN use
+would result in the information being needlessly flooded to all core
+nodes regardless of whether they are aware of the VPN. These nodes do
+not need to be aware of per-VPN PCE function. This document describes
+how BGP can be used to distribute PCE discovery information
+specifically for use in VPN path computation.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kumaki-pce-bgp-disco-attribute-06"/>
 </reference>

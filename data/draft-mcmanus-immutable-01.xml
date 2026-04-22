@@ -1,13 +1,18 @@
 <reference anchor="I-D.mcmanus-immutable" target="https://datatracker.ietf.org/doc/html/draft-mcmanus-immutable-01">
   <front>
     <title>HTTP Immutable Responses</title>
-    <author fullname="Patrick McManus" initials="P." surname="McManus">
+    <seriesInfo name="Internet-Draft" value="draft-mcmanus-immutable-01"/>
+    <author initials="P." surname="McManus" fullname="Patrick McManus">
       <organization>Mozilla</organization>
     </author>
-    <date year="2016" month="December" day="19"/>
+    <date day="19" month="December" year="2016"></date>
     <abstract>
-      <t>The immutable HTTP response Cache-Control extension allows servers to identify resources that will not be updated during their freshness lifetime. This assures that a client never needs to revalidate a cached fresh resource to be certain it has not been modified.</t>
+      <t>   The immutable HTTP response Cache-Control extension allows servers to
+   identify resources that will not be updated during their freshness
+   lifetime.  This assures that a client never needs to revalidate a
+   cached fresh resource to be certain it has not been modified.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mcmanus-immutable-01"/>
 </reference>

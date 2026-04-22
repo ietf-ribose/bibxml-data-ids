@@ -1,22 +1,32 @@
 <reference anchor="I-D.zeng-dnsop-exclusive-rr-type-for-multi-cdn" target="https://datatracker.ietf.org/doc/html/draft-zeng-dnsop-exclusive-rr-type-for-multi-cdn-00">
   <front>
     <title>Exclusive RR type for multi-CDN support</title>
-    <author fullname="Yu Zeng" initials="Y." surname="Zeng">
+    <seriesInfo name="Internet-Draft" value="draft-zeng-dnsop-exclusive-rr-type-for-multi-cdn-00"/>
+    <author initials="Y." surname="Zeng" fullname="Yu Zeng">
       <organization>CNNIC</organization>
     </author>
-    <author fullname="Haikuo Zhang" initials="H." surname="Zhang">
+    <author initials="H." surname="Zhang" fullname="Haikuo Zhang">
       <organization>CNNIC</organization>
     </author>
-    <author fullname="Nan Wang" initials="N." surname="Wang">
+    <author initials="N." surname="Wang" fullname="Nan Wang">
       <organization>CNNIC</organization>
     </author>
-    <author fullname="Jiankang Yao" initials="J." surname="Yao">
+    <author initials="J." surname="Yao" fullname="Jiankang Yao">
       <organization>CNNIC</organization>
     </author>
-    <date year="2017" month="July" day="24"/>
+    <date day="24" month="July" year="2017"></date>
     <abstract>
-      <t>With the boom of Multi-CDN services, more enterprises tend to apply Multi-CDN service to deliver better end user experience to online global audiences. However, the current Multi-CDN strategy has some defects. Different Multi-CDN providers have various implementations of CDN balancing, yet there is no such unified DNS protocol because that multiple CNAMEs violates DNS standards. Some Multi-CDN implementations MAY have extra lookups for CDN redirection which causes longer query latency. This document aims to provide an exclusive DNS RR type CDNNAME(CDN name) for Multi-CDN implementation.</t>
+      <t>   With the boom of Multi-CDN services, more enterprises tend to apply
+   Multi-CDN service to deliver better end user experience to online
+   global audiences.  However, the current Multi-CDN strategy has some
+   defects.  Different Multi-CDN providers have various implementations
+   of CDN balancing, yet there is no such unified DNS protocol because
+   that multiple CNAMEs violates DNS standards.  Some Multi-CDN
+   implementations MAY have extra lookups for CDN redirection which
+   causes longer query latency.  This document aims to provide an
+   exclusive DNS RR type CDNNAME(CDN name) for Multi-CDN implementation.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-zeng-dnsop-exclusive-rr-type-for-multi-cdn-00"/>
 </reference>

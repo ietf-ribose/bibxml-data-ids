@@ -1,28 +1,39 @@
 <reference anchor="I-D.ietf-homenet-front-end-naming-delegation" target="https://datatracker.ietf.org/doc/html/draft-ietf-homenet-front-end-naming-delegation-09">
   <front>
     <title>Outsourcing Home Network Authoritative Naming Service</title>
-    <author fullname="Daniel Migault" initials="D." surname="Migault">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-homenet-front-end-naming-delegation-09"/>
+    <author initials="D." surname="Migault" fullname="Daniel Migault">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Ralf Weber" initials="R." surname="Weber">
+    <author initials="R." surname="Weber" fullname="Ralf Weber">
       <organization>Nominum</organization>
     </author>
-    <author fullname="Michael Richardson" initials="M." surname="Richardson">
+    <author initials="M." surname="Richardson" fullname="Michael Richardson">
       <organization>Sandelman Software Works</organization>
     </author>
-    <author fullname="Ray Hunter" initials="R." surname="Hunter">
+    <author initials="R." surname="Hunter" fullname="Ray Hunter">
       <organization>Globis Consulting BV</organization>
     </author>
-    <author fullname="Chris Griffiths" initials="C." surname="Griffiths">
-      <organization/>
-    </author>
-    <author fullname="Wouter Cloetens" initials="W." surname="Cloetens">
+    <author initials="C." surname="Griffiths" fullname="Chris Griffiths"/>
+    <author initials="W." surname="Cloetens" fullname="Wouter Cloetens">
       <organization>SoftAtHome</organization>
     </author>
-    <date year="2019" month="November" day="16"/>
+    <date day="16" month="November" year="2019"></date>
     <abstract>
-      <t>The Homenet Naming authority is responsible for making devices within the home network accessible by name within the home network as well as from outside the home network (e.g. the Internet). The names of the devices accessible from the Internet are stored in the Public Homenet Zone, served by a DNS authoritative server. It is unlikely that home networks will contain sufficiently robust platforms designed to host a service such as the DNS on the Internet and as such would expose the home network to DDoS attacks. This document describes a mechanism that enables the Home Network Authority (HNA) to outsource the naming service to the Outsourcing Infrastructure via a Distribution Master (DM).</t>
+      <t>   The Homenet Naming authority is responsible for making devices within
+   the home network accessible by name within the home network as well
+   as from outside the home network (e.g. the Internet).  The names of
+   the devices accessible from the Internet are stored in the Public
+   Homenet Zone, served by a DNS authoritative server.  It is unlikely
+   that home networks will contain sufficiently robust platforms
+   designed to host a service such as the DNS on the Internet and as
+   such would expose the home network to DDoS attacks.
+
+   This document describes a mechanism that enables the Home Network
+   Authority (HNA) to outsource the naming service to the Outsourcing
+   Infrastructure via a Distribution Master (DM).
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-homenet-front-end-naming-delegation-09"/>
 </reference>

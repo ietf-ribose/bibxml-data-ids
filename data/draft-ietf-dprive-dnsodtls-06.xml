@@ -1,19 +1,26 @@
 <reference anchor="I-D.ietf-dprive-dnsodtls" target="https://datatracker.ietf.org/doc/html/draft-ietf-dprive-dnsodtls-06">
   <front>
     <title>DNS over DTLS (DNSoD)</title>
-    <author fullname="Tirumaleswar Reddy.K" initials="T." surname="Reddy.K">
-      <organization/>
-    </author>
-    <author fullname="Dan Wing" initials="D." surname="Wing">
-      <organization/>
-    </author>
-    <author fullname="Prashanth Patil" initials="P." surname="Patil">
-      <organization/>
-    </author>
-    <date year="2016" month="April" day="4"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dprive-dnsodtls-06"/>
+    <author initials="T." surname="Reddy.K" fullname="Tirumaleswar Reddy.K"/>
+    <author initials="D." surname="Wing" fullname="Dan Wing"/>
+    <author initials="P." surname="Patil" fullname="Prashanth Patil"/>
+    <date day="04" month="April" year="2016"></date>
     <abstract>
-      <t>DNS queries and responses are visible to network elements on the path between the DNS client and its server. These queries and responses can contain privacy-sensitive information which is valuable to protect. An active attacker can send bogus responses causing misdirection of the subsequent connection. To counter passive listening and active attacks, this document proposes the use of Datagram Transport Layer Security (DTLS) for DNS, to protect against passive listeners and certain active attacks. As DNS needs to remain fast, this proposal also discusses mechanisms to reduce DTLS round trips and reduce DTLS handshake size. The proposed mechanism runs over port 853.</t>
+      <t>   DNS queries and responses are visible to network elements on the path
+   between the DNS client and its server.  These queries and responses
+   can contain privacy-sensitive information which is valuable to
+   protect.  An active attacker can send bogus responses causing
+   misdirection of the subsequent connection.
+
+   To counter passive listening and active attacks, this document
+   proposes the use of Datagram Transport Layer Security (DTLS) for DNS,
+   to protect against passive listeners and certain active attacks.  As
+   DNS needs to remain fast, this proposal also discusses mechanisms to
+   reduce DTLS round trips and reduce DTLS handshake size.  The proposed
+   mechanism runs over port 853.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dprive-dnsodtls-06"/>
 </reference>

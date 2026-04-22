@@ -1,13 +1,21 @@
 <reference anchor="I-D.josefsson-tls-eddsa" target="https://datatracker.ietf.org/doc/html/draft-josefsson-tls-eddsa-01">
   <front>
     <title>EdDSA and Ed25519 for Transport Layer Security (TLS)</title>
-    <author fullname="Simon Josefsson" initials="S." surname="Josefsson">
+    <seriesInfo name="Internet-Draft" value="draft-josefsson-tls-eddsa-01"/>
+    <author initials="S." surname="Josefsson" fullname="Simon Josefsson">
       <organization>SJD AB</organization>
     </author>
-    <date year="2015" month="June" day="8"/>
+    <date day="08" month="June" year="2015"></date>
     <abstract>
-      <t>This document introduce the public-key signature algorithm EdDSA for use in Transport Layer Security (TLS). With the previous NamedCurve and ECPointFormat assignments for the Curve25519 ECDHE key exchange mechanism, this enables use of Ed25519 in TLS. New Cipher Suites for EdDSA together with AES-GCM and ChaCha20-Poly1305 are introduced here. This is intended to work with any version of TLS and Datagram TLS.</t>
+      <t>   This document introduce the public-key signature algorithm EdDSA for
+   use in Transport Layer Security (TLS).  With the previous NamedCurve
+   and ECPointFormat assignments for the Curve25519 ECDHE key exchange
+   mechanism, this enables use of Ed25519 in TLS.  New Cipher Suites for
+   EdDSA together with AES-GCM and ChaCha20-Poly1305 are introduced
+   here.  This is intended to work with any version of TLS and Datagram
+   TLS.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-josefsson-tls-eddsa-01"/>
 </reference>

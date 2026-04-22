@@ -1,25 +1,36 @@
 <reference anchor="I-D.xzlnp-bier-ioam" target="https://datatracker.ietf.org/doc/html/draft-xzlnp-bier-ioam-00">
   <front>
     <title>Bit Index Explicit Replication (BIER) Encapsulation for In-situ OAM (IOAM) Data</title>
-    <author fullname="Xiao Min" initials="X." surname="Min">
+    <seriesInfo name="Internet-Draft" value="draft-xzlnp-bier-ioam-00"/>
+    <author initials="X." surname="Min" fullname="Xiao Min">
       <organization>ZTE Corp.</organization>
     </author>
-    <author fullname="Zheng Zhang" initials="Z." surname="Zhang">
+    <author initials="Z." surname="Zhang" fullname="Zheng Zhang">
       <organization>ZTE Corp.</organization>
     </author>
-    <author fullname="Yisong Liu" initials="Y." surname="Liu">
+    <author initials="Y." surname="Liu" fullname="Yisong Liu">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Nagendra Kumar Nainar" initials="N. K." surname="Nainar">
+    <author initials="N. K." surname="Nainar" fullname="Nagendra Kumar Nainar">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Carlos Pignataro" initials="C." surname="Pignataro">
+    <author initials="C." surname="Pignataro" fullname="Carlos Pignataro">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <date year="2020" month="July" day="13"/>
+    <date day="13" month="July" year="2020"></date>
     <abstract>
-      <t>In-situ Operations, Administration, and Maintenance (IOAM) collects operational and telemetry information while the packet traverses a particular network domain. Bit Index Explicit Replication (BIER) is an architecture that provides optimal multicast forwarding through a "multicast domain", without requiring intermediate routers to maintain any per-flow state or to engage in an explicit tree-building protocol. The BIER header contains a bit-string in which each bit represents exactly one egress router to forward the packet to. This document outlines the requirements to carry IOAM data in BIER header and specifies how IOAM data fields are encapsulated in BIER header.</t>
+      <t>   In-situ Operations, Administration, and Maintenance (IOAM) collects
+   operational and telemetry information while the packet traverses a
+   particular network domain.  Bit Index Explicit Replication (BIER) is
+   an architecture that provides optimal multicast forwarding through a
+   "multicast domain", without requiring intermediate routers to
+   maintain any per-flow state or to engage in an explicit tree-building
+   protocol.  The BIER header contains a bit-string in which each bit
+   represents exactly one egress router to forward the packet to.  This
+   document outlines the requirements to carry IOAM data in BIER header
+   and specifies how IOAM data fields are encapsulated in BIER header.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-xzlnp-bier-ioam-00"/>
 </reference>

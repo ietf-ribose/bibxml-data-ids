@@ -1,19 +1,31 @@
 <reference anchor="I-D.mglt-dnsop-dnssec-validator-requirements" target="https://datatracker.ietf.org/doc/html/draft-mglt-dnsop-dnssec-validator-requirements-06">
   <front>
     <title>DNSSEC Validators Requirements</title>
-    <author fullname="Daniel Migault" initials="D." surname="Migault">
+    <seriesInfo name="Internet-Draft" value="draft-mglt-dnsop-dnssec-validator-requirements-06"/>
+    <author initials="D." surname="Migault" fullname="Daniel Migault">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Dan York" initials="D." surname="York">
+    <author initials="D." surname="York" fullname="Dan York">
       <organization>Internet Society</organization>
     </author>
-    <author fullname="Edward Lewis" initials="E." surname="Lewis">
+    <author initials="E." surname="Lewis" fullname="Edward Lewis">
       <organization>ICANN</organization>
     </author>
-    <date year="2017" month="October" day="30"/>
+    <date day="30" month="October" year="2017"></date>
     <abstract>
-      <t>DNSSEC provides data integrity and source authentication to a basic DNS RReet. Given a RRset, a public key and a signature, a DNSSEC validator checks the signature, time constraints, and other, local, policies. In case of mismatch the RRSet is considered illegitimate and is rejected. Accuracy in DNSSEC validation, that is, avoiding false positives and catching true negatives, requires that both the signing process and validation process adhere to the protocol, which begins with external configuration parameters. This document describes requirements for a validator to be able to perform accurate validation.</t>
+      <t>   DNSSEC provides data integrity and source authentication to a basic
+   DNS RReet.  Given a RRset, a public key and a signature, a DNSSEC
+   validator checks the signature, time constraints, and other, local,
+   policies.  In case of mismatch the RRSet is considered illegitimate
+   and is rejected.
+
+   Accuracy in DNSSEC validation, that is, avoiding false positives and
+   catching true negatives, requires that both the signing process and
+   validation process adhere to the protocol, which begins with external
+   configuration parameters.  This document describes requirements for a
+   validator to be able to perform accurate validation.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mglt-dnsop-dnssec-validator-requirements-06"/>
 </reference>

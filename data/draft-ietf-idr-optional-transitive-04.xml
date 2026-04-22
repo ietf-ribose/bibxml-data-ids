@@ -1,22 +1,33 @@
 <reference anchor="I-D.ietf-idr-optional-transitive" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-optional-transitive-04">
   <front>
     <title>Revised Error Handling for BGP UPDATE Messages</title>
-    <author fullname="John Scudder" initials="J." surname="Scudder">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-optional-transitive-04"/>
+    <author initials="J." surname="Scudder" fullname="John Scudder">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Enke Chen" initials="E." surname="Chen">
+    <author initials="E." surname="Chen" fullname="Enke Chen">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Prodosh Mohapatra" initials="P." surname="Mohapatra">
+    <author initials="P." surname="Mohapatra" fullname="Prodosh Mohapatra">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
+    <author initials="K." surname="Patel" fullname="Keyur Patel">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2011" month="October" day="25"/>
+    <date day="25" month="October" year="2011"></date>
     <abstract>
-      <t>According to the base BGP specification, a BGP speaker that receives an UPDATE message containing a malformed attribute is required to reset the session over which the offending attribute was received. This behavior is undesirable as a session reset would impact not only routes with the offending attribute, but also other valid routes exchanged over the session. This document partially revises the error handling for UPDATE messages, and provides guidelines for the authors of documents defining new optional attributes. Finally, it revises the error handling procedures for several existing attributes.</t>
+      <t>   According to the base BGP specification, a BGP speaker that receives
+   an UPDATE message containing a malformed attribute is required to
+   reset the session over which the offending attribute was received.
+   This behavior is undesirable as a session reset would impact not only
+   routes with the offending attribute, but also other valid routes
+   exchanged over the session.  This document partially revises the
+   error handling for UPDATE messages, and provides guidelines for the
+   authors of documents defining new optional attributes.  Finally, it
+   revises the error handling procedures for several existing
+   attributes.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-optional-transitive-04"/>
 </reference>

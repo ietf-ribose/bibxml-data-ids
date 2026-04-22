@@ -1,25 +1,26 @@
 <reference anchor="I-D.ietf-multimob-fmipv6-pfmipv6-multicast" target="https://datatracker.ietf.org/doc/html/draft-ietf-multimob-fmipv6-pfmipv6-multicast-10">
   <front>
     <title>Multicast Listener Extensions for Mobile IPv6 (MIPv6) and Proxy Mobile IPv6 (PMIPv6) Fast Handovers</title>
-    <author fullname="Thomas C. Schmidt" initials="T. C." surname="Schmidt">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-multimob-fmipv6-pfmipv6-multicast-10"/>
+    <author initials="T. C." surname="Schmidt" fullname="Thomas C. Schmidt">
       <organization>HAW Hamburg</organization>
     </author>
-    <author fullname="Matthias Wählisch" initials="M." surname="Wählisch">
-      <organization/>
-    </author>
-    <author fullname="Rajeev Koodli" initials="R." surname="Koodli">
+    <author initials="M." surname="Wählisch" fullname="Matthias Wählisch"/>
+    <author initials="R." surname="Koodli" fullname="Rajeev Koodli">
       <organization>Intel</organization>
     </author>
-    <author fullname="Gorry Fairhurst" initials="G." surname="Fairhurst">
+    <author initials="G." surname="Fairhurst" fullname="Gorry Fairhurst">
       <organization>University of Aberdeen</organization>
     </author>
-    <author fullname="Dapeng Liu" initials="D." surname="Liu">
+    <author initials="D." surname="Liu" fullname="Dapeng Liu">
       <organization>China Mobile</organization>
     </author>
-    <date year="2014" month="October" day="16"/>
+    <date day="16" month="October" year="2014"></date>
     <abstract>
-      <t>Fast handover protocols for Mobile IPv6 (MIPv6) and Proxy Mobile IPv6 (PMIPv6) define mobility management procedures that support unicast communication at reduced handover latency. Fast handover base operations do not affect multicast communication and, hence, do not accelerate handover management for native multicast listeners. Many multicast applications like IPTV or conferencing, though, comprise delay-sensitive, real-time traffic and will benefit from fast handover completion. This document specifies extension of the Mobile IPv6 Fast Handovers (FMIPv6) and the Fast Handovers for Proxy Mobile IPv6 (PFMIPv6) protocols to include multicast traffic management in fast handover operations. This multicast support is provided first at the control plane by management of rapid context transfer between access routers and second at the data plane by optional fast traffic forwarding that may include buffering. An FMIPv6 access router indicates support for multicast using an updated Proxy Router Advertisements message format. This document updates RFC 5568, "Mobile IPv6 Fast Handovers".</t>
+      <t>Fast handover protocols for Mobile IPv6 (MIPv6) and Proxy Mobile IPv6 (PMIPv6) define mobility management procedures that support unicast communication at reduced handover latency. Fast handover base operations do not affect multicast communication and, hence, do not accelerate handover management for native multicast listeners. Many multicast applications like IPTV or conferencing, though, comprise delay-sensitive, real-time traffic and will benefit from fast handover completion. This document specifies extension of the Mobile IPv6 Fast Handovers (FMIPv6) and the Fast Handovers for Proxy Mobile IPv6 (PFMIPv6) protocols to include multicast traffic management in fast handover operations. This multicast support is provided first at the control plane by management of rapid context transfer between access routers and second at the data plane by optional fast traffic forwarding that may include buffering. An FMIPv6 access router indicates support for multicast using an updated Proxy Router Advertisements message format.
+
+ This document updates RFC 5568, "Mobile IPv6 Fast Handovers".
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-multimob-fmipv6-pfmipv6-multicast-10"/>
 </reference>

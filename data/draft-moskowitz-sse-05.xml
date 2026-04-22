@@ -1,25 +1,38 @@
 <reference anchor="I-D.moskowitz-sse" target="https://datatracker.ietf.org/doc/html/draft-moskowitz-sse-05">
   <front>
     <title>Session Security Envelope</title>
-    <author fullname="Robert Moskowitz" initials="R." surname="Moskowitz">
+    <seriesInfo name="Internet-Draft" value="draft-moskowitz-sse-05"/>
+    <author initials="R." surname="Moskowitz" fullname="Robert Moskowitz">
       <organization>HTT Consulting</organization>
     </author>
-    <author fullname="Igor Faynberg" initials="I." surname="Faynberg">
+    <author initials="I." surname="Faynberg" fullname="Igor Faynberg">
       <organization>Stargazers Consulting, LLC</organization>
     </author>
-    <author fullname="Huilan Lu" initials="H." surname="Lu">
+    <author initials="H." surname="Lu" fullname="Huilan Lu">
       <organization>Retired</organization>
     </author>
-    <author fullname="Susan Hares" initials="S." surname="Hares">
+    <author initials="S." surname="Hares" fullname="Susan Hares">
       <organization>Hickory Hill Consulting</organization>
     </author>
-    <author fullname="Pierpaolo Giacomin" initials="P." surname="Giacomin">
+    <author initials="P." surname="Giacomin" fullname="Pierpaolo Giacomin">
       <organization>FreeLance</organization>
     </author>
-    <date year="2017" month="June" day="27"/>
+    <date day="27" month="June" year="2017"></date>
     <abstract>
-      <t>This memo specifies the details of the Session Security Envelope (SSE). SSE is a session protocol aiming to guarantee confidentiality, integrity and authentication completely independently by the underlying context, namely network and transport layers. A single session using the SEE protocol can include a single transport session or multiple transport sessions. This mean that SSE can survive the break-down in network and transport layers or to attacks carried against them. SSE is also applicable in networks lacking in classic inter-networking and transport protocols SSE relies on modern AEAD block cipher modes of operations, a class of block cipher modes which allows, at the same time, to authenticate the message while encrypting a part of it.</t>
+      <t>   This memo specifies the details of the Session Security Envelope
+   (SSE).  SSE is a session protocol aiming to guarantee
+   confidentiality, integrity and authentication completely
+   independently by the underlying context, namely network and transport
+   layers.  A single session using the SEE protocol can include a single
+   transport session or multiple transport sessions.  This mean that SSE
+   can survive the break-down in network and transport layers or to
+   attacks carried against them.  SSE is also applicable in networks
+   lacking in classic inter-networking and transport protocols SSE
+   relies on modern AEAD block cipher modes of operations, a class of
+   block cipher modes which allows, at the same time, to authenticate
+   the message while encrypting a part of it.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-moskowitz-sse-05"/>
 </reference>

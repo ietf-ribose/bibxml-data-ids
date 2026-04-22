@@ -1,16 +1,27 @@
 <reference anchor="I-D.dnsext-opcode-discover" target="https://datatracker.ietf.org/doc/html/draft-dnsext-opcode-discover-02">
   <front>
     <title>The DISCOVER opcode</title>
-    <author fullname="Bill Manning" initials="B." surname="Manning">
+    <seriesInfo name="Internet-Draft" value="draft-dnsext-opcode-discover-02"/>
+    <author initials="B." surname="Manning" fullname="Bill Manning">
       <organization>ep.net</organization>
     </author>
-    <author fullname="Paul A. Vixie" initials="P. A." surname="Vixie">
+    <author initials="P. A." surname="Vixie" fullname="Paul A. Vixie">
       <organization>ISC</organization>
     </author>
-    <date year="2003" month="October" day="14"/>
+    <date day="14" month="October" year="2003"></date>
     <abstract>
-      <t>The QUERY opcode in the DNS is designed for unicast. With the development of multicast capabilities in the DNS, it is desireable to have a more robust opcode for server interactions since a single request may result in replies from multiple responders. So DISCOVER is defined to deal with replies from multiple responders. As such, this document extend the core DNS specifications to allow clients to have a method for coping with replies from multiple responders. Use of this new opcode may facilitate DNS operations in modern networking topologies. A prototype of the DISCOVER opcode was developed as part of the TBDS project, funded under DARPA grant F30602-99-1-0523.</t>
+      <t>The QUERY opcode in the DNS is designed for unicast. With the
+development of multicast capabilities in the DNS, it is desireable
+to have a more robust opcode for server interactions since a single
+request may result in replies from multiple responders. So DISCOVER
+is defined to deal with replies from multiple responders.
+As such, this document extend the core DNS specifications to allow
+clients to have a method for coping with replies from multiple
+responders. Use of this new opcode may facilitate DNS operations in
+modern networking topologies. A prototype of the DISCOVER opcode
+was developed as part of the TBDS project, funded under DARPA grant
+F30602-99-1-0523.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-dnsext-opcode-discover-02"/>
 </reference>

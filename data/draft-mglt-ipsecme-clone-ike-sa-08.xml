@@ -1,16 +1,24 @@
 <reference anchor="I-D.mglt-ipsecme-clone-ike-sa" target="https://datatracker.ietf.org/doc/html/draft-mglt-ipsecme-clone-ike-sa-08">
   <front>
     <title>Cloning IKE SA in the Internet Key Exchange Protocol Version 2 (IKEv2)</title>
-    <author fullname="Daniel Migault" initials="D." surname="Migault">
-      <organization/>
-    </author>
-    <author fullname="Valery Smyslov" initials="V." surname="Smyslov">
-      <organization/>
-    </author>
-    <date year="2015" month="December" day="3"/>
+    <seriesInfo name="Internet-Draft" value="draft-mglt-ipsecme-clone-ike-sa-08"/>
+    <author initials="D." surname="Migault" fullname="Daniel Migault"/>
+    <author initials="V." surname="Smyslov" fullname="Valery Smyslov"/>
+    <date day="03" month="December" year="2015"></date>
     <abstract>
-      <t>This document considers a VPN End User establishing an IPsec SA with a Security Gateway using the Internet Key Exchange Protocol Version 2 (IKEv2), where at least one of the peers has multiple interfaces or where Security Gateway is a cluster with each node having its own IP address. The protocol described allows a peer to clone an IKEv2 SA, where an additional SA is derived from an existing one. The newly created IKE SA is set without the IKEv2 authentication exchange. This IKE SA can later be assigned to another interface or moved to another cluster node.</t>
+      <t>   This document considers a VPN End User establishing an IPsec SA with
+   a Security Gateway using the Internet Key Exchange Protocol Version 2
+   (IKEv2), where at least one of the peers has multiple interfaces or
+   where Security Gateway is a cluster with each node having its own IP
+   address.
+
+   The protocol described allows a peer to clone an IKEv2 SA, where an
+   additional SA is derived from an existing one.  The newly created IKE
+   SA is set without the IKEv2 authentication exchange.  This IKE SA can
+   later be assigned to another interface or moved to another cluster
+   node.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mglt-ipsecme-clone-ike-sa-08"/>
 </reference>

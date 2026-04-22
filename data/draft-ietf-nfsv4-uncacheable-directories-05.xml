@@ -1,13 +1,27 @@
 <reference anchor="I-D.ietf-nfsv4-uncacheable-directories" target="https://datatracker.ietf.org/doc/html/draft-ietf-nfsv4-uncacheable-directories-05">
   <front>
     <title>Adding an Uncacheable Directory-Entry Metadata Attribute to NFSv4.2</title>
-    <author fullname="Thomas Haynes" initials="T." surname="Haynes">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-nfsv4-uncacheable-directories-05"/>
+    <author initials="T." surname="Haynes" fullname="Thomas Haynes">
       <organization>Hammerspace</organization>
     </author>
-    <date year="2026" month="March" day="18"/>
+    <date day="18" month="March" year="2026"></date>
     <abstract>
-      <t>Network File System version 4.2 (NFSv4.2) clients may cache directory-entry (dirent) metadata returned by READDIR to improve performance. Such caching typically assumes that directory-entry metadata and visibility are identical for all users of a client. In some deployments, however, servers may present directory entries or associated metadata based on the identity of the requesting user. Reuse of cached directory-entry metadata across users can therefore result in clients presenting directory contents or attributes that do not reflect the server's current access control decisions. This document introduces an uncacheable dirent metadata attribute for NFSv4.2 that allows servers to advise clients that directory-entry metadata returned by READDIR and related operations should not be reused across users.</t>
+      <t>   Network File System version 4.2 (NFSv4.2) clients may cache
+   directory-entry (dirent) metadata returned by READDIR to improve
+   performance.  Such caching typically assumes that directory-entry
+   metadata and visibility are identical for all users of a client.  In
+   some deployments, however, servers may present directory entries or
+   associated metadata based on the identity of the requesting user.
+   Reuse of cached directory-entry metadata across users can therefore
+   result in clients presenting directory contents or attributes that do
+   not reflect the server's current access control decisions.  This
+   document introduces an uncacheable dirent metadata attribute for
+   NFSv4.2 that allows servers to advise clients that directory-entry
+   metadata returned by READDIR and related operations should not be
+   reused across users.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-nfsv4-uncacheable-directories-05"/>
 </reference>

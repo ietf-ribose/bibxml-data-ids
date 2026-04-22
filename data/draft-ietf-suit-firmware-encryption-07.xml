@@ -1,25 +1,32 @@
 <reference anchor="I-D.ietf-suit-firmware-encryption" target="https://datatracker.ietf.org/doc/html/draft-ietf-suit-firmware-encryption-07">
   <front>
     <title>Software Encryption with SUIT Manifests</title>
-    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-suit-firmware-encryption-07"/>
+    <author initials="H." surname="Tschofenig" fullname="Hannes Tschofenig">
       <organization>Arm Limited</organization>
     </author>
-    <author fullname="Russ Housley" initials="R." surname="Housley">
+    <author initials="R." surname="Housley" fullname="Russ Housley">
       <organization>Vigil Security, LLC</organization>
     </author>
-    <author fullname="Brendan Moran" initials="B." surname="Moran">
+    <author initials="B." surname="Moran" fullname="Brendan Moran">
       <organization>Arm Limited</organization>
     </author>
-    <author fullname="David Brown" initials="D." surname="Brown">
+    <author initials="D." surname="Brown" fullname="David Brown">
       <organization>Linaro</organization>
     </author>
-    <author fullname="Ken Takayama" initials="K." surname="Takayama">
+    <author initials="K." surname="Takayama" fullname="Ken Takayama">
       <organization>SECOM CO., LTD.</organization>
     </author>
-    <date year="2022" month="September" day="20"/>
+    <date day="20" month="September" year="2022"></date>
     <abstract>
-      <t>This document specifies techniques for encrypting software, firmware and personalization data by utilizing the IETF SUIT manifest. Key establishment is provided by hybrid public-key encryption (HPKE) and AES Key Wrap (AES-KW). HPKE uses public key cryptography while AES- KW uses a pre-shared key-encryption key. Encryption of the plaintext is accomplished with conventional symmetric key cryptography.</t>
+      <t>   This document specifies techniques for encrypting software, firmware
+   and personalization data by utilizing the IETF SUIT manifest.  Key
+   establishment is provided by hybrid public-key encryption (HPKE) and
+   AES Key Wrap (AES-KW).  HPKE uses public key cryptography while AES-
+   KW uses a pre-shared key-encryption key.  Encryption of the plaintext
+   is accomplished with conventional symmetric key cryptography.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-suit-firmware-encryption-07"/>
 </reference>

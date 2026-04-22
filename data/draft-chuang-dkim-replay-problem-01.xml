@@ -1,19 +1,32 @@
 <reference anchor="I-D.chuang-dkim-replay-problem" target="https://datatracker.ietf.org/doc/html/draft-chuang-dkim-replay-problem-01">
   <front>
     <title>DKIM Replay Problem Statement and Scenarios</title>
-    <author fullname="Wei Chuang" initials="W." surname="Chuang">
+    <seriesInfo name="Internet-Draft" value="draft-chuang-dkim-replay-problem-01"/>
+    <author initials="W." surname="Chuang" fullname="Wei Chuang">
       <organization>Google, Inc.</organization>
     </author>
-    <author fullname="Allen Robin" initials="A." surname="Robin">
+    <author initials="A." surname="Robin" fullname="Allen Robin">
       <organization>Google, Inc.</organization>
     </author>
-    <author fullname="Bron Gondwana" initials="B." surname="Gondwana">
+    <author initials="B." surname="Gondwana" fullname="Bron Gondwana">
       <organization>Fastmail Pty Ltd</organization>
     </author>
-    <date year="2023" month="February" day="10"/>
+    <date day="10" month="February" year="2023"></date>
     <abstract>
-      <t>DomainKeys Identified Mail (DKIM, RFC6376) claims some responsibility for a message by associating a domain and protecting the integrity of the covered portion of a message during transit through a digital signature. DKIM survives basic email relaying. In a Replay Attack, the recipient of a DKIM-signed message sends the message further, to other recipients, while retaining the original, validating signature, thereby seeking to leverage the reputation of the original signer. This document discusses the damage this causes to email delivery and interoperability, and the associated Mail Flows. A significant challenge to mitigating this problem is that it is difficult for Receivers to differentiate between legitimate forwarding flows and DKIM Replay.</t>
+      <t>   DomainKeys Identified Mail (DKIM, RFC6376) claims some responsibility
+   for a message by associating a domain and protecting the integrity of
+   the covered portion of a message during transit through a digital
+   signature.  DKIM survives basic email relaying.  In a Replay Attack,
+   the recipient of a DKIM-signed message sends the message further, to
+   other recipients, while retaining the original, validating signature,
+   thereby seeking to leverage the reputation of the original signer.
+   This document discusses the damage this causes to email delivery and
+   interoperability, and the associated Mail Flows.  A significant
+   challenge to mitigating this problem is that it is difficult for
+   Receivers to differentiate between legitimate forwarding flows and
+   DKIM Replay.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-chuang-dkim-replay-problem-01"/>
 </reference>

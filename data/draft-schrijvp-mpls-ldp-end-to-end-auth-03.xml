@@ -1,22 +1,30 @@
 <reference anchor="I-D.schrijvp-mpls-ldp-end-to-end-auth" target="https://datatracker.ietf.org/doc/html/draft-schrijvp-mpls-ldp-end-to-end-auth-03">
   <front>
     <title>End to end authentication for LDP</title>
-    <author fullname="Jeremy De Clercq" initials="J." surname="De Clercq">
+    <seriesInfo name="Internet-Draft" value="draft-schrijvp-mpls-ldp-end-to-end-auth-03"/>
+    <author initials="J." surname="De Clercq" fullname="Jeremy De Clercq">
       <organization>Yves T'Joens</organization>
     </author>
-    <author fullname="Oliver Paridaens" initials="O." surname="Paridaens">
-      <organization/>
-    </author>
-    <author fullname="Yves T'Joens" initials="Y." surname="T'Joens">
-      <organization/>
-    </author>
-    <author fullname="Peter De Schrijver" initials="P." surname="De Schrijver">
+    <author initials="O." surname="Paridaens" fullname="Oliver Paridaens"/>
+    <author initials="Y." surname="T'Joens" fullname="Yves T'Joens"/>
+    <author initials="P." surname="De Schrijver" fullname="Peter De Schrijver">
       <organization>Alcatel</organization>
     </author>
-    <date year="2001" month="March" day="5"/>
+    <date day="05" month="March" year="2001"></date>
     <abstract>
-      <t>The Label Distribution Protocol (LDP), as currently defined, makes use of the TCP MD5 Signature option to protect (authentication and integrity) the LDP traffic between two adjacent LSRs. This document specifies extensions to LDP to enable end-to-end authentication between non-adjacent LSR's (ie not directly connected via a TCP connection) that are setting up an LSP. Two mechanisms are defined that also provide integrity protection of the information carried within LDP messages and protect against the malicious replay of LDP messages. Both proposed mechanisms require ordered control LDP and can also be applied to CR-LDP.</t>
+      <t>The Label Distribution Protocol (LDP), as currently defined, makes
+use of the TCP MD5 Signature option to protect (authentication and
+integrity) the LDP traffic between two adjacent LSRs. This document
+specifies extensions to LDP to enable end-to-end authentication
+between non-adjacent LSR's (ie not directly connected via a TCP
+connection) that are setting up an LSP. Two mechanisms are defined
+that also provide integrity protection of the information carried
+within LDP messages and protect against the malicious replay of LDP
+messages. Both proposed mechanisms require ordered control LDP and
+can also be applied to CR-LDP.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-schrijvp-mpls-ldp-end-to-end-auth-03"/>
 </reference>

@@ -1,13 +1,29 @@
 <reference anchor="I-D.dawkins-sdp-rtp-quic-questions" target="https://datatracker.ietf.org/doc/html/draft-dawkins-sdp-rtp-quic-questions-01">
   <front>
     <title>SDP Offer/Answer for RTP using QUIC as Transport - Design Questions</title>
-    <author fullname="Spencer Dawkins" initials="S." surname="Dawkins">
+    <seriesInfo name="Internet-Draft" value="draft-dawkins-sdp-rtp-quic-questions-01"/>
+    <author initials="S." surname="Dawkins" fullname="Spencer Dawkins">
       <organization>Tencent America LLC</organization>
     </author>
-    <date year="2021" month="October" day="25"/>
+    <date day="25" month="October" year="2021"></date>
     <abstract>
-      <t>This document is a companion document to "SDP Offer/Answer for RTP using QUIC as Transport". That document focuses on the description and registration of SDP "proto" attribute parameters with IANA, to allow applications that rely on SDP Offer/Answer to negotiate the QUIC protocol as an encapsulation for RTP. In writing that document, it became obvious that decisions about an appropriate SDP description would depend on decisions about the way RTP would be encapsulated in QUIC, and different proposals for those encapsulations had made different assumptions. Given that none of these proposals have been adopted by an IETF working group yet, it's not appropriate to try to base a general-purpose set of "QUIC/RTP" IANA registrations on any one of them, so this document includes the questions that have come up, and (as discussions progress) suggested answers for those questions.</t>
+      <t>   This document is a companion document to "SDP Offer/Answer for RTP
+   using QUIC as Transport".  That document focuses on the description
+   and registration of SDP "proto" attribute parameters with IANA, to
+   allow applications that rely on SDP Offer/Answer to negotiate the
+   QUIC protocol as an encapsulation for RTP.
+
+   In writing that document, it became obvious that decisions about an
+   appropriate SDP description would depend on decisions about the way
+   RTP would be encapsulated in QUIC, and different proposals for those
+   encapsulations had made different assumptions.  Given that none of
+   these proposals have been adopted by an IETF working group yet, it's
+   not appropriate to try to base a general-purpose set of "QUIC/RTP"
+   IANA registrations on any one of them, so this document includes the
+   questions that have come up, and (as discussions progress) suggested
+   answers for those questions.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-dawkins-sdp-rtp-quic-questions-01"/>
 </reference>

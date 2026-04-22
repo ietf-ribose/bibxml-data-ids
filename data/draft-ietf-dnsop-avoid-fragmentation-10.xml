@@ -1,16 +1,24 @@
 <reference anchor="I-D.ietf-dnsop-avoid-fragmentation" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-avoid-fragmentation-10">
   <front>
     <title>Fragmentation Avoidance in DNS</title>
-    <author fullname="Kazunori Fujiwara" initials="K." surname="Fujiwara">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-avoid-fragmentation-10"/>
+    <author initials="K." surname="Fujiwara" fullname="Kazunori Fujiwara">
       <organization>Japan Registry Services Co., Ltd.</organization>
     </author>
-    <author fullname="Paul A. Vixie" initials="P. A." surname="Vixie">
+    <author initials="P. A." surname="Vixie" fullname="Paul A. Vixie">
       <organization>AWS Security</organization>
     </author>
-    <date year="2022" month="December" day="21"/>
+    <date day="21" month="December" year="2022"></date>
     <abstract>
-      <t>EDNS0 enables a DNS server to send large responses using UDP and is widely deployed. Large DNS/UDP responses are fragmented, and IP fragmentation has exposed weaknesses in application protocols. It is possible to avoid IP fragmentation in DNS by limiting response size where possible, and signaling the need to upgrade from UDP to TCP transport where necessary. This document proposes to avoid IP fragmentation in DNS.</t>
+      <t>   EDNS0 enables a DNS server to send large responses using UDP and is
+   widely deployed.  Large DNS/UDP responses are fragmented, and IP
+   fragmentation has exposed weaknesses in application protocols.  It is
+   possible to avoid IP fragmentation in DNS by limiting response size
+   where possible, and signaling the need to upgrade from UDP to TCP
+   transport where necessary.  This document proposes to avoid IP
+   fragmentation in DNS.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-avoid-fragmentation-10"/>
 </reference>

@@ -1,13 +1,14 @@
 <reference anchor="I-D.ietf-avt-rtcp-port-for-ssm" target="https://datatracker.ietf.org/doc/html/draft-ietf-avt-rtcp-port-for-ssm-04">
   <front>
     <title>RTP Control Protocol (RTCP) Port for Source-Specific Multicast (SSM) Sessions</title>
-    <author fullname="Ali C. Begen" initials="A. C." surname="Begen">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-avt-rtcp-port-for-ssm-04"/>
+    <author initials="A. C." surname="Begen" fullname="Ali C. Begen">
       <organization>Cisco</organization>
     </author>
-    <date year="2010" month="December" day="15"/>
+    <date day="15" month="December" year="2010"></date>
     <abstract>
-      <t>The Session Description Protocol (SDP) has an attribute that allows RTP applications to specify an address and a port associated with the RTP Control Protocol (RTCP) traffic. In RTP-based source-specific multicast (SSM) sessions, the same attribute is used to designate the address and the RTCP port of the Feedback Target in the SDP description. However, the RTCP port associated with the SSM session itself cannot be specified by the same attribute to avoid ambiguity, and thus, is required to be derived from the "m=" line of the media description. Deriving the RTCP port from the "m=" line imposes an unnecessary restriction. This document removes this restriction by introducing a new SDP attribute. [STANDARDS-TRACK]</t>
+      <t>The Session Description Protocol (SDP) has an attribute that allows RTP applications to specify an address and a port associated with the RTP Control Protocol (RTCP) traffic.  In RTP-based source-specific multicast (SSM) sessions, the same attribute is used to designate the address and the RTCP port of the Feedback Target in the SDP description.  However, the RTCP port associated with the SSM session itself cannot be specified by the same attribute to avoid ambiguity, and thus, is required to be derived from the "m=" line of the media description.  Deriving the RTCP port from the "m=" line imposes an unnecessary restriction.  This document removes this restriction by introducing a new SDP attribute. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-avt-rtcp-port-for-ssm-04"/>
 </reference>

@@ -1,19 +1,31 @@
 <reference anchor="I-D.zzhang-pim-bidir-rpl-resiliency" target="https://datatracker.ietf.org/doc/html/draft-zzhang-pim-bidir-rpl-resiliency-00">
   <front>
     <title>PIM-Bidir RPL Resiliency</title>
-    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+    <seriesInfo name="Internet-Draft" value="draft-zzhang-pim-bidir-rpl-resiliency-00"/>
+    <author initials="Z. J." surname="Zhang" fullname="Zhaohui (Jeffrey) Zhang">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Kurt Windisch" initials="K." surname="Windisch">
+    <author initials="K." surname="Windisch" fullname="Kurt Windisch">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Jaroslaw Adam Gralak" initials="J. A." surname="Gralak">
+    <author initials="J. A." surname="Gralak" fullname="Jaroslaw Adam Gralak">
       <organization>Juniper Networks</organization>
     </author>
-    <date year="2013" month="October" day="16"/>
+    <date day="16" month="October" year="2013"></date>
     <abstract>
-      <t>With PIM-Bidir, the RPA does not have to be associated with a router. Rather, it only needs to be a routable address on a RPL (typically a multi-access network). Such a scenario is commonly referred as Phantom RPA. This achieves RP resiliency to some extent, because the "RP" will not fail. However, if the RPL itself partitions, traffic converged to one partition will not be able to reach other parts of the network where joins converge to the other partitions of the RPL. This document proposes simple procedures, which does not require signaling extensions, to achieve RPL resiliency.</t>
+      <t>   With PIM-Bidir, the RPA does not have to be associated with a router.
+   Rather, it only needs to be a routable address on a RPL (typically a
+   multi-access network).  Such a scenario is commonly referred as
+   Phantom RPA.  This achieves RP resiliency to some extent, because the
+   "RP" will not fail.  However, if the RPL itself partitions, traffic
+   converged to one partition will not be able to reach other parts of
+   the network where joins converge to the other partitions of the RPL.
+
+   This document proposes simple procedures, which does not require
+   signaling extensions, to achieve RPL resiliency.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-zzhang-pim-bidir-rpl-resiliency-00"/>
 </reference>

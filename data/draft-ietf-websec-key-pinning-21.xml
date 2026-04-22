@@ -1,19 +1,20 @@
 <reference anchor="I-D.ietf-websec-key-pinning" target="https://datatracker.ietf.org/doc/html/draft-ietf-websec-key-pinning-21">
   <front>
     <title>Public Key Pinning Extension for HTTP</title>
-    <author fullname="Chris Evans" initials="C." surname="Evans">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-websec-key-pinning-21"/>
+    <author initials="C." surname="Evans" fullname="Chris Evans">
       <organization>Google, Inc.</organization>
     </author>
-    <author fullname="Chris Palmer" initials="C." surname="Palmer">
+    <author initials="C." surname="Palmer" fullname="Chris Palmer">
       <organization>Google, Inc.</organization>
     </author>
-    <author fullname="Ryan Sleevi" initials="R." surname="Sleevi">
+    <author initials="R." surname="Sleevi" fullname="Ryan Sleevi">
       <organization>Google, Inc.</organization>
     </author>
-    <date year="2014" month="October" day="5"/>
+    <date day="05" month="October" year="2014"></date>
     <abstract>
-      <t>This document defines a new HTTP header that allows web host operators to instruct user agents to remember ("pin") the hosts' cryptographic identities over a period of time. During that time, user agents (UAs) will require that the host presents a certificate chain including at least one Subject Public Key Info structure whose fingerprint matches one of the pinned fingerprints for that host. By effectively reducing the number of trusted authorities who can authenticate the domain during the lifetime of the pin, pinning may reduce the incidence of man-in-the-middle attacks due to compromised Certification Authorities.</t>
+      <t>This document defines a new HTTP header that allows web host operators to instruct user agents to remember ("pin") the hosts' cryptographic identities over a period of time.  During that time, user agents (UAs) will require that the host presents a certificate chain including at least one Subject Public Key Info structure whose fingerprint matches one of the pinned fingerprints for that host.  By effectively reducing the number of trusted authorities who can authenticate the domain during the lifetime of the pin, pinning may reduce the incidence of man-in-the-middle attacks due to compromised Certification Authorities.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-websec-key-pinning-21"/>
 </reference>

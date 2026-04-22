@@ -1,19 +1,31 @@
 <reference anchor="I-D.rundgren-json-canonicalization-scheme" target="https://datatracker.ietf.org/doc/html/draft-rundgren-json-canonicalization-scheme-09">
   <front>
     <title>JSON Canonicalization Scheme (JCS)</title>
-    <author fullname="Anders Rundgren" initials="A." surname="Rundgren">
+    <seriesInfo name="Internet-Draft" value="draft-rundgren-json-canonicalization-scheme-09"/>
+    <author initials="A." surname="Rundgren" fullname="Anders Rundgren">
       <organization>Independent</organization>
     </author>
-    <author fullname="Bret Jordan" initials="B." surname="Jordan">
+    <author initials="B." surname="Jordan" fullname="Bret Jordan">
       <organization>Symantec Corporation</organization>
     </author>
-    <author fullname="Samuel Erdtman" initials="S." surname="Erdtman">
+    <author initials="S." surname="Erdtman" fullname="Samuel Erdtman">
       <organization>Spotify AB</organization>
     </author>
-    <date year="2019" month="September" day="14"/>
+    <date day="14" month="September" year="2019"></date>
     <abstract>
-      <t>Cryptographic operations like hashing and signing requires that the data is expressed in an invariant format. One way addressing this issue is creating a canonical form of the data. Canonicalization also permits data to be exchanged in its original form on the "wire" while secure cryptographic operations are performed on its canonicalized counterpart in the producer and consumer end points. The JSON Canonicalization Scheme (JCS) provides canonicalization support for data in the JSON format by building on the strict serialization methods for JSON primitives defined by ECMAScript, constraining JSON data to the I-JSON subset, and through a deterministic property sorting scheme.</t>
+      <t>   Cryptographic operations like hashing and signing requires that the
+   data is expressed in an invariant format.  One way addressing this
+   issue is creating a canonical form of the data.  Canonicalization
+   also permits data to be exchanged in its original form on the "wire"
+   while secure cryptographic operations are performed on its
+   canonicalized counterpart in the producer and consumer end points.
+   The JSON Canonicalization Scheme (JCS) provides canonicalization
+   support for data in the JSON format by building on the strict
+   serialization methods for JSON primitives defined by ECMAScript,
+   constraining JSON data to the I-JSON subset, and through a
+   deterministic property sorting scheme.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-rundgren-json-canonicalization-scheme-09"/>
 </reference>

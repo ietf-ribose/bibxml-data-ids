@@ -1,22 +1,31 @@
 <reference anchor="I-D.wwlh-netconf-list-pagination-rc" target="https://datatracker.ietf.org/doc/html/draft-wwlh-netconf-list-pagination-rc-00">
   <front>
     <title>RESTCONF Extensions to Support List Pagination</title>
-    <author fullname="Kent Watsen" initials="K." surname="Watsen">
+    <seriesInfo name="Internet-Draft" value="draft-wwlh-netconf-list-pagination-rc-00"/>
+    <author initials="K." surname="Watsen" fullname="Kent Watsen">
       <organization>Watsen Network</organization>
     </author>
-    <author fullname="Qin Wu" initials="Q." surname="Wu">
+    <author initials="Q." surname="Wu" fullname="Qin Wu">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Olof Hagsand" initials="O." surname="Hagsand">
-      <organization/>
-    </author>
-    <author fullname="Hongwei Li" initials="H." surname="Li">
+    <author initials="O." surname="Hagsand" fullname="Olof Hagsand"/>
+    <author initials="H." surname="Li" fullname="Hongwei Li">
       <organization>HPE</organization>
     </author>
-    <date year="2020" month="November" day="2"/>
+    <date day="02" month="November" year="2020"></date>
     <abstract>
-      <t>In some circumstance, a server may contain many instances of a particular YANG list or leaf-list. Retrieval of the entire list or leaf-list at once can be extremely inefficient. Pagination mechanisms are needed to allow a client to iterate through a large list, in a manner that is most efficient for the application. This document Updates RFC 8040 to declare "list" and "leaf-list" as resource targets for the RESTCONF operations such as GET, POST operations.</t>
+      <t>   In some circumstance, a server may contain many instances of a
+   particular YANG list or leaf-list.  Retrieval of the entire list or
+   leaf-list at once can be extremely inefficient.
+
+   Pagination mechanisms are needed to allow a client to iterate through
+   a large list, in a manner that is most efficient for the application.
+
+   This document Updates RFC 8040 to declare "list" and "leaf-list" as
+   resource targets for the RESTCONF operations such as GET, POST
+   operations.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wwlh-netconf-list-pagination-rc-00"/>
 </reference>

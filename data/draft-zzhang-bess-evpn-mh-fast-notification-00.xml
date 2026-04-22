@@ -1,19 +1,28 @@
 <reference anchor="I-D.zzhang-bess-evpn-mh-fast-notification" target="https://datatracker.ietf.org/doc/html/draft-zzhang-bess-evpn-mh-fast-notification-00">
   <front>
     <title>EVPN Fast Notification and Handling for Multihoming</title>
-    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+    <seriesInfo name="Internet-Draft" value="draft-zzhang-bess-evpn-mh-fast-notification-00"/>
+    <author initials="Z. J." surname="Zhang" fullname="Zhaohui (Jeffrey) Zhang">
       <organization>HPE</organization>
     </author>
-    <author fullname="W. Lin" initials="W." surname="Lin">
+    <author initials="W." surname="Lin" fullname="W. Lin">
       <organization>HPE</organization>
     </author>
-    <author fullname="Changwang Lin" initials="C." surname="Lin">
+    <author initials="C." surname="Lin" fullname="Changwang Lin">
       <organization>New H3C Technologies</organization>
     </author>
-    <date year="2026" month="March" day="2"/>
+    <date day="02" month="March" year="2026"></date>
     <abstract>
-      <t>EVPN supports powerful multihoming features, but it depends on the timely notification and handling of link going down or coming up on multihomed Ethernet Segments, which may not be guaranteed by the nature of control plane BGP signaling. When the handling is delayed, traffic duplication or loss may happen. This document specifies a UDP-based notification that can be originated and processed (near) instantly, greatly eliminate the potential traffic duplication or loss.</t>
+      <t>   EVPN supports powerful multihoming features, but it depends on the
+   timely notification and handling of link going down or coming up on
+   multihomed Ethernet Segments, which may not be guaranteed by the
+   nature of control plane BGP signaling.  When the handling is delayed,
+   traffic duplication or loss may happen.  This document specifies a
+   UDP-based notification that can be originated and processed (near)
+   instantly, greatly eliminate the potential traffic duplication or
+   loss.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-zzhang-bess-evpn-mh-fast-notification-00"/>
 </reference>

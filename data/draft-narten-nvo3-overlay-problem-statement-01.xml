@@ -1,22 +1,28 @@
 <reference anchor="I-D.narten-nvo3-overlay-problem-statement" target="https://datatracker.ietf.org/doc/html/draft-narten-nvo3-overlay-problem-statement-01">
   <front>
     <title>Problem Statement: Overlays for Network Virtualization</title>
-    <author fullname="Dr. Thomas Narten" initials="T." surname="Narten">
-      <organization/>
-    </author>
-    <author fullname="Murari Sridharan" initials="M." surname="Sridharan">
-      <organization/>
-    </author>
-    <author fullname="Dinesh G. Dutt" initials="D. G." surname="Dutt">
-      <organization/>
-    </author>
-    <author fullname="Larry Kreeger" initials="L." surname="Kreeger">
-      <organization/>
-    </author>
-    <date year="2011" month="October" day="31"/>
+    <seriesInfo name="Internet-Draft" value="draft-narten-nvo3-overlay-problem-statement-01"/>
+    <author initials="T." surname="Narten" fullname="Dr. Thomas Narten"/>
+    <author initials="M." surname="Sridharan" fullname="Murari Sridharan"/>
+    <author initials="D. G." surname="Dutt" fullname="Dinesh G. Dutt"/>
+    <author initials="L." surname="Kreeger" fullname="Larry Kreeger"/>
+    <date day="31" month="October" year="2011"></date>
     <abstract>
-      <t>This document describes issues associated with providing multi- tenancy in large data center networks and an overlay-based network virtualization approach to addressing them. A key multi-tenancy requirement is traffic isolation, so that a tenant's traffic is not visible to any other tenant. This isolation can be achieved by assigning one or more virtual networks to each tenant such that traffic within a virtual network is isolated from traffic in other virtual networks. The primary functionality required is provisioning virtual networks, associating a virtual machine's NIC with the appropriate virtual network, and maintaining that association as the virtual machine is activated, migrated and/or deactivated. Use of an overlay-based approach enables scalable deployment on large network infrastructures.</t>
+      <t>   This document describes issues associated with providing multi-
+   tenancy in large data center networks and an overlay-based network
+   virtualization approach to addressing them.  A key multi-tenancy
+   requirement is traffic isolation, so that a tenant's traffic is not
+   visible to any other tenant.  This isolation can be achieved by
+   assigning one or more virtual networks to each tenant such that
+   traffic within a virtual network is isolated from traffic in other
+   virtual networks.  The primary functionality required is provisioning
+   virtual networks, associating a virtual machine's NIC with the
+   appropriate virtual network, and maintaining that association as the
+   virtual machine is activated, migrated and/or deactivated.  Use of an
+   overlay-based approach enables scalable deployment on large network
+   infrastructures.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-narten-nvo3-overlay-problem-statement-01"/>
 </reference>

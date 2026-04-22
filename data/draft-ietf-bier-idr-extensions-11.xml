@@ -1,28 +1,38 @@
 <reference anchor="I-D.ietf-bier-idr-extensions" target="https://datatracker.ietf.org/doc/html/draft-ietf-bier-idr-extensions-11">
   <front>
     <title>BGP Extensions for BIER</title>
-    <author fullname="Xiaohu Xu" initials="X." surname="Xu">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bier-idr-extensions-11"/>
+    <author initials="X." surname="Xu" fullname="Xiaohu Xu">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Mach Chen" initials="M." surname="Chen">
+    <author initials="M." surname="Chen" fullname="Mach Chen">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
+    <author initials="K." surname="Patel" fullname="Keyur Patel">
       <organization>Arrcus, Inc.</organization>
     </author>
-    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
+    <author initials="I." surname="Wijnands" fullname="IJsbrand Wijnands">
       <organization>Individual</organization>
     </author>
-    <author fullname="Tony Przygienda" initials="T." surname="Przygienda">
+    <author initials="T." surname="Przygienda" fullname="Tony Przygienda">
       <organization>Juniper</organization>
     </author>
-    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+    <author initials="Z. J." surname="Zhang" fullname="Zhaohui (Jeffrey) Zhang">
       <organization>Juniper</organization>
     </author>
-    <date year="2024" month="June" day="3"/>
+    <date day="03" month="June" year="2024"></date>
     <abstract>
-      <t>Bit Index Explicit Replication (BIER) is a new multicast forwarding architecture which doesn't require an explicit tree-building protocol and doesn't require intermediate routers to maintain per-tree multicast states. Some BIER-specific information and state, which are only in proportion to the network but not per-tree, do need to be advertised, calculated, and maintained. This document describes BGP extensions for advertising the BIER information and methods for calculating BIER states based on the advertisement.</t>
+      <t>   Bit Index Explicit Replication (BIER) is a new multicast forwarding
+   architecture which doesn't require an explicit tree-building protocol
+   and doesn't require intermediate routers to maintain per-tree
+   multicast states.  Some BIER-specific information and state, which
+   are only in proportion to the network but not per-tree, do need to be
+   advertised, calculated, and maintained.  This document describes BGP
+   extensions for advertising the BIER information and methods for
+   calculating BIER states based on the advertisement.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-bier-idr-extensions-11"/>
 </reference>

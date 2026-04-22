@@ -1,13 +1,21 @@
 <reference anchor="I-D.leslie-tcpm-checksum-option" target="https://datatracker.ietf.org/doc/html/draft-leslie-tcpm-checksum-option-00">
   <front>
     <title>Checksum Option for TCP</title>
-    <author fullname="John Leslie" initials="J." surname="Leslie">
+    <seriesInfo name="Internet-Draft" value="draft-leslie-tcpm-checksum-option-00"/>
+    <author initials="J." surname="Leslie" fullname="John Leslie">
       <organization>JLC.net</organization>
     </author>
-    <date year="2014" month="October" day="23"/>
+    <date day="23" month="October" year="2014"></date>
     <abstract>
-      <t>There are a number of situations in TCP where middleboxes are known to change TCP-layer data; and it would be helpful for endpoints to detect such changes. TCP-Checksum is a TCP option to pass checksums over particular fields from sender to receiver, which can detect such changes by legacy middleboxes. This document also sets a rule for future middleboxes which insist upon modifying these checksums.</t>
+      <t>   There are a number of situations in TCP where middleboxes are known
+   to change TCP-layer data; and it would be helpful for endpoints to
+   detect such changes.  TCP-Checksum is a TCP option to pass checksums
+   over particular fields from sender to receiver, which can detect such
+   changes by legacy middleboxes.  This document also sets a rule for
+   future middleboxes which insist upon modifying these checksums.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-leslie-tcpm-checksum-option-00"/>
 </reference>

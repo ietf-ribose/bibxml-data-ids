@@ -1,28 +1,26 @@
 <reference anchor="I-D.ietf-radext-radius-fragmentation" target="https://datatracker.ietf.org/doc/html/draft-ietf-radext-radius-fragmentation-04">
   <front>
     <title>Support of fragmentation of RADIUS packets</title>
-    <author fullname="Alejandro Pérez-Méndez" initials="A." surname="Pérez-Méndez">
-      <organization/>
-    </author>
-    <author fullname="Rafael Marin-Lopez" initials="R." surname="Marin-Lopez">
-      <organization/>
-    </author>
-    <author fullname="Fernando Pereniguez-Garcia" initials="F." surname="Pereniguez-Garcia">
-      <organization/>
-    </author>
-    <author fullname="Gabriel Lopez-Millan" initials="G." surname="Lopez-Millan">
-      <organization/>
-    </author>
-    <author fullname="Diego R. Lopez" initials="D. R." surname="Lopez">
-      <organization/>
-    </author>
-    <author fullname="Alan DeKok" initials="A." surname="DeKok">
-      <organization/>
-    </author>
-    <date year="2014" month="March" day="3"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-radext-radius-fragmentation-04"/>
+    <author initials="A." surname="Pérez-Méndez" fullname="Alejandro Pérez-Méndez"/>
+    <author initials="R." surname="Marin-Lopez" fullname="Rafael Marin-Lopez"/>
+    <author initials="F." surname="Pereniguez-Garcia" fullname="Fernando Pereniguez-Garcia"/>
+    <author initials="G." surname="Lopez-Millan" fullname="Gabriel Lopez-Millan"/>
+    <author initials="D. R." surname="Lopez" fullname="Diego R. Lopez"/>
+    <author initials="A." surname="DeKok" fullname="Alan DeKok"/>
+    <date day="03" month="March" year="2014"></date>
     <abstract>
-      <t>The Remote Authentication Dial-In User Service (RADIUS) protocol is limited to a total packet size of 4096 octets. Provisions exist for fragmenting large amounts of authentication data across multiple packets, via Access-Challenge. No similar provisions exist for fragmenting large amounts of authorization data. This document specifies how existing RADIUS mechanisms can be leveraged to provide that functionality. These mechanisms are largely compatible with existing implementations, and are designed to be invisible to proxies, and "fail-safe" to legacy clients and servers.</t>
+      <t>   The Remote Authentication Dial-In User Service (RADIUS) protocol is
+   limited to a total packet size of 4096 octets.  Provisions exist for
+   fragmenting large amounts of authentication data across multiple
+   packets, via Access-Challenge.  No similar provisions exist for
+   fragmenting large amounts of authorization data.  This document
+   specifies how existing RADIUS mechanisms can be leveraged to provide
+   that functionality.  These mechanisms are largely compatible with
+   existing implementations, and are designed to be invisible to
+   proxies, and "fail-safe" to legacy clients and servers.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-radext-radius-fragmentation-04"/>
 </reference>

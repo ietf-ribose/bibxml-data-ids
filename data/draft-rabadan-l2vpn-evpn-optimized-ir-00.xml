@@ -1,19 +1,30 @@
 <reference anchor="I-D.rabadan-l2vpn-evpn-optimized-ir" target="https://datatracker.ietf.org/doc/html/draft-rabadan-l2vpn-evpn-optimized-ir-00">
   <front>
     <title>Optimized Ingress Replication solution for EVPN</title>
-    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+    <seriesInfo name="Internet-Draft" value="draft-rabadan-l2vpn-evpn-optimized-ir-00"/>
+    <author initials="J." surname="Rabadan" fullname="Jorge Rabadan">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <author fullname="Senthil Sathappan" initials="S." surname="Sathappan">
+    <author initials="S." surname="Sathappan" fullname="Senthil Sathappan">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <author fullname="Wim Henderickx" initials="W." surname="Henderickx">
+    <author initials="W." surname="Henderickx" fullname="Wim Henderickx">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <date year="2014" month="July" day="4"/>
+    <date day="04" month="July" year="2014"></date>
     <abstract>
-      <t>Network Virtualization Overlay (NVO) networks using EVPN as control plane may use ingress replication (IR) or PIM-based trees to convey the overlay multicast traffic. PIM provides an efficient solution to avoid sending multiple copies of the same packet over the same physical link, however it may not always be deployed in the NVO core network. IR avoids the dependency on PIM in the NVO network core. While IR provides a simple multicast transport, some NVO networks with demanding multicast applications require a more efficient solution without PIM in the core. This document describes a solution to optimize the efficiency of IR in NVO networks.</t>
+      <t>   Network Virtualization Overlay (NVO) networks using EVPN as control
+   plane may use ingress replication (IR) or PIM-based trees to convey
+   the overlay multicast traffic. PIM provides an efficient solution to
+   avoid sending multiple copies of the same packet over the same
+   physical link, however it may not always be deployed in the NVO core
+   network. IR avoids the dependency on PIM in the NVO network core.
+   While IR provides a simple multicast transport, some NVO networks
+   with demanding multicast applications require a more efficient
+   solution without PIM in the core. This document describes a solution
+   to optimize the efficiency of IR in NVO networks.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-rabadan-l2vpn-evpn-optimized-ir-00"/>
 </reference>

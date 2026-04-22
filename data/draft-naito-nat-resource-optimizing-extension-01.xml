@@ -1,16 +1,23 @@
 <reference anchor="I-D.naito-nat-resource-optimizing-extension" target="https://datatracker.ietf.org/doc/html/draft-naito-nat-resource-optimizing-extension-01">
   <front>
     <title>NAT resource optimizing extension</title>
-    <author fullname="Kengo" initials="" surname="Kengo">
-      <organization/>
-    </author>
-    <author fullname="Arifumi Matsumoto" initials="A." surname="Matsumoto">
-      <organization/>
-    </author>
-    <date year="2012" month="March" day="26"/>
+    <seriesInfo name="Internet-Draft" value="draft-naito-nat-resource-optimizing-extension-01"/>
+    <author surname="Kengo" fullname="Kengo"/>
+    <author initials="A." surname="Matsumoto" fullname="Arifumi Matsumoto"/>
+    <date day="26" month="March" year="2012"></date>
     <abstract>
-      <t>When network address translation (NAT) is used in an address resource restricted environment, or when a lot of users are located under a NAT device, IP addresses and port resources may be eaten up, and this affects user experiences very negatively. This situation can be greatly mitigated by tweaking mapping behavior and session timer handling in NAT functions. This document proposes two extensions for optimizing NAT IP address and port resources in address resource restricted environments. One extension enables simultaneous use of a NAT external port for different transport sessions, and the other makes use of a TCP timestamp for TIME_WAIT assassination.</t>
+      <t>   When network address translation (NAT) is used in an address resource
+   restricted environment, or when a lot of users are located under a
+   NAT device, IP addresses and port resources may be eaten up, and this
+   affects user experiences very negatively.  This situation can be
+   greatly mitigated by tweaking mapping behavior and session timer
+   handling in NAT functions.  This document proposes two extensions for
+   optimizing NAT IP address and port resources in address resource
+   restricted environments.  One extension enables simultaneous use of a
+   NAT external port for different transport sessions, and the other
+   makes use of a TCP timestamp for TIME_WAIT assassination.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-naito-nat-resource-optimizing-extension-01"/>
 </reference>

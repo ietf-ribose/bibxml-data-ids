@@ -1,28 +1,43 @@
 <reference anchor="I-D.lee-network-stratum-query-problem" target="https://datatracker.ietf.org/doc/html/draft-lee-network-stratum-query-problem-02">
   <front>
     <title>Problem Statement for Network Stratum Query</title>
-    <author fullname="Young Lee" initials="Y." surname="Lee">
+    <seriesInfo name="Internet-Draft" value="draft-lee-network-stratum-query-problem-02"/>
+    <author initials="Y." surname="Lee" fullname="Young Lee">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Ning So" initials="N." surname="So">
+    <author initials="N." surname="So" fullname="Ning So">
       <organization>UTD</organization>
     </author>
-    <author fullname="Dave McDysan" initials="D." surname="McDysan">
+    <author initials="D." surname="McDysan" fullname="Dave McDysan">
       <organization>Verizon</organization>
     </author>
-    <author fullname="Greg M. Bernstein" initials="G. M." surname="Bernstein">
+    <author initials="G. M." surname="Bernstein" fullname="Greg M. Bernstein">
       <organization>Grotto</organization>
     </author>
-    <author fullname="Tae Kim" initials="T." surname="Kim">
+    <author initials="T." surname="Kim" fullname="Tae Kim">
       <organization>ETRI</organization>
     </author>
-    <author fullname="Kohei Shiomoto" initials="K." surname="Shiomoto">
+    <author initials="K." surname="Shiomoto" fullname="Kohei Shiomoto">
       <organization>NTT</organization>
     </author>
-    <date year="2011" month="April" day="20"/>
+    <date day="20" month="April" year="2011"></date>
     <abstract>
-      <t>This document describes the general problem of network stratum query for application optimization. Network Stratum query is an ability to query the network from an application controller such as those used in Data Centers so that application controller decisions such as server assignment or virtual machine instantiation/migration could be performed with better knowledge of the underlying network conditions. As application servers are distributed geographically across Data Centers, many application-related decisions such as which server to assign a new client or where to instantiate/migrate virtual machines will suffer from sub-optimality unless the underlying network conditions are factored in the decision process. The lack of network awareness may result in not meeting the end-user service objective for some key applications like video gaming/conferencing that require stringent latency and bandwidth requirement.</t>
+      <t>This document describes the general problem of network stratum query
+for application optimization. Network Stratum query is an ability to
+query the network from an application controller such as those used
+in Data Centers so that application controller decisions such as
+server assignment or virtual machine instantiation/migration could be
+performed with better knowledge of the underlying network conditions.
+
+As application servers are distributed geographically across Data
+Centers, many application-related decisions such as which server to
+assign a new client or where to instantiate/migrate virtual machines
+will suffer from sub-optimality unless the underlying network
+conditions are factored in the decision process. The lack of network
+awareness may result in not meeting the end-user service objective
+for some key applications like video gaming/conferencing that require
+stringent latency and bandwidth requirement.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-lee-network-stratum-query-problem-02"/>
 </reference>

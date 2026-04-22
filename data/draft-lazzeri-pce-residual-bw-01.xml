@@ -1,22 +1,32 @@
 <reference anchor="I-D.lazzeri-pce-residual-bw" target="https://datatracker.ietf.org/doc/html/draft-lazzeri-pce-residual-bw-01">
   <front>
     <title>Extensions to the Path Computation Element Protocol (PCEP) for residual path bandwidth support</title>
-    <author fullname="Francesco Lazzeri" initials="F." surname="Lazzeri">
+    <seriesInfo name="Internet-Draft" value="draft-lazzeri-pce-residual-bw-01"/>
+    <author initials="F." surname="Lazzeri" fullname="Francesco Lazzeri">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Daniele Ceccarelli" initials="D." surname="Ceccarelli">
+    <author initials="D." surname="Ceccarelli" fullname="Daniele Ceccarelli">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Young Lee" initials="Y." surname="Lee">
+    <author initials="Y." surname="Lee" fullname="Young Lee">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Dhruv Dhody" initials="D." surname="Dhody">
+    <author initials="D." surname="Dhody" fullname="Dhruv Dhody">
       <organization>Huawei</organization>
     </author>
-    <date year="2018" month="February" day="26"/>
+    <date day="26" month="February" year="2018"></date>
     <abstract>
-      <t>The PCEP protocol has objective functions to optimize path attributes like the residual bandwidth. While this is enough for some applications, it's not possible to return the computed values of such attributes to the PCC, or put bounds on them. This document describes extensions to the PCE Communication Protocol (PCEP) providing new path-related bandwidth metrics allowing a PCE to compute paths taking into account and returning to the PCC information about the remaining bandwidth along the computed paths.</t>
+      <t>      The PCEP protocol has objective functions to optimize path
+   attributes like the residual bandwidth. While this is enough for
+   some applications, it's not possible to return the computed values
+   of such attributes to the PCC, or put bounds on them.
+      This document describes extensions to the PCE Communication
+   Protocol (PCEP) providing new path-related bandwidth metrics
+   allowing a PCE to compute paths taking into account and returning to
+   the PCC information about the remaining bandwidth along the computed
+   paths.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-lazzeri-pce-residual-bw-01"/>
 </reference>

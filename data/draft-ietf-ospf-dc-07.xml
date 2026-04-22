@@ -1,19 +1,18 @@
 <reference anchor="I-D.ietf-ospf-dc" target="https://datatracker.ietf.org/doc/html/draft-ietf-ospf-dc-07">
   <front>
     <title>Detecting Inactive Neighbors over OSPF Demand Circuits (DC)</title>
-    <author fullname="Alex D. Zinin" initials="A. D." surname="Zinin">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-dc-07"/>
+    <author initials="A. D." surname="Zinin" fullname="Alex D. Zinin">
       <organization>Alcatel</organization>
     </author>
-    <author fullname="Abhay Roy" initials="A." surname="Roy">
+    <author initials="A." surname="Roy" fullname="Abhay Roy">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Sira P. Rao" initials="S. P." surname="Rao">
-      <organization/>
-    </author>
-    <date year="2004" month="February" day="5"/>
+    <author initials="S. P." surname="Rao" fullname="Sira P. Rao"/>
+    <date day="05" month="February" year="2004"></date>
     <abstract>
-      <t>OSPF is a link-state intra-domain routing protocol used in IP networks. OSPF behavior over demand circuits (DC) is optimized in RFC 1793 to minimize the amount of overhead traffic. A part of the OSPF demand circuit extensions is the Hello suppression mechanism. This technique allows a demand circuit to go down when no interesting traffic is going through the link. However, it also introduces a problem, where it becomes impossible to detect an OSPF-inactive neighbor over such a link. This memo introduces a new mechanism called "neighbor probing" to address the above problem. [STANDARDS-TRACK]</t>
+      <t>OSPF is a link-state intra-domain routing protocol used in IP networks.  OSPF behavior over demand circuits (DC) is optimized in RFC 1793 to minimize the amount of overhead traffic.  A part of the OSPF demand circuit extensions is the Hello suppression mechanism.  This technique allows a demand circuit to go down when no interesting traffic is going through the link.  However, it also introduces a problem, where it becomes impossible to detect an OSPF-inactive neighbor over such a link.  This memo introduces a new mechanism called "neighbor probing" to address the above problem. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-dc-07"/>
 </reference>

@@ -1,16 +1,29 @@
 <reference anchor="I-D.sarikaya-nvo3-proxy-vxlan" target="https://datatracker.ietf.org/doc/html/draft-sarikaya-nvo3-proxy-vxlan-00">
   <front>
     <title>Virtual eXtensible Local Area Network over IEEE 802.1Qbg</title>
-    <author fullname="Behcet Sarikaya" initials="B." surname="Sarikaya">
+    <seriesInfo name="Internet-Draft" value="draft-sarikaya-nvo3-proxy-vxlan-00"/>
+    <author initials="B." surname="Sarikaya" fullname="Behcet Sarikaya">
       <organization>Huawei USA</organization>
     </author>
-    <author fullname="Frank Xia" initials="F." surname="Xia">
+    <author initials="F." surname="Xia" fullname="Frank Xia">
       <organization>Huawei USA</organization>
     </author>
-    <date year="2014" month="October" day="23"/>
+    <date day="23" month="October" year="2014"></date>
     <abstract>
-      <t>In data centers there is interest in offloading network functions to the switches in order to keep the server focused on computation not networking. IEEE 802.1Qbg or Virtual Ethernet Port Aggregator (VEPA) at the hypervisor simply forces each frame sent out to the external switch regardless of destination. In this case, the eXtensible Local Area Network operation or proxying at a higher level switch is needed. Communication functions of the eXtensible Local Area Network are moved above to the Top of Rack switches which is called Proxy VXLAN. Proxy VXLAN is a Network Virtualization Edge that does VXLAN encapsulation/decapsulation. Proxy VXLAN also takes part in virtual machine creation, virtual machine operation and virtual machine mobility.</t>
+      <t>   In data centers there is interest in offloading network functions to
+   the switches in order to keep the server focused on computation not
+   networking.  IEEE 802.1Qbg or Virtual Ethernet Port Aggregator (VEPA)
+   at the hypervisor simply forces each frame sent out to the external
+   switch regardless of destination.  In this case, the eXtensible Local
+   Area Network operation or proxying at a higher level switch is
+   needed.  Communication functions of the eXtensible Local Area Network
+   are moved above to the Top of Rack switches which is called Proxy
+   VXLAN.  Proxy VXLAN is a Network Virtualization Edge that does VXLAN
+   encapsulation/decapsulation.  Proxy VXLAN also takes part in virtual
+   machine creation, virtual machine operation and virtual machine
+   mobility.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sarikaya-nvo3-proxy-vxlan-00"/>
 </reference>

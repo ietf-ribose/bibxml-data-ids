@@ -1,25 +1,34 @@
 <reference anchor="I-D.ietf-ippm-encrypted-pdmv2" target="https://datatracker.ietf.org/doc/html/draft-ietf-ippm-encrypted-pdmv2-00">
   <front>
     <title>IPv6 Performance and Diagnostic Metrics Version 2 (PDMv2) Destination Option</title>
-    <author fullname="Nalini Elkins" initials="N." surname="Elkins">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ippm-encrypted-pdmv2-00"/>
+    <author initials="N." surname="Elkins" fullname="Nalini Elkins">
       <organization>Inside Products</organization>
     </author>
-    <author fullname="michael ackermann" initials="M." surname="ackermann">
+    <author initials="M." surname="ackermann" fullname="michael ackermann">
       <organization>BCBS Michigan</organization>
     </author>
-    <author fullname="Ameya Deshpande" initials="A." surname="Deshpande">
+    <author initials="A." surname="Deshpande" fullname="Ameya Deshpande">
       <organization>NITK Surathkal</organization>
     </author>
-    <author fullname="Tommaso Pecorella" initials="T." surname="Pecorella">
+    <author initials="T." surname="Pecorella" fullname="Tommaso Pecorella">
       <organization>University of Florence</organization>
     </author>
-    <author fullname="Adnan Rashid" initials="A." surname="Rashid">
+    <author initials="A." surname="Rashid" fullname="Adnan Rashid">
       <organization>University of Florence</organization>
     </author>
-    <date year="2022" month="April" day="12"/>
+    <date day="12" month="April" year="2022"></date>
     <abstract>
-      <t>RFC8250 describes an optional Destination Option (DO) header embedded in each packet to provide sequence numbers and timing information as a basis for measurements. As this data is sent in clear- text, this may create an opportunity for malicious actors to get information for subsequent attacks. This document defines PDMv2 which has a lightweight handshake (registration procedure) and encryption to secure this data. Additional performance metrics which may be of use are also defined.</t>
+      <t>   RFC8250 describes an optional Destination Option (DO) header embedded
+   in each packet to provide sequence numbers and timing information as
+   a basis for measurements.  As this data is sent in clear- text, this
+   may create an opportunity for malicious actors to get information for
+   subsequent attacks.  This document defines PDMv2 which has a
+   lightweight handshake (registration procedure) and encryption to
+   secure this data.  Additional performance metrics which may be of use
+   are also defined.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ippm-encrypted-pdmv2-00"/>
 </reference>

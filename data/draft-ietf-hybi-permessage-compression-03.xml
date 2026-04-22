@@ -1,13 +1,21 @@
 <reference anchor="I-D.ietf-hybi-permessage-compression" target="https://datatracker.ietf.org/doc/html/draft-ietf-hybi-permessage-compression-03">
   <front>
     <title>WebSocket Per-message Compression</title>
-    <author fullname="Takeshi Yoshino" initials="T." surname="Yoshino">
-      <organization/>
-    </author>
-    <date year="2012" month="October" day="15"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-hybi-permessage-compression-03"/>
+    <author initials="T." surname="Yoshino" fullname="Takeshi Yoshino"/>
+    <date day="15" month="October" year="2012"></date>
     <abstract>
-      <t>This specification defines a WebSocket extension that adds compression functionality to the WebSocket Protocol. It compresses the payload of non-control WebSocket messages using specified compression algorithm. One reserved bit RSV1 in the WebSocket frame header is allocated to control application of compression for each message. This specification provides one compression method available for the extension using DEFLATE. Please send feedback to the hybi@ietf.org mailing list.</t>
+      <t>   This specification defines a WebSocket extension that adds
+   compression functionality to the WebSocket Protocol.  It compresses
+   the payload of non-control WebSocket messages using specified
+   compression algorithm.  One reserved bit RSV1 in the WebSocket frame
+   header is allocated to control application of compression for each
+   message.  This specification provides one compression method
+   available for the extension using DEFLATE.
+
+   Please send feedback to the hybi@ietf.org mailing list.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-hybi-permessage-compression-03"/>
 </reference>

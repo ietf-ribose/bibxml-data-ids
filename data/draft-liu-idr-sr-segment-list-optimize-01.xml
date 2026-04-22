@@ -1,19 +1,30 @@
 <reference anchor="I-D.liu-idr-sr-segment-list-optimize" target="https://datatracker.ietf.org/doc/html/draft-liu-idr-sr-segment-list-optimize-01">
   <front>
     <title>BGP Extension for SRv6 Policy Segment List optimization</title>
-    <author fullname="Yisong Liu" initials="Y." surname="Liu">
+    <seriesInfo name="Internet-Draft" value="draft-liu-idr-sr-segment-list-optimize-01"/>
+    <author initials="Y." surname="Liu" fullname="Yisong Liu">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Changwang Lin" initials="C." surname="Lin">
+    <author initials="C." surname="Lin" fullname="Changwang Lin">
       <organization>New H3C Technologies</organization>
     </author>
-    <author fullname="Ran Chen" initials="R." surname="Chen">
+    <author initials="R." surname="Chen" fullname="Ran Chen">
       <organization>ZTE</organization>
     </author>
-    <date year="2025" month="February" day="20"/>
+    <date day="20" month="February" year="2025"></date>
     <abstract>
-      <t>In some use cases, an SRv6 policy's segment list ends with the policy endpoint's node SID, and the traffic steered (over policy) already ensures that it is taken to the policy endpoint. In such cases, the SID list can be optimized by excluding the endpoint Node SID when installing the policy. This document specifies a BGP extension to indicate whether the endpoint's node SID needs to be included or excluded when installing the SRv6 Policy. This optimization can improve the forwarding efficiency of data packets when End SID and Service SID are present.</t>
+      <t>   In some use cases, an SRv6 policy's segment list ends with the
+   policy endpoint's node SID, and the traffic steered (over policy)
+   already ensures that it is taken to the policy endpoint.  In such
+   cases, the SID list can be optimized by excluding the endpoint Node
+   SID when installing the policy.
+
+   This document specifies a BGP extension to indicate whether the
+   endpoint's node SID needs to be included or excluded when installing
+   the SRv6 Policy. This optimization can improve the forwarding
+   efficiency of data packets when End SID and Service SID are present.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-liu-idr-sr-segment-list-optimize-01"/>
 </reference>

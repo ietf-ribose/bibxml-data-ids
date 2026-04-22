@@ -1,22 +1,32 @@
 <reference anchor="I-D.narayanan-rtg-router-alert-extension" target="https://datatracker.ietf.org/doc/html/draft-narayanan-rtg-router-alert-extension-00">
   <front>
     <title>IP Router Alert Option Extension</title>
-    <author fullname="Ashok Narayanan" initials="A." surname="Narayanan">
+    <seriesInfo name="Internet-Draft" value="draft-narayanan-rtg-router-alert-extension-00"/>
+    <author initials="A." surname="Narayanan" fullname="Ashok Narayanan">
       <organization>Cisco</organization>
     </author>
-    <author fullname="François Le Faucheur" initials="F." surname="Le Faucheur">
+    <author initials="F." surname="Le Faucheur" fullname="François Le Faucheur">
       <organization>Cisco</organization>
     </author>
-    <author fullname="David Ward" initials="D." surname="Ward">
+    <author initials="D." surname="Ward" fullname="David Ward">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Reshad Rahman" initials="R." surname="Rahman">
+    <author initials="R." surname="Rahman" fullname="Reshad Rahman">
       <organization>Cisco</organization>
     </author>
-    <date year="2009" month="March" day="4"/>
+    <date day="04" month="March" year="2009"></date>
     <abstract>
-      <t>The IP Router Alert Option is an IP option that alerts transit routers to more closely examine the contents of an IP packet. RSVP, PGM and IGMP are some of the protocols which make use of the IP Router Alert option. The current specification for the IP Router Alert Option does not define mechanisms to facilitate discriminating across different users of Router Alert. As a result, networks using router Alert may have more secuity exposure than necessary and/or may unnecessarily block some transit Router Alert packets. This document describes new rules for the IP Router-Alert Option that aid routers to process these packets more selectively.</t>
+      <t>The IP Router Alert Option is an IP option that alerts transit
+routers to more closely examine the contents of an IP packet.  RSVP,
+PGM and IGMP are some of the protocols which make use of the IP
+Router Alert option.  The current specification for the IP Router
+Alert Option does not define mechanisms to facilitate discriminating
+across different users of Router Alert.  As a result, networks using
+router Alert may have more secuity exposure than necessary and/or may
+unnecessarily block some transit Router Alert packets.  This document
+describes new rules for the IP Router-Alert Option that aid routers
+to process these packets more selectively.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-narayanan-rtg-router-alert-extension-00"/>
 </reference>

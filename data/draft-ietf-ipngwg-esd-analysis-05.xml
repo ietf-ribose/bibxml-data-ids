@@ -1,25 +1,34 @@
 <reference anchor="I-D.ietf-ipngwg-esd-analysis" target="https://datatracker.ietf.org/doc/html/draft-ietf-ipngwg-esd-analysis-05">
   <front>
     <title>Separating Identifiers and Locators in Addresses:  An Analysis of the GSE Proposal for IPv6</title>
-    <author fullname="Lixia Zhang" initials="L." surname="Zhang">
-      <organization/>
-    </author>
-    <author fullname="Allison J. Mankin" initials="A. J." surname="Mankin">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ipngwg-esd-analysis-05"/>
+    <author initials="L." surname="Zhang" fullname="Lixia Zhang"/>
+    <author initials="A. J." surname="Mankin" fullname="Allison J. Mankin">
       <organization>ISI</organization>
     </author>
-    <author fullname="John W. Stewart III" initials="J. W." surname="Stewart">
-      <organization/>
-    </author>
-    <author fullname="Dr. Thomas Narten" initials="T." surname="Narten">
+    <author initials="J. W." surname="Stewart" fullname="John W. Stewart III"/>
+    <author initials="T." surname="Narten" fullname="Dr. Thomas Narten">
       <organization>IBM</organization>
     </author>
-    <author fullname="Dr. Matt Crawford" initials="M." surname="Crawford">
+    <author initials="M." surname="Crawford" fullname="Dr. Matt Crawford">
       <organization>Fermilab</organization>
     </author>
-    <date year="1999" month="October" day="19"/>
+    <date day="19" month="October" year="1999"></date>
     <abstract>
-      <t>On February 27-28, 1997, the IPng Working Group held an interim meeting in Palo Alto, California to consider adopting Mike O'Dell's 'GSE - An Alternate Addressing Architecture for IPv6' proposal [GSE]. In GSE, 16-byte IPv6 addresses are split into distinct portions for global routing, local routing and end-point identification. GSE includes the feature of configuring a node internal to a site with only the local routing and end-point identification portions of the address, thus hiding the full address from the node. When such a node generates a packet, only the low-order bytes of the source address are specified; the high-order bytes of the address are filled in by a border router when the packet leaves the site.</t>
+      <t>On February 27-28, 1997, the IPng Working Group held an interim
+meeting in Palo Alto, California to consider adopting Mike O'Dell's
+'GSE - An Alternate Addressing Architecture for IPv6' proposal [GSE].
+In GSE, 16-byte IPv6 addresses are split into distinct portions for
+global routing, local routing and end-point identification.  GSE
+includes the feature of configuring a node internal to a site with
+only the local routing and end-point identification portions of the
+address, thus hiding the full address from the node.  When such a
+node generates a packet, only the low-order bytes of the source
+address are specified; the high-order bytes of the address are filled
+in by a border router when the packet leaves the site.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ipngwg-esd-analysis-05"/>
 </reference>

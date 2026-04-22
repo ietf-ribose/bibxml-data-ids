@@ -1,22 +1,30 @@
 <reference anchor="I-D.kompella-nvo3-server2nve" target="https://datatracker.ietf.org/doc/html/draft-kompella-nvo3-server2nve-02">
   <front>
     <title>Signaling Virtual Machine Activity to the Network Virtualization Edge</title>
-    <author fullname="Kireeti Kompella" initials="K." surname="Kompella">
+    <seriesInfo name="Internet-Draft" value="draft-kompella-nvo3-server2nve-02"/>
+    <author initials="K." surname="Kompella" fullname="Kireeti Kompella">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Yakov Rekhter" initials="Y." surname="Rekhter">
+    <author initials="Y." surname="Rekhter" fullname="Yakov Rekhter">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Thomas Morin" initials="T." surname="Morin">
-      <organization/>
-    </author>
-    <author fullname="David L. Black" initials="D. L." surname="Black">
+    <author initials="T." surname="Morin" fullname="Thomas Morin"/>
+    <author initials="D. L." surname="Black" fullname="David L. Black">
       <organization>EMC Corporation</organization>
     </author>
-    <date year="2013" month="April" day="29"/>
+    <date day="29" month="April" year="2013"></date>
     <abstract>
-      <t>This document proposes a simplified approach for provisioning network parameters related to Virtual Machine creation, migration and termination on servers. The idea is to provision the server, then have the server signal the requisite parameters to the relevant network device(s). Such an approach reduces the workload on the provisioning system and simplifies the data model that the provisioning system needs to maintain. It is also more resilient to topology changes in server-network connectivity, for example, reconnecting a server to a different network port or switch.</t>
+      <t>   This document proposes a simplified approach for provisioning network
+   parameters related to Virtual Machine creation, migration and
+   termination on servers.  The idea is to provision the server, then
+   have the server signal the requisite parameters to the relevant
+   network device(s).  Such an approach reduces the workload on the
+   provisioning system and simplifies the data model that the
+   provisioning system needs to maintain.  It is also more resilient to
+   topology changes in server-network connectivity, for example,
+   reconnecting a server to a different network port or switch.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kompella-nvo3-server2nve-02"/>
 </reference>

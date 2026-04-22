@@ -1,22 +1,38 @@
 <reference anchor="I-D.dukkipati-tcpm-tcp-loss-probe" target="https://datatracker.ietf.org/doc/html/draft-dukkipati-tcpm-tcp-loss-probe-01">
   <front>
     <title>Tail Loss Probe (TLP): An Algorithm for Fast Recovery of Tail Losses</title>
-    <author fullname="Nandita Dukkipati" initials="N." surname="Dukkipati">
+    <seriesInfo name="Internet-Draft" value="draft-dukkipati-tcpm-tcp-loss-probe-01"/>
+    <author initials="N." surname="Dukkipati" fullname="Nandita Dukkipati">
       <organization>Google, Inc</organization>
     </author>
-    <author fullname="Neal Cardwell" initials="N." surname="Cardwell">
+    <author initials="N." surname="Cardwell" fullname="Neal Cardwell">
       <organization>Google, Inc</organization>
     </author>
-    <author fullname="Yuchung Cheng" initials="Y." surname="Cheng">
+    <author initials="Y." surname="Cheng" fullname="Yuchung Cheng">
       <organization>Google, Inc</organization>
     </author>
-    <author fullname="Matt Mathis" initials="M." surname="Mathis">
+    <author initials="M." surname="Mathis" fullname="Matt Mathis">
       <organization>Google, Inc</organization>
     </author>
-    <date year="2013" month="February" day="25"/>
+    <date day="25" month="February" year="2013"></date>
     <abstract>
-      <t>Retransmission timeouts are detrimental to application latency, especially for short transfers such as Web transactions where timeouts can often take longer than all of the rest of a transaction. The primary cause of retransmission timeouts are lost segments at the tail of transactions. This document describes an experimental algorithm for TCP to quickly recover lost segments at the end of transactions or when an entire window of data or acknowledgments are lost. Tail Loss Probe (TLP) is a sender-only algorithm that allows the transport to recover tail losses through fast recovery as opposed to lengthy retransmission timeouts. If a connection is not receiving any acknowledgments for a certain period of time, TLP transmits the last unacknowledged segment (loss probe). In the event of a tail loss in the original transmissions, the acknowledgment from the loss probe triggers SACK/FACK based fast recovery. TLP effectively avoids long timeouts and thereby improves TCP performance.</t>
+      <t>   Retransmission timeouts are detrimental to application latency,
+   especially for short transfers such as Web transactions where
+   timeouts can often take longer than all of the rest of a transaction.
+   The primary cause of retransmission timeouts are lost segments at the
+   tail of transactions.  This document describes an experimental
+   algorithm for TCP to quickly recover lost segments at the end of
+   transactions or when an entire window of data or acknowledgments are
+   lost.  Tail Loss Probe (TLP) is a sender-only algorithm that allows
+   the transport to recover tail losses through fast recovery as opposed
+   to lengthy retransmission timeouts.  If a connection is not receiving
+   any acknowledgments for a certain period of time, TLP transmits the
+   last unacknowledged segment (loss probe).  In the event of a tail
+   loss in the original transmissions, the acknowledgment from the loss
+   probe triggers SACK/FACK based fast recovery.  TLP effectively avoids
+   long timeouts and thereby improves TCP performance.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-dukkipati-tcpm-tcp-loss-probe-01"/>
 </reference>

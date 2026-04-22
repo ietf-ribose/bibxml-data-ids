@@ -1,13 +1,22 @@
 <reference anchor="I-D.roy-ospf-smart-peering" target="https://datatracker.ietf.org/doc/html/draft-roy-ospf-smart-peering-01">
   <front>
     <title>Adjacency Reduction in OSPF using SPT Reachability</title>
-    <author fullname="Abhay Roy" initials="A." surname="Roy">
+    <seriesInfo name="Internet-Draft" value="draft-roy-ospf-smart-peering-01"/>
+    <author initials="A." surname="Roy" fullname="Abhay Roy">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2005" month="November" day="28"/>
+    <date day="28" month="November" year="2005"></date>
     <abstract>
-      <t>There is significant overhead in OSPF when a router has to establish adjacencies with every peer with whom it can verify 2-way connectivity. OSPF supports the broadcast network type for these scenarios, where you only have to peer with the designated router (DR). However,a full mesh of connectivity is required for proper operation and this doesn't help in networks with overlapping partial meshes of connectivity. This draft proposes a technique to reduce the number of adjacencies based on shortest path tree (SPT) reachability information.</t>
+      <t>   There is significant overhead in OSPF when a router has to establish
+   adjacencies with every peer with whom it can verify 2-way
+   connectivity.  OSPF supports the broadcast network type for these
+   scenarios, where you only have to peer with the designated router
+   (DR).  However,a full mesh of connectivity is required for proper
+   operation and this doesn't help in networks with overlapping partial
+   meshes of connectivity.  This draft proposes a technique to reduce
+   the number of adjacencies based on shortest path tree (SPT)
+   reachability information.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-roy-ospf-smart-peering-01"/>
 </reference>

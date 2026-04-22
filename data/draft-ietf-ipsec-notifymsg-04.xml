@@ -1,16 +1,25 @@
 <reference anchor="I-D.ietf-ipsec-notifymsg" target="https://datatracker.ietf.org/doc/html/draft-ietf-ipsec-notifymsg-04">
   <front>
     <title>Content Requirements for ISAKMP Notify Messages</title>
-    <author fullname="Scott G. Kelly" initials="S. G." surname="Kelly">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ipsec-notifymsg-04"/>
+    <author initials="S. G." surname="Kelly" fullname="Scott G. Kelly">
       <organization>RedCreek</organization>
     </author>
-    <author fullname="Tero Kivinen" initials="T." surname="Kivinen">
+    <author initials="T." surname="Kivinen" fullname="Tero Kivinen">
       <organization>SSH</organization>
     </author>
-    <date year="2000" month="November" day="29"/>
+    <date day="29" month="November" year="2000"></date>
     <abstract>
-      <t>The ISAKMP and DOI RFCs [RFC2408, RFC2407] specify error and status message types for use in ISAKMP NOTIFY messages, but in some cases do not specify that any additional clarifying data be carried in the messages. In these cases, it is difficult to determine which SA corresponds to the received NOTIFY message. While the DOI RFC specifies content and formats for additional data in the currently defined IPSEC status messages, no such requirements are currently specified for ISAKMP NOTIFY messages. This document provides content and format recommendations for those messages.</t>
+      <t>The ISAKMP and DOI RFCs [RFC2408, RFC2407] specify error and status
+message types for use in ISAKMP NOTIFY messages, but in some cases do
+not specify that any additional clarifying data be carried in the
+messages. In these cases, it is difficult to determine which SA
+corresponds to the received NOTIFY message. While the DOI RFC
+specifies content and formats for additional data in the currently
+defined IPSEC status messages, no such requirements are currently
+specified for ISAKMP NOTIFY messages. This document provides content
+and format recommendations for those messages.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ipsec-notifymsg-04"/>
 </reference>

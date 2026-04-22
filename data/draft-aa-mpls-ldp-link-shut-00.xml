@@ -1,16 +1,26 @@
 <reference anchor="I-D.aa-mpls-ldp-link-shut" target="https://datatracker.ietf.org/doc/html/draft-aa-mpls-ldp-link-shut-00">
   <front>
     <title>LDP behaviour on link-shut scenarios</title>
-    <author fullname="Anush Mohan" initials="A." surname="Mohan">
+    <seriesInfo name="Internet-Draft" value="draft-aa-mpls-ldp-link-shut-00"/>
+    <author initials="A." surname="Mohan" fullname="Anush Mohan">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Anup Kumar T" initials="A. K." surname="T">
+    <author initials="A. K." surname="T" fullname="Anup Kumar T">
       <organization>Ericsson</organization>
     </author>
-    <date year="2019" month="September" day="4"/>
+    <date day="04" month="September" year="2019"></date>
     <abstract>
-      <t>This document is intended as clarification of LDP behaviour in link- down scenarios. Base LDP RFC5036 lacks sufficient clarity on what an LDP enabled node should be doing when a link down event is received, and the only LDP adjacency for an LDP peer is over this link. Different vendors have handled this scenario differently, with some immediately resetting tcp session with neighbor and some waiting for igp recovergence instead of reacting directly to link events. With this document we intend to clarify the expected behaviour explicitly so that any interop issues can be avoided.</t>
+      <t>   This document is intended as clarification of LDP behaviour in link-
+   down scenarios.  Base LDP RFC5036 lacks sufficient clarity on what an
+   LDP enabled node should be doing when a link down event is received,
+   and the only LDP adjacency for an LDP peer is over this link.
+   Different vendors have handled this scenario differently, with some
+   immediately resetting tcp session with neighbor and some waiting for
+   igp recovergence instead of reacting directly to link events.  With
+   this document we intend to clarify the expected behaviour explicitly
+   so that any interop issues can be avoided.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-aa-mpls-ldp-link-shut-00"/>
 </reference>

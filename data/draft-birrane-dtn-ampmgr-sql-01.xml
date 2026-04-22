@@ -1,22 +1,33 @@
 <reference anchor="I-D.birrane-dtn-ampmgr-sql" target="https://datatracker.ietf.org/doc/html/draft-birrane-dtn-ampmgr-sql-01">
   <front>
     <title>AMP Manager SQL Interface</title>
-    <author fullname="Edward J. Birrane" initials="E. J." surname="Birrane">
+    <seriesInfo name="Internet-Draft" value="draft-birrane-dtn-ampmgr-sql-01"/>
+    <author initials="E. J." surname="Birrane" fullname="Edward J. Birrane">
       <organization>Johns Hopkins Applied Physics Laboratory</organization>
     </author>
-    <author fullname="Evana DiPietro" initials="E." surname="DiPietro">
+    <author initials="E." surname="DiPietro" fullname="Evana DiPietro">
       <organization>Johns Hopkins Applied Physics Laboratory</organization>
     </author>
-    <author fullname="David Linko" initials="D." surname="Linko">
+    <author initials="D." surname="Linko" fullname="David Linko">
       <organization>Johns Hopkins Applied Physics Laboratory</organization>
     </author>
-    <author fullname="Mark A. Sinkiat" initials="M. A." surname="Sinkiat">
+    <author initials="M. A." surname="Sinkiat" fullname="Mark A. Sinkiat">
       <organization>ASRC Space And Defense, NASA GSFC</organization>
     </author>
-    <date year="2018" month="July" day="2"/>
+    <date day="02" month="July" year="2018"></date>
     <abstract>
-      <t>This document describes a proposed public interface through which an application, such as a network management console, interacts with an Asynchronous Management Protocol (AMP) Manager via a database supporting the Structured Query Language (SQL). The use of SQL as an interfacing layer provides a natural way to describe interactions with an AMP Manager independent of a particular implementation of either the Manager or the application. Specifically, this document presents a database schema capturing how to send controls to a Manager and how to accept reports received by a Manager from one or more AMP Agents.</t>
+      <t>   This document describes a proposed public interface through which an
+   application, such as a network management console, interacts with an
+   Asynchronous Management Protocol (AMP) Manager via a database
+   supporting the Structured Query Language (SQL).  The use of SQL as an
+   interfacing layer provides a natural way to describe interactions
+   with an AMP Manager independent of a particular implementation of
+   either the Manager or the application.  Specifically, this document
+   presents a database schema capturing how to send controls to a
+   Manager and how to accept reports received by a Manager from one or
+   more AMP Agents.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-birrane-dtn-ampmgr-sql-01"/>
 </reference>

@@ -1,19 +1,30 @@
 <reference anchor="I-D.ietf-tsvwg-natsupp" target="https://datatracker.ietf.org/doc/html/draft-ietf-tsvwg-natsupp-05">
   <front>
     <title>Stream Control Transmission Protocol (SCTP) Network Address Translation Support</title>
-    <author fullname="Randall R. Stewart" initials="R. R." surname="Stewart">
-      <organization/>
-    </author>
-    <author fullname="Michael Tüxen" initials="M." surname="Tüxen">
-      <organization/>
-    </author>
-    <author fullname="Irene Ruengeler" initials="I." surname="Ruengeler">
-      <organization/>
-    </author>
-    <date year="2013" month="February" day="25"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-natsupp-05"/>
+    <author initials="R. R." surname="Stewart" fullname="Randall R. Stewart"/>
+    <author initials="M." surname="Tüxen" fullname="Michael Tüxen"/>
+    <author initials="I." surname="Ruengeler" fullname="Irene Ruengeler"/>
+    <date day="25" month="February" year="2013"></date>
     <abstract>
-      <t>Stream Control Transmission Protocol [RFC4960] provides a reliable communications channel between two end-hosts in many ways similar to TCP [RFC0793]. With the widespread deployment of Network Address Translators (NAT), specialized code has been added to NAT for TCP that allows multiple hosts to reside behind a NAT and yet use only a single globally unique IPv4 address, even when two hosts (behind a NAT) choose the same port numbers for their connection. This additional code is sometimes classified as Network Address and Port Translation (NAPT). To date, specialized code for SCTP has not yet been added to most NATs so that only pure NAT is available. The end result of this is that only one SCTP capable host can be behind a NAT. This document describes the protocol extensions required for the SCTP endpoints to help NATs provide similar features of NAPT in the single-point and multi-point traversal scenario.</t>
+      <t>   Stream Control Transmission Protocol [RFC4960] provides a reliable
+   communications channel between two end-hosts in many ways similar to
+   TCP [RFC0793].  With the widespread deployment of Network Address
+   Translators (NAT), specialized code has been added to NAT for TCP
+   that allows multiple hosts to reside behind a NAT and yet use only a
+   single globally unique IPv4 address, even when two hosts (behind a
+   NAT) choose the same port numbers for their connection.  This
+   additional code is sometimes classified as Network Address and Port
+   Translation (NAPT).  To date, specialized code for SCTP has not yet
+   been added to most NATs so that only pure NAT is available.  The end
+   result of this is that only one SCTP capable host can be behind a
+   NAT.
+
+   This document describes the protocol extensions required for the SCTP
+   endpoints to help NATs provide similar features of NAPT in the
+   single-point and multi-point traversal scenario.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-natsupp-05"/>
 </reference>

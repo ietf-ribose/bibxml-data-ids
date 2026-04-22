@@ -1,16 +1,24 @@
 <reference anchor="I-D.mccann-picklepacket" target="https://datatracker.ietf.org/doc/html/draft-mccann-picklepacket-01">
   <front>
     <title>Authenticated Middlebox Traversal with the Pickle Packet</title>
-    <author fullname="Pete McCann" initials="P." surname="McCann">
-      <organization/>
-    </author>
-    <author fullname="Steve Gilbert" initials="S." surname="Gilbert">
+    <seriesInfo name="Internet-Draft" value="draft-mccann-picklepacket-01"/>
+    <author initials="P." surname="McCann" fullname="Pete McCann"/>
+    <author initials="S." surname="Gilbert" fullname="Steve Gilbert">
       <organization>Motorola, Inc.</organization>
     </author>
-    <date year="2010" month="December" day="7"/>
+    <date day="07" month="December" year="2010"></date>
     <abstract>
-      <t>This document describes the Pickle Packet, a message that can be used to coordinate the opening of a transport connection with various middleboxes that may lie on the path. It contains the DNS names of both the initiator and the responder of the connection and some authentication data. Because the authentication data uses public key cryptography, any middlebox can independently authenticate the initiator and make a policy decision whether to allow or deny the flow based on the DNS names. The Pickle Packet allows for middleboxes to establish state such as firewall pinholes or security associations that can be used to filter out unwanted traffic.</t>
+      <t>This document describes the Pickle Packet, a message that can be used
+to coordinate the opening of a transport connection with various
+middleboxes that may lie on the path.  It contains the DNS names of
+both the initiator and the responder of the connection and some
+authentication data.  Because the authentication data uses public key
+cryptography, any middlebox can independently authenticate the
+initiator and make a policy decision whether to allow or deny the
+flow based on the DNS names.  The Pickle Packet allows for
+middleboxes to establish state such as firewall pinholes or security
+associations that can be used to filter out unwanted traffic.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mccann-picklepacket-01"/>
 </reference>

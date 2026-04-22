@@ -1,16 +1,25 @@
 <reference anchor="I-D.patterson-intarea-ipoe-health" target="https://datatracker.ietf.org/doc/html/draft-patterson-intarea-ipoe-health-00">
   <front>
     <title>IPoE Client Health Checking</title>
-    <author fullname="Richard Patterson" initials="R." surname="Patterson">
+    <seriesInfo name="Internet-Draft" value="draft-patterson-intarea-ipoe-health-00"/>
+    <author initials="R." surname="Patterson" fullname="Richard Patterson">
       <organization>Sky UK</organization>
     </author>
-    <author fullname="Mikael Abrahamsson" initials="M." surname="Abrahamsson">
+    <author initials="M." surname="Abrahamsson" fullname="Mikael Abrahamsson">
       <organization>T-Systems</organization>
     </author>
-    <date year="2018" month="June" day="5"/>
+    <date day="05" month="June" year="2018"></date>
     <abstract>
-      <t>PPPoE clients have the functionality to detect path unavailability by using PPP Keepalives. IPoE does not have this functionality, and it's not specified when an IPoE client should consider its WAN connectivity down, unless there is a physical layer link down event. This document describes a way for IPoE clients to achieve connectivity validation, similar to that of PPPoE, by using existing ARP and Neighbor Discovery functions.</t>
+      <t>   PPPoE clients have the functionality to detect path unavailability by
+   using PPP Keepalives.  IPoE does not have this functionality, and
+   it's not specified when an IPoE client should consider its WAN
+   connectivity down, unless there is a physical layer link down event.
+
+   This document describes a way for IPoE clients to achieve
+   connectivity validation, similar to that of PPPoE, by using existing
+   ARP and Neighbor Discovery functions.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-patterson-intarea-ipoe-health-00"/>
 </reference>

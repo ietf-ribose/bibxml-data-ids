@@ -1,13 +1,32 @@
 <reference anchor="I-D.pidlisnyi-aps" target="https://datatracker.ietf.org/doc/html/draft-pidlisnyi-aps-00">
   <front>
     <title>Agent Passport System (APS): Cryptographic Identity, Faceted Authority Attenuation, and Governance for AI Agent Systems</title>
-    <author fullname="Tymofii Pidlisnyi" initials="T." surname="Pidlisnyi">
+    <seriesInfo name="Internet-Draft" value="draft-pidlisnyi-aps-00"/>
+    <author initials="T." surname="Pidlisnyi" fullname="Tymofii Pidlisnyi">
       <organization>AEOESS</organization>
     </author>
-    <date year="2026" month="March" day="27"/>
+    <date day="27" month="March" year="2026"></date>
     <abstract>
-      <t>This document specifies the Agent Passport System (APS), a protocol for cryptographic identity, faceted authority attenuation, and governance for AI agent systems. APS introduces Ed25519-based agent passports, scoped delegation chains with monotonic narrowing across seven constraint dimensions (scope, spend, depth, time, reputation, values, reversibility), cascade revocation, a three-signature policy chain (intent, evaluation, receipt), Bayesian reputation-gated authority, and institutional governance primitives (charters, offices, approval policies, federation). Authority is modeled as an element of a product lattice, and delegation is a monotone function on that lattice, ensuring that delegated capabilities can only be attenuated, never amplified. The protocol addresses authentication and authorization gaps in current AI agent infrastructure including MCP and A2A. Reference implementations are provided in TypeScript and Python with 1,634 tests across 85 modules, published as open- source SDKs under Apache-2.0. Protocol bindings are specified for MCP (120 tools), with cross-protocol validation through a five-member working group on production infrastructure.</t>
+      <t>   This document specifies the Agent Passport System (APS), a protocol
+   for cryptographic identity, faceted authority attenuation, and
+   governance for AI agent systems.  APS introduces Ed25519-based agent
+   passports, scoped delegation chains with monotonic narrowing across
+   seven constraint dimensions (scope, spend, depth, time, reputation,
+   values, reversibility), cascade revocation, a three-signature policy
+   chain (intent, evaluation, receipt), Bayesian reputation-gated
+   authority, and institutional governance primitives (charters,
+   offices, approval policies, federation).  Authority is modeled as an
+   element of a product lattice, and delegation is a monotone function
+   on that lattice, ensuring that delegated capabilities can only be
+   attenuated, never amplified.  The protocol addresses authentication
+   and authorization gaps in current AI agent infrastructure including
+   MCP and A2A.  Reference implementations are provided in TypeScript
+   and Python with 1,634 tests across 85 modules, published as open-
+   source SDKs under Apache-2.0.  Protocol bindings are specified for
+   MCP (120 tools), with cross-protocol validation through a five-member
+   working group on production infrastructure.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-pidlisnyi-aps-00"/>
 </reference>

@@ -1,22 +1,30 @@
 <reference anchor="I-D.ietf-oauth-token-binding" target="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-token-binding-04">
   <front>
     <title>OAuth 2.0 Token Binding</title>
-    <author fullname="Michael Jones" initials="M." surname="Jones">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-oauth-token-binding-04"/>
+    <author initials="M." surname="Jones" fullname="Michael Jones">
       <organization>Microsoft</organization>
     </author>
-    <author fullname="John Bradley" initials="J." surname="Bradley">
+    <author initials="J." surname="Bradley" fullname="John Bradley">
       <organization>Ping Identity</organization>
     </author>
-    <author fullname="Brian Campbell" initials="B." surname="Campbell">
+    <author initials="B." surname="Campbell" fullname="Brian Campbell">
       <organization>Ping Identity</organization>
     </author>
-    <author fullname="William Denniss" initials="W." surname="Denniss">
+    <author initials="W." surname="Denniss" fullname="William Denniss">
       <organization>Google</organization>
     </author>
-    <date year="2017" month="July" day="3"/>
+    <date day="03" month="July" year="2017"></date>
     <abstract>
-      <t>This specification enables OAuth 2.0 implementations to apply Token Binding to Access Tokens, Authorization Codes, and Refresh Tokens. This cryptographically binds these tokens to a client's Token Binding key pair, possession of which is proven on the TLS connections over which the tokens are intended to be used. This use of Token Binding protects these tokens from man-in-the-middle and token export and replay attacks.</t>
+      <t>   This specification enables OAuth 2.0 implementations to apply Token
+   Binding to Access Tokens, Authorization Codes, and Refresh Tokens.
+   This cryptographically binds these tokens to a client's Token Binding
+   key pair, possession of which is proven on the TLS connections over
+   which the tokens are intended to be used.  This use of Token Binding
+   protects these tokens from man-in-the-middle and token export and
+   replay attacks.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-oauth-token-binding-04"/>
 </reference>

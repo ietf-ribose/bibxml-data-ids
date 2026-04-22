@@ -1,22 +1,34 @@
 <reference anchor="I-D.tschofenig-core-coap-tcp-tls" target="https://datatracker.ietf.org/doc/html/draft-tschofenig-core-coap-tcp-tls-05">
   <front>
     <title>A TCP and TLS Transport for the Constrained Application Protocol (CoAP)</title>
-    <author fullname="Carsten Bormann" initials="C." surname="Bormann">
+    <seriesInfo name="Internet-Draft" value="draft-tschofenig-core-coap-tcp-tls-05"/>
+    <author initials="C." surname="Bormann" fullname="Carsten Bormann">
       <organization>Universitaet Bremen TZI</organization>
     </author>
-    <author fullname="Simon Lemay" initials="S." surname="Lemay">
+    <author initials="S." surname="Lemay" fullname="Simon Lemay">
       <organization>Zebra Technologies</organization>
     </author>
-    <author fullname="Zebra Technologies" initials="Z." surname="Technologies">
+    <author initials="Z." surname="Technologies" fullname="Zebra Technologies">
       <organization>Zebra Technologies</organization>
     </author>
-    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+    <author initials="H." surname="Tschofenig" fullname="Hannes Tschofenig">
       <organization>ARM Ltd.</organization>
     </author>
-    <date year="2015" month="November" day="2"/>
+    <date day="02" month="November" year="2015"></date>
     <abstract>
-      <t>The Hypertext Transfer Protocol (HTTP) was designed with TCP as the underlying transport protocol. The Constrained Application Protocol (CoAP), while inspired by HTTP, has been defined to make use of UDP instead of TCP. Therefore, reliable delivery and a simple congestion control and flow control mechanism are provided by the message layer of the CoAP protocol. A number of environments benefit from the use of CoAP directly over a reliable byte stream such as TCP, which already provides these services. This document defines the use of CoAP over TCP as well as CoAP over TLS.</t>
+      <t>   The Hypertext Transfer Protocol (HTTP) was designed with TCP as the
+   underlying transport protocol.  The Constrained Application Protocol
+   (CoAP), while inspired by HTTP, has been defined to make use of UDP
+   instead of TCP.  Therefore, reliable delivery and a simple congestion
+   control and flow control mechanism are provided by the message layer
+   of the CoAP protocol.
+
+   A number of environments benefit from the use of CoAP directly over a
+   reliable byte stream such as TCP, which already provides these
+   services.  This document defines the use of CoAP over TCP as well as
+   CoAP over TLS.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-tschofenig-core-coap-tcp-tls-05"/>
 </reference>

@@ -1,19 +1,20 @@
 <reference anchor="I-D.ietf-netconf-zerotouch" target="https://datatracker.ietf.org/doc/html/draft-ietf-netconf-zerotouch-29">
   <front>
     <title>Secure Zero Touch Provisioning (SZTP)</title>
-    <author fullname="Kent Watsen" initials="K." surname="Watsen">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-netconf-zerotouch-29"/>
+    <author initials="K." surname="Watsen" fullname="Kent Watsen">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Mikael Abrahamsson" initials="M." surname="Abrahamsson">
+    <author initials="M." surname="Abrahamsson" fullname="Mikael Abrahamsson">
       <organization>T-Systems</organization>
     </author>
-    <author fullname="Ian Farrer" initials="I." surname="Farrer">
+    <author initials="I." surname="Farrer" fullname="Ian Farrer">
       <organization>Deutsche Telekom AG</organization>
     </author>
-    <date year="2019" month="January" day="15"/>
+    <date day="15" month="January" year="2019"></date>
     <abstract>
-      <t>This document presents a technique to securely provision a networking device when it is booting in a factory-default state. Variations in the solution enable it to be used on both public and private networks. The provisioning steps are able to update the boot image, commit an initial configuration, and execute arbitrary scripts to address auxiliary needs. The updated device is subsequently able to establish secure connections with other systems. For instance, a device may establish NETCONF (RFC 6241) and/or RESTCONF (RFC 8040) connections with deployment-specific network management systems.</t>
+      <t>This document presents a technique to securely provision a networking device when it is booting in a factory-default state.  Variations in the solution enable it to be used on both public and private networks.  The provisioning steps are able to update the boot image, commit an initial configuration, and execute arbitrary scripts to address auxiliary needs.  The updated device is subsequently able to establish secure connections with other systems.  For instance, a device may establish NETCONF (RFC 6241) and/or RESTCONF (RFC 8040) connections with deployment-specific network management systems.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-netconf-zerotouch-29"/>
 </reference>

@@ -1,19 +1,33 @@
 <reference anchor="I-D.ietf-anima-brski-ae" target="https://datatracker.ietf.org/doc/html/draft-ietf-anima-brski-ae-10">
   <front>
     <title>BRSKI-AE: Alternative Enrollment Protocols in BRSKI</title>
-    <author fullname="David von Oheimb" initials="D." surname="von Oheimb">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-anima-brski-ae-10"/>
+    <author initials="D." surname="von Oheimb" fullname="David von Oheimb">
       <organization>Siemens AG</organization>
     </author>
-    <author fullname="Steffen Fries" initials="S." surname="Fries">
+    <author initials="S." surname="Fries" fullname="Steffen Fries">
       <organization>Siemens AG</organization>
     </author>
-    <author fullname="Hendrik Brockhaus" initials="H." surname="Brockhaus">
+    <author initials="H." surname="Brockhaus" fullname="Hendrik Brockhaus">
       <organization>Siemens AG</organization>
     </author>
-    <date year="2024" month="March" day="1"/>
+    <date day="01" month="March" year="2024"></date>
     <abstract>
-      <t>This document defines an enhancement of Bootstrapping Remote Secure Key Infrastructure (BRSKI, RFC 8995). It supports alternative certificate enrollment protocols, such as CMP, that use authenticated self-contained signed objects for certification messages. This offers the following advantages. The origin of requests and responses can be authenticated independently of message transfer. This supports end-to-end authentication (proof of origin) also over multiple hops, as well as asynchronous operation of certificate enrollment. This in turn provides architectural flexibility where and when to ultimately authenticate and authorize certification requests while retaining full-strength integrity and authenticity of certification requests.</t>
+      <t>   This document defines an enhancement of Bootstrapping Remote Secure
+   Key Infrastructure (BRSKI, RFC 8995).  It supports alternative
+   certificate enrollment protocols, such as CMP, that use authenticated
+   self-contained signed objects for certification messages.
+
+   This offers the following advantages.  The origin of requests and
+   responses can be authenticated independently of message transfer.
+   This supports end-to-end authentication (proof of origin) also over
+   multiple hops, as well as asynchronous operation of certificate
+   enrollment.  This in turn provides architectural flexibility where
+   and when to ultimately authenticate and authorize certification
+   requests while retaining full-strength integrity and authenticity of
+   certification requests.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-anima-brski-ae-10"/>
 </reference>

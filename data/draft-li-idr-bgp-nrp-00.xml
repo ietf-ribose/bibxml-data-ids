@@ -1,16 +1,30 @@
 <reference anchor="I-D.li-idr-bgp-nrp" target="https://datatracker.ietf.org/doc/html/draft-li-idr-bgp-nrp-00">
   <front>
     <title>BGP Extensions for Network Resource Partition</title>
-    <author fullname="Zhenqiang Li" initials="Z." surname="Li">
+    <seriesInfo name="Internet-Draft" value="draft-li-idr-bgp-nrp-00"/>
+    <author initials="Z." surname="Li" fullname="Zhenqiang Li">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Ruiqian Hu" initials="R." surname="Hu">
+    <author initials="R." surname="Hu" fullname="Ruiqian Hu">
       <organization>China Mobile</organization>
     </author>
-    <date year="2026" month="February" day="15"/>
+    <date day="15" month="February" year="2026"></date>
     <abstract>
-      <t>Existing approaches bind a Segment Routing (SR) Policy to a Network Resource Partition (NRP) on a one-to-one basis, which lacks flexibility and introduces significant operational overhead as the number of NRPs scales, especially when the NRPs share the same SR Policy path. This document defines BGP extensions to advertise NRP identifier (NRP ID) information between network nodes, which decouples SR Policy from NRP, allowing multiple NRPs to share a common SR Policy path and thus avoiding linear growth of SR Policies. This design reduces operational complexity and is also applicable to SR Best Effort (SR BE) scenario.</t>
+      <t>   Existing approaches bind a Segment Routing (SR) Policy to a Network
+   Resource Partition (NRP) on a one-to-one basis, which lacks
+   flexibility and introduces significant operational overhead as the
+   number of NRPs scales, especially when the NRPs share the same SR
+   Policy path.
+
+   This document defines BGP extensions to advertise NRP identifier (NRP
+   ID) information between network nodes, which decouples SR Policy from
+   NRP, allowing multiple NRPs to share a common SR Policy path and thus
+   avoiding linear growth of SR Policies.
+
+   This design reduces operational complexity and is also applicable to
+   SR Best Effort (SR BE) scenario.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-li-idr-bgp-nrp-00"/>
 </reference>

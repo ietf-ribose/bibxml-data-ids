@@ -2,13 +2,25 @@
   <front>
     <title>Virtual Bridge Tunneling
 Ethernet Encapsulation in IP</title>
-    <author fullname="Mike MacDonald" initials="M." surname="MacDonald">
+    <seriesInfo name="Internet-Draft" value="draft-macdonald-vir-bri-tun-00"/>
+    <author initials="M." surname="MacDonald" fullname="Mike MacDonald">
       <organization>Nortel Networks</organization>
     </author>
-    <date year="1999" month="August" day="3"/>
+    <date day="03" month="August" year="1999"></date>
     <abstract>
-      <t>This document specifies an approach to provide extended LAN and VLAN services across IP routed networks. This is done by adding a virtual bridge identifier to packets destined to the remote location and then encapsulating this new packet in IP. This packet is then source routed across the IP network to a Virtual Bridge Tunnel terminating router where the header is stripped off and the virtual bridge identifier is used to forward the original packet out the corresponding tunnel interface. Within the IP network the packets are treated like any other IP packets and as such identical mechanisms such as security and quality of service can be applied.</t>
+      <t>This document specifies an approach to provide extended LAN and VLAN
+services across IP routed networks.  This is done by adding a virtual
+bridge identifier to packets destined to the remote location and then
+encapsulating this new packet in IP.  This packet is then source 
+routed across the IP network to a Virtual Bridge Tunnel terminating
+router where the header is stripped off and the virtual bridge
+identifier is used to forward the original packet out the 
+corresponding tunnel interface.
+Within the IP network the packets are treated like any other IP packets
+and as such identical mechanisms such as security and quality of 
+service can be applied.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-macdonald-vir-bri-tun-00"/>
 </reference>

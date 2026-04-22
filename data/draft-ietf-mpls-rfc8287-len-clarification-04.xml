@@ -1,22 +1,25 @@
 <reference anchor="I-D.ietf-mpls-rfc8287-len-clarification" target="https://datatracker.ietf.org/doc/html/draft-ietf-mpls-rfc8287-len-clarification-04">
   <front>
     <title>Clarification of Segment ID Sub-TLV Length for RFC 8287</title>
-    <author fullname="Nagendra Kumar Nainar" initials="N. K." surname="Nainar">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-rfc8287-len-clarification-04"/>
+    <author initials="N. K." surname="Nainar" fullname="Nagendra Kumar Nainar">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Carlos Pignataro" initials="C." surname="Pignataro">
+    <author initials="C." surname="Pignataro" fullname="Carlos Pignataro">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Faisal Iqbal" initials="F." surname="Iqbal">
+    <author initials="F." surname="Iqbal" fullname="Faisal Iqbal">
       <organization>Individual</organization>
     </author>
-    <author fullname="Sasha Vainshtein" initials="A. S." surname="Vainshtein">
+    <author initials="A. S." surname="Vainshtein" fullname="Sasha Vainshtein">
       <organization>ECI Telecom</organization>
     </author>
-    <date year="2019" month="August" day="8"/>
+    <date day="08" month="August" year="2019"></date>
     <abstract>
-      <t>RFC 8287 defines the extensions to perform LSP Ping and Traceroute for Segment Routing IGP-Prefix and IGP-Adjacency Segment Identifiers (SIDs) with the MPLS data plane. RFC 8287 proposes three Target Forwarding Equivalence Class (FEC) Stack sub-TLVs. While RFC 8287 defines the format and procedure to handle those sub-TLVs, it does not sufficiently clarify how the length of the Segment ID sub-TLVs should be computed to be included in the Length field of the sub-TLVs. This ambiguity has resulted in interoperability issues. This document updates RFC 8287 by clarifying the length of each of the Segment ID sub-TLVs defined in RFC 8287.</t>
+      <t>RFC 8287 defines the extensions to perform LSP Ping and Traceroute for Segment Routing IGP-Prefix and IGP-Adjacency Segment Identifiers (SIDs) with the MPLS data plane. RFC 8287 proposes three Target Forwarding Equivalence Class (FEC) Stack sub-TLVs. While RFC 8287 defines the format and procedure to handle those sub-TLVs, it does not sufficiently clarify how the length of the Segment ID sub-TLVs should be computed to be included in the Length field of the sub-TLVs. This ambiguity has resulted in interoperability issues.
+
+ This document updates RFC 8287 by clarifying the length of each of the Segment ID sub-TLVs defined in RFC 8287.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-rfc8287-len-clarification-04"/>
 </reference>

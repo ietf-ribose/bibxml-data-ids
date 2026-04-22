@@ -1,25 +1,41 @@
 <reference anchor="I-D.ietf-spring-mpls-path-segment" target="https://datatracker.ietf.org/doc/html/draft-ietf-spring-mpls-path-segment-00">
   <front>
     <title>Path Segment in MPLS Based Segment Routing Network</title>
-    <author fullname="Weiqiang Cheng" initials="W." surname="Cheng">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-spring-mpls-path-segment-00"/>
+    <author initials="W." surname="Cheng" fullname="Weiqiang Cheng">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Han Li" initials="H." surname="Li">
+    <author initials="H." surname="Li" fullname="Han Li">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Mach Chen" initials="M." surname="Chen">
+    <author initials="M." surname="Chen" fullname="Mach Chen">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Rakesh Gandhi" initials="R." surname="Gandhi">
+    <author initials="R." surname="Gandhi" fullname="Rakesh Gandhi">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Royi Zigler" initials="R." surname="Zigler">
+    <author initials="R." surname="Zigler" fullname="Royi Zigler">
       <organization>Broadcom</organization>
     </author>
-    <date year="2019" month="March" day="11"/>
+    <date day="11" month="March" year="2019"></date>
     <abstract>
-      <t>A Segment Routing (SR) path is identified by an SR segment list, one or partial segments of the list cannot uniquely identify the SR path. Path identification is a pre-requisite for various use-cases such as performance measurement (PM) of an SR path. This document defines a new type of segment that is referred to as Path Segment, which is used to identify an SR path. When used, it is inserted at the ingress node of the SR path and immediately follows the last segment of the SR path. The Path Segment will not be popped off until it reaches the egress node of the SR path. Path Segment can be used by the egress node to implement path identification hence to support various use-cases including SR path PM, end-to-end 1+1 SR path protection and bidirectional SR paths correlation.</t>
+      <t>   A Segment Routing (SR) path is identified by an SR segment list, one
+   or partial segments of the list cannot uniquely identify the SR path.
+   Path identification is a pre-requisite for various use-cases such as
+   performance measurement (PM) of an SR path.
+
+   This document defines a new type of segment that is referred to as
+   Path Segment, which is used to identify an SR path.  When used, it is
+   inserted at the ingress node of the SR path and immediately follows
+   the last segment of the SR path.  The Path Segment will not be popped
+   off until it reaches the egress node of the SR path.
+
+   Path Segment can be used by the egress node to implement path
+   identification hence to support various use-cases including SR path
+   PM, end-to-end 1+1 SR path protection and bidirectional SR paths
+   correlation.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-spring-mpls-path-segment-00"/>
 </reference>

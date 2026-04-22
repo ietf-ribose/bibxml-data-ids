@@ -1,19 +1,28 @@
 <reference anchor="I-D.ogud-dnsop-acl-metaqueries" target="https://datatracker.ietf.org/doc/html/draft-ogud-dnsop-acl-metaqueries-00">
   <front>
     <title>DNS Meta-Queries resticted.</title>
-    <author fullname="Ólafur Guðmundsson" initials="O." surname="Guðmundsson">
+    <seriesInfo name="Internet-Draft" value="draft-ogud-dnsop-acl-metaqueries-00"/>
+    <author initials="O." surname="Guðmundsson" fullname="Ólafur Guðmundsson">
       <organization>CloudFlare Inc.</organization>
     </author>
-    <author fullname="Marek Majkowski" initials="M." surname="Majkowski">
+    <author initials="M." surname="Majkowski" fullname="Marek Majkowski">
       <organization>CloudFlare Inc.</organization>
     </author>
-    <author fullname="Joe Abley" initials="J." surname="Abley">
+    <author initials="J." surname="Abley" fullname="Joe Abley">
       <organization>Dyn, Inc.</organization>
     </author>
-    <date year="2015" month="March" day="9"/>
+    <date day="09" month="March" year="2015"></date>
     <abstract>
-      <t>Some DNS types have special meaning and are classified as meta queries, this includes ANY, AXFR, IXFR. These queries frequently return larger answers than queries for other types. This document defines a standard way for Authoritative-Only servers how to refuse to serve these and other similar queries, with the expectation that resolvers honor that, by not asking followup queries.</t>
+      <t>   Some DNS types have special meaning and are classified as meta
+   queries, this includes ANY, AXFR, IXFR.  These queries frequently
+   return larger answers than queries for other types.
+
+   This document defines a standard way for Authoritative-Only servers
+   how to refuse to serve these and other similar queries, with the
+   expectation that resolvers honor that, by not asking followup
+   queries.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ogud-dnsop-acl-metaqueries-00"/>
 </reference>

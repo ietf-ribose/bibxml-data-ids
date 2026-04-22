@@ -1,19 +1,31 @@
 <reference anchor="I-D.sullivan-dns-zone-codepoint-pples" target="https://datatracker.ietf.org/doc/html/draft-sullivan-dns-zone-codepoint-pples-00">
   <front>
     <title>Principles for Unicode Code Point Inclusion in Labels in the DNS Root</title>
-    <author fullname="Andrew Sullivan" initials="A." surname="Sullivan">
+    <seriesInfo name="Internet-Draft" value="draft-sullivan-dns-zone-codepoint-pples-00"/>
+    <author initials="A." surname="Sullivan" fullname="Andrew Sullivan">
       <organization>Dyn, Inc.</organization>
     </author>
-    <author fullname="Dave Thaler" initials="D." surname="Thaler">
+    <author initials="D." surname="Thaler" fullname="Dave Thaler">
       <organization>Microsoft</organization>
     </author>
-    <author fullname="Olaf Kolkman" initials="O." surname="Kolkman">
+    <author initials="O." surname="Kolkman" fullname="Olaf Kolkman">
       <organization>NLnet Labs</organization>
     </author>
-    <date year="2012" month="June" day="5"/>
+    <date day="05" month="June" year="2012"></date>
     <abstract>
-      <t>Traditionally, the management of the DNS root zone permitted only "alphabetic" labels. As long as the root zone included only ASCII characters, and as long as there was only one form of a label, the restriction plainly meant that only the letters A-Z and a-z were permitted. The advent of internationalized labels using IDNA2008 presents some complications for the restriction. One of the complications is the meaning of the term "alphabetic" when applied to the Unicode code points in U-labels. This memo presents a set of principles that can be used to determine whether a Unicode code point may be wisely included in the repertoire of permissible code points in a U-label in a zone.</t>
+      <t>   Traditionally, the management of the DNS root zone permitted only
+   "alphabetic" labels.  As long as the root zone included only ASCII
+   characters, and as long as there was only one form of a label, the
+   restriction plainly meant that only the letters A-Z and a-z were
+   permitted.  The advent of internationalized labels using IDNA2008
+   presents some complications for the restriction.  One of the
+   complications is the meaning of the term "alphabetic" when applied to
+   the Unicode code points in U-labels.  This memo presents a set of
+   principles that can be used to determine whether a Unicode code point
+   may be wisely included in the repertoire of permissible code points
+   in a U-label in a zone.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sullivan-dns-zone-codepoint-pples-00"/>
 </reference>

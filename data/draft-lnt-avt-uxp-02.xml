@@ -1,25 +1,30 @@
 <reference anchor="I-D.lnt-avt-uxp" target="https://datatracker.ietf.org/doc/html/draft-lnt-avt-uxp-02">
   <front>
     <title>An RTP Payload Format for Erasure-Resilient Transmission of Progressive Multimedia Streams</title>
-    <author fullname="Minh Ha Nguyen" initials="M. H." surname="Nguyen">
-      <organization/>
-    </author>
-    <author fullname="Bernhard Wimmer" initials="B." surname="Wimmer">
-      <organization/>
-    </author>
-    <author fullname="Guenther Liebl" initials="G." surname="Liebl">
-      <organization/>
-    </author>
-    <author fullname="Thomas Stockhammer" initials="T." surname="Stockhammer">
-      <organization/>
-    </author>
-    <author fullname="Frank Burkert" initials="F." surname="Burkert">
+    <seriesInfo name="Internet-Draft" value="draft-lnt-avt-uxp-02"/>
+    <author initials="M. H." surname="Nguyen" fullname="Minh Ha Nguyen"/>
+    <author initials="B." surname="Wimmer" fullname="Bernhard Wimmer"/>
+    <author initials="G." surname="Liebl" fullname="Guenther Liebl"/>
+    <author initials="T." surname="Stockhammer" fullname="Thomas Stockhammer"/>
+    <author initials="F." surname="Burkert" fullname="Frank Burkert">
       <organization>G. Baese</organization>
     </author>
-    <date year="2000" month="September" day="20"/>
+    <date day="20" month="September" year="2000"></date>
     <abstract>
-      <t>This document specifies an efficient way to ensure erasure-resilient transmission of progressively encoded multimedia sources via RTP using Reed-Solomon codes. The level of erasure protection can be explicitly adapted to the importance of the respective parts in the source stream, thus allowing a graceful degradation of application quality with increasing packet loss rate on the network. Hence, this type of unequal erasure protection (UXP) schemes is intended to cope with the rapidly varying channel conditions on wireless access links to the Internet backbone. Nevertheless, backward compatibility to currently standardized non-progressive multimedia codecs is ensured, since equal erasure protection (EXP) represents a subset of generic UXP. By defining a comparably simple payload format, the proposed scheme can be easily integrated into the existing framework for RTP.</t>
+      <t>This document specifies an efficient way to ensure erasure-resilient
+transmission of progressively encoded multimedia sources via RTP
+using Reed-Solomon codes. The level of erasure protection can be
+explicitly adapted to the importance of the respective parts in the
+source stream, thus allowing a graceful degradation of application
+quality with increasing packet loss rate on the network. Hence, this
+type of unequal erasure protection (UXP) schemes is intended to cope
+with the rapidly varying channel conditions on wireless access links
+to the Internet backbone. Nevertheless, backward compatibility to
+currently standardized non-progressive multimedia codecs is ensured,
+since equal erasure protection (EXP) represents a subset of generic
+UXP. By defining a comparably simple payload format, the proposed
+scheme can be easily integrated into the existing framework for RTP.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-lnt-avt-uxp-02"/>
 </reference>

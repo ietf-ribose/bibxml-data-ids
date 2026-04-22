@@ -1,16 +1,17 @@
 <reference anchor="I-D.ietf-nfsv4-umask" target="https://datatracker.ietf.org/doc/html/draft-ietf-nfsv4-umask-05">
   <front>
     <title>Allowing Inheritable NFSv4 Access Control Entries to Override the Umask</title>
-    <author fullname="J. Bruce Fields" initials="J. B." surname="Fields">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-nfsv4-umask-05"/>
+    <author initials="J. B." surname="Fields" fullname="J. Bruce Fields">
       <organization>Red Hat, Inc.</organization>
     </author>
-    <author fullname="Andreas Gruenbacher" initials="A." surname="Gruenbacher">
+    <author initials="A." surname="Gruenbacher" fullname="Andreas Gruenbacher">
       <organization>Red Hat, Inc.</organization>
     </author>
-    <date year="2017" month="August" day="30"/>
+    <date day="30" month="August" year="2017"></date>
     <abstract>
-      <t>In many environments, inheritable NFSv4 Access Control Entries (ACEs) can be rendered ineffective by the application of the per-process file mode creation mask (umask). This can be addressed by transmitting the umask and create mode as separate pieces of data, allowing the server to make more intelligent decisions about the permissions to set on new files. This document proposes a protocol extension to accomplish that.</t>
+      <t>In many environments, inheritable NFSv4 Access Control Entries (ACEs) can be rendered ineffective by the application of the per-process file mode creation mask (umask).  This can be addressed by transmitting the umask and create mode as separate pieces of data, allowing the server to make more intelligent decisions about the permissions to set on new files.  This document proposes a protocol extension to accomplish that.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-nfsv4-umask-05"/>
 </reference>

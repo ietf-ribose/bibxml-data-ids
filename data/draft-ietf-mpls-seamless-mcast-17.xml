@@ -1,31 +1,32 @@
 <reference anchor="I-D.ietf-mpls-seamless-mcast" target="https://datatracker.ietf.org/doc/html/draft-ietf-mpls-seamless-mcast-17">
   <front>
     <title>Inter-Area Point-to-Multipoint (P2MP) Segmented Label Switched Paths (LSPs)</title>
-    <author fullname="Yakov Rekhter" initials="Y." surname="Rekhter">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-seamless-mcast-17"/>
+    <author initials="Y." surname="Rekhter" fullname="Yakov Rekhter">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Eric C. Rosen" initials="E. C." surname="Rosen">
+    <author initials="E. C." surname="Rosen" fullname="Eric C. Rosen">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Rahul Aggarwal" initials="R." surname="Aggarwal">
+    <author initials="R." surname="Aggarwal" fullname="Rahul Aggarwal">
       <organization>Arktan</organization>
     </author>
-    <author fullname="Thomas Morin" initials="T." surname="Morin">
+    <author initials="T." surname="Morin" fullname="Thomas Morin">
       <organization>Orange</organization>
     </author>
-    <author fullname="Irene Grosclaude" initials="I." surname="Grosclaude">
+    <author initials="I." surname="Grosclaude" fullname="Irene Grosclaude">
       <organization>Orange</organization>
     </author>
-    <author fullname="Nicolai Leymann" initials="N." surname="Leymann">
+    <author initials="N." surname="Leymann" fullname="Nicolai Leymann">
       <organization>Deutsche Telekom AG</organization>
     </author>
-    <author fullname="Samir Saad" initials="S." surname="Saad">
+    <author initials="S." surname="Saad" fullname="Samir Saad">
       <organization>AT&amp;T</organization>
     </author>
-    <date year="2015" month="February" day="20"/>
+    <date day="20" month="February" year="2015"></date>
     <abstract>
-      <t>This document describes procedures for building inter-area point-to-multipoint (P2MP) segmented service label switched paths (LSPs) by partitioning such LSPs into intra-area segments and using BGP as the inter-area routing and Label Distribution Protocol (LDP). Within each IGP area, the intra-area segments are either carried over intra-area P2MP LSPs, using P2MP LSP hierarchy, or instantiated using ingress replication. The intra-area P2MP LSPs may be signaled using P2MP RSVP-TE or P2MP multipoint LDP (mLDP). If ingress replication is used within an IGP area, then (multipoint-to-point) LDP LSPs or (point-to-point) RSVP-TE LSPs may be used in the IGP area. The applications/services that use such inter-area service LSPs may be BGP Multicast VPN, Virtual Private LAN Service (VPLS) multicast, or global table multicast over MPLS.</t>
+      <t>This document describes procedures for building inter-area point-to-multipoint (P2MP) segmented service label switched paths (LSPs) by partitioning such LSPs into intra-area segments and using BGP as the inter-area routing and Label Distribution Protocol (LDP).  Within each IGP area, the intra-area segments are either carried over intra-area P2MP LSPs, using P2MP LSP hierarchy, or instantiated using ingress replication.  The intra-area P2MP LSPs may be signaled using P2MP RSVP-TE or P2MP multipoint LDP (mLDP).  If ingress replication is used within an IGP area, then (multipoint-to-point) LDP LSPs or (point-to-point) RSVP-TE LSPs may be used in the IGP area.  The applications/services that use such inter-area service LSPs may be BGP Multicast VPN, Virtual Private LAN Service (VPLS) multicast, or global table multicast over MPLS.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-seamless-mcast-17"/>
 </reference>

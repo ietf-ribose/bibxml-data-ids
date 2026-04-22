@@ -1,34 +1,47 @@
 <reference anchor="I-D.cheng-spring-srv6-encoding-network-sliceid" target="https://datatracker.ietf.org/doc/html/draft-cheng-spring-srv6-encoding-network-sliceid-10">
   <front>
     <title>Encoding Network Slice Identification for SRv6</title>
-    <author fullname="Weiqiang Cheng" initials="W." surname="Cheng">
+    <seriesInfo name="Internet-Draft" value="draft-cheng-spring-srv6-encoding-network-sliceid-10"/>
+    <author initials="W." surname="Cheng" fullname="Weiqiang Cheng">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Peiyong Ma" initials="P." surname="Ma">
+    <author initials="P." surname="Ma" fullname="Peiyong Ma">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Fenghua Ren" initials="F." surname="Ren">
+    <author initials="F." surname="Ren" fullname="Fenghua Ren">
       <organization>China Unicom</organization>
     </author>
-    <author fullname="Changwang Lin" initials="C." surname="Lin">
+    <author initials="C." surname="Lin" fullname="Changwang Lin">
       <organization>New H3C Technologies</organization>
     </author>
-    <author fullname="Liyan Gong" initials="L." surname="Gong">
+    <author initials="L." surname="Gong" fullname="Liyan Gong">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Shay Zadok" initials="S." surname="Zadok">
+    <author initials="S." surname="Zadok" fullname="Shay Zadok">
       <organization>Broadcom</organization>
     </author>
-    <author fullname="Mingyu Wu" initials="M." surname="Wu">
+    <author initials="M." surname="Wu" fullname="Mingyu Wu">
       <organization>CentecNetworks</organization>
     </author>
-    <author fullname="xuewei wang" initials="X." surname="wang">
+    <author initials="X." surname="wang" fullname="xuewei wang">
       <organization>Ruijie Networks Co., Ltd.</organization>
     </author>
-    <date year="2025" month="January" day="2"/>
+    <date day="02" month="January" year="2025"></date>
     <abstract>
-      <t>A Network Resource Partition (NRP) is a subset of the network resources and associated policies on each of a connected set of links in the underlay network. An NRP could be used as the underlay to support one or a group of enhanced VPN services. For packet forwarding in a specific NRP, some fields in the data packet are used to identify the NRP the packet belongs to, so that NRP-specific processing can be performed on each node along a path in the NRP. This document describes a novel method to encode NRP-ID in the outer IPv6 header of an SRv6 domain, which could be used to identify the NRP-specific processing to be performed on the packets by each network node along a network path in the NRP.</t>
+      <t>   A Network Resource Partition (NRP) is a subset of the network
+   resources and associated policies on each of a connected set of
+   links in the underlay network.  An NRP could be used as the underlay
+   to support one or a group of enhanced VPN services.  For packet
+   forwarding in a specific NRP, some fields in the data packet are
+   used to identify the NRP the packet belongs to, so that NRP-specific
+   processing can be performed on each node along a path in the NRP.
+
+   This document describes a novel method to encode NRP-ID in the outer
+   IPv6 header of an SRv6 domain, which could be used to identify the
+   NRP-specific processing to be performed on the packets by each
+   network node along a network path in the NRP.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-cheng-spring-srv6-encoding-network-sliceid-10"/>
 </reference>

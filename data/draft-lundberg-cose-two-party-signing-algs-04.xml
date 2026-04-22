@@ -1,16 +1,27 @@
 <reference anchor="I-D.lundberg-cose-two-party-signing-algs" target="https://datatracker.ietf.org/doc/html/draft-lundberg-cose-two-party-signing-algs-04">
   <front>
     <title>Split signing algorithms for COSE</title>
-    <author fullname="Emil Lundberg" initials="E." surname="Lundberg">
+    <seriesInfo name="Internet-Draft" value="draft-lundberg-cose-two-party-signing-algs-04"/>
+    <author initials="E." surname="Lundberg" fullname="Emil Lundberg">
       <organization>Yubico</organization>
     </author>
-    <author fullname="Michael B. Jones" initials="M. B." surname="Jones">
+    <author initials="M. B." surname="Jones" fullname="Michael B. Jones">
       <organization>Self-Issued Consulting</organization>
     </author>
-    <date year="2025" month="November" day="24"/>
+    <date day="24" month="November" year="2025"></date>
     <abstract>
-      <t>This specification defines COSE algorithm identifiers for negotiating how to split a signature algorithm between two cooperating parties. Typically the first party hashes the data to be signed and the second party finishes the signature over the hashed data. This is a common technique, useful for example when the signing private key is held in a smart card or similar hardware component with limited processing power and communication bandwidth. The resulting signatures are identical in structure to those computed by a single party, and can be verified using the same verification algorithm without additional steps to preprocess the signed data.</t>
+      <t>   This specification defines COSE algorithm identifiers for negotiating
+   how to split a signature algorithm between two cooperating parties.
+   Typically the first party hashes the data to be signed and the second
+   party finishes the signature over the hashed data.  This is a common
+   technique, useful for example when the signing private key is held in
+   a smart card or similar hardware component with limited processing
+   power and communication bandwidth.  The resulting signatures are
+   identical in structure to those computed by a single party, and can
+   be verified using the same verification algorithm without additional
+   steps to preprocess the signed data.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-lundberg-cose-two-party-signing-algs-04"/>
 </reference>

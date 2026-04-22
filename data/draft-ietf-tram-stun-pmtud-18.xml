@@ -1,19 +1,33 @@
 <reference anchor="I-D.ietf-tram-stun-pmtud" target="https://datatracker.ietf.org/doc/html/draft-ietf-tram-stun-pmtud-18">
   <front>
     <title>Packetization Layer Path MTU Discovery (PLMTUD) For UDP Transports Using Session Traversal Utilities for NAT (STUN)</title>
-    <author fullname="Marc Petit-Huguenin" initials="M." surname="Petit-Huguenin">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tram-stun-pmtud-18"/>
+    <author initials="M." surname="Petit-Huguenin" fullname="Marc Petit-Huguenin">
       <organization>Impedance Mismatch</organization>
     </author>
-    <author fullname="Gonzalo Salgueiro" initials="G." surname="Salgueiro">
+    <author initials="G." surname="Salgueiro" fullname="Gonzalo Salgueiro">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Felipe Garrido" initials="F." surname="Garrido">
+    <author initials="F." surname="Garrido" fullname="Felipe Garrido">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <date year="2020" month="August" day="19"/>
+    <date day="19" month="August" year="2020"></date>
     <abstract>
-      <t>The datagram exchanged between two Internet endpoints have to go through a series of physical and virtual links that may have different limits on the upper size of the datagram they can transmit without fragmentation. Because fragmentation is considered harmful, most transports and protocols are designed with a mechanism that permits dynamic measurement of the maximum size of a datagram. This mechanism is called Packetization Layer Path MTU Discovery (PLPMTUD). But the UDP transport and some of the protocols that use UDP were designed without that feature. The Session Traversal Utilities for NAT (STUN) Usage described in this document permits retrofitting an existing UDP-based protocol with such a feature. Similarly, a new UDP-based protocol could simply reuse the mechanism described in this document.</t>
+      <t>   The datagram exchanged between two Internet endpoints have to go
+   through a series of physical and virtual links that may have
+   different limits on the upper size of the datagram they can transmit
+   without fragmentation.  Because fragmentation is considered harmful,
+   most transports and protocols are designed with a mechanism that
+   permits dynamic measurement of the maximum size of a datagram.  This
+   mechanism is called Packetization Layer Path MTU Discovery (PLPMTUD).
+   But the UDP transport and some of the protocols that use UDP were
+   designed without that feature.  The Session Traversal Utilities for
+   NAT (STUN) Usage described in this document permits retrofitting an
+   existing UDP-based protocol with such a feature.  Similarly, a new
+   UDP-based protocol could simply reuse the mechanism described in this
+   document.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-tram-stun-pmtud-18"/>
 </reference>

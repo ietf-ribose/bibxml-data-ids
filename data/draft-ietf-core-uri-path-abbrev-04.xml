@@ -1,16 +1,24 @@
 <reference anchor="I-D.ietf-core-uri-path-abbrev" target="https://datatracker.ietf.org/doc/html/draft-ietf-core-uri-path-abbrev-04">
   <front>
     <title>URI-Path abbreviation in CoAP</title>
-    <author fullname="Christian Amsüss" initials="C." surname="Amsüss">
-      <organization/>
-    </author>
-    <author fullname="Michael Richardson" initials="M." surname="Richardson">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-core-uri-path-abbrev-04"/>
+    <author initials="C." surname="Amsüss" fullname="Christian Amsüss"/>
+    <author initials="M." surname="Richardson" fullname="Michael Richardson">
       <organization>Sandelman Software Works</organization>
     </author>
-    <date year="2026" month="March" day="19"/>
+    <date day="19" month="March" year="2026"></date>
     <abstract>
-      <t>Applications built on CoAP face a conflict between the technical need for short message sizes and the interoperability requirement of following BCP190 and thus using (relatively verbose) well-known URI paths. This document introduces a CoAP option that allows expressing well-known URI paths in as little as two bytes. Negotiating the use of this option between client and server revealed a subtle flaw in RFC7252. This document updates RFC7252 to rectify it, thus making the extension point of critical options more useful.</t>
+      <t>   Applications built on CoAP face a conflict between the technical need
+   for short message sizes and the interoperability requirement of
+   following BCP190 and thus using (relatively verbose) well-known URI
+   paths.  This document introduces a CoAP option that allows expressing
+   well-known URI paths in as little as two bytes.
+
+   Negotiating the use of this option between client and server revealed
+   a subtle flaw in RFC7252.  This document updates RFC7252 to rectify
+   it, thus making the extension point of critical options more useful.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-core-uri-path-abbrev-04"/>
 </reference>

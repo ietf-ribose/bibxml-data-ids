@@ -1,25 +1,37 @@
 <reference anchor="I-D.esale-ldp-node-frr" target="https://datatracker.ietf.org/doc/html/draft-esale-ldp-node-frr-00">
   <front>
     <title>Fast Reroute for Node Protection in LDP-based LSPs</title>
-    <author fullname="Santosh Esale" initials="S." surname="Esale">
+    <seriesInfo name="Internet-Draft" value="draft-esale-ldp-node-frr-00"/>
+    <author initials="S." surname="Esale" fullname="Santosh Esale">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Yakov Rekhter" initials="Y." surname="Rekhter">
+    <author initials="Y." surname="Rekhter" fullname="Yakov Rekhter">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Raveendra Torvi" initials="R." surname="Torvi">
+    <author initials="R." surname="Torvi" fullname="Raveendra Torvi">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Luyuan Fang" initials="L." surname="Fang">
+    <author initials="L." surname="Fang" fullname="Luyuan Fang">
       <organization>Microsoft</organization>
     </author>
-    <author fullname="Luay Jalil" initials="L." surname="Jalil">
+    <author initials="L." surname="Jalil" fullname="Luay Jalil">
       <organization>Verizon</organization>
     </author>
-    <date year="2015" month="March" day="24"/>
+    <date day="24" month="March" year="2015"></date>
     <abstract>
-      <t>This document describes procedures to support node protection for (unicast) Label Switched Paths(LSPs) established by LDP("Label Distribution Protocol"). In order to protect a node N, the Point of Local Repair (PLR) of N must discover the Merge Points(MPTs) of node N such that traffic can be redirected to them in case node N fails. Redirecting the traffic around the failed node N depends on existing point-to-point LSPs originated from the PLR to the MPTs while bypassing the protected node N. The procedures described in this document are topology independent in a sense that they provide node protection in any topology.</t>
+      <t>   This document describes procedures to support node protection for
+   (unicast) Label Switched Paths(LSPs) established by LDP("Label
+   Distribution Protocol"). In order to protect a node N, the Point of
+   Local Repair (PLR) of N must discover the Merge Points(MPTs) of node
+   N such that traffic can be redirected to them in case node N fails.
+   Redirecting the traffic around the failed node N depends on existing
+   point-to-point LSPs originated from the PLR to the MPTs while
+   bypassing the protected node N.  The procedures described in this
+   document are topology independent in a sense that they provide node
+   protection in any topology.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-esale-ldp-node-frr-00"/>
 </reference>

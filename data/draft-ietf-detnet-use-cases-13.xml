@@ -1,73 +1,91 @@
 <reference anchor="I-D.ietf-detnet-use-cases" target="https://datatracker.ietf.org/doc/html/draft-ietf-detnet-use-cases-13">
   <front>
     <title>Deterministic Networking Use Cases</title>
-    <author fullname="Ethan Grossman" initials="E." surname="Grossman">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-detnet-use-cases-13"/>
+    <author initials="E." surname="Grossman" fullname="Ethan Grossman">
       <organization>Dolby Laboratories, Inc.</organization>
     </author>
-    <author fullname="Craig Gunther" initials="C." surname="Gunther">
+    <author initials="C." surname="Gunther" fullname="Craig Gunther">
       <organization>Harman International</organization>
     </author>
-    <author fullname="Pascal Thubert" initials="P." surname="Thubert">
+    <author initials="P." surname="Thubert" fullname="Pascal Thubert">
       <organization>Cisco Systems, Inc</organization>
     </author>
-    <author fullname="Patrick Wetterwald" initials="P." surname="Wetterwald">
+    <author initials="P." surname="Wetterwald" fullname="Patrick Wetterwald">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Jean Raymond" initials="J." surname="Raymond">
+    <author initials="J." surname="Raymond" fullname="Jean Raymond">
       <organization>Hydro-Quebec</organization>
     </author>
-    <author fullname="Jouni Korhonen" initials="J." surname="Korhonen">
+    <author initials="J." surname="Korhonen" fullname="Jouni Korhonen">
       <organization>Broadcom Corporation</organization>
     </author>
-    <author fullname="Yu Kaneko" initials="Y." surname="Kaneko">
+    <author initials="Y." surname="Kaneko" fullname="Yu Kaneko">
       <organization>Toshiba</organization>
     </author>
-    <author fullname="Subir Das" initials="S." surname="Das">
+    <author initials="S." surname="Das" fullname="Subir Das">
       <organization>Applied Communication Sciences</organization>
     </author>
-    <author fullname="Yiyong Zha" initials="Y." surname="Zha">
+    <author initials="Y." surname="Zha" fullname="Yiyong Zha">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Balazs Varga" initials="B." surname="Varga">
+    <author initials="B." surname="Varga" fullname="Balazs Varga">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="János Farkas" initials="J." surname="Farkas">
+    <author initials="J." surname="Farkas" fullname="János Farkas">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Franz-Josef Goetz" initials="F." surname="Goetz">
+    <author initials="F." surname="Goetz" fullname="Franz-Josef Goetz">
       <organization>Siemens</organization>
     </author>
-    <author fullname="Jürgen Schmitt" initials="J." surname="Schmitt">
+    <author initials="J." surname="Schmitt" fullname="Jürgen Schmitt">
       <organization>Siemens</organization>
     </author>
-    <author fullname="Xavier Vilajosana" initials="X." surname="Vilajosana">
+    <author initials="X." surname="Vilajosana" fullname="Xavier Vilajosana">
       <organization>Worldsensing</organization>
     </author>
-    <author fullname="Toktam Mahmoodi" initials="T." surname="Mahmoodi">
+    <author initials="T." surname="Mahmoodi" fullname="Toktam Mahmoodi">
       <organization>King's College London</organization>
     </author>
-    <author fullname="Spiros Spirou" initials="S." surname="Spirou">
+    <author initials="S." surname="Spirou" fullname="Spiros Spirou">
       <organization>Intracom Telecom</organization>
     </author>
-    <author fullname="Petra Vizarreta" initials="P." surname="Vizarreta">
+    <author initials="P." surname="Vizarreta" fullname="Petra Vizarreta">
       <organization>Technical University of Munich, TUM</organization>
     </author>
-    <author fullname="Daniel Huang" initials="D." surname="Huang">
+    <author initials="D." surname="Huang" fullname="Daniel Huang">
       <organization>ZTE Corporation, Inc.</organization>
     </author>
-    <author fullname="Xuesong Geng" initials="X." surname="Geng">
+    <author initials="X." surname="Geng" fullname="Xuesong Geng">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Diego Roberto Dujovne" initials="D. R." surname="Dujovne">
+    <author initials="D. R." surname="Dujovne" fullname="Diego Roberto Dujovne">
       <organization>Universidad Diego Portales</organization>
     </author>
-    <author fullname="Maik Seewald" initials="M." surname="Seewald">
+    <author initials="M." surname="Seewald" fullname="Maik Seewald">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2017" month="September" day="18"/>
+    <date day="18" month="September" year="2017"></date>
     <abstract>
-      <t>This draft documents requirements in several diverse industries to establish multi-hop paths for characterized flows with deterministic properties. In this context deterministic implies that streams can be established which provide guaranteed bandwidth and latency which can be established from either a Layer 2 or Layer 3 (IP) interface, and which can co-exist on an IP network with best-effort traffic. Additional requirements include optional redundant paths, very high reliability paths, time synchronization, and clock distribution. Industries considered include professional audio, electrical utilities, building automation systems, wireless for industrial, cellular radio, industrial machine-to-machine, mining, private blockchain, and network slicing. For each case, this document will identify the application, identify representative solutions used today, and the improvements IETF DetNet solutions may enable.</t>
+      <t>   This draft documents requirements in several diverse industries to
+   establish multi-hop paths for characterized flows with deterministic
+   properties.  In this context deterministic implies that streams can
+   be established which provide guaranteed bandwidth and latency which
+   can be established from either a Layer 2 or Layer 3 (IP) interface,
+   and which can co-exist on an IP network with best-effort traffic.
+
+   Additional requirements include optional redundant paths, very high
+   reliability paths, time synchronization, and clock distribution.
+   Industries considered include professional audio, electrical
+   utilities, building automation systems, wireless for industrial,
+   cellular radio, industrial machine-to-machine, mining, private
+   blockchain, and network slicing.
+
+   For each case, this document will identify the application, identify
+   representative solutions used today, and the improvements IETF DetNet
+   solutions may enable.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-detnet-use-cases-13"/>
 </reference>

@@ -1,0 +1,27 @@
+<reference anchor="I-D.nyakiso-hcap" target="https://datatracker.ietf.org/doc/html/draft-nyakiso-hcap-00">
+  <front>
+    <title>HTTP Compliance Authorization Protocol (HCAP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-nyakiso-hcap-00"/>
+    <author initials="L." surname="Nyakiso" fullname="Lawrance Nyakiso">
+      <organization>RuleMesh</organization>
+    </author>
+    <date day="20" month="April" year="2026"></date>
+    <abstract>
+      <t>   This document specifies the HTTP Compliance Authorization Protocol
+   (HCAP), an extension to the HTTP authentication framework that allows
+   resource providers to require demonstrable evidence of caller
+   compliance with declared policies before granting access to protected
+   resources.  Callers obtain signed compliance credentials from a
+   compliance registry by presenting evidence of their controls.
+   Credentials are conveyed at the HTTP layer and verified offline by
+   the provider.
+
+   HCAP operates alongside existing authentication schemes (OAuth 2.0,
+   mTLS) and does not replace identity authentication.  It addresses the
+   distinct question of "does the caller meet declared policy
+   requirements" rather than "who is the caller".
+
+	 </t>
+    </abstract>
+  </front>
+</reference>

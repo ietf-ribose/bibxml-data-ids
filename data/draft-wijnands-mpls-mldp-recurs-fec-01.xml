@@ -1,22 +1,32 @@
 <reference anchor="I-D.wijnands-mpls-mldp-recurs-fec" target="https://datatracker.ietf.org/doc/html/draft-wijnands-mpls-mldp-recurs-fec-01">
   <front>
     <title>Using mLDP through a Backbone where there is no Route to the Root</title>
-    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
+    <seriesInfo name="Internet-Draft" value="draft-wijnands-mpls-mldp-recurs-fec-01"/>
+    <author initials="I." surname="Wijnands" fullname="IJsbrand Wijnands">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Eric C. Rosen" initials="E. C." surname="Rosen">
+    <author initials="E. C." surname="Rosen" fullname="Eric C. Rosen">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Maria Napierala" initials="M." surname="Napierala">
+    <author initials="M." surname="Napierala" fullname="Maria Napierala">
       <organization>AT&amp;T</organization>
     </author>
-    <author fullname="Nicolai Leymann" initials="N." surname="Leymann">
+    <author initials="N." surname="Leymann" fullname="Nicolai Leymann">
       <organization>Deutsche Telekom</organization>
     </author>
-    <date year="2010" month="April" day="16"/>
+    <date day="16" month="April" year="2010"></date>
     <abstract>
-      <t>The control protocol used for constructing Point-to-Multipoint and Multipoint-to-Multipoint Label Switched Paths ("MP LSPs") contains a field that identifies the address of a "root node". Intermediate nodes are expected to be able to look up that address in their routing tables. However, if the route to the root node is a BGP route, and the intermediate nodes are part of a BGP-free core, this is not possible. This document specifies procedures which enable a MP LSP to be constructed through a BGP-free core. In these procedures, the root node address is temporarily replaced by an address which is known to the intermediate nodes.</t>
+      <t>The control protocol used for constructing Point-to-Multipoint and
+Multipoint-to-Multipoint Label Switched Paths ("MP LSPs") contains a
+field that identifies the address of a "root node".  Intermediate
+nodes are expected to be able to look up that address in their
+routing tables.  However, if the route to the root node is a BGP
+route, and the intermediate nodes are part of a BGP-free core, this
+is not possible.  This document specifies procedures which enable a
+MP LSP to be constructed through a BGP-free core.  In these
+procedures, the root node address is temporarily replaced by an
+address which is known to the intermediate nodes.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wijnands-mpls-mldp-recurs-fec-01"/>
 </reference>

@@ -1,13 +1,26 @@
 <reference anchor="I-D.mizrahi-ntp-checksum-trailer" target="https://datatracker.ietf.org/doc/html/draft-mizrahi-ntp-checksum-trailer-02">
   <front>
     <title>Using UDP Checksum Trailers in the Network Time Protocol (NTP)</title>
-    <author fullname="Tal Mizrahi" initials="T." surname="Mizrahi">
+    <seriesInfo name="Internet-Draft" value="draft-mizrahi-ntp-checksum-trailer-02"/>
+    <author initials="T." surname="Mizrahi" fullname="Tal Mizrahi">
       <organization>Marvell</organization>
     </author>
-    <date year="2014" month="April" day="15"/>
+    <date day="15" month="April" year="2014"></date>
     <abstract>
-      <t>The Network Time Protocol (NTP) allows clients to synchronize to a time server using timestamped protocol messages. To faciliate accurate timestamping, some implementations use hardware-based timestamping engines that integrate the accurate transmission time into every outgoing NTP packet during transmission. Since these packets are transported over UDP, the UDP checksum field is then updated to reflect this modification. This document proposes an extension field that includes a 2-octet Checksum Trailer, allowing timestamping engines to reflect the checksum modification in the last 2 octets of the packet rather than in the UDP checksum field. The behavior defined in this document is interoperable with existing NTP implementations.</t>
+      <t>   The Network Time Protocol (NTP) allows clients to synchronize to a
+   time server using timestamped protocol messages. To faciliate
+   accurate timestamping, some implementations use hardware-based
+   timestamping engines that integrate the accurate transmission time
+   into every outgoing NTP packet during transmission. Since these
+   packets are transported over UDP, the UDP checksum field is then
+   updated to reflect this modification. This document proposes an
+   extension field that includes a 2-octet Checksum Trailer, allowing
+   timestamping engines to reflect the checksum modification in the last
+   2 octets of the packet rather than in the UDP checksum field. The
+   behavior defined in this document is interoperable with existing NTP
+   implementations.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mizrahi-ntp-checksum-trailer-02"/>
 </reference>

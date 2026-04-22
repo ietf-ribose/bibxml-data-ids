@@ -1,16 +1,27 @@
 <reference anchor="I-D.peterson-sipcore-advprop" target="https://datatracker.ietf.org/doc/html/draft-peterson-sipcore-advprop-01">
   <front>
     <title>The Advertisement/Proposal Model of Session Description</title>
-    <author fullname="Jon Peterson" initials="J." surname="Peterson">
+    <seriesInfo name="Internet-Draft" value="draft-peterson-sipcore-advprop-01"/>
+    <author initials="J." surname="Peterson" fullname="Jon Peterson">
       <organization>NeuStar, Inc.</organization>
     </author>
-    <author fullname="Cullen Fluffy Jennings" initials="C. F." surname="Jennings">
+    <author initials="C. F." surname="Jennings" fullname="Cullen Fluffy Jennings">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2011" month="March" day="14"/>
+    <date day="14" month="March" year="2011"></date>
     <abstract>
-      <t>In common SIP practice, a two-phase "offer/answer" exchange of session description documents negotiates preferences, capabilities and requested sessions. However, the structure of the session description greatly confuses the disambiguation of these elements and thus the clear characterization of sessions. The current work proposes an alternative to the offer/answer model which leverages pre-association between user agents to recast those two phases into a less ambiguous form: an Advertisement of capabilities and preferences which occurs in non-real-time before a session is ever requested, which is followed during session establishment by a unidirectional and complete Proposal of a session.</t>
+      <t>In common SIP practice, a two-phase "offer/answer" exchange of
+session description documents negotiates preferences, capabilities
+and requested sessions.  However, the structure of the session
+description greatly confuses the disambiguation of these elements and
+thus the clear characterization of sessions.  The current work
+proposes an alternative to the offer/answer model which leverages
+pre-association between user agents to recast those two phases into a
+less ambiguous form: an Advertisement of capabilities and preferences
+which occurs in non-real-time before a session is ever requested,
+which is followed during session establishment by a unidirectional
+and complete Proposal of a session.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-peterson-sipcore-advprop-01"/>
 </reference>

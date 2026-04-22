@@ -1,25 +1,39 @@
 <reference anchor="I-D.atlas-mpls-ldp-mrt" target="https://datatracker.ietf.org/doc/html/draft-atlas-mpls-ldp-mrt-03">
   <front>
     <title>LDP Extensions to Support Maximally Redundant Trees</title>
-    <author fullname="Alia Atlas" initials="A." surname="Atlas">
+    <seriesInfo name="Internet-Draft" value="draft-atlas-mpls-ldp-mrt-03"/>
+    <author initials="A." surname="Atlas" fullname="Alia Atlas">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Kishore Tiruveedhula" initials="K." surname="Tiruveedhula">
+    <author initials="K." surname="Tiruveedhula" fullname="Kishore Tiruveedhula">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Chris Bowers" initials="C." surname="Bowers">
+    <author initials="C." surname="Bowers" fullname="Chris Bowers">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+    <author initials="J." surname="Tantsura" fullname="Jeff Tantsura">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
+    <author initials="I." surname="Wijnands" fullname="IJsbrand Wijnands">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2014" month="December" day="15"/>
+    <date day="15" month="December" year="2014"></date>
     <abstract>
-      <t>This document specifies extensions to the Label Distribution Protocol(LDP) to support the creation of label-switched paths for Maximally Redundant Trees (MRT). A prime use of MRTs is for unicast and multicast IP/LDP Fast-Reroute, which we will refer to as MRT-FRR. The sole protocol extension to LDP is simply the ability to advertise an MRT Capability. This document describes that extension and the associated behavior expected for LSRs and LERs advertising the MRT Capability. MRT-FRR uses LDP multi-topology extensions and requires three different multi-topology IDs to be allocated from the LDP MT-ID space.</t>
+      <t>   This document specifies extensions to the Label Distribution
+   Protocol(LDP) to support the creation of label-switched paths for
+   Maximally Redundant Trees (MRT).  A prime use of MRTs is for unicast
+   and multicast IP/LDP Fast-Reroute, which we will refer to as MRT-FRR.
+
+   The sole protocol extension to LDP is simply the ability to advertise
+   an MRT Capability.  This document describes that extension and the
+   associated behavior expected for LSRs and LERs advertising the MRT
+   Capability.
+
+   MRT-FRR uses LDP multi-topology extensions and requires three
+   different multi-topology IDs to be allocated from the LDP MT-ID
+   space.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-atlas-mpls-ldp-mrt-03"/>
 </reference>

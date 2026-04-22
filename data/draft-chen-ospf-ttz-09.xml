@@ -1,34 +1,36 @@
 <reference anchor="I-D.chen-ospf-ttz" target="https://datatracker.ietf.org/doc/html/draft-chen-ospf-ttz-09">
   <front>
     <title>OSPF Topology-Transparent Zone</title>
-    <author fullname="Huaimo Chen" initials="H." surname="Chen">
-      <organization/>
-    </author>
-    <author fullname="Richard Li" initials="R." surname="Li">
-      <organization/>
-    </author>
-    <author fullname="Gregory Cauchie" initials="G." surname="Cauchie">
-      <organization/>
-    </author>
-    <author fullname="Alvaro Retana" initials="A." surname="Retana">
+    <seriesInfo name="Internet-Draft" value="draft-chen-ospf-ttz-09"/>
+    <author initials="H." surname="Chen" fullname="Huaimo Chen"/>
+    <author initials="R." surname="Li" fullname="Richard Li"/>
+    <author initials="G." surname="Cauchie" fullname="Gregory Cauchie"/>
+    <author initials="A." surname="Retana" fullname="Alvaro Retana">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Ning So" initials="N." surname="So">
+    <author initials="N." surname="So" fullname="Ning So">
       <organization>Tata Communications</organization>
     </author>
-    <author fullname="Vic Liu" initials="" surname="Liu">
+    <author surname="Liu" fullname="Vic Liu">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Mehmet Toy" initials="M." surname="Toy">
+    <author initials="M." surname="Toy" fullname="Mehmet Toy">
       <organization>Comcast</organization>
     </author>
-    <author fullname="Lei Liu" initials="L." surname="Liu">
+    <author initials="L." surname="Liu" fullname="Lei Liu">
       <organization>UC Davis</organization>
     </author>
-    <date year="2014" month="October" day="26"/>
+    <date day="26" month="October" year="2014"></date>
     <abstract>
-      <t>This document presents a topology-transparent zone in a domain. A topology-transparent zone comprises a group of routers and a number of links connecting these routers. Any router outside of the zone is not aware of the zone. The information about the links and routers inside the zone is not distributed to any router outside of the zone. Any link state change such as a link down inside the zone is not seen by any router outside of the zone.</t>
+      <t>   This document presents a topology-transparent zone in a domain.  A
+   topology-transparent zone comprises a group of routers and a number
+   of links connecting these routers.  Any router outside of the zone is
+   not aware of the zone.  The information about the links and routers
+   inside the zone is not distributed to any router outside of the zone.
+   Any link state change such as a link down inside the zone is not seen
+   by any router outside of the zone.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-chen-ospf-ttz-09"/>
 </reference>

@@ -1,19 +1,29 @@
 <reference anchor="I-D.ietf-eap-otp" target="https://datatracker.ietf.org/doc/html/draft-ietf-eap-otp-00">
   <front>
     <title>The One Time Password (OTP) and Generic Token Card Authentication Protocols</title>
-    <author fullname="Larry Blunk" initials="L." surname="Blunk">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-eap-otp-00"/>
+    <author initials="L." surname="Blunk" fullname="Larry Blunk">
       <organization>Merit Networks</organization>
     </author>
-    <author fullname="John Vollbrecht" initials="J." surname="Vollbrecht">
-      <organization/>
-    </author>
-    <author fullname="Dr. Bernard D. Aboba" initials="B." surname="Aboba">
+    <author initials="J." surname="Vollbrecht" fullname="John Vollbrecht"/>
+    <author initials="B." surname="Aboba" fullname="Dr. Bernard D. Aboba">
       <organization>Microsoft</organization>
     </author>
-    <date year="2002" month="October" day="14"/>
+    <date day="14" month="October" year="2002"></date>
     <abstract>
-      <t>EAP is an authentication protocol which supports multiple authentication mechanisms. EAP typically runs directly over the link layer without requiring IP and therefore includes its own support for in-order delivery and re-transmission. While EAP was originally developed for use with PPP, it is also now in use with IEEE 802. This document defines the One Time Password (OTP) and Generic Token Card EAP methods, both of which provide one-way authentication, but not key generation. As a result, the OTP and Generic Token Card methods, when used by themselves, are only appropriate for use on networks where physical security can be assumed. These methods SHOULD NOT be used on wireless networks, or over the Internet, unless the EAP conversation is protected. This can be accomplished using technologies such as IPsec or TLS.</t>
+      <t>EAP is an authentication protocol which supports multiple authentication
+mechanisms. EAP typically runs directly over the link layer without
+requiring IP and therefore includes its own support for in-order
+delivery and re-transmission. While EAP was originally developed for use
+with PPP, it is also now in use with IEEE 802. This document defines the
+One Time Password (OTP) and Generic Token Card EAP methods, both of
+which provide one-way authentication, but not key generation. As a
+result, the OTP and Generic Token Card methods, when used by themselves,
+are only appropriate for use on networks where physical security can be
+assumed. These methods SHOULD NOT be used on wireless networks, or over
+the Internet, unless the EAP conversation is protected. This can be
+accomplished using technologies such as IPsec or TLS.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-eap-otp-00"/>
 </reference>

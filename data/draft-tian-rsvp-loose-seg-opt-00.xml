@@ -1,13 +1,23 @@
 <reference anchor="I-D.tian-rsvp-loose-seg-opt" target="https://datatracker.ietf.org/doc/html/draft-tian-rsvp-loose-seg-opt-00">
   <front>
     <title>Loose Segment Optimization in Explicit Paths</title>
-    <author fullname="Albert Tian" initials="A." surname="Tian">
+    <seriesInfo name="Internet-Draft" value="draft-tian-rsvp-loose-seg-opt-00"/>
+    <author initials="A." surname="Tian" fullname="Albert Tian">
       <organization>Redback Networks</organization>
     </author>
-    <date year="2004" month="July" day="13"/>
+    <date day="13" month="July" year="2004"></date>
     <abstract>
-      <t>RSVP-TE [RSVPTE] can signal explicit paths with loose or strict hops in a MPLS network. Using loose hops can shorten the ERO, but can not reduce the overhead associated with an RSVP signaled LSP since path states are still created on every hop along the path. In this paper, we propose a mechanism that can reduce the signaling and maintenance overhead associated with loose hops in an RSVP signaled LSP in an LDP enabled network. The mechanism can also be generalized to work with other tunneling technologies such as GRE or IP-in-IP.</t>
+      <t>   RSVP-TE [RSVPTE] can signal explicit paths with loose or strict hops
+   in a MPLS network. Using loose hops can shorten the ERO, but can not
+   reduce the overhead associated with an RSVP signaled LSP since path
+   states are still created on every hop along the path.
+
+   In this paper, we propose a mechanism that can reduce the signaling
+   and maintenance overhead associated with loose hops in an RSVP
+   signaled LSP in an LDP enabled network. The mechanism can also be
+   generalized to work with other tunneling technologies such as GRE or
+   IP-in-IP.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-tian-rsvp-loose-seg-opt-00"/>
 </reference>

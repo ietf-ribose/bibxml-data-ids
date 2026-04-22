@@ -1,13 +1,21 @@
 <reference anchor="I-D.klensin-email-envelope" target="https://datatracker.ietf.org/doc/html/draft-klensin-email-envelope-00">
   <front>
     <title>A Cleaner SMTP Envelope for Internet Mail</title>
-    <author fullname="Dr. John C. Klensin" initials="J. C." surname="Klensin">
-      <organization/>
-    </author>
-    <date year="2004" month="January" day="23"/>
+    <seriesInfo name="Internet-Draft" value="draft-klensin-email-envelope-00"/>
+    <author initials="J. C." surname="Klensin" fullname="Dr. John C. Klensin"/>
+    <date day="23" month="January" year="2004"></date>
     <abstract>
-      <t>During the last few years, a number of proposals for extensions or improvements to email have run into trouble with a side-effect of mail relaying. In the current Internet Mail model, every SMTP server is required to break strict layering by inserting one or more additional 'trace' headers into the message headers which are actually part of the SMTP payload. Since the headers are altered in transit, header-signing is not an available option, various anti-spam and internationalization strategies are infeasible or much more complex, and so on. This document proposes to change the Internet mail model to place the in-transit trace information in the envelope, removing the requirement that relaying systems modify the message payload.</t>
+      <t>During the last few years, a number of proposals for
+extensions or improvements to email have run into trouble with a
+side-effect of mail relaying.  In the current Internet Mail model, every SMTP server is required to break strict layering by inserting one or more additional 'trace' headers into the message headers which are actually part of the SMTP payload.  Since the headers are
+altered in transit, header-signing is not an available option, various
+anti-spam and internationalization strategies are infeasible or much
+more complex, and so on.  This document proposes to change the
+Internet mail model to place the in-transit trace information in the
+envelope, removing the requirement that relaying systems modify the
+message payload.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-klensin-email-envelope-00"/>
 </reference>

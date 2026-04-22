@@ -1,16 +1,24 @@
 <reference anchor="I-D.biggs-acme-sso" target="https://datatracker.ietf.org/doc/html/draft-biggs-acme-sso-00">
   <front>
     <title>Automated Certificate Management Environment (ACME) Extension for Single Sign On Challenges</title>
-    <author fullname="Andrew Biggs" initials="A." surname="Biggs">
+    <seriesInfo name="Internet-Draft" value="draft-biggs-acme-sso-00"/>
+    <author initials="A." surname="Biggs" fullname="Andrew Biggs">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Richard Barnes" initials="R." surname="Barnes">
+    <author initials="R." surname="Barnes" fullname="Richard Barnes">
       <organization>Cisco</organization>
     </author>
-    <date year="2020" month="December" day="8"/>
+    <date day="08" month="December" year="2020"></date>
     <abstract>
-      <t>This document specifies an extension to the ACME protocol [RFC8555] to enable ACME servers to validate a client's control of an email identifier using single sign-on (SSO) technologies. An extension to the CAA [RFC8659] resource record specification is also defined to provide domain owners a means to declare a set of SSO providers that ACME servers may rely upon when employing SSO for identifier validation on their domain.</t>
+      <t>   This document specifies an extension to the ACME protocol [RFC8555]
+   to enable ACME servers to validate a client's control of an email
+   identifier using single sign-on (SSO) technologies.  An extension to
+   the CAA [RFC8659] resource record specification is also defined to
+   provide domain owners a means to declare a set of SSO providers that
+   ACME servers may rely upon when employing SSO for identifier
+   validation on their domain.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-biggs-acme-sso-00"/>
 </reference>

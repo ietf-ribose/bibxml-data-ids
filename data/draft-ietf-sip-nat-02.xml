@@ -1,19 +1,28 @@
 <reference anchor="I-D.ietf-sip-nat" target="https://datatracker.ietf.org/doc/html/draft-ietf-sip-nat-02">
   <front>
     <title>An Extension to the Session Initiation Protocol (SIP) for Symmetric Response Routing</title>
-    <author fullname="Jonathan Rosenberg" initials="J." surname="Rosenberg">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-sip-nat-02"/>
+    <author initials="J." surname="Rosenberg" fullname="Jonathan Rosenberg">
       <organization>dynamicsoft</organization>
     </author>
-    <author fullname="Joel Weinberger" initials="J." surname="Weinberger">
+    <author initials="J." surname="Weinberger" fullname="Joel Weinberger">
       <organization>dynamicsoft</organization>
     </author>
-    <author fullname="Henning Schulzrinne" initials="H." surname="Schulzrinne">
+    <author initials="H." surname="Schulzrinne" fullname="Henning Schulzrinne">
       <organization>Columbia U.</organization>
     </author>
-    <date year="2002" month="July" day="5"/>
+    <date day="05" month="July" year="2002"></date>
     <abstract>
-      <t>The Session Initiation Protocol (SIP) operates over UDP and TCP. When used with UDP, responses to requests are returned to the source address the request came from, but from the port written into the topmost Via header of the request. This behavior is not desirable in many cases, most notably, when the client is behind a NAT. This extension defines a new parameter for the Via header, called rport, that allows a client to request that the server send the response back to the source IP address and port where the request came from.</t>
+      <t>The Session Initiation Protocol (SIP) operates over UDP and TCP. When
+used with UDP, responses to requests are returned to the source
+address the request came from, but from the port written into the
+topmost Via header of the request. This behavior is not desirable in
+many cases, most notably, when the client is behind a NAT. This
+extension defines a new parameter for the Via header, called rport,
+that allows a client to request that the server send the response
+back to the source IP address and port where the request came from.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-sip-nat-02"/>
 </reference>

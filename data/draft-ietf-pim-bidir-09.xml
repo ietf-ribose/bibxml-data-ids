@@ -1,22 +1,23 @@
 <reference anchor="I-D.ietf-pim-bidir" target="https://datatracker.ietf.org/doc/html/draft-ietf-pim-bidir-09">
   <front>
     <title>Bidirectional Protocol Independent Multicast (BIDIR-PIM)</title>
-    <author fullname="Tony Speakman" initials="T." surname="Speakman">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pim-bidir-09"/>
+    <author initials="T." surname="Speakman" fullname="Tony Speakman">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Lorenzo Vicisano" initials="L." surname="Vicisano">
+    <author initials="L." surname="Vicisano" fullname="Lorenzo Vicisano">
       <organization>Digital Fountain</organization>
     </author>
-    <author fullname="Mark J. Handley" initials="M. J." surname="Handley">
+    <author initials="M. J." surname="Handley" fullname="Mark J. Handley">
       <organization>UCL</organization>
     </author>
-    <author fullname="Isidor Kouvelas" initials="I." surname="Kouvelas">
+    <author initials="I." surname="Kouvelas" fullname="Isidor Kouvelas">
       <organization>Cisco</organization>
     </author>
-    <date year="2007" month="February" day="23"/>
+    <date day="23" month="February" year="2007"></date>
     <abstract>
-      <t>This document discusses Bidirectional PIM (BIDIR-PIM), a variant of PIM Sparse-Mode that builds bidirectional shared trees connecting multicast sources and receivers. Bidirectional trees are built using a fail-safe Designated Forwarder (DF) election mechanism operating on each link of a multicast topology. With the assistance of the DF, multicast data is natively forwarded from sources to the Rendezvous-Point (RP) and hence along the shared tree to receivers without requiring source-specific state. The DF election takes place at RP discovery time and provides the route to the RP, thus eliminating the requirement for data-driven protocol events. [STANDARDS-TRACK]</t>
+      <t>This document discusses Bidirectional PIM (BIDIR-PIM), a variant of PIM Sparse-Mode that builds bidirectional shared trees connecting multicast sources and receivers.  Bidirectional trees are built using a fail-safe Designated Forwarder (DF) election mechanism operating on each link of a multicast topology.  With the assistance of the DF, multicast data is natively forwarded from sources to the Rendezvous-Point (RP) and hence along the shared tree to receivers without requiring source-specific state.  The DF election takes place at RP discovery time and provides the route to the RP, thus eliminating the requirement for data-driven protocol events. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-pim-bidir-09"/>
 </reference>

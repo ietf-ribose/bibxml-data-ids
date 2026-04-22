@@ -1,25 +1,36 @@
 <reference anchor="I-D.ietf-core-resource-directory" target="https://datatracker.ietf.org/doc/html/draft-ietf-core-resource-directory-20">
   <front>
     <title>CoRE Resource Directory</title>
-    <author fullname="Zach Shelby" initials="Z." surname="Shelby">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-core-resource-directory-20"/>
+    <author initials="Z." surname="Shelby" fullname="Zach Shelby">
       <organization>ARM</organization>
     </author>
-    <author fullname="Michael Koster" initials="M." surname="Koster">
+    <author initials="M." surname="Koster" fullname="Michael Koster">
       <organization>SmartThings</organization>
     </author>
-    <author fullname="Carsten Bormann" initials="C." surname="Bormann">
+    <author initials="C." surname="Bormann" fullname="Carsten Bormann">
       <organization>Universitaet Bremen TZI</organization>
     </author>
-    <author fullname="Peter Van der Stok" initials="P." surname="Van der Stok">
+    <author initials="P." surname="Van der Stok" fullname="Peter Van der Stok">
       <organization>consultant</organization>
     </author>
-    <author fullname="Christian Amsüss" initials="C." surname="Amsüss">
-      <organization/>
-    </author>
-    <date year="2019" month="March" day="11"/>
+    <author initials="C." surname="Amsüss" fullname="Christian Amsüss"/>
+    <date day="11" month="March" year="2019"></date>
     <abstract>
-      <t>In many IoT applications, direct discovery of resources is not practical due to sleeping nodes, disperse networks, or networks where multicast traffic is inefficient. These problems can be solved by employing an entity called a Resource Directory (RD), which contains information about resources held on other servers, allowing lookups to be performed for those resources. The input to an RD is composed of links and the output is composed of links constructed from the information stored in the RD. This document specifies the web interfaces that a Resource Directory supports for web servers to discover the RD and to register, maintain, lookup and remove information on resources. Furthermore, new target attributes useful in conjunction with an RD are defined.</t>
+      <t>   In many IoT applications, direct discovery of resources is not
+   practical due to sleeping nodes, disperse networks, or networks where
+   multicast traffic is inefficient.  These problems can be solved by
+   employing an entity called a Resource Directory (RD), which contains
+   information about resources held on other servers, allowing lookups
+   to be performed for those resources.  The input to an RD is composed
+   of links and the output is composed of links constructed from the
+   information stored in the RD.  This document specifies the web
+   interfaces that a Resource Directory supports for web servers to
+   discover the RD and to register, maintain, lookup and remove
+   information on resources.  Furthermore, new target attributes useful
+   in conjunction with an RD are defined.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-core-resource-directory-20"/>
 </reference>

@@ -1,19 +1,35 @@
 <reference anchor="I-D.dulinski-alto-inter-problem-statement" target="https://datatracker.ietf.org/doc/html/draft-dulinski-alto-inter-problem-statement-02">
   <front>
     <title>Inter-ALTO Communication Problem Statement</title>
-    <author fullname="Zbigniew Dulinski" initials="Z." surname="Dulinski">
+    <seriesInfo name="Internet-Draft" value="draft-dulinski-alto-inter-problem-statement-02"/>
+    <author initials="Z." surname="Dulinski" fullname="Zbigniew Dulinski">
       <organization>Jagiellonian University</organization>
     </author>
-    <author fullname="Piotr Wydrych" initials="P." surname="Wydrych">
+    <author initials="P." surname="Wydrych" fullname="Piotr Wydrych">
       <organization>AGH University</organization>
     </author>
-    <author fullname="Rafal Stankiewicz" initials="R." surname="Stankiewicz">
+    <author initials="R." surname="Stankiewicz" fullname="Rafal Stankiewicz">
       <organization>AGH University</organization>
     </author>
-    <date year="2015" month="July" day="6"/>
+    <date day="06" month="July" year="2015"></date>
     <abstract>
-      <t>The Application-Layer Traffic Optimization (ALTO) protocol has been standardized in RFC7285 to ease better-than-random overlay connection management. Due to various reasons, optimization capabilities of ALTO servers are limited by the fact that it may not be possible for an ALTO server to compute costs for source/destination pairs correctly if a source and/or a destination is outside the administrative domain it belongs to. In other words, an ALTO server may be generally unable to optimize the traffic with only locally available topology information. Therefore, it is proposed that operators of distinct administrative domains may agree on topology- and policy-related information exchange through a standardized inter-ALTO communication framework. This document provides a rationale for design, standardization, and implementation of the inter-ALTO communication framework.</t>
+      <t>   The Application-Layer Traffic Optimization (ALTO) protocol has been
+   standardized in RFC7285 to ease better-than-random overlay connection
+   management.  Due to various reasons, optimization capabilities of
+   ALTO servers are limited by the fact that it may not be possible for
+   an ALTO server to compute costs for source/destination pairs
+   correctly if a source and/or a destination is outside the
+   administrative domain it belongs to.  In other words, an ALTO server
+   may be generally unable to optimize the traffic with only locally
+   available topology information.
+
+   Therefore, it is proposed that operators of distinct administrative
+   domains may agree on topology- and policy-related information
+   exchange through a standardized inter-ALTO communication framework.
+   This document provides a rationale for design, standardization, and
+   implementation of the inter-ALTO communication framework.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-dulinski-alto-inter-problem-statement-02"/>
 </reference>

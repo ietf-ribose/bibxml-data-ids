@@ -1,16 +1,30 @@
 <reference anchor="I-D.zhai-trill-esadi-extension-for-rbv" target="https://datatracker.ietf.org/doc/html/draft-zhai-trill-esadi-extension-for-rbv-00">
   <front>
     <title>RBridge: ESADI-Extension</title>
-    <author fullname="Hongjun Zhai" initials="H." surname="Zhai">
+    <seriesInfo name="Internet-Draft" value="draft-zhai-trill-esadi-extension-for-rbv-00"/>
+    <author initials="H." surname="Zhai" fullname="Hongjun Zhai">
       <organization>ZTE Corporation</organization>
     </author>
-    <author fullname="Xuehui Dai" initials="X." surname="Dai">
+    <author initials="X." surname="Dai" fullname="Xuehui Dai">
       <organization>ZTE Corporation</organization>
     </author>
-    <date year="2012" month="October" day="7"/>
+    <date day="07" month="October" year="2012"></date>
     <abstract>
-      <t>In a virtual RBridge(RBv), traffic from end station ES1 to ES2 will enter a TRILL campus through one member RBridge RB1 of RBv, but reverse traffic might choose another member RBridge RB2 to leave TRILL campus. If RB1 can't obtain the location of ES2 via other means, it has to treat the traffic to ES2 as unknown destination traffic and multicasts it in TRILL campus. However, if RB2 can share its learned MAC addresses with RB1, the above problem can be resolved. Based on appropriate extensions of ESADI, this document proposes, in control plane, an approach for informations synchronization within a group of RBridges. Current informations mainly include end station addresses, but may include other informations in the future.</t>
+      <t>   In a virtual RBridge(RBv), traffic from end station ES1 to ES2 will
+   enter a TRILL campus through one member RBridge RB1 of RBv, but
+   reverse traffic might choose another member RBridge RB2 to leave
+   TRILL campus.  If RB1 can't obtain the location of ES2 via other
+   means, it has to treat the traffic to ES2 as unknown destination
+   traffic and multicasts it in TRILL campus.  However, if RB2 can share
+   its learned MAC addresses with RB1, the above problem can be
+   resolved.
+
+   Based on appropriate extensions of ESADI, this document proposes, in
+   control plane, an approach for informations synchronization within a
+   group of RBridges.  Current informations mainly include end station
+   addresses, but may include other informations in the future.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-zhai-trill-esadi-extension-for-rbv-00"/>
 </reference>

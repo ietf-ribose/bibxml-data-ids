@@ -1,16 +1,29 @@
 <reference anchor="I-D.melnikov-imapext-multimailbox-search" target="https://datatracker.ietf.org/doc/html/draft-melnikov-imapext-multimailbox-search-03">
   <front>
     <title>IMAP4 Multimailbox SEARCH Extension</title>
-    <author fullname="Barry Leiba" initials="B." surname="Leiba">
+    <seriesInfo name="Internet-Draft" value="draft-melnikov-imapext-multimailbox-search-03"/>
+    <author initials="B." surname="Leiba" fullname="Barry Leiba">
       <organization>IBM T.J. Watson Research Center</organization>
     </author>
-    <author fullname="Alexey Melnikov" initials="A." surname="Melnikov">
+    <author initials="A." surname="Melnikov" fullname="Alexey Melnikov">
       <organization>Isode Limited</organization>
     </author>
-    <date year="2008" month="April" day="22"/>
+    <date day="22" month="April" year="2008"></date>
     <abstract>
-      <t>The IMAP4 specification allows the searching only of the selected mailbox. A user often wants to search multiple mailboxes, and a client that wishes to support this must issue a series of SELECT and SEARCH commands, waiting for each to complete before moving on to the next. This extension allows a client to search multiple mailboxes with one command, limiting the round-trips and waiting for various searches to complete. This also introduces mailbox field in ESEARCH responses, allowing a client to pipeline the searches if it chooses.Note A revised version of this draft document will be submitted to the RFC editor as a Proposed Standard for the Internet Community. Discussion and suggestions for improvement are requested, and should be sent to ietf-imapext@imc.org.</t>
+      <t>The IMAP4 specification allows the searching only of the selected
+mailbox.  A user often wants to search multiple mailboxes, and a
+client that wishes to support this must issue a series of SELECT and
+SEARCH commands, waiting for each to complete before moving on to the
+next.  This extension allows a client to search multiple mailboxes
+with one command, limiting the round-trips and waiting for various
+searches to complete.  This also introduces mailbox field in ESEARCH
+responses, allowing a client to pipeline the searches if it chooses.Note
+
+A revised version of this draft document will be submitted to the RFC
+editor as a Proposed Standard for the Internet Community.  Discussion
+and suggestions for improvement are requested, and should be sent to
+ietf-imapext@imc.org.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-melnikov-imapext-multimailbox-search-03"/>
 </reference>

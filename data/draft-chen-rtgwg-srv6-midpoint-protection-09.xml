@@ -1,28 +1,43 @@
 <reference anchor="I-D.chen-rtgwg-srv6-midpoint-protection" target="https://datatracker.ietf.org/doc/html/draft-chen-rtgwg-srv6-midpoint-protection-09">
   <front>
     <title>SRv6 Midpoint Protection</title>
-    <author fullname="Huanan Chen" initials="H." surname="Chen">
+    <seriesInfo name="Internet-Draft" value="draft-chen-rtgwg-srv6-midpoint-protection-09"/>
+    <author initials="H." surname="Chen" fullname="Huanan Chen">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Zhibo Hu" initials="Z." surname="Hu">
+    <author initials="Z." surname="Hu" fullname="Zhibo Hu">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Huaimo Chen" initials="H." surname="Chen">
+    <author initials="H." surname="Chen" fullname="Huaimo Chen">
       <organization>Futurewei</organization>
     </author>
-    <author fullname="Xuesong Geng" initials="X." surname="Geng">
+    <author initials="X." surname="Geng" fullname="Xuesong Geng">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Yisong Liu" initials="Y." surname="Liu">
+    <author initials="Y." surname="Liu" fullname="Yisong Liu">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Gyan Mishra" initials="G. S." surname="Mishra">
+    <author initials="G. S." surname="Mishra" fullname="Gyan Mishra">
       <organization>Verizon Inc.</organization>
     </author>
-    <date year="2022" month="November" day="8"/>
+    <date day="08" month="November" year="2022"></date>
     <abstract>
-      <t>The current local repair mechanism, e.g., TI-LFA, allows local repair actions on the direct neighbors of the failed node or link to temporarily route traffic to the destination. This mechanism could not work properly when the failure happens in the destination point. In SRv6 TE, the IPv6 destination address in the outer IPv6 header could be the segment endpoint of the TE path rather than the destination of the TE path. When the SRv6 endpoint fails, local repair couldn't work on the direct neighbor of the failed endpoint either. This document defines midpoint protection for SRv6 TE path, which enables other nodes on the network to perform endpoint behaviors instead of the faulty node, update the IPv6 destination address to the other endpoint, and choose the next hop based on the new destination address.</t>
+      <t>   The current local repair mechanism, e.g., TI-LFA, allows local repair
+   actions on the direct neighbors of the failed node or link to
+   temporarily route traffic to the destination.  This mechanism could
+   not work properly when the failure happens in the destination point.
+   In SRv6 TE, the IPv6 destination address in the outer IPv6 header
+   could be the segment endpoint of the TE path rather than the
+   destination of the TE path.  When the SRv6 endpoint fails, local
+   repair couldn't work on the direct neighbor of the failed endpoint
+   either.  This document defines midpoint protection for SRv6 TE path,
+   which enables other nodes on the network to perform endpoint
+   behaviors instead of the faulty node, update the IPv6 destination
+   address to the other endpoint, and choose the next hop based on the
+   new destination address.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-chen-rtgwg-srv6-midpoint-protection-09"/>
 </reference>

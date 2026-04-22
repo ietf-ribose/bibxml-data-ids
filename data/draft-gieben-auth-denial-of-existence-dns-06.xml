@@ -1,16 +1,19 @@
 <reference anchor="I-D.gieben-auth-denial-of-existence-dns" target="https://datatracker.ietf.org/doc/html/draft-gieben-auth-denial-of-existence-dns-06">
   <front>
     <title>Authenticated Denial of Existence in the DNS</title>
-    <author fullname="R. (Miek) Gieben" initials="R. M." surname="Gieben">
+    <seriesInfo name="Internet-Draft" value="draft-gieben-auth-denial-of-existence-dns-06"/>
+    <author initials="R. M." surname="Gieben" fullname="R. (Miek) Gieben">
       <organization>Google</organization>
     </author>
-    <author fullname="Matthijs Mekking" initials="W. M." surname="Mekking">
+    <author initials="W. M." surname="Mekking" fullname="Matthijs Mekking">
       <organization>NLnet Labs</organization>
     </author>
-    <date year="2014" month="February" day="3"/>
+    <date day="03" month="February" year="2014"></date>
     <abstract>
-      <t>Authenticated denial of existence allows a resolver to validate that a certain domain name does not exist. It is also used to signal that a domain name exists but does not have the specific resource record (RR) type you were asking for. When returning a negative DNS Security Extensions (DNSSEC) response, a name server usually includes up to two NSEC records. With NSEC version 3 (NSEC3), this amount is three. This document provides additional background commentary and some context for the NSEC and NSEC3 mechanisms used by DNSSEC to provide authenticated denial-of-existence responses.</t>
+      <t>Authenticated denial of existence allows a resolver to validate that a certain domain name does not exist. It is also used to signal that a domain name exists but does not have the specific resource record (RR) type you were asking for. When returning a negative DNS Security Extensions (DNSSEC) response, a name server usually includes up to two NSEC records. With NSEC version 3 (NSEC3), this amount is three.
+
+ This document provides additional background commentary and some context for the NSEC and NSEC3 mechanisms used by DNSSEC to provide authenticated denial-of-existence responses.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-gieben-auth-denial-of-existence-dns-06"/>
 </reference>

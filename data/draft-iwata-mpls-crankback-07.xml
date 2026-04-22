@@ -1,16 +1,33 @@
 <reference anchor="I-D.iwata-mpls-crankback" target="https://datatracker.ietf.org/doc/html/draft-iwata-mpls-crankback-07">
   <front>
     <title>Crankback Signaling Extensions for MPLS Signaling</title>
-    <author fullname="Adrian Farrel" initials="A." surname="Farrel">
+    <seriesInfo name="Internet-Draft" value="draft-iwata-mpls-crankback-07"/>
+    <author initials="A." surname="Farrel" fullname="Adrian Farrel">
       <organization>editor</organization>
     </author>
-    <author fullname="Atsushi Iwata" initials="A." surname="Iwata">
+    <author initials="A." surname="Iwata" fullname="Atsushi Iwata">
       <organization>NEC Corporation</organization>
     </author>
-    <date year="2003" month="October" day="15"/>
+    <date day="15" month="October" year="2003"></date>
     <abstract>
-      <t>In a distributed, constraint-based routing environment, the information used to compute a path may be out of date. This means that Multiprotocol Label Switching (MPLS) label switched path (LSP) setup requests may be blocked by links or nodes without sufficient resources. Crankback is a scheme whereby setup failure information is returned from the point of failure to allow new setup attempts to be made avoiding the blocked resources. Crankback can also be applied to LSP restoration to indicate the location of the failed link or node. This document specifies crankback signaling extensions for use in MPLS signaling using RSVP-TE as defined in 'RSVP-TE: Extensions to RSVP for LSP Tunnels', RFC3209, so that the LSP setup request can be retried on an alternate path that detours around blocked links or nodes. This offers significant improvements in the successful setup and recovery ratios for LSPs, especially in situations where a large number of setup requests are triggered at the same time.</t>
+      <t>In a distributed, constraint-based routing environment, the
+information used to compute a path may be out of date. This means
+that Multiprotocol Label Switching (MPLS) label switched path (LSP)
+setup requests may be blocked by links or nodes without sufficient
+resources. Crankback is a scheme whereby setup failure information is
+returned from the point of failure to allow new setup attempts to be
+made avoiding the blocked resources. Crankback can also be applied to
+LSP restoration to indicate the location of the failed link or node.
+
+This document specifies crankback signaling extensions for use in
+MPLS signaling using RSVP-TE as defined in 'RSVP-TE: Extensions to
+RSVP for LSP Tunnels', RFC3209, so that the LSP setup request can be
+retried on an alternate path that detours around blocked links or
+nodes. This offers significant improvements in the successful setup
+and recovery ratios for LSPs, especially in situations where a large
+number of setup requests are triggered at the same time.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-iwata-mpls-crankback-07"/>
 </reference>

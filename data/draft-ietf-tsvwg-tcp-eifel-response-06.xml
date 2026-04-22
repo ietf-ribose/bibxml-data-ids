@@ -1,16 +1,17 @@
 <reference anchor="I-D.ietf-tsvwg-tcp-eifel-response" target="https://datatracker.ietf.org/doc/html/draft-ietf-tsvwg-tcp-eifel-response-06">
   <front>
     <title>The Eifel Response Algorithm for TCP</title>
-    <author fullname="Andrei Gurtov" initials="A." surname="Gurtov">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-tcp-eifel-response-06"/>
+    <author initials="A." surname="Gurtov" fullname="Andrei Gurtov">
       <organization>HIIT</organization>
     </author>
-    <author fullname="Ludwig Reiner" initials="L." surname="Reiner">
+    <author initials="L." surname="Reiner" fullname="Ludwig Reiner">
       <organization>Ericsson Research</organization>
     </author>
-    <date year="2004" month="September" day="15"/>
+    <date day="15" month="September" year="2004"></date>
     <abstract>
-      <t>Based on an appropriate detection algorithm, the Eifel response algorithm provides a way for a TCP sender to respond to a detected spurious timeout. It adapts the retransmission timer to avoid further spurious timeouts and (depending on the detection algorithm) can avoid the often unnecessary go-back-N retransmits that would otherwise be sent. In addition, the Eifel response algorithm restores the congestion control state in such a way that packet bursts are avoided. [STANDARDS-TRACK]</t>
+      <t>Based on an appropriate detection algorithm, the Eifel response algorithm provides a way for a TCP sender to respond to a detected spurious timeout.  It adapts the retransmission timer to avoid further spurious timeouts and (depending on the detection algorithm) can avoid the often unnecessary go-back-N retransmits that would otherwise be sent.  In addition, the Eifel response algorithm restores the congestion control state in such a way that packet bursts are avoided. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-tcp-eifel-response-06"/>
 </reference>

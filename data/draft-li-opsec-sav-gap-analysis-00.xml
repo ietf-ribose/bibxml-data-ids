@@ -1,25 +1,37 @@
 <reference anchor="I-D.li-opsec-sav-gap-analysis" target="https://datatracker.ietf.org/doc/html/draft-li-opsec-sav-gap-analysis-00">
   <front>
     <title>Soure Address Validation: Gap Analysis</title>
-    <author fullname="Dan Li" initials="D." surname="Li">
+    <seriesInfo name="Internet-Draft" value="draft-li-opsec-sav-gap-analysis-00"/>
+    <author initials="D." surname="Li" fullname="Dan Li">
       <organization>Tsinghua</organization>
     </author>
-    <author fullname="Jianping Wu" initials="J." surname="Wu">
+    <author initials="J." surname="Wu" fullname="Jianping Wu">
       <organization>Tsinghua</organization>
     </author>
-    <author fullname="Yunan Gu" initials="Y." surname="Gu">
+    <author initials="Y." surname="Gu" fullname="Yunan Gu">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Lancheng Qin" initials="L." surname="Qin">
+    <author initials="L." surname="Qin" fullname="Lancheng Qin">
       <organization>Tsinghua</organization>
     </author>
-    <author fullname="Tao Lin" initials="T." surname="Lin">
+    <author initials="T." surname="Lin" fullname="Tao Lin">
       <organization>H3C</organization>
     </author>
-    <date year="2020" month="September" day="22"/>
+    <date day="22" month="September" year="2020"></date>
     <abstract>
-      <t>This document identifies scenarios where existing IP spoofing approaches for detection and mitigation don't perform perfectly. Exsiting SAV (source address validation) approaches, either Ingress ACL filtering [RFC2827], unicast Reverse Path Forwarding (uRPF) [RFC3704], Feasible Path uRPF [RFC 3704], or Enhanced Feasible-Path uRPF [RFC8704] has limitations regarding eihter automated implemetation objective or detection accuracy objective (0% false positive and 0% false negative). This document provides the gap analysis of the exsting SAV approaches, and also provides solution discussions.</t>
+      <t>   This document identifies scenarios where existing IP spoofing
+   approaches for detection and mitigation don't perform perfectly.
+   Exsiting SAV (source address validation) approaches, either Ingress
+   ACL filtering [RFC2827], unicast Reverse Path Forwarding (uRPF)
+   [RFC3704], Feasible Path uRPF [RFC 3704], or Enhanced Feasible-Path
+   uRPF [RFC8704] has limitations regarding eihter automated
+   implemetation objective or detection accuracy objective (0% false
+   positive and 0% false negative).  This document provides the gap
+   analysis of the exsting SAV approaches, and also provides solution
+   discussions.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-li-opsec-sav-gap-analysis-00"/>
 </reference>

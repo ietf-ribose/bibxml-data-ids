@@ -1,22 +1,35 @@
 <reference anchor="I-D.sajassi-bess-evpn-first-hop-security" target="https://datatracker.ietf.org/doc/html/draft-sajassi-bess-evpn-first-hop-security-01">
   <front>
     <title>EVPN First Hop Security</title>
-    <author fullname="Ali Sajassi" initials="A." surname="Sajassi">
+    <seriesInfo name="Internet-Draft" value="draft-sajassi-bess-evpn-first-hop-security-01"/>
+    <author initials="A." surname="Sajassi" fullname="Ali Sajassi">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Lukas Krattiger" initials="L." surname="Krattiger">
+    <author initials="L." surname="Krattiger" fullname="Lukas Krattiger">
       <organization>Cisco</organization>
     </author>
-    <author fullname="krishnaswamy ananthamurthy" initials="K." surname="ananthamurthy">
+    <author initials="K." surname="ananthamurthy" fullname="krishnaswamy ananthamurthy">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Samir Thoria" initials="S." surname="Thoria">
+    <author initials="S." surname="Thoria" fullname="Samir Thoria">
       <organization>Cisco</organization>
     </author>
-    <date year="2023" month="July" day="26"/>
+    <date day="26" month="July" year="2023"></date>
     <abstract>
-      <t>DHCP Snoop database stores valid IPv4-to-MAC and IPv6-to-MAC bindings by snooping on Dynamic Host Configuration Protocol (DHCP) messages. These bindings are used by security functions like Dynamic ARP Inspection (DAI), Neighbor Discovery Inspection (NDI), IPv4 Source Guard, and IPv6 Source Guard to safeguard against traffic received with a spoofed address. These functions are collectively referred to as First Hop Security (FHS). This document proposes BGP extensions and new procedures to Ethernet VPN (EVPN) [RFC7432] for distribution and synchronization of DHCP snoop database to support FHS. Such synchronization is needed to support EVPN host mobility and multi- homing.</t>
+      <t>   DHCP Snoop database stores valid IPv4-to-MAC and IPv6-to-MAC bindings
+   by snooping on Dynamic Host Configuration Protocol (DHCP) messages.
+   These bindings are used by security functions like Dynamic ARP
+   Inspection (DAI), Neighbor Discovery Inspection (NDI), IPv4 Source
+   Guard, and IPv6 Source Guard to safeguard against traffic received
+   with a spoofed address.  These functions are collectively referred to
+   as First Hop Security (FHS).  This document proposes BGP extensions
+   and new procedures to Ethernet VPN (EVPN) [RFC7432] for distribution
+   and synchronization of DHCP snoop database to support FHS.  Such
+   synchronization is needed to support EVPN host mobility and multi-
+   homing.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sajassi-bess-evpn-first-hop-security-01"/>
 </reference>

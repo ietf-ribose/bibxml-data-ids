@@ -1,25 +1,24 @@
 <reference anchor="I-D.ietf-idr-rs-bfd" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-rs-bfd-02">
   <front>
     <title>Making Route Servers Aware of Data Link Failures at IXPs</title>
-    <author fullname="Randy Bush" initials="R." surname="Bush">
-      <organization/>
-    </author>
-    <author fullname="Jeffrey Haas" initials="J." surname="Haas">
-      <organization/>
-    </author>
-    <author fullname="John Scudder" initials="J." surname="Scudder">
-      <organization/>
-    </author>
-    <author fullname="Arnold Nipper" initials="A." surname="Nipper">
-      <organization/>
-    </author>
-    <author fullname="Thomas King" initials="T." surname="King">
-      <organization/>
-    </author>
-    <date year="2017" month="March" day="11"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-rs-bfd-02"/>
+    <author initials="R." surname="Bush" fullname="Randy Bush"/>
+    <author initials="J." surname="Haas" fullname="Jeffrey Haas"/>
+    <author initials="J." surname="Scudder" fullname="John Scudder"/>
+    <author initials="A." surname="Nipper" fullname="Arnold Nipper"/>
+    <author initials="T." surname="King" fullname="Thomas King"/>
+    <date day="11" month="March" year="2017"></date>
     <abstract>
-      <t>When route servers are used, the data plane is not congruent with the control plane. Therefore, the peers on the Internet exchange can lose data connectivity without the control plane being aware of it, and packets are dropped on the floor. This document proposes the use of BFD between the two peering routers to detect a data plane failure, and then uses a newly defined BGP SAFI to signal the state of the data link to the route server(s).</t>
+      <t>   When route servers are used, the data plane is not congruent with the
+   control plane.  Therefore, the peers on the Internet exchange can
+   lose data connectivity without the control plane being aware of it,
+   and packets are dropped on the floor.  This document proposes the use
+   of BFD between the two peering routers to detect a data plane
+   failure, and then uses a newly defined BGP SAFI to signal the state
+   of the data link to the route server(s).
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-rs-bfd-02"/>
 </reference>

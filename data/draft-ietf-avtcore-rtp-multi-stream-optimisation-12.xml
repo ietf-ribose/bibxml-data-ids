@@ -1,22 +1,23 @@
 <reference anchor="I-D.ietf-avtcore-rtp-multi-stream-optimisation" target="https://datatracker.ietf.org/doc/html/draft-ietf-avtcore-rtp-multi-stream-optimisation-12">
   <front>
     <title>Sending Multiple RTP Streams in a Single RTP Session: Grouping RTP Control Protocol (RTCP) Reception Statistics and Other Feedback</title>
-    <author fullname="Jonathan Lennox" initials="J." surname="Lennox">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-avtcore-rtp-multi-stream-optimisation-12"/>
+    <author initials="J." surname="Lennox" fullname="Jonathan Lennox">
       <organization>Vidyo</organization>
     </author>
-    <author fullname="Magnus Westerlund" initials="M." surname="Westerlund">
+    <author initials="M." surname="Westerlund" fullname="Magnus Westerlund">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Qin Wu" initials="Q." surname="Wu">
+    <author initials="Q." surname="Wu" fullname="Qin Wu">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Colin Perkins" initials="C." surname="Perkins">
+    <author initials="C." surname="Perkins" fullname="Colin Perkins">
       <organization>University of Glasgow</organization>
     </author>
-    <date year="2016" month="March" day="2"/>
+    <date day="02" month="March" year="2016"></date>
     <abstract>
-      <t>RTP allows multiple RTP streams to be sent in a single session but requires each Synchronization Source (SSRC) to send RTP Control Protocol (RTCP) reception quality reports for every other SSRC visible in the session. This causes the number of RTCP reception reports to grow with the number of SSRCs, rather than the number of endpoints. In many cases, most of these RTCP reception reports are unnecessary, since all SSRCs of an endpoint are normally co-located and see the same reception quality. This memo defines a Reporting Group extension to RTCP to reduce the reporting overhead in such scenarios.</t>
+      <t>RTP allows multiple RTP streams to be sent in a single session but requires each Synchronization Source (SSRC) to send RTP Control Protocol (RTCP) reception quality reports for every other SSRC visible in the session.  This causes the number of RTCP reception reports to grow with the number of SSRCs, rather than the number of endpoints.  In many cases, most of these RTCP reception reports are unnecessary, since all SSRCs of an endpoint are normally co-located and see the same reception quality.  This memo defines a Reporting Group extension to RTCP to reduce the reporting overhead in such scenarios.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-avtcore-rtp-multi-stream-optimisation-12"/>
 </reference>

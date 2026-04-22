@@ -1,22 +1,33 @@
 <reference anchor="I-D.lim-mext-multiple-coa-verify" target="https://datatracker.ietf.org/doc/html/draft-lim-mext-multiple-coa-verify-02">
   <front>
     <title>Verification of Care-of Addresses in Multiple Bindings Registration</title>
-    <author fullname="Benjamin Lim" initials="B." surname="Lim">
+    <seriesInfo name="Internet-Draft" value="draft-lim-mext-multiple-coa-verify-02"/>
+    <author initials="B." surname="Lim" fullname="Benjamin Lim">
       <organization>Panasonic</organization>
     </author>
-    <author fullname="Chan-Wah Ng" initials="C." surname="Ng">
+    <author initials="C." surname="Ng" fullname="Chan-Wah Ng">
       <organization>Panasonic</organization>
     </author>
-    <author fullname="Keigo Aso" initials="K." surname="Aso">
+    <author initials="K." surname="Aso" fullname="Keigo Aso">
       <organization>Panasonic</organization>
     </author>
-    <author fullname="Suresh Krishnan" initials="S." surname="Krishnan">
+    <author initials="S." surname="Krishnan" fullname="Suresh Krishnan">
       <organization>Ericsson</organization>
     </author>
-    <date year="2008" month="July" day="10"/>
+    <date day="10" month="July" year="2008"></date>
     <abstract>
-      <t>Using multiple care-of address registration, there is a possibility that a malicious mobile node could create multiple care-of address bindings that does not belong to the mobile node at its home agent. The home agent would accept these bindings without verifying them due to the trust relationship it has with the mobile node. With these bindings, the mobile node can launch attacks by asking the home agent to flood the victims of these care-of addresses with useless packets. To mitigate such a problem, this memo introduces a few possible verification mechanisms that the home agent would use in order to verify the care-of addresses for the mobile node before using them for packet routing.</t>
+      <t>Using multiple care-of address registration, there is a possibility
+that a malicious mobile node could create multiple care-of address
+bindings that does not belong to the mobile node at its home agent.
+The home agent would accept these bindings without verifying them due
+to the trust relationship it has with the mobile node.  With these
+bindings, the mobile node can launch attacks by asking the home agent
+to flood the victims of these care-of addresses with useless packets.
+To mitigate such a problem, this memo introduces a few possible
+verification mechanisms that the home agent would use in order to
+verify the care-of addresses for the mobile node before using them
+for packet routing.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-lim-mext-multiple-coa-verify-02"/>
 </reference>

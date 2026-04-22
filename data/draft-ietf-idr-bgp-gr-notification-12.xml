@@ -1,22 +1,23 @@
 <reference anchor="I-D.ietf-idr-bgp-gr-notification" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-bgp-gr-notification-12">
   <front>
     <title>Notification Message support for BGP Graceful Restart</title>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
-      <organization/>
-    </author>
-    <author fullname="Rex Fernando" initials="R." surname="Fernando">
-      <organization/>
-    </author>
-    <author fullname="John Scudder" initials="J." surname="Scudder">
-      <organization/>
-    </author>
-    <author fullname="Jeffrey Haas" initials="J." surname="Haas">
-      <organization/>
-    </author>
-    <date year="2017" month="May" day="9"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-gr-notification-12"/>
+    <author initials="K." surname="Patel" fullname="Keyur Patel"/>
+    <author initials="R." surname="Fernando" fullname="Rex Fernando"/>
+    <author initials="J." surname="Scudder" fullname="John Scudder"/>
+    <author initials="J." surname="Haas" fullname="Jeffrey Haas"/>
+    <date day="09" month="May" year="2017"></date>
     <abstract>
-      <t>The BGP Graceful Restart mechanism defined in RFC 4724 limits the usage of BGP Graceful Restart to BGP protocol messages other than a BGP NOTIFICATION message. This document updates RFC 4724 by defining an extension that permits the Graceful Restart procedures to be performed when the BGP speaker receives a BGP NOTIFICATION Message or the Hold Time expires. This document also defines a new BGP NOTIFICATION Cease Error subcode whose effect is to request a full session restart instead of a Graceful Restart.</t>
+      <t>   The BGP Graceful Restart mechanism defined in RFC 4724 limits the
+   usage of BGP Graceful Restart to BGP protocol messages other than a
+   BGP NOTIFICATION message.  This document updates RFC 4724 by defining
+   an extension that permits the Graceful Restart procedures to be
+   performed when the BGP speaker receives a BGP NOTIFICATION Message or
+   the Hold Time expires.  This document also defines a new BGP
+   NOTIFICATION Cease Error subcode whose effect is to request a full
+   session restart instead of a Graceful Restart.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-gr-notification-12"/>
 </reference>

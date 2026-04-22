@@ -1,16 +1,25 @@
 <reference anchor="I-D.sctl-service-registration" target="https://datatracker.ietf.org/doc/html/draft-sctl-service-registration-01">
   <front>
     <title>Service Registration Protocol for DNS-Based Service Discovery</title>
-    <author fullname="Stuart Cheshire" initials="S." surname="Cheshire">
+    <seriesInfo name="Internet-Draft" value="draft-sctl-service-registration-01"/>
+    <author initials="S." surname="Cheshire" fullname="Stuart Cheshire">
       <organization>Apple Inc.</organization>
     </author>
-    <author fullname="Ted Lemon" initials="T." surname="Lemon">
+    <author initials="T." surname="Lemon" fullname="Ted Lemon">
       <organization>Nibbhaya Consulting</organization>
     </author>
-    <date year="2018" month="July" day="2"/>
+    <date day="02" month="July" year="2018"></date>
     <abstract>
-      <t>The DNS-SD Service Registration Protocol uses the standard DNS Update mechanism to enable DNS-Based Service Discovery using only unicast packets. This eliminates the dependency on Multicast DNS as the foundation layer, which greatly improves scalability and improves performance on networks where multicast service is not an optimal choice, particularly 802.11 (WiFi) and 802.15 (IoT) networks. DNS-SD Service registration uses public keys and SIG(0) to allow services to defend their registrations against attack.</t>
+      <t>   The DNS-SD Service Registration Protocol uses the standard DNS Update
+   mechanism to enable DNS-Based Service Discovery using only unicast
+   packets.  This eliminates the dependency on Multicast DNS as the
+   foundation layer, which greatly improves scalability and improves
+   performance on networks where multicast service is not an optimal
+   choice, particularly 802.11 (WiFi) and 802.15 (IoT) networks.  DNS-SD
+   Service registration uses public keys and SIG(0) to allow services to
+   defend their registrations against attack.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sctl-service-registration-01"/>
 </reference>

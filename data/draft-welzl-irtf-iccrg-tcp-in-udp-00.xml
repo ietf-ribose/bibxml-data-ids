@@ -1,22 +1,32 @@
 <reference anchor="I-D.welzl-irtf-iccrg-tcp-in-udp" target="https://datatracker.ietf.org/doc/html/draft-welzl-irtf-iccrg-tcp-in-udp-00">
   <front>
     <title>TCP in UDP</title>
-    <author fullname="Michael Welzl" initials="M." surname="Welzl">
+    <seriesInfo name="Internet-Draft" value="draft-welzl-irtf-iccrg-tcp-in-udp-00"/>
+    <author initials="M." surname="Welzl" fullname="Michael Welzl">
       <organization>University of Oslo</organization>
     </author>
-    <author fullname="Safiqul Islam" initials="S." surname="Islam">
+    <author initials="S." surname="Islam" fullname="Safiqul Islam">
       <organization>University of Oslo</organization>
     </author>
-    <author fullname="Kristian Hiorth" initials="K." surname="Hiorth">
+    <author initials="K." surname="Hiorth" fullname="Kristian Hiorth">
       <organization>University of Oslo</organization>
     </author>
-    <author fullname="Jianjie You" initials="J." surname="You">
+    <author initials="J." surname="You" fullname="Jianjie You">
       <organization>Huawei</organization>
     </author>
-    <date year="2016" month="March" day="21"/>
+    <date day="21" month="March" year="2016"></date>
     <abstract>
-      <t>This document specifies a method to encapsulate multiple TCP connections using only one UDP port number pair. Doing so allows for a relatively easy implementation of coupled congestion control for the TCP connections. This can have several performance benefits, and it makes it possible to precisely assign a share of the congestion window to the connections based on priorities. It also enables use of UDP-based NAT traversal techniques, and it can act as a framework for experimentation with novel changes to the TCP standard.</t>
+      <t>   This document specifies a method to encapsulate multiple TCP
+   connections using only one UDP port number pair.  Doing so allows for
+   a relatively easy implementation of coupled congestion control for
+   the TCP connections.  This can have several performance benefits, and
+   it makes it possible to precisely assign a share of the congestion
+   window to the connections based on priorities.  It also enables use
+   of UDP-based NAT traversal techniques, and it can act as a framework
+   for experimentation with novel changes to the TCP standard.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-welzl-irtf-iccrg-tcp-in-udp-00"/>
 </reference>

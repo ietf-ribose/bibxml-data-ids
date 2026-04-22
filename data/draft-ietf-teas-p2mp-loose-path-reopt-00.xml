@@ -1,25 +1,35 @@
 <reference anchor="I-D.ietf-teas-p2mp-loose-path-reopt" target="https://datatracker.ietf.org/doc/html/draft-ietf-teas-p2mp-loose-path-reopt-00">
   <front>
     <title>Extensions to Resource Reservation Protocol For Re-optimization of Loosely Routed Point-to-Multipoint Traffic Engineering LSPs</title>
-    <author fullname="Tarek Saad" initials="T." surname="Saad">
-      <organization/>
-    </author>
-    <author fullname="Rakesh Gandhi" initials="R." surname="Gandhi">
-      <organization/>
-    </author>
-    <author fullname="Zafar Ali" initials="Z." surname="Ali">
-      <organization/>
-    </author>
-    <author fullname="Robert H. Venator" initials="R. H." surname="Venator">
-      <organization/>
-    </author>
-    <author fullname="Yuji Kamite" initials="Y." surname="Kamite">
-      <organization/>
-    </author>
-    <date year="2014" month="December" day="8"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-teas-p2mp-loose-path-reopt-00"/>
+    <author initials="T." surname="Saad" fullname="Tarek Saad"/>
+    <author initials="R." surname="Gandhi" fullname="Rakesh Gandhi"/>
+    <author initials="Z." surname="Ali" fullname="Zafar Ali"/>
+    <author initials="R. H." surname="Venator" fullname="Robert H. Venator"/>
+    <author initials="Y." surname="Kamite" fullname="Yuji Kamite"/>
+    <date day="08" month="December" year="2014"></date>
     <abstract>
-      <t>For a Traffic Engineered (TE) point-to-multipoint (P2MP) Label Switched Path (LSP), it is preferable in some cases to re-evaluate and re-optimize the entire P2MP-TE LSP by re-signaling all its Source-to-Leaf (S2L) sub-LSP(s). Existing mechanisms, a mechanism for an ingress Label Switched Router (LSR) to trigger a new path re- evaluation request and a mechanism for a mid-point LSR to notify an availability of a preferred path, operate on an individual or a sub- group of S2L sub-LSP(s) basis only. This document defines RSVP-TE signaling extensions to allow an ingress node of a P2MP-TE LSP to request the re-evaluation of the entire LSP tree containing one or more S2L sub-LSPs whose paths are loose (or abstract) hop expanded, and for a mid-point LSR to notify to the ingress node that a preferable tree exists for the entire P2MP-TE LSP. This document also defines markers to indicate beginning and end of a S2L sub-LSP descriptor list when RSVP message needs to be fragmented due to large number of S2L sub-LSPs when performing re-optimization.</t>
+      <t>   For a Traffic Engineered (TE) point-to-multipoint (P2MP) Label
+   Switched Path (LSP), it is preferable in some cases to re-evaluate
+   and re-optimize the entire P2MP-TE LSP by re-signaling all its
+   Source-to-Leaf (S2L) sub-LSP(s).  Existing mechanisms, a mechanism
+   for an ingress Label Switched Router (LSR) to trigger a new path re-
+   evaluation request and a mechanism for a mid-point LSR to notify an
+   availability of a preferred path, operate on an individual or a sub-
+   group of S2L sub-LSP(s) basis only.
+
+   This document defines RSVP-TE signaling extensions to allow an
+   ingress node of a P2MP-TE LSP to request the re-evaluation of the
+   entire LSP tree containing one or more S2L sub-LSPs whose paths are
+   loose (or abstract) hop expanded, and for a mid-point LSR to notify
+   to the ingress node that a preferable tree exists for the entire
+   P2MP-TE LSP.  This document also defines markers to indicate
+   beginning and end of a S2L sub-LSP descriptor list when RSVP message
+   needs to be fragmented due to large number of S2L sub-LSPs when
+   performing re-optimization.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-teas-p2mp-loose-path-reopt-00"/>
 </reference>

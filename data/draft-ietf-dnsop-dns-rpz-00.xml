@@ -1,16 +1,24 @@
 <reference anchor="I-D.ietf-dnsop-dns-rpz" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-dns-rpz-00">
   <front>
     <title>DNS Response Policy Zones (RPZ)</title>
-    <author fullname="Paul A. Vixie" initials="P. A." surname="Vixie">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-dns-rpz-00"/>
+    <author initials="P. A." surname="Vixie" fullname="Paul A. Vixie">
       <organization>Farsight Security</organization>
     </author>
-    <author fullname="Vernon Schryver" initials="V." surname="Schryver">
+    <author initials="V." surname="Schryver" fullname="Vernon Schryver">
       <organization>Rhyolite Software</organization>
     </author>
-    <date year="2017" month="March" day="9"/>
+    <date day="09" month="March" year="2017"></date>
     <abstract>
-      <t>This document describes a method for expressing DNS response policy inside a specially constructed DNS zone, and for recursive name servers to use such policy to return modified results to DNS clients. The modified DNS results can stop access to selected HTTP servers, redirect users to "walled gardens", block objectionable email, and otherwise defend against attack. These "DNS Firewalls" are widely used in fighting Internet crime and abuse.</t>
+      <t>   This document describes a method for expressing DNS response policy
+   inside a specially constructed DNS zone, and for recursive name
+   servers to use such policy to return modified results to DNS clients.
+   The modified DNS results can stop access to selected HTTP servers,
+   redirect users to "walled gardens", block objectionable email, and
+   otherwise defend against attack.  These "DNS Firewalls" are widely
+   used in fighting Internet crime and abuse.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-dns-rpz-00"/>
 </reference>

@@ -1,22 +1,37 @@
 <reference anchor="I-D.gong-idr-inter-domain-srv6-flex-algo" target="https://datatracker.ietf.org/doc/html/draft-gong-idr-inter-domain-srv6-flex-algo-00">
   <front>
     <title>BGP Extensions for Inter-Domain Flexible Algorithm with Segment Routing over IPv6 (SRv6)</title>
-    <author fullname="Liyan Gong" initials="L." surname="Gong">
+    <seriesInfo name="Internet-Draft" value="draft-gong-idr-inter-domain-srv6-flex-algo-00"/>
+    <author initials="L." surname="Gong" fullname="Liyan Gong">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Jie Dong" initials="J." surname="Dong">
+    <author initials="J." surname="Dong" fullname="Jie Dong">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Changwang Lin" initials="C." surname="Lin">
+    <author initials="C." surname="Lin" fullname="Changwang Lin">
       <organization>New H3C Technologies</organization>
     </author>
-    <author fullname="Ran Chen" initials="R." surname="Chen">
+    <author initials="R." surname="Chen" fullname="Ran Chen">
       <organization>ZTE Corporation</organization>
     </author>
-    <date year="2025" month="October" day="20"/>
+    <date day="20" month="October" year="2025"></date>
     <abstract>
-      <t>IGP Flexible Algorithm (Flex-Algo) provides a mechanism for IGP nodes to compute the best paths according to a set of constraints in both the topology and computation metrics. Segment Routing over IPv6 (SRv6) can be used as one of the data plane of IGP Flex-Algo. In SRv6 networks, services may be carried across multiple network domains which are under the same administration. For some services, it is expected that the an end-to-end inter-domain path can be computed according to the same constraints (such as low latency) defined by Flex-Algo. This document describes BGP extensions to advertise SRv6 locators as IPv6 prefixes, together with the associated algorithm across the AS boundary.</t>
+      <t>   IGP Flexible Algorithm (Flex-Algo) provides a mechanism for IGP nodes
+   to compute the best paths according to a set of constraints in both
+   the topology and computation metrics.  Segment Routing over IPv6
+   (SRv6) can be used as one of the data plane of IGP Flex-Algo.
+
+   In SRv6 networks, services may be carried across multiple network
+   domains which are under the same administration.  For some services,
+   it is expected that the an end-to-end inter-domain path can be
+   computed according to the same constraints (such as low latency)
+   defined by Flex-Algo.
+
+   This document describes BGP extensions to advertise SRv6 locators as
+   IPv6 prefixes, together with the associated algorithm across the AS
+   boundary.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-gong-idr-inter-domain-srv6-flex-algo-00"/>
 </reference>

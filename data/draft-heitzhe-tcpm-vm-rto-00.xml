@@ -1,16 +1,23 @@
 <reference anchor="I-D.heitzhe-tcpm-vm-rto" target="https://datatracker.ietf.org/doc/html/draft-heitzhe-tcpm-vm-rto-00">
   <front>
     <title>TCP Retransmission Timer for Virtual Machines</title>
-    <author fullname="Jakob Heitz" initials="J." surname="Heitz">
+    <seriesInfo name="Internet-Draft" value="draft-heitzhe-tcpm-vm-rto-00"/>
+    <author initials="J." surname="Heitz" fullname="Jakob Heitz">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Chuan He" initials="C." surname="He">
+    <author initials="C." surname="He" fullname="Chuan He">
       <organization>Ericsson</organization>
     </author>
-    <date year="2014" month="October" day="19"/>
+    <date day="19" month="October" year="2014"></date>
     <abstract>
-      <t>A Round Trip Time (RTT) estimate that decays performs badly in a bursty environment. A round trip time estimator that does not decay for a period of time is proposed. It does not require a minimum value to be configured. It works equally well when the typical RTT is 100uS as when it is 10 seconds.</t>
+      <t>   A Round Trip Time (RTT) estimate that decays performs badly in a
+   bursty environment. A round trip time estimator that does not decay
+   for a period of time is proposed.
+
+   It does not require a minimum value to be configured. It works
+   equally well when the typical RTT is 100uS as when it is 10 seconds.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-heitzhe-tcpm-vm-rto-00"/>
 </reference>

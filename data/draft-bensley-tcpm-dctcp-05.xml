@@ -1,25 +1,33 @@
 <reference anchor="I-D.bensley-tcpm-dctcp" target="https://datatracker.ietf.org/doc/html/draft-bensley-tcpm-dctcp-05">
   <front>
     <title>Microsoft's Datacenter TCP (DCTCP): TCP Congestion Control for Datacenters</title>
-    <author fullname="Stephen Bensley" initials="S." surname="Bensley">
+    <seriesInfo name="Internet-Draft" value="draft-bensley-tcpm-dctcp-05"/>
+    <author initials="S." surname="Bensley" fullname="Stephen Bensley">
       <organization>Microsoft</organization>
     </author>
-    <author fullname="Lars Eggert" initials="L." surname="Eggert">
+    <author initials="L." surname="Eggert" fullname="Lars Eggert">
       <organization>NetApp</organization>
     </author>
-    <author fullname="Dave Thaler" initials="D." surname="Thaler">
+    <author initials="D." surname="Thaler" fullname="Dave Thaler">
       <organization>Microsoft</organization>
     </author>
-    <author fullname="Praveen Balasubramanian" initials="P." surname="Balasubramanian">
+    <author initials="P." surname="Balasubramanian" fullname="Praveen Balasubramanian">
       <organization>Microsoft</organization>
     </author>
-    <author fullname="Glenn Judd" initials="G." surname="Judd">
+    <author initials="G." surname="Judd" fullname="Glenn Judd">
       <organization>Morgan Stanley</organization>
     </author>
-    <date year="2015" month="July" day="7"/>
+    <date day="07" month="July" year="2015"></date>
     <abstract>
-      <t>This memo describes Datacenter TCP (DCTCP), an improvement to TCP congestion control for datacenter traffic. DCTCP uses improved Explicit Congestion Notification (ECN) processing to estimate the fraction of bytes that encounter congestion, rather than simply detecting that some congestion has occurred. DCTCP then scales the TCP congestion window based on this estimate. This method achieves high burst tolerance, low latency, and high throughput with shallow- buffered switches.</t>
+      <t>   This memo describes Datacenter TCP (DCTCP), an improvement to TCP
+   congestion control for datacenter traffic.  DCTCP uses improved
+   Explicit Congestion Notification (ECN) processing to estimate the
+   fraction of bytes that encounter congestion, rather than simply
+   detecting that some congestion has occurred.  DCTCP then scales the
+   TCP congestion window based on this estimate.  This method achieves
+   high burst tolerance, low latency, and high throughput with shallow-
+   buffered switches.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-bensley-tcpm-dctcp-05"/>
 </reference>

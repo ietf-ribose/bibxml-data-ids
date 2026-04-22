@@ -1,22 +1,31 @@
 <reference anchor="I-D.ietf-rtcweb-mdns-ice-candidates" target="https://datatracker.ietf.org/doc/html/draft-ietf-rtcweb-mdns-ice-candidates-02">
   <front>
     <title>Using Multicast DNS to protect privacy when exposing ICE candidates</title>
-    <author fullname="Youenn Fablet" initials="Y." surname="Fablet">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-rtcweb-mdns-ice-candidates-02"/>
+    <author initials="Y." surname="Fablet" fullname="Youenn Fablet">
       <organization>Apple Inc.</organization>
     </author>
-    <author fullname="Jeroen De Borst" initials="J." surname="De Borst">
+    <author initials="J." surname="De Borst" fullname="Jeroen De Borst">
       <organization>Google</organization>
     </author>
-    <author fullname="Justin Uberti" initials="J." surname="Uberti">
+    <author initials="J." surname="Uberti" fullname="Justin Uberti">
       <organization>Google</organization>
     </author>
-    <author fullname="Qingsi Wang" initials="Q." surname="Wang">
+    <author initials="Q." surname="Wang" fullname="Qingsi Wang">
       <organization>Google</organization>
     </author>
-    <date year="2018" month="October" day="22"/>
+    <date day="22" month="October" year="2018"></date>
     <abstract>
-      <t>WebRTC applications collect ICE candidates as part of the process of creating peer-to-peer connections. To maximize the probability of a direct peer-to-peer connection, client private IP addresses are included in this candidate collection. However, disclosure of these addresses has privacy implications. This document describes a way to share local IP addresses with other clients while preserving client privacy. This is achieved by obfuscating IP addresses with dynamically generated Multicast DNS (mDNS) [RFC6762] names.</t>
+      <t>   WebRTC applications collect ICE candidates as part of the process of
+   creating peer-to-peer connections.  To maximize the probability of a
+   direct peer-to-peer connection, client private IP addresses are
+   included in this candidate collection.  However, disclosure of these
+   addresses has privacy implications.  This document describes a way to
+   share local IP addresses with other clients while preserving client
+   privacy.  This is achieved by obfuscating IP addresses with
+   dynamically generated Multicast DNS (mDNS) [RFC6762] names.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-rtcweb-mdns-ice-candidates-02"/>
 </reference>

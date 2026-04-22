@@ -1,19 +1,32 @@
 <reference anchor="I-D.ietf-netmod-factory-default" target="https://datatracker.ietf.org/doc/html/draft-ietf-netmod-factory-default-05">
   <front>
     <title>Factory Default Setting</title>
-    <author fullname="Qin Wu" initials="Q." surname="Wu">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-netmod-factory-default-05"/>
+    <author initials="Q." surname="Wu" fullname="Qin Wu">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Balázs Lengyel" initials="B." surname="Lengyel">
+    <author initials="B." surname="Lengyel" fullname="Balázs Lengyel">
       <organization>Ericsson Hungary</organization>
     </author>
-    <author fullname="Ye Niu" initials="Y." surname="Niu">
+    <author initials="Y." surname="Niu" fullname="Ye Niu">
       <organization>Huawei</organization>
     </author>
-    <date year="2019" month="October" day="31"/>
+    <date day="31" month="October" year="2019"></date>
     <abstract>
-      <t>This document defines a method to reset a server to its factory- default content. The reset operation may be used e.g. during initial zero-touch configuration or when the existing configuration has major errors, so re-starting the configuration process from scratch is the best option. A new factory-reset RPC is defined. Several methods of documenting the factory-default content are specified. Optionally a new "factory-default" read-only datastore is defined, that contains the data that will be copied over to the running datastore at reset.</t>
+      <t>   This document defines a method to reset a server to its factory-
+   default content.  The reset operation may be used e.g. during initial
+   zero-touch configuration or when the existing configuration has major
+   errors, so re-starting the configuration process from scratch is the
+   best option.
+
+   A new factory-reset RPC is defined.  Several methods of documenting
+   the factory-default content are specified.
+
+   Optionally a new "factory-default" read-only datastore is defined,
+   that contains the data that will be copied over to the running
+   datastore at reset.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-netmod-factory-default-05"/>
 </reference>

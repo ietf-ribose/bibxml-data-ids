@@ -1,16 +1,19 @@
 <reference anchor="I-D.ietf-sieve-external-lists" target="https://datatracker.ietf.org/doc/html/draft-ietf-sieve-external-lists-10">
   <front>
     <title>Sieve Extension: Externally Stored Lists</title>
-    <author fullname="Barry Leiba" initials="B." surname="Leiba">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-sieve-external-lists-10"/>
+    <author initials="B." surname="Leiba" fullname="Barry Leiba">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Alexey Melnikov" initials="A." surname="Melnikov">
+    <author initials="A." surname="Melnikov" fullname="Alexey Melnikov">
       <organization>Isode Limited</organization>
     </author>
-    <date year="2011" month="June" day="9"/>
+    <date day="09" month="June" year="2011"></date>
     <abstract>
-      <t>The Sieve email filtering language can be used to implement email whitelisting, blacklisting, personal distribution lists, and other sorts of list matching. Currently, this requires that all members of such lists be hard-coded in the script itself. Whenever a member of a list is added or deleted, the script needs to be updated and possibly uploaded to a mail server. This document defines a Sieve extension for accessing externally stored lists -- lists whose members are stored externally to the script, such as using the Lightweight Directory Access Protocol (LDAP), the Application Configuration Access Protocol (ACAP), vCard Extensions to WebDAV (CardDAV), or relational databases. [STANDARDS-TRACK]</t>
+      <t>The Sieve email filtering language can be used to implement email whitelisting, blacklisting, personal distribution lists, and other sorts of list matching. Currently, this requires that all members of such lists be hard-coded in the script itself. Whenever a member of a list is added or deleted, the script needs to be updated and possibly uploaded to a mail server.
+
+ This document defines a Sieve extension for accessing externally stored lists -- lists whose members are stored externally to the script, such as using the Lightweight Directory Access Protocol (LDAP), the Application Configuration Access Protocol (ACAP), vCard Extensions to WebDAV (CardDAV), or relational databases. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-sieve-external-lists-10"/>
 </reference>

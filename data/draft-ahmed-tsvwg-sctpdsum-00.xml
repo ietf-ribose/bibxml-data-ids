@@ -1,13 +1,20 @@
 <reference anchor="I-D.ahmed-tsvwg-sctpdsum" target="https://datatracker.ietf.org/doc/html/draft-ahmed-tsvwg-sctpdsum-00">
   <front>
     <title>SCTP Dynamic Checksum selection</title>
-    <author fullname="Haseeb Ahmed" initials="H." surname="Ahmed">
-      <organization/>
-    </author>
-    <date year="2001" month="August" day="24"/>
+    <seriesInfo name="Internet-Draft" value="draft-ahmed-tsvwg-sctpdsum-00"/>
+    <author initials="H." surname="Ahmed" fullname="Haseeb Ahmed"/>
+    <date day="24" month="August" year="2001"></date>
     <abstract>
-      <t>When SCTP was initially accepted as RFC2960 the Adler-32 checksum was specified to be used. However, inlight of issues raised in [STONE] it has been proposed that a more robust algorithm such as [CRC-32] be used instead. This poses compatibility problems for existing implementations of SCTP that are already using the Adler-32 algorithm for computing checksums. This document proposes a dynamic method to preserve backward compatibility between the two checksum algorithms.</t>
+      <t>When SCTP was initially accepted as RFC2960 the Adler-32 checksum
+was specified to be used. However, inlight of issues raised in 
+[STONE] it has been proposed that a more robust algorithm such as
+[CRC-32] be used instead. This poses compatibility problems for 
+existing implementations of SCTP that are already using
+the Adler-32 algorithm for computing checksums. This document
+proposes a dynamic method to preserve backward compatibility
+between the two checksum algorithms.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ahmed-tsvwg-sctpdsum-00"/>
 </reference>

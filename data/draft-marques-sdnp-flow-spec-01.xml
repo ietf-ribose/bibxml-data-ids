@@ -1,25 +1,37 @@
 <reference anchor="I-D.marques-sdnp-flow-spec" target="https://datatracker.ietf.org/doc/html/draft-marques-sdnp-flow-spec-01">
   <front>
     <title>Traffic classification in end-system IP VPNs.</title>
-    <author fullname="Pedro Marques" initials="P." surname="Marques">
+    <seriesInfo name="Internet-Draft" value="draft-marques-sdnp-flow-spec-01"/>
+    <author initials="P." surname="Marques" fullname="Pedro Marques">
       <organization>Contrail Systems</organization>
     </author>
-    <author fullname="Luyuan Fang" initials="L." surname="Fang">
+    <author initials="L." surname="Fang" fullname="Luyuan Fang">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Ping Pan" initials="P." surname="Pan">
+    <author initials="P." surname="Pan" fullname="Ping Pan">
       <organization>Infinera Corp</organization>
     </author>
-    <author fullname="Amit Shukla" initials="A." surname="Shukla">
+    <author initials="A." surname="Shukla" fullname="Amit Shukla">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Maria Napierala" initials="M." surname="Napierala">
+    <author initials="M." surname="Napierala" fullname="Maria Napierala">
       <organization>AT&amp;T Labs</organization>
     </author>
-    <date year="2012" month="April" day="10"/>
+    <date day="10" month="April" year="2012"></date>
     <abstract>
-      <t>When IP VPNs are used to interconnect end-systems [I-D.marques-l3vpn- end-system] it may be desirable to introduce traffic control rules at a finer level of granularity than an IP destination address. This document extends the end-system IP VPN specification with support for fine grain traffic classification, filtering and redirection rules. It applies the existing BGP IP VPN flow specification dissemination mechanism [RFC5575] to end-system IP VPNs in order to provide the ability to control IP packets that match a specific pattern, which may include fields other than the IP destination address.</t>
+      <t>   When IP VPNs are used to interconnect end-systems [I-D.marques-l3vpn-
+   end-system] it may be desirable to introduce traffic control rules at
+   a finer level of granularity than an IP destination address.
+
+   This document extends the end-system IP VPN specification with
+   support for fine grain traffic classification, filtering and
+   redirection rules.  It applies the existing BGP IP VPN flow
+   specification dissemination mechanism [RFC5575] to end-system IP VPNs
+   in order to provide the ability to control IP packets that match a
+   specific pattern, which may include fields other than the IP
+   destination address.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-marques-sdnp-flow-spec-01"/>
 </reference>

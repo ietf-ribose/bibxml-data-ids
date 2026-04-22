@@ -1,22 +1,33 @@
 <reference anchor="I-D.wdh-srv6ops-secservice" target="https://datatracker.ietf.org/doc/html/draft-wdh-srv6ops-secservice-00">
   <front>
     <title>ESP Protection for Services over SRv6</title>
-    <author fullname="Haibo Wang" initials="H." surname="Wang">
+    <seriesInfo name="Internet-Draft" value="draft-wdh-srv6ops-secservice-00"/>
+    <author initials="H." surname="Wang" fullname="Haibo Wang">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Linda Dunbar" initials="L." surname="Dunbar">
+    <author initials="L." surname="Dunbar" fullname="Linda Dunbar">
       <organization>Futurewei</organization>
     </author>
-    <author fullname="CJK UNIFIED IDEOGRAPH-80E1 CJK UNIFIED IDEOGRAPH-4FCA CJK UNIFIED IDEOGRAPH-7406" initials="H. J." surname="Cjk">
+    <author initials="H. J." surname="Cjk" fullname="CJK UNIFIED IDEOGRAPH-80E1 CJK UNIFIED IDEOGRAPH-4FCA CJK UNIFIED IDEOGRAPH-7406">
       <organization>Huawei</organization>
     </author>
-    <author fullname="YaoYang" initials="" surname="YaoYang">
+    <author surname="YaoYang" fullname="YaoYang">
       <organization>Huawei</organization>
     </author>
-    <date year="2026" month="March" day="1"/>
+    <date day="01" month="March" year="2026"></date>
     <abstract>
-      <t>This document describes a mechanism for protecting selected service traffic using IPsec ESP while transporting the traffic over an SRv6 Policy. The approach enables service payloads to be encrypted prior to SRv6 encapsulation, allowing the SRv6 header to remain visible for segment-based forwarding within the provider network. This mechanism supports services or applications that require additional confidentiality and integrity protection, even when carried over an operator-managed SRv6 domain. The document also outlines how the necessary parameters can be signaled using BGP.</t>
+      <t>   This document describes a mechanism for protecting selected service
+   traffic using IPsec ESP while transporting the traffic over an SRv6
+   Policy.  The approach enables service payloads to be encrypted prior
+   to SRv6 encapsulation, allowing the SRv6 header to remain visible for
+   segment-based forwarding within the provider network.  This mechanism
+   supports services or applications that require additional
+   confidentiality and integrity protection, even when carried over an
+   operator-managed SRv6 domain.  The document also outlines how the
+   necessary parameters can be signaled using BGP.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wdh-srv6ops-secservice-00"/>
 </reference>

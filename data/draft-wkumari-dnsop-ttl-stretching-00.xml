@@ -1,13 +1,31 @@
 <reference anchor="I-D.wkumari-dnsop-ttl-stretching" target="https://datatracker.ietf.org/doc/html/draft-wkumari-dnsop-ttl-stretching-00">
   <front>
     <title>Stretching DNS TTLs</title>
-    <author fullname="Warren &quot;Ace&quot; Kumari" initials="W. A." surname="Kumari">
+    <seriesInfo name="Internet-Draft" value="draft-wkumari-dnsop-ttl-stretching-00"/>
+    <author initials="W. A." surname="Kumari" fullname="Warren &quot;Ace&quot; Kumari">
       <organization>Google</organization>
     </author>
-    <date year="2016" month="November" day="13"/>
+    <date day="13" month="November" year="2016"></date>
     <abstract>
-      <t>The TTL of a DNS Resource Record expresses how long a record may be cached before it should be discarded. This document discusses the possibility of "stretching TTLS" (using them past their expiration) if they cannot be refreshed. This works on the assumption that stale data may be better than no data. PLEASE NOTE: This document is a strawman to drive discussion. It may or may not be a good idea; this document documents the idea so that there is something concrete to throw tomatoes at. [ Ed note: Text inside square brackets ([]) is additional background information, answers to frequently asked questions, general musings, etc. They will be removed before publication. This document is being collaborated on in Github at: https://github.com/wkumari/draft- wkumari-dnsop-ttl-stretching. The most recent version of the document, open issues, etc should all be available here. The authors (gratefully) accept pull requests ]</t>
+      <t>   The TTL of a DNS Resource Record expresses how long a record may be
+   cached before it should be discarded.  This document discusses the
+   possibility of "stretching TTLS" (using them past their expiration)
+   if they cannot be refreshed.  This works on the assumption that stale
+   data may be better than no data.
+
+   PLEASE NOTE: This document is a strawman to drive discussion.  It may
+   or may not be a good idea; this document documents the idea so that
+   there is something concrete to throw tomatoes at.
+
+   [ Ed note: Text inside square brackets ([]) is additional background
+   information, answers to frequently asked questions, general musings,
+   etc.  They will be removed before publication.  This document is
+   being collaborated on in Github at: https://github.com/wkumari/draft-
+   wkumari-dnsop-ttl-stretching.  The most recent version of the
+   document, open issues, etc should all be available here.  The authors
+   (gratefully) accept pull requests ]
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wkumari-dnsop-ttl-stretching-00"/>
 </reference>

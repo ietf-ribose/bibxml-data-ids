@@ -1,16 +1,26 @@
 <reference anchor="I-D.barrett-mobile-dtls" target="https://datatracker.ietf.org/doc/html/draft-barrett-mobile-dtls-00">
   <front>
     <title>Mobile DTLS</title>
-    <author fullname="Michael G. Williams" initials="M. G." surname="Williams">
+    <seriesInfo name="Internet-Draft" value="draft-barrett-mobile-dtls-00"/>
+    <author initials="M. G." surname="Williams" fullname="Michael G. Williams">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Jeremey Barrett" initials="J." surname="Barrett">
+    <author initials="J." surname="Barrett" fullname="Jeremey Barrett">
       <organization>Nokia</organization>
     </author>
-    <date year="2009" month="March" day="4"/>
+    <date day="04" month="March" year="2009"></date>
     <abstract>
-      <t>Mobile DTLS (Mobi-D) is an extension to DTLS that provides host mobility support. After obtaining a new IP address or port, a DTLS client mobile host can continue sending to its DTLS server correspondent host. The mobile host continues to use the existing set of security parameters, from the new address, without re- negotiation. The correspondent host accepts packets from the new IP address or port, also without re-negotiation. After receiving any valid DTLS packet from the mobile host's new address or port, the correspondent host uses the new address or port to send to the mobile host.</t>
+      <t>Mobile DTLS (Mobi-D) is an extension to DTLS that provides host
+mobility support.  After obtaining a new IP address or port, a DTLS
+client mobile host can continue sending to its DTLS server
+correspondent host.  The mobile host continues to use the existing
+set of security parameters, from the new address, without re-
+negotiation.  The correspondent host accepts packets from the new IP
+address or port, also without re-negotiation.  After receiving any
+valid DTLS packet from the mobile host's new address or port, the
+correspondent host uses the new address or port to send to the mobile
+host.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-barrett-mobile-dtls-00"/>
 </reference>

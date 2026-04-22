@@ -1,19 +1,30 @@
 <reference anchor="I-D.holmberg-mmusic-sdp-mmt-negotiation" target="https://datatracker.ietf.org/doc/html/draft-holmberg-mmusic-sdp-mmt-negotiation-00">
   <front>
     <title>Multiplexed Media Types (MMT) Using Session Description Protocol (SDP) Port Numbers</title>
-    <author fullname="Christer Holmberg" initials="C." surname="Holmberg">
+    <seriesInfo name="Internet-Draft" value="draft-holmberg-mmusic-sdp-mmt-negotiation-00"/>
+    <author initials="C." surname="Holmberg" fullname="Christer Holmberg">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Harald T. Alvestrand" initials="H. T." surname="Alvestrand">
+    <author initials="H. T." surname="Alvestrand" fullname="Harald T. Alvestrand">
       <organization>Google</organization>
     </author>
-    <author fullname="Jonathan Lennox" initials="J." surname="Lennox">
+    <author initials="J." surname="Lennox" fullname="Jonathan Lennox">
       <organization>Vidyo</organization>
     </author>
-    <date year="2012" month="October" day="8"/>
+    <date day="08" month="October" year="2012"></date>
     <abstract>
-      <t>This specification defines a new SDP Grouping Framework SDP grouping framework extension, "MMT", and a new SDP media type, "anymedia". Together they can be used with the Session Description Protocol (SDP) Offer/Answer mechanism to negotiate the usage of multiplexed media types, which refers to the usage of a single 5-tuple for different media types. This specification also defined a new SDP attribute, "mmtype", which can be used within a "anymedia" SDP Media Description to map PT (Payload Type) values to a specific media type.</t>
+      <t>   This specification defines a new SDP Grouping Framework SDP grouping
+   framework extension, "MMT", and a new SDP media type, "anymedia".
+   Together they can be used with the Session Description Protocol (SDP)
+   Offer/Answer mechanism to negotiate the usage of multiplexed media
+   types, which refers to the usage of a single 5-tuple for different
+   media types.
+
+   This specification also defined a new SDP attribute, "mmtype", which
+   can be used within a "anymedia" SDP Media Description to map PT
+   (Payload Type) values to a specific media type.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-holmberg-mmusic-sdp-mmt-negotiation-00"/>
 </reference>

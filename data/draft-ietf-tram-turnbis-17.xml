@@ -1,22 +1,39 @@
 <reference anchor="I-D.ietf-tram-turnbis" target="https://datatracker.ietf.org/doc/html/draft-ietf-tram-turnbis-17">
   <front>
     <title>Traversal Using Relays around NAT (TURN): Relay Extensions to Session Traversal Utilities for NAT (STUN)</title>
-    <author fullname="Tirumaleswar Reddy.K" initials="T." surname="Reddy.K">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tram-turnbis-17"/>
+    <author initials="T." surname="Reddy.K" fullname="Tirumaleswar Reddy.K">
       <organization>McAfee, Inc.</organization>
     </author>
-    <author fullname="Alan Johnston" initials="A." surname="Johnston">
+    <author initials="A." surname="Johnston" fullname="Alan Johnston">
       <organization>Rowan University</organization>
     </author>
-    <author fullname="Philip Matthews" initials="P." surname="Matthews">
+    <author initials="P." surname="Matthews" fullname="Philip Matthews">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <author fullname="Jonathan Rosenberg" initials="J." surname="Rosenberg">
+    <author initials="J." surname="Rosenberg" fullname="Jonathan Rosenberg">
       <organization>jdrosen.net</organization>
     </author>
-    <date year="2018" month="April" day="23"/>
+    <date day="23" month="April" year="2018"></date>
     <abstract>
-      <t>If a host is located behind a NAT, then in certain situations it can be impossible for that host to communicate directly with other hosts (peers). In these situations, it is necessary for the host to use the services of an intermediate node that acts as a communication relay. This specification defines a protocol, called TURN (Traversal Using Relays around NAT), that allows the host to control the operation of the relay and to exchange packets with its peers using the relay. TURN differs from some other relay control protocols in that it allows a client to communicate with multiple peers using a single relay address. The TURN protocol was designed to be used as part of the ICE (Interactive Connectivity Establishment) approach to NAT traversal, though it also can be used without ICE. This document obsoletes RFC 5766 and RFC 6156.</t>
+      <t>   If a host is located behind a NAT, then in certain situations it can
+   be impossible for that host to communicate directly with other hosts
+   (peers).  In these situations, it is necessary for the host to use
+   the services of an intermediate node that acts as a communication
+   relay.  This specification defines a protocol, called TURN (Traversal
+   Using Relays around NAT), that allows the host to control the
+   operation of the relay and to exchange packets with its peers using
+   the relay.  TURN differs from some other relay control protocols in
+   that it allows a client to communicate with multiple peers using a
+   single relay address.
+
+   The TURN protocol was designed to be used as part of the ICE
+   (Interactive Connectivity Establishment) approach to NAT traversal,
+   though it also can be used without ICE.
+
+   This document obsoletes RFC 5766 and RFC 6156.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-tram-turnbis-17"/>
 </reference>

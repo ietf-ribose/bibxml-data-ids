@@ -1,19 +1,21 @@
 <reference anchor="I-D.ietf-dane-srv" target="https://datatracker.ietf.org/doc/html/draft-ietf-dane-srv-13">
   <front>
     <title>Using DNS-Based Authentication of Named Entities (DANE) TLSA Records with SRV Records</title>
-    <author fullname="Tony Finch" initials="T." surname="Finch">
-      <organization/>
-    </author>
-    <author fullname="Matthew A. Miller" initials="M. A." surname="Miller">
-      <organization/>
-    </author>
-    <author fullname="Peter Saint-Andre" initials="P." surname="Saint-Andre">
-      <organization/>
-    </author>
-    <date year="2015" month="April" day="15"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dane-srv-13"/>
+    <author initials="T." surname="Finch" fullname="Tony Finch"/>
+    <author initials="M. A." surname="Miller" fullname="Matthew A. Miller"/>
+    <author initials="P." surname="Saint-Andre" fullname="Peter Saint-Andre"/>
+    <date day="15" month="April" year="2015"></date>
     <abstract>
-      <t>The DANE specification (RFC 6698) describes how to use TLSA resource records secured by DNSSEC (RFC 4033) to associate a server's connection endpoint with its TLS certificate. However, application protocols that use SRV records (RFC 2782) to indirectly name the target server connection endpoints for a service domain cannot apply the rules from RFC 6698. Therefore this document provides guidelines that enable such protocols to locate and use TLSA records.</t>
+      <t>   The DANE specification (RFC 6698) describes how to use TLSA resource
+   records secured by DNSSEC (RFC 4033) to associate a server's
+   connection endpoint with its TLS certificate.  However, application
+   protocols that use SRV records (RFC 2782) to indirectly name the
+   target server connection endpoints for a service domain cannot apply
+   the rules from RFC 6698.  Therefore this document provides guidelines
+   that enable such protocols to locate and use TLSA records.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dane-srv-13"/>
 </reference>

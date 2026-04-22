@@ -1,16 +1,27 @@
 <reference anchor="I-D.kuehlewind-tcpm-accecn-reqs" target="https://datatracker.ietf.org/doc/html/draft-kuehlewind-tcpm-accecn-reqs-00">
   <front>
     <title>Problem Statement and Requirements for a More Accurate ECN Feedback</title>
-    <author fullname="Mirja Kühlewind" initials="M." surname="Kühlewind">
+    <seriesInfo name="Internet-Draft" value="draft-kuehlewind-tcpm-accecn-reqs-00"/>
+    <author initials="M." surname="Kühlewind" fullname="Mirja Kühlewind">
       <organization>University of Stuttgart</organization>
     </author>
-    <author fullname="Richard Scheffenegger" initials="R." surname="Scheffenegger">
+    <author initials="R." surname="Scheffenegger" fullname="Richard Scheffenegger">
       <organization>NetApp, Inc.</organization>
     </author>
-    <date year="2012" month="October" day="15"/>
+    <date day="15" month="October" year="2012"></date>
     <abstract>
-      <t>Explicit Congestion Notification (ECN) is an IP/TCP mechanism where network nodes can mark IP packets instead of dropping them to indicate congestion to the end-points. An ECN-capable receiver will feedback this information to the sender. ECN is specified for TCP in such a way that only one feedback signal can be transmitted per Round-Trip Time (RTT). Recently, new TCP mechanisms like ConEx or DCTCP need more accurate ECN feedback information in the case where more than one marking is received in one RTT. This documents specifies requirement for different ECN feedback scheme in the TCP header to provide more than one feedback signal per RTT.</t>
+      <t>   Explicit Congestion Notification (ECN) is an IP/TCP mechanism where
+   network nodes can mark IP packets instead of dropping them to
+   indicate congestion to the end-points.  An ECN-capable receiver will
+   feedback this information to the sender.  ECN is specified for TCP in
+   such a way that only one feedback signal can be transmitted per
+   Round-Trip Time (RTT).  Recently, new TCP mechanisms like ConEx or
+   DCTCP need more accurate ECN feedback information in the case where
+   more than one marking is received in one RTT.  This documents
+   specifies requirement for different ECN feedback scheme in the TCP
+   header to provide more than one feedback signal per RTT.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kuehlewind-tcpm-accecn-reqs-00"/>
 </reference>

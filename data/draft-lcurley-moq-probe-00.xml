@@ -1,13 +1,18 @@
 <reference anchor="I-D.lcurley-moq-probe" target="https://datatracker.ietf.org/doc/html/draft-lcurley-moq-probe-00">
   <front>
     <title>MoQ Probe Extension</title>
-    <author fullname="Luke Curley" initials="L." surname="Curley">
-      <organization/>
-    </author>
-    <date year="2026" month="March" day="16"/>
+    <seriesInfo name="Internet-Draft" value="draft-lcurley-moq-probe-00"/>
+    <author initials="L." surname="Curley" fullname="Luke Curley"/>
+    <date day="16" month="March" year="2026"></date>
     <abstract>
-      <t>This document defines a PROBE extension for MoQ Transport [moqt]. A subscriber opens a bidirectional PROBE stream to request that the publisher pad the connection up to a target bitrate. The publisher sends padding as defined in [moqt] Section 7.7 and periodically responds with the measured bitrate and an elapsed timestamp, enabling the subscriber to estimate the available bandwidth.</t>
+      <t>   This document defines a PROBE extension for MoQ Transport [moqt].  A
+   subscriber opens a bidirectional PROBE stream to request that the
+   publisher pad the connection up to a target bitrate.  The publisher
+   sends padding as defined in [moqt] Section 7.7 and periodically
+   responds with the measured bitrate and an elapsed timestamp, enabling
+   the subscriber to estimate the available bandwidth.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-lcurley-moq-probe-00"/>
 </reference>

@@ -1,13 +1,23 @@
 <reference anchor="I-D.ietf-ftpext-utf-8-option" target="https://datatracker.ietf.org/doc/html/draft-ietf-ftpext-utf-8-option-00">
   <front>
     <title>UTF-8 Option for FTP</title>
-    <author fullname="Gregory A. Lundberg" initials="G. A." surname="Lundberg">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ftpext-utf-8-option-00"/>
+    <author initials="G. A." surname="Lundberg" fullname="Gregory A. Lundberg">
       <organization>WU-FTPD Development Group</organization>
     </author>
-    <date year="2002" month="May" day="24"/>
+    <date day="24" month="May" year="2002"></date>
     <abstract>
-      <t>This document specifies an extension to the File Transfer Protocol (FTP) which provides for inter-operation between existing implementations and those supporting the exchange of UTF-8 encoded pathnames, and clarifies certain issues involved with UTF-8 encoding. It introduces a new option, UTF-8, negotiated by use of the OPTS command. Through use of this option, the user informs the server of its willingness to accept UTF-8 encoded pathnames. The proposed extension requires that neither party transmit UTF-8 encoded pathnames without having first successfully negotiated this option.</t>
+      <t>This document specifies an extension to the File Transfer Protocol
+(FTP) which provides for inter-operation between existing
+implementations and those supporting the exchange of UTF-8 encoded
+pathnames, and clarifies certain issues involved with UTF-8 encoding.
+It introduces a new option, UTF-8, negotiated by use of the OPTS
+command.  Through use of this option, the user informs the server of
+its willingness to accept UTF-8 encoded pathnames.  The proposed
+extension requires that neither party transmit UTF-8 encoded
+pathnames without having first successfully negotiated this option.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ftpext-utf-8-option-00"/>
 </reference>

@@ -1,19 +1,22 @@
 <reference anchor="I-D.ietf-idr-bgp-gr-notification" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-bgp-gr-notification-00">
   <front>
     <title>Notification Message support for BGP Graceful Restart</title>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
-      <organization/>
-    </author>
-    <author fullname="Rex Fernando" initials="R." surname="Fernando">
-      <organization/>
-    </author>
-    <author fullname="John Scudder" initials="J." surname="Scudder">
-      <organization/>
-    </author>
-    <date year="2011" month="December" day="6"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-gr-notification-00"/>
+    <author initials="K." surname="Patel" fullname="Keyur Patel"/>
+    <author initials="R." surname="Fernando" fullname="Rex Fernando"/>
+    <author initials="J." surname="Scudder" fullname="John Scudder"/>
+    <date day="06" month="December" year="2011"></date>
     <abstract>
-      <t>The current BGP Graceful Restart mechanism limits the usage of BGP Graceful Restart to BGP protocol messages other than a BGP NOTIFICATION message. This document defines an extension to the BGP Graceful Restart that permits the Graceful Restart procedures to be performed when the BGP speaker receives a BGP NOTIFICATION Message. This document also defines a new BGP NOTIFICATION Cease Error subcode to prevent BGP speakers supporting the extension defined in this document from performing a Graceful Restart.</t>
+      <t>   The current BGP Graceful Restart mechanism limits the usage of BGP
+   Graceful Restart to BGP protocol messages other than a BGP
+   NOTIFICATION message.  This document defines an extension to the BGP
+   Graceful Restart that permits the Graceful Restart procedures to be
+   performed when the BGP speaker receives a BGP NOTIFICATION Message.
+   This document also defines a new BGP NOTIFICATION Cease Error subcode
+   to prevent BGP speakers supporting the extension defined in this
+   document from performing a Graceful Restart.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-gr-notification-00"/>
 </reference>

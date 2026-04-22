@@ -1,22 +1,35 @@
 <reference anchor="I-D.khademi-tsvwg-ecn-response" target="https://datatracker.ietf.org/doc/html/draft-khademi-tsvwg-ecn-response-01">
   <front>
     <title>Updating the Explicit Congestion Notification (ECN) Specification to Allow IETF Experimentation</title>
-    <author fullname="Naeem Khademi" initials="N." surname="Khademi">
+    <seriesInfo name="Internet-Draft" value="draft-khademi-tsvwg-ecn-response-01"/>
+    <author initials="N." surname="Khademi" fullname="Naeem Khademi">
       <organization>University of Oslo</organization>
     </author>
-    <author fullname="Michael Welzl" initials="M." surname="Welzl">
+    <author initials="M." surname="Welzl" fullname="Michael Welzl">
       <organization>University of Oslo</organization>
     </author>
-    <author fullname="Dr. Grenville Armitage" initials="G." surname="Armitage">
+    <author initials="G." surname="Armitage" fullname="Dr. Grenville Armitage">
       <organization>Swinburne University of</organization>
     </author>
-    <author fullname="Gorry Fairhurst" initials="G." surname="Fairhurst">
+    <author initials="G." surname="Fairhurst" fullname="Gorry Fairhurst">
       <organization>University of Aberdeen</organization>
     </author>
-    <date year="2016" month="July" day="20"/>
+    <date day="20" month="July" year="2016"></date>
     <abstract>
-      <t>This document relaxes recommendations and prescriptions from RFC3168 and RFC4774 that get in the way of experimentation with different ECN strategies. First, RFC3168 and RFC4774 state that, upon the receipt by an ECN-Capable transport of a single CE packet, the congestion control algorithms followed at the end-systems MUST be essentially the same as the congestion control response to a single dropped packet. This document relaxes this rule in order to encourage experimentation with different backoff strategies. Second, this document allows future IETF specifications to use the ECT(1) codepoint in ways that are currently prohibited by RFC3168. Third, this document allows future IETF experiments to use the ECT(0) or ECT(1) codepoint on any TCP segment.</t>
+      <t>   This document relaxes recommendations and prescriptions from RFC3168
+   and RFC4774 that get in the way of experimentation with different ECN
+   strategies.  First, RFC3168 and RFC4774 state that, upon the receipt
+   by an ECN-Capable transport of a single CE packet, the congestion
+   control algorithms followed at the end-systems MUST be essentially
+   the same as the congestion control response to a single dropped
+   packet.  This document relaxes this rule in order to encourage
+   experimentation with different backoff strategies.  Second, this
+   document allows future IETF specifications to use the ECT(1)
+   codepoint in ways that are currently prohibited by RFC3168.  Third,
+   this document allows future IETF experiments to use the ECT(0) or
+   ECT(1) codepoint on any TCP segment.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-khademi-tsvwg-ecn-response-01"/>
 </reference>

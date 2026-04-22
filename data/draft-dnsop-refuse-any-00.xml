@@ -1,19 +1,28 @@
 <reference anchor="I-D.dnsop-refuse-any" target="https://datatracker.ietf.org/doc/html/draft-dnsop-refuse-any-00">
   <front>
     <title>Providing Minimal-Sized Responses to DNS Queries with QTYPE=ANY</title>
-    <author fullname="Joe Abley" initials="J." surname="Abley">
+    <seriesInfo name="Internet-Draft" value="draft-dnsop-refuse-any-00"/>
+    <author initials="J." surname="Abley" fullname="Joe Abley">
       <organization>Dyn, Inc.</organization>
     </author>
-    <author fullname="Ólafur Guðmundsson" initials="O." surname="Guðmundsson">
+    <author initials="O." surname="Guðmundsson" fullname="Ólafur Guðmundsson">
       <organization>CloudFlare Inc.</organization>
     </author>
-    <author fullname="Marek Majkowski" initials="M." surname="Majkowski">
+    <author initials="M." surname="Majkowski" fullname="Marek Majkowski">
       <organization>CloudFlare Inc.</organization>
     </author>
-    <date year="2015" month="November" day="4"/>
+    <date day="04" month="November" year="2015"></date>
     <abstract>
-      <t>The Domain Name System (DNS) specifies a query type (QTYPE) "ANY". The operator of an authoritative DNS server might choose not to respond to such queries for reasons of local policy, motivated by security, performance or other reasons. The DNS specification does not include specific guidance for the behaviour of DNS servers or clients in this situation. This document aims to provide such guidance.</t>
+      <t>   The Domain Name System (DNS) specifies a query type (QTYPE) "ANY".
+   The operator of an authoritative DNS server might choose not to
+   respond to such queries for reasons of local policy, motivated by
+   security, performance or other reasons.
+
+   The DNS specification does not include specific guidance for the
+   behaviour of DNS servers or clients in this situation.  This document
+   aims to provide such guidance.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-dnsop-refuse-any-00"/>
 </reference>

@@ -1,25 +1,33 @@
 <reference anchor="I-D.bonaventure-mptcp-backup" target="https://datatracker.ietf.org/doc/html/draft-bonaventure-mptcp-backup-00">
   <front>
     <title>Improving Multipath TCP Backup Subflows</title>
-    <author fullname="Olivier Bonaventure" initials="O." surname="Bonaventure">
+    <seriesInfo name="Internet-Draft" value="draft-bonaventure-mptcp-backup-00"/>
+    <author initials="O." surname="Bonaventure" fullname="Olivier Bonaventure">
       <organization>UCLouvain</organization>
     </author>
-    <author fullname="Quentin De Coninck" initials="Q." surname="De Coninck">
+    <author initials="Q." surname="De Coninck" fullname="Quentin De Coninck">
       <organization>UCLouvain</organization>
     </author>
-    <author fullname="Matthieu Baerts" initials="M." surname="Baerts">
+    <author initials="M." surname="Baerts" fullname="Matthieu Baerts">
       <organization>UCLouvain</organization>
     </author>
-    <author fullname="Fabien Duchene" initials="F." surname="Duchene">
+    <author initials="F." surname="Duchene" fullname="Fabien Duchene">
       <organization>UCLouvain</organization>
     </author>
-    <author fullname="benjamin.hesmans@uclouvain.be" initials="" surname="benjamin.hesmans@uclouvain.be">
+    <author surname="benjamin.hesmans@uclouvain.be" fullname="benjamin.hesmans@uclouvain.be">
       <organization>UCLouvain</organization>
     </author>
-    <date year="2015" month="July" day="6"/>
+    <date day="06" month="July" year="2015"></date>
     <abstract>
-      <t>This document documents some issues with the current definition of the backup subflows in [RFC6824]. The solution proposed in [RFC6824] works well when a subflow completely fails. However, if a subflow suffers from huge packet losses, but still remains up, then the delay to switch to the backup subflow may be very long. We propose to measure the evolution of the retransmission timer (RTO) to detect the bad performance of subflows.</t>
+      <t>   This document documents some issues with the current definition of
+   the backup subflows in [RFC6824].  The solution proposed in [RFC6824]
+   works well when a subflow completely fails.  However, if a subflow
+   suffers from huge packet losses, but still remains up, then the delay
+   to switch to the backup subflow may be very long.  We propose to
+   measure the evolution of the retransmission timer (RTO) to detect the
+   bad performance of subflows.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-bonaventure-mptcp-backup-00"/>
 </reference>

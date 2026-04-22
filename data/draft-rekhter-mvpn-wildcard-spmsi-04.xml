@@ -1,25 +1,32 @@
 <reference anchor="I-D.rekhter-mvpn-wildcard-spmsi" target="https://datatracker.ietf.org/doc/html/draft-rekhter-mvpn-wildcard-spmsi-04">
   <front>
     <title>Use of Wildcard in S-PMSI Auto-Discovery Routes</title>
-    <author fullname="Rahul Aggarwal" initials="R." surname="Aggarwal">
+    <seriesInfo name="Internet-Draft" value="draft-rekhter-mvpn-wildcard-spmsi-04"/>
+    <author initials="R." surname="Aggarwal" fullname="Rahul Aggarwal">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Wim Henderickx" initials="W." surname="Henderickx">
+    <author initials="W." surname="Henderickx" fullname="Wim Henderickx">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <author fullname="Praveen Muley" initials="P." surname="Muley">
+    <author initials="P." surname="Muley" fullname="Praveen Muley">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <author fullname="Ray Qiu" initials="R." surname="Qiu">
-      <organization/>
-    </author>
-    <author fullname="Yakov Rekhter" initials="Y." surname="Rekhter">
+    <author initials="R." surname="Qiu" fullname="Ray Qiu"/>
+    <author initials="Y." surname="Rekhter" fullname="Yakov Rekhter">
       <organization>Juniper Networks</organization>
     </author>
-    <date year="2011" month="February" day="14"/>
+    <date day="14" month="February" year="2011"></date>
     <abstract>
-      <t>The current MVPN specifications do not define encoding and procedures for advertising in a single route binding of multiple multicast streams of a given MVPN customer to a single provider's tunnel. This document defines such encoding and procedures. These procedures allow in certain situations to reduce MVPN control plane load (note though that these procedures have no impact on the data plane load). The procedures specified in this document assume that BGP is used for transmission of MVPN customers' routing information within the service provider(s) infrastructure.</t>
+      <t>The current MVPN specifications do not define encoding and procedures
+for advertising in a single route binding of multiple multicast
+streams of a given MVPN customer to a single provider's tunnel.  This
+document defines such encoding and procedures. These procedures allow
+in certain situations to reduce MVPN control plane load (note though
+that these procedures have no impact on the data plane load).  The
+procedures specified in this document assume that BGP is used for
+transmission of MVPN customers' routing information within the
+service provider(s) infrastructure.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-rekhter-mvpn-wildcard-spmsi-04"/>
 </reference>

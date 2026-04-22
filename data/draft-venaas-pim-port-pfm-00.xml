@@ -1,22 +1,33 @@
 <reference anchor="I-D.venaas-pim-port-pfm" target="https://datatracker.ietf.org/doc/html/draft-venaas-pim-port-pfm-00">
   <front>
     <title>PIM Flooding Protocol over Reliable Transport</title>
-    <author fullname="Stig Venaas" initials="S." surname="Venaas">
+    <seriesInfo name="Internet-Draft" value="draft-venaas-pim-port-pfm-00"/>
+    <author initials="S." surname="Venaas" fullname="Stig Venaas">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Balaji Ganesh" initials="B." surname="Ganesh">
+    <author initials="B." surname="Ganesh" fullname="Balaji Ganesh">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Kesavan Thiruvenkatasamy" initials="K." surname="Thiruvenkatasamy">
+    <author initials="K." surname="Thiruvenkatasamy" fullname="Kesavan Thiruvenkatasamy">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Ramakrishnan Cokkanathapuram Sundaram" initials="R. C." surname="Sundaram">
+    <author initials="R. C." surname="Sundaram" fullname="Ramakrishnan Cokkanathapuram Sundaram">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <date year="2019" month="March" day="11"/>
+    <date day="11" month="March" year="2019"></date>
     <abstract>
-      <t>The PIM Flooding Protocol (PFM) defined in RFC8364 relies on sending periodic updates as it does not provide for any reliability. If a message is lost, the information will be provided in the next periodic update. This document extends the Reliable Transport Mechanism for PIM in RFC6559 to allow for sending PFM messages. This significantly reduces the PFM signaling by not requiring frequent periodic updates, and it provides for retransmission, allowing for quick recovery when an IP packet is dropped.</t>
+      <t>   The PIM Flooding Protocol (PFM) defined in RFC8364 relies on sending
+   periodic updates as it does not provide for any reliability.  If a
+   message is lost, the information will be provided in the next
+   periodic update.
+
+   This document extends the Reliable Transport Mechanism for PIM in
+   RFC6559 to allow for sending PFM messages.  This significantly
+   reduces the PFM signaling by not requiring frequent periodic updates,
+   and it provides for retransmission, allowing for quick recovery when
+   an IP packet is dropped.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-venaas-pim-port-pfm-00"/>
 </reference>

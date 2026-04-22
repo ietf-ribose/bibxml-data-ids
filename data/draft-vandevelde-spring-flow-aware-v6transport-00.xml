@@ -1,19 +1,45 @@
 <reference anchor="I-D.vandevelde-spring-flow-aware-v6transport" target="https://datatracker.ietf.org/doc/html/draft-vandevelde-spring-flow-aware-v6transport-00">
   <front>
     <title>Flow Aware IPv6 Segment Routing</title>
-    <author fullname="Gunter Van de Velde" initials="G." surname="Van de Velde">
+    <seriesInfo name="Internet-Draft" value="draft-vandevelde-spring-flow-aware-v6transport-00"/>
+    <author initials="G." surname="Van de Velde" fullname="Gunter Van de Velde">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Giuseppe Fioccola" initials="G." surname="Fioccola">
+    <author initials="G." surname="Fioccola" fullname="Giuseppe Fioccola">
       <organization>Telecom Italia</organization>
     </author>
-    <author fullname="Praveen Muley" initials="P." surname="Muley">
+    <author initials="P." surname="Muley" fullname="Praveen Muley">
       <organization>Nokia</organization>
     </author>
-    <date year="2017" month="March" day="9"/>
+    <date day="09" month="March" year="2017"></date>
     <abstract>
-      <t>Flow-Aware transport of Pseudowires over an MPLS Packet Switched Network (RFC6391) introduces an ECMP use-case, making assumption that the payload of a pseudowire comprises of a number of distinct flows. RFC6391 provides a mechanism for fine flow granularity beyond the individual pseudowire, helping better flow granularity for ECMP purpose. To identify the granular pseudowire flows the concept of MPLS Flow Label is introduced. Furthermore RFC6391 defines the required LDP protocol extensions to exchange the MPLS Flow Label between LDP speakers. Another method to exchange MPLS flow labels is found in draft-ietf- bess-fat-pw-bgp. Draft-ietf-bess-fat-pw-bgp defines extensions required to synchronise flow label state between PEs using BGP-based signalling procedures. This draft assumes MPLS is the transport technology used. This draft extends the applicability of draft-ietf-bess-fat-pw-bgp and uses the BGP derived flow label for IPv6 Segment Routing transport. The PE responsible for imposing the IPv6 Segment Routing top level header will in addition to an IPv6 header AND the IPv6 Source Routing header ALSO impose the BGP derived Flow Label as the IPv6 outer header flow Label. This functionality will provide fine ECMP granularity of IPv6 Segment routing enabled pseudowire transport services.</t>
+      <t>   Flow-Aware transport of Pseudowires over an MPLS Packet Switched
+   Network (RFC6391) introduces an ECMP use-case, making assumption that
+   the payload of a pseudowire comprises of a number of distinct flows.
+   RFC6391 provides a mechanism for fine flow granularity beyond the
+   individual pseudowire, helping better flow granularity for ECMP
+   purpose.  To identify the granular pseudowire flows the concept of
+   MPLS Flow Label is introduced.  Furthermore RFC6391 defines the
+   required LDP protocol extensions to exchange the MPLS Flow Label
+   between LDP speakers.
+
+   Another method to exchange MPLS flow labels is found in draft-ietf-
+   bess-fat-pw-bgp.  Draft-ietf-bess-fat-pw-bgp defines extensions
+   required to synchronise flow label state between PEs using BGP-based
+   signalling procedures.  This draft assumes MPLS is the transport
+   technology used.
+
+   This draft extends the applicability of draft-ietf-bess-fat-pw-bgp
+   and uses the BGP derived flow label for IPv6 Segment Routing
+   transport.  The PE responsible for imposing the IPv6 Segment Routing
+   top level header will in addition to an IPv6 header AND the IPv6
+   Source Routing header ALSO impose the BGP derived Flow Label as the
+   IPv6 outer header flow Label.  This functionality will provide fine
+   ECMP granularity of IPv6 Segment routing enabled pseudowire transport
+   services.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-vandevelde-spring-flow-aware-v6transport-00"/>
 </reference>

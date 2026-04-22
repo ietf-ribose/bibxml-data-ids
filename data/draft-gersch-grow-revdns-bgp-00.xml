@@ -1,22 +1,24 @@
 <reference anchor="I-D.gersch-grow-revdns-bgp" target="https://datatracker.ietf.org/doc/html/draft-gersch-grow-revdns-bgp-00">
   <front>
     <title>DNS Resource Records for BGP Routing Data</title>
-    <author fullname="Joe Gersch" initials="J." surname="Gersch">
-      <organization/>
-    </author>
-    <author fullname="Dan Massey" initials="D." surname="Massey">
-      <organization/>
-    </author>
-    <author fullname="Eric Osterweil" initials="E." surname="Osterweil">
-      <organization/>
-    </author>
-    <author fullname="Lixia Zhang" initials="L." surname="Zhang">
-      <organization/>
-    </author>
-    <date year="2012" month="February" day="28"/>
+    <seriesInfo name="Internet-Draft" value="draft-gersch-grow-revdns-bgp-00"/>
+    <author initials="J." surname="Gersch" fullname="Joe Gersch"/>
+    <author initials="D." surname="Massey" fullname="Dan Massey"/>
+    <author initials="E." surname="Osterweil" fullname="Eric Osterweil"/>
+    <author initials="L." surname="Zhang" fullname="Lixia Zhang"/>
+    <date day="28" month="February" year="2012"></date>
     <abstract>
-      <t>This draft proposes the creation of two DNS record types for storing BGP routing information in the reverse DNS. The RLOCK record allows prefix owners to indicate whether the DNS is being used to publish routing data. The SRO record allows operators to indicate whether an IPv4 or IPv6 prefix ought to appear in global routing tables and identifies authorized origin Autonomous System Number(s) for that prefix. The published data can be used in a variety of contexts and can be extended to include additional information. This work is part of an on-going effort and is accessible in an active testbed.</t>
+      <t>   This draft proposes the creation of two DNS record types for storing
+   BGP routing information in the reverse DNS.  The RLOCK record allows
+   prefix owners to indicate whether the DNS is being used to publish
+   routing data.  The SRO record allows operators to indicate whether an
+   IPv4 or IPv6 prefix ought to appear in global routing tables and
+   identifies authorized origin Autonomous System Number(s) for that
+   prefix.  The published data can be used in a variety of contexts and
+   can be extended to include additional information.  This work is part
+   of an on-going effort and is accessible in an active testbed.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-gersch-grow-revdns-bgp-00"/>
 </reference>

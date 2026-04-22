@@ -1,13 +1,25 @@
 <reference anchor="I-D.bustamante-pson" target="https://datatracker.ietf.org/doc/html/draft-bustamante-pson-00">
   <front>
     <title>Packed Sensor Object Notation (PSON)</title>
-    <author fullname="Alvaro Luis Bustamante" initials="A. L." surname="Bustamante">
+    <seriesInfo name="Internet-Draft" value="draft-bustamante-pson-00"/>
+    <author initials="A. L." surname="Bustamante" fullname="Alvaro Luis Bustamante">
       <organization>Internet of Thinger SL</organization>
     </author>
-    <date year="2026" month="March" day="30"/>
+    <date day="30" month="March" year="2026"></date>
     <abstract>
-      <t>PSON (Packed Sensor Object Notation) is a compact binary data encoding format designed for IoT environments where bandwidth, memory, and processing power are constrained. PSON efficiently represents the data types commonly found in sensor telemetry and device interaction: integers, floating-point numbers, booleans, strings, binary blobs, arrays, and key-value maps. It achieves significant size reductions over JSON (40-75% for typical IoT payloads) through inline small value encoding and variable-length integers. PSON is self-describing (no external schema required for decoding) and designed for minimal implementation complexity on microcontrollers.</t>
+      <t>   PSON (Packed Sensor Object Notation) is a compact binary data
+   encoding format designed for IoT environments where bandwidth,
+   memory, and processing power are constrained.  PSON efficiently
+   represents the data types commonly found in sensor telemetry and
+   device interaction: integers, floating-point numbers, booleans,
+   strings, binary blobs, arrays, and key-value maps.  It achieves
+   significant size reductions over JSON (40-75% for typical IoT
+   payloads) through inline small value encoding and variable-length
+   integers.  PSON is self-describing (no external schema required for
+   decoding) and designed for minimal implementation complexity on
+   microcontrollers.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-bustamante-pson-00"/>
 </reference>

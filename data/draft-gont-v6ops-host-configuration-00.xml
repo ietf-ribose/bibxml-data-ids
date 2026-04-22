@@ -1,22 +1,25 @@
 <reference anchor="I-D.gont-v6ops-host-configuration" target="https://datatracker.ietf.org/doc/html/draft-gont-v6ops-host-configuration-00">
   <front>
     <title>On the Dynamic/Automatic Configuration of IPv6 Hosts</title>
-    <author fullname="Fernando Gont" initials="F." surname="Gont">
-      <organization/>
-    </author>
-    <author fullname="Gert Döring" initials="G." surname="Döring">
-      <organization/>
-    </author>
-    <author fullname="Madelen Garcia Corbo" initials="M. G." surname="Corbo">
-      <organization/>
-    </author>
-    <author fullname="Guillermo Gont" initials="G." surname="Gont">
-      <organization/>
-    </author>
-    <date year="2017" month="February" day="27"/>
+    <seriesInfo name="Internet-Draft" value="draft-gont-v6ops-host-configuration-00"/>
+    <author initials="F." surname="Gont" fullname="Fernando Gont"/>
+    <author initials="G." surname="Döring" fullname="Gert Döring"/>
+    <author initials="M. G." surname="Corbo" fullname="Madelen Garcia Corbo"/>
+    <author initials="G." surname="Gont" fullname="Guillermo Gont"/>
+    <date day="27" month="February" year="2017"></date>
     <abstract>
-      <t>IPv6 has two different mechanisms for dynamic/automatic host configuration: SLAAC and DHCPv6. These two mechanisms allow for the configuration of IPv6 addresses and a number of network parameters. While there is overlap in the parameters that can be configured via these two protocols, different implementations support only subsets of such parameters with either mechanism, or have no support for DHCPv6 at all. This document analyzes a problem that arises from this situation, and mandates that all host implementations support RFC 6105 (DNS options for SLAAC) and the stateless DHCPv6 functionality in RFC 3315.</t>
+      <t>   IPv6 has two different mechanisms for dynamic/automatic host
+   configuration: SLAAC and DHCPv6.  These two mechanisms allow for the
+   configuration of IPv6 addresses and a number of network parameters.
+   While there is overlap in the parameters that can be configured via
+   these two protocols, different implementations support only subsets
+   of such parameters with either mechanism, or have no support for
+   DHCPv6 at all.  This document analyzes a problem that arises from
+   this situation, and mandates that all host implementations support
+   RFC 6105 (DNS options for SLAAC) and the stateless DHCPv6
+   functionality in RFC 3315.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-gont-v6ops-host-configuration-00"/>
 </reference>

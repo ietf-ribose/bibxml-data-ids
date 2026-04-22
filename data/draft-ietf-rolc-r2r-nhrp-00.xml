@@ -1,16 +1,15 @@
 <reference anchor="I-D.ietf-rolc-r2r-nhrp" target="https://datatracker.ietf.org/doc/html/draft-ietf-rolc-r2r-nhrp-00">
   <front>
     <title>NHRP for Destinations off the NBMA Subnetwork</title>
-    <author fullname="Joel M. Halpern" initials="J. M." surname="Halpern">
-      <organization/>
-    </author>
-    <author fullname="Yakov Rekhter" initials="Y." surname="Rekhter">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-rolc-r2r-nhrp-00"/>
+    <author initials="J. M." surname="Halpern" fullname="Joel M. Halpern"/>
+    <author initials="Y." surname="Rekhter" fullname="Yakov Rekhter">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="1996" month="January" day="3"/>
+    <date day="03" month="January" year="1996"></date>
     <abstract>
-      <t>The NBMA Next Hop Resolution Protocol (NHRP) [NHRP] specifies a mechanism that allows a station (e.g., a host or a router) on an NBMA subnetwork to find the NBMA subnetwork address of a destination station when the destination station is connected to the NBMA subnetwork. For the case where the destination station is off the NBMA subnetwork the mechanism described in [NHRP] allows to determine the NBMA subnetwork address of an egress router from the NBMA subnetwork that is ``nearest'' to the destination station. However, [NHRP] constrains the ability of determining the egress router to the destinations that are directly connected to the egress router. This document describes extensions to the NHRP that allow a station to acquire and maintain the information about the egress router without constraining the destination(s) to be directly connected to the egress router.</t>
+      <t>The NBMA Next Hop Resolution Protocol (NHRP) [NHRP] specifies a mechanism that allows a station (e.g., a host or a router) on an NBMA subnetwork to find the NBMA subnetwork address of a destination station when the destination station is connected to the NBMA subnetwork. For the case where the destination station is off the NBMA subnetwork the mechanism described in [NHRP] allows to determine the NBMA subnetwork address of an egress router from the NBMA subnetwork that is ``nearest'' to the destination station.  However, [NHRP] constrains the ability of determining the egress router to the destinations that are directly connected to the egress router.                                            This document describes extensions to the NHRP that allow a station to acquire and maintain the information about the egress router without constraining the destination(s) to be directly connected to the egress router.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-rolc-r2r-nhrp-00"/>
 </reference>

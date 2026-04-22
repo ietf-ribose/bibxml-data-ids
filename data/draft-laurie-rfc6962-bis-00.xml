@@ -1,19 +1,31 @@
 <reference anchor="I-D.laurie-rfc6962-bis" target="https://datatracker.ietf.org/doc/html/draft-laurie-rfc6962-bis-00">
   <front>
     <title>Certificate Transparency</title>
-    <author fullname="Ben Laurie" initials="B." surname="Laurie">
+    <seriesInfo name="Internet-Draft" value="draft-laurie-rfc6962-bis-00"/>
+    <author initials="B." surname="Laurie" fullname="Ben Laurie">
       <organization>Google</organization>
     </author>
-    <author fullname="Adam Langley" initials="A." surname="Langley">
+    <author initials="A." surname="Langley" fullname="Adam Langley">
       <organization>Google</organization>
     </author>
-    <author fullname="Emilia Kasper" initials="E." surname="Kasper">
+    <author initials="E." surname="Kasper" fullname="Emilia Kasper">
       <organization>Google</organization>
     </author>
-    <date year="2013" month="October" day="4"/>
+    <date day="04" month="October" year="2013"></date>
     <abstract>
-      <t>This document describes an experimental protocol for publicly logging the existence of Transport Layer Security (TLS) certificates as they are issued or observed, in a manner that allows anyone to audit certificate authority (CA) activity and notice the issuance of suspect certificates as well as to audit the certificate logs themselves. The intent is that eventually clients would refuse to honor certificates that do not appear in a log, effectively forcing CAs to add all issued certificates to the logs. Logs are network services that implement the protocol operations for submissions and queries that are defined in this document.</t>
+      <t>   This document describes an experimental protocol for publicly logging
+   the existence of Transport Layer Security (TLS) certificates as they
+   are issued or observed, in a manner that allows anyone to audit
+   certificate authority (CA) activity and notice the issuance of
+   suspect certificates as well as to audit the certificate logs
+   themselves.  The intent is that eventually clients would refuse to
+   honor certificates that do not appear in a log, effectively forcing
+   CAs to add all issued certificates to the logs.
+
+   Logs are network services that implement the protocol operations for
+   submissions and queries that are defined in this document.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-laurie-rfc6962-bis-00"/>
 </reference>

@@ -1,22 +1,31 @@
 <reference anchor="I-D.tantsura-idr-bgp-ls-segment-routing-msd" target="https://datatracker.ietf.org/doc/html/draft-tantsura-idr-bgp-ls-segment-routing-msd-05">
   <front>
     <title>Signaling Maximum SID Depth using Border Gateway Protocol Link-State</title>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+    <seriesInfo name="Internet-Draft" value="draft-tantsura-idr-bgp-ls-segment-routing-msd-05"/>
+    <author initials="J." surname="Tantsura" fullname="Jeff Tantsura">
       <organization>Individual</organization>
     </author>
-    <author fullname="Uma Chunduri" initials="U." surname="Chunduri">
+    <author initials="U." surname="Chunduri" fullname="Uma Chunduri">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Greg Mirsky" initials="G." surname="Mirsky">
+    <author initials="G." surname="Mirsky" fullname="Greg Mirsky">
       <organization>ZTE Corp.</organization>
     </author>
-    <author fullname="Siva Sivabalan" initials="S." surname="Sivabalan">
+    <author initials="S." surname="Sivabalan" fullname="Siva Sivabalan">
       <organization>Cisco</organization>
     </author>
-    <date year="2017" month="June" day="4"/>
+    <date day="04" month="June" year="2017"></date>
     <abstract>
-      <t>This document proposes a way to signal Maximum SID Depth (MSD) supported by a node at node and/or link granularity by a BGP-LS speaker. In a Segment Routing (SR) enabled network a centralized controller that programs SR tunnels needs to know the MSD supported by the head-end at node and/or link granularity to push the SID stack of an appropriate depth. MSD is relevant to the head-end of a SR tunnel or Binding-SID anchor node where Binding-SID expansions might result in creation of a new SID stack.</t>
+      <t>   This document proposes a way to signal Maximum SID Depth (MSD)
+   supported by a node at node and/or link granularity by a BGP-LS
+   speaker.  In a Segment Routing (SR) enabled network a centralized
+   controller that programs SR tunnels needs to know the MSD supported
+   by the head-end at node and/or link granularity to push the SID stack
+   of an appropriate depth.  MSD is relevant to the head-end of a SR
+   tunnel or Binding-SID anchor node where Binding-SID expansions might
+   result in creation of a new SID stack.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-tantsura-idr-bgp-ls-segment-routing-msd-05"/>
 </reference>

@@ -1,13 +1,21 @@
 <reference anchor="I-D.wolf-http-select" target="https://datatracker.ietf.org/doc/html/draft-wolf-http-select-00">
   <front>
     <title>Experiences with HTTP-SELECT and Asynchronous Updates</title>
-    <author fullname="Klaus H. Wolf" initials="K. H." surname="Wolf">
+    <seriesInfo name="Internet-Draft" value="draft-wolf-http-select-00"/>
+    <author initials="K. H." surname="Wolf" fullname="Klaus H. Wolf">
       <organization>University of Ulm</organization>
     </author>
-    <date year="1999" month="June" day="30"/>
+    <date day="30" month="June" year="1999"></date>
     <abstract>
-      <t>Many Internet services need asynchronous notifications. At the same time there is an increasing number of protocols which use HTTP or HTTP-alike request-response transactions. This document proposes an extension to application protocols which enables asynchronous notifications from server to client through client initiated request-response transactions. The extension applies the Unix select() pattern to TCP connections of HTTP-alike protocols. Hence it is called HTTP-SELECT.</t>
+      <t>Many Internet services need asynchronous notifications. At the same
+time there is an increasing number of protocols which use HTTP or
+HTTP-alike request-response transactions.
+This document proposes an extension to application protocols which
+enables asynchronous notifications from server to client through
+client initiated request-response transactions. The extension applies
+the Unix select() pattern to TCP connections of HTTP-alike protocols.
+Hence it is called HTTP-SELECT.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wolf-http-select-00"/>
 </reference>

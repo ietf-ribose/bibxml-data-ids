@@ -1,19 +1,32 @@
 <reference anchor="I-D.sheth-pqc-dnssec-strategy" target="https://datatracker.ietf.org/doc/html/draft-sheth-pqc-dnssec-strategy-00">
   <front>
     <title>Post-Quantum Cryptography Strategy for DNSSEC</title>
-    <author fullname="Swapneel Sheth" initials="S." surname="Sheth">
+    <seriesInfo name="Internet-Draft" value="draft-sheth-pqc-dnssec-strategy-00"/>
+    <author initials="S." surname="Sheth" fullname="Swapneel Sheth">
       <organization>Verisign Labs</organization>
     </author>
-    <author fullname="Taejoong Chung" initials="T." surname="Chung">
+    <author initials="T." surname="Chung" fullname="Taejoong Chung">
       <organization>Virginia Tech</organization>
     </author>
-    <author fullname="Benno Overeinder" initials="B." surname="Overeinder">
+    <author initials="B." surname="Overeinder" fullname="Benno Overeinder">
       <organization>NLnet Labs</organization>
     </author>
-    <date year="2025" month="October" day="16"/>
+    <date day="16" month="October" year="2025"></date>
     <abstract>
-      <t>This document proposes a post-quantum cryptography (PQC) strategy for Domain Name System Security (DNSSEC) that includes two types of algorithms: one or more conservatively designed algorithms that are unlikely ever to need to be replaced, and one or more low-impact drop-in algorithms that are used the same way as a traditional signature algorithm. The conservatively designed algorithms can be used in a mode of operation that mitigates the operational impact of a large signature size. The combination provides both the routine performance of the low-impact algorithm and a resilient fallback to the conservatively designed choice. The draft outlines the strategy, provides recommendations for future testing and deployment, and highlights operational considerations in adopting PQC for DNSSEC.</t>
+      <t>   This document proposes a post-quantum cryptography (PQC) strategy for
+   Domain Name System Security (DNSSEC) that includes two types of
+   algorithms: one or more conservatively designed algorithms that are
+   unlikely ever to need to be replaced, and one or more low-impact
+   drop-in algorithms that are used the same way as a traditional
+   signature algorithm.  The conservatively designed algorithms can be
+   used in a mode of operation that mitigates the operational impact of
+   a large signature size.  The combination provides both the routine
+   performance of the low-impact algorithm and a resilient fallback to
+   the conservatively designed choice.  The draft outlines the strategy,
+   provides recommendations for future testing and deployment, and
+   highlights operational considerations in adopting PQC for DNSSEC.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sheth-pqc-dnssec-strategy-00"/>
 </reference>

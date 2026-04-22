@@ -1,22 +1,33 @@
 <reference anchor="I-D.lapukhov-bgp-opaque-signaling" target="https://datatracker.ietf.org/doc/html/draft-lapukhov-bgp-opaque-signaling-04">
   <front>
     <title>Use of BGP for Opaque Signaling</title>
-    <author fullname="Petr Lapukhov" initials="P." surname="Lapukhov">
+    <seriesInfo name="Internet-Draft" value="draft-lapukhov-bgp-opaque-signaling-04"/>
+    <author initials="P." surname="Lapukhov" fullname="Petr Lapukhov">
       <organization>Facebook</organization>
     </author>
-    <author fullname="Ebben Aries" initials="E." surname="Aries">
+    <author initials="E." surname="Aries" fullname="Ebben Aries">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Pedro R. Marques" initials="P. R." surname="Marques">
+    <author initials="P. R." surname="Marques" fullname="Pedro R. Marques">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Edet Nkposong" initials="E." surname="Nkposong">
+    <author initials="E." surname="Nkposong" fullname="Edet Nkposong">
       <organization>Salesforce.com Inc</organization>
     </author>
-    <date year="2017" month="October" day="30"/>
+    <date day="30" month="October" year="2017"></date>
     <abstract>
-      <t>Border Gateway Protocol with multi-protocol extensions (MP-BGP) enables the use of the protocol for dissemination of virtually any information. This document proposes a new Address Family/Subsequent Address Family to be used for distribution of opaque data. This functionality is intended to be used by applications other than BGP for exchange of their own data on top of BGP mesh. The structure of such data SHOULD NOT be interpreted by the regular BGP speakers, rather the goal is to use BGP purely as a convenient and scalable communication system.</t>
+      <t>   Border Gateway Protocol with multi-protocol extensions (MP-BGP)
+   enables the use of the protocol for dissemination of virtually any
+   information.  This document proposes a new Address Family/Subsequent
+   Address Family to be used for distribution of opaque data.  This
+   functionality is intended to be used by applications other than BGP
+   for exchange of their own data on top of BGP mesh.  The structure of
+   such data SHOULD NOT be interpreted by the regular BGP speakers,
+   rather the goal is to use BGP purely as a convenient and scalable
+   communication system.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-lapukhov-bgp-opaque-signaling-04"/>
 </reference>

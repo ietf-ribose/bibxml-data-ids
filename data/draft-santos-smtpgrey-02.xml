@@ -1,16 +1,24 @@
 <reference anchor="I-D.santos-smtpgrey" target="https://datatracker.ietf.org/doc/html/draft-santos-smtpgrey-02">
   <front>
     <title>SMTP Service Extension for Greylisting Operations</title>
-    <author fullname="Hector Santos" initials="H." surname="Santos">
+    <seriesInfo name="Internet-Draft" value="draft-santos-smtpgrey-02"/>
+    <author initials="H." surname="Santos" fullname="Hector Santos">
       <organization>Santronics Software</organization>
     </author>
-    <author fullname="Evan Harris" initials="E." surname="Harris">
+    <author initials="E." surname="Harris" fullname="Evan Harris">
       <organization>puremagic.com</organization>
     </author>
-    <date year="2012" month="April" day="27"/>
+    <date day="27" month="April" year="2012"></date>
     <abstract>
-      <t>GREYLIST is a SMTP extension to formalize the widely supported Greylisting mail filtering method and to help support SMTP rejected transports by following a new formal structured 4yz server temporary rejection response by including a "retry=time-delay" tag string which SMTP clients can use to optimize the rescheduling of the mail delivery attempts. With adoption, network overhead reduction in wasteful mail delivery attempts will be realized.</t>
+      <t>   GREYLIST is a SMTP extension to formalize the widely supported
+   Greylisting mail filtering method and to help support SMTP rejected
+   transports by following a new formal structured 4yz server temporary
+   rejection response by including a "retry=time-delay" tag string which
+   SMTP clients can use to optimize the rescheduling of the mail
+   delivery attempts.  With adoption, network overhead reduction in
+   wasteful mail delivery attempts will be realized.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-santos-smtpgrey-02"/>
 </reference>

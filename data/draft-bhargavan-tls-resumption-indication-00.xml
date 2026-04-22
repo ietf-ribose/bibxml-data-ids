@@ -1,25 +1,34 @@
 <reference anchor="I-D.bhargavan-tls-resumption-indication" target="https://datatracker.ietf.org/doc/html/draft-bhargavan-tls-resumption-indication-00">
   <front>
     <title>Transport Layer Security (TLS) Resumption Indication Extension</title>
-    <author fullname="Karthikeyan Bhargavan" initials="K." surname="Bhargavan">
+    <seriesInfo name="Internet-Draft" value="draft-bhargavan-tls-resumption-indication-00"/>
+    <author initials="K." surname="Bhargavan" fullname="Karthikeyan Bhargavan">
       <organization>Inria Paris-Rocquencourt</organization>
     </author>
-    <author fullname="Antoine Delignat-Lavaud" initials="A." surname="Delignat-Lavaud">
+    <author initials="A." surname="Delignat-Lavaud" fullname="Antoine Delignat-Lavaud">
       <organization>Inria Paris-Rocquencourt</organization>
     </author>
-    <author fullname="Alfredo Pironti" initials="A." surname="Pironti">
+    <author initials="A." surname="Pironti" fullname="Alfredo Pironti">
       <organization>Inria Paris-Rocquencourt</organization>
     </author>
-    <author fullname="Adam Langley" initials="A." surname="Langley">
+    <author initials="A." surname="Langley" fullname="Adam Langley">
       <organization>Google Inc.</organization>
     </author>
-    <author fullname="Marsh Ray" initials="M." surname="Ray">
+    <author initials="M." surname="Ray" fullname="Marsh Ray">
       <organization>Microsoft Corp.</organization>
     </author>
-    <date year="2014" month="April" day="18"/>
+    <date day="18" month="April" year="2014"></date>
     <abstract>
-      <t>When a TLS session is resumed via an abbreviated handshake, the knowledge of the master secret is used to implicitly mutually authenticate the two peers. However, an attacker can synchronize two different TLS sessions, so that they share the same master secret, breaking the resumption authentication property. This specification defines a TLS extension that cryptographically binds the resumption abbreviated handshake with its original session, thus preventing this attack.</t>
+      <t>   When a TLS session is resumed via an abbreviated handshake, the
+   knowledge of the master secret is used to implicitly mutually
+   authenticate the two peers.  However, an attacker can synchronize two
+   different TLS sessions, so that they share the same master secret,
+   breaking the resumption authentication property.  This specification
+   defines a TLS extension that cryptographically binds the resumption
+   abbreviated handshake with its original session, thus preventing this
+   attack.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-bhargavan-tls-resumption-indication-00"/>
 </reference>

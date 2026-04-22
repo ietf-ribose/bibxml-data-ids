@@ -1,19 +1,22 @@
 <reference anchor="I-D.leecy-mpls-loop-avoidance" target="https://datatracker.ietf.org/doc/html/draft-leecy-mpls-loop-avoidance-01">
   <front>
     <title>Avoiding Loops in MPLS</title>
-    <author fullname="Dr. Yoshihiro Ohba" initials="Y." surname="Ohba">
-      <organization/>
-    </author>
-    <author fullname="Loa Andersson" initials="L." surname="Andersson">
+    <seriesInfo name="Internet-Draft" value="draft-leecy-mpls-loop-avoidance-01"/>
+    <author initials="Y." surname="Ohba" fullname="Dr. Yoshihiro Ohba"/>
+    <author initials="L." surname="Andersson" fullname="Loa Andersson">
       <organization>Nortel Networks</organization>
     </author>
-    <author fullname="Cheng-Yin Lee" initials="C." surname="Lee">
-      <organization/>
-    </author>
-    <date year="1999" month="November" day="11"/>
+    <author initials="C." surname="Lee" fullname="Cheng-Yin Lee"/>
+    <date day="11" month="November" year="1999"></date>
     <abstract>
-      <t>This document proposes a general method to avoid loops while setting up Label Switched Paths (LSPs), and is applicable to both unicast and multicast label setup. The approach taken is to solve the problem of constructing a tree for delivering data. The solution verifies the path towards the root of the tree is loop free before a node is grafted to the tree. This loop avoidance scheme complements loop detection in LDP.</t>
+      <t>This document proposes a general method to avoid loops while setting
+up Label Switched Paths (LSPs), and is applicable to both unicast and
+multicast label setup.  The approach taken is to solve the problem of
+constructing a tree for delivering data. The solution verifies the
+path towards the root of the tree is loop free before a node is
+grafted to the tree.  This loop avoidance scheme complements loop
+detection in LDP.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-leecy-mpls-loop-avoidance-01"/>
 </reference>

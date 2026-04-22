@@ -1,22 +1,38 @@
 <reference anchor="I-D.mohanty-bess-ebgp-dmz" target="https://datatracker.ietf.org/doc/html/draft-mohanty-bess-ebgp-dmz-01">
   <front>
     <title>Cumulative DMZ Link Bandwidth and load-balancing</title>
-    <author fullname="satyamoh@cisco.com" initials="" surname="satyamoh@cisco.com">
+    <seriesInfo name="Internet-Draft" value="draft-mohanty-bess-ebgp-dmz-01"/>
+    <author surname="satyamoh@cisco.com" fullname="satyamoh@cisco.com">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Arie Vayner" initials="A." surname="Vayner">
+    <author initials="A." surname="Vayner" fullname="Arie Vayner">
       <organization>Nutanix</organization>
     </author>
-    <author fullname="Akshay Gattani" initials="A." surname="Gattani">
+    <author initials="A." surname="Gattani" fullname="Akshay Gattani">
       <organization>Arista Networks</organization>
     </author>
-    <author fullname="Ajay Kini" initials="A." surname="Kini">
+    <author initials="A." surname="Kini" fullname="Ajay Kini">
       <organization>Arista Networks</organization>
     </author>
-    <date year="2020" month="July" day="13"/>
+    <date day="13" month="July" year="2020"></date>
     <abstract>
-      <t>The DMZ Link Bandwidth draft provides a way to load-balance traffic to a destination (which is in a different AS than the source) which is reachable via more than one path. Typically, the link bandwidth (either configured on the link of the EBGP egress interface or set via a policy) is encoded in an extended community and then sent to the IBGP peer which employs multi-path. The link-bandwidth value is then extracted from the path extended community and is used as a weight in the FIB, which does the load-balancing. This draft extends the usage of the DMZ link bandwidth to another setting where the ingress BGP speaker requires knowledge of the cumulative bandwidth while doing the load-balancing. The draft also proposes neighbor- level knobs to enable the link bandwidth extended community to be regenerated and then advertised to EBGP peers to override the default behavior of not advertising optional non-transitive attributes to EBGP peers.</t>
+      <t>   The DMZ Link Bandwidth draft provides a way to load-balance traffic
+   to a destination (which is in a different AS than the source) which
+   is reachable via more than one path.  Typically, the link bandwidth
+   (either configured on the link of the EBGP egress interface or set
+   via a policy) is encoded in an extended community and then sent to
+   the IBGP peer which employs multi-path.  The link-bandwidth value is
+   then extracted from the path extended community and is used as a
+   weight in the FIB, which does the load-balancing.  This draft extends
+   the usage of the DMZ link bandwidth to another setting where the
+   ingress BGP speaker requires knowledge of the cumulative bandwidth
+   while doing the load-balancing.  The draft also proposes neighbor-
+   level knobs to enable the link bandwidth extended community to be
+   regenerated and then advertised to EBGP peers to override the default
+   behavior of not advertising optional non-transitive attributes to
+   EBGP peers.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mohanty-bess-ebgp-dmz-01"/>
 </reference>

@@ -1,19 +1,27 @@
 <reference anchor="I-D.ladd-cfrg-4q" target="https://datatracker.ietf.org/doc/html/draft-ladd-cfrg-4q-01">
   <front>
     <title>Curve4Q</title>
-    <author fullname="Watson Ladd" initials="W." surname="Ladd">
+    <seriesInfo name="Internet-Draft" value="draft-ladd-cfrg-4q-01"/>
+    <author initials="W." surname="Ladd" fullname="Watson Ladd">
       <organization>UC Berkeley</organization>
     </author>
-    <author fullname="Patrick Longa" initials="P." surname="Longa">
+    <author initials="P." surname="Longa" fullname="Patrick Longa">
       <organization>Microsoft Research</organization>
     </author>
-    <author fullname="Richard Barnes" initials="R." surname="Barnes">
+    <author initials="R." surname="Barnes" fullname="Richard Barnes">
       <organization>Mozilla</organization>
     </author>
-    <date year="2017" month="March" day="27"/>
+    <date day="27" month="March" year="2017"></date>
     <abstract>
-      <t>This document specifies Curve4Q, a twisted Edwards curve proposed in [Curve4Q] that takes advantage of arithmetic over the field GF(2^127-1) and two endomorphisms to achieve the speediest Diffie- Hellman key agreements over a group of order approximately 2^246, which provides around 128 bits of security. Curve4Q implementations are more than two times faster than those of Curve25519 and, when not using endomorphisms, are between 1.2 and 1.6 times faster.</t>
+      <t>   This document specifies Curve4Q, a twisted Edwards curve proposed in
+   [Curve4Q] that takes advantage of arithmetic over the field
+   GF(2^127-1) and two endomorphisms to achieve the speediest Diffie-
+   Hellman key agreements over a group of order approximately 2^246,
+   which provides around 128 bits of security.  Curve4Q implementations
+   are more than two times faster than those of Curve25519 and, when not
+   using endomorphisms, are between 1.2 and 1.6 times faster.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ladd-cfrg-4q-01"/>
 </reference>

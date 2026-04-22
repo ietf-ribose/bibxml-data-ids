@@ -1,13 +1,33 @@
 <reference anchor="I-D.hood-independent-atp" target="https://datatracker.ietf.org/doc/html/draft-hood-independent-atp-00">
   <front>
     <title>Agent Transfer Protocol (ATP)</title>
-    <author fullname="Chris Hood" initials="C." surname="Hood">
+    <seriesInfo name="Internet-Draft" value="draft-hood-independent-atp-00"/>
+    <author initials="C." surname="Hood" fullname="Chris Hood">
       <organization>Nomotic, Inc.</organization>
     </author>
-    <date year="2026" month="March" day="19"/>
+    <date day="19" month="March" year="2026"></date>
     <abstract>
-      <t>AI agents and agentic systems generate a growing volume of intent- driven, unstructured, and undifferentiated traffic that flows through HTTP indistinguishably from human-initiated requests. HTTP lacks the semantic vocabulary, observability primitives, and identity mechanisms required by agent systems operating at scale. Existing protocols described as "agent protocols" — including MCP, ACP, A2A, and ANP — are messaging-layer constructs that presuppose HTTP as their transport. They do not address the underlying transport problem. This document defines the Agent Transfer Protocol (ATP): a dedicated application-layer protocol for AI agent traffic. ATP provides agent- native intent methods (QUERY, SUMMARIZE, BOOK, SCHEDULE, LEARN, DELEGATE, COLLABORATE, CONFIRM, ESCALATE, NOTIFY), protocol-level agent identity and authority headers, and a status code vocabulary designed for the conditions AI agent systems encounter. ATP SHOULD prefer QUIC for new implementations and MUST support TCP/TLS for compatibility and fallback. It is designed to be composable with existing agent frameworks, not to replace them.</t>
+      <t>   AI agents and agentic systems generate a growing volume of intent-
+   driven, unstructured, and undifferentiated traffic that flows through
+   HTTP indistinguishably from human-initiated requests.  HTTP lacks the
+   semantic vocabulary, observability primitives, and identity
+   mechanisms required by agent systems operating at scale.  Existing
+   protocols described as "agent protocols" — including MCP, ACP, A2A,
+   and ANP — are messaging-layer constructs that presuppose HTTP as
+   their transport.  They do not address the underlying transport
+   problem.
+
+   This document defines the Agent Transfer Protocol (ATP): a dedicated
+   application-layer protocol for AI agent traffic.  ATP provides agent-
+   native intent methods (QUERY, SUMMARIZE, BOOK, SCHEDULE, LEARN,
+   DELEGATE, COLLABORATE, CONFIRM, ESCALATE, NOTIFY), protocol-level
+   agent identity and authority headers, and a status code vocabulary
+   designed for the conditions AI agent systems encounter.  ATP SHOULD
+   prefer QUIC for new implementations and MUST support TCP/TLS for
+   compatibility and fallback.  It is designed to be composable with
+   existing agent frameworks, not to replace them.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hood-independent-atp-00"/>
 </reference>

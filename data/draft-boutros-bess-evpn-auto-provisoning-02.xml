@@ -1,25 +1,34 @@
 <reference anchor="I-D.boutros-bess-evpn-auto-provisoning" target="https://datatracker.ietf.org/doc/html/draft-boutros-bess-evpn-auto-provisoning-02">
   <front>
     <title>EVPN auto provisioning using a controller</title>
-    <author fullname="Sami Boutros" initials="S." surname="Boutros">
+    <seriesInfo name="Internet-Draft" value="draft-boutros-bess-evpn-auto-provisoning-02"/>
+    <author initials="S." surname="Boutros" fullname="Sami Boutros">
       <organization>VMware</organization>
     </author>
-    <author fullname="Rex Fernando" initials="R." surname="Fernando">
+    <author initials="R." surname="Fernando" fullname="Rex Fernando">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Ali Sajassi" initials="A." surname="Sajassi">
+    <author initials="A." surname="Sajassi" fullname="Ali Sajassi">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Junying Pang" initials="J." surname="Pang">
+    <author initials="J." surname="Pang" fullname="Junying Pang">
       <organization>Alibaba</organization>
     </author>
-    <author fullname="tsingh@juniper.net" initials="" surname="tsingh@juniper.net">
+    <author surname="tsingh@juniper.net" fullname="tsingh@juniper.net">
       <organization>Juniper</organization>
     </author>
-    <date year="2016" month="October" day="21"/>
+    <date day="21" month="October" year="2016"></date>
     <abstract>
-      <t>In some datacenter use cases, priori knowledge of what PE/NVE to be configured for a given L2 or L3 service may not be available. This document describes how EVPN can be extended to discover what L2 or L3 services to be enabled on a given PE/NVE, based on first sign of life FSOL packets received on the PE/NVE ports. An EVPN route based on the FSOL packets will be sent to a controller to trigger a push of the related L2/L3 or subscriber service configuration to be provisioned on the PE/NVE and on the switch ports.</t>
+      <t>   In some datacenter use cases, priori knowledge of what PE/NVE to be
+   configured for a given L2 or L3 service may not be available. This
+   document describes how EVPN can be extended to discover what L2 or L3
+   services to be enabled on a given PE/NVE, based on first sign of life
+   FSOL packets received on the PE/NVE ports. An EVPN route based on the
+   FSOL packets will be sent to a controller to trigger a push of the
+   related L2/L3 or subscriber service configuration to be provisioned
+   on the PE/NVE and on the switch ports.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-boutros-bess-evpn-auto-provisoning-02"/>
 </reference>

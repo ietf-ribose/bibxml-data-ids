@@ -1,19 +1,27 @@
 <reference anchor="I-D.jennings-moq-e2ee-mls" target="https://datatracker.ietf.org/doc/html/draft-jennings-moq-e2ee-mls-03">
   <front>
     <title>End-to-end Security for Media over QUIC</title>
-    <author fullname="Cullen Fluffy Jennings" initials="C. F." surname="Jennings">
+    <seriesInfo name="Internet-Draft" value="draft-jennings-moq-e2ee-mls-03"/>
+    <author initials="C. F." surname="Jennings" fullname="Cullen Fluffy Jennings">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Suhas Nandakumar" initials="S." surname="Nandakumar">
+    <author initials="S." surname="Nandakumar" fullname="Suhas Nandakumar">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Richard Barnes" initials="R." surname="Barnes">
+    <author initials="R." surname="Barnes" fullname="Richard Barnes">
       <organization>Cisco</organization>
     </author>
-    <date year="2025" month="June" day="30"/>
+    <date day="30" month="June" year="2025"></date>
     <abstract>
-      <t>The Media over QUIC system allows relays to assist in the delivery of real-time media. While these relays are trusted to facilitate media delivery, they are not trusted to access the media content. The document describes an end-to-end security system that prevents relays from accessing media content. MLS is used to establish keys that are available only to legitimate participants in a session, which are then used to protect media data using SFrame.</t>
+      <t>   The Media over QUIC system allows relays to assist in the delivery of
+   real-time media.  While these relays are trusted to facilitate media
+   delivery, they are not trusted to access the media content.  The
+   document describes an end-to-end security system that prevents relays
+   from accessing media content.  MLS is used to establish keys that are
+   available only to legitimate participants in a session, which are
+   then used to protect media data using SFrame.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-jennings-moq-e2ee-mls-03"/>
 </reference>

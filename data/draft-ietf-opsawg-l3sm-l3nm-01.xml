@@ -1,25 +1,43 @@
 <reference anchor="I-D.ietf-opsawg-l3sm-l3nm" target="https://datatracker.ietf.org/doc/html/draft-ietf-opsawg-l3sm-l3nm-01">
   <front>
     <title>A Layer 3 VPN Network YANG Model</title>
-    <author fullname="Alejandro Aguado" initials="A." surname="Aguado">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-opsawg-l3sm-l3nm-01"/>
+    <author initials="A." surname="Aguado" fullname="Alejandro Aguado">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Oscar Gonzalez de Dios" initials="O. G." surname="de Dios">
+    <author initials="O. G." surname="de Dios" fullname="Oscar Gonzalez de Dios">
       <organization>Telefonica</organization>
     </author>
-    <author fullname="Victor Lopez" initials="V." surname="Lopez">
+    <author initials="V." surname="Lopez" fullname="Victor Lopez">
       <organization>Telefonica</organization>
     </author>
-    <author fullname="Daniel Voyer" initials="D." surname="Voyer">
+    <author initials="D." surname="Voyer" fullname="Daniel Voyer">
       <organization>Bell Canada</organization>
     </author>
-    <author fullname="Luis Angel Munoz" initials="L. A." surname="Munoz">
+    <author initials="L. A." surname="Munoz" fullname="Luis Angel Munoz">
       <organization>Vodafone</organization>
     </author>
-    <date year="2019" month="November" day="17"/>
+    <date day="17" month="November" year="2019"></date>
     <abstract>
-      <t>RFC8299 defines a L3VPN Service YANG data Model (L3SM) that can be used for communication between customers and VPN service providers. That data model plays the role of a Customer Service Model, according to the terminology defined in RFC8309, and is as such adequate for service negotiation and order handling matters. There is a need for a more network-centric YANG data model to be used in the communication between the entity that interacts directly with the customer, the service orchestrator, (either fully automated or a human operator) and the entity in charge of network orchestration and control (a.k.a., network controller/orchestrator). This document specifies a L3VPN Network YANG Model (L3NM) to facilitate communication between a service orchestrator and a network controller/orchestrator. Such data model provides a network-centric view of the L3VPN services. The Yang model proposed is limited to BGP PE-based VPNs as described in RFCs 4026, 4110, and 4364.</t>
+      <t>   RFC8299 defines a L3VPN Service YANG data Model (L3SM) that can be
+   used for communication between customers and VPN service providers.
+   That data model plays the role of a Customer Service Model, according
+   to the terminology defined in RFC8309, and is as such adequate for
+   service negotiation and order handling matters.
+
+   There is a need for a more network-centric YANG data model to be used
+   in the communication between the entity that interacts directly with
+   the customer, the service orchestrator, (either fully automated or a
+   human operator) and the entity in charge of network orchestration and
+   control (a.k.a., network controller/orchestrator).
+
+   This document specifies a L3VPN Network YANG Model (L3NM) to
+   facilitate communication between a service orchestrator and a network
+   controller/orchestrator.  Such data model provides a network-centric
+   view of the L3VPN services.  The Yang model proposed is limited to
+   BGP PE-based VPNs as described in RFCs 4026, 4110, and 4364.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-opsawg-l3sm-l3nm-01"/>
 </reference>

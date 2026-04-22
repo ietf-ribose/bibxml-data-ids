@@ -1,13 +1,22 @@
 <reference anchor="I-D.herriot-application-batchbeep" target="https://datatracker.ietf.org/doc/html/draft-herriot-application-batchbeep-00">
   <front>
     <title>The MIME Application/BatchBeep Content-type</title>
-    <author fullname="Robert G. Herriot" initials="R. G." surname="Herriot">
+    <seriesInfo name="Internet-Draft" value="draft-herriot-application-batchbeep-00"/>
+    <author initials="R. G." surname="Herriot" fullname="Robert G. Herriot">
       <organization>Xerox Corp.</organization>
     </author>
-    <date year="2001" month="March" day="29"/>
+    <date day="29" month="March" year="2001"></date>
     <abstract>
-      <t>The Application/BatchBeep content-type, like the Multipart/Related content-type, provides a mechanism for representing objects that consist of multiple components. An Application/BatchBeep entity contains the wire representation of the client-to-server part of a BEEP (Blocks Extensible Exchange Protocol) session, which consists of sequence of frames. Each frame contains a message or a part of a message. Each message (other than channel 0 messages) represents a component of the compound object, just as a body part of a Multipart/Related entity represents a component.</t>
+      <t>The Application/BatchBeep content-type, like the Multipart/Related
+content-type, provides a mechanism for representing objects that
+consist of multiple components.  An Application/BatchBeep entity
+contains the wire representation of the client-to-server part of a
+BEEP (Blocks Extensible Exchange Protocol) session, which consists of
+sequence of frames. Each frame contains a message or a part of a
+message. Each message (other than channel 0 messages) represents a
+component of the compound object, just as a body part of a
+Multipart/Related entity represents a component.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-herriot-application-batchbeep-00"/>
 </reference>

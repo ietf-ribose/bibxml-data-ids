@@ -1,19 +1,30 @@
 <reference anchor="I-D.ietf-avt-srtp-ekt" target="https://datatracker.ietf.org/doc/html/draft-ietf-avt-srtp-ekt-03">
   <front>
     <title>Encrypted Key Transport for Secure RTP</title>
-    <author fullname="Dan Wing" initials="D." surname="Wing">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-avt-srtp-ekt-03"/>
+    <author initials="D." surname="Wing" fullname="Dan Wing">
       <organization>Cisco</organization>
     </author>
-    <author fullname="David McGrew" initials="D." surname="McGrew">
+    <author initials="D." surname="McGrew" fullname="David McGrew">
       <organization>F. Andreasen</organization>
     </author>
-    <author fullname="Kai Fischer" initials="K." surname="Fischer">
+    <author initials="K." surname="Fischer" fullname="Kai Fischer">
       <organization>Siemens Enterprise Communications</organization>
     </author>
-    <date year="2011" month="October" day="31"/>
+    <date day="31" month="October" year="2011"></date>
     <abstract>
-      <t>SRTP Encrypted Key Transport (EKT) is an extension to SRTP that provides for the secure transport of SRTP master keys, Rollover Counters, and other information, within SRTP or SRTCP. This facility enables SRTP to work for decentralized conferences with minimal control, and to handle situations caused by early media. This note defines EKT, and also describes how to use it with SDP Security Descriptions, DTLS-SRTP, and MIKEY. These other key management protocols provide an EKT key to everyone in a session, and EKT coordinates the keys within the session.</t>
+      <t>   SRTP Encrypted Key Transport (EKT) is an extension to SRTP that
+   provides for the secure transport of SRTP master keys, Rollover
+   Counters, and other information, within SRTP or SRTCP.  This facility
+   enables SRTP to work for decentralized conferences with minimal
+   control, and to handle situations caused by early media.
+
+   This note defines EKT, and also describes how to use it with SDP
+   Security Descriptions, DTLS-SRTP, and MIKEY.  These other key
+   management protocols provide an EKT key to everyone in a session, and
+   EKT coordinates the keys within the session.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-avt-srtp-ekt-03"/>
 </reference>

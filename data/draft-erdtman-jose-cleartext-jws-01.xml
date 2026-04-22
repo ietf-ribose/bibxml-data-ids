@@ -1,19 +1,29 @@
 <reference anchor="I-D.erdtman-jose-cleartext-jws" target="https://datatracker.ietf.org/doc/html/draft-erdtman-jose-cleartext-jws-01">
   <front>
     <title>Cleartext JSON Web Signature (JWS)</title>
-    <author fullname="Samuel Erdtman" initials="S." surname="Erdtman">
+    <seriesInfo name="Internet-Draft" value="draft-erdtman-jose-cleartext-jws-01"/>
+    <author initials="S." surname="Erdtman" fullname="Samuel Erdtman">
       <organization>Spotify AB</organization>
     </author>
-    <author fullname="Anders Rundgren" initials="A." surname="Rundgren">
+    <author initials="A." surname="Rundgren" fullname="Anders Rundgren">
       <organization>Independent</organization>
     </author>
-    <author fullname="Michael Jones" initials="M." surname="Jones">
+    <author initials="M." surname="Jones" fullname="Michael Jones">
       <organization>Microsoft</organization>
     </author>
-    <date year="2018" month="September" day="6"/>
+    <date day="06" month="September" year="2018"></date>
     <abstract>
-      <t>Cleartext JSON Web Signature (JWS) is a means of signing JSON objects directly without representing the JSON to be signed in a non-JSON representation, such as base64url-encoded JSON. The signature and information about the signature is added to the JSON object when it is signed. The signature calculation for signing the JSON object uses the JSON canonicalization defined by [I-D.rundgren-json-canonicalization-scheme]. Cleartext JWS builds on the JWS, JWA, and JWK specifications, reusing data structures and semantics from these specifications, where applicable.</t>
+      <t>   Cleartext JSON Web Signature (JWS) is a means of signing JSON objects
+   directly without representing the JSON to be signed in a non-JSON
+   representation, such as base64url-encoded JSON.  The signature and
+   information about the signature is added to the JSON object when it
+   is signed.  The signature calculation for signing the JSON object
+   uses the JSON canonicalization defined by
+   [I-D.rundgren-json-canonicalization-scheme].  Cleartext JWS builds on
+   the JWS, JWA, and JWK specifications, reusing data structures and
+   semantics from these specifications, where applicable.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-erdtman-jose-cleartext-jws-01"/>
 </reference>

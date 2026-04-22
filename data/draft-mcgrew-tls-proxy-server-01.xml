@@ -1,19 +1,39 @@
 <reference anchor="I-D.mcgrew-tls-proxy-server" target="https://datatracker.ietf.org/doc/html/draft-mcgrew-tls-proxy-server-01">
   <front>
     <title>TLS Proxy Server Extension</title>
-    <author fullname="David McGrew" initials="D." surname="McGrew">
+    <seriesInfo name="Internet-Draft" value="draft-mcgrew-tls-proxy-server-01"/>
+    <author initials="D." surname="McGrew" fullname="David McGrew">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Dan Wing" initials="D." surname="Wing">
+    <author initials="D." surname="Wing" fullname="Dan Wing">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Philip Gladstone" initials="P." surname="Gladstone">
+    <author initials="P." surname="Gladstone" fullname="Philip Gladstone">
       <organization>Independent</organization>
     </author>
-    <date year="2012" month="July" day="16"/>
+    <date day="16" month="July" year="2012"></date>
     <abstract>
-      <t>Transport Layer Security (TLS) is commonly used to protect HTTP and other protocols; it provides encrypted and authenticated conversations between a client and a server. In some scenarios, two TLS sessions are used, so that a third device can participate in the protected communication. In these cases, separate TLS sessions are run between the client and the middle device, on one side, and the middle device and the server on the other side. This provides the needed security, as long as the client, server, and middle device use appropriate and consistent security policies. However, this last part is problematic; how can the middle device know if a client trusts a server? At present, TLS provides no mechanism to coordinate policies, and there is no convenient way to do so. This note defines a TLS extension that allows a TLS server to provide a TLS client with all of information about the other TLS server (or servers) that are participating in the application layer traffic that the client needs to make a well-informed access control decision. This empowers the client to reject TLS sessions that include servers that it does not trust.</t>
+      <t>   Transport Layer Security (TLS) is commonly used to protect HTTP and
+   other protocols; it provides encrypted and authenticated
+   conversations between a client and a server.  In some scenarios, two
+   TLS sessions are used, so that a third device can participate in the
+   protected communication.  In these cases, separate TLS sessions are
+   run between the client and the middle device, on one side, and the
+   middle device and the server on the other side.  This provides the
+   needed security, as long as the client, server, and middle device use
+   appropriate and consistent security policies.  However, this last
+   part is problematic; how can the middle device know if a client
+   trusts a server?  At present, TLS provides no mechanism to coordinate
+   policies, and there is no convenient way to do so.
+
+   This note defines a TLS extension that allows a TLS server to provide
+   a TLS client with all of information about the other TLS server (or
+   servers) that are participating in the application layer traffic that
+   the client needs to make a well-informed access control decision.
+   This empowers the client to reject TLS sessions that include servers
+   that it does not trust.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mcgrew-tls-proxy-server-01"/>
 </reference>

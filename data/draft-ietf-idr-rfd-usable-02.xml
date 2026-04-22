@@ -1,25 +1,26 @@
 <reference anchor="I-D.ietf-idr-rfd-usable" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-rfd-usable-02">
   <front>
     <title>Making Route Flap Damping Usable</title>
-    <author fullname="Cristel Pelsser" initials="C." surname="Pelsser">
-      <organization/>
-    </author>
-    <author fullname="Randy Bush" initials="R." surname="Bush">
-      <organization/>
-    </author>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
-      <organization/>
-    </author>
-    <author fullname="Prodosh Mohapatra" initials="P." surname="Mohapatra">
-      <organization/>
-    </author>
-    <author fullname="Olaf Maennel" initials="O." surname="Maennel">
-      <organization/>
-    </author>
-    <date year="2013" month="March" day="11"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-rfd-usable-02"/>
+    <author initials="C." surname="Pelsser" fullname="Cristel Pelsser"/>
+    <author initials="R." surname="Bush" fullname="Randy Bush"/>
+    <author initials="K." surname="Patel" fullname="Keyur Patel"/>
+    <author initials="P." surname="Mohapatra" fullname="Prodosh Mohapatra"/>
+    <author initials="O." surname="Maennel" fullname="Olaf Maennel"/>
+    <date day="11" month="March" year="2013"></date>
     <abstract>
-      <t>Route Flap Damping (RFD) was first proposed to reduce BGP churn in routers. Unfortunately, RFD was found to severely penalize sites for being well-connected because topological richness amplifies the number of update messages exchanged. Many operators have turned RFD off. Based on experimental measurement, this document recommends adjusting a few RFD algorithmic constants and limits, to reduce the high risks with RFD, with the result being damping a non-trivial amount of long term churn without penalizing well-behaved prefixes' normal convergence process.</t>
+      <t>   Route Flap Damping (RFD) was first proposed to reduce BGP churn in
+   routers.  Unfortunately, RFD was found to severely penalize sites for
+   being well-connected because topological richness amplifies the
+   number of update messages exchanged.  Many operators have turned RFD
+   off.  Based on experimental measurement, this document recommends
+   adjusting a few RFD algorithmic constants and limits, to reduce the
+   high risks with RFD, with the result being damping a non-trivial
+   amount of long term churn without penalizing well-behaved prefixes'
+   normal convergence process.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-rfd-usable-02"/>
 </reference>

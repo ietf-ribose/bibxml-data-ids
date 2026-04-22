@@ -1,28 +1,39 @@
 <reference anchor="I-D.ietf-opsawg-yang-provenance" target="https://datatracker.ietf.org/doc/html/draft-ietf-opsawg-yang-provenance-00">
   <front>
     <title>Applying COSE Signatures for YANG Data Provenance</title>
-    <author fullname="Diego Lopez" initials="D." surname="Lopez">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-opsawg-yang-provenance-00"/>
+    <author initials="D." surname="Lopez" fullname="Diego Lopez">
       <organization>Telefonica</organization>
     </author>
-    <author fullname="Antonio Pastor" initials="A." surname="Pastor">
+    <author initials="A." surname="Pastor" fullname="Antonio Pastor">
       <organization>Telefonica</organization>
     </author>
-    <author fullname="Alex Huang Feng" initials="A. H." surname="Feng">
+    <author initials="A. H." surname="Feng" fullname="Alex Huang Feng">
       <organization>INSA-Lyon</organization>
     </author>
-    <author fullname="Ana Méndez Pérez" initials="A. M." surname="Pérez">
+    <author initials="A. M." surname="Pérez" fullname="Ana Méndez Pérez">
       <organization>Telefonica</organization>
     </author>
-    <author fullname="Henk Birkholz" initials="H." surname="Birkholz">
+    <author initials="H." surname="Birkholz" fullname="Henk Birkholz">
       <organization>Fraunhofer SIT</organization>
     </author>
-    <author fullname="Sofia Garcia" initials="S." surname="Garcia">
+    <author initials="S." surname="Garcia" fullname="Sofia Garcia">
       <organization>UC3M</organization>
     </author>
-    <date year="2025" month="May" day="9"/>
+    <date day="09" month="May" year="2025"></date>
     <abstract>
-      <t>This document defines a mechanism based on COSE signatures to provide and verify the provenance of YANG data, so it is possible to verify the origin and integrity of a dataset, even when those data are going to be processed and/or applied in workflows where a crypto-enabled data transport directly from the original data stream is not available. As the application of evidence-based OAM automation and the use of tools such as AI/ML grow, provenance validation becomes more relevant in all scenarios. The use of compact signatures facilitates the inclusion of provenance strings in any YANG schema requiring them.</t>
+      <t>   This document defines a mechanism based on COSE signatures to provide
+   and verify the provenance of YANG data, so it is possible to verify
+   the origin and integrity of a dataset, even when those data are going
+   to be processed and/or applied in workflows where a crypto-enabled
+   data transport directly from the original data stream is not
+   available.  As the application of evidence-based OAM automation and
+   the use of tools such as AI/ML grow, provenance validation becomes
+   more relevant in all scenarios.  The use of compact signatures
+   facilitates the inclusion of provenance strings in any YANG schema
+   requiring them.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-opsawg-yang-provenance-00"/>
 </reference>

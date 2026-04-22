@@ -1,13 +1,21 @@
 <reference anchor="I-D.ietf-mailmaint-imap-uidbatches" target="https://datatracker.ietf.org/doc/html/draft-ietf-mailmaint-imap-uidbatches-07">
   <front>
     <title>IMAP UIDBATCHES Extension</title>
-    <author fullname="Daniel Eggert" initials="D." surname="Eggert">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-mailmaint-imap-uidbatches-07"/>
+    <author initials="D." surname="Eggert" fullname="Daniel Eggert">
       <organization>Apple Inc</organization>
     </author>
-    <date year="2025" month="February" day="10"/>
+    <date day="10" month="February" year="2025"></date>
     <abstract>
-      <t>The UIDBATCHES extension of the Internet Message Access Protocol (IMAP) allows clients to retrieve UIDs from the server such that these UIDs split the messages of a mailbox into equally sized batches. It enables the client to perform operations such as FETCH/SEARCH/STORE on these specific batches. This limits the number of messages that each command operates on, enabling better control over resource usage and response sizes.</t>
+      <t>   The UIDBATCHES extension of the Internet Message Access Protocol
+   (IMAP) allows clients to retrieve UIDs from the server such that
+   these UIDs split the messages of a mailbox into equally sized
+   batches.  It enables the client to perform operations such as
+   FETCH/SEARCH/STORE on these specific batches.  This limits the number
+   of messages that each command operates on, enabling better control
+   over resource usage and response sizes.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-mailmaint-imap-uidbatches-07"/>
 </reference>

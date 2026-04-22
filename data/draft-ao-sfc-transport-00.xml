@@ -1,19 +1,31 @@
 <reference anchor="I-D.ao-sfc-transport" target="https://datatracker.ietf.org/doc/html/draft-ao-sfc-transport-00">
   <front>
     <title>SFC transport considertation</title>
-    <author fullname="Ting Ao" initials="T." surname="Ao">
+    <seriesInfo name="Internet-Draft" value="draft-ao-sfc-transport-00"/>
+    <author initials="T." surname="Ao" fullname="Ting Ao">
       <organization>ZTE Corporation</organization>
     </author>
-    <author fullname="Wei Wei" initials="W." surname="Wei">
+    <author initials="W." surname="Wei" fullname="Wei Wei">
       <organization>ZTE Corp.</organization>
     </author>
-    <author fullname="Yan Zheng" initials="Y." surname="Zheng">
+    <author initials="Y." surname="Zheng" fullname="Yan Zheng">
       <organization>ZTE Corp.</organization>
     </author>
-    <date year="2018" month="October" day="22"/>
+    <date day="22" month="October" year="2018"></date>
     <abstract>
-      <t>A Network Service Header(NSH) is imposed encapsulates a packet or a frame for Service Function Chaining. The resulting packet, in turn, is encapsulate according to transport layer. The NSH contains a Service Path Identifier (SPI) and a Service Index (SI). The SPI is, as per its name, an identifier. The SPI alone cannot be used to forward packets along a service path. Rather, the SPI provides a level of indirection between the service path / topology and the network transport encapsulation. For different transport encapsulations, this document provides the format information with transport and NSH, and gives operational constraints that transport technologies, used by NSH need to meet.</t>
+      <t>   A Network Service Header(NSH) is imposed encapsulates a packet or a
+   frame for Service Function Chaining.  The resulting packet, in turn,
+   is encapsulate according to transport layer.  The NSH contains a
+   Service Path Identifier (SPI) and a Service Index (SI).  The SPI is,
+   as per its name, an identifier.  The SPI alone cannot be used to
+   forward packets along a service path.  Rather, the SPI provides a
+   level of indirection between the service path / topology and the
+   network transport encapsulation.  For different transport
+   encapsulations, this document provides the format information with
+   transport and NSH, and gives operational constraints that transport
+   technologies, used by NSH need to meet.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ao-sfc-transport-00"/>
 </reference>

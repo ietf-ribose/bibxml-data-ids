@@ -1,16 +1,27 @@
 <reference anchor="I-D.ketant-lsr-ospf-l2bundles" target="https://datatracker.ietf.org/doc/html/draft-ketant-lsr-ospf-l2bundles-00">
   <front>
     <title>Advertising L2 Bundle Member Link Attributes in OSPF</title>
-    <author fullname="Ketan Talaulikar" initials="K." surname="Talaulikar">
+    <seriesInfo name="Internet-Draft" value="draft-ketant-lsr-ospf-l2bundles-00"/>
+    <author initials="K." surname="Talaulikar" fullname="Ketan Talaulikar">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Peter Psenak" initials="P." surname="Psenak">
+    <author initials="P." surname="Psenak" fullname="Peter Psenak">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2019" month="July" day="4"/>
+    <date day="04" month="July" year="2019"></date>
     <abstract>
-      <t>There are deployments where the Layer 3 interface on which OSPF operates is a Layer 2 interface bundle. Existing OSPF advertisements only support advertising link attributes of the Layer 3 interface. If entities external to OSPF wish to control traffic flows on the individual physical links which comprise the Layer 2 interface bundle link attribute information about the bundle members is required. This document introduces the ability for OSPF to advertise the link attributes of layer 2 (L2) Bundle members.</t>
+      <t>   There are deployments where the Layer 3 interface on which OSPF
+   operates is a Layer 2 interface bundle.  Existing OSPF advertisements
+   only support advertising link attributes of the Layer 3 interface.
+   If entities external to OSPF wish to control traffic flows on the
+   individual physical links which comprise the Layer 2 interface bundle
+   link attribute information about the bundle members is required.
+
+   This document introduces the ability for OSPF to advertise the link
+   attributes of layer 2 (L2) Bundle members.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ketant-lsr-ospf-l2bundles-00"/>
 </reference>

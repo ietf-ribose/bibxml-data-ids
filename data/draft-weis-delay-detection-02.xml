@@ -1,22 +1,23 @@
 <reference anchor="I-D.weis-delay-detection" target="https://datatracker.ietf.org/doc/html/draft-weis-delay-detection-02">
   <front>
     <title>IP Delivery Delay Detection Protocol</title>
-    <author fullname="Brian Weis" initials="B." surname="Weis">
-      <organization/>
-    </author>
-    <author fullname="Umesh Mangla" initials="U." surname="Mangla">
-      <organization/>
-    </author>
-    <author fullname="Nilesh Maheshwari" initials="N." surname="Maheshwari">
-      <organization/>
-    </author>
-    <author fullname="Thomas Karl" initials="T." surname="Karl">
-      <organization/>
-    </author>
-    <date year="2015" month="June" day="1"/>
+    <seriesInfo name="Internet-Draft" value="draft-weis-delay-detection-02"/>
+    <author initials="B." surname="Weis" fullname="Brian Weis"/>
+    <author initials="U." surname="Mangla" fullname="Umesh Mangla"/>
+    <author initials="N." surname="Maheshwari" fullname="Nilesh Maheshwari"/>
+    <author initials="T." surname="Karl" fullname="Thomas Karl"/>
+    <date day="01" month="June" year="2015"></date>
     <abstract>
-      <t>This memo describes a one-way measurement of IP packet end to end delay. Delay detection is enabled by a sender of an IP Internet Protocol datagram placing a timestamp in the packet declaring the time at which it was sent. The receiver of the datagram can then judge how recently it was sent and choose a policy action, which could include discarding packets deemed to be 'too old' (having a timestamp too far into the past) or 'too new' (having a timestamp that is too far into the future).</t>
+      <t>   This memo describes a one-way measurement of IP packet end to end
+   delay.  Delay detection is enabled by a sender of an IP Internet
+   Protocol datagram placing a timestamp in the packet declaring the
+   time at which it was sent.  The receiver of the datagram can then
+   judge how recently it was sent and choose a policy action, which
+   could include discarding packets deemed to be 'too old' (having a
+   timestamp too far into the past) or 'too new' (having a timestamp
+   that is too far into the future).
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-weis-delay-detection-02"/>
 </reference>

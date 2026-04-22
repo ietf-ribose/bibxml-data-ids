@@ -1,22 +1,41 @@
 <reference anchor="I-D.mw-spice-inference-chain" target="https://datatracker.ietf.org/doc/html/draft-mw-spice-inference-chain-00">
   <front>
     <title>Cryptographically Verifiable Inference Chain for AI Agent Computational Provenance</title>
-    <author fullname="Ramki Krishnan" initials="R." surname="Krishnan">
+    <seriesInfo name="Internet-Draft" value="draft-mw-spice-inference-chain-00"/>
+    <author initials="R." surname="Krishnan" fullname="Ramki Krishnan">
       <organization>JPMorgan Chase &amp; Co</organization>
     </author>
-    <author fullname="A Prasad" initials="A." surname="Prasad">
+    <author initials="A." surname="Prasad" fullname="A Prasad">
       <organization>Oracle</organization>
     </author>
-    <author fullname="Diego Lopez" initials="D." surname="Lopez">
+    <author initials="D." surname="Lopez" fullname="Diego Lopez">
       <organization>Telefonica</organization>
     </author>
-    <author fullname="Srinivasa Addepalli" initials="S." surname="Addepalli">
+    <author initials="S." surname="Addepalli" fullname="Srinivasa Addepalli">
       <organization>Aryaka</organization>
     </author>
-    <date year="2026" month="March" day="17"/>
+    <date day="17" month="March" year="2026"></date>
     <abstract>
-      <t>This document defines the inference_root claim as a companion to the actor_chain claim ({{!I-D.draft-mw-spice-actor-chain}}) and the intent_root claim ({{!I-D.draft-mw-spice-intent-chain}}). While the actor chain addresses delegation provenance (WHO) and the intent chain addresses content provenance (WHAT), the inference chain addresses computational provenance (HOW) — providing cryptographic proof that a claimed AI model actually performed the inference that produced a given output. The inference chain leverages two complementary mechanisms: Zero- Knowledge Machine Learning (ZKML) proofs for mathematical certainty, and Trusted Execution Environment (TEE) attestation quotes for production-scale AI workloads. The full inference chain is stored as ordered logs, with only the Merkle root included in the OAuth token for efficiency. Together, the three chains — actor, intent, and inference — form a complete "Truth Stack" for autonomous AI agent governance.</t>
+      <t>   This document defines the inference_root claim as a companion to the
+   actor_chain claim ({{!I-D.draft-mw-spice-actor-chain}}) and the
+   intent_root claim ({{!I-D.draft-mw-spice-intent-chain}}).  While the
+   actor chain addresses delegation provenance (WHO) and the intent
+   chain addresses content provenance (WHAT), the inference chain
+   addresses computational provenance (HOW) — providing cryptographic
+   proof that a claimed AI model actually performed the inference that
+   produced a given output.
+
+   The inference chain leverages two complementary mechanisms: Zero-
+   Knowledge Machine Learning (ZKML) proofs for mathematical certainty,
+   and Trusted Execution Environment (TEE) attestation quotes for
+   production-scale AI workloads.  The full inference chain is stored as
+   ordered logs, with only the Merkle root included in the OAuth token
+   for efficiency.
+
+   Together, the three chains — actor, intent, and inference — form a
+   complete "Truth Stack" for autonomous AI agent governance.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mw-spice-inference-chain-00"/>
 </reference>

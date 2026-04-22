@@ -1,16 +1,22 @@
 <reference anchor="I-D.vavrusa-dnsop-aaaa-for-free" target="https://datatracker.ietf.org/doc/html/draft-vavrusa-dnsop-aaaa-for-free-00">
   <front>
     <title>Providing AAAA records for free with QTYPE=A</title>
-    <author fullname="marek@vavrusa.com" initials="" surname="marek@vavrusa.com">
+    <seriesInfo name="Internet-Draft" value="draft-vavrusa-dnsop-aaaa-for-free-00"/>
+    <author surname="marek@vavrusa.com" fullname="marek@vavrusa.com">
       <organization>CloudFlare Inc.</organization>
     </author>
-    <author fullname="Ólafur Guðmundsson" initials="O." surname="Guðmundsson">
+    <author initials="O." surname="Guðmundsson" fullname="Ólafur Guðmundsson">
       <organization>CloudFlare Inc.</organization>
     </author>
-    <date year="2016" month="March" day="21"/>
+    <date day="21" month="March" year="2016"></date>
     <abstract>
-      <t>This document enables DNS servers to include AAAA addresses in the answer section for DNS queries with QTYPE=A in order to reduce the number of resolver round-trips during address lookups, and also provides guidance for recursive DNS servers in accepting such records.</t>
+      <t>   This document enables DNS servers to include AAAA addresses in the
+   answer section for DNS queries with QTYPE=A in order to reduce the
+   number of resolver round-trips during address lookups, and also
+   provides guidance for recursive DNS servers in accepting such
+   records.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-vavrusa-dnsop-aaaa-for-free-00"/>
 </reference>

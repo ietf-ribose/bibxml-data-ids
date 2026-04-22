@@ -2,19 +2,28 @@
   <front>
     <title>The Rate-Halving Algorithm for TCP Congestion Control
 </title>
-    <author fullname="Matt Mathis" initials="M." surname="Mathis">
-      <organization/>
-    </author>
-    <author fullname="Jamshid Mahdavi" initials="J." surname="Mahdavi">
+    <seriesInfo name="Internet-Draft" value="draft-mathis-tcp-ratehalving-00"/>
+    <author initials="M." surname="Mathis" fullname="Matt Mathis"/>
+    <author initials="J." surname="Mahdavi" fullname="Jamshid Mahdavi">
       <organization>Novell</organization>
     </author>
-    <author fullname="Jeff Semke" initials="J." surname="Semke">
-      <organization/>
-    </author>
-    <date year="1999" month="August" day="30"/>
+    <author initials="J." surname="Semke" fullname="Jeff Semke"/>
+    <date day="30" month="August" year="1999"></date>
     <abstract>
-      <t>This draft provides a detailed description of the Rate-Halving algorithm. As specified by RFC2581, Fast Recovery adjusts the congestion window (cwnd) by transmitting new data only during the second half of the recovery interval. The Rate-Halving algorithm adjusts the congestion window by spacing transmissions at the rate of one data segment per two segments acknowledged over the entire recovery period, thereby sustaining the self-clocking of TCP and avoiding a burst. Since it is largely independent of the details of the data retransmission strategy, the Rate-Halving algorithm can be used with several standard and experimental TCP implementations: NewReno, SACK, and ECN.</t>
+      <t>This draft provides a detailed description of the Rate-Halving
+algorithm.  As specified by RFC2581, Fast Recovery adjusts the
+congestion window (cwnd) by transmitting new data only during the
+second half of the recovery interval.  The Rate-Halving algorithm
+adjusts the congestion window by spacing transmissions at the rate of
+one data segment per two segments acknowledged over the entire
+recovery period, thereby sustaining the self-clocking of TCP and
+avoiding a burst.  Since it is largely independent of the details of
+the data retransmission strategy, the Rate-Halving algorithm can be
+used with several standard and experimental TCP implementations:
+NewReno, SACK, and ECN.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mathis-tcp-ratehalving-00"/>
 </reference>

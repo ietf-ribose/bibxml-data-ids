@@ -1,16 +1,23 @@
 <reference anchor="I-D.nordmark-6man-impatient-nud" target="https://datatracker.ietf.org/doc/html/draft-nordmark-6man-impatient-nud-01">
   <front>
     <title>Neighbor Unreachability Detection is too impatient</title>
-    <author fullname="Igor Gashinsky" initials="I." surname="Gashinsky">
-      <organization/>
-    </author>
-    <author fullname="Erik Nordmark" initials="E." surname="Nordmark">
+    <seriesInfo name="Internet-Draft" value="draft-nordmark-6man-impatient-nud-01"/>
+    <author initials="I." surname="Gashinsky" fullname="Igor Gashinsky"/>
+    <author initials="E." surname="Nordmark" fullname="Erik Nordmark">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2011" month="July" day="7"/>
+    <date day="07" month="July" year="2011"></date>
     <abstract>
-      <t>IPv6 Neighbor Discovery includes Neighbor Unreachability Detection. That function is very useful when a host has an alternative, for instance multiple default routers, since it allows the host to switch to the alternative in short time. This time is 3 seconds after the node starts probing. However, if there are no alternatives, this is far too impatient. This document proposes an approach where an implementation can choose the timeout behavior to be different based on whether or not there are alternatives.</t>
+      <t>   IPv6 Neighbor Discovery includes Neighbor Unreachability Detection.
+   That function is very useful when a host has an alternative, for
+   instance multiple default routers, since it allows the host to switch
+   to the alternative in short time.  This time is 3 seconds after the
+   node starts probing.  However, if there are no alternatives, this is
+   far too impatient.  This document proposes an approach where an
+   implementation can choose the timeout behavior to be different based
+   on whether or not there are alternatives.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-nordmark-6man-impatient-nud-01"/>
 </reference>

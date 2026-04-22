@@ -1,19 +1,39 @@
 <reference anchor="I-D.imadali-its-vinipv6-vula" target="https://datatracker.ietf.org/doc/html/draft-imadali-its-vinipv6-vula-00">
   <front>
     <title>Vehicle Identification Number-Based Unique Local IPv6 Unicast Addresses (VULA)</title>
-    <author fullname="Sofiane Imadali" initials="S." surname="Imadali">
+    <seriesInfo name="Internet-Draft" value="draft-imadali-its-vinipv6-vula-00"/>
+    <author initials="S." surname="Imadali" fullname="Sofiane Imadali">
       <organization>CEA</organization>
     </author>
-    <author fullname="Alexandre Petrescu" initials="A." surname="Petrescu">
+    <author initials="A." surname="Petrescu" fullname="Alexandre Petrescu">
       <organization>CEA</organization>
     </author>
-    <author fullname="Christophe Janneteau" initials="C." surname="Janneteau">
+    <author initials="C." surname="Janneteau" fullname="Christophe Janneteau">
       <organization>CEA</organization>
     </author>
-    <date year="2013" month="February" day="18"/>
+    <date day="18" month="February" year="2013"></date>
     <abstract>
-      <t>The Vehicle Identification Number (VIN) is standardized in ISO-3779 and ISO-3780. The VIN is made of 17 alphanumeric characters code that uniquely identifies a vehicle worldwide. Some public information related to a vehicle can be obtained knowing its VIN code. This code may also be used to enable novel vehicular networking communications. RFC 4193 introduces a globally unique IPv6 unicast address format intended for local communications, usually inside of a site. These addresses (ULA) are not expected to be routable on the global Internet. This document introduces a method to build a VIN-based IPv6 Prefix that is intended for local communications involving more than one hop (VULA). The VIN-based generated prefix is assured to be unique among other VIN-based generated prefixes. Typically, in a scenario involving several vehicles, each single vehicle (in which one Mobile Router is in charge) is capable of generating its own unique infrastructure-independent globally-scoped VIN-based IPv6 prefix. This document also describes some use cases where VULA could be exploited.</t>
+      <t>   The Vehicle Identification Number (VIN) is standardized in ISO-3779
+   and ISO-3780.  The VIN is made of 17 alphanumeric characters code
+   that uniquely identifies a vehicle worldwide.  Some public
+   information related to a vehicle can be obtained knowing its VIN
+   code.  This code may also be used to enable novel vehicular
+   networking communications.
+
+   RFC 4193 introduces a globally unique IPv6 unicast address format
+   intended for local communications, usually inside of a site.  These
+   addresses (ULA) are not expected to be routable on the global
+   Internet.  This document introduces a method to build a VIN-based
+   IPv6 Prefix that is intended for local communications involving more
+   than one hop (VULA).  The VIN-based generated prefix is assured to be
+   unique among other VIN-based generated prefixes.  Typically, in a
+   scenario involving several vehicles, each single vehicle (in which
+   one Mobile Router is in charge) is capable of generating its own
+   unique infrastructure-independent globally-scoped VIN-based IPv6
+   prefix.  This document also describes some use cases where VULA could
+   be exploited.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-imadali-its-vinipv6-vula-00"/>
 </reference>

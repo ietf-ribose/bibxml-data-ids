@@ -1,31 +1,41 @@
 <reference anchor="I-D.guichard-spring-srv6-simplified-firewall" target="https://datatracker.ietf.org/doc/html/draft-guichard-spring-srv6-simplified-firewall-01">
   <front>
     <title>Simplifying Firewall Rules with Network Programming and SRH Metadata</title>
-    <author fullname="Jim Guichard" initials="J." surname="Guichard">
+    <seriesInfo name="Internet-Draft" value="draft-guichard-spring-srv6-simplified-firewall-01"/>
+    <author initials="J." surname="Guichard" fullname="Jim Guichard">
       <organization>Futurewei Technologies Ltd.</organization>
     </author>
-    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils">
+    <author initials="C." surname="Filsfils" fullname="Clarence Filsfils">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Daniel Bernier" initials="D." surname="Bernier">
+    <author initials="D." surname="Bernier" fullname="Daniel Bernier">
       <organization>Bell Canada</organization>
     </author>
-    <author fullname="Zhenbin Li" initials="Z." surname="Li">
+    <author initials="Z." surname="Li" fullname="Zhenbin Li">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Francois Clad" initials="F." surname="Clad">
+    <author initials="F." surname="Clad" fullname="Francois Clad">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Pablo Camarillo" initials="P." surname="Camarillo">
+    <author initials="P." surname="Camarillo" fullname="Pablo Camarillo">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Ahmed Abdelsalam" initials="A." surname="Abdelsalam">
+    <author initials="A." surname="Abdelsalam" fullname="Ahmed Abdelsalam">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <date year="2019" month="September" day="23"/>
+    <date day="23" month="September" year="2019"></date>
     <abstract>
-      <t>A clear application of the SRv6 Network Programming model consists in steering, in a stateless manner, packets through a Service Function Chain (SFC). Each Service Function (SF) is identified by a segment. Each SF can enrich its operation thanks to metadata present in the SRH. This document describes a practical use-case where the SF is a firewall and the metadata helps to drastically decrease the number of rules that need to be maintained by the operation team.</t>
+      <t>   A clear application of the SRv6 Network Programming model consists in
+   steering, in a stateless manner, packets through a Service Function
+   Chain (SFC).  Each Service Function (SF) is identified by a segment.
+   Each SF can enrich its operation thanks to metadata present in the
+   SRH.
+
+   This document describes a practical use-case where the SF is a
+   firewall and the metadata helps to drastically decrease the number of
+   rules that need to be maintained by the operation team.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-guichard-spring-srv6-simplified-firewall-01"/>
 </reference>

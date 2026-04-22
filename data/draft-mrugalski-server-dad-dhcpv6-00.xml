@@ -1,13 +1,18 @@
 <reference anchor="I-D.mrugalski-server-dad-dhcpv6" target="https://datatracker.ietf.org/doc/html/draft-mrugalski-server-dad-dhcpv6-00">
   <front>
     <title>DHCPv6 Server side Duplicate Address Detection</title>
-    <author fullname="Tomek Mrugalski" initials="T." surname="Mrugalski">
+    <seriesInfo name="Internet-Draft" value="draft-mrugalski-server-dad-dhcpv6-00"/>
+    <author initials="T." surname="Mrugalski" fullname="Tomek Mrugalski">
       <organization>Gdansk University of Technology</organization>
     </author>
-    <date year="2010" month="July" day="5"/>
+    <date day="05" month="July" year="2010"></date>
     <abstract>
-      <t>This document defines new way of performing DAD procedure. DHCPv6 maintain small pool of unique addresses. DHCPv6 server performs DAD procedure for each address, before populating this uniqueness verified pool. Client may ask for an address that already passed DAD test, thus speeding up client configuration process.</t>
+      <t>This document defines new way of performing DAD procedure.  DHCPv6
+maintain small pool of unique addresses.  DHCPv6 server performs DAD
+procedure for each address, before populating this uniqueness
+verified pool.  Client may ask for an address that already passed DAD
+test, thus speeding up client configuration process.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mrugalski-server-dad-dhcpv6-00"/>
 </reference>

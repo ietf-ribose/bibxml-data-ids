@@ -1,13 +1,24 @@
 <reference anchor="I-D.newman-mime-cdisp-metadata" target="https://datatracker.ietf.org/doc/html/draft-newman-mime-cdisp-metadata-02">
   <front>
     <title>Ancillary Content-Disposition Type</title>
-    <author fullname="Chris Newman" initials="C." surname="Newman">
+    <seriesInfo name="Internet-Draft" value="draft-newman-mime-cdisp-metadata-02"/>
+    <author initials="C." surname="Newman" fullname="Chris Newman">
       <organization>Innosoft</organization>
     </author>
-    <date year="1999" month="March" day="24"/>
+    <date day="24" month="March" year="1999"></date>
     <abstract>
-      <t>The Content-Disposition [CDISP] header defines two disposition types: ``inline'' and ``attachment'' which can affect presentation of a MIME [MIME-IMB] body part. There have been a number of cases where one MIME body part is ancillary or contains meta-data for another MIME body part and is neither suitable for inline display by itself, nor is it useful if treated as an independent attachment and saved to a file by itself. If the recipient UA is not familiar with the specific media type, the user often is presented with a useless unrecognizable attachment. This memo proposes a third disposition type, ``ancillary'', to address this situation.</t>
+      <t>     The Content-Disposition [CDISP] header defines two disposition
+     types:  ``inline'' and ``attachment'' which can affect presentation
+     of a MIME [MIME-IMB] body part.  There have been a number of cases
+     where one MIME body part is ancillary or contains meta-data for
+     another MIME body part and is neither suitable for inline display
+     by itself, nor is it useful if treated as an independent attachment
+     and saved to a file by itself.  If the recipient UA is not familiar
+     with the specific media type, the user often is presented with a
+     useless unrecognizable attachment.  This memo proposes a third
+     disposition type, ``ancillary'', to address this situation.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-newman-mime-cdisp-metadata-02"/>
 </reference>

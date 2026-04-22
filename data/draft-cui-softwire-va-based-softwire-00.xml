@@ -1,34 +1,56 @@
 <reference anchor="I-D.cui-softwire-va-based-softwire" target="https://datatracker.ietf.org/doc/html/draft-cui-softwire-va-based-softwire-00">
   <front>
     <title>VA-Based Softwire</title>
-    <author fullname="Yong Cui" initials="Y." surname="Cui">
+    <seriesInfo name="Internet-Draft" value="draft-cui-softwire-va-based-softwire-00"/>
+    <author initials="Y." surname="Cui" fullname="Yong Cui">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Peng Wu" initials="P." surname="Wu">
+    <author initials="P." surname="Wu" fullname="Peng Wu">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Shengling Wang" initials="S." surname="Wang">
+    <author initials="S." surname="Wang" fullname="Shengling Wang">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Mingwei Xu" initials="M." surname="Xu">
+    <author initials="M." surname="Xu" fullname="Mingwei Xu">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Jianping Wu" initials="J." surname="Wu">
+    <author initials="J." surname="Wu" fullname="Jianping Wu">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Xing Li" initials="X." surname="Li">
+    <author initials="X." surname="Li" fullname="Xing Li">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Lixia Zhang" initials="L." surname="Zhang">
+    <author initials="L." surname="Zhang" fullname="Lixia Zhang">
       <organization>UCLA</organization>
     </author>
-    <author fullname="Chris Metz" initials="C." surname="Metz">
+    <author initials="C." surname="Metz" fullname="Chris Metz">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2009" month="July" day="6"/>
+    <date day="06" month="July" year="2009"></date>
     <abstract>
-      <t>The increasing deployment of IPv6 networks in both customer networks and ISP networks leads to two common traversing transition scenarios: in the first scenario, an IPv6-only backbone network needs to provide IP connectivity between IPv4 networks, we call it IPv4-over-IPv6 scenario; In the second scenario, IPv6 networks need to be interconnected over an IPv4 transit network, we call it IPv6-over- IPv4 scenario. In both scenarios, the ISP operating the transit network of one address family must offer transit services for attached client networks of the other address family. The Softwire WG has defined softwire mesh mechanism [RFC5565] for the two traversing scenarios. Softwire mesh uses automatic softwire tunnels employing multi-protocol BGP extensions for distributing E-IP routes, where both BGP peers and tunnels between PEs forms a full-mesh architecture. Inspired by the Virtual Aggregation approach [I-D.ietf-grow-va] to IPv4 routing scalability, in this draft we proposed a scalable mechanism for distributing E-IP routes over the transit network. Our solution can significantly reduce the forwarding information base (FIB) size at Address Family Border Routers (AFBRs) as well as the total amount of routing updates, and offers the ISP an easy way to manage the transit service.</t>
+      <t>The increasing deployment of IPv6 networks in both customer networks
+and ISP networks leads to two common traversing transition scenarios:
+in the first scenario, an IPv6-only backbone network needs to provide
+IP connectivity between IPv4 networks, we call it IPv4-over-IPv6
+scenario; In the second scenario, IPv6 networks need to be
+interconnected over an IPv4 transit network, we call it IPv6-over-
+IPv4 scenario.  In both scenarios, the ISP operating the transit
+network of one address family must offer transit services for
+attached client networks of the other address family.  The Softwire
+WG has defined softwire mesh mechanism [RFC5565] for the two
+traversing scenarios.  Softwire mesh uses automatic softwire tunnels
+employing multi-protocol BGP extensions for distributing E-IP routes,
+where both BGP peers and tunnels between PEs forms a full-mesh
+architecture.
+
+Inspired by the Virtual Aggregation approach [I-D.ietf-grow-va] to
+IPv4 routing scalability, in this draft we proposed a scalable
+mechanism for distributing E-IP routes over the transit network.  Our
+solution can significantly reduce the forwarding information base
+(FIB) size at Address Family Border Routers (AFBRs) as well as the
+total amount of routing updates, and offers the ISP an easy way to
+manage the transit service.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-cui-softwire-va-based-softwire-00"/>
 </reference>

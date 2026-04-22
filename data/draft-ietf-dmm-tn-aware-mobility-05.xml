@@ -1,25 +1,51 @@
 <reference anchor="I-D.ietf-dmm-tn-aware-mobility" target="https://datatracker.ietf.org/doc/html/draft-ietf-dmm-tn-aware-mobility-05">
   <front>
     <title>Mobility aware Transport Network Slicing for 5G</title>
-    <author fullname="Uma Chunduri" initials="U." surname="Chunduri">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dmm-tn-aware-mobility-05"/>
+    <author initials="U." surname="Chunduri" fullname="Uma Chunduri">
       <organization>Intel Corporation</organization>
     </author>
-    <author fullname="John Kaippallimalil" initials="J." surname="Kaippallimalil">
+    <author initials="J." surname="Kaippallimalil" fullname="John Kaippallimalil">
       <organization>Futurewei</organization>
     </author>
-    <author fullname="Sridhar Bhaskaran" initials="S." surname="Bhaskaran">
+    <author initials="S." surname="Bhaskaran" fullname="Sridhar Bhaskaran">
       <organization>Rakuten Symphony</organization>
     </author>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+    <author initials="J." surname="Tantsura" fullname="Jeff Tantsura">
       <organization>Microsoft</organization>
     </author>
-    <author fullname="Praveen Muley" initials="P." surname="Muley">
+    <author initials="P." surname="Muley" fullname="Praveen Muley">
       <organization>Nokia</organization>
     </author>
-    <date year="2022" month="October" day="19"/>
+    <date day="19" month="October" year="2022"></date>
     <abstract>
-      <t>Slices in a 5G system should be identified and mapped to the corresponding transport network underlay segments to provide the capabilities requested by the 5G customer. One set of slices in a 5G system correspond to resources and connectivity to carry signaling and data plane packets across a distributed infrastructure that make up the 5G system, for example, distributed entities of a radio network (gNB). Another set of 5G slices represent resource and connectivity capabilities offered by the 5G system to its end users (UE) for the lifetime of a session including UE mobility. Both depend in part on multiple transport network slice segments with requirements that include bandwidth, latency, and criteria such as isolation, directionality, and disjoint routes. This document describes how a 5G slice is mapped to a slice in IP or Layer 2 transport network for both above cases, including scenarios where the 5G customer network is separated from the provider transport network by an intermediate network. Mobile slice criteria are mapped to the appropriate transport slice and capabilities offered in backhaul, mid-haul and fronthaul connectivity segments between radio side network functions and user plane function(gateway). Applicability of this framework and underlying transport networks, which can enable different slice properties are also discussed. This is based on mapping between mobile and transport underlays (L2, Segment Routing, IPv6, MPLS and IPv4).</t>
+      <t>   Slices in a 5G system should be identified and mapped to the
+   corresponding transport network underlay segments to provide the
+   capabilities requested by the 5G customer.  One set of slices in a 5G
+   system correspond to resources and connectivity to carry signaling
+   and data plane packets across a distributed infrastructure that make
+   up the 5G system, for example, distributed entities of a radio
+   network (gNB).  Another set of 5G slices represent resource and
+   connectivity capabilities offered by the 5G system to its end users
+   (UE) for the lifetime of a session including UE mobility.  Both
+   depend in part on multiple transport network slice segments with
+   requirements that include bandwidth, latency, and criteria such as
+   isolation, directionality, and disjoint routes.
+
+   This document describes how a 5G slice is mapped to a slice in IP or
+   Layer 2 transport network for both above cases, including scenarios
+   where the 5G customer network is separated from the provider
+   transport network by an intermediate network.  Mobile slice criteria
+   are mapped to the appropriate transport slice and capabilities
+   offered in backhaul, mid-haul and fronthaul connectivity segments
+   between radio side network functions and user plane
+   function(gateway).  Applicability of this framework and underlying
+   transport networks, which can enable different slice properties are
+   also discussed.  This is based on mapping between mobile and
+   transport underlays (L2, Segment Routing, IPv6, MPLS and IPv4).
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dmm-tn-aware-mobility-05"/>
 </reference>

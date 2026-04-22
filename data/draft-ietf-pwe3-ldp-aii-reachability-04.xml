@@ -1,16 +1,26 @@
 <reference anchor="I-D.ietf-pwe3-ldp-aii-reachability" target="https://datatracker.ietf.org/doc/html/draft-ietf-pwe3-ldp-aii-reachability-04">
   <front>
     <title>LDP extensions for AII reachability</title>
-    <author fullname="Wei Cao" initials="W." surname="Cao">
-      <organization/>
-    </author>
-    <author fullname="Luca Martini" initials="L." surname="Martini">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pwe3-ldp-aii-reachability-04"/>
+    <author initials="W." surname="Cao" fullname="Wei Cao"/>
+    <author initials="L." surname="Martini" fullname="Luca Martini">
       <organization>Cisco Systems Inc.</organization>
     </author>
-    <date year="2010" month="May" day="23"/>
+    <date day="23" month="May" year="2010"></date>
     <abstract>
-      <t>The dynamic End-to-End Multisegment pseudowire setup requires PEs to maintain a pseudowire routing table when using FEC129. There is a requirement to automatically advertise Attachment Individual Identifiers to enable the pseudowire routing tables to be populated. Two mechanisms already exist, a BGP reachability information distribution mechanism and an IGP based one. Here we define a third solution relying on LDP. It allows for automatic advertisement of the Attachment Individual Identifier prefixes provisioned on a T-PE when this node does not run BGP or IGP. The mechanism described here runs on the T-LDP (Targeted LDP) session between the T-PE and S-PE, and is intended to complement existing PW routing mechanisms using BGP or OSPF.</t>
+      <t>The dynamic End-to-End Multisegment pseudowire setup requires PEs to 
+maintain a pseudowire routing table when using FEC129. There is a 
+requirement to automatically advertise Attachment Individual 
+Identifiers to enable the pseudowire routing tables to be populated. 
+Two mechanisms already exist, a BGP reachability information 
+distribution mechanism and an IGP based one. Here we define a third 
+solution relying on LDP. It allows for automatic advertisement of the 
+Attachment Individual Identifier prefixes provisioned on a T-PE when 
+this node does not run BGP or IGP. The mechanism described here runs 
+on the T-LDP (Targeted LDP) session between the T-PE and S-PE, and is 
+intended to complement existing PW routing mechanisms using BGP or 
+OSPF.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-pwe3-ldp-aii-reachability-04"/>
 </reference>

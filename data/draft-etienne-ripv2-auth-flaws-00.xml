@@ -1,13 +1,19 @@
 <reference anchor="I-D.etienne-ripv2-auth-flaws" target="https://datatracker.ietf.org/doc/html/draft-etienne-ripv2-auth-flaws-00">
   <front>
     <title>Flaws in RIPv2 packet's authentication</title>
-    <author fullname="Jerome Etienne" initials="J." surname="Etienne">
-      <organization/>
-    </author>
-    <date year="2001" month="May" day="1"/>
+    <seriesInfo name="Internet-Draft" value="draft-etienne-ripv2-auth-flaws-00"/>
+    <author initials="J." surname="Etienne" fullname="Jerome Etienne"/>
+    <date day="01" month="May" year="2001"></date>
     <abstract>
-      <t>The current strongest authentication method for RIPv2 (RFC2453[6]) is the MD5 authentication (RFC2082[5]) which uses shared secret key to authenticate the packets. This memo explains the different security flaws we found in the anti-replay and the MACs calculation. The second part presents practical exploitations of these weaknesses: an attacker directly connected to a link, can (i) break neighborhood, (ii) flap routes and (iii) inject obsolete routes.</t>
+      <t>The current strongest authentication method for RIPv2 (RFC2453[6])
+is the MD5 authentication (RFC2082[5]) which uses shared secret key
+to authenticate the packets. This memo explains the different
+security flaws we found in the anti-replay and the MACs calculation.
+The second part presents practical exploitations of these
+weaknesses: an attacker directly connected to a link, can (i)  
+break neighborhood, (ii)  flap routes and (iii) inject obsolete
+routes.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-etienne-ripv2-auth-flaws-00"/>
 </reference>

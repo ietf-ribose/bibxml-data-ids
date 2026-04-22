@@ -1,13 +1,25 @@
 <reference anchor="I-D.mahy-sipping-herfp-fix" target="https://datatracker.ietf.org/doc/html/draft-mahy-sipping-herfp-fix-01">
   <front>
     <title>A Solution to the Heterogeneous Error Response Forking Problem (HERFP) in the Session Initiation Protocol (SIP)</title>
-    <author fullname="Rohan Mahy" initials="R." surname="Mahy">
+    <seriesInfo name="Internet-Draft" value="draft-mahy-sipping-herfp-fix-01"/>
+    <author initials="R." surname="Mahy" fullname="Rohan Mahy">
       <organization>Plantronics</organization>
     </author>
-    <date year="2006" month="March" day="7"/>
+    <date day="07" month="March" year="2006"></date>
     <abstract>
-      <t>The SIP protocol defines a role for proxy servers which can forward requests to multiple contacts associated with a specific resource or person. While each of these contacts is expected to send a response of some kind, responses for each branch are not necessarily sent back to the original requester. The proxy server forwards only the "best" final response back to the original request. This behavior causes a situation known as the Herterogeneous Error Response Forking Problem (HERFP) in which the original requester has no opportunity to see or fix a variety of potentially repairable errors. This document describes a backwards compatible solution to the HERFP problem for INVITE transactions.</t>
+      <t>The SIP protocol defines a role for proxy servers which can forward
+requests to multiple contacts associated with a specific resource or
+person.  While each of these contacts is expected to send a response
+of some kind, responses for each branch are not necessarily sent back
+to the original requester.  The proxy server forwards only the "best"
+final response back to the original request.  This behavior causes a
+situation known as the Herterogeneous Error Response Forking Problem
+(HERFP) in which the original requester has no opportunity to see or
+fix a variety of potentially repairable errors.  This document
+describes a backwards compatible solution to the HERFP problem for
+INVITE transactions.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mahy-sipping-herfp-fix-01"/>
 </reference>

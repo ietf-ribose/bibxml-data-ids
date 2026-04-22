@@ -1,25 +1,45 @@
 <reference anchor="I-D.chen-mpls-source-label" target="https://datatracker.ietf.org/doc/html/draft-chen-mpls-source-label-06">
   <front>
     <title>MultiProtocol Label Switching (MPLS) Source Label</title>
-    <author fullname="Mach Chen" initials="M." surname="Chen">
+    <seriesInfo name="Internet-Draft" value="draft-chen-mpls-source-label-06"/>
+    <author initials="M." surname="Chen" fullname="Mach Chen">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Xiaohu Xu" initials="X." surname="Xu">
+    <author initials="X." surname="Xu" fullname="Xiaohu Xu">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Zhenbin Li" initials="Z." surname="Li">
+    <author initials="Z." surname="Li" fullname="Zhenbin Li">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Luyuan Fang" initials="L." surname="Fang">
+    <author initials="L." surname="Fang" fullname="Luyuan Fang">
       <organization>Microsoft</organization>
     </author>
-    <author fullname="Greg Mirsky" initials="G." surname="Mirsky">
+    <author initials="G." surname="Mirsky" fullname="Greg Mirsky">
       <organization>Ericsson</organization>
     </author>
-    <date year="2014" month="October" day="13"/>
+    <date day="13" month="October" year="2014"></date>
     <abstract>
-      <t>A MultiProtocol Label Switching (MPLS) label was originally defined to identify a Forwarding Equivalence Class (FEC). A packet is assigned to a specific FEC based on its network layer destination address, and optionally Class of Service. It's difficult or even impossible to derive the source identity information from the label. For some applications, source identification is a critical requirement. For example, performance monitoring, where the monitoring node needs to identify where a packet was sent from. This document introduces the concept of Source Identifier (SI) that identifies the ingress Label Switching Router (LSR) of a Label Switched Path (LSP). A SI is unique within a domain that is referred to as Source Identifier Administrative Domain (SIAD). This document also introduces the concept of Source Label (SL) that is carried in the label stack and carries the SI of the ingress LSR of an LSP. Source Label is preceded by a Source Label Indicator (SLI) when included the label stack and is not used for forwarding.</t>
+      <t>   A MultiProtocol Label Switching (MPLS) label was originally defined
+   to identify a Forwarding Equivalence Class (FEC).  A packet is
+   assigned to a specific FEC based on its network layer destination
+   address, and optionally Class of Service.  It's difficult or even
+   impossible to derive the source identity information from the label.
+   For some applications, source identification is a critical
+   requirement.  For example, performance monitoring, where the
+   monitoring node needs to identify where a packet was sent from.
+
+   This document introduces the concept of Source Identifier (SI) that
+   identifies the ingress Label Switching Router (LSR) of a Label
+   Switched Path (LSP).  A SI is unique within a domain that is referred
+   to as Source Identifier Administrative Domain (SIAD).
+
+   This document also introduces the concept of Source Label (SL) that
+   is carried in the label stack and carries the SI of the ingress LSR
+   of an LSP.  Source Label is preceded by a Source Label Indicator
+   (SLI) when included the label stack and is not used for forwarding.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-chen-mpls-source-label-06"/>
 </reference>

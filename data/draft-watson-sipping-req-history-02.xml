@@ -1,22 +1,37 @@
 <reference anchor="I-D.watson-sipping-req-history" target="https://datatracker.ietf.org/doc/html/draft-watson-sipping-req-history-02">
   <front>
     <title>Generic Request History Capability - Requirements</title>
-    <author fullname="Mark Watson" initials="M." surname="Watson">
+    <seriesInfo name="Internet-Draft" value="draft-watson-sipping-req-history-02"/>
+    <author initials="M." surname="Watson" fullname="Mark Watson">
       <organization>Nortel Networks</organization>
     </author>
-    <author fullname="Mary Barnes" initials="M." surname="Barnes">
+    <author initials="M." surname="Barnes" fullname="Mary Barnes">
       <organization>Nortel Networks</organization>
     </author>
-    <author fullname="Cullen Fluffy Jennings" initials="C. F." surname="Jennings">
+    <author initials="C. F." surname="Jennings" fullname="Cullen Fluffy Jennings">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Jon Peterson" initials="J." surname="Peterson">
+    <author initials="J." surname="Peterson" fullname="Jon Peterson">
       <organization>NeuStar</organization>
     </author>
-    <date year="2002" month="June" day="28"/>
+    <date day="28" month="June" year="2002"></date>
     <abstract>
-      <t>Many services that SIP is anticipated to support require the ability to determine why and how the call arrived at a specific application. Examples of such services include (but are not limited to) sessions initiated to call centers via 'click to talk' SIP URLs on a web page, 'call history/logging' style services within intelligent 'call management' software for SIP UAs and calls to voicemail servers and call centers. While SIP implicitly provides the redirect/retarget capabilities that enable calls to be routed to chosen applications, there is currently no standard mechanism within SIP for communicating the history of such a request. This 'request history' information allows the receiving application to determine hints about how and why the call arrived at the application/user. This draft discusses the motivations in support of a mechanism which records the 'request history' and proposes detailed requirements for such a generic 'request history' capability.</t>
+      <t>Many services that SIP is anticipated to support require the ability 
+to determine why and how the call arrived at a specific application.  
+Examples of such services include (but are not limited to) sessions 
+initiated to call centers via 'click to talk' SIP URLs on a web page, 
+'call history/logging' style services within intelligent 'call 
+management' software for SIP UAs and calls to voicemail servers and 
+call centers.  While SIP implicitly provides the redirect/retarget 
+capabilities that enable calls to be routed to chosen applications, 
+there is currently no standard mechanism within SIP for communicating 
+the history of such a request. This 'request history' information 
+allows the receiving application to determine hints about how and why 
+the call arrived at the application/user.     
+This draft discusses the motivations in support of a mechanism which 
+records the 'request history' and proposes detailed requirements for 
+such a generic 'request history' capability.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-watson-sipping-req-history-02"/>
 </reference>

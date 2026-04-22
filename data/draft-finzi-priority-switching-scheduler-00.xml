@@ -1,25 +1,32 @@
 <reference anchor="I-D.finzi-priority-switching-scheduler" target="https://datatracker.ietf.org/doc/html/draft-finzi-priority-switching-scheduler-00">
   <front>
     <title>Priority Switching Scheduler</title>
-    <author fullname="Fred Baker" initials="F." surname="Baker">
-      <organization/>
-    </author>
-    <author fullname="Anaïs Finzi" initials="A." surname="Finzi">
+    <seriesInfo name="Internet-Draft" value="draft-finzi-priority-switching-scheduler-00"/>
+    <author initials="F." surname="Baker" fullname="Fred Baker"/>
+    <author initials="A." surname="Finzi" fullname="Anaïs Finzi">
       <organization>ISAE-SUPAERO</organization>
     </author>
-    <author fullname="Fabrice Frances" initials="F." surname="Frances">
+    <author initials="F." surname="Frances" fullname="Fabrice Frances">
       <organization>ISAE-SUPAERO</organization>
     </author>
-    <author fullname="Emmanuel Lochin" initials="E." surname="Lochin">
+    <author initials="E." surname="Lochin" fullname="Emmanuel Lochin">
       <organization>ISAE-SUPAERO</organization>
     </author>
-    <author fullname="Ahlem Mifdaoui" initials="A." surname="Mifdaoui">
+    <author initials="A." surname="Mifdaoui" fullname="Ahlem Mifdaoui">
       <organization>ISAE-SUPAERO</organization>
     </author>
-    <date year="2017" month="October" day="28"/>
+    <date day="28" month="October" year="2017"></date>
     <abstract>
-      <t>We detail the implementation of a network scheduler that switches the priority of one or several queues. This scheduler aims at carrying and isolating time constrained and elastic traffic flows from best- effort traffic. We claim that the usual implementations with rate schedulers (such as WRR, DRR,...) do not allow to efficiently quantify the reserved capacity of the different classes. By using this credit based scheduler mechanism called Priority Switching Scheduler, we provide a more predictable available capacity.</t>
+      <t>   We detail the implementation of a network scheduler that switches the
+   priority of one or several queues.  This scheduler aims at carrying
+   and isolating time constrained and elastic traffic flows from best-
+   effort traffic.  We claim that the usual implementations with rate
+   schedulers (such as WRR, DRR,...) do not allow to efficiently
+   quantify the reserved capacity of the different classes.  By using
+   this credit based scheduler mechanism called Priority Switching
+   Scheduler, we provide a more predictable available capacity.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-finzi-priority-switching-scheduler-00"/>
 </reference>

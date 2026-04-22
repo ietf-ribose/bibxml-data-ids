@@ -1,25 +1,42 @@
 <reference anchor="I-D.stokking-avtcore-idms-for-iptv" target="https://datatracker.ietf.org/doc/html/draft-stokking-avtcore-idms-for-iptv-00">
   <front>
     <title>Inter-Destination Media Synchronizaton for IPTV Environments</title>
-    <author fullname="Hans Stokking" initials="H." surname="Stokking">
+    <seriesInfo name="Internet-Draft" value="draft-stokking-avtcore-idms-for-iptv-00"/>
+    <author initials="H." surname="Stokking" fullname="Hans Stokking">
       <organization>TNO</organization>
     </author>
-    <author fullname="Oskar van Deventer" initials="O." surname="van Deventer">
+    <author initials="O." surname="van Deventer" fullname="Oskar van Deventer">
       <organization>TNO</organization>
     </author>
-    <author fullname="Ray van Brandenburg" initials="R." surname="van Brandenburg">
+    <author initials="R." surname="van Brandenburg" fullname="Ray van Brandenburg">
       <organization>TNO</organization>
     </author>
-    <author fullname="Fernando Boronat" initials="F." surname="Boronat">
+    <author initials="F." surname="Boronat" fullname="Fernando Boronat">
       <organization>Universitat Politecnica de</organization>
     </author>
-    <author fullname="Mario Montagud" initials="M." surname="Montagud">
+    <author initials="M." surname="Montagud" fullname="Mario Montagud">
       <organization>Universitat Politecnica de</organization>
     </author>
-    <date year="2014" month="October" day="27"/>
+    <date day="27" month="October" year="2014"></date>
     <abstract>
-      <t>[RFC7272] describes the use of RTCP for the purpose of Inter- Destination Media Synchronization (IDMS) between Synchronization Clients (SCs) and an Media Synchronization Application Server (MSAS). This document extends that work for application in the area of IPTV. First, RTCP can be used according to the single source multicast (SSM) principles from [RFC5760] in the IPTV application area. This document specifies the use of a feedback target for collecting and possibly summarizing IDMS reports. For this, the document defines 2 new sub-report blocks for the use of IDMS according to the SSM principles. Alternatively, the MSAS can be co-located with the Feedback Target, for synchronizing small groups of receivers. Secondly, in an IPTV environment, different viewers may receive the same content, but in non-identical streams. The IDMS solution presented in [RFC7272] will no longer work in such a case. This document provides a solution for this.</t>
+      <t>   [RFC7272] describes the use of RTCP for the purpose of Inter-
+   Destination Media Synchronization (IDMS) between Synchronization
+   Clients (SCs) and an Media Synchronization Application Server (MSAS).
+    This document extends that work for application in the area of IPTV.
+    First, RTCP can be used according to the single source multicast
+   (SSM) principles from [RFC5760] in the IPTV application area.  This
+   document specifies the use of a feedback target for collecting and
+   possibly summarizing IDMS reports.  For this, the document defines 2
+   new sub-report blocks for the use of IDMS according to the SSM
+   principles.  Alternatively, the MSAS can be co-located with the
+   Feedback Target, for synchronizing small groups of receivers.
+   Secondly, in an IPTV environment, different viewers may receive the
+   same content, but in non-identical streams.  The IDMS solution
+   presented in [RFC7272] will no longer work in such a case.  This
+   document provides a solution for this.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-stokking-avtcore-idms-for-iptv-00"/>
 </reference>

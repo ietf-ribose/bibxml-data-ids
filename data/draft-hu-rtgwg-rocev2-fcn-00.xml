@@ -1,25 +1,34 @@
 <reference anchor="I-D.hu-rtgwg-rocev2-fcn" target="https://datatracker.ietf.org/doc/html/draft-hu-rtgwg-rocev2-fcn-00">
   <front>
     <title>Fast congestion notification for distributed RoCEv2 network based on SRv6</title>
-    <author fullname="Zehua Hu" initials="Z." surname="Hu">
+    <seriesInfo name="Internet-Draft" value="draft-hu-rtgwg-rocev2-fcn-00"/>
+    <author initials="Z." surname="Hu" fullname="Zehua Hu">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Yongqing Zhu" initials="Y." surname="Zhu">
+    <author initials="Y." surname="Zhu" fullname="Yongqing Zhu">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Xuesong Geng" initials="X." surname="Geng">
+    <author initials="X." surname="Geng" fullname="Xuesong Geng">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Jiayuan Hu" initials="J." surname="Hu">
+    <author initials="J." surname="Hu" fullname="Jiayuan Hu">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Tanxin Pi" initials="T." surname="Pi">
+    <author initials="T." surname="Pi" fullname="Tanxin Pi">
       <organization>China Telecom</organization>
     </author>
-    <date year="2025" month="March" day="2"/>
+    <date day="02" month="March" year="2025"></date>
     <abstract>
-      <t>AI services (e.g. distributed model training, separated storage and model training) drive the need to transmit RMDA packets through SRv6 tunnels in WAN. RoCEv2 is the most popular open standard for achieving RDMA and network offloads over ethernet, with its congestion control based on the combination of PFC and ECN. The document defines the fast congestion notification for distributed RoCEv2 network based on SRv6 tunnels, and further extends PFC and ECN to achieve precise flow control and end-to-end congestion control.</t>
+      <t>   AI services (e.g. distributed model training, separated storage and
+   model training) drive the need to transmit RMDA packets through SRv6
+   tunnels in WAN.  RoCEv2 is the most popular open standard for
+   achieving RDMA and network offloads over ethernet, with its
+   congestion control based on the combination of PFC and ECN.  The
+   document defines the fast congestion notification for distributed
+   RoCEv2 network based on SRv6 tunnels, and further extends PFC and ECN
+   to achieve precise flow control and end-to-end congestion control.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hu-rtgwg-rocev2-fcn-00"/>
 </reference>

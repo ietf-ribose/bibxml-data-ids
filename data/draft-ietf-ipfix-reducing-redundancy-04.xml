@@ -1,19 +1,22 @@
 <reference anchor="I-D.ietf-ipfix-reducing-redundancy" target="https://datatracker.ietf.org/doc/html/draft-ietf-ipfix-reducing-redundancy-04">
   <front>
     <title>Reducing Redundancy in IP Flow Information Export (IPFIX) and Packet Sampling (PSAMP) Reports</title>
-    <author fullname="Elisa Boschi" initials="E." surname="Boschi">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ipfix-reducing-redundancy-04"/>
+    <author initials="E." surname="Boschi" fullname="Elisa Boschi">
       <organization>Hitachi Europe</organization>
     </author>
-    <author fullname="Lutz Mark" initials="L." surname="Mark">
+    <author initials="L." surname="Mark" fullname="Lutz Mark">
       <organization>Fraunhofer IFAM</organization>
     </author>
-    <author fullname="Benoît Claise" initials="B." surname="Claise">
+    <author initials="B." surname="Claise" fullname="Benoît Claise">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2007" month="May" day="21"/>
+    <date day="21" month="May" year="2007"></date>
     <abstract>
-      <t>This document describes a bandwidth saving method for exporting Flow or packet information using the IP Flow Information eXport (IPFIX) protocol. As the Packet Sampling (PSAMP) protocol is based on IPFIX, these considerations are valid for PSAMP exports as well. This method works by separating information common to several Flow Records from information specific to an individual Flow Record. Common Flow information is exported only once in a Data Record defined by an Options Template, while the rest of the specific Flow information is associated with the common information via a unique identifier. This memo provides information for the Internet community.</t>
+      <t>This document describes a bandwidth saving method for exporting Flow or packet information using the IP Flow Information eXport (IPFIX) protocol. As the Packet Sampling (PSAMP) protocol is based on IPFIX, these considerations are valid for PSAMP exports as well.
+
+ This method works by separating information common to several Flow Records from information specific to an individual Flow Record. Common Flow information is exported only once in a Data Record defined by an Options Template, while the rest of the specific Flow information is associated with the common information via a unique identifier. This memo provides information for the Internet community.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ipfix-reducing-redundancy-04"/>
 </reference>

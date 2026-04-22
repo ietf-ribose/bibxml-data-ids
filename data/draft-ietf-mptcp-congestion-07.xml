@@ -1,19 +1,22 @@
 <reference anchor="I-D.ietf-mptcp-congestion" target="https://datatracker.ietf.org/doc/html/draft-ietf-mptcp-congestion-07">
   <front>
     <title>Coupled Congestion Control for Multipath Transport Protocols</title>
-    <author fullname="Costin Raiciu" initials="C." surname="Raiciu">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-mptcp-congestion-07"/>
+    <author initials="C." surname="Raiciu" fullname="Costin Raiciu">
       <organization>Univ. Politehnica of Bucharest</organization>
     </author>
-    <author fullname="Mark J. Handley" initials="M. J." surname="Handley">
-      <organization/>
-    </author>
-    <author fullname="Damon Wischik" initials="D." surname="Wischik">
+    <author initials="M. J." surname="Handley" fullname="Mark J. Handley"/>
+    <author initials="D." surname="Wischik" fullname="Damon Wischik">
       <organization>Univ. College London</organization>
     </author>
-    <date year="2011" month="July" day="29"/>
+    <date day="29" month="July" year="2011"></date>
     <abstract>
-      <t>Often endpoints are connected by multiple paths, but communications are usually restricted to a single path per connection. Resource usage within the network would be more efficient were it possible for these multiple paths to be used concurrently. Multipath TCP is a proposal to achieve multipath transport in TCP. New congestion control algorithms are needed for multipath transport protocols such as Multipath TCP, as single path algorithms have a series of issues in the multipath context. One of the prominent problems is that running existing algorithms such as standard TCP independently on each path would give the multipath flow more than its fair share at a bottleneck link traversed by more than one of its subflows. Further, it is desirable that a source with multiple paths available will transfer more traffic using the least congested of the paths, achieving a property called "resource pooling" where a bundle of links effectively behaves like one shared link with bigger capacity. This would increase the overall efficiency of the network and also its robustness to failure. This document presents a congestion control algorithm that couples the congestion control algorithms running on different subflows by linking their increase functions, and dynamically controls the overall aggressiveness of the multipath flow. The result is a practical algorithm that is fair to TCP at bottlenecks while moving traffic away from congested links. This document defines an Experimental Protocol for the Internet community.</t>
+      <t>Often endpoints are connected by multiple paths, but communications are usually restricted to a single path per connection. Resource usage within the network would be more efficient were it possible for these multiple paths to be used concurrently. Multipath TCP is a proposal to achieve multipath transport in TCP.
+
+ New congestion control algorithms are needed for multipath transport protocols such as Multipath TCP, as single path algorithms have a series of issues in the multipath context. One of the prominent problems is that running existing algorithms such as standard TCP independently on each path would give the multipath flow more than its fair share at a bottleneck link traversed by more than one of its subflows. Further, it is desirable that a source with multiple paths available will transfer more traffic using the least congested of the paths, achieving a property called "resource pooling" where a bundle of links effectively behaves like one shared link with bigger capacity. This would increase the overall efficiency of the network and also its robustness to failure.
+
+ This document presents a congestion control algorithm that couples the congestion control algorithms running on different subflows by linking their increase functions, and dynamically controls the overall aggressiveness of the multipath flow. The result is a practical algorithm that is fair to TCP at bottlenecks while moving traffic away from congested links. This document defines an Experimental Protocol for the Internet community.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-mptcp-congestion-07"/>
 </reference>

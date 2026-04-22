@@ -1,22 +1,35 @@
 <reference anchor="I-D.zhou-behave-syslog-nat-logging" target="https://datatracker.ietf.org/doc/html/draft-zhou-behave-syslog-nat-logging-01">
   <front>
     <title>Syslog Format for NAT Logging</title>
-    <author fullname="Zhonghua Chen" initials="Z." surname="Chen">
+    <seriesInfo name="Internet-Draft" value="draft-zhou-behave-syslog-nat-logging-01"/>
+    <author initials="Z." surname="Chen" fullname="Zhonghua Chen">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Cathy Zhou" initials="C." surname="Zhou">
+    <author initials="C." surname="Zhou" fullname="Cathy Zhou">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Tina Tsou (Ting ZOU)" initials="T." surname="Tsou">
+    <author initials="T." surname="Tsou" fullname="Tina Tsou (Ting ZOU)">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Tom Taylor" initials="T." surname="Taylor">
+    <author initials="T." surname="Taylor" fullname="Tom Taylor">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2012" month="September" day="6"/>
+    <date day="06" month="September" year="2012"></date>
     <abstract>
-      <t>Under some circumstances operators will need to maintain a dynamic record of external address and port assignments made by a Carrier Grade NAT (CGN), and will find it feasible and convenient to create such records using SYSLOG (RFC 5424). The present document standardizes a SYSLOG format to meet that recording requirement. It specifies a number of fields that could be a part of the log report, leaving it up to operators to select the fields needed for their specific circumstances. [*** Subject to discussion*** The log format presented here may also be used by PCP server implementations to log the mappings they implement.]</t>
+      <t>   Under some circumstances operators will need to maintain a dynamic
+   record of external address and port assignments made by a Carrier
+   Grade NAT (CGN), and will find it feasible and convenient to create
+   such records using SYSLOG (RFC 5424).  The present document
+   standardizes a SYSLOG format to meet that recording requirement.  It
+   specifies a number of fields that could be a part of the log report,
+   leaving it up to operators to select the fields needed for their
+   specific circumstances.
+
+   [*** Subject to discussion*** The log format presented here may also
+   be used by PCP server implementations to log the mappings they
+   implement.]
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-zhou-behave-syslog-nat-logging-01"/>
 </reference>

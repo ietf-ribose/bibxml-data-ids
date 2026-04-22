@@ -1,22 +1,31 @@
 <reference anchor="I-D.xu-name-shim6" target="https://datatracker.ietf.org/doc/html/draft-xu-name-shim6-00">
   <front>
     <title>Name Based Sockets - Shim6</title>
-    <author fullname="Mingwei Xu" initials="M." surname="Xu">
+    <seriesInfo name="Internet-Draft" value="draft-xu-name-shim6-00"/>
+    <author initials="M." surname="Xu" fullname="Mingwei Xu">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Zhongxing Ming" initials="Z." surname="Ming">
+    <author initials="Z." surname="Ming" fullname="Zhongxing Ming">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Javier Ubillos" initials="J." surname="Ubillos">
+    <author initials="J." surname="Ubillos" fullname="Javier Ubillos">
       <organization>Swedish Institute of Computer</organization>
     </author>
-    <author fullname="Christian Vogt" initials="C." surname="Vogt">
+    <author initials="C." surname="Vogt" fullname="Christian Vogt">
       <organization>Ericsson</organization>
     </author>
-    <date year="2010" month="September" day="17"/>
+    <date day="17" month="September" year="2010"></date>
     <abstract>
-      <t>This document describes and defines shim6 as a mobility solution for name-based sockets. Using names rather than pseudo IP addresses, shim6 can handle a more diverse set of mobility scenarios. These changes allow a shim6 session to persist even through cases where one node has no working locators to its correspondent node. If the name is also a resolvable fully qualified domain name, the connection can be kept alive even if neither node have a working locator to the corresponding node. As can be the case if both nodes are mobile simultaneously.</t>
+      <t>This document describes and defines shim6 as a mobility solution for
+name-based sockets.  Using names rather than pseudo IP addresses,
+shim6 can handle a more diverse set of mobility scenarios.  These
+changes allow a shim6 session to persist even through cases where one
+node has no working locators to its correspondent node.  If the name
+is also a resolvable fully qualified domain name, the connection can
+be kept alive even if neither node have a working locator to the
+corresponding node.  As can be the case if both nodes are mobile
+simultaneously.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-xu-name-shim6-00"/>
 </reference>

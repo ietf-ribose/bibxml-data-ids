@@ -1,22 +1,32 @@
 <reference anchor="I-D.bates-bgp4-nlri-orig-verif" target="https://datatracker.ietf.org/doc/html/draft-bates-bgp4-nlri-orig-verif-00">
   <front>
     <title>DNS-based NLRI origin AS verification in BGP</title>
-    <author fullname="Tony Li" initials="T." surname="Li">
+    <seriesInfo name="Internet-Draft" value="draft-bates-bgp4-nlri-orig-verif-00"/>
+    <author initials="T." surname="Li" fullname="Tony Li">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Randy Bush" initials="R." surname="Bush">
+    <author initials="R." surname="Bush" fullname="Randy Bush">
       <organization>RGnet</organization>
     </author>
-    <author fullname="Yakov Rekhter" initials="Y." surname="Rekhter">
+    <author initials="Y." surname="Rekhter" fullname="Yakov Rekhter">
       <organization>cisco Systems</organization>
     </author>
-    <author fullname="Tony J. Bates" initials="T. J." surname="Bates">
+    <author initials="T. J." surname="Bates" fullname="Tony J. Bates">
       <organization>cisco Systems</organization>
     </author>
-    <date year="1998" month="February" day="6"/>
+    <date day="06" month="February" year="1998"></date>
     <abstract>
-      <t>This document describes how a BGP speaker may verify that the Network Layer Reachability Information (NLRI) of a prefix received from a peer is consistent with the allocation of IP address space as determined by the Internet Registry system. These verification procedures rely on the DNS to provide a repository of information about address space allocation provided by the Internet Registry system. Note that this is not a repository of announceable prefixes, but rather of allocation of delegated address space.</t>
+      <t>This document describes how a BGP speaker may verify that the Network
+   Layer Reachability Information (NLRI) of a prefix received from a
+   peer is consistent with the allocation of IP address space as
+   determined by the Internet Registry system.  These verification
+   procedures rely on the DNS to provide a repository of information
+   about address space allocation provided by the Internet Registry
+   system.
+ 
+   Note that this is not a repository of announceable prefixes, but
+   rather of allocation of delegated address space.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-bates-bgp4-nlri-orig-verif-00"/>
 </reference>

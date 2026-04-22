@@ -1,16 +1,32 @@
 <reference anchor="I-D.ietf-isis-omp" target="https://datatracker.ietf.org/doc/html/draft-ietf-isis-omp-01">
   <front>
     <title>IS-IS Optimized Multipath (ISIS-OMP)</title>
-    <author fullname="Tony Li" initials="T." surname="Li">
-      <organization/>
-    </author>
-    <author fullname="Curtis Villamizar" initials="C." surname="Villamizar">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-isis-omp-01"/>
+    <author initials="T." surname="Li" fullname="Tony Li"/>
+    <author initials="C." surname="Villamizar" fullname="Curtis Villamizar">
       <organization>ANS</organization>
     </author>
-    <date year="1999" month="February" day="23"/>
+    <date day="23" month="February" year="1999"></date>
     <abstract>
-      <t>IS--IS may form multiple equal cost paths between points. This is true of any link state protocol. In the absence of any explicit sup- port to take advantage of this, a path may be chosen arbitrarily. Techniques have been utilized to divide traffic somewhat evenly among the available paths. These techniques have been referred to as Equal Cost Multipath (ECMP). An unequal division of traffic among the avail- able paths is generally preferable. Routers generally have no knowl- edge of traffic loading on distant links and therefore have no basis to optimize the allocation of traffic. Optimized Mulitpath is a extension to IS--IS, utilizing additional Type/Length/Value (TLV) tuples to distribute loading information. An algorithm to adjust forwarding, gradually enough to insure stability yet provide reasonably fast adjustment when needed, is provided in the related document OSPF--OMP [6]. The IS--IS encapsulation and minor differences in the dynamics of ISIS--OMP relative to OSPF--OMP are described here.</t>
+      <t>  IS--IS may form multiple equal cost paths between points.  This is
+  true of any link state protocol.  In the absence of any explicit sup-
+  port to take advantage of this, a path may be chosen arbitrarily.
+  Techniques have been utilized to divide traffic somewhat evenly among
+  the available paths.  These techniques have been referred to as Equal
+  Cost Multipath (ECMP). An unequal division of traffic among the avail-
+  able paths is generally preferable.  Routers generally have no knowl-
+  edge of traffic loading on distant links and therefore have no basis
+  to optimize the allocation of traffic.
+ 
+  Optimized Mulitpath is a extension to IS--IS, utilizing additional
+  Type/Length/Value (TLV) tuples to distribute loading information.  An
+  algorithm to adjust forwarding, gradually enough to insure stability
+  yet provide reasonably fast adjustment when needed, is provided in the
+  related document OSPF--OMP [6].  The IS--IS encapsulation and minor
+  differences in the dynamics of ISIS--OMP relative to OSPF--OMP are
+  described here.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-isis-omp-01"/>
 </reference>

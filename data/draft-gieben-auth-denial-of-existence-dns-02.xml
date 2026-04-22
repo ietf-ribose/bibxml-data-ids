@@ -1,16 +1,21 @@
 <reference anchor="I-D.gieben-auth-denial-of-existence-dns" target="https://datatracker.ietf.org/doc/html/draft-gieben-auth-denial-of-existence-dns-02">
   <front>
     <title>Authenticated Denial of Existence in the DNS</title>
-    <author fullname="R. (Miek) Gieben" initials="R. M." surname="Gieben">
-      <organization/>
-    </author>
-    <author fullname="Matthijs Mekking" initials="W. M." surname="Mekking">
-      <organization/>
-    </author>
-    <date year="2013" month="January" day="7"/>
+    <seriesInfo name="Internet-Draft" value="draft-gieben-auth-denial-of-existence-dns-02"/>
+    <author initials="R. M." surname="Gieben" fullname="R. (Miek) Gieben"/>
+    <author initials="W. M." surname="Mekking" fullname="Matthijs Mekking"/>
+    <date day="07" month="January" year="2013"></date>
     <abstract>
-      <t>Authenticated denial of existence allows a resolver to validate that a certain domain name does not exist. It is also used to signal that a domain name exists, but does not have the specific RR type you were asking for. When returning a negative DNSSEC response, a name server usually includes up to two NSEC records. With NSEC3 this amount is three. This document provides additional background commentary and some context for the NSEC and NSEC3 mechanisms used by DNSSEC to provide authenticated denial of existence responses</t>
+      <t>   Authenticated denial of existence allows a resolver to validate that
+   a certain domain name does not exist.  It is also used to signal that
+   a domain name exists, but does not have the specific RR type you were
+   asking for.  When returning a negative DNSSEC response, a name server
+   usually includes up to two NSEC records.  With NSEC3 this amount is
+   three.  This document provides additional background commentary and
+   some context for the NSEC and NSEC3 mechanisms used by DNSSEC to
+   provide authenticated denial of existence responses
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-gieben-auth-denial-of-existence-dns-02"/>
 </reference>

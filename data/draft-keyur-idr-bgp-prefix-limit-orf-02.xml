@@ -1,25 +1,34 @@
 <reference anchor="I-D.keyur-idr-bgp-prefix-limit-orf" target="https://datatracker.ietf.org/doc/html/draft-keyur-idr-bgp-prefix-limit-orf-02">
   <front>
     <title>Prefix Limit Based ORF for BGP-4</title>
-    <author fullname="Marco Marzetti" initials="M." surname="Marzetti">
+    <seriesInfo name="Internet-Draft" value="draft-keyur-idr-bgp-prefix-limit-orf-02"/>
+    <author initials="M." surname="Marzetti" fullname="Marco Marzetti">
       <organization>PCCW Global</organization>
     </author>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
+    <author initials="K." surname="Patel" fullname="Keyur Patel">
       <organization>Arrcus, Inc</organization>
     </author>
-    <author fullname="John Scudder" initials="J." surname="Scudder">
+    <author initials="J." surname="Scudder" fullname="John Scudder">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Jakob Heitz" initials="J." surname="Heitz">
+    <author initials="J." surname="Heitz" fullname="Jakob Heitz">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Job Snijders" initials="J." surname="Snijders">
+    <author initials="J." surname="Snijders" fullname="Job Snijders">
       <organization>NTT Communications</organization>
     </author>
-    <date year="2017" month="October" day="27"/>
+    <date day="27" month="October" year="2017"></date>
     <abstract>
-      <t>The BGP specification allows for "the ability to impose an (locally configured) upper bound on the number of address prefixes the speaker is willing to accept from a neighbor". In this specification, we define a new Outbound Route Filter type for BGP, termed "Prefix Limit Outbound Route Filter", which the speaker can use to communicate that upper bound to its peer. The peer is then required to abide by the limit. This is expected to have benefits in terms of resource consumption and more importantly, transparency of operation.</t>
+      <t>   The BGP specification allows for "the ability to impose an (locally
+   configured) upper bound on the number of address prefixes the speaker
+   is willing to accept from a neighbor".  In this specification, we
+   define a new Outbound Route Filter type for BGP, termed "Prefix Limit
+   Outbound Route Filter", which the speaker can use to communicate that
+   upper bound to its peer.  The peer is then required to abide by the
+   limit.  This is expected to have benefits in terms of resource
+   consumption and more importantly, transparency of operation.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-keyur-idr-bgp-prefix-limit-orf-02"/>
 </reference>

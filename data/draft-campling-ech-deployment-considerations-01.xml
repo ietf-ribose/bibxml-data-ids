@@ -1,19 +1,32 @@
 <reference anchor="I-D.campling-ech-deployment-considerations" target="https://datatracker.ietf.org/doc/html/draft-campling-ech-deployment-considerations-01">
   <front>
     <title>Encrypted Client Hello Deployment Considerations</title>
-    <author fullname="Andrew Campling" initials="A." surname="Campling">
+    <seriesInfo name="Internet-Draft" value="draft-campling-ech-deployment-considerations-01"/>
+    <author initials="A." surname="Campling" fullname="Andrew Campling">
       <organization>419 Consulting Limited</organization>
     </author>
-    <author fullname="Paul A. Vixie" initials="P. A." surname="Vixie">
+    <author initials="P. A." surname="Vixie" fullname="Paul A. Vixie">
       <organization>Red Barn</organization>
     </author>
-    <author fullname="David Wright" initials="D." surname="Wright">
+    <author initials="D." surname="Wright" fullname="David Wright">
       <organization>UK Safer Internet Centre</organization>
     </author>
-    <date year="2022" month="March" day="7"/>
+    <date day="07" month="March" year="2022"></date>
     <abstract>
-      <t>This document is intended to inform the development of the proposed Encrypted Client Hello (ECH) standard that encrypts Server Name Indication (SNI) and other data. Data encapsulated by ECH (ie data included in the encrypted ClientHelloInner) is of legitimate interest to on-path security actors including anti-virus software, parental controls and consumer and enterprise firewalls. The document includes observations on current use cases for SNI data in a variety of contexts. It highlights how the use of that data is important to the operators of private networks and shows how the loss of access to SNI data will cause difficulties in the provision of a range of services to many millions of end-users.</t>
+      <t>   This document is intended to inform the development of the proposed
+   Encrypted Client Hello (ECH) standard that encrypts Server Name
+   Indication (SNI) and other data.  Data encapsulated by ECH (ie data
+   included in the encrypted ClientHelloInner) is of legitimate interest
+   to on-path security actors including anti-virus software, parental
+   controls and consumer and enterprise firewalls.
+
+   The document includes observations on current use cases for SNI data
+   in a variety of contexts.  It highlights how the use of that data is
+   important to the operators of private networks and shows how the loss
+   of access to SNI data will cause difficulties in the provision of a
+   range of services to many millions of end-users.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-campling-ech-deployment-considerations-01"/>
 </reference>

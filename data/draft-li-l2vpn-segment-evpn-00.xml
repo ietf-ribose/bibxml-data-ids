@@ -1,19 +1,23 @@
 <reference anchor="I-D.li-l2vpn-segment-evpn" target="https://datatracker.ietf.org/doc/html/draft-li-l2vpn-segment-evpn-00">
   <front>
     <title>Segment-Based EVPN(S-EVPN)</title>
-    <author fullname="Zhenbin Li" initials="Z." surname="Li">
-      <organization/>
-    </author>
-    <author fullname="Lucy Yong" initials="L." surname="Yong">
-      <organization/>
-    </author>
-    <author fullname="Junlin Zhang" initials="J." surname="Zhang">
-      <organization/>
-    </author>
-    <date year="2013" month="July" day="8"/>
+    <seriesInfo name="Internet-Draft" value="draft-li-l2vpn-segment-evpn-00"/>
+    <author initials="Z." surname="Li" fullname="Zhenbin Li"/>
+    <author initials="L." surname="Yong" fullname="Lucy Yong"/>
+    <author initials="J." surname="Zhang" fullname="Junlin Zhang"/>
+    <date day="08" month="July" year="2013"></date>
     <abstract>
-      <t>This document proposes an enhanced EVPN mechanism, segment-based EVPN (S-EVPN). It satisfies the requirements of PBB-EVPN but does not require PBB implementation on PE. The solution uses a global label for each Ethernet Segment (ES) in an EVPN. It inserts the source ES label into packets at ingress PE and learns C-MAC and source ES label binding at egress PE. The solution makes the implementation easier and closer to EVPN's compared to PBB-EVPN but has the PBB-EVPN benefits.</t>
+      <t>   This document proposes an enhanced EVPN mechanism, segment-based EVPN
+   (S-EVPN).  It satisfies the requirements of PBB-EVPN but does not
+   require PBB implementation on PE.  The solution uses a global label
+   for each Ethernet Segment (ES) in an EVPN.  It inserts the source ES
+   label into packets at ingress PE and learns C-MAC and source ES label
+   binding at egress PE.  The solution makes the implementation easier
+   and closer to EVPN's compared to PBB-EVPN but has the PBB-EVPN
+   benefits.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-li-l2vpn-segment-evpn-00"/>
 </reference>

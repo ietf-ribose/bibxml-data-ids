@@ -1,28 +1,51 @@
 <reference anchor="I-D.loreto-httpbis-trusted-proxy20" target="https://datatracker.ietf.org/doc/html/draft-loreto-httpbis-trusted-proxy20-01">
   <front>
     <title>Explicit Trusted Proxy in HTTP/2.0</title>
-    <author fullname="Salvatore Loreto" initials="S." surname="Loreto">
+    <seriesInfo name="Internet-Draft" value="draft-loreto-httpbis-trusted-proxy20-01"/>
+    <author initials="S." surname="Loreto" fullname="Salvatore Loreto">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="John Preuß Mattsson" initials="J. P." surname="Mattsson">
+    <author initials="J. P." surname="Mattsson" fullname="John Preuß Mattsson">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Robert Skog" initials="R." surname="Skog">
+    <author initials="R." surname="Skog" fullname="Robert Skog">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Hans Spaak" initials="H." surname="Spaak">
+    <author initials="H." surname="Spaak" fullname="Hans Spaak">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Dan Druta" initials="D." surname="Druta">
+    <author initials="D." surname="Druta" fullname="Dan Druta">
       <organization>AT&amp;T</organization>
     </author>
-    <author fullname="Mohammad Hafeez" initials="M." surname="Hafeez">
+    <author initials="M." surname="Hafeez" fullname="Mohammad Hafeez">
       <organization>AT&amp;T</organization>
     </author>
-    <date year="2014" month="February" day="14"/>
+    <date day="14" month="February" year="2014"></date>
     <abstract>
-      <t>The purpose of this Internet Draft is to continue the discussion on explicit and trusted proxy as intermediary of HTTP2 traffic. The httpbis wg has agreed on the HTTP2 usage with HTTP URIs, with or without TLS, without any constraints from the standard (see: issue 314). To distinguish between an HTTP2 connection meant to transport "https" URIs resources and an HTTP2 connection meant to transport "http" URIs resource, the draft proposes to register a new value in the Application Layer Protocol negotiation (ALPN) Protocol IDs registry specific to signal the usage of HTTP2 to transport "http" URIs resources: h2clr. This document describes two alternative methods for an user-agent to automatically discover and for an user to provide consent for a Trusted Proxy to be securely involved when he or she is requesting an HTTP URI resource over HTTP2 with TLS. The consent is supposed to be per network access. The draft also describes the role of the Trusted Proxy in helping the user to fetch HTTP URIs resource when the user has provided consent to the Trusted Proxy to be involved.</t>
+      <t>   The purpose of this Internet Draft is to continue the discussion on
+   explicit and trusted proxy as intermediary of HTTP2 traffic.
+
+   The httpbis wg has agreed on the HTTP2 usage with HTTP URIs, with or
+   without TLS, without any constraints from the standard (see: issue
+   314).
+
+   To distinguish between an HTTP2 connection meant to transport "https"
+   URIs resources and an HTTP2 connection meant to transport "http" URIs
+   resource, the draft proposes to
+
+      register a new value in the Application Layer Protocol negotiation
+      (ALPN) Protocol IDs registry specific to signal the usage of HTTP2
+      to transport "http" URIs resources: h2clr.
+
+   This document describes two alternative methods for an user-agent to
+   automatically discover and for an user to provide consent for a
+   Trusted Proxy to be securely involved when he or she is requesting an
+   HTTP URI resource over HTTP2 with TLS.  The consent is supposed to be
+   per network access.  The draft also describes the role of the Trusted
+   Proxy in helping the user to fetch HTTP URIs resource when the user
+   has provided consent to the Trusted Proxy to be involved.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-loreto-httpbis-trusted-proxy20-01"/>
 </reference>

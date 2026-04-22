@@ -1,25 +1,26 @@
 <reference anchor="I-D.ietf-tcpm-early-rexmt" target="https://datatracker.ietf.org/doc/html/draft-ietf-tcpm-early-rexmt-04">
   <front>
     <title>Early Retransmit for TCP and Stream Control Transmission Protocol (SCTP)</title>
-    <author fullname="Josh Blanton" initials="J." surname="Blanton">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-early-rexmt-04"/>
+    <author initials="J." surname="Blanton" fullname="Josh Blanton">
       <organization>Ohio University</organization>
     </author>
-    <author fullname="Per Hurtig" initials="P." surname="Hurtig">
+    <author initials="P." surname="Hurtig" fullname="Per Hurtig">
       <organization>Karlstad University</organization>
     </author>
-    <author fullname="Urtzi Ayesta" initials="U." surname="Ayesta">
+    <author initials="U." surname="Ayesta" fullname="Urtzi Ayesta">
       <organization>BCAM-IKERBASQUE and LAAS-CNRS</organization>
     </author>
-    <author fullname="Konstantin Avrachenkov" initials="K." surname="Avrachenkov">
+    <author initials="K." surname="Avrachenkov" fullname="Konstantin Avrachenkov">
       <organization>INRIA</organization>
     </author>
-    <author fullname="Mark Allman" initials="M." surname="Allman">
+    <author initials="M." surname="Allman" fullname="Mark Allman">
       <organization>ICSI</organization>
     </author>
-    <date year="2010" month="January" day="27"/>
+    <date day="27" month="January" year="2010"></date>
     <abstract>
-      <t>This document proposes a new mechanism for TCP and Stream Control Transmission Protocol (SCTP) that can be used to recover lost segments when a connection's congestion window is small. The "Early Retransmit" mechanism allows the transport to reduce, in certain special circumstances, the number of duplicate acknowledgments required to trigger a fast retransmission. This allows the transport to use fast retransmit to recover segment losses that would otherwise require a lengthy retransmission timeout. [STANDARDS-TRACK]</t>
+      <t>This document proposes a new mechanism for TCP and Stream Control Transmission Protocol (SCTP) that can be used to recover lost segments when a connection's congestion window is small.  The "Early Retransmit" mechanism allows the transport to reduce, in certain special circumstances, the number of duplicate acknowledgments required to trigger a fast retransmission.  This allows the transport to use fast retransmit to recover segment losses that would otherwise require a lengthy retransmission timeout. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-early-rexmt-04"/>
 </reference>

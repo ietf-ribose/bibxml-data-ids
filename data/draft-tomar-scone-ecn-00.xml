@@ -1,28 +1,40 @@
 <reference anchor="I-D.tomar-scone-ecn" target="https://datatracker.ietf.org/doc/html/draft-tomar-scone-ecn-00">
   <front>
     <title>SCONE Need for Defining A New On-Path Signaling Mechanism</title>
-    <author fullname="Anoop Tomar" initials="A." surname="Tomar">
+    <seriesInfo name="Internet-Draft" value="draft-tomar-scone-ecn-00"/>
+    <author initials="A." surname="Tomar" fullname="Anoop Tomar">
       <organization>Meta</organization>
     </author>
-    <author fullname="Marcus Ihlar" initials="L. M." surname="Ihlar">
+    <author initials="L. M." surname="Ihlar" fullname="Marcus Ihlar">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Wesley Eddy" initials="W." surname="Eddy">
+    <author initials="W." surname="Eddy" fullname="Wesley Eddy">
       <organization>Meta</organization>
     </author>
-    <author fullname="Ian Swett" initials="I." surname="Swett">
+    <author initials="I." surname="Swett" fullname="Ian Swett">
       <organization>Google</organization>
     </author>
-    <author fullname="Abhishek Tiwari" initials="A." surname="Tiwari">
+    <author initials="A." surname="Tiwari" fullname="Abhishek Tiwari">
       <organization>Meta</organization>
     </author>
-    <author fullname="Matt Joras" initials="M." surname="Joras">
+    <author initials="M." surname="Joras" fullname="Matt Joras">
       <organization>Meta</organization>
     </author>
-    <date year="2024" month="November" day="3"/>
+    <date day="03" month="November" year="2024"></date>
     <abstract>
-      <t>This document discusses the need for defining a new on-path signaling mechanism and addresses the question “why can't we use Explicit Congestion Notification (ECN)” for the SCONE use-case. The SCONE objective is to optimize user QoE for streaming media/video services through network assisted application-level self-adaptation. This requires a Communication Service Provider’s (CSP’s) network device to send streaming media/video traffic profile characteristics (e.g. for allowed average media/video bit-rate, burst rate etc.) with the client application endpoint to enable content self adaptation implementations by content application providers (CAPs).</t>
+      <t>   This document discusses the need for defining a new on-path signaling
+   mechanism and addresses the question “why can't we use Explicit
+   Congestion Notification (ECN)” for the SCONE use-case.
+
+   The SCONE objective is to optimize user QoE for streaming media/video
+   services through network assisted application-level self-adaptation.
+   This requires a Communication Service Provider’s (CSP’s) network
+   device to send streaming media/video traffic profile characteristics
+   (e.g. for allowed average media/video bit-rate, burst rate etc.) with
+   the client application endpoint to enable content self adaptation
+   implementations by content application providers (CAPs).
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-tomar-scone-ecn-00"/>
 </reference>

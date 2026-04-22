@@ -1,28 +1,41 @@
 <reference anchor="I-D.ietf-bess-evpn-fast-df-recovery" target="https://datatracker.ietf.org/doc/html/draft-ietf-bess-evpn-fast-df-recovery-00">
   <front>
     <title>Fast Recovery for EVPN DF Election</title>
-    <author fullname="Ali Sajassi" initials="A." surname="Sajassi">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bess-evpn-fast-df-recovery-00"/>
+    <author initials="A." surname="Sajassi" fullname="Ali Sajassi">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Gaurav Badoni" initials="G." surname="Badoni">
+    <author initials="G." surname="Badoni" fullname="Gaurav Badoni">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Dhananjaya Rao" initials="D." surname="Rao">
+    <author initials="D." surname="Rao" fullname="Dhananjaya Rao">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Patrice Brissette" initials="P." surname="Brissette">
+    <author initials="P." surname="Brissette" fullname="Patrice Brissette">
       <organization>Cisco</organization>
     </author>
-    <author fullname="John Drake" initials="J." surname="Drake">
+    <author initials="J." surname="Drake" fullname="John Drake">
       <organization>Juniper</organization>
     </author>
-    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+    <author initials="J." surname="Rabadan" fullname="Jorge Rabadan">
       <organization>Nokia</organization>
     </author>
-    <date year="2018" month="June" day="12"/>
+    <date day="12" month="June" year="2018"></date>
     <abstract>
-      <t>Ethernet Virtual Private Network (EVPN) solution [RFC 7432] describes DF election procedures for multi-homing Ethernet Segments. These procedures are enhanced further in [DF-FRAMEWORK] by applying Highest Random Weight Algorithm for DF election in order to avoid DF status unnecessarily upon a failure. This draft makes further improvement to DF election procedures in [DF-FRAMEWORK] by providing two options for fast DF election upon recovery of the failed link or node associated with the multi-homing Ethernet Segment. This fast DF election is achieved independent of number of EVIs associated with that Ethernet Segment and it is performed via a simple signaling between the recovered PE and each PE in the multi-homing group.</t>
+      <t>   Ethernet Virtual Private Network (EVPN) solution [RFC 7432] describes
+   DF election procedures for multi-homing Ethernet Segments. These
+   procedures are enhanced further in [DF-FRAMEWORK] by applying Highest
+   Random Weight Algorithm for DF election in order to avoid DF status
+   unnecessarily upon a failure. This draft makes further improvement to
+   DF election procedures in [DF-FRAMEWORK] by providing two options for
+   fast DF election upon recovery of the failed link or node associated
+   with the multi-homing Ethernet Segment. This fast DF election is
+   achieved independent of number of EVIs associated with that Ethernet
+   Segment and it is performed via a simple signaling between the
+   recovered PE and each PE in the multi-homing group.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-bess-evpn-fast-df-recovery-00"/>
 </reference>

@@ -1,22 +1,45 @@
 <reference anchor="I-D.ahlard-boomerang-framework" target="https://datatracker.ietf.org/doc/html/draft-ahlard-boomerang-framework-00">
   <front>
     <title>Boomerang - A Simple Resource Reservation Framework for IP</title>
-    <author fullname="David Ahlard" initials="D." surname="Ahlard">
+    <seriesInfo name="Internet-Draft" value="draft-ahlard-boomerang-framework-00"/>
+    <author initials="D." surname="Ahlard" fullname="David Ahlard">
       <organization>Telia Research</organization>
     </author>
-    <author fullname="Joakim Bergkvist" initials="J." surname="Bergkvist">
+    <author initials="J." surname="Bergkvist" fullname="Joakim Bergkvist">
       <organization>Telia Research</organization>
     </author>
-    <author fullname="Istvan Cselenyi" initials="I." surname="Cselenyi">
+    <author initials="I." surname="Cselenyi" fullname="Istvan Cselenyi">
       <organization>Telia Research</organization>
     </author>
-    <author fullname="Tomas Engborg" initials="T." surname="Engborg">
+    <author initials="T." surname="Engborg" fullname="Tomas Engborg">
       <organization>Telia Research</organization>
     </author>
-    <date year="1999" month="March" day="2"/>
+    <date day="02" month="March" year="1999"></date>
     <abstract>
-      <t>This draft describes a framework for providing quantitative IP services with guaranteed QoS. Although the proposed reservation approach is based on a new, lightweight signaling protocol, it can be used with interoperability with other IP QoS techniques such as Diff-Serv, Int-Serv. Distinguishing features of the Boomerang protocol are: * signaling messages are generated only by the initiating node, therefore complexity and intelligence is concentrated in one point enabling simple implementation * flow state aggregation can be suggested to subsequent nodes by appending the Boomerang message, thus good scalability can be achieved * bi-directional reservation can be made independently of the path, which yields a fast and effective reservation process * the only requirement on the far-end node is that it should be able to bounce the Boomerang message back, ensuring quick penetration into the current Internet. There is a lab prototype in which the Boomerang protocol is wrapped in ICMP ECHO / ECHO-REPLY (PING) messages.</t>
+      <t>    This draft describes a framework for providing quantitative IP
+    services with guaranteed QoS. Although the proposed reservation
+    approach is based on a new, lightweight signaling protocol, it can
+    be used with interoperability with other IP QoS techniques such as
+    Diff-Serv, Int-Serv.
+ 
+        Distinguishing features of the Boomerang protocol are:
+           * signaling messages are generated only by the initiating
+             node, therefore complexity and intelligence is
+             concentrated in one point enabling simple implementation
+           * flow state aggregation can be suggested to subsequent
+             nodes by appending the Boomerang message, thus good
+             scalability can be achieved
+           * bi-directional reservation can be made independently of
+             the path, which yields a fast and effective reservation
+             process
+           * the only requirement on the far-end node is that it
+             should be able to bounce the Boomerang message back,
+             ensuring quick penetration into the current Internet.
+
+        There is a lab prototype in which the Boomerang protocol is
+    wrapped in ICMP ECHO / ECHO-REPLY (PING) messages.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ahlard-boomerang-framework-00"/>
 </reference>

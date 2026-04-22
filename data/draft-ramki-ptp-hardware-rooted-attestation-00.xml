@@ -1,25 +1,38 @@
 <reference anchor="I-D.ramki-ptp-hardware-rooted-attestation" target="https://datatracker.ietf.org/doc/html/draft-ramki-ptp-hardware-rooted-attestation-00">
   <front>
     <title>Hardware-Rooted Attestation for Precision Time Protocol: Verifiable Residency and Proximity proofs</title>
-    <author fullname="Ramki Krishnan" initials="R." surname="Krishnan">
+    <seriesInfo name="Internet-Draft" value="draft-ramki-ptp-hardware-rooted-attestation-00"/>
+    <author initials="R." surname="Krishnan" fullname="Ramki Krishnan">
       <organization>Vishanti Systems</organization>
     </author>
-    <author fullname="Michael Richardson" initials="M." surname="Richardson">
-      <organization/>
-    </author>
-    <author fullname="Diego Lopez" initials="D." surname="Lopez">
+    <author initials="M." surname="Richardson" fullname="Michael Richardson"/>
+    <author initials="D." surname="Lopez" fullname="Diego Lopez">
       <organization>Telefonica</organization>
     </author>
-    <author fullname="A Prasad" initials="A." surname="Prasad">
+    <author initials="A." surname="Prasad" fullname="A Prasad">
       <organization>Oracle</organization>
     </author>
-    <author fullname="Srinivasa Addepalli" initials="S." surname="Addepalli">
+    <author initials="S." surname="Addepalli" fullname="Srinivasa Addepalli">
       <organization>Aryaka</organization>
     </author>
-    <date year="2025" month="October" day="17"/>
+    <date day="17" month="October" year="2025"></date>
     <abstract>
-      <t>This document defines an extension to Precision Time Protocol (PTP) that provides per-event cryptographic attestation using non-exportable asymmetric keys resident in TPMs or HSMs, and an optional PTP-in-HTTPS/MTLS encapsulation mode. When combined with freshness and multi-observer correlation, this provides defensible proof of proximity for timing events. PTP-in-HTTPS/MTLS adds end-to-end confidentiality for timing payloads across untrusted fabrics. NOTE: This note is a placeholder to show the correct structure that avoids the "setup generated" error (Line 53). All paragraphs inside a note must be separated by a blank line. *setup generated*</t>
+      <t>   This document defines an extension to Precision Time Protocol (PTP)
+   that provides per-event cryptographic attestation using
+   non-exportable asymmetric keys resident in TPMs or HSMs, and an
+   optional PTP-in-HTTPS/MTLS encapsulation mode.  When combined with
+   freshness and multi-observer correlation, this provides defensible
+   proof of proximity for timing events.  PTP-in-HTTPS/MTLS adds
+   end-to-end confidentiality for timing payloads across untrusted
+   fabrics.
+
+      NOTE: This note is a placeholder to show the correct structure
+      that avoids the "setup generated" error (Line 53).  All paragraphs
+      inside a note must be separated by a blank line.
+
+      *setup generated*
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ramki-ptp-hardware-rooted-attestation-00"/>
 </reference>

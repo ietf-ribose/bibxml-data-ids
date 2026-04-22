@@ -1,13 +1,27 @@
 <reference anchor="I-D.chen-quic-logical-vuln-mitigations" target="https://datatracker.ietf.org/doc/html/draft-chen-quic-logical-vuln-mitigations-00">
   <front>
     <title>Mitigating Logical Vulnerabilities in QUIC Implementations</title>
-    <author fullname="Jianjun Chen" initials="J." surname="Chen">
+    <seriesInfo name="Internet-Draft" value="draft-chen-quic-logical-vuln-mitigations-00"/>
+    <author initials="J." surname="Chen" fullname="Jianjun Chen">
       <organization>Tsinghua University</organization>
     </author>
-    <date year="2026" month="March" day="16"/>
+    <date day="16" month="March" year="2026"></date>
     <abstract>
-      <t>This document describes protocol and implementation practices for mitigating logical vulnerabilities in QUIC implementations. It focuses on denial-of-service and correctness failures caused by unbounded resource retention, unsafe state transitions, and insufficiently defensive handling of adversarial but parseable protocol inputs. The document provides actionable guidance for protocol designers, implementers, and operators. It proposes concrete resource bounds, defensive validation rules, queue-management practices, and state- machine invariants intended to reduce exposure to memory exhaustion, CPU exhaustion, queue blow-up, connection starvation, and crash- triggering state confusion in QUIC endpoints.</t>
+      <t>   This document describes protocol and implementation practices for
+   mitigating logical vulnerabilities in QUIC implementations.  It
+   focuses on denial-of-service and correctness failures caused by
+   unbounded resource retention, unsafe state transitions, and
+   insufficiently defensive handling of adversarial but parseable
+   protocol inputs.
+
+   The document provides actionable guidance for protocol designers,
+   implementers, and operators.  It proposes concrete resource bounds,
+   defensive validation rules, queue-management practices, and state-
+   machine invariants intended to reduce exposure to memory exhaustion,
+   CPU exhaustion, queue blow-up, connection starvation, and crash-
+   triggering state confusion in QUIC endpoints.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-chen-quic-logical-vuln-mitigations-00"/>
 </reference>

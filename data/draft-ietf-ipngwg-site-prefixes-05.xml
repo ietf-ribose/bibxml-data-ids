@@ -1,13 +1,22 @@
 <reference anchor="I-D.ietf-ipngwg-site-prefixes" target="https://datatracker.ietf.org/doc/html/draft-ietf-ipngwg-site-prefixes-05">
   <front>
     <title>Site prefixes in Neighbor Discovery</title>
-    <author fullname="Erik Nordmark" initials="E." surname="Nordmark">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ipngwg-site-prefixes-05"/>
+    <author initials="E." surname="Nordmark" fullname="Erik Nordmark">
       <organization>Sun Microsystems</organization>
     </author>
-    <date year="2001" month="February" day="8"/>
+    <date day="08" month="February" year="2001"></date>
     <abstract>
-      <t>This document specifies extensions to IPv6 Neighbor Discovery to carry site prefixes. The site prefixes are used to reduce the effect of site renumbering by ensuring that the communication inside a site uses site-local addresses. This protocol requires that all IPv6 implementations, even those that do not implement this protocol, ignore all site-local addresses that they retrieve from the DNS when the AAAA or A6 RRset contain both global and site-local addresses. If the RRset contains only site- local addresses those addresses can be used.</t>
+      <t>This document specifies extensions to IPv6 Neighbor Discovery to
+carry site prefixes.  The site prefixes are used to reduce the effect
+of site renumbering by ensuring that the communication inside a site
+uses site-local addresses.
+This protocol requires that all IPv6 implementations, even those that
+do not implement this protocol, ignore all site-local addresses that
+they retrieve from the DNS when the AAAA or A6 RRset contain both
+global and site-local addresses.  If the RRset contains only site-
+local addresses those addresses can be used.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ipngwg-site-prefixes-05"/>
 </reference>

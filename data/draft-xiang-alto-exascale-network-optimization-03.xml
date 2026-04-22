@@ -1,37 +1,71 @@
 <reference anchor="I-D.xiang-alto-exascale-network-optimization" target="https://datatracker.ietf.org/doc/html/draft-xiang-alto-exascale-network-optimization-03">
   <front>
     <title>Resource Orchestration for Multi-Domain Data Analytics</title>
-    <author fullname="Qiao Xiang" initials="Q." surname="Xiang">
+    <seriesInfo name="Internet-Draft" value="draft-xiang-alto-exascale-network-optimization-03"/>
+    <author initials="Q." surname="Xiang" fullname="Qiao Xiang">
       <organization>Tongji/Yale University</organization>
     </author>
-    <author fullname="Harvey Newman" initials="H." surname="Newman">
+    <author initials="H." surname="Newman" fullname="Harvey Newman">
       <organization>California Institute of Technology</organization>
     </author>
-    <author fullname="Greg M. Bernstein" initials="G. M." surname="Bernstein">
+    <author initials="G. M." surname="Bernstein" fullname="Greg M. Bernstein">
       <organization>Grotto Networking</organization>
     </author>
-    <author fullname="Haizhou Du" initials="H." surname="Du">
+    <author initials="H." surname="Du" fullname="Haizhou Du">
       <organization>Tongji/Yale University</organization>
     </author>
-    <author fullname="Kai Gao" initials="K." surname="Gao">
+    <author initials="K." surname="Gao" fullname="Kai Gao">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Azher Mughal" initials="A." surname="Mughal">
+    <author initials="A." surname="Mughal" fullname="Azher Mughal">
       <organization>California Institute of Technology</organization>
     </author>
-    <author fullname="Justas Balcas" initials="J." surname="Balcas">
+    <author initials="J." surname="Balcas" fullname="Justas Balcas">
       <organization>California Institute of Technology</organization>
     </author>
-    <author fullname="Jingxuan Zhang" initials="J." surname="Zhang">
+    <author initials="J." surname="Zhang" fullname="Jingxuan Zhang">
       <organization>Tongji University</organization>
     </author>
-    <author fullname="Y. Richard Yang" initials="Y. R." surname="Yang">
+    <author initials="Y. R." surname="Yang" fullname="Y. Richard Yang">
       <organization>Tongji/Yale University</organization>
     </author>
-    <date year="2017" month="July" day="3"/>
+    <date day="03" month="July" year="2017"></date>
     <abstract>
-      <t>Data-intensive analytics is entering the era of multi-domain, geographically-distributed, collaborative computing, where different organizations contribute various resources to collaboratively collect, share and analyze extremely large amounts of data. Examples of this paradigm include the Compact Muon Solenoid (CMS) and A Toroidal LHC ApparatuS (ATLAS) experiments of the Large Hadron Collider (LHC) program. Massive datasets continue to be acquired, simulated, processed and analyzed by globally distributed science networks in these collaborations. Applications that manage and analyze such massive data volumes can benefit substantially from the information about networking, computing and storage resources from each member's site, and more directly from network-resident services that optimize and load balance resource usage among multiple data transfers and analytics requests, and achieve a better utilization of multiple resources in clusters. The Application-Layer Traffic Optimization (ALTO) protocol can provide via extensions the network information about different clusters/sites, to both users and proactive network management services where applicable, with the goal of improving both application performance and network resource utilization. In this document, we propose that it is feasible to use existing ALTO services to provides not only network information, but also information about computation and storage resources in data analytics networks. We introduce a uniform resource orchestration framework (Unicorn), which achieves an efficient multi-resource allocation to support low-latency dataset transfer and data intensive analytics for collaborative computing. It collects cluster information from multiple ALTO services utilizing topology extensions and leverages emerging SDN control capabilities to orchestrate the resource allocation for dataset transfers and analytics tasks, leading to improved transfer and analytics latency as well as more efficient utilization of multi-resources in sites.</t>
+      <t>   Data-intensive analytics is entering the era of multi-domain,
+   geographically-distributed, collaborative computing, where different
+   organizations contribute various resources to collaboratively
+   collect, share and analyze extremely large amounts of data.  Examples
+   of this paradigm include the Compact Muon Solenoid (CMS) and A
+   Toroidal LHC ApparatuS (ATLAS) experiments of the Large Hadron
+   Collider (LHC) program.  Massive datasets continue to be acquired,
+   simulated, processed and analyzed by globally distributed science
+   networks in these collaborations.  Applications that manage and
+   analyze such massive data volumes can benefit substantially from the
+   information about networking, computing and storage resources from
+   each member's site, and more directly from network-resident services
+   that optimize and load balance resource usage among multiple data
+   transfers and analytics requests, and achieve a better utilization of
+   multiple resources in clusters.
+
+   The Application-Layer Traffic Optimization (ALTO) protocol can
+   provide via extensions the network information about different
+   clusters/sites, to both users and proactive network management
+   services where applicable, with the goal of improving both
+   application performance and network resource utilization.  In this
+   document, we propose that it is feasible to use existing ALTO
+   services to provides not only network information, but also
+   information about computation and storage resources in data analytics
+   networks.  We introduce a uniform resource orchestration framework
+   (Unicorn), which achieves an efficient multi-resource allocation to
+   support low-latency dataset transfer and data intensive analytics for
+   collaborative computing.  It collects cluster information from
+   multiple ALTO services utilizing topology extensions and leverages
+   emerging SDN control capabilities to orchestrate the resource
+   allocation for dataset transfers and analytics tasks, leading to
+   improved transfer and analytics latency as well as more efficient
+   utilization of multi-resources in sites.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-xiang-alto-exascale-network-optimization-03"/>
 </reference>

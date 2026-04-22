@@ -1,13 +1,25 @@
 <reference anchor="I-D.wei-roll-rmdf" target="https://datatracker.ietf.org/doc/html/draft-wei-roll-rmdf-00">
   <front>
     <title>A routing method based on detection frames over LLNs</title>
-    <author fullname="Anni Wei" initials="A." surname="Wei">
+    <seriesInfo name="Internet-Draft" value="draft-wei-roll-rmdf-00"/>
+    <author initials="A." surname="Wei" fullname="Anni Wei">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2009" month="August" day="7"/>
+    <date day="07" month="August" year="2009"></date>
     <abstract>
-      <t>This document presents a routing method through sending detection frames including address of destination node to the neighbor nodes to reduce delay of data transmission because of the dormant nodes will increase data transmission delay in low power and lossy networks(LLNs). When receives the response from the neighbor nodes, the sending node can select a neighboring node as the next hop node to sent data, which has the lower cost parameter than the cost parameter between the sending node and the destination node stored in the routing table of sending node. This routing method finds a route in real-time by broadcasting detection frames. As long as any neighbor node that can reach the destination is active, data can be sent and then the data transmission delay will be reduced.</t>
+      <t>This document presents a routing method through sending detection
+frames including address of destination node to the neighbor nodes to
+reduce delay of data transmission because of the dormant nodes will
+increase data transmission delay in low power and lossy
+networks(LLNs).  When receives the response from the neighbor nodes,
+the sending node can select a neighboring node as the next hop node
+to sent data, which has the lower cost parameter than the cost
+parameter between the sending node and the destination node stored in
+the routing table of sending node.  This routing method finds a route
+in real-time by broadcasting detection frames.  As long as any
+neighbor node that can reach the destination is active, data can be
+sent and then the data transmission delay will be reduced.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wei-roll-rmdf-00"/>
 </reference>

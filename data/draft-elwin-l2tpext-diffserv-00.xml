@@ -1,16 +1,23 @@
 <reference anchor="I-D.elwin-l2tpext-diffserv" target="https://datatracker.ietf.org/doc/html/draft-elwin-l2tpext-diffserv-00">
   <front>
     <title>Differentiated Services on L2TP Sessions</title>
-    <author fullname="Elwin Stelzer" initials="E." surname="Stelzer">
-      <organization/>
-    </author>
-    <author fullname="Naveen Gowda" initials="N." surname="Gowda">
+    <seriesInfo name="Internet-Draft" value="draft-elwin-l2tpext-diffserv-00"/>
+    <author initials="E." surname="Stelzer" fullname="Elwin Stelzer"/>
+    <author initials="N." surname="Gowda" fullname="Naveen Gowda">
       <organization>Corona Networks</organization>
     </author>
-    <date year="2001" month="April" day="9"/>
+    <date day="09" month="April" year="2001"></date>
     <abstract>
-      <t>L2TP provides layer-2 tunneling over long distances, and a single L2TP session is likely to carry different type of IP packets. Currently, one L2TP session carries only one payload session; for PPP session (payload) the LCP controls the corresponding L2TP session. Assigning one diffserv code point to a L2TP session, as mentioned in [ref-6] can not provide differentiated services for the different kind of IP packets that are tunneled. For example, VoIP and FTP packets, will have to be treated the same in the backbone, even though the intermediate nodes are diffserv capable.</t>
+      <t>L2TP provides layer-2 tunneling over long distances,   and a single L2TP
+session is likely to carry different type of IP packets.  Currently, one
+L2TP session carries only one payload session; for PPP session (payload)
+the LCP controls the corresponding L2TP session.  Assigning one diffserv
+code point to a L2TP session,  as  mentioned  in [ref-6] can not provide
+differentiated services for the  different  kind  of IP packets that are
+tunneled. For example, VoIP and FTP packets, will have to be treated the
+same in the backbone,  even  though  the intermediate nodes are diffserv
+capable.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-elwin-l2tpext-diffserv-00"/>
 </reference>

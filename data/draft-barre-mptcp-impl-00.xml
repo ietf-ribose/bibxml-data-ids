@@ -1,16 +1,24 @@
 <reference anchor="I-D.barre-mptcp-impl" target="https://datatracker.ietf.org/doc/html/draft-barre-mptcp-impl-00">
   <front>
     <title>MultiPath TCP - Guidelines for implementers</title>
-    <author fullname="Sebastien Barre" initials="S." surname="Barre">
+    <seriesInfo name="Internet-Draft" value="draft-barre-mptcp-impl-00"/>
+    <author initials="S." surname="Barre" fullname="Sebastien Barre">
       <organization>UCLouvain, Belgium</organization>
     </author>
-    <author fullname="Christoph Paasch" initials="C." surname="Paasch">
+    <author initials="C." surname="Paasch" fullname="Christoph Paasch">
       <organization>UCLouvain, Belgium</organization>
     </author>
-    <date year="2011" month="March" day="7"/>
+    <date day="07" month="March" year="2011"></date>
     <abstract>
-      <t>Multipath TCP is a major extension to TCP that allows improving the resource usage in the current Internet by transmitting data over several TCP subflows, while still showing one single regular TCP socket to the application. This document describes our experience in writing a MultiPath TCP implementation in the Linux kernel and discusses implementation guidelines that could be useful for other developers who are planning to add MultiPath TCP to their networking stack.</t>
+      <t>Multipath TCP is a major extension to TCP that allows improving the
+resource usage in the current Internet by transmitting data over
+several TCP subflows, while still showing one single regular TCP
+socket to the application.  This document describes our experience in
+writing a MultiPath TCP implementation in the Linux kernel and
+discusses implementation guidelines that could be useful for other
+developers who are planning to add MultiPath TCP to their networking
+stack.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-barre-mptcp-impl-00"/>
 </reference>

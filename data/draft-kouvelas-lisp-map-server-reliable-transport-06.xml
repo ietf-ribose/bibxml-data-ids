@@ -1,28 +1,39 @@
 <reference anchor="I-D.kouvelas-lisp-map-server-reliable-transport" target="https://datatracker.ietf.org/doc/html/draft-kouvelas-lisp-map-server-reliable-transport-06">
   <front>
     <title>LISP Map Server Reliable Transport</title>
-    <author fullname="Johnson Leong" initials="J." surname="Leong">
+    <seriesInfo name="Internet-Draft" value="draft-kouvelas-lisp-map-server-reliable-transport-06"/>
+    <author initials="J." surname="Leong" fullname="Johnson Leong">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Darrel Lewis" initials="D." surname="Lewis">
+    <author initials="D." surname="Lewis" fullname="Darrel Lewis">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Balaji Venkatachalapathy" initials="B." surname="Venkatachalapathy">
+    <author initials="B." surname="Venkatachalapathy" fullname="Balaji Venkatachalapathy">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Chris Cassar" initials="C." surname="Cassar">
+    <author initials="C." surname="Cassar" fullname="Chris Cassar">
       <organization>Tesla</organization>
     </author>
-    <author fullname="Isidor Kouvelas" initials="I." surname="Kouvelas">
+    <author initials="I." surname="Kouvelas" fullname="Isidor Kouvelas">
       <organization>Arista Networks Inc.</organization>
     </author>
-    <author fullname="Jesus Arango" initials="J." surname="Arango">
+    <author initials="J." surname="Arango" fullname="Jesus Arango">
       <organization>Microsoft</organization>
     </author>
-    <date year="2021" month="April" day="26"/>
+    <date day="26" month="April" year="2021"></date>
     <abstract>
-      <t>The communication between LISP ETRs and Map-Servers is based on unreliable UDP message exchange coupled with periodic message transmission in order to maintain soft state. The drawback of periodic messaging is the constant load imposed on both the ETR and the Map-Server. New use cases for LISP have increased the amount of state that needs to be communicated with requirements that are not satisfied by the current mechanism. This document introduces the use of a reliable transport for ETR to Map-Server communication in order to eliminate the periodic messaging overhead, while providing reliability, flow-control and endpoint liveness detection.</t>
+      <t>   The communication between LISP ETRs and Map-Servers is based on
+   unreliable UDP message exchange coupled with periodic message
+   transmission in order to maintain soft state.  The drawback of
+   periodic messaging is the constant load imposed on both the ETR and
+   the Map-Server.  New use cases for LISP have increased the amount of
+   state that needs to be communicated with requirements that are not
+   satisfied by the current mechanism.  This document introduces the use
+   of a reliable transport for ETR to Map-Server communication in order
+   to eliminate the periodic messaging overhead, while providing
+   reliability, flow-control and endpoint liveness detection.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kouvelas-lisp-map-server-reliable-transport-06"/>
 </reference>

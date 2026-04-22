@@ -1,28 +1,37 @@
 <reference anchor="I-D.ietf-sidr-rpki-validation-reconsidered" target="https://datatracker.ietf.org/doc/html/draft-ietf-sidr-rpki-validation-reconsidered-10">
   <front>
     <title>Resource Public Key Infrastructure (RPKI) Validation Reconsidered</title>
-    <author fullname="Geoff Huston" initials="G." surname="Huston">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-sidr-rpki-validation-reconsidered-10"/>
+    <author initials="G." surname="Huston" fullname="Geoff Huston">
       <organization>Asia Pacific Network Information Centre</organization>
     </author>
-    <author fullname="George G. Michaelson" initials="G. G." surname="Michaelson">
+    <author initials="G. G." surname="Michaelson" fullname="George G. Michaelson">
       <organization>Asia Pacific Network Information Centre</organization>
     </author>
-    <author fullname="Carlos M. Martínez" initials="C. M." surname="Martínez">
+    <author initials="C. M." surname="Martínez" fullname="Carlos M. Martínez">
       <organization>Latin American and Caribbean IP Address Regional Registry</organization>
     </author>
-    <author fullname="Tim Bruijnzeels" initials="T." surname="Bruijnzeels">
+    <author initials="T." surname="Bruijnzeels" fullname="Tim Bruijnzeels">
       <organization>RIPE Network Coordination Centre</organization>
     </author>
-    <author fullname="Andy Newton" initials="A." surname="Newton">
+    <author initials="A." surname="Newton" fullname="Andy Newton">
       <organization>American Registry for Internet Numbers</organization>
     </author>
-    <author fullname="Daniel Shaw" initials="D." surname="Shaw">
+    <author initials="D." surname="Shaw" fullname="Daniel Shaw">
       <organization>African Network Information Centre (AFRINIC)</organization>
     </author>
-    <date year="2017" month="December" day="22"/>
+    <date day="22" month="December" year="2017"></date>
     <abstract>
-      <t>This document specifies an alternative to the certificate validation procedure specified in RFC 6487 that reduces aspects of operational fragility in the management of certificates in the Resource Public Key Infrastructure (RPKI), while retaining essential security features. The procedure specified in RFC 6487 requires that Resource Certificates are rejected entirely if they are found to overclaim any resources not contained on the issuing certificate, whereas the validation process defined here allows an issuing Certification Authority (CA) to chose to communicate that such Resource Certificates should be accepted for the intersection of their resources and the issuing certificate. It should be noted that the validation process defined here considers validation under a single trust anchor (TA) only. In particular, concerns regarding overclaims where multiple configured TAs claim overlapping resources are considered out of scope for this document. This choice is signaled by a set of alternative Object Identifiers (OIDs) per "X.509 Extensions for IP Addresses and AS Identifiers" (RFC 3779) and "Certificate Policy (CP) for the Resource Public Key Infrastructure (RPKI)" (RFC 6484). It should be noted that in case these OIDs are not used for any certificate under a trust anchor, the validation procedure defined here has the same outcome as the procedure defined in RFC 6487. Furthermore, this document provides an alternative to Route Origin Authorization (ROA) (RFC 6482) and BGPsec Router Certificate (BGPsec PKI Profiles -- publication requested) validation.</t>
+      <t>This document specifies an alternative to the certificate validation procedure specified in RFC 6487 that reduces aspects of operational fragility in the management of certificates in the Resource Public Key Infrastructure (RPKI), while retaining essential security features.
+
+ The procedure specified in RFC 6487 requires that Resource Certificates are rejected entirely if they are found to overclaim any resources not contained on the issuing certificate, whereas the validation process defined here allows an issuing Certification Authority (CA) to chose to communicate that such Resource Certificates should be accepted for the intersection of their resources and the issuing certificate.
+
+ It should be noted that the validation process defined here considers validation under a single trust anchor (TA) only. In particular, concerns regarding overclaims where multiple configured TAs claim overlapping resources are considered out of scope for this document.
+
+ This choice is signaled by a set of alternative Object Identifiers (OIDs) per "X.509 Extensions for IP Addresses and AS Identifiers" (RFC 3779) and "Certificate Policy (CP) for the Resource Public Key Infrastructure (RPKI)" (RFC 6484). It should be noted that in case these OIDs are not used for any certificate under a trust anchor, the validation procedure defined here has the same outcome as the procedure defined in RFC 6487.
+
+ Furthermore, this document provides an alternative to Route Origin Authorization (ROA) (RFC 6482) and BGPsec Router Certificate (BGPsec PKI Profiles -- publication requested) validation.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-sidr-rpki-validation-reconsidered-10"/>
 </reference>

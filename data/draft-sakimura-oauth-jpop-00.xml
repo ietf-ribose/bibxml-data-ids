@@ -1,19 +1,22 @@
 <reference anchor="I-D.sakimura-oauth-jpop" target="https://datatracker.ietf.org/doc/html/draft-sakimura-oauth-jpop-00">
   <front>
     <title>The OAuth 2.0 Authorization Framework: JWT Pop Token Usage</title>
-    <author fullname="Nat Sakimura" initials="N." surname="Sakimura">
-      <organization/>
-    </author>
-    <author fullname="Kepeng Li" initials="K." surname="Li">
-      <organization/>
-    </author>
-    <author fullname="John Bradley" initials="J." surname="Bradley">
-      <organization/>
-    </author>
-    <date year="2017" month="March" day="10"/>
+    <seriesInfo name="Internet-Draft" value="draft-sakimura-oauth-jpop-00"/>
+    <author initials="N." surname="Sakimura" fullname="Nat Sakimura"/>
+    <author initials="K." surname="Li" fullname="Kepeng Li"/>
+    <author initials="J." surname="Bradley" fullname="John Bradley"/>
+    <date day="10" month="March" year="2017"></date>
     <abstract>
-      <t>This specification describes how to use JWT POP (Jpop) tokens that were obtained through [POPKD] in HTTP requests to access OAuth 2.0 protected resources. Only the party in possession of a corresponding cryptographic key with the Jpop token can use it to get access to the associated resources unlike in the case of the bearer token described in [RFC6750] where any party in posession of the access token can access the resource.</t>
+      <t>   This specification describes how to use JWT POP (Jpop) tokens that
+   were obtained through [POPKD] in HTTP requests to access OAuth 2.0
+   protected resources.  Only the party in possession of a corresponding
+   cryptographic key with the Jpop token can use it to get access to the
+   associated resources unlike in the case of the bearer token described
+   in [RFC6750] where any party in posession of the access token can
+   access the resource.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sakimura-oauth-jpop-00"/>
 </reference>

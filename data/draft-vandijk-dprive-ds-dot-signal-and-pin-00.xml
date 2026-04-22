@@ -1,19 +1,24 @@
 <reference anchor="I-D.vandijk-dprive-ds-dot-signal-and-pin" target="https://datatracker.ietf.org/doc/html/draft-vandijk-dprive-ds-dot-signal-and-pin-00">
   <front>
     <title>Signalling Authoritative DoT support in DS records, with key pinning</title>
-    <author fullname="Peter van Dijk" initials="P." surname="van Dijk">
+    <seriesInfo name="Internet-Draft" value="draft-vandijk-dprive-ds-dot-signal-and-pin-00"/>
+    <author initials="P." surname="van Dijk" fullname="Peter van Dijk">
       <organization>PowerDNS</organization>
     </author>
-    <author fullname="Robin Geuze" initials="R." surname="Geuze">
+    <author initials="R." surname="Geuze" fullname="Robin Geuze">
       <organization>TransIP</organization>
     </author>
-    <author fullname="Manu Bretelle" initials="M." surname="Bretelle">
+    <author initials="M." surname="Bretelle" fullname="Manu Bretelle">
       <organization>Facebook</organization>
     </author>
-    <date year="2020" month="May" day="19"/>
+    <date day="19" month="May" year="2020"></date>
     <abstract>
-      <t>This document specifies a way to signal the usage of DoT, and the pinned keys for that DoT usage, in authoritative servers. This signal lives on the parent side of delegations, in DS records. To ensure easy deployment, the signal is defined in terms of (C)DNSKEY.</t>
+      <t>   This document specifies a way to signal the usage of DoT, and the
+   pinned keys for that DoT usage, in authoritative servers.  This
+   signal lives on the parent side of delegations, in DS records.  To
+   ensure easy deployment, the signal is defined in terms of (C)DNSKEY.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-vandijk-dprive-ds-dot-signal-and-pin-00"/>
 </reference>

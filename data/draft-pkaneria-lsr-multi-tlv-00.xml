@@ -1,28 +1,37 @@
 <reference anchor="I-D.pkaneria-lsr-multi-tlv" target="https://datatracker.ietf.org/doc/html/draft-pkaneria-lsr-multi-tlv-00">
   <front>
     <title>Multiple TLV Instances in IS-IS</title>
-    <author fullname="Parag Kaneriya" initials="P." surname="Kaneriya">
+    <seriesInfo name="Internet-Draft" value="draft-pkaneria-lsr-multi-tlv-00"/>
+    <author initials="P." surname="Kaneriya" fullname="Parag Kaneriya">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Tony Li" initials="T." surname="Li">
+    <author initials="T." surname="Li" fullname="Tony Li">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Tony Przygienda" initials="T." surname="Przygienda">
+    <author initials="T." surname="Przygienda" fullname="Tony Przygienda">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Shraddha Hegde" initials="S." surname="Hegde">
+    <author initials="S." surname="Hegde" fullname="Shraddha Hegde">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Chris Bowers" initials="C." surname="Bowers">
+    <author initials="C." surname="Bowers" fullname="Chris Bowers">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Les Ginsberg" initials="L." surname="Ginsberg">
+    <author initials="L." surname="Ginsberg" fullname="Les Ginsberg">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2022" month="January" day="21"/>
+    <date day="21" month="January" year="2022"></date>
     <abstract>
-      <t>Emerging technologies are adding information into IS-IS TLVs at a steady pace while deployment scales are simultaneously increasing. This causes the contents of many critical TLVs to exceed the currently supported limit of 255 octets. Extensions such as [RFC7356] require significant IS-IS changes that could help address the problem, but a less drastic solution would be beneficial. This document codifies the common mechanism of extending the TLV space through multiple TLV instances.</t>
+      <t>   Emerging technologies are adding information into IS-IS TLVs at a
+   steady pace while deployment scales are simultaneously increasing.
+   This causes the contents of many critical TLVs to exceed the
+   currently supported limit of 255 octets.  Extensions such as
+   [RFC7356] require significant IS-IS changes that could help address
+   the problem, but a less drastic solution would be beneficial.  This
+   document codifies the common mechanism of extending the TLV space
+   through multiple TLV instances.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-pkaneria-lsr-multi-tlv-00"/>
 </reference>

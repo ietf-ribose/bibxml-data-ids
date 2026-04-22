@@ -1,16 +1,23 @@
 <reference anchor="I-D.mizrahi-ntp-extension-field" target="https://datatracker.ietf.org/doc/html/draft-mizrahi-ntp-extension-field-02">
   <front>
     <title>Using NTP Extension Fields without Authentication</title>
-    <author fullname="Tal Mizrahi" initials="T." surname="Mizrahi">
-      <organization/>
-    </author>
-    <author fullname="Danny Mayer" initials="D." surname="Mayer">
-      <organization/>
-    </author>
-    <date year="2013" month="July" day="10"/>
+    <seriesInfo name="Internet-Draft" value="draft-mizrahi-ntp-extension-field-02"/>
+    <author initials="T." surname="Mizrahi" fullname="Tal Mizrahi"/>
+    <author initials="D." surname="Mayer" fullname="Danny Mayer"/>
+    <date day="10" month="July" year="2013"></date>
     <abstract>
-      <t>The Network Time Protocol Version 4 (NTPv4) defines the optional usage of extension fields. An extension field is an optional field that resides at the end of the NTP header, and can be used to add optional capabilities or additional information that is not conveyed in the standard NTP header. The current definition of extension fields in NTPv4 is somewhat ambiguous regarding the connection between extension fields and the presence of a Message Authentication Code (MAC). This draft clarifies the usage of extension fields in the presence and in the absence of a MAC, while maintaining interoperability with existing implementations.</t>
+      <t>   The Network Time Protocol Version 4 (NTPv4) defines the optional
+   usage of extension fields. An extension field is an optional field
+   that resides at the end of the NTP header, and can be used to add
+   optional capabilities or additional information that is not conveyed
+   in the standard NTP header. The current definition of extension
+   fields in NTPv4 is somewhat ambiguous regarding the connection
+   between extension fields and the presence of a Message Authentication
+   Code (MAC). This draft clarifies the usage of extension fields in the
+   presence and in the absence of a MAC, while maintaining
+   interoperability with existing implementations.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mizrahi-ntp-extension-field-02"/>
 </reference>

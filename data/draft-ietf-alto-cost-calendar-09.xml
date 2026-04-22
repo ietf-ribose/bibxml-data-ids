@@ -1,25 +1,37 @@
 <reference anchor="I-D.ietf-alto-cost-calendar" target="https://datatracker.ietf.org/doc/html/draft-ietf-alto-cost-calendar-09">
   <front>
     <title>ALTO Cost Calendar</title>
-    <author fullname="Sabine Randriamasy" initials="S." surname="Randriamasy">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-alto-cost-calendar-09"/>
+    <author initials="S." surname="Randriamasy" fullname="Sabine Randriamasy">
       <organization>Nokia Bell Labs</organization>
     </author>
-    <author fullname="Y. Richard Yang" initials="Y. R." surname="Yang">
+    <author initials="Y. R." surname="Yang" fullname="Y. Richard Yang">
       <organization>Yale University</organization>
     </author>
-    <author fullname="Qin Wu" initials="Q." surname="Wu">
+    <author initials="Q." surname="Wu" fullname="Qin Wu">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Deng Lingli" initials="D." surname="Lingli">
+    <author initials="D." surname="Lingli" fullname="Deng Lingli">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Nico Schwan" initials="N." surname="Schwan">
+    <author initials="N." surname="Schwan" fullname="Nico Schwan">
       <organization>Thales Deutschland</organization>
     </author>
-    <date year="2018" month="November" day="13"/>
+    <date day="13" month="November" year="2018"></date>
     <abstract>
-      <t>This document is an extension to the base ALTO protocol [RFC7285]. It extends the ALTO cost information service such that applications decide not only 'where' to connect, but also 'when'. This is useful for applications that need to perform bulk data transfer and would like to schedule these transfers during an off-peak hour, for example. This extension introduces ALTO Cost Calendars, with which an ALTO Server exposes ALTO cost values in JSON arrays where each value corresponds to a given time interval. The time intervals as well as other Calendar attributes are specified in the Information Resources Directory and ALTO Server responses.</t>
+      <t>   This document is an extension to the base ALTO protocol [RFC7285].
+   It extends the ALTO cost information service such that applications
+   decide not only 'where' to connect, but also 'when'.  This is useful
+   for applications that need to perform bulk data transfer and would
+   like to schedule these transfers during an off-peak hour, for
+   example.  This extension introduces ALTO Cost Calendars, with which
+   an ALTO Server exposes ALTO cost values in JSON arrays where each
+   value corresponds to a given time interval.  The time intervals as
+   well as other Calendar attributes are specified in the Information
+   Resources Directory and ALTO Server responses.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-alto-cost-calendar-09"/>
 </reference>

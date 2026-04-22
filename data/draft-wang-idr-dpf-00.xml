@@ -1,28 +1,47 @@
 <reference anchor="I-D.wang-idr-dpf" target="https://datatracker.ietf.org/doc/html/draft-wang-idr-dpf-00">
   <front>
     <title>BGP Deterministic Path Forwarding (DPF)</title>
-    <author fullname="Kevin Wang" initials="K." surname="Wang">
+    <seriesInfo name="Internet-Draft" value="draft-wang-idr-dpf-00"/>
+    <author initials="K." surname="Wang" fullname="Kevin Wang">
       <organization>HPE</organization>
     </author>
-    <author fullname="Michal Styszynski" initials="M." surname="Styszynski">
+    <author initials="M." surname="Styszynski" fullname="Michal Styszynski">
       <organization>HPE</organization>
     </author>
-    <author fullname="W. Lin" initials="W." surname="Lin">
+    <author initials="W." surname="Lin" fullname="W. Lin">
       <organization>HPE</organization>
     </author>
-    <author fullname="Mahesh Subramaniam" initials="M." surname="Subramaniam">
+    <author initials="M." surname="Subramaniam" fullname="Mahesh Subramaniam">
       <organization>HPE</organization>
     </author>
-    <author fullname="Thomas Kampa" initials="T." surname="Kampa">
+    <author initials="T." surname="Kampa" fullname="Thomas Kampa">
       <organization>Audi</organization>
     </author>
-    <author fullname="Diptanshu Singh" initials="D." surname="Singh">
+    <author initials="D." surname="Singh" fullname="Diptanshu Singh">
       <organization>Oracle Cloud Infrastructure</organization>
     </author>
-    <date year="2025" month="December" day="1"/>
+    <date day="01" month="December" year="2025"></date>
     <abstract>
-      <t>Modern data center (DC) fabrics typically employ Clos topologies with External BGP (EBGP) for plain IPv4/IPv6 routing. While hop-by-hop EBGP routing is simple and scalable, it provides only a single best- effort forwarding service for all types of traffic. This single best-effort service might be insufficient for increasingly diverse traffic requirements in modern DC environments. For example, loss and latency sensitive AI/ML flows may demand stronger Service Level Agreements (SLA) than general purpose traffic. Duplication schemes which are standardized through protocols such as Parallel Redundancy Protocol (PRP) require disjoint forwarding paths to avoid single points of failure. Congestion avoidance may require more deterministic forwarding behavior. This document introduces BGP Deterministic Path Forwarding (DPF), a mechanism that partitions the physical fabric into multiple logical fabrics. Flows can be mapped to different logical fabrics based on their specific requirements, enabling deterministic forwarding behavior within the data center.</t>
+      <t>   Modern data center (DC) fabrics typically employ Clos topologies with
+   External BGP (EBGP) for plain IPv4/IPv6 routing.  While hop-by-hop
+   EBGP routing is simple and scalable, it provides only a single best-
+   effort forwarding service for all types of traffic.  This single
+   best-effort service might be insufficient for increasingly diverse
+   traffic requirements in modern DC environments.  For example, loss
+   and latency sensitive AI/ML flows may demand stronger Service Level
+   Agreements (SLA) than general purpose traffic.  Duplication schemes
+   which are standardized through protocols such as Parallel Redundancy
+   Protocol (PRP) require disjoint forwarding paths to avoid single
+   points of failure.  Congestion avoidance may require more
+   deterministic forwarding behavior.
+
+   This document introduces BGP Deterministic Path Forwarding (DPF), a
+   mechanism that partitions the physical fabric into multiple logical
+   fabrics.  Flows can be mapped to different logical fabrics based on
+   their specific requirements, enabling deterministic forwarding
+   behavior within the data center.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wang-idr-dpf-00"/>
 </reference>

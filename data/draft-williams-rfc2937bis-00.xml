@@ -1,16 +1,27 @@
 <reference anchor="I-D.williams-rfc2937bis" target="https://datatracker.ietf.org/doc/html/draft-williams-rfc2937bis-00">
   <front>
     <title>Update to RFC2937: The Name Service Search Option for DHCP</title>
-    <author fullname="Aidan Williams" initials="A." surname="Williams">
+    <seriesInfo name="Internet-Draft" value="draft-williams-rfc2937bis-00"/>
+    <author initials="A." surname="Williams" fullname="Aidan Williams">
       <organization>Motorola</organization>
     </author>
-    <author fullname="Erik Guttman" initials="E." surname="Guttman">
+    <author initials="E." surname="Guttman" fullname="Erik Guttman">
       <organization>Sun Microsystems</organization>
     </author>
-    <date year="2001" month="September" day="14"/>
+    <date day="14" month="September" year="2001"></date>
     <abstract>
-      <t>Hosts may use the Dynamic Host Configuration Protocol (RFC2131) [DHCP] as a mechanism to retrieve configuration information. The Name Service Search Option for DHCP (RFC2937) [NSSO] allows the DHCP server to specify the order in which various kinds of name services RFC2937 uses a list of DHCP option code numbers to identify the specific name service type, in the order it is to be consulted. This specification extends RFC2937 to support name service types which currently have no DHCP option number -- either because they do not need additional configuration information, or because this configuration is not typically supplied via DHCP.</t>
+      <t>Hosts may use the Dynamic Host Configuration Protocol (RFC2131)
+[DHCP] as a mechanism to retrieve configuration information.  The
+Name Service Search Option for DHCP (RFC2937) [NSSO] allows the DHCP
+server to specify the order in which various kinds of name services
+RFC2937 uses a list of DHCP option code numbers to identify the
+specific name service type, in the order it is to be consulted.  This
+specification extends RFC2937 to support name service types which
+currently have no DHCP option number -- either because they do not
+need additional configuration information, or because this
+configuration is not typically supplied via DHCP.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-williams-rfc2937bis-00"/>
 </reference>

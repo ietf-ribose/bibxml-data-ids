@@ -1,25 +1,34 @@
 <reference anchor="I-D.irtf-dtnrg-ipnd" target="https://datatracker.ietf.org/doc/html/draft-irtf-dtnrg-ipnd-03">
   <front>
     <title>DTN IP Neighbor Discovery (IPND)</title>
-    <author fullname="Daniel Ellard" initials="D." surname="Ellard">
+    <seriesInfo name="Internet-Draft" value="draft-irtf-dtnrg-ipnd-03"/>
+    <author initials="D." surname="Ellard" fullname="Daniel Ellard">
       <organization>R. Altman</organization>
     </author>
-    <author fullname="Richard Altmann" initials="R." surname="Altmann">
-      <organization/>
-    </author>
-    <author fullname="Alex Gladd" initials="A." surname="Gladd">
-      <organization/>
-    </author>
-    <author fullname="Ronald in 't Velt" initials="R." surname="in 't Velt">
-      <organization/>
-    </author>
-    <author fullname="Daniel Brown" initials="D." surname="Brown">
+    <author initials="R." surname="Altmann" fullname="Richard Altmann"/>
+    <author initials="A." surname="Gladd" fullname="Alex Gladd"/>
+    <author initials="R." surname="in 't Velt" fullname="Ronald in 't Velt"/>
+    <author initials="D." surname="Brown" fullname="Daniel Brown">
       <organization>Bit9 Inc.</organization>
     </author>
-    <date year="2015" month="November" day="10"/>
+    <date day="10" month="November" year="2015"></date>
     <abstract>
-      <t>Disruption Tolerant Networking (DTN) IP Neighbor Discovery (IPND), is a method for otherwise oblivious nodes to learn of the existence, availability, and addresses of other DTN participants. IPND both sends and listens for small IP UDP announcement "beacons." Beacon messages are addressed to an IP unicast, multicast, or broadcast destination to discover specified or unspecified remote neighbors, or unspecified local neighbors in the topology, e.g. within wireless range. IPND beacons advertise neighbor availability by including the DTN node's canonical endpoint identifier. IPND beacons optionally include service availability and parameters. In this way, neighbor discovery and service discovery may be coupled or decoupled as required. Once discovered, new neighbor pairs use advertised availabilities to connect, exchange routing information, etc. This document describes DTN IPND.</t>
+      <t>   Disruption Tolerant Networking (DTN) IP Neighbor Discovery (IPND), is
+   a method for otherwise oblivious nodes to learn of the existence,
+   availability, and addresses of other DTN participants.  IPND both
+   sends and listens for small IP UDP announcement "beacons."  Beacon
+   messages are addressed to an IP unicast, multicast, or broadcast
+   destination to discover specified or unspecified remote neighbors, or
+   unspecified local neighbors in the topology, e.g. within wireless
+   range.  IPND beacons advertise neighbor availability by including the
+   DTN node's canonical endpoint identifier.  IPND beacons optionally
+   include service availability and parameters.  In this way, neighbor
+   discovery and service discovery may be coupled or decoupled as
+   required.  Once discovered, new neighbor pairs use advertised
+   availabilities to connect, exchange routing information, etc.  This
+   document describes DTN IPND.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-irtf-dtnrg-ipnd-03"/>
 </reference>

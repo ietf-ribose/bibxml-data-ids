@@ -1,16 +1,26 @@
 <reference anchor="I-D.pthubert-detnet-ipv6-hbh" target="https://datatracker.ietf.org/doc/html/draft-pthubert-detnet-ipv6-hbh-07">
   <front>
     <title>IPv6 Options for DetNet</title>
-    <author fullname="Pascal Thubert" initials="P." surname="Thubert">
+    <seriesInfo name="Internet-Draft" value="draft-pthubert-detnet-ipv6-hbh-07"/>
+    <author initials="P." surname="Thubert" fullname="Pascal Thubert">
       <organization>Cisco Systems, Inc</organization>
     </author>
-    <author fullname="Fan Yang" initials="F." surname="Yang">
+    <author initials="F." surname="Yang" fullname="Fan Yang">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2022" month="February" day="22"/>
+    <date day="22" month="February" year="2022"></date>
     <abstract>
-      <t>RFC 8938, the Deterministic Networking Data Plane Framework relies on the 6-tuple to identify an IPv6 flow. But the full DetNet operations require also the capabilities to signal meta-information such as a sequence within that flow, and to transport different types of packets along the same path with the same treatment, e.g., Operations, Administration, and Maintenance packets and/or multiple flows with fate and resource sharing. This document introduces new IPv6 options that signal that path and redundancy information to the intermediate DetNet relay and forwarding nodes.</t>
+      <t>   RFC 8938, the Deterministic Networking Data Plane Framework relies on
+   the 6-tuple to identify an IPv6 flow.  But the full DetNet operations
+   require also the capabilities to signal meta-information such as a
+   sequence within that flow, and to transport different types of
+   packets along the same path with the same treatment, e.g.,
+   Operations, Administration, and Maintenance packets and/or multiple
+   flows with fate and resource sharing.  This document introduces new
+   IPv6 options that signal that path and redundancy information to the
+   intermediate DetNet relay and forwarding nodes.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-pthubert-detnet-ipv6-hbh-07"/>
 </reference>

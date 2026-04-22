@@ -1,13 +1,26 @@
 <reference anchor="I-D.farley-acta-signed-receipts" target="https://datatracker.ietf.org/doc/html/draft-farley-acta-signed-receipts-00">
   <front>
     <title>Signed Decision Receipts for Machine-to-Machine Access Control</title>
-    <author fullname="Tom Farley" initials="T." surname="Farley">
+    <seriesInfo name="Internet-Draft" value="draft-farley-acta-signed-receipts-00"/>
+    <author initials="T." surname="Farley" fullname="Tom Farley">
       <organization>ScopeBlind (Veritas Acta)</organization>
     </author>
-    <date year="2026" month="March" day="26"/>
+    <date day="26" month="March" year="2026"></date>
     <abstract>
-      <t>This document defines a portable, cryptographically signed receipt format for recording machine-to-machine access control decisions. Each receipt captures the identity of the decision maker, the tool or resource being accessed, the policy evaluation result, and a timestamp — all signed with Ed25519 [RFC8032] and serialized using deterministic JSON canonicalization [RFC8785]. The format is designed for environments where AI agents invoke tools on behalf of human operators, particularly the Model Context Protocol (MCP) ecosystem. Receipts are independently verifiable without contacting the issuer, enabling offline audit, regulatory compliance, and cross-organizational trust federation.</t>
+      <t>   This document defines a portable, cryptographically signed receipt
+   format for recording machine-to-machine access control decisions.
+   Each receipt captures the identity of the decision maker, the tool or
+   resource being accessed, the policy evaluation result, and a
+   timestamp — all signed with Ed25519 [RFC8032] and serialized using
+   deterministic JSON canonicalization [RFC8785].
+
+   The format is designed for environments where AI agents invoke tools
+   on behalf of human operators, particularly the Model Context Protocol
+   (MCP) ecosystem.  Receipts are independently verifiable without
+   contacting the issuer, enabling offline audit, regulatory compliance,
+   and cross-organizational trust federation.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-farley-acta-signed-receipts-00"/>
 </reference>

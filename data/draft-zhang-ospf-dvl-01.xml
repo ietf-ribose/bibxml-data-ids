@@ -1,13 +1,22 @@
 <reference anchor="I-D.zhang-ospf-dvl" target="https://datatracker.ietf.org/doc/html/draft-zhang-ospf-dvl-01">
   <front>
     <title>Fixing Backbone Partition with Dynamic Virtual Links</title>
-    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+    <seriesInfo name="Internet-Draft" value="draft-zhang-ospf-dvl-01"/>
+    <author initials="Z. J." surname="Zhang" fullname="Zhaohui (Jeffrey) Zhang">
       <organization>Bay Networks</organization>
     </author>
-    <date year="1997" month="November" day="26"/>
+    <date day="26" month="November" year="1997"></date>
     <abstract>
-      <t>This document proposes a Dynamic Virtual Link (DVL) algorithm to dynamically detect and fix OSPF backbone area partition. In the DVL algorithm, each ABR periodically checks if it can reach via backbone area all other ABRs that it can reach via its transit areas. If not, it knows that a backbone partition has occurred and a spanning tree of Dynamic Virtual Links are created. When the DVLs are not needed, they are automatically deleted.</t>
+      <t>     This document proposes a Dynamic Virtual Link (DVL) algorithm to
+     dynamically detect and fix OSPF backbone area partition.
+ 
+     In the DVL algorithm, each ABR periodically checks if it can reach
+     via backbone area all other ABRs that it can reach via its transit
+     areas. If not, it knows that a backbone partition has occurred and
+     a spanning tree of Dynamic Virtual Links are created. When the
+     DVLs are not needed, they are automatically deleted.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-zhang-ospf-dvl-01"/>
 </reference>

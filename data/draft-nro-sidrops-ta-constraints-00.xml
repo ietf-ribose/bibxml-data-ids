@@ -1,25 +1,37 @@
 <reference anchor="I-D.nro-sidrops-ta-constraints" target="https://datatracker.ietf.org/doc/html/draft-nro-sidrops-ta-constraints-00">
   <front>
     <title>RPKI Trust Anchor Constraints</title>
-    <author fullname="Tom Harrison" initials="T." surname="Harrison">
+    <seriesInfo name="Internet-Draft" value="draft-nro-sidrops-ta-constraints-00"/>
+    <author initials="T." surname="Harrison" fullname="Tom Harrison">
       <organization>APNIC</organization>
     </author>
-    <author fullname="Tim Bruijnzeels" initials="T." surname="Bruijnzeels">
+    <author initials="T." surname="Bruijnzeels" fullname="Tim Bruijnzeels">
       <organization>RIPE NCC</organization>
     </author>
-    <author fullname="Carlos Martinez-Cagnazzo" initials="C." surname="Martinez-Cagnazzo">
+    <author initials="C." surname="Martinez-Cagnazzo" fullname="Carlos Martinez-Cagnazzo">
       <organization>LACNIC</organization>
     </author>
-    <author fullname="Mark Kosters" initials="M." surname="Kosters">
+    <author initials="M." surname="Kosters" fullname="Mark Kosters">
       <organization>ARIN</organization>
     </author>
-    <author fullname="Yogesh Chadee" initials="Y." surname="Chadee">
+    <author initials="Y." surname="Chadee" fullname="Yogesh Chadee">
       <organization>AFRINIC</organization>
     </author>
-    <date year="2025" month="October" day="20"/>
+    <date day="20" month="October" year="2025"></date>
     <abstract>
-      <t>Resource Public Key Infrastructure (RPKI) Relying Parties (RPs) are commonly configured with five Trust Anchors (TAs), one for each of the Regional Internet Registries (RIRs). Each TA operator is able to make arbitrary RPKI statements about resources independently of the other TA operators: for example, one TA could issue a Route Origin Authorization (ROA) for resources that have actually been assigned to another TA. This document specifies a protocol that allows a set of TAs to make signed statements that assert their consensus as to the resources for which each TA is authoritative.</t>
+      <t>   Resource Public Key Infrastructure (RPKI) Relying Parties (RPs) are
+   commonly configured with five Trust Anchors (TAs), one for each of
+   the Regional Internet Registries (RIRs).  Each TA operator is able to
+   make arbitrary RPKI statements about resources independently of the
+   other TA operators: for example, one TA could issue a Route Origin
+   Authorization (ROA) for resources that have actually been assigned to
+   another TA.
+
+   This document specifies a protocol that allows a set of TAs to make
+   signed statements that assert their consensus as to the resources for
+   which each TA is authoritative.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-nro-sidrops-ta-constraints-00"/>
 </reference>

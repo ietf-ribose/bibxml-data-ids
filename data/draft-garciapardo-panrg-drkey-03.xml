@@ -1,22 +1,33 @@
 <reference anchor="I-D.garciapardo-panrg-drkey" target="https://datatracker.ietf.org/doc/html/draft-garciapardo-panrg-drkey-03">
   <front>
     <title>Dynamically Recreatable Keys</title>
-    <author fullname="Juan A. García Pardo Giménez de los Galanes" initials="J. A." surname="de los Galanes">
+    <seriesInfo name="Internet-Draft" value="draft-garciapardo-panrg-drkey-03"/>
+    <author initials="J. A." surname="de los Galanes" fullname="Juan A. García Pardo Giménez de los Galanes">
       <organization>ETH Zürich</organization>
     </author>
-    <author fullname="Cyrill Krähenbühl" initials="C." surname="Krähenbühl">
+    <author initials="C." surname="Krähenbühl" fullname="Cyrill Krähenbühl">
       <organization>ETH Zürich</organization>
     </author>
-    <author fullname="Benjamin Rothenberger" initials="B." surname="Rothenberger">
+    <author initials="B." surname="Rothenberger" fullname="Benjamin Rothenberger">
       <organization>ETH Zürich</organization>
     </author>
-    <author fullname="Adrian Perrig" initials="A." surname="Perrig">
+    <author initials="A." surname="Perrig" fullname="Adrian Perrig">
       <organization>ETH Zürich</organization>
     </author>
-    <date year="2022" month="July" day="24"/>
+    <date day="24" month="July" year="2022"></date>
     <abstract>
-      <t>DRKey is a pragmatic Internet-scale key-establishment system that allows any host to locally obtain a symmetric key to enable a remote service to perform source-address authentication, and enables first- packet authentication. The remote service can itself locally derive the same key with efficient cryptographic operations. DRKey was developed with path aware networks in mind, but it is also applicable to today's Internet. It can be incrementally deployed and it offers incentives to the parties using it independently of its dissemination in the network.</t>
+      <t>   DRKey is a pragmatic Internet-scale key-establishment system that
+   allows any host to locally obtain a symmetric key to enable a remote
+   service to perform source-address authentication, and enables first-
+   packet authentication.  The remote service can itself locally derive
+   the same key with efficient cryptographic operations.
+
+   DRKey was developed with path aware networks in mind, but it is also
+   applicable to today's Internet.  It can be incrementally deployed and
+   it offers incentives to the parties using it independently of its
+   dissemination in the network.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-garciapardo-panrg-drkey-03"/>
 </reference>

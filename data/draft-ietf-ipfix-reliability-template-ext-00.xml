@@ -1,13 +1,24 @@
 <reference anchor="I-D.ietf-ipfix-reliability-template-ext" target="https://datatracker.ietf.org/doc/html/draft-ietf-ipfix-reliability-template-ext-00">
   <front>
     <title>Reliability Extension for IPFIX</title>
-    <author fullname="Sujay Gupta" initials="S." surname="Gupta">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ipfix-reliability-template-ext-00"/>
+    <author initials="S." surname="Gupta" fullname="Sujay Gupta">
       <organization>Infosys Tech. Ltd.</organization>
     </author>
-    <date year="2009" month="December" day="4"/>
+    <date day="04" month="December" year="2009"></date>
     <abstract>
-      <t>IPFIX[RFC3917] mandates the IPFIX device should be reliable.To be reliable the individual components like the Metering process or the Exporting process should not fail to meter &amp; export the flow information to the collector, else indicate its incapability explicitly. Currently, IPFIX transmits failure by sending count of packets,flows it failed to process along with the duration of the failure. This document outlines some of the limitations an IPFIX device may have and suggests solutions.</t>
+      <t>IPFIX[RFC3917] mandates the IPFIX device should be reliable.To be
+reliable the individual components like the Metering process or the
+Exporting process should not fail to meter &amp; export the flow
+information to the collector, else indicate its incapability
+explicitly.
+
+Currently, IPFIX transmits failure by sending count of packets,flows
+it failed to process along with the duration of the failure.
+
+This document outlines some of the limitations an IPFIX device may
+have and suggests solutions.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ipfix-reliability-template-ext-00"/>
 </reference>

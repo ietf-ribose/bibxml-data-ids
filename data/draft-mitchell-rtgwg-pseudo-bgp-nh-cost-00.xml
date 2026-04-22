@@ -1,13 +1,18 @@
 <reference anchor="I-D.mitchell-rtgwg-pseudo-bgp-nh-cost" target="https://datatracker.ietf.org/doc/html/draft-mitchell-rtgwg-pseudo-bgp-nh-cost-00">
   <front>
     <title>A Pseudo-Protocol for BGP Next Hop Cost Manipulation</title>
-    <author fullname="Jon Mitchell" initials="J." surname="Mitchell">
-      <organization/>
-    </author>
-    <date year="2015" month="October" day="19"/>
+    <seriesInfo name="Internet-Draft" value="draft-mitchell-rtgwg-pseudo-bgp-nh-cost-00"/>
+    <author initials="J." surname="Mitchell" fullname="Jon Mitchell"/>
+    <date day="19" month="October" year="2015"></date>
     <abstract>
-      <t>This describes a local router implementation option that provides a facility for the manipulation of the costs of IGP learned routes that are utilized as BGP NextHops rather than using the SPF calculated cost to the same route when running the BGP path selection algorithm. The result is something that works like a pseudo-routing protocol but only impacting the BGP decision making process.</t>
+      <t>   This describes a local router implementation option that provides a
+   facility for the manipulation of the costs of IGP learned routes that
+   are utilized as BGP NextHops rather than using the SPF calculated
+   cost to the same route when running the BGP path selection algorithm.
+   The result is something that works like a pseudo-routing protocol but
+   only impacting the BGP decision making process.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mitchell-rtgwg-pseudo-bgp-nh-cost-00"/>
 </reference>

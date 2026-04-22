@@ -1,16 +1,33 @@
 <reference anchor="I-D.blazevic-dcm-mobility" target="https://datatracker.ietf.org/doc/html/draft-blazevic-dcm-mobility-01">
   <front>
     <title>Distributed Core Multicast (DCM): a routing protocol for many  small groups  with application to  mobile IP telephony</title>
-    <author fullname="Jean-Yves Le Boudec" initials="J." surname="Le Boudec">
-      <organization/>
-    </author>
-    <author fullname="Ljubica Blazevic" initials="L." surname="Blazevic">
+    <seriesInfo name="Internet-Draft" value="draft-blazevic-dcm-mobility-01"/>
+    <author initials="J." surname="Le Boudec" fullname="Jean-Yves Le Boudec"/>
+    <author initials="L." surname="Blazevic" fullname="Ljubica Blazevic">
       <organization>Jean-Yves Le Boudec</organization>
     </author>
-    <date year="2000" month="June" day="21"/>
+    <date day="21" month="June" year="2000"></date>
     <abstract>
-      <t>This document specifies a multicast routing protocol called Distributed Core Multicast (DCM). It is intended for use within a large single Internet domain network with a very large number of multicast groups with a small number of receivers. Such a case occurs, for example, when multicast addresses are allocated to mobile hosts, as a mechanism to manage Internet host mobility. For such networks, existing dense or sparse mode multicast routing algorithms do not scale well with the number of multicast groups. DCM is based on an extension of the centre-based tree approach [1], [2]. It uses several core routers, called Distributed Core Routers (DCRs) and a special protocol between them. DCM aims: (1) to avoid multicast group state information in backbone routers, (2) to avoid triangular routing across expensive backbone links, (3) to scale well with the number of multicast groups. We analyse how DCM can be used to route packets to mobile hosts in cellular IP telephony, where each mobile host is assigned a multicast address in every domain it visits. The benefits of multicasting-based approach to route packets to mobile hosts are low latency and no disruption during handover.</t>
+      <t>This document specifies a multicast routing protocol called
+Distributed Core Multicast (DCM). It is intended for use within a
+large single Internet domain network with a very large number of
+multicast groups with a small number of receivers. Such a case
+occurs, for example, when multicast addresses are allocated to mobile
+hosts, as a mechanism to manage Internet host mobility. For such
+networks, existing dense or sparse mode multicast routing algorithms
+do not scale well with the number of multicast groups. DCM is based
+on an extension of the centre-based tree approach [1], [2]. It uses
+several core routers, called Distributed Core Routers (DCRs) and a
+special protocol between them. DCM aims: (1) to avoid multicast group
+state information in backbone routers, (2) to avoid triangular
+routing across expensive backbone links, (3) to scale well with the
+number of multicast groups. We analyse how DCM can be used to route
+packets to mobile hosts in cellular IP telephony, where each mobile
+host is assigned a multicast address in every domain it visits. The
+benefits of multicasting-based approach to route packets to mobile
+hosts are low latency and no disruption during handover.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-blazevic-dcm-mobility-01"/>
 </reference>

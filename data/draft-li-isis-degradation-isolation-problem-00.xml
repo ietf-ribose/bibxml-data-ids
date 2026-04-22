@@ -1,19 +1,29 @@
 <reference anchor="I-D.li-isis-degradation-isolation-problem" target="https://datatracker.ietf.org/doc/html/draft-li-isis-degradation-isolation-problem-00">
   <front>
     <title>Problem Statement: Link Degradation Isolation in Interoperable Networks using Intermediate System to Intermediate System (IS-IS)</title>
-    <author fullname="Xiaodong Duan" initials="X." surname="Duan">
+    <seriesInfo name="Internet-Draft" value="draft-li-isis-degradation-isolation-problem-00"/>
+    <author initials="X." surname="Duan" fullname="Xiaodong Duan">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Lianyuan Li" initials="L." surname="Li">
+    <author initials="L." surname="Li" fullname="Lianyuan Li">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Zhenqiang Li" initials="Z." surname="Li">
+    <author initials="Z." surname="Li" fullname="Zhenqiang Li">
       <organization>China Mobile</organization>
     </author>
-    <date year="2008" month="July" day="7"/>
+    <date day="07" month="July" year="2008"></date>
     <abstract>
-      <t>IS-IS protocol specifies a procedure that if a Link State Protocol Data Unit (LSP) with an incorrect LSP Checksum is received, the corruptedLSPReceived circuit event will be generated and the corrupted LSP will be discarded. This document aims to emphasize that although this procedure can maintain the network stability, it can not diagnose and isolate the source of the network problem. In some cases this procedure will create bad effect on the services carried by the network. This document suggests that IS-IS protocol introduce the mechanism for link degradation detection and isolation, which should be triggered when corrupted LSP is received.</t>
+      <t>IS-IS protocol specifies a procedure that if a Link State Protocol
+   Data Unit (LSP) with an incorrect LSP Checksum is received, the
+   corruptedLSPReceived circuit event will be generated and the
+   corrupted LSP will be discarded. This document aims to emphasize that
+   although this procedure can maintain the network stability, it can
+   not diagnose and isolate the source of the network problem. In some
+   cases this procedure will create bad effect on the services carried
+   by the network. This document suggests that IS-IS protocol introduce
+   the mechanism for link degradation detection and isolation, which
+   should be triggered when corrupted LSP is received.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-li-isis-degradation-isolation-problem-00"/>
 </reference>

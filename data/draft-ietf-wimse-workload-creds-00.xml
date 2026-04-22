@@ -1,25 +1,38 @@
 <reference anchor="I-D.ietf-wimse-workload-creds" target="https://datatracker.ietf.org/doc/html/draft-ietf-wimse-workload-creds-00">
   <front>
     <title>WIMSE Workload Credentials</title>
-    <author fullname="Brian Campbell" initials="B." surname="Campbell">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-wimse-workload-creds-00"/>
+    <author initials="B." surname="Campbell" fullname="Brian Campbell">
       <organization>Ping Identity</organization>
     </author>
-    <author fullname="Joseph A. Salowey" initials="J. A." surname="Salowey">
+    <author initials="J. A." surname="Salowey" fullname="Joseph A. Salowey">
       <organization>CyberArk</organization>
     </author>
-    <author fullname="Arndt Schwenkschuster" initials="A." surname="Schwenkschuster">
+    <author initials="A." surname="Schwenkschuster" fullname="Arndt Schwenkschuster">
       <organization>Defakto Security</organization>
     </author>
-    <author fullname="Yaron Sheffer" initials="Y." surname="Sheffer">
+    <author initials="Y." surname="Sheffer" fullname="Yaron Sheffer">
       <organization>Intuit</organization>
     </author>
-    <author fullname="Yaroslav Rosomakho" initials="Y." surname="Rosomakho">
+    <author initials="Y." surname="Rosomakho" fullname="Yaroslav Rosomakho">
       <organization>Zscaler</organization>
     </author>
-    <date year="2025" month="November" day="3"/>
+    <date day="03" month="November" year="2025"></date>
     <abstract>
-      <t>The WIMSE architecture defines authentication and authorization for software workloads in a variety of runtime environments, from the most basic ones up to complex multi-service, multi-cloud, multi- tenant deployments. This document defines the credentials that workloads use to represent their identity. They can be used in various protocols to authenticate workloads to each other. To use these credentials, workloads must provide proof of possession of the associated private key material, which is covered in other documents. This document focuses on the credentials alone, independent of the proof-of- possession mechanism.</t>
+      <t>   The WIMSE architecture defines authentication and authorization for
+   software workloads in a variety of runtime environments, from the
+   most basic ones up to complex multi-service, multi-cloud, multi-
+   tenant deployments.
+
+   This document defines the credentials that workloads use to represent
+   their identity.  They can be used in various protocols to
+   authenticate workloads to each other.  To use these credentials,
+   workloads must provide proof of possession of the associated private
+   key material, which is covered in other documents.  This document
+   focuses on the credentials alone, independent of the proof-of-
+   possession mechanism.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-wimse-workload-creds-00"/>
 </reference>

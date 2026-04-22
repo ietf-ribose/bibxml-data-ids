@@ -1,25 +1,37 @@
 <reference anchor="I-D.sallantin-tcpm-initial-spreading" target="https://datatracker.ietf.org/doc/html/draft-sallantin-tcpm-initial-spreading-01">
   <front>
     <title>Safe increase of the TCP's Initial Window Using Initial Spreading</title>
-    <author fullname="Renaud Sallantin" initials="R." surname="Sallantin">
+    <seriesInfo name="Internet-Draft" value="draft-sallantin-tcpm-initial-spreading-01"/>
+    <author initials="R." surname="Sallantin" fullname="Renaud Sallantin">
       <organization>C.BaudoinE.bouttier</organization>
     </author>
-    <author fullname="Fabrice Arnal" initials="F." surname="Arnal">
+    <author initials="F." surname="Arnal" fullname="Fabrice Arnal">
       <organization>Thales Alenia Space</organization>
     </author>
-    <author fullname="Emmanuel Dubois" initials="E." surname="Dubois">
+    <author initials="E." surname="Dubois" fullname="Emmanuel Dubois">
       <organization>CNES</organization>
     </author>
-    <author fullname="Emmanuel Chaput" initials="E." surname="Chaput">
+    <author initials="E." surname="Chaput" fullname="Emmanuel Chaput">
       <organization>IRIT</organization>
     </author>
-    <author fullname="Andre-Luc Beylot" initials="A." surname="Beylot">
+    <author initials="A." surname="Beylot" fullname="Andre-Luc Beylot">
       <organization>IRIT</organization>
     </author>
-    <date year="2015" month="April" day="23"/>
+    <date day="23" month="April" year="2015"></date>
     <abstract>
-      <t>This document proposes a new fast start-up mechanism to improve the short-lived TCP connections performance. Initial Spreading allows to safely increase the Initial Window size in any cases, and notably in congested networks. Merging the increase in the IW with the spacing of the segments belonging to the Initial Window (IW), Initial Spreading is a very simple mechanism that improves short-lived TCP flows performance and does not deteriorate long-lived TCP flows performance.</t>
+      <t>   This document proposes a new fast start-up mechanism to improve the
+   short-lived TCP connections performance.
+
+   Initial Spreading allows to safely increase the Initial Window size
+   in any cases, and notably in congested networks.
+
+   Merging the increase in the IW with the spacing of the segments
+   belonging to the Initial Window (IW), Initial Spreading is a very
+   simple mechanism that improves short-lived TCP flows performance and
+   does not deteriorate long-lived TCP flows performance.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sallantin-tcpm-initial-spreading-01"/>
 </reference>

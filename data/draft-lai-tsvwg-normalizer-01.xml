@@ -1,25 +1,27 @@
 <reference anchor="I-D.lai-tsvwg-normalizer" target="https://datatracker.ietf.org/doc/html/draft-lai-tsvwg-normalizer-01">
   <front>
     <title>Normalization Marker for AF PHB Group in DiffServ</title>
-    <author fullname="Cheng-Jia Lai" initials="C." surname="Lai">
-      <organization/>
-    </author>
-    <author fullname="Wenyi Wang" initials="W." surname="Wang">
-      <organization/>
-    </author>
-    <author fullname="Stan Yang" initials="S." surname="Yang">
-      <organization/>
-    </author>
-    <author fullname="Toerless Eckert" initials="T. T." surname="Eckert">
-      <organization/>
-    </author>
-    <author fullname="Fred Yip" initials="F." surname="Yip">
-      <organization/>
-    </author>
-    <date year="2013" month="July" day="5"/>
+    <seriesInfo name="Internet-Draft" value="draft-lai-tsvwg-normalizer-01"/>
+    <author initials="C." surname="Lai" fullname="Cheng-Jia Lai"/>
+    <author initials="W." surname="Wang" fullname="Wenyi Wang"/>
+    <author initials="S." surname="Yang" fullname="Stan Yang"/>
+    <author initials="T. T." surname="Eckert" fullname="Toerless Eckert"/>
+    <author initials="F." surname="Yip" fullname="Fred Yip"/>
+    <date day="05" month="July" year="2013"></date>
     <abstract>
-      <t>This memo describes a Normalization Marker (NM) at DiffServ (DS) nodes to normalize the distribution of DS codepoint (DSCP) markings for an Assured Forwarding (AF) Per-Hop Behavior (PHB) group. NM is useful for traffic conditioning with Active Queue Management (AQM) when the AF PHB group is deployed for multimedia service classes that carry video packets with advanced codec technologies. Using NM can offer an incentive that is however missing in today's ecosystem of practical deployment, i.e., when congestion occurs in the AF PHB group, the network should allow a video codec to benefit from its effort of generating finer layers of intra-flow precedence (IFP) with discardable packets in a more balanced distribution.</t>
+      <t>   This memo describes a Normalization Marker (NM) at DiffServ (DS)
+   nodes to normalize the distribution of DS codepoint (DSCP) markings
+   for an Assured Forwarding (AF) Per-Hop Behavior (PHB) group.  NM is
+   useful for traffic conditioning with Active Queue Management (AQM)
+   when the AF PHB group is deployed for multimedia service classes that
+   carry video packets with advanced codec technologies.  Using NM can
+   offer an incentive that is however missing in today's ecosystem of
+   practical deployment, i.e., when congestion occurs in the AF PHB
+   group, the network should allow a video codec to benefit from its
+   effort of generating finer layers of intra-flow precedence (IFP) with
+   discardable packets in a more balanced distribution.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-lai-tsvwg-normalizer-01"/>
 </reference>

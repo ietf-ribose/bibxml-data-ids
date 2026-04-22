@@ -1,22 +1,37 @@
 <reference anchor="I-D.ietf-alto-new-transport" target="https://datatracker.ietf.org/doc/html/draft-ietf-alto-new-transport-02">
   <front>
     <title>ALTO New Transport: ALTO Transport Information Structures</title>
-    <author fullname="Roland Schott" initials="R." surname="Schott">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-alto-new-transport-02"/>
+    <author initials="R." surname="Schott" fullname="Roland Schott">
       <organization>Deutsche Telekom</organization>
     </author>
-    <author fullname="Y. Richard Yang" initials="Y. R." surname="Yang">
+    <author initials="Y. R." surname="Yang" fullname="Y. Richard Yang">
       <organization>Yale University</organization>
     </author>
-    <author fullname="Kai Gao" initials="K." surname="Gao">
+    <author initials="K." surname="Gao" fullname="Kai Gao">
       <organization>Sichuan University</organization>
     </author>
-    <author fullname="Jingxuan Zhang" initials="J." surname="Zhang">
+    <author initials="J." surname="Zhang" fullname="Jingxuan Zhang">
       <organization>Tongji University</organization>
     </author>
-    <date year="2022" month="October" day="20"/>
+    <date day="20" month="October" year="2022"></date>
     <abstract>
-      <t>The ALTO base protocol [RFC7285] defines both the ALTO information resources and their transport from the server to the client. Using HTTP/1.x as the transport protocol, the ALTO transport in the base protocol includes the limitations of HTTP/1.x. ALTO/SSE [RFC8895] defines a new transport design addressing some of the limitations, but is still based on HTTP/1.x. This document introduces ALTO new transport, which introduces ALTO transport information structures (TIS) at an ALTO server. The introduction of ALTO TIS allows at least two types of efficient transport using HTTP: (1) HTTP/2/3 independent client (long) poll allowed by non-blocking, newer HTTP, and (2) HTTP/2 specific server push. This document defines ALTO TIS and the first design. A companion document defines server-push ALTO transport based on ALTO TIS.</t>
+      <t>   The ALTO base protocol [RFC7285] defines both the ALTO information
+   resources and their transport from the server to the client.  Using
+   HTTP/1.x as the transport protocol, the ALTO transport in the base
+   protocol includes the limitations of HTTP/1.x.  ALTO/SSE [RFC8895]
+   defines a new transport design addressing some of the limitations,
+   but is still based on HTTP/1.x.  This document introduces ALTO new
+   transport, which introduces ALTO transport information structures
+   (TIS) at an ALTO server.  The introduction of ALTO TIS allows at
+   least two types of efficient transport using HTTP: (1) HTTP/2/3
+   independent client (long) poll allowed by non-blocking, newer HTTP,
+   and (2) HTTP/2 specific server push.  This document defines ALTO TIS
+   and the first design.  A companion document defines server-push ALTO
+   transport based on ALTO TIS.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-alto-new-transport-02"/>
 </reference>

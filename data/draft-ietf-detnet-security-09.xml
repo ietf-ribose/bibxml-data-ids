@@ -1,16 +1,42 @@
 <reference anchor="I-D.ietf-detnet-security" target="https://datatracker.ietf.org/doc/html/draft-ietf-detnet-security-09">
   <front>
     <title>Deterministic Networking (DetNet) Security Considerations</title>
-    <author fullname="Tal Mizrahi" initials="T." surname="Mizrahi">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-detnet-security-09"/>
+    <author initials="T." surname="Mizrahi" fullname="Tal Mizrahi">
       <organization>Huawei Network.IO Innovation Lab</organization>
     </author>
-    <author fullname="Ethan Grossman" initials="E." surname="Grossman">
+    <author initials="E." surname="Grossman" fullname="Ethan Grossman">
       <organization>Dolby Laboratories, Inc.</organization>
     </author>
-    <date year="2020" month="March" day="18"/>
+    <date day="18" month="March" year="2020"></date>
     <abstract>
-      <t>A DetNet (deterministic network) provides specific performance guarantees to its data flows, such as extremely low data loss rates and bounded latency. As a result, securing a DetNet implies that in addition to the best practice security measures taken for any mission-critical network, additional security measures may be needed whose purpose is exclusively to secure the intended operation of these novel service properties. This document addresses specifically those security considerations, with the assumption that the reader is already familiar with network security best practices for the data plane technologies underlying a given DetNet implementation. This document defines a threat model and a taxonomy of relevant attacks, including their potential impacts and mitigations. A given DetNet may require securing only certain aspects of DetNet performance, for example extremely low data loss rates but not necessarily bounded latency. Therefore this document provides an association of threats against various use cases by industry, and also against the individual service properties as defined in the DetNet Use Cases. This document also addresses common DetNet security considerations related to the IP and MPLS data plane technologies (the first to be identified as supported by DetNet), thereby complementing the Security Considerations sections of the various DetNet Data Plane (and other) DetNet documents.</t>
+      <t>   A DetNet (deterministic network) provides specific performance
+   guarantees to its data flows, such as extremely low data loss rates
+   and bounded latency.  As a result, securing a DetNet implies that in
+   addition to the best practice security measures taken for any
+   mission-critical network, additional security measures may be needed
+   whose purpose is exclusively to secure the intended operation of
+   these novel service properties.  This document addresses specifically
+   those security considerations, with the assumption that the reader is
+   already familiar with network security best practices for the data
+   plane technologies underlying a given DetNet implementation.  This
+   document defines a threat model and a taxonomy of relevant attacks,
+   including their potential impacts and mitigations.
+
+   A given DetNet may require securing only certain aspects of DetNet
+   performance, for example extremely low data loss rates but not
+   necessarily bounded latency.  Therefore this document provides an
+   association of threats against various use cases by industry, and
+   also against the individual service properties as defined in the
+   DetNet Use Cases.
+
+   This document also addresses common DetNet security considerations
+   related to the IP and MPLS data plane technologies (the first to be
+   identified as supported by DetNet), thereby complementing the
+   Security Considerations sections of the various DetNet Data Plane
+   (and other) DetNet documents.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-detnet-security-09"/>
 </reference>

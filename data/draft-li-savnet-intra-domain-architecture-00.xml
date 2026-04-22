@@ -1,28 +1,40 @@
 <reference anchor="I-D.li-savnet-intra-domain-architecture" target="https://datatracker.ietf.org/doc/html/draft-li-savnet-intra-domain-architecture-00">
   <front>
     <title>Intra-domain Source Address Validation (SAVNET) Architecture</title>
-    <author fullname="Dan Li" initials="D." surname="Li">
+    <seriesInfo name="Internet-Draft" value="draft-li-savnet-intra-domain-architecture-00"/>
+    <author initials="D." surname="Li" fullname="Dan Li">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Jianping Wu" initials="J." surname="Wu">
+    <author initials="J." surname="Wu" fullname="Jianping Wu">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Lancheng Qin" initials="L." surname="Qin">
+    <author initials="L." surname="Qin" fullname="Lancheng Qin">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Fang Gao" initials="F." surname="Gao">
+    <author initials="F." surname="Gao" fullname="Fang Gao">
       <organization>Zhongguancun Laboratory</organization>
     </author>
-    <author fullname="Nan Geng" initials="N." surname="Geng">
+    <author initials="N." surname="Geng" fullname="Nan Geng">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Tianran Zhou" initials="T." surname="Zhou">
+    <author initials="T." surname="Zhou" fullname="Tianran Zhou">
       <organization>Huawei</organization>
     </author>
-    <date year="2022" month="October" day="24"/>
+    <date day="24" month="October" year="2022"></date>
     <abstract>
-      <t>Intra-domain source address validation (SAV) plays an important role in defending against source address spoofing attacks in intra-domain networks. However, existing intra-domain SAV mechanisms have the problems of inaccurate validation, high operational overhead, and limited protection. To overcome these problems and improve intra- domain SAV, this document proposes an overall architecture of source address validation in intra-domain network (named as Intra-domain SAVNET). Intra-domain SAVNET discovers the real data-plane forwarding path via hop-by-hop message propagation and helps intra- domain routers generate accurate SAV tables.</t>
+      <t>   Intra-domain source address validation (SAV) plays an important role
+   in defending against source address spoofing attacks in intra-domain
+   networks.  However, existing intra-domain SAV mechanisms have the
+   problems of inaccurate validation, high operational overhead, and
+   limited protection.  To overcome these problems and improve intra-
+   domain SAV, this document proposes an overall architecture of source
+   address validation in intra-domain network (named as Intra-domain
+   SAVNET).  Intra-domain SAVNET discovers the real data-plane
+   forwarding path via hop-by-hop message propagation and helps intra-
+   domain routers generate accurate SAV tables.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-li-savnet-intra-domain-architecture-00"/>
 </reference>

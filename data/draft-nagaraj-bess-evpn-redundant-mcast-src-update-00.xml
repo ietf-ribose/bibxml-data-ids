@@ -1,22 +1,34 @@
 <reference anchor="I-D.nagaraj-bess-evpn-redundant-mcast-src-update" target="https://datatracker.ietf.org/doc/html/draft-nagaraj-bess-evpn-redundant-mcast-src-update-00">
   <front>
     <title>Enhancements to Multicast Source Redundancy in EVPN Networks</title>
-    <author fullname="Vinod Kumar Nagaraj" initials="V. K." surname="Nagaraj">
+    <seriesInfo name="Internet-Draft" value="draft-nagaraj-bess-evpn-redundant-mcast-src-update-00"/>
+    <author initials="V. K." surname="Nagaraj" fullname="Vinod Kumar Nagaraj">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Vikram Nagarajan" initials="V." surname="Nagarajan">
+    <author initials="V." surname="Nagarajan" fullname="Vikram Nagarajan">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+    <author initials="Z. J." surname="Zhang" fullname="Zhaohui (Jeffrey) Zhang">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+    <author initials="J." surname="Rabadan" fullname="Jorge Rabadan">
       <organization>Nokia</organization>
     </author>
-    <date year="2022" month="October" day="24"/>
+    <date day="24" month="October" year="2022"></date>
     <abstract>
-      <t>draft-ietf-bess-evpn-redundant-mcast-source specifies Warm Standby (WS) and Hot Standby (HS) procedures for handling redundant multicast traffic into an EVPN tenant domain. With the Hot Standby procedure, multiple ingress PEs may inject traffic and an egress PE will decide from which ingress PE traffic will be accepted and forwarded. The decision is based on certain signaling messages and/or BFD status of provider tunnels from the ingress PEs, and the traffic is associated with ingress PEs based on Ethernet Segment Identifier (ESI) labels. As a result, the procedures in that document only apply to MPLS data plane. This document extends the Hot Standby procedures to non-MPLS data planes and EVPN Data Center Interconnect scenarios.</t>
+      <t>   draft-ietf-bess-evpn-redundant-mcast-source specifies Warm Standby
+   (WS) and Hot Standby (HS) procedures for handling redundant multicast
+   traffic into an EVPN tenant domain.  With the Hot Standby procedure,
+   multiple ingress PEs may inject traffic and an egress PE will decide
+   from which ingress PE traffic will be accepted and forwarded.  The
+   decision is based on certain signaling messages and/or BFD status of
+   provider tunnels from the ingress PEs, and the traffic is associated
+   with ingress PEs based on Ethernet Segment Identifier (ESI) labels.
+   As a result, the procedures in that document only apply to MPLS data
+   plane.  This document extends the Hot Standby procedures to non-MPLS
+   data planes and EVPN Data Center Interconnect scenarios.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-nagaraj-bess-evpn-redundant-mcast-src-update-00"/>
 </reference>

@@ -1,22 +1,32 @@
 <reference anchor="I-D.vandevelde-v6ops-ra-guard" target="https://datatracker.ietf.org/doc/html/draft-vandevelde-v6ops-ra-guard-01">
   <front>
     <title>IPv6 RA-Guard</title>
-    <author fullname="Gunter Van de Velde" initials="G." surname="Van de Velde">
+    <seriesInfo name="Internet-Draft" value="draft-vandevelde-v6ops-ra-guard-01"/>
+    <author initials="G." surname="Van de Velde" fullname="Gunter Van de Velde">
       <organization>E. Levy-Abegnoli</organization>
     </author>
-    <author fullname="Eric Levy-Abegnoli" initials="E." surname="Levy-Abegnoli">
-      <organization/>
-    </author>
-    <author fullname="Chip Popoviciu" initials="C." surname="Popoviciu">
+    <author initials="E." surname="Levy-Abegnoli" fullname="Eric Levy-Abegnoli"/>
+    <author initials="C." surname="Popoviciu" fullname="Chip Popoviciu">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="János Mohácsi" initials="J." surname="Mohácsi">
+    <author initials="J." surname="Mohácsi" fullname="János Mohácsi">
       <organization>NIIF/Hungarnet</organization>
     </author>
-    <date year="2008" month="January" day="28"/>
+    <date day="28" month="January" year="2008"></date>
     <abstract>
-      <t>When using IPv6 within a single L2 network segment it is neccesary to ensure that all routers advertising their services within it are valid. In cases where it is not convinient or possible to use SeND [1] a rogue Router Advertisement (RA) [2] could be sent by accident due to misconfiguraton or ill intended. Simple solutions for protecting against rogue RAs are beneficial in complementing SeND in securing the L2 domain for ceratin types of devices or in certain transitional situations. This document proposes a solution to reduce the threat of rogue RAs by enabling layer 2 devices to forward only RAs received over designated ports.</t>
+      <t>When using IPv6 within a single L2 network segment it is neccesary to
+ensure that all routers advertising their services within it are
+valid.  In cases where it is not convinient or possible to use SeND
+[1] a rogue Router Advertisement (RA) [2] could be sent by accident
+due to misconfiguraton or ill intended.  Simple solutions for
+protecting against rogue RAs are beneficial in complementing SeND in
+securing the L2 domain for ceratin types of devices or in certain
+transitional situations.
+
+This document proposes a solution to reduce the threat of rogue RAs
+by enabling layer 2 devices to forward only RAs received over
+designated ports.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-vandevelde-v6ops-ra-guard-01"/>
 </reference>

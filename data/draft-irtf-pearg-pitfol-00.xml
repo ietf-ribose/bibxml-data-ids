@@ -1,22 +1,38 @@
 <reference anchor="I-D.irtf-pearg-pitfol" target="https://datatracker.ietf.org/doc/html/draft-irtf-pearg-pitfol-00">
   <front>
     <title>Personal Information Tagging for Logs</title>
-    <author fullname="Sandeep Rao" initials="S." surname="Rao">
+    <seriesInfo name="Internet-Draft" value="draft-irtf-pearg-pitfol-00"/>
+    <author initials="S." surname="Rao" fullname="Sandeep Rao">
       <organization>Grab</organization>
     </author>
-    <author fullname="Santhosh C N" initials="S. C." surname="N">
+    <author initials="S. C." surname="N" fullname="Santhosh C N">
       <organization>Grab</organization>
     </author>
-    <author fullname="Shivan Kaul Sahib" initials="S. K." surname="Sahib">
+    <author initials="S. K." surname="Sahib" fullname="Shivan Kaul Sahib">
       <organization>Salesforce</organization>
     </author>
-    <author fullname="Ryan Guest" initials="R." surname="Guest">
+    <author initials="R." surname="Guest" fullname="Ryan Guest">
       <organization>Salesforce</organization>
     </author>
-    <date year="2020" month="September" day="9"/>
+    <date day="09" month="September" year="2020"></date>
     <abstract>
-      <t>Software systems typically generate log messages in the course of their operation. These log messages (or 'logs') record events as they happen, thus providing a trail that can be used to understand the state of the system and help with troubleshooting issues. Given that logs try to capture state that is useful for monitoring and debugging, they can contain information that can be used to identify users. Personal data identification and anonymization in logs is crucial to ensure that no personal data is being inadvertently logged and retained which would make the logging system run afoul of laws around storing private information. This document focuses on exploring mechanisms that can be used by a generating or intermediary logging service to specify personal or sensitive data in log message(s), thus allowing a downstream logging server to potentially enforce any redaction or transformation.</t>
+      <t>   Software systems typically generate log messages in the course of
+   their operation.  These log messages (or 'logs') record events as
+   they happen, thus providing a trail that can be used to understand
+   the state of the system and help with troubleshooting issues.  Given
+   that logs try to capture state that is useful for monitoring and
+   debugging, they can contain information that can be used to identify
+   users.  Personal data identification and anonymization in logs is
+   crucial to ensure that no personal data is being inadvertently logged
+   and retained which would make the logging system run afoul of laws
+   around storing private information.  This document focuses on
+   exploring mechanisms that can be used by a generating or intermediary
+   logging service to specify personal or sensitive data in log
+   message(s), thus allowing a downstream logging server to potentially
+   enforce any redaction or transformation.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-irtf-pearg-pitfol-00"/>
 </reference>

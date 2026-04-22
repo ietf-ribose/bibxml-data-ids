@@ -1,22 +1,30 @@
 <reference anchor="I-D.xie-v6ops-evn6" target="https://datatracker.ietf.org/doc/html/draft-xie-v6ops-evn6-00">
   <front>
     <title>EVN6: A Framework of Mapping of Ethernet Virtual Network to IPv6 Underlay</title>
-    <author fullname="Chongfeng Xie" initials="C." surname="Xie">
+    <seriesInfo name="Internet-Draft" value="draft-xie-v6ops-evn6-00"/>
+    <author initials="C." surname="Xie" fullname="Chongfeng Xie">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Xing Li" initials="X." surname="Li">
+    <author initials="X." surname="Li" fullname="Xing Li">
       <organization>CERNET Center/Tsinghua University</organization>
     </author>
-    <author fullname="Congxiao Bao" initials="C." surname="Bao">
+    <author initials="C." surname="Bao" fullname="Congxiao Bao">
       <organization>CERNET Center/Tsinghua University</organization>
     </author>
-    <author fullname="Mark Smith" initials="M." surname="Smith">
-      <organization/>
-    </author>
-    <date year="2023" month="November" day="8"/>
+    <author initials="M." surname="Smith" fullname="Mark Smith"/>
+    <date day="08" month="November" year="2023"></date>
     <abstract>
-      <t>This document describes the mechanism of mapping of Ethernet Virtual Network to IPv6 Underlay for transmission. Unlike the existing methods, this approach places the Ethernet frames to be transmitted directly in the payload of IPv6 packets, i.e., L2 over IPv6, and uses stateless mapping to generate IPv6 source and destination addresses from the host's MAC addresses, Ethernet Virtual Network identifier and site prefixes. The IPv6 packets generated in this way carry Ethernet frames and are routed to the destination site across public IPv6 network.</t>
+      <t>   This document describes the mechanism of mapping of Ethernet Virtual
+   Network to IPv6 Underlay for transmission.  Unlike the existing
+   methods, this approach places the Ethernet frames to be transmitted
+   directly in the payload of IPv6 packets, i.e., L2 over IPv6, and uses
+   stateless mapping to generate IPv6 source and destination addresses
+   from the host's MAC addresses, Ethernet Virtual Network identifier
+   and site prefixes.  The IPv6 packets generated in this way carry
+   Ethernet frames and are routed to the destination site across public
+   IPv6 network.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-xie-v6ops-evn6-00"/>
 </reference>

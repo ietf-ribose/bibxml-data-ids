@@ -1,22 +1,23 @@
 <reference anchor="I-D.ietf-tictoc-multi-path-synchronization" target="https://datatracker.ietf.org/doc/html/draft-ietf-tictoc-multi-path-synchronization-07">
   <front>
     <title>Multipath Time Synchronization</title>
-    <author fullname="Alex Shpiner" initials="A." surname="Shpiner">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tictoc-multi-path-synchronization-07"/>
+    <author initials="A." surname="Shpiner" fullname="Alex Shpiner">
       <organization>Mellanox</organization>
     </author>
-    <author fullname="Richard Tse" initials="R." surname="Tse">
+    <author initials="R." surname="Tse" fullname="Richard Tse">
       <organization>Microsemi</organization>
     </author>
-    <author fullname="Craig Schelp" initials="C." surname="Schelp">
+    <author initials="C." surname="Schelp" fullname="Craig Schelp">
       <organization>Oracle</organization>
     </author>
-    <author fullname="Tal Mizrahi" initials="T." surname="Mizrahi">
+    <author initials="T." surname="Mizrahi" fullname="Tal Mizrahi">
       <organization>Marvell</organization>
     </author>
-    <date year="2016" month="October" day="26"/>
+    <date day="26" month="October" year="2016"></date>
     <abstract>
-      <t>Clock synchronization protocols are very widely used in IP-based networks. The Network Time Protocol (NTP) has been commonly deployed for many years, and the last few years have seen an increasingly rapid deployment of the Precision Time Protocol (PTP). As time-sensitive applications evolve, clock accuracy requirements are becoming increasingly stringent, requiring the time synchronization protocols to provide high accuracy. This memo describes a multipath approach to PTP and NTP over IP networks, allowing the protocols to run concurrently over multiple communication paths between the master and slave clocks, without modifying these protocols. The multipath approach can significantly contribute to clock accuracy, security, and fault tolerance. The multipath approach that is presented in this document enables backward compatibility with nodes that do not support the multipath functionality.</t>
+      <t>Clock synchronization protocols are very widely used in IP-based networks.  The Network Time Protocol (NTP) has been commonly deployed for many years, and the last few years have seen an increasingly rapid deployment of the Precision Time Protocol (PTP).  As time-sensitive applications evolve, clock accuracy requirements are becoming increasingly stringent, requiring the time synchronization protocols to provide high accuracy.  This memo describes a multipath approach to PTP and NTP over IP networks, allowing the protocols to run concurrently over multiple communication paths between the master and slave clocks, without modifying these protocols.  The multipath approach can significantly contribute to clock accuracy, security, and fault tolerance.  The multipath approach that is presented in this document enables backward compatibility with nodes that do not support the multipath functionality.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-tictoc-multi-path-synchronization-07"/>
 </reference>

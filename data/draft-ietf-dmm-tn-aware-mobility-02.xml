@@ -1,25 +1,47 @@
 <reference anchor="I-D.ietf-dmm-tn-aware-mobility" target="https://datatracker.ietf.org/doc/html/draft-ietf-dmm-tn-aware-mobility-02">
   <front>
     <title>Mobility aware Transport Network Slicing for 5G</title>
-    <author fullname="Uma Chunduri" initials="U." surname="Chunduri">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dmm-tn-aware-mobility-02"/>
+    <author initials="U." surname="Chunduri" fullname="Uma Chunduri">
       <organization>Intel Corporation</organization>
     </author>
-    <author fullname="John Kaippallimalil" initials="J." surname="Kaippallimalil">
+    <author initials="J." surname="Kaippallimalil" fullname="John Kaippallimalil">
       <organization>Futurewei</organization>
     </author>
-    <author fullname="Sridhar Bhaskaran" initials="S." surname="Bhaskaran">
+    <author initials="S." surname="Bhaskaran" fullname="Sridhar Bhaskaran">
       <organization>Altiostar</organization>
     </author>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+    <author initials="J." surname="Tantsura" fullname="Jeff Tantsura">
       <organization>Microsoft</organization>
     </author>
-    <author fullname="Praveen Muley" initials="P." surname="Muley">
+    <author initials="P." surname="Muley" fullname="Praveen Muley">
       <organization>Nokia</organization>
     </author>
-    <date year="2021" month="October" day="22"/>
+    <date day="22" month="October" year="2021"></date>
     <abstract>
-      <t>This document specifies a framework and mapping of slices in 5G mobile systems to transport network slices in IP, Layer 2 or Layer 1 transport networks. Slices in 5G systems are characterized by latency bounds, reservation guarantees, jitter, data rates, availability, mobility speed, usage density, criticality and priority. These characteristics are mapped to transport network slice include bandwidth, latency and criteria such as isolation, directionality and disjoint routes. Mobile slice criteria are mapped to the appropriate transport slice and capabilities offered in backhaul, midhaul and fronthaul connectivity segments between radio side network functions and user plane function(gateway). This document describes how a mobile network slice is mapped to a slice in IP or Layer 2 transport network between 3GPP provisioning end points. The same mapping mechanisms apply during initial UE session setup and following UE mobility. Applicability of this framework and underlying transport networks, which can enable different slice properties are also discussed. This is based on mapping between mobile and transport underlays (L2, Segment Routing, IPv6, MPLS and IPv4).</t>
+      <t>   This document specifies a framework and mapping of slices in 5G
+   mobile systems to transport network slices in IP, Layer 2 or Layer 1
+   transport networks.  Slices in 5G systems are characterized by
+   latency bounds, reservation guarantees, jitter, data rates,
+   availability, mobility speed, usage density, criticality and
+   priority.  These characteristics are mapped to transport network
+   slice include bandwidth, latency and criteria such as isolation,
+   directionality and disjoint routes.  Mobile slice criteria are mapped
+   to the appropriate transport slice and capabilities offered in
+   backhaul, midhaul and fronthaul connectivity segments between radio
+   side network functions and user plane function(gateway).
+
+   This document describes how a mobile network slice is mapped to a
+   slice in IP or Layer 2 transport network between 3GPP provisioning
+   end points.  The same mapping mechanisms apply during initial UE
+   session setup and following UE mobility.  Applicability of this
+   framework and underlying transport networks, which can enable
+   different slice properties are also discussed.  This is based on
+   mapping between mobile and transport underlays (L2, Segment Routing,
+   IPv6, MPLS and IPv4).
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dmm-tn-aware-mobility-02"/>
 </reference>

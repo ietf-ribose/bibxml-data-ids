@@ -1,16 +1,20 @@
 <reference anchor="I-D.cao-behave-dsdns64" target="https://datatracker.ietf.org/doc/html/draft-cao-behave-dsdns64-00">
   <front>
     <title>Dual Stack Hosts with DNS64</title>
-    <author fullname="Zehn Cao" initials="Z." surname="Cao">
+    <seriesInfo name="Internet-Draft" value="draft-cao-behave-dsdns64-00"/>
+    <author initials="Z." surname="Cao" fullname="Zehn Cao">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="DENG Hui" initials="H." surname="Deng">
+    <author initials="H." surname="Deng" fullname="DENG Hui">
       <organization>China Mobile</organization>
     </author>
-    <date year="2010" month="February" day="12"/>
+    <date day="12" month="February" year="2010"></date>
     <abstract>
-      <t>If a dual stack host is configured with a DNS64 server, the packet will be routed through the NAT64 translator instead of the plain IPv4 router or NAT44. This document suggest the DNS64 should handle type A DNS request normally to avoid packets being detoured to NAT64.</t>
+      <t>If a dual stack host is configured with a DNS64 server, the packet
+will be routed through the NAT64 translator instead of the plain IPv4
+router or NAT44.  This document suggest the DNS64 should handle type
+A DNS request normally to avoid packets being detoured to NAT64.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-cao-behave-dsdns64-00"/>
 </reference>

@@ -1,37 +1,47 @@
 <reference anchor="I-D.mh-6man-icmpv6-reflection" target="https://datatracker.ietf.org/doc/html/draft-mh-6man-icmpv6-reflection-00">
   <front>
     <title>Internet Control Message Protocol (ICMPv6) Reflection</title>
-    <author fullname="Tal Mizrahi" initials="T." surname="Mizrahi">
+    <seriesInfo name="Internet-Draft" value="draft-mh-6man-icmpv6-reflection-00"/>
+    <author initials="T." surname="Mizrahi" fullname="Tal Mizrahi">
       <organization>Huawei</organization>
     </author>
-    <author fullname="hexiaoming" initials="X." surname="hexiaoming">
+    <author initials="X." surname="hexiaoming" fullname="hexiaoming">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Tianran Zhou" initials="T." surname="Zhou">
+    <author initials="T." surname="Zhou" fullname="Tianran Zhou">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Ron Bonica" initials="R." surname="Bonica">
+    <author initials="R." surname="Bonica" fullname="Ron Bonica">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Shahar Belkar" initials="S." surname="Belkar">
+    <author initials="S." surname="Belkar" fullname="Shahar Belkar">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Xiao Min" initials="X." surname="Min">
+    <author initials="X." surname="Min" fullname="Xiao Min">
       <organization>ZTE Corp.</organization>
     </author>
-    <author fullname="Chongfeng Xie" initials="C." surname="Xie">
+    <author initials="C." surname="Xie" fullname="Chongfeng Xie">
       <organization>China Telecom</organization>
     </author>
-    <author fullname="Zhenqiang Li" initials="Z." surname="Li">
+    <author initials="Z." surname="Li" fullname="Zhenqiang Li">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Justin Iurman" initials="J." surname="Iurman">
+    <author initials="J." surname="Iurman" fullname="Justin Iurman">
       <organization>Universite de Liege</organization>
     </author>
-    <date year="2024" month="September" day="10"/>
+    <date day="10" month="September" year="2024"></date>
     <abstract>
-      <t>This document describes the ICMPv6 Reflection utility. ICMPv6 Reflection uses a request-response handshake that is similar to ICMPv6 Echo, except that after a request is sent, the corresponding reply includes the request message itself or a subset of its fields as specified in the request. Specifically, the IPv6 header of the request message and its IPv6 extension headers, if they are present, can be included in the reply. Network operators can use ICMPv6 Reflection to determine how IPv6 extension headers have been altered by transit nodes.</t>
+      <t>   This document describes the ICMPv6 Reflection utility.  ICMPv6
+   Reflection uses a request-response handshake that is similar to
+   ICMPv6 Echo, except that after a request is sent, the corresponding
+   reply includes the request message itself or a subset of its fields
+   as specified in the request.  Specifically, the IPv6 header of the
+   request message and its IPv6 extension headers, if they are present,
+   can be included in the reply.  Network operators can use ICMPv6
+   Reflection to determine how IPv6 extension headers have been altered
+   by transit nodes.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mh-6man-icmpv6-reflection-00"/>
 </reference>

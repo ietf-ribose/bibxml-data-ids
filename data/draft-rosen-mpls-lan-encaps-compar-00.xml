@@ -1,25 +1,34 @@
 <reference anchor="I-D.rosen-mpls-lan-encaps-compar" target="https://datatracker.ietf.org/doc/html/draft-rosen-mpls-lan-encaps-compar-00">
   <front>
     <title>Comparison of MPLS LAN Encapsulation Proposals</title>
-    <author fullname="Keith McCloghrie" initials="K." surname="McCloghrie">
+    <seriesInfo name="Internet-Draft" value="draft-rosen-mpls-lan-encaps-compar-00"/>
+    <author initials="K." surname="McCloghrie" fullname="Keith McCloghrie">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Tony Li" initials="T." surname="Li">
+    <author initials="T." surname="Li" fullname="Tony Li">
       <organization>Juniper Networks, Inc.</organization>
     </author>
-    <author fullname="Eric C. Rosen" initials="E. C." surname="Rosen">
+    <author initials="E. C." surname="Rosen" fullname="Eric C. Rosen">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Dr. Andre N. Fredette" initials="A. N." surname="Fredette">
+    <author initials="A. N." surname="Fredette" fullname="Dr. Andre N. Fredette">
       <organization>Bay Networks, Inc.</organization>
     </author>
-    <author fullname="Milan Merhar" initials="M." surname="Merhar">
+    <author initials="M." surname="Merhar" fullname="Milan Merhar">
       <organization>Lucent Technologies</organization>
     </author>
-    <date year="1997" month="November" day="18"/>
+    <date day="18" month="November" year="1997"></date>
     <abstract>
-      <t>[1] describes how to encode an MPLS label stack as a ''shim'' between the data link and network layer headers of a labeled frame, but [1] does not require that this encoding be used to encode the top of the label stack on LAN media. This document examines the alternative encapsulations that have been proposed for LANs. One alternative is to use the shim as the MPLS encapsulation on LAN interfaces [2]. Another alternative is to encode the top label in the MAC header, rather than in the shim [3]. We describe the implications of each approach.</t>
+      <t>[1] describes how to encode an MPLS label stack as a ''shim'' between
+   the data link and network layer headers of a labeled frame, but [1]
+   does not require that this encoding be used to encode the top of the
+   label stack on LAN media.  This document examines the alternative
+   encapsulations that have been proposed for LANs.  One alternative is
+   to use the shim as the MPLS encapsulation on LAN interfaces [2].
+   Another alternative is to encode the top label in the MAC header,
+   rather than in the shim [3].  We describe the implications of each
+   approach.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-rosen-mpls-lan-encaps-compar-00"/>
 </reference>

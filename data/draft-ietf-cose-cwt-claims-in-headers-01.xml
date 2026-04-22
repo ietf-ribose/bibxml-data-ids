@@ -1,16 +1,24 @@
 <reference anchor="I-D.ietf-cose-cwt-claims-in-headers" target="https://datatracker.ietf.org/doc/html/draft-ietf-cose-cwt-claims-in-headers-01">
   <front>
     <title>CBOR Web Token (CWT) Claims in COSE Headers</title>
-    <author fullname="Tobias Looker" initials="T." surname="Looker">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-cose-cwt-claims-in-headers-01"/>
+    <author initials="T." surname="Looker" fullname="Tobias Looker">
       <organization>Mattr</organization>
     </author>
-    <author fullname="Michael Jones" initials="M." surname="Jones">
+    <author initials="M." surname="Jones" fullname="Michael Jones">
       <organization>Microsoft</organization>
     </author>
-    <date year="2022" month="November" day="8"/>
+    <date day="08" month="November" year="2022"></date>
     <abstract>
-      <t>This document describes how to include CBOR Web Token (CWT) claims in the header parameters of any COSE structure. This functionality helps to facilitate applications that wish to make use of CBOR Web Token (CWT) claims in encrypted COSE structures and/or COSE structures featuring detached signatures, while having some of those claims be available before decryption and/or without inspecting the detached payload.</t>
+      <t>   This document describes how to include CBOR Web Token (CWT) claims in
+   the header parameters of any COSE structure.  This functionality
+   helps to facilitate applications that wish to make use of CBOR Web
+   Token (CWT) claims in encrypted COSE structures and/or COSE
+   structures featuring detached signatures, while having some of those
+   claims be available before decryption and/or without inspecting the
+   detached payload.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-cose-cwt-claims-in-headers-01"/>
 </reference>

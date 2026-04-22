@@ -1,13 +1,23 @@
 <reference anchor="I-D.rsalz-use-san" target="https://datatracker.ietf.org/doc/html/draft-rsalz-use-san-01">
   <front>
     <title>Update to Verifying TLS Server Identities with X.509 Certificates</title>
-    <author fullname="Rich Salz" initials="R." surname="Salz">
+    <seriesInfo name="Internet-Draft" value="draft-rsalz-use-san-01"/>
+    <author initials="R." surname="Salz" fullname="Rich Salz">
       <organization>Akamai Technologies</organization>
     </author>
-    <date year="2021" month="March" day="13"/>
+    <date day="13" month="March" year="2021"></date>
     <abstract>
-      <t>In the decade since [RFC6125] was published, the subjectAlternativeName extension (SAN), as defined in [RFC5280] has become ubiquitous. This document updates [RFC6125] to specify that the fall-back techniques of using the commonName attribute to identify the service must not be used. This document also places some limitations on the use of wildcards in SAN fields. The original context of [RFC6125], using X.509 certificates for server identity with Transport Layer Security (TLS), is not changed.</t>
+      <t>   In the decade since [RFC6125] was published, the
+   subjectAlternativeName extension (SAN), as defined in [RFC5280] has
+   become ubiquitous.  This document updates [RFC6125] to specify that
+   the fall-back techniques of using the commonName attribute to
+   identify the service must not be used.  This document also places
+   some limitations on the use of wildcards in SAN fields.
+
+   The original context of [RFC6125], using X.509 certificates for
+   server identity with Transport Layer Security (TLS), is not changed.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-rsalz-use-san-01"/>
 </reference>

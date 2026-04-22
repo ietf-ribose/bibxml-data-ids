@@ -1,22 +1,30 @@
 <reference anchor="I-D.kien-mptcp-init" target="https://datatracker.ietf.org/doc/html/draft-kien-mptcp-init-00">
   <front>
     <title>An Improvement of MPTCP Initialization</title>
-    <author fullname="Kien Nguyen" initials="K." surname="Nguyen">
+    <seriesInfo name="Internet-Draft" value="draft-kien-mptcp-init-00"/>
+    <author initials="K." surname="Nguyen" fullname="Kien Nguyen">
       <organization>National Institute of Information and Communications Technology</organization>
     </author>
-    <author fullname="Kentaro Ishizu" initials="K." surname="Ishizu">
+    <author initials="K." surname="Ishizu" fullname="Kentaro Ishizu">
       <organization>National Institute of Information and Communications Technology</organization>
     </author>
-    <author fullname="Mirza Golam Kibria" initials="M. G." surname="Kibria">
+    <author initials="M. G." surname="Kibria" fullname="Mirza Golam Kibria">
       <organization>National Institute of Information and Communications Technology</organization>
     </author>
-    <author fullname="Fumihide Kojima" initials="F." surname="Kojima">
+    <author initials="F." surname="Kojima" fullname="Fumihide Kojima">
       <organization>National Institute of Information and Communications Technology</organization>
     </author>
-    <date year="2016" month="October" day="30"/>
+    <date day="30" month="October" year="2016"></date>
     <abstract>
-      <t>This draft describes a new method of connection initialization for Multipath TCP (MPTCP). In the current implementation, the MPTCP's first subflow needs to be successfully initialized before an additional flow takes its turn. This yields to a degradation of MPTCP benefit in many use cases (e.g., transferring short flows). To overcome the problem, we propose to duplicate the first SYN packet and send the duplicating ones via multiple interfaces.</t>
+      <t>   This draft describes a new method of connection initialization for
+   Multipath TCP (MPTCP).  In the current implementation, the MPTCP's
+   first subflow needs to be successfully initialized before an
+   additional flow takes its turn.  This yields to a degradation of
+   MPTCP benefit in many use cases (e.g., transferring short flows).  To
+   overcome the problem, we propose to duplicate the first SYN packet
+   and send the duplicating ones via multiple interfaces.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kien-mptcp-init-00"/>
 </reference>

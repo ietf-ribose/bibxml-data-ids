@@ -1,19 +1,34 @@
 <reference anchor="I-D.fossati-core-publish-monitor-options" target="https://datatracker.ietf.org/doc/html/draft-fossati-core-publish-monitor-options-01">
   <front>
     <title>Publish and Monitor Options for CoAP</title>
-    <author fullname="Thomas Fossati" initials="T." surname="Fossati">
+    <seriesInfo name="Internet-Draft" value="draft-fossati-core-publish-monitor-options-01"/>
+    <author initials="T." surname="Fossati" fullname="Thomas Fossati">
       <organization>KoanLogic</organization>
     </author>
-    <author fullname="Pierpaolo Giacomin" initials="P." surname="Giacomin">
+    <author initials="P." surname="Giacomin" fullname="Pierpaolo Giacomin">
       <organization>Freelance</organization>
     </author>
-    <author fullname="Salvatore Loreto" initials="S." surname="Loreto">
+    <author initials="S." surname="Loreto" fullname="Salvatore Loreto">
       <organization>Ericsson</organization>
     </author>
-    <date year="2012" month="March" day="10"/>
+    <date day="10" month="March" year="2012"></date>
     <abstract>
-      <t>This memo defines two additional Options for the Constrained Application Protocol (CoAP) especially targeted at sleepy sensors: Publish and Monitor. The Publish Option enables opportunistic updates of a given resource state, by temporarily delegating the authority of the Publish'ed resource to a Proxy node. The whole process is driven by the (sleepy) origin -- which may actually never need to listen. The Monitor Option complements the typical Observe pattern, enabling the tracking of a resource hosted by a node sleeping most of the time, by taking care of establishing and maintaining an Observe relationship with the (sleepy) origin on behalf of the (sleepy) client.</t>
+      <t>   This memo defines two additional Options for the Constrained
+   Application Protocol (CoAP) especially targeted at sleepy sensors:
+   Publish and Monitor.
+
+   The Publish Option enables opportunistic updates of a given resource
+   state, by temporarily delegating the authority of the Publish'ed
+   resource to a Proxy node.  The whole process is driven by the
+   (sleepy) origin -- which may actually never need to listen.
+
+   The Monitor Option complements the typical Observe pattern, enabling
+   the tracking of a resource hosted by a node sleeping most of the
+   time, by taking care of establishing and maintaining an Observe
+   relationship with the (sleepy) origin on behalf of the (sleepy)
+   client.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-fossati-core-publish-monitor-options-01"/>
 </reference>

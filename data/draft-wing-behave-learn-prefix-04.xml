@@ -1,13 +1,22 @@
 <reference anchor="I-D.wing-behave-learn-prefix" target="https://datatracker.ietf.org/doc/html/draft-wing-behave-learn-prefix-04">
   <front>
     <title>Learning the IPv6 Prefix of a Network's IPv6/IPv4 Translator</title>
-    <author fullname="Dan Wing" initials="D." surname="Wing">
+    <seriesInfo name="Internet-Draft" value="draft-wing-behave-learn-prefix-04"/>
+    <author initials="D." surname="Wing" fullname="Dan Wing">
       <organization>Cisco</organization>
     </author>
-    <date year="2009" month="October" day="26"/>
+    <date day="26" month="October" year="2009"></date>
     <abstract>
-      <t>Some IPv6 applications obtain IPv4 address literals and want to communicate with those IPv4 hosts through an IPv6/IPv4 translator. The IPv6 application can send an IPv6 packet through the translator if it knows the IPv6 prefix of the IPv6/IPv4 translator. In many IPv6/IPv4 translation deployments, that IPv6 prefix is not fixed; rather, the prefix is chosen by the network operator. This specification provides three methods for a host to learn the IPv6 prefix of its IPv6/IPv4 translator. Unicast, any-source multicast (ASM), and source-specific multicast (SSM) are supported.</t>
+      <t>Some IPv6 applications obtain IPv4 address literals and want to
+communicate with those IPv4 hosts through an IPv6/IPv4 translator.
+The IPv6 application can send an IPv6 packet through the translator
+if it knows the IPv6 prefix of the IPv6/IPv4 translator.  In many
+IPv6/IPv4 translation deployments, that IPv6 prefix is not fixed;
+rather, the prefix is chosen by the network operator.  This
+specification provides three methods for a host to learn the IPv6
+prefix of its IPv6/IPv4 translator.  Unicast, any-source multicast
+(ASM), and source-specific multicast (SSM) are supported.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wing-behave-learn-prefix-04"/>
 </reference>

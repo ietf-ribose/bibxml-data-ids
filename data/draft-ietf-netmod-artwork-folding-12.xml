@@ -1,22 +1,23 @@
 <reference anchor="I-D.ietf-netmod-artwork-folding" target="https://datatracker.ietf.org/doc/html/draft-ietf-netmod-artwork-folding-12">
   <front>
     <title>Handling Long Lines in Content of Internet-Drafts and RFCs</title>
-    <author fullname="Kent Watsen" initials="K." surname="Watsen">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-netmod-artwork-folding-12"/>
+    <author initials="K." surname="Watsen" fullname="Kent Watsen">
       <organization>Watsen Networks</organization>
     </author>
-    <author fullname="Erik Auerswald" initials="E." surname="Auerswald">
+    <author initials="E." surname="Auerswald" fullname="Erik Auerswald">
       <organization>Individual Contributor</organization>
     </author>
-    <author fullname="Adrian Farrel" initials="A." surname="Farrel">
+    <author initials="A." surname="Farrel" fullname="Adrian Farrel">
       <organization>Old Dog Consulting</organization>
     </author>
-    <author fullname="Qin Wu" initials="Q." surname="Wu">
+    <author initials="Q." surname="Wu" fullname="Qin Wu">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2020" month="January" day="20"/>
+    <date day="20" month="January" year="2020"></date>
     <abstract>
-      <t>This document defines two strategies for handling long lines in width-bounded text content. One strategy, called the "single backslash" strategy, is based on the historical use of a single backslash ('\') character to indicate where line-folding has occurred, with the continuation occurring with the first character that is not a space character (' ') on the next line. The second strategy, called the "double backslash" strategy, extends the first strategy by adding a second backslash character to identify where the continuation begins and is thereby able to handle cases not supported by the first strategy. Both strategies use a self-describing header enabling automated reconstitution of the original content.</t>
+      <t>This document defines two strategies for handling long lines in width-bounded text content.  One strategy, called the "single backslash" strategy, is based on the historical use of a single backslash ('\') character to indicate where line-folding has occurred, with the continuation occurring with the first character that is not a space character (' ') on the next line.  The second strategy, called the "double backslash" strategy, extends the first strategy by adding a second backslash character to identify where the continuation begins and is thereby able to handle cases not supported by the first strategy.  Both strategies use a self-describing header enabling automated reconstitution of the original content.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-netmod-artwork-folding-12"/>
 </reference>

@@ -1,16 +1,29 @@
 <reference anchor="I-D.crocker-dkim-doseta" target="https://datatracker.ietf.org/doc/html/draft-crocker-dkim-doseta-00">
   <front>
     <title>DomainKeys Security Tagging (DOSETA)</title>
-    <author fullname="Dave Crocker" initials="D." surname="Crocker">
+    <seriesInfo name="Internet-Draft" value="draft-crocker-dkim-doseta-00"/>
+    <author initials="D." surname="Crocker" fullname="Dave Crocker">
       <organization>Brandenburg InternetWorking</organization>
     </author>
-    <author fullname="Murray Kucherawy" initials="M." surname="Kucherawy">
+    <author initials="M." surname="Kucherawy" fullname="Murray Kucherawy">
       <organization>Cloudmark</organization>
     </author>
-    <date year="2011" month="January" day="13"/>
+    <date day="13" month="January" year="2011"></date>
     <abstract>
-      <t>DomainKeys Security Tagging (DOSETA) is a component mechanism that enables development of a security-related service, such as authentication or encryption, with keys based on domain names; the name owner can be any actor involved in the handling of the data, such as the author's organization, a server operator or one of their agents. The DOSETA Library provides a collection of common capabilities, including canonicalization, parameter tagging, and retrieval of self-certified keys. The DOSETA Signing Template affixes a signature to data that is in a "header/content" form. Defining the meaning of the signature is the responsibility of the service that incorporates DOSETA. The signature is validated through a cryptographic signature and querying the signer's domain directly, to retrieve the appropriate public key.</t>
+      <t>DomainKeys Security Tagging (DOSETA) is a component mechanism that
+enables development of a security-related service, such as
+authentication or encryption, with keys based on domain names; the
+name owner can be any actor involved in the handling of the data,
+such as the author's organization, a server operator or one of their
+agents.  The DOSETA Library provides a collection of common
+capabilities, including canonicalization, parameter tagging, and
+retrieval of self-certified keys.  The DOSETA Signing Template
+affixes a signature to data that is in a "header/content" form.
+Defining the meaning of the signature is the responsibility of the
+service that incorporates DOSETA.  The signature is validated through
+a cryptographic signature and querying the signer's domain directly,
+to retrieve the appropriate public key.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-crocker-dkim-doseta-00"/>
 </reference>

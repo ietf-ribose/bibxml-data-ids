@@ -1,19 +1,20 @@
 <reference anchor="I-D.ietf-sip-dtls-srtp-framework" target="https://datatracker.ietf.org/doc/html/draft-ietf-sip-dtls-srtp-framework-07">
   <front>
     <title>Framework for Establishing a Secure Real-time Transport Protocol (SRTP) Security Context Using Datagram Transport Layer Security (DTLS)</title>
-    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-sip-dtls-srtp-framework-07"/>
+    <author initials="H." surname="Tschofenig" fullname="Hannes Tschofenig">
       <organization>Nokia Siemens Networks</organization>
     </author>
-    <author fullname="Eric Rescorla" initials="E." surname="Rescorla">
+    <author initials="E." surname="Rescorla" fullname="Eric Rescorla">
       <organization>RTFM, Inc.</organization>
     </author>
-    <author fullname="Jason Fischl" initials="J." surname="Fischl">
+    <author initials="J." surname="Fischl" fullname="Jason Fischl">
       <organization>Skype, Inc.</organization>
     </author>
-    <date year="2009" month="March" day="9"/>
+    <date day="09" month="March" year="2009"></date>
     <abstract>
-      <t>This document specifies how to use the Session Initiation Protocol (SIP) to establish a Secure Real-time Transport Protocol (SRTP) security context using the Datagram Transport Layer Security (DTLS) protocol. It describes a mechanism of transporting a fingerprint attribute in the Session Description Protocol (SDP) that identifies the key that will be presented during the DTLS handshake. The key exchange travels along the media path as opposed to the signaling path. The SIP Identity mechanism can be used to protect the integrity of the fingerprint attribute from modification by intermediate proxies. [STANDARDS-TRACK]</t>
+      <t>This document specifies how to use the Session Initiation Protocol (SIP) to establish a Secure Real-time Transport Protocol (SRTP) security context using the Datagram Transport Layer Security (DTLS) protocol.  It describes a mechanism of transporting a fingerprint attribute in the Session Description Protocol (SDP) that identifies the key that will be presented during the DTLS handshake.  The key exchange travels along the media path as opposed to the signaling path.  The SIP Identity mechanism can be used to protect the integrity of the fingerprint attribute from modification by intermediate proxies. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-sip-dtls-srtp-framework-07"/>
 </reference>

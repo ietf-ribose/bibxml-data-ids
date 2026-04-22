@@ -1,19 +1,28 @@
 <reference anchor="I-D.mogul-http-dcluster" target="https://datatracker.ietf.org/doc/html/draft-mogul-http-dcluster-00">
   <front>
     <title>HTTP Delta Clusters and Templates</title>
-    <author fullname="Jeffrey Mogul" initials="J." surname="Mogul">
-      <organization/>
-    </author>
-    <author fullname="Fred Douglis" initials="F." surname="Douglis">
+    <seriesInfo name="Internet-Draft" value="draft-mogul-http-dcluster-00"/>
+    <author initials="J." surname="Mogul" fullname="Jeffrey Mogul"/>
+    <author initials="F." surname="Douglis" fullname="Fred Douglis">
       <organization>AT&amp;T,</organization>
     </author>
-    <author fullname="Daniel M. Hellerstein" initials="D. M." surname="Hellerstein">
+    <author initials="D. M." surname="Hellerstein" fullname="Daniel M. Hellerstein">
       <organization>ERS/USDA</organization>
     </author>
-    <date year="2000" month="August" day="25"/>
+    <date day="25" month="August" year="2000"></date>
     <abstract>
-      <t>HTTP 'Delta encoding,' the transmission of a compact encoding of the change between instances of a Web resource instead of retransmitting the entire new value, has been shown to be of potential value. Research has shown additional benefits if deltas can be computed between instances of different resources. This document describes a compatible extension to HTTP delta encoding to support 'clustering', where multiple resources (URLs) are treated as a pool, and the use of 'templates', where a large set of resource instances are most naturally described as deltas from a chosen template resource.</t>
+      <t>HTTP 'Delta encoding,' the transmission of a compact
+encoding of the change between instances of a Web resource
+instead of retransmitting the entire new value, has been
+shown to be of potential value.  Research has shown
+additional benefits if deltas can be computed between
+instances of different resources.  This document describes
+a compatible extension to HTTP delta encoding to support
+'clustering', where multiple resources (URLs) are treated
+as a pool, and the use of 'templates', where a large set of
+resource instances are most naturally described as deltas
+from a chosen template resource.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mogul-http-dcluster-00"/>
 </reference>

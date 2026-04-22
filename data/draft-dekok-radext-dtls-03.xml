@@ -1,13 +1,22 @@
 <reference anchor="I-D.dekok-radext-dtls" target="https://datatracker.ietf.org/doc/html/draft-dekok-radext-dtls-03">
   <front>
     <title>DTLS as a Transport Layer for RADIUS</title>
-    <author fullname="Alan DeKok" initials="A." surname="DeKok">
+    <seriesInfo name="Internet-Draft" value="draft-dekok-radext-dtls-03"/>
+    <author initials="A." surname="DeKok" fullname="Alan DeKok">
       <organization>FreeRADIUS</organization>
     </author>
-    <date year="2010" month="July" day="26"/>
+    <date day="26" month="July" year="2010"></date>
     <abstract>
-      <t>The RADIUS protocol [RFC2865] has limited support for authentication and encryption of RADIUS packets. The protocol transports data "in the clear", although some parts of the packets can have "hidden" content. Packets may be replayed verbatim by an attacker, and client-server authentication is based on fixed shared secrets. This document specifies how the Datagram Transport Layer Security (DTLS) protocol may be used as a fix for these problems. It also describes how implementations of this proposal can co-exist with current RADIUS systems.</t>
+      <t>The RADIUS protocol [RFC2865] has limited support for authentication
+and encryption of RADIUS packets.  The protocol transports data "in
+the clear", although some parts of the packets can have "hidden"
+content.  Packets may be replayed verbatim by an attacker, and
+client-server authentication is based on fixed shared secrets.  This
+document specifies how the Datagram Transport Layer Security (DTLS)
+protocol may be used as a fix for these problems.  It also describes
+how implementations of this proposal can co-exist with current RADIUS
+systems.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-dekok-radext-dtls-03"/>
 </reference>

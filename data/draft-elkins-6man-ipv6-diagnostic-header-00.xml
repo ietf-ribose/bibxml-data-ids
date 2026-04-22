@@ -1,19 +1,26 @@
 <reference anchor="I-D.elkins-6man-ipv6-diagnostic-header" target="https://datatracker.ietf.org/doc/html/draft-elkins-6man-ipv6-diagnostic-header-00">
   <front>
     <title>IPv6 Diagnostic Header</title>
-    <author fullname="Lawrence Kratzke" initials="L." surname="Kratzke">
+    <seriesInfo name="Internet-Draft" value="draft-elkins-6man-ipv6-diagnostic-header-00"/>
+    <author initials="L." surname="Kratzke" fullname="Lawrence Kratzke">
       <organization>IBM</organization>
     </author>
-    <author fullname="Nalini Elkins" initials="N." surname="Elkins">
+    <author initials="N." surname="Elkins" fullname="Nalini Elkins">
       <organization>Inside Products</organization>
     </author>
-    <author fullname="Michael Ackermann" initials="M." surname="Ackermann">
+    <author initials="M." surname="Ackermann" fullname="Michael Ackermann">
       <organization>BCBS of Michigan</organization>
     </author>
-    <date year="2011" month="July" day="4"/>
+    <date day="04" month="July" year="2011"></date>
     <abstract>
-      <t>The IPv4 main header contained a 16-bit IPID for fragmentation and reassembly. This field was commonly used by network diagnosticians for tracking packets on multi-tier networks. In IPv6, the IPID has been moved to the Fragment header. A new Diagnostic header for IPv6 which can be sent with every packet as a part of the Destination Options header with a 64-bit IPID is defined in this document.</t>
+      <t>The IPv4 main header contained a 16-bit IPID for fragmentation and
+reassembly.  This field was commonly used by network diagnosticians for
+tracking packets on multi-tier networks. In IPv6, the IPID has been
+moved to the Fragment header.  A new Diagnostic header for IPv6 which
+can be sent with every packet as a part of the Destination Options
+header with a 64-bit IPID is defined in this document.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-elkins-6man-ipv6-diagnostic-header-00"/>
 </reference>

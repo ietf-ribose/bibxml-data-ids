@@ -1,16 +1,26 @@
 <reference anchor="I-D.halpern-6man-nd-pre-resolve-addr" target="https://datatracker.ietf.org/doc/html/draft-halpern-6man-nd-pre-resolve-addr-00">
   <front>
     <title>Triggering ND Address Resolution on Receiving DAD-NS</title>
-    <author fullname="Ing-Wher Chen" initials="I." surname="Chen">
+    <seriesInfo name="Internet-Draft" value="draft-halpern-6man-nd-pre-resolve-addr-00"/>
+    <author initials="I." surname="Chen" fullname="Ing-Wher Chen">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Joel M. Halpern" initials="J. M." surname="Halpern">
+    <author initials="J. M." surname="Halpern" fullname="Joel M. Halpern">
       <organization>Ericsson</organization>
     </author>
-    <date year="2014" month="January" day="10"/>
+    <date day="10" month="January" year="2014"></date>
     <abstract>
-      <t>This draft proposes a new optional event to trigger address resolution using IPv6 Neighbor Discovery. This helps optimize router performance, and can help mitigate certain potential ND-related denial-of-service attacks. Upon receiving a DAD-NS message, the neighbor solicitation message used to detect duplicate addresses, if the target address encoded in the DAD-NS is not a duplicate address, the receiving device responds by triggering address resolution for the target address in the DAD-NS, in preparation for expectant future communication with the sending device.</t>
+      <t>   This draft proposes a new optional event to trigger address
+   resolution using IPv6 Neighbor Discovery.  This helps optimize router
+   performance, and can help mitigate certain potential ND-related
+   denial-of-service attacks.  Upon receiving a DAD-NS message, the
+   neighbor solicitation message used to detect duplicate addresses, if
+   the target address encoded in the DAD-NS is not a duplicate address,
+   the receiving device responds by triggering address resolution for
+   the target address in the DAD-NS, in preparation for expectant future
+   communication with the sending device.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-halpern-6man-nd-pre-resolve-addr-00"/>
 </reference>

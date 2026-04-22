@@ -1,13 +1,22 @@
 <reference anchor="I-D.worley-sdp-bundle" target="https://datatracker.ietf.org/doc/html/draft-worley-sdp-bundle-03">
   <front>
     <title>Kumquat: A Generic Bundle Mechanism for the Session Description Protocol (SDP)</title>
-    <author fullname="Dale R. Worley" initials="D. R." surname="Worley">
-      <organization/>
-    </author>
-    <date year="2013" month="February" day="24"/>
+    <seriesInfo name="Internet-Draft" value="draft-worley-sdp-bundle-03"/>
+    <author initials="D. R." surname="Worley" fullname="Dale R. Worley"/>
+    <date day="24" month="February" year="2013"></date>
     <abstract>
-      <t>This document defines a generic bundle mechanism for the Session Description Protocol (SDP) by which the media described by a number of media descriptions ("m= lines") are multiplexed and transmitted over a single transport association. The transport association is described by an additional media description, allowing SDP attributes to be applied to the aggregate, independently of attributes applied to the constituents. In offer/answer usage, the bundle mechanism is backward compatible with SDP processors that do not understand the mechanism. The mechanism is designed to be compatible with the limitations of the existing Internet infrastructure.</t>
+      <t>   This document defines a generic bundle mechanism for the Session
+   Description Protocol (SDP) by which the media described by a number
+   of media descriptions ("m= lines") are multiplexed and transmitted
+   over a single transport association.  The transport association is
+   described by an additional media description, allowing SDP attributes
+   to be applied to the aggregate, independently of attributes applied
+   to the constituents.  In offer/answer usage, the bundle mechanism is
+   backward compatible with SDP processors that do not understand the
+   mechanism.  The mechanism is designed to be compatible with the
+   limitations of the existing Internet infrastructure.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-worley-sdp-bundle-03"/>
 </reference>

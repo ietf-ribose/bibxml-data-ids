@@ -1,16 +1,39 @@
 <reference anchor="I-D.wendt-stir-vesper" target="https://datatracker.ietf.org/doc/html/draft-wendt-stir-vesper-07">
   <front>
     <title>VESPER - Verifiable STI Presentation and Evidence for RTU</title>
-    <author fullname="Chris Wendt" initials="C." surname="Wendt">
+    <seriesInfo name="Internet-Draft" value="draft-wendt-stir-vesper-07"/>
+    <author initials="C." surname="Wendt" fullname="Chris Wendt">
       <organization>Somos, Inc.</organization>
     </author>
-    <author fullname="Robert Śliwa" initials="R." surname="Śliwa">
+    <author initials="R." surname="Śliwa" fullname="Robert Śliwa">
       <organization>Somos, Inc.</organization>
     </author>
-    <date year="2026" month="March" day="31"/>
+    <date day="31" month="March" year="2026"></date>
     <abstract>
-      <t>This document defines VESPER (Verifiable STI Presentation and Evidence for RTU), a framework that extends the STIR architecture to cryptographically bind telephone number authority, domain identity, and originating provider authorization in a single delegate certificate. The delegate certificate is issued under the certificate policy defined under a STIR compliant eco-system and carries the assigned telephone numbers and authorized originating providers in a TNAuthList extension, the responsible entity's domain in a SubjectAltName, and an embedded Signed Certificate Timestamp (SCT) proving the certificate was recorded in a public transparency log prior to use. VESPER enables relying parties to verify that a telephone number was assigned to the entity whose domain is presented, and that calls from those numbers are originated by an authorized originating provider. The framework defines a certificate profile and issuance process grounded in existing STIR and ACME authority token mechanisms, a domain-hosted certificate repository with domain-controlled certificate discovery enabling cross-channel trust signals, a PASSporT usage profile for SIP signaling, and certificate transparency to support ecosystem auditability and detection of mis- issuance.</t>
+      <t>   This document defines VESPER (Verifiable STI Presentation and
+   Evidence for RTU), a framework that extends the STIR architecture to
+   cryptographically bind telephone number authority, domain identity,
+   and originating provider authorization in a single delegate
+   certificate.  The delegate certificate is issued under the
+   certificate policy defined under a STIR compliant eco-system and
+   carries the assigned telephone numbers and authorized originating
+   providers in a TNAuthList extension, the responsible entity's domain
+   in a SubjectAltName, and an embedded Signed Certificate Timestamp
+   (SCT) proving the certificate was recorded in a public transparency
+   log prior to use.  VESPER enables relying parties to verify that a
+   telephone number was assigned to the entity whose domain is
+   presented, and that calls from those numbers are originated by an
+   authorized originating provider.
+
+   The framework defines a certificate profile and issuance process
+   grounded in existing STIR and ACME authority token mechanisms, a
+   domain-hosted certificate repository with domain-controlled
+   certificate discovery enabling cross-channel trust signals, a
+   PASSporT usage profile for SIP signaling, and certificate
+   transparency to support ecosystem auditability and detection of mis-
+   issuance.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wendt-stir-vesper-07"/>
 </reference>

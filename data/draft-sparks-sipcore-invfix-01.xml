@@ -1,16 +1,24 @@
 <reference anchor="I-D.sparks-sipcore-invfix" target="https://datatracker.ietf.org/doc/html/draft-sparks-sipcore-invfix-01">
   <front>
     <title>Correct transaction handling for 200 responses to Session Initiation Protocol INVITE requests</title>
-    <author fullname="Robert Sparks" initials="R." surname="Sparks">
+    <seriesInfo name="Internet-Draft" value="draft-sparks-sipcore-invfix-01"/>
+    <author initials="R." surname="Sparks" fullname="Robert Sparks">
       <organization>Tekelec</organization>
     </author>
-    <author fullname="Theo Zourzouvillys" initials="T." surname="Zourzouvillys">
+    <author initials="T." surname="Zourzouvillys" fullname="Theo Zourzouvillys">
       <organization>VoIP.co.uk</organization>
     </author>
-    <date year="2009" month="September" day="12"/>
+    <date day="12" month="September" year="2009"></date>
     <abstract>
-      <t>This document normatively updates RFC 3261, the Session Initiation Protocol (SIP), to address an error in the specified handling of success (200 class) responses to INVITE requests. Elements following RFC 3261 exactly will misidentify retransmissions of the request as a new, unassociated, request. The correction involves modifying the INVITE transaction state machines. The correction also changes the way responses that cannot be matched to an existing transaction are handled to address a security risk.</t>
+      <t>This document normatively updates RFC 3261, the Session Initiation
+Protocol (SIP), to address an error in the specified handling of
+success (200 class) responses to INVITE requests.  Elements following
+RFC 3261 exactly will misidentify retransmissions of the request as a
+new, unassociated, request.  The correction involves modifying the
+INVITE transaction state machines.  The correction also changes the
+way responses that cannot be matched to an existing transaction are
+handled to address a security risk.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sparks-sipcore-invfix-01"/>
 </reference>

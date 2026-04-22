@@ -1,16 +1,22 @@
 <reference anchor="I-D.ietf-avt-reedsolomon" target="https://datatracker.ietf.org/doc/html/draft-ietf-avt-reedsolomon-00">
   <front>
     <title>An RTP Payload Format for Reed Solomon Codes</title>
-    <author fullname="Jonathan Rosenberg" initials="J." surname="Rosenberg">
-      <organization/>
-    </author>
-    <author fullname="Henning Schulzrinne" initials="H." surname="Schulzrinne">
-      <organization/>
-    </author>
-    <date year="1998" month="November" day="10"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-avt-reedsolomon-00"/>
+    <author initials="J." surname="Rosenberg" fullname="Jonathan Rosenberg"/>
+    <author initials="H." surname="Schulzrinne" fullname="Henning Schulzrinne"/>
+    <date day="10" month="November" year="1998"></date>
     <abstract>
-      <t>This document specifies a payload format for forward error correction of media encapsulated in RTP using Reed Solomon codes. The payload format allows end systems to transmit using arbitrary block lengths and codes. It also allows for the recovery of both the payload and critical RTP header fields. Since FEC is sent as a separate stream, it is backwards compatible with non-FEC capable hosts, so that receivers which do not wish to implement FEC can just ignore the extensions.</t>
+      <t>         This document specifies a payload format for forward
+         error correction of media encapsulated in RTP using Reed
+         Solomon codes. The payload format allows end systems to
+         transmit using arbitrary block lengths and codes. It also
+         allows for the recovery of both the payload and critical
+         RTP header fields. Since FEC is sent as a separate
+         stream, it is backwards compatible with non-FEC capable
+         hosts, so that receivers which do not wish to implement
+         FEC can just ignore the extensions.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-avt-reedsolomon-00"/>
 </reference>

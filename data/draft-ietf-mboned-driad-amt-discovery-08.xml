@@ -1,13 +1,21 @@
 <reference anchor="I-D.ietf-mboned-driad-amt-discovery" target="https://datatracker.ietf.org/doc/html/draft-ietf-mboned-driad-amt-discovery-08">
   <front>
     <title>DNS Reverse IP AMT Discovery</title>
-    <author fullname="Jake Holland" initials="J." surname="Holland">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-mboned-driad-amt-discovery-08"/>
+    <author initials="J." surname="Holland" fullname="Jake Holland">
       <organization>Akamai Technologies</organization>
     </author>
-    <date year="2019" month="June" day="14"/>
+    <date day="14" month="June" year="2019"></date>
     <abstract>
-      <t>This document updates RFC 7450 (Automatic Multicast Tunneling, or AMT) by extending the relay discovery process to use a new DNS resource record named AMTRELAY when discovering AMT relays for source-specific multicast channels. The reverse IP DNS zone for a multicast sender's IP address is configured to use AMTRELAY resource records to advertise a set of AMT relays that can receive and forward multicast traffic from that sender over an AMT tunnel.</t>
+      <t>   This document updates RFC 7450 (Automatic Multicast Tunneling, or
+   AMT) by extending the relay discovery process to use a new DNS
+   resource record named AMTRELAY when discovering AMT relays for
+   source-specific multicast channels.  The reverse IP DNS zone for a
+   multicast sender's IP address is configured to use AMTRELAY resource
+   records to advertise a set of AMT relays that can receive and forward
+   multicast traffic from that sender over an AMT tunnel.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-mboned-driad-amt-discovery-08"/>
 </reference>

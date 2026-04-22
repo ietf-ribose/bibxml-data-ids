@@ -1,28 +1,29 @@
 <reference anchor="I-D.ietf-pwe3-fat-pw" target="https://datatracker.ietf.org/doc/html/draft-ietf-pwe3-fat-pw-07">
   <front>
     <title>Flow-Aware Transport of Pseudowires over an MPLS Packet Switched Network</title>
-    <author fullname="Vach Kompella" initials="V." surname="Kompella">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pwe3-fat-pw-07"/>
+    <author initials="V." surname="Kompella" fullname="Vach Kompella">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <author fullname="Ulrich Drafz" initials="U." surname="Drafz">
+    <author initials="U." surname="Drafz" fullname="Ulrich Drafz">
       <organization>Deutsche Telekom</organization>
     </author>
-    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils">
+    <author initials="C." surname="Filsfils" fullname="Clarence Filsfils">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Shane Amante" initials="S." surname="Amante">
-      <organization/>
-    </author>
-    <author fullname="Stewart Bryant" initials="S." surname="Bryant">
+    <author initials="S." surname="Amante" fullname="Shane Amante"/>
+    <author initials="S." surname="Bryant" fullname="Stewart Bryant">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Joe Regan" initials="J." surname="Regan">
+    <author initials="J." surname="Regan" fullname="Joe Regan">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <date year="2011" month="July" day="6"/>
+    <date day="06" month="July" year="2011"></date>
     <abstract>
-      <t>Where the payload of a pseudowire comprises a number of distinct flows, it can be desirable to carry those flows over the Equal Cost Multiple Paths (ECMPs) that exist in the packet switched network. Most forwarding engines are able to generate a hash of the MPLS label stack and use this mechanism to balance MPLS flows over ECMPs. This document describes a method of identifying the flows, or flow groups, within pseudowires such that Label Switching Routers can balance flows at a finer granularity than individual pseudowires. The mechanism uses an additional label in the MPLS label stack. [STANDARDS-TRACK]</t>
+      <t>Where the payload of a pseudowire comprises a number of distinct flows, it can be desirable to carry those flows over the Equal Cost Multiple Paths (ECMPs) that exist in the packet switched network. Most forwarding engines are able to generate a hash of the MPLS label stack and use this mechanism to balance MPLS flows over ECMPs.
+
+ This document describes a method of identifying the flows, or flow groups, within pseudowires such that Label Switching Routers can balance flows at a finer granularity than individual pseudowires. The mechanism uses an additional label in the MPLS label stack. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-pwe3-fat-pw-07"/>
 </reference>

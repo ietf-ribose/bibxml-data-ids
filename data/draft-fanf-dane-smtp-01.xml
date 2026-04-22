@@ -1,13 +1,16 @@
 <reference anchor="I-D.fanf-dane-smtp" target="https://datatracker.ietf.org/doc/html/draft-fanf-dane-smtp-01">
   <front>
     <title>Secure inter-domain SMTP with TLS, DNSSEC and TLSA records.</title>
-    <author fullname="Tony Finch" initials="T." surname="Finch">
-      <organization/>
-    </author>
-    <date year="2012" month="May" day="29"/>
+    <seriesInfo name="Internet-Draft" value="draft-fanf-dane-smtp-01"/>
+    <author initials="T." surname="Finch" fullname="Tony Finch"/>
+    <date day="29" month="May" year="2012"></date>
     <abstract>
-      <t>SMTP supports STARTTLS for inter-domain mail transfer, but it only provides very limited security because the server's certificate cannot be authenticated. This memo specifies how TLSA records in the DNS can be used for proper MX target server authentication.</t>
+      <t>   SMTP supports STARTTLS for inter-domain mail transfer, but it only
+   provides very limited security because the server's certificate
+   cannot be authenticated.  This memo specifies how TLSA records in the
+   DNS can be used for proper MX target server authentication.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-fanf-dane-smtp-01"/>
 </reference>

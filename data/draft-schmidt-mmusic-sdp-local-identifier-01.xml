@@ -1,19 +1,32 @@
 <reference anchor="I-D.schmidt-mmusic-sdp-local-identifier" target="https://datatracker.ietf.org/doc/html/draft-schmidt-mmusic-sdp-local-identifier-01">
   <front>
     <title>SDP Local Identifier</title>
-    <author fullname="Mischa Schmidt" initials="M." surname="Schmidt">
+    <seriesInfo name="Internet-Draft" value="draft-schmidt-mmusic-sdp-local-identifier-01"/>
+    <author initials="M." surname="Schmidt" fullname="Mischa Schmidt">
       <organization>NEC Europe Ltd.</organization>
     </author>
-    <author fullname="Hans-Joerg Kolbe" initials="H." surname="Kolbe">
+    <author initials="H." surname="Kolbe" fullname="Hans-Joerg Kolbe">
       <organization>NEC Europe Ltd.</organization>
     </author>
-    <author fullname="Martin Stiemerling" initials="M." surname="Stiemerling">
+    <author initials="M." surname="Stiemerling" fullname="Martin Stiemerling">
       <organization>NEC Europe Ltd.</organization>
     </author>
-    <date year="2011" month="June" day="1"/>
+    <date day="01" month="June" year="2011"></date>
     <abstract>
-      <t>Dynamic Policy Controllers like resource and admission control systems need to be able to locate media receivers in each segment of the network to determine the path of the media flows prior to allowing or rejecting the session setup. This is fine as long as this is handled within an operator's network but limited when extending this to home network. Current definitions of SDP are not clear about conveying a local identifier (e.g., a private IP address) of the client that is destined to receive media streams after successful SDP negotiation. In this draft we outline the need for carrying such information over SDP and discuss a set of possible solutions in a scenario with a home network and a operator network domain.</t>
+      <t>   Dynamic Policy Controllers like resource and admission control
+   systems need to be able to locate media receivers in each segment of
+   the network to determine the path of the media flows prior to
+   allowing or rejecting the session setup.  This is fine as long as
+   this is handled within an operator's network but limited when
+   extending this to home network.  Current definitions of SDP are not
+   clear about conveying a local identifier (e.g., a private IP address)
+   of the client that is destined to receive media streams after
+   successful SDP negotiation.  In this draft we outline the need for
+   carrying such information over SDP and discuss a set of possible
+   solutions in a scenario with a home network and a operator network
+   domain.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-schmidt-mmusic-sdp-local-identifier-01"/>
 </reference>

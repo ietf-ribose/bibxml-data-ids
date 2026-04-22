@@ -1,22 +1,19 @@
 <reference anchor="I-D.ietf-cat-kerberos-err-msg" target="https://datatracker.ietf.org/doc/html/draft-ietf-cat-kerberos-err-msg-00">
   <front>
     <title>Integrity Protection for the Kerberos Error Message</title>
-    <author fullname="Gene Tsudik" initials="G." surname="Tsudik">
-      <organization/>
-    </author>
-    <author fullname="Brian Tung" initials="B." surname="Tung">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-cat-kerberos-err-msg-00"/>
+    <author initials="G." surname="Tsudik" fullname="Gene Tsudik"/>
+    <author initials="B." surname="Tung" fullname="Brian Tung">
       <organization>Gene Tsudik</organization>
     </author>
-    <author fullname="Matt Hur" initials="M." surname="Hur">
-      <organization/>
-    </author>
-    <author fullname="Ari Medvinsky" initials="A." surname="Medvinsky">
+    <author initials="M." surname="Hur" fullname="Matt Hur"/>
+    <author initials="A." surname="Medvinsky" fullname="Ari Medvinsky">
       <organization>Matt Hur</organization>
     </author>
-    <date year="1997" month="March" day="26"/>
+    <date day="26" month="March" year="1997"></date>
     <abstract>
-      <t>The Kerberos error message, as defined in RFC 1510, is transmitted to the client without any integrity assurance. Therefore, the client has no means to distinguish between a valid error message sent from the KDC and one sent by an attacker. This draft describes a method for assuring the integrity of Kerberos error messages, and proposes a consistent format for the e-data field in the KRB_ERROR message. This e-data format enables the storage of cryptographic checksums by providing an extensible mechanism for specifying e-data types.</t>
+      <t>The Kerberos error message, as defined in RFC 1510, is transmitted to the client without any integrity assurance.  Therefore, the client has no means to distinguish between a valid error message sent from the KDC and one sent by an attacker.  This draft describes a method for assuring the integrity of Kerberos error messages, and proposes a consistent format for the e-data field in the KRB_ERROR message.  This e-data format enables the storage of cryptographic checksums by providing an extensible mechanism for specifying e-data types.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-cat-kerberos-err-msg-00"/>
 </reference>

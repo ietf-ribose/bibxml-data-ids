@@ -1,22 +1,42 @@
 <reference anchor="I-D.versteeg-avt-rapid-synchronization-for-rtp" target="https://datatracker.ietf.org/doc/html/draft-versteeg-avt-rapid-synchronization-for-rtp-03">
   <front>
     <title>Unicast-Based Rapid Acquisition of Multicast RTP Sessions</title>
-    <author fullname="Bill Ver Steeg" initials="B. V." surname="Steeg">
+    <seriesInfo name="Internet-Draft" value="draft-versteeg-avt-rapid-synchronization-for-rtp-03"/>
+    <author initials="B. V." surname="Steeg" fullname="Bill Ver Steeg">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Ali C. Begen" initials="A. C." surname="Begen">
+    <author initials="A. C." surname="Begen" fullname="Ali C. Begen">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Tom Van Caenegem" initials="T." surname="Van Caenegem">
-      <organization/>
-    </author>
-    <author fullname="Zeev Vax" initials="Z." surname="Vax">
+    <author initials="T." surname="Van Caenegem" fullname="Tom Van Caenegem"/>
+    <author initials="Z." surname="Vax" fullname="Zeev Vax">
       <organization>Microsoft Corporation</organization>
     </author>
-    <date year="2009" month="April" day="16"/>
+    <date day="16" month="April" year="2009"></date>
     <abstract>
-      <t>When an RTP receiver joins a primary multicast session, it may need to acquire and parse certain Reference Information before it can process any data sent in the multicast session. Depending on the join time, length of the Reference Information repetition interval, size of the Reference Information as well as the application and transport properties, the time lag before an RTP receiver can usefully consume the multicast data, which we refer to as the Acquisition Delay, varies and may be large. This is an undesirable phenomenon for receivers that frequently switch among different multicast sessions, such as video broadcasts. In this document, we describe a method using the existing RTP and RTCP protocol machinery that reduces the acquisition delay. In this method, an auxiliary unicast RTP session carrying the Reference Information to the receiver precedes/accompanies the primary multicast stream. This unicast RTP flow may be transmitted at a faster than natural rate to further accelerate the acquisition. The motivating use case for this capability is multicast applications that carry real-time compressed audio and video. However, the proposed method can also be used in other types of multicast applications where the acquisition delay is long enough to be a problem.</t>
+      <t>When an RTP receiver joins a primary multicast session, it may need
+to acquire and parse certain Reference Information before it can
+process any data sent in the multicast session.  Depending on the
+join time, length of the Reference Information repetition interval,
+size of the Reference Information as well as the application and
+transport properties, the time lag before an RTP receiver can
+usefully consume the multicast data, which we refer to as the
+Acquisition Delay, varies and may be large.  This is an undesirable
+phenomenon for receivers that frequently switch among different
+multicast sessions, such as video broadcasts.
+
+In this document, we describe a method using the existing RTP and
+RTCP protocol machinery that reduces the acquisition delay.  In this
+method, an auxiliary unicast RTP session carrying the Reference
+Information to the receiver precedes/accompanies the primary
+multicast stream.  This unicast RTP flow may be transmitted at a
+faster than natural rate to further accelerate the acquisition.  The
+motivating use case for this capability is multicast applications
+that carry real-time compressed audio and video.  However, the
+proposed method can also be used in other types of multicast
+applications where the acquisition delay is long enough to be a
+problem.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-versteeg-avt-rapid-synchronization-for-rtp-03"/>
 </reference>

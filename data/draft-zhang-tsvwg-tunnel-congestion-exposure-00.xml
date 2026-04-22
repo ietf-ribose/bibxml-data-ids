@@ -1,19 +1,35 @@
 <reference anchor="I-D.zhang-tsvwg-tunnel-congestion-exposure" target="https://datatracker.ietf.org/doc/html/draft-zhang-tsvwg-tunnel-congestion-exposure-00">
   <front>
     <title>Tunnel Congestion Exposure</title>
-    <author fullname="Lei Zhu" initials="L." surname="Zhu">
+    <seriesInfo name="Internet-Draft" value="draft-zhang-tsvwg-tunnel-congestion-exposure-00"/>
+    <author initials="L." surname="Zhu" fullname="Lei Zhu">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Huabing Zhang" initials="H." surname="Zhang">
+    <author initials="H." surname="Zhang" fullname="Huabing Zhang">
       <organization>BUPT</organization>
     </author>
-    <author fullname="Xiangyang Gong" initials="X." surname="Gong">
+    <author initials="X." surname="Gong" fullname="Xiangyang Gong">
       <organization>BUPT</organization>
     </author>
-    <date year="2012" month="October" day="15"/>
+    <date day="15" month="October" year="2012"></date>
     <abstract>
-      <t>At present, tunneling technology has been widely applied in VPN, mobile communication network, IPv6 over IPv4, Mobile IP, multi-point delivery, and other fields. In the E2E link, there may already have been an effective congestion control mechanism, but we SHOULD also do traffic management in the tunnel to improve the performance of the entire network. Because of the particularity of the scenario of the tunnel, the existing E2E traffic management mechanism cannot be directly be deployed (e.g. VPN, IPv6 over IPv4 etc). In these cases, this document focuses on how to expose the congestion while the feedback mechanism is left for later study. This document describes the problem of identifying congestion in a tunnel segment of an end-to-end flow. A basic tunnel congestion exposure model is then described, followed by three example scenarios which use the basic model to derive tunnel congestion. Finally, a general solution that can be applied to IP-in-IP tunnels is described.</t>
+      <t>   At present, tunneling technology has been widely applied in VPN,
+   mobile communication network, IPv6 over IPv4, Mobile IP, multi-point
+   delivery, and other fields.  In the E2E link, there may already have
+   been an effective congestion control mechanism, but we SHOULD also do
+   traffic management in the tunnel to improve the performance of the
+   entire network.  Because of the particularity of the scenario of the
+   tunnel, the existing E2E traffic management mechanism cannot be
+   directly be deployed (e.g.  VPN, IPv6 over IPv4 etc).  In these
+   cases, this document focuses on how to expose the congestion while
+   the feedback mechanism is left for later study.  This document
+   describes the problem of identifying congestion in a tunnel segment
+   of an end-to-end flow.  A basic tunnel congestion exposure model is
+   then described, followed by three example scenarios which use the
+   basic model to derive tunnel congestion.  Finally, a general solution
+   that can be applied to IP-in-IP tunnels is described.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-zhang-tsvwg-tunnel-congestion-exposure-00"/>
 </reference>

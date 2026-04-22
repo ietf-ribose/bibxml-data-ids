@@ -1,13 +1,29 @@
 <reference anchor="I-D.ietf-nfsv4-pnfs" target="https://datatracker.ietf.org/doc/html/draft-ietf-nfsv4-pnfs-00">
   <front>
     <title>NFSv4 pNFS Extensions</title>
-    <author fullname="Garth Goodson" initials="G." surname="Goodson">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-nfsv4-pnfs-00"/>
+    <author initials="G." surname="Goodson" fullname="Garth Goodson">
       <organization>NetApp</organization>
     </author>
-    <date year="2005" month="October" day="9"/>
+    <date day="09" month="October" year="2005"></date>
     <abstract>
-      <t>This Internet-Draft provides a description of the pNFS extension for NFSv4. The key feature of the protocol extension is the ability for clients to perform read and write operations that go directly from the client to individual storage system elements without funneling all such accesses through a single file server. Of course, the file server must provide sufficient coordination of the client I/O so that the file system retains its integrity. The extension adds operations that query and manage layout information that allows parallel I/O between clients and storage system elements. The layouts are managed in a similar way to delegations in that they are associated with leases and can be recalled by the server, but layout information is independent of delegations.</t>
+      <t>   This Internet-Draft provides a description of the pNFS extension for
+   NFSv4.
+
+   The key feature of the protocol extension is the ability for clients
+   to perform read and write operations that go directly from the client
+   to individual storage system elements without funneling all such
+   accesses through a single file server.  Of course, the file server
+   must provide sufficient coordination of the client I/O so that the
+   file system retains its integrity.
+
+   The extension adds operations that query and manage layout
+   information that allows parallel I/O between clients and storage
+   system elements.  The layouts are managed in a similar way to
+   delegations in that they are associated with leases and can be
+   recalled by the server, but layout information is independent of
+   delegations.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-nfsv4-pnfs-00"/>
 </reference>

@@ -1,0 +1,45 @@
+<reference anchor="I-D.calabria-bmwg-ai-fabric-training-bench" target="https://datatracker.ietf.org/doc/html/draft-calabria-bmwg-ai-fabric-training-bench-01">
+  <front>
+    <title>Benchmarking Methodology for AI Training Network Fabrics</title>
+    <seriesInfo name="Internet-Draft" value="draft-calabria-bmwg-ai-fabric-training-bench-01"/>
+    <author initials="F." surname="Calabria" fullname="Fernando Calabria">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="C." surname="Pignataro" fullname="Carlos Pignataro">
+      <organization>Blue Fern Consulting</organization>
+    </author>
+    <author initials="Q." surname="Wu" fullname="Qin Wu">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="G." surname="Fioccola" fullname="Giuseppe Fioccola">
+      <organization>Huawei</organization>
+    </author>
+    <date day="21" month="April" year="2026"></date>
+    <abstract>
+      <t>   This document defines benchmarking terminology, methodologies, and
+   Key Performance Indicators (KPIs) for evaluating Ethernet-based AI
+   training network fabrics.
+
+   As large-scale distributed AI/ML training clusters grow to tens of
+   thousands of accelerators (GPUs/XPUs), the backend network fabric
+   becomes the critical bottleneck determining job completion time
+   (JCT), training throughput, and accelerator utilization.
+
+   This document establishes vendor-independent, reproducible test
+   procedures for benchmarking fabric-level performance under realistic
+   AI training workloads, covering RDMA/RoCEv2 transport, the Ultra
+   Ethernet Transport (UET) protocol defined by the UEC Specification
+   1.0 [UEC-1.0], congestion management (PFC, ECN, DCQCN, CBFC), load
+   balancing strategies (ECMP, DLB, packet spraying), collective
+   communication patterns (AllReduce, AlltoAll, AllGather), and scale/
+   soak testing.
+
+   The methodology enables direct, reproducible comparison across
+   different switch ASICs, vendor implementations, NIC transport stacks
+   (RoCEv2 vs. UET), and fabric architectures (2-tier Clos, 3-tier Clos,
+   rail-optimized).
+
+	 </t>
+    </abstract>
+  </front>
+</reference>

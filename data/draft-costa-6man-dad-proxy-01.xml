@@ -1,22 +1,29 @@
 <reference anchor="I-D.costa-6man-dad-proxy" target="https://datatracker.ietf.org/doc/html/draft-costa-6man-dad-proxy-01">
   <front>
     <title>Duplicate Address Detection Proxy</title>
-    <author fullname="Fabio Costa" initials="F." surname="Costa">
+    <seriesInfo name="Internet-Draft" value="draft-costa-6man-dad-proxy-01"/>
+    <author initials="F." surname="Costa" fullname="Fabio Costa">
       <organization>France Telecom Orange</organization>
     </author>
-    <author fullname="Jean-Michel Combes" initials="J." surname="Combes">
+    <author initials="J." surname="Combes" fullname="Jean-Michel Combes">
       <organization>France Telecom Orange</organization>
     </author>
-    <author fullname="Xavier Pougnard" initials="X." surname="Pougnard">
+    <author initials="X." surname="Pougnard" fullname="Xavier Pougnard">
       <organization>France Telecom Orange</organization>
     </author>
-    <author fullname="Li Hongyu" initials="L." surname="Hongyu">
+    <author initials="L." surname="Hongyu" fullname="Li Hongyu">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2010" month="September" day="20"/>
+    <date day="20" month="September" year="2010"></date>
     <abstract>
-      <t>The document describes a mechanism allowing the use of Duplicate Address Detection (DAD) by IPv6 nodes in a point-to-multipoint architecture with "split-horizon" forwarding scheme. Based on the DAD signalling, the first hop router stores in a Binding Table all known IPv6 addresses used on a point-to-multipoint domain (e.g. VLAN). When a node performs DAD for an address already used by another node, the first hop router replies instead of this last one.</t>
+      <t>The document describes a mechanism allowing the use of Duplicate
+Address Detection (DAD) by IPv6 nodes in a point-to-multipoint
+architecture with "split-horizon" forwarding scheme.  Based on the
+DAD signalling, the first hop router stores in a Binding Table all
+known IPv6 addresses used on a point-to-multipoint domain (e.g.
+VLAN).  When a node performs DAD for an address already used by
+another node, the first hop router replies instead of this last one.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-costa-6man-dad-proxy-01"/>
 </reference>

@@ -1,22 +1,37 @@
 <reference anchor="I-D.ietf-opsawg-ucl-acl" target="https://datatracker.ietf.org/doc/html/draft-ietf-opsawg-ucl-acl-14">
   <front>
     <title>A YANG Data Model and RADIUS Extension for Policy-Based Network Access Control</title>
-    <author fullname="Qiufang Ma" initials="Q." surname="Ma">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-opsawg-ucl-acl-14"/>
+    <author initials="Q." surname="Ma" fullname="Qiufang Ma">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Qin Wu" initials="Q." surname="Wu">
+    <author initials="Q." surname="Wu" fullname="Qin Wu">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Mohamed Boucadair" initials="M." surname="Boucadair">
+    <author initials="M." surname="Boucadair" fullname="Mohamed Boucadair">
       <organization>Orange</organization>
     </author>
-    <author fullname="Daniel King" initials="D." surname="King">
+    <author initials="D." surname="King" fullname="Daniel King">
       <organization>Lancaster University</organization>
     </author>
-    <date year="2026" month="April" day="1"/>
+    <date day="01" month="April" year="2026"></date>
     <abstract>
-      <t>This document defines a YANG data model for policy-based network access control, which provides enforcement of network access control policies based on group identity. This YANG data model extends Access Control Lists (ACLs) with date and time parameters to support schedule-aware policy enforcement. Specifically in scenarios where network access is triggered by user authentication, this document defines a mechanism to ease the maintenance of the mapping between a user group identifier and a set of packet header fields to enforce policy-based network access control. Moreover, the document defines a Remote Authentication Dial-in User Service (RADIUS) attribute that is used to communicate the user group identifier as part of identification and authorization information.</t>
+      <t>   This document defines a YANG data model for policy-based network
+   access control, which provides enforcement of network access control
+   policies based on group identity.  This YANG data model extends
+   Access Control Lists (ACLs) with date and time parameters to support
+   schedule-aware policy enforcement.
+
+   Specifically in scenarios where network access is triggered by user
+   authentication, this document defines a mechanism to ease the
+   maintenance of the mapping between a user group identifier and a set
+   of packet header fields to enforce policy-based network access
+   control.  Moreover, the document defines a Remote Authentication
+   Dial-in User Service (RADIUS) attribute that is used to communicate
+   the user group identifier as part of identification and authorization
+   information.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-opsawg-ucl-acl-14"/>
 </reference>

@@ -1,16 +1,24 @@
 <reference anchor="I-D.ietf-multi6-l3shim" target="https://datatracker.ietf.org/doc/html/draft-ietf-multi6-l3shim-00">
   <front>
     <title>Multihoming L3 Shim Approach</title>
-    <author fullname="Erik Nordmark" initials="E." surname="Nordmark">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-multi6-l3shim-00"/>
+    <author initials="E." surname="Nordmark" fullname="Erik Nordmark">
       <organization>Sun Microsystems</organization>
     </author>
-    <author fullname="Marcelo Bagnulo" initials="M." surname="Bagnulo">
+    <author initials="M." surname="Bagnulo" fullname="Marcelo Bagnulo">
       <organization>UC3M</organization>
     </author>
-    <date year="2005" month="January" day="13"/>
+    <date day="13" month="January" year="2005"></date>
     <abstract>
-      <t>This document specifies a particular approach to IPv6 multihoming. The approach is based on using a multi6 shim placed between the IP endpoint sublayer and the IP routing sublayer, and, at least initially, using routable IP locators as the identifiers visible above the shim layer. The approach does not introduce a "stack name" type of identifier, instead it ensures that all upper layer protocols can operate unmodified in a multihomed setting while still seeing a stable IPv6 address.</t>
+      <t>This document specifies a particular approach to IPv6 multihoming.
+   The approach is based on using a multi6 shim placed between the IP
+   endpoint sublayer and the IP routing sublayer, and, at least
+   initially, using routable IP locators as the identifiers visible
+   above the shim layer.  The approach does not introduce a "stack name"
+   type of identifier, instead it ensures that all upper layer protocols
+   can operate unmodified in a multihomed setting while still seeing a
+   stable IPv6 address.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-multi6-l3shim-00"/>
 </reference>

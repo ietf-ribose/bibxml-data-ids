@@ -1,34 +1,51 @@
 <reference anchor="I-D.miao-ccwg-hpcc-info" target="https://datatracker.ietf.org/doc/html/draft-miao-ccwg-hpcc-info-03">
   <front>
     <title>Inband Telemetry for HPCC++</title>
-    <author fullname="Rui Miao" initials="R." surname="Miao">
+    <seriesInfo name="Internet-Draft" value="draft-miao-ccwg-hpcc-info-03"/>
+    <author initials="R." surname="Miao" fullname="Rui Miao">
       <organization>Meta</organization>
     </author>
-    <author fullname="Surendra Anubolu" initials="S." surname="Anubolu">
+    <author initials="S." surname="Anubolu" fullname="Surendra Anubolu">
       <organization>Broadcom, Inc.</organization>
     </author>
-    <author fullname="Rong Pan" initials="R." surname="Pan">
+    <author initials="R." surname="Pan" fullname="Rong Pan">
       <organization>AMD</organization>
     </author>
-    <author fullname="Jeongkeun Lee" initials="J." surname="Lee">
+    <author initials="J." surname="Lee" fullname="Jeongkeun Lee">
       <organization>Google</organization>
     </author>
-    <author fullname="Barak Gafni" initials="B." surname="Gafni">
+    <author initials="B." surname="Gafni" fullname="Barak Gafni">
       <organization>NVIDIA</organization>
     </author>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+    <author initials="J." surname="Tantsura" fullname="Jeff Tantsura">
       <organization>NVIDIA</organization>
     </author>
-    <author fullname="Allister Alemania" initials="A." surname="Alemania">
+    <author initials="A." surname="Alemania" fullname="Allister Alemania">
       <organization>Intel</organization>
     </author>
-    <author fullname="Yuval Shpigelman" initials="Y." surname="Shpigelman">
+    <author initials="Y." surname="Shpigelman" fullname="Yuval Shpigelman">
       <organization>NVIDIA</organization>
     </author>
-    <date year="2024" month="July" day="5"/>
+    <date day="05" month="July" year="2024"></date>
     <abstract>
-      <t>Congestion control (CC) is the key to achieving ultra-low latency, high bandwidth and network stability in high-speed networks. However, the existing high-speed CC schemes have inherent limitations for reaching these goals. In this document, we describe HPCC++ (High Precision Congestion Control), a new high-speed CC mechanism which achieves the three goals simultaneously. HPCC++ leverages inband telemetry to obtain precise link load information and controls traffic precisely. By addressing challenges such as delayed signaling during congestion and overreaction to the congestion signaling using inband and granular telemetry, HPCC++ can quickly converge to utilize all the available bandwidth while avoiding congestion, and can maintain near-zero in- network queues for ultra-low latency. HPCC++ is also fair and easy to deploy in hardware, implementable with commodity NICs and switches.</t>
+      <t>   Congestion control (CC) is the key to achieving ultra-low latency,
+   high bandwidth and network stability in high-speed networks.
+   However, the existing high-speed CC schemes have inherent limitations
+   for reaching these goals.
+
+   In this document, we describe HPCC++ (High Precision Congestion
+   Control), a new high-speed CC mechanism which achieves the three
+   goals simultaneously.  HPCC++ leverages inband telemetry to obtain
+   precise link load information and controls traffic precisely.  By
+   addressing challenges such as delayed signaling during congestion and
+   overreaction to the congestion signaling using inband and granular
+   telemetry, HPCC++ can quickly converge to utilize all the available
+   bandwidth while avoiding congestion, and can maintain near-zero in-
+   network queues for ultra-low latency.  HPCC++ is also fair and easy
+   to deploy in hardware, implementable with commodity NICs and
+   switches.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-miao-ccwg-hpcc-info-03"/>
 </reference>

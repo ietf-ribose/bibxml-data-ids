@@ -1,16 +1,28 @@
 <reference anchor="I-D.vasseur-mpls-nodeid-subobject" target="https://datatracker.ietf.org/doc/html/draft-vasseur-mpls-nodeid-subobject-00">
   <front>
     <title>Definition of an RRO node-id subobject</title>
-    <author fullname="Zafar Ali" initials="Z." surname="Ali">
+    <seriesInfo name="Internet-Draft" value="draft-vasseur-mpls-nodeid-subobject-00"/>
+    <author initials="Z." surname="Ali" fullname="Zafar Ali">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Siva Sivabalan" initials="S." surname="Sivabalan">
+    <author initials="S." surname="Sivabalan" fullname="Siva Sivabalan">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2003" month="February" day="10"/>
+    <date day="10" month="February" year="2003"></date>
     <abstract>
-      <t>In the context of MPLS TE Fast Reroute ([FAST-REROUTE]), the Merge Point (MP) address is required at the Point of Local Repair (PLR) in order to select a backup tunnel intersecting a protected Traffic Engineering LSP on a downstream LSR. However, existing protocol mechanisms are not sufficient to find MP address multi-areas or multi- domain routing network. Hence, the current MPLS Fast Reroute mechanism cannot be used to protect inter-area or inter-AS TE LSPs from a failure of an ABR (Area Border Router) or ASBR (Autonomous System Border Router) respectively. This document specifies the use of existing RRO IPv4 and IPv6 subobjects (with a new flag defined) to define the node- id subobject in order to solve this issue.</t>
+      <t>In the context of MPLS TE Fast Reroute ([FAST-REROUTE]), the Merge 
+Point (MP) address is required at the Point of Local Repair (PLR) in 
+order to select a backup tunnel intersecting a protected Traffic 
+Engineering LSP on a downstream LSR.  However, existing protocol 
+mechanisms are not sufficient to find MP address multi-areas or multi-
+domain routing network. Hence, the current MPLS Fast Reroute mechanism 
+cannot be used to protect inter-area or inter-AS TE LSPs from a failure 
+of an ABR (Area Border Router) or ASBR (Autonomous System Border 
+Router) respectively. This document specifies the use of existing RRO 
+IPv4 and IPv6 subobjects (with a new flag defined) to define the node-
+id subobject in order to solve this issue. 
+                
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-vasseur-mpls-nodeid-subobject-00"/>
 </reference>

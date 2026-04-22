@@ -1,22 +1,30 @@
 <reference anchor="I-D.schwartz-sip-e164-ownership" target="https://datatracker.ietf.org/doc/html/draft-schwartz-sip-e164-ownership-01">
   <front>
     <title>E.164 Ownership Problem Statement</title>
-    <author fullname="David Schwartz" initials="D." surname="Schwartz">
+    <seriesInfo name="Internet-Draft" value="draft-schwartz-sip-e164-ownership-01"/>
+    <author initials="D." surname="Schwartz" fullname="David Schwartz">
       <organization>XConnect</organization>
     </author>
-    <author fullname="Hadriel Kaplan" initials="H." surname="Kaplan">
+    <author initials="H." surname="Kaplan" fullname="Hadriel Kaplan">
       <organization>Acme Packet</organization>
     </author>
-    <author fullname="Klaus Darilion" initials="K." surname="Darilion">
+    <author initials="K." surname="Darilion" fullname="Klaus Darilion">
       <organization>enum.at</organization>
     </author>
-    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+    <author initials="H." surname="Tschofenig" fullname="Hannes Tschofenig">
       <organization>Nokia Siemens Networks</organization>
     </author>
-    <date year="2008" month="February" day="25"/>
+    <date day="25" month="February" year="2008"></date>
     <abstract>
-      <t>When a call travels end-to-end relayed from the PSTN to SIP then problems occur with E.164 number ownership. Additionally, there are security challenges when the PSTN-VoIP gateway has to authenticate and authorize the calling party. Without addressing these two aspects the overall security story is weak or non-existent. This document aims to investigate these two aspect; it does, however, not investigate current E.164 number handling with RFC 4474 ("SIP Identity"). Such an analysis is provided by other documents already.</t>
+      <t>When a call travels end-to-end relayed from the PSTN to SIP then
+problems occur with E.164 number ownership.  Additionally, there are
+security challenges when the PSTN-VoIP gateway has to authenticate
+and authorize the calling party.  Without addressing these two
+aspects the overall security story is weak or non-existent.  This
+document aims to investigate these two aspect; it does, however, not
+investigate current E.164 number handling with RFC 4474 ("SIP
+Identity").  Such an analysis is provided by other documents already.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-schwartz-sip-e164-ownership-01"/>
 </reference>

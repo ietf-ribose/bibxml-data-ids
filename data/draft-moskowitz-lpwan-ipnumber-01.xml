@@ -1,19 +1,29 @@
 <reference anchor="I-D.moskowitz-lpwan-ipnumber" target="https://datatracker.ietf.org/doc/html/draft-moskowitz-lpwan-ipnumber-01">
   <front>
     <title>IP Number for SCHC</title>
-    <author fullname="Robert Moskowitz" initials="R." surname="Moskowitz">
+    <seriesInfo name="Internet-Draft" value="draft-moskowitz-lpwan-ipnumber-01"/>
+    <author initials="R." surname="Moskowitz" fullname="Robert Moskowitz">
       <organization>HTT Consulting</organization>
     </author>
-    <author fullname="Stuart W. Card" initials="S. W." surname="Card">
+    <author initials="S. W." surname="Card" fullname="Stuart W. Card">
       <organization>AX Enterprize, LLC</organization>
     </author>
-    <author fullname="Adam Wiethuechter" initials="A." surname="Wiethuechter">
+    <author initials="A." surname="Wiethuechter" fullname="Adam Wiethuechter">
       <organization>AX Enterprize, LLC</organization>
     </author>
-    <date year="2022" month="August" day="5"/>
+    <date day="05" month="August" year="2022"></date>
     <abstract>
-      <t>This document requests an Internet Protocol Number assignment for SCHC so that SCHC can be used for IP independent SCHC of other transports such as UDP and ESP. With SCHC at, effectively, the Transport Layer, this document describes how to provide Forward Error Correction (FEC), enabled via SCHC, at the IP datagram level. This is the most efficient bandwidth consumption approach to FEC. As it is done outside any security envelope, it does come with the risk of DoS attacks against the FEC.</t>
+      <t>   This document requests an Internet Protocol Number assignment for
+   SCHC so that SCHC can be used for IP independent SCHC of other
+   transports such as UDP and ESP.
+
+   With SCHC at, effectively, the Transport Layer, this document
+   describes how to provide Forward Error Correction (FEC), enabled via
+   SCHC, at the IP datagram level.  This is the most efficient bandwidth
+   consumption approach to FEC.  As it is done outside any security
+   envelope, it does come with the risk of DoS attacks against the FEC.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-moskowitz-lpwan-ipnumber-01"/>
 </reference>

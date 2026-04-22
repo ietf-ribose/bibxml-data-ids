@@ -1,19 +1,29 @@
 <reference anchor="I-D.ietf-bess-mvpn-fast-failover" target="https://datatracker.ietf.org/doc/html/draft-ietf-bess-mvpn-fast-failover-13">
   <front>
     <title>Multicast VPN Fast Upstream Failover</title>
-    <author fullname="Thomas Morin" initials="T." surname="Morin">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bess-mvpn-fast-failover-13"/>
+    <author initials="T." surname="Morin" fullname="Thomas Morin">
       <organization>Orange</organization>
     </author>
-    <author fullname="Robert Kebler" initials="R." surname="Kebler">
+    <author initials="R." surname="Kebler" fullname="Robert Kebler">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Greg Mirsky" initials="G." surname="Mirsky">
+    <author initials="G." surname="Mirsky" fullname="Greg Mirsky">
       <organization>ZTE Corp.</organization>
     </author>
-    <date year="2020" month="November" day="15"/>
+    <date day="15" month="November" year="2020"></date>
     <abstract>
-      <t>This document defines multicast VPN extensions and procedures that allow fast failover for upstream failures by allowing downstream PEs to consider the status of Provider-Tunnels (P-tunnels) when selecting the upstream PE for a VPN multicast flow. The fast failover is enabled by using RFC 8562 BFD for Multipoint Networks and the new BGP Attribute - BFD Discriminator. Also, the document introduces a new BGP Community, Standby PE, extending BGP Multicast VPN routing so that a C-multicast route can be advertised toward a Standby Upstream PE.</t>
+      <t>   This document defines multicast VPN extensions and procedures that
+   allow fast failover for upstream failures by allowing downstream PEs
+   to consider the status of Provider-Tunnels (P-tunnels) when selecting
+   the upstream PE for a VPN multicast flow.  The fast failover is
+   enabled by using RFC 8562 BFD for Multipoint Networks and the new BGP
+   Attribute - BFD Discriminator.  Also, the document introduces a new
+   BGP Community, Standby PE, extending BGP Multicast VPN routing so
+   that a C-multicast route can be advertised toward a Standby Upstream
+   PE.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-bess-mvpn-fast-failover-13"/>
 </reference>

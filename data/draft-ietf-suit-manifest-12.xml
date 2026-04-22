@@ -1,22 +1,31 @@
 <reference anchor="I-D.ietf-suit-manifest" target="https://datatracker.ietf.org/doc/html/draft-ietf-suit-manifest-12">
   <front>
     <title>A Concise Binary Object Representation (CBOR)-based Serialization Format for the Software Updates for Internet of Things (SUIT) Manifest</title>
-    <author fullname="Brendan Moran" initials="B." surname="Moran">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-suit-manifest-12"/>
+    <author initials="B." surname="Moran" fullname="Brendan Moran">
       <organization>Arm Limited</organization>
     </author>
-    <author fullname="Hannes Tschofenig" initials="H." surname="Tschofenig">
+    <author initials="H." surname="Tschofenig" fullname="Hannes Tschofenig">
       <organization>Arm Limited</organization>
     </author>
-    <author fullname="Henk Birkholz" initials="H." surname="Birkholz">
+    <author initials="H." surname="Birkholz" fullname="Henk Birkholz">
       <organization>Fraunhofer SIT</organization>
     </author>
-    <author fullname="Koen Zandberg" initials="K." surname="Zandberg">
+    <author initials="K." surname="Zandberg" fullname="Koen Zandberg">
       <organization>Inria</organization>
     </author>
-    <date year="2021" month="February" day="22"/>
+    <date day="22" month="February" year="2021"></date>
     <abstract>
-      <t>This specification describes the format of a manifest. A manifest is a bundle of metadata about code/data obtained by a recipient (chiefly the firmware for an IoT device), where to find the that code/data, the devices to which it applies, and cryptographic information protecting the manifest. Software updates and Trusted Invocation both tend to use sequences of common operations, so the manifest encodes those sequences of operations, rather than declaring the metadata.</t>
+      <t>   This specification describes the format of a manifest.  A manifest is
+   a bundle of metadata about code/data obtained by a recipient (chiefly
+   the firmware for an IoT device), where to find the that code/data,
+   the devices to which it applies, and cryptographic information
+   protecting the manifest.  Software updates and Trusted Invocation
+   both tend to use sequences of common operations, so the manifest
+   encodes those sequences of operations, rather than declaring the
+   metadata.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-suit-manifest-12"/>
 </reference>

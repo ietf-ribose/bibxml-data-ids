@@ -1,16 +1,27 @@
 <reference anchor="I-D.gnawali-roll-minrank-hysteresis-of" target="https://datatracker.ietf.org/doc/html/draft-gnawali-roll-minrank-hysteresis-of-02">
   <front>
     <title>The Minimum Rank Objective Function with Hysteresis</title>
-    <author fullname="Omprakash Gnawali" initials="O." surname="Gnawali">
+    <seriesInfo name="Internet-Draft" value="draft-gnawali-roll-minrank-hysteresis-of-02"/>
+    <author initials="O." surname="Gnawali" fullname="Omprakash Gnawali">
       <organization>Stanford University</organization>
     </author>
-    <author fullname="P Levis" initials="P." surname="Levis">
+    <author initials="P." surname="Levis" fullname="P Levis">
       <organization>Stanford University</organization>
     </author>
-    <date year="2010" month="September" day="21"/>
+    <date day="21" month="September" year="2010"></date>
     <abstract>
-      <t>Hysteresis delays the effect of changes in link metric on parent selection. Such delay makes the topology stable despite jitters in link metrics. The Routing Protocol for Low Power and Lossy Networks (RPL) allows the use of objective functions to construct routes that optimize or constrain a routing metric on the paths. This specification describes the Minimum Rank Objective Function with Hysteresis (MRHOF), an objective function that minimizes the node rank in terms of a given metric, while using hysteresis to prevent excessive rank churn. The use of MRHOF with RPL results in nodes selecting stable paths that minimize the given routing metric to the roots of a Directed Acyclic Graph (DAG).</t>
+      <t>Hysteresis delays the effect of changes in link metric on parent
+selection.  Such delay makes the topology stable despite jitters in
+link metrics.  The Routing Protocol for Low Power and Lossy Networks
+(RPL) allows the use of objective functions to construct routes that
+optimize or constrain a routing metric on the paths.  This
+specification describes the Minimum Rank Objective Function with
+Hysteresis (MRHOF), an objective function that minimizes the node
+rank in terms of a given metric, while using hysteresis to prevent
+excessive rank churn.  The use of MRHOF with RPL results in nodes
+selecting stable paths that minimize the given routing metric to the
+roots of a Directed Acyclic Graph (DAG).
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-gnawali-roll-minrank-hysteresis-of-02"/>
 </reference>

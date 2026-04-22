@@ -1,16 +1,25 @@
 <reference anchor="I-D.kumarvarigonda-ptp-auth-extension" target="https://datatracker.ietf.org/doc/html/draft-kumarvarigonda-ptp-auth-extension-00">
   <front>
     <title>Precision Time Protocol (PTP) Authentication Extension</title>
-    <author fullname="Srinivasa Mohan Kumar Varigonda" initials="S. M. K." surname="Varigonda">
+    <seriesInfo name="Internet-Draft" value="draft-kumarvarigonda-ptp-auth-extension-00"/>
+    <author initials="S. M. K." surname="Varigonda" fullname="Srinivasa Mohan Kumar Varigonda">
       <organization>Samsung R&amp;D Bangalore</organization>
     </author>
-    <author fullname="Rama Subba Reddy Sige" initials="R. S. R." surname="Sige">
+    <author initials="R. S. R." surname="Sige" fullname="Rama Subba Reddy Sige">
       <organization>Spirent</organization>
     </author>
-    <date year="2025" month="May" day="12"/>
+    <date day="12" month="May" year="2025"></date>
     <abstract>
-      <t>Precision Time Protocol (PTP), as defined in IEEE 1588-2019, lacks cryptographic security mechanisms, exposing deployments to message spoofing, delay attacks, and timestamp manipulation. This document defines an optional Authentication TLV (AUTH_TLV) using modern Authenticated Encryption with Associated Data (AEAD) algorithms to ensure message integrity,authenticity, and replay protection. It also provides example configurations, implementation approaches, and test strategies.</t>
+      <t>   Precision Time Protocol (PTP), as defined in IEEE 1588-2019, lacks
+   cryptographic security mechanisms, exposing deployments to message
+   spoofing, delay attacks, and timestamp manipulation.  This document
+   defines an optional Authentication TLV (AUTH_TLV) using modern
+   Authenticated Encryption with Associated Data (AEAD) algorithms to
+   ensure message integrity,authenticity, and replay protection.  It
+   also provides example configurations, implementation approaches, and
+   test strategies.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kumarvarigonda-ptp-auth-extension-00"/>
 </reference>

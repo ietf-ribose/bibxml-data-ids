@@ -1,25 +1,41 @@
 <reference anchor="I-D.ietf-bess-evpn-per-mcast-flow-df-election" target="https://datatracker.ietf.org/doc/html/draft-ietf-bess-evpn-per-mcast-flow-df-election-11">
   <front>
     <title>Per multicast flow Designated Forwarder Election for EVPN</title>
-    <author fullname="Ali Sajassi" initials="A." surname="Sajassi">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bess-evpn-per-mcast-flow-df-election-11"/>
+    <author initials="A." surname="Sajassi" fullname="Ali Sajassi">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Mankamana Prasad Mishra" initials="M. P." surname="Mishra">
+    <author initials="M. P." surname="Mishra" fullname="Mankamana Prasad Mishra">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Samir Thoria" initials="S." surname="Thoria">
+    <author initials="S." surname="Thoria" fullname="Samir Thoria">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+    <author initials="J." surname="Rabadan" fullname="Jorge Rabadan">
       <organization>Nokia</organization>
     </author>
-    <author fullname="John Drake" initials="J." surname="Drake">
+    <author initials="J." surname="Drake" fullname="John Drake">
       <organization>Independent</organization>
     </author>
-    <date year="2025" month="July" day="4"/>
+    <date day="04" month="July" year="2025"></date>
     <abstract>
-      <t>This document defines an enhancement to the Designated Forwarder (DF) election process in Ethernet Virtual Private Network (EVPN) environments. While traditional DF election operates at a per Virtual Local Area Network (VLAN) or per group of VLANs (in case of VLAN bundle or VLAN-aware bundle service) level, such granularity may not be sufficient for applications requiring optimized or isolated multicast forwarding. This specification introduces a refined DF election mechanism that extends existing hash-based methods to operate at a more granular level specifically at the tuple of Ethernet Segment Identifier (ESI), VLAN, and multicast flow. This approach enables improved traffic distribution, enhanced load balancing, and greater deployment flexibility for multicast delivery in EVPN based networks. The proposed method is designed to remain compatible with existing DF election procedures while offering targeted improvements for multicast scenarios.</t>
+      <t>   This document defines an enhancement to the Designated Forwarder (DF)
+   election process in Ethernet Virtual Private Network (EVPN)
+   environments.  While traditional DF election operates at a per
+   Virtual Local Area Network (VLAN) or per group of VLANs (in case of
+   VLAN bundle or VLAN-aware bundle service) level, such granularity may
+   not be sufficient for applications requiring optimized or isolated
+   multicast forwarding.  This specification introduces a refined DF
+   election mechanism that extends existing hash-based methods to
+   operate at a more granular level specifically at the tuple of
+   Ethernet Segment Identifier (ESI), VLAN, and multicast flow.  This
+   approach enables improved traffic distribution, enhanced load
+   balancing, and greater deployment flexibility for multicast delivery
+   in EVPN based networks.  The proposed method is designed to remain
+   compatible with existing DF election procedures while offering
+   targeted improvements for multicast scenarios.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-bess-evpn-per-mcast-flow-df-election-11"/>
 </reference>

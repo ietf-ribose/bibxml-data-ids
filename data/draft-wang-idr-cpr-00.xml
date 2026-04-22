@@ -1,22 +1,36 @@
 <reference anchor="I-D.wang-idr-cpr" target="https://datatracker.ietf.org/doc/html/draft-wang-idr-cpr-00">
   <front>
     <title>BGP Colorful Prefix Routing (CPR) for SRv6 based Services</title>
-    <author fullname="Haibo Wang" initials="H." surname="Wang">
+    <seriesInfo name="Internet-Draft" value="draft-wang-idr-cpr-00"/>
+    <author initials="H." surname="Wang" fullname="Haibo Wang">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Jie Dong" initials="J." surname="Dong">
+    <author initials="J." surname="Dong" fullname="Jie Dong">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Jingrong Xie" initials="J." surname="Xie">
+    <author initials="J." surname="Xie" fullname="Jingrong Xie">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Xinjun Chen" initials="X." surname="Chen">
+    <author initials="X." surname="Chen" fullname="Xinjun Chen">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2022" month="July" day="25"/>
+    <date day="25" month="July" year="2022"></date>
     <abstract>
-      <t>This document describes a mechanism to advertise different IPv6 prefixes which are associated with different color attributes to establish end-to-end intent aware paths. Such IPv6 prefixes are called "colorful prefixes", and this mechanism is called Colorful Prefix Routing (CPR). The colorful prefixes are the SRv6 locator prefixes associated with different intent. SRv6 services (e.g. SRv6 VPN services) could be assigned with SRv6 SIDs under the SRv6 locator prefix with the required intent, so that the SRv6 service traffic can be steered to the end-to-end intent aware paths of the corresponding SRv6 locator prefix to meet the service requirements. The existing IPv6 unicast Address Family could be used for the advertisement of colorful prefixes, thus this mechanism is easy to interoperate and allows incremental deployment in multi-domain networks.</t>
+      <t>   This document describes a mechanism to advertise different IPv6
+   prefixes which are associated with different color attributes to
+   establish end-to-end intent aware paths.  Such IPv6 prefixes are
+   called "colorful prefixes", and this mechanism is called Colorful
+   Prefix Routing (CPR).  The colorful prefixes are the SRv6 locator
+   prefixes associated with different intent.  SRv6 services (e.g.  SRv6
+   VPN services) could be assigned with SRv6 SIDs under the SRv6 locator
+   prefix with the required intent, so that the SRv6 service traffic can
+   be steered to the end-to-end intent aware paths of the corresponding
+   SRv6 locator prefix to meet the service requirements.  The existing
+   IPv6 unicast Address Family could be used for the advertisement of
+   colorful prefixes, thus this mechanism is easy to interoperate and
+   allows incremental deployment in multi-domain networks.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wang-idr-cpr-00"/>
 </reference>

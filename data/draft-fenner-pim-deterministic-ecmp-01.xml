@@ -1,19 +1,25 @@
 <reference anchor="I-D.fenner-pim-deterministic-ecmp" target="https://datatracker.ietf.org/doc/html/draft-fenner-pim-deterministic-ecmp-01">
   <front>
     <title>Deterministic Upstream Neighbor Selection for PIM Joins</title>
-    <author fullname="Bill Fenner" initials="B." surname="Fenner">
+    <seriesInfo name="Internet-Draft" value="draft-fenner-pim-deterministic-ecmp-01"/>
+    <author initials="B." surname="Fenner" fullname="Bill Fenner">
       <organization>Arista Networks, Inc.</organization>
     </author>
-    <author fullname="Santosh Kumar" initials="S." surname="Kumar">
+    <author initials="S." surname="Kumar" fullname="Santosh Kumar">
       <organization>Arista Networks, Inc.</organization>
     </author>
-    <author fullname="Stig Venaas" initials="S." surname="Venaas">
+    <author initials="S." surname="Venaas" fullname="Stig Venaas">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <date year="2025" month="April" day="15"/>
+    <date day="15" month="April" year="2025"></date>
     <abstract>
-      <t>In densely interconnected networks, a PIM node may have many choices as to what upstream neighbor to send a JOIN message to, for a given source and group. This document describes a mechanism for multiple nodes (e.g., leaf nodes in a data center) to pick the same upstream node (e.g., spine node) to avoid redundant traffic flows.</t>
+      <t>   In densely interconnected networks, a PIM node may have many choices
+   as to what upstream neighbor to send a JOIN message to, for a given
+   source and group.  This document describes a mechanism for multiple
+   nodes (e.g., leaf nodes in a data center) to pick the same upstream
+   node (e.g., spine node) to avoid redundant traffic flows.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-fenner-pim-deterministic-ecmp-01"/>
 </reference>

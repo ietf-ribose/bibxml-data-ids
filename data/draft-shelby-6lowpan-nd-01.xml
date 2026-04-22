@@ -1,25 +1,37 @@
 <reference anchor="I-D.shelby-6lowpan-nd" target="https://datatracker.ietf.org/doc/html/draft-shelby-6lowpan-nd-01">
   <front>
     <title>Neighbor Discovery for 6LoWPAN</title>
-    <author fullname="Zach Shelby" initials="Z." surname="Shelby">
+    <seriesInfo name="Internet-Draft" value="draft-shelby-6lowpan-nd-01"/>
+    <author initials="Z." surname="Shelby" fullname="Zach Shelby">
       <organization>Sensinode</organization>
     </author>
-    <author fullname="Pascal Thubert" initials="P." surname="Thubert">
+    <author initials="P." surname="Thubert" fullname="Pascal Thubert">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Jonathan Hui" initials="J." surname="Hui">
+    <author initials="J." surname="Hui" fullname="Jonathan Hui">
       <organization>Arch Rock</organization>
     </author>
-    <author fullname="Samita Chakrabarti" initials="S." surname="Chakrabarti">
+    <author initials="S." surname="Chakrabarti" fullname="Samita Chakrabarti">
       <organization>IP Infusion</organization>
     </author>
-    <author fullname="Erik Nordmark" initials="E." surname="Nordmark">
+    <author initials="E." surname="Nordmark" fullname="Erik Nordmark">
       <organization>Sun</organization>
     </author>
-    <date year="2008" month="November" day="17"/>
+    <date day="17" month="November" year="2008"></date>
     <abstract>
-      <t>This document specifies Neighbor Discovery optimized for 6LoWPAN. The 6LoWPAN format allows IPv6 to be used over very low-power, low- bandwidth wireless networks often making use of extended multihop topologies. However, the use of standard IPv6 Neighbor Discovery over 6LoWPAN networks has several problems. Standard Neighbor Discovery was not designed for wireless links, the standard IPv6 link concept and heavy use of multicast makes it inefficient. This document spefies a new mechanism allowing efficient Duplicate Address Detection over entire 6LoWPAN networks. In addition it specifies prefix and context dissemination for use with router advertisements, allows for stateless address assignment, and the use of Neighbor Discovery Proxy.</t>
+      <t>This document specifies Neighbor Discovery optimized for 6LoWPAN.
+The 6LoWPAN format allows IPv6 to be used over very low-power, low-
+bandwidth wireless networks often making use of extended multihop
+topologies.  However, the use of standard IPv6 Neighbor Discovery
+over 6LoWPAN networks has several problems.  Standard Neighbor
+Discovery was not designed for wireless links, the standard IPv6 link
+concept and heavy use of multicast makes it inefficient.  This
+document spefies a new mechanism allowing efficient Duplicate Address
+Detection over entire 6LoWPAN networks.  In addition it specifies
+prefix and context dissemination for use with router advertisements,
+allows for stateless address assignment, and the use of Neighbor
+Discovery Proxy.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-shelby-6lowpan-nd-01"/>
 </reference>

@@ -1,31 +1,43 @@
 <reference anchor="I-D.brw-scone-rate-policy-discovery" target="https://datatracker.ietf.org/doc/html/draft-brw-scone-rate-policy-discovery-02">
   <front>
     <title>Discovery of Network Rate-Limit Policies (NRLPs)</title>
-    <author fullname="Mohamed Boucadair" initials="M." surname="Boucadair">
+    <seriesInfo name="Internet-Draft" value="draft-brw-scone-rate-policy-discovery-02"/>
+    <author initials="M." surname="Boucadair" fullname="Mohamed Boucadair">
       <organization>Orange</organization>
     </author>
-    <author fullname="Dan Wing" initials="D." surname="Wing">
+    <author initials="D." surname="Wing" fullname="Dan Wing">
       <organization>Cloud Software Group Holdings, Inc.</organization>
     </author>
-    <author fullname="Tirumaleswar Reddy.K" initials="T." surname="Reddy.K">
+    <author initials="T." surname="Reddy.K" fullname="Tirumaleswar Reddy.K">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Sridharan Rajagopalan" initials="S." surname="Rajagopalan">
+    <author initials="S." surname="Rajagopalan" fullname="Sridharan Rajagopalan">
       <organization>Cloud Software Group Holdings, Inc.</organization>
     </author>
-    <author fullname="Gyan Mishra" initials="G. S." surname="Mishra">
+    <author initials="G. S." surname="Mishra" fullname="Gyan Mishra">
       <organization>Verizon Inc</organization>
     </author>
-    <author fullname="Markus Amend" initials="M." surname="Amend">
+    <author initials="M." surname="Amend" fullname="Markus Amend">
       <organization>Deutsche Telekom</organization>
     </author>
-    <author fullname="Luis M. Contreras" initials="L. M." surname="Contreras">
+    <author initials="L. M." surname="Contreras" fullname="Luis M. Contreras">
       <organization>Telefonica</organization>
     </author>
-    <date year="2024" month="December" day="16"/>
+    <date day="16" month="December" year="2024"></date>
     <abstract>
-      <t>This document specifies mechanims for hosts to dynamically discover Network Rate-Limit Policies (NRLPs). This information is then passed to applications that might adjust their behaviors accordingly. Networks already support mechanisms to advertize a set of network properties to hosts (e.g., link MTU (RFC 4861) and PREFIX64 (RFC 8781)). This document complements these tools and specifies a Neighbor Discovery option to be used in Router Advertisements (RAs) to communicate NRLPs to hosts. For address family parity, a new DHCP option is also defined. The document also discusses how Provisioning Domains (PvD) can be used to notify hosts with NRLPs.</t>
+      <t>   This document specifies mechanims for hosts to dynamically discover
+   Network Rate-Limit Policies (NRLPs).  This information is then passed
+   to applications that might adjust their behaviors accordingly.
+
+   Networks already support mechanisms to advertize a set of network
+   properties to hosts (e.g., link MTU (RFC 4861) and PREFIX64 (RFC
+   8781)).  This document complements these tools and specifies a
+   Neighbor Discovery option to be used in Router Advertisements (RAs)
+   to communicate NRLPs to hosts.  For address family parity, a new DHCP
+   option is also defined.  The document also discusses how Provisioning
+   Domains (PvD) can be used to notify hosts with NRLPs.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-brw-scone-rate-policy-discovery-02"/>
 </reference>

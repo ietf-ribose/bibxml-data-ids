@@ -1,22 +1,34 @@
 <reference anchor="I-D.ietf-l2vpn-vpls-pim-snooping" target="https://datatracker.ietf.org/doc/html/draft-ietf-l2vpn-vpls-pim-snooping-05">
   <front>
     <title>PIM Snooping over VPLS</title>
-    <author fullname="Olivier Dornon" initials="O." surname="Dornon">
-      <organization/>
-    </author>
-    <author fullname="Jayant Kotalwar" initials="J." surname="Kotalwar">
-      <organization/>
-    </author>
-    <author fullname="Venu Hemige" initials="V." surname="Hemige">
-      <organization/>
-    </author>
-    <author fullname="Ray (Lei) Qiu" initials="R. L." surname="Qiu">
-      <organization/>
-    </author>
-    <date year="2013" month="October" day="8"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-l2vpn-vpls-pim-snooping-05"/>
+    <author initials="O." surname="Dornon" fullname="Olivier Dornon"/>
+    <author initials="J." surname="Kotalwar" fullname="Jayant Kotalwar"/>
+    <author initials="V." surname="Hemige" fullname="Venu Hemige"/>
+    <author initials="R. L." surname="Qiu" fullname="Ray (Lei) Qiu"/>
+    <date day="08" month="October" year="2013"></date>
     <abstract>
-      <t>This document describes the procedures and recommendations for VPLS PEs to facilitate replication of multicast traffic to only certain ports (behind which there are interested PIM routers and/or IGMP hosts) via PIM Snooping and PIM Proxy. With PIM Snooping, PEs passively listen to certain PIM control messages to build control and forwarding states while transparently flooding those messages. With PIM Proxy, PEs do not flood PIM Join/ Prune messages but only generate their own and send out of certain ports, based on the control states built from downstream Join/Prune messages. PIM Proxy is required when PIM Join suppression is enabled on the CE devices and useful to reduce PIM control traffic in a VPLS domain. The document also describes PIM Relay, which can be viewed as light- weight proxy, where all downstream Join/Prune messages are simply forwarded out of certain ports but not flooded to avoid triggering PIM Join suppression on CE devices.</t>
+      <t>   This document describes the procedures and recommendations for VPLS
+   PEs to facilitate replication of multicast traffic to only certain
+   ports (behind which there are interested PIM routers and/or IGMP
+   hosts) via PIM Snooping and PIM Proxy.
+
+   With PIM Snooping, PEs passively listen to certain PIM control
+   messages to build control and forwarding states while transparently
+   flooding those messages.  With PIM Proxy, PEs do not flood PIM Join/
+   Prune messages but only generate their own and send out of certain
+   ports, based on the control states built from downstream Join/Prune
+   messages.  PIM Proxy is required when PIM Join suppression is enabled
+   on the CE devices and useful to reduce PIM control traffic in a VPLS
+   domain.
+
+   The document also describes PIM Relay, which can be viewed as light-
+   weight proxy, where all downstream Join/Prune messages are simply
+   forwarded out of certain ports but not flooded to avoid triggering
+   PIM Join suppression on CE devices.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-l2vpn-vpls-pim-snooping-05"/>
 </reference>

@@ -1,19 +1,35 @@
 <reference anchor="I-D.fujita-mpls-crldp-crankback" target="https://datatracker.ietf.org/doc/html/draft-fujita-mpls-crldp-crankback-01">
   <front>
     <title>Crankback Routing Extensions for CR-LDP</title>
-    <author fullname="Atsushi Iwata" initials="A." surname="Iwata">
+    <seriesInfo name="Internet-Draft" value="draft-fujita-mpls-crldp-crankback-01"/>
+    <author initials="A." surname="Iwata" fullname="Atsushi Iwata">
       <organization>NEC Corporation</organization>
     </author>
-    <author fullname="Norihito Fujita" initials="N." surname="Fujita">
+    <author initials="N." surname="Fujita" fullname="Norihito Fujita">
       <organization>NEC Corporation</organization>
     </author>
-    <author fullname="Gerald Ash" initials="G." surname="Ash">
+    <author initials="G." surname="Ash" fullname="Gerald Ash">
       <organization>AT&amp;T</organization>
     </author>
-    <date year="2000" month="July" day="17"/>
+    <date day="17" month="July" year="2000"></date>
     <abstract>
-      <t>This draft proposes crankback routing extensions for CR-LDP signaling. Recently, several routing protocol extensions for advertising resource information in addition to topology information have been proposed for use in distributed constraint-based routing. In such a distributed routing environment, however, the information used to compute a constraint-based path may be out of date. This means that label requests may be blocked by links or nodes without sufficient resources. This draft specifies crankback routing extensions for CR-LDP so that the label request can be retried on an alternate path that detours around the blocked link or node upon a setup failure. Furthermore, the proposed crankback routing schemes can be also applied to end-to-end LSP restoration by indicating the location of the failure link or node. This would significantly improve the recovery ratio for failed LSPs, especially in situations where a large number of setup requests are triggered at the same time.</t>
+      <t>This draft proposes crankback routing extensions for CR-LDP
+signaling.  Recently, several routing protocol extensions for
+advertising resource information in addition to topology information
+have been proposed for use in distributed constraint-based routing.
+In such a distributed routing environment, however, the information
+used to compute a constraint-based path may be out of date. This
+means that label requests may be blocked by links or nodes without
+sufficient resources. This draft specifies crankback routing
+extensions for CR-LDP so that the label request can be retried on an
+alternate path that detours around the blocked link or node upon a
+setup failure. Furthermore, the proposed crankback routing schemes
+can be also applied to end-to-end LSP restoration by indicating the
+location of the failure link or node. This would significantly
+improve the recovery ratio for failed LSPs, especially in situations
+where a large number of setup requests are triggered at the same
+time.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-fujita-mpls-crldp-crankback-01"/>
 </reference>

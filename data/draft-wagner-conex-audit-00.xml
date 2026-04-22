@@ -1,16 +1,25 @@
 <reference anchor="I-D.wagner-conex-audit" target="https://datatracker.ietf.org/doc/html/draft-wagner-conex-audit-00">
   <front>
     <title>Auditing of Congestion Exposure (ConEx) signals</title>
-    <author fullname="David Wagner" initials="D." surname="Wagner">
-      <organization/>
-    </author>
-    <author fullname="Mirja Kühlewind" initials="M." surname="Kühlewind">
-      <organization/>
-    </author>
-    <date year="2013" month="October" day="21"/>
+    <seriesInfo name="Internet-Draft" value="draft-wagner-conex-audit-00"/>
+    <author initials="D." surname="Wagner" fullname="David Wagner"/>
+    <author initials="M." surname="Kühlewind" fullname="Mirja Kühlewind"/>
+    <date day="21" month="October" year="2013"></date>
     <abstract>
-      <t>Congestion Exposure (ConEx) is a mechanism by which senders inform the network about the congestion encountered by previous packets on the same flow. In order to make ConEx information useful, reliable auditing is necessary to provide a strong incentive to declare ConEx information honestly. However, there is always a delay between congestion events and the respective ConEx signal at the audit. In order to also provide a signal for risking congestion in the future, in [draft-ietf-conex-abstract-mech] it is proposed to use credit signals sent in advance. This document defines how the signals are interpreted by an audit and lists requirements for an audit implementation. It also discusses the security of the proposed system and lists potential attacks on it.</t>
+      <t>   Congestion Exposure (ConEx) is a mechanism by which senders inform
+   the network about the congestion encountered by previous packets on
+   the same flow.  In order to make ConEx information useful, reliable
+   auditing is necessary to provide a strong incentive to declare ConEx
+   information honestly.  However, there is always a delay between
+   congestion events and the respective ConEx signal at the audit.  In
+   order to also provide a signal for risking congestion in the future,
+   in [draft-ietf-conex-abstract-mech] it is proposed to use credit
+   signals sent in advance.  This document defines how the signals are
+   interpreted by an audit and lists requirements for an audit
+   implementation.  It also discusses the security of the proposed
+   system and lists potential attacks on it.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wagner-conex-audit-00"/>
 </reference>

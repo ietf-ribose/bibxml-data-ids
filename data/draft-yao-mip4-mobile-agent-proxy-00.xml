@@ -1,16 +1,42 @@
 <reference anchor="I-D.yao-mip4-mobile-agent-proxy" target="https://datatracker.ietf.org/doc/html/draft-yao-mip4-mobile-agent-proxy-00">
   <front>
     <title>Mobile Agent Discovery Proxy (MADP) in IPv4 Mobility Management</title>
-    <author fullname="Yao Chunyan" initials="Y." surname="Chunyan">
+    <seriesInfo name="Internet-Draft" value="draft-yao-mip4-mobile-agent-proxy-00"/>
+    <author initials="Y." surname="Chunyan" fullname="Yao Chunyan">
       <organization>Alcatel-Lucent-Sbell</organization>
     </author>
-    <author fullname="Bruno Mongazon-Cazavet" initials="B." surname="Mongazon-Cazavet">
+    <author initials="B." surname="Mongazon-Cazavet" fullname="Bruno Mongazon-Cazavet">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <date year="2008" month="October" day="27"/>
+    <date day="27" month="October" year="2008"></date>
     <abstract>
-      <t>In some networks such as xDSL networks with WiFi extension, the periodical transmission of Agent Advertisements (AA) by mobility agents is used by Mobile Nodes (MN) to detect movement. To allow fast movement detection, the interval at which AAs are sent should not be long. In the early deployment of Mobile IPv4 (MIPv4), mobility agents are deployed in the edge network. For example, in xDSL networks, Home Agents (HA) and Foreign Agents (FA) are located on or beside Edge Routers (ER) that usually serves thousands of MNs (typically between 2000 and 5000 in xDSL networks). The periodical transmission of multicast AA to MNs in such a large network consumes a significant amount of the aggregation network bandwidth and CPU resources of ERs. This is a practical problem in xDSL networks with WiFi extension. This is also a common problem for others access networks in which a large layer-2 network is served by one router. Hence a Mobility Agent Discovery proxy (MADP) can be set in access nodes to make the MNs detect movement fast meanwhile avoiding CPU and network bandwidth consumption in the aggregation network. The MADP acts as a proxy to MNs as far as agent discovery is concerned allowing for AS issued by MNs to be locally replied according to AA issued by HA/FA on the access network. MADP is a logical function that can be placed on a suitable node location depending on access network technology and architecture (i.e. WiMAX) to reduce network resource cost related to agent discovery.</t>
+      <t>In some networks such as xDSL networks with WiFi extension, the
+periodical transmission of Agent Advertisements (AA) by mobility 
+agents is used by Mobile Nodes (MN) to detect movement. To allow fast
+movement detection, the interval at which AAs are sent should not be
+long. In the early deployment of Mobile IPv4 (MIPv4), mobility agents
+are deployed in the edge network. For example, in xDSL networks, Home
+Agents (HA) and Foreign Agents (FA) are located on or beside Edge
+Routers (ER) that usually serves thousands of MNs (typically between
+2000 and 5000 in xDSL networks). The periodical transmission of
+multicast AA to MNs in such a large network consumes a significant
+amount of the aggregation network bandwidth and CPU resources of ERs.
+
+
+
+This is a practical problem in xDSL networks with WiFi extension. 
+This is also a common problem for others access networks in which a 
+large layer-2 network is served by one router.  Hence a Mobility 
+Agent Discovery proxy (MADP) can be set in access nodes to make the 
+MNs detect movement fast meanwhile avoiding CPU and network bandwidth
+consumption in the aggregation network. The MADP acts as a proxy to
+MNs as far as agent discovery is concerned allowing for AS issued by
+MNs to be locally replied according to AA issued by HA/FA on the
+access network. MADP is a logical function that can be placed on a
+suitable node location depending on access network technology and
+architecture (i.e. WiMAX) to reduce network resource cost related to
+agent discovery.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-yao-mip4-mobile-agent-proxy-00"/>
 </reference>

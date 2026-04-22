@@ -1,19 +1,30 @@
 <reference anchor="I-D.huque-dnssec-alg-nego" target="https://datatracker.ietf.org/doc/html/draft-huque-dnssec-alg-nego-01">
   <front>
     <title>Algorithm Negotiation in DNSSEC</title>
-    <author fullname="Shumon Huque" initials="S." surname="Huque">
+    <seriesInfo name="Internet-Draft" value="draft-huque-dnssec-alg-nego-01"/>
+    <author initials="S." surname="Huque" fullname="Shumon Huque">
       <organization>Salesforce</organization>
     </author>
-    <author fullname="Haya Shulman" initials="H." surname="Shulman">
+    <author initials="H." surname="Shulman" fullname="Haya Shulman">
       <organization>Fraunhofer Institute</organization>
     </author>
-    <author fullname="Shane Kerr" initials="S." surname="Kerr">
+    <author initials="S." surname="Kerr" fullname="Shane Kerr">
       <organization>Oracle Dyn</organization>
     </author>
-    <date year="2017" month="July" day="20"/>
+    <date day="20" month="July" year="2017"></date>
     <abstract>
-      <t>This document specifies a DNS extension that allows a DNS client to specify a list of DNSSEC algorithms, in preference order, that the client desires to use. A DNS server upon receipt of this extension can choose to selectively respond with DNSSEC signatures using the most preferred algorithm they support. This mechanism may make it easier for DNS zone operators to support signing zone data simultaneously with multiple DNSSEC algorithms, without significantly increasing the size of DNS responses. It will also allow an easier way to transition to new algorithms while still retaining support for older DNS validators that do not yet support the new algorithms.</t>
+      <t>   This document specifies a DNS extension that allows a DNS client to
+   specify a list of DNSSEC algorithms, in preference order, that the
+   client desires to use.  A DNS server upon receipt of this extension
+   can choose to selectively respond with DNSSEC signatures using the
+   most preferred algorithm they support.  This mechanism may make it
+   easier for DNS zone operators to support signing zone data
+   simultaneously with multiple DNSSEC algorithms, without significantly
+   increasing the size of DNS responses.  It will also allow an easier
+   way to transition to new algorithms while still retaining support for
+   older DNS validators that do not yet support the new algorithms.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-huque-dnssec-alg-nego-01"/>
 </reference>

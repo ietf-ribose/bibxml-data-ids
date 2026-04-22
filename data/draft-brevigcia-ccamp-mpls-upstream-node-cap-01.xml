@@ -1,25 +1,39 @@
 <reference anchor="I-D.brevigcia-ccamp-mpls-upstream-node-cap" target="https://datatracker.ietf.org/doc/html/draft-brevigcia-ccamp-mpls-upstream-node-cap-01">
   <front>
     <title>IGP Routing Protocol Extensions for Discovery of Upstream Label Assignment Node Capability</title>
-    <author fullname="Yannick Brehon" initials="Y." surname="Brehon">
+    <seriesInfo name="Internet-Draft" value="draft-brevigcia-ccamp-mpls-upstream-node-cap-01"/>
+    <author initials="Y." surname="Brehon" fullname="Yannick Brehon">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <author fullname="Martin Vigoureux" initials="M." surname="Vigoureux">
+    <author initials="M." surname="Vigoureux" fullname="Martin Vigoureux">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <author fullname="Laurent Ciavaglia" initials="L." surname="Ciavaglia">
+    <author initials="L." surname="Ciavaglia" fullname="Laurent Ciavaglia">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <author fullname="Mohamad Chaitou" initials="M." surname="Chaitou">
+    <author initials="M." surname="Chaitou" fullname="Mohamad Chaitou">
       <organization>France Telecom</organization>
     </author>
-    <author fullname="Zafar Ali" initials="Z." surname="Ali">
+    <author initials="Z." surname="Ali" fullname="Zafar Ali">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2007" month="November" day="19"/>
+    <date day="19" month="November" year="2007"></date>
     <abstract>
-      <t>This document proposes an extension to [TE-NODE-CAP] in order to support additional TE node capabilities in the context of Point-to- MultiPoint (P2MP) LSP routing and fast reroute protection. As for point-to-point LSP, nesting P2MP LSPs, i.e., MPLS P2MP hierarchy, is a desirable traffic-engineering feature. However, nesting P2MP LSPs requires a mechanism to coordinate the label allocation of the inner P2MP LSP between the egress nodes of the P2MP Tunnel as described in [MPLS-UPSTREAM]. To solve this issue, a new label allocation scheme called Upstream Label Assignment (ULA) is defined. Network elements responsible for the route computation of P2MP LSP should be aware of the nodes that support this functionality. For that purpose, we define a new bit flag to the TE Node Capability Descriptor as defined in [TE-NODE-CAP]. The bit flag (U) enables a node to advertise its capability to accept Upstream Label Assignment.</t>
+      <t>This document proposes an extension to [TE-NODE-CAP] in order to
+support additional TE node capabilities in the context of Point-to-
+MultiPoint (P2MP) LSP routing and fast reroute protection.  As for
+point-to-point LSP, nesting P2MP LSPs, i.e., MPLS P2MP hierarchy, is
+a desirable traffic-engineering feature.  However, nesting P2MP LSPs
+requires a mechanism to coordinate the label allocation of the inner
+P2MP LSP between the egress nodes of the P2MP Tunnel as described in
+[MPLS-UPSTREAM].  To solve this issue, a new label allocation scheme
+called Upstream Label Assignment (ULA) is defined.  Network elements
+responsible for the route computation of P2MP LSP should be aware of
+the nodes that support this functionality.  For that purpose, we
+define a new bit flag to the TE Node Capability Descriptor as defined
+in [TE-NODE-CAP].  The bit flag (U) enables a node to advertise its
+capability to accept Upstream Label Assignment.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-brevigcia-ccamp-mpls-upstream-node-cap-01"/>
 </reference>

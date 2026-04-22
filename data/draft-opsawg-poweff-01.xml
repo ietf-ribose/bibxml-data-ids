@@ -1,22 +1,33 @@
 <reference anchor="I-D.opsawg-poweff" target="https://datatracker.ietf.org/doc/html/draft-opsawg-poweff-01">
   <front>
     <title>Power and Energy Efficiency</title>
-    <author fullname="Jan Lindblad" initials="J." surname="Lindblad">
+    <seriesInfo name="Internet-Draft" value="draft-opsawg-poweff-01"/>
+    <author initials="J." surname="Lindblad" fullname="Jan Lindblad">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Snezana Mitrovic" initials="S." surname="Mitrovic">
+    <author initials="S." surname="Mitrovic" fullname="Snezana Mitrovic">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Marisol Palmero" initials="M." surname="Palmero">
+    <author initials="M." surname="Palmero" fullname="Marisol Palmero">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Gonzalo Salgueiro" initials="G." surname="Salgueiro">
+    <author initials="G." surname="Salgueiro" fullname="Gonzalo Salgueiro">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2024" month="May" day="7"/>
+    <date day="07" month="May" year="2024"></date>
     <abstract>
-      <t>This document specifies a device YANG “dashboard” data model that allows devices to report which power measurement and control functions they offer. This basic YANG model is applicable to any kind of device, regardless of whether the device itself has any support for YANG-based management interfaces or not. The YANG model simply allows a device to describe what it can report, and which interfaces are available to request this data. Devices that lack any on-board YANG-based management interfaces provide this information in form of a YANG instance data file. This file may be readable from an on-board web server on the device, or hosted anywhere else.</t>
+      <t>   This document specifies a device YANG “dashboard” data model that
+   allows devices to report which power measurement and control
+   functions they offer.  This basic YANG model is applicable to any
+   kind of device, regardless of whether the device itself has any
+   support for YANG-based management interfaces or not.  The YANG model
+   simply allows a device to describe what it can report, and which
+   interfaces are available to request this data.  Devices that lack any
+   on-board YANG-based management interfaces provide this information in
+   form of a YANG instance data file.  This file may be readable from an
+   on-board web server on the device, or hosted anywhere else.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-opsawg-poweff-01"/>
 </reference>

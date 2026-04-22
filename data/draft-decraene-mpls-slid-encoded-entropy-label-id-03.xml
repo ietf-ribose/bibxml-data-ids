@@ -1,28 +1,44 @@
 <reference anchor="I-D.decraene-mpls-slid-encoded-entropy-label-id" target="https://datatracker.ietf.org/doc/html/draft-decraene-mpls-slid-encoded-entropy-label-id-03">
   <front>
     <title>Using Entropy Label for Network Slice Identification in MPLS networks.</title>
-    <author fullname="Bruno Decraene" initials="B." surname="Decraene">
+    <seriesInfo name="Internet-Draft" value="draft-decraene-mpls-slid-encoded-entropy-label-id-03"/>
+    <author initials="B." surname="Decraene" fullname="Bruno Decraene">
       <organization>Orange</organization>
     </author>
-    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils">
+    <author initials="C." surname="Filsfils" fullname="Clarence Filsfils">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Wim Henderickx" initials="W." surname="Henderickx">
+    <author initials="W." surname="Henderickx" fullname="Wim Henderickx">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Tarek Saad" initials="T." surname="Saad">
+    <author initials="T." surname="Saad" fullname="Tarek Saad">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Vishnu Pavan Beeram" initials="V. P." surname="Beeram">
+    <author initials="V. P." surname="Beeram" fullname="Vishnu Pavan Beeram">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Luay Jalil" initials="L." surname="Jalil">
+    <author initials="L." surname="Jalil" fullname="Luay Jalil">
       <organization>Verizon</organization>
     </author>
-    <date year="2022" month="February" day="11"/>
+    <date day="11" month="February" year="2022"></date>
     <abstract>
-      <t>This document defines a solution to encode a slice identifier in MPLS in order to distinguish packets that belong to different slices, to allow enforcing per network slice policies (.e.g, Qos). The slice identification is independent of the topology. It allows for QoS/DiffServ policy on a per slice basis in addition to the per packet QoS/DiffServ policy provided by the MPLS Traffic Class field. In order to minimize the size of the MPLS stack and to ease incremental deployment the slice identifier is encoded as part of the Entropy Label. This document also extends the use of the TTL field of the Entropy Label in order to provide a flexible set of flags called the Entropy Label Control field.</t>
+      <t>   This document defines a solution to encode a slice identifier in MPLS
+   in order to distinguish packets that belong to different slices, to
+   allow enforcing per network slice policies (.e.g, Qos).
+
+   The slice identification is independent of the topology.  It allows
+   for QoS/DiffServ policy on a per slice basis in addition to the per
+   packet QoS/DiffServ policy provided by the MPLS Traffic Class field.
+
+   In order to minimize the size of the MPLS stack and to ease
+   incremental deployment the slice identifier is encoded as part of the
+   Entropy Label.
+
+   This document also extends the use of the TTL field of the Entropy
+   Label in order to provide a flexible set of flags called the Entropy
+   Label Control field.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-decraene-mpls-slid-encoded-entropy-label-id-03"/>
 </reference>

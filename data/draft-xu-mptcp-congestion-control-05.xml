@@ -1,19 +1,30 @@
 <reference anchor="I-D.xu-mptcp-congestion-control" target="https://datatracker.ietf.org/doc/html/draft-xu-mptcp-congestion-control-05">
   <front>
     <title>Delay-based Congestion Control for MPTCP</title>
-    <author fullname="Mingwei Xu" initials="M." surname="Xu">
+    <seriesInfo name="Internet-Draft" value="draft-xu-mptcp-congestion-control-05"/>
+    <author initials="M." surname="Xu" fullname="Mingwei Xu">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Yu Cao" initials="Y." surname="Cao">
+    <author initials="Y." surname="Cao" fullname="Yu Cao">
       <organization>NDSC, China</organization>
     </author>
-    <author fullname="Enhuan Dong" initials="E." surname="Dong">
+    <author initials="E." surname="Dong" fullname="Enhuan Dong">
       <organization>Tsinghua University</organization>
     </author>
-    <date year="2017" month="January" day="1"/>
+    <date day="01" month="January" year="2017"></date>
     <abstract>
-      <t>This document describes the mechanism of wVegas (weighted Vegas), which is a delay-based congestion control for MPTCP. The current congestion control algorithm of MPTCP, LIA, achieves only course- grained load balancing, since it is based on packet loss event. On the contrary, wVegas adopts packet queuing delay as congestion signals, thus achieving fine-grained load balancing. Compared with loss-based algorithms, wVegas is more sensitive to the changes of network congestion and thus achieves more timely traffic shifting and quicker convergence. WVegas has been implemented in the Linux Kernel and is part of the UCLouvain's MPTCP implementation now.</t>
+      <t>   This document describes the mechanism of wVegas (weighted Vegas),
+   which is a delay-based congestion control for MPTCP. The current
+   congestion control algorithm of MPTCP, LIA, achieves only course-
+   grained load balancing, since it is based on packet loss event. On
+   the contrary, wVegas adopts packet queuing delay as congestion
+   signals, thus achieving fine-grained load balancing. Compared with
+   loss-based algorithms, wVegas is more sensitive to the changes of
+   network congestion and thus achieves more timely traffic shifting and
+   quicker convergence. WVegas has been implemented in the Linux Kernel
+   and is part of the UCLouvain's MPTCP implementation now.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-xu-mptcp-congestion-control-05"/>
 </reference>

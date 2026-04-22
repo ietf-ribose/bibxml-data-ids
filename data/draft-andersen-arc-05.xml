@@ -1,28 +1,37 @@
 <reference anchor="I-D.andersen-arc" target="https://datatracker.ietf.org/doc/html/draft-andersen-arc-05">
   <front>
     <title>Authenticated Received Chain (ARC)</title>
+    <seriesInfo name="Internet-Draft" value="draft-andersen-arc-05"/>
     <author>
       <organization>LinkedIn</organization>
     </author>
-    <author fullname="Kurt Andersen" initials="K." surname="Andersen">
+    <author initials="K." surname="Andersen" fullname="Kurt Andersen">
       <organization>LinkedIn</organization>
     </author>
-    <author fullname="John Rae-Grant" initials="J." surname="Rae-Grant">
+    <author initials="J." surname="Rae-Grant" fullname="John Rae-Grant">
       <organization>Google</organization>
     </author>
-    <author fullname="Brandon Long" initials="B." surname="Long">
+    <author initials="B." surname="Long" fullname="Brandon Long">
       <organization>Google</organization>
     </author>
-    <author fullname="J. Trent Adams" initials="J. T." surname="Adams">
+    <author initials="J. T." surname="Adams" fullname="J. Trent Adams">
       <organization>Paypal</organization>
     </author>
-    <author fullname="Steven M Jones" initials="S. M." surname="Jones">
+    <author initials="S. M." surname="Jones" fullname="Steven M Jones">
       <organization>TDP</organization>
     </author>
-    <date year="2016" month="May" day="23"/>
+    <date day="23" month="May" year="2016"></date>
     <abstract>
-      <t>Authenticated Received Chain (ARC) permits an organization which is creating or handling email to indicate its involvement with the handling process. It defines a set of cryptographically signed header fields in a manner analagous to that of DKIM. Assertion of responsibility is validated through a cryptographic signature and by querying the Signer's domain directly to retrieve the appropriate public key. Changes in the message that might break DKIM can be identified through the ARC set of header fields.</t>
+      <t>   Authenticated Received Chain (ARC) permits an organization which is
+   creating or handling email to indicate its involvement with the
+   handling process.  It defines a set of cryptographically signed
+   header fields in a manner analagous to that of DKIM.  Assertion of
+   responsibility is validated through a cryptographic signature and by
+   querying the Signer's domain directly to retrieve the appropriate
+   public key.  Changes in the message that might break DKIM can be
+   identified through the ARC set of header fields.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-andersen-arc-05"/>
 </reference>

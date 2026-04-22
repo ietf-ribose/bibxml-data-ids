@@ -1,37 +1,46 @@
 <reference anchor="I-D.ietf-idr-bgp-generic-metric" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-bgp-generic-metric-01">
   <front>
     <title>Accumulated Metric in NHC attribute</title>
-    <author fullname="Srihari R. Sangli" initials="S. R." surname="Sangli">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-generic-metric-01"/>
+    <author initials="S. R." surname="Sangli" fullname="Srihari R. Sangli">
       <organization>Juniper Networks Inc.</organization>
     </author>
-    <author fullname="Shraddha Hegde" initials="S." surname="Hegde">
+    <author initials="S." surname="Hegde" fullname="Shraddha Hegde">
       <organization>Juniper Networks Inc.</organization>
     </author>
-    <author fullname="Reshma Das" initials="R." surname="Das">
+    <author initials="R." surname="Das" fullname="Reshma Das">
       <organization>Juniper Networks Inc.</organization>
     </author>
-    <author fullname="Bruno Decraene" initials="B." surname="Decraene">
+    <author initials="B." surname="Decraene" fullname="Bruno Decraene">
       <organization>Orange</organization>
     </author>
-    <author fullname="Bin Wen" initials="B." surname="Wen">
+    <author initials="B." surname="Wen" fullname="Bin Wen">
       <organization>Comcast</organization>
     </author>
-    <author fullname="Marcin Kozak" initials="M." surname="Kozak">
+    <author initials="M." surname="Kozak" fullname="Marcin Kozak">
       <organization>Comcast</organization>
     </author>
-    <author fullname="Jie Dong" initials="J." surname="Dong">
+    <author initials="J." surname="Dong" fullname="Jie Dong">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Luay Jalil" initials="L." surname="Jalil">
+    <author initials="L." surname="Jalil" fullname="Luay Jalil">
       <organization>Verizon</organization>
     </author>
-    <author fullname="Ketan Talaulikar" initials="K." surname="Talaulikar">
+    <author initials="K." surname="Talaulikar" fullname="Ketan Talaulikar">
       <organization>Cisco</organization>
     </author>
-    <date year="2025" month="July" day="5"/>
+    <date day="05" month="July" year="2025"></date>
     <abstract>
-      <t>RFC7311 describes mechanism for carrying accumulated IGP cost across BGP domains however it limits to IGP-metric only. There is a need to accumulate and propagate different types of metrics as it will aid in intent-based end-to-end path across BGP domains. This document defines BGP extensions for generic metric sub-types that enable different types of metrics to be accumulated and carried in BGP. This is applicable when multiple domains exchange BGP routing information.</t>
+      <t>   RFC7311 describes mechanism for carrying accumulated IGP cost across
+   BGP domains however it limits to IGP-metric only.  There is a need to
+   accumulate and propagate different types of metrics as it will aid in
+   intent-based end-to-end path across BGP domains.  This document
+   defines BGP extensions for generic metric sub-types that enable
+   different types of metrics to be accumulated and carried in BGP.
+   This is applicable when multiple domains exchange BGP routing
+   information.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-generic-metric-01"/>
 </reference>

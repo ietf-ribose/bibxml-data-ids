@@ -1,16 +1,28 @@
 <reference anchor="I-D.ietf-tls-sni-encryption" target="https://datatracker.ietf.org/doc/html/draft-ietf-tls-sni-encryption-06">
   <front>
     <title>Issues and Requirements for SNI Encryption in TLS</title>
-    <author fullname="Christian Huitema" initials="C." surname="Huitema">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tls-sni-encryption-06"/>
+    <author initials="C." surname="Huitema" fullname="Christian Huitema">
       <organization>Private Octopus Inc.</organization>
     </author>
-    <author fullname="Eric Rescorla" initials="E." surname="Rescorla">
+    <author initials="E." surname="Rescorla" fullname="Eric Rescorla">
       <organization>RTFM, Inc.</organization>
     </author>
-    <date year="2019" month="September" day="18"/>
+    <date day="18" month="September" year="2019"></date>
     <abstract>
-      <t>This draft describes the general problem of encrypting the Server Name Identification (SNI) TLS parameter. The proposed solutions hide a Hidden Service behind a fronting service, only disclosing the SNI of the fronting service to external observers. The draft lists known attacks against SNI encryption, discusses the current "co-tenancy fronting" solution, and presents requirements for future TLS layer solutions. In practice, it may well be that no solution can meet every requirement, and that practical solutions will have to make some compromises.</t>
+      <t>   This draft describes the general problem of encrypting the Server
+   Name Identification (SNI) TLS parameter.  The proposed solutions hide
+   a Hidden Service behind a fronting service, only disclosing the SNI
+   of the fronting service to external observers.  The draft lists known
+   attacks against SNI encryption, discusses the current "co-tenancy
+   fronting" solution, and presents requirements for future TLS layer
+   solutions.
+
+   In practice, it may well be that no solution can meet every
+   requirement, and that practical solutions will have to make some
+   compromises.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-tls-sni-encryption-06"/>
 </reference>

@@ -1,22 +1,31 @@
 <reference anchor="I-D.ietf-homenet-naming-architecture-dhc-options" target="https://datatracker.ietf.org/doc/html/draft-ietf-homenet-naming-architecture-dhc-options-01">
   <front>
     <title>DHCP Options for Homenet Naming Architecture</title>
-    <author fullname="Daniel Migault" initials="D." surname="Migault">
-      <organization/>
-    </author>
-    <author fullname="Wouter Cloetens" initials="W." surname="Cloetens">
-      <organization/>
-    </author>
-    <author fullname="Chris Griffiths" initials="C." surname="Griffiths">
-      <organization/>
-    </author>
-    <author fullname="Ralf Weber" initials="R." surname="Weber">
-      <organization/>
-    </author>
-    <date year="2015" month="February" day="17"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-homenet-naming-architecture-dhc-options-01"/>
+    <author initials="D." surname="Migault" fullname="Daniel Migault"/>
+    <author initials="W." surname="Cloetens" fullname="Wouter Cloetens"/>
+    <author initials="C." surname="Griffiths" fullname="Chris Griffiths"/>
+    <author initials="R." surname="Weber" fullname="Ralf Weber"/>
+    <date day="17" month="February" year="2015"></date>
     <abstract>
-      <t>CPEs are usually constraint devices with reduced network and CPU capacities. As such, a CPE hosting on the Internet the authoritative naming service for its home network may become vulnerable to resource exhaustion attacks. One way to avoid exposing CPE is to outsource the authoritative service to a third party. This third party can be the ISP or any other independent third party. Outsourcing the authoritative naming service to a third party requires setting up an architecture which may be unappropriated for most end users. To leverage this issue, this document proposes DHCP Options so any agnostic CPE can automatically proceed to the appropriated configuration and outsource the authoritative naming service for the home network. This document shows that in most cases, these DHCP Options make outsourcing to a third party (be it the ISP or any ISP independent service provider) transparent for the end user.</t>
+      <t>   CPEs are usually constraint devices with reduced network and CPU
+   capacities.  As such, a CPE hosting on the Internet the authoritative
+   naming service for its home network may become vulnerable to resource
+   exhaustion attacks.  One way to avoid exposing CPE is to outsource
+   the authoritative service to a third party.  This third party can be
+   the ISP or any other independent third party.
+
+   Outsourcing the authoritative naming service to a third party
+   requires setting up an architecture which may be unappropriated for
+   most end users.  To leverage this issue, this document proposes DHCP
+   Options so any agnostic CPE can automatically proceed to the
+   appropriated configuration and outsource the authoritative naming
+   service for the home network.  This document shows that in most
+   cases, these DHCP Options make outsourcing to a third party (be it
+   the ISP or any ISP independent service provider) transparent for the
+   end user.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-homenet-naming-architecture-dhc-options-01"/>
 </reference>

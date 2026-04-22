@@ -1,19 +1,34 @@
 <reference anchor="I-D.ietf-pwe3-congcons" target="https://datatracker.ietf.org/doc/html/draft-ietf-pwe3-congcons-02">
   <front>
     <title>Pseudowire Congestion Considerations</title>
-    <author fullname="Yaakov (J) Stein" initials="Y. J." surname="Stein">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pwe3-congcons-02"/>
+    <author initials="Y. J." surname="Stein" fullname="Yaakov (J) Stein">
       <organization>RAD Data Communications</organization>
     </author>
-    <author fullname="David L. Black" initials="D. L." surname="Black">
+    <author initials="D. L." surname="Black" fullname="David L. Black">
       <organization>EMC Corporation</organization>
     </author>
-    <author fullname="Bob Briscoe" initials="B." surname="Briscoe">
+    <author initials="B." surname="Briscoe" fullname="Bob Briscoe">
       <organization>BT</organization>
     </author>
-    <date year="2014" month="July" day="24"/>
+    <date day="24" month="July" year="2014"></date>
     <abstract>
-      <t>Pseudowires (PWs) have become a common mechanism for tunneling traffic, and may be found in unmanaged scenarios competing for network resources both with other PWs and with non-PW traffic, such as TCP/IP flows. It is thus worthwhile specifying under what conditions such competition is safe, i.e., the PW traffic does not significantly harm other traffic or contribute more than it should to congestion. We conclude that PWs transporting responsive traffic behave as desired without the need for additional mechanisms. For inelastic PWs (such as TDM PWs) we derive a bound under which such PWs consume no more network capacity than a TCP flow. We also propose employing a transport circuit breaker [I-D.fairhurst-tsvwg-circuit-breaker] that shuts down a TDM PW consistently surpassing this bound, as the emulated TDM service itself would be be of insufficient quality.</t>
+      <t>   Pseudowires (PWs) have become a common mechanism for tunneling
+   traffic, and may be found in unmanaged scenarios competing for
+   network resources both with other PWs and with non-PW traffic, such
+   as TCP/IP flows.  It is thus worthwhile specifying under what
+   conditions such competition is safe, i.e., the PW traffic does not
+   significantly harm other traffic or contribute more than it should to
+   congestion.  We conclude that PWs transporting responsive traffic
+   behave as desired without the need for additional mechanisms.  For
+   inelastic PWs (such as TDM PWs) we derive a bound under which such
+   PWs consume no more network capacity than a TCP flow.  We also
+   propose employing a transport circuit breaker
+   [I-D.fairhurst-tsvwg-circuit-breaker] that shuts down a TDM PW
+   consistently surpassing this bound, as the emulated TDM service
+   itself would be be of insufficient quality.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-pwe3-congcons-02"/>
 </reference>

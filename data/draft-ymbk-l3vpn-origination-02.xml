@@ -1,25 +1,33 @@
 <reference anchor="I-D.ymbk-l3vpn-origination" target="https://datatracker.ietf.org/doc/html/draft-ymbk-l3vpn-origination-02">
   <front>
     <title>Authenticating L3VPN Origination Signaling</title>
-    <author fullname="Randy Bush" initials="R." surname="Bush">
+    <seriesInfo name="Internet-Draft" value="draft-ymbk-l3vpn-origination-02"/>
+    <author initials="R." surname="Bush" fullname="Randy Bush">
       <organization>Internet Initiative Japan</organization>
     </author>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
+    <author initials="K." surname="Patel" fullname="Keyur Patel">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Pranav Mehta" initials="P." surname="Mehta">
+    <author initials="P." surname="Mehta" fullname="Pranav Mehta">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Arjun Sreekantiah" initials="A." surname="Sreekantiah">
+    <author initials="A." surname="Sreekantiah" fullname="Arjun Sreekantiah">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Luay Jalil" initials="L." surname="Jalil">
+    <author initials="L." surname="Jalil" fullname="Luay Jalil">
       <organization>Verizon</organization>
     </author>
-    <date year="2012" month="October" day="22"/>
+    <date day="22" month="October" year="2012"></date>
     <abstract>
-      <t>A BGP-signaled Layer-3 VPN's prefix bindings sent over BGP are subject to unintentional errors, both by the legitimate originator and by non-legitimate origins. This is of special concern if the VPN traverses untrusted networks. This document describes how the sender of the Prefix/VPN binding may sign it so that recipient of the binding may authenticate it.</t>
+      <t>   A BGP-signaled Layer-3 VPN's prefix bindings sent over BGP are
+   subject to unintentional errors, both by the legitimate originator
+   and by non-legitimate origins.  This is of special concern if the VPN
+   traverses untrusted networks.  This document describes how the sender
+   of the Prefix/VPN binding may sign it so that recipient of the
+   binding may authenticate it.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ymbk-l3vpn-origination-02"/>
 </reference>

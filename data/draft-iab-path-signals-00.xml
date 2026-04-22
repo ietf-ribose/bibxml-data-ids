@@ -1,13 +1,24 @@
 <reference anchor="I-D.iab-path-signals" target="https://datatracker.ietf.org/doc/html/draft-iab-path-signals-00">
   <front>
     <title>Path Signals</title>
-    <author fullname="Ted Hardie" initials="T." surname="Hardie">
-      <organization/>
-    </author>
-    <date year="2018" month="May" day="16"/>
+    <seriesInfo name="Internet-Draft" value="draft-iab-path-signals-00"/>
+    <author initials="T." surname="Hardie" fullname="Ted Hardie"/>
+    <date day="16" month="May" year="2018"></date>
     <abstract>
-      <t>This document discusses the nature of signals seen by on-path elements, contrasting implicit and explicit signals. For example, TCP's state mechanics uses a series of well-known messages that are exchanged in the clear. Because these are visible to network elements on the path between the two nodes setting up the transport connection, they are often used as signals by those network elements. In transports that do not exchange these messages in the clear, on- path network elements lack those signals. This document recommends that explict signals be used by transports which encrypt their state mechanics. It also recommends that a signal be exposed to the path only when the signal's originator intends that it be used by the network elements on the path.</t>
+      <t>   This document discusses the nature of signals seen by on-path
+   elements, contrasting implicit and explicit signals.  For example,
+   TCP's state mechanics uses a series of well-known messages that are
+   exchanged in the clear.  Because these are visible to network
+   elements on the path between the two nodes setting up the transport
+   connection, they are often used as signals by those network elements.
+   In transports that do not exchange these messages in the clear, on-
+   path network elements lack those signals.  This document recommends
+   that explict signals be used by transports which encrypt their state
+   mechanics.  It also recommends that a signal be exposed to the path
+   only when the signal's originator intends that it be used by the
+   network elements on the path.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-iab-path-signals-00"/>
 </reference>

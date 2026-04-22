@@ -1,19 +1,31 @@
 <reference anchor="I-D.dong-idr-sr-policy-vtn" target="https://datatracker.ietf.org/doc/html/draft-dong-idr-sr-policy-vtn-01">
   <front>
     <title>BGP SR Policy Extensions for Virtual Transport Network</title>
-    <author fullname="Jie Dong" initials="J." surname="Dong">
+    <seriesInfo name="Internet-Draft" value="draft-dong-idr-sr-policy-vtn-01"/>
+    <author initials="J." surname="Dong" fullname="Jie Dong">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Zhibo Hu" initials="Z." surname="Hu">
+    <author initials="Z." surname="Hu" fullname="Zhibo Hu">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Ran Pang" initials="R." surname="Pang">
+    <author initials="R." surname="Pang" fullname="Ran Pang">
       <organization>China Unicom</organization>
     </author>
-    <date year="2021" month="July" day="11"/>
+    <date day="11" month="July" year="2021"></date>
     <abstract>
-      <t>Segment Routing (SR) Policy is a set of candidate paths, each consisting of one or more segment lists and the associated information. The header of a packet steered in an SR Policy is augmented with an ordered list of segments associated with that SR Policy. In scenarios where multiple Virtual Transport Networks (VTNs) exist in the network, the VTN in which the SR policy is instantiated may also need to be specified, so that the header of the packet can also be augmented with the information associated with the VTN. An SR Policy candidate path can be distributed using BGP SR Policy. This document defines extensions to BGP SR policy to specify the VTN associated with the SR policy.</t>
+      <t>   Segment Routing (SR) Policy is a set of candidate paths, each
+   consisting of one or more segment lists and the associated
+   information.  The header of a packet steered in an SR Policy is
+   augmented with an ordered list of segments associated with that SR
+   Policy.  In scenarios where multiple Virtual Transport Networks
+   (VTNs) exist in the network, the VTN in which the SR policy is
+   instantiated may also need to be specified, so that the header of the
+   packet can also be augmented with the information associated with the
+   VTN.  An SR Policy candidate path can be distributed using BGP SR
+   Policy.  This document defines extensions to BGP SR policy to specify
+   the VTN associated with the SR policy.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-dong-idr-sr-policy-vtn-01"/>
 </reference>

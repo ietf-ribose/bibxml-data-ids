@@ -1,22 +1,45 @@
 <reference anchor="I-D.eastlake-randomness3" target="https://datatracker.ietf.org/doc/html/draft-eastlake-randomness3-00">
   <front>
     <title>Randomness Requirements for Security</title>
-    <author fullname="Donald E. Eastlake 3rd" initials="D. E." surname="Eastlake">
+    <seriesInfo name="Internet-Draft" value="draft-eastlake-randomness3-00"/>
+    <author initials="D. E." surname="Eastlake" fullname="Donald E. Eastlake 3rd">
       <organization>3rd</organization>
     </author>
-    <author fullname="Steve Crocker" initials="S." surname="Crocker">
+    <author initials="S." surname="Crocker" fullname="Steve Crocker">
       <organization>Shinkuro</organization>
     </author>
-    <author fullname="Charlie Kaufman" initials="C." surname="Kaufman">
+    <author initials="C." surname="Kaufman" fullname="Charlie Kaufman">
       <organization>Microsoft</organization>
     </author>
-    <author fullname="Jeffrey I. Schiller" initials="J. I." surname="Schiller">
+    <author initials="J. I." surname="Schiller" fullname="Jeffrey I. Schiller">
       <organization>MIT</organization>
     </author>
-    <date year="2013" month="November" day="5"/>
+    <date day="05" month="November" year="2013"></date>
     <abstract>
-      <t>Security systems are built on strong cryptographic algorithms that foil pattern analysis attempts. However, the security of these systems is dependent on generating secret quantities for passwords, cryptographic keys, and similar values. The use of pseudo-random processes to generate secret quantities can result in pseudo- security. For example, the sophisticated attacker of these security systems may find it easier to reproduce the environment that produced the secret quantities, searching a resulting small set of possibilities, than to locate the quantities in the whole of the potential number space. Choosing random quantities to foil a resourceful and motivated adversary can be surprisingly difficult. This document points out many pitfalls in using poor entropy sources or traditional pseudo- random number generation techniques for generating such quantities. It recommends the use of multiple sources with a strong mixing function, so that no single source need be fully trusted, and provides techniques for extending a random seed to a larger quantity of pseudo-random material in a cryptographically secure way. And it gives examples of how large such quantities need to be for some applications. This document obsoletes RFC 4086.</t>
+      <t>   Security systems are built on strong cryptographic algorithms that
+   foil pattern analysis attempts. However, the security of these
+   systems is dependent on generating secret quantities for passwords,
+   cryptographic keys, and similar values. The use of pseudo-random
+   processes to generate secret quantities can result in pseudo-
+   security.  For example, the sophisticated attacker of these security
+   systems may find it easier to reproduce the environment that produced
+   the secret quantities, searching a resulting small set of
+   possibilities, than to locate the quantities in the whole of the
+   potential number space.
+
+   Choosing random quantities to foil a resourceful and motivated
+   adversary can be surprisingly difficult. This document points out
+   many pitfalls in using poor entropy sources or traditional pseudo-
+   random number generation techniques for generating such quantities.
+   It recommends the use of multiple sources with a strong mixing
+   function, so that no single source need be fully trusted, and
+   provides techniques for extending a random seed to a larger quantity
+   of pseudo-random material in a cryptographically secure way. And it
+   gives examples of how large such quantities need to be for some
+   applications. This document obsoletes RFC 4086.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-eastlake-randomness3-00"/>
 </reference>

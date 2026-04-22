@@ -1,16 +1,23 @@
 <reference anchor="I-D.cheshire-sudn-ipv4only-dot-arpa" target="https://datatracker.ietf.org/doc/html/draft-cheshire-sudn-ipv4only-dot-arpa-17">
   <front>
     <title>Special Use Domain Name 'ipv4only.arpa'</title>
-    <author fullname="Stuart Cheshire" initials="S." surname="Cheshire">
+    <seriesInfo name="Internet-Draft" value="draft-cheshire-sudn-ipv4only-dot-arpa-17"/>
+    <author initials="S." surname="Cheshire" fullname="Stuart Cheshire">
       <organization>Apple Inc.</organization>
     </author>
-    <author fullname="David Schinazi" initials="D." surname="Schinazi">
+    <author initials="D." surname="Schinazi" fullname="David Schinazi">
       <organization>Google LLC</organization>
     </author>
-    <date year="2020" month="March" day="19"/>
+    <date day="19" month="March" year="2020"></date>
     <abstract>
-      <t>NAT64 (Network Address and Protocol Translation from IPv6 Clients to IPv4 Servers) allows client devices using IPv6 to communicate with servers that have only IPv4 connectivity. The specification for how a client discovers its local network's NAT64 prefix (RFC 7050) defines the special name 'ipv4only.arpa' for this purpose. However, in its Domain Name Reservation Considerations section (Section 8.1), that specification (RFC 7050) indicates that the name actually has no particularly special properties that would require special handling. Consequently, despite the well-articulated special purpose of the name, 'ipv4only.arpa' was not recorded in the Special-Use Domain Names registry as a name with special properties. This document updates RFC 7050. It describes the special treatment required and formally declares the special properties of the name. It also adds similar declarations for the corresponding reverse mapping names.</t>
+      <t>NAT64 (Network Address and Protocol Translation from IPv6 Clients to IPv4 Servers) allows client devices using IPv6 to communicate with servers that have only IPv4 connectivity.
+
+ The specification for how a client discovers its local network's NAT64 prefix (RFC 7050) defines the special name 'ipv4only.arpa' for this purpose. However, in its Domain Name Reservation Considerations section (Section 8.1), that specification (RFC 7050) indicates that the name actually has no particularly special properties that would require special handling.
+
+ Consequently, despite the well-articulated special purpose of the name, 'ipv4only.arpa' was not recorded in the Special-Use Domain Names registry as a name with special properties.
+
+ This document updates RFC 7050. It describes the special treatment required and formally declares the special properties of the name. It also adds similar declarations for the corresponding reverse mapping names.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-cheshire-sudn-ipv4only-dot-arpa-17"/>
 </reference>

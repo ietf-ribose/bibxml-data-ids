@@ -1,16 +1,32 @@
 <reference anchor="I-D.nandakumar-ai-agent-moq-transport" target="https://datatracker.ietf.org/doc/html/draft-nandakumar-ai-agent-moq-transport-00">
   <front>
     <title>MOQ Transport for Agent Protocols</title>
-    <author fullname="Suhas Nandakumar" initials="S." surname="Nandakumar">
+    <seriesInfo name="Internet-Draft" value="draft-nandakumar-ai-agent-moq-transport-00"/>
+    <author initials="S." surname="Nandakumar" fullname="Suhas Nandakumar">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Cullen Fluffy Jennings" initials="C. F." surname="Jennings">
+    <author initials="C. F." surname="Jennings" fullname="Cullen Fluffy Jennings">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2026" month="March" day="2"/>
+    <date day="02" month="March" year="2026"></date>
     <abstract>
-      <t>This document defines a protocol abstraction layer that enables Media over QUIC Transport (MOQT) to serve as a unified transport substrate for inter-agent communication protocols. The abstraction provides a common mapping of request-response and streaming patterns onto MOQT's publish/subscribe model, allowing diverse agent protocols to leverage MOQT's real-time streaming capabilities, built-in prioritization, and efficient multiplexing over QUIC. The document demonstrates the application of this abstraction to two prominent inter-agent protocols: the Agent-to-Agent (A2A) protocol [A2A], which focuses on agent discovery, task delegation, and collaboration; and the Model Context Protocol (MCP) [MCP], which provides tool and resource access for agents. This unified approach enables interoperability across diverse agent ecosystems while preserving each protocol's semantics.</t>
+      <t>   This document defines a protocol abstraction layer that enables Media
+   over QUIC Transport (MOQT) to serve as a unified transport substrate
+   for inter-agent communication protocols.  The abstraction provides a
+   common mapping of request-response and streaming patterns onto MOQT's
+   publish/subscribe model, allowing diverse agent protocols to leverage
+   MOQT's real-time streaming capabilities, built-in prioritization, and
+   efficient multiplexing over QUIC.
+
+   The document demonstrates the application of this abstraction to two
+   prominent inter-agent protocols: the Agent-to-Agent (A2A) protocol
+   [A2A], which focuses on agent discovery, task delegation, and
+   collaboration; and the Model Context Protocol (MCP) [MCP], which
+   provides tool and resource access for agents.  This unified approach
+   enables interoperability across diverse agent ecosystems while
+   preserving each protocol's semantics.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-nandakumar-ai-agent-moq-transport-00"/>
 </reference>

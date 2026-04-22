@@ -1,19 +1,27 @@
 <reference anchor="I-D.ietf-idr-bgp-extended-messages" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-bgp-extended-messages-32">
   <front>
     <title>Extended Message support for BGP</title>
-    <author fullname="Randy Bush" initials="R." surname="Bush">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-extended-messages-32"/>
+    <author initials="R." surname="Bush" fullname="Randy Bush">
       <organization>IIJ &amp; Arrcus</organization>
     </author>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
+    <author initials="K." surname="Patel" fullname="Keyur Patel">
       <organization>Arrcus, Inc.</organization>
     </author>
-    <author fullname="David Ward" initials="D." surname="Ward">
+    <author initials="D." surname="Ward" fullname="David Ward">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2019" month="July" day="2"/>
+    <date day="02" month="July" year="2019"></date>
     <abstract>
-      <t>The BGP specification mandates a maximum BGP message size of 4,096 octets. As BGP is extended to support newer AFI/SAFIs and other features, there is a need to extend the maximum message size beyond 4,096 octets. This document updates the BGP specification RFC4271 by extending the maximum message size from 4,096 octets to 65,535 octets for all except the OPEN and KEEPALIVE messages.</t>
+      <t>   The BGP specification mandates a maximum BGP message size of 4,096
+   octets.  As BGP is extended to support newer AFI/SAFIs and other
+   features, there is a need to extend the maximum message size beyond
+   4,096 octets.  This document updates the BGP specification RFC4271 by
+   extending the maximum message size from 4,096 octets to 65,535 octets
+   for all except the OPEN and KEEPALIVE messages.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-extended-messages-32"/>
 </reference>

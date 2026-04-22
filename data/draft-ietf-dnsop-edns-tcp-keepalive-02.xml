@@ -1,22 +1,30 @@
 <reference anchor="I-D.ietf-dnsop-edns-tcp-keepalive" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-edns-tcp-keepalive-02">
   <front>
     <title>The edns-tcp-keepalive EDNS0 Option</title>
-    <author fullname="Paul Wouters" initials="P." surname="Wouters">
-      <organization/>
-    </author>
-    <author fullname="Joe Abley" initials="J." surname="Abley">
-      <organization/>
-    </author>
-    <author fullname="Sara Dickinson" initials="S." surname="Dickinson">
-      <organization/>
-    </author>
-    <author fullname="Ray Bellis" initials="R." surname="Bellis">
-      <organization/>
-    </author>
-    <date year="2015" month="July" day="3"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-edns-tcp-keepalive-02"/>
+    <author initials="P." surname="Wouters" fullname="Paul Wouters"/>
+    <author initials="J." surname="Abley" fullname="Joe Abley"/>
+    <author initials="S." surname="Dickinson" fullname="Sara Dickinson"/>
+    <author initials="R." surname="Bellis" fullname="Ray Bellis"/>
+    <date day="03" month="July" year="2015"></date>
     <abstract>
-      <t>DNS messages between clients and servers may be received over either UDP or TCP. UDP transport involves keeping less state on a busy server, but can cause truncation and retries over TCP. Additionally, UDP can be exploited for reflection attacks. Using TCP would reduce retransmits and amplification. However, clients commonly use TCP only for fallback and servers typically use idle timeouts on the order of seconds. This document defines an EDNS0 option ("edns-tcp-keepalive") that allows DNS servers to signal a variable idle timeout. This signalling facilitates a better balance of UDP and TCP transport between individual clients and servers, reducing the impact of problems associated with UDP transport and allowing the state associated with TCP transport to be managed effectively with minimal impact on the DNS transaction time.</t>
+      <t>   DNS messages between clients and servers may be received over either
+   UDP or TCP.  UDP transport involves keeping less state on a busy
+   server, but can cause truncation and retries over TCP.  Additionally,
+   UDP can be exploited for reflection attacks.  Using TCP would reduce
+   retransmits and amplification.  However, clients commonly use TCP
+   only for fallback and servers typically use idle timeouts on the
+   order of seconds.
+
+   This document defines an EDNS0 option ("edns-tcp-keepalive") that
+   allows DNS servers to signal a variable idle timeout.  This
+   signalling facilitates a better balance of UDP and TCP transport
+   between individual clients and servers, reducing the impact of
+   problems associated with UDP transport and allowing the state
+   associated with TCP transport to be managed effectively with minimal
+   impact on the DNS transaction time.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-edns-tcp-keepalive-02"/>
 </reference>

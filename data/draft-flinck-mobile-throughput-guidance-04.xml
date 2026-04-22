@@ -1,34 +1,56 @@
 <reference anchor="I-D.flinck-mobile-throughput-guidance" target="https://datatracker.ietf.org/doc/html/draft-flinck-mobile-throughput-guidance-04">
   <front>
     <title>Mobile Throughput Guidance Inband Signaling Protocol</title>
-    <author fullname="Ankur Jain" initials="A." surname="Jain">
+    <seriesInfo name="Internet-Draft" value="draft-flinck-mobile-throughput-guidance-04"/>
+    <author initials="A." surname="Jain" fullname="Ankur Jain">
       <organization>Google</organization>
     </author>
-    <author fullname="Andreas Terzis" initials="A." surname="Terzis">
+    <author initials="A." surname="Terzis" fullname="Andreas Terzis">
       <organization>Google</organization>
     </author>
-    <author fullname="Hannu Flinck" initials="H." surname="Flinck">
+    <author initials="H." surname="Flinck" fullname="Hannu Flinck">
       <organization>Nokia Networks</organization>
     </author>
-    <author fullname="Nurit Sprecher" initials="N." surname="Sprecher">
+    <author initials="N." surname="Sprecher" fullname="Nurit Sprecher">
       <organization>Nokia Networks</organization>
     </author>
-    <author fullname="Swaminathan Arunachalam" initials="S." surname="Arunachalam">
+    <author initials="S." surname="Arunachalam" fullname="Swaminathan Arunachalam">
       <organization>Nokia Networks</organization>
     </author>
-    <author fullname="Kevin Smith" initials="K." surname="Smith">
+    <author initials="K." surname="Smith" fullname="Kevin Smith">
       <organization>Vodafone</organization>
     </author>
-    <author fullname="Vijay Devarapalli" initials="V." surname="Devarapalli">
+    <author initials="V." surname="Devarapalli" fullname="Vijay Devarapalli">
       <organization>Vasona Networks</organization>
     </author>
-    <author fullname="Roni Bar Yanai" initials="R. B." surname="Yanai">
+    <author initials="R. B." surname="Yanai" fullname="Roni Bar Yanai">
       <organization>Vasona Networks</organization>
     </author>
-    <date year="2017" month="March" day="13"/>
+    <date day="13" month="March" year="2017"></date>
     <abstract>
-      <t>The bandwidth available for end user devices in cellular networks can vary by an order of magnitude over a few seconds due to changes in the underlying radio channel conditions, as device mobility and changes in system load as other devices enter and leave the network. Furthermore, packets losses are not always signs of congestion. The Transmission Control Protocol (TCP) can have difficulties adapting to these rapidly varying conditions leading to inefficient use of a cellular network's resources and degraded application performance. Problem statement, requirements and the architecture for a solution is documented in [Req_Arch_MTG_Exposure]. This document proposes a mechanism and protocol elements that allow the cellular network to provide near real-time information on capacity available to the TCP server. This "Throughput Guidance" (TG) information would indicate the throughput estimated to be available at the radio downlink interface (between the Radio Access Network (RAN) and the mobile device (UE)). TCP server can use this TG information to ensure high network utilization and high service delivery performance. The document describes the applicability of the proposed mechanism for video delivery over cellular networks; it also presents test results from live operator's environment.</t>
+      <t>   The bandwidth available for end user devices in cellular networks can
+   vary by an order of magnitude over a few seconds due to changes in
+   the underlying radio channel conditions, as device mobility and
+   changes in system load as other devices enter and leave the network.
+   Furthermore, packets losses are not always signs of congestion.  The
+   Transmission Control Protocol (TCP) can have difficulties adapting to
+   these rapidly varying conditions leading to inefficient use of a
+   cellular network's resources and degraded application performance.
+   Problem statement, requirements and the architecture for a solution
+   is documented in [Req_Arch_MTG_Exposure].
+
+   This document proposes a mechanism and protocol elements that allow
+   the cellular network to provide near real-time information on
+   capacity available to the TCP server.  This "Throughput Guidance"
+   (TG) information would indicate the throughput estimated to be
+   available at the radio downlink interface (between the Radio Access
+   Network (RAN) and the mobile device (UE)).  TCP server can use this
+   TG information to ensure high network utilization and high service
+   delivery performance.  The document describes the applicability of
+   the proposed mechanism for video delivery over cellular networks; it
+   also presents test results from live operator's environment.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-flinck-mobile-throughput-guidance-04"/>
 </reference>

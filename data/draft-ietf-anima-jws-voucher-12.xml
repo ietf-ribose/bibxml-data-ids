@@ -1,16 +1,27 @@
 <reference anchor="I-D.ietf-anima-jws-voucher" target="https://datatracker.ietf.org/doc/html/draft-ietf-anima-jws-voucher-12">
   <front>
     <title>JWS signed Voucher Artifacts for Bootstrapping Protocols</title>
-    <author fullname="Thomas Werner" initials="T." surname="Werner">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-anima-jws-voucher-12"/>
+    <author initials="T." surname="Werner" fullname="Thomas Werner">
       <organization>Siemens AG</organization>
     </author>
-    <author fullname="Michael Richardson" initials="M." surname="Richardson">
+    <author initials="M." surname="Richardson" fullname="Michael Richardson">
       <organization>Sandelman Software Works</organization>
     </author>
-    <date year="2024" month="September" day="12"/>
+    <date day="12" month="September" year="2024"></date>
     <abstract>
-      <t>I-D.ietf-anima-rfc8366bis defines a digital artifact called voucher as a YANG-defined JSON document that is signed using a Cryptographic Message Syntax (CMS) structure. This document introduces a variant of the voucher artifact in which CMS is replaced by the JSON Object Signing and Encryption (JOSE) mechanism described in RFC7515 to support deployments in which JOSE is preferred over CMS. In addition to explaining how the format is created, the "application/voucher-jws+json" media type is registered and examples are provided.</t>
+      <t>   I-D.ietf-anima-rfc8366bis defines a digital artifact called voucher
+   as a YANG-defined JSON document that is signed using a Cryptographic
+   Message Syntax (CMS) structure.  This document introduces a variant
+   of the voucher artifact in which CMS is replaced by the JSON Object
+   Signing and Encryption (JOSE) mechanism described in RFC7515 to
+   support deployments in which JOSE is preferred over CMS.
+
+   In addition to explaining how the format is created, the
+   "application/voucher-jws+json" media type is registered and examples
+   are provided.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-anima-jws-voucher-12"/>
 </reference>

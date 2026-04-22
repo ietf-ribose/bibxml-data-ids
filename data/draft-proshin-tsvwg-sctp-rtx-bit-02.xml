@@ -1,13 +1,21 @@
 <reference anchor="I-D.proshin-tsvwg-sctp-rtx-bit" target="https://datatracker.ietf.org/doc/html/draft-proshin-tsvwg-sctp-rtx-bit-02">
   <front>
     <title>Retransmit bit for SCTP DATA, I-DATA and SACK</title>
-    <author fullname="Maksim Proshin" initials="M." surname="Proshin">
+    <seriesInfo name="Internet-Draft" value="draft-proshin-tsvwg-sctp-rtx-bit-02"/>
+    <author initials="M." surname="Proshin" fullname="Maksim Proshin">
       <organization>Ericsson</organization>
     </author>
-    <date year="2019" month="December" day="2"/>
+    <date day="02" month="December" year="2019"></date>
     <abstract>
-      <t>This document defines a method which helps an SCTP sender to understand when a received SACK acknowledges the original transmission of a TSN or its retransmission. It is done by specifying a new bit, called Retransmit bit (R-bit), in the header of DATA, I-DATA and SACK chunks. The bit is used when a TSN is retransmitted and returned back in the acknowledgement. This document updates [RFC4960] if approved.</t>
+      <t>   This document defines a method which helps an SCTP sender to
+   understand when a received SACK acknowledges the original
+   transmission of a TSN or its retransmission.  It is done by
+   specifying a new bit, called Retransmit bit (R-bit), in the header of
+   DATA, I-DATA and SACK chunks.  The bit is used when a TSN is
+   retransmitted and returned back in the acknowledgement.  This
+   document updates [RFC4960] if approved.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-proshin-tsvwg-sctp-rtx-bit-02"/>
 </reference>

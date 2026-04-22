@@ -1,13 +1,22 @@
 <reference anchor="I-D.hoffman-simplednsjson" target="https://datatracker.ietf.org/doc/html/draft-hoffman-simplednsjson-00">
   <front>
     <title>Simple DNS Queries and Responses in JSON</title>
-    <author fullname="Paul E. Hoffman" initials="P. E." surname="Hoffman">
-      <organization/>
-    </author>
-    <date year="2017" month="June" day="5"/>
+    <seriesInfo name="Internet-Draft" value="draft-hoffman-simplednsjson-00"/>
+    <author initials="P. E." surname="Hoffman" fullname="Paul E. Hoffman"/>
+    <date day="05" month="June" year="2017"></date>
     <abstract>
-      <t>This document describes a JSON-based format for simple DNS queries and responses. In this case, "simple" means "only useful for getting A and AAAA records". This document also defines the application/ simpledns+json media type. The primary use case of this format is programs that do not want to take on the programmatic overhead needed to use messages in the application/dns-udpwireformat media type. [ This paragraph is to be removed when this document is published as an RFC ] Comments on this draft can be sent to the DNS over HTTP mailing list at https://www.ietf.org/mailman/listinfo/dnsoverhttp.</t>
+      <t>   This document describes a JSON-based format for simple DNS queries
+   and responses.  In this case, "simple" means "only useful for getting
+   A and AAAA records".  This document also defines the application/
+   simpledns+json media type.  The primary use case of this format is
+   programs that do not want to take on the programmatic overhead needed
+   to use messages in the application/dns-udpwireformat media type.
+
+   [ This paragraph is to be removed when this document is published as
+   an RFC ] Comments on this draft can be sent to the DNS over HTTP
+   mailing list at https://www.ietf.org/mailman/listinfo/dnsoverhttp .
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hoffman-simplednsjson-00"/>
 </reference>

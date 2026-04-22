@@ -1,16 +1,24 @@
 <reference anchor="I-D.ford-m2mcertificate" target="https://datatracker.ietf.org/doc/html/draft-ford-m2mcertificate-00">
   <front>
     <title>The Machine-to-Machine (M2M) Public Key Certificate Format</title>
-    <author fullname="Warwick Ford" initials="W." surname="Ford">
-      <organization/>
-    </author>
-    <author fullname="Yuri Poeluev" initials="Y." surname="Poeluev">
+    <seriesInfo name="Internet-Draft" value="draft-ford-m2mcertificate-00"/>
+    <author initials="W." surname="Ford" fullname="Warwick Ford"/>
+    <author initials="Y." surname="Poeluev" fullname="Yuri Poeluev">
       <organization>TrustPoint Innovation Technologies</organization>
     </author>
-    <date year="2015" month="March" day="23"/>
+    <date day="23" month="March" year="2015"></date>
     <abstract>
-      <t>The X.509 public key certificate format is overly verbose for Internet-of-Things (IoT) constrained environments, where nodes with limited memory and networks with limited bandwidth are not uncommon. The Machine-to-Machine (M2M) certificate format is a pruned down and encoding-optimized replacement for X.509, which reuses much of the X.509 semantics but reduces certificate sizes by typically 40%. We are proposing that IETF recognize the M2M format as an optional replacement for X.509 in Internet applications including, but not limited to, TLS and DTLS.</t>
+      <t>   The X.509 public key certificate format is overly verbose for
+   Internet-of-Things (IoT) constrained environments, where nodes with
+   limited memory and networks with limited bandwidth are not uncommon.
+   The Machine-to-Machine (M2M) certificate format is a pruned down and
+   encoding-optimized replacement for X.509, which reuses much of the
+   X.509 semantics but reduces certificate sizes by typically 40%.  We
+   are proposing that IETF recognize the M2M format as an optional
+   replacement for X.509 in Internet applications including, but not
+   limited to, TLS and DTLS.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ford-m2mcertificate-00"/>
 </reference>

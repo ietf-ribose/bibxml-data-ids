@@ -1,22 +1,35 @@
 <reference anchor="I-D.liu-ipsecme-ikev2-mtu-dect" target="https://datatracker.ietf.org/doc/html/draft-liu-ipsecme-ikev2-mtu-dect-04">
   <front>
     <title>IKEv2 IPv4 Link Maximum Atomic Packet Notification Extension</title>
-    <author fullname="Daniel Migault" initials="D." surname="Migault">
+    <seriesInfo name="Internet-Draft" value="draft-liu-ipsecme-ikev2-mtu-dect-04"/>
+    <author initials="D." surname="Migault" fullname="Daniel Migault">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Daiying Liu" initials="D." surname="Liu">
+    <author initials="D." surname="Liu" fullname="Daiying Liu">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Renwang Liu" initials="R." surname="Liu">
+    <author initials="R." surname="Liu" fullname="Renwang Liu">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Congjie Zhang" initials="C." surname="Zhang">
+    <author initials="C." surname="Zhang" fullname="Congjie Zhang">
       <organization>Ericsson</organization>
     </author>
-    <date year="2022" month="November" day="20"/>
+    <date day="20" month="November" year="2022"></date>
     <abstract>
-      <t>This document considers a ingress and an egress security gateway connected over a IPv4 network. The Tunnel Link Packet have their Don't Fragment (DF) set to 0. This document defines the IKEv2 IPv4 Link Maximum Atomic Packet Notification Extension which enables the egress security gateway to notify the ingress security gateway that Mid-tunnel Fragmentation is observed with the value of the Link Maximum Atomic Packet. The ingress security gateway is expected to take action as to avoid the egress security gateway to perform costly reassemble operation. The ingress security gateway is expected to either perform (when possible) Inner Fragmentation of to update Tunnel MTU.</t>
+      <t>   This document considers a ingress and an egress security gateway
+   connected over a IPv4 network.  The Tunnel Link Packet have their
+   Don't Fragment (DF) set to 0.
+
+   This document defines the IKEv2 IPv4 Link Maximum Atomic Packet
+   Notification Extension which enables the egress security gateway to
+   notify the ingress security gateway that Mid-tunnel Fragmentation is
+   observed with the value of the Link Maximum Atomic Packet.  The
+   ingress security gateway is expected to take action as to avoid the
+   egress security gateway to perform costly reassemble operation.  The
+   ingress security gateway is expected to either perform (when
+   possible) Inner Fragmentation of to update Tunnel MTU.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-liu-ipsecme-ikev2-mtu-dect-04"/>
 </reference>

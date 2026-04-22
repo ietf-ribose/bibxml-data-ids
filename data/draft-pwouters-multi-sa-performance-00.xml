@@ -1,19 +1,31 @@
 <reference anchor="I-D.pwouters-multi-sa-performance" target="https://datatracker.ietf.org/doc/html/draft-pwouters-multi-sa-performance-00">
   <front>
     <title>IKEv2 support for per-queue Child SAs</title>
-    <author fullname="Antony Antony" initials="A." surname="Antony">
+    <seriesInfo name="Internet-Draft" value="draft-pwouters-multi-sa-performance-00"/>
+    <author initials="A." surname="Antony" fullname="Antony Antony">
       <organization>secunet Security Networks AG</organization>
     </author>
-    <author fullname="Steffen Klassert" initials="S." surname="Klassert">
+    <author initials="S." surname="Klassert" fullname="Steffen Klassert">
       <organization>secunet Security Networks AG</organization>
     </author>
-    <author fullname="Paul Wouters" initials="P." surname="Wouters">
+    <author initials="P." surname="Wouters" fullname="Paul Wouters">
       <organization>Red Hat</organization>
     </author>
-    <date year="2020" month="November" day="2"/>
+    <date day="02" month="November" year="2020"></date>
     <abstract>
-      <t>This document defines two Notification Payload (NUM_QUEUES and QUEUE_INFO) for the Internet Key Exchange Protocol Version 2 (IKEv2). These payloads add support for negotiating multiple identical Child SAs that can be used to to optimize performance based on the number of queues or CPUs, orcw to create multiple Child SAs for different Quality of Service (QoS) levels. Using multiple identical Child Sa's has the additional benefit that multiple streams have their own Sequence Number, ensuring that CPU's don't have to synchronize their crypto state or disable their replay window detection.</t>
+      <t>   This document defines two Notification Payload (NUM_QUEUES and
+   QUEUE_INFO) for the Internet Key Exchange Protocol Version 2 (IKEv2).
+   These payloads add support for negotiating multiple identical Child
+   SAs that can be used to to optimize performance based on the number
+   of queues or CPUs, orcw to create multiple Child SAs for different
+   Quality of Service (QoS) levels.
+
+   Using multiple identical Child Sa's has the additional benefit that
+   multiple streams have their own Sequence Number, ensuring that CPU's
+   don't have to synchronize their crypto state or disable their replay
+   window detection.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-pwouters-multi-sa-performance-00"/>
 </reference>

@@ -1,25 +1,36 @@
 <reference anchor="I-D.geng-idr-bgp-savnet" target="https://datatracker.ietf.org/doc/html/draft-geng-idr-bgp-savnet-06">
   <front>
     <title>BGP Extensions for Source Address Validation Networks (BGP SAVNET)</title>
-    <author fullname="Nan Geng" initials="N." surname="Geng">
+    <seriesInfo name="Internet-Draft" value="draft-geng-idr-bgp-savnet-06"/>
+    <author initials="N." surname="Geng" fullname="Nan Geng">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Zhenbin Li" initials="Z." surname="Li">
+    <author initials="Z." surname="Li" fullname="Zhenbin Li">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Zhen Tan" initials="Z." surname="Tan">
+    <author initials="Z." surname="Tan" fullname="Zhen Tan">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Mingxing Liu" initials="" surname="Liu">
+    <author surname="Liu" fullname="Mingxing Liu">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Dan Li" initials="D." surname="Li">
+    <author initials="D." surname="Li" fullname="Dan Li">
       <organization>Tsinghua University</organization>
     </author>
-    <date year="2026" month="March" day="24"/>
+    <date day="24" month="March" year="2026"></date>
     <abstract>
-      <t>Many source address validation (SAV) mechanisms have been proposed for preventing source address spoofing. However, existing SAV mechanisms are faced with the problems of inaccurate validation or high operational overhead in some scenarios. This document proposes BGP SAVNET by extending BGP protocol for SAV. This protocol can propagate SAV-related information through BGP messages. The propagated information will help edge/border routers automatically generate accurate SAV rules. These rules construct a validation boundary for the network and help check the validity of source addresses of arrival data packets.</t>
+      <t>   Many source address validation (SAV) mechanisms have been proposed
+   for preventing source address spoofing.  However, existing SAV
+   mechanisms are faced with the problems of inaccurate validation or
+   high operational overhead in some scenarios.  This document proposes
+   BGP SAVNET by extending BGP protocol for SAV.  This protocol can
+   propagate SAV-related information through BGP messages.  The
+   propagated information will help edge/border routers automatically
+   generate accurate SAV rules.  These rules construct a validation
+   boundary for the network and help check the validity of source
+   addresses of arrival data packets.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-geng-idr-bgp-savnet-06"/>
 </reference>

@@ -1,16 +1,30 @@
 <reference anchor="I-D.daley-magma-smld-prob" target="https://datatracker.ietf.org/doc/html/draft-daley-magma-smld-prob-00">
   <front>
     <title>Trust Models and Security in Multicast Listener Discovery</title>
-    <author fullname="Greg Daley" initials="G." surname="Daley">
+    <seriesInfo name="Internet-Draft" value="draft-daley-magma-smld-prob-00"/>
+    <author initials="G." surname="Daley" fullname="Greg Daley">
       <organization>Monash University CTIE</organization>
     </author>
-    <author fullname="Gopi Kurup" initials="G." surname="Kurup">
+    <author initials="G." surname="Kurup" fullname="Gopi Kurup">
       <organization>Monash University CTIE</organization>
     </author>
-    <date year="2004" month="July" day="12"/>
+    <date day="12" month="July" year="2004"></date>
     <abstract>
-      <t>The Multicast Listener Discovery (MLD) is used by IPv6 routers to discover the presence of multicast listeners (i.e. nodes that wish to receive multicast packets) on their directly attached links, and to discover which multicast addresses are of interest to those neighbouring nodes. The existing protocol specification (MLDv2) discusses the effects of on-link forgery of MLD packets but provides no protection from on-link attacks. By taking advantage of or abusing Multicast Listener Discovery, bogus devices may cause incorrect state and disruption to multicast or unicast packet delivery. This memo considers the trust models for the MLD protocols, and their interaction as well as their interaction with link-layer and multicast proxy devices. It provides a security and threat analysis for each model.</t>
+      <t>   The Multicast Listener Discovery (MLD) is used by IPv6 routers to
+   discover the presence of multicast listeners (i.e.  nodes that wish
+   to receive multicast packets) on their directly attached links, and
+   to discover which multicast addresses are of interest to those
+   neighbouring nodes.  The existing protocol specification (MLDv2)
+   discusses the effects of on-link forgery of MLD packets but provides
+   no protection from on-link attacks.
+
+   By taking advantage of or abusing Multicast Listener Discovery, bogus
+   devices may cause incorrect state and disruption to multicast or
+   unicast packet delivery.  This memo considers the trust models for
+   the MLD protocols, and their interaction as well as their interaction
+   with link-layer and multicast proxy devices.  It provides a security
+   and threat analysis for each model.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-daley-magma-smld-prob-00"/>
 </reference>

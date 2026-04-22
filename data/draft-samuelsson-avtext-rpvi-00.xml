@@ -1,19 +1,33 @@
 <reference anchor="I-D.samuelsson-avtext-rpvi" target="https://datatracker.ietf.org/doc/html/draft-samuelsson-avtext-rpvi-00">
   <front>
     <title>Reference Picture Verification Information in the RTP Audio-Visual Profile with Feedback (AVPF)</title>
-    <author fullname="Jonatan Samuelsson" initials="J." surname="Samuelsson">
+    <seriesInfo name="Internet-Draft" value="draft-samuelsson-avtext-rpvi-00"/>
+    <author initials="J." surname="Samuelsson" fullname="Jonatan Samuelsson">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Muhammed Coban" initials="M." surname="Coban">
+    <author initials="M." surname="Coban" fullname="Muhammed Coban">
       <organization>Qualcomm</organization>
     </author>
-    <author fullname="Stephan Wenger" initials="S." surname="Wenger">
+    <author initials="S." surname="Wenger" fullname="Stephan Wenger">
       <organization>Vidyo</organization>
     </author>
-    <date year="2014" month="December" day="15"/>
+    <date day="15" month="December" year="2014"></date>
     <abstract>
-      <t>This document specifies an extension to the feedback messages defined in the Audio-Visual Profile with Feedback (AVPF). The new Reference Picture Verification Information (RPVI) feedback message conveys information about available reference pictures in the decoded picture buffer of a video decoder in the receiver of an RTP video stream. By including information related to Decoded Picture Hash (DPH) values, media senders and media receivers can verify that reference pictures used for prediction by the video encoder and the video decoder are aligned. It is also possible to use the RPVI feedback message to indicate that a specific reference picture has incorrect sample values (i.e. a mismatch in the DPH value between encoder and decoder) or that a specific reference picture has been lost.</t>
+      <t>   This document specifies an extension to the feedback messages defined
+   in the Audio-Visual Profile with Feedback (AVPF). The new Reference
+   Picture Verification Information (RPVI) feedback message conveys
+   information about available reference pictures in the decoded picture
+   buffer of a video decoder in the receiver of an RTP video stream.
+
+   By including information related to Decoded Picture Hash (DPH)
+   values, media senders and media receivers can verify that reference
+   pictures used for prediction by the video encoder and the video
+   decoder are aligned. It is also possible to use the RPVI feedback
+   message to indicate that a specific reference picture has incorrect
+   sample values (i.e. a mismatch in the DPH value between encoder and
+   decoder) or that a specific reference picture has been lost.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-samuelsson-avtext-rpvi-00"/>
 </reference>

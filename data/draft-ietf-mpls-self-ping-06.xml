@@ -1,25 +1,32 @@
 <reference anchor="I-D.ietf-mpls-self-ping" target="https://datatracker.ietf.org/doc/html/draft-ietf-mpls-self-ping-06">
   <front>
     <title>Label Switched Path (LSP) Self-Ping</title>
-    <author fullname="Ron Bonica" initials="R." surname="Bonica">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-self-ping-06"/>
+    <author initials="R." surname="Bonica" fullname="Ron Bonica">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Ina Minei" initials="I." surname="Minei">
+    <author initials="I." surname="Minei" fullname="Ina Minei">
       <organization>Google, Inc.</organization>
     </author>
-    <author fullname="Michael Conn" initials="M." surname="Conn">
+    <author initials="M." surname="Conn" fullname="Michael Conn">
       <organization>Verizon</organization>
     </author>
-    <author fullname="Dante Pacella" initials="D." surname="Pacella">
+    <author initials="D." surname="Pacella" fullname="Dante Pacella">
       <organization>Verizon</organization>
     </author>
-    <author fullname="Luis Tomotaki" initials="L." surname="Tomotaki">
+    <author initials="L." surname="Tomotaki" fullname="Luis Tomotaki">
       <organization>Verizon</organization>
     </author>
-    <date year="2015" month="November" day="1"/>
+    <date day="01" month="November" year="2015"></date>
     <abstract>
-      <t>When certain RSVP-TE optimizations are implemented, ingress Label Switching Router (LSRs) can receive RSVP RESV messages before forwarding state has been installed on all downstream nodes. According to the RSVP-TE specification, the ingress LSR can forward traffic through a Label Switched Path (LSP) as soon as it receives a RESV message. However, if the ingress LSR forwards traffic through the LSP before forwarding state has been installed on all downstream nodes, traffic can be lost. This document describes LSP Self-ping. When an ingress LSR receives an RESV message, it can invoke LSP Self-ping procedures to ensure that forwarding state has been installed on all downstream nodes. LSP Self-ping is a new protocol. It is not an extension of LSP Ping. Although LSP Ping and LSP Self-ping are named similarly, each is designed for a unique purpose. Each protocol listens on its own UDP port and executes its own procedures. LSP Self-ping is an extremely lightweight mechanism. It does not consume control-plane resources on transit or egress LSRs.</t>
+      <t>When certain RSVP-TE optimizations are implemented, ingress Label Switching Router (LSRs) can receive RSVP RESV messages before forwarding state has been installed on all downstream nodes. According to the RSVP-TE specification, the ingress LSR can forward traffic through a Label Switched Path (LSP) as soon as it receives a RESV message. However, if the ingress LSR forwards traffic through the LSP before forwarding state has been installed on all downstream nodes, traffic can be lost.
+
+ This document describes LSP Self-ping. When an ingress LSR receives an RESV message, it can invoke LSP Self-ping procedures to ensure that forwarding state has been installed on all downstream nodes.
+
+ LSP Self-ping is a new protocol. It is not an extension of LSP Ping. Although LSP Ping and LSP Self-ping are named similarly, each is designed for a unique purpose. Each protocol listens on its own UDP port and executes its own procedures.
+
+ LSP Self-ping is an extremely lightweight mechanism. It does not consume control-plane resources on transit or egress LSRs.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-mpls-self-ping-06"/>
 </reference>

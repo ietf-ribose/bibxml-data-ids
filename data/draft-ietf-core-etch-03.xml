@@ -1,19 +1,24 @@
 <reference anchor="I-D.ietf-core-etch" target="https://datatracker.ietf.org/doc/html/draft-ietf-core-etch-03">
   <front>
     <title>Patch and Fetch Methods for Constrained Application Protocol (CoAP)</title>
-    <author fullname="Peter Van der Stok" initials="P." surname="Van der Stok">
-      <organization/>
-    </author>
-    <author fullname="Carsten Bormann" initials="C." surname="Bormann">
-      <organization/>
-    </author>
-    <author fullname="Anuj Sehgal" initials="A." surname="Sehgal">
-      <organization/>
-    </author>
-    <date year="2016" month="October" day="9"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-core-etch-03"/>
+    <author initials="P." surname="Van der Stok" fullname="Peter Van der Stok"/>
+    <author initials="C." surname="Bormann" fullname="Carsten Bormann"/>
+    <author initials="A." surname="Sehgal" fullname="Anuj Sehgal"/>
+    <date day="09" month="October" year="2016"></date>
     <abstract>
-      <t>The methods defined in RFC 7252 for the Constrained Application Protocol (CoAP) only allow access to a complete resource, not to parts of a resource. In case of resources with larger or complex data, or in situations where a resource continuity is required, replacing or requesting the whole resource is undesirable. Several applications using CoAP will need to perform partial resource accesses. This specification defines the new CoAP methods, FETCH, PATCH and iPATCH, which are used to access and update parts of a resource.</t>
+      <t>   The methods defined in RFC 7252 for the Constrained Application
+   Protocol (CoAP) only allow access to a complete resource, not to
+   parts of a resource.  In case of resources with larger or complex
+   data, or in situations where a resource continuity is required,
+   replacing or requesting the whole resource is undesirable.  Several
+   applications using CoAP will need to perform partial resource
+   accesses.
+
+   This specification defines the new CoAP methods, FETCH, PATCH and
+   iPATCH, which are used to access and update parts of a resource.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-core-etch-03"/>
 </reference>

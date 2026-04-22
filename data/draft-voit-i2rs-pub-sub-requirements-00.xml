@@ -1,19 +1,31 @@
 <reference anchor="I-D.voit-i2rs-pub-sub-requirements" target="https://datatracker.ietf.org/doc/html/draft-voit-i2rs-pub-sub-requirements-00">
   <front>
     <title>Requirements for Subscription to YANG Datastores</title>
-    <author fullname="Eric Voit" initials="E." surname="Voit">
+    <seriesInfo name="Internet-Draft" value="draft-voit-i2rs-pub-sub-requirements-00"/>
+    <author initials="E." surname="Voit" fullname="Eric Voit">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Alexander Clemm" initials="A." surname="Clemm">
+    <author initials="A." surname="Clemm" fullname="Alexander Clemm">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Alberto Gonzalez Prieto" initials="A. G." surname="Prieto">
+    <author initials="A. G." surname="Prieto" fullname="Alberto Gonzalez Prieto">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2014" month="December" day="11"/>
+    <date day="11" month="December" year="2014"></date>
     <abstract>
-      <t>This document provides requirements for a service that allows client applications to subscribe to updates of a YANG datastore. Based on criteria negotiated as part of a subscription, updates will be pushed to targeted recipients. Such a capability eliminates the need for periodic polling of YANG datastores by applications and fills a functional gap in existing YANG transports (i.e. Netconf and Restconf). Such a service can be summarized as a "pub/sub" service for YANG datastore updates. Beyond a set of basic requirements for the service, various refinements are addressed. These refinements include: periodicity of object updates, filtering out of objects underneath a requested a subtree, and delivery QoS guarantees.</t>
+      <t>   This document provides requirements for a service that allows client
+   applications to subscribe to updates of a YANG datastore.  Based on
+   criteria negotiated as part of a subscription, updates will be pushed
+   to targeted recipients.  Such a capability eliminates the need for
+   periodic polling of YANG datastores by applications and fills a
+   functional gap in existing YANG transports (i.e.  Netconf and
+   Restconf).  Such a service can be summarized as a "pub/sub" service
+   for YANG datastore updates.  Beyond a set of basic requirements for
+   the service, various refinements are addressed.  These refinements
+   include: periodicity of object updates, filtering out of objects
+   underneath a requested a subtree, and delivery QoS guarantees.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-voit-i2rs-pub-sub-requirements-00"/>
 </reference>

@@ -1,16 +1,25 @@
 <reference anchor="I-D.abilash-quic-network" target="https://datatracker.ietf.org/doc/html/draft-abilash-quic-network-00">
   <front>
     <title>Network Enhancements for QUIC</title>
-    <author fullname="Abilash Menon" initials="A." surname="Menon">
-      <organization/>
-    </author>
-    <author fullname="Ritesh Mukherjee" initials="R." surname="Mukherjee">
-      <organization/>
-    </author>
-    <date year="2017" month="January" day="4"/>
+    <seriesInfo name="Internet-Draft" value="draft-abilash-quic-network-00"/>
+    <author initials="A." surname="Menon" fullname="Abilash Menon"/>
+    <author initials="R." surname="Mukherjee" fullname="Ritesh Mukherjee"/>
+    <date day="04" month="January" year="2017"></date>
     <abstract>
-      <t>QUIC aims to improve performance by multiplexing streams and various other enhancements [I-D.ietf-quic-transport]. QUIC performs better than existing transport protocols in most cases. However, its performance suffers compared to HTTP under very high bandwidth when large amounts of data needs to be downloaded [MEG2016]. This is because QUIC is an end to end protocol and provides no means for the intermediate network elements to contribute to QUIC improvements. This draft proposes a change to the QUIC protocol header that will allow session aware routers and other middleboxes to prioritize streams in QUIC packets, divert high priority streams to low loss paths, and adjust packet pacing on a per stream basis. This opens the door to many possible future in-network enhancements.</t>
+      <t>   QUIC aims to improve performance by multiplexing streams and various
+   other enhancements [I-D.ietf-quic-transport].  QUIC performs better
+   than existing transport protocols in most cases.  However, its
+   performance suffers compared to HTTP under very high bandwidth when
+   large amounts of data needs to be downloaded [MEG2016].  This is
+   because QUIC is an end to end protocol and provides no means for the
+   intermediate network elements to contribute to QUIC improvements.
+   This draft proposes a change to the QUIC protocol header that will
+   allow session aware routers and other middleboxes to prioritize
+   streams in QUIC packets, divert high priority streams to low loss
+   paths, and adjust packet pacing on a per stream basis.  This opens
+   the door to many possible future in-network enhancements.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-abilash-quic-network-00"/>
 </reference>

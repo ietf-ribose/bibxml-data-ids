@@ -1,16 +1,25 @@
 <reference anchor="I-D.martinsen-tram-stuntrace" target="https://datatracker.ietf.org/doc/html/draft-martinsen-tram-stuntrace-01">
   <front>
     <title>STUN Traceroute</title>
-    <author fullname="Paal-Erik Martinsen" initials="P." surname="Martinsen">
+    <seriesInfo name="Internet-Draft" value="draft-martinsen-tram-stuntrace-01"/>
+    <author initials="P." surname="Martinsen" fullname="Paal-Erik Martinsen">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Dan Wing" initials="D." surname="Wing">
+    <author initials="D." surname="Wing" fullname="Dan Wing">
       <organization>Cisco</organization>
     </author>
-    <date year="2015" month="June" day="1"/>
+    <date day="01" month="June" year="2015"></date>
     <abstract>
-      <t>After a UDP protocol such as RTP determines a network path is experiencing problems, a traceroute is often useful to determine which router or which link is contributing to the problem. However, operating system traceroute commands follow a different path than the actual UDP flow which complicates troubleshooting. A superior method is shown which is absolutely path-congruent with the UDP protocol itself, works on IPv4 and IPv6, and does not require administrative privileges on most operating systems.</t>
+      <t>   After a UDP protocol such as RTP determines a network path is
+   experiencing problems, a traceroute is often useful to determine
+   which router or which link is contributing to the problem.  However,
+   operating system traceroute commands follow a different path than the
+   actual UDP flow which complicates troubleshooting.  A superior method
+   is shown which is absolutely path-congruent with the UDP protocol
+   itself, works on IPv4 and IPv6, and does not require administrative
+   privileges on most operating systems.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-martinsen-tram-stuntrace-01"/>
 </reference>

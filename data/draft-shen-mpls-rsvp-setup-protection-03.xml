@@ -1,19 +1,31 @@
 <reference anchor="I-D.shen-mpls-rsvp-setup-protection" target="https://datatracker.ietf.org/doc/html/draft-shen-mpls-rsvp-setup-protection-03">
   <front>
     <title>RSVP Setup Protection</title>
-    <author fullname="Yimin Shen" initials="Y." surname="Shen">
+    <seriesInfo name="Internet-Draft" value="draft-shen-mpls-rsvp-setup-protection-03"/>
+    <author initials="Y." surname="Shen" fullname="Yimin Shen">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Yuji Kamite" initials="Y." surname="Kamite">
+    <author initials="Y." surname="Kamite" fullname="Yuji Kamite">
       <organization>NTT Communications Corporation</organization>
     </author>
-    <author fullname="Eric Osborne" initials="E." surname="Osborne">
+    <author initials="E." surname="Osborne" fullname="Eric Osborne">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2013" month="June" day="28"/>
+    <date day="28" month="June" year="2013"></date>
     <abstract>
-      <t>RFC 4090 specifies an RSVP facility-backup fast reroute mechanism for protecting LSPs against link and node failures. This document extends the mechanism to provide so-called "setup protection" for LSPs during their initial Path message signaling time. In particular, it enables a router to reroute an LSP via an existing bypass LSP, when there is a failure of the immediate downstream link or node along the desired path. Therefore, it can be used to avoid LSP signaling failure and reduce setup time in such kind of situation, and allow an LSP to be established temporarily over a bypass LSP when an alternative path can only be resolved at a much later time.</t>
+      <t>   RFC 4090 specifies an RSVP facility-backup fast reroute mechanism for
+   protecting LSPs against link and node failures.  This document
+   extends the mechanism to provide so-called "setup protection" for
+   LSPs during their initial Path message signaling time.  In
+   particular, it enables a router to reroute an LSP via an existing
+   bypass LSP, when there is a failure of the immediate downstream link
+   or node along the desired path.  Therefore, it can be used to avoid
+   LSP signaling failure and reduce setup time in such kind of
+   situation, and allow an LSP to be established temporarily over a
+   bypass LSP when an alternative path can only be resolved at a much
+   later time.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-shen-mpls-rsvp-setup-protection-03"/>
 </reference>

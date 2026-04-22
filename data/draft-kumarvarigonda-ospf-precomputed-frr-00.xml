@@ -1,16 +1,23 @@
 <reference anchor="I-D.kumarvarigonda-ospf-precomputed-frr" target="https://datatracker.ietf.org/doc/html/draft-kumarvarigonda-ospf-precomputed-frr-00">
   <front>
     <title>OSPF Extensions for Precomputed Fast Reroute</title>
-    <author fullname="Srinivasa Mohan Kumar Varigonda" initials="S. M. K." surname="Varigonda">
+    <seriesInfo name="Internet-Draft" value="draft-kumarvarigonda-ospf-precomputed-frr-00"/>
+    <author initials="S. M. K." surname="Varigonda" fullname="Srinivasa Mohan Kumar Varigonda">
       <organization>Samsung R&amp;D Bangalore</organization>
     </author>
-    <author fullname="Veerendranatha Reddy Vallem" initials="V. R." surname="Vallem">
+    <author initials="V. R." surname="Vallem" fullname="Veerendranatha Reddy Vallem">
       <organization>Tejas Networks</organization>
     </author>
-    <date year="2025" month="May" day="12"/>
+    <date day="12" month="May" year="2025"></date>
     <abstract>
-      <t>This document proposes an enhancement to OSPF (Open Shortest Path First) that enables routers to precompute backup loop-free alternate (LFA) paths for fast reroute (FRR) in case of primary path failures. This mechanism improves convergence time and network stability by eliminating the delay associated with on-demand SPF recalculation during failure events.</t>
+      <t>   This document proposes an enhancement to OSPF (Open Shortest Path
+   First) that enables routers to precompute backup loop-free alternate
+   (LFA) paths for fast reroute (FRR) in case of primary path failures.
+   This mechanism improves convergence time and network stability by
+   eliminating the delay associated with on-demand SPF recalculation
+   during failure events.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kumarvarigonda-ospf-precomputed-frr-00"/>
 </reference>

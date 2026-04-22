@@ -1,13 +1,24 @@
 <reference anchor="I-D.arifumi-multi6-tlc-fm" target="https://datatracker.ietf.org/doc/html/draft-arifumi-multi6-tlc-fm-00">
   <front>
     <title>TLC-FM : Transport Layer Common Framework for Multihoming</title>
-    <author fullname="Arifumi Matsumoto" initials="A." surname="Matsumoto">
+    <seriesInfo name="Internet-Draft" value="draft-arifumi-multi6-tlc-fm-00"/>
+    <author initials="A." surname="Matsumoto" fullname="Arifumi Matsumoto">
       <organization>Kyoto University</organization>
     </author>
-    <date year="2004" month="February" day="2"/>
+    <date day="02" month="February" year="2004"></date>
     <abstract>
-      <t>The existing transport protocols aren't designed to work well on multi-homed and multi-addressed hosts. TLC-FM is a transport layer common framework, which stores multihoming related information and provides common functions and multihoming functions for all the transport protocols. In this framework, address information for each remote host and some routing information for each next-hop is stored and shared by each transport protocol. Also in this framework, incoming packet's address fields are re-written from the on-wire address to the original one that is expected by transport protocols. This is true for outgoing packets as well.</t>
+      <t>   The existing transport protocols aren't designed to work well on
+   multi-homed and multi-addressed hosts.  TLC-FM is a transport layer
+   common framework, which stores multihoming related information and
+   provides common functions and multihoming functions for all the
+   transport protocols.
+   In this framework, address information for each remote host and some
+   routing information for each next-hop is stored and shared by each
+   transport protocol.  Also in this framework, incoming packet's
+   address fields are re-written from the on-wire address to the
+   original one that is expected by transport protocols.  This is true
+   for outgoing packets as well.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-arifumi-multi6-tlc-fm-00"/>
 </reference>

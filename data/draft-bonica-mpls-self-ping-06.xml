@@ -1,31 +1,47 @@
 <reference anchor="I-D.bonica-mpls-self-ping" target="https://datatracker.ietf.org/doc/html/draft-bonica-mpls-self-ping-06">
   <front>
     <title>LSP Self-Ping</title>
-    <author fullname="Raveendra Torvi" initials="R." surname="Torvi">
+    <seriesInfo name="Internet-Draft" value="draft-bonica-mpls-self-ping-06"/>
+    <author initials="R." surname="Torvi" fullname="Raveendra Torvi">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Ron Bonica" initials="R." surname="Bonica">
+    <author initials="R." surname="Bonica" fullname="Ron Bonica">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Ina Minei" initials="I." surname="Minei">
+    <author initials="I." surname="Minei" fullname="Ina Minei">
       <organization>Google, Inc.</organization>
     </author>
-    <author fullname="Michael Conn" initials="M." surname="Conn">
+    <author initials="M." surname="Conn" fullname="Michael Conn">
       <organization>Verizon</organization>
     </author>
-    <author fullname="Dante Pacella" initials="D." surname="Pacella">
+    <author initials="D." surname="Pacella" fullname="Dante Pacella">
       <organization>Verizon</organization>
     </author>
-    <author fullname="Luis Tomotaki" initials="L." surname="Tomotaki">
+    <author initials="L." surname="Tomotaki" fullname="Luis Tomotaki">
       <organization>Verizon</organization>
     </author>
-    <author fullname="Mark Wygant" initials="M." surname="Wygant">
+    <author initials="M." surname="Wygant" fullname="Mark Wygant">
       <organization>Verizon</organization>
     </author>
-    <date year="2015" month="May" day="18"/>
+    <date day="18" month="May" year="2015"></date>
     <abstract>
-      <t>When certain RSVP-TE optimizations are implemented, ingress LSRs can receive RSVP RESV messages before forwarding state has been installed on all downstream nodes. According to the RSVP-TE specification, the ingress LSR can forward traffic through an LSP as soon as it receives a RESV message. However, if the ingress LSR forwards traffic through the LSP before forwarding state has been installed on all downstream nodes, traffic can be lost. This memo describes LSP Self-ping. When an ingress LSR receives an RESV message, it can invoke LSP Self-ping procedures to ensure that forwarding state has been installed on all downstream nodes. LSP Self-ping is an extremely light-weight mechanism. It does not consume control plane resources on transit or egress LSRs.</t>
+      <t>   When certain RSVP-TE optimizations are implemented, ingress LSRs can
+   receive RSVP RESV messages before forwarding state has been installed
+   on all downstream nodes.  According to the RSVP-TE specification, the
+   ingress LSR can forward traffic through an LSP as soon as it receives
+   a RESV message.  However, if the ingress LSR forwards traffic through
+   the LSP before forwarding state has been installed on all downstream
+   nodes, traffic can be lost.
+
+   This memo describes LSP Self-ping.  When an ingress LSR receives an
+   RESV message, it can invoke LSP Self-ping procedures to ensure that
+   forwarding state has been installed on all downstream nodes.
+
+   LSP Self-ping is an extremely light-weight mechanism.  It does not
+   consume control plane resources on transit or egress LSRs.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-bonica-mpls-self-ping-06"/>
 </reference>

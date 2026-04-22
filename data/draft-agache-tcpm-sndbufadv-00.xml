@@ -1,16 +1,31 @@
 <reference anchor="I-D.agache-tcpm-sndbufadv" target="https://datatracker.ietf.org/doc/html/draft-agache-tcpm-sndbufadv-00">
   <front>
     <title>TCP Sendbuffer Advertising</title>
-    <author fullname="Alexandru Agache" initials="A." surname="Agache">
+    <seriesInfo name="Internet-Draft" value="draft-agache-tcpm-sndbufadv-00"/>
+    <author initials="A." surname="Agache" fullname="Alexandru Agache">
       <organization>University Politehnica of Bucharest</organization>
     </author>
-    <author fullname="Costin Raiciu" initials="C." surname="Raiciu">
+    <author initials="C." surname="Raiciu" fullname="Costin Raiciu">
       <organization>University Politehnica of Bucharest</organization>
     </author>
-    <date year="2015" month="July" day="19"/>
+    <date day="19" month="July" year="2015"></date>
     <abstract>
-      <t>Network operators have difficulty in understanding the end-to-end performance of TCP connections through their networks. By observing packets at different vantage points on their path and maintaining per flow state, network operators can detect packet losses, retransmission and estimate RTTs, among other metrics. A key information needed by networks is whether a connection is limited by the network or by the application. This information is very difficult to accurately infer by passive measurements. We propose to advertise sendbuffer occupancy in TCP: each segment will carry the amount of backlogged data present in the sender's buffer. This information allows networks to discern between application-limited, network-limited and flow-control limited flows, creating new avenues of network optimization.</t>
+      <t>   Network operators have difficulty in understanding the end-to-end
+   performance of TCP connections through their networks.  By observing
+   packets at different vantage points on their path and maintaining per
+   flow state, network operators can detect packet losses,
+   retransmission and estimate RTTs, among other metrics.  A key
+   information needed by networks is whether a connection is limited by
+   the network or by the application.  This information is very
+   difficult to accurately infer by passive measurements.
+
+   We propose to advertise sendbuffer occupancy in TCP: each segment
+   will carry the amount of backlogged data present in the sender's
+   buffer.  This information allows networks to discern between
+   application-limited, network-limited and flow-control limited flows,
+   creating new avenues of network optimization.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-agache-tcpm-sndbufadv-00"/>
 </reference>

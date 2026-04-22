@@ -1,16 +1,26 @@
 <reference anchor="I-D.ietf-oauth-step-up-authn-challenge" target="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-step-up-authn-challenge-02">
   <front>
     <title>OAuth 2.0 Step-up Authentication Challenge Protocol</title>
-    <author fullname="Vittorio Bertocci" initials="V." surname="Bertocci">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-oauth-step-up-authn-challenge-02"/>
+    <author initials="V." surname="Bertocci" fullname="Vittorio Bertocci">
       <organization>Auth0/Okta</organization>
     </author>
-    <author fullname="Brian Campbell" initials="B." surname="Campbell">
+    <author initials="B." surname="Campbell" fullname="Brian Campbell">
       <organization>Ping Identity</organization>
     </author>
-    <date year="2022" month="July" day="24"/>
+    <date day="24" month="July" year="2022"></date>
     <abstract>
-      <t>It is not uncommon for resource servers to require different authentication strengths or freshness according to the characteristics of a request. This document introduces a mechanism for a resource server to signal to a client that the authentication event associated with the access token of the current request doesn't meet its authentication requirements and specify how to meet them. This document also codifies a mechanism for a client to request that an authorization server achieve a specific authentication strength or freshness when processing an authorization request.</t>
+      <t>   It is not uncommon for resource servers to require different
+   authentication strengths or freshness according to the
+   characteristics of a request.  This document introduces a mechanism
+   for a resource server to signal to a client that the authentication
+   event associated with the access token of the current request doesn't
+   meet its authentication requirements and specify how to meet them.
+   This document also codifies a mechanism for a client to request that
+   an authorization server achieve a specific authentication strength or
+   freshness when processing an authorization request.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-oauth-step-up-authn-challenge-02"/>
 </reference>

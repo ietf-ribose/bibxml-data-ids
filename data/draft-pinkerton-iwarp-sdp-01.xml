@@ -1,13 +1,18 @@
 <reference anchor="I-D.pinkerton-iwarp-sdp" target="https://datatracker.ietf.org/doc/html/draft-pinkerton-iwarp-sdp-01">
   <front>
     <title>Sockets Direct Protocol (SDP) for iWARP over TCP</title>
-    <author fullname="James Pinkerton" initials="J." surname="Pinkerton">
-      <organization/>
-    </author>
-    <date year="2004" month="August" day="30"/>
+    <seriesInfo name="Internet-Draft" value="draft-pinkerton-iwarp-sdp-01"/>
+    <author initials="J." surname="Pinkerton" fullname="James Pinkerton"/>
+    <date day="30" month="August" year="2004"></date>
     <abstract>
-      <t>SDP is a byte-stream transport protocol that closely mimics TCP's stream semantics. SDP utilizes iWARP's advanced protocol offload, kernel bypass, and zero copy capabilities. Because of this, SDP can have lower CPU and memory bandwidth utilization when compared to conventional implementations of sockets over TCP, while preserving the familiar byte-stream oriented semantics upon which most current network applications depend.</t>
+      <t>    SDP is a byte-stream transport protocol that closely mimics TCP's 
+    stream semantics. SDP utilizes iWARP's advanced protocol offload, 
+    kernel bypass, and zero copy capabilities. Because of this, SDP can 
+    have lower CPU and memory bandwidth utilization when compared to 
+    conventional implementations of sockets over TCP, while preserving 
+    the familiar byte-stream oriented semantics upon which most current 
+    network applications depend. 
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-pinkerton-iwarp-sdp-01"/>
 </reference>

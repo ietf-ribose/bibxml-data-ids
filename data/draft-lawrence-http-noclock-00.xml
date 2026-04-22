@@ -1,19 +1,20 @@
 <reference anchor="I-D.lawrence-http-noclock" target="https://datatracker.ietf.org/doc/html/draft-lawrence-http-noclock-00">
   <front>
     <title>HTTP/1.1 Operation without a Clock</title>
-    <author fullname="Jeffrey Mogul" initials="J." surname="Mogul">
+    <seriesInfo name="Internet-Draft" value="draft-lawrence-http-noclock-00"/>
+    <author initials="J." surname="Mogul" fullname="Jeffrey Mogul">
       <organization>Digital Equipment Corp.</organization>
     </author>
-    <author fullname="Richard L. Gray" initials="R. L." surname="Gray">
+    <author initials="R. L." surname="Gray" fullname="Richard L. Gray">
       <organization>International Business Machines Corp.</organization>
     </author>
-    <author fullname="Scott Lawrence" initials="S." surname="Lawrence">
+    <author initials="S." surname="Lawrence" fullname="Scott Lawrence">
       <organization>Agranat Systems</organization>
     </author>
-    <date year="1997" month="April" day="22"/>
+    <date day="22" month="April" year="1997"></date>
     <abstract>
-      <t>This memo describes a problem with the current Proposed Standard for HTTP/1.1 found as a result of implementation experience. A web server may be implemented in an embedded system as a network user interface. Often the embedded system is one which has no other use for a real-time clock, and/or the web interface is being added to an existing device which has no clock. Without a clock, no accurate HTTP Date header can be generated. This memo examines the implications of this situation for the operation of HTTP/1.1 origin servers, proxies, and clients, and proposes changes to the HTTP/1.1 specification to permit compliant operation in such systems.</t>
+      <t>This memo describes a problem with the current Proposed Standard for HTTP/1.1 found as a result of implementation experience.  A web server may be implemented in an embedded system as a network user interface.  Often the embedded system is one which has no other use for a real-time clock, and/or the web interface is being added to an existing device which has no clock.  Without a clock, no accurate HTTP Date header can be generated.    This memo examines the implications of this situation for the operation of HTTP/1.1 origin servers, proxies, and clients, and proposes changes to the HTTP/1.1 specification to permit compliant operation in such systems.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-lawrence-http-noclock-00"/>
 </reference>

@@ -1,22 +1,33 @@
 <reference anchor="I-D.jjwl-mpls-mldp-hsmp" target="https://datatracker.ietf.org/doc/html/draft-jjwl-mpls-mldp-hsmp-01">
   <front>
     <title>LDP Extensions for Hub &amp; Spoke Multipoint Label Switched Path</title>
-    <author fullname="Lizhong Jin" initials="L." surname="Jin">
+    <seriesInfo name="Internet-Draft" value="draft-jjwl-mpls-mldp-hsmp-01"/>
+    <author initials="L." surname="Jin" fullname="Lizhong Jin">
       <organization>ZTE Corporation</organization>
     </author>
-    <author fullname="Frederic JOUNAY" initials="F." surname="JOUNAY">
+    <author initials="F." surname="JOUNAY" fullname="Frederic JOUNAY">
       <organization>France Telecom</organization>
     </author>
-    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
+    <author initials="I." surname="Wijnands" fullname="IJsbrand Wijnands">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Nicolai Leymann" initials="N." surname="Leymann">
+    <author initials="N." surname="Leymann" fullname="Nicolai Leymann">
       <organization>Deutsche Telekom AG</organization>
     </author>
-    <date year="2012" month="September" day="3"/>
+    <date day="03" month="September" year="2012"></date>
     <abstract>
-      <t>This draft introduces a hub &amp; spoke multipoint LSP (short for HSMP LSP), which allows traffic both from root to leaf through P2MP LSP and also leaf to root along the co-routed reverse path. That means traffic entering the HSMP LSP from application/customer at the root node travels downstream, exactly as if it was traveling downstream along a P2MP LSP to each leaf node, and traffic entering the HSMP LSP at any leaf node travels upstream along the tree to the root as if it is unicast to the root, except that it follows the path of the tree rather than ordinary unicast to the root.</t>
+      <t>   This draft introduces a hub &amp; spoke multipoint LSP (short for HSMP
+   LSP), which allows traffic both from root to leaf through P2MP LSP
+   and also leaf to root along the co-routed reverse path.  That means
+   traffic entering the HSMP LSP from application/customer at the root
+   node travels downstream, exactly as if it was traveling downstream
+   along a P2MP LSP to each leaf node, and traffic entering the HSMP LSP
+   at any leaf node travels upstream along the tree to the root as if it
+   is unicast to the root, except that it follows the path of the tree
+   rather than ordinary unicast to the root.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-jjwl-mpls-mldp-hsmp-01"/>
 </reference>

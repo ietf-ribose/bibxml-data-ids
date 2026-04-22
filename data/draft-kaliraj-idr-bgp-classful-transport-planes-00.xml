@@ -1,19 +1,33 @@
 <reference anchor="I-D.kaliraj-idr-bgp-classful-transport-planes" target="https://datatracker.ietf.org/doc/html/draft-kaliraj-idr-bgp-classful-transport-planes-00">
   <front>
     <title>BGP Classful Transport Planes</title>
-    <author fullname="Kaliraj Vairavakkalai" initials="K." surname="Vairavakkalai">
+    <seriesInfo name="Internet-Draft" value="draft-kaliraj-idr-bgp-classful-transport-planes-00"/>
+    <author initials="K." surname="Vairavakkalai" fullname="Kaliraj Vairavakkalai">
       <organization>Juniper Networks, Inc.</organization>
     </author>
-    <author fullname="Natrajan Venkataraman" initials="N." surname="Venkataraman">
+    <author initials="N." surname="Venkataraman" fullname="Natrajan Venkataraman">
       <organization>Juniper Networks, Inc.</organization>
     </author>
-    <author fullname="Balaji Rajagopalan" initials="B." surname="Rajagopalan">
+    <author initials="B." surname="Rajagopalan" fullname="Balaji Rajagopalan">
       <organization>Juniper Networks, Inc.</organization>
     </author>
-    <date year="2020" month="May" day="8"/>
+    <date day="08" month="May" year="2020"></date>
     <abstract>
-      <t>This document specifies a mechanism, referred to as "service mapping", to express association of overlay routes with underlay routes using BGP. The document describes a framework for classifying underlay routes into transport planes, and mapping service routes to specific transport plane. It specifies BGP protocol procedures that enable dissimination of such service mapping information that may span across administrative domains. It makes it possible to advertise multiple tunnels to the same destination. A new BGP transport address family is defined for this purpose that uses RFC-4364 technology and follows RFC-8277 NLRI encoding. This new address family is called "Classful Transport".</t>
+      <t>   This document specifies a mechanism, referred to as "service
+   mapping", to express association of overlay routes with underlay
+   routes using BGP.  The document describes a framework for classifying
+   underlay routes into transport planes, and mapping service routes to
+   specific transport plane.  It specifies BGP protocol procedures that
+   enable dissimination of such service mapping information that may
+   span across administrative domains.  It makes it possible to
+   advertise multiple tunnels to the same destination.
+
+   A new BGP transport address family is defined for this purpose that
+   uses RFC-4364 technology and follows RFC-8277 NLRI encoding.  This
+   new address family is called "Classful Transport".
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kaliraj-idr-bgp-classful-transport-planes-00"/>
 </reference>

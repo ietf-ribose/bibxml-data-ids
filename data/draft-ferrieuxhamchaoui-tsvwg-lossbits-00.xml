@@ -1,19 +1,27 @@
 <reference anchor="I-D.ferrieuxhamchaoui-tsvwg-lossbits" target="https://datatracker.ietf.org/doc/html/draft-ferrieuxhamchaoui-tsvwg-lossbits-00">
   <front>
     <title>Packet Loss Signaling for Encrypted Protocols</title>
-    <author fullname="Alexandre Ferrieux" initials="A." surname="Ferrieux">
+    <seriesInfo name="Internet-Draft" value="draft-ferrieuxhamchaoui-tsvwg-lossbits-00"/>
+    <author initials="A." surname="Ferrieux" fullname="Alexandre Ferrieux">
       <organization>Orange Labs</organization>
     </author>
-    <author fullname="Isabelle Hamchaoui" initials="I." surname="Hamchaoui">
+    <author initials="I." surname="Hamchaoui" fullname="Isabelle Hamchaoui">
       <organization>Orange Labs</organization>
     </author>
-    <author fullname="Igor Lubashev" initials="I." surname="Lubashev">
+    <author initials="I." surname="Lubashev" fullname="Igor Lubashev">
       <organization>Akamai Technologies</organization>
     </author>
-    <date year="2019" month="July" day="8"/>
+    <date day="08" month="July" year="2019"></date>
     <abstract>
-      <t>This document describes a protocol-independent method that employs two bits to allow endpoints to signal packet loss in a way that can be used by network devices to measure and locate the source of the loss. The signaling method applies to all protocols with a protocol- specific way to identify packet loss. The method is especially valuable when applied to protocols that encrypt transport header and do not allow an alternative method for loss detection.</t>
+      <t>   This document describes a protocol-independent method that employs
+   two bits to allow endpoints to signal packet loss in a way that can
+   be used by network devices to measure and locate the source of the
+   loss.  The signaling method applies to all protocols with a protocol-
+   specific way to identify packet loss.  The method is especially
+   valuable when applied to protocols that encrypt transport header and
+   do not allow an alternative method for loss detection.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ferrieuxhamchaoui-tsvwg-lossbits-00"/>
 </reference>

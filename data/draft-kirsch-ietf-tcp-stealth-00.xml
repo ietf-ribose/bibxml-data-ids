@@ -1,22 +1,29 @@
 <reference anchor="I-D.kirsch-ietf-tcp-stealth" target="https://datatracker.ietf.org/doc/html/draft-kirsch-ietf-tcp-stealth-00">
   <front>
     <title>TCP Stealth</title>
-    <author fullname="Julian Kirsch" initials="J." surname="Kirsch">
-      <organization/>
-    </author>
-    <author fullname="Christian Grothoff" initials="C." surname="Grothoff">
-      <organization/>
-    </author>
-    <author fullname="Jacob Appelbaum" initials="J." surname="Appelbaum">
-      <organization/>
-    </author>
-    <author fullname="Holger Kenn" initials="H." surname="Kenn">
-      <organization/>
-    </author>
-    <date year="2014" month="August" day="14"/>
+    <seriesInfo name="Internet-Draft" value="draft-kirsch-ietf-tcp-stealth-00"/>
+    <author initials="J." surname="Kirsch" fullname="Julian Kirsch"/>
+    <author initials="C." surname="Grothoff" fullname="Christian Grothoff"/>
+    <author initials="J." surname="Appelbaum" fullname="Jacob Appelbaum"/>
+    <author initials="H." surname="Kenn" fullname="Holger Kenn"/>
+    <date day="14" month="August" year="2014"></date>
     <abstract>
-      <t>TCP servers are visible on the Internet to unauthorized clients, as the existence of a TCP server is leaked in the TCP handshake before applications have a chance to authenticate the client. We present a small modification to the initial TCP handshake that allows TCP clients to replace the TCP ISN in the TCP SYN packet with an authorization token. Based on this information, TCP servers may then chose to obscure their presence from unauthorized TCP clients. This RFC documents the specific method for calculating the authorization token to ensure interoperability and to minimize interference by middleboxes. Mandating support for this method in operating system TCP/IP implementation will ensure that clients can connect to TCP servers protected by this method.</t>
+      <t>   TCP servers are visible on the Internet to unauthorized clients, as
+   the existence of a TCP server is leaked in the TCP handshake before
+   applications have a chance to authenticate the client.
+
+   We present a small modification to the initial TCP handshake that
+   allows TCP clients to replace the TCP ISN in the TCP SYN packet with
+   an authorization token.  Based on this information, TCP servers may
+   then chose to obscure their presence from unauthorized TCP clients.
+
+   This RFC documents the specific method for calculating the
+   authorization token to ensure interoperability and to minimize
+   interference by middleboxes.  Mandating support for this method in
+   operating system TCP/IP implementation will ensure that clients can
+   connect to TCP servers protected by this method.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kirsch-ietf-tcp-stealth-00"/>
 </reference>

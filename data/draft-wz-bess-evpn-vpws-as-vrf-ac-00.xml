@@ -1,16 +1,29 @@
 <reference anchor="I-D.wz-bess-evpn-vpws-as-vrf-ac" target="https://datatracker.ietf.org/doc/html/draft-wz-bess-evpn-vpws-as-vrf-ac-00">
   <front>
     <title>EVPN VPWS as VRF Attachment Circuit</title>
-    <author fullname="Yubao(Bob) Wang" initials="Y." surname="Wang">
+    <seriesInfo name="Internet-Draft" value="draft-wz-bess-evpn-vpws-as-vrf-ac-00"/>
+    <author initials="Y." surname="Wang" fullname="Yubao(Bob) Wang">
       <organization>ZTE Corporation</organization>
     </author>
-    <author fullname="Zheng Zhang" initials="Z." surname="Zhang">
+    <author initials="Z." surname="Zhang" fullname="Zheng Zhang">
       <organization>ZTE Corporation</organization>
     </author>
-    <date year="2020" month="September" day="15"/>
+    <date day="15" month="September" year="2020"></date>
     <abstract>
-      <t>When a VRF Attachment Cirucit (VRF-AC) is far away from its IP-VRF instance, we can deploy an EVPN VPWS ([RFC8214]) between that VRF-AC and its IP-VRF instance. From the viewpoint of the IP-VRF instance, a local virtual interface takes the place of that remote "VRF-AC". The intended IP address for that VRF-AC is now configured to the virtual interface, in other words, the virtual interface is the actual VRF-AC of the IP-VRF instance. The virtual interface is also the AC of that VPWS instance, in other words, the virtual interface is cross-connected to that remote "VRF-AC" by the VPWS instance. This document proposes an extension to [RFC7432] to support this scenario.</t>
+      <t>   When a VRF Attachment Cirucit (VRF-AC) is far away from its IP-VRF
+   instance, we can deploy an EVPN VPWS ([RFC8214]) between that VRF-AC
+   and its IP-VRF instance.  From the viewpoint of the IP-VRF instance,
+   a local virtual interface takes the place of that remote "VRF-AC".
+   The intended IP address for that VRF-AC is now configured to the
+   virtual interface, in other words, the virtual interface is the
+   actual VRF-AC of the IP-VRF instance.  The virtual interface is also
+   the AC of that VPWS instance, in other words, the virtual interface
+   is cross-connected to that remote "VRF-AC" by the VPWS instance.
+
+   This document proposes an extension to [RFC7432] to support this
+   scenario.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wz-bess-evpn-vpws-as-vrf-ac-00"/>
 </reference>

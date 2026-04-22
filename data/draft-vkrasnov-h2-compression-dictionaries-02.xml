@@ -1,13 +1,22 @@
 <reference anchor="I-D.vkrasnov-h2-compression-dictionaries" target="https://datatracker.ietf.org/doc/html/draft-vkrasnov-h2-compression-dictionaries-02">
   <front>
     <title>Compression Dictionaries for HTTP/2</title>
-    <author fullname="Vlad Krasnov" initials="V." surname="Krasnov">
+    <seriesInfo name="Internet-Draft" value="draft-vkrasnov-h2-compression-dictionaries-02"/>
+    <author initials="V." surname="Krasnov" fullname="Vlad Krasnov">
       <organization>Cloudflare Inc.</organization>
     </author>
-    <date year="2017" month="March" day="13"/>
+    <date day="13" month="March" year="2017"></date>
     <abstract>
-      <t>This document specifies a new HTTP/2 frame type and new HTTP/2 settings values that would enable the use of previously transferred data as compression dictionaries, significantly improving overall compression ratio for a given connection. In addition, this document proposes to define a set of industry standard, static, dictionaries to be used with any Lempel-Ziv based compression for the common textual MIME types prevalent on the web.</t>
+      <t>   This document specifies a new HTTP/2 frame type and new HTTP/2
+   settings values that would enable the use of previously transferred
+   data as compression dictionaries, significantly improving overall
+   compression ratio for a given connection.
+
+   In addition, this document proposes to define a set of industry
+   standard, static, dictionaries to be used with any Lempel-Ziv based
+   compression for the common textual MIME types prevalent on the web.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-vkrasnov-h2-compression-dictionaries-02"/>
 </reference>

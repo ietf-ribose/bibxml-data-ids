@@ -1,22 +1,31 @@
 <reference anchor="I-D.ali-idr-srv6-policy-sl-opt-distribution" target="https://datatracker.ietf.org/doc/html/draft-ali-idr-srv6-policy-sl-opt-distribution-02">
   <front>
     <title>SRv6 Policy SID List Optimization Advertisement</title>
-    <author fullname="Zafar Ali" initials="Z." surname="Ali">
+    <seriesInfo name="Internet-Draft" value="draft-ali-idr-srv6-policy-sl-opt-distribution-02"/>
+    <author initials="Z." surname="Ali" fullname="Zafar Ali">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Changwang Lin" initials="C." surname="Lin">
+    <author initials="C." surname="Lin" fullname="Changwang Lin">
       <organization>New H3C Technologies</organization>
     </author>
-    <author fullname="Yisong Liu" initials="Y." surname="Liu">
+    <author initials="Y." surname="Liu" fullname="Yisong Liu">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Ran Chen" initials="R." surname="Chen">
+    <author initials="R." surname="Chen" fullname="Ran Chen">
       <organization>ZTE Corporation</organization>
     </author>
-    <date year="2026" month="March" day="2"/>
+    <date day="02" month="March" year="2026"></date>
     <abstract>
-      <t>In some use cases, an SRv6 policy's SID list ends with the policy endpoint's node SID, and the traffic steered (over policy) already ensures that it is taken to the policy endpoint. In such cases, the SID list can be optimized by excluding the endpoint Node SID when installing the policy. This draft specifies a BGP-LS extension to indicate whether the endpoint's node SID is included or excluded in installing SID list(s) of the Candidate Path (CP) of an SRv6 policy.</t>
+      <t>   In some use cases, an SRv6 policy's SID list ends with the policy
+   endpoint's node SID, and the traffic steered (over policy) already
+   ensures that it is taken to the policy endpoint.  In such cases, the
+   SID list can be optimized by excluding the endpoint Node SID when
+   installing the policy.  This draft specifies a BGP-LS extension to
+   indicate whether the endpoint's node SID is included or excluded in
+   installing SID list(s) of the Candidate Path (CP) of an SRv6 policy.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ali-idr-srv6-policy-sl-opt-distribution-02"/>
 </reference>

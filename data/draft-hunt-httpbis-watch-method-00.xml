@@ -1,16 +1,34 @@
 <reference anchor="I-D.hunt-httpbis-watch-method" target="https://datatracker.ietf.org/doc/html/draft-hunt-httpbis-watch-method-00">
   <front>
     <title>WATCH: A Proposed HTTP Method for Event-Driven Subscriptions</title>
-    <author fullname="Dawson Hunt" initials="D." surname="Hunt">
+    <seriesInfo name="Internet-Draft" value="draft-hunt-httpbis-watch-method-00"/>
+    <author initials="D." surname="Hunt" fullname="Dawson Hunt">
       <organization>Independent Researcher</organization>
     </author>
-    <author fullname="Quill" initials="" surname="Quill">
+    <author surname="Quill" fullname="Quill">
       <organization>AI Research Assistant</organization>
     </author>
-    <date year="2026" month="March" day="31"/>
+    <date day="31" month="March" year="2026"></date>
     <abstract>
-      <t>This document proposes the addition of a WATCH method to the Hypertext Transfer Protocol (HTTP). The WATCH method enables a client to subscribe to change notifications on a specified resource, shifting the communication model from client-initiated polling to server-initiated event delivery. The proposal includes two companion mechanisms: ALIVE, a client- initiated heartbeat protocol that maintains subscription validity and restores economic symmetry between client and server; and UNWATCH, a clean subscription termination method. Together, these introduce an event-driven subscription layer into HTTP while preserving the protocol's existing simplicity and extensibility. This document incorporates formal terminology, a setup phase with confirmation handshake, refined jurisdictional compliance guidance, implementation recommendations, and protocol flow diagrams for all defined interaction patterns.</t>
+      <t>   This document proposes the addition of a WATCH method to the
+   Hypertext Transfer Protocol (HTTP).  The WATCH method enables a
+   client to subscribe to change notifications on a specified resource,
+   shifting the communication model from client-initiated polling to
+   server-initiated event delivery.
+
+   The proposal includes two companion mechanisms: ALIVE, a client-
+   initiated heartbeat protocol that maintains subscription validity and
+   restores economic symmetry between client and server; and UNWATCH, a
+   clean subscription termination method.  Together, these introduce an
+   event-driven subscription layer into HTTP while preserving the
+   protocol's existing simplicity and extensibility.
+
+   This document incorporates formal terminology, a setup phase with
+   confirmation handshake, refined jurisdictional compliance guidance,
+   implementation recommendations, and protocol flow diagrams for all
+   defined interaction patterns.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hunt-httpbis-watch-method-00"/>
 </reference>

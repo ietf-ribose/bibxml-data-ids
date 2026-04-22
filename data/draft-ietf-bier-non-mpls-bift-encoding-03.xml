@@ -1,22 +1,32 @@
 <reference anchor="I-D.ietf-bier-non-mpls-bift-encoding" target="https://datatracker.ietf.org/doc/html/draft-ietf-bier-non-mpls-bift-encoding-03">
   <front>
     <title>An Optional Encoding of the BIFT-id Field in the non-MPLS BIER Encapsulation</title>
-    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bier-non-mpls-bift-encoding-03"/>
+    <author initials="I." surname="Wijnands" fullname="IJsbrand Wijnands">
       <organization>Individual</organization>
     </author>
-    <author fullname="Mankamana Prasad Mishra" initials="M. P." surname="Mishra">
+    <author initials="M. P." surname="Mishra" fullname="Mankamana Prasad Mishra">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Xiaohu Xu" initials="X." surname="Xu">
+    <author initials="X." surname="Xu" fullname="Xiaohu Xu">
       <organization>Alibaba Group</organization>
     </author>
-    <author fullname="Hooman Bidgoli" initials="H." surname="Bidgoli">
+    <author initials="H." surname="Bidgoli" fullname="Hooman Bidgoli">
       <organization>Nokia</organization>
     </author>
-    <date year="2020" month="November" day="26"/>
+    <date day="26" month="November" year="2020"></date>
     <abstract>
-      <t>Bit Index Explicit Replication (BIER) is an architecture that provides optimal multicast forwarding through a "multicast domain", without requiring intermediate routers to maintain any per-flow state or to engage in an explicit tree-building protocol. The Multicast packet is encapsulated using a BIER Header and transported through an MPLS or non-MPLS network. When MPLS is used as the transport, the Bit Indexed Forwarding Table (BIFT) is identified by a MPLS Label. When non-MPLS transport is used, the BIFT is identified by a 20bit value. This document describes one way of encoding the 20bit value.</t>
+      <t>   Bit Index Explicit Replication (BIER) is an architecture that
+   provides optimal multicast forwarding through a "multicast domain",
+   without requiring intermediate routers to maintain any per-flow state
+   or to engage in an explicit tree-building protocol.  The Multicast
+   packet is encapsulated using a BIER Header and transported through an
+   MPLS or non-MPLS network.  When MPLS is used as the transport, the
+   Bit Indexed Forwarding Table (BIFT) is identified by a MPLS Label.
+   When non-MPLS transport is used, the BIFT is identified by a 20bit
+   value.  This document describes one way of encoding the 20bit value.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-bier-non-mpls-bift-encoding-03"/>
 </reference>

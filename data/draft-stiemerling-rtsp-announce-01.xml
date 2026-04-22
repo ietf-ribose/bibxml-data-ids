@@ -1,25 +1,35 @@
 <reference anchor="I-D.stiemerling-rtsp-announce" target="https://datatracker.ietf.org/doc/html/draft-stiemerling-rtsp-announce-01">
   <front>
     <title>RTSP 2.0 Asynchronous Notification</title>
-    <author fullname="Tetsuya Ura" initials="T." surname="Ura">
+    <seriesInfo name="Internet-Draft" value="draft-stiemerling-rtsp-announce-01"/>
+    <author initials="T." surname="Ura" fullname="Tetsuya Ura">
       <organization>NTT</organization>
     </author>
-    <author fullname="Kenshin Oku" initials="K." surname="Oku">
+    <author initials="K." surname="Oku" fullname="Kenshin Oku">
       <organization>NTT</organization>
     </author>
-    <author fullname="Hiromi Harada" initials="H." surname="Harada">
+    <author initials="H." surname="Harada" fullname="Hiromi Harada">
       <organization>Hitachi</organization>
     </author>
-    <author fullname="Akira Kobayashi" initials="A." surname="Kobayashi">
+    <author initials="A." surname="Kobayashi" fullname="Akira Kobayashi">
       <organization>NEC Corp.</organization>
     </author>
-    <author fullname="Martin Stiemerling" initials="M." surname="Stiemerling">
+    <author initials="M." surname="Stiemerling" fullname="Martin Stiemerling">
       <organization>NEC Europe Ltd.</organization>
     </author>
-    <date year="2008" month="February" day="25"/>
+    <date day="25" month="February" year="2008"></date>
     <abstract>
-      <t>Some IPTV deployments that are using the Real Time Streaming Protocol (RTSP) require the ability of the server to notify clients about asynchronous events occurring during an RTSP session. Current deployments typically use the ANNOUNCE method of RTSP 1.0 for sending such asynchronous events from a server to clients by using some proprietary extensions. However, the ANNOUNCE method has been removed from the current RTSP 2.0 draft, leaving the new specification without a mechanism for sending asynchronous messages from the server. This memo describes a use case for such an asynchronous message and proposes a new RTSP 2.0 method.</t>
+      <t>Some IPTV deployments that are using the Real Time Streaming Protocol
+(RTSP) require the ability of the server to notify clients about
+asynchronous events occurring during an RTSP session.  Current
+deployments typically use the ANNOUNCE method of RTSP 1.0 for sending
+such asynchronous events from a server to clients by using some
+proprietary extensions.  However, the ANNOUNCE method has been
+removed from the current RTSP 2.0 draft, leaving the new
+specification without a mechanism for sending asynchronous messages
+from the server.  This memo describes a use case for such an
+asynchronous message and proposes a new RTSP 2.0 method.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-stiemerling-rtsp-announce-01"/>
 </reference>

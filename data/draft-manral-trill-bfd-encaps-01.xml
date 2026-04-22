@@ -2,16 +2,27 @@
   <front>
     <title>Rbridges: Bidirectional Forwarding Detection (BFD) support for TRILL
 </title>
-    <author fullname="Ayan Banerjee" initials="A." surname="Banerjee">
+    <seriesInfo name="Internet-Draft" value="draft-manral-trill-bfd-encaps-01"/>
+    <author initials="A." surname="Banerjee" fullname="Ayan Banerjee">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Vishwas Manral" initials="V." surname="Manral">
+    <author initials="V." surname="Manral" fullname="Vishwas Manral">
       <organization>IPInfusion Inc.</organization>
     </author>
-    <date year="2011" month="March" day="14"/>
+    <date day="14" month="March" year="2011"></date>
     <abstract>
-      <t>This document specifies use of the BFD (Bidirectional Forwarding Detection) protocol in RBridge campuses based on the OAM (Operations, Administration, and Maintenance) Channel extension to the TRILL (TRansparent Interconnection of Lots of Links) protocol. BFD is a widely deployed OAM mechanism in IP and MPLS networks. However, in the present form a BFD packet cannot be sent over a TRILL network as it is either IP/ UDP encapsulated or encapsulated directly over MPLS or using ACH encapsulation. This document also defines BFD encapsulation over TRILL to address this shortcoming.</t>
+      <t>   This document specifies use of the BFD (Bidirectional Forwarding
+   Detection) protocol in RBridge campuses based on the OAM (Operations,
+   Administration, and Maintenance) Channel extension to the TRILL
+   (TRansparent Interconnection of Lots of Links) protocol.
+
+   BFD is a widely deployed OAM mechanism in IP and MPLS networks.
+   However, in the present form a BFD packet cannot be sent over a TRILL
+   network as it is either IP/ UDP encapsulated or encapsulated directly
+   over MPLS or using ACH encapsulation.  This document also defines BFD
+   encapsulation over TRILL to address this shortcoming.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-manral-trill-bfd-encaps-01"/>
 </reference>

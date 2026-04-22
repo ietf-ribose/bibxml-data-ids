@@ -1,19 +1,28 @@
 <reference anchor="I-D.cui-softwire-dhcp-over-tunnel" target="https://datatracker.ietf.org/doc/html/draft-cui-softwire-dhcp-over-tunnel-01">
   <front>
     <title>DHCPv4 Behavior over IP-IP tunnel</title>
-    <author fullname="Peng Wu" initials="P." surname="Wu">
+    <seriesInfo name="Internet-Draft" value="draft-cui-softwire-dhcp-over-tunnel-01"/>
+    <author initials="P." surname="Wu" fullname="Peng Wu">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Yong Cui" initials="Y." surname="Cui">
+    <author initials="Y." surname="Cui" fullname="Yong Cui">
       <organization>Tsinghua University</organization>
     </author>
-    <author fullname="Jianping Wu" initials="J." surname="Wu">
+    <author initials="J." surname="Wu" fullname="Jianping Wu">
       <organization>Tsinghua University</organization>
     </author>
-    <date year="2011" month="July" day="11"/>
+    <date day="11" month="July" year="2011"></date>
     <abstract>
-      <t>This document analyzes the scenario in which DHCPv4 interaction is performed over IP-IP tunnel, and proposes methods to keep DHCP working under such situation. The main issue is encapsulation of DHCP packets on server side, and there are both in-protocol and out- of-protocol solutions for this issue. The in-protocol solution is to have DHCP carrying the encapsulation address information, and the out-of-protocol solution is to have the DHCP server keeping track of the address mapping by inspecting DHCP packets.</t>
+      <t>   This document analyzes the scenario in which DHCPv4 interaction is
+   performed over IP-IP tunnel, and proposes methods to keep DHCP
+   working under such situation.  The main issue is encapsulation of
+   DHCP packets on server side, and there are both in-protocol and out-
+   of-protocol solutions for this issue.  The in-protocol solution is to
+   have DHCP carrying the encapsulation address information, and the
+   out-of-protocol solution is to have the DHCP server keeping track of
+   the address mapping by inspecting DHCP packets.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-cui-softwire-dhcp-over-tunnel-01"/>
 </reference>

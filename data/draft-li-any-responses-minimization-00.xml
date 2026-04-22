@@ -1,25 +1,34 @@
 <reference anchor="I-D.li-any-responses-minimization" target="https://datatracker.ietf.org/doc/html/draft-li-any-responses-minimization-00">
   <front>
     <title>Minimizing ANY-Query Responses at Recursive Resolvers</title>
-    <author fullname="李子涵" initials="Z." surname="李子涵">
+    <seriesInfo name="Internet-Draft" value="draft-li-any-responses-minimization-00"/>
+    <author initials="Z." surname="李子涵" fullname="李子涵">
       <organization>Chinese Academy of Sciences</organization>
     </author>
-    <author fullname="Wenhao Wu" initials="W." surname="Wu">
+    <author initials="W." surname="Wu" fullname="Wenhao Wu">
       <organization>Chinese Academy of Sciences</organization>
     </author>
-    <author fullname="Jin Yan" initials="J." surname="Yan">
+    <author initials="J." surname="Yan" fullname="Jin Yan">
       <organization>China Internet Network Information Center</organization>
     </author>
-    <author fullname="Zhenyu Li" initials="Z." surname="Li">
+    <author initials="Z." surname="Li" fullname="Zhenyu Li">
       <organization>Chinese Academy of Sciences</organization>
     </author>
-    <author fullname="Zhiwei Yan" initials="Z." surname="Yan">
+    <author initials="Z." surname="Yan" fullname="Zhiwei Yan">
       <organization>China Internet Network Information Center</organization>
     </author>
-    <date year="2025" month="December" day="23"/>
+    <date day="23" month="December" year="2025"></date>
     <abstract>
-      <t>The " ANY " query type in DNS requests the server to return all available resource records for a given domain name. While RFC 8482 defines a mechanism for authoritative servers to minimize ANY responses, a recursive resolver may still generate an ANY query response directly from its cache, thereby bypassing the authoritative side's ANY query minimization strategy. This document provides supplementary guidance for recursive resolvers on processing ANY queries to mitigate potential operational and security issues.</t>
+      <t>   The " ANY " query type in DNS requests the server to return all
+   available resource records for a given domain name.  While RFC 8482
+   defines a mechanism for authoritative servers to minimize ANY
+   responses, a recursive resolver may still generate an ANY query
+   response directly from its cache, thereby bypassing the authoritative
+   side's ANY query minimization strategy.  This document provides
+   supplementary guidance for recursive resolvers on processing ANY
+   queries to mitigate potential operational and security issues.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-li-any-responses-minimization-00"/>
 </reference>

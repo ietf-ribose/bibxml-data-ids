@@ -1,25 +1,37 @@
 <reference anchor="I-D.li-spring-compressed-srv6-np" target="https://datatracker.ietf.org/doc/html/draft-li-spring-compressed-srv6-np-00">
   <front>
     <title>Compressed SRv6 Network Programming</title>
-    <author fullname="Zhenbin Li" initials="Z." surname="Li">
+    <seriesInfo name="Internet-Draft" value="draft-li-spring-compressed-srv6-np-00"/>
+    <author initials="Z." surname="Li" fullname="Zhenbin Li">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Cheng Li" initials="C." surname="Li">
+    <author initials="C." surname="Li" fullname="Cheng Li">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Shuping Peng" initials="S." surname="Peng">
+    <author initials="S." surname="Peng" fullname="Shuping Peng">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Zhongzhen Wang" initials="Z." surname="Wang">
+    <author initials="Z." surname="Wang" fullname="Zhongzhen Wang">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Bing (Remy) Liu" initials="B. R." surname="Liu">
+    <author initials="B. R." surname="Liu" fullname="Bing (Remy) Liu">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2019" month="July" day="21"/>
+    <date day="21" month="July" year="2019"></date>
     <abstract>
-      <t>Segment Routing can be applied to the IPv6 data plane by leveraging a new type of Routing Extension Header, called Segment Routing Header(SRH). However, the overhead introduced by SRH may be a challenge for the current hardware capability, which would have much effect on the forwarding performance and the payload efficiency. This document defines a compressed SRv6 network programming mechanism in order to reduce the overhead of SRv6 by introducing the Compressed Segment Identifier(C-SID) and the Compressed SRH(C-SRH). The C-SRH can be a new Routing Header or an enhancement of SRH, which is compatible with SRH well.</t>
+      <t>   Segment Routing can be applied to the IPv6 data plane by leveraging a
+   new type of Routing Extension Header, called Segment Routing
+   Header(SRH).  However, the overhead introduced by SRH may be a
+   challenge for the current hardware capability, which would have much
+   effect on the forwarding performance and the payload efficiency.
+
+   This document defines a compressed SRv6 network programming mechanism
+   in order to reduce the overhead of SRv6 by introducing the Compressed
+   Segment Identifier(C-SID) and the Compressed SRH(C-SRH).  The C-SRH
+   can be a new Routing Header or an enhancement of SRH, which is
+   compatible with SRH well.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-li-spring-compressed-srv6-np-00"/>
 </reference>

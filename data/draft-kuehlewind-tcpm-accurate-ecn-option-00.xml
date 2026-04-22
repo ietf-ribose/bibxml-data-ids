@@ -1,16 +1,25 @@
 <reference anchor="I-D.kuehlewind-tcpm-accurate-ecn-option" target="https://datatracker.ietf.org/doc/html/draft-kuehlewind-tcpm-accurate-ecn-option-00">
   <front>
     <title>Accurate ECN Feedback Option in TCP</title>
-    <author fullname="Mirja Kühlewind" initials="M." surname="Kühlewind">
-      <organization/>
-    </author>
-    <author fullname="Richard Scheffenegger" initials="R." surname="Scheffenegger">
-      <organization/>
-    </author>
-    <date year="2011" month="October" day="24"/>
+    <seriesInfo name="Internet-Draft" value="draft-kuehlewind-tcpm-accurate-ecn-option-00"/>
+    <author initials="M." surname="Kühlewind" fullname="Mirja Kühlewind"/>
+    <author initials="R." surname="Scheffenegger" fullname="Richard Scheffenegger"/>
+    <date day="24" month="October" year="2011"></date>
     <abstract>
-      <t>This document specifies an TCP option to get accurate Explicit Congestion Notification (ECN) feedback from the receiver. ECN is an IP/TCP mechanism where network nodes can mark IP packets instead of dropping them to indicate congestion to the end-points. An ECN- capable receiver will feedback this information to the sender. ECN is specified for TCP in such a way that only one feedback signal can be transmitted per Round-Trip Time (RTT). Recently new TCP mechanisms like ConEx or DCTCP need more accurate feedback information in the case where more than one marking is received in one RTT. This TCP extension can be used in addition to the classic ECN as well as with a more accurate ECN scheme recently proposed which reuses the ECN bit in the TCP header.</t>
+      <t>   This document specifies an TCP option to get accurate Explicit
+   Congestion Notification (ECN) feedback from the receiver.  ECN is an
+   IP/TCP mechanism where network nodes can mark IP packets instead of
+   dropping them to indicate congestion to the end-points.  An ECN-
+   capable receiver will feedback this information to the sender.  ECN
+   is specified for TCP in such a way that only one feedback signal can
+   be transmitted per Round-Trip Time (RTT).  Recently new TCP
+   mechanisms like ConEx or DCTCP need more accurate feedback
+   information in the case where more than one marking is received in
+   one RTT.  This TCP extension can be used in addition to the classic
+   ECN as well as with a more accurate ECN scheme recently proposed
+   which reuses the ECN bit in the TCP header.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kuehlewind-tcpm-accurate-ecn-option-00"/>
 </reference>

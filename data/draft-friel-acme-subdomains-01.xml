@@ -1,19 +1,26 @@
 <reference anchor="I-D.friel-acme-subdomains" target="https://datatracker.ietf.org/doc/html/draft-friel-acme-subdomains-01">
   <front>
     <title>ACME for Subdomains</title>
-    <author fullname="Owen Friel" initials="O." surname="Friel">
+    <seriesInfo name="Internet-Draft" value="draft-friel-acme-subdomains-01"/>
+    <author initials="O." surname="Friel" fullname="Owen Friel">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Richard Barnes" initials="R." surname="Barnes">
+    <author initials="R." surname="Barnes" fullname="Richard Barnes">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Tim Hollebeek" initials="T." surname="Hollebeek">
+    <author initials="T." surname="Hollebeek" fullname="Tim Hollebeek">
       <organization>DigiCert</organization>
     </author>
-    <date year="2020" month="January" day="20"/>
+    <date day="20" month="January" year="2020"></date>
     <abstract>
-      <t>This document outlines how ACME can be used by a client to obtain a certificate for a subdomain identifier from a certificate authority. The client has fulfilled a challenge against a parent domain but does not need to fulfil a challenge against the explicit subdomain as certificate authority policy allows issuance of the subdomain certificate without explicit subdomain ownership proof.</t>
+      <t>   This document outlines how ACME can be used by a client to obtain a
+   certificate for a subdomain identifier from a certificate authority.
+   The client has fulfilled a challenge against a parent domain but does
+   not need to fulfil a challenge against the explicit subdomain as
+   certificate authority policy allows issuance of the subdomain
+   certificate without explicit subdomain ownership proof.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-friel-acme-subdomains-01"/>
 </reference>

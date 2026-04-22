@@ -1,31 +1,57 @@
 <reference anchor="I-D.dong-lsr-sr-enhanced-vpn" target="https://datatracker.ietf.org/doc/html/draft-dong-lsr-sr-enhanced-vpn-07">
   <front>
     <title>IGP Extensions for Scalable Segment Routing based Enhanced VPN</title>
-    <author fullname="Jie Dong" initials="J." surname="Dong">
+    <seriesInfo name="Internet-Draft" value="draft-dong-lsr-sr-enhanced-vpn-07"/>
+    <author initials="J." surname="Dong" fullname="Jie Dong">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Zhibo Hu" initials="Z." surname="Hu">
+    <author initials="Z." surname="Hu" fullname="Zhibo Hu">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Zhenbin Li" initials="Z." surname="Li">
+    <author initials="Z." surname="Li" fullname="Zhenbin Li">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Xiongyan Tang" initials="X." surname="Tang">
+    <author initials="X." surname="Tang" fullname="Xiongyan Tang">
       <organization>China Unicom</organization>
     </author>
-    <author fullname="Ran Pang" initials="R." surname="Pang">
+    <author initials="R." surname="Pang" fullname="Ran Pang">
       <organization>China Unicom</organization>
     </author>
-    <author fullname="Lee JooHeon" initials="L." surname="JooHeon">
+    <author initials="L." surname="JooHeon" fullname="Lee JooHeon">
       <organization>LG U+</organization>
     </author>
-    <author fullname="Stewart Bryant" initials="S." surname="Bryant">
+    <author initials="S." surname="Bryant" fullname="Stewart Bryant">
       <organization>Futurewei Technologies</organization>
     </author>
-    <date year="2022" month="January" day="29"/>
+    <date day="29" month="January" year="2022"></date>
     <abstract>
-      <t>Enhanced VPN (VPN+) aims to provide enhanced VPN services to support some application's needs of enhanced isolation and stringent performance requirements. VPN+ requires integration between the overlay VPN connectivity and the characteristics provided by the underlay network. A Virtual Transport Network (VTN) is a virtual underlay network which has a customized network topology and a set of network resources allocated from the physical network. A VTN could be used to support one or a group of VPN+ services. This document specifies the IGP mechanisms with necessary extensions to advertise the associated topology and resource attributes for scalable Segment Routing (SR) based VTNs. Each VTN can have a customized topology and a set of network resources allocated from the physical network. Multiple VTNs may shared the same topology, and multiple VTNs may share the same set of network resources on some network segments. A group of resource-aware SIDs are allocated for each VTN. This allows flexible combination of the network topology and network resource attributes to build a relatively large number of VTNs with a small number of logical topologies. The proposed mechanism is applicable to both Segment Routing with MPLS data plane (SR-MPLS) and segment routing with IPv6 data plane (SRv6). This document also describes the mechanisms of using dedicated VTN-ID in the data plane instead of the per-VTN resource-aware SIDs to further reduce the control plane overhead.</t>
+      <t>   Enhanced VPN (VPN+) aims to provide enhanced VPN services to support
+   some application's needs of enhanced isolation and stringent
+   performance requirements.  VPN+ requires integration between the
+   overlay VPN connectivity and the characteristics provided by the
+   underlay network.  A Virtual Transport Network (VTN) is a virtual
+   underlay network which has a customized network topology and a set of
+   network resources allocated from the physical network.  A VTN could
+   be used to support one or a group of VPN+ services.
+
+   This document specifies the IGP mechanisms with necessary extensions
+   to advertise the associated topology and resource attributes for
+   scalable Segment Routing (SR) based VTNs.  Each VTN can have a
+   customized topology and a set of network resources allocated from the
+   physical network.  Multiple VTNs may shared the same topology, and
+   multiple VTNs may share the same set of network resources on some
+   network segments.  A group of resource-aware SIDs are allocated for
+   each VTN.  This allows flexible combination of the network topology
+   and network resource attributes to build a relatively large number of
+   VTNs with a small number of logical topologies.  The proposed
+   mechanism is applicable to both Segment Routing with MPLS data plane
+   (SR-MPLS) and segment routing with IPv6 data plane (SRv6).  This
+   document also describes the mechanisms of using dedicated VTN-ID in
+   the data plane instead of the per-VTN resource-aware SIDs to further
+   reduce the control plane overhead.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-dong-lsr-sr-enhanced-vpn-07"/>
 </reference>

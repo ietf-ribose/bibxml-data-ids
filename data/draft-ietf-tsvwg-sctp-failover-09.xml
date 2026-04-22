@@ -1,25 +1,37 @@
 <reference anchor="I-D.ietf-tsvwg-sctp-failover" target="https://datatracker.ietf.org/doc/html/draft-ietf-tsvwg-sctp-failover-09">
   <front>
     <title>SCTP-PF: Quick Failover Algorithm in SCTP</title>
-    <author fullname="Yoshifumi Nishida" initials="Y." surname="Nishida">
-      <organization/>
-    </author>
-    <author fullname="Preethi Natarajan" initials="P." surname="Natarajan">
-      <organization/>
-    </author>
-    <author fullname="Armando L. Caro" initials="A. L." surname="Caro">
-      <organization/>
-    </author>
-    <author fullname="Paul D. Amer" initials="P. D." surname="Amer">
-      <organization/>
-    </author>
-    <author fullname="karen Nielsen" initials="K." surname="Nielsen">
-      <organization/>
-    </author>
-    <date year="2014" month="December" day="24"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-sctp-failover-09"/>
+    <author initials="Y." surname="Nishida" fullname="Yoshifumi Nishida"/>
+    <author initials="P." surname="Natarajan" fullname="Preethi Natarajan"/>
+    <author initials="A. L." surname="Caro" fullname="Armando L. Caro"/>
+    <author initials="P. D." surname="Amer" fullname="Paul D. Amer"/>
+    <author initials="K." surname="Nielsen" fullname="karen Nielsen"/>
+    <date day="24" month="December" year="2014"></date>
     <abstract>
-      <t>One of the major advantages of SCTP is the support of multi-homed communication. A multi-homed SCTP end-point has the ability to withstand network failures by migrating the traffic from an inactive network to an active one. However, if the failover operation as specified in [RFC4960] is followed, there can be a significant delay in the migration to the active destination addresses, thus severely reducing the effectiveness of the SCTP failover operation. This memo complements [RFC4960] by the introduction of the Potentially Failed path state and the associated new failover operation called SCTP-PF to apply during a network failure. In addition, the memo complements [RFC4960] by introducing of alternative switchover operation modes for the data transfer path management after the recovery of a failed primary path. These modes offers for more performance optimal operation in some network environments. The implementation of the additional switchover operation modes is optional. The procedures defined in the document require only minimal modifications to the current specification. The procedures are sender-side only and do not impact the SCTP receiver.</t>
+      <t>   One of the major advantages of SCTP is the support of multi-homed
+   communication.  A multi-homed SCTP end-point has the ability to
+   withstand network failures by migrating the traffic from an inactive
+   network to an active one.  However, if the failover operation as
+   specified in [RFC4960] is followed, there can be a significant delay
+   in the migration to the active destination addresses, thus severely
+   reducing the effectiveness of the SCTP failover operation.
+
+   This memo complements [RFC4960] by the introduction of the
+   Potentially Failed path state and the associated new failover
+   operation called SCTP-PF to apply during a network failure.  In
+   addition, the memo complements [RFC4960] by introducing of
+   alternative switchover operation modes for the data transfer path
+   management after the recovery of a failed primary path.  These modes
+   offers for more performance optimal operation in some network
+   environments.  The implementation of the additional switchover
+   operation modes is optional.
+
+   The procedures defined in the document require only minimal
+   modifications to the current specification.  The procedures are
+   sender-side only and do not impact the SCTP receiver.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-tsvwg-sctp-failover-09"/>
 </reference>

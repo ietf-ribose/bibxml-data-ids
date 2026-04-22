@@ -1,19 +1,27 @@
 <reference anchor="I-D.barik-mptcp-lisa" target="https://datatracker.ietf.org/doc/html/draft-barik-mptcp-lisa-01">
   <front>
     <title>A Linked Slow-Start Algorithm for MPTCP</title>
-    <author fullname="Runa Barik" initials="R." surname="Barik">
+    <seriesInfo name="Internet-Draft" value="draft-barik-mptcp-lisa-01"/>
+    <author initials="R." surname="Barik" fullname="Runa Barik">
       <organization>University of Oslo</organization>
     </author>
-    <author fullname="Simone Ferlin" initials="S." surname="Ferlin">
+    <author initials="S." surname="Ferlin" fullname="Simone Ferlin">
       <organization>Simula Research Laboratory</organization>
     </author>
-    <author fullname="Michael Welzl" initials="M." surname="Welzl">
+    <author initials="M." surname="Welzl" fullname="Michael Welzl">
       <organization>University of Oslo</organization>
     </author>
-    <date year="2016" month="June" day="27"/>
+    <date day="27" month="June" year="2016"></date>
     <abstract>
-      <t>This document describes the LISA (Linked Slow-Start Algorithm) for Multipath TCP (MPTCP). Currently during slow-start, subflows behave like independent TCP flows making MPTCP unfair to cross-traffic and causing more congestion at the bottleneck. This also yields more losses among the MPTCP subflows. LISA couples the initial windows (IW) of MPTCP subflows during the initial slow-start phase to remove this adverse behavior.</t>
+      <t>   This document describes the LISA (Linked Slow-Start Algorithm) for
+   Multipath TCP (MPTCP).  Currently during slow-start, subflows behave
+   like independent TCP flows making MPTCP unfair to cross-traffic and
+   causing more congestion at the bottleneck.  This also yields more
+   losses among the MPTCP subflows.  LISA couples the initial windows
+   (IW) of MPTCP subflows during the initial slow-start phase to remove
+   this adverse behavior.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-barik-mptcp-lisa-01"/>
 </reference>

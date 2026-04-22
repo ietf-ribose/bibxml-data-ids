@@ -1,28 +1,32 @@
 <reference anchor="I-D.ietf-bier-mld" target="https://datatracker.ietf.org/doc/html/draft-ietf-bier-mld-05">
   <front>
     <title>BIER Ingress Multicast Flow Overlay using Multicast Listener Discovery Protocols</title>
-    <author fullname="Pierre Pfister" initials="P." surname="Pfister">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bier-mld-05"/>
+    <author initials="P." surname="Pfister" fullname="Pierre Pfister">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
+    <author initials="I." surname="Wijnands" fullname="IJsbrand Wijnands">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Stig Venaas" initials="S." surname="Venaas">
+    <author initials="S." surname="Venaas" fullname="Stig Venaas">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Cui(Linda) Wang" initials="C." surname="Wang">
-      <organization/>
-    </author>
-    <author fullname="Zheng Zhang" initials="Z." surname="Zhang">
+    <author initials="C." surname="Wang" fullname="Cui(Linda) Wang"/>
+    <author initials="Z." surname="Zhang" fullname="Zheng Zhang">
       <organization>ZTE Corporation</organization>
     </author>
-    <author fullname="Markus Stenberg" initials="M." surname="Stenberg">
-      <organization/>
-    </author>
-    <date year="2021" month="February" day="22"/>
+    <author initials="M." surname="Stenberg" fullname="Markus Stenberg"/>
+    <date day="22" month="February" year="2021"></date>
     <abstract>
-      <t>This document specifies the ingress part of a multicast flow overlay for BIER networks. Using existing multicast listener discovery protocols, it enables multicast membership information sharing from egress routers, acting as listeners, toward ingress routers, acting as queriers. Ingress routers keep per-egress-router state, used to construct the BIER bit mask associated with IP multicast packets entering the BIER domain.</t>
+      <t>   This document specifies the ingress part of a multicast flow overlay
+   for BIER networks.  Using existing multicast listener discovery
+   protocols, it enables multicast membership information sharing from
+   egress routers, acting as listeners, toward ingress routers, acting
+   as queriers.  Ingress routers keep per-egress-router state, used to
+   construct the BIER bit mask associated with IP multicast packets
+   entering the BIER domain.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-bier-mld-05"/>
 </reference>

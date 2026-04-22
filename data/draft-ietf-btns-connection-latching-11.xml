@@ -1,13 +1,18 @@
 <reference anchor="I-D.ietf-btns-connection-latching" target="https://datatracker.ietf.org/doc/html/draft-ietf-btns-connection-latching-11">
   <front>
     <title>IPsec Channels: Connection Latching</title>
-    <author fullname="Nicolás Williams" initials="N." surname="Williams">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-btns-connection-latching-11"/>
+    <author initials="N." surname="Williams" fullname="Nicolás Williams">
       <organization>Sun</organization>
     </author>
-    <date year="2009" month="August" day="13"/>
+    <date day="13" month="August" year="2009"></date>
     <abstract>
-      <t>This document specifies, abstractly, how to interface applications and transport protocols with IPsec so as to create "channels" by latching "connections" (packet flows) to certain IPsec Security Association (SA) parameters for the lifetime of the connections. Connection latching is layered on top of IPsec and does not modify the underlying IPsec architecture. Connection latching can be used to protect applications against accidentally exposing live packet flows to unintended peers, whether as the result of a reconfiguration of IPsec or as the result of using weak peer identity to peer address associations. Weak association of peer ID and peer addresses is at the core of Better Than Nothing Security (BTNS); thus, connection latching can add a significant measure of protection to BTNS IPsec nodes. Finally, the availability of IPsec channels will make it possible to use channel binding to IPsec channels. [STANDARDS-TRACK]</t>
+      <t>This document specifies, abstractly, how to interface applications and transport protocols with IPsec so as to create "channels" by latching "connections" (packet flows) to certain IPsec Security Association (SA) parameters for the lifetime of the connections. Connection latching is layered on top of IPsec and does not modify the underlying IPsec architecture.
+
+ Connection latching can be used to protect applications against accidentally exposing live packet flows to unintended peers, whether as the result of a reconfiguration of IPsec or as the result of using weak peer identity to peer address associations. Weak association of peer ID and peer addresses is at the core of Better Than Nothing Security (BTNS); thus, connection latching can add a significant measure of protection to BTNS IPsec nodes.
+
+ Finally, the availability of IPsec channels will make it possible to use channel binding to IPsec channels. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-btns-connection-latching-11"/>
 </reference>

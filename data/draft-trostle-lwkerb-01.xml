@@ -1,16 +1,24 @@
 <reference anchor="I-D.trostle-lwkerb" target="https://datatracker.ietf.org/doc/html/draft-trostle-lwkerb-01">
   <front>
     <title>Lightweight Kerberos Mechanism</title>
-    <author fullname="Dr. Jonathan Trostle" initials="J." surname="Trostle">
+    <seriesInfo name="Internet-Draft" value="draft-trostle-lwkerb-01"/>
+    <author initials="J." surname="Trostle" fullname="Dr. Jonathan Trostle">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Michael Swift" initials="M." surname="Swift">
-      <organization/>
-    </author>
-    <date year="2001" month="June" day="7"/>
+    <author initials="M." surname="Swift" fullname="Michael Swift"/>
+    <date day="07" month="June" year="2001"></date>
     <abstract>
-      <t>The Kerberos V5 protocol [3] allows network entities to authenticate and establish shared secret keys. Some network applications would benefit from a lightweight authentication mechanism with many of the benefits of Kerberos, but where the messages have fewer bytes than existing Kerberos messages. Also, we describe a protocol option that requires only two messages to be sent and received from the client, to support lightweight clients. This document describes a Kerberos- like protocol that does not use ASN.1 and is optimized for smaller messages. The protocol makes use of existing Kerberos infrastructure.</t>
+      <t>The Kerberos V5 protocol [3] allows network entities to authenticate
+and establish shared secret keys. Some network applications would
+benefit from a lightweight authentication mechanism with many of the
+benefits of Kerberos, but where the messages have fewer bytes than
+existing Kerberos messages. Also, we describe a protocol option that
+requires only two messages to be sent and received from the client,
+to support lightweight clients. This document describes a Kerberos-
+like protocol that does not use ASN.1 and is optimized for smaller
+messages. The protocol makes use of existing Kerberos infrastructure.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-trostle-lwkerb-01"/>
 </reference>

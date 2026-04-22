@@ -1,19 +1,34 @@
 <reference anchor="I-D.larsson-netext-pmipv6-sma-flow-mobility" target="https://datatracker.ietf.org/doc/html/draft-larsson-netext-pmipv6-sma-flow-mobility-00">
   <front>
     <title>Simultaneous Multi-Access and Flow Mobility Support for PMIPv6</title>
-    <author fullname="Conny Larsson" initials="C." surname="Larsson">
+    <seriesInfo name="Internet-Draft" value="draft-larsson-netext-pmipv6-sma-flow-mobility-00"/>
+    <author initials="C." surname="Larsson" fullname="Conny Larsson">
       <organization>Ericsson Research</organization>
     </author>
-    <author fullname="Michael Eriksson" initials="M." surname="Eriksson">
+    <author initials="M." surname="Eriksson" fullname="Michael Eriksson">
       <organization>Ericsson Research</organization>
     </author>
-    <author fullname="Petter Arvidsson" initials="P." surname="Arvidsson">
+    <author initials="P." surname="Arvidsson" fullname="Petter Arvidsson">
       <organization>Ericsson Research</organization>
     </author>
-    <date year="2009" month="March" day="4"/>
+    <date day="04" month="March" year="2009"></date>
     <abstract>
-      <t>This document specifies how flow mobility can be realized for a mobile node with multiple network interfaces, for which the network provides mobility support by means of Proxy Mobile IPv6 (PMIPv6). By introducing a "Primary Prefix", the mobile node is able to maintain IP data sessions when moving between different network interfaces. This document introduces a new set of ICMP and Mobility Header messages. It requires modifications of the mobile node. However, since support for simultaneous multi-access and flow mobility requires modifications of the mobile node anyway, the modifications suggested in this document are considered to be modest. The suggested enhancement is fully backwards compatible with the base Proxy Mobile IPv6 specification. The mobile node may be an IPv4-only node, IPv6-only node, or a dual-stack node.</t>
+      <t>This document specifies how flow mobility can be realized for a
+mobile node with multiple network interfaces, for which the network
+provides mobility support by means of Proxy Mobile IPv6 (PMIPv6).  By
+introducing a "Primary Prefix", the mobile node is able to maintain
+IP data sessions when moving between different network interfaces.
+
+This document introduces a new set of ICMP and Mobility Header
+messages.  It requires modifications of the mobile node.  However,
+since support for simultaneous multi-access and flow mobility
+requires modifications of the mobile node anyway, the modifications
+suggested in this document are considered to be modest.
+
+The suggested enhancement is fully backwards compatible with the base
+Proxy Mobile IPv6 specification.  The mobile node may be an IPv4-only
+node, IPv6-only node, or a dual-stack node.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-larsson-netext-pmipv6-sma-flow-mobility-00"/>
 </reference>

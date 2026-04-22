@@ -1,13 +1,23 @@
 <reference anchor="I-D.mathis-conex-abstract-mech" target="https://datatracker.ietf.org/doc/html/draft-mathis-conex-abstract-mech-00">
   <front>
     <title>Congestion Exposure (ConEx) Concepts and Abstract Mechanism</title>
-    <author fullname="Bob Briscoe" initials="B." surname="Briscoe">
+    <seriesInfo name="Internet-Draft" value="draft-mathis-conex-abstract-mech-00"/>
+    <author initials="B." surname="Briscoe" fullname="Bob Briscoe">
       <organization>BT</organization>
     </author>
-    <date year="2010" month="October" day="18"/>
+    <date day="18" month="October" year="2010"></date>
     <abstract>
-      <t>This document describes an abstract mechanism by which senders inform the network about the congestion encountered by packets earlier in the same flow. Today, the network may signal congestion to the receiver by ECN markings or by dropping packets, and the receiver may pass this information back to the sender in transport-layer feedback. The mechanism to be developed by the ConEx WG will enable the sender to also relay this congestion information back into the network in- band at the IP layer, such that the total level of congestion is visible to all IP devices along the path, from where it could, for example, be provided as input to traffic management.</t>
+      <t>This document describes an abstract mechanism by which senders inform
+the network about the congestion encountered by packets earlier in
+the same flow.  Today, the network may signal congestion to the
+receiver by ECN markings or by dropping packets, and the receiver may
+pass this information back to the sender in transport-layer feedback.
+The mechanism to be developed by the ConEx WG will enable the sender
+to also relay this congestion information back into the network in-
+band at the IP layer, such that the total level of congestion is
+visible to all IP devices along the path, from where it could, for
+example, be provided as input to traffic management.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mathis-conex-abstract-mech-00"/>
 </reference>

@@ -1,13 +1,14 @@
 <reference anchor="I-D.ogier-ospf-dbex-opt" target="https://datatracker.ietf.org/doc/html/draft-ogier-ospf-dbex-opt-03">
   <front>
     <title>OSPF Database Exchange Summary List Optimization</title>
-    <author fullname="Richard Ogier" initials="R." surname="Ogier">
+    <seriesInfo name="Internet-Draft" value="draft-ogier-ospf-dbex-opt-03"/>
+    <author initials="R." surname="Ogier" fullname="Richard Ogier">
       <organization>SRI International</organization>
     </author>
-    <date year="2007" month="December" day="16"/>
+    <date day="16" month="December" year="2007"></date>
     <abstract>
-      <t>This document describes a backward-compatible optimization for the Database Exchange process in OSPFv2 and OSPFv3. In this optimization, a router does not list a Link State Advertisement (LSA) in Database Description packets sent to a neighbor, if the same or a more recent instance of the LSA was listed in a Database Description packet already received from the neighbor. This optimization reduces Database Description overhead by about 50% in large networks. This optimization does not affect synchronization, since it only omits unnecessary information from Database Description packets. This memo provides information for the Internet community.</t>
+      <t>This document describes a backward-compatible optimization for the Database Exchange process in OSPFv2 and OSPFv3.  In this optimization, a router does not list a Link State Advertisement (LSA) in Database Description packets sent to a neighbor, if the same or a more recent instance of the LSA was listed in a Database Description packet already received from the neighbor.  This optimization reduces Database Description overhead by about 50% in large networks.  This optimization does not affect synchronization, since it only omits unnecessary information from Database Description packets.  This memo provides information for the Internet community.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ogier-ospf-dbex-opt-03"/>
 </reference>

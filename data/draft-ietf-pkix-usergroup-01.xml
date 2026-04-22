@@ -1,13 +1,23 @@
 <reference anchor="I-D.ietf-pkix-usergroup" target="https://datatracker.ietf.org/doc/html/draft-ietf-pkix-usergroup-01">
   <front>
     <title>The PKIX UserGroupName GeneralName Type</title>
-    <author fullname="Michael StJohns" initials="M." surname="StJohns">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pkix-usergroup-01"/>
+    <author initials="M." surname="StJohns" fullname="Michael StJohns">
       <organization>Network Associates Labs</organization>
     </author>
-    <date year="2002" month="September" day="25"/>
+    <date day="25" month="September" year="2002"></date>
     <abstract>
-      <t>A number of systems which understand X.509 client certificates have developed various ad hoc mechanisms to map a certificate to a 'userid'/'group(s)' value which can then be used for access control. The mechanisms include idiosyncratic name forms for the SubjectName field such as encoding the userid as a CommonName and the group as an OrganizationalUnit, or mapping the certificate against an entry in a directory system. This document describes an otherName extension of the GeneralName type which can be used in the SubjectAltName extension or IssuerAltName extension to directly encode userid and group information.</t>
+      <t>A number of systems which understand X.509 client certificates have
+developed various ad hoc mechanisms to map a certificate to a
+'userid'/'group(s)' value which can then be used for access control.
+The mechanisms include idiosyncratic name forms for the SubjectName
+field such as encoding the userid as a CommonName and the group as an
+OrganizationalUnit, or mapping the certificate against an entry in a
+directory system.  This document describes an otherName extension of
+the GeneralName type which can be used in the SubjectAltName
+extension or IssuerAltName extension to directly encode userid and
+group information.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-pkix-usergroup-01"/>
 </reference>

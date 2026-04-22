@@ -1,19 +1,31 @@
 <reference anchor="I-D.park-radext-ssk-update" target="https://datatracker.ietf.org/doc/html/draft-park-radext-ssk-update-02">
   <front>
     <title>Shared Secret Key update for RADIUS Accounting</title>
-    <author fullname="ddukki86@ssu.ac.kr" initials="" surname="ddukki86@ssu.ac.kr">
-      <organization/>
-    </author>
-    <author fullname="Souhwan Jung" initials="S." surname="Jung">
+    <seriesInfo name="Internet-Draft" value="draft-park-radext-ssk-update-02"/>
+    <author surname="ddukki86@ssu.ac.kr" fullname="ddukki86@ssu.ac.kr"/>
+    <author initials="S." surname="Jung" fullname="Souhwan Jung">
       <organization>Soongsil University</organization>
     </author>
-    <author fullname="Seung Wook Jung" initials="S. W." surname="Jung">
+    <author initials="S. W." surname="Jung" fullname="Seung Wook Jung">
       <organization>Soongsil University</organization>
     </author>
-    <date year="2014" month="July" day="3"/>
+    <date day="03" month="July" year="2014"></date>
     <abstract>
-      <t>There is a shared secret key in the existing method to authenticate RADIUS accounting messages between the RADIUS server and the access point. If this key is exposed, the attacker can utilize this key to operate the Rogue AP as a normal AP. In this case, a problem arises regarding to the creation of forged user accounting information and transmission to the RADIUS Server. Furthermore, there is some inconvenience for the administrators because each server and AP have to be accessed directly to configure the SSK. This draft proposes the technique for periodic updates of the shared secret key by the RADIUS server to resolve this problem.</t>
+      <t>   There is a shared secret key in the existing method to authenticate
+   RADIUS accounting messages between the RADIUS server and the access
+   point. If this key is exposed, the attacker can utilize this key to
+   operate the Rogue AP as a normal AP. In this case, a problem arises
+   regarding to the creation of forged user accounting information and
+   transmission to the RADIUS Server. Furthermore, there is some
+   inconvenience for the administrators because each server and AP have
+   to be accessed directly to configure the SSK. This draft proposes
+   the technique for periodic updates of the shared secret key by the
+   RADIUS server to resolve this problem.
+
+
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-park-radext-ssk-update-02"/>
 </reference>

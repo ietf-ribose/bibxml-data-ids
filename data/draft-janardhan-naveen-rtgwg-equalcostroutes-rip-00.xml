@@ -1,16 +1,23 @@
 <reference anchor="I-D.janardhan-naveen-rtgwg-equalcostroutes-rip" target="https://datatracker.ietf.org/doc/html/draft-janardhan-naveen-rtgwg-equalcostroutes-rip-00">
   <front>
     <title>Equal cost routes support for RIP/RIPNG</title>
-    <author fullname="Janardhan Kulkarni" initials="J." surname="Kulkarni">
-      <organization/>
-    </author>
-    <author fullname="Naveen Anand" initials="N." surname="Anand">
-      <organization/>
-    </author>
-    <date year="2007" month="July" day="3"/>
+    <seriesInfo name="Internet-Draft" value="draft-janardhan-naveen-rtgwg-equalcostroutes-rip-00"/>
+    <author initials="J." surname="Kulkarni" fullname="Janardhan Kulkarni"/>
+    <author initials="N." surname="Anand" fullname="Naveen Anand"/>
+    <date day="03" month="July" year="2007"></date>
     <abstract>
-      <t>RIP v2 as described in RFC 2453 and RIPNG as described in RFC 2080, do not support learning multiple equal cost routes to a destination through different neighbors.But in today’s internet it is very common to have topologies where there are more than one route to a destination. This document describes the modifications to the RIP/RIPNG protocols to handle this scenario and describes how to apply the split horizon and poison reverse for such routes. It is simple, light and is compatible with the implementations which do not support this feature.</t>
+      <t>RIP v2 as described in RFC 2453 and RIPNG as described in RFC 2080,
+do not support learning multiple equal cost routes to a destination 
+through different neighbors.But in today’s internet it is very 
+common to have topologies where there are more than one route to a 
+destination. This document describes the modifications to the 
+RIP/RIPNG protocols to handle this scenario and describes how to 
+apply the split horizon and poison reverse for such routes. It is
+simple, light and is compatible with the implementations which do not
+support this feature.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-janardhan-naveen-rtgwg-equalcostroutes-rip-00"/>
 </reference>

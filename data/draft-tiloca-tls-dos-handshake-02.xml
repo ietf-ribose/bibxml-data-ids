@@ -1,22 +1,30 @@
 <reference anchor="I-D.tiloca-tls-dos-handshake" target="https://datatracker.ietf.org/doc/html/draft-tiloca-tls-dos-handshake-02">
   <front>
     <title>Extension for protecting (D)TLS handshakes against Denial of Service</title>
-    <author fullname="Marco Tiloca" initials="M." surname="Tiloca">
+    <seriesInfo name="Internet-Draft" value="draft-tiloca-tls-dos-handshake-02"/>
+    <author initials="M." surname="Tiloca" fullname="Marco Tiloca">
       <organization>RISE SICS AB</organization>
     </author>
-    <author fullname="Ludwig Seitz" initials="L." surname="Seitz">
+    <author initials="L." surname="Seitz" fullname="Ludwig Seitz">
       <organization>RISE SICS AB</organization>
     </author>
-    <author fullname="Maarten Hoeve" initials="M." surname="Hoeve">
+    <author initials="M." surname="Hoeve" fullname="Maarten Hoeve">
       <organization>ENCS</organization>
     </author>
-    <author fullname="Olaf Bergmann" initials="O." surname="Bergmann">
+    <author initials="O." surname="Bergmann" fullname="Olaf Bergmann">
       <organization>Universitaet Bremen TZI</organization>
     </author>
-    <date year="2018" month="March" day="5"/>
+    <date day="05" month="March" year="2018"></date>
     <abstract>
-      <t>This document describes an extension for TLS and DTLS to protect the server from Denial of Service attacks against the handshake protocol, carried out by an on-path adversary. The extension includes a nonce and a Message Authentication Code (MAC) over that nonce, encoded as a Handshake Token that a Trust Anchor entity computes and provides to the client. The server registered at the Trust Anchor verifies the MAC to determine whether continuing or aborting the handshake.</t>
+      <t>   This document describes an extension for TLS and DTLS to protect the
+   server from Denial of Service attacks against the handshake protocol,
+   carried out by an on-path adversary.  The extension includes a nonce
+   and a Message Authentication Code (MAC) over that nonce, encoded as a
+   Handshake Token that a Trust Anchor entity computes and provides to
+   the client.  The server registered at the Trust Anchor verifies the
+   MAC to determine whether continuing or aborting the handshake.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-tiloca-tls-dos-handshake-02"/>
 </reference>

@@ -1,31 +1,43 @@
 <reference anchor="I-D.patel-raszuk-bgp-vector-routing" target="https://datatracker.ietf.org/doc/html/draft-patel-raszuk-bgp-vector-routing-07">
   <front>
     <title>BGP vector routing.</title>
-    <author fullname="Robert Raszuk" initials="R." surname="Raszuk">
+    <seriesInfo name="Internet-Draft" value="draft-patel-raszuk-bgp-vector-routing-07"/>
+    <author initials="R." surname="Raszuk" fullname="Robert Raszuk">
       <organization>Bloomberg LP</organization>
     </author>
-    <author fullname="Keyur Patel" initials="K." surname="Patel">
+    <author initials="K." surname="Patel" fullname="Keyur Patel">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Burjiz" initials="B." surname="Burjiz">
+    <author initials="B." surname="Burjiz" fullname="Burjiz">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Ali Sajassi" initials="A." surname="Sajassi">
+    <author initials="A." surname="Sajassi" fullname="Ali Sajassi">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="eric.osborne@level3.com" initials="E." surname="eric.osborne@level3.com">
-      <organization/>
-    </author>
-    <author fullname="Luay Jalil" initials="L." surname="Jalil">
+    <author initials="E." surname="eric.osborne@level3.com" fullname="eric.osborne@level3.com"/>
+    <author initials="L." surname="Jalil" fullname="Luay Jalil">
       <organization>VeriZon</organization>
     </author>
-    <author fullname="Jim Uttaro" initials="J." surname="Uttaro">
+    <author initials="J." surname="Uttaro" fullname="Jim Uttaro">
       <organization>ATT</organization>
     </author>
-    <date year="2016" month="May" day="31"/>
+    <date day="31" month="May" year="2016"></date>
     <abstract>
-      <t>Network architectures have begun to shift from pure destination based routing to service aware routing. Operator requirements in this space include forcing traffic through particular service nodes (e.g. firewall, NAT) or transit nodes (e.g. segments). This document proposes an enhancement to BGP to accommodate these new requirements. This document proposes a pure control plane solution which allows traffic to be routed via an ordered set of transit points (links, nodes or services) on the way to traffic's destination, with no change in the forwarding plane. This approach is in contrast to other proposal in this space which provide similar capabilities via modifications to the forwarding plane.</t>
+      <t>   Network architectures have begun to shift from pure destination based
+   routing to service aware routing.  Operator requirements in this
+   space include forcing traffic through particular service nodes (e.g.
+   firewall, NAT) or transit nodes (e.g. segments).  This document
+   proposes an enhancement to BGP to accommodate these new requirements.
+
+   This document proposes a pure control plane solution which allows
+   traffic to be routed via an ordered set of transit points (links,
+   nodes or services) on the way to traffic's destination, with no
+   change in the forwarding plane.  This approach is in contrast to
+   other proposal in this space which provide similar capabilities via
+   modifications to the forwarding plane.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-patel-raszuk-bgp-vector-routing-07"/>
 </reference>

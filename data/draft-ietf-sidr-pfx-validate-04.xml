@@ -1,25 +1,24 @@
 <reference anchor="I-D.ietf-sidr-pfx-validate" target="https://datatracker.ietf.org/doc/html/draft-ietf-sidr-pfx-validate-04">
   <front>
     <title>BGP Prefix Origin Validation</title>
-    <author fullname="Prodosh Mohapatra" initials="P." surname="Mohapatra">
-      <organization/>
-    </author>
-    <author fullname="John Scudder" initials="J." surname="Scudder">
-      <organization/>
-    </author>
-    <author fullname="David Ward" initials="D." surname="Ward">
-      <organization/>
-    </author>
-    <author fullname="Randy Bush" initials="R." surname="Bush">
-      <organization/>
-    </author>
-    <author fullname="Rob Austein" initials="R." surname="Austein">
-      <organization/>
-    </author>
-    <date year="2012" month="March" day="12"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-sidr-pfx-validate-04"/>
+    <author initials="P." surname="Mohapatra" fullname="Prodosh Mohapatra"/>
+    <author initials="J." surname="Scudder" fullname="John Scudder"/>
+    <author initials="D." surname="Ward" fullname="David Ward"/>
+    <author initials="R." surname="Bush" fullname="Randy Bush"/>
+    <author initials="R." surname="Austein" fullname="Rob Austein"/>
+    <date day="12" month="March" year="2012"></date>
     <abstract>
-      <t>To help reduce well-known threats against BGP including prefix mis- announcing and monkey-in-the-middle attacks, one of the security requirements is the ability to validate the origination AS of BGP routes. More specifically, one needs to validate that the AS number claiming to originate an address prefix (as derived from the AS_PATH attribute of the BGP route) is in fact authorized by the prefix holder to do so. This document describes a simple validation mechanism to partially satisfy this requirement.</t>
+      <t>   To help reduce well-known threats against BGP including prefix mis-
+   announcing and monkey-in-the-middle attacks, one of the security
+   requirements is the ability to validate the origination AS of BGP
+   routes.  More specifically, one needs to validate that the AS number
+   claiming to originate an address prefix (as derived from the AS_PATH
+   attribute of the BGP route) is in fact authorized by the prefix
+   holder to do so.  This document describes a simple validation
+   mechanism to partially satisfy this requirement.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-sidr-pfx-validate-04"/>
 </reference>

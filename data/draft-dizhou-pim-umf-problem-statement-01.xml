@@ -1,25 +1,34 @@
 <reference anchor="I-D.dizhou-pim-umf-problem-statement" target="https://datatracker.ietf.org/doc/html/draft-dizhou-pim-umf-problem-statement-01">
   <front>
     <title>Unnecessary Multicast Flooding Problem Statement</title>
-    <author fullname="Di Zhou" initials="D." surname="Zhou">
+    <seriesInfo name="Internet-Draft" value="draft-dizhou-pim-umf-problem-statement-01"/>
+    <author initials="D." surname="Zhou" fullname="Di Zhou">
       <organization>Hangzhou H3C Tech. Co., Ltd.</organization>
     </author>
-    <author fullname="DENG Hui" initials="H." surname="Deng">
+    <author initials="H." surname="Deng" fullname="DENG Hui">
       <organization>China Mobile Research Institute</organization>
     </author>
-    <author fullname="Yang Shi" initials="Y." surname="Shi">
+    <author initials="Y." surname="Shi" fullname="Yang Shi">
       <organization>Hangzhou H3C Tech. Co., Ltd.</organization>
     </author>
-    <author fullname="Hui Liu" initials="H." surname="Liu">
+    <author initials="H." surname="Liu" fullname="Hui Liu">
       <organization>Huawei Technologies Co., Ltd.</organization>
     </author>
-    <author fullname="Indranil Bhattacharya" initials="I." surname="Bhattacharya">
+    <author initials="I." surname="Bhattacharya" fullname="Indranil Bhattacharya">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2010" month="October" day="19"/>
+    <date day="19" month="October" year="2010"></date>
     <abstract>
-      <t>This document describes the unnecessary multicast stream flooding problem in the link layer switches between multicast source and PIM First Hop Router (FHR). The IGMP-Snooping Switch will forward multicast streams to router ports, and the PIM FHR must receive all multicast streams even if there is no request from receiver. This often leads to waste of switchs' cache and link bandwidth when the multicast streams are not actually required. This document details the problem and defines design goals for a generic mechanism to restrain the unnecessary multicast stream flooding.</t>
+      <t>This document describes the unnecessary multicast stream flooding
+problem in the link layer switches between multicast source and PIM
+First Hop Router (FHR).  The IGMP-Snooping Switch will forward
+multicast streams to router ports, and the PIM FHR must receive all
+multicast streams even if there is no request from receiver.  This
+often leads to waste of switchs' cache and link bandwidth when the
+multicast streams are not actually required.  This document details
+the problem and defines design goals for a generic mechanism to
+restrain the unnecessary multicast stream flooding.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-dizhou-pim-umf-problem-statement-01"/>
 </reference>

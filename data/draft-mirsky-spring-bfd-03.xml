@@ -1,22 +1,32 @@
 <reference anchor="I-D.mirsky-spring-bfd" target="https://datatracker.ietf.org/doc/html/draft-mirsky-spring-bfd-03">
   <front>
     <title>Bidirectional Forwarding Detection (BFD) in Segment Routing Networks Using MPLS Dataplane</title>
-    <author fullname="Greg Mirsky" initials="G." surname="Mirsky">
+    <seriesInfo name="Internet-Draft" value="draft-mirsky-spring-bfd-03"/>
+    <author initials="G." surname="Mirsky" fullname="Greg Mirsky">
       <organization>ZTE Corp.</organization>
     </author>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+    <author initials="J." surname="Tantsura" fullname="Jeff Tantsura">
       <organization>Individual</organization>
     </author>
-    <author fullname="Ilya Varlashkin" initials="I." surname="Varlashkin">
+    <author initials="I." surname="Varlashkin" fullname="Ilya Varlashkin">
       <organization>Google</organization>
     </author>
-    <author fullname="Mach Chen" initials="M." surname="Chen">
+    <author initials="M." surname="Chen" fullname="Mach Chen">
       <organization>Huawei</organization>
     </author>
-    <date year="2017" month="December" day="4"/>
+    <date day="04" month="December" year="2017"></date>
     <abstract>
-      <t>Segment Routing architecture leverages the paradigm of source routing. It can be realized in the Multiprotocol Label Switching (MPLS) network without any change to the data plane. A segment is encoded as an MPLS label and an ordered list of segments is encoded as a stack of labels. Bidirectional Forwarding Detection (BFD) is expected to monitor any kind of paths between systems. This document defines how to use Label Switched Path Ping to bootstrap and control path in reverse direction of a BFD session on the Segment Routing static MPLS tunnel.</t>
+      <t>   Segment Routing architecture leverages the paradigm of source
+   routing.  It can be realized in the Multiprotocol Label Switching
+   (MPLS) network without any change to the data plane.  A segment is
+   encoded as an MPLS label and an ordered list of segments is encoded
+   as a stack of labels.  Bidirectional Forwarding Detection (BFD) is
+   expected to monitor any kind of paths between systems.  This document
+   defines how to use Label Switched Path Ping to bootstrap and control
+   path in reverse direction of a BFD session on the Segment Routing
+   static MPLS tunnel.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mirsky-spring-bfd-03"/>
 </reference>

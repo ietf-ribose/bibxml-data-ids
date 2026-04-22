@@ -1,16 +1,23 @@
 <reference anchor="I-D.ellesson-tos" target="https://datatracker.ietf.org/doc/html/draft-ellesson-tos-00">
   <front>
     <title>A Proposal for the Format and Semantics of the TOS Byte and Traffic Class Byte in IPv4 and IPv6 Headers</title>
-    <author fullname="Ed J. Ellesson" initials="E. J." surname="Ellesson">
-      <organization/>
-    </author>
-    <author fullname="Steven L. Blake" initials="S. L." surname="Blake">
-      <organization/>
-    </author>
-    <date year="1997" month="December" day="3"/>
+    <seriesInfo name="Internet-Draft" value="draft-ellesson-tos-00"/>
+    <author initials="E. J." surname="Ellesson" fullname="Ed J. Ellesson"/>
+    <author initials="S. L." surname="Blake" fullname="Steven L. Blake"/>
+    <date day="03" month="December" year="1997"></date>
     <abstract>
-      <t>This draft proposes an arrangement of fields in the IPv4 TOS byte [RFC795, RFC1349], and in the IPv6 Traffic Class byte [IPv6], and proposes a definition for their associated semantics. The intention is to enable the preservation of currently useful differential class- based queueing behavior on existing network devices, while simultaneously enabling new methods of bandwidth allocation and policing via drop preference, all within the context of flows which may be encrypted at the IP layer using IPSEC. (Note: the IPv6 Class field has recently been expanded to eight bits, but this in not yet available in any version of the specification).</t>
+      <t>This draft proposes an arrangement of fields in the IPv4 TOS byte
+   [RFC795, RFC1349], and in the IPv6 Traffic Class byte [IPv6], and
+   proposes a definition for their associated semantics. The intention
+   is to enable the preservation of currently useful differential class-
+   based queueing behavior on existing network devices, while
+   simultaneously enabling new methods of bandwidth allocation and
+   policing via drop preference, all within the context of flows which
+   may be encrypted at the IP layer using IPSEC.
+ 
+   (Note: the IPv6 Class field has recently been expanded to eight bits,
+   but this in not yet available in any version of the specification).
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ellesson-tos-00"/>
 </reference>

@@ -1,19 +1,32 @@
 <reference anchor="I-D.shen-pwe3-endpoint-fast-protection" target="https://datatracker.ietf.org/doc/html/draft-shen-pwe3-endpoint-fast-protection-04">
   <front>
     <title>PW Endpoint Fast Failure Protection</title>
-    <author fullname="Yimin Shen" initials="Y." surname="Shen">
+    <seriesInfo name="Internet-Draft" value="draft-shen-pwe3-endpoint-fast-protection-04"/>
+    <author initials="Y." surname="Shen" fullname="Yimin Shen">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Rahul Aggarwal" initials="R." surname="Aggarwal">
+    <author initials="R." surname="Aggarwal" fullname="Rahul Aggarwal">
       <organization>Arktan, Inc</organization>
     </author>
-    <author fullname="Wim Henderickx" initials="W." surname="Henderickx">
+    <author initials="W." surname="Henderickx" fullname="Wim Henderickx">
       <organization>Alcatel-Lucent</organization>
     </author>
-    <date year="2013" month="July" day="1"/>
+    <date day="01" month="July" year="2013"></date>
     <abstract>
-      <t>This document specifies a fast mechanism for protecting pseudowires (PWs) against egress endpoint failures, including egress attachment circuit failure, egress PE failure, multi-segment PW terminating PE failure, and multi-segment PW switching PE failure. Designed on the basis of multi-homed CE, PW redundancy, upstream label assignment and context specific label switching, the mechanism enables local repair to be performed by a router upstream adjacent to a failure. In particular, the router can restore PW traffic in the order of tens of milliseconds, by transmitting the traffic to a protector through a pre-established bypass tunnel. Therefore, the mechanism can reduce traffic loss before global repair reacts to the failure and the network converges on the topology changes due to the failure.</t>
+      <t>   This document specifies a fast mechanism for protecting pseudowires
+   (PWs) against egress endpoint failures, including egress attachment
+   circuit failure, egress PE failure, multi-segment PW terminating PE
+   failure, and multi-segment PW switching PE failure.  Designed on the
+   basis of multi-homed CE, PW redundancy, upstream label assignment and
+   context specific label switching, the mechanism enables local repair
+   to be performed by a router upstream adjacent to a failure.  In
+   particular, the router can restore PW traffic in the order of tens of
+   milliseconds, by transmitting the traffic to a protector through a
+   pre-established bypass tunnel.  Therefore, the mechanism can reduce
+   traffic loss before global repair reacts to the failure and the
+   network converges on the topology changes due to the failure.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-shen-pwe3-endpoint-fast-protection-04"/>
 </reference>

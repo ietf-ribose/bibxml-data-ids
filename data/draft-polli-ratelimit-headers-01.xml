@@ -1,16 +1,21 @@
 <reference anchor="I-D.polli-ratelimit-headers" target="https://datatracker.ietf.org/doc/html/draft-polli-ratelimit-headers-01">
   <front>
     <title>RateLimit Header Fields for HTTP</title>
-    <author fullname="Roberto Polli" initials="R." surname="Polli">
+    <seriesInfo name="Internet-Draft" value="draft-polli-ratelimit-headers-01"/>
+    <author initials="R." surname="Polli" fullname="Roberto Polli">
       <organization>Team Digitale, Italian Government</organization>
     </author>
-    <author fullname="Alex Martínez Ruiz" initials="A. M." surname="Ruiz">
+    <author initials="A. M." surname="Ruiz" fullname="Alex Martínez Ruiz">
       <organization>Red Hat</organization>
     </author>
-    <date year="2019" month="October" day="21"/>
+    <date day="21" month="October" year="2019"></date>
     <abstract>
-      <t>This document defines the RateLimit-Limit, RateLimit-Remaining, RateLimit-Reset header fields for HTTP, thus allowing servers to publish current request quotas and clients to shape their request policy and avoid being throttled out.</t>
+      <t>   This document defines the RateLimit-Limit, RateLimit-Remaining,
+   RateLimit-Reset header fields for HTTP, thus allowing servers to
+   publish current request quotas and clients to shape their request
+   policy and avoid being throttled out.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-polli-ratelimit-headers-01"/>
 </reference>

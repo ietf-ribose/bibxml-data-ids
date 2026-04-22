@@ -1,22 +1,23 @@
 <reference anchor="I-D.ietf-6man-rpl-routing-header" target="https://datatracker.ietf.org/doc/html/draft-ietf-6man-rpl-routing-header-07">
   <front>
     <title>An IPv6 Routing Header for Source Routes with the Routing Protocol for Low-Power and Lossy Networks (RPL)</title>
-    <author fullname="David Culler" initials="D." surname="Culler">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-6man-rpl-routing-header-07"/>
+    <author initials="D." surname="Culler" fullname="David Culler">
       <organization>UC Berkeley</organization>
     </author>
-    <author fullname="Jonathan Hui" initials="J." surname="Hui">
+    <author initials="J." surname="Hui" fullname="Jonathan Hui">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="JP Vasseur" initials="V." surname="Jp">
+    <author initials="V." surname="Jp" fullname="JP Vasseur">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Vishwas Manral" initials="V." surname="Manral">
+    <author initials="V." surname="Manral" fullname="Vishwas Manral">
       <organization>Hewlett Packard Co.</organization>
     </author>
-    <date year="2011" month="December" day="15"/>
+    <date day="15" month="December" year="2011"></date>
     <abstract>
-      <t>In Low-Power and Lossy Networks (LLNs), memory constraints on routers may limit them to maintaining, at most, a few routes. In some configurations, it is necessary to use these memory-constrained routers to deliver datagrams to nodes within the LLN. The Routing Protocol for Low-Power and Lossy Networks (RPL) can be used in some deployments to store most, if not all, routes on one (e.g., the Directed Acyclic Graph (DAG) root) or a few routers and forward the IPv6 datagram using a source routing technique to avoid large routing tables on memory-constrained routers. This document specifies a new IPv6 Routing header type for delivering datagrams within a RPL routing domain. [STANDARDS-TRACK]</t>
+      <t>In Low-Power and Lossy Networks (LLNs), memory constraints on routers may limit them to maintaining, at most, a few routes.  In some configurations, it is necessary to use these memory-constrained routers to deliver datagrams to nodes within the LLN.  The Routing Protocol for Low-Power and Lossy Networks (RPL) can be used in some deployments to store most, if not all, routes on one (e.g., the Directed Acyclic Graph (DAG) root) or a few routers and forward the IPv6 datagram using a source routing technique to avoid large routing tables on memory-constrained routers.  This document specifies a new IPv6 Routing header type for delivering datagrams within a RPL routing domain. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-6man-rpl-routing-header-07"/>
 </reference>

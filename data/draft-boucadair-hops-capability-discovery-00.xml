@@ -1,16 +1,31 @@
 <reference anchor="I-D.boucadair-hops-capability-discovery" target="https://datatracker.ietf.org/doc/html/draft-boucadair-hops-capability-discovery-00">
   <front>
     <title>Discovering the Capabilities of Flow-Aware Service Functions (a.k.a. Middleboxes): A PCP-based Approach</title>
-    <author fullname="Mohamed Boucadair" initials="M." surname="Boucadair">
+    <seriesInfo name="Internet-Draft" value="draft-boucadair-hops-capability-discovery-00"/>
+    <author initials="M." surname="Boucadair" fullname="Mohamed Boucadair">
       <organization>France Telecom</organization>
     </author>
-    <author fullname="Christian Jacquenet" initials="C." surname="Jacquenet">
+    <author initials="C." surname="Jacquenet" fullname="Christian Jacquenet">
       <organization>France Telecom</organization>
     </author>
-    <date year="2015" month="June" day="30"/>
+    <date day="30" month="June" year="2015"></date>
     <abstract>
-      <t>This document specifies a solution to discover the capabilities of a flow-aware service function. The solution relies upon the use of the Port Control Protocol (PCP). This solution allows for applications to anticipate connectivity failures and to proceed with countermeasures (e.g., create a mapping for incoming connections, discover a mapping lifetime, discover an external IP address, avoid injecting some options in the outgoing packets, etc.). The propsoed approach allows, for example, to discover whether an upstream flow-aware service function is MPTCP- friendly (that is, it does not strip MPTCP signals) or SCTP- compliant, whether it embeds a firewall function, etc. or a combination thereof.</t>
+      <t>   This document specifies a solution to discover the capabilities of a
+   flow-aware service function.  The solution relies upon the use of the
+   Port Control Protocol (PCP).
+
+   This solution allows for applications to anticipate connectivity
+   failures and to proceed with countermeasures (e.g., create a mapping
+   for incoming connections, discover a mapping lifetime, discover an
+   external IP address, avoid injecting some options in the outgoing
+   packets, etc.).  The propsoed approach allows, for example, to
+   discover whether an upstream flow-aware service function is MPTCP-
+   friendly (that is, it does not strip MPTCP signals) or SCTP-
+   compliant, whether it embeds a firewall function, etc. or a
+   combination thereof.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-boucadair-hops-capability-discovery-00"/>
 </reference>

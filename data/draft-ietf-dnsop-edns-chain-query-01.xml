@@ -1,13 +1,17 @@
 <reference anchor="I-D.ietf-dnsop-edns-chain-query" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-edns-chain-query-01">
   <front>
     <title>Chain Query requests in DNS</title>
-    <author fullname="Paul Wouters" initials="P." surname="Wouters">
-      <organization/>
-    </author>
-    <date year="2014" month="October" day="27"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-edns-chain-query-01"/>
+    <author initials="P." surname="Wouters" fullname="Paul Wouters"/>
+    <date day="27" month="October" year="2014"></date>
     <abstract>
-      <t>This document defines an EDNS0 extension that can be used by a DNSSEC enabled Recursive Nameserver configured as a forwarder to send a single DNS query requesting to receive a complete validation path along with the regular DNS answer, without the need to rapid-fire many UDP requests in an attempt to attain a low latency.</t>
+      <t>   This document defines an EDNS0 extension that can be used by a DNSSEC
+   enabled Recursive Nameserver configured as a forwarder to send a
+   single DNS query requesting to receive a complete validation path
+   along with the regular DNS answer, without the need to rapid-fire
+   many UDP requests in an attempt to attain a low latency.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-edns-chain-query-01"/>
 </reference>

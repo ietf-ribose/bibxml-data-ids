@@ -1,22 +1,31 @@
 <reference anchor="I-D.ietf-ospf-segment-routing-msd" target="https://datatracker.ietf.org/doc/html/draft-ietf-ospf-segment-routing-msd-10">
   <front>
     <title>Signaling MSD (Maximum SID Depth) using OSPF</title>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-segment-routing-msd-10"/>
+    <author initials="J." surname="Tantsura" fullname="Jeff Tantsura">
       <organization>Nuage Networks</organization>
     </author>
-    <author fullname="Uma Chunduri" initials="U." surname="Chunduri">
+    <author initials="U." surname="Chunduri" fullname="Uma Chunduri">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Sam Aldrin" initials="S." surname="Aldrin">
+    <author initials="S." surname="Aldrin" fullname="Sam Aldrin">
       <organization>Google, Inc</organization>
     </author>
-    <author fullname="Peter Psenak" initials="P." surname="Psenak">
+    <author initials="P." surname="Psenak" fullname="Peter Psenak">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2018" month="April" day="5"/>
+    <date day="05" month="April" year="2018"></date>
     <abstract>
-      <t>This document defines a way for an OSPF Router to advertise multiple types of supported Maximum SID Depths (MSDs) at node and/or link granularity. Such advertisements allow entities (e.g., centralized controllers) to determine whether a particular SID stack can be supported in a given network. This document only defines one type of MSD maximum label imposition, but defines an encoding which can support other MSD types. Here the term OSPF means both OSPFv2 and OSPFv3.</t>
+      <t>   This document defines a way for an OSPF Router to advertise multiple
+   types of supported Maximum SID Depths (MSDs) at node and/or link
+   granularity.  Such advertisements allow entities (e.g., centralized
+   controllers) to determine whether a particular SID stack can be
+   supported in a given network.  This document only defines one type of
+   MSD maximum label imposition, but defines an encoding which can
+   support other MSD types.  Here the term OSPF means both OSPFv2 and
+   OSPFv3.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ospf-segment-routing-msd-10"/>
 </reference>

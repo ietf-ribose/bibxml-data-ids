@@ -1,19 +1,29 @@
 <reference anchor="I-D.ietf-opsawg-ipfix-bgp-community" target="https://datatracker.ietf.org/doc/html/draft-ietf-opsawg-ipfix-bgp-community-03">
   <front>
     <title>Export BGP community information in IP Flow Information Export (IPFIX)</title>
-    <author fullname="Zhenqiang Li" initials="Z." surname="Li">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-opsawg-ipfix-bgp-community-03"/>
+    <author initials="Z." surname="Li" fullname="Zhenqiang Li">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Rong Gu" initials="R." surname="Gu">
+    <author initials="R." surname="Gu" fullname="Rong Gu">
       <organization>China Mobile</organization>
     </author>
-    <author fullname="Jie Dong" initials="J." surname="Dong">
+    <author initials="J." surname="Dong" fullname="Jie Dong">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2017" month="October" day="19"/>
+    <date day="19" month="October" year="2017"></date>
     <abstract>
-      <t>This draft updates RFC7012 IPFIX information model by introducing several information elements to enable IPFIX to export the BGP community information, including BGP standard community defined in RFC1997, BGP extended community defined in RFC4360, and BGP large community defined in RFC8092. Network traffic flow information can then be accumulated and analysed at the granularity specified by the BGP communities, which is suitable for and needed by some traffic optimization applications located in IPFIX collector, SDN controller or PCE (Path Computation Element).</t>
+      <t>   This draft updates RFC7012 IPFIX information model by introducing
+   several information elements to enable IPFIX to export the BGP
+   community information, including BGP standard community defined in
+   RFC1997, BGP extended community defined in RFC4360, and BGP large
+   community defined in RFC8092.  Network traffic flow information can
+   then be accumulated and analysed at the granularity specified by the
+   BGP communities, which is suitable for and needed by some traffic
+   optimization applications located in IPFIX collector, SDN controller
+   or PCE (Path Computation Element).
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-opsawg-ipfix-bgp-community-03"/>
 </reference>

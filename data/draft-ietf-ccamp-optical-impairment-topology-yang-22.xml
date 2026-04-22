@@ -1,25 +1,43 @@
 <reference anchor="I-D.ietf-ccamp-optical-impairment-topology-yang" target="https://datatracker.ietf.org/doc/html/draft-ietf-ccamp-optical-impairment-topology-yang-22">
   <front>
     <title>A YANG Data Model for Optical Impairment-aware Topology</title>
-    <author fullname="Dieter Beller" initials="D." surname="Beller">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ccamp-optical-impairment-topology-yang-22"/>
+    <author initials="D." surname="Beller" fullname="Dieter Beller">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Esther Le Rouzic" initials="E." surname="Le Rouzic">
+    <author initials="E." surname="Le Rouzic" fullname="Esther Le Rouzic">
       <organization>Orange</organization>
     </author>
-    <author fullname="Sergio Belotti" initials="S." surname="Belotti">
+    <author initials="S." surname="Belotti" fullname="Sergio Belotti">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Gabriele Galimberti" initials="G." surname="Galimberti">
+    <author initials="G." surname="Galimberti" fullname="Gabriele Galimberti">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Italo Busi" initials="I." surname="Busi">
+    <author initials="I." surname="Busi" fullname="Italo Busi">
       <organization>Huawei Technologies</organization>
     </author>
-    <date year="2026" month="February" day="20"/>
+    <date day="20" month="February" year="2026"></date>
     <abstract>
-      <t>In order to provision an optical connection through optical networks, a combination of path continuity, resource availability, and impairment constraints must be met to determine viable and optimal paths through the network. The determination of appropriate paths is known as Impairment-Aware Routing and Wavelength Assignment (IA-RWA) for a Wavelength Switched Optical Network (WSON), while it is known as Impairment-Aware Routing and Spectrum Assignment (IA-RSA) for a Spectrum Switched Optical Network (SSON). This document provides a YANG data model for the impairment-aware Traffic Engineering topology (TE topology) in optical networks. It augments the technology agnostic YANG Data Model for TE topologies. The topology YANG model provides read-only topology data including optical impairments that can be used for example by a Path Computation Engine (PCE) for calculating an optically feasible path for a new connection before it is established through an optical network.</t>
+      <t>   In order to provision an optical connection through optical networks,
+   a combination of path continuity, resource availability, and
+   impairment constraints must be met to determine viable and optimal
+   paths through the network.  The determination of appropriate paths is
+   known as Impairment-Aware Routing and Wavelength Assignment (IA-RWA)
+   for a Wavelength Switched Optical Network (WSON), while it is known
+   as Impairment-Aware Routing and Spectrum Assignment (IA-RSA) for a
+   Spectrum Switched Optical Network (SSON).
+
+   This document provides a YANG data model for the impairment-aware
+   Traffic Engineering topology (TE topology) in optical networks.  It
+   augments the technology agnostic YANG Data Model for TE topologies.
+   The topology YANG model provides read-only topology data including
+   optical impairments that can be used for example by a Path
+   Computation Engine (PCE) for calculating an optically feasible path
+   for a new connection before it is established through an optical
+   network.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-ccamp-optical-impairment-topology-yang-22"/>
 </reference>

@@ -1,13 +1,24 @@
 <reference anchor="I-D.holmberg-ecrit-emergency-callback-id" target="https://datatracker.ietf.org/doc/html/draft-holmberg-ecrit-emergency-callback-id-00">
   <front>
     <title>Session Initiation Protocol (SIP) emergency call back identification</title>
-    <author fullname="Christer Holmberg" initials="C." surname="Holmberg">
+    <seriesInfo name="Internet-Draft" value="draft-holmberg-ecrit-emergency-callback-id-00"/>
+    <author initials="C." surname="Holmberg" fullname="Christer Holmberg">
       <organization>Ericsson</organization>
     </author>
-    <date year="2011" month="October" day="24"/>
+    <date day="24" month="October" year="2011"></date>
     <abstract>
-      <t>This specification define a new type of Globally Routable User Agent URI (GRUU) [RFC5627], called emergency GRUU (eGRUU). When a User Agent (UA) provides makes an emergency call, it can provide the eGRUU to a PSAP, which can then use it to make a PSAP callback call. The specification also defines a new URI parameter, "psapcb", which can be used to indicate that a URI can be used for PSAP callback calls. A registrar will provide the URI parameter as part of the generated eGRUU value. Later, when a PSAP makes a PSAP callback call the URI, including the "psapcb" URI parameter, can be used by SIP entities to identity callback calls.</t>
+      <t>   This specification define a new type of Globally Routable User Agent
+   URI (GRUU) [RFC5627], called emergency GRUU (eGRUU).  When a User
+   Agent (UA) provides makes an emergency call, it can provide the eGRUU
+   to a PSAP, which can then use it to make a PSAP callback call.  The
+   specification also defines a new URI parameter, "psapcb", which can
+   be used to indicate that a URI can be used for PSAP callback calls.
+   A registrar will provide the URI parameter as part of the generated
+   eGRUU value.  Later, when a PSAP makes a PSAP callback call the URI,
+   including the "psapcb" URI parameter, can be used by SIP entities to
+   identity callback calls.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-holmberg-ecrit-emergency-callback-id-00"/>
 </reference>

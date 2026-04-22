@@ -1,22 +1,28 @@
 <reference anchor="I-D.ietf-mobileip-reg-tunnel" target="https://datatracker.ietf.org/doc/html/draft-ietf-mobileip-reg-tunnel-09">
   <front>
     <title>Mobile IPv4 Regional Registration</title>
-    <author fullname="Gabriel Montenegro" initials="G." surname="Montenegro">
-      <organization/>
-    </author>
-    <author fullname="Pat R. Calhoun" initials="P. R." surname="Calhoun">
-      <organization/>
-    </author>
-    <author fullname="Charles E. Perkins" initials="C. E." surname="Perkins">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-mobileip-reg-tunnel-09"/>
+    <author initials="G." surname="Montenegro" fullname="Gabriel Montenegro"/>
+    <author initials="P. R." surname="Calhoun" fullname="Pat R. Calhoun"/>
+    <author initials="C. E." surname="Perkins" fullname="Charles E. Perkins">
       <organization>Nokia Research Center</organization>
     </author>
-    <author fullname="Eva Fogelstroem" initials="E." surname="Fogelstroem">
-      <organization/>
-    </author>
-    <date year="2004" month="July" day="19"/>
+    <author initials="E." surname="Fogelstroem" fullname="Eva Fogelstroem"/>
+    <date day="19" month="July" year="2004"></date>
     <abstract>
-      <t>Using Mobile IP, a mobile node registers with its home agent each time it changes care-of address. If the distance between the visited network and the home network of the mobile node is large, the signaling delay for these registrations may be long. This document describes a new kind of `regional' registrations, i.e. registrations local to the visited domain. The regional signaling is performed via a new network entity called a Gateway Foreign Agent and introduces a layer of hierarchy in the visited domain. Regional registrations reduce the number of signaling messages to the home network, and reduce the signaling delay when a mobile node moves from one foreign agent to another within the same visited domain. This document is an optional extension to the Mobile IPv4 protocol.</t>
+      <t>Using Mobile IP, a mobile node registers with its home agent each
+time it changes care-of address.  If the distance between the
+visited network and the home network of the mobile node is large, the
+signaling delay for these registrations may be long.  This document
+describes a new kind of `regional' registrations, i.e.  registrations
+local to the visited domain.  The regional signaling is performed via
+a new network entity called a Gateway Foreign Agent and introduces
+a layer of hierarchy in the visited domain.  Regional registrations
+reduce the number of signaling messages to the home network, and
+reduce the signaling delay when a mobile node moves from one foreign
+agent to another within the same visited domain.  This document is an
+optional extension to the Mobile IPv4 protocol.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-mobileip-reg-tunnel-09"/>
 </reference>

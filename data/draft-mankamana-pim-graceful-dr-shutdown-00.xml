@@ -1,25 +1,35 @@
 <reference anchor="I-D.mankamana-pim-graceful-dr-shutdown" target="https://datatracker.ietf.org/doc/html/draft-mankamana-pim-graceful-dr-shutdown-00">
   <front>
     <title>PIM Designated Router graceful shutdown</title>
-    <author fullname="Mankamana Prasad Mishra" initials="M. P." surname="Mishra">
+    <seriesInfo name="Internet-Draft" value="draft-mankamana-pim-graceful-dr-shutdown-00"/>
+    <author initials="M. P." surname="Mishra" fullname="Mankamana Prasad Mishra">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Stig Venaas" initials="S." surname="Venaas">
+    <author initials="S." surname="Venaas" fullname="Stig Venaas">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Mahesh Sivakumar" initials="M." surname="Sivakumar">
+    <author initials="M." surname="Sivakumar" fullname="Mahesh Sivakumar">
       <organization>juniper networks</organization>
     </author>
-    <author fullname="Zheng Zhang" initials="Z." surname="Zhang">
+    <author initials="Z." surname="Zhang" fullname="Zheng Zhang">
       <organization>ZTE Corporation</organization>
     </author>
-    <author fullname="Mikael Abrahamsson" initials="M." surname="Abrahamsson">
-      <organization/>
-    </author>
-    <date year="2018" month="July" day="2"/>
+    <author initials="M." surname="Abrahamsson" fullname="Mikael Abrahamsson"/>
+    <date day="02" month="July" year="2018"></date>
     <abstract>
-      <t>On a multi-access network, one of the PIM routers is elected as a Designated Router (DR). On the last hop LAN, the PIM DR is responsible for tracking local multicast listeners and forwarding traffic to these listeners if the group is operating in PIM-SM. In case of a network maintenance, where we want to bring down the current DR, there is currently no way to gracefully handover the PIM DR role to a new DR on the shared LAN. In this document, we propose a modification to the PIM-SM protocol that allows PIM DR to gracefully shutdown or go down for maintenance. We also provide a procedure for PIM DR to gracefully handover its role to a new PIM DR in the network.</t>
+      <t>   On a multi-access network, one of the PIM routers is elected as a
+   Designated Router (DR).  On the last hop LAN, the PIM DR is
+   responsible for tracking local multicast listeners and forwarding
+   traffic to these listeners if the group is operating in PIM-SM.  In
+   case of a network maintenance, where we want to bring down the
+   current DR, there is currently no way to gracefully handover the PIM
+   DR role to a new DR on the shared LAN.  In this document, we propose
+   a modification to the PIM-SM protocol that allows PIM DR to
+   gracefully shutdown or go down for maintenance.  We also provide a
+   procedure for PIM DR to gracefully handover its role to a new PIM DR
+   in the network.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mankamana-pim-graceful-dr-shutdown-00"/>
 </reference>

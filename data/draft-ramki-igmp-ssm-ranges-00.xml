@@ -1,16 +1,27 @@
 <reference anchor="I-D.ramki-igmp-ssm-ranges" target="https://datatracker.ietf.org/doc/html/draft-ramki-igmp-ssm-ranges-00">
   <front>
     <title>Source specific multicast range distribution for L2 multicast networks</title>
-    <author fullname="Ramakrishnan Cokkanathapuram Sundaram" initials="R. C." surname="Sundaram">
+    <seriesInfo name="Internet-Draft" value="draft-ramki-igmp-ssm-ranges-00"/>
+    <author initials="R. C." surname="Sundaram" fullname="Ramakrishnan Cokkanathapuram Sundaram">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Stig Venaas" initials="S." surname="Venaas">
+    <author initials="S." surname="Venaas" fullname="Stig Venaas">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <date year="2019" month="July" day="8"/>
+    <date day="08" month="July" year="2019"></date>
     <abstract>
-      <t>In an IGMP snooping multicast network with version 3 (v3) enabled on the routers, when a v2 join/leave is received for a multicast group the router operates on V2 compatible mode. For SSM ranges a (*,G)v2 or v3 report should be ignored by the router/switch. The IGMP snooping switches may not have knowledge about the user configured SSM range in the network to correctly discard/ignore the v2 join/ leave. Accepting (*,G) v2 or v3 will cause SSM operations to fail. This draft discusses distribution of SSM ranges in the L2 multicast network so that L2 snooping switches can learn about the configured SSM ranges and discard any (*,G) v2/v3 reports for the said ranges.</t>
+      <t>   In an IGMP snooping multicast network with version 3 (v3) enabled on
+   the routers, when a v2 join/leave is received for a multicast group
+   the router operates on V2 compatible mode.  For SSM ranges a (*,G)v2
+   or v3 report should be ignored by the router/switch.  The IGMP
+   snooping switches may not have knowledge about the user configured
+   SSM range in the network to correctly discard/ignore the v2 join/
+   leave.  Accepting (*,G) v2 or v3 will cause SSM operations to fail.
+   This draft discusses distribution of SSM ranges in the L2 multicast
+   network so that L2 snooping switches can learn about the configured
+   SSM ranges and discard any (*,G) v2/v3 reports for the said ranges.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ramki-igmp-ssm-ranges-00"/>
 </reference>

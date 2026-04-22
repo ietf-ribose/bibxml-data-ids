@@ -1,25 +1,35 @@
 <reference anchor="I-D.ietf-idr-bgp-flowspec-label" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-bgp-flowspec-label-01">
   <front>
     <title>Carrying Label Information for BGP FlowSpec</title>
-    <author fullname="liangqiandeng" initials="" surname="liangqiandeng">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-flowspec-label-01"/>
+    <author surname="liangqiandeng" fullname="liangqiandeng">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Susan Hares" initials="S." surname="Hares">
+    <author initials="S." surname="Hares" fullname="Susan Hares">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Jianjie You" initials="J." surname="You">
+    <author initials="J." surname="You" fullname="Jianjie You">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Robert Raszuk" initials="R." surname="Raszuk">
+    <author initials="R." surname="Raszuk" fullname="Robert Raszuk">
       <organization>Nozomi</organization>
     </author>
-    <author fullname="Dan Ma" initials="D." surname="Ma">
+    <author initials="D." surname="Ma" fullname="Dan Ma">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2016" month="December" day="6"/>
+    <date day="06" month="December" year="2016"></date>
     <abstract>
-      <t>This document specifies a method in which the label mapping information for a particular FlowSpec rule is piggybacked in the same Border Gateway Protocol (BGP) Update message that is used to distribute the FlowSpec rule. Based on the proposed method, the Label Switching Routers (LSRs) (except the ingress LSR) on the Label Switched Path (LSP) can use label to indentify the traffic matching a particular FlowSpec rule; this facilitates monitoring and traffic statistics for FlowSpec rules.</t>
+      <t>   This document specifies a method in which the label mapping
+   information for a particular FlowSpec rule is piggybacked in the same
+   Border Gateway Protocol (BGP) Update message that is used to
+   distribute the FlowSpec rule.  Based on the proposed method, the
+   Label Switching Routers (LSRs) (except the ingress LSR) on the Label
+   Switched Path (LSP) can use label to indentify the traffic matching a
+   particular FlowSpec rule; this facilitates monitoring and traffic
+   statistics for FlowSpec rules.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-idr-bgp-flowspec-label-01"/>
 </reference>

@@ -1,13 +1,14 @@
 <reference anchor="I-D.allman-tcp-abc" target="https://datatracker.ietf.org/doc/html/draft-allman-tcp-abc-04">
   <front>
     <title>TCP Congestion Control with Appropriate Byte Counting (ABC)</title>
-    <author fullname="Mark Allman" initials="M." surname="Allman">
+    <seriesInfo name="Internet-Draft" value="draft-allman-tcp-abc-04"/>
+    <author initials="M." surname="Allman" fullname="Mark Allman">
       <organization>BBN/NASA GRC</organization>
     </author>
-    <date year="2002" month="November" day="4"/>
+    <date day="04" month="November" year="2002"></date>
     <abstract>
-      <t>This document proposes a small modification to the way TCP increases its congestion window. Rather than the traditional method of increasing the congestion window by a constant amount for each arriving acknowledgment, the document suggests basing the increase on the number of previously unacknowledged bytes each ACK covers. This change improves the performance of TCP, as well as closes a security hole TCP receivers can use to induce the sender into increasing the sending rate too rapidly. This memo defines an Experimental Protocol for the Internet community.</t>
+      <t>This document proposes a small modification to the way TCP increases its congestion window.  Rather than the traditional method of increasing the congestion window by a constant amount for each arriving acknowledgment, the document suggests basing the increase on the number of previously unacknowledged bytes each ACK covers.  This change improves the performance of TCP, as well as closes a security hole TCP receivers can use to induce the sender into increasing the sending rate too rapidly.  This memo defines an Experimental Protocol for the Internet community.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-allman-tcp-abc-04"/>
 </reference>

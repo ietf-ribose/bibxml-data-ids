@@ -1,19 +1,28 @@
 <reference anchor="I-D.ietf-dnsop-compact-denial-of-existence" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-compact-denial-of-existence-07">
   <front>
     <title>Compact Denial of Existence in DNSSEC</title>
-    <author fullname="Shumon Huque" initials="S." surname="Huque">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-compact-denial-of-existence-07"/>
+    <author initials="S." surname="Huque" fullname="Shumon Huque">
       <organization>Salesforce</organization>
     </author>
-    <author fullname="Christian Elmerot" initials="C." surname="Elmerot">
+    <author initials="C." surname="Elmerot" fullname="Christian Elmerot">
       <organization>Cloudflare</organization>
     </author>
-    <author fullname="Ólafur Guðmundsson" initials="O." surname="Guðmundsson">
+    <author initials="O." surname="Guðmundsson" fullname="Ólafur Guðmundsson">
       <organization>Retired / Unaffiliated</organization>
     </author>
-    <date year="2025" month="February" day="27"/>
+    <date day="27" month="February" year="2025"></date>
     <abstract>
-      <t>This document describes a technique to generate a signed DNS response on demand for a non-existent name by claiming that the name exists but doesn't have any data for the queried record type. Such answers require only one minimally covering NSEC or NSEC3 record, allow online signing servers to minimize signing operations and response sizes, and prevent zone content disclosure. This document updates RFC 4034 and 4035.</t>
+      <t>   This document describes a technique to generate a signed DNS response
+   on demand for a non-existent name by claiming that the name exists
+   but doesn't have any data for the queried record type.  Such answers
+   require only one minimally covering NSEC or NSEC3 record, allow
+   online signing servers to minimize signing operations and response
+   sizes, and prevent zone content disclosure.
+
+   This document updates RFC 4034 and 4035.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-compact-denial-of-existence-07"/>
 </reference>

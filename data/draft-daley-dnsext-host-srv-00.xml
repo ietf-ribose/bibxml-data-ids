@@ -1,16 +1,25 @@
 <reference anchor="I-D.daley-dnsext-host-srv" target="https://datatracker.ietf.org/doc/html/draft-daley-dnsext-host-srv-00">
   <front>
     <title>Use of DNS SRV records for host selection</title>
-    <author fullname="Greg Daley" initials="G." surname="Daley">
+    <seriesInfo name="Internet-Draft" value="draft-daley-dnsext-host-srv-00"/>
+    <author initials="G." surname="Daley" fullname="Greg Daley">
       <organization>NetStar Networks</organization>
     </author>
-    <author fullname="Raymond Ng" initials="R." surname="Ng">
+    <author initials="R." surname="Ng" fullname="Raymond Ng">
       <organization>Thomas Duryea Consulting</organization>
     </author>
-    <date year="2009" month="December" day="31"/>
+    <date day="31" month="December" year="2009"></date>
     <abstract>
-      <t>Where multiple application servers are able to receive inbound connections from clients, it is desirable provide some policy control over client behaviour. This specification allows application service providers to provide addresses of multiple servers in response to DNS queries, while specifying failover and load balancing behaviours. Multiple servers are specified using existing protocol mechanisms for DNS Service records (SRV). An experimental record definition is described, which can be implemented on existing systems.</t>
+      <t>Where multiple application servers are able to receive inbound
+connections from clients, it is desirable provide some policy control
+over client behaviour.  This specification allows application service
+providers to provide addresses of multiple servers in response to DNS
+queries, while specifying failover and load balancing behaviours.
+
+Multiple servers are specified using existing protocol mechanisms for
+DNS Service records (SRV).  An experimental record definition is
+described, which can be implemented on existing systems.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-daley-dnsext-host-srv-00"/>
 </reference>

@@ -1,22 +1,29 @@
 <reference anchor="I-D.reddy-dnsop-error-page" target="https://datatracker.ietf.org/doc/html/draft-reddy-dnsop-error-page-05">
   <front>
     <title>DNS Access Denied Error page</title>
-    <author fullname="Tirumaleswar Reddy.K" initials="T." surname="Reddy.K">
+    <seriesInfo name="Internet-Draft" value="draft-reddy-dnsop-error-page-05"/>
+    <author initials="T." surname="Reddy.K" fullname="Tirumaleswar Reddy.K">
       <organization>McAfee, Inc.</organization>
     </author>
-    <author fullname="Neil Cook" initials="N." surname="Cook">
+    <author initials="N." surname="Cook" fullname="Neil Cook">
       <organization>Open-Xchange</organization>
     </author>
-    <author fullname="Dan Wing" initials="D." surname="Wing">
+    <author initials="D." surname="Wing" fullname="Dan Wing">
       <organization>Citrix Systems, Inc.</organization>
     </author>
-    <author fullname="Mohamed Boucadair" initials="M." surname="Boucadair">
+    <author initials="M." surname="Boucadair" fullname="Mohamed Boucadair">
       <organization>Orange</organization>
     </author>
-    <date year="2020" month="October" day="13"/>
+    <date day="13" month="October" year="2020"></date>
     <abstract>
-      <t>When a DNS server filters a query, the response conveys no detailed explanation of why that query was blocked, leading thus to end-user confusion. A solution is needed to enhance the user experience. This document defines a method to return an URI that explains the reason why a DNS query was filtered.</t>
+      <t>   When a DNS server filters a query, the response conveys no detailed
+   explanation of why that query was blocked, leading thus to end-user
+   confusion.  A solution is needed to enhance the user experience.
+
+   This document defines a method to return an URI that explains the
+   reason why a DNS query was filtered.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-reddy-dnsop-error-page-05"/>
 </reference>

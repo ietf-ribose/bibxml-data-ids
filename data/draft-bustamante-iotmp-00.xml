@@ -1,13 +1,26 @@
 <reference anchor="I-D.bustamante-iotmp" target="https://datatracker.ietf.org/doc/html/draft-bustamante-iotmp-00">
   <front>
     <title>Internet of Things Message Protocol (IOTMP)</title>
-    <author fullname="Alvaro Luis Bustamante" initials="A. L." surname="Bustamante">
+    <seriesInfo name="Internet-Draft" value="draft-bustamante-iotmp-00"/>
+    <author initials="A. L." surname="Bustamante" fullname="Alvaro Luis Bustamante">
       <organization>Internet of Thinger SL</organization>
     </author>
-    <date year="2026" month="March" day="30"/>
+    <date day="30" month="March" year="2026"></date>
     <abstract>
-      <t>IOTMP (Internet of Things Message Protocol) is a compact, binary, application-layer protocol for bidirectional communication between IoT devices and servers over persistent connections. It provides a resource-oriented model with native support for remote procedure calls, real-time data streaming, and API introspection. IOTMP uses PSON (Packed Sensor Object Notation) as its data encoding format, achieving significantly lower wire overhead than text-based alternatives. The protocol is designed for constrained devices with limited memory and bandwidth, while remaining expressive enough for complex IoT applications. IOTMP operates over TCP, TLS, or WebSocket transports and supports symmetric operation where both clients and servers may expose and invoke resources.</t>
+      <t>   IOTMP (Internet of Things Message Protocol) is a compact, binary,
+   application-layer protocol for bidirectional communication between
+   IoT devices and servers over persistent connections.  It provides a
+   resource-oriented model with native support for remote procedure
+   calls, real-time data streaming, and API introspection.  IOTMP uses
+   PSON (Packed Sensor Object Notation) as its data encoding format,
+   achieving significantly lower wire overhead than text-based
+   alternatives.  The protocol is designed for constrained devices with
+   limited memory and bandwidth, while remaining expressive enough for
+   complex IoT applications.  IOTMP operates over TCP, TLS, or WebSocket
+   transports and supports symmetric operation where both clients and
+   servers may expose and invoke resources.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-bustamante-iotmp-00"/>
 </reference>

@@ -1,16 +1,22 @@
 <reference anchor="I-D.nygren-tls-ip-in-sni" target="https://datatracker.ietf.org/doc/html/draft-nygren-tls-ip-in-sni-00">
   <front>
     <title>Representing IP addresses in TLS Server Name Indication (SNI)</title>
-    <author fullname="Erik Nygren" initials="E." surname="Nygren">
+    <seriesInfo name="Internet-Draft" value="draft-nygren-tls-ip-in-sni-00"/>
+    <author initials="E." surname="Nygren" fullname="Erik Nygren">
       <organization>Akamai Technologies</organization>
     </author>
-    <author fullname="Rich Salz" initials="R." surname="Salz">
+    <author initials="R." surname="Salz" fullname="Rich Salz">
       <organization>Akamai Technologies</organization>
     </author>
-    <date year="2022" month="July" day="27"/>
+    <date day="27" month="July" year="2022"></date>
     <abstract>
-      <t>This specification provides a mechanism for clients to send IP addresses in a TLS Server Name Indication (SNI) extension as part of TLS handshakes, allowing servers to return a certificate containing that subjectAltName. This is done by converting the IP address to a special-use domain name.</t>
+      <t>   This specification provides a mechanism for clients to send IP
+   addresses in a TLS Server Name Indication (SNI) extension as part of
+   TLS handshakes, allowing servers to return a certificate containing
+   that subjectAltName.  This is done by converting the IP address to a
+   special-use domain name.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-nygren-tls-ip-in-sni-00"/>
 </reference>

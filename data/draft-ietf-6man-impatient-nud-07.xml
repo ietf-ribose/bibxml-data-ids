@@ -1,16 +1,15 @@
 <reference anchor="I-D.ietf-6man-impatient-nud" target="https://datatracker.ietf.org/doc/html/draft-ietf-6man-impatient-nud-07">
   <front>
     <title>Neighbor Unreachability Detection Is Too Impatient</title>
-    <author fullname="Erik Nordmark" initials="E." surname="Nordmark">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-6man-impatient-nud-07"/>
+    <author initials="E." surname="Nordmark" fullname="Erik Nordmark">
       <organization>Arista Networks</organization>
     </author>
-    <author fullname="Igor Gashinsky" initials="I." surname="Gashinsky">
-      <organization/>
-    </author>
-    <date year="2013" month="October" day="21"/>
+    <author initials="I." surname="Gashinsky" fullname="Igor Gashinsky"/>
+    <date day="21" month="October" year="2013"></date>
     <abstract>
-      <t>IPv6 Neighbor Discovery includes Neighbor Unreachability Detection. That function is very useful when a host has an alternative neighbor -- for instance, when there are multiple default routers -- since it allows the host to switch to the alternative neighbor in a short time. By default, this time is 3 seconds after the node starts probing. However, if there are no alternative neighbors, this timeout behavior is far too impatient. This document specifies relaxed rules for Neighbor Discovery retransmissions that allow an implementation to choose different timeout behavior based on whether or not there are alternative neighbors. This document updates RFC 4861.</t>
+      <t>IPv6 Neighbor Discovery includes Neighbor Unreachability Detection.  That function is very useful when a host has an alternative neighbor -- for instance, when there are multiple default routers -- since it allows the host to switch to the alternative neighbor in a short time.  By default, this time is 3 seconds after the node starts probing.  However, if there are no alternative neighbors, this timeout behavior is far too impatient.  This document specifies relaxed rules for Neighbor Discovery retransmissions that allow an implementation to choose different timeout behavior based on whether or not there are alternative neighbors.  This document updates RFC 4861.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-6man-impatient-nud-07"/>
 </reference>

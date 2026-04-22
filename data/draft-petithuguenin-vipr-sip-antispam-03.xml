@@ -1,19 +1,29 @@
 <reference anchor="I-D.petithuguenin-vipr-sip-antispam" target="https://datatracker.ietf.org/doc/html/draft-petithuguenin-vipr-sip-antispam-03">
   <front>
     <title>Session Initiation Protocol (SIP) Extensions for Blocking VoIP Spam Using PSTN Validation</title>
-    <author fullname="Marc Petit-Huguenin" initials="M." surname="Petit-Huguenin">
+    <seriesInfo name="Internet-Draft" value="draft-petithuguenin-vipr-sip-antispam-03"/>
+    <author initials="M." surname="Petit-Huguenin" fullname="Marc Petit-Huguenin">
       <organization>Stonyfish</organization>
     </author>
-    <author fullname="Jonathan Rosenberg" initials="J." surname="Rosenberg">
+    <author initials="J." surname="Rosenberg" fullname="Jonathan Rosenberg">
       <organization>jdrosen.net</organization>
     </author>
-    <author fullname="Cullen Fluffy Jennings" initials="C. F." surname="Jennings">
+    <author initials="C. F." surname="Jennings" fullname="Cullen Fluffy Jennings">
       <organization>Cisco</organization>
     </author>
-    <date year="2012" month="January" day="11"/>
+    <date day="11" month="January" year="2012"></date>
     <abstract>
-      <t>Verification Involving PSTN Reachability (ViPR) is a new technique for inter-domain federation of SIP calls. ViPR makes use of the PSTN as an introduction mechanism to verify the correctness of mappings from phone numbers to domains. The PSTN introduction mechanism can also be used as a technique for blocking spam - a SIP caller is only authorized when its calling domain has previously called that same number over the PSTN. This document describes an extension to SIP which enables authorization of SIP calls based on a prior PSTN introduction.</t>
+      <t>   Verification Involving PSTN Reachability (ViPR) is a new technique
+   for inter-domain federation of SIP calls.  ViPR makes use of the PSTN
+   as an introduction mechanism to verify the correctness of mappings
+   from phone numbers to domains.  The PSTN introduction mechanism can
+   also be used as a technique for blocking spam - a SIP caller is only
+   authorized when its calling domain has previously called that same
+   number over the PSTN.  This document describes an extension to SIP
+   which enables authorization of SIP calls based on a prior PSTN
+   introduction.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-petithuguenin-vipr-sip-antispam-03"/>
 </reference>

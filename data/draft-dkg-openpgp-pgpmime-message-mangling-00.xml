@@ -1,13 +1,23 @@
 <reference anchor="I-D.dkg-openpgp-pgpmime-message-mangling" target="https://datatracker.ietf.org/doc/html/draft-dkg-openpgp-pgpmime-message-mangling-00">
   <front>
     <title>Common PGP/MIME Message Mangling</title>
-    <author fullname="Daniel Kahn Gillmor" initials="D. K." surname="Gillmor">
+    <seriesInfo name="Internet-Draft" value="draft-dkg-openpgp-pgpmime-message-mangling-00"/>
+    <author initials="D. K." surname="Gillmor" fullname="Daniel Kahn Gillmor">
       <organization>American Civil Liberties Union</organization>
     </author>
-    <date year="2019" month="May" day="22"/>
+    <date day="22" month="May" year="2019"></date>
     <abstract>
-      <t>An e-mail message with OpenPGP encryption and/or signature has standard form. However, some mail transport agents damage those forms in transit. A user-friendly mail user agent that encounters such a mangled message may wish to try to process it anyway, despite the message's non-standard structure. This document aims to be a sort of bestiary of common message mangling patterns, along with guidance for implementers for how to cope with messages structured in these common ways.</t>
+      <t>   An e-mail message with OpenPGP encryption and/or signature has
+   standard form.  However, some mail transport agents damage those
+   forms in transit.  A user-friendly mail user agent that encounters
+   such a mangled message may wish to try to process it anyway, despite
+   the message's non-standard structure.
+
+   This document aims to be a sort of bestiary of common message
+   mangling patterns, along with guidance for implementers for how to
+   cope with messages structured in these common ways.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-dkg-openpgp-pgpmime-message-mangling-00"/>
 </reference>

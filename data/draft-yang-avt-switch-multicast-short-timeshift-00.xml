@@ -1,25 +1,35 @@
 <reference anchor="I-D.yang-avt-switch-multicast-short-timeshift" target="https://datatracker.ietf.org/doc/html/draft-yang-avt-switch-multicast-short-timeshift-00">
   <front>
     <title>Switching from unicast to multicast for multicast short time-shift</title>
-    <author fullname="Peilin Yang" initials="P." surname="Yang">
+    <seriesInfo name="Internet-Draft" value="draft-yang-avt-switch-multicast-short-timeshift-00"/>
+    <author initials="P." surname="Yang" fullname="Peilin Yang">
       <organization>Huawei Technologies Co., Ltd.</organization>
     </author>
-    <author fullname="Roni Even" initials="R." surname="Even">
+    <author initials="R." surname="Even" fullname="Roni Even">
       <organization>Huawei Technologies Co., Ltd.</organization>
     </author>
-    <author fullname="Hassnaa Moustafa" initials="H." surname="Moustafa">
-      <organization/>
-    </author>
-    <author fullname="Tina Tsou (Ting ZOU)" initials="T." surname="Tsou">
-      <organization/>
-    </author>
-    <author fullname="Gu Yingjie" initials="G." surname="Yingjie">
-      <organization/>
-    </author>
-    <date year="2010" month="October" day="18"/>
+    <author initials="H." surname="Moustafa" fullname="Hassnaa Moustafa"/>
+    <author initials="T." surname="Tsou" fullname="Tina Tsou (Ting ZOU)"/>
+    <author initials="G." surname="Yingjie" fullname="Gu Yingjie"/>
+    <date day="18" month="October" year="2010"></date>
     <abstract>
-      <t>When a client requests a time-shift service for a multicast session using RTP for media transport, like pause, instant replay, slow- motion video, frame-by-frame viewing, rewind, fast-forward, etc., it needs to switch from multicast session to unicast session. This unicast session will always serve for the time-shift service unless the client manually switches back to the multicast session. Actually a time- shift request may happens for all clients. That is, multicast session stream will be replaced by many unicast time-shift streams having significant impact on network bandwidth usage. In this document, we describe a method using existing RTP and RTCP protocol infrastructure that switches back to multicast session from unicast session of time-shift. In this method, a burst RTP flow which is a little faster than the primary multicast rate may be transmitted so that unicast session may catch up and switch back to multicast session.</t>
+      <t>When a client requests a time-shift service for a multicast session
+using RTP for media transport, like pause, instant replay, slow-
+motion video, frame-by-frame viewing, rewind, fast-forward, etc., it
+needs to switch from multicast session to unicast session.  This
+unicast session will always serve for the time-shift service unless
+the client manually switches back to the multicast session.  Actually
+a time- shift request may happens for all clients.  That is,
+multicast session stream will be replaced by many unicast time-shift
+streams having significant impact on network bandwidth usage.
+
+In this document, we describe a method using existing RTP and RTCP
+protocol infrastructure that switches back to multicast session from
+unicast session of time-shift.  In this method, a burst RTP flow
+which is a little faster than the primary multicast rate may be
+transmitted so that unicast session may catch up and switch back to
+multicast session.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-yang-avt-switch-multicast-short-timeshift-00"/>
 </reference>

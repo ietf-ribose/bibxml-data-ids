@@ -1,28 +1,48 @@
 <reference anchor="I-D.chan-pcn-encoding-comparison" target="https://datatracker.ietf.org/doc/html/draft-chan-pcn-encoding-comparison-04">
   <front>
     <title>Pre-Congestion Notification Encoding Comparison</title>
-    <author fullname="Kwok Chan" initials="K." surname="Chan">
+    <seriesInfo name="Internet-Draft" value="draft-chan-pcn-encoding-comparison-04"/>
+    <author initials="K." surname="Chan" fullname="Kwok Chan">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Georgios Karagiannis" initials="G." surname="Karagiannis">
+    <author initials="G." surname="Karagiannis" fullname="Georgios Karagiannis">
       <organization>University of Twente</organization>
     </author>
-    <author fullname="T Moncaster" initials="T." surname="Moncaster">
+    <author initials="T." surname="Moncaster" fullname="T Moncaster">
       <organization>BT Research</organization>
     </author>
-    <author fullname="Michael Menth" initials="M." surname="Menth">
+    <author initials="M." surname="Menth" fullname="Michael Menth">
       <organization>University of Wurzburg</organization>
     </author>
-    <author fullname="Philip Eardley" initials="P." surname="Eardley">
+    <author initials="P." surname="Eardley" fullname="Philip Eardley">
       <organization>BT Research</organization>
     </author>
-    <author fullname="Bob Briscoe" initials="B." surname="Briscoe">
+    <author initials="B." surname="Briscoe" fullname="Bob Briscoe">
       <organization>BT Research</organization>
     </author>
-    <date year="2009" month="March" day="8"/>
+    <date day="08" month="March" year="2009"></date>
     <abstract>
-      <t>A number of mechanisms have been proposed to support differential Qualiy of Service for packets in the Internet. DiffServ is an example of such a mechanism. However, the level of assurance that can be provided with DiffServ without substantial over-provisioning is limited. Pre-Congestion Notification (PCN) uses path congestion information across a PCN region to enable per-flow admission control to provide the required service guarantees for the admitted traffic. While admission control will protect the QoS under normal operating conditions, an additional flow termination mechanism is necessary to cope with extreme events (e.g. route changes due to link or node failure). In order to allow the PCN mechanisms to work it is necessary for IP packets to be able to carry the pre-congestion information to the PCN egress nodes. This document explores different ways in which this information can be encoded into IP packets. This document does not choose the encoding but provide guidance and recommendation based on different criteria. This document also provides a historical trace of the consideration on different encoding alternatives for Pre- Congestion Notification.</t>
+      <t>A number of mechanisms have been proposed to support differential
+Qualiy of Service for packets in the Internet.  DiffServ is an
+example of such a mechanism.  However, the level of assurance that
+can be provided with DiffServ without substantial over-provisioning
+is limited.  Pre-Congestion Notification (PCN) uses path congestion
+information across a PCN region to enable per-flow admission control
+to provide the required service guarantees for the admitted traffic.
+While admission control will protect the QoS under normal operating
+conditions, an additional flow termination mechanism is necessary to
+cope with extreme events (e.g. route changes due to link or node
+failure).
+
+In order to allow the PCN mechanisms to work it is necessary for IP
+packets to be able to carry the pre-congestion information to the PCN
+egress nodes.  This document explores different ways in which this
+information can be encoded into IP packets.  This document does not
+choose the encoding but provide guidance and recommendation based on
+different criteria.  This document also provides a historical trace
+of the consideration on different encoding alternatives for Pre-
+Congestion Notification.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-chan-pcn-encoding-comparison-04"/>
 </reference>

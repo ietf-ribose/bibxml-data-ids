@@ -1,16 +1,27 @@
 <reference anchor="I-D.floyd-newreno" target="https://datatracker.ietf.org/doc/html/draft-floyd-newreno-00">
   <front>
     <title>The NewReno Modification to TCP's Fast Recovery Algorithm</title>
-    <author fullname="Sally Floyd" initials="S." surname="Floyd">
+    <seriesInfo name="Internet-Draft" value="draft-floyd-newreno-00"/>
+    <author initials="S." surname="Floyd" fullname="Sally Floyd">
       <organization>ICSI</organization>
     </author>
-    <author fullname="Tom Henderson" initials="T." surname="Henderson">
+    <author initials="T." surname="Henderson" fullname="Tom Henderson">
       <organization>Boeing</organization>
     </author>
-    <date year="2003" month="May" day="12"/>
+    <date day="12" month="May" year="2003"></date>
     <abstract>
-      <t>RFC 2581 [RFC2581] documents the following four intertwined TCP congestion control algorithms: Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. RFC 2581 [RFC2581] explicitly allows certain modifications of these algorithms, including modifications that use the TCP Selective Acknowledgement (SACK) option [RFC2018], and modifications that respond to 'partial acknowledgments' (ACKs which cover new data, but not all the data outstanding when loss was detected) in the absence of SACK. The NewReno mechanism described in this document describes a specific algorithm for responding to partial acknowledgments, referred to as NewReno. This response to partial acknowledgments was first proposed by Janey Hoe in [Hoe95].</t>
+      <t>RFC 2581 [RFC2581] documents the following four intertwined TCP
+congestion control algorithms: Slow Start, Congestion Avoidance, Fast
+Retransmit, and Fast Recovery.  RFC 2581 [RFC2581] explicitly allows
+certain modifications of these algorithms, including modifications
+that use the TCP Selective Acknowledgement (SACK) option [RFC2018],
+and modifications that respond to 'partial acknowledgments' (ACKs
+which cover new data, but not all the data outstanding when loss was
+detected) in the absence of SACK.  The NewReno mechanism described in
+this document describes a specific algorithm for responding to
+partial acknowledgments, referred to as NewReno.  This response to
+partial acknowledgments was first proposed by Janey Hoe in [Hoe95].
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-floyd-newreno-00"/>
 </reference>

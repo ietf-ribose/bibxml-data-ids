@@ -1,22 +1,38 @@
 <reference anchor="I-D.manral-mpls-rfc3811bis" target="https://datatracker.ietf.org/doc/html/draft-manral-mpls-rfc3811bis-04">
   <front>
     <title>Definitions of Textual Conventions (TCs) for Multiprotocol Label Switching (MPLS) Management</title>
-    <author fullname="Vishwas Manral" initials="V." surname="Manral">
+    <seriesInfo name="Internet-Draft" value="draft-manral-mpls-rfc3811bis-04"/>
+    <author initials="V." surname="Manral" fullname="Vishwas Manral">
       <organization>Hewlett-Packard Corp.</organization>
     </author>
-    <author fullname="Tina Tsou (Ting ZOU)" initials="T." surname="Tsou">
+    <author initials="T." surname="Tsou" fullname="Tina Tsou (Ting ZOU)">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Will (Shucheng) LIU" initials="W. S." surname="LIU">
+    <author initials="W. S." surname="LIU" fullname="Will (Shucheng) LIU">
       <organization>Huawei Technologies</organization>
     </author>
-    <author fullname="Francesco Fondelli" initials="F." surname="Fondelli">
+    <author initials="F." surname="Fondelli" fullname="Francesco Fondelli">
       <organization>Ericsson</organization>
     </author>
-    <date year="2014" month="September" day="5"/>
+    <date day="05" month="September" year="2014"></date>
     <abstract>
-      <t>This memo defines a Management Information Base (MIB) module which contains Textual Conventions to represent commonly used Multiprotocol Label Switching (MPLS) management information. The intent is that these TEXTUAL CONVENTIONS (TCs) will be imported and used in MPLS related MIB modules that would otherwise define their own representations. This document obsoletes RFC3811 as it addresses the need to support IPv6 extended TunnelID's by defining a new TC- MplsNewExtendedTunnelID which suggests using an IPv4(for dual stack network) / IPv6 (for IPv6-only network) address of the ingress or egress LSR for the tunnel for dual stack network or an IPv6-only network. This document also fixed the confusing part of MplsLSPID. Changes from RFC3811 and the effect of the new TC to other related documents are summarized in Section 4 and 5, respectively.</t>
+      <t>   This memo defines a Management Information Base (MIB) module which
+   contains Textual Conventions to represent commonly used Multiprotocol
+   Label Switching (MPLS) management information.  The intent is that
+   these TEXTUAL CONVENTIONS (TCs) will be imported and used in MPLS
+   related MIB modules that would otherwise define their own
+   representations.
+
+   This document obsoletes RFC3811 as it addresses the need to support
+   IPv6 extended TunnelID's by defining a new TC-
+   MplsNewExtendedTunnelID which suggests using an IPv4(for dual stack
+   network) / IPv6 (for IPv6-only network) address of the ingress or
+   egress LSR for the tunnel for dual stack network or an IPv6-only
+   network.  This document also fixed the confusing part of MplsLSPID.
+   Changes from RFC3811 and the effect of the new TC to other related
+   documents are summarized in Section 4 and 5, respectively.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-manral-mpls-rfc3811bis-04"/>
 </reference>

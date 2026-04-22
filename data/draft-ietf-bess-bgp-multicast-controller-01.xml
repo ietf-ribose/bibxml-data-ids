@@ -1,22 +1,36 @@
 <reference anchor="I-D.ietf-bess-bgp-multicast-controller" target="https://datatracker.ietf.org/doc/html/draft-ietf-bess-bgp-multicast-controller-01">
   <front>
     <title>Controller Based BGP Multicast Signaling</title>
-    <author fullname="Zhaohui (Jeffrey) Zhang" initials="Z. J." surname="Zhang">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bess-bgp-multicast-controller-01"/>
+    <author initials="Z. J." surname="Zhang" fullname="Zhaohui (Jeffrey) Zhang">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Robert Raszuk" initials="R." surname="Raszuk">
+    <author initials="R." surname="Raszuk" fullname="Robert Raszuk">
       <organization>Bloomberg LP</organization>
     </author>
-    <author fullname="Dante Pacella" initials="D." surname="Pacella">
+    <author initials="D." surname="Pacella" fullname="Dante Pacella">
       <organization>Verizon</organization>
     </author>
-    <author fullname="Arkadiy Gulko" initials="A." surname="Gulko">
+    <author initials="A." surname="Gulko" fullname="Arkadiy Gulko">
       <organization>Thomson Reuters</organization>
     </author>
-    <date year="2020" month="June" day="9"/>
+    <date day="09" month="June" year="2020"></date>
     <abstract>
-      <t>This document specifies a way that one or more centralized controllers can use BGP to set up a multicast distribution tree in a network. In the case of labeled tree, the labels are assigned by the controllers either from the controllers' local label spaces, or from a common Segment Routing Global Block (SRGB), or from each routers Segment Routing Local Block (SRLB) that the controllers learn. In case of labeled unidirectional tree and label allocation from the common SRGB or from the controllers' local spaces, a single common label can be used for all routers on the tree to send and receive traffic with. Since the controllers calculate the trees, they can use sophisticated algorithms and constraints to achieve traffic engineering.</t>
+      <t>   This document specifies a way that one or more centralized
+   controllers can use BGP to set up a multicast distribution tree in a
+   network.  In the case of labeled tree, the labels are assigned by the
+   controllers either from the controllers' local label spaces, or from
+   a common Segment Routing Global Block (SRGB), or from each routers
+   Segment Routing Local Block (SRLB) that the controllers learn.  In
+   case of labeled unidirectional tree and label allocation from the
+   common SRGB or from the controllers' local spaces, a single common
+   label can be used for all routers on the tree to send and receive
+   traffic with.  Since the controllers calculate the trees, they can
+   use sophisticated algorithms and constraints to achieve traffic
+   engineering.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-bess-bgp-multicast-controller-01"/>
 </reference>

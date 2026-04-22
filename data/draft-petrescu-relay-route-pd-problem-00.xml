@@ -1,19 +1,34 @@
 <reference anchor="I-D.petrescu-relay-route-pd-problem" target="https://datatracker.ietf.org/doc/html/draft-petrescu-relay-route-pd-problem-00">
   <front>
     <title>Route Problem at Relay during DHCPv6 Prefix Delegation</title>
-    <author fullname="Mohamed Boucadair" initials="M." surname="Boucadair">
+    <seriesInfo name="Internet-Draft" value="draft-petrescu-relay-route-pd-problem-00"/>
+    <author initials="M." surname="Boucadair" fullname="Mohamed Boucadair">
       <organization>France Telecom</organization>
     </author>
-    <author fullname="Leaf Yeh" initials="L." surname="Yeh">
+    <author initials="L." surname="Yeh" fullname="Leaf Yeh">
       <organization>Freelancer Technologies</organization>
     </author>
-    <author fullname="Alexandre Petrescu" initials="A." surname="Petrescu">
+    <author initials="A." surname="Petrescu" fullname="Alexandre Petrescu">
       <organization>CEA</organization>
     </author>
-    <date year="2013" month="October" day="21"/>
+    <date day="21" month="October" year="2013"></date>
     <abstract>
-      <t>The operation of a prefix delegation procedure with the DHCPv6 protocol may need route setup and maintenance at the Delegating Router, Requesting Router and on the entity on which the Relay agent is implemented. This document describes the problem of routing during DHCPv6 prefix delegation, and is illustrated by ADSL-type and cellular-type of topologies which may use Relays; we refer to section 14 of RFC 3633 which mentions the need of 'a protocol or other out of band communication to add routing information for delegated prefixes'. Based on this problem, a number of requirements from the service providers are described. A small set of documented solutions are separately mentioned (snooping, route injection, etc.), together with their pros and cons according to a particular judgment.</t>
+      <t>   The operation of a prefix delegation procedure with the DHCPv6
+   protocol may need route setup and maintenance at the Delegating
+   Router, Requesting Router and on the entity on which the Relay agent
+   is implemented.  This document describes the problem of routing
+   during DHCPv6 prefix delegation, and is illustrated by ADSL-type and
+   cellular-type of topologies which may use Relays; we refer to section
+   14 of RFC 3633 which mentions the need of 'a protocol or other out of
+   band communication to add routing information for delegated
+   prefixes'.  Based on this problem, a number of requirements from the
+   service providers are described.
+
+   A small set of documented solutions are separately mentioned
+   (snooping, route injection, etc.), together with their pros and cons
+   according to a particular judgment.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-petrescu-relay-route-pd-problem-00"/>
 </reference>

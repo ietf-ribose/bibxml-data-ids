@@ -1,22 +1,28 @@
 <reference anchor="I-D.ietf-l3vpn-mvpn-bidir" target="https://datatracker.ietf.org/doc/html/draft-ietf-l3vpn-mvpn-bidir-04">
   <front>
     <title>MVPN: Using Bidirectional P-Tunnels</title>
-    <author fullname="Eric C. Rosen" initials="E. C." surname="Rosen">
-      <organization/>
-    </author>
-    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
-      <organization/>
-    </author>
-    <author fullname="Yiqun Cai" initials="Y." surname="Cai">
-      <organization/>
-    </author>
-    <author fullname="Arjen Boers" initials="A." surname="Boers">
-      <organization/>
-    </author>
-    <date year="2013" month="January" day="7"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-l3vpn-mvpn-bidir-04"/>
+    <author initials="E. C." surname="Rosen" fullname="Eric C. Rosen"/>
+    <author initials="I." surname="Wijnands" fullname="IJsbrand Wijnands"/>
+    <author initials="Y." surname="Cai" fullname="Yiqun Cai"/>
+    <author initials="A." surname="Boers" fullname="Arjen Boers"/>
+    <date day="07" month="January" year="2013"></date>
     <abstract>
-      <t>The RFCs providing multicast support for BGP/MPLS IP VPNs allow customer multicast data to be travel across a service provider's backbone network through a set multicast tunnels. These tunnels are advertised by BGP in a BGP attribute known as the "Provider Multicast Service Interface (PMSI) Tunnel Attribute". Encodings have been defined that allow the PMSI Tunnel Attribute to specify bidirectional (multipoint-to-multipoint) multicast distribution trees. However, the prior RFCs do not provide all the necessary details for using bidirectional tunnels to support multicast VPNs. These details are provided in the current document. This document also specifies the procedures for assigning customer multicast flows to specific bidirectional tunnels in the provider backbone.</t>
+      <t>   The RFCs providing multicast support for BGP/MPLS IP VPNs allow
+   customer multicast data to be travel across a service provider's
+   backbone network through a set multicast tunnels.  These tunnels are
+   advertised by BGP in a BGP attribute known as the "Provider Multicast
+   Service Interface (PMSI) Tunnel Attribute".  Encodings have been
+   defined that allow the PMSI Tunnel Attribute to specify bidirectional
+   (multipoint-to-multipoint) multicast distribution trees.  However,
+   the prior RFCs do not provide all the necessary details for using
+   bidirectional tunnels to support multicast VPNs.  These details are
+   provided in the current document.  This document also specifies the
+   procedures for assigning customer multicast flows to specific
+   bidirectional tunnels in the provider backbone.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-l3vpn-mvpn-bidir-04"/>
 </reference>

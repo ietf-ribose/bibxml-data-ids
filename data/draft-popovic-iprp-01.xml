@@ -1,22 +1,47 @@
 <reference anchor="I-D.popovic-iprp" target="https://datatracker.ietf.org/doc/html/draft-popovic-iprp-01">
   <front>
     <title>iPRP: Parallel Redundancy Protocol for IP Networks</title>
-    <author fullname="Miroslav Popovic" initials="M." surname="Popovic">
+    <seriesInfo name="Internet-Draft" value="draft-popovic-iprp-01"/>
+    <author initials="M." surname="Popovic" fullname="Miroslav Popovic">
       <organization>EPFL-LCA2</organization>
     </author>
-    <author fullname="Maaz Mohiuddin" initials="M." surname="Mohiuddin">
+    <author initials="M." surname="Mohiuddin" fullname="Maaz Mohiuddin">
       <organization>EPFL-LCA2</organization>
     </author>
-    <author fullname="Jean-Yves Le Boudec" initials="J." surname="Le Boudec">
+    <author initials="J." surname="Le Boudec" fullname="Jean-Yves Le Boudec">
       <organization>EPFL-LCA2</organization>
     </author>
-    <author fullname="Dan-Cristian Tomozei" initials="D." surname="Tomozei">
+    <author initials="D." surname="Tomozei" fullname="Dan-Cristian Tomozei">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2016" month="February" day="1"/>
+    <date day="01" month="February" year="2016"></date>
     <abstract>
-      <t>Reliable packet delivery within stringent delay-constraints is of paramount importance to mission-critical computer applications with hard real-time constraints. Because retransmission and coding techniques counteract the delay requirements, reliability may be achieved through replication over multiple fail-independent paths. Existing solutions, such as the parallel redundancy protocol (PRP), replicate all packets at the MAC layer over parallel paths. PRP works best in local area networks. However, it is not viable for IP networks that are a key element of emerging mission-critical systems. This limitation, coupled with diagnostic inability and lack of security, renders PRP unsuitable for reliable data-delivery in these IP networks. To address this issue, we present a transport-layer solution: the IP parallel redundancy protocol (iPRP). Designing iPRP poses non-trivial challenges in the form of selective packet- replication, soft-state and multicast support. iPRP replicates only time-critical unicast or multicast UDP traffic. iPRP requires no modifications to the existing monitoring application, end-device operating system or to the intermediate network devices. It only requires a simple software installation on the end-devices. iPRP has a set of diagnostic tools for network debugging. With our implementation of iPRP in Linux, we show that iPRP supports multiple flows with minimal processing-and-delay overhead. It is being installed in our campus smart-grid network and is publicly available.</t>
+      <t>   Reliable packet delivery within stringent delay-constraints is of
+   paramount importance to mission-critical computer applications with
+   hard real-time constraints. Because retransmission and coding
+   techniques counteract the delay requirements, reliability may be
+   achieved through replication over multiple fail-independent paths.
+   Existing solutions, such as the parallel redundancy protocol (PRP),
+   replicate all packets at the MAC layer over parallel paths. PRP works
+   best in local area networks. However, it is not viable for IP
+   networks that are a key element of emerging mission-critical systems.
+   This limitation, coupled with diagnostic inability and lack of
+   security, renders PRP unsuitable for reliable data-delivery in these
+   IP networks. To address this issue, we present a transport-layer
+   solution: the IP parallel redundancy protocol (iPRP). Designing iPRP
+   poses non-trivial challenges in the form of selective packet-
+   replication, soft-state and multicast support. iPRP replicates only
+   time-critical unicast or multicast UDP traffic. iPRP requires no
+   modifications to the existing monitoring application, end-device
+   operating system or to the intermediate network devices. It only
+   requires a simple software installation on the end-devices. iPRP has
+   a set of diagnostic tools for network debugging. With our
+   implementation of iPRP in Linux, we show that iPRP supports multiple
+   flows with minimal processing-and-delay overhead. It is being
+   installed in our campus smart-grid network and is publicly available.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-popovic-iprp-01"/>
 </reference>

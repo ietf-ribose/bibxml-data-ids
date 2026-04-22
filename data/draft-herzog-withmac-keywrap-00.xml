@@ -1,16 +1,25 @@
 <reference anchor="I-D.herzog-withmac-keywrap" target="https://datatracker.ietf.org/doc/html/draft-herzog-withmac-keywrap-00">
   <front>
     <title>The With-MAC key-wrapping algorithm for Cryptographic Message Syntax</title>
-    <author fullname="Jonathan Herzog" initials="J." surname="Herzog">
-      <organization/>
-    </author>
-    <author fullname="Roger Khazan" initials="R." surname="Khazan">
-      <organization/>
-    </author>
-    <date year="2011" month="April" day="14"/>
+    <seriesInfo name="Internet-Draft" value="draft-herzog-withmac-keywrap-00"/>
+    <author initials="J." surname="Herzog" fullname="Jonathan Herzog"/>
+    <author initials="R." surname="Khazan" fullname="Roger Khazan"/>
+    <date day="14" month="April" year="2011"></date>
     <abstract>
-      <t>This document describes a new key-wrapping algorithm to be used in the EnvelopedData, AuthenticatedData and AuthEnvelopedData structures of the Cryptographic Message Syntax. Because these structures do not provide data-origin authentication, a recipient cannot cryptographically verify that the plaintext received was the plaintext encapsulated by the message's original sender. The With- MAC key-wrapping algorithm allows an EncryptedKey value to hold both a wrapped symmetric key and a MAC value on the data to be authenticated. When used in EnvelopedData, AuthenticatedData and AuthEnvelopedData structures, therefore, these structures can achieve data-origin authentication (in some circumstances) using only symmetric-key algorithms.</t>
+      <t>This document describes a new key-wrapping algorithm to be used in
+   the EnvelopedData, AuthenticatedData and AuthEnvelopedData structures
+   of the Cryptographic Message Syntax.  Because these structures do not
+   provide data-origin authentication, a recipient cannot
+   cryptographically verify that the plaintext received was the
+   plaintext encapsulated by the message's original sender.  The With-
+   MAC key-wrapping algorithm allows an EncryptedKey value to hold both
+   a wrapped symmetric key and a MAC value on the data to be
+   authenticated.  When used in EnvelopedData, AuthenticatedData and
+   AuthEnvelopedData structures, therefore, these structures can achieve
+   data-origin authentication (in some circumstances) using only
+   symmetric-key algorithms.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-herzog-withmac-keywrap-00"/>
 </reference>

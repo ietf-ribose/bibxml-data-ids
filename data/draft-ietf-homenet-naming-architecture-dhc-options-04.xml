@@ -1,25 +1,32 @@
 <reference anchor="I-D.ietf-homenet-naming-architecture-dhc-options" target="https://datatracker.ietf.org/doc/html/draft-ietf-homenet-naming-architecture-dhc-options-04">
   <front>
     <title>DHCPv6 Options for Homenet Naming Architecture</title>
-    <author fullname="Daniel Migault" initials="D." surname="Migault">
-      <organization/>
-    </author>
-    <author fullname="Tomek Mrugalski" initials="T." surname="Mrugalski">
-      <organization/>
-    </author>
-    <author fullname="Chris Griffiths" initials="C." surname="Griffiths">
-      <organization/>
-    </author>
-    <author fullname="Ralf Weber" initials="R." surname="Weber">
-      <organization/>
-    </author>
-    <author fullname="Wouter Cloetens" initials="W." surname="Cloetens">
-      <organization/>
-    </author>
-    <date year="2016" month="August" day="15"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-homenet-naming-architecture-dhc-options-04"/>
+    <author initials="D." surname="Migault" fullname="Daniel Migault"/>
+    <author initials="T." surname="Mrugalski" fullname="Tomek Mrugalski"/>
+    <author initials="C." surname="Griffiths" fullname="Chris Griffiths"/>
+    <author initials="R." surname="Weber" fullname="Ralf Weber"/>
+    <author initials="W." surname="Cloetens" fullname="Wouter Cloetens"/>
+    <date day="15" month="August" year="2016"></date>
     <abstract>
-      <t>Home network devices are usually constrained devices with reduced network and CPU capabilities. As such, a home network device exposing the authoritative naming service for its home network on the Internet may become vulnerable to resource exhaustion attacks. One way to avoid exposing these devices is to outsource the authoritative service to a third party, e.g. ISP. The Homenet Naming Authority (HNA) is the designated device in charge of outsourcing the service to a third party, which requires setting up an architecture. Such settings may be inappropriate for most end users. This document defines DHCPv6 options so any agnostic HNA can automatically proceed to the appropriate configuration and outsource the authoritative naming service for the home network. In most cases, the outsourcing mechanism is transparent for the end user.</t>
+      <t>   Home network devices are usually constrained devices with reduced
+   network and CPU capabilities.  As such, a home network device
+   exposing the authoritative naming service for its home network on the
+   Internet may become vulnerable to resource exhaustion attacks.  One
+   way to avoid exposing these devices is to outsource the authoritative
+   service to a third party, e.g.  ISP.
+
+   The Homenet Naming Authority (HNA) is the designated device in charge
+   of outsourcing the service to a third party, which requires setting
+   up an architecture.
+
+   Such settings may be inappropriate for most end users.  This document
+   defines DHCPv6 options so any agnostic HNA can automatically proceed
+   to the appropriate configuration and outsource the authoritative
+   naming service for the home network.  In most cases, the outsourcing
+   mechanism is transparent for the end user.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-homenet-naming-architecture-dhc-options-04"/>
 </reference>

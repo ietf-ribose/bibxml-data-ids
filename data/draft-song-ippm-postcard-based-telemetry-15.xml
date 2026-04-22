@@ -1,40 +1,53 @@
 <reference anchor="I-D.song-ippm-postcard-based-telemetry" target="https://datatracker.ietf.org/doc/html/draft-song-ippm-postcard-based-telemetry-15">
   <front>
     <title>Postcard-Based On-Path Telemetry using Packet Marking</title>
-    <author fullname="Haoyu Song" initials="H." surname="Song">
+    <seriesInfo name="Internet-Draft" value="draft-song-ippm-postcard-based-telemetry-15"/>
+    <author initials="H." surname="Song" fullname="Haoyu Song">
       <organization>Futurewei Technologies</organization>
     </author>
-    <author fullname="Greg Mirsky" initials="G." surname="Mirsky">
+    <author initials="G." surname="Mirsky" fullname="Greg Mirsky">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils">
+    <author initials="C." surname="Filsfils" fullname="Clarence Filsfils">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Ahmed Abdelsalam" initials="A." surname="Abdelsalam">
+    <author initials="A." surname="Abdelsalam" fullname="Ahmed Abdelsalam">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Tianran Zhou" initials="T." surname="Zhou">
+    <author initials="T." surname="Zhou" fullname="Tianran Zhou">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Zhenbin Li" initials="Z." surname="Li">
+    <author initials="Z." surname="Li" fullname="Zhenbin Li">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Thomas Graf" initials="T." surname="Graf">
+    <author initials="T." surname="Graf" fullname="Thomas Graf">
       <organization>Swisscom</organization>
     </author>
-    <author fullname="Gyan Mishra" initials="G. S." surname="Mishra">
+    <author initials="G. S." surname="Mishra" fullname="Gyan Mishra">
       <organization>Verizon Inc.</organization>
     </author>
-    <author fullname="Jongyoon Shin" initials="J." surname="Shin">
+    <author initials="J." surname="Shin" fullname="Jongyoon Shin">
       <organization>SK Telecom</organization>
     </author>
-    <author fullname="Kyungtae Lee" initials="K." surname="Lee">
+    <author initials="K." surname="Lee" fullname="Kyungtae Lee">
       <organization>LG U+</organization>
     </author>
-    <date year="2022" month="November" day="28"/>
+    <date day="28" month="November" year="2022"></date>
     <abstract>
-      <t>The document describes a postcard-based on-path telemetry method using packet-marking, referred to as PBT-M. Similar to IOAM DEX, PBT-M does not carry the telemetry data in user packets but sends the telemetry data through a dedicated packet. However, PBT-M does not require an extra instruction header but claims a bit in existing header fields or uses some other equivalent means as a trigger for telemetry data processing and collection. Due to this feature, PBT-M raises some unique issues that need to be considered for its application in different networks. This document describes the high level scheme, summarizes the common requirements and issues, and provides recommendations for solutions. PBT-M is complementary to the other on-path telemetry schemes.</t>
+      <t>   The document describes a postcard-based on-path telemetry method
+   using packet-marking, referred to as PBT-M.  Similar to IOAM DEX,
+   PBT-M does not carry the telemetry data in user packets but sends the
+   telemetry data through a dedicated packet.  However, PBT-M does not
+   require an extra instruction header but claims a bit in existing
+   header fields or uses some other equivalent means as a trigger for
+   telemetry data processing and collection.  Due to this feature, PBT-M
+   raises some unique issues that need to be considered for its
+   application in different networks.  This document describes the high
+   level scheme, summarizes the common requirements and issues, and
+   provides recommendations for solutions.  PBT-M is complementary to
+   the other on-path telemetry schemes.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-song-ippm-postcard-based-telemetry-15"/>
 </reference>

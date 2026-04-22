@@ -1,22 +1,37 @@
 <reference anchor="I-D.reddy-add-server-policy-selection" target="https://datatracker.ietf.org/doc/html/draft-reddy-add-server-policy-selection-00">
   <front>
     <title>DNS Server Selection: DNS Server Information with Assertion Token</title>
-    <author fullname="Tirumaleswar Reddy.K" initials="T." surname="Reddy.K">
+    <seriesInfo name="Internet-Draft" value="draft-reddy-add-server-policy-selection-00"/>
+    <author initials="T." surname="Reddy.K" fullname="Tirumaleswar Reddy.K">
       <organization>McAfee, Inc.</organization>
     </author>
-    <author fullname="Dan Wing" initials="D." surname="Wing">
+    <author initials="D." surname="Wing" fullname="Dan Wing">
       <organization>Citrix Systems, Inc.</organization>
     </author>
-    <author fullname="Michael Richardson" initials="M." surname="Richardson">
+    <author initials="M." surname="Richardson" fullname="Michael Richardson">
       <organization>Sandelman Software Works</organization>
     </author>
-    <author fullname="Mohamed Boucadair" initials="M." surname="Boucadair">
+    <author initials="M." surname="Boucadair" fullname="Mohamed Boucadair">
       <organization>Orange</organization>
     </author>
-    <date year="2020" month="March" day="18"/>
+    <date day="18" month="March" year="2020"></date>
     <abstract>
-      <t>The document defines a mechanism that allows communication of DNS resolver information to DNS clients for use in selection decisions. In particuler, the document defines a mechanism for a DNS server to communicate its filtering policy and its privacy statement URL to DNS clients. This information is cryptographically signed to attest its authenticity. Such information is used for the selection of DNS resolvers. Typically, evaluating the DNS privacy statement, filtering policy, and the signatory, DNS clients with minimum human intervention can select the DNS server that best supports the user's desired privacy and filtering policy. This assertion is useful for DNS-over-TLS and DNS-over-HTTPS servers that are either public resolvers or are discovered on a local network.</t>
+      <t>   The document defines a mechanism that allows communication of DNS
+   resolver information to DNS clients for use in selection decisions.
+   In particuler, the document defines a mechanism for a DNS server to
+   communicate its filtering policy and its privacy statement URL to DNS
+   clients.  This information is cryptographically signed to attest its
+   authenticity.  Such information is used for the selection of DNS
+   resolvers.  Typically, evaluating the DNS privacy statement,
+   filtering policy, and the signatory, DNS clients with minimum human
+   intervention can select the DNS server that best supports the user's
+   desired privacy and filtering policy.
+
+   This assertion is useful for DNS-over-TLS and DNS-over-HTTPS servers
+   that are either public resolvers or are discovered on a local
+   network.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-reddy-add-server-policy-selection-00"/>
 </reference>

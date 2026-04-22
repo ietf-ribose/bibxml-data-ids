@@ -1,16 +1,29 @@
 <reference anchor="I-D.joshi-dhc-l2ra" target="https://datatracker.ietf.org/doc/html/draft-joshi-dhc-l2ra-00">
   <front>
     <title>Layer 2 Relay Agent Information</title>
-    <author fullname="Bharat Joshi" initials="B." surname="Joshi">
+    <seriesInfo name="Internet-Draft" value="draft-joshi-dhc-l2ra-00"/>
+    <author initials="B." surname="Joshi" fullname="Bharat Joshi">
       <organization>Infosys Technologies Ltd.</organization>
     </author>
-    <author fullname="Pavan Kurapati" initials="P." surname="Kurapati">
+    <author initials="P." surname="Kurapati" fullname="Pavan Kurapati">
       <organization>Infosys Technologies Ltd.</organization>
     </author>
-    <date year="2007" month="November" day="13"/>
+    <date day="13" month="November" year="2007"></date>
     <abstract>
-      <t>In some networks, DHCP servers rely on Relay Agent Information option appended by Relay Agents for IP address and other parameter assignment policies. This works fine when End Hosts are directly connected to Relay Agents. In some network configurations, one or more Layer 2 devices may reside between DHCP clients and Relay agent. In these network scenarios, it is difficult to use the Relay Agent Information option for IP address and other parameter assignment policies effectively. So there is a need for the closest Layer 2 device to append Relay Agent Information option in DHCP messages. These devices are typically known as Layer 2 Relay Agents. This document aims to describe the network scenarios where Layer 2 Relay Agent is in use and also how it handles DHCP messages.</t>
+      <t>In some networks, DHCP servers rely on Relay Agent Information option
+   appended by Relay Agents for IP address and other parameter
+   assignment policies.  This works fine when End Hosts are directly
+   connected to Relay Agents.  In some network configurations, one or
+   more Layer 2 devices may reside between DHCP clients and Relay agent.
+   In these network scenarios, it is difficult to use the Relay Agent
+   Information option for IP address and other parameter assignment
+   policies effectively.  So there is a need for the closest Layer 2
+   device to append Relay Agent Information option in DHCP messages.
+   These devices are typically known as Layer 2 Relay Agents.
+
+   This document aims to describe the network scenarios where Layer 2
+   Relay Agent is in use and also how it handles DHCP messages.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-joshi-dhc-l2ra-00"/>
 </reference>

@@ -1,25 +1,35 @@
 <reference anchor="I-D.mouris-cfrg-mastic" target="https://datatracker.ietf.org/doc/html/draft-mouris-cfrg-mastic-03">
   <front>
     <title>The Mastic VDAF</title>
-    <author fullname="Hannah Davis" initials="H." surname="Davis">
+    <seriesInfo name="Internet-Draft" value="draft-mouris-cfrg-mastic-03"/>
+    <author initials="H." surname="Davis" fullname="Hannah Davis">
       <organization>Seagate</organization>
     </author>
-    <author fullname="Dimitris Mouris" initials="D." surname="Mouris">
+    <author initials="D." surname="Mouris" fullname="Dimitris Mouris">
       <organization>Nillion</organization>
     </author>
-    <author fullname="Christopher Patton" initials="C." surname="Patton">
+    <author initials="C." surname="Patton" fullname="Christopher Patton">
       <organization>Cloudflare</organization>
     </author>
-    <author fullname="Pratik Sarkar" initials="P." surname="Sarkar">
+    <author initials="P." surname="Sarkar" fullname="Pratik Sarkar">
       <organization>Supra Research</organization>
     </author>
-    <author fullname="Nektarios Georgios Tsoutsos" initials="N. G." surname="Tsoutsos">
+    <author initials="N. G." surname="Tsoutsos" fullname="Nektarios Georgios Tsoutsos">
       <organization>University of Delaware</organization>
     </author>
-    <date year="2024" month="September" day="27"/>
+    <date day="27" month="September" year="2024"></date>
     <abstract>
-      <t>This document describes Mastic, a two-party VDAF for the following secure aggregation task: each client holds an input and an associated weight, and the data collector wants to aggregate the weights of all clients whose inputs begin with a prefix chosen by the data collector. This functionality enables two classes of applications. First, it allows grouping metrics by client attributes without revealing which clients have which attributes. Second, it solves the weighted heavy hitters problem, where the goal is to compute the subset of inputs that have the highest total weight.</t>
+      <t>   This document describes Mastic, a two-party VDAF for the following
+   secure aggregation task: each client holds an input and an associated
+   weight, and the data collector wants to aggregate the weights of all
+   clients whose inputs begin with a prefix chosen by the data
+   collector.  This functionality enables two classes of applications.
+   First, it allows grouping metrics by client attributes without
+   revealing which clients have which attributes.  Second, it solves the
+   weighted heavy hitters problem, where the goal is to compute the
+   subset of inputs that have the highest total weight.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-mouris-cfrg-mastic-03"/>
 </reference>

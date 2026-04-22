@@ -1,16 +1,23 @@
 <reference anchor="I-D.madi-dnsop-udp4dns" target="https://datatracker.ietf.org/doc/html/draft-madi-dnsop-udp4dns-00">
   <front>
     <title>UDP payload size for DNS messages</title>
-    <author fullname="Di Ma" initials="D." surname="Ma">
-      <organization/>
-    </author>
-    <author fullname="Linjian Song" initials="L." surname="Song">
+    <seriesInfo name="Internet-Draft" value="draft-madi-dnsop-udp4dns-00"/>
+    <author initials="D." surname="Ma" fullname="Di Ma"/>
+    <author initials="L." surname="Song" fullname="Linjian Song">
       <organization>Beijing Internet Institute</organization>
     </author>
-    <date year="2015" month="August" day="28"/>
+    <date day="28" month="August" year="2015"></date>
     <abstract>
-      <t>The classic 512-bytes UDP payload for transporting DNS messages is an embedded dependence on IPv4. As the Internet infrastructure is evolving to IPv6, the very constraint stemming from IPv4 can be removed by the virtue of that IPv6 mandates a MTU of 1280 bytes. This document specifies a new minimum size of UDP packet to carry DNS message, making DNS implementations going forward more adaptive to both applications based on the Internet and infrastructures supporting the Internet.</t>
+      <t>   The classic 512-bytes UDP payload for transporting DNS messages is an
+   embedded dependence on IPv4.  As the Internet infrastructure is
+   evolving to IPv6, the very constraint stemming from IPv4 can be
+   removed by the virtue of that IPv6 mandates a MTU of 1280 bytes.
+   This document specifies a new minimum size of UDP packet to carry DNS
+   message, making DNS implementations going forward more adaptive to
+   both applications based on the Internet and infrastructures
+   supporting the Internet.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-madi-dnsop-udp4dns-00"/>
 </reference>

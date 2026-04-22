@@ -1,31 +1,43 @@
 <reference anchor="I-D.truskovsky-lamps-pq-hybrid-x509" target="https://datatracker.ietf.org/doc/html/draft-truskovsky-lamps-pq-hybrid-x509-00">
   <front>
     <title>Multiple Public-Key Algorithm X.509 Certificates</title>
-    <author fullname="Alexander Truskovsky" initials="A." surname="Truskovsky">
+    <seriesInfo name="Internet-Draft" value="draft-truskovsky-lamps-pq-hybrid-x509-00"/>
+    <author initials="A." surname="Truskovsky" fullname="Alexander Truskovsky">
       <organization>ISARA Corporation</organization>
     </author>
-    <author fullname="Philip Lafrance" initials="P." surname="Lafrance">
+    <author initials="P." surname="Lafrance" fullname="Philip Lafrance">
       <organization>ISARA Corporation</organization>
     </author>
-    <author fullname="Daniel Van Geest" initials="D." surname="Van Geest">
+    <author initials="D." surname="Van Geest" fullname="Daniel Van Geest">
       <organization>ISARA Corporation</organization>
     </author>
-    <author fullname="Scott Fluhrer" initials="S." surname="Fluhrer">
+    <author initials="S." surname="Fluhrer" fullname="Scott Fluhrer">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Panos Kampanakis" initials="P." surname="Kampanakis">
+    <author initials="P." surname="Kampanakis" fullname="Panos Kampanakis">
       <organization>Cisco Systems</organization>
     </author>
-    <author fullname="Mike Ounsworth" initials="M." surname="Ounsworth">
+    <author initials="M." surname="Ounsworth" fullname="Mike Ounsworth">
       <organization>Entrust Datacard, Ltd</organization>
     </author>
-    <author fullname="Serge Mister" initials="S." surname="Mister">
+    <author initials="S." surname="Mister" fullname="Serge Mister">
       <organization>Entrust Datacard, Ltd</organization>
     </author>
-    <date year="2018" month="March" day="1"/>
+    <date day="01" month="March" year="2018"></date>
     <abstract>
-      <t>This document describes a method of embedding alternative sets of cryptographic materials into X.509v3 digital certificates, X.509v2 Certificate Revocation Lists (CRLs), and PKCS #10 Certificate Signing Requests (CSRs). The embedded alternative cryptographic materials allow a Public Key Infrastructure (PKI) to use multiple cryptographic algorithms in a single object, and allow it to transition to the new cryptographic algorithms while maintaining backwards compatibility with systems using the existing algorithms. Three X.509 extensions and three PKCS #10 attributes are defined, and the signing and verification procedures for the alternative cryptographic material contained in the extensions and attributes are detailed.</t>
+      <t>   This document describes a method of embedding alternative sets of
+   cryptographic materials into X.509v3 digital certificates, X.509v2
+   Certificate Revocation Lists (CRLs), and PKCS #10 Certificate Signing
+   Requests (CSRs).  The embedded alternative cryptographic materials
+   allow a Public Key Infrastructure (PKI) to use multiple cryptographic
+   algorithms in a single object, and allow it to transition to the new
+   cryptographic algorithms while maintaining backwards compatibility
+   with systems using the existing algorithms.  Three X.509 extensions
+   and three PKCS #10 attributes are defined, and the signing and
+   verification procedures for the alternative cryptographic material
+   contained in the extensions and attributes are detailed.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-truskovsky-lamps-pq-hybrid-x509-00"/>
 </reference>

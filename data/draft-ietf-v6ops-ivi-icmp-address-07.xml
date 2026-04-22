@@ -1,25 +1,26 @@
 <reference anchor="I-D.ietf-v6ops-ivi-icmp-address" target="https://datatracker.ietf.org/doc/html/draft-ietf-v6ops-ivi-icmp-address-07">
   <front>
     <title>Stateless Source Address Mapping for ICMPv6 Packets</title>
-    <author fullname="Xing Li" initials="X." surname="Li">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-v6ops-ivi-icmp-address-07"/>
+    <author initials="X." surname="Li" fullname="Xing Li">
       <organization>CERNET Center/Tsinghua University</organization>
     </author>
-    <author fullname="Congxiao Bao" initials="C." surname="Bao">
+    <author initials="C." surname="Bao" fullname="Congxiao Bao">
       <organization>CERNET Center/Tsinghua University</organization>
     </author>
-    <author fullname="Dan Wing" initials="D." surname="Wing">
+    <author initials="D." surname="Wing" fullname="Dan Wing">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Ramji Vaithianathan" initials="R." surname="Vaithianathan">
+    <author initials="R." surname="Vaithianathan" fullname="Ramji Vaithianathan">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Geoff Huston" initials="G." surname="Huston">
+    <author initials="G." surname="Huston" fullname="Geoff Huston">
       <organization>APNIC</organization>
     </author>
-    <date year="2012" month="October" day="12"/>
+    <date day="12" month="October" year="2012"></date>
     <abstract>
-      <t>A stateless IPv4/IPv6 translator may receive ICMPv6 packets containing non-IPv4-translatable addresses as the source. These packets should be passed across the translator as ICMP packets directed to the IPv4 destination. This document presents recommendations for source address translation in ICMPv6 headers to handle such cases. [STANDARDS-TRACK]</t>
+      <t>A stateless IPv4/IPv6 translator may receive ICMPv6 packets containing non-IPv4-translatable addresses as the source.  These packets should be passed across the translator as ICMP packets directed to the IPv4 destination.  This document presents recommendations for source address translation in ICMPv6 headers to handle such cases. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-v6ops-ivi-icmp-address-07"/>
 </reference>

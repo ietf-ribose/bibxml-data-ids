@@ -1,16 +1,24 @@
 <reference anchor="I-D.richardson-anima-voucher-delegation" target="https://datatracker.ietf.org/doc/html/draft-richardson-anima-voucher-delegation-01">
   <front>
     <title>Delegated Authority for Bootstrap Voucher Artifacts</title>
-    <author fullname="Michael Richardson" initials="M." surname="Richardson">
+    <seriesInfo name="Internet-Draft" value="draft-richardson-anima-voucher-delegation-01"/>
+    <author initials="M." surname="Richardson" fullname="Michael Richardson">
       <organization>Sandelman Software Works</organization>
     </author>
-    <author fullname="Liang Xia" initials="L." surname="Xia">
+    <author initials="L." surname="Xia" fullname="Liang Xia">
       <organization>Huawei</organization>
     </author>
-    <date year="2020" month="March" day="9"/>
+    <date day="09" month="March" year="2020"></date>
     <abstract>
-      <t>This document describes an extension of the RFC8366 Voucher Artifact in order to support delegation of signing authority. The initial voucher pins a public identity, and that public indentity can then issue additional vouchers. This chain of authorization can support permission-less resale of devices, as well as guarding against business failure of the BRSKI [I-D.ietf-anima-bootstrapping-keyinfra] Manufacturer Authorized Signing Authority (MASA).</t>
+      <t>   This document describes an extension of the RFC8366 Voucher Artifact
+   in order to support delegation of signing authority.  The initial
+   voucher pins a public identity, and that public indentity can then
+   issue additional vouchers.  This chain of authorization can support
+   permission-less resale of devices, as well as guarding against
+   business failure of the BRSKI [I-D.ietf-anima-bootstrapping-keyinfra]
+   Manufacturer Authorized Signing Authority (MASA).
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-richardson-anima-voucher-delegation-01"/>
 </reference>

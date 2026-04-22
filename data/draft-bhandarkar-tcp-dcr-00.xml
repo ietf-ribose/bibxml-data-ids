@@ -1,13 +1,30 @@
 <reference anchor="I-D.bhandarkar-tcp-dcr" target="https://datatracker.ietf.org/doc/html/draft-bhandarkar-tcp-dcr-00">
   <front>
     <title>Improving the robustness of TCP to Non-Congestion Events</title>
-    <author fullname="Sumitha Bhandarkar" initials="S." surname="Bhandarkar">
+    <seriesInfo name="Internet-Draft" value="draft-bhandarkar-tcp-dcr-00"/>
+    <author initials="S." surname="Bhandarkar" fullname="Sumitha Bhandarkar">
       <organization>Texas A&amp;M University</organization>
     </author>
-    <date year="2003" month="October" day="16"/>
+    <date day="16" month="October" year="2003"></date>
     <abstract>
-      <t>This document proposes TCP-DCR, a simple modification to the TCP congestion control algorithm to make it more robust to non-congestion events. In the absence of explicit notification from the network, the TCP congestion control algorithm treats the receipt of three duplicate acknowledgements as an indication of congestion in the network. This is not always correct, notably so in wireless networks with channel errors or networks prone to excessive packet reordering, resulting in degraded performance. TCP-DCR aims to remedy this by delaying the congestion response of TCP for a short interval of time tau, thereby creating room to handle any non-congestion events that may have occurred. If at the end of the delay tau, the event is not handled, then it is treated as a congestion loss. The modifications themselves do not handle the non-congestion event, but rather rely on some underlying mechanism to do this. This document discusses the implications of delaying congestion response on the fairness, TCP- compatibility and network dynamics, and the benefits to be gained by applying the TCP-DCR modifications to TCP.</t>
+      <t>This document proposes TCP-DCR, a simple modification to the TCP
+congestion control algorithm to make it more robust to non-congestion
+events. In the absence of explicit notification from the network, the
+TCP congestion control algorithm treats the receipt of three
+duplicate acknowledgements as an indication of congestion in the
+network. This is not always correct, notably so in wireless networks
+with channel errors or networks prone to excessive packet reordering,
+resulting in degraded performance. TCP-DCR aims to remedy this by
+delaying the congestion response of TCP for a short interval of time
+tau, thereby creating room to handle any non-congestion events that
+may have occurred. If at the end of the delay tau, the event is not
+handled, then it is treated as a congestion loss. The modifications
+themselves do not handle the non-congestion event, but rather rely on
+some underlying mechanism to do this. This document discusses the
+implications of delaying congestion response on the fairness, TCP-
+compatibility and network dynamics, and the benefits to be gained by
+applying the TCP-DCR modifications to TCP.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-bhandarkar-tcp-dcr-00"/>
 </reference>

@@ -1,19 +1,22 @@
 <reference anchor="I-D.ietf-eai-rfc5335bis" target="https://datatracker.ietf.org/doc/html/draft-ietf-eai-rfc5335bis-13">
   <front>
     <title>Internationalized Email Headers</title>
-    <author fullname="Abel Yang" initials="A." surname="Yang">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-eai-rfc5335bis-13"/>
+    <author initials="A." surname="Yang" fullname="Abel Yang">
       <organization>TWNIC</organization>
     </author>
-    <author fullname="Shawn Steele" initials="S." surname="Steele">
+    <author initials="S." surname="Steele" fullname="Shawn Steele">
       <organization>Microsoft</organization>
     </author>
-    <author fullname="Ned Freed" initials="N." surname="Freed">
+    <author initials="N." surname="Freed" fullname="Ned Freed">
       <organization>Oracle</organization>
     </author>
-    <date year="2011" month="October" day="21"/>
+    <date day="21" month="October" year="2011"></date>
     <abstract>
-      <t>Internet mail was originally limited to 7-bit ASCII. MIME added support for the use of 8-bit character sets in body parts, and also defined an encoded-word construct so other character sets could be used in certain header field values. However, full internationalization of electronic mail requires additional enhancements to allow the use of Unicode, including characters outside the ASCII repertoire, in mail addresses as well as direct use of Unicode in header fields like "From:", "To:", and "Subject:", without requiring the use of complex encoded-word constructs. This document specifies an enhancement to the Internet Message Format and to MIME that allows use of Unicode in mail addresses and most header field content. This specification updates Section 6.4 of RFC 2045 to eliminate the restriction prohibiting the use of non-identity content-transfer- encodings on subtypes of "message/". [STANDARDS-TRACK]</t>
+      <t>Internet mail was originally limited to 7-bit ASCII. MIME added support for the use of 8-bit character sets in body parts, and also defined an encoded-word construct so other character sets could be used in certain header field values. However, full internationalization of electronic mail requires additional enhancements to allow the use of Unicode, including characters outside the ASCII repertoire, in mail addresses as well as direct use of Unicode in header fields like "From:", "To:", and "Subject:", without requiring the use of complex encoded-word constructs. This document specifies an enhancement to the Internet Message Format and to MIME that allows use of Unicode in mail addresses and most header field content.
+
+ This specification updates Section 6.4 of RFC 2045 to eliminate the restriction prohibiting the use of non-identity content-transfer- encodings on subtypes of "message/". [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-eai-rfc5335bis-13"/>
 </reference>

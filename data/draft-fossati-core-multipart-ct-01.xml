@@ -1,13 +1,22 @@
 <reference anchor="I-D.fossati-core-multipart-ct" target="https://datatracker.ietf.org/doc/html/draft-fossati-core-multipart-ct-01">
   <front>
     <title>Multipart Content Format Encoding for CoAP</title>
-    <author fullname="Thomas Fossati" initials="T." surname="Fossati">
-      <organization/>
-    </author>
-    <date year="2012" month="October" day="2"/>
+    <seriesInfo name="Internet-Draft" value="draft-fossati-core-multipart-ct-01"/>
+    <author initials="T." surname="Fossati" fullname="Thomas Fossati"/>
+    <date day="02" month="October" year="2012"></date>
     <abstract>
-      <t>This memo defines a new content format encoding that can be used to combine several different media types into a single CoAP message- body. The proposed encoding provides a cheap framing facility aimed at minimizing the overhead bits as much as possible. Its main use case is for applications whose purpose is as simple as just pulling together a number of known content formats, with the caveat that their juxtaposition must not raise any semantic ambiguity on the receiving side (i.e. strictly ordered, with no optional parts).</t>
+      <t>   This memo defines a new content format encoding that can be used to
+   combine several different media types into a single CoAP message-
+   body.  The proposed encoding provides a cheap framing facility aimed
+   at minimizing the overhead bits as much as possible.
+
+   Its main use case is for applications whose purpose is as simple as
+   just pulling together a number of known content formats, with the
+   caveat that their juxtaposition must not raise any semantic ambiguity
+   on the receiving side (i.e. strictly ordered, with no optional
+   parts).
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-fossati-core-multipart-ct-01"/>
 </reference>

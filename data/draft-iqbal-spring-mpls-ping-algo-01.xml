@@ -1,22 +1,38 @@
 <reference anchor="I-D.iqbal-spring-mpls-ping-algo" target="https://datatracker.ietf.org/doc/html/draft-iqbal-spring-mpls-ping-algo-01">
   <front>
     <title>LSP Ping/Traceroute for Prefix SID in Presence of Multi-Algorithm/Multi-Topology Networks</title>
-    <author fullname="faiqbal@cisco.com" initials="" surname="faiqbal@cisco.com">
+    <seriesInfo name="Internet-Draft" value="draft-iqbal-spring-mpls-ping-algo-01"/>
+    <author surname="faiqbal@cisco.com" fullname="faiqbal@cisco.com">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Nagendra Kumar Nainar" initials="N. K." surname="Nainar">
+    <author initials="N. K." surname="Nainar" fullname="Nagendra Kumar Nainar">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Zafar Ali" initials="Z." surname="Ali">
+    <author initials="Z." surname="Ali" fullname="Zafar Ali">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <author fullname="Carlos Pignataro" initials="C." surname="Pignataro">
+    <author initials="C." surname="Pignataro" fullname="Carlos Pignataro">
       <organization>Cisco Systems, Inc.</organization>
     </author>
-    <date year="2018" month="October" day="23"/>
+    <date day="23" month="October" year="2018"></date>
     <abstract>
-      <t>[RFC8287] defines the extensions to MPLS LSP Ping and Traceroute for Segment Routing IGP-Prefix and IGP-Adjacency Segment Identifier (SIDs) with an MPLS data plane. The machinery defined in [RFC8287] works well in single topology, single algorithm deployments where each Prefix SID is only associated with a single IP prefix. In multi-topology networks, or networks deploying multiple algorithms for the same IP Prefix, MPLS echo request needs to carry additional information in the Target FEC Stack sub-TLVs to properly validate IGP Prefix SID. This document updates [RFC8287] by modifying IPv4 and IPv6 IGP-Prefix Segment ID FEC sub-TLVs to also include algorithm identification while maintaining backwards compatibility. This document also introduces new Target FEC Stack sub-TLVs for Prefix SID validation in multi-topology networks.</t>
+      <t>   [RFC8287] defines the extensions to MPLS LSP Ping and Traceroute for
+   Segment Routing IGP-Prefix and IGP-Adjacency Segment Identifier
+   (SIDs) with an MPLS data plane.  The machinery defined in [RFC8287]
+   works well in single topology, single algorithm deployments where
+   each Prefix SID is only associated with a single IP prefix.  In
+   multi-topology networks, or networks deploying multiple algorithms
+   for the same IP Prefix, MPLS echo request needs to carry additional
+   information in the Target FEC Stack sub-TLVs to properly validate IGP
+   Prefix SID.
+
+   This document updates [RFC8287] by modifying IPv4 and IPv6 IGP-Prefix
+   Segment ID FEC sub-TLVs to also include algorithm identification
+   while maintaining backwards compatibility.  This document also
+   introduces new Target FEC Stack sub-TLVs for Prefix SID validation in
+   multi-topology networks.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-iqbal-spring-mpls-ping-algo-01"/>
 </reference>

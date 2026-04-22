@@ -1,19 +1,37 @@
 <reference anchor="I-D.kist-alto-3pdisc" target="https://datatracker.ietf.org/doc/html/draft-kist-alto-3pdisc-05">
   <front>
     <title>Third-Party ALTO Server Discovery (3pdisc)</title>
-    <author fullname="Sebastian Kiesel" initials="S." surname="Kiesel">
+    <seriesInfo name="Internet-Draft" value="draft-kist-alto-3pdisc-05"/>
+    <author initials="S." surname="Kiesel" fullname="Sebastian Kiesel">
       <organization>University of Stuttgart</organization>
     </author>
-    <author fullname="Kilian Krause" initials="K." surname="Krause">
+    <author initials="K." surname="Krause" fullname="Kilian Krause">
       <organization>University of Stuttgart</organization>
     </author>
-    <author fullname="Martin Stiemerling" initials="M." surname="Stiemerling">
+    <author initials="M." surname="Stiemerling" fullname="Martin Stiemerling">
       <organization>NEC Europe Ltd.</organization>
     </author>
-    <date year="2014" month="January" day="13"/>
+    <date day="13" month="January" year="2014"></date>
     <abstract>
-      <t>The goal of Application-Layer Traffic Optimization (ALTO) is to provide guidance to applications that have to select one or several hosts from a set of candidates capable of providing a desired resource. ALTO is realized by a client-server protocol. Before an ALTO client can ask for guidance it needs to discover one or more ALTO servers that can provide suitable guidance. This document specifies a procedure for third-party ALTO server discovery, which can be used if the ALTO client is not co-located with the actual resource consumer, but instead embedded in a third party such as a peer-to-peer tracker. Technically, the algorithm specified in this document takes one IP address and a U-NAPTR Service Parameter (i.e., "ALTO:http" or "ALTO:https") as parameters. It performs several DNS lookups (for U-NAPTR and SOA resource records) and returns one or more URI(s) of information resources related to that IP address.</t>
+      <t>   The goal of Application-Layer Traffic Optimization (ALTO) is to
+   provide guidance to applications that have to select one or several
+   hosts from a set of candidates capable of providing a desired
+   resource.  ALTO is realized by a client-server protocol.  Before an
+   ALTO client can ask for guidance it needs to discover one or more
+   ALTO servers that can provide suitable guidance.
+
+   This document specifies a procedure for third-party ALTO server
+   discovery, which can be used if the ALTO client is not co-located
+   with the actual resource consumer, but instead embedded in a third
+   party such as a peer-to-peer tracker.
+
+   Technically, the algorithm specified in this document takes one
+   IP address and a U-NAPTR Service Parameter (i.e., "ALTO:http" or
+   "ALTO:https") as parameters.  It performs several DNS lookups (for
+   U-NAPTR and SOA resource records) and returns one or more URI(s) of
+   information resources related to that IP address.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kist-alto-3pdisc-05"/>
 </reference>

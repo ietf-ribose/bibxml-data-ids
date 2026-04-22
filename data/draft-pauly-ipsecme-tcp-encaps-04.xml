@@ -1,19 +1,27 @@
 <reference anchor="I-D.pauly-ipsecme-tcp-encaps" target="https://datatracker.ietf.org/doc/html/draft-pauly-ipsecme-tcp-encaps-04">
   <front>
     <title>TCP Encapsulation of IKEv2 and IPSec Packets</title>
-    <author fullname="Tommy Pauly" initials="T." surname="Pauly">
+    <seriesInfo name="Internet-Draft" value="draft-pauly-ipsecme-tcp-encaps-04"/>
+    <author initials="T." surname="Pauly" fullname="Tommy Pauly">
       <organization>Apple Inc.</organization>
     </author>
-    <author fullname="Samy Touati" initials="S." surname="Touati">
+    <author initials="S." surname="Touati" fullname="Samy Touati">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Ravi Mantha" initials="R." surname="Mantha">
+    <author initials="R." surname="Mantha" fullname="Ravi Mantha">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2016" month="April" day="25"/>
+    <date day="25" month="April" year="2016"></date>
     <abstract>
-      <t>This document describes a method to transport IKEv2 and IPSec packets over a TCP connection for traversing network middleboxes that may block IKEv2 negotiation over UDP. This method, referred to as TCP encapsulation, involves sending all packets for tunnel establishment as well as tunneled packets over a TCP connection. This method is intended to be used as a fallback option when IKE cannot be negotiated over UDP.</t>
+      <t>   This document describes a method to transport IKEv2 and IPSec packets
+   over a TCP connection for traversing network middleboxes that may
+   block IKEv2 negotiation over UDP.  This method, referred to as TCP
+   encapsulation, involves sending all packets for tunnel establishment
+   as well as tunneled packets over a TCP connection.  This method is
+   intended to be used as a fallback option when IKE cannot be
+   negotiated over UDP.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-pauly-ipsecme-tcp-encaps-04"/>
 </reference>

@@ -1,19 +1,27 @@
 <reference anchor="I-D.ietf-dnsop-kskroll-sentinel" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-kskroll-sentinel-00">
   <front>
     <title>A Sentinel for Detecting Trusted Keys in DNSSEC</title>
-    <author fullname="Geoff Huston" initials="G." surname="Huston">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-kskroll-sentinel-00"/>
+    <author initials="G." surname="Huston" fullname="Geoff Huston">
       <organization>APNIC</organization>
     </author>
-    <author fullname="Joao da Silva Damas" initials="J. D. S." surname="Damas">
+    <author initials="J. D. S." surname="Damas" fullname="Joao da Silva Damas">
       <organization>APNIC</organization>
     </author>
-    <author fullname="Warren &quot;Ace&quot; Kumari" initials="W. A." surname="Kumari">
+    <author initials="W. A." surname="Kumari" fullname="Warren &quot;Ace&quot; Kumari">
       <organization>Google</organization>
     </author>
-    <date year="2017" month="December" day="10"/>
+    <date day="10" month="December" year="2017"></date>
     <abstract>
-      <t>The DNS Security Extensions (DNSSEC) were developed to provide origin authentication and integrity protection for DNS data by using digital signatures. These digital signatures can be verified by building a chain of trust starting from a trust anchor and proceeding down to a particular node in the DNS. This document specifies a mechanism that will allow an end user to determine the trusted key state of the resolvers that handle the user's DNS queries.</t>
+      <t>   The DNS Security Extensions (DNSSEC) were developed to provide origin
+   authentication and integrity protection for DNS data by using digital
+   signatures.  These digital signatures can be verified by building a
+   chain of trust starting from a trust anchor and proceeding down to a
+   particular node in the DNS.  This document specifies a mechanism that
+   will allow an end user to determine the trusted key state of the
+   resolvers that handle the user's DNS queries.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-kskroll-sentinel-00"/>
 </reference>

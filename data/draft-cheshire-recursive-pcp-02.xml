@@ -1,13 +1,24 @@
 <reference anchor="I-D.cheshire-recursive-pcp" target="https://datatracker.ietf.org/doc/html/draft-cheshire-recursive-pcp-02">
   <front>
     <title>Recursive PCP</title>
-    <author fullname="Stuart Cheshire" initials="S." surname="Cheshire">
+    <seriesInfo name="Internet-Draft" value="draft-cheshire-recursive-pcp-02"/>
+    <author initials="S." surname="Cheshire" fullname="Stuart Cheshire">
       <organization>Apple</organization>
     </author>
-    <date year="2013" month="March" day="10"/>
+    <date day="10" month="March" year="2013"></date>
     <abstract>
-      <t>The Port Control Protocol (PCP) allows clients to request explicit dynamic inbound and outbound port mappings in their closest on-path NAT, firewall, or other middlebox. However, in today's world, there may be more than one NAT on the path between a client and the public Internet. This document describes how the closest on-path middlebox generates a corresponding upstream PCP request to the next closest on-path middlebox, to request an appropriate explicit dynamic port mapping in that middlebox too. Applied recursively, this generates the necessary chain of port mappings in any number of middleboxes on the path between the client and the public Internet.</t>
+      <t>   The Port Control Protocol (PCP) allows clients to request explicit
+   dynamic inbound and outbound port mappings in their closest on-path
+   NAT, firewall, or other middlebox.  However, in today's world, there
+   may be more than one NAT on the path between a client and the public
+   Internet.  This document describes how the closest on-path middlebox
+   generates a corresponding upstream PCP request to the next closest
+   on-path middlebox, to request an appropriate explicit dynamic port
+   mapping in that middlebox too.  Applied recursively, this generates
+   the necessary chain of port mappings in any number of middleboxes on
+   the path between the client and the public Internet.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-cheshire-recursive-pcp-02"/>
 </reference>

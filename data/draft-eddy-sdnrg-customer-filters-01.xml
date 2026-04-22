@@ -1,19 +1,40 @@
 <reference anchor="I-D.eddy-sdnrg-customer-filters" target="https://datatracker.ietf.org/doc/html/draft-eddy-sdnrg-customer-filters-01">
   <front>
     <title>Customer-Controlled Filtering Using SDN</title>
-    <author fullname="Wesley Eddy" initials="W." surname="Eddy">
+    <seriesInfo name="Internet-Draft" value="draft-eddy-sdnrg-customer-filters-01"/>
+    <author initials="W." surname="Eddy" fullname="Wesley Eddy">
       <organization>MTI Systems</organization>
     </author>
-    <author fullname="Gilbert Clark" initials="G." surname="Clark">
+    <author initials="G." surname="Clark" fullname="Gilbert Clark">
       <organization>MTI Systems</organization>
     </author>
-    <author fullname="Justin Dailey" initials="J." surname="Dailey">
+    <author initials="J." surname="Dailey" fullname="Justin Dailey">
       <organization>MTI Systems</organization>
     </author>
-    <date year="2015" month="August" day="11"/>
+    <date day="11" month="August" year="2015"></date>
     <abstract>
-      <t>In order to reduce unwanted traffic and make efficient use of limited access link capacity or other network resources, it is advantageous to filter traffic upstream of the end-networks that the packets are destined to. This document describes filtering within access Internet Service Provider (ISP) networks. The ISP's end-network customers are given control over ISP filtering of traffic destined to their own prefixes, since each customer's definition of desirable versus undesirable traffic may change over time (e.g. as new network services and protocols are introduced). In this document, we describe an SDN-based means for customers to express flow definitions to their ISPs in order to distinguish between desirable and undesirable inbound traffic. These rules can be dynamically and securely updated within the running ISP network, with full automation One use case for this capability is in mitigating denial of service attacks. Even if such filtering is only implemented in an ISP's access network, it preserves capacity on the customer access links for desirable traffic. If implemented at the ISP's edge connections to other providers, or prior to ingress to their core, it can also preserve the ISP's own network capacity and other resources that may be threatened by attacks.</t>
+      <t>   In order to reduce unwanted traffic and make efficient use of limited
+   access link capacity or other network resources, it is advantageous
+   to filter traffic upstream of the end-networks that the packets are
+   destined to.  This document describes filtering within access
+   Internet Service Provider (ISP) networks.  The ISP's end-network
+   customers are given control over ISP filtering of traffic destined to
+   their own prefixes, since each customer's definition of desirable
+   versus undesirable traffic may change over time (e.g. as new network
+   services and protocols are introduced).  In this document, we
+   describe an SDN-based means for customers to express flow definitions
+   to their ISPs in order to distinguish between desirable and
+   undesirable inbound traffic.  These rules can be dynamically and
+   securely updated within the running ISP network, with full automation
+   One use case for this capability is in mitigating denial of service
+   attacks.  Even if such filtering is only implemented in an ISP's
+   access network, it preserves capacity on the customer access links
+   for desirable traffic.  If implemented at the ISP's edge connections
+   to other providers, or prior to ingress to their core, it can also
+   preserve the ISP's own network capacity and other resources that may
+   be threatened by attacks.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-eddy-sdnrg-customer-filters-01"/>
 </reference>

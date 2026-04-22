@@ -1,19 +1,32 @@
 <reference anchor="I-D.tcs-coap-no-response-option" target="https://datatracker.ietf.org/doc/html/draft-tcs-coap-no-response-option-04">
   <front>
     <title>CoAP option for no server-response</title>
-    <author fullname="Abhijan Bhattacharyya" initials="A." surname="Bhattacharyya">
-      <organization/>
-    </author>
-    <author fullname="Soma Bandyopadhyay" initials="S." surname="Bandyopadhyay">
-      <organization/>
-    </author>
-    <author fullname="Arpan Pal" initials="A." surname="Pal">
-      <organization/>
-    </author>
-    <date year="2013" month="October" day="9"/>
+    <seriesInfo name="Internet-Draft" value="draft-tcs-coap-no-response-option-04"/>
+    <author initials="A." surname="Bhattacharyya" fullname="Abhijan Bhattacharyya"/>
+    <author initials="S." surname="Bandyopadhyay" fullname="Soma Bandyopadhyay"/>
+    <author initials="A." surname="Pal" fullname="Arpan Pal"/>
+    <date day="09" month="October" year="2013"></date>
     <abstract>
-      <t>There can be typical M2M scenarios where responses from the data sink to the data source against request/ notification from the source might be considered redundant. This kind of open-loop exchange (with no reverse path from the sink to the source) may be desired while updating resources in constrained systems looking for maximized throughput with minimized resource consumption. CoAP already provides a non-confirmable (NON) mode of exchange where The receiving end-point does not respond with ACK. However, the receiving end-point responds the sender with a status code indicating "the result of the attempt to understand and satisfy the request". This draft introduces a header option: 'No-Response' to suppress responses from the receiver and discusses exemplary use cases which motivated this proposition based on real experience. This option also provides granularity by allowing suppression of a typical class or a combination of classes of responses. This option may be effective for both unicast and multicast scenarios.</t>
+      <t>   There can be typical M2M scenarios where responses from the data
+   sink to the data source against request/ notification from the
+   source might be considered redundant. This kind of open-loop
+   exchange (with no reverse path from the sink to the source) may be
+   desired while updating resources in constrained systems looking for
+   maximized throughput with minimized resource consumption. CoAP
+   already provides a non-confirmable (NON) mode of exchange where The
+   receiving end-point does not respond with ACK. However, the
+   receiving end-point responds the sender with a status code
+   indicating "the result of the attempt to understand and satisfy the
+   request".
+
+   This draft introduces a header option: 'No-Response' to suppress
+   responses from the receiver and discusses exemplary use cases which
+   motivated this proposition based on real experience. This option
+   also provides granularity by allowing suppression of a typical class
+   or a combination of classes of responses. This option may be
+   effective for both unicast and multicast scenarios.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-tcs-coap-no-response-option-04"/>
 </reference>

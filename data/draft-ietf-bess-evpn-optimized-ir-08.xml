@@ -1,25 +1,37 @@
 <reference anchor="I-D.ietf-bess-evpn-optimized-ir" target="https://datatracker.ietf.org/doc/html/draft-ietf-bess-evpn-optimized-ir-08">
   <front>
     <title>Optimized Ingress Replication solution for EVPN</title>
-    <author fullname="Jorge Rabadan" initials="J." surname="Rabadan">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bess-evpn-optimized-ir-08"/>
+    <author initials="J." surname="Rabadan" fullname="Jorge Rabadan">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Senthil Sathappan" initials="S." surname="Sathappan">
+    <author initials="S." surname="Sathappan" fullname="Senthil Sathappan">
       <organization>Nokia</organization>
     </author>
-    <author fullname="Wen Lin" initials="W." surname="Lin">
+    <author initials="W." surname="Lin" fullname="Wen Lin">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Mukul Katiyar" initials="M." surname="Katiyar">
+    <author initials="M." surname="Katiyar" fullname="Mukul Katiyar">
       <organization>Versa Networks</organization>
     </author>
-    <author fullname="Ali Sajassi" initials="A." surname="Sajassi">
+    <author initials="A." surname="Sajassi" fullname="Ali Sajassi">
       <organization>Cisco Systems</organization>
     </author>
-    <date year="2021" month="June" day="9"/>
+    <date day="09" month="June" year="2021"></date>
     <abstract>
-      <t>Network Virtualization Overlay (NVO) networks using EVPN as control plane may use Ingress Replication (IR) or PIM (Protocol Independent Multicast) based trees to convey the overlay BUM traffic. PIM provides an efficient solution to avoid sending multiple copies of the same packet over the same physical link, however it may not always be deployed in the NVO core network. IR avoids the dependency on PIM in the NVO network core. While IR provides a simple multicast transport, some NVO networks with demanding multicast applications require a more efficient solution without PIM in the core. This document describes a solution to optimize the efficiency of IR in NVO networks.</t>
+      <t>   Network Virtualization Overlay (NVO) networks using EVPN as control
+   plane may use Ingress Replication (IR) or PIM (Protocol Independent
+   Multicast) based trees to convey the overlay BUM traffic.  PIM
+   provides an efficient solution to avoid sending multiple copies of
+   the same packet over the same physical link, however it may not
+   always be deployed in the NVO core network.  IR avoids the dependency
+   on PIM in the NVO network core.  While IR provides a simple multicast
+   transport, some NVO networks with demanding multicast applications
+   require a more efficient solution without PIM in the core.  This
+   document describes a solution to optimize the efficiency of IR in NVO
+   networks.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-bess-evpn-optimized-ir-08"/>
 </reference>

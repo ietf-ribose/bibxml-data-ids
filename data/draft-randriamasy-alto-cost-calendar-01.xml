@@ -1,25 +1,39 @@
 <reference anchor="I-D.randriamasy-alto-cost-calendar" target="https://datatracker.ietf.org/doc/html/draft-randriamasy-alto-cost-calendar-01">
   <front>
     <title>ALTO Cost Calendar</title>
-    <author fullname="Sabine Randriamasy" initials="S." surname="Randriamasy">
-      <organization/>
-    </author>
-    <author fullname="Y. Richard Yang" initials="Y. R." surname="Yang">
-      <organization/>
-    </author>
-    <author fullname="Qin Wu" initials="Q." surname="Wu">
-      <organization/>
-    </author>
-    <author fullname="Deng Lingli" initials="D." surname="Lingli">
-      <organization/>
-    </author>
-    <author fullname="Nico Schwan" initials="N." surname="Schwan">
-      <organization/>
-    </author>
-    <date year="2014" month="July" day="4"/>
+    <seriesInfo name="Internet-Draft" value="draft-randriamasy-alto-cost-calendar-01"/>
+    <author initials="S." surname="Randriamasy" fullname="Sabine Randriamasy"/>
+    <author initials="Y. R." surname="Yang" fullname="Y. Richard Yang"/>
+    <author initials="Q." surname="Wu" fullname="Qin Wu"/>
+    <author initials="D." surname="Lingli" fullname="Deng Lingli"/>
+    <author initials="N." surname="Schwan" fullname="Nico Schwan"/>
+    <date day="04" month="July" year="2014"></date>
     <abstract>
-      <t>The goal of Application-Layer Traffic Optimization (ALTO) is to bridge the gap between network and applications by provisioning network related information in order to allow applications to make informed decisions. The present draft proposes to extend the cost information provided by the ALTO protocol. The purpose is to broaden the decision possibilities of applications to not only decide 'where' to connect to, but also 'when'. This is useful to applications that have a degree of freedom on when to schedule data transfers, such as non- instantaneous data replication between data centers or service provisioning to end systems with irregular connectivity. ALTO guidance to schedule application traffic can also efficiently help for load balancing and resources efficiency. The draft specifies a new Cost Mode, "Calendar" Mode, that is applicable to time-sensitive ALTO metrics and allows Applications to carefully schedule their connections or data transfers. In the Calendar Mode, an ALTO Server exposes ALTO Cost Values in JSON arrays where each value corresponds to a given time interval. The time intervals as well as other Calendar attributes are specified in the IRD. Besides the functional time-shift enhancement the ALTO Cost Calendar also allows to schedule the ALTO requests themselves and thus save a number of ALTO transactions.</t>
+      <t>   The goal of Application-Layer Traffic Optimization (ALTO) is to
+   bridge the gap between network and applications by provisioning
+   network related information in order to allow applications to make
+   informed decisions.  The present draft proposes to extend the cost
+   information provided by the ALTO protocol.  The purpose is to broaden
+   the decision possibilities of applications to not only decide 'where'
+   to connect to, but also 'when'.  This is useful to applications that
+   have a degree of freedom on when to schedule data transfers, such as
+   non- instantaneous data replication between data centers or service
+   provisioning to end systems with irregular connectivity.  ALTO
+   guidance to schedule application traffic can also efficiently help
+   for load balancing and resources efficiency.
+
+   The draft specifies a new Cost Mode, "Calendar" Mode, that is
+   applicable to time-sensitive ALTO metrics and allows Applications to
+   carefully schedule their connections or data transfers.  In the
+   Calendar Mode, an ALTO Server exposes ALTO Cost Values in JSON arrays
+   where each value corresponds to a given time interval.  The time
+   intervals as well as other Calendar attributes are specified in the
+   IRD.  Besides the functional time-shift enhancement the ALTO Cost
+   Calendar also allows to schedule the ALTO requests themselves and
+   thus save a number of ALTO transactions.
+
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-randriamasy-alto-cost-calendar-01"/>
 </reference>

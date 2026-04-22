@@ -1,13 +1,25 @@
 <reference anchor="I-D.arun-ipv6-mld" target="https://datatracker.ietf.org/doc/html/draft-arun-ipv6-mld-00">
   <front>
     <title>MLDv1 and MVDv2 Optimization</title>
-    <author fullname="Arun Prasad" initials="A." surname="Prasad">
+    <seriesInfo name="Internet-Draft" value="draft-arun-ipv6-mld-00"/>
+    <author initials="A." surname="Prasad" fullname="Arun Prasad">
       <organization>Motorola India Private Ltd</organization>
     </author>
-    <date year="2006" month="September" day="14"/>
+    <date day="14" month="September" year="2006"></date>
     <abstract>
-      <t>This document describes an optimization for MLDv1 (RFC 2710) and MLDv2 (RFC 3810). As per this optimization, a new router on coming up will not send periodic "General Query" messages to get the list of multicast listeners. Instead, it will try to get the same from the Querier on the link. Only if no Querier are present on the link, will the new router move to Querier state and send "General Query" messages. This approach provides an advantage in eliminating possibly large number of "Multicast Listener Report" messages every time a new router comes up on a link. More the number of listeners on a link, more the advantage.</t>
+      <t>   This document describes an optimization for MLDv1 (RFC 2710) and
+   MLDv2 (RFC 3810).
+   As per this optimization, a new router on coming up will not send
+   periodic "General Query" messages to get the list of multicast
+   listeners. Instead, it will try to get the same from the Querier on
+   the link. Only if no Querier are present on the link, will the new
+   router move to Querier state and send "General Query" messages.
+   This approach provides an advantage in eliminating possibly large
+   number of "Multicast Listener Report" messages every time a new
+   router comes up on a link. More the number of listeners on a link,
+   more the advantage.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-arun-ipv6-mld-00"/>
 </reference>

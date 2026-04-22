@@ -1,22 +1,33 @@
 <reference anchor="I-D.khademi-alternativebackoff-ecn" target="https://datatracker.ietf.org/doc/html/draft-khademi-alternativebackoff-ecn-03">
   <front>
     <title>TCP Alternative Backoff with ECN (ABE)</title>
-    <author fullname="Naeem Khademi" initials="N." surname="Khademi">
+    <seriesInfo name="Internet-Draft" value="draft-khademi-alternativebackoff-ecn-03"/>
+    <author initials="N." surname="Khademi" fullname="Naeem Khademi">
       <organization>University of Oslo</organization>
     </author>
-    <author fullname="Michael Welzl" initials="M." surname="Welzl">
+    <author initials="M." surname="Welzl" fullname="Michael Welzl">
       <organization>University of Oslo</organization>
     </author>
-    <author fullname="Dr. Grenville Armitage" initials="G." surname="Armitage">
+    <author initials="G." surname="Armitage" fullname="Dr. Grenville Armitage">
       <organization>Swinburne University of Technology</organization>
     </author>
-    <author fullname="Gorry Fairhurst" initials="G." surname="Fairhurst">
+    <author initials="G." surname="Fairhurst" fullname="Gorry Fairhurst">
       <organization>University of Aberdeen</organization>
     </author>
-    <date year="2016" month="April" day="4"/>
+    <date day="04" month="April" year="2016"></date>
     <abstract>
-      <t>This memo provides an experimental update to RFC3168. It updates the TCP sender-side reaction to a congestion notification received via Explicit Congestion Notification (ECN). The updated method reduces cwnd by a smaller amount than TCP does in reaction to loss. The intention is to achieve good throughput when the queue at the bottleneck is smaller than the bandwidth-delay-product of the connection. This is more likely when an Active Queue Management (AQM) mechanism has used ECN to CE-mark a packet, than when a packet was lost. Future versions of this document will discuss SCTP as well as other transports using ECN.</t>
+      <t>   This memo provides an experimental update to RFC3168.  It updates the
+   TCP sender-side reaction to a congestion notification received via
+   Explicit Congestion Notification (ECN).  The updated method reduces
+   cwnd by a smaller amount than TCP does in reaction to loss.  The
+   intention is to achieve good throughput when the queue at the
+   bottleneck is smaller than the bandwidth-delay-product of the
+   connection.  This is more likely when an Active Queue Management
+   (AQM) mechanism has used ECN to CE-mark a packet, than when a packet
+   was lost.  Future versions of this document will discuss SCTP as well
+   as other transports using ECN.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-khademi-alternativebackoff-ecn-03"/>
 </reference>

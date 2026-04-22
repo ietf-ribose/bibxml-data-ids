@@ -1,25 +1,30 @@
 <reference anchor="I-D.ietf-trill-aa-multi-attach" target="https://datatracker.ietf.org/doc/html/draft-ietf-trill-aa-multi-attach-05">
   <front>
     <title>TRILL Active-Active Edge Using Multiple MAC Attachments</title>
-    <author fullname="Mingui Zhang" initials="M." surname="Zhang">
-      <organization/>
-    </author>
-    <author fullname="Radia Perlman" initials="R." surname="Perlman">
-      <organization/>
-    </author>
-    <author fullname="Hongjun Zhai" initials="H." surname="Zhai">
-      <organization/>
-    </author>
-    <author fullname="Muhammad Durrani" initials="M." surname="Durrani">
-      <organization/>
-    </author>
-    <author fullname="Sujay Gupta" initials="S." surname="Gupta">
-      <organization/>
-    </author>
-    <date year="2015" month="August" day="25"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-trill-aa-multi-attach-05"/>
+    <author initials="M." surname="Zhang" fullname="Mingui Zhang"/>
+    <author initials="R." surname="Perlman" fullname="Radia Perlman"/>
+    <author initials="H." surname="Zhai" fullname="Hongjun Zhai"/>
+    <author initials="M." surname="Durrani" fullname="Muhammad Durrani"/>
+    <author initials="S." surname="Gupta" fullname="Sujay Gupta"/>
+    <date day="25" month="August" year="2015"></date>
     <abstract>
-      <t>TRILL (Transparent Interconnection of Lots of Links) active-active service provides end stations with flow level load balance and resilience against link failures at the edge of TRILL campuses as described in RFC 7379. This draft specifies a method by which member RBridges in an active- active edge RBridge group use their own nicknames as ingress RBridge nicknames to encapsulate frames from attached end systems. Thus, remote edge RBridges (who are not in the group) will see one host MAC address being associated with the multiple RBridges in the group. Such remote edge RBridges are required to maintain all those associations (i.e., MAC attachments) and to not flip-flop among them which would be the behavior prior to this specification. Design goals of this specification are discussed in the document.</t>
+      <t>   TRILL (Transparent Interconnection of Lots of Links) active-active
+   service provides end stations with flow level load balance and
+   resilience against link failures at the edge of TRILL campuses as
+   described in RFC 7379.
+
+   This draft specifies a method by which member RBridges in an active-
+   active edge RBridge group use their own nicknames as ingress RBridge
+   nicknames to encapsulate frames from attached end systems. Thus,
+   remote edge RBridges (who are not in the group) will see one host MAC
+   address being associated with the multiple RBridges in the group.
+   Such remote edge RBridges are required to maintain all those
+   associations (i.e., MAC attachments) and to not flip-flop among them
+   which would be the behavior prior to this specification. Design goals
+   of this specification are discussed in the document.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-trill-aa-multi-attach-05"/>
 </reference>

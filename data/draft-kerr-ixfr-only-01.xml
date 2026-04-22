@@ -1,16 +1,23 @@
 <reference anchor="I-D.kerr-ixfr-only" target="https://datatracker.ietf.org/doc/html/draft-kerr-ixfr-only-01">
   <front>
     <title>IXFR-ONLY to Prevent IXFR Fallback to AXFR</title>
-    <author fullname="Ondřej Surý" initials="O." surname="Surý">
+    <seriesInfo name="Internet-Draft" value="draft-kerr-ixfr-only-01"/>
+    <author initials="O." surname="Surý" fullname="Ondřej Surý">
       <organization>CZ.NIC</organization>
     </author>
-    <author fullname="Shane Kerr" initials="S." surname="Kerr">
+    <author initials="S." surname="Kerr" fullname="Shane Kerr">
       <organization>ISC</organization>
     </author>
-    <date year="2010" month="February" day="26"/>
+    <date day="26" month="February" year="2010"></date>
     <abstract>
-      <t>This documents proposes a new QTYPE (Query pseudo RRtype) for the Domain Name System (DNS). IXFR-ONLY is a variant of IXFR (RFC 1995) that allows an authoritative server to incrementally update zone content from another (primary) server without falling back from IXFR to AXFR. This way, alternate peers can be contacted more quickly and convergence of zone content may be achieved much faster in important, resilient operational scenarios.</t>
+      <t>This documents proposes a new QTYPE (Query pseudo RRtype) for the
+Domain Name System (DNS).  IXFR-ONLY is a variant of IXFR (RFC 1995)
+that allows an authoritative server to incrementally update zone
+content from another (primary) server without falling back from IXFR
+to AXFR.  This way, alternate peers can be contacted more quickly and
+convergence of zone content may be achieved much faster in important,
+resilient operational scenarios.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kerr-ixfr-only-01"/>
 </reference>

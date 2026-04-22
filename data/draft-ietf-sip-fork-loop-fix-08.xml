@@ -1,22 +1,25 @@
 <reference anchor="I-D.ietf-sip-fork-loop-fix" target="https://datatracker.ietf.org/doc/html/draft-ietf-sip-fork-loop-fix-08">
   <front>
     <title>Addressing an Amplification Vulnerability in Session Initiation Protocol (SIP) Forking Proxies</title>
-    <author fullname="Robert Sparks" initials="R." surname="Sparks">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-sip-fork-loop-fix-08"/>
+    <author initials="R." surname="Sparks" fullname="Robert Sparks">
       <organization>Tekelec</organization>
     </author>
-    <author fullname="Byron Campen" initials="B." surname="Campen">
+    <author initials="B." surname="Campen" fullname="Byron Campen">
       <organization>Tekelec</organization>
     </author>
-    <author fullname="Scott Lawrence" initials="S." surname="Lawrence">
+    <author initials="S." surname="Lawrence" fullname="Scott Lawrence">
       <organization>Nortel Networks</organization>
     </author>
-    <author fullname="Alan Hawrylyshen" initials="A." surname="Hawrylyshen">
+    <author initials="A." surname="Hawrylyshen" fullname="Alan Hawrylyshen">
       <organization>Ditech Networks Inc.</organization>
     </author>
-    <date year="2008" month="October" day="29"/>
+    <date day="29" month="October" year="2008"></date>
     <abstract>
-      <t>This document normatively updates RFC 3261, the Session Initiation Protocol (SIP), to address a security vulnerability identified in SIP proxy behavior. This vulnerability enables an attack against SIP networks where a small number of legitimate, even authorized, SIP requests can stimulate massive amounts of proxy-to-proxy traffic. This document strengthens loop-detection requirements on SIP proxies when they fork requests (that is, forward a request to more than one destination). It also corrects and clarifies the description of the loop-detection algorithm such proxies are required to implement. Additionally, this document defines a Max-Breadth mechanism for limiting the number of concurrent branches pursued for any given request. [STANDARDS-TRACK]</t>
+      <t>This document normatively updates RFC 3261, the Session Initiation Protocol (SIP), to address a security vulnerability identified in SIP proxy behavior. This vulnerability enables an attack against SIP networks where a small number of legitimate, even authorized, SIP requests can stimulate massive amounts of proxy-to-proxy traffic.
+
+ This document strengthens loop-detection requirements on SIP proxies when they fork requests (that is, forward a request to more than one destination). It also corrects and clarifies the description of the loop-detection algorithm such proxies are required to implement. Additionally, this document defines a Max-Breadth mechanism for limiting the number of concurrent branches pursued for any given request. [STANDARDS-TRACK]
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-sip-fork-loop-fix-08"/>
 </reference>

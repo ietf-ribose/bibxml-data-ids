@@ -1,13 +1,24 @@
 <reference anchor="I-D.ihren-dnsop-interim-signed-root" target="https://datatracker.ietf.org/doc/html/draft-ihren-dnsop-interim-signed-root-01">
   <front>
     <title>An Interim Scheme for Signing the Public DNS Root</title>
-    <author fullname="Johan Stenstam" initials="J." surname="Stenstam">
+    <seriesInfo name="Internet-Draft" value="draft-ihren-dnsop-interim-signed-root-01"/>
+    <author initials="J." surname="Stenstam" fullname="Johan Stenstam">
       <organization>Autonomica</organization>
     </author>
-    <date year="2002" month="November" day="6"/>
+    <date day="06" month="November" year="2002"></date>
     <abstract>
-      <t>This memo documents a proposed mechanism for a first stage of a transition from an unsigned DNS root to a signed root, such that the data in the root zone is accompanied by DNSSEC signatures to allow validation. The underlying reason for signing the root is to be able to provide a more secure DNS hierarchy, where it is possible to distinguish false answers from correct answers. For the special case of the DNS root zone, an interim scheme is proposed. This scheme is mostly aimed at securing the root zone itself for technical and operational reasons, and to give operational experience of DNSSEC.</t>
+      <t>This memo documents a proposed mechanism for a first stage of a
+transition from an unsigned DNS root to a signed root, such that
+the data in the root zone is accompanied by DNSSEC signatures to
+allow validation.
+The underlying reason for signing the root is to be able to provide
+a more secure DNS hierarchy, where it is possible to distinguish
+false answers from correct answers. 
+For the special case of the DNS root zone, an interim scheme is
+proposed. This scheme is mostly aimed at securing the root zone
+itself for technical and operational reasons, and to give
+operational experience of DNSSEC.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ihren-dnsop-interim-signed-root-01"/>
 </reference>

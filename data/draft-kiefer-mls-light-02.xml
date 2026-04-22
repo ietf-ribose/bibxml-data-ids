@@ -1,25 +1,39 @@
 <reference anchor="I-D.kiefer-mls-light" target="https://datatracker.ietf.org/doc/html/draft-kiefer-mls-light-02">
   <front>
     <title>Light MLS</title>
-    <author fullname="Franziskus Kiefer" initials="F." surname="Kiefer">
+    <seriesInfo name="Internet-Draft" value="draft-kiefer-mls-light-02"/>
+    <author initials="F." surname="Kiefer" fullname="Franziskus Kiefer">
       <organization>Cryspen</organization>
     </author>
-    <author fullname="Karthikeyan Bhargavan" initials="K." surname="Bhargavan">
+    <author initials="K." surname="Bhargavan" fullname="Karthikeyan Bhargavan">
       <organization>Cryspen</organization>
     </author>
-    <author fullname="Richard Barnes" initials="R." surname="Barnes">
+    <author initials="R." surname="Barnes" fullname="Richard Barnes">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Joël" initials="" surname="Joël">
+    <author surname="Joël" fullname="Joël">
       <organization>AWS Wickr</organization>
     </author>
-    <author fullname="Marta Mularczyk" initials="M." surname="Mularczyk">
+    <author initials="M." surname="Mularczyk" fullname="Marta Mularczyk">
       <organization>AWS Wickr</organization>
     </author>
-    <date year="2025" month="March" day="3"/>
+    <date day="03" month="March" year="2025"></date>
     <abstract>
-      <t>The Messaging Layer Security (MLS) protocol provides efficient asynchronous group key establishment for large groups with up to thousands of clients. In MLS, any member can commit a change to the group, and consequently, all members must download, validate, and maintain the full group state, which can incur a significant communication and computational costs, especially when joining a group. This document defines an MLS extension to support "light clients" that don't undertake these costs. A light client cannot commit changes to the group, and only has partial authentication information for the other members of the group, but is otherwise able to participate in the group. In exchange for these limitations, a light client can participate in an MLS group with significantly lower requirements in terms of download, memory, and processing.</t>
+      <t>   The Messaging Layer Security (MLS) protocol provides efficient
+   asynchronous group key establishment for large groups with up to
+   thousands of clients.  In MLS, any member can commit a change to the
+   group, and consequently, all members must download, validate, and
+   maintain the full group state, which can incur a significant
+   communication and computational costs, especially when joining a
+   group.  This document defines an MLS extension to support "light
+   clients" that don't undertake these costs.  A light client cannot
+   commit changes to the group, and only has partial authentication
+   information for the other members of the group, but is otherwise able
+   to participate in the group.  In exchange for these limitations, a
+   light client can participate in an MLS group with significantly lower
+   requirements in terms of download, memory, and processing.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kiefer-mls-light-02"/>
 </reference>

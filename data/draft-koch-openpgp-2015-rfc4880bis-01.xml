@@ -1,25 +1,47 @@
 <reference anchor="I-D.koch-openpgp-2015-rfc4880bis" target="https://datatracker.ietf.org/doc/html/draft-koch-openpgp-2015-rfc4880bis-01">
   <front>
     <title>OpenPGP Message Format</title>
-    <author fullname="Werner Koch" initials="W." surname="Koch">
+    <seriesInfo name="Internet-Draft" value="draft-koch-openpgp-2015-rfc4880bis-01"/>
+    <author initials="W." surname="Koch" fullname="Werner Koch">
       <organization>GnuPG e.V.</organization>
     </author>
-    <author fullname="brian m. carlson" initials="B. M." surname="carlson">
-      <organization/>
-    </author>
-    <author fullname="Ronald Henry Tse" initials="R. H." surname="Tse">
+    <author initials="B. M." surname="carlson" fullname="brian m. carlson"/>
+    <author initials="R. H." surname="Tse" fullname="Ronald Henry Tse">
       <organization>Ribose</organization>
     </author>
-    <author fullname="Derek Atkins" initials="D." surname="Atkins">
-      <organization/>
-    </author>
-    <author fullname="Daniel Kahn Gillmor" initials="D. K." surname="Gillmor">
-      <organization/>
-    </author>
-    <date year="2023" month="February" day="6"/>
+    <author initials="D." surname="Atkins" fullname="Derek Atkins"/>
+    <author initials="D. K." surname="Gillmor" fullname="Daniel Kahn Gillmor"/>
+    <date day="06" month="February" year="2023"></date>
     <abstract>
-      <t>{ Work in progress to update the OpenPGP specification from RFC4880. Editorial notes are enclosed in curly braces. } { This draft is based on the Git head as pf rfc4880bis-10 before the great refactoring. That refactoring, dubbed crypto-refresh, basically started from scratch with lots of re-formatting and switching to a Gitlab based approach with merge requests mainly prepared in advance by one of the chairs. This was done despite that -10 was basically ready for last call after a long iterative process adding feature by feature with rough consent from the WG. Due to the IETF submission system the draft was renamed but nevertheless is in apostolic succession of draft-ietf-openpgp- rfc4880bis-10 } This document specifies the message formats used in OpenPGP. OpenPGP provides encryption with public-key or symmetric cryptographic algorithms, digital signatures, compression and key management. This document is maintained in order to publish all necessary information needed to develop interoperable applications based on the OpenPGP format. It is not a step-by-step cookbook for writing an application. It describes only the format and methods needed to read, check, generate, and write conforming packets crossing any network. It does not deal with storage and implementation questions. It does, however, discuss implementation issues necessary to avoid security flaws.</t>
+      <t>   { Work in progress to update the OpenPGP specification from RFC4880.
+   Editorial notes are enclosed in curly braces. }
+
+   { This draft is based on the Git head as pf rfc4880bis-10 before the
+   great refactoring.  That refactoring, dubbed crypto-refresh,
+   basically started from scratch with lots of re-formatting and
+   switching to a Gitlab based approach with merge requests mainly
+   prepared in advance by one of the chairs.  This was done despite that
+   -10 was basically ready for last call after a long iterative process
+   adding feature by feature with rough consent from the WG.
+
+   Due to the IETF submission system the draft was renamed but
+   nevertheless is in apostolic succession of draft-ietf-openpgp-
+   rfc4880bis-10 }
+
+   This document specifies the message formats used in OpenPGP.  OpenPGP
+   provides encryption with public-key or symmetric cryptographic
+   algorithms, digital signatures, compression and key management.
+
+   This document is maintained in order to publish all necessary
+   information needed to develop interoperable applications based on the
+   OpenPGP format.  It is not a step-by-step cookbook for writing an
+   application.  It describes only the format and methods needed to
+   read, check, generate, and write conforming packets crossing any
+   network.  It does not deal with storage and implementation questions.
+   It does, however, discuss implementation issues necessary to avoid
+   security flaws.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-koch-openpgp-2015-rfc4880bis-01"/>
 </reference>

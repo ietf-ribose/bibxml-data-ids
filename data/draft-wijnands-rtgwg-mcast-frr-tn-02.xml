@@ -1,25 +1,33 @@
 <reference anchor="I-D.wijnands-rtgwg-mcast-frr-tn" target="https://datatracker.ietf.org/doc/html/draft-wijnands-rtgwg-mcast-frr-tn-02">
   <front>
     <title>Tree Notification to Improve Multicast Fast Reroute</title>
-    <author fullname="IJsbrand Wijnands" initials="I." surname="Wijnands">
+    <seriesInfo name="Internet-Draft" value="draft-wijnands-rtgwg-mcast-frr-tn-02"/>
+    <author initials="I." surname="Wijnands" fullname="IJsbrand Wijnands">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Luc De Ghein" initials="L." surname="De Ghein">
+    <author initials="L." surname="De Ghein" fullname="Luc De Ghein">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Gabor Sandor Envedi" initials="G. S." surname="Envedi">
-      <organization/>
-    </author>
-    <author fullname="Andras Csaszar" initials="A." surname="Csaszar">
+    <author initials="G. S." surname="Envedi" fullname="Gabor Sandor Envedi"/>
+    <author initials="A." surname="Csaszar" fullname="Andras Csaszar">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+    <author initials="J." surname="Tantsura" fullname="Jeff Tantsura">
       <organization>Ericsson</organization>
     </author>
-    <date year="2014" month="January" day="24"/>
+    <date day="24" month="January" year="2014"></date>
     <abstract>
-      <t>This draft proposes dataplane triggered Tree Notifications to support multicast fast reroute for PIM and mLDP. These Tree Notifications are initiated by a node detecting the failure to a Repair Node downstream. A Repair Node is a node that has a pre-built backup path that can circumvent the failure. Using this mechanism, a Repair Node has the ability to learn about non-local failures quickly without having to wait for the IGP to convergence. This draft also covers an optional method to avoid bandwidth usage on the pre-built backup path.</t>
+      <t>   This draft proposes dataplane triggered Tree Notifications to support
+   multicast fast reroute for PIM and mLDP.  These Tree Notifications
+   are initiated by a node detecting the failure to a Repair Node
+   downstream.  A Repair Node is a node that has a pre-built backup path
+   that can circumvent the failure.  Using this mechanism, a Repair Node
+   has the ability to learn about non-local failures quickly without
+   having to wait for the IGP to convergence.  This draft also covers an
+   optional method to avoid bandwidth usage on the pre-built backup
+   path.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-wijnands-rtgwg-mcast-frr-tn-02"/>
 </reference>

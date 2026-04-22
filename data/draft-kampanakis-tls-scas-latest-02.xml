@@ -1,22 +1,27 @@
 <reference anchor="I-D.kampanakis-tls-scas-latest" target="https://datatracker.ietf.org/doc/html/draft-kampanakis-tls-scas-latest-02">
   <front>
     <title>Suppressing CA Certificates in TLS 1.3</title>
-    <author fullname="Martin Thomson" initials="M." surname="Thomson">
+    <seriesInfo name="Internet-Draft" value="draft-kampanakis-tls-scas-latest-02"/>
+    <author initials="M." surname="Thomson" fullname="Martin Thomson">
       <organization>Mozilla</organization>
     </author>
-    <author fullname="Panos Kampanakis" initials="P." surname="Kampanakis">
+    <author initials="P." surname="Kampanakis" fullname="Panos Kampanakis">
       <organization>AWS</organization>
     </author>
-    <author fullname="Cameron Bytheway" initials="C." surname="Bytheway">
+    <author initials="C." surname="Bytheway" fullname="Cameron Bytheway">
       <organization>AWS</organization>
     </author>
-    <author fullname="Bas Westerbaan" initials="B." surname="Westerbaan">
+    <author initials="B." surname="Westerbaan" fullname="Bas Westerbaan">
       <organization>Cloudflare</organization>
     </author>
-    <date year="2022" month="July" day="8"/>
+    <date day="08" month="July" year="2022"></date>
     <abstract>
-      <t>A TLS client or server that has access to the complete set of published intermediate certificates can inform its peer to avoid sending certificate authority certificates, thus reducing the size of the TLS handshake.</t>
+      <t>   A TLS client or server that has access to the complete set of
+   published intermediate certificates can inform its peer to avoid
+   sending certificate authority certificates, thus reducing the size of
+   the TLS handshake.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kampanakis-tls-scas-latest-02"/>
 </reference>

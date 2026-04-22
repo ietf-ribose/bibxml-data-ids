@@ -1,13 +1,28 @@
 <reference anchor="I-D.kushwaha-scim-attr-cursor-pagination" target="https://datatracker.ietf.org/doc/html/draft-kushwaha-scim-attr-cursor-pagination-00">
   <front>
     <title>Cursor-Based Pagination for Multi-Valued Attributes in SCIM 2.0</title>
-    <author fullname="Saurabh Kushwaha" initials="S." surname="Kushwaha">
+    <seriesInfo name="Internet-Draft" value="draft-kushwaha-scim-attr-cursor-pagination-00"/>
+    <author initials="S." surname="Kushwaha" fullname="Saurabh Kushwaha">
       <organization>Oracle Corporation</organization>
     </author>
-    <date year="2026" month="April" day="8"/>
+    <date day="08" month="April" year="2026"></date>
     <abstract>
-      <t>The System for Cross-domain Identity Management (SCIM) 2.0 specification (RFC 7644) defines pagination mechanisms at the resource level. However, it does not provide a standardized method for paginating large multi-valued attributes within a resource. This limitation creates scalability and performance challenges in modern identity systems, particularly for attributes such as group memberships, roles, and entitlements. This document proposes a cursor-based pagination mechanism for multi-valued attributes in SCIM resources. The proposal introduces attribute-level pagination parameters and response metadata, including total count, to improve performance, consistency, and usability in large-scale deployments.</t>
+      <t>   The System for Cross-domain Identity Management (SCIM) 2.0
+   specification (RFC 7644) defines pagination mechanisms at the
+   resource level. However, it does not provide a standardized method
+   for paginating large multi-valued attributes within a resource.
+
+   This limitation creates scalability and performance challenges in
+   modern identity systems, particularly for attributes such as group
+   memberships, roles, and entitlements.
+
+   This document proposes a cursor-based pagination mechanism for
+   multi-valued attributes in SCIM resources. The proposal introduces
+   attribute-level pagination parameters and response metadata,
+   including total count, to improve performance, consistency, and
+   usability in large-scale deployments.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-kushwaha-scim-attr-cursor-pagination-00"/>
 </reference>

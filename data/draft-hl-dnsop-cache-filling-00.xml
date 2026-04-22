@@ -1,16 +1,26 @@
 <reference anchor="I-D.hl-dnsop-cache-filling" target="https://datatracker.ietf.org/doc/html/draft-hl-dnsop-cache-filling-00">
   <front>
     <title>Additional Method for Filling DNS Caches</title>
-    <author fullname="Paul E. Hoffman" initials="P. E." surname="Hoffman">
+    <seriesInfo name="Internet-Draft" value="draft-hl-dnsop-cache-filling-00"/>
+    <author initials="P. E." surname="Hoffman" fullname="Paul E. Hoffman">
       <organization>ICANN</organization>
     </author>
-    <author fullname="Matt Larson" initials="M." surname="Larson">
+    <author initials="M." surname="Larson" fullname="Matt Larson">
       <organization>ICANN</organization>
     </author>
-    <date year="2018" month="March" day="2"/>
+    <date day="02" month="March" year="2018"></date>
     <abstract>
-      <t>DNS recursive resolvers do not always have access to the authoritative resolvers from which they need to get information. For example, when the DNS root servers are under DDoS attack, a recursive resolver may not be able to get an answer from any of the root servers. This document describes how resolvers can populate their caches with zone information, and keep their cache populated, using out-of-band mechanisms that do not rely on the DNS protocol. The protocol is primarily designed for the root zone, but can apply to any zone that wants to participate by publishing values to be cached.</t>
+      <t>   DNS recursive resolvers do not always have access to the
+   authoritative resolvers from which they need to get information.  For
+   example, when the DNS root servers are under DDoS attack, a recursive
+   resolver may not be able to get an answer from any of the root
+   servers.  This document describes how resolvers can populate their
+   caches with zone information, and keep their cache populated, using
+   out-of-band mechanisms that do not rely on the DNS protocol.  The
+   protocol is primarily designed for the root zone, but can apply to
+   any zone that wants to participate by publishing values to be cached.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-hl-dnsop-cache-filling-00"/>
 </reference>

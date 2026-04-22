@@ -1,13 +1,22 @@
 <reference anchor="I-D.seemann-quic-accurate-ack-ecn" target="https://datatracker.ietf.org/doc/html/draft-seemann-quic-accurate-ack-ecn-00">
   <front>
     <title>QUIC Accurate ECN Acknowledgements</title>
-    <author fullname="Marten Seemann" initials="M." surname="Seemann">
+    <seriesInfo name="Internet-Draft" value="draft-seemann-quic-accurate-ack-ecn-00"/>
+    <author initials="M." surname="Seemann" fullname="Marten Seemann">
       <organization>Protocol Labs</organization>
     </author>
-    <date year="2023" month="November" day="17"/>
+    <date day="17" month="November" year="2023"></date>
     <abstract>
-      <t>QUIC defines a variant of the ACK frame that carries cumulative count for each of the three ECN codepoints (ECT(1), ECT(0) and CE). From this information, the recipient of the ACK frame cannot deduce which ECN marking the individual packets were received with. This document defines an alternative ACK frame that encodes enough information to indicate which ECN mark each individual packet was received with.</t>
+      <t>   QUIC defines a variant of the ACK frame that carries cumulative count
+   for each of the three ECN codepoints (ECT(1), ECT(0) and CE).  From
+   this information, the recipient of the ACK frame cannot deduce which
+   ECN marking the individual packets were received with.
+
+   This document defines an alternative ACK frame that encodes enough
+   information to indicate which ECN mark each individual packet was
+   received with.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-seemann-quic-accurate-ack-ecn-00"/>
 </reference>

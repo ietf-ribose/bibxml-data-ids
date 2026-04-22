@@ -1,28 +1,38 @@
 <reference anchor="I-D.camarillo-rtgwg-lsn" target="https://datatracker.ietf.org/doc/html/draft-camarillo-rtgwg-lsn-00">
   <front>
     <title>Lightspeed Notification Protocol</title>
-    <author fullname="Pablo Camarillo" initials="P." surname="Camarillo">
+    <seriesInfo name="Internet-Draft" value="draft-camarillo-rtgwg-lsn-00"/>
+    <author initials="P." surname="Camarillo" fullname="Pablo Camarillo">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Clarence Filsfils" initials="C." surname="Filsfils">
+    <author initials="C." surname="Filsfils" fullname="Clarence Filsfils">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Nadav Chachmon" initials="N." surname="Chachmon">
+    <author initials="N." surname="Chachmon" fullname="Nadav Chachmon">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Ofer Iny" initials="O." surname="Iny">
+    <author initials="O." surname="Iny" fullname="Ofer Iny">
       <organization>Cisco</organization>
     </author>
-    <author fullname="Yuanchao Su" initials="Y." surname="Su">
+    <author initials="Y." surname="Su" fullname="Yuanchao Su">
       <organization>Alibaba</organization>
     </author>
-    <author fullname="Roy Jiang" initials="R." surname="Jiang">
+    <author initials="R." surname="Jiang" fullname="Roy Jiang">
       <organization>Alibaba</organization>
     </author>
-    <date year="2026" month="March" day="2"/>
+    <date day="02" month="March" year="2026"></date>
     <abstract>
-      <t>This document defines the Lightspeed Notification Protocol (LSN), a hardware-accelerated signaling mechanism designed for sub-100 microsecond network convergence in AI/ML data center fabrics. By operating entirely within the forwarding plane, LSN bypasses traditional CPU-based latencies to propagate link failures and congestion via a hardware-efficient encoding. It serves as a high- speed complement to routing protocols like BGP, providing an immediate hardware "veto" to prune congested/failed paths while maintaining control-plane stability for path recovery.</t>
+      <t>   This document defines the Lightspeed Notification Protocol (LSN), a
+   hardware-accelerated signaling mechanism designed for sub-100
+   microsecond network convergence in AI/ML data center fabrics.  By
+   operating entirely within the forwarding plane, LSN bypasses
+   traditional CPU-based latencies to propagate link failures and
+   congestion via a hardware-efficient encoding.  It serves as a high-
+   speed complement to routing protocols like BGP, providing an
+   immediate hardware "veto" to prune congested/failed paths while
+   maintaining control-plane stability for path recovery.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-camarillo-rtgwg-lsn-00"/>
 </reference>

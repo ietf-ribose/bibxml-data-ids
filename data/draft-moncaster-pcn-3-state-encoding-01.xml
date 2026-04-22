@@ -1,19 +1,46 @@
 <reference anchor="I-D.moncaster-pcn-3-state-encoding" target="https://datatracker.ietf.org/doc/html/draft-moncaster-pcn-3-state-encoding-01">
   <front>
     <title>A three state extended PCN encoding scheme</title>
-    <author fullname="T Moncaster" initials="T." surname="Moncaster">
+    <seriesInfo name="Internet-Draft" value="draft-moncaster-pcn-3-state-encoding-01"/>
+    <author initials="T." surname="Moncaster" fullname="T Moncaster">
       <organization>BT</organization>
     </author>
-    <author fullname="Bob Briscoe" initials="B." surname="Briscoe">
+    <author initials="B." surname="Briscoe" fullname="Bob Briscoe">
       <organization>BT &amp; UCL</organization>
     </author>
-    <author fullname="Michael Menth" initials="M." surname="Menth">
+    <author initials="M." surname="Menth" fullname="Michael Menth">
       <organization>University of Wuerzburg</organization>
     </author>
-    <date year="2009" month="March" day="9"/>
+    <date day="09" month="March" year="2009"></date>
     <abstract>
-      <t>Pre-congestion notification (PCN) is a mechanism designed to protect the Quality of Service of inelastic flows. It does this by marking packets when traffic load on a link is approaching or has exceeded a threshold below the physical link rate. This baseline encoding specified how two encoding states could be encoded into the IP header. This document specified an extension to the baseline encoding that enables three encoding states to be carried in the IP header as well as enabling limited support for end-to-end ECN. Status (to be removed by RFC Editor) This memo is posted as an Internet-Draft with an intent to eventually be published as an experimental RFC. The PCN Working Group will be asked to adopt this memo as a Working Group document describing one of several possible experimental PCN encoding schemes. The intention is that the title of this document will change to avoid confusion with the three state marking scheme. Changes from previous drafts From 00 to 01: o Checked terminology for consistency with [I-D.ietf-pcn-baseline-encoding] o Minor editorial changes.</t>
+      <t>Pre-congestion notification (PCN) is a mechanism designed to protect
+the Quality of Service of inelastic flows.  It does this by marking
+packets when traffic load on a link is approaching or has exceeded a
+threshold below the physical link rate.  This baseline encoding
+specified how two encoding states could be encoded into the IP
+header.  This document specified an extension to the baseline
+encoding that enables three encoding states to be carried in the IP
+header as well as enabling limited support for end-to-end ECN.
+
+Status (to be removed by RFC Editor)
+
+This memo is posted as an Internet-Draft with an intent to eventually
+be published as an experimental RFC.  The PCN Working Group will be
+asked to adopt this memo as a Working Group document describing one
+of several possible experimental PCN encoding schemes.  The intention
+is that the title of this document will change to avoid confusion
+with the three state marking scheme.
+
+Changes from previous drafts
+
+From 00 to 01:
+
+o  Checked terminology for consistency with
+
+[I-D.ietf-pcn-baseline-encoding]
+
+o  Minor editorial changes.
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-moncaster-pcn-3-state-encoding-01"/>
 </reference>

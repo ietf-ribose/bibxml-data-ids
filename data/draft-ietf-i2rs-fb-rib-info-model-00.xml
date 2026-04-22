@@ -1,31 +1,47 @@
 <reference anchor="I-D.ietf-i2rs-fb-rib-info-model" target="https://datatracker.ietf.org/doc/html/draft-ietf-i2rs-fb-rib-info-model-00">
   <front>
     <title>Filter-Based RIB Information Model</title>
-    <author fullname="Sriganesh Kini" initials="S." surname="Kini">
+    <seriesInfo name="Internet-Draft" value="draft-ietf-i2rs-fb-rib-info-model-00"/>
+    <author initials="S." surname="Kini" fullname="Sriganesh Kini">
       <organization>Ericsson</organization>
     </author>
-    <author fullname="Susan Hares" initials="S." surname="Hares">
+    <author initials="S." surname="Hares" fullname="Susan Hares">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Linda Dunbar" initials="L." surname="Dunbar">
+    <author initials="L." surname="Dunbar" fullname="Linda Dunbar">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Anoop Ghanwani" initials="A." surname="Ghanwani">
+    <author initials="A." surname="Ghanwani" fullname="Anoop Ghanwani">
       <organization>Dell</organization>
     </author>
-    <author fullname="Ramki Krishnan" initials="R." surname="Krishnan">
+    <author initials="R." surname="Krishnan" fullname="Ramki Krishnan">
       <organization>Dell</organization>
     </author>
-    <author fullname="Dean Bogdanović" initials="D." surname="Bogdanović">
+    <author initials="D." surname="Bogdanović" fullname="Dean Bogdanović">
       <organization>Juniper Networks</organization>
     </author>
-    <author fullname="Russ White" initials="R." surname="White">
+    <author initials="R." surname="White" fullname="Russ White">
       <organization>Linkedin</organization>
     </author>
-    <date year="2016" month="June" day="16"/>
+    <date day="16" month="June" year="2016"></date>
     <abstract>
-      <t>This document defines an information model associated with the I2RS ephemeral state for filter-based routing of IP packets via a Filter- based Routing Information Base (FB-RIB). FB-RIBs (ephemeral and non- ephemeral) are associated with specific interfaces interfaces on a routing device, and process packets received on these interfaces according a filtering policy. A filtering policy is a a minimalistic event-match_condition-action (ECA) policy with only one event - the reception of a frame/packet of data on an interface. The match conditions in the filter policy are n-tuple matches based on the content of the frame/packet or the time of its arrival. Filter-based policy allows actions which modifying the frame/packet, forward the frame or packet, or drop the frame/packet. Filter-Based Policy in FB-RIBs engages before any destination based routing so the FB-RIBs provide a destination-based default RIB that will be used if none of the filters are matched.</t>
+      <t>   This document defines an information model associated with the I2RS
+   ephemeral state for filter-based routing of IP packets via a Filter-
+   based Routing Information Base (FB-RIB).  FB-RIBs (ephemeral and non-
+   ephemeral) are associated with specific interfaces interfaces on a
+   routing device, and process packets received on these interfaces
+   according a filtering policy.  A filtering policy is a a minimalistic
+   event-match_condition-action (ECA) policy with only one event - the
+   reception of a frame/packet of data on an interface.  The match
+   conditions in the filter policy are n-tuple matches based on the
+   content of the frame/packet or the time of its arrival.  Filter-based
+   policy allows actions which modifying the frame/packet, forward the
+   frame or packet, or drop the frame/packet.  Filter-Based Policy in
+   FB-RIBs engages before any destination based routing so the FB-RIBs
+   provide a destination-based default RIB that will be used if none of
+   the filters are matched.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-i2rs-fb-rib-info-model-00"/>
 </reference>

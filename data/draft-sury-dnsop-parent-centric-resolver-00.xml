@@ -1,19 +1,35 @@
 <reference anchor="I-D.sury-dnsop-parent-centric-resolver" target="https://datatracker.ietf.org/doc/html/draft-sury-dnsop-parent-centric-resolver-00">
   <front>
     <title>Parent-Centric Delegation Handling in DNS Resolvers</title>
-    <author fullname="Ondřej Surý" initials="O." surname="Surý">
+    <seriesInfo name="Internet-Draft" value="draft-sury-dnsop-parent-centric-resolver-00"/>
+    <author initials="O." surname="Surý" fullname="Ondřej Surý">
       <organization>Internet Systems Consortium</organization>
     </author>
-    <author fullname="Colin Vidal" initials="C." surname="Vidal">
+    <author initials="C." surname="Vidal" fullname="Colin Vidal">
       <organization>Internet Systems Consortium</organization>
     </author>
-    <author fullname="Evan Hunt" initials="E." surname="Hunt">
+    <author initials="E." surname="Hunt" fullname="Evan Hunt">
       <organization>Internet Systems Consortium</organization>
     </author>
-    <date year="2026" month="March" day="15"/>
+    <date day="15" month="March" year="2026"></date>
     <abstract>
-      <t>This document specifies a parent-centric behavioral model for DNS recursive resolvers, in which delegation decisions are always based on the NS RRset (or DELEG RRset) received from the parent side of a zone cut and are never overwritten by child-side NS data. The parent-centric model eliminates the "two sources of truth" problem inherent in the current DNS delegation design, closes the Ghost Domain and Phoenix Domain attack vectors, provides deterministic behavior in the presence of parent/child NS mismatches, and enables resolvers to safely accept sibling (out-of-bailiwick) glue by scoping delegation information to individual zone cuts. It also provides the behavioral foundation required for deployment of the DELEG extensible delegation mechanism. This document updates RFC 1034 and RFC 1035.</t>
+      <t>   This document specifies a parent-centric behavioral model for DNS
+   recursive resolvers, in which delegation decisions are always based
+   on the NS RRset (or DELEG RRset) received from the parent side of a
+   zone cut and are never overwritten by child-side NS data.
+
+   The parent-centric model eliminates the "two sources of truth"
+   problem inherent in the current DNS delegation design, closes the
+   Ghost Domain and Phoenix Domain attack vectors, provides
+   deterministic behavior in the presence of parent/child NS mismatches,
+   and enables resolvers to safely accept sibling (out-of-bailiwick)
+   glue by scoping delegation information to individual zone cuts.  It
+   also provides the behavioral foundation required for deployment of
+   the DELEG extensible delegation mechanism.
+
+   This document updates RFC 1034 and RFC 1035.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-sury-dnsop-parent-centric-resolver-00"/>
 </reference>

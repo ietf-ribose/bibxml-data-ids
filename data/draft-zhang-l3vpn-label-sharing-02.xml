@@ -1,19 +1,31 @@
 <reference anchor="I-D.zhang-l3vpn-label-sharing" target="https://datatracker.ietf.org/doc/html/draft-zhang-l3vpn-label-sharing-02">
   <front>
     <title>Label Sharing for Fast PE Protection</title>
-    <author fullname="Mingui Zhang" initials="M." surname="Zhang">
+    <seriesInfo name="Internet-Draft" value="draft-zhang-l3vpn-label-sharing-02"/>
+    <author initials="M." surname="Zhang" fullname="Mingui Zhang">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Peng Zhou" initials="P." surname="Zhou">
+    <author initials="P." surname="Zhou" fullname="Peng Zhou">
       <organization>Huawei</organization>
     </author>
-    <author fullname="Russ White" initials="R." surname="White">
+    <author initials="R." surname="White" fullname="Russ White">
       <organization>IETF</organization>
     </author>
-    <date year="2014" month="June" day="17"/>
+    <date day="17" month="June" year="2014"></date>
     <abstract>
-      <t>This document describes a method to be used by VPN Service Providers to provide multi-homed CEs with fast protection of egress PEs. Egress PEs in a redundant group always share the same label in distribution of VPN routes of a VRF. A virtual Next Hop (vNH) in the IGP/MPLS backbone is created as the common end of LSP tunnels which would otherwise terminate at each egress PE. Primary and backup LSP tunnels ended at the vNH are set up by MPLS on basis of existing IGP FRR mechanisms. If the primary egress PE fails, the backup egress PE can recognize the "shared" VPN route label carried by the data packets. Therefore, the failure affected data packets can be smoothly rerouted to the backup PE for delivery without changing their VPN route label.</t>
+      <t>   This document describes a method to be used by VPN Service Providers
+   to provide multi-homed CEs with fast protection of egress PEs. Egress
+   PEs in a redundant group always share the same label in distribution
+   of VPN routes of a VRF. A virtual Next Hop (vNH) in the IGP/MPLS
+   backbone is created as the common end of LSP tunnels which would
+   otherwise terminate at each egress PE. Primary and backup LSP tunnels
+   ended at the vNH are set up by MPLS on basis of existing IGP FRR
+   mechanisms. If the primary egress PE fails, the backup egress PE can
+   recognize the "shared" VPN route label carried by the data packets.
+   Therefore, the failure affected data packets can be smoothly rerouted
+   to the backup PE for delivery without changing their VPN route label.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-zhang-l3vpn-label-sharing-02"/>
 </reference>

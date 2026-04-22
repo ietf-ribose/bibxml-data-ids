@@ -1,22 +1,38 @@
 <reference anchor="I-D.annee-dprive-oblivious-dns" target="https://datatracker.ietf.org/doc/html/draft-annee-dprive-oblivious-dns-00">
   <front>
     <title>Oblivious DNS - Strong Privacy for DNS Queries</title>
-    <author fullname="Annie Edmundson" initials="A." surname="Edmundson">
+    <seriesInfo name="Internet-Draft" value="draft-annee-dprive-oblivious-dns-00"/>
+    <author initials="A." surname="Edmundson" fullname="Annie Edmundson">
       <organization>Princeton University</organization>
     </author>
-    <author fullname="Paul Schmitt" initials="P." surname="Schmitt">
+    <author initials="P." surname="Schmitt" fullname="Paul Schmitt">
       <organization>Princeton University</organization>
     </author>
-    <author fullname="Nick Feamster" initials="N." surname="Feamster">
+    <author initials="N." surname="Feamster" fullname="Nick Feamster">
       <organization>Princeton University</organization>
     </author>
-    <author fullname="Allison Mankin" initials="A." surname="Mankin">
+    <author initials="A." surname="Mankin" fullname="Allison Mankin">
       <organization>Salesforce</organization>
     </author>
-    <date year="2018" month="July" day="2"/>
+    <date day="02" month="July" year="2018"></date>
     <abstract>
-      <t>Recognizing the privacy vulnerabilities associated with DNS queries, a number of standards have been developed and services deployed that that encrypt a user's DNS queries to the recursive resolver and thus obscure them from some network observers and from the user's Internet service provider. However, these systems merely transfer trust to a third party. We argue that no single party should be able to associate DNS queries with a client IP address that issues those queries. To this end, this document specifies Oblivious DNS (ODNS), which introduces an additional layer of obfuscation between clients and their queries. To accomplish this, ODNS uses its own authoritative namespace; the authoritative servers for the ODNS namespace act as recursive resolvers for the DNS queries that they receive, but they never see the IP addresses for the clients that initiated these queries. The ODNS experimental protocol is compatible with existing DNS infrastructure.</t>
+      <t>   Recognizing the privacy vulnerabilities associated with DNS queries,
+   a number of standards have been developed and services deployed that
+   that encrypt a user's DNS queries to the recursive resolver and thus
+   obscure them from some network observers and from the user's Internet
+   service provider.  However, these systems merely transfer trust to a
+   third party.  We argue that no single party should be able to
+   associate DNS queries with a client IP address that issues those
+   queries.  To this end, this document specifies Oblivious DNS (ODNS),
+   which introduces an additional layer of obfuscation between clients
+   and their queries.  To accomplish this, ODNS uses its own
+   authoritative namespace; the authoritative servers for the ODNS
+   namespace act as recursive resolvers for the DNS queries that they
+   receive, but they never see the IP addresses for the clients that
+   initiated these queries.  The ODNS experimental protocol is
+   compatible with existing DNS infrastructure.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-annee-dprive-oblivious-dns-00"/>
 </reference>

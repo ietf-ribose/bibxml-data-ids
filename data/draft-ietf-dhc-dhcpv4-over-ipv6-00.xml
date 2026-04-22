@@ -1,22 +1,23 @@
 <reference anchor="I-D.ietf-dhc-dhcpv4-over-ipv6" target="https://datatracker.ietf.org/doc/html/draft-ietf-dhc-dhcpv4-over-ipv6-00">
   <front>
     <title>DHCPv4 over IPv6 Transport</title>
-    <author fullname="Ted Lemon" initials="T." surname="Lemon">
-      <organization/>
-    </author>
-    <author fullname="Yong Cui" initials="Y." surname="Cui">
-      <organization/>
-    </author>
-    <author fullname="Peng Wu" initials="P." surname="Wu">
-      <organization/>
-    </author>
-    <author fullname="Jianping Wu" initials="J." surname="Wu">
-      <organization/>
-    </author>
-    <date year="2011" month="November" day="30"/>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dhc-dhcpv4-over-ipv6-00"/>
+    <author initials="T." surname="Lemon" fullname="Ted Lemon"/>
+    <author initials="Y." surname="Cui" fullname="Yong Cui"/>
+    <author initials="P." surname="Wu" fullname="Peng Wu"/>
+    <author initials="J." surname="Wu" fullname="Jianping Wu"/>
+    <date day="30" month="November" year="2011"></date>
     <abstract>
-      <t>Recently, there are demands arising for IPv4 address allocation under IPv6 environment, especially in IPv6 transition scenarios. This document describes the mechanism to survive DHCPv4 over IPv6 network. DHCPv4 messages are transported in IPv6 packets when traversing the IPv6 network. DHCPv4 protocol behavior of the client and server is extended to support this IPv6 transport. For the relay case, a new suboption of the Relay Agent Information Option is defined to carry the remote IPv6 address of the clients.</t>
+      <t>   Recently, there are demands arising for IPv4 address allocation under
+   IPv6 environment, especially in IPv6 transition scenarios.  This
+   document describes the mechanism to survive DHCPv4 over IPv6 network.
+   DHCPv4 messages are transported in IPv6 packets when traversing the
+   IPv6 network.  DHCPv4 protocol behavior of the client and server is
+   extended to support this IPv6 transport.  For the relay case, a new
+   suboption of the Relay Agent Information Option is defined to carry
+   the remote IPv6 address of the clients.
+
+	 </t>
     </abstract>
   </front>
-  <seriesInfo name="Internet-Draft" value="draft-ietf-dhc-dhcpv4-over-ipv6-00"/>
 </reference>
