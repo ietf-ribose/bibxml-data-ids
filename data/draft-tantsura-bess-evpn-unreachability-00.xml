@@ -1,0 +1,33 @@
+<reference anchor="I-D.tantsura-bess-evpn-unreachability" target="https://datatracker.ietf.org/doc/html/draft-tantsura-bess-evpn-unreachability-00">
+  <front>
+    <title>EVPN Unreachability Signaling</title>
+    <seriesInfo name="Internet-Draft" value="draft-tantsura-bess-evpn-unreachability-00"/>
+    <author initials="J." surname="Tantsura" fullname="Jeff Tantsura">
+      <organization>Nvidia</organization>
+    </author>
+    <author initials="V." surname="Venkatraman" fullname="Vivek Venkatraman">
+      <organization>Nvidia</organization>
+    </author>
+    <author initials="K. V." surname="Muppalla" fullname="Karthikeya Venkat Muppalla">
+      <organization>Nvidia</organization>
+    </author>
+    <author initials="P. J." surname="Doijode" fullname="Pooja Jagadeesh Doijode">
+      <organization>Nvidia</organization>
+    </author>
+    <author initials="M." surname="Rzehak" fullname="Maciej Rzehak">
+      <organization>CoreWeave</organization>
+    </author>
+    <date day="22" month="April" year="2026"></date>
+    <abstract>
+      <t>   This document defines a new EVPN Route Type for signaling prefix
+   unreachability information without affecting the forwarding plane.
+   The route type reuses the Route Type 5 (IP Prefix Advertisement)
+   field order defined for EVPN IP prefix routes, adds an Address Family
+   octet for unambiguous IPv4/IPv6 parsing, and appends Reporter TLVs
+   that allow aggregation of unreachability reports from multiple
+   network vantage points.
+
+	 </t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,34 @@
+<reference anchor="I-D.ietf-core-observe-multicast-notifications" target="https://datatracker.ietf.org/doc/html/draft-ietf-core-observe-multicast-notifications-14">
+  <front>
+    <title>Observe Notifications as CoAP Multicast Responses</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-core-observe-multicast-notifications-14"/>
+    <author initials="M." surname="Tiloca" fullname="Marco Tiloca">
+      <organization>RISE AB</organization>
+    </author>
+    <author initials="R." surname="Höglund" fullname="Rikard Höglund">
+      <organization>RISE AB</organization>
+    </author>
+    <author initials="C." surname="Amsüss" fullname="Christian Amsüss"/>
+    <author initials="F." surname="Palombini" fullname="Francesca Palombini">
+      <organization>Ericsson AB</organization>
+    </author>
+    <date day="22" month="April" year="2026"></date>
+    <abstract>
+      <t>   The Constrained Application Protocol (CoAP) allows clients to
+   "observe" resources at a server and to receive notifications as
+   unicast responses upon changes of the resource state.  In some use
+   cases, such as those based on publish-subscribe, it would be
+   convenient for the server to send a single notification addressed to
+   all the clients observing the same target resource.  This document
+   updates RFC7252 and RFC7641, and it defines how a server sends
+   observe notifications as response messages over multicast,
+   synchronizing all the observers of the same resource on the same
+   shared Token value.  Besides, this document defines how the security
+   protocol Group Object Security for Constrained RESTful Environments
+   (Group OSCORE) can be used to protect multicast notifications end-to-
+   end between the server and the observer clients.
+
+	 </t>
+    </abstract>
+  </front>
+</reference>
