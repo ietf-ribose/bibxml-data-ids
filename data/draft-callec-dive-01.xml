@@ -1,0 +1,29 @@
+<reference anchor="I-D.callec-dive" target="https://datatracker.ietf.org/doc/html/draft-callec-dive-01">
+  <front>
+    <title>Domain-based Integrity Verification Enforcement (DIVE) Version 0.1</title>
+    <seriesInfo name="Internet-Draft" value="draft-callec-dive-01"/>
+    <author initials="M. F." surname="Callec" fullname="Mateo Florian Callec">
+      <organization>Independent</organization>
+    </author>
+    <date day="24" month="April" year="2026"></date>
+    <abstract>
+      <t>   Domain-based Integrity Verification Enforcement (DIVE) is an
+   application-layer protocol that provides cryptographic integrity and
+   authenticity verification of HTTP response bodies by leveraging the
+   Domain Name System Security Extensions (DNSSEC) as an out-of-band
+   distribution channel for public keys.
+
+   DIVE has two independent components: (1) an object-security layer,
+   which uses HTTP Message Signatures (RFC 9421) to carry per-resource
+   signatures in HTTP response headers, and (2) a DNS key-distribution
+   layer, which publishes public keys and policy in DNSSEC-protected TXT
+   records.  A client implementing DIVE verifies each covered resource
+   against the corresponding DNS-published public key before accepting
+   it.  An attacker must therefore compromise both the DNS
+   infrastructure and the origin server simultaneously to deliver a
+   tampered resource to a DIVE-compliant client.
+
+	 </t>
+    </abstract>
+  </front>
+</reference>
