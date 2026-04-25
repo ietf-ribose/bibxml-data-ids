@@ -1,0 +1,28 @@
+<reference anchor="I-D.rampalli-pedigree" target="https://datatracker.ietf.org/doc/html/draft-rampalli-pedigree-00">
+  <front>
+    <title>PEDIGREE: Verifiable Delegation Identity for Agentic AI Systems</title>
+    <seriesInfo name="Internet-Draft" value="draft-rampalli-pedigree-00"/>
+    <author initials="R." surname="Karthik" fullname="KARTHIK RAMPALLI">
+      <organization>Glyphzero Labs Inc.</organization>
+    </author>
+    <date day="24" month="April" year="2026"></date>
+    <abstract>
+      <t>   This document defines PEDIGREE (Per-Agent Delegation Identity with
+   Governance-Enforced Execution), an identity and delegation framework
+   for AI agents that extends the workload-identity model of SPIFFE (RFC
+   9542 / draft-ietf-wimse) with cryptographic per-hop delegation,
+   monotonic scope attenuation enforced at mint and at verify, and dual-
+   layer authority enforcement combining an operator-controlled ceiling
+   with per-parent mandate narrowing.
+
+   PEDIGREE complements AAuth (draft-hardt-aauth-protocol) and AIP
+   (draft-prakash-aip) by providing: (a) dual-enforcement semantics
+   absent from both, (b) Cedar-policy mandates with static-analysis
+   proofs of narrowing, (c) strict cryptographic parent-token re-
+   verification that catches parent-swap attacks missed by append-only
+   token chains, and (d) a native bridge to existing SPIFFE deployments.
+
+	 </t>
+    </abstract>
+  </front>
+</reference>
