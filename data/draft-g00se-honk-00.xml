@@ -1,0 +1,29 @@
+<reference anchor="I-D.g00se-honk" target="https://datatracker.ietf.org/doc/html/draft-g00se-honk-00">
+  <front>
+    <title>The HONK Protocol: Word-Counting over TCP with Honk-Based Responses and Optional Obfuscation</title>
+    <seriesInfo name="Internet-Draft" value="draft-g00se-honk-00"/>
+    <author surname="G00se" fullname="G00se">
+      <organization>Independent</organization>
+    </author>
+    <date day="25" month="April" year="2026"></date>
+    <abstract>
+      <t>   This document defines the HONK protocol, a simple application-layer
+   protocol operating over TCP.  A HONK client submits a stream of UTF-8
+   encoded text terminated by a CRLF sequence, and the HONK server
+   responds with a sequence of HONK tokens.  The token count equals
+   twice the number of whitespace-delimited words detected in the input.
+   If no words are detected, the server responds with exactly three HONK
+   tokens.  The protocol includes an optional Privacy Mode in which
+   message content is obfuscated using single-byte XOR with the fixed
+   key value 0x48 (the ASCII code point for the letter H).  This
+   document requests that IANA assign TCP port 24565 to the HONK
+   service.
+
+   This document is an individual submission.  It is NOT an April Fools
+   Day publication.  The author requests serious technical consideration
+   from the IETF community.
+
+	 </t>
+    </abstract>
+  </front>
+</reference>
