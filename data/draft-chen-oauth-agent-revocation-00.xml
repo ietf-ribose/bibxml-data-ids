@@ -1,0 +1,30 @@
+<reference anchor="I-D.chen-oauth-agent-revocation" target="https://datatracker.ietf.org/doc/html/draft-chen-oauth-agent-revocation-00">
+  <front>
+    <title>OAuth 2.0 Agent Authorization Explicit Revocation</title>
+    <seriesInfo name="Internet-Draft" value="draft-chen-oauth-agent-revocation-00"/>
+    <author initials="M." surname="Chen" fullname="Meiling Chen">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="L." surname="Su" fullname="Li Su">
+      <organization>China Mobile</organization>
+    </author>
+    <date day="27" month="April" year="2026"></date>
+    <abstract>
+      <t>   The OAuth 2.0 Token Revocation mechanism defined in RFC 7009 enables
+   clients to notify authorization servers that a token is no longer
+   needed.  However, that mechanism is limited to single-token
+   operations and does not support batch revocation, cascade
+   propagation, or context-aware semantics at the agent level.  With the
+   emergence of autonomous systems and cross-domain agent networks,
+   authorization servers require more granular, traceable revocation
+   semantics.
+
+   This document defines an agent-based explicit revocation extension,
+   introducing new endpoints, request/response formats, and coordination
+   protocols to support batch revocation based on agent IDs, cascade
+   propagation, conditional revocation, and verifiable audit trails.
+
+	 </t>
+    </abstract>
+  </front>
+</reference>
