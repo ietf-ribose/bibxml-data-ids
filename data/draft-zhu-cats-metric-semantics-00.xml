@@ -1,0 +1,34 @@
+<reference anchor="I-D.zhu-cats-metric-semantics" target="https://datatracker.ietf.org/doc/html/draft-zhu-cats-metric-semantics-00">
+  <front>
+    <title>Operational Semantics for CATS Metric Consumption</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhu-cats-metric-semantics-00"/>
+    <author initials="M." surname="Zhu" fullname="Mengfei Zhu">
+      <organization>China mobile</organization>
+    </author>
+    <date day="27" month="April" year="2026"></date>
+    <abstract>
+      <t>   The CATS framework introduces computing-related information into
+   traffic steering decisions.  Existing work defines how such metrics
+   are represented, distributed, and used within the CATS architecture.
+   However, it does not fully address whether a metric remains suitable
+   for use at the point of consumption.
+
+   This document introduces a set of operational semantics for CATS
+   metrics, including Freshness, Operational acceptability, and
+   Assurance exposure.  These semantics describe whether a metric
+   remains temporally aligned with the underlying condition, whether it
+   remains suitable for operational use in steering, and whether
+   degraded consumption is externally visible to management or OAM
+   functions.
+
+   The document further explains how these semantics apply across
+   centralized, distributed, and hybrid deployments, including cases
+   where different metric sources contribute under different conditions.
+   The goal is to provide a consistent basis for interpreting metric
+   usability in CATS without introducing a new metric level or
+   prescribing a single derivation method.
+
+	 </t>
+    </abstract>
+  </front>
+</reference>

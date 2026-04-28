@@ -1,0 +1,36 @@
+<reference anchor="I-D.kumari-ipv6-loopback" target="https://datatracker.ietf.org/doc/html/draft-kumari-ipv6-loopback-02">
+  <front>
+    <title>The IPv6 Loopback Address Prefix</title>
+    <seriesInfo name="Internet-Draft" value="draft-kumari-ipv6-loopback-02"/>
+    <author initials="G." surname="Huston" fullname="Geoff Huston">
+      <organization>APNIC</organization>
+    </author>
+    <author initials="W." surname="Kumari" fullname="Warren Kumari">
+      <organization>Google, Inc.</organization>
+    </author>
+    <date day="27" month="April" year="2026"></date>
+    <abstract>
+      <t>   { *Editor's note:* This document requests the allocation of a new
+   IPv6 address prefix to be used for loopback instead of expanding into
+   the existing ::/96.  The specific prefix to be allocated is TBD/96,
+   and the document updates the relevant RFCs and IANA registries to
+   reflect this change. }
+
+   This document updates the IP Version 6 Address Architecture to expand
+   the size of the IPv6 loopback space from a single address to a /96
+   prefix.
+
+   This change allows for a much larger number of loopback addresses in
+   IPv6, which can be used for inter-process communication within a host
+   and for network diagnostics.
+
+   The document also updates the IANA IPv6 Address registry and the IPv6
+   Special Purpose Address registry to reflect this change.
+
+   It updates RFC4291 to reflect the new loopback prefix and its
+   functional semantics.
+
+	 </t>
+    </abstract>
+  </front>
+</reference>
