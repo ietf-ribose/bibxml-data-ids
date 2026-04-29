@@ -1,0 +1,31 @@
+<reference anchor="I-D.hardt-aauth-bootstrap" target="https://datatracker.ietf.org/doc/html/draft-hardt-aauth-bootstrap-00">
+  <front>
+    <title>AAuth Bootstrap</title>
+    <seriesInfo name="Internet-Draft" value="draft-hardt-aauth-bootstrap-00"/>
+    <author initials="D." surname="Hardt" fullname="Dick Hardt">
+      <organization>Hellō</organization>
+    </author>
+    <date day="28" month="April" year="2026"></date>
+    <abstract>
+      <t>   This document defines AAuth Bootstrap, an extension to the AAuth
+   Protocol ([I-D.hardt-aauth-protocol]) that specifies how an agent
+   server and an agent bootstrap the agent to be bound to a person at
+   the person's Person Server (PS).  Bootstrap establishes the binding
+   between a user (as vouched for by the user's PS) and an agent
+   identity (aauth:local@domain) hosted by an agent server.  The
+   specification covers self-hosted agents (where the agent and agent
+   server are co-located under a domain the user controls), web apps,
+   and mobile agents.  The agent MAY pass account hints on the PS
+   /bootstrap request to help the PS resolve the user when the user has
+   more than one account at the PS or when the agent already knows
+   something about the user.  Identity claims and scoped authorization
+   are obtained separately through the standard three-party flow defined
+   in AAuth Protocol.  This specification defines the bootstrap_token,
+   the bootstrap_endpoint on the PS and agent server, the signature
+   schemes used at each step, and renewal flows that bypass the PS after
+   the initial binding is established.
+
+	 </t>
+    </abstract>
+  </front>
+</reference>
