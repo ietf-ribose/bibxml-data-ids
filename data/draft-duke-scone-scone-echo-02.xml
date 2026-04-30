@@ -1,0 +1,22 @@
+<reference anchor="I-D.duke-scone-scone-echo" target="https://datatracker.ietf.org/doc/html/draft-duke-scone-scone-echo-02">
+  <front>
+    <title>In-Band SCONE Reporting over QUIC</title>
+    <seriesInfo name="Internet-Draft" value="draft-duke-scone-scone-echo-02"/>
+    <author initials="M." surname="Duke" fullname="Martin Duke">
+      <organization>Google</organization>
+    </author>
+    <date day="29" month="April" year="2026"></date>
+    <abstract>
+      <t>   The SCONE protocol relies on the receiver of SCONE packets to send
+   bandwidth estimates back to the sender via unspecified application-
+   layer messages.  In some cases, a peer might have SCONE receive
+   capability at the QUIC layer but not implement the necessary
+   application level functionality.  A new QUIC frame that directly
+   reports the contents of received SCONE packets can address these use
+   cases.  There are no changes in the interaction with SCONE Network
+   Elements.
+
+	 </t>
+    </abstract>
+  </front>
+</reference>

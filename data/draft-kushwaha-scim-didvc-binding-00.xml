@@ -1,0 +1,30 @@
+<reference anchor="I-D.kushwaha-scim-didvc-binding" target="https://datatracker.ietf.org/doc/html/draft-kushwaha-scim-didvc-binding-00">
+  <front>
+    <title>SCIM DID/VC Binding Extension</title>
+    <seriesInfo name="Internet-Draft" value="draft-kushwaha-scim-didvc-binding-00"/>
+    <author initials="S." surname="Kushwaha" fullname="Saurabh Kushwaha">
+      <organization>Oracle Corporation</organization>
+    </author>
+    <date day="29" month="April" year="2026"></date>
+    <abstract>
+      <t>   This document defines an extension to the System for Cross-domain
+   Identity Management (SCIM) for binding SCIM User resources to
+   decentralized identity artifacts, including Decentralized Identifiers
+   (DIDs) and Verifiable Credentials (VCs).  The extension introduces a
+   read-only SCIM schema extension for User resources that exposes
+   binding state for discovery, a new SCIM resource type named
+   IdentityBinding that records auditable linkage between a SCIM user
+   and one or more DIDs and credential references, and an optional SCIM
+   schema extension for ServiceProviderConfig that advertises server
+   capabilities for DID and VC binding.
+
+   This specification intentionally does not define DID resolution,
+   credential issuance, credential transport, or authentication flows.
+   Instead, it defines how a SCIM service provider represents,
+   discovers, queries, and manages binding state derived from those
+   systems.
+
+	 </t>
+    </abstract>
+  </front>
+</reference>
