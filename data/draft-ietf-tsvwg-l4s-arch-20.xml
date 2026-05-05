@@ -14,7 +14,7 @@
     <author initials="G." surname="White" fullname="Greg White">
       <organization>CableLabs</organization>
     </author>
-    <date day="29" month="August" year="2022"></date>
+    <date day="29" month="August" year="2022"/>
     <abstract>
       <t>This document describes the L4S architecture, which enables Internet applications to achieve low queuing latency, low congestion loss, and scalable throughput control. L4S is based on the insight that the root cause of queuing delay is in the capacity-seeking congestion controllers of senders, not in the queue itself. With the L4S architecture, all Internet applications could (but do not have to) transition away from congestion control algorithms that cause substantial queuing delay and instead adopt a new class of congestion controls that can seek capacity with very little queuing. These are aided by a modified form of Explicit Congestion Notification (ECN) from the network. With this new architecture, applications can have both low latency and high throughput.
 

@@ -5,7 +5,7 @@
     <author initials="P." surname="Gutmann" fullname="Peter Gutmann">
       <organization>University of Auckland</organization>
     </author>
-    <date day="10" month="January" year="2003"></date>
+    <date day="10" month="January" year="2003"/>
     <abstract>
       <t>When the OCSP protocol was defined, the design was based on full compatibility with CRL-based mechanisms.  This requires the use of a complex means of certificate identification that has resulted in interoperability problems among implementations, the inability to provide an unambiguous certificate status response (the only thing that a CRL can say with certainty is 'revoked'), and an online responder tied to an offline mechanism (some CAs issue CRLs only once or twice a day, even though they have an online, realtime certificate store available).
 Fortunately, the authors of the OCSP RFC foresaw this situation by allowing a client to specify, and a responder to return, more than one type of response.

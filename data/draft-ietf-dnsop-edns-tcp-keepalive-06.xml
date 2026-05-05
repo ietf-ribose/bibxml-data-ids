@@ -14,7 +14,7 @@
     <author initials="R." surname="Bellis" fullname="Ray Bellis">
       <organization>ISC</organization>
     </author>
-    <date day="22" month="February" year="2016"></date>
+    <date day="22" month="February" year="2016"/>
     <abstract>
       <t>DNS messages between clients and servers may be received over either UDP or TCP. UDP transport involves keeping less state on a busy server, but can cause truncation and retries over TCP. Additionally, UDP can be exploited for reflection attacks. Using TCP would reduce retransmits and amplification. However, clients commonly use TCP only for retries and servers typically use idle timeouts on the order of seconds.
 

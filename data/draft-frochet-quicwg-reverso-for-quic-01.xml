@@ -1,0 +1,21 @@
+<reference anchor="I-D.frochet-quicwg-reverso-for-quic" target="https://datatracker.ietf.org/doc/html/draft-frochet-quicwg-reverso-for-quic-01">
+  <front>
+    <title>Reverso for the QUIC protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-frochet-quicwg-reverso-for-quic-01"/>
+    <author initials="F." surname="Rochet" fullname="Florentin Rochet">
+      <organization>UNamur</organization>
+    </author>
+    <date day="04" month="May" year="2026"/>
+    <abstract>
+      <t>   This document describes a QUIC version re-designing the layout of the
+   QUIC protocol to avoid memory fragmentation at the receiver and
+   allows implementers seeking a more efficient implementation to have
+   the option to implement contiguous zero-copy at the receiver.  This
+   document describes the change from QUIC v1 required in packet
+   formats, variable-length integers and frame formats.  Everything else
+   from QUIC v1 described in [RFC9000] is untouched.
+
+	 </t>
+    </abstract>
+  </front>
+</reference>

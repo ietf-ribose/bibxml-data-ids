@@ -14,7 +14,7 @@
     <author initials="L." surname="Sun" fullname="Linhui Sun">
       <organization>Tsinghua University</organization>
     </author>
-    <date day="13" month="November" year="2018"></date>
+    <date day="13" month="November" year="2018"/>
     <abstract>
       <t>DHCPv4 over DHCPv6 (RFC 7341) is a mechanism for dynamically configuring IPv4 for use as an over-the-top service in an IPv6-only network. Softwires are an example of such a service. For DHCPv4 over DHCPv6 (DHCP 4o6) to function with some IPv4-over-IPv6 softwire mechanisms and deployment scenarios (e.g., RFC 7596 or RFC 7597), the operator needs to know the IPv6 address that the client will use as the source of an IPv4-in-IPv6 softwire tunnel. This address, in conjunction with the client's IPv4 address, and (in some deployments) the Port Set ID are used to create a binding table entry in the operator's softwire tunnel concentrator. This memo defines a DHCPv6 option to convey IPv6 parameters for establishing the softwire tunnel and a DHCPv4 option (to be used only with DHCP 4o6) to communicate the source tunnel IPv6 address between the DHCP 4o6 client and server. It is designed to work in conjunction with the IPv4 address allocation process.
 
