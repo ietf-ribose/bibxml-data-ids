@@ -7,7 +7,7 @@
     </author>
     <date day="01" month="March" year="2026"/>
     <abstract>
-      <t>   This document specifies PipeStream, a recursive entity streaming
+      <t>This document specifies PipeStream, a recursive entity streaming
    protocol designed for distributed document processing over QUIC
    transport.  PipeStream enables the decomposition ("dehydration") of
    documents into constituent entities, their transmission across
@@ -33,9 +33,7 @@
    PipeStream implements checkpoint blocking, whereby processing nodes
    MUST synchronize at defined points before proceeding.  This mechanism
    guarantees that all constituent parts of a dehydrated document are
-   successfully processed before rehydration operations commence.
-
-	 </t>
+   successfully processed before rehydration operations commence.</t>
     </abstract>
   </front>
 </reference>

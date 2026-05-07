@@ -10,7 +10,7 @@
     </author>
     <date day="20" month="October" year="2025"/>
     <abstract>
-      <t>   Encrypted ClientHello (ECH) requires clients to have the server's ECH
+      <t>Encrypted ClientHello (ECH) requires clients to have the server's ECH
    configuration before connecting.  Currently, when ECH fails, servers
    can send updated configurations but clients cannot authenticate them
    without a certificate for the public name, limiting deployment
@@ -21,9 +21,7 @@
    TLS handshake, allowing clients to authenticate and immediately use
    them for retry.  The mechanism decouples ECH key distribution from
    transport, enabling the same signed configuration to work via DNS or
-   TLS delivery.
-
-	 </t>
+   TLS delivery.</t>
     </abstract>
   </front>
 </reference>

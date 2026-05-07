@@ -7,7 +7,7 @@
     </author>
     <date day="02" month="October" year="2023"/>
     <abstract>
-      <t>   Maintenance of DNS delegations requires occasional changes of the DS
+      <t>Maintenance of DNS delegations requires occasional changes of the DS
    and NS record sets on the parent side of the delegation.  RFC 7344
    automates this for DS records by having the child publish CDS and/or
    CDNSKEY records which hold the prospective DS parameters.  Similarly,
@@ -20,9 +20,7 @@
    This document specifies that when performing such queries, parent-
    side entities MUST ensure that updates triggered via CDS/CDNSKEY and
    CSYNC records are consistent across the child's authoritative
-   nameservers, before taking any action based on these records.
-
-	 </t>
+   nameservers, before taking any action based on these records.</t>
     </abstract>
   </front>
 </reference>

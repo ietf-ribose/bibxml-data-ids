@@ -7,7 +7,7 @@
     </author>
     <date day="28" month="April" year="2026"/>
     <abstract>
-      <t>   Parallel NFS (pNFS) with the Flexible Files Version 2 layout type
+      <t>Parallel NFS (pNFS) with the Flexible Files Version 2 layout type
    supports client-side erasure coding and per-chunk repair between
    clients and data servers.  This document extends that architecture
    with a proxy server (PS) role: a registered peer of the metadata
@@ -19,9 +19,7 @@
    is fore-channel: the metadata server returns work assignments inline
    in the response to a PS-initiated PROXY_PROGRESS poll, and the PS
    reports completion via a fore-channel PROXY_DONE.  No callback
-   operations are required for the PS protocol.
-
-	 </t>
+   operations are required for the PS protocol.</t>
     </abstract>
   </front>
 </reference>

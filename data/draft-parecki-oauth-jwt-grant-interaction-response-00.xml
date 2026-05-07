@@ -13,16 +13,14 @@
     </author>
     <date day="24" month="March" year="2026"/>
     <abstract>
-      <t>   This document defines an extension to the JWT Authorization Grant
+      <t>This document defines an extension to the JWT Authorization Grant
    [RFC7523] that enables an authorization server to indicate that user
    interaction is required in order to complete an authorization
    request.  Instead of returning an access token or an error, the
    authorization server returns a URI that the client launches where the
    user can interact with the authorization server, along with a polling
    interval.  The client can then poll for the access token or wait for
-   a redirect before retrying the original request.
-
-	 </t>
+   a redirect before retrying the original request.</t>
     </abstract>
   </front>
 </reference>

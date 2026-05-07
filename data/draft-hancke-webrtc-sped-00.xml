@@ -13,15 +13,13 @@
     </author>
     <date day="02" month="March" year="2026"/>
     <abstract>
-      <t>   WebRTC setup normally serializes ICE and DTLS, adding at least one
+      <t>WebRTC setup normally serializes ICE and DTLS, adding at least one
    extra round trip before secure media can flow.  This document defines
    the STUN Protocol for Embedding DTLS (SPED), which carries DTLS
    handshake data and acknowledgements inside STUN Binding Requests and
    Responses.  SPED allows ICE and DTLS to proceed in parallel, improves
    setup behavior under loss, and remains backward compatible with
-   existing ICE processing.
-
-	 </t>
+   existing ICE processing.</t>
     </abstract>
   </front>
 </reference>

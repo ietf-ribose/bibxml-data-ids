@@ -10,7 +10,7 @@
     </author>
     <date day="17" month="March" year="2026"/>
     <abstract>
-      <t>   This document defines a bespoke serialization of CBOR intended for
+      <t>This document defines a bespoke serialization of CBOR intended for
    use with the special tag 42 in various end-to-end protocols that came
    out of the IPFS community.  Much of its design dates to the first
    CBOR RFC and predates much of the terminology and the layered
@@ -20,9 +20,7 @@
    is optimized for objects that compose into a directed acyclical
    graph.  Since CBOR-42 objects link to one another by hash-based
    identifiers tagged "42", deterministic encoding is mandated to verify
-   dereferenced links and encode new ones.
-
-	 </t>
+   dereferenced links and encode new ones.</t>
     </abstract>
   </front>
 </reference>

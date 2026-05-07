@@ -13,7 +13,7 @@
     </author>
     <date day="14" month="March" year="2026"/>
     <abstract>
-      <t>   In some use cases, an SRv6 policy's segment list ends with the
+      <t>In some use cases, an SRv6 policy's segment list ends with the
    policy endpoint's node SID, and the traffic steered (over policy)
    already ensures that it is taken to the policy endpoint.  In such
    cases, the SID list can be optimized by excluding the endpoint Node
@@ -22,9 +22,7 @@
    This document specifies a BGP extension to indicate whether the
    endpoint's node SID needs to be included or excluded when installing
    the SRv6 Policy. This optimization can improve the forwarding
-   efficiency of data packets when End SID and Service SID are present.
-
-	 </t>
+   efficiency of data packets when End SID and Service SID are present.</t>
     </abstract>
   </front>
 </reference>

@@ -10,7 +10,7 @@
     </author>
     <date day="20" month="June" year="2023"/>
     <abstract>
-      <t>   A legacy or incorrect host implementation may assume an on-link
+      <t>A legacy or incorrect host implementation may assume an on-link
    prefix on an interface where it owns an address that matches the
    prefix.  This mistake may prevent connectivity on networks where this
    is not the case, e.g., when the physical or logical connectivity of
@@ -18,9 +18,7 @@
    the traffic should transit via the router.  This document proposes a
    stateless routing proxy operation in the router to force a "not-on-
    link" behavior on the misbehaving host and attract all the packets to
-   the router.
-
-	 </t>
+   the router.</t>
     </abstract>
   </front>
 </reference>

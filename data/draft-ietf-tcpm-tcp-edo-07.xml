@@ -6,16 +6,14 @@
     <author initials="W." surname="Eddy" fullname="Wesley Eddy"/>
     <date day="03" month="January" year="2017"/>
     <abstract>
-      <t>   TCP segments include a Data Offset field to indicate space for TCP
+      <t>TCP segments include a Data Offset field to indicate space for TCP
    options but the size of the field can limit the space available for
    complex options such as SACK and Multipath TCP and can limit the
    combination of such options supported in a single connection. This
    document updates RFC 793 with an optional TCP extension to that
    space to support the use of multiple large options. It also explains
    why the initial SYN of a connection cannot be extending a single
-   segment.
-
-	 </t>
+   segment.</t>
     </abstract>
   </front>
 </reference>

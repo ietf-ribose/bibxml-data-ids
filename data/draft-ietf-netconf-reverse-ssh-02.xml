@@ -5,14 +5,13 @@
     <author initials="K." surname="Watsen" fullname="Kent Watsen"/>
     <date day="29" month="October" year="2013"/>
     <abstract>
-      <t> This memo presents a technique for a NETCONF server to initiate a SSH
+      <t>This memo presents a technique for a NETCONF server to initiate a SSH
    connection to a NETCONF client.  This is accomplished by the NETCONF
    client listening on IANA-assigned TCP port YYYY and starting the SSH
    client protocol immediately after accepting a TCP connection on it.
    This role-reversal is necessary as the NETCONF server must also be
    the SSH Server, in order for the NETCONF client to open the IANA-
-   assigned SSH subsystem "netconf".
-	 </t>
+   assigned SSH subsystem "netconf".</t>
     </abstract>
   </front>
 </reference>

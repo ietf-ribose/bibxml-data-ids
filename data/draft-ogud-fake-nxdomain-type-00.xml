@@ -10,7 +10,7 @@
     </author>
     <date day="07" month="May" year="2015"/>
     <abstract>
-      <t>   DNSSEC was to large extent designed for off-line signing.  A number
+      <t>DNSSEC was to large extent designed for off-line signing.  A number
    of new opportunities arise when on-line signing is used.  In negative
    answers case there is no real need for the wildcard proof and the
    server can just state that the queried name and type do not exist in
@@ -19,9 +19,7 @@
    NXDOMAIN RCODE.  Still, some applications want to explicitly know if
    the name does exist.  This document allocates a new DNS RRtype that
    can be used to signal nonexistence of the owner names of NSEC/NSEC3
-   records.
-
-	 </t>
+   records.</t>
     </abstract>
   </front>
 </reference>

@@ -7,7 +7,7 @@
     </author>
     <date day="20" month="May" year="2019"/>
     <abstract>
-      <t>   RPC transports such as RPC-over-RDMA version 1 require reply buffers
+      <t>RPC transports such as RPC-over-RDMA version 1 require reply buffers
    to be in place before an RPC Call is sent.  However, RPC consumers
    sometimes have difficulty estimating the expected maximum size of a
    particular RPC reply.  This introduces the risk that an RPC Reply
@@ -15,9 +15,7 @@
    preventing delivery of the message, through no fault of the
    requester.  This document describes a mechanism that eliminates the
    need for pre-allocation of reply resources for unpredictably large
-   replies.
-
-	 </t>
+   replies.</t>
     </abstract>
   </front>
 </reference>

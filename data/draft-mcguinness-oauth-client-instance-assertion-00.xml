@@ -7,7 +7,7 @@
     </author>
     <date day="05" month="May" year="2026"/>
     <abstract>
-      <t>   This specification defines a profile for representing OAuth 2.0
+      <t>This specification defines a profile for representing OAuth 2.0
    client instance identity to an authorization server.  It registers a
    new actor_token_type, urn:ietf:params:oauth:token-type:client-
    instance-jwt, that carries the instance identity as a signed JWT
@@ -29,9 +29,7 @@
    principal is present (e.g., a user delegating to the instance), or as
    the access token's sub, when the instance itself is the principal
    (e.g., a client credentials grant).  The issued access token is
-   sender-constrained to a key the instance possesses.
-
-	 </t>
+   sender-constrained to a key the instance possesses.</t>
     </abstract>
   </front>
 </reference>

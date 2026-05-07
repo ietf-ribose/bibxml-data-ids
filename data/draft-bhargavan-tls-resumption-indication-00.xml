@@ -19,16 +19,14 @@
     </author>
     <date day="18" month="April" year="2014"/>
     <abstract>
-      <t>   When a TLS session is resumed via an abbreviated handshake, the
+      <t>When a TLS session is resumed via an abbreviated handshake, the
    knowledge of the master secret is used to implicitly mutually
    authenticate the two peers.  However, an attacker can synchronize two
    different TLS sessions, so that they share the same master secret,
    breaking the resumption authentication property.  This specification
    defines a TLS extension that cryptographically binds the resumption
    abbreviated handshake with its original session, thus preventing this
-   attack.
-
-	 </t>
+   attack.</t>
     </abstract>
   </front>
 </reference>

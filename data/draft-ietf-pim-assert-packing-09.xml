@@ -16,7 +16,7 @@
     </author>
     <date day="08" month="March" year="2023"/>
     <abstract>
-      <t>   LANs often have more than one upstream router.  When PIM Sparse Mode
+      <t>LANs often have more than one upstream router.  When PIM Sparse Mode
    (PIM-SM), including PIM Source Specific-Specific Multicast (PIM-SSM),
    is used, this can lead to duplicate IP multicast packets being
    forwarded by these PIM routers.  PIM Assert messages are used to
@@ -27,9 +27,7 @@
    multiple IP multicast flows in a single PackedAssert message.  This
    optimization reduces the total number of PIM packets on the LAN and
    can therefore speed up the election of the single forwarder, reducing
-   the number of duplicate IP multicast packets incurred.
-
-	 </t>
+   the number of duplicate IP multicast packets incurred.</t>
     </abstract>
   </front>
 </reference>

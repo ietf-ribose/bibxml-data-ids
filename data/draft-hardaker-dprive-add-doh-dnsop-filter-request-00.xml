@@ -7,16 +7,14 @@
     </author>
     <date day="27" month="September" year="2019"/>
     <abstract>
-      <t>   This document defines a mechanism under which a client can request
+      <t>This document defines a mechanism under which a client can request
    that an upstream recursive resolver perform DNS filtering on behalf
    of a client-requested policy.  This is may be done, for example,
    under a subscription model, where the client wishes not to get
    redirected to domains known to host malware or malicious content.
    This request is sent as an EDNS0 option with every DNS request, or
    potentially to just the first DNS request in a stream when using DNS
-   over TLS, DNS over DTLS or DNS over DOH for example.
-
-	 </t>
+   over TLS, DNS over DTLS or DNS over DOH for example.</t>
     </abstract>
   </front>
 </reference>

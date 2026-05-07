@@ -10,7 +10,7 @@
     </author>
     <date day="21" month="November" year="2024"/>
     <abstract>
-      <t>   The Parallel Network File System (pNFS) allows for a file's metadata
+      <t>The Parallel Network File System (pNFS) allows for a file's metadata
    (MDS) and data (DS) to be on different servers.  When the metadata
    server is restarted, the client can still modify the data file
    component.  During the recovery phase of startup, the metadata server
@@ -22,9 +22,7 @@
    metadata server.  As such, the metadata server has to assume that
    file needs resilvering.  This document presents an extension to
    RFC8435 to allow the client to update the metadata and avoid the
-   resilvering.
-
-	 </t>
+   resilvering.</t>
     </abstract>
   </front>
 </reference>

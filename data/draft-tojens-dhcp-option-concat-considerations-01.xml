@@ -10,7 +10,7 @@
     </author>
     <date day="03" month="March" year="2025"/>
     <abstract>
-      <t>   DHCP has a length limit of 255 on individual options because of its
+      <t>DHCP has a length limit of 255 on individual options because of its
    one-byte length field for options.  To accommodate longer options,
    splitting option data across multiple instances of the same Option
    Type is defined by RFC 3396.  However, this mechanism was defined to
@@ -19,9 +19,7 @@
    from these requirements to avoid breaking basic functionality.  This
    document updates RFC 3396 to be more flexible regarding when DHCP
    agents are required to concatenate options to reflect deployement
-   experiences.
-
-	 </t>
+   experiences.</t>
     </abstract>
   </front>
 </reference>

@@ -7,15 +7,13 @@
     <author initials="A." surname="Petlund" fullname="Andreas Petlund"/>
     <date day="29" month="October" year="2011"/>
     <abstract>
-      <t>   This document describes a modified algorithm for managing the TCP and
+      <t>This document describes a modified algorithm for managing the TCP and
    SCTP retransmission timers, that provides faster loss recovery when a
    connection's amount of outstanding data is small.  The modification
    allows the transport to restart its retransmission timer more
    aggressively in situations where fast retransmit can not be used.
    This enables faster loss detection, and recovery, for connections
-   that are short-lived or application-limited.
-
-	 </t>
+   that are short-lived or application-limited.</t>
     </abstract>
   </front>
 </reference>

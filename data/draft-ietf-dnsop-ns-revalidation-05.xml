@@ -13,7 +13,7 @@
     </author>
     <date day="04" month="March" year="2024"/>
     <abstract>
-      <t>   This document recommends improved DNS [RFC1034] [RFC1035] resolver
+      <t>This document recommends improved DNS [RFC1034] [RFC1035] resolver
    behavior with respect to the processing of Name Server (NS) resource
    record sets (RRset) during iterative resolution.  When following a
    referral response from an authoritative server to a child zone, DNS
@@ -25,9 +25,7 @@
    requeried and used to replace the entries with the lower
    trustworthiness ranking in cache.  Resolvers should also periodically
    revalidate the child delegation by re-quering the parent zone at the
-   expiration of the TTL of the parent side NS RRset.
-
-	 </t>
+   expiration of the TTL of the parent side NS RRset.</t>
     </abstract>
   </front>
 </reference>

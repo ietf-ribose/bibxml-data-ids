@@ -16,7 +16,7 @@
     </author>
     <date day="19" month="May" year="2019"/>
     <abstract>
-      <t>   The OSPFv2 specifies an SPF algorithm that identifies transit
+      <t>The OSPFv2 specifies an SPF algorithm that identifies transit
    vertices based on their adjacencies.  Therefore, OSPFv2 does not have
    a mechanism to prevent traffic transiting a participating node if it
    is a transit vertex in the only existing or shortest path to the
@@ -28,9 +28,7 @@
    new bit (Host-bit) in the OSPF Router-LSA bit registry.  If the Host-
    bit is set, the calculation of the shortest-path tree for an area, as
    described in [RFC2328], is modified by including a new check to
-   verify that transit vertices have the Host-bit clear.
-
-	 </t>
+   verify that transit vertices have the Host-bit clear.</t>
     </abstract>
   </front>
 </reference>

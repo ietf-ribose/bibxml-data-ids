@@ -13,7 +13,7 @@
     </author>
     <date day="08" month="July" year="2024"/>
     <abstract>
-      <t>   This document describes a method called "dry-run DNSSEC" that allows
+      <t>This document describes a method called "dry-run DNSSEC" that allows
    for testing DNSSEC deployments without affecting the DNS service in
    case of DNSSEC errors.  It accomplishes that by introducing new DS
    Type Digest Algorithms that when used in a DS record, referred to as
@@ -23,9 +23,7 @@
    validating resolvers fallback from dry-run DNSSEC and provide the
    response that would have been answered without the presence of a dry-
    run DS.  A further EDNS option is presented for clients to opt-in for
-   dry-run DNSSEC errors and allow for end-to-end DNSSEC testing.
-
-	 </t>
+   dry-run DNSSEC errors and allow for end-to-end DNSSEC testing.</t>
     </abstract>
   </front>
 </reference>

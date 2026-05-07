@@ -7,13 +7,11 @@
     </author>
     <date day="30" month="March" year="2023"/>
     <abstract>
-      <t>   Sending on QUIC streams can only be aborted early by the sender with
+      <t>Sending on QUIC streams can only be aborted early by the sender with
    a RESET_STREAM frame.  This document describes how a receiver can
    indicate when the data they have received is enough, allowing the
    sender to reliably deliver some data, but abort sending for anything
-   more than the indicated amount.
-
-	 </t>
+   more than the indicated amount.</t>
     </abstract>
   </front>
 </reference>

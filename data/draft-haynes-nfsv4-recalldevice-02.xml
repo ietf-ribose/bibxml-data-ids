@@ -7,7 +7,7 @@
     </author>
     <date day="29" month="April" year="2026"/>
     <abstract>
-      <t>   The Parallel Network File System (pNFS) allows the metadata server to
+      <t>The Parallel Network File System (pNFS) allows the metadata server to
    recall a layout from a client by file id, by file system id, or
    across all of a client's layouts.  It also lets the server delete a
    deviceid via CB_NOTIFY_DEVICEID.  It does not provide a mechanism for
@@ -19,9 +19,7 @@
    Without this capability, device unavailability can trigger large
    volumes of failed WRITE and LAYOUTERROR traffic, and administrators
    lack a surgical way to retire a deviceid without disturbing layouts
-   that reference healthy devices.
-
-	 </t>
+   that reference healthy devices.</t>
     </abstract>
   </front>
 </reference>

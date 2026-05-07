@@ -16,7 +16,7 @@
     </author>
     <date day="12" month="July" year="2021"/>
     <abstract>
-      <t>   This draft specifies a new HTTP method CONNECT-IP to proxy IP
+      <t>This draft specifies a new HTTP method CONNECT-IP to proxy IP
    traffic.  CONNECT-IP uses HTTP/3 Datagrams to use QUIC Datagrams for
    efficient transport of proxied IP packets, with the possibility to
    fallback to HTTP/3 over reliable QUIC streams, or even HTTP 1.x and
@@ -29,9 +29,7 @@
    connects to a proxy server by initiating a HTTP/3 connection and
    sends a CONNECT-IP request which either indicates the address of the
    proxy or the target peer.  The proxy then forwards payload received
-   on that stream or in an HTTP datagram with a certain stream ID.
-
-	 </t>
+   on that stream or in an HTTP datagram with a certain stream ID.</t>
     </abstract>
   </front>
 </reference>

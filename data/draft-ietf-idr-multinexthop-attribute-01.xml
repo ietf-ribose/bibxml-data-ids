@@ -16,7 +16,7 @@
     </author>
     <date day="12" month="August" year="2024"/>
     <abstract>
-      <t>   Today, a BGP speaker can advertise one nexthop for a set of NLRIs in
+      <t>Today, a BGP speaker can advertise one nexthop for a set of NLRIs in
    an Update message.  This nexthop can be encoded in either the top-
    level BGP-Nexthop attribute (code 3), or inside the MP_REACH_NLRI
    attribute (code 14).  Forwarding information related to the nexthop
@@ -27,10 +27,7 @@
    called "MultiNexthop (MNH)" with IANA BGP attribute type code TBD,
    that can be used to carry an ordered set of one or more Nexthops in
    the same Update message, with all forwarding information being
-   carried in one attribute, scoped on a per nexthop basis.
-
-
-	 </t>
+   carried in one attribute, scoped on a per nexthop basis.</t>
     </abstract>
   </front>
 </reference>

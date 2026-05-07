@@ -10,7 +10,7 @@
     </author>
     <date day="08" month="July" year="2024"/>
     <abstract>
-      <t>   A relying party verifying a JSON Web Token (JWT) needs to verify that
+      <t>A relying party verifying a JSON Web Token (JWT) needs to verify that
    the public key used to verify the signature legitimately represents
    the issuer represented in the "iss" claim of the JWT.  Today, relying
    parties commonly use the "iss" claim to fetch a set of authorized
@@ -20,9 +20,7 @@
    cases where a JWT might need to be verified for some time.  In this
    document, we define a format for Proofs of Issuer Key Authority,
    which establish the authority of a key using a signed object instead
-   of an HTTPS connection.
-
-	 </t>
+   of an HTTPS connection.</t>
     </abstract>
   </front>
 </reference>

@@ -22,7 +22,7 @@
     </author>
     <date day="09" month="July" year="2023"/>
     <abstract>
-      <t>   BGP Update includes the destination prefix and AS_PATH that records
+      <t>BGP Update includes the destination prefix and AS_PATH that records
    the AS number through which it passes.  The traffic routing to the
    destination prefix should be forwarded along the AS sequence in
    AS_PATH.  However, due to traffic redirection, route aggregation and
@@ -30,9 +30,7 @@
    do not match.  The inconsistency leads to security risks such as
    black holes, loops in inter-domain forwarding, and the possibility of
    forwarding through malicious AS that source/upstream AS does not want
-   to pass through.
-
-	 </t>
+   to pass through.</t>
     </abstract>
   </front>
 </reference>

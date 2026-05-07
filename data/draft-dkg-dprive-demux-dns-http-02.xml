@@ -5,7 +5,7 @@
     <author initials="D. K." surname="Gillmor" fullname="Daniel Kahn Gillmor"/>
     <date day="03" month="May" year="2017"/>
     <abstract>
-      <t>   DNS over TCP and traditional HTTP are both stream-oriented, client-
+      <t>DNS over TCP and traditional HTTP are both stream-oriented, client-
    speaks-first protocols.  They can both be run over a stream-based
    security protocol like TLS.  A server accepting a stream-based client
    can distinguish between a valid stream of DNS queries and valid
@@ -20,9 +20,7 @@
    Widespread adoption of the described approach could constrain future
    evolution of the stream-based variants of both DNS ([RFC1035]) and
    HTTP ([RFC7230] and [RFC7540]) by ossifying existing distinguishing
-   bit patterns in early octets sent by the client.
-
-	 </t>
+   bit patterns in early octets sent by the client.</t>
     </abstract>
   </front>
 </reference>

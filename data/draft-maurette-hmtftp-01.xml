@@ -7,14 +7,12 @@
     </author>
     <date day="05" month="January" year="2026"/>
     <abstract>
-      <t>   HMTFTP is a lightweight UDP file transfer protocol that preserves the
+      <t>HMTFTP is a lightweight UDP file transfer protocol that preserves the
    simplicity of TFTP (block-and-ACK) while adding a structured TLV
    extension mechanism and an optional authenticated-encryption mode.
    When negotiated, DATA payloads are protected with AEAD AES-256-GCM
    and keys are derived with HKDF-SHA-256 from a pre-shared key (PSK).
-   HMTFTP uses UDP port TBD by default (requested: 6369; configurable).
-
-	 </t>
+   HMTFTP uses UDP port TBD by default (requested: 6369; configurable).</t>
     </abstract>
   </front>
 </reference>

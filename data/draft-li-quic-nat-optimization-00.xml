@@ -13,7 +13,7 @@
     </author>
     <date day="03" month="March" year="2025"/>
     <abstract>
-      <t>   QUIC uses UDP as its transport layer protocol.  Many existing NAT
+      <t>QUIC uses UDP as its transport layer protocol.  Many existing NAT
    routers rely on observing TCP SYN, ACK, and FIN packets to determine
    the establishment and termination of connections, thereby precisely
    maintaining the lifecycle of NAT mapping entries.  For QUIC, NAT
@@ -24,10 +24,7 @@
    IP header options field to identify QUIC connections, facilitating
    NAT devices that do not recognize QUIC to accurately determine the
    lifecycle of QUIC connections and prevent random aging and re-mapping
-   of long-lived QUIC connections.
-
-
-	 </t>
+   of long-lived QUIC connections.</t>
     </abstract>
   </front>
 </reference>

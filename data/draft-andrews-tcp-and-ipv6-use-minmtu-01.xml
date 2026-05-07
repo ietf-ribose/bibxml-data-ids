@@ -5,7 +5,7 @@
     <author initials="M. P." surname="Andrews" fullname="Mark P. Andrews"/>
     <date day="16" month="October" year="2015"/>
     <abstract>
-      <t>   The IPV6_USE_MIN_MTU [RFC3542], Section 11.1, socket option directs
+      <t>The IPV6_USE_MIN_MTU [RFC3542], Section 11.1, socket option directs
    the IP layer to limit the IPv6 packet size to the minimum required
    supported MTU from the base IPv6 specification [RFC2460], i.e. 1280
    bytes.  Many implementations of TCP running over IPv6 neglect to
@@ -13,9 +13,7 @@
    when constructing a TCP segment.  This leads to oversized IPv6
    packets being sent resulting in unintended Path Maximum Transport
    Unit Discovery (PMTUD) [RFC1191] being performed and to fragmented
-   IPv6 packets being sent.
-
-	 </t>
+   IPv6 packets being sent.</t>
     </abstract>
   </front>
 </reference>

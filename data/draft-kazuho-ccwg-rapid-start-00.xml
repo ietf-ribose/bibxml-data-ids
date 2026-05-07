@@ -7,15 +7,13 @@
     </author>
     <date day="03" month="November" year="2025"/>
     <abstract>
-      <t>   This document defines Rapid Start, a congestion-control startup
+      <t>This document defines Rapid Start, a congestion-control startup
    algorithm that grows the window by 3× per RTT until queue buildup is
    observed, so that a sender can reach the path BDP faster than with
    classic 2× slow start.  When congestion is observed, Rapid Start
    immediately scales the window relative to the bytes that have passed
    through the bottleneck and then hands over to normal recovery and
-   congestion avoidance.
-
-	 </t>
+   congestion avoidance.</t>
     </abstract>
   </front>
 </reference>

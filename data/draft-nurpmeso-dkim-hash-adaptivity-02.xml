@@ -5,7 +5,7 @@
     <author initials="S." surname="Nurpmeso" fullname="Steffen Nurpmeso"/>
     <date day="02" month="February" year="2025"/>
     <abstract>
-      <t>   DKIM (RFC 6376, section 3.7) defines how "data-hash" is generated as
+      <t>DKIM (RFC 6376, section 3.7) defines how "data-hash" is generated as
    input to a "sig-alg" for the purpose of generating a cryptographic
    signature.  Different to the RSA algorithm (RFC 8017) solely defined
    for and by DKIM at the time of its creation, modern signature
@@ -14,9 +14,7 @@
    make sense not to create a "data-hash", but to use the entire data as
    input to "sig-alg".  This specification allows DKIM signing
    algorithms "data-hash" adaptivity, taking advantage of algorithm
-   design, and digital signature API reality.
-
-	 </t>
+   design, and digital signature API reality.</t>
     </abstract>
   </front>
 </reference>

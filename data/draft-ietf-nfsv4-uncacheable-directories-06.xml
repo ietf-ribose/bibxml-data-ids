@@ -7,7 +7,7 @@
     </author>
     <date day="27" month="March" year="2026"/>
     <abstract>
-      <t>   Network File System version 4.2 (NFSv4.2) clients may cache
+      <t>Network File System version 4.2 (NFSv4.2) clients may cache
    directory-entry (dirent) metadata returned by READDIR to improve
    performance.  Such caching typically assumes that directory-entry
    metadata and visibility are identical for all users of a client.  In
@@ -19,9 +19,7 @@
    state of the server.  This document introduces an uncacheable dirent
    metadata attribute for NFSv4.2 that allows servers to advise clients
    that directory-entry metadata returned by READDIR and related
-   operations should not be reused across users.
-
-	 </t>
+   operations should not be reused across users.</t>
     </abstract>
   </front>
 </reference>

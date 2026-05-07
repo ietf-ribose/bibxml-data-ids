@@ -19,7 +19,7 @@
     </author>
     <date day="09" month="December" year="2024"/>
     <abstract>
-      <t>   In certain scenarios, it is necessary to advertise unreachable links
+      <t>In certain scenarios, it is necessary to advertise unreachable links
    in OSPF, which should be explicitly excluded from the related SPF
    calculation.  This document specifies using LSLinkInfinity(0xffff) to
    advertise an OSPF link as unreachable.
@@ -29,9 +29,7 @@
    This document updates RFC 6987 and RFC 8770.  When an OSPFv2 router
    supports the Unreachable Link support capability defined in this
    document, the OSPFv2 stub router MaxLinkMetric(0xffff) MUST be
-   updated to MaxReachableLinkMetric(0xfffe).
-
-	 </t>
+   updated to MaxReachableLinkMetric(0xfffe).</t>
     </abstract>
   </front>
 </reference>

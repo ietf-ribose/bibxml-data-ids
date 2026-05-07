@@ -7,7 +7,7 @@
     </author>
     <date day="03" month="March" year="2025"/>
     <abstract>
-      <t>   Large language model (LLM) inference involves two stages: prefill and
+      <t>Large language model (LLM) inference involves two stages: prefill and
    decode.  The prefill phase processes the prompt in parallel,
    generating the KVCache, which is then used by the decode phase to
    produce tokens sequentially.  KVCache can be reused if the model and
@@ -16,9 +16,7 @@
    these over architectures enabled by publish/subscribe transport like
    MoQT, allows local nodes to cache the KVCache to be later retrieved
    via new subscriptions, saving the bandwidth.  This document specifies
-   the transmission of KVCache over MoQT.
-
-	 </t>
+   the transmission of KVCache over MoQT.</t>
     </abstract>
   </front>
 </reference>

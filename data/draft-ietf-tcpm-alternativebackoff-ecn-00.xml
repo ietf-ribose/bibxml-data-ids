@@ -8,7 +8,7 @@
     <author initials="G." surname="Fairhurst" fullname="Gorry Fairhurst"/>
     <date day="02" month="February" year="2017"/>
     <abstract>
-      <t>   This memo updates the TCP sender-side reaction to a congestion
+      <t>This memo updates the TCP sender-side reaction to a congestion
    notification received via Explicit Congestion Notification (ECN).
    The updated method reduces FlightSize in Congestion Avoidance by a
    smaller amount than the TCP reaction to loss.  The intention is to
@@ -16,9 +16,7 @@
    than the bandwidth-delay-product of the connection.  This is more
    likely when an Active Queue Management (AQM) mechanism has used ECN
    to CE-mark a packet, than when a packet was lost.  Future versions of
-   this document will also describe a corresponding method for SCTP.
-
-	 </t>
+   this document will also describe a corresponding method for SCTP.</t>
     </abstract>
   </front>
 </reference>

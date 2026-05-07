@@ -7,7 +7,7 @@
     </author>
     <date day="22" month="October" year="2025"/>
     <abstract>
-      <t>   This document defines a new HTTP 5xx status code, 528 (Outbound
+      <t>This document defines a new HTTP 5xx status code, 528 (Outbound
    Dependency Failed), used to indicate that a server received, parsed,
    and processed a request correctly, but could not complete it because
    a required downstream dependency malfunctioned or was in a non-
@@ -18,9 +18,7 @@
    handling), 528 explicitly signals that the responding service
    operated as intended and the failure lies in a dependency.  Unlike
    503 (Service Unavailable), 528 does not imply a temporary condition
-   expected to recover without intervention.
-
-	 </t>
+   expected to recover without intervention.</t>
     </abstract>
   </front>
 </reference>

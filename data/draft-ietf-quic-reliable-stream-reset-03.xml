@@ -10,16 +10,14 @@
     </author>
     <date day="19" month="October" year="2023"/>
     <abstract>
-      <t>   QUIC defines a RESET_STREAM frame to abort sending on a stream.  When
+      <t>QUIC defines a RESET_STREAM frame to abort sending on a stream.  When
    a sender resets a stream, it also stops retransmitting STREAM frames
    for this stream in the of packet loss.  On the receiving side, there
    is no guarantee that any data sent on that stream is delivered.
 
    This document defines a new QUIC frame, the RESET_STREAM_AT frame,
    that allows resetting a stream, while guaranteeing reliable delivery
-   of stream data up to a certain byte offset.
-
-	 </t>
+   of stream data up to a certain byte offset.</t>
     </abstract>
   </front>
 </reference>

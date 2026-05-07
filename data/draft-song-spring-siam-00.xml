@@ -10,17 +10,14 @@
     </author>
     <date day="15" month="December" year="2020"/>
     <abstract>
-      <t>   This draft describes an in-band active measurement method for SRv6.
+      <t>This draft describes an in-band active measurement method for SRv6.
    A probing packet contains an SRH with a flag bit set.  The IOAM
    header and data are encapsulated in UDP payload.  The probing packet
    originates from a segment source node and terminates at a configured
    segment endpoint node.  Each segment node on the path, when detecting
    the flag, parses the UDP header and the IOAM header, and adds data to
    the IOAM node data fields.  Multiple applications can be supported by
-   the method.
-
-
-	 </t>
+   the method.</t>
     </abstract>
   </front>
 </reference>

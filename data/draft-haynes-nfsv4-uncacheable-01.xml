@@ -7,7 +7,7 @@
     </author>
     <date day="13" month="October" year="2024"/>
     <abstract>
-      <t>   The Network File System v4.2 (NFSv4.2) allows a client to cache both
+      <t>The Network File System v4.2 (NFSv4.2) allows a client to cache both
    the metadata and the data for a file object.  It can also cache the
    metadata for a directory object.  Caching the dirents (i.e., the
    metadata) allows the client to avoid querying the server to refresh
@@ -16,9 +16,7 @@
    cause performance impacts if the page cache hit rate is low..  This
    document introduces a new file attribute called uncacheable which
    indicates that the client MUST NOT cache the metadata or data for
-   that dirent.  This document extends NFSv4.2 (see RFC7863).
-
-	 </t>
+   that dirent.  This document extends NFSv4.2 (see RFC7863).</t>
     </abstract>
   </front>
 </reference>

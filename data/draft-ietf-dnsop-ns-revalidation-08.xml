@@ -13,7 +13,7 @@
     </author>
     <date day="08" month="January" year="2025"/>
     <abstract>
-      <t>   This document recommends improved DNS resolver behavior with respect
+      <t>This document recommends improved DNS resolver behavior with respect
    to the processing of Name Server (NS) resource record (RR) sets
    (RRsets) during iterative resolution.  When following a referral
    response from an authoritative server to a child zone, DNS resolvers
@@ -25,9 +25,7 @@
    and used to replace the entries with the lower trustworthiness
    ranking in cache.  Resolvers should also periodically revalidate the
    child delegation by re-querying the parent zone at the expiration of
-   the TTL of the parent side NS RRset.
-
-	 </t>
+   the TTL of the parent side NS RRset.</t>
     </abstract>
   </front>
 </reference>

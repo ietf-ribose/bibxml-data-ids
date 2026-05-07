@@ -7,7 +7,7 @@
     <author initials="R." surname="White" fullname="Russ White"/>
     <date day="21" month="October" year="2013"/>
     <abstract>
-      <t>   This document describes a method to be used by Service Providers to
+      <t>This document describes a method to be used by Service Providers to
    provide fast protection of VPN connections for a CE. Egress PEs in a
    redundant group always assign the same label for VPN routes from a
    VRF. These egress PEs create a BGP virtual Next Hop (vNH) in the
@@ -16,9 +16,7 @@
    BGP/MPLS IP VPN based on IGP FRR. If the primary egress PE fails, the
    backup egress PEs can recognize the "shared" VPN route label, so that
    the failure affected traffic can be smoothly switched to the backup
-   PE for delivery without changing its VPN route label.
-
-	 </t>
+   PE for delivery without changing its VPN route label.</t>
     </abstract>
   </front>
 </reference>

@@ -19,15 +19,13 @@
     </author>
     <date day="06" month="July" year="2015"/>
     <abstract>
-      <t>   This document documents some issues with the current definition of
+      <t>This document documents some issues with the current definition of
    the backup subflows in [RFC6824].  The solution proposed in [RFC6824]
    works well when a subflow completely fails.  However, if a subflow
    suffers from huge packet losses, but still remains up, then the delay
    to switch to the backup subflow may be very long.  We propose to
    measure the evolution of the retransmission timer (RTO) to detect the
-   bad performance of subflows.
-
-	 </t>
+   bad performance of subflows.</t>
     </abstract>
   </front>
 </reference>

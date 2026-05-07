@@ -8,7 +8,7 @@
     </author>
     <date day="11" month="March" year="2019"/>
     <abstract>
-      <t>   When TCP receives packets that lie outside of the receive window, the
+      <t>When TCP receives packets that lie outside of the receive window, the
    corresponding packets are dropped and either an ACK, RST or no
    response is generated due to the out-of-window packet, with no
    further processing of the packet.  Most of the time, this works just
@@ -21,9 +21,7 @@
    crashes, or other undesirable behaviors.  This document describes the
    three scenarios in which the aforementioned issues might arise, and
    formally updates RFC 793 such that these potential problems are
-   mitigated.
-
-	 </t>
+   mitigated.</t>
     </abstract>
   </front>
 </reference>

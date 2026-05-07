@@ -5,7 +5,7 @@
     <author initials="S." surname="Gueron" fullname="Shay Gueron"/>
     <date day="15" month="April" year="2024"/>
     <abstract>
-      <t>   This document specifies an authenticated encryption algorithm called
+      <t>This document specifies an authenticated encryption algorithm called
    Double Nonce Derive Key AES-GCM (DNDK-GCM) that operates with a 32-
    byte root key and encrypts with a 24-byte random nonce, and
    optionally provides for key commitment.
@@ -19,9 +19,7 @@
    lifetime of the root key and this supports processing up to 2^64
    bytes under one root key. DNDK-GCM involves a small overhead compared
    to using AES-GCM directly, and its security relies only on the
-   standard assumption on AES as a pseudorandom permutation.
-
-	 </t>
+   standard assumption on AES as a pseudorandom permutation.</t>
     </abstract>
   </front>
 </reference>

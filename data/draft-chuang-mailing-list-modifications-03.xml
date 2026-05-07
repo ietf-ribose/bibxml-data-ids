@@ -7,7 +7,7 @@
     </author>
     <date day="13" month="August" year="2023"/>
     <abstract>
-      <t>   Mailing-lists distribute email to multiple recipients by forwarding
+      <t>Mailing-lists distribute email to multiple recipients by forwarding
    and potentially modifying messages to document the distribution to
    the recipients.  Unfortunately forwarding breaks SPF (RFC7208)
    authentication and message modification breaks DKIM (RFC6376)
@@ -20,9 +20,7 @@
    string to the Subject header, 2) rewriting the From header, 3)
    removing the original DKIM-Signature and 4) appending a footer to the
    message body.  This also specifies those modifications for the
-   purpose of making them reversible.
-
-	 </t>
+   purpose of making them reversible.</t>
     </abstract>
   </front>
 </reference>

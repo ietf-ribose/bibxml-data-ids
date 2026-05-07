@@ -10,7 +10,7 @@
     </author>
     <date day="13" month="July" year="2020"/>
     <abstract>
-      <t>   This document introduces a new DNSKEY flag called DELEGATION_ONLY
+      <t>This document introduces a new DNSKEY flag called DELEGATION_ONLY
    that indicates that this zone will only produce delegation responses
    for data outside of its own apex (or _underscore labels).  That is,
    the Answer Section for queries that do not involve the apex (or
@@ -20,9 +20,7 @@
    expected that the parent of this delegation-only zone bypasses or
    removes the delegation to this zone.  DNSSEC Validating Resolvers can
    use this flag to mark any data that violates the DELEGATION_ONLY
-   policy as Bogus.
-
-	 </t>
+   policy as Bogus.</t>
     </abstract>
   </front>
 </reference>

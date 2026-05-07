@@ -5,7 +5,7 @@
     <author initials="J." surname="Moy" fullname="John Moy"/>
     <date day="23" month="December" year="1998"/>
     <abstract>
-      <t>    MOSPF is a link-state multicast routing protocol, based on OSPF.
+      <t>MOSPF is a link-state multicast routing protocol, based on OSPF.
     Inside a single OSPF area, the delivery of multicast datagrams is
     restricted to group members only, by propagating the location of
     group members through group-membership-LSAs. However, group
@@ -20,9 +20,7 @@
     reuse the reliability mechanisms present in the base OSPF protocol,
     MOSPF prunes are implemented as local-scope Opaque-LSAs. As a
     result, inter-area and inter-AS multicast datagrams are forwarded by
-    MOSPF using the broadcast-and-prune strategy employed by DVMRP.
-
-	 </t>
+    MOSPF using the broadcast-and-prune strategy employed by DVMRP.</t>
     </abstract>
   </front>
 </reference>

@@ -7,7 +7,7 @@
     </author>
     <date day="20" month="November" year="2025"/>
     <abstract>
-      <t>   This document defines a new DNS message opcode, EXPIRE, which enables
+      <t>This document defines a new DNS message opcode, EXPIRE, which enables
    an authenticated authoritative operator to request immediate deletion
    of a specific RRset from a resolver's cache.  EXPIRE messages may be
    authenticated either through DNSSEC signatures or through resolver
@@ -20,9 +20,7 @@
    mechanisms, and flush the targeted RRset upon successful validation.
    EXPIRE provides a deterministic, authenticated mechanism for cache
    rollback and correction across both signed (DNSSEC) and unsigned
-   (internal) DNS deployments.
-
-	 </t>
+   (internal) DNS deployments.</t>
     </abstract>
   </front>
 </reference>

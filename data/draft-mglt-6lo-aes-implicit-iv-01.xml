@@ -10,7 +10,7 @@
     </author>
     <date day="16" month="February" year="2015"/>
     <abstract>
-      <t>   IPsec ESP with AES-CBC, AES-CTR, AES-CCM or AES-GCM sends an IV in
+      <t>IPsec ESP with AES-CBC, AES-CTR, AES-CCM or AES-GCM sends an IV in
    each IP packet, which represents 8 or 16 additional bytes.
 
    In some context, such as IoT, the cost of sending bytes over
@@ -21,9 +21,7 @@
    The document describes how to the IV can be generated instead of
    being sent.  This document limits the IV generation for AES-CBC, AES-
    CTR, AES-CCM and AES-GCM but can be used for additional cryptographic
-   mode and suites.
-
-	 </t>
+   mode and suites.</t>
     </abstract>
   </front>
 </reference>

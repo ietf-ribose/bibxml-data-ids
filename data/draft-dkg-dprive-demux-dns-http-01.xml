@@ -5,7 +5,7 @@
     <author initials="D. K." surname="Gillmor" fullname="Daniel Kahn Gillmor"/>
     <date day="03" month="May" year="2017"/>
     <abstract>
-      <t>   DNS over TCP and traditional HTTP are both stream-oriented, client-
+      <t>DNS over TCP and traditional HTTP are both stream-oriented, client-
    speaks-first protocols.  They can both be run over a stream-based
    security protocol like TLS.  A server accepting a stream-based client
    can distinguish between a valid stream of DNS queries and valid
@@ -15,9 +15,7 @@
 
    Implicit multiplexing of the two protocols over a single listening
    port can be useful for obscuring the presence of DNS queries from a
-   network observer, which makes it relevant for DNS privacy.
-
-	 </t>
+   network observer, which makes it relevant for DNS privacy.</t>
     </abstract>
   </front>
 </reference>

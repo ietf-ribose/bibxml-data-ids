@@ -10,16 +10,14 @@
     </author>
     <date day="01" month="August" year="2024"/>
     <abstract>
-      <t>   This document defines the SendHoldTimer and SendHoldTimer_Expires
+      <t>This document defines the SendHoldTimer and SendHoldTimer_Expires
    event in the LDP protocol. The implementation of SendHoldTimer helps
    address situations where the local system detects that the remote
    system has not processed LDP messages but has not terminated the LDP
    session. The document specifies that when the SendHoldTimer expires,
    the local system should close the LDP session connection, rather
    than solely relying on the remote system for session termination.
-   This document updates RFC5036.
-
-	 </t>
+   This document updates RFC5036.</t>
     </abstract>
   </front>
 </reference>

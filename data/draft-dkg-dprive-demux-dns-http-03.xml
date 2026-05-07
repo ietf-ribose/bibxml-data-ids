@@ -7,7 +7,7 @@
     </author>
     <date day="17" month="May" year="2017"/>
     <abstract>
-      <t>   DNS over TCP and HTTP/1.x are both stream-oriented, client-speaks-
+      <t>DNS over TCP and HTTP/1.x are both stream-oriented, client-speaks-
    first protocols.  They can both be run over a stream-based security
    protocol like TLS.  A server accepting a stream-based client can
    distinguish between a valid stream of DNS queries and valid stream of
@@ -24,9 +24,7 @@
    HTTP/1.x ([RFC7230]) by ossifying existing distinguishing bit
    patterns in early octets sent by the client.  However, this draft
    explicitly rules out multiplexing in this form with HTTP/2, so it
-   should place no constraints on it or any higher version of HTTP.
-
-	 </t>
+   should place no constraints on it or any higher version of HTTP.</t>
     </abstract>
   </front>
 </reference>

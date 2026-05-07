@@ -5,7 +5,7 @@
     <author initials="H." surname="Chen" fullname="Hao Chen"/>
     <date day="27" month="October" year="2014"/>
     <abstract>
-      <t>   Traditional ECMP can not balance loads well in the data center
+      <t>Traditional ECMP can not balance loads well in the data center
    network because it splits loads at the granularity of flow.  Packets
    belong to a single flow have to be delivered along the same path.
    Though it is able to avoid packet reordering, it may degrade the
@@ -14,10 +14,7 @@
    This document describes method of splitting a single flow to across
    multiple parallel paths without causing packet reordering, which is
    more effective when large flows exist.  The specific path selection
-   algorithm is NOT discussed in this document.
-
-
-	 </t>
+   algorithm is NOT discussed in this document.</t>
     </abstract>
   </front>
 </reference>

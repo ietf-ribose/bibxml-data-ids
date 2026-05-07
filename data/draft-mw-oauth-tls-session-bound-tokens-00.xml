@@ -16,7 +16,7 @@
     </author>
     <date day="18" month="March" year="2026"/>
     <abstract>
-      <t>   This document defines a mechanism for binding OAuth 2.0 access tokens
+      <t>This document defines a mechanism for binding OAuth 2.0 access tokens
    to a specific mutual TLS (mTLS) session.  The binding is achieved
    through a per-request proof token that incorporates the TLS Exporter
    value {{!RFC5705}} derived from the current session and an access
@@ -26,9 +26,7 @@
    any OAuth 2.0 access token presented over mTLS, this specification is
    primarily motivated by the Token Exchange protocol {{!RFC8693}},
    where multi-hop delegation chains in autonomous, agent-driven
-   architectures create elevated replay risk.
-
-	 </t>
+   architectures create elevated replay risk.</t>
     </abstract>
   </front>
 </reference>

@@ -8,16 +8,14 @@
     </author>
     <date day="03" month="March" year="2024"/>
     <abstract>
-      <t>   QUIC is well-suited to various NAT traversal techniques.  As it
+      <t>QUIC is well-suited to various NAT traversal techniques.  As it
    operates over UDP, and because the QUIC header was designed to be
    demultipexed from other protocols, STUN can be used on the same UDP
    socket, enabling ICE to be used with QUIC.  Furthermore, QUIC’s path
    validation mechanism can be used to test the viability of an address
    candidate pair while at the same time creating the NAT bindings
    required for a direction connection, after which QUIC connection
-   migration can be used to migrate the connection to a direct path.
-
-	 </t>
+   migration can be used to migrate the connection to a direct path.</t>
     </abstract>
   </front>
 </reference>

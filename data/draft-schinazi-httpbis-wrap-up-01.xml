@@ -10,7 +10,7 @@
     </author>
     <date day="16" month="October" year="2024"/>
     <abstract>
-      <t>   HTTP intermediaries sometimes need to terminate long-lived request
+      <t>HTTP intermediaries sometimes need to terminate long-lived request
    streams in order to facilitate load balancing or impose data limits.
    However, Web browsers commonly cannot retry failed proxied requests
    when they cannot ascertain whether an in-progress request was acted
@@ -21,9 +21,7 @@
    to a different stream or connection.  This document specifies a new
    "WRAP_UP" capsule that allows a proxy to instruct a client that it
    should not start new requests on a tunneled connection, while still
-   allowing it to finish existing requests.
-
-	 </t>
+   allowing it to finish existing requests.</t>
     </abstract>
   </front>
 </reference>

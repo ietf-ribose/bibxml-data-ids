@@ -13,16 +13,13 @@
     </author>
     <date day="25" month="March" year="2019"/>
     <abstract>
-      <t>   A BGP path attribute for the purpose of network diagnostics is
+      <t>A BGP path attribute for the purpose of network diagnostics is
    described.  It is non-transitive, such that BGP speakers will not
    forward it by default.  It is structured as a list of elements.  An
    element begins with the BGP identifier and AS number of the speaker
    that appends the element and includes a list of TLVs.  Any speaker
    can add or remove an element to/from the list.  TLVs for a timestamp
-   and for a checksum are described.
-
-
-	 </t>
+   and for a checksum are described.</t>
     </abstract>
   </front>
 </reference>

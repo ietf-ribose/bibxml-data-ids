@@ -7,7 +7,7 @@
     </author>
     <date day="12" month="January" year="2015"/>
     <abstract>
-      <t>   When a PIM router reboots, either because of uncontrolled
+      <t>When a PIM router reboots, either because of uncontrolled
    failover or because of ISSU, it needs to reconcile the
    PIM entries. For this, rebooting router sends PIM hello with
    new GenId. In reponse, neighbors send a new hello and replay
@@ -16,10 +16,7 @@
    only after which it can mark the oif reconciliation complete.
    This process is undeterministic today. This draft proposes a
    new mechanism to achieve a faster reconcilaition time. For this
-   a new Hello option and a new message type has been introduced.
-
-
-	 </t>
+   a new Hello option and a new message type has been introduced.</t>
     </abstract>
   </front>
 </reference>

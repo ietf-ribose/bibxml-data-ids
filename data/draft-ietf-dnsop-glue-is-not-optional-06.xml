@@ -16,7 +16,7 @@
     </author>
     <date day="25" month="August" year="2022"/>
     <abstract>
-      <t>   The DNS uses glue records to allow iterative clients to find the
+      <t>The DNS uses glue records to allow iterative clients to find the
    addresses of name servers that are contained within a delegated zone.
    Authoritative Servers are expected to return all available glue
    records for in-domain name servers in a referral response.  If
@@ -24,9 +24,7 @@
    for in-domain name servers, the server MUST set the TC flag to inform
    the client that the response is incomplete, and that the client
    SHOULD use another transport to retrieve the full response.  This
-   document updates RFC 1034 to clarify correct server behavior.
-
-	 </t>
+   document updates RFC 1034 to clarify correct server behavior.</t>
     </abstract>
   </front>
 </reference>
