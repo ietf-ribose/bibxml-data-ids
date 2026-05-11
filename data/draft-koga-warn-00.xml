@@ -1,0 +1,18 @@
+<reference anchor="I-D.koga-warn" target="https://datatracker.ietf.org/doc/html/draft-koga-warn-00">
+  <front>
+    <title>Wire-format Alerting for Risk Notification</title>
+    <seriesInfo name="Internet-Draft" value="draft-koga-warn-00"/>
+    <author initials="S." surname="Koga" fullname="Shunta Koga"/>
+    <date day="10" month="May" year="2026"/>
+    <abstract>
+      <t>This document describes WARN, a transport-agnostic compact binary
+   wire protocol used for emergency alerts under constrained hardware
+   and lossy networks.  It is designed to reach farther and quicker than
+   OASIS CAP, which tries to deliver full human-readable information at
+   the cost of complexity.  It primarily uses fixed fields, with support
+   for TLVs when more expressiveness is required.  It also has a
+   mandatory signature to prevent fake alerts propagating through a
+   mesh.</t>
+    </abstract>
+  </front>
+</reference>
