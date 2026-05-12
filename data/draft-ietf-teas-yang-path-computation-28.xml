@@ -1,0 +1,44 @@
+<reference anchor="I-D.ietf-teas-yang-path-computation" target="https://datatracker.ietf.org/doc/html/draft-ietf-teas-yang-path-computation-28">
+  <front>
+    <title>A YANG Data Model for requesting path computation</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-teas-yang-path-computation-28"/>
+    <author initials="I." surname="Busi" fullname="Italo Busi">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="S." surname="Belotti" fullname="Sergio Belotti">
+      <organization>Nokia</organization>
+    </author>
+    <author initials="O. G." surname="de Dios" fullname="Oscar Gonzalez de Dios">
+      <organization>Telefonica</organization>
+    </author>
+    <author initials="A." surname="Sharma" fullname="Anurag Sharma">
+      <organization>Google</organization>
+    </author>
+    <author initials="Y." surname="Shi" fullname="Yan Shi">
+      <organization>China Unicom</organization>
+    </author>
+    <date day="12" month="May" year="2026"/>
+    <abstract>
+      <t>In certain scenarios — particularly within hierarchical Software-
+   Defined Networking (SDN) environments—the topology information
+   provided by a Traffic Engineering (TE) network provider may be
+   insufficient for a client to perform end-to-end multi-domain path
+   computation.  In such cases, the client may need to delegate the
+   computation of specific intra-domain paths to the TE provider,
+   leveraging the resulting path segments to construct optimal multi-
+   domain end-to-end paths.
+
+   This document defines a mechanism to enable path computation requests
+   by augmenting the Remote Procedure Calls (RPCs) specified in RFC
+   YYYY.  The augmented RPCs support path computation on demand,
+   allowing clients to request intra-domain TE path computations from
+   the provider while maintaining control over inter-domain path
+   selection.
+
+   Additionally, this document outlines several use cases in which such
+   path computation requests are beneficial, particularly in
+   environments where YANG-based management protocols—such as NETCONF or
+   RESTCONF—are used for network automation and control.</t>
+    </abstract>
+  </front>
+</reference>
