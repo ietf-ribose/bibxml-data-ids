@@ -1,0 +1,32 @@
+<reference anchor="I-D.cheng-lsr-extension-opt-srv6-sid-adv" target="https://datatracker.ietf.org/doc/html/draft-cheng-lsr-extension-opt-srv6-sid-adv-03">
+  <front>
+    <title>IGP Extensions for Optimized SRv6 SID Advertisement</title>
+    <seriesInfo name="Internet-Draft" value="draft-cheng-lsr-extension-opt-srv6-sid-adv-03"/>
+    <author initials="W." surname="Cheng" fullname="Weiqiang Cheng">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="L." surname="Gong" fullname="Liyan Gong">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="C." surname="Lin" fullname="Changwang Lin">
+      <organization>New H3C Technologies</organization>
+    </author>
+    <author initials="L." surname="Chan" fullname="Louis Chan">
+      <organization>Individual</organization>
+    </author>
+    <date day="13" month="May" year="2026"/>
+    <abstract>
+      <t>When the IGP runs SRv6 Flex-Algo or performs QoS resource
+   allocation, it needs to assign a large number of END.X SIDs, which
+   can significantly impact IGP LSDB advertisements and overall
+   performance.
+
+   This document proposes a simplified method for advertising a large
+   number of SRv6 SIDs. This method is particularly useful in scenarios
+   that require generating many END.X SIDs, such as when supporting
+   numerous Flex-Algo algorithms. It helps reduce the size of LSDB
+   advertisements and improves IGP advertisement efficiency and
+   operational performance.</t>
+    </abstract>
+  </front>
+</reference>
