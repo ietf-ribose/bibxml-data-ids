@@ -1,0 +1,29 @@
+<reference anchor="I-D.morrison-reviewed-by-trailer" target="https://datatracker.ietf.org/doc/html/draft-morrison-reviewed-by-trailer-00">
+  <front>
+    <title>Reviewed-By Trailer: A D-ID8 Grammar Extension for Sovereign-Portable Peer Review</title>
+    <seriesInfo name="Internet-Draft" value="draft-morrison-reviewed-by-trailer-00"/>
+    <author initials="B." surname="Morrison" fullname="Blake Morrison">
+      <organization>Alter Meridian Pty Ltd</organization>
+    </author>
+    <date day="15" month="May" year="2026"/>
+    <abstract>
+      <t>This document defines a trailer grammar for sovereign-portable peer
+   review as an extension of the identity-attributed commit grammar in
+   [COMMITS].  The grammar introduces one required trailer (Reviewed-
+   By:) and three optional companion trailers (Review-Stance:, Review-
+   Of:, Witnessed-By:) that bind a Sovereign-tier ~handle to a specific
+   act of review over a specific content artefact, cryptographically
+   signed using the Ed25519 mechanism of [COMMITS].  The mechanism
+   applies uniformly to git commits, document manifests, pre-prints,
+   patent disclosures, and any other content-addressable artefact.
+   Reviewer reputation accumulates on the sovereign handle rather than
+   on a publisher's platform, making reviewer trust portable across
+   journals, pre-print servers, and private review contexts.
+   Pseudonymous review for anonymous peer-review processes is supported
+   through Speaking-tier handles while preserving cryptographic
+   verifiability.  The grammar is positioned as complementary to CRediT
+   [CREDIT], ORCID [ORCID], and DOI [DOI] attribution infrastructure,
+   not as a replacement for them.</t>
+    </abstract>
+  </front>
+</reference>
