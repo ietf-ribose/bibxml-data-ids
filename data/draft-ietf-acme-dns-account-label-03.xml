@@ -1,0 +1,32 @@
+<reference anchor="I-D.ietf-acme-dns-account-label" target="https://datatracker.ietf.org/doc/html/draft-ietf-acme-dns-account-label-03">
+  <front>
+    <title>Automated Certificate Management Environment (ACME) DNS Labeled With ACME Account ID Challenge</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-acme-dns-account-label-03"/>
+    <author initials="A." surname="Chariton" fullname="Antonis Chariton">
+      <organization>Independent Contributor</organization>
+    </author>
+    <author initials="A." surname="Omidi" fullname="Amir Omidi">
+      <organization>Independent Contributor</organization>
+    </author>
+    <author initials="J." surname="Kasten" fullname="James Kasten">
+      <organization>Snowflake</organization>
+    </author>
+    <author initials="F." surname="Loukos" fullname="Fotis Loukos">
+      <organization>Google</organization>
+    </author>
+    <author initials="S. A." surname="Janikowski" fullname="Stanislaw A. Janikowski">
+      <organization>Google</organization>
+    </author>
+    <date day="15" month="May" year="2026"/>
+    <abstract>
+      <t>This document outlines a new DNS-based challenge type for the ACME
+   protocol that enables multiple independent systems to authorize a
+   single domain name concurrently.  By adding a unique label to the DNS
+   validation record name, the dns-account-01 challenge avoids CNAME
+   delegation conflicts inherent to the dns-01 challenge type.  This is
+   particularly valuable for multi-region or multi-cloud deployments
+   that wish to rely upon DNS-based domain control validation and need
+   to independently obtain certificates for the same domain.</t>
+    </abstract>
+  </front>
+</reference>
