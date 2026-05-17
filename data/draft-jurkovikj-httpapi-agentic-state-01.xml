@@ -1,0 +1,29 @@
+<reference anchor="I-D.jurkovikj-httpapi-agentic-state" target="https://datatracker.ietf.org/doc/html/draft-jurkovikj-httpapi-agentic-state-01">
+  <front>
+    <title>HTTP Profile for Synchronized Resource State (Agentic State Transfer)</title>
+    <seriesInfo name="Internet-Draft" value="draft-jurkovikj-httpapi-agentic-state-01"/>
+    <author initials="A." surname="Jurkovikj" fullname="Antun Jurkovikj"/>
+    <date day="16" month="May" year="2026"/>
+    <abstract>
+      <t>HTTP resources are frequently exposed in multiple representations
+   (e.g., text/html for rendering and application/json for
+   processing) via Content Negotiation. Standard HTTP validators such
+   as ETags identify selected representations, while many
+   applications need concurrency control over a shared logical
+   resource state. This creates a synchronization gap where a client
+   modifying one representation cannot guarantee consistency with the
+   underlying state of another representation, leading to race
+   conditions and "lost updates" in multi-client environments.
+
+   This document specifies Agentic State Transfer (AST), an HTTP
+   profile for managing Canonical Resource State (CRS) across
+   multiple synchronized representations of the same resource. It
+   defines a State-Bearing Representation (SBR) whose strong ETag
+   acts as the AST semantic validator for the CRS. It further
+   mandates the use of Optimistic Concurrency Control via If-Match
+   headers for state-changing operations, ensuring that mutations
+   applied by agents (whether automated clients, scripts, or human-
+   driven applications) are atomic and consistent across all views.</t>
+    </abstract>
+  </front>
+</reference>
