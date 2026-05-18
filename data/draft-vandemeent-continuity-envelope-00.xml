@@ -1,0 +1,25 @@
+<reference anchor="I-D.vandemeent-continuity-envelope" target="https://datatracker.ietf.org/doc/html/draft-vandemeent-continuity-envelope-00">
+  <front>
+    <title>Continuity Envelope Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-vandemeent-continuity-envelope-00"/>
+    <author initials="J." surname="van de Meent" fullname="Jasper van de Meent">
+      <organization>Humotica</organization>
+    </author>
+    <date day="17" month="May" year="2026"/>
+    <abstract>
+      <t>This document defines the Continuity Envelope Protocol (CEP), a
+   transport-agnostic protocol model for identity-bound messaging
+   systems where delivery alone is not sufficient.
+
+   CEP separates a visible envelope surface from sealed internal object
+   truth and defines how receivers determine whether a delivered object
+   may safely and legitimately continue.  The protocol distinguishes
+   between control-plane notification, data-plane object carriage, and
+   decision-plane continuation handling.
+
+   CEP is the umbrella model for companion drafts such as TIBET TAT,
+   which specifies generic sealed handoff and transfer flow, and IDDrop,
+   which profiles that handoff model for identity transfer.</t>
+    </abstract>
+  </front>
+</reference>

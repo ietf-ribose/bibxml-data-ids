@@ -1,0 +1,25 @@
+<reference anchor="I-D.b-external-admission-boundary" target="https://datatracker.ietf.org/doc/html/draft-b-external-admission-boundary-00">
+  <front>
+    <title>External Admission Boundary for Pre-Execution AI Action Control</title>
+    <seriesInfo name="Internet-Draft" value="draft-b-external-admission-boundary-00"/>
+    <author initials="F." surname="B." fullname="Felix B.">
+      <organization>Independent Researcher</organization>
+    </author>
+    <date day="18" month="May" year="2026"/>
+    <abstract>
+      <t>This document defines an external admission boundary for pre-execution
+   AI action control.  The boundary is a control point at which execution
+   cannot proceed unless an allow decision has been issued by an authority
+   outside the executor trust domain.  The document distinguishes evidence
+   records, policy evaluations, approval logs, and signed pre-execution
+   authorization records from the stronger boundary property of authority
+   separation.
+
+   A signed pre-execution record can prove that a decision was made before
+   dispatch.  It does not by itself prove that final execution authority
+   was outside the executor trust domain.  This document provides a
+   practical test for determining whether a claimed pre-execution control
+   is a real external admission boundary or a surrogate boundary.</t>
+    </abstract>
+  </front>
+</reference>
