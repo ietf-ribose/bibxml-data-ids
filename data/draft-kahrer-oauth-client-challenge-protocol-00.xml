@@ -1,0 +1,23 @@
+<reference anchor="I-D.kahrer-oauth-client-challenge-protocol" target="https://datatracker.ietf.org/doc/html/draft-kahrer-oauth-client-challenge-protocol-00">
+  <front>
+    <title>OAuth Client Challenge Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-kahrer-oauth-client-challenge-protocol-00"/>
+    <author initials="J." surname="Kahrer" fullname="Judith Kahrer">
+      <organization>Curity</organization>
+    </author>
+    <date day="19" month="May" year="2026"/>
+    <abstract>
+      <t>This document extends the OAuth 2.0 token endpoint error response
+   (RFC 6749) with a new error code that indicates to the client that it
+   must provide additional input for the authorization server to
+   authorize it and accept its request.
+
+   This mechanism enables just-in-time authorization flows in which the
+   authorization server dynamically challenges the client during a
+   request and the client tries to satisfy it.  For example, the
+   authorization server can ask the client mid-flow to provide an
+   assertion, a verifiable presentation, or other proof-of-possession
+   material.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,23 @@
+<reference anchor="I-D.mery-nagy-taistamp" target="https://datatracker.ietf.org/doc/html/draft-mery-nagy-taistamp-00">
+  <front>
+    <title>Taistamp: Signed TAI64N Timestamps over HTTP</title>
+    <seriesInfo name="Internet-Draft" value="draft-mery-nagy-taistamp-00"/>
+    <author initials="A." surname="Mery" fullname="Alejandro Mery">
+      <organization>Apptly Software Ltd</organization>
+    </author>
+    <author initials="N. K." surname="G&#xE1;briel" fullname="Nagy K&#xE1;roly G&#xE1;briel">
+      <organization>Apptly Software Ltd</organization>
+    </author>
+    <date day="19" month="May" year="2026"/>
+    <abstract>
+      <t>This memo defines Taistamp, an HTTP-accessible service that returns
+   the current time as a TAI64N label, optionally signed with Ed25519.
+   The service is reached at the well-known URI /.well-known/taistamp
+   and is intended for clients that need an authenticated wall-clock
+   reading without running an NTP stack or relying on the client's own
+   clock for TLS certificate validation.  The signing scheme uses a
+   length-prefixed, domain-separated framing and publishes verification
+   keys as DNS TXT records in a DKIM-inspired selector layout.</t>
+    </abstract>
+  </front>
+</reference>
