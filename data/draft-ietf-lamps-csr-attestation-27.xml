@@ -1,0 +1,37 @@
+<reference anchor="I-D.ietf-lamps-csr-attestation" target="https://datatracker.ietf.org/doc/html/draft-ietf-lamps-csr-attestation-27">
+  <front>
+    <title>Use of Remote Attestation with Certification Signing Requests</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-lamps-csr-attestation-27"/>
+    <author initials="M." surname="Ounsworth" fullname="Mike Ounsworth">
+      <organization>Cryptic Forest Software</organization>
+    </author>
+    <author initials="H." surname="Tschofenig" fullname="Hannes Tschofenig">
+      <organization>Siemens</organization>
+    </author>
+    <author initials="H." surname="Birkholz" fullname="Henk Birkholz">
+      <organization>Fraunhofer SIT</organization>
+    </author>
+    <author initials="M." surname="Wiseman" fullname="Monty Wiseman"/>
+    <author initials="N." surname="Smith" fullname="Ned Smith"/>
+    <date day="20" month="May" year="2026"/>
+    <abstract>
+      <t>Certification Authorities (CAs) issuing certificates to Public Key
+   Infrastructure (PKI) end entities may require a certificate signing
+   request (CSR) to include additional verifiable information to confirm
+   policy compliance.  For example, a CA may require an end entity to
+   demonstrate that the private key corresponding to a CSR's public key
+   is secured by a hardware security module (HSM), is not exportable,
+   etc.  The process of generating, transmitting, and verifying
+   additional information required by the CA is called remote
+   attestation.  While work is currently underway to standardize various
+   aspects of remote attestation, a variety of proprietary mechanisms
+   have been in use for years, particularly regarding protection of
+   private keys.
+
+   This specification defines ASN.1 structures which may carry
+   attestation data for PKCS#10 and Certificate Request Message Format
+   (CRMF) messages.  Both standardized and proprietary attestation
+   formats are supported by this specification.</t>
+    </abstract>
+  </front>
+</reference>
