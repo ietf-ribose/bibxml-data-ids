@@ -1,0 +1,20 @@
+<reference anchor="I-D.gudzenko-httpbis-h2-cipher-selection" target="https://datatracker.ietf.org/doc/html/draft-gudzenko-httpbis-h2-cipher-selection-00">
+  <front>
+    <title>Cipher Suite Selection for HTTP/2 Negotiation over TLS 1.2</title>
+    <seriesInfo name="Internet-Draft" value="draft-gudzenko-httpbis-h2-cipher-selection-00"/>
+    <author initials="E." surname="Gudzenko" fullname="Egor Gudzenko">
+      <organization>Individual Contributor</organization>
+    </author>
+    <date day="23" month="May" year="2026"/>
+    <abstract>
+      <t>Section 9.2.2 of RFC 9113 identifies, but does not normatively
+   resolve, a failure mode in which the application protocol and the
+   cipher suite are selected independently, resulting in a successfully
+   completed TLS handshake whose negotiated parameters may be rejected
+   at the HTTP/2 layer with an INADEQUATE_SECURITY connection error.
+   This document addresses that gap by adding a SHOULD-level procedure
+   that coordinates cipher suite selection with ALPN negotiation, and
+   updates RFC9113.</t>
+    </abstract>
+  </front>
+</reference>
