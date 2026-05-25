@@ -1,0 +1,34 @@
+<reference anchor="I-D.ietf-plants-merkle-tree-certs" target="https://datatracker.ietf.org/doc/html/draft-ietf-plants-merkle-tree-certs-04">
+  <front>
+    <title>Merkle Tree Certificates</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-plants-merkle-tree-certs-04"/>
+    <author initials="D." surname="Benjamin" fullname="David Benjamin">
+      <organization>Google LLC</organization>
+    </author>
+    <author initials="D." surname="O'Brien" fullname="Devon O'Brien">
+      <organization>Apple Inc.</organization>
+    </author>
+    <author initials="B." surname="Westerbaan" fullname="Bas Westerbaan">
+      <organization>Cloudflare</organization>
+    </author>
+    <author initials="L." surname="Valenta" fullname="Luke Valenta">
+      <organization>Cloudflare</organization>
+    </author>
+    <author initials="F." surname="Valsorda" fullname="Filippo Valsorda">
+      <organization>Geomys</organization>
+    </author>
+    <date day="24" month="May" year="2026"/>
+    <abstract>
+      <t>This document describes Merkle Tree certificates, a new form of X.509
+   certificates which integrate public logging of the certificate, in
+   the style of Certificate Transparency.  The integrated design reduces
+   logging overhead in the face of both shorter-lived certificates and
+   large post-quantum signature algorithms, while still achieving
+   comparable security properties to existing X.509 constructions and
+   Certificate Transparency.  Merkle Tree certificates additionally
+   admit an optional size optimization that avoids signatures
+   altogether, at the cost of only applying to up-to-date relying
+   parties and older certificates.</t>
+    </abstract>
+  </front>
+</reference>
