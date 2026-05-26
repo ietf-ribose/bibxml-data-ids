@@ -1,0 +1,25 @@
+<reference anchor="I-D.antony-ipsecme-udp-encap-multiport" target="https://datatracker.ietf.org/doc/html/draft-antony-ipsecme-udp-encap-multiport-00">
+  <front>
+    <title>Multiple UDP Source Ports for ESP in UDP Encapsulation</title>
+    <seriesInfo name="Internet-Draft" value="draft-antony-ipsecme-udp-encap-multiport-00"/>
+    <author initials="A." surname="Antony" fullname="Antony Antony">
+      <organization>secunet Security Networks AG</organization>
+    </author>
+    <author initials="S." surname="Klassert" fullname="Steffen Klassert">
+      <organization>secunet Security Networks AG</organization>
+    </author>
+    <date day="25" month="May" year="2026"/>
+    <abstract>
+      <t>This document specifies a mechanism to improve network path
+   distribution and host receive-queue load distribution for IPsec
+   traffic using ESP in UDP encapsulation [RFC3948].  Using the per-
+   resource Child SA mechanism of [RFC9611], peers negotiate multiple
+   Child SAs each bound to a distinct UDP source port.  The resulting
+   variation in UDP source port enables receive-side scaling (RSS) and
+   equal-cost multi-path (ECMP) load balancing, supporting efficient
+   per-CPU IPsec processing.  This document specifies the IKEv2
+   negotiation, NAT traversal behavior, and operational requirements for
+   this mechanism.</t>
+    </abstract>
+  </front>
+</reference>
