@@ -1,0 +1,44 @@
+<reference anchor="I-D.melegassi-dispatch-mvps-snap-backup" target="https://datatracker.ietf.org/doc/html/draft-melegassi-dispatch-mvps-snap-backup-00">
+  <front>
+    <title>SNAP: Simple Native Archive Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-melegassi-dispatch-mvps-snap-backup-00"/>
+    <author initials="R." surname="Yoshioka" fullname="Rodrigo Yoshioka">
+      <organization>e.Mix</organization>
+    </author>
+    <author initials="G." surname="Labadessa" fullname="Guilherme Labadessa">
+      <organization>OrcaTI</organization>
+    </author>
+    <author initials="P." surname="Scalon" fullname="Pedro Scalon">
+      <organization>Sysbrasil Tecnologia</organization>
+    </author>
+    <author initials="D. C." surname="de Brito" fullname="Diego Canton de Brito">
+      <organization>Vero Internet</organization>
+    </author>
+    <author initials="E." surname="Belotto" fullname="Eduardo Belotto">
+      <organization>Zadara</organization>
+    </author>
+    <date day="26" month="May" year="2026"/>
+    <abstract>
+      <t>SNAP (Simple Native Archive Protocol) defines a minimal, self-
+   describing backup object encoded as a single JSON document, modeled
+   in YANG [RFC7950] and encoded per [RFC7951].  A SNAP object contains
+   a manifest of files with per-file cryptographic hashes, integrity-
+   verified metadata, and a compressed binary payload -- all within one
+   atomic, transport-agnostic JSON document.  Any agent capable of
+   parsing JSON and applying standard decompression can produce or
+   restore a SNAP backup without proprietary tooling, side-channel
+   metadata, or multi-phase handshakes.
+
+   This document defines the YANG module "snap", its JSON encoding,
+   integrity verification procedure, bindings to common transports, and
+   its role as the atomic transport substrate for the Multi-Vantage Path
+   State (MVPS) family of Internet-Drafts.  When a SNAP Object carries
+   an MVPS Bundle [I-D.melegassi-ippm-mvps-bundle], the canonical-form
+   determinism of SNAP (Theorem 1 of this document) composes with the
+   MVPS Architecture axioms A1..A5 [I-D.melegassi-iab-mvps-architecture]
+   to inherit the full coherence algebra of [MVPS-v4] (Theorems 1, 2, 3,
+   3', 4, 5, 9 and Stein's Lemma [Stein52] [CoverThomas2006]) without
+   alteration.</t>
+    </abstract>
+  </front>
+</reference>

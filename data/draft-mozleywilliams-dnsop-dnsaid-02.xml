@@ -1,0 +1,53 @@
+<reference anchor="I-D.mozleywilliams-dnsop-dnsaid" target="https://datatracker.ietf.org/doc/html/draft-mozleywilliams-dnsop-dnsaid-02">
+  <front>
+    <title>DNS for AI Discovery</title>
+    <seriesInfo name="Internet-Draft" value="draft-mozleywilliams-dnsop-dnsaid-02"/>
+    <author initials="J." surname="Mozley" fullname="Jim Mozley">
+      <organization>Infoblox, Inc.</organization>
+    </author>
+    <author initials="N." surname="Williams" fullname="Nic Williams">
+      <organization>Infoblox, Inc.</organization>
+    </author>
+    <author initials="B." surname="Sarikaya" fullname="Behcet Sarikaya">
+      <organization>Unaffiliated</organization>
+    </author>
+    <author initials="R." surname="Schott" fullname="Roland Schott">
+      <organization>Deutsche Telekom</organization>
+    </author>
+    <author initials="J." surname="Damick" fullname="Jeffrey Damick">
+      <organization>Amazon</organization>
+    </author>
+    <date day="27" month="May" year="2026"/>
+    <abstract>
+      <t>The document standardizes an approach for publishing AI agents in the
+   Domain Name System (DNS) so that other agents can discover them.
+   Discovery is then initiated based on one of three generic use cases,
+   in increasing computational and latency cost: (1) the requestor knows
+   both the organization and agent (2) the requestor knows the
+   organization that provides a capability, but not the specific agent
+   (3) the requestor knows the required capability, but not the
+   organization or agent.  Of these use cases only (1) and (2) are in
+   scope for this document, although (3) can be derived from this
+   specification.
+
+   DNS for AI Discovery (DNS-AID) is designed so that, once a client has
+   learned an organization's agents, subsequent transactions can utilize
+   the first use case with the benefit of cacheable connectivity
+   information that is learnable as an agentic skill.  The mechanism
+   uses Service Binding (SVCB) records for connectivity information and
+   key meta data, a well known entry point using DNS-Based Service
+   Discovery (DNS-SD) labels into an organization's agent index, and
+   optionally DNS Security Extensions (DNSSEC) and DNS-Based
+   Authentication of Named Entities (DANE) TLSA records for trust and
+   security.  DNS-AID provides consumers of agent services with a direct
+   connection method for agentic workloads not mediated by a third
+   party.  Organizations can use the same approach across public and
+   private networks networks, providing consistency and common
+   operational models, including publishing agents that are hosted in
+   service provider domains.
+
+   This document introduces no new resource record types, opcodes, or
+   response codes.</t>
+    </abstract>
+  </front>
+</reference>
