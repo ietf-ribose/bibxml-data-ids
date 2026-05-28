@@ -1,0 +1,23 @@
+<reference anchor="I-D.ietf-jmap-metadata" target="https://datatracker.ietf.org/doc/html/draft-ietf-jmap-metadata-02">
+  <front>
+    <title>JMAP Object Metadata</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-jmap-metadata-02"/>
+    <author initials="M." surname="De Gennaro" fullname="Mauro De Gennaro">
+      <organization>Stalwart Labs LLC</organization>
+    </author>
+    <date day="27" month="May" year="2026"/>
+    <abstract>
+      <t>This document defines an extension to the JSON Meta Application
+   Protocol (JMAP) that lets clients and servers attach metadata to
+   existing JMAP data types.  Each opted-in data type gains two new
+   properties, metadata and privateMetadata, whose values are objects
+   keyed by _namespace identifier_. A namespace identifier is either a
+   name registered with IANA or a domain name controlled by the vendor
+   providing the namespace; the latter allows vendors and applications
+   to extend the metadata schema without prior coordination.  Because
+   metadata is carried as a property on the related object, clients use
+   the existing /get, /set, /changes, and /query methods to read,
+   modify, and synchronize it.</t>
+    </abstract>
+  </front>
+</reference>

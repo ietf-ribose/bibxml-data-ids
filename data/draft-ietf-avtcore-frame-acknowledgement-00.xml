@@ -1,0 +1,29 @@
+<reference anchor="I-D.ietf-avtcore-frame-acknowledgement" target="https://datatracker.ietf.org/doc/html/draft-ietf-avtcore-frame-acknowledgement-00">
+  <front>
+    <title>RTCP Feedback Message and Request Mechanism for Frame-level Acknowledgement</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-avtcore-frame-acknowledgement-00"/>
+    <author initials="E." surname="Spr&#xE5;ng" fullname="Erik Spr&#xE5;ng">
+      <organization>Google</organization>
+    </author>
+    <author initials="G. S." surname="Chandok" fullname="Gurtej Singh Chandok">
+      <organization>Apple</organization>
+    </author>
+    <author initials="S." surname="Majali" fullname="Shridhar Majali">
+      <organization>Nvidia</organization>
+    </author>
+    <date day="28" month="May" year="2026"/>
+    <abstract>
+      <t>This document describes a mechanism for signaling which video frames
+   have been received and decoded by a remote peer.  It comprises an
+   RTCP feedback message and an RTP header extension used to request
+   said feedback.
+
+   One of the main use cases for this data is to implement various forms
+   of Long Term Reference (LTR) reference structures.  Additionally, the
+   mechanism provides a way for receivers to request resynchronization
+   frames that reference acknowledged frames, enabling efficient
+   recovery from partial or full frame loss without requiring a full
+   keyframe.</t>
+    </abstract>
+  </front>
+</reference>

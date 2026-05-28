@@ -1,0 +1,25 @@
+<reference anchor="I-D.bonica-tcpm-tcp-ao-long-algs" target="https://datatracker.ietf.org/doc/html/draft-bonica-tcpm-tcp-ao-long-algs-01">
+  <front>
+    <title>384-bit Cryptographic Algorithms For Use With TCP-AO</title>
+    <seriesInfo name="Internet-Draft" value="draft-bonica-tcpm-tcp-ao-long-algs-01"/>
+    <author initials="R. P." surname="Bonica" fullname="Ron Bonica">
+      <organization>HPE</organization>
+    </author>
+    <author initials="T." surname="Li" fullname="Tony Li">
+      <organization>HPE</organization>
+    </author>
+    <date day="28" month="May" year="2026"/>
+    <abstract>
+      <t>RFC5926 creates a list of cryptographic algorithms that can be used
+   with TCP-AO.  This document expands that list, adding two Key
+   Derivation Functions (KDFs) and two Message Authentication Code (MAC)
+   Algorithms.  They are called HKDF-SHA384, KMAC384-KDF, HMAC-SHA384,
+   and KMAC384.
+
+   The algorithms described by this document produce 384-bit (i.e.,
+   48-byte) MACs.  When 48-byte MACs are encoded in TCP-AO, the TCP-AO
+   consumes 52 bytes.  This exceeds TCP's current 40-byte option size
+   limitation.</t>
+    </abstract>
+  </front>
+</reference>
