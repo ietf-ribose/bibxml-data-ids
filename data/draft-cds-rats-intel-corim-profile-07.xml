@@ -1,0 +1,44 @@
+<reference anchor="I-D.cds-rats-intel-corim-profile" target="https://datatracker.ietf.org/doc/html/draft-cds-rats-intel-corim-profile-07">
+  <front>
+    <title>Intel Profile for Remote Attestation</title>
+    <seriesInfo name="Internet-Draft" value="draft-cds-rats-intel-corim-profile-07"/>
+    <author initials="J. D." surname="Beaney" fullname="James D. Beaney">
+      <organization>Intel Corporation</organization>
+    </author>
+    <author initials="F." surname="Chinchilla" fullname="Francisco Chinchilla">
+      <organization>Intel Corporation</organization>
+    </author>
+    <author initials="Y." surname="Deshpande" fullname="Yogesh Deshpande">
+      <organization>ARM Corporation</organization>
+    </author>
+    <author initials="V." surname="Scarlata" fullname="Vincent Scarlata">
+      <organization>Intel Corporation</organization>
+    </author>
+    <author initials="N." surname="Smith" fullname="Ned Smith">
+      <organization>Independent</organization>
+    </author>
+    <date day="28" month="May" year="2026"/>
+    <abstract>
+      <t>This document is a profile of various IETF and TCG standards that
+   support remote attestation.  The profile supports Intel-specific
+   adaptations and extensions for Evidence, Endorsements and Reference
+   Values.  This profile describes a particular application of CoRIM,
+   EAT, CMW, TCG concise evidence, and TCG DICE specifications.  In
+   particular, CoRIM is extended to define measurement types that are
+   unique to Intel and defines Reference Values types that support
+   matching Evidence based on range and subset comparison.  Multiple
+   Evidence formats are anticipated, based on IETF and TCG
+   specifications.  Evidence formats are mapped to Reference Values
+   expressions based on CoRIM and CoRIM extensions found in this
+   profile.  The Evidence to Reference Values mappings are either
+   documented by industry specifications or by this profile.  Reference
+   Value Providers and Endorsers may use this profile to author
+   mainifests containing Reference Values and Endorsements that require
+   Intel profile support from parser implementations.  Parser
+   implementations can recognize the Intel profile by profile identifier
+   values contained within attestation conceptual mmessages and from
+   profile parameters to media types or profile specific content format
+   identifiers.</t>
+    </abstract>
+  </front>
+</reference>

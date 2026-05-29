@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-sidrops-rpki-ta-tiebreaker" target="https://datatracker.ietf.org/doc/html/draft-ietf-sidrops-rpki-ta-tiebreaker-05">
+  <front>
+    <title>Tiebreaking Resource Public Key Infrastructure (RPKI) Trust Anchors</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-sidrops-rpki-ta-tiebreaker-05"/>
+    <author initials="J." surname="Snijders" fullname="Job Snijders">
+      <organization>BSD Software Development</organization>
+    </author>
+    <author initials="T." surname="Buehler" fullname="Theo Buehler">
+      <organization>OpenBSD</organization>
+    </author>
+    <author initials="T." surname="de Kock" fullname="Ties de Kock">
+      <organization>RIPE NCC</organization>
+    </author>
+    <date day="29" month="May" year="2026"/>
+    <abstract>
+      <t>A Trust Anchor (TA) in the Resource Public Key Infrastructure (RPKI)
+   is represented by a self-signed X.509 Certification Authority (CA)
+   certificate.  Over time, Relying Parties (RP) may have acquired
+   multiple different issuances of valid TA certificates from the same
+   TA operator.  This document specifies a tiebreaking scheme to be used
+   by RPs to select one TA certificate for certification path
+   validation.  This document updates RFC 8630.</t>
+    </abstract>
+  </front>
+</reference>

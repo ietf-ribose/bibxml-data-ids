@@ -1,0 +1,24 @@
+<reference anchor="I-D.melegassi-ippm-mvps-latency-reconciliation" target="https://datatracker.ietf.org/doc/html/draft-melegassi-ippm-mvps-latency-reconciliation-00">
+  <front>
+    <title>MVPS Detection-Latency Reconciliation: A Unified Onset-Phase Lemma for Multi-Vantage Coherence Profiles</title>
+    <seriesInfo name="Internet-Draft" value="draft-melegassi-ippm-mvps-latency-reconciliation-00"/>
+    <author initials="L. M." surname="Costa" fullname="Leonardo Melegassi Costa">
+      <organization>Catellix</organization>
+    </author>
+    <date day="28" month="May" year="2026"/>
+    <abstract>
+      <t>Several Multi-Vantage Path Snapshot (MVPS) profiles state a
+   detection-latency bound as a function of the detection multiplier M
+   and the control-tick period T_tick.  The bandwidth-efficient profile
+   [I-D.melegassi-mvps-incremental-be] states it as M*T_tick; the
+   Coherence-BFD [I-D.melegassi-coherence-bfd] and DDoS-Resilience
+   [I-D.melegassi-mvps-ddos-resilience] profiles state it as
+   (M-1)*T_tick.  A reviewer reading two profiles in parallel observes
+   a one-tick disagreement.
+
+   This document shows the disagreement is not a mathematical error but
+   an unstated difference in the ONSET-PHASE convention, and closes it
+   with a single Unified Detection-Latency Lemma (L_DL):</t>
+    </abstract>
+  </front>
+</reference>
