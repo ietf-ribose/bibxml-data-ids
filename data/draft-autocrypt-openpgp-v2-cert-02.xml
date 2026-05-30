@@ -1,0 +1,30 @@
+<reference anchor="I-D.autocrypt-openpgp-v2-cert" target="https://datatracker.ietf.org/doc/html/draft-autocrypt-openpgp-v2-cert-02">
+  <front>
+    <title>Autocrypt v2 OpenPGP Certificates and Transferable Secret Keys</title>
+    <seriesInfo name="Internet-Draft" value="draft-autocrypt-openpgp-v2-cert-02"/>
+    <author initials="D. K." surname="Gillmor" fullname="Daniel Kahn Gillmor">
+      <organization>American Civil Liberties Union</organization>
+    </author>
+    <author initials="H." surname="Krekel" fullname="Holger Krekel">
+      <organization>merlinux gmbh</organization>
+    </author>
+    <author initials="F." surname="Ziegelmayer" fullname="Friedel Ziegelmayer">
+      <organization>n0 Inc.</organization>
+    </author>
+    <date day="29" month="May" year="2026"/>
+    <abstract>
+      <t>This document describes the "Autocrypt v2 Certificate", a standard
+   structure for an OpenPGP certificate for Internet messaging.  It
+   offers defense against store-now-decrypt-later attacks from quantum
+   computers through post-quantum hybrid cryptography.  It also enables
+   reliable deletion ("Forward Secrecy") of received messages even when
+   adversaries capture encrypted messages in transit and later
+   compromise the user's message archive and secret keys.  The design
+   uses deterministically ratcheted rotating encryption subkeys with
+   predictable expiration combined with coordinated secret key material
+   destruction.  This document also describes the structure, use, and
+   maintenance of the OpenPGP Transferable Secret Key that corresponds
+   with the Autocrypt v2 Certificate.</t>
+    </abstract>
+  </front>
+</reference>

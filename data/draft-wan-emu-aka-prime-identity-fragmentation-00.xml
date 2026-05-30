@@ -1,0 +1,22 @@
+<reference anchor="I-D.wan-emu-aka-prime-identity-fragmentation" target="https://datatracker.ietf.org/doc/html/draft-wan-emu-aka-prime-identity-fragmentation-00">
+  <front>
+    <title>EAP-AKA' Identity Fragmentation</title>
+    <seriesInfo name="Internet-Draft" value="draft-wan-emu-aka-prime-identity-fragmentation-00"/>
+    <author initials="T." surname="Wan" fullname="Tao Wan">
+      <organization>CableLabs</organization>
+    </author>
+    <date day="29" month="May" year="2026"/>
+    <abstract>
+      <t>This document updates EAP-AKA’ (RFC 9048) by defining the use of the
+   AT_FRAGMENT mechanism, as defined in I-D.ietf-emu-pqc-eapaka, for
+   fragmentation of the AT_IDENTITY attribute.  This update allows a
+   peer to convey a large network access identifier, such as a
+   Subscription Concealed Identifier (SUCI), during the EAP-AKA’
+   identity exchange when the encoded identity is too large to fit
+   reliably in a single EAP packet.  This is intended to support large
+   SUCI values produced by post-quantum cryptographic concealment
+   schemes, while preserving the existing EAP-AKA’ challenge and key
+   derivation procedures.</t>
+    </abstract>
+  </front>
+</reference>

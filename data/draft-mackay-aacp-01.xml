@@ -1,0 +1,41 @@
+<reference anchor="I-D.mackay-aacp" target="https://datatracker.ietf.org/doc/html/draft-mackay-aacp-01">
+  <front>
+    <title>Agent Action Compression Protocol (AACP) Version 1.1</title>
+    <seriesInfo name="Internet-Draft" value="draft-mackay-aacp-01"/>
+    <author initials="A." surname="Mackay" fullname="Andrew Mackay">
+      <organization>Independent</organization>
+    </author>
+    <date day="30" month="May" year="2026"/>
+    <abstract>
+      <t>This document defines the Agent Action Compression Protocol (AACP), a
+   pipe-delimited coordination format for agent-to-agent communication
+   in multi-agent large language model (LLM) systems.  AACP transforms
+   verbose natural language coordination instructions into
+   deterministic, typed, machine-parseable packets that can be validated
+   before transmission, logged as structured audit records, and replayed
+   consistently across workflow runs.
+
+   For known workflow types, a rule-based encoder produces AACP packets
+   deterministically at zero LLM cost.  A three-tier fallback encoder
+   extends this to novel instructions: exact matches are served from a
+   local registry cache at zero cost; pattern matches route to rule-
+   based encoding at zero cost; novel instructions are encoded via LLM
+   and logged to the registry, ensuring each novel pattern incurs at
+   most one LLM encoding call regardless of how many times it
+   subsequently appears.
+
+   As a secondary benefit, AACP reduces coordination token usage by
+   approximately 23 percent versus equivalent natural language
+   instructions, measured against live API tokenisation on Claude Sonnet
+   4.5 and GPT-4o.  Consistent token reduction has been validated across
+   four models: Claude Sonnet 4.5, GPT-4o, GPT-4.1, and GPT-4.1-mini.
+
+   AACP operates above transport protocols such as the Model Context
+   Protocol (MCP) and Agent-to-Agent Protocol (A2A), compressing message
+   payload content rather than addressing routing or delivery.  The
+   protocol is transport-agnostic, model-agnostic, and designed to
+   complement rather than replace existing agent coordination
+   infrastructure.</t>
+    </abstract>
+  </front>
+</reference>

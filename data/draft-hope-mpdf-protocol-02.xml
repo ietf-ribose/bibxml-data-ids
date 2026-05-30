@@ -1,0 +1,22 @@
+<reference anchor="I-D.hope-mpdf-protocol" target="https://datatracker.ietf.org/doc/html/draft-hope-mpdf-protocol-02">
+  <front>
+    <title>Multi-channel Pixel Diagonal Flow (MPDF) Protocol Specification</title>
+    <seriesInfo name="Internet-Draft" value="draft-hope-mpdf-protocol-02"/>
+    <author initials="" surname="pootBnel" fullname="pootBnel">
+      <organization>Hope Project</organization>
+    </author>
+    <date day="29" month="May" year="2026"/>
+    <abstract>
+      <t>This document updates the Deterministic Spatial Restoration Protocol
+   (DSRP) specification by defining the low-level silicon memory pointer
+   trajectories required to execute 4-to-1 Macro-Pixel Fusion.
+   To achieve zero-CPU, hardware-wire speed execution and eliminate
+   pipeline memory stalls, DSRP rejects single-row or single-column
+   iterative scanning. This specification mandates a Dual-Row
+   Parallel Shunt (DRPS) mechanism, where the hardware memory controller
+   treats the 2D canvas as interlocking row-pairs, scanning horizontally
+   with a 2-bit sliding window to output the 2-bit Absolute Gate Numbers
+   within a single clock cycle.</t>
+    </abstract>
+  </front>
+</reference>

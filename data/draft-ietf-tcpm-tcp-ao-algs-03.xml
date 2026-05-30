@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-tcpm-tcp-ao-algs" target="https://datatracker.ietf.org/doc/html/draft-ietf-tcpm-tcp-ao-algs-03">
+  <front>
+    <title>Additional Cryptographic Algorithms For Use With TCP-AO</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-tcpm-tcp-ao-algs-03"/>
+    <author initials="R. P." surname="Bonica" fullname="Ron Bonica">
+      <organization>HPE</organization>
+    </author>
+    <author initials="T." surname="Li" fullname="Tony Li">
+      <organization>HPE</organization>
+    </author>
+    <date day="29" month="May" year="2026"/>
+    <abstract>
+      <t>RFC5926 creates a list of cryptographic algorithms that can be used
+   with TCP-AO.  This document expands that list, adding two Message
+   Authentication Code (MAC) algorithms, HMAC-SHA256-128 and
+   KMAC256-128.  For each MAC algorithm, a corresponding Key Derivation
+   Function (KDF) is also added.
+
+   The MAC algorithms described by this document produce 128-bit (i.e.,
+   16-byte) MACs.  When 16-byte MACs are encoded in TCP-AO, the TCP-AO
+   consumes 20 bytes.  This does not challenge TCP's 40-byte option size
+   limitation.</t>
+    </abstract>
+  </front>
+</reference>
