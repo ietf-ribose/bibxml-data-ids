@@ -1,0 +1,39 @@
+<reference anchor="I-D.ietf-idr-sr-policy-metric" target="https://datatracker.ietf.org/doc/html/draft-ietf-idr-sr-policy-metric-05">
+  <front>
+    <title>BGP SR Policy Extensions for Metric</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-idr-sr-policy-metric-05"/>
+    <author initials="Z." surname="Li" fullname="Zhenqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="" surname="KaZhang" fullname="KaZhang">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="J." surname="Dong" fullname="Jie Dong">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="K." surname="Talaulikar" fullname="Ketan Talaulikar">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author initials="R." surname="Gu" fullname="Rui Gu">
+      <organization>Huawei</organization>
+    </author>
+    <date day="02" month="June" year="2026"/>
+    <abstract>
+      <t>An SR Policy consists of one or more Candidate Paths (CPs), each
+   comprising one or more segment lists.  BGP can be used to propogate
+   SR Policy CPs to the SR Policy headend nodes in the network.  After
+   an SR Policy CP is installed on the headend node, packets can be
+   steered into the SR Policy.
+
+   For a particular BGP destination, if there are multiple BGP routes
+   with different next-hops, BGP best path selection is performed and
+   the IGP metric to the next-hop node may be used for tie-breaking to
+   select the best path.  When the path to the next-hop is resolved over
+   an SR Policy, the IGP metric of the SR policy is needed for BGP path
+   selection.
+
+   This document defines the BGP extensions to carry the IGP metric of
+   segment lists when BGP is used to propagate SR Policy CPs.</t>
+    </abstract>
+  </front>
+</reference>

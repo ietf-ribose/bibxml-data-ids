@@ -1,0 +1,37 @@
+<reference anchor="I-D.filsfils-srv6ops-srv6-e2e-dc-frontend-wan" target="https://datatracker.ietf.org/doc/html/draft-filsfils-srv6ops-srv6-e2e-dc-frontend-wan-02">
+  <front>
+    <title>SRv6 End-to-End DC Frontend and WAN</title>
+    <seriesInfo name="Internet-Draft" value="draft-filsfils-srv6ops-srv6-e2e-dc-frontend-wan-02"/>
+    <author initials="C." surname="Filsfils" fullname="Clarence Filsfils">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author initials="P." surname="Camarillo" fullname="Pablo Camarillo">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author initials="K." surname="Michielsen" fullname="Kris Michielsen">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author initials="A." surname="Gorovoy" fullname="Alexey Gorovoy">
+      <organization>Nebius</organization>
+    </author>
+    <author initials="N." surname="Leymann" fullname="Nicolai Leymann">
+      <organization>Deutsche Telekom</organization>
+    </author>
+    <date day="03" month="June" year="2026"/>
+    <abstract>
+      <t>The SRv6 Network Programming architecture allows an application to
+   control the end-to-end journey of traffic flows through different
+   network domains in a unified and stateless manner, without requiring
+   intermediate network devices to maintain per-flow information.
+
+   This document covers its application to the integration of data
+   center (DC) and wide area network (WAN) architectures using SRv6 with
+   uSID (NEXT-CSID).  It describes a unified IPv6 data plane from tenant
+   workloads through the DC frontend to Internet peering, replacing
+   designs that stitch separate overlay protocols at the Data Center
+   Interconnect (DCI).  The solution enhances scalability and enables
+   flexible stateless service insertion by unifying underlay, overlay,
+   and service steering under SRv6.</t>
+    </abstract>
+  </front>
+</reference>
