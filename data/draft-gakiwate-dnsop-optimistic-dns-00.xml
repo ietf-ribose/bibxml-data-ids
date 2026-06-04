@@ -1,0 +1,31 @@
+<reference anchor="I-D.gakiwate-dnsop-optimistic-dns" target="https://datatracker.ietf.org/doc/html/draft-gakiwate-dnsop-optimistic-dns-00">
+  <front>
+    <title>Optimistic DNS</title>
+    <seriesInfo name="Internet-Draft" value="draft-gakiwate-dnsop-optimistic-dns-00"/>
+    <author initials="G." surname="Akiwate" fullname="Gautam Akiwate">
+      <organization>Apple Inc.</organization>
+    </author>
+    <author initials="P." surname="Flack" fullname="Phil Flack">
+      <organization>Apple Inc.</organization>
+    </author>
+    <author initials="S." surname="Cheshire" fullname="Stuart Cheshire">
+      <organization>Apple Inc.</organization>
+    </author>
+    <date day="03" month="June" year="2026"/>
+    <abstract>
+      <t>DNS lookups introduce user-visible delay, particularly when cached
+   records have expired and must be refreshed from the network.  This
+   document describes Optimistic DNS, a client-side stub resolver
+   mechanism that immediately returns expired cached DNS records to
+   applications while simultaneously refreshing them with a network
+   query.  The application receives an answer in microseconds rather
+   than milliseconds, and if the data has changed receives an updated
+   answer shortly thereafter.  Optimistic DNS is complementary to RFC
+   8767, which addresses serving stale data at recursive resolvers.
+   This document focuses exclusively on client-side stub resolver
+   behavior, including explicit signaling from the application to inform
+   the stub resolver that the application is able to handle old and
+   possibly incorrect information.</t>
+    </abstract>
+  </front>
+</reference>

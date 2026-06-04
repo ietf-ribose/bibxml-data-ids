@@ -1,0 +1,26 @@
+<reference anchor="I-D.elkhatabi-verifiable-telemetry-ledgers" target="https://datatracker.ietf.org/doc/html/draft-elkhatabi-verifiable-telemetry-ledgers-07">
+  <front>
+    <title>Verifiable Telemetry Ledgers for Resource-Constrained Environments</title>
+    <seriesInfo name="Internet-Draft" value="draft-elkhatabi-verifiable-telemetry-ledgers-07"/>
+    <author initials="B." surname="El Khatabi" fullname="Bilal El Khatabi">
+      <organization>Independent</organization>
+    </author>
+    <date day="04" month="June" year="2026"/>
+    <abstract>
+      <t>This document profiles a verifiable-telemetry ledger for resource-
+   constrained deployments.  After a gateway has admitted telemetry
+   under its transport and anti-replay rules, the profile fixes a
+   reference framed transport, deterministic projection to a canonical
+   record, a daily Concise Binary Object Representation (CBOR) day
+   artifact and its Merkle construction, a verification manifest, three
+   disclosure classes, and binding of the day-artifact digest to
+   external timestamp channels.  OpenTimestamps (OTS) is the default
+   anchoring channel; RFC 3161 timestamp responses and peer signatures
+   are optional parallel channels.
+
+   The profile enables independent recomputation and audit of disclosed
+   evidence.  It does not cover device onboarding, end-to-end security
+   of sensor values, or safety decisions.</t>
+    </abstract>
+  </front>
+</reference>

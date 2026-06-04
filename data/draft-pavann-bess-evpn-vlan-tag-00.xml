@@ -1,0 +1,32 @@
+<reference anchor="I-D.pavann-bess-evpn-vlan-tag" target="https://datatracker.ietf.org/doc/html/draft-pavann-bess-evpn-vlan-tag-00">
+  <front>
+    <title>EVPN VLAN Tag Extended Community</title>
+    <seriesInfo name="Internet-Draft" value="draft-pavann-bess-evpn-vlan-tag-00"/>
+    <author initials="P." surname="Narasimhaprasad" fullname="Pavan Narasimhaprasad">
+      <organization>Arista Networks</organization>
+    </author>
+    <author initials="M." surname="Rumuly" fullname="Mason Rumuly">
+      <organization>Arista Networks</organization>
+    </author>
+    <author initials="A." surname="Shashidhar" fullname="Akhil Shashidhar">
+      <organization>Arista Networks</organization>
+    </author>
+    <date day="03" month="June" year="2026"/>
+    <abstract>
+      <t>Ethernet Virtual Private Network (EVPN), as defined in RFC 7432,
+   provides a control plane for distributing MAC and IP address bindings
+   using BGP MAC/IP Advertisement routes.  In several deployment
+   scenarios, policy decisions depend not only on MAC/IP bindings but
+   also on VLAN encapsulation information, particularly in environments
+   using - IEEE 802.1Q VLAN tagging and IEEE 802.1ad provider bridging
+   (QinQ).
+
+   However, RFC 7432 does not define a mechanism to propagate VLAN
+   information associated with MAC/IP bindings.  This document defines a
+   new EVPN Extended Community that carries VLAN identifiers to enable
+   consistent policy enforcement across EVPN Provider Edge devices.
+   This document does not modify EVPN route selection or forwarding
+   behavior defined in RFC 7432.</t>
+    </abstract>
+  </front>
+</reference>

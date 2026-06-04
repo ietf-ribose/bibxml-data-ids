@@ -1,0 +1,26 @@
+<reference anchor="I-D.hopley-x402-federation-zkp" target="https://datatracker.ietf.org/doc/html/draft-hopley-x402-federation-zkp-00">
+  <front>
+    <title>Cross-Issuer ZKP Federation for Post-Quantum Agentic Payment Credentials</title>
+    <seriesInfo name="Internet-Draft" value="draft-hopley-x402-federation-zkp-00"/>
+    <author initials="C." surname="Hopley" fullname="Christopher Hopley">
+      <organization>AlgoVoi</organization>
+    </author>
+    <date day="04" month="June" year="2026"/>
+    <abstract>
+      <t>This document defines a protocol for composing independently-issued
+   post-quantum ZKP credentials from different issuers into a single
+   federation token, without requiring a shared trust root between
+   issuers.
+
+   Each credential is a Falcon-1024 (NIST FIPS 206) or ML-DSA-65 (NIST
+   FIPS 204) signed Bulletproofs range proof asserting that an agent's
+   trust score meets a threshold.  A federation validator independently
+   verifies each credential against its issuer's public key, then
+   computes a composite commitment binding all verified proofs.
+
+   The resulting federation token is signed by the validator alone.  No
+   issuer needs to know about the others.  This solves the cross-issuer
+   attestation composition problem in agentic payment networks.</t>
+    </abstract>
+  </front>
+</reference>
