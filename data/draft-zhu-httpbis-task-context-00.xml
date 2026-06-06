@@ -1,0 +1,24 @@
+<reference anchor="I-D.zhu-httpbis-task-context" target="https://datatracker.ietf.org/doc/html/draft-zhu-httpbis-task-context-00">
+  <front>
+    <title>Task-Context HTTP Field for Task Context Propagation</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhu-httpbis-task-context-00"/>
+    <author initials="L." surname="Zhu" fullname="Larry Zhu">
+      <organization>Atlassian</organization>
+    </author>
+    <date day="05" month="June" year="2026"/>
+    <abstract>
+      <t>This document defines the Task-Context HTTP field for propagating
+   task execution context from an authorized workflow worker to
+   downstream HTTP services.  The field carries a compact, base64url-
+   encoded JSON object that identifies the authorization mode, workflow
+   type, and either task-based requestor and approver context or role-
+   based execution context.
+
+   The field is not a bearer credential and does not replace HTTP client
+   authentication, service-to-service authorization, or resource-local
+   policy checks.  Its purpose is to let downstream services correlate
+   requests with workflow task context and make service-local
+   authorization and audit decisions using that context.</t>
+    </abstract>
+  </front>
+</reference>

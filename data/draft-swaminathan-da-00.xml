@@ -1,0 +1,28 @@
+<reference anchor="I-D.swaminathan-da" target="https://datatracker.ietf.org/doc/html/draft-swaminathan-da-00">
+  <front>
+    <title>Domain Authority (DA): A DNS-Designated Service Endpoint for Domain Information</title>
+    <seriesInfo name="Internet-Draft" value="draft-swaminathan-da-00"/>
+    <author initials="K." surname="Swaminathan" fullname="Kishore Swaminathan"/>
+    <date day="05" month="June" year="2026"/>
+    <abstract>
+      <t>This document specifies a minimal standard by which a domain
+   designates, via a single DNS record, a Domain Authority (DA) as a
+   service endpoint accessible at a well-known HTTPS URI.  The DA
+   exposes five namespaces for capabilities beyond what DNS can natively
+   deliver: atomic record bundles, public key distribution, domain-
+   defined APIs, authenticated access, and private domain control
+   verification.
+
+   The standard is organized in three layers.  The Designation Layer
+   specifies how a domain publishes a DNS record that points to its DA.
+   The Retrieval Layer specifies the five namespaces through which
+   consumers access domain information.  The Trust Layer specifies how
+   consumers establish confidence in the DA and its responses.
+
+   The standard preserves full backward compatibility with existing DNS
+   resolution.  It requires no changes to DNS resolvers, no new DNS
+   record types, and no ecosystem-wide coordination.  Any domain can
+   adopt unilaterally and gain immediate operational benefit.</t>
+    </abstract>
+  </front>
+</reference>
