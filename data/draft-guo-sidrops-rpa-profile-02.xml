@@ -1,0 +1,33 @@
+<reference anchor="I-D.guo-sidrops-rpa-profile" target="https://datatracker.ietf.org/doc/html/draft-guo-sidrops-rpa-profile-02">
+  <front>
+    <title>A Profile for Route Path Authorizations (RPAs)</title>
+    <seriesInfo name="Internet-Draft" value="draft-guo-sidrops-rpa-profile-02"/>
+    <author initials="Y. B." surname="Guo" fullname="Yangfei (Basil) Guo">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author initials="X." surname="Wang" fullname="Xiaoliang Wang">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="K." surname="Xu" fullname="Ke Xu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="Z." surname="liu" fullname="Zhuotao liu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="L." surname="Qi" fullname="Li Qi">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date day="07" month="June" year="2026"/>
+    <abstract>
+      <t>This document defines a Cryptographic Message Syntax (CMS) protected
+   content type for Route Path Authorizations (RPA) objects used in
+   Resource Public Key Infrastructure (RPKI).  An RPA is a digitally
+   signed object that provides a means of verifying whether an IP
+   address block is received from AS a to AS b and announced from AS b
+   to AS c.  When validated, an RPA's eContent can be used for the
+   detection and mitigation of route hijacking, especially providing
+   protection for the AS_PATH attribute in BGP-UPDATE.  This object is a
+   variant of the aut-num object in the Internet Routing Registry (IRR).</t>
+    </abstract>
+  </front>
+</reference>
