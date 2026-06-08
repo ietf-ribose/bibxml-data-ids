@@ -1,0 +1,22 @@
+<reference anchor="I-D.vicente-oauth-apm" target="https://datatracker.ietf.org/doc/html/draft-vicente-oauth-apm-01">
+  <front>
+    <title>Authorization Posture Mechanism (APM): Per-Transaction Consistency for OAuth 2.0</title>
+    <seriesInfo name="Internet-Draft" value="draft-vicente-oauth-apm-01"/>
+    <author initials="B." surname="Vicente" fullname="Brian Vicente">
+      <organization>Sanctum SecOps LLC</organization>
+    </author>
+    <date day="08" month="June" year="2026"/>
+    <abstract>
+      <t>This document describes the Authorization Posture Mechanism (APM), a
+   method by which an OAuth 2.0 [RFC6749] authorization server, or a
+   resource server acting on its behalf, re-evaluates the mutual
+   consistency of three bound factors -- the client certificate, the
+   access token, and the device posture -- on a per-request basis for
+   privileged operations, rather than only at session establishment.
+   When re-evaluated posture degrades relative to the posture under
+   which the token was issued, APM defines deterministic, least-
+   privilege Graduated Outcomes including scope reduction and method
+   restriction, rather than a binary allow or deny.</t>
+    </abstract>
+  </front>
+</reference>

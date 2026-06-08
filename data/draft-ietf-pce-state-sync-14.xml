@@ -1,0 +1,40 @@
+<reference anchor="I-D.ietf-pce-state-sync" target="https://datatracker.ietf.org/doc/html/draft-ietf-pce-state-sync-14">
+  <front>
+    <title>Procedures for Communication between Stateful Path Computation Elements</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pce-state-sync-14"/>
+    <author initials="H." surname="Zheng" fullname="Haomian Zheng">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="S." surname="Litkowski" fullname="Stephane Litkowski">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="S." surname="Sivabalan" fullname="Siva Sivabalan">
+      <organization>Ciena Corporation</organization>
+    </author>
+    <author initials="C." surname="Li" fullname="Cheng Li">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="D." surname="King" fullname="Daniel King">
+      <organization>Old Dog Consulting</organization>
+    </author>
+    <date day="07" month="June" year="2026"/>
+    <abstract>
+      <t>The Path Computation Element (PCE) Communication Protocol (PCEP)
+   provides mechanisms for PCEs to perform path computation in response
+   to a Path Computation Client (PCC) request.  The Stateful PCE
+   extensions allow stateful control of Multi-Protocol Label Switching
+   (MPLS) Traffic Engineering (TE) and Generalized Multi-Protocol Label
+   Switching (GMPLS) Label Switched Paths (LSPs) using PCEP.
+
+   A Path Computation Client (PCC) can synchronize LSP state information
+   to a Stateful Path Computation Element (PCE).  A PCC can have
+   multiple PCEP sessions toward multiple PCEs.  In some use cases,
+   inter-PCE stateful communication can bring additional resiliency in
+   the design, for instance, when some PCC-PCE session fails.
+
+   This document describes the procedures to allow stateful
+   communication between PCEs for various use cases, and also the
+   procedures to prevent computational loops.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,35 @@
+<reference anchor="I-D.vicente-lamps-pqchc" target="https://datatracker.ietf.org/doc/html/draft-vicente-lamps-pqchc-00">
+  <front>
+    <title>PQC Hybrid Commitment (PQCHC) X.509 Extension</title>
+    <seriesInfo name="Internet-Draft" value="draft-vicente-lamps-pqchc-00"/>
+    <author initials="B." surname="Vicente" fullname="Brian Vicente">
+      <organization>Sanctum SecOps LLC</organization>
+    </author>
+    <date day="07" month="June" year="2026"/>
+    <abstract>
+      <t>The current Internet Public Key Infrastructure (PKI) lacks a machine-
+   verifiable, cryptographically bound mechanism for certificate holders
+   to commit, at issuance time, to the specific post-quantum (PQ) or PQ/
+   T hybrid key material they intend to present at the next certificate
+   renewal.  Without such a mechanism, relying parties cannot
+   distinguish a legitimate algorithm migration from a covert downgrade
+   attack — one in which a cryptographically relevant quantum computer
+   (CRQC) enables an adversary to suppress a PQ or composite certificate
+   at renewal and substitute one based solely on a classical algorithm
+   whose long-term security has been compromised.
+
+   This document defines the PQC Hybrid Commitment (PQCHC) X.509 v3
+   extension.  The extension carries an advisory, non-authoritative
+   commitment that is encoded as a cryptographic hash of the future
+   SubjectPublicKeyInfo the certificate subject intends to present in
+   the successor certificate, together with the intended committed
+   algorithm identifier and an expiry time for the commitment.  The
+   extension is non-critical, preserving backward compatibility with
+   legacy relying parties that do not recognize it.  PQCHC-aware relying
+   parties may use the commitment to detect downgrade at renewal time,
+   to integrate with ACME Renewal Information (ARI) scheduling, and to
+   provide an observable signal of an operator's concrete, binding
+   intent to complete PQ migration within a declared time window.</t>
+    </abstract>
+  </front>
+</reference>

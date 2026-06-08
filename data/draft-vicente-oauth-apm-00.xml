@@ -1,0 +1,33 @@
+<reference anchor="I-D.vicente-oauth-apm" target="https://datatracker.ietf.org/doc/html/draft-vicente-oauth-apm-00">
+  <front>
+    <title>Authorization Posture Mechanism (APM) for OAuth 2.0</title>
+    <seriesInfo name="Internet-Draft" value="draft-vicente-oauth-apm-00"/>
+    <author initials="B." surname="Vicente" fullname="Brian Vicente">
+      <organization>Sanctum SecOps LLC</organization>
+    </author>
+    <date day="07" month="June" year="2026"/>
+    <abstract>
+      <t>OAuth 2.0 access tokens encode an authorization decision made at
+   issuance time.  Sender-constraining mechanisms such as Mutual-TLS
+   certificate binding ([RFC8705]) and Demonstrating Proof of Possession
+   ([RFC9449]) extend this model by proving key possession at request
+   time, but neither mechanism re-evaluates the full security context —
+   certificate validity, token claims, and device-level security posture
+   — against the conditions present at token issuance, nor provides a
+   normative pathway for graduated least-privilege outcomes when that
+   context has degraded.
+
+   This document describes the Authorization Posture Mechanism (APM)
+   problem domain: the gap between what per-request sender-constraining
+   mechanisms prove cryptographically and what Zero Trust Architecture
+   requires for per-request authorization decisions.  It motivates and
+   specifies requirements for a mechanism that (a) assembles a per-
+   request Consistency View comprising the client certificate, the bound
+   access token, and an integrity-protected device-posture signal; (b)
+   evaluates the Consistency View against the Issuance Posture recorded
+   at token issuance; and (c) produces graduated, least-privilege
+   outcomes — scope reduction, method restriction, or full denial —
+   proportional to the degree of posture degradation detected.</t>
+    </abstract>
+  </front>
+</reference>
