@@ -1,0 +1,53 @@
+<reference anchor="I-D.sato-soos-pt" target="https://datatracker.ietf.org/doc/html/draft-sato-soos-pt-02">
+  <front>
+    <title>Progressive Trust (PT) for Agentic AI Governance Systems</title>
+    <seriesInfo name="Internet-Draft" value="draft-sato-soos-pt-02"/>
+    <author initials="" surname="Sato" fullname="Tom Sato">
+      <organization>MyAuberge K.K.</organization>
+    </author>
+    <date day="10" month="June" year="2026"/>
+    <abstract>
+      <t>When a new employee joins an organization, they begin with limited
+   authority.  As they demonstrate good judgment -- completing tasks
+   reliably, asking for guidance at the right moments, recovering well
+   when things go wrong -- they earn greater trust and, with it, greater
+   authority.  If their performance degrades, or if months pass without
+   any demonstration, that trust diminishes.  This is how human
+   organizations manage authority over time.  AI agents have no
+   equivalent mechanism.
+
+   Today, an AI agent's authority is declared once in a credential at
+   issuance time and does not respond to its behavioral record.  An
+   agent that has completed 200 successful sessions with a proven track
+   record holds the same credential as a newly deployed agent.  The
+   human principal who issued both credentials made a judgment at
+   issuance time; nothing that happened since is reflected in the
+   agent's authority.
+
+   This document defines Progressive Trust (PT): a behavioral trust
+   model for AI agents in which authority recommendations evolve in
+   response to cryptographically verified evidence of actual
+   performance.  PT measures five behavioral properties: whether the
+   agent's self-assessed confidence matches its actual outcomes;
+   whether it asks for human oversight at the right moments; whether
+   it achieves its goals; whether it avoids decisions it later has to
+   reverse; and whether it adapts when its action is rejected.  These
+   measures are derived exclusively from the tamper-evident, GEC-signed
+   Event Stream -- an agent cannot influence its PT Score except through
+   actual governed behavior.
+
+   PT does not grant authority automatically.  It generates structured
+   recommendations, backed by behavioral evidence, for human principal
+   review and approval.  Human principals decide whether to elevate or
+   reduce an agent's authority.  PT ensures that decision is informed
+   rather than made in the absence of history.
+
+   Progressive Trust is the longitudinal complement of the Agent
+   Execution Protocol [I-D.sato-soos-aep]: AEP governs what an agent
+   does within a session; PT measures what an agent has done across
+   sessions and translates that history into structured authority
+   recommendations.  No equivalent specification exists in IETF, ISO,
+   NIST, or any agentic AI governance standards body.</t>
+    </abstract>
+  </front>
+</reference>

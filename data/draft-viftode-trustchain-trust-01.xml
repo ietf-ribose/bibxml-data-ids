@@ -1,0 +1,30 @@
+<reference anchor="I-D.viftode-trustchain-trust" target="https://datatracker.ietf.org/doc/html/draft-viftode-trustchain-trust-01">
+  <front>
+    <title>Trust Computation for the TrustChain Bilateral Ledger Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-viftode-trustchain-trust-01"/>
+    <author initials="V." surname="Iftode" fullname="Vlad-George Iftode">
+      <organization>Delft University of Technology</organization>
+    </author>
+    <date day="09" month="June" year="2026"/>
+    <abstract>
+      <t>This document specifies trust computation, audit recording,
+   delegation, and key succession mechanisms for the TrustChain
+   bilateral ledger protocol (draft-pouwelse-trustchain-01).  The base
+   protocol specifies a bilateral block structure for recording pairwise
+   interactions but explicitly leaves trust computation out of scope.
+   This document fills that gap by defining: (1) a canonical hash
+   computation for cross-implementation compatibility, (2) an
+   interaction graph constructed from half-block pairs, (3) pluggable
+   Sybil-resistant path-diversity algorithms over the interaction graph
+   -- maximum network flow (Edmonds-Karp) and personalized random walks
+   (MeritRank), (4) a multiplicative trust score combining connectivity,
+   chain integrity, and interaction diversity, (5) an audit block type
+   for single-player recording of agent actions as a signed, hash-
+   chained log when no counterparty is available, (6) a delegation
+   protocol for transitive authority with budget splitting and
+   revocation, (7) a bilateral succession protocol for key rotation, and
+   (8) a chain anchoring mechanism that binds chain heads to external
+   time-stamping authorities for evidence-grade deployments.</t>
+    </abstract>
+  </front>
+</reference>
