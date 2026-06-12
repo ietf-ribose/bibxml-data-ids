@@ -1,0 +1,37 @@
+<reference anchor="I-D.liu-oauth-rego-policy" target="https://datatracker.ietf.org/doc/html/draft-liu-oauth-rego-policy-00">
+  <front>
+    <title>Rego Policy Language for OAuth 2.0 Authorization</title>
+    <seriesInfo name="Internet-Draft" value="draft-liu-oauth-rego-policy-00"/>
+    <author initials="D." surname="Liu" fullname="Dapeng Liu">
+      <organization>Alibaba Group</organization>
+    </author>
+    <author initials="J." surname="Zhu" fullname="Judy Zhu">
+      <organization>Alibaba Group</organization>
+    </author>
+    <author initials="S." surname="Krishnan" fullname="Suresh Krishnan">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="A." surname="Parecki" fullname="Aaron Parecki">
+      <organization>Okta</organization>
+    </author>
+    <author initials="H." surname="Xue" fullname="Hui Xue">
+      <organization>Alibaba Group</organization>
+    </author>
+    <date day="12" month="June" year="2026"/>
+    <abstract>
+      <t>AI agents exhibit dynamic, unpredictable behavior that cannot be
+   fully described by traditional OAuth 2.0 scopes.  This specification
+   defines a behavioral authorization framework that enables clients,
+   particularly AI agents, to propose Rego policy-based behavioral
+   constraint contracts in OAuth 2.0 authorization flows using Rich
+   Authorization Requests (RAR).  It defines the rego_policy
+   authorization data type for carrying behavioral constraint contracts
+   in authorization_details, shifting the authorization model from
+   static permission sets to runtime behavioral verification.  It also
+   defines a reverse-guided authorization mechanism allowing resource
+   servers to return structured policy constraints in error responses,
+   enabling agents to dynamically adapt their behavior and construct
+   appropriate authorization requests.</t>
+    </abstract>
+  </front>
+</reference>
