@@ -1,0 +1,26 @@
+<reference anchor="I-D.car-agents-txt-wellknown" target="https://datatracker.ietf.org/doc/html/draft-car-agents-txt-wellknown-00">
+  <front>
+    <title>AGENTS.TXT: Capability Declarations for Web Agents</title>
+    <seriesInfo name="Internet-Draft" value="draft-car-agents-txt-wellknown-00"/>
+    <author initials="K." surname="Cardillo" fullname="Kayla Cardillo">
+      <organization>Independent</organization>
+    </author>
+    <date day="12" month="June" year="2026"/>
+    <abstract>
+      <t>This document requests registration of two Well-Known URIs under the
+   "/.well-known/" path: "agents.txt" and "agents.json".  These URIs
+   define a machine-readable capability declaration format: a positive
+   statement of what web agents CAN do on a site -- which endpoints are
+   sanctioned for agent use, which protocols (REST, MCP, A2A, GraphQL,
+   WebSocket) are supported, what authentication mechanisms are
+   expected, and what rate limits the site advertises.
+
+   This is distinct from "robots.txt", which uses a restriction syntax
+   to declare what crawlers may not do.  Where "robots.txt" expresses
+   prohibition, "agents.txt" expresses capability -- a sanctioned
+   channel for agent interaction that is otherwise routinely blocked by
+   bot detection, CAPTCHAs, and rate limiters because no positive
+   declaration surface exists.</t>
+    </abstract>
+  </front>
+</reference>

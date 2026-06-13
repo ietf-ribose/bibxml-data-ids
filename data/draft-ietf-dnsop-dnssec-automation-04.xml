@@ -1,0 +1,25 @@
+<reference anchor="I-D.ietf-dnsop-dnssec-automation" target="https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-dnssec-automation-04">
+  <front>
+    <title>DNSSEC automation</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dnsop-dnssec-automation-04"/>
+    <author initials="U." surname="Wisser" fullname="Ulrich Wisser">
+      <organization>ICANN</organization>
+    </author>
+    <author initials="S." surname="Huque" fullname="Shumon Huque">
+      <organization>Salesforce</organization>
+    </author>
+    <author initials="J." surname="Stenstam" fullname="Johan Stenstam">
+      <organization>The Swedish Internet Foundation</organization>
+    </author>
+    <date day="12" month="June" year="2026"/>
+    <abstract>
+      <t>This document describes an algorithm and protocol to automate the
+   setup, operations, and decommissioning of Multi-Signer DNSSEC
+   [RFC8901] configurations.  To accomplish this, it employs Model 2 of
+   the multi-signer specification (where each operator has their own
+   distinct KSK and ZSK sets, or CSK sets), management of DS records
+   from the parent via CDS/CDNSKEY [RFC8078], and Child-to-Parent
+   Synchronization in DNS [RFC7477].</t>
+    </abstract>
+  </front>
+</reference>
