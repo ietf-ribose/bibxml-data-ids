@@ -1,0 +1,30 @@
+<reference anchor="I-D.vu-aimem-bundle" target="https://datatracker.ietf.org/doc/html/draft-vu-aimem-bundle-00">
+  <front>
+    <title>Memory Interchange Bundle Format for AI Agents</title>
+    <seriesInfo name="Internet-Draft" value="draft-vu-aimem-bundle-00"/>
+    <author initials="M. D." surname="Vu" fullname="VU DUC MINH">
+      <organization>MemoryAI</organization>
+    </author>
+    <date day="14" month="June" year="2026"/>
+    <abstract>
+      <t>This document specifies a vendor-neutral interchange format for the
+   persistent memory of AI agents — preferences, decisions, identity
+   claims, pitfalls, and procedures that an agent accumulates across
+   sessions.
+
+   The format is a self-contained JSON Bundle with explicit conformance
+   levels (Producer, Consumer, Bidirectional).  Implementations MAY
+   accompany the Bundle with an HTTP Profile that exposes export and
+   import endpoints.
+
+   The goal is to allow a user's "agent brain" to move between cloud
+   services, on-premise installations, and third-party implementations
+   without lock-in, in a manner that interoperates with existing right-
+   to-erasure obligations such as [GDPR-A17].
+
+   This document is self-contained: all schema fields normatively
+   required by Producers and Consumers are defined inline.  An
+   informative reference implementation is cited in [AIMEM-REF].</t>
+    </abstract>
+  </front>
+</reference>
