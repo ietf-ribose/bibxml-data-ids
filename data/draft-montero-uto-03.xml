@@ -1,0 +1,25 @@
+<reference anchor="I-D.montero-uto" target="https://datatracker.ietf.org/doc/html/draft-montero-uto-03">
+  <front>
+    <title>Unified Transition Overlay (UTO): A Stateless Cross-Version Transition Mechanism for IPv4/IPv6</title>
+    <seriesInfo name="Internet-Draft" value="draft-montero-uto-03"/>
+    <author initials="N. M." surname="Torrealba" fullname="Nicol&#xE1;s Montero Torrealba">
+      <organization>Independent Researcher</organization>
+    </author>
+    <date day="14" month="June" year="2026"/>
+    <abstract>
+      <t>This document specifies Unified Transition Overlay (UTO), a stateless
+   encapsulation-plus-translation mechanism that enables bidirectional
+   communication between IPv4-only and IPv6-only hosts across a transit
+   network whose forwarding plane uses the opposite IP version.  UTO
+   carries the native source and destination addresses of the
+   communicating hosts in a compact, variable-length overlay header.
+   The original packet is tunneled between UTO-Gateways (UGWs) across
+   the transit network and is converted to the destination's address
+   family by a single stateless header translation performed only at the
+   egress UGW.  UTO requires no DNS64, no stateful per-flow translation
+   in the common IPv4-to-IPv6 direction, and no changes to backbone
+   routers or end-host stacks.  The transit network forwards only pure
+   IPv4 or pure IPv6 packets.</t>
+    </abstract>
+  </front>
+</reference>
