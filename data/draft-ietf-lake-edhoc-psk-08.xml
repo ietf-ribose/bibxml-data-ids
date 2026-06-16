@@ -1,0 +1,36 @@
+<reference anchor="I-D.ietf-lake-edhoc-psk" target="https://datatracker.ietf.org/doc/html/draft-ietf-lake-edhoc-psk-08">
+  <front>
+    <title>EDHOC Authenticated with Pre-Shared Keys (PSK)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-lake-edhoc-psk-08"/>
+    <author initials="" surname="Lopez-Perez" fullname="Elsa Lopez-Perez">
+      <organization>Inria</organization>
+    </author>
+    <author initials="G." surname="Selander" fullname="G&#xF6;ran Selander">
+      <organization>Ericsson</organization>
+    </author>
+    <author initials="J. P." surname="Mattsson" fullname="John Preu&#xDF; Mattsson">
+      <organization>Ericsson</organization>
+    </author>
+    <author initials="R." surname="Marin-Lopez" fullname="Rafael Marin-Lopez">
+      <organization>University of Murcia</organization>
+    </author>
+    <author initials="F." surname="Lopez-Gomez" fullname="Francisco Lopez-Gomez">
+      <organization>University of Murcia</organization>
+    </author>
+    <date day="16" month="June" year="2026"/>
+    <abstract>
+      <t>This document specifies a Pre-Shared Key (PSK) authentication method
+   for the Ephemeral Diffie-Hellman Over COSE (EDHOC) Lightweight
+   Authenticated Key Exchange (LAKE) protocol.  The PSK method provides
+   mutual authentication, ephemeral key exchange, identity protection,
+   and quantum resistance while incurring lower computational costs than
+   the public-key authentication methods specified for EDHOC.  It is
+   suited for systems where nodes share a PSK provided out-of-band
+   (external PSK) and enables efficient session resumption with less
+   computational overhead when the PSK is provided from a previous EDHOC
+   session (resumption PSK).  This document details the PSK message
+   flow, key derivation changes, message formatting, processing, and
+   security considerations.</t>
+    </abstract>
+  </front>
+</reference>
