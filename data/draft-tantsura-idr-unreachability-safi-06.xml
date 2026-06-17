@@ -1,0 +1,39 @@
+<reference anchor="I-D.tantsura-idr-unreachability-safi" target="https://datatracker.ietf.org/doc/html/draft-tantsura-idr-unreachability-safi-06">
+  <front>
+    <title>BGP Unreachability Information SAFI</title>
+    <seriesInfo name="Internet-Draft" value="draft-tantsura-idr-unreachability-safi-06"/>
+    <author initials="J." surname="Tantsura" fullname="Jeff Tantsura">
+      <organization>Nvidia</organization>
+    </author>
+    <author initials="D." surname="Sharp" fullname="Donald Sharp">
+      <organization>Nvidia</organization>
+    </author>
+    <author initials="V." surname="Venkatraman" fullname="Vivek Venkatraman">
+      <organization>Nvidia</organization>
+    </author>
+    <author initials="K. V." surname="Muppalla" fullname="Karthikeya Venkat Muppalla">
+      <organization>Nvidia</organization>
+    </author>
+    <author initials="M." surname="Rzehak" fullname="Maciej Rzehak">
+      <organization>CoreWeave</organization>
+    </author>
+    <author initials="A." surname="Jouhari" fullname="Abderrahman Jouhari">
+      <organization>Oracle</organization>
+    </author>
+    <author initials="S." surname="Parikh" fullname="Smit Parikh">
+      <organization>Oracle</organization>
+    </author>
+    <date day="17" month="June" year="2026"/>
+    <abstract>
+      <t>This document defines a new BGP Subsequent Address Family Identifier
+   (SAFI) called "Unreachability Information" that allows the
+   propagation of prefix unreachability information through BGP without
+   affecting the installation or removal of routes in the Routing
+   Information Base (RIB) or Forwarding Information Base (FIB).  This
+   mechanism enables network operators to share information about
+   unreachable prefixes for monitoring, debugging, and coordination
+   purposes while maintaining complete separation from the active
+   routing plane.</t>
+    </abstract>
+  </front>
+</reference>

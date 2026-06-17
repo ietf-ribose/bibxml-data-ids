@@ -1,0 +1,22 @@
+<reference anchor="I-D.vanmook-intarea-ipv6-resolved-gateway" target="https://datatracker.ietf.org/doc/html/draft-vanmook-intarea-ipv6-resolved-gateway-01">
+  <front>
+    <title>IPv6-Resolved IPv4 Gateway</title>
+    <seriesInfo name="Internet-Draft" value="draft-vanmook-intarea-ipv6-resolved-gateway-01"/>
+    <author initials="R." surname="van Mook" fullname="Remco van Mook">
+      <organization>Asteroid International B.V.</organization>
+    </author>
+    <date day="17" month="June" year="2026"/>
+    <abstract>
+      <t>This document specifies host behavior enabling IPv4 communication for
+   dual-stack hosts on IPv6-only segments, without subnets, ARP,
+   tunneling, or translation.  Hosts that receive 192.0.0.11/32 as their
+   IPv4 default gateway address resolve the next-hop link-layer address
+   from the IPv6 neighbor cache rather than via ARP.  IPv4 packets are
+   forwarded natively, end-to-end.  The mechanism is incrementally
+   deployable alongside unmodified hosts with no changes to DHCPv4
+   infrastructure.  This document requests the allocation of
+   192.0.0.11/32 in the IANA IPv4 Special-Purpose Address Registry to
+   support this mechanism.</t>
+    </abstract>
+  </front>
+</reference>

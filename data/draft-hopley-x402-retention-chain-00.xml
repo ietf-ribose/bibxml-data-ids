@@ -1,0 +1,24 @@
+<reference anchor="I-D.hopley-x402-retention-chain" target="https://datatracker.ietf.org/doc/html/draft-hopley-x402-retention-chain-00">
+  <front>
+    <title>Self-Verifiable Retention Chain for Payment Receipts</title>
+    <seriesInfo name="Internet-Draft" value="draft-hopley-x402-retention-chain-00"/>
+    <author initials="H. C." surname="Mr" fullname="MR CHRISTOPHER HOPLEY">
+      <organization>AlgoVoi</organization>
+    </author>
+    <date day="16" month="June" year="2026"/>
+    <abstract>
+      <t>This document specifies a cryptographic construction, the Retention
+   Chain Reference (retention_chain_ref), that enables self-verifiable
+   audit chains linking payment receipts without requiring external
+   infrastructure.  Each receipt in a sequence carries a chain reference
+   computed as the SHA-256 digest of the JSON Canonicalization Scheme
+   (JCS, RFC 8785) canonical form of a fixed four-field preimage.  Any
+   party holding any contiguous or non-contiguous subset of receipts can
+   independently verify chain integrity by recomputing the reference
+   from locally held data.  No AlgoVoi infrastructure, no registry
+   lookup, and no network access are required.  The construction
+   satisfies the transaction recording and audit trail obligations of
+   MiCA Article 80, DORA Article 14, and AMLR Article 56.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,40 @@
+<reference anchor="I-D.mihalcea-seat-use-cases" target="https://datatracker.ietf.org/doc/html/draft-mihalcea-seat-use-cases-03">
+  <front>
+    <title>Security Goals and Use Cases for Integrating Remote Attestation with Secure Channel Protocols</title>
+    <seriesInfo name="Internet-Draft" value="draft-mihalcea-seat-use-cases-03"/>
+    <author initials="I." surname="Mihalcea" fullname="Ionu&#x21B; Mihalcea">
+      <organization>Arm</organization>
+    </author>
+    <author initials="M. U." surname="Sardar" fullname="Muhammad Usama Sardar">
+      <organization>TU Dresden</organization>
+    </author>
+    <author initials="T." surname="Fossati" fullname="Thomas Fossati">
+      <organization>Linaro</organization>
+    </author>
+    <author initials="T." surname="Reddy.K" fullname="Tirumaleswar Reddy.K">
+      <organization>Nokia</organization>
+    </author>
+    <author initials="Y." surname="Jiang" fullname="Yuning Jiang"/>
+    <author initials="M." surname="Chen" fullname="Meiling Chen">
+      <organization>China Mobile</organization>
+    </author>
+    <date day="16" month="June" year="2026"/>
+    <abstract>
+      <t>This document outlines desirable security goals and use cases for
+   integrating remote attestation (RA) capabilities with secure channel
+   establishment protocols (e.g., TLS and DTLS).  Peer authentication in
+   such protocols establishes trust in a peer's network identifiers but
+   provides no assurance regarding the integrity of its underlying
+   software and hardware stack.  Remote attestation addresses this gap
+   by enabling a peer to provide verifiable evidence about the current
+   state of the Target Environment.  This document specifies a set of
+   essential security goals the protocol solution must have, including
+   cryptographic binding to the secure connection, evidence freshness,
+   and flexibility to support different attestation models.  It then
+   explores relevant use cases, such as confidential data collaboration
+   and secure secrets provisioning, to motivate the need for this
+   integration.  This document is intended to serve as an input to the
+   design of protocol solutions within the SEAT working group.</t>
+    </abstract>
+  </front>
+</reference>
