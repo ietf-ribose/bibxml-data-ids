@@ -1,0 +1,30 @@
+<reference anchor="I-D.hopley-x402-retention-chain" target="https://datatracker.ietf.org/doc/html/draft-hopley-x402-retention-chain-03">
+  <front>
+    <title>Self-Verifiable Retention Chain for Payment Receipts</title>
+    <seriesInfo name="Internet-Draft" value="draft-hopley-x402-retention-chain-03"/>
+    <author initials="H. C." surname="Mr" fullname="MR CHRISTOPHER HOPLEY">
+      <organization>AlgoVoi</organization>
+    </author>
+    <date day="17" month="June" year="2026"/>
+    <abstract>
+      <t>This document specifies three cryptographic constructions for
+   self-verifiable agentic payment records.  The first, the Retention
+   Chain Reference (retention_chain_ref), enables tamper-evident audit
+   chains linking payment receipts without requiring external
+   infrastructure.  The second, the Payment Action Lifecycle, defines
+   a content-addressed model for the exactly-once execution of payment
+   actions, including an action reference primitive (action_ref) and a
+   per-state transition hash (transition_hash) with a provable SKIP-on-
+   retry idempotency guarantee.  The third, the Settlement-Action
+   Binding (binding_ref), binds a settled payment to the verified agent
+   action it paid for and to the retention chain entry recording it, so
+   that a settlement attestation proves not only that a payment occurred
+   but which verified action it corresponds to.  All constructions use
+   only SHA-256 and the JSON Canonicalization Scheme (JCS, RFC 8785),
+   and are verifiable by any party holding the relevant receipts without
+   contacting the issuer.  The constructions satisfy the transaction
+   recording and audit trail obligations of MiCA Article 80, DORA
+   Article 14, and AMLR Article 56.</t>
+    </abstract>
+  </front>
+</reference>

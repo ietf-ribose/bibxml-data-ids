@@ -1,0 +1,25 @@
+<reference anchor="I-D.braet-sidrops-spa-profile" target="https://datatracker.ietf.org/doc/html/draft-braet-sidrops-spa-profile-00">
+  <front>
+    <title>A Profile for Source Prefix Authorizations (SPAs)</title>
+    <seriesInfo name="Internet-Draft" value="draft-braet-sidrops-spa-profile-00"/>
+    <author initials="K." surname="Braet" fullname="Kamiel Braet">
+      <organization>Liberty Global Ltd.</organization>
+    </author>
+    <date day="18" month="June" year="2026"/>
+    <abstract>
+      <t>This document defines a standard profile for Source Prefix
+   Authorizations (SPAs), a Cryptographic Message Syntax (CMS) protected
+   content type for use with the Resource Public Key Infrastructure
+   (RPKI).  A SPA is a digitally signed object that allows the holder of
+   an IP address prefix assigned by a Regional Internet Registry (RIR)
+   to publish a list of source IP address prefixes authorized to send IP
+   packets to that destination prefix or its subprefixes.
+
+   To enforce these policies, a BGP speaker may include a
+   SOURCE_SELECTIVE Path Attribute referencing the SPAs.  This
+   distributes policy references, enabling routing systems to
+   incorporate source-based constraints into local forwarding policies
+   and trigger control plane enforcement</t>
+    </abstract>
+  </front>
+</reference>

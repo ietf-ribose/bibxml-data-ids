@@ -1,0 +1,34 @@
+<reference anchor="I-D.hood-agtp-ard" target="https://datatracker.ietf.org/doc/html/draft-hood-agtp-ard-00">
+  <front>
+    <title>ARD Binding for AGTP: Agentic Resource Discovery over the Agent Transfer Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-hood-agtp-ard-00"/>
+    <author initials="C." surname="Hood" fullname="Chris Hood">
+      <organization>Nomotic, Inc.</organization>
+    </author>
+    <date day="17" month="June" year="2026"/>
+    <abstract>
+      <t>The Agentic Resource Discovery (ARD) specification defines a
+   federated, domain-anchored model for cataloging, discovering, and
+   searching agentic resources across organizational boundaries.  ARD is
+   artifact-protocol-agnostic: it advertises capabilities and trust
+   metadata, then steps out of the way to let agents connect over each
+   artifact's native protocol.
+
+   This document specifies how the Agent Transfer Protocol (AGTP)
+   composes with ARD.  It defines an AGTP catalog entry type for ARD
+   manifests, the agtp:// endpoint URI as a valid runtime connection
+   target, the composition of AGTP's wire-level identity model with the
+   ARD trustManifest object, and an AGTP-native binding for publishing
+   and consuming ARD catalogs over the AGTP substrate rather than HTTPS.
+
+   The result is a clean composition.  ARD operates at the application
+   layer and answers the discovery question: where is the capability,
+   can it be trusted before connection.  AGTP operates at the transport
+   substrate beneath application-layer protocols (MCP, A2A, API, and
+   others ARD catalogs) and carries structural identity, authority
+   scope, and attribution at the wire.  ARD and the application
+   protocols it catalogs can run over AGTP as substrate, the same way
+   they currently run over HTTP.</t>
+    </abstract>
+  </front>
+</reference>

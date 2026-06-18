@@ -1,0 +1,32 @@
+<reference anchor="I-D.li-coap-extensions-a2d" target="https://datatracker.ietf.org/doc/html/draft-li-coap-extensions-a2d-00">
+  <front>
+    <title>CoAP Extensions for Asynchronous Task Resources</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-coap-extensions-a2d-00"/>
+    <author initials="L." surname="Li" fullname="Linzhe Li">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author initials="Y." surname="Cui" fullname="Yong Cui">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date day="17" month="June" year="2026"/>
+    <abstract>
+      <t>Many CoAP deployments need to start operations that cannot be
+   completed within one request/response exchange.  Existing deployments
+   commonly model these operations with application-specific resources,
+   payload formats, and polling or notification conventions.  This makes
+   clients, gateways, and proxies unable to interoperate across
+   implementations that expose otherwise similar long-running
+   operations.
+
+   This document defines a CoAP task-resource pattern for asynchronous
+   operations.  It specifies a small set of CoAP Options and a CBOR
+   status representation that allow a server to create a temporary task
+   resource, allow a client to monitor, update, or cancel that task
+   using existing CoAP methods, and allow an Observe relationship to be
+   filtered in a predictable way.  Autonomous control agents are one
+   motivating use case, but the mechanisms are intended to be generally
+   usable for constrained applications that need interoperable task
+   orchestration.</t>
+    </abstract>
+  </front>
+</reference>

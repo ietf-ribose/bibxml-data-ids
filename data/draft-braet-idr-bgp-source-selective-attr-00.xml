@@ -1,0 +1,27 @@
+<reference anchor="I-D.braet-idr-bgp-source-selective-attr" target="https://datatracker.ietf.org/doc/html/draft-braet-idr-bgp-source-selective-attr-00">
+  <front>
+    <title>BGP Source-Selective Attribute</title>
+    <seriesInfo name="Internet-Draft" value="draft-braet-idr-bgp-source-selective-attr-00"/>
+    <author initials="K." surname="Braet" fullname="Kamiel Braet">
+      <organization>Liberty Global Ltd.</organization>
+    </author>
+    <date day="18" month="June" year="2026"/>
+    <abstract>
+      <t>This document specifies a new Border Gateway Protocol (BGP) Path
+   Attribute, the BGP SOURCE_SELECTIVE Attribute.  This attribute allows
+   BGP speakers to reference Resource Public Key Infrastructure (RPKI)
+   Source Authorization (SA) objects, including Source Prefix
+   Authorization (SPA), within BGP UPDATE messages.  These objects are
+   created by prefix holders to define sources authorized to originate
+   traffic toward their prefixes or subprefixes.  Receiving BGP speakers
+   can use this information to enforce security policies.
+
+   The SOURCE_SELECTIVE Path Attribute supports multiple Source
+   Authorization Identifier (SA-ID) fields to preserve authorization
+   semantics during BGP route aggregation and summarization.
+
+   This mechanism applies to BGP AFI 1 / SAFI 1 (IPv4 Unicast) and AFI 2
+   / SAFI 1 (IPv6 Unicast).</t>
+    </abstract>
+  </front>
+</reference>
