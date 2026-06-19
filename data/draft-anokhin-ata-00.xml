@@ -1,0 +1,27 @@
+<reference anchor="I-D.anokhin-ata" target="https://datatracker.ietf.org/doc/html/draft-anokhin-ata-00">
+  <front>
+    <title>The Authorization Type Attestation (ATA) Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-anokhin-ata-00"/>
+    <author initials="O." surname="&#x410;&#x43D;&#x43E;&#x445;&#x438;&#x43D;" fullname="&#x410;&#x43B;&#x435;&#x43A;&#x441;&#x430;&#x43D;&#x434;&#x440; &#x412;&#x430;&#x43B;&#x435;&#x440;&#x44C;&#x435;&#x432;&#x438;&#x447; &#x410;&#x43D;&#x43E;&#x445;&#x438;&#x43D;">
+      <organization>Independent</organization>
+    </author>
+    <date day="18" month="June" year="2026"/>
+    <abstract>
+      <t>This document describes a session-layer mechanism addressing a
+   requirement independently exhibited by emerging agentic communication
+   systems: the need for recipients to determine the authorization type
+   of the communicating party (a human-controlled credential or an AI
+   provider instance) before or during interaction.
+
+   The Authorization Type Attestation (ATA) protocol defines a
+   transport-layer extension that carries this authorization type using
+   existing hardware roots of trust (Secure Enclaves, FIDO2, TPM,
+   Confidential Computing) and PKI infrastructure.
+
+   ATA does not replace existing identity systems (mTLS, SPIFFE, OAuth
+   2.1, FIDO2).  ATA does not verify content authorship or model
+   behavior.  ATA provides a mechanism to carry authorization type at
+   the session layer, composably with TLS, QUIC, MLS, MCP, and A2A.</t>
+    </abstract>
+  </front>
+</reference>
