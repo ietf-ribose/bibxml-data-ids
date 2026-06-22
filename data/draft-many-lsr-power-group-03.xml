@@ -1,0 +1,38 @@
+<reference anchor="I-D.many-lsr-power-group" target="https://datatracker.ietf.org/doc/html/draft-many-lsr-power-group-03">
+  <front>
+    <title>Using IS-IS To Advertise Power Group Membership</title>
+    <seriesInfo name="Internet-Draft" value="draft-many-lsr-power-group-03"/>
+    <author initials="C." surname="Barth" fullname="Colby Barth">
+      <organization>HPE</organization>
+    </author>
+    <author initials="T." surname="Li" fullname="Tony Li">
+      <organization>HPE</organization>
+    </author>
+    <author initials="V. P." surname="Beeram" fullname="Vishnu Pavan Beeram">
+      <organization>HPE</organization>
+    </author>
+    <author initials="R. P." surname="Bonica" fullname="Ron Bonica">
+      <organization>HPE</organization>
+    </author>
+    <date day="22" month="June" year="2026"/>
+    <abstract>
+      <t>Many networks have a daily utilization pattern.  For example, a
+   network might be busy during the day and less busy at night.
+
+   If the network is robust, it has enough capacity to satisfy demand
+   during peak hours and excess capacity during non-peak hours.  That
+   excess capacity increases energy costs and environmental impact.
+
+   [I-D.many-teas-power-steering] introduces a Power Conserving Path
+   Placement Strategy (PCPPS).  When possible, PCPPS concentrates
+   traffic onto a small set of network resources.  When traffic is
+   concentrated onto a small set of network resources, other network
+   resources become idle and can be powered down until they are needed
+   again.  This solves the problem of excess capacity during non-peak
+   hours.
+
+   PCPPS uses information that is distributed by an IGP.  This document
+   specifies the IS-IS encoding for that information.</t>
+    </abstract>
+  </front>
+</reference>

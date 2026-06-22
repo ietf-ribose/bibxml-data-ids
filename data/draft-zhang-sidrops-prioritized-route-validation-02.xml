@@ -1,0 +1,40 @@
+<reference anchor="I-D.zhang-sidrops-prioritized-route-validation" target="https://datatracker.ietf.org/doc/html/draft-zhang-sidrops-prioritized-route-validation-02">
+  <front>
+    <title>RPKI-based Validation with Prioritized Resource Data</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhang-sidrops-prioritized-route-validation-02"/>
+    <author initials="J." surname="Zhang" fullname="Jia Zhang">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author initials="M." surname="Xu" fullname="Mingwei Xu">
+      <organization>CERNET</organization>
+    </author>
+    <author initials="N." surname="Geng" fullname="Nan Geng">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="C." surname="Xie" fullname="Chongfeng Xie">
+      <organization>China Telecom</organization>
+    </author>
+    <author initials="Y." surname="Wang" fullname="Yangyang Wang">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date day="22" month="June" year="2026"/>
+    <abstract>
+      <t>The Resource Public Key Infrastructure (RPKI) provides globally
+   verifiable signed routing security data, such as Route Origin
+   Authorizations (ROAs).  Operators also commonly use local or
+   supplemental data sources, including SLURM files, operator-maintained
+   exceptions, IRR-derived inputs, and other operator-selected
+   supplemental data, to improve local routing decisions.  These sources
+   may not have the same authority as signed RPKI objects and therefore
+   may require operator-configured priority-safe handling.
+
+   This document describes a framework for RPKI-based validation with
+   prioritized resource data.  It defines priority-safe handling
+   semantics that allow operators to use data sources with different
+   levels of authority or assurance for local routing policy, while
+   preserving the global authorization semantics of signed RPKI data.
+   The document also discusses deployment models with different
+   implementation costs and operational trade-offs.</t>
+    </abstract>
+  </front>
+</reference>

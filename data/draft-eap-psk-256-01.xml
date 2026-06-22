@@ -1,0 +1,42 @@
+<reference anchor="I-D.eap-psk-256" target="https://datatracker.ietf.org/doc/html/draft-eap-psk-256-01">
+  <front>
+    <title>EAP-PSK-256: A Quantum resistant version of EAP-PSK</title>
+    <seriesInfo name="Internet-Draft" value="draft-eap-psk-256-01"/>
+    <author initials="B." surname="ROHEE" fullname="Bruno ROHEE">
+      <organization>SIGINFO</organization>
+    </author>
+    <author initials="E." surname="KONAN" fullname="Emmanuel KONAN">
+      <organization>Ornisec</organization>
+    </author>
+    <author initials="M." surname="Le Clerc" fullname="Michael Le Clerc">
+      <organization>Enedis</organization>
+    </author>
+    <author initials="C." surname="Devun" fullname="Cl&#xE9;ment Devun">
+      <organization>Enedis</organization>
+    </author>
+    <date day="22" month="June" year="2026"/>
+    <abstract>
+      <t>This document proposes a lightweight, quantum-resistant protocol for
+   mutual authentication and secret key establishment based on a shared
+   secret over a network.  While the existing EAP-PSK protocol provides
+   mutual authentication and key establishment, it faces significant
+   limitations due to evolving security standards.  EAP-PSK-256
+   addresses these vulnerabilities through the following rationales:
+
+   *  Quantum resistance: Legacy EAP-PSK uses the symmetric algorithm
+      AES-128, which is theoretically vulnerable to Grover's
+      cryptographic attack.  This document specifies a new EAP protocol
+      that uses quantum-resistant symmetric algorithms.
+
+   *  Regulatory Alignment: EAP-PSK-256 replaces the key generation
+      mechanism used in EAP-PSK with a standardized key derivation
+      mechanism from NIST SP800-108.
+
+   *  Enhanced Entropy: Unlike EAP-PSK, which relied solely on Peer
+      randomness (RAND_P) for session keys derivation, EAP-PSK-256
+      strengthens these keys by mixing entropy from both the Peer and
+      the Server (RAND_S).  This ensures that both parties contribute to
+      the cryptographic randomness of the session.</t>
+    </abstract>
+  </front>
+</reference>
