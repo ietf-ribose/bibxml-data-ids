@@ -1,0 +1,42 @@
+<reference anchor="I-D.ren-sidrops-soa-usage" target="https://datatracker.ietf.org/doc/html/draft-ren-sidrops-soa-usage-03">
+  <front>
+    <title>Source Address Validation Using Source Origin Authorizations (SOAs)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ren-sidrops-soa-usage-03"/>
+    <author initials="R." surname="Gang" fullname="Ren Gang">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="M." surname="Jia" fullname="Minglin Jia">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="X." surname="Yin" fullname="Xia Yin">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="S." surname="Liu" fullname="Shuqi Liu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date day="23" month="June" year="2026"/>
+    <abstract>
+      <t>Given that an AS collaboration scheme for inter-domain source address
+   validation requires an information-sharing platform, this document
+   proposes a two-tier approach.  In the first tier, Resource Public Key
+   Infrastructure (RPKI) is used for service discovery, identity
+   authentication, and transmission of the minimum bootstrap information
+   needed to establish a private channel.  Source Origin Authorization
+   (SOA) is a newly defined cryptographically signed AS-level service-
+   profile object for that purpose.  Subscribers and providers each
+   publish their own SOA profiles; a concrete service relation exists
+   only after discovery, bilateral request validation, and provider
+   acceptance.  In the second tier, the legitimate predecessor AS
+   information and its subsequent updates are exchanged over the
+   authenticated private channel, by default using TLS[RFC8446] carrying
+   CBOR[RFC8949]-encoded logical messages, enabling other ASes to
+   collaboratively filter spoofed traffic while avoiding frequent
+   routing-driven updates to RPKI and reducing exposure of subscriber-
+   specific routing data.  This revision also describes a logical
+   synchronization state model, evidence-tagged authorization state, and
+   fail-open handling for unavailable synchronized state, while leaving
+   private-channel wire encoding to future specifications or bilateral
+   deployment profiles.</t>
+    </abstract>
+  </front>
+</reference>

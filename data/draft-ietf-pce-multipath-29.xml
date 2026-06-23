@@ -1,0 +1,27 @@
+<reference anchor="I-D.ietf-pce-multipath" target="https://datatracker.ietf.org/doc/html/draft-ietf-pce-multipath-29">
+  <front>
+    <title>Path Computation Element Communication Protocol (PCEP) Extensions for Signaling Multipath Information</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pce-multipath-29"/>
+    <author initials="M." surname="Koldychev" fullname="Mike Koldychev">
+      <organization>Ciena Corporation</organization>
+    </author>
+    <author initials="S." surname="Sidor" fullname="Samuel Sidor">
+      <organization>Cisco Systems.</organization>
+    </author>
+    <date day="23" month="June" year="2026"/>
+    <abstract>
+      <t>This document defines Path Computation Element Communication Protocol
+   (PCEP) extensions to signal multipath information, associating
+   multiple forwarding paths with a single PCEP Label Switched Path
+   (LSP) to allow load-balancing and redundancy across diverse paths.
+   The extensions are generic and applicable to both stateless and
+   stateful PCEP, and are designed to be reusable for future path types.
+   Their primary application is Segment Routing (SR) Policy, where a
+   Candidate Path can contain multiple Segment Lists: current PCEP
+   extensions for SR Policy only allow signaling of a single Segment
+   List per Candidate Path.  These extensions enable multipath
+   capabilities such as weighted or equal-cost load-balancing across
+   paths.</t>
+    </abstract>
+  </front>
+</reference>

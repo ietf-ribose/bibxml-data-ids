@@ -1,0 +1,43 @@
+<reference anchor="I-D.jiang-intent-security" target="https://datatracker.ietf.org/doc/html/draft-jiang-intent-security-03">
+  <front>
+    <title>Security Considerations and Requirements for Intent-Based Requests in Agentic Systems</title>
+    <seriesInfo name="Internet-Draft" value="draft-jiang-intent-security-03"/>
+    <author initials="Y." surname="Jiang" fullname="Yuning Jiang">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="L." surname="Lun" fullname="LUN LI">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="Y." surname="Song" fullname="Yurong Song">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="F." surname="Liu" fullname="Faye Liu">
+      <organization>Huawei</organization>
+    </author>
+    <date day="22" month="June" year="2026"/>
+    <abstract>
+      <t>Intent-based requests enable users, applications, and agents to
+   express goals and constraints without specifying step-by-step
+   procedures.  Such intents are commonly translated into executable
+   directives and propagated across multiple entities (clients, agents,
+   authorization components, orchestration functions, and execution
+   endpoints).  This multi-hop processing expands the attack surface for
+   tampering, privilege escalation, constraint bypass, and intent drift.
+   In addition, at the point where an intent enters the system, a forged
+   or unauthorized origin may cause actions to be taken without valid
+   consent.
+
+   This document provides a solution-agnostic security analysis for
+   intent-based requests across agentic systems.  It presents attack
+   scenarios, a threat model, security requirements, and per-scenario
+   mitigation considerations, supported by a reference model.  The
+   document is Informational: it does not define a protocol, message
+   format, or registry, and concrete mechanisms are left to companion
+   specifications.  It emphasizes origin authentication and admission
+   control, constraint validation, invocation validation, multi-hop
+   chain-of-custody, enforcement placement across hops, and policy-
+   driven responses to drift, while remaining independent of any
+   specific deployment domain.</t>
+    </abstract>
+  </front>
+</reference>

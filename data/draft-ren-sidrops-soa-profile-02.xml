@@ -1,0 +1,36 @@
+<reference anchor="I-D.ren-sidrops-soa-profile" target="https://datatracker.ietf.org/doc/html/draft-ren-sidrops-soa-profile-02">
+  <front>
+    <title>A Profile for Source Origin Authorization (SOA) Service Profiles</title>
+    <seriesInfo name="Internet-Draft" value="draft-ren-sidrops-soa-profile-02"/>
+    <author initials="R." surname="Gang" fullname="Ren Gang">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="" surname="million" fullname="million">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="X." surname="Yin" fullname="Xia Yin">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="S." surname="Liu" fullname="Shuqi Liu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date day="23" month="June" year="2026"/>
+    <abstract>
+      <t>This document defines Source Origin Authorization (SOA), a new object
+   in the Resource Public Key Infrastructure (RPKI), for publishing an
+   AS-level service profile used by inter-AS source address protection
+   services.  An SOA object is a digitally signed artifact that carries
+   the publisher AS, its service role, a service descriptor, and the
+   bootstrap information needed to authenticate a private
+   synchronization channel, such as an endpoint address, an optional
+   port, an optional protocol identifier, and a public key.  An SOA does
+   not itself create a subscriber-provider service relation, authorize
+   arbitrary protected prefixes, or carry legitimate predecessor AS
+   sets.  A concrete service relation is established only after
+   discovery, bilateral request validation, and provider acceptance.
+   Routing-dependent data and subsequent updates are exchanged over the
+   authenticated private channel rather than being stored in the RPKI
+   repository.</t>
+    </abstract>
+  </front>
+</reference>

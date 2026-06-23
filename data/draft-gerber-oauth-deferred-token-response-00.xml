@@ -1,0 +1,27 @@
+<reference anchor="I-D.gerber-oauth-deferred-token-response" target="https://datatracker.ietf.org/doc/html/draft-gerber-oauth-deferred-token-response-00">
+  <front>
+    <title>Deferred Token Response</title>
+    <seriesInfo name="Internet-Draft" value="draft-gerber-oauth-deferred-token-response-00"/>
+    <author initials="F. K." surname="Jacobsen" fullname="Frederik Krogsdal Jacobsen">
+      <organization>Idura</organization>
+    </author>
+    <author initials="G." surname="de Oliveira Niero" fullname="Guilherme de Oliveira Niero">
+      <organization>Itaú</organization>
+    </author>
+    <author initials="M." surname="Gerber" fullname="Maxwell Gerber">
+      <organization>Twilio</organization>
+    </author>
+    <date day="23" month="June" year="2026"/>
+    <abstract>
+      <t>This document defines the Deferred Token Response (DTR) extension for
+   OAuth 2.1.  In existing OAuth grants, the token endpoint either
+   issues an access token or returns an error.  DTR establishes a
+   generic asynchronous token request mechanism that any OAuth grant may
+   plug into.  In DTR-aware flows, the authorization server returns a
+   deferral_code and a polling interval, indicating that the final token
+   response will be available at a later time.  The client retrieves the
+   eventual response by polling the token endpoint, or by receiving a
+   callback from the authorization server when one is configured.</t>
+    </abstract>
+  </front>
+</reference>

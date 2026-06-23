@@ -1,0 +1,22 @@
+<reference anchor="I-D.pelov-icmpv6-sec" target="https://datatracker.ietf.org/doc/html/draft-pelov-icmpv6-sec-01">
+  <front>
+    <title>ICMPv6 Secure Segment Treatment Notifications</title>
+    <seriesInfo name="Internet-Draft" value="draft-pelov-icmpv6-sec-01"/>
+    <author initials="A." surname="Pelov" fullname="Alexander Pelov">
+      <organization>IMT Atlantique</organization>
+    </author>
+    <date day="23" month="June" year="2026"/>
+    <abstract>
+      <t>A packet can cross an IPv6 segment whose properties - long delay,
+   scheduled contacts, a strict size budget - defeat the feedback an
+   endpoint normally relies on.  This document defines ICMPv6-SEC
+   (SECure Segment Treatment), an ICMPv6 message that a segment boundary
+   sends to a packet's source when the packet is not prepared for such a
+   segment.  The message carries a COSE-signed Segment Descriptor: a
+   compact CBOR object stating which segment is meant, how long the
+   statement is valid, and what treatment future packets require.  A
+   receiver applies a descriptor only after verifying the signature, the
+   validity window, and that the signer is authorized for the segment.</t>
+    </abstract>
+  </front>
+</reference>
