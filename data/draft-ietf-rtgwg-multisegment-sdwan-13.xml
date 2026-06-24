@@ -1,0 +1,35 @@
+<reference anchor="I-D.ietf-rtgwg-multisegment-sdwan" target="https://datatracker.ietf.org/doc/html/draft-ietf-rtgwg-multisegment-sdwan-13">
+  <front>
+    <title>Multi-segment SD-WAN via Cloud DCs</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-rtgwg-multisegment-sdwan-13"/>
+    <author initials="K." surname="Majumdar" fullname="Kausik Majumdar">
+      <organization>Upscale AI</organization>
+    </author>
+    <author initials="L." surname="Dunbar" fullname="Linda Dunbar">
+      <organization>Futurewei</organization>
+    </author>
+    <author initials="V." surname="Kasiviswanathan" fullname="Venkit Kasiviswanathan">
+      <organization>NextHop AI</organization>
+    </author>
+    <author initials="A." surname="Ramchandra" fullname="Ashok Ramchandra">
+      <organization>Google</organization>
+    </author>
+    <author initials="A." surname="Choudhary" fullname="Aseem Choudhary">
+      <organization>Cisco</organization>
+    </author>
+    <date day="23" month="June" year="2026"/>
+    <abstract>
+      <t>This document describes a method for seamlessly
+   interconnecting geographically separated SD-WAN segments via
+   a Cloud Backbone without requiring Cloud Gateways (GWs) to
+   decrypt and re-encrypt traffic. By encapsulating IPsec-
+   encrypted payloads within GENEVE headers (RFC 8926), the
+   approach enables Cloud GWs to forward encrypted traffic
+   directly between distant Customer Premises Equipment (CPEs).
+   This reduces processing overhead, improves scalability, and
+   preserves the confidentiality of enterprise data while
+   ensuring secure and efficient multi-segment SD-WAN
+   connectivity.</t>
+    </abstract>
+  </front>
+</reference>

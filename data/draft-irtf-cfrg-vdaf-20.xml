@@ -1,0 +1,30 @@
+<reference anchor="I-D.irtf-cfrg-vdaf" target="https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-vdaf-20">
+  <front>
+    <title>Verifiable Distributed Aggregation Functions</title>
+    <seriesInfo name="Internet-Draft" value="draft-irtf-cfrg-vdaf-20"/>
+    <author initials="R." surname="Barnes" fullname="Richard Barnes">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="D." surname="Cook" fullname="David Cook">
+      <organization>ISRG</organization>
+    </author>
+    <author initials="C." surname="Patton" fullname="Christopher Patton">
+      <organization>Cloudflare</organization>
+    </author>
+    <author initials="P." surname="Schoppmann" fullname="Phillipp Schoppmann">
+      <organization>Google</organization>
+    </author>
+    <date day="24" month="June" year="2026"/>
+    <abstract>
+      <t>This document describes Verifiable Distributed Aggregation Functions
+   (VDAFs), a family of multi-party protocols for computing aggregate
+   statistics over user measurements.  These protocols are designed to
+   ensure that, as long as at least one aggregation server executes the
+   protocol honestly, individual measurements are never seen by any
+   server in the clear.  At the same time, VDAFs allow the servers to
+   detect if a malicious or misconfigured client submitted an invalid
+   measurement.  Two concrete VDAFs are specified, one for general-
+   purpose aggregation (Prio3) and another for heavy hitters (Poplar1).</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,23 @@
+<reference anchor="I-D.okutomi-session-bound-agent-identity" target="https://datatracker.ietf.org/doc/html/draft-okutomi-session-bound-agent-identity-00">
+  <front>
+    <title>A Profile for Session-Bound Agent Identity</title>
+    <seriesInfo name="Internet-Draft" value="draft-okutomi-session-bound-agent-identity-00"/>
+    <author initials="A." surname="Okutomi" fullname="Akira Okutomi"/>
+    <date day="23" month="June" year="2026"/>
+    <abstract>
+      <t>This document describes a profile for binding agent identity and
+   authorization material to an accepted TLS session and to verifier-
+   accepted attestation or channel-binding facts.  The profile separates
+   authority statements, holder-of-key session binding, and verifier-
+   local policy so that a relying party accepts an agent only when the
+   grant, session binding, freshness state, and local policy describe
+   the same intended interaction.
+
+   The profile does not define a new TLS extension, attestation evidence
+   format, identity provider, wallet format, or application protocol.
+   It profiles the use of existing mechanisms, including TLS exporters,
+   exported authenticators, JWT/CWT-style signed claims, proof-of-
+   possession keys, and remote attestation results.</t>
+    </abstract>
+  </front>
+</reference>

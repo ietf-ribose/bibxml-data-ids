@@ -1,0 +1,34 @@
+<reference anchor="I-D.ietf-anima-brski-discovery" target="https://datatracker.ietf.org/doc/html/draft-ietf-anima-brski-discovery-12">
+  <front>
+    <title>BRSKI discovery and variations</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-anima-brski-discovery-12"/>
+    <author initials="T. T." surname="Eckert" fullname="Toerless Eckert">
+      <organization>Futurewei USA</organization>
+    </author>
+    <author initials="E." surname="Dijk" fullname="Esko Dijk">
+      <organization>IoTconsultancy.nl</organization>
+    </author>
+    <date day="23" month="June" year="2026"/>
+    <abstract>
+      <t>This document specifies procedures for variations of the
+   "Bootstrapping Remote Secure Key Infrastructure" (BRSKI) series of
+   protocols to automatically announce, disover and select responders
+   using different discovery mechanisms such as DNS-SD, GRASP or CORE-
+   LF.  Different variations are not interoperable so initiators need to
+   be able to find initiators supporting the variations(s) they support.
+   Procedures for BRSKI proxies are defined that allow to proxy traffic
+   for any current and future variation.  Procedures to discover BRSKI
+   Pledges by their identifier are defined.
+
+   All procecdures are defined such that they rely on IANA defined
+   tables through which not only well specified but also possible but
+   not yet validated variations of BRSKI or additional discovery
+   mechanisms can be supported simply by adding entries to the IANA
+   tables.
+
+   Many of the procedures and mechanisms covered by this document may
+   equally be applied to discovery of other protocols especially when
+   they have non-interoperable variations.</t>
+    </abstract>
+  </front>
+</reference>

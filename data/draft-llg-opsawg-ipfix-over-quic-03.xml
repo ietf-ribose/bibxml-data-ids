@@ -1,0 +1,32 @@
+<reference anchor="I-D.llg-opsawg-ipfix-over-quic" target="https://datatracker.ietf.org/doc/html/draft-llg-opsawg-ipfix-over-quic-03">
+  <front>
+    <title>IPFIX Protocol over QUIC</title>
+    <seriesInfo name="Internet-Draft" value="draft-llg-opsawg-ipfix-over-quic-03"/>
+    <author initials="Y." surname="Liu" fullname="Yisong Liu">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="C." surname="Lin" fullname="Changwang Lin">
+      <organization>New H3C Technologies</organization>
+    </author>
+    <author initials="T." surname="Graf" fullname="Thomas Graf">
+      <organization>Swisscom</organization>
+    </author>
+    <author initials="B." surname="Claise" fullname="Beno&#xEE;t Claise">
+      <organization>Everything OPS</organization>
+    </author>
+    <date day="23" month="June" year="2026"/>
+    <abstract>
+      <t>The IP Flow Information Export (IPFIX) protocol provides a means for
+   transmitting Traffic Flow information over the network.  IPFIX Flow
+   Records and Template Records can be carried over a number of
+   transport protocols from an IPFIX Exporter to an IPFIX Collector.
+   The supported transport protocols are SCTP, UDP and TCP.  QUIC
+   provides inherently secure, stream-multiplexed, and reliable
+   connections for IPFIX protocol.  Especially, a single QUIC connection
+   can carry multiple independent streams, which can improve management
+   scalability between Exporters and Collectors.  This document
+   describes how to use IPFIX protocol over the QUIC transport protocol,
+   named IPFIXoQUIC.</t>
+    </abstract>
+  </front>
+</reference>
