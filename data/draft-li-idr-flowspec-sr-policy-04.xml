@@ -1,0 +1,31 @@
+<reference anchor="I-D.li-idr-flowspec-sr-policy" target="https://datatracker.ietf.org/doc/html/draft-li-idr-flowspec-sr-policy-04">
+  <front>
+    <title>BGP Flowspec Redirects to SR Policy</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-idr-flowspec-sr-policy-04"/>
+    <author initials="Z." surname="Li" fullname="Zhenqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="" surname="liusong" fullname="liusong">
+      <organization>China Mobile</organization>
+    </author>
+    <date day="25" month="June" year="2026"/>
+    <abstract>
+      <t>Extensions to BGP Flowspec Version 1 (FSv1) support steering traffic
+   into a Segment Routing (SR) Policy.
+
+   This document extends BGP Flowspec Version 2 (FSv2) to provide the
+   same capability of steering traffic into a SR Policy.  Using the
+   Community Container attribute, this document defines two new standard
+   actions for FSv2: the Redirect to SR Policy Action and the SRv6 SID
+   Action.  The former instructs headend node to direct traffic to a
+   designated SR Policy, while the latter supports simultaneously
+   encapsulating an additional SRv6 SID as required during redirection.
+
+   The Redirect to SR Policy Action may be used either independently or
+   in conjunction with the SRv6 SID Action, depending on the specific
+   application scenario.  In addition, the SRv6 SID Action can be
+   combined with other actions supported by FSv2, such as the Redirect
+   to IPv6 Action.</t>
+    </abstract>
+  </front>
+</reference>

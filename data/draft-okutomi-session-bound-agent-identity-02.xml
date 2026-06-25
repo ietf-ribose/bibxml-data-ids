@@ -1,0 +1,24 @@
+<reference anchor="I-D.okutomi-session-bound-agent-identity" target="https://datatracker.ietf.org/doc/html/draft-okutomi-session-bound-agent-identity-02">
+  <front>
+    <title>A Core Acceptance Profile for Session-Bound Agent Identity</title>
+    <seriesInfo name="Internet-Draft" value="draft-okutomi-session-bound-agent-identity-02"/>
+    <author initials="A." surname="Okutomi" fullname="Akira Okutomi">
+      <organization>Individual</organization>
+    </author>
+    <date day="25" month="June" year="2026"/>
+    <abstract>
+      <t>This document defines a core verifier-side acceptance profile for
+   session-bound Agent identity.  A verifier accepts an Agent only when
+   a verified authority grant, holder-of-key proof, accepted TLS or
+   exported-authenticator session, freshness and replay state, any
+   required attestation result, and verifier-local policy all describe
+   the same intended interaction.
+
+   This document does not define a TLS extension, attestation evidence
+   format, identity provider, holder-side presentation format, registry,
+   control plane, gateway, or application protocol.  Instead, it defines
+   the fail-closed acceptance rule for composing existing Internet
+   mechanisms at the verifier boundary.</t>
+    </abstract>
+  </front>
+</reference>

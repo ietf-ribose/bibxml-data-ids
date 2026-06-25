@@ -1,0 +1,36 @@
+<reference anchor="I-D.ietf-dkim-dkim2-spec" target="https://datatracker.ietf.org/doc/html/draft-ietf-dkim-dkim2-spec-03">
+  <front>
+    <title>DomainKeys Identified Mail Signatures v2 (DKIM2)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dkim-dkim2-spec-03"/>
+    <author initials="R." surname="Clayton" fullname="Richard Clayton">
+      <organization>Yahoo</organization>
+    </author>
+    <author initials="W." surname="Chuang" fullname="Wei Chuang">
+      <organization>Google</organization>
+    </author>
+    <author initials="B." surname="Gondwana" fullname="Bron Gondwana">
+      <organization>Fastmail Pty Ltd</organization>
+    </author>
+    <date day="24" month="June" year="2026"/>
+    <abstract>
+      <t>DomainKeys Identified Mail v2 (DKIM2) permits a person, role, or
+   organization that owns a signing domain to document that it has
+   handled an email message by associating their domain with the
+   message.  This is achieved by providing a hash value that has been
+   calculated on the current contents of the message and then applying a
+   cryptographic signature that covers the hash values and other details
+   about the transmission of the message.  Verification is performed by
+   querying an entry within the signing domain's DNS space to retrieve
+   an appropriate public key.  As a message is transferred from author
+   to recipient systems that alter the body or header fields will
+   provide details of their changes and calculate new hash values.
+   Further signatures will be added to provide a validatable "chain".
+   This permits validators to identify the nature of changes made by
+   intermediaries and apply a reputation to the systems that made
+   changed.  DKIM2 also allows recipients to detect when messages have
+   been unexpectedly "replayed" and will ensure that Delivery Status
+   Notifications are only sent to entities that were involved in the
+   transmission of a message.</t>
+    </abstract>
+  </front>
+</reference>

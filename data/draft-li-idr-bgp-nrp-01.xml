@@ -1,0 +1,29 @@
+<reference anchor="I-D.li-idr-bgp-nrp" target="https://datatracker.ietf.org/doc/html/draft-li-idr-bgp-nrp-01">
+  <front>
+    <title>BGP Extensions for Network Resource Partition</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-idr-bgp-nrp-01"/>
+    <author initials="Z." surname="Li" fullname="Zhenqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="R." surname="Hu" fullname="Ruiqian Hu">
+      <organization>China Mobile</organization>
+    </author>
+    <date day="25" month="June" year="2026"/>
+    <abstract>
+      <t>Existing approaches bind a Segment Routing (SR) Policy to a Network
+   Resource Partition (NRP) on a one-to-one basis, which lacks
+   flexibility and introduces significant operational overhead as the
+   number of NRPs scales, especially when multiple NRPs share the same
+   SR Policy path.
+
+   This document defines BGP extensions to advertise NRP Identifier (NRP
+   ID) information within BGP Update messages between headend and
+   endpoint nodes.  It decouples SR Policies from NRPs, allowing
+   multiple NRPs to share a common SR Policy path and avoiding linear
+   growth of SR Policies.
+
+   The proposed design reduces operational complexity and also applies
+   to SR Best Effort (SR BE) scenarios.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,34 @@
+<reference anchor="I-D.rosomakho-oauth-txn-challenge" target="https://datatracker.ietf.org/doc/html/draft-rosomakho-oauth-txn-challenge-00">
+  <front>
+    <title>OAuth Transaction Authorization Challenge</title>
+    <seriesInfo name="Internet-Draft" value="draft-rosomakho-oauth-txn-challenge-00"/>
+    <author initials="Y." surname="Rosomakho" fullname="Yaroslav Rosomakho">
+      <organization>Zscaler</organization>
+    </author>
+    <author initials="B." surname="Campbell" fullname="Brian Campbell">
+      <organization>Ping Identity</organization>
+    </author>
+    <author initials="K." surname="McGuinness" fullname="Karl McGuinness">
+      <organization>Independent</organization>
+    </author>
+    <author initials="P." surname="Kasselman" fullname="Pieter Kasselman">
+      <organization>Defakto Security</organization>
+    </author>
+    <date day="25" month="June" year="2026"/>
+    <abstract>
+      <t>This document defines an OAuth mechanism for transaction-specific
+   authorization challenges.  A protected resource can require
+   additional authorization for a particular operation by returning a
+   transaction authorization challenge.  This is useful when requests
+   are mediated by agents, automated workflows, or delegated services
+   and the protected resource requires confirmation from a human user,
+   resource owner, or organizational authority.  The client presents the
+   challenge to an authorization server, which validates the challenge,
+   obtains any required approval, and issues an OAuth 2.0 access token
+   whose granted authorization details, expressed using Rich
+   Authorization Requests, describe the approved operation.  The access
+   token is then presented to the protected resource as evidence that
+   the challenged operation was authorized.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,43 @@
+<reference anchor="I-D.xu-tsvwg-adaptive-queue-mgmt" target="https://datatracker.ietf.org/doc/html/draft-xu-tsvwg-adaptive-queue-mgmt-00">
+  <front>
+    <title>Adaptive Queue Management Under Congestion</title>
+    <seriesInfo name="Internet-Draft" value="draft-xu-tsvwg-adaptive-queue-mgmt-00"/>
+    <author initials="B." surname="Xu" fullname="Bohua Xu">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="C." surname="Liu" fullname="Chang Liu">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="J." surname="Ren" fullname="Jie Ren">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="C." surname="Wen" fullname="Chenyang Wen">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Wei Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="G." surname="Zhang" fullname="Guoying Zhang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="Y." surname="Yang" fullname="Yongtao Yang">
+      <organization>Centec</organization>
+    </author>
+    <date day="25" month="June" year="2026"/>
+    <abstract>
+      <t>Active Queue Management (AQM) manages queue depth by controlling
+   packet admission at the point of enqueue.  This document specifies a
+   complementary queue management behavior that operates on packets
+   already admitted to a queue: when the queue depth exceeds a
+   configurable threshold, the maximum time a packet may remain queued
+   before being dropped is reduced.  When congestion subsides, the
+   duration reverts to its base value.  This per-queue dropping behavior
+   helps manage queue depth during congestion by releasing resources
+   from queues where packets have been waiting longest, complementing
+   AQM without modifying its signaling semantics.</t>
+    </abstract>
+  </front>
+</reference>
