@@ -1,0 +1,26 @@
+<reference anchor="I-D.meunier-webbotauth-registry" target="https://datatracker.ietf.org/doc/html/draft-meunier-webbotauth-registry-03">
+  <front>
+    <title>Registry and Signature Agent card for Web bot auth</title>
+    <seriesInfo name="Internet-Draft" value="draft-meunier-webbotauth-registry-03"/>
+    <author initials="M." surname="Guerreiro" fullname="Maxime Guerreiro">
+      <organization>Cloudflare</organization>
+    </author>
+    <author initials="U." surname="Kirazci" fullname="Ulas Kirazci">
+      <organization>Amazon</organization>
+    </author>
+    <author initials="T." surname="Meunier" fullname="Thibault Meunier">
+      <organization>Cloudflare</organization>
+    </author>
+    <date day="26" month="June" year="2026"/>
+    <abstract>
+      <t>This document defines the "Signature Agent Card", a JSON metadata
+   document that a signature agent using [DIRECTORY] publishes to
+   describe itself: its identity, purpose, rate expectations, and
+   cryptographic keys.  Its parameters are drawn from the OAuth Dynamic
+   Client Registration Metadata registry [DCR], the same namespace used
+   by [CIMD], extended with a single web_bot_auth object.  This document
+   registers that object with IANA and establishes a registry for its
+   members.</t>
+    </abstract>
+  </front>
+</reference>

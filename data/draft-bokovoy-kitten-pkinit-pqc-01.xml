@@ -1,0 +1,28 @@
+<reference anchor="I-D.bokovoy-kitten-pkinit-pqc" target="https://datatracker.ietf.org/doc/html/draft-bokovoy-kitten-pkinit-pqc-01">
+  <front>
+    <title>Post-quantum Key Encapsulation with ML-KEM in Public Key Cryptography for Initial Authentication in Kerberos (PKINIT)</title>
+    <seriesInfo name="Internet-Draft" value="draft-bokovoy-kitten-pkinit-pqc-01"/>
+    <author initials="A." surname="Bokovoy" fullname="Alexander Bokovoy">
+      <organization>Red Hat, Inc.</organization>
+    </author>
+    <author initials="J." surname="Rische" fullname="Julien Rische">
+      <organization>Red Hat, Inc.</organization>
+    </author>
+    <author initials="N." surname="Williams" fullname="Nicol&#xE1;s Williams">
+      <organization>Cryptonector</organization>
+    </author>
+    <date day="26" month="June" year="2026"/>
+    <abstract>
+      <t>This document specifies extensions to the Kerberos PKINIT pre-
+   authentication mechanism [RFC4556] [RFC8636] to support post-quantum
+   key establishment using the Module-Lattice-Based Key-Encapsulation
+   Mechanism (ML-KEM) algorithms defined in [FIPS203].
+
+   The extensions define a new kemInfo arm in PA-PK-AS-REP, a KDCKEMInfo
+   structure signed by the KDC, HKDF-based AS reply key derivation
+   (HKDF-SHA-512 for ML-KEM), and downgrade-prevention rules.  The KEM
+   path framework supports multiple KEM algorithms including ML-KEM,
+   composite ML-KEM algorithms, and future KEM standards.</t>
+    </abstract>
+  </front>
+</reference>
