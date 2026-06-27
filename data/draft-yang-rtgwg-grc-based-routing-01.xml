@@ -1,0 +1,29 @@
+<reference anchor="I-D.yang-rtgwg-grc-based-routing" target="https://datatracker.ietf.org/doc/html/draft-yang-rtgwg-grc-based-routing-01">
+  <front>
+    <title>Geographic Based Dynamic Routing in LEO Satellite Networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-yang-rtgwg-grc-based-routing-01"/>
+    <author initials="F." surname="Yang" fullname="Feng Yang">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="P." surname="Du" fullname="Ping Du">
+      <organization>China Satellite Network Group</organization>
+    </author>
+    <author initials="X." surname="Min" fullname="Xiao Min">
+      <organization>ZTE</organization>
+    </author>
+    <date day="27" month="June" year="2026"/>
+    <abstract>
+      <t>This document proposes a dynamic routing mechanism for Low Earth
+   Orbit(LEO) satellite networks based on geographic region coding.  By
+   decoupling IP addressing from physical location, the mechanism uses
+   hierarchical geographic grid codes (inspired by Uber's H3 spatial
+   index) as temporary IP addresses for satellites.  Routing decisions
+   are made based on the relative geographic position encoded in the
+   destination address, rather than traditional prefix-based IP routing.
+   Satellite ephemeris data is leveraged to pre-compute routing tables
+   for discrete time slices, eliminating the need for real-time link-
+   state flooding and enabling stable, predictable routing in highly
+   dynamic satellite topologies.</t>
+    </abstract>
+  </front>
+</reference>
