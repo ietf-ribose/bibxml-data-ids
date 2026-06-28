@@ -1,0 +1,28 @@
+<reference anchor="I-D.ietf-mailmaint-autoconfig" target="https://datatracker.ietf.org/doc/html/draft-ietf-mailmaint-autoconfig-05">
+  <front>
+    <title>Mail Autoconfig</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-mailmaint-autoconfig-05"/>
+    <author initials="B." surname="Bucksch" fullname="Ben Bucksch">
+      <organization>Beonex</organization>
+    </author>
+    <date day="27" month="June" year="2026"/>
+    <abstract>
+      <t>A protocol that allows email applications to set up mail accounts and
+   related accounts with only the email address and password.
+
+   It defines how service providers can publish the account
+   configuration, so that email applications can automatically find a
+   working configuration.  It reduces setup friction for their users,
+   and calls to the support for the service provider.
+
+   Although the discovery process starts with an email address, the
+   protocol is not limited setting up email accounts, but can also set
+   up calendar, contact and file sync, video conference accounts and
+   other accounts that are connected to the same user account.
+
+   This protocol uses a well-known address and DNS lookups, based on the
+   email address domain, to find the XML configuration file for the
+   service provider.</t>
+    </abstract>
+  </front>
+</reference>

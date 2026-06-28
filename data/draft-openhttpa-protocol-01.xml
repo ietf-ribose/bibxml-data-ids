@@ -1,0 +1,27 @@
+<reference anchor="I-D.openhttpa-protocol" target="https://datatracker.ietf.org/doc/html/draft-openhttpa-protocol-01">
+  <front>
+    <title>OpenHTTPA: Hypertext Transfer Protocol with Attestation</title>
+    <seriesInfo name="Internet-Draft" value="draft-openhttpa-protocol-01"/>
+    <author initials="G." surname="King" fullname="Gordon King">
+      <organization>OpenHTTPA Foundation</organization>
+    </author>
+    <author initials="H." surname="Wang" fullname="Hans Wang">
+      <organization>OpenHTTPA Foundation</organization>
+    </author>
+    <date day="27" month="June" year="2026"/>
+    <abstract>
+      <t>OpenHTTPA (Hypertext Transfer Protocol with Attestation) defines a
+   protocol for establishing hardware-verified, end-to-end confidential
+   and authenticated communication between a client and a Trusted
+   Execution Environment (TEE) over standard HTTP/2, HTTP/3, and gRPC
+   transports.  Unlike traditional TLS which terminates at the network
+   edge, OpenHTTPA ensures that the cryptographic session terminates
+   inside the hardware-isolated enclave.  The protocol is based on the
+   SIGMA-I model and incorporates post-quantum hybrid key exchange (ML-
+   KEM), post-quantum digital signatures (ML-DSA), transcript-bound
+   hardware attestation, and semantic binding of HTTP requests to the
+   hardware-verified session state.  This document supersedes the
+   earlier work published as draft-openhttpa-protocol-00.</t>
+    </abstract>
+  </front>
+</reference>
