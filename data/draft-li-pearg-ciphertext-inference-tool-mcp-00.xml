@@ -1,0 +1,34 @@
+<reference anchor="I-D.li-pearg-ciphertext-inference-tool-mcp" target="https://datatracker.ietf.org/doc/html/draft-li-pearg-ciphertext-inference-tool-mcp-00">
+  <front>
+    <title>Ciphertext-Based AI Inference Tool Design for the Model Context Protocol (MCP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-pearg-ciphertext-inference-tool-mcp-00"/>
+    <author initials="L." surname="Lun" fullname="LUN LI">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="Y." surname="Tu" fullname="Yaowei Tu">
+      <organization>National University of Singapore</organization>
+    </author>
+    <date day="28" month="June" year="2026"/>
+    <abstract>
+      <t>The Model Context Protocol (MCP) enables AI-powered tools to interact
+   with autonomous agents and Large Language Models (LLMs), but
+   currently processes user inputs and inference results in plaintext.
+   This could introduce some privacy risks and violates the principle of
+   least privilege when processing user data.  This contribution
+   specifies a ciphertext-based AI inference extension for MCP.  The
+   design leverages Homomorphic Encryption (HE) to allow an MCP server
+   or remote tool to perform inference directly on encrypted data
+   without accessing the plaintext.  The server receives encrypted
+   payloads, computes over ciphertexts using an evaluation key, and
+   returns an encrypted result that only the MCP client can decrypt.  To
+   ensure interoperability across various network environments, this
+   document defines a JSON-RPC message format independent of the
+   underlying transport layer (supporting both local stdio and remote
+   Server-Sent Events).  The format extends the existing MCP 'tools/
+   call' method with fields for encrypted payloads, algorithm
+   identifiers, and key references.  Additionally, this document
+   discusses security considerations, key management, and implementation
+   trade-offs.</t>
+    </abstract>
+  </front>
+</reference>

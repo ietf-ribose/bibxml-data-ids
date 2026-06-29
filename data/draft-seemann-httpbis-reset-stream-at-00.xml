@@ -1,0 +1,22 @@
+<reference anchor="I-D.seemann-httpbis-reset-stream-at" target="https://datatracker.ietf.org/doc/html/draft-seemann-httpbis-reset-stream-at-00">
+  <front>
+    <title>Using QUIC Stream Resets with Partial Delivery in HTTP/3</title>
+    <seriesInfo name="Internet-Draft" value="draft-seemann-httpbis-reset-stream-at-00"/>
+    <author initials="M." surname="Seemann" fullname="Marten Seemann"/>
+    <date day="29" month="June" year="2026"/>
+    <abstract>
+      <t>QUIC stream resets do not guarantee delivery of stream data sent
+   before the reset.  This is a problem for HTTP/3 when the correct
+   protocol outcome is an abrupt stream termination, but the sender
+   still has a bounded prefix worth delivering, such as response
+   headers, a short diagnostic response body, or a partial response
+   received from an upstream host.
+
+   RESET_STREAM_AT provides reliable delivery of that prefix and is
+   already used by WebTransport over HTTP/3 when resetting streams.  The
+   same mechanism also fits HTTP/3 CONNECT tunnels, intermediary
+   failures after response commitment, malformed decoded HTTP messages,
+   and requests rejected before application processing.</t>
+    </abstract>
+  </front>
+</reference>

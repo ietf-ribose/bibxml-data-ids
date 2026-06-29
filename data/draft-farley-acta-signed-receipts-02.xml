@@ -1,0 +1,24 @@
+<reference anchor="I-D.farley-acta-signed-receipts" target="https://datatracker.ietf.org/doc/html/draft-farley-acta-signed-receipts-02">
+  <front>
+    <title>Signed Decision Receipts for Machine-to-Machine Access Control</title>
+    <seriesInfo name="Internet-Draft" value="draft-farley-acta-signed-receipts-02"/>
+    <author initials="T." surname="Farley" fullname="Tom Farley">
+      <organization>ScopeBlind (Veritas Acta)</organization>
+    </author>
+    <date day="28" month="June" year="2026"/>
+    <abstract>
+      <t>This document defines a portable, cryptographically signed receipt
+   format for recording machine-to-machine access control decisions.
+   Each receipt captures the identity of the decision maker, the tool or
+   resource being accessed, the policy evaluation result, and a
+   timestamp — all signed with Ed25519 [RFC8032] and serialized using
+   deterministic JSON canonicalization [RFC8785].
+
+   The format is designed for environments where AI agents invoke tools
+   on behalf of human operators, particularly the Model Context Protocol
+   (MCP) ecosystem.  Receipts are independently verifiable without
+   contacting the issuer, enabling offline audit, regulatory compliance,
+   and cross-organizational trust federation.</t>
+    </abstract>
+  </front>
+</reference>

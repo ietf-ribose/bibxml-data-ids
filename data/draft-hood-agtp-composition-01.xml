@@ -1,0 +1,36 @@
+<reference anchor="I-D.hood-agtp-composition" target="https://datatracker.ietf.org/doc/html/draft-hood-agtp-composition-01">
+  <front>
+    <title>AGTP Composition Profiles: Agent Group Messaging Protocols, External Identity Providers, and HTTP Gateways</title>
+    <seriesInfo name="Internet-Draft" value="draft-hood-agtp-composition-01"/>
+    <author initials="C." surname="Hood" fullname="Chris Hood">
+      <organization>Nomotic, Inc.</organization>
+    </author>
+    <date day="28" month="June" year="2026"/>
+    <abstract>
+      <t>The Agent Transfer Protocol (AGTP) operates as a substrate beneath
+   several adjacent layers: Agent Group Messaging Protocols (AGMPs) such
+   as the Model Context Protocol (MCP), the Agent-to-Agent Protocol
+   (A2A), and the Agent Communication Protocol (ACP); external identity
+   providers (OAuth, OIDC, enterprise IdPs); and HTTP-based clients that
+   interact with agents through translation gateways.  This document
+   specifies the composition profiles for each of these adjacent layers,
+   defining normative mapping rules between the adjacent layer and AGTP.
+
+   Three composition families are specified.  The AGMP composition
+   profile specifies how MCP, A2A, and ACP messages are carried over
+   AGTP, with mapping rules for identity, authority scope, delegation,
+   and session fields between the AGMP and AGTP layers.  The External
+   Identity Provider composition profile specifies how AGTP agent
+   identity composes with externally-issued credentials, treating "which
+   agent" and "on whose behalf" as orthogonal axes.  The HTTP Gateway
+   composition profile specifies the translation surface for accepting
+   HTTP traffic into AGTP- served agents as a REST adoption ramp.
+
+   Across all three families, AGTP headers take precedence over
+   equivalent adjacent-layer fields for all infrastructure-level
+   routing, enforcement, and audit operations.  Agents gain transport-
+   level governance, observability, and identity without modification to
+   the adjacent layers.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,38 @@
+<reference anchor="I-D.lopes-rank" target="https://datatracker.ietf.org/doc/html/draft-lopes-rank-00">
+  <front>
+    <title>Rank, a Resource Management Protocol for Allocation</title>
+    <seriesInfo name="Internet-Draft" value="draft-lopes-rank-00"/>
+    <author initials="R. E." surname="Lopes" fullname="Rui Eduardo Lopes">
+      <organization>Universidade de Aveiro and Instituto de Telecomunicações</organization>
+    </author>
+    <author initials="D." surname="Raposo" fullname="Duarte Raposo">
+      <organization>Instituto de Telecomunicações</organization>
+    </author>
+    <author initials="S." surname="Sargento" fullname="Susana Sargento">
+      <organization>Universidade de Aveiro and Instituto de Telecomunicações</organization>
+    </author>
+    <date day="29" month="June" year="2026"/>
+    <abstract>
+      <t>This document specifies Rank, a comprehensive resource management
+   protocol designed for modern edge-to-cloud computing infrastructures.
+   While traditional network protocols focus primarily on managing link
+   bandwidth and router buffer space, the shift toward decentralized
+   services demands a broader approach to resource allocation.  Rank
+   addresses this gap by simultaneously managing computing capabilities
+   (such as CPU, memory, and storage), network capacity, and time-
+   sensitive constraints (such as clock synchronization and task
+   scheduling) within a unified framework.
+
+   Operating primarily as a fully distributed protocol, Rank enables
+   dynamic resource discovery, estimation, allocation, and sharing.  It
+   works by establishing a path between a source ("talker") and a
+   destination ("listener") node, actively negotiating resource
+   requirements across all intermediate nodes.  Because it is fully
+   distributed, all participating nodes carry equal responsibility in
+   handling a session, such as processing requests, evaluating their own
+   capacity to meet the resource demands, and strategically forwarding
+   messages to ensure an optimized, end-to-end connection without
+   relying on a centralized controller.</t>
+    </abstract>
+  </front>
+</reference>
