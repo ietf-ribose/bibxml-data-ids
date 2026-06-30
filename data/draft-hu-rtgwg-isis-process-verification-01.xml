@@ -1,0 +1,31 @@
+<reference anchor="I-D.hu-rtgwg-isis-process-verification" target="https://datatracker.ietf.org/doc/html/draft-hu-rtgwg-isis-process-verification-01">
+  <front>
+    <title>IS-IS Process ID Verification</title>
+    <seriesInfo name="Internet-Draft" value="draft-hu-rtgwg-isis-process-verification-01"/>
+    <author initials="Z." surname="Hu" fullname="Zehua Hu">
+      <organization>China Telecom</organization>
+    </author>
+    <author initials="J." surname="Hu" fullname="Jiayuan Hu">
+      <organization>China Telecom</organization>
+    </author>
+    <date day="30" month="June" year="2026"/>
+    <abstract>
+      <t>In IS-IS deployments, the process identifier (process ID) is used on
+   a local router to distinguish and manage different IS-IS protocol
+   instances.  Process ID is local to the router and is not transmitted
+   to neighbors, providing operational flexibility.  However, because
+   the process ID is also used to implement route redistribution and
+   specify administrative tags for fine-grained control, its
+   misconfiguration can lead to severe impacts (e.g., routing loops or
+   black holes) with difficult troubleshooting.
+
+   To address this problem, network operators typically deploy a
+   consistent process ID on both ends of a link within the same domain,
+   to reduce configuration complexity.  In this context, to avoid the
+   misconfiguration of the IS-IS process ID, this document introduces
+   two optional approaches for process ID verification.  When process ID
+   verification is enabled, an IS-IS adjacency can be established only
+   when the process identifiers at both ends of the link match.</t>
+    </abstract>
+  </front>
+</reference>

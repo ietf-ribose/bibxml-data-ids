@@ -1,0 +1,33 @@
+<reference anchor="I-D.sato-soos-mjwt" target="https://datatracker.ietf.org/doc/html/draft-sato-soos-mjwt-02">
+  <front>
+    <title>The Mandate JWT (MJWT) for Agentic AI Systems</title>
+    <seriesInfo name="Internet-Draft" value="draft-sato-soos-mjwt-02"/>
+    <author initials="" surname="Sato" fullname="Tom Sato">
+      <organization>MyAuberge K.K.</organization>
+    </author>
+    <date day="30" month="June" year="2026"/>
+    <abstract>
+      <t>An AI agent that can act without a verifiable, human-traceable
+   authorization record is an agent without an owner.  Existing
+   authorization credentials tell you what an agent is permitted to do;
+   none of them tell you who authorized it, on which specific object,
+   under which mission, or how far that authority can be delegated
+   before it reaches this agent.
+
+   This document defines the Mandate JWT (MJWT): a WIMSE workload
+   credential profile that binds an AI agent's authority to a specific
+   Sovereign Object instance under a named human principal, with a
+   cryptographically enforced delegation ceiling and a seven-dimensional
+   Narrowing Property that prevents any sub-agent from exceeding the
+   authority of the human principal at the root of the chain.  Version
+   -02 adds a seventh narrowing dimension (consent scope), the
+   consent_scope claim carrying data subject consent state for
+   APPI/GDPR compliance, the sub_agent_scope claim for consent
+   attenuation across delegation hops, a Purpose Code Registry, and
+   HEM_CONSENT_REQUIRED integration for fail-closed consent enforcement.
+   The MJWT is the authorization primitive referenced by
+   [I-D.sato-soos-idp], [I-D.sato-soos-hem], [I-D.sato-soos-gar],
+   [I-D.sato-soos-cap], and [I-D.sato-soos-sov].</t>
+    </abstract>
+  </front>
+</reference>

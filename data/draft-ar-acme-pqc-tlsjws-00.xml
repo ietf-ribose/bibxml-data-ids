@@ -1,0 +1,28 @@
+<reference anchor="I-D.ar-acme-pqc-tlsjws" target="https://datatracker.ietf.org/doc/html/draft-ar-acme-pqc-tlsjws-00">
+  <front>
+    <title>Quantum-Ready Profiles for ACME</title>
+    <seriesInfo name="Internet-Draft" value="draft-ar-acme-pqc-tlsjws-00"/>
+    <author initials="A." surname="Banerjee" fullname="Aritra Banerjee">
+      <organization>Nokia</organization>
+    </author>
+    <author initials="T." surname="Reddy.K" fullname="Tirumaleswar Reddy.K">
+      <organization>Nokia</organization>
+    </author>
+    <date day="30" month="June" year="2026"/>
+    <abstract>
+      <t>This document updates RFC 8555 (ACME) to specify post-quantum and PQ/
+   T hybrid cryptographic requirements for quantum-ready deployments.
+   The Automatic Certificate Management Environment (ACME) automates
+   certificate issuance, validation, and management over HTTPS using
+   JSON Web Signatures (JWS) to authenticate client request payloads.
+   Current ACME deployments rely on traditional public-key algorithms in
+   both JWS and TLS, which are vulnerable to attacks from
+   Cryptographically Relevant Quantum Computers (CRQCs).  These profiles
+   define PQC or PQ/T TLS 1.3 key establishment and specify PQC or PQ/T
+   authentication mechanisms for JWS and TLS where required by the
+   selected quantum-ready profile.  Together, these profiles enable ACME
+   clients and servers to achieve quantum-resistant confidentiality and
+   authentication.</t>
+    </abstract>
+  </front>
+</reference>

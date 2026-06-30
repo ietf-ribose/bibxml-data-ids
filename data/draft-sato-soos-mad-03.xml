@@ -1,0 +1,33 @@
+<reference anchor="I-D.sato-soos-mad" target="https://datatracker.ietf.org/doc/html/draft-sato-soos-mad-03">
+  <front>
+    <title>Multi-Agent Delegation in Sovereign Object Systems</title>
+    <seriesInfo name="Internet-Draft" value="draft-sato-soos-mad-03"/>
+    <author initials="" surname="Sato" fullname="Tom Sato">
+      <organization>MyAuberge K.K.</organization>
+    </author>
+    <date day="30" month="June" year="2026"/>
+    <abstract>
+      <t>When a consequential task requires multiple AI agents -- one to
+   coordinate, others to execute, each operating on different objects
+   in a shared workflow -- who is responsible for the outcome?  Which
+   agent caused which state change?  Under whose authority?  If the
+   coordinating agent's authorization is revoked, does the authority
+   of every sub-agent it delegated to immediately expire?  If one
+   agent in a parallel workflow exceeds its scope, can that excess
+   propagate to others?
+
+   This document defines the Multi-Agent Delegation (MAD) protocol,
+   extended in version -03 with four new normative mechanisms: the
+   Sub-Agent Composition Record (SACR) for kernel-governed sub-agent
+   spawning; the hub-only constraint for sub-agent communication
+   topology; XPID cross-cluster integration derived from KIA-03; and
+   full normative specifications for the R-1 through R-7 revocation
+   trigger classes with completion states and cascade behavior.
+
+   MAD provides a single recoverable property: the accountability
+   chain is always reconstructable from the GEC-signed audit record
+   alone.  Cascade revocation means one decision stops the entire
+   tree.  SACR means the spawning of that tree is itself governed.</t>
+    </abstract>
+  </front>
+</reference>

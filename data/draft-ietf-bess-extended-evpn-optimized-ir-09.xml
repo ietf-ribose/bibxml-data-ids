@@ -1,0 +1,36 @@
+<reference anchor="I-D.ietf-bess-extended-evpn-optimized-ir" target="https://datatracker.ietf.org/doc/html/draft-ietf-bess-extended-evpn-optimized-ir-09">
+  <front>
+    <title>Extended Procedures for EVPN Optimized Ingress Replication</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bess-extended-evpn-optimized-ir-09"/>
+    <author initials="W." surname="Lin" fullname="W. Lin">
+      <organization>HPE</organization>
+    </author>
+    <author initials="S." surname="Sivaraj" fullname="Selvakumar Sivaraj">
+      <organization>HPE</organization>
+    </author>
+    <author initials="V." surname="Garg" fullname="Vishal Garg">
+      <organization>HPE</organization>
+    </author>
+    <author initials="J." surname="Rabadan" fullname="Jorge Rabadan">
+      <organization>Nokia</organization>
+    </author>
+    <date day="29" month="June" year="2026"/>
+    <abstract>
+      <t>In the Virtualization Overlay (NVO) network with Ethernet VPN (EVPN),
+   optimized ingress replication uses Assisted-Replication (AR) to
+   achieve more efficient delivery of Broadcast and Multicast (BM)
+   traffic.  An AR-LEAF, which is a Network Virtualization Edge (NVE)
+   device, forwards received BM traffic from its tenant system to an AR-
+   REPLICATOR.  The AR-REPLICATOR then replicates it to the remaining
+   AR-LEAFs in the network.  However, when replicating the packet on
+   behalf of its multihomed AR-LEAF, an AR-REPLICATOR may face
+   challenges in retaining the source IP address or including the
+   expected Ethernet Segment Identifier (ESI) label that is required for
+   EVPN split-horizon filtering.  This document extends the optimized
+   ingress replication procedures to address such limitations.  The
+   extended procedures specified in this document allow the support of
+   EVPN multihoming on the AR-LEAFs as well as optimized ingress
+   replication for the rest of the EVPN NVO network.</t>
+    </abstract>
+  </front>
+</reference>
