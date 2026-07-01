@@ -1,0 +1,38 @@
+<reference anchor="I-D.yuan-idr-bgp-color-threats" target="https://datatracker.ietf.org/doc/html/draft-yuan-idr-bgp-color-threats-00">
+  <front>
+    <title>Threat Model for BGP Color Extended Community</title>
+    <seriesInfo name="Internet-Draft" value="draft-yuan-idr-bgp-color-threats-00"/>
+    <author initials="Y." surname="Yuan" fullname="Yuan Yuan">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author initials="K." surname="Xu" fullname="Ke Xu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="S." surname="Jiang" fullname="Shenglin(Forrest) Jiang">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author initials="J. H." surname="Wang" fullname="Jessie Hui Wang">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="Z." surname="liu" fullname="Zhuotao liu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date day="30" month="June" year="2026"/>
+    <abstract>
+      <t>The BGP Color Extended Community carries a user-defined Color value
+   that is configured locally and has no globally standardized
+   semantics.  Although this design is suitable for local policy
+   expression, it raises security concerns when Color values are
+   propagated across Autonomous System (AS) boundaries and used to
+   influence forwarding behavior in another domain.
+
+   This document describes a threat model for that context, following
+   the structure used by RFC 7132.  It defines relevant terminology,
+   characterizes the classes of adversaries considered to be threats,
+   examines the classes of attacks that those threats are able to effect
+   against Color-based forwarding, and concludes with a discussion of
+   residual vulnerabilities.  It does not revisit attacks against
+   unprotected BGP, and it defines no new protocol mechanism.</t>
+    </abstract>
+  </front>
+</reference>

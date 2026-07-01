@@ -1,0 +1,28 @@
+<reference anchor="I-D.giese-dhcp-rate-signaling" target="https://datatracker.ietf.org/doc/html/draft-giese-dhcp-rate-signaling-01">
+  <front>
+    <title>DHCP Explicit Rate Signaling</title>
+    <seriesInfo name="Internet-Draft" value="draft-giese-dhcp-rate-signaling-01"/>
+    <author initials="C." surname="Giese" fullname="Christian Giese">
+      <organization>RtBrick</organization>
+    </author>
+    <author initials="R." surname="Patterson" fullname="Richard Patterson">
+      <organization>Sky UK</organization>
+    </author>
+    <date day="01" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines new Dynamic Host Configuration Protocol (DHCP)
+   options for both DHCPv4 and DHCPv6 to explicitly signal available
+   upstream and downstream data rates.  In many broadband access
+   networks, Customer Premises Equipment (CPE) and intermediate nodes
+   lack visibility into the subscriber's provisioned service tier.  By
+   communicating these capacities natively via DHCP, clients, relay
+   agents, and snooping switches can dynamically configure localized
+   traffic shaping and queuing.  This explicit signaling improves
+   overall network performance by reducing the reliance on
+   indiscriminate packet dropping and policing at the service edge.
+   Additionally, it provides the necessary capacity awareness to enable
+   effective Active Queue Management (AQM) and the Low Latency, Low
+   Loss, and Scalable Throughput (L4S) architecture.</t>
+    </abstract>
+  </front>
+</reference>

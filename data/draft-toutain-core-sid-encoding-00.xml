@@ -1,0 +1,31 @@
+<reference anchor="I-D.toutain-core-sid-encoding" target="https://datatracker.ietf.org/doc/html/draft-toutain-core-sid-encoding-00">
+  <front>
+    <title>YANG SID Discovery Using the Domain Name System</title>
+    <seriesInfo name="Internet-Draft" value="draft-toutain-core-sid-encoding-00"/>
+    <author initials="S." surname="Balakrichenan" fullname="Sandoche Balakrichenan">
+      <organization>Afnic</organization>
+    </author>
+    <author initials="A." surname="Pelov" fullname="Alexander Pelov">
+      <organization>IMT Atlantique</organization>
+    </author>
+    <author initials="L." surname="Toutain" fullname="Laurent Toutain">
+      <organization>IMT Atlantique</organization>
+    </author>
+    <date day="01" month="July" year="2026"/>
+    <abstract>
+      <t>CORECONF is an interface for managing YANG-modeled data using CBOR.
+   It replaces verbose YANG schema item identifiers with compact 64-bit
+   integers called Schema Item iDentifiers (SIDs).  Interpreting a SID
+   requires two resources: the YANG module definition and the SID
+   dictionary (the .sid file) that maps each integer to the
+   corresponding YANG schema item.  Pre-loading every possible YANG
+   module and its SID dictionary is not practical as the set of deployed
+   modules grows; a dynamic discovery mechanism is therefore needed.
+   This document specifies a DNS reverse-lookup mechanism analogous to
+   ip6.arpa that maps a SID to a DNS name under the sid.yt. tree (where
+   "yt" stands for YANG Tracker).  Resolving that name returns TXT
+   records pointing to the authoritative repository for the
+   corresponding YANG module.</t>
+    </abstract>
+  </front>
+</reference>

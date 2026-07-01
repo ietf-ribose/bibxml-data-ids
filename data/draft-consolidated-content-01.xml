@@ -1,0 +1,26 @@
+<reference anchor="I-D.consolidated-content" target="https://datatracker.ietf.org/doc/html/draft-consolidated-content-01">
+  <front>
+    <title>Content Negotiation for Consolidated Machine-Readable Representations</title>
+    <seriesInfo name="Internet-Draft" value="draft-consolidated-content-01"/>
+    <author initials="C." surname="Lecklider" fullname="Charles Lecklider">
+      <organization>Independent</organization>
+    </author>
+    <date day="01" month="July" year="2026"/>
+    <abstract>
+      <t>This document specifies the use of HTTP content negotiation and the
+   Prefer header to request consolidated, machine-readable
+   representations of web resources.  A client uses the Accept header to
+   negotiate an appropriate media type and Prefer: return=consolidated
+   to request a representation intended for automated consumption.  A
+   server that honours the preference identifies the selected
+   representation with Preference-Applied: return=consolidated and
+   varies cached responses on Accept and Prefer.  The mechanism uses
+   existing HTTP semantics and introduces a single new preference value
+   for the existing Prefer header.  It provides a protocol-level
+   alternative to ad-hoc client detection or path conventions when
+   serving machine-readable representations, while also enabling
+   publishers to reduce repeated fetching, bandwidth use, and server
+   processing.</t>
+    </abstract>
+  </front>
+</reference>

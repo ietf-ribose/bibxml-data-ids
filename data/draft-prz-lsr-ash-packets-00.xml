@@ -1,0 +1,26 @@
+<reference anchor="I-D.prz-lsr-ash-packets" target="https://datatracker.ietf.org/doc/html/draft-prz-lsr-ash-packets-00">
+  <front>
+    <title>IS-IS Aggregated SNP Hash Packets</title>
+    <seriesInfo name="Internet-Draft" value="draft-prz-lsr-ash-packets-00"/>
+    <author initials="T." surname="Przygienda" fullname="Tony Przygienda">
+      <organization>HPE Juniper Networking</organization>
+    </author>
+    <author initials="T." surname="Li" fullname="Tony Li">
+      <organization>HPE Juniper Networking</organization>
+    </author>
+    <author initials="J. M." surname="Halpern" fullname="Joel M. Halpern">
+      <organization>HPE Juniper Networking</organization>
+    </author>
+    <date day="01" month="July" year="2026"/>
+    <abstract>
+      <t>The document presents an optional new type of database
+   synchronization packet called an Aggregated SNP Hash (ASH).  When
+   feasible, it compresses traditional SNP exchanges into a dynamic
+   Merkle tree-like structure, which speeds up synchronization of large
+   databases and adjacency numbers while reducing the load from regular
+   CSNP exchanges during normal operation.  Just like CSNPs and PSNPs,
+   ASH packets come in two flavors, called Complete ASH (CASH) and
+   Partial ASH (PASH).</t>
+    </abstract>
+  </front>
+</reference>

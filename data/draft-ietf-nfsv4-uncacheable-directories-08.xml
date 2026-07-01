@@ -1,0 +1,24 @@
+<reference anchor="I-D.ietf-nfsv4-uncacheable-directories" target="https://datatracker.ietf.org/doc/html/draft-ietf-nfsv4-uncacheable-directories-08">
+  <front>
+    <title>Adding an Uncacheable Directory-Entry Metadata Attribute to NFSv4.2</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-nfsv4-uncacheable-directories-08"/>
+    <author initials="T." surname="Haynes" fullname="Thomas Haynes">
+      <organization>Hammerspace</organization>
+    </author>
+    <date day="30" month="June" year="2026"/>
+    <abstract>
+      <t>Network File System version 4.2 (NFSv4.2) clients may cache the file
+   attributes returned by READDIR alongside each directory entry.  This
+   caching is inherently best-effort: those attributes belong to the
+   underlying files and change when the files are written, which the
+   directory's change attribute does not track.  In some deployments the
+   rate of file writes by other clients makes such caching produce
+   incorrect size and timestamp values often enough to be a deployment
+   problem.  This document introduces an uncacheable dirent metadata
+   attribute for NFSv4.2 that allows a server to identify a directory
+   for which an honoring client is required to retrieve directory-entry
+   metadata from the server on each READDIR rather than serving the
+   response from a local cache.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,32 @@
+<reference anchor="I-D.duan-dnsop-work-amplification" target="https://datatracker.ietf.org/doc/html/draft-duan-dnsop-work-amplification-00">
+  <front>
+    <title>DNS Work Amplification: Problem Statement, Terminology, and Taxonomy</title>
+    <seriesInfo name="Internet-Draft" value="draft-duan-dnsop-work-amplification-00"/>
+    <author initials="H." surname="DUAN" fullname="Huayi DUAN">
+      <organization>HKUST(GZ)</organization>
+    </author>
+    <author initials="L." surname="Xu" fullname="Liwen Xu">
+      <organization>ETH Zurich</organization>
+    </author>
+    <author initials="A." surname="Perrig" fullname="Adrian Perrig">
+      <organization>ETH Zurich</organization>
+    </author>
+    <date day="01" month="July" year="2026"/>
+    <abstract>
+      <t>Recursive DNS resolvers are expected to bound the amount of "work"
+   performed when answering a client query.  DNS specifications discuss
+   such bounds but leave key concepts, accounting rules, and safe limits
+   underspecified.  This leeway has led to divergent implementations and
+   makes systematic bounding difficult, contributing to
+   denial-of-service attacks that amplify resolver work and harm
+   different DNS components.  This document describes the problem space
+   of DNS work amplification.  It defines terminology for discussing
+   work performed during a single resolution instance, develops a
+   taxonomy of work-amplification vulnerabilities along resource and
+   mechanism axes, and analyses where existing DNS specifications leave
+   amplification-relevant behavior underspecified.  The document is
+   descriptive: it does not itself specify protocol changes or
+   operational requirements.</t>
+    </abstract>
+  </front>
+</reference>
