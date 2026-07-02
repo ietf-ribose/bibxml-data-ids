@@ -1,0 +1,47 @@
+<reference anchor="I-D.yang-dmsc-gateway-semantic-layer" target="https://datatracker.ietf.org/doc/html/draft-yang-dmsc-gateway-semantic-layer-02">
+  <front>
+    <title>Gateway Mediation Layer for AI Agent Collaboration</title>
+    <seriesInfo name="Internet-Draft" value="draft-yang-dmsc-gateway-semantic-layer-02"/>
+    <author initials="H." surname="Yang" fullname="Huiling Yang">
+      <organization>AsiaInfo Technologies (China) Inc.</organization>
+    </author>
+    <author initials="G." surname="Dong" fullname="Guozhen Dong">
+      <organization>China Telecom</organization>
+    </author>
+    <author initials="L." surname="Zhang" fullname="Lianhua Zhang">
+      <organization>AsiaInfo Technologies (China) Inc.</organization>
+    </author>
+    <author initials="Y." surname="Li" fullname="Yun Li">
+      <organization>AsiaInfo Technologies (China) Inc.</organization>
+    </author>
+    <author initials="S." surname="Wang" fullname="Shoufeng Wang">
+      <organization>AsiaInfo Technologies (China) Inc.</organization>
+    </author>
+    <date day="02" month="July" year="2026"/>
+    <abstract>
+      <t>Cross-domain and policy-controlled agent collaboration can require
+   mediation decisions that are not always suitable for an agent client
+   or an agent server alone.  A collaboration request may need to
+   combine a stated goal, capability profiles, tenant or domain policy,
+   trust evidence, disclosure limits, operational constraints, and
+   handoff context before a concrete interaction mechanism is used.
+
+   This document identifies gateway-side interaction mediation as a
+   distinct interoperability gap in many AI Agent Gateway deployments.
+   It does not claim that every agent collaboration requires a gateway.
+   Rather, it explains why many deployments need a mediation point where
+   request goals, capability profiles, policy, trust, and handoff
+   constraints can be evaluated before interaction proceeds.
+
+   The document describes a Gateway Mediation Layer as a decision-
+   support and interface layer between application-level goals and
+   concrete agent interaction mechanisms.  It focuses on the role,
+   inputs, outputs, and narrow set of interoperable artifacts that may
+   require further work, such as Mediation Requests, Mediation
+   Responses, Handoff Contexts, Failure Records, and Evidence
+   References.  It does not propose standardizing internal matching
+   algorithms, domain ontologies, prompt engineering, or model-specific
+   decision logic.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,21 @@
+<reference anchor="I-D.hardaker-dnsop-nothing-new" target="https://datatracker.ietf.org/doc/html/draft-hardaker-dnsop-nothing-new-00">
+  <front>
+    <title>Support for nothing-new notifications in the DNS</title>
+    <seriesInfo name="Internet-Draft" value="draft-hardaker-dnsop-nothing-new-00"/>
+    <author initials="W." surname="Hardaker" fullname="Wes Hardaker">
+      <organization>Google, Inc.</organization>
+    </author>
+    <date day="02" month="July" year="2026"/>
+    <abstract>
+      <t>The DNS protocol has increasingly needed to carry larger records than
+   it was originally designed to carry.  This has resulted in
+   performance impacts due to both the size increases and requiring TCP
+   instead of only UDP.  Of particular note is the expected large
+   increase in records relating to post-quantum signing algorithms.  To
+   help mitigate, but not entirely prevent, these impacts, this document
+   proposes a new "nothing new" NN flag, a LARGE Redirection Resource
+   record type, and how these can integrate with current and future
+   DNSSEC DNSKEY and RRSIG records.</t>
+    </abstract>
+  </front>
+</reference>

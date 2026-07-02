@@ -1,0 +1,35 @@
+<reference anchor="I-D.ietf-netmod-immutable-flag" target="https://datatracker.ietf.org/doc/html/draft-ietf-netmod-immutable-flag-14">
+  <front>
+    <title>YANG Metadata Annotation for Immutable Flag</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-netmod-immutable-flag-14"/>
+    <author initials="Q." surname="Ma" fullname="Qiufang Ma">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="Q." surname="Wu" fullname="Qin Wu">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="B." surname="Lengyel" fullname="Bal&#xE1;zs Lengyel">
+      <organization>Ericsson</organization>
+    </author>
+    <author initials="H." surname="Li" fullname="Hongwei Li">
+      <organization>HPE</organization>
+    </author>
+    <date day="02" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines a mechanism to formally document an existing
+   behavior, implemented by servers of YANG-driven network management
+   protocols (e.g., NETCONF and RESTCONF), on the immutability of some
+   system-provided nodes, using a YANG metadata annotation called
+   "immutable" to flag which nodes are immutable.
+
+   Clients may use "immutable" annotations provided by the server, to
+   know beforehand why certain otherwise valid configuration requests
+   will cause the server to return an error.
+
+   The immutable flag is descriptive, documenting an existing behavior,
+   not prescriptive, dictating server behaviors.
+
+   This document updates RFC 8040 and RFC 8526.</t>
+    </abstract>
+  </front>
+</reference>

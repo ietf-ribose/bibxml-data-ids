@@ -1,0 +1,31 @@
+<reference anchor="I-D.ietf-happy-happyeyeballs-v3" target="https://datatracker.ietf.org/doc/html/draft-ietf-happy-happyeyeballs-v3-04">
+  <front>
+    <title>Happy Eyeballs Version 3: Better Connectivity Using Concurrency</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-happy-happyeyeballs-v3-04"/>
+    <author initials="T." surname="Pauly" fullname="Tommy Pauly">
+      <organization>Apple Inc</organization>
+    </author>
+    <author initials="D." surname="Schinazi" fullname="David Schinazi">
+      <organization>Google LLC</organization>
+    </author>
+    <author initials="N." surname="Jaju" fullname="Nidhi Jaju">
+      <organization>Google LLC</organization>
+    </author>
+    <author initials="K." surname="Ishibashi" fullname="Kenichi Ishibashi">
+      <organization>Google LLC</organization>
+    </author>
+    <date day="01" month="July" year="2026"/>
+    <abstract>
+      <t>Many communication protocols operating over the modern Internet use
+   hostnames.  These often resolve to multiple IP addresses, each of
+   which may have different performance and connectivity
+   characteristics.  Since specific addresses or address families (IPv4
+   or IPv6) may be blocked, broken, or sub-optimal on a network, clients
+   that attempt multiple connections in parallel have a chance of
+   establishing a connection more quickly.  This document defines the
+   algorithm for "Happy Eyeballs", a technique for reducing user-visible
+   delays on dual-stack hosts.  This document updates the algorithm in
+   RFC 8305.</t>
+    </abstract>
+  </front>
+</reference>

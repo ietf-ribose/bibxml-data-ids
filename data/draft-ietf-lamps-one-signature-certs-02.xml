@@ -1,0 +1,23 @@
+<reference anchor="I-D.ietf-lamps-one-signature-certs" target="https://datatracker.ietf.org/doc/html/draft-ietf-lamps-one-signature-certs-02">
+  <front>
+    <title>One Signature Certificates</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-lamps-one-signature-certs-02"/>
+    <author initials="S." surname="Santesson" fullname="Stefan Santesson">
+      <organization>IDsec Solutions AB</organization>
+    </author>
+    <author initials="R." surname="Housley" fullname="Russ Housley">
+      <organization>Vigil Security, LLC</organization>
+    </author>
+    <date day="01" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines the signedDocumentBinding certificate
+   extension, which binds a certificate to the signed content of a
+   digital signature produced by a single signing operation.  Each
+   certificate is created at the time of signing and the associated
+   signing key is generated, used to produce a single digital signature,
+   and then immediately destroyed.  Certificates carrying this extension
+   are intended to be issued without a revocation mechanism and with no
+   expiration, which simplifies long-term validation.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,24 @@
+<reference anchor="I-D.okutomi-session-bound-agent-identity" target="https://datatracker.ietf.org/doc/html/draft-okutomi-session-bound-agent-identity-05">
+  <front>
+    <title>A Core Acceptance Profile for Session-Bound Agent Identity</title>
+    <seriesInfo name="Internet-Draft" value="draft-okutomi-session-bound-agent-identity-05"/>
+    <author initials="A." surname="Okutomi" fullname="Akira Okutomi">
+      <organization>Individual</organization>
+    </author>
+    <date day="02" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines a verifier-side acceptance profile for session-
+   bound Agent identity.  It addresses context diversion, where
+   cryptographically valid material is accepted for a different service,
+   tenant, Agent, task, delegation, or authority boundary than the
+   verifier intended.
+
+   A verifier accepts an Agent only when a verified authority grant,
+   holder-of-key proof, accepted TLS or exported-authenticator session,
+   freshness and replay state, any required attestation result, and
+   verifier-local policy all describe the same intended interaction.
+   Protocol-specific wire formats and deployment choices are left to
+   binding profiles.</t>
+    </abstract>
+  </front>
+</reference>
