@@ -1,0 +1,34 @@
+<reference anchor="I-D.xia-ipsecme-eesp-stateless-encryption" target="https://datatracker.ietf.org/doc/html/draft-xia-ipsecme-eesp-stateless-encryption-03">
+  <front>
+    <title>Stateless Encryption Profile for Enhanced Encapsulating Security Payload (EESP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-xia-ipsecme-eesp-stateless-encryption-03"/>
+    <author initials="L." surname="Xia" fullname="Liang Xia">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="W." surname="Jiang" fullname="weiyu Jiang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="" surname="Yue" fullname="Shengnan Yue">
+      <organization>China Mobile</organization>
+    </author>
+    <date day="03" month="July" year="2026"/>
+    <abstract>
+      <t>This document specifies a stateless encryption profile for Enhanced
+   Encapsulating Security Payload (EESP).  The profile is intended for
+   large-scale deployment scenarios in which maintaining per-flow or
+   per-session encryption state is operationally expensive or
+   infeasible.  Instead of storing a distinct data key for each secure
+   flow, endpoints derive per-packet or per-context data keys from a
+   smaller set of provisioned root keying material together with packet-
+   carried context.
+
+   The document describes the deployment motivation, the stateless
+   keying model, the mapping of required fields onto EESP extension
+   points, context construction rules, data-key derivation processing,
+   IV construction requirements, security considerations, and
+   operational considerations.  The intent is to realize stateless
+   encryption as an extension profile over EESP, rather than as a
+   parallel encapsulation format.</t>
+    </abstract>
+  </front>
+</reference>

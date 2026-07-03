@@ -1,0 +1,28 @@
+<reference anchor="I-D.corneo-schc-compress-payload" target="https://datatracker.ietf.org/doc/html/draft-corneo-schc-compress-payload-02">
+  <front>
+    <title>SCHC Payload Compression for Structured Formats</title>
+    <seriesInfo name="Internet-Draft" value="draft-corneo-schc-compress-payload-02"/>
+    <author initials="L." surname="Corneo" fullname="Lorenzo Corneo">
+      <organization>Ericsson</organization>
+    </author>
+    <author initials="E." surname="Ramos" fullname="Edgar Ramos">
+      <organization>Ericsson</organization>
+    </author>
+    <author initials="J." surname="Jimenez" fullname="Jaime Jimenez">
+      <organization>Ericsson</organization>
+    </author>
+    <date day="03" month="July" year="2026"/>
+    <abstract>
+      <t>This document describes techniques to adapt the SCHC framework
+   (RFC8724), used for header compression, to also compress and
+   decompress payload of specific protocols.  To this end, this document
+   defines a new matching operator, equal-template, to check equality of
+   field values with respect to a user-defined template, and a payload
+   keyword to be used as Field IDentifier (FID) to signal the presence
+   of payload to be compressed or decompressed.  Additionally, this
+   document defines a set of template functions and variables to
+   optimize user-defined templates, which can be extended through the
+   IANA registry defined herein.</t>
+    </abstract>
+  </front>
+</reference>

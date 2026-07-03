@@ -1,0 +1,21 @@
+<reference anchor="I-D.bormann-jwp-modular-bbs" target="https://datatracker.ietf.org/doc/html/draft-bormann-jwp-modular-bbs-01">
+  <front>
+    <title>BBS and Modular Sub-proofs with JSON Web Proofs</title>
+    <seriesInfo name="Internet-Draft" value="draft-bormann-jwp-modular-bbs-01"/>
+    <author initials="C." surname="Bormann" fullname="Christian Bormann">
+      <organization>SPRIND GmbH</organization>
+    </author>
+    <date day="02" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines a digital credential format that uses JSON Web
+   Proofs (JWP) as its container format and Blind BBS Signatures as its
+   signature scheme combined with a modular framework for attaching
+   zero-knowledge sub-proofs.  This allows a Holder to reveal some
+   attributes directly while proving predicates such as range or
+   equality over the ones they keep hidden.  A credential can
+   additionally be bound to an ECDSA P-256 device key and possession
+   over the key proven without revealing the public key.  The credential
+   metadata and type model follow SD-JWT VC [I-D.ietf-oauth-sd-jwt-vc].</t>
+    </abstract>
+  </front>
+</reference>

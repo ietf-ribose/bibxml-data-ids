@@ -1,0 +1,26 @@
+<reference anchor="I-D.wallace-aipref-grant-binding" target="https://datatracker.ietf.org/doc/html/draft-wallace-aipref-grant-binding-00">
+  <front>
+    <title>A Verifiable-Credential Binding for AI Usage Preferences: Expressing Grants that Lift AIPREF Preferences</title>
+    <seriesInfo name="Internet-Draft" value="draft-wallace-aipref-grant-binding-00"/>
+    <author initials="" surname="wallace" fullname="wallace">
+      <organization>LicenseFoundry</organization>
+    </author>
+    <date day="02" month="July" year="2026"/>
+    <abstract>
+      <t>The AI Preferences (AIPREF) vocabulary lets those with rights in a
+   digital asset express preferences -- for example, that training of AI
+   models is disallowed -- about how automated systems process that
+   asset.  Such a preference expresses a reservation.  It does not, by
+   itself, provide a verifiable, revocable record of a specific grant
+   that lifts a preference for a specific party.
+
+   This document describes that gap and proposes a candidate mechanism:
+   a cryptographically signed, offline-verifiable credential that
+   expresses a grant referencing an AIPREF usage category and a specific
+   asset, that any party can verify without contacting the grantor, and
+   that the grantor can revoke.  It is intended as a starting point for
+   discussion in the AI Preferences Working Group, not as a finished
+   specification.</t>
+    </abstract>
+  </front>
+</reference>

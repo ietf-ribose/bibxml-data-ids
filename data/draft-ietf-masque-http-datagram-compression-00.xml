@@ -1,0 +1,30 @@
+<reference anchor="I-D.ietf-masque-http-datagram-compression" target="https://datatracker.ietf.org/doc/html/draft-ietf-masque-http-datagram-compression-00">
+  <front>
+    <title>Extensions to Compress and Derive Fields in HTTP Datagrams</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-masque-http-datagram-compression-00"/>
+    <author initials="Y." surname="Rosomakho" fullname="Yaroslav Rosomakho">
+      <organization>Zscaler</organization>
+    </author>
+    <author initials="T." surname="Pauly" fullname="Tommy Pauly">
+      <organization>Apple</organization>
+    </author>
+    <date day="03" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines extensions for HTTP Datagram-based protocols
+   that improve transmission efficiency by introducing templates for
+   compressing or deriving datagram fields.
+
+   These templates allow endpoints to define parts of datagrams that are
+   static and can be removed, and other parts that can be derived (such
+   as packet lengths and checksum values).
+
+   Additionally, this document defines a checksum offload procedure
+   enabling receivers to complete Internet checksums using sender-
+   provided partial values.
+
+   These optimisations reduce per-packet overhead, processing cost, and
+   increase the effective maximum transmission unit (MTU) when datagrams
+   are encapsulated in QUIC DATAGRAM frames.</t>
+    </abstract>
+  </front>
+</reference>

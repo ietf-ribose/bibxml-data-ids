@@ -1,0 +1,32 @@
+<reference anchor="I-D.sirohi-schc-quic-frame-compression" target="https://datatracker.ietf.org/doc/html/draft-sirohi-schc-quic-frame-compression-00">
+  <front>
+    <title>Exploring SCHC Compression of QUIC Frames</title>
+    <seriesInfo name="Internet-Draft" value="draft-sirohi-schc-quic-frame-compression-00"/>
+    <author initials="S." surname="Sirohi" fullname="Samar Sirohi">
+      <organization>IMT Atlantique</organization>
+    </author>
+    <author initials="L." surname="Toutain" fullname="Laurent Toutain">
+      <organization>IMT Atlantique</organization>
+    </author>
+    <date day="03" month="July" year="2026"/>
+    <abstract>
+      <t>This document explores whether Static Context Header Compression
+   (SCHC) can be applied to the metadata carried in QUIC frames.  QUIC
+   already uses compact frame encodings and variable-length integers, so
+   any compressed representation has to recover enough bytes to pay for
+   its own integration overhead.  The document compares several possible
+   organizations for SCHC rules, discusses how frame compression could
+   be integrated, and analyzes representative STREAM and ACK frame
+   examples.
+
+   The analysis suggests that SCHC compression of QUIC frames is
+   technically possible, but that generic or base rules are likely to
+   provide only modest savings at best.  More substantial savings
+   require predictable traffic, pre-provisioned or negotiated rules,
+   bundling of several frames under one rule, or a negotiated QUIC
+   payload syntax with low per-packet overhead.  This document is
+   exploratory.  It does not define an interoperable QUIC extension,
+   SCHC profile, wire format, or IANA allocation.</t>
+    </abstract>
+  </front>
+</reference>
