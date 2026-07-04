@@ -1,0 +1,36 @@
+<reference anchor="I-D.cui-nmop-agent-sketch-com" target="https://datatracker.ietf.org/doc/html/draft-cui-nmop-agent-sketch-com-00">
+  <front>
+    <title>Operational Requirements for Network State Exchange in Agent-Assisted Network Operations</title>
+    <seriesInfo name="Internet-Draft" value="draft-cui-nmop-agent-sketch-com-00"/>
+    <author initials="Y." surname="Cui" fullname="Yong Cui">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="M." surname="Xing" fullname="Mingzhe Xing">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author initials="L." surname="Zhang" fullname="Lei Zhang">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <date day="03" month="July" year="2026"/>
+    <abstract>
+      <t>This document describes operational requirements for exchanging
+   network state in agent-assisted network operations.  In this
+   document, an agent-assisted system is any automation or decision-
+   support system that consumes operational state to support tasks such
+   as anomaly triage, incident correlation, configuration verification,
+   traffic engineering analysis, or attack mitigation support.  Such a
+   system may use a large language model (LLM), a rule engine, a
+   statistical model, or conventional software.
+
+   The document focuses on operational problems created by high-volume
+   telemetry, cross-domain state sharing, privacy constraints,
+   approximate state summaries, and auditability of state used by
+   automated workflows.  It identifies requirements for compact, scoped,
+   mergeable, bounded-error, incrementally synchronized, and auditable
+   network state artifacts.  The document complements existing NMOP work
+   on anomaly detection, incident management, and YANG Push/message
+   broker integration.  It does not define a new network management
+   protocol, a new agent communication protocol, or a wire format.</t>
+    </abstract>
+  </front>
+</reference>

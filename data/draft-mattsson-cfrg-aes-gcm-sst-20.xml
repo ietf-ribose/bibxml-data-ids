@@ -1,0 +1,34 @@
+<reference anchor="I-D.mattsson-cfrg-aes-gcm-sst" target="https://datatracker.ietf.org/doc/html/draft-mattsson-cfrg-aes-gcm-sst-20">
+  <front>
+    <title>Galois Counter Mode with Strong Secure Tags (GCM-SST)</title>
+    <seriesInfo name="Internet-Draft" value="draft-mattsson-cfrg-aes-gcm-sst-20"/>
+    <author initials="M." surname="Campagna" fullname="Matt Campagna">
+      <organization>Amazon Web Services</organization>
+    </author>
+    <author initials="A." surname="Maximov" fullname="Alexander Maximov">
+      <organization>Ericsson</organization>
+    </author>
+    <author initials="J. P." surname="Mattsson" fullname="John Preu&#xDF; Mattsson">
+      <organization>Ericsson</organization>
+    </author>
+    <date day="04" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines Galois Counter Mode with Strong Secure Tags
+   (GCM-SST), an Authenticated Encryption with Associated Data (AEAD)
+   algorithm that addresses several weaknesses of GCM.  GCM-SST can be
+   used with any keystream generator, not only 128-bit block ciphers.
+   Main differences from GCM are the introduction of a second
+   authentication subkey H_2, per-nonce derivation of both H and H_2,
+   and stricter usage limits.  Together, these changes yield
+   authentication tags with near-ideal forgery probabilities, including
+   reforgeability resistance.  All registered instances have an expected
+   number of forgeries E(F) ≈ v / 2^t, a property that GCM is far from
+   providing.  GCM-SST is designed for security protocols with replay
+   protection such as TLS, QUIC, SRTP, and PDCP, and provides hardware
+   and software performance comparable to GCM.  This document registers
+   nine AEAD algorithm instances using AES and Rijndael-256 in counter
+   mode, with tag lengths of 48, 96, and 112 bits.  GCM-SST has been
+   standardized by 3GPP for use with SNOW 5G, AES-256, and ZUC-256.</t>
+    </abstract>
+  </front>
+</reference>

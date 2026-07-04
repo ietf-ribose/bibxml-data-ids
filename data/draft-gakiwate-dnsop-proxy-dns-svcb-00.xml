@@ -1,0 +1,29 @@
+<reference anchor="I-D.gakiwate-dnsop-proxy-dns-svcb" target="https://datatracker.ietf.org/doc/html/draft-gakiwate-dnsop-proxy-dns-svcb-00">
+  <front>
+    <title>HTTP Header Fields for Proxying DNS SVCB Information</title>
+    <seriesInfo name="Internet-Draft" value="draft-gakiwate-dnsop-proxy-dns-svcb-00"/>
+    <author initials="G." surname="Akiwate" fullname="Gautam Akiwate">
+      <organization>Apple Inc</organization>
+    </author>
+    <author initials="T." surname="Pauly" fullname="Tommy Pauly">
+      <organization>Apple Inc</organization>
+    </author>
+    <author initials="E." surname="Nygren" fullname="Erik Nygren">
+      <organization>Akamai Technologies</organization>
+    </author>
+    <date day="04" month="July" year="2026"/>
+    <abstract>
+      <t>When HTTP clients use the CONNECT method or UDP proxying (CONNECT-
+   UDP) to reach target servers through a proxy, the proxy performs DNS
+   resolution on behalf of the client.  This prevents the client from
+   accessing Service Binding (SVCB and HTTPS) DNS records that carry
+   service configuration such as supported protocols and Encrypted
+   Client Hello keys.  This document defines HTTP header fields that
+   enable the proxy to relay SVCB information to the client, and
+   introduces a conditional early closure mechanism that allows the
+   client to coordinate with the proxy to abort a connection when
+   specific SVCB parameters are present, so that the client can retry
+   with a different connection strategy.</t>
+    </abstract>
+  </front>
+</reference>

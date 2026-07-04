@@ -1,0 +1,41 @@
+<reference anchor="I-D.ietf-lsr-dynamic-flooding-algorithm" target="https://datatracker.ietf.org/doc/html/draft-ietf-lsr-dynamic-flooding-algorithm-04">
+  <front>
+    <title>An Algorithm for Computing Dynamic Flooding Topologies</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-lsr-dynamic-flooding-algorithm-04"/>
+    <author initials="S." surname="Chen" fullname="Sarah Chen">
+      <organization>Arista Networks</organization>
+    </author>
+    <author initials="T." surname="Li" fullname="Tony Li">
+      <organization>Hewlett Packard Enterprise</organization>
+    </author>
+    <date day="03" month="July" year="2026"/>
+    <abstract>
+      <t>Link-state routing protocols suffer from excessive flooding in dense
+   network topologies.  Dynamic flooding alleviates the problem by
+   decoupling the flooding topology from the base topology.  Link-state
+   protocol updates are flooded only on the sparse flooding topology
+   while data traffic is still forwarded on the base topology.
+
+   This document describes an algorithm to obtain a sparse subgraph from
+   a dense graph.  The resulting subgraph has certain desirable
+   properties and can be used by a centralized Area Leader to compute a
+   flooding topology for dynamic flooding.
+
+   This document discloses the algorithm that we have developed in order
+   to make it easier for other developers to implement similar
+   algorithms.  We do not claim that our algorithm is optimal, rather it
+   is a pragmatic effort and we expect that further research and
+   refinement can improve the results.
+
+   We are not currently proposing that this algorithm be standardized,
+   nor that the working group use this as a basis for further
+   standardization work, however we have no objections if the working
+   group chooses to do so.  This document is published as an
+   Experimental RFC to gain operational and implementation experience
+   with the specified dynamic flooding algorithm.  The intent is to
+   assess the suitability of this algorithm for advancement to the
+   Standards Track as a Proposed Standard, pending sufficient deployment
+   experience and feedback from the community.</t>
+    </abstract>
+  </front>
+</reference>
