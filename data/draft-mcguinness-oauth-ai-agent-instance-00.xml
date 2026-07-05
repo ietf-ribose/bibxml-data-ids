@@ -1,0 +1,23 @@
+<reference anchor="I-D.mcguinness-oauth-ai-agent-instance" target="https://datatracker.ietf.org/doc/html/draft-mcguinness-oauth-ai-agent-instance-00">
+  <front>
+    <title>OAuth 2.0 AI Agent Instance Profile</title>
+    <seriesInfo name="Internet-Draft" value="draft-mcguinness-oauth-ai-agent-instance-00"/>
+    <author initials="K." surname="McGuinness" fullname="Karl McGuinness">
+      <organization>Independent</organization>
+    </author>
+    <date day="04" month="July" year="2026"/>
+    <abstract>
+      <t>This specification profiles the OAuth 2.0 Client Instance Assertion
+   for AI agent deployments, where a single OAuth client identifier
+   represents an agent platform running many concurrent agent instances.
+   It defines claims that convey an attested agent instance identifier
+   and agent provenance (platform, model, runtime environment) from an
+   agent attester to the authorization server, rules for surfacing that
+   identity in issued access tokens, and delegation-chain semantics for
+   agents that spawn sub-agents.  The claims are carrier-independent:
+   they may be conveyed in a Client Instance Assertion or in a Client
+   Attestation defined by OAuth 2.0 Attestation-Based Client
+   Authentication.</t>
+    </abstract>
+  </front>
+</reference>

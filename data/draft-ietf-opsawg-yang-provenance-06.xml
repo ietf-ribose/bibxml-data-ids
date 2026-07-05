@@ -1,0 +1,35 @@
+<reference anchor="I-D.ietf-opsawg-yang-provenance" target="https://datatracker.ietf.org/doc/html/draft-ietf-opsawg-yang-provenance-06">
+  <front>
+    <title>Applying COSE Signatures for YANG Data Provenance</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-opsawg-yang-provenance-06"/>
+    <author initials="D." surname="Lopez" fullname="Diego Lopez">
+      <organization>Telefonica</organization>
+    </author>
+    <author initials="A." surname="Pastor" fullname="Antonio Pastor">
+      <organization>Telefonica</organization>
+    </author>
+    <author initials="A. H." surname="Feng" fullname="Alex Huang Feng">
+      <organization>Deutsche Telekom</organization>
+    </author>
+    <author initials="A. M." surname="P&#xE9;rez" fullname="Ana M&#xE9;ndez P&#xE9;rez">
+      <organization>Telefonica</organization>
+    </author>
+    <author initials="H." surname="Birkholz" fullname="Henk Birkholz">
+      <organization>Fraunhofer SIT</organization>
+    </author>
+    <date day="04" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines a mechanism based on CBOR Object Signing and
+   Encryption (COSE) signatures to provide and verify the provenance of
+   YANG data, so it is possible to verify the origin and integrity of a
+   dataset, even when those data are going to be processed and/or
+   applied in workflows where a crypto-enabled data transport directly
+   from the original data source is not available.  As the application
+   of evidence-based OAM automation and the use of tools such as AI/ML
+   grow, provenance validation becomes more relevant in all scenarios,
+   in support of the assuring the origin and integrity of data.  The use
+   of compact signatures facilitates the inclusion of provenance strings
+   in any YANG schema requiring them.</t>
+    </abstract>
+  </front>
+</reference>

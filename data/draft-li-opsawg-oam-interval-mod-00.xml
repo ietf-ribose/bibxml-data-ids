@@ -1,0 +1,43 @@
+<reference anchor="I-D.li-opsawg-oam-interval-mod" target="https://datatracker.ietf.org/doc/html/draft-li-opsawg-oam-interval-mod-00">
+  <front>
+    <title>Coordinated CCM Interval Modification Procedures</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-opsawg-oam-interval-mod-00"/>
+    <author initials="Z." surname="Li" fullname="Zhiqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Wei Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="G." surname="Zhang" fullname="Guoying Zhang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="X." surname="Sun" fullname="Xun Sun">
+      <organization>Inesa</organization>
+    </author>
+    <author initials="C." surname="Zhao" fullname="Chunhao Zhao">
+      <organization>SAIA</organization>
+    </author>
+    <date day="04" month="July" year="2026"/>
+    <abstract>
+      <t>In IEEE 802.1ag Connectivity Fault Management (CFM), the Continuity
+   Check Message (CCM) interval is a static parameter that must match on
+   both peer Maintenance End Points (MEPs).  Changing the interval at
+   runtime on one MEP without simultaneously updating the peer causes a
+   Loss of Continuity (LOC) defect and may trigger protection switching.
+
+   Because the CFM PDU formats and OpCode space are governed by IEEE
+   802.1, this document does not modify the protocol; instead, it
+   specifies a coordinated management-plane procedure that transitions
+   both MEPs to a new CCM interval without raising spurious defects or
+   triggering protection switching, together with failure handling and
+   rollback behavior.  The procedure can be operated through existing
+   configuration models such as the connection-oriented OAM YANG model.</t>
+    </abstract>
+  </front>
+</reference>

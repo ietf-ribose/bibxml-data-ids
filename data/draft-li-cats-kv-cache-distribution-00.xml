@@ -1,0 +1,45 @@
+<reference anchor="I-D.li-cats-kv-cache-distribution" target="https://datatracker.ietf.org/doc/html/draft-li-cats-kv-cache-distribution-00">
+  <front>
+    <title>KV Cache Distribution for Distributed LLM Inference: Use Case and Requirements</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-cats-kv-cache-distribution-00"/>
+    <author initials="Z." surname="Li" fullname="Zhiqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Wei Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="G." surname="Zhang" fullname="Guoying Zhang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="X." surname="Sun" fullname="Xun Sun">
+      <organization>Inesa</organization>
+    </author>
+    <author initials="C." surname="Zhao" fullname="Chunhao Zhao">
+      <organization>SAIA</organization>
+    </author>
+    <date day="04" month="July" year="2026"/>
+    <abstract>
+      <t>In large language model (LLM) inference, the key-value (KV) cache
+   holds the attention state computed from previously processed tokens.
+   Reusing cached state across requests avoids repeated prefill
+   computation and reduces time-to-first-token.  In distributed
+   inference deployments, the KV cache becomes a network-distributed
+   resource: the effectiveness of steering a request to a service
+   instance depends not only on computing and network metrics but also
+   on whether reusable cached state is available at or near that
+   instance.
+
+   This document describes the KV cache distribution use case for
+   Computing-Aware Traffic Steering (CATS), identifies the gaps relative
+   to the existing CATS framework and metrics, and states requirements
+   for cache-state metric exposure and for the distribution and
+   synchronization of cached content across multiple cache tiers.</t>
+    </abstract>
+  </front>
+</reference>

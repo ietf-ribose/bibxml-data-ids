@@ -1,0 +1,41 @@
+<reference anchor="I-D.li-ippm-stamp-bfd-tlv" target="https://datatracker.ietf.org/doc/html/draft-li-ippm-stamp-bfd-tlv-00">
+  <front>
+    <title>A STAMP Extension for Carrying Bidirectional Forwarding Detection Control Messages</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-ippm-stamp-bfd-tlv-00"/>
+    <author initials="Z." surname="Li" fullname="Zhiqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Wei Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="G." surname="Zhang" fullname="Guoying Zhang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="X." surname="Sun" fullname="Xun Sun">
+      <organization>Inesa</organization>
+    </author>
+    <author initials="C." surname="Zhao" fullname="Chunhao Zhao">
+      <organization>SAIA</organization>
+    </author>
+    <date day="04" month="July" year="2026"/>
+    <abstract>
+      <t>Network operators frequently run both Bidirectional Forwarding
+   Detection (BFD) for rapid fault detection and an active measurement
+   protocol such as STAMP for delay and loss measurement between the
+   same pair of nodes, resulting in two parallel packet streams with
+   overlapping timing requirements.
+
+   This document defines an optional STAMP TLV that carries a BFD
+   Control message within STAMP test packets, using the extension format
+   of RFC 8972.  A single test packet stream can then drive both the BFD
+   state machine and STAMP performance measurement.  The BFD protocol
+   itself is unchanged.</t>
+    </abstract>
+  </front>
+</reference>

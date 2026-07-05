@@ -1,0 +1,23 @@
+<reference anchor="I-D.mcguinness-oauth-actor-proofs" target="https://datatracker.ietf.org/doc/html/draft-mcguinness-oauth-actor-proofs-00">
+  <front>
+    <title>OAuth Actor-Signed Hop Proofs</title>
+    <seriesInfo name="Internet-Draft" value="draft-mcguinness-oauth-actor-proofs-00"/>
+    <author initials="K." surname="McGuinness" fullname="Karl McGuinness">
+      <organization>Independent</organization>
+    </author>
+    <date day="04" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines OAuth Actor-Signed Hop Proofs, an optional
+   companion profile for delegated OAuth tokens that conform to the
+   OAuth Actor Profile for Delegation.  It introduces the actor_proofs
+   claim, a signed per-hop proof chain in which the actor added at each
+   visible hop signs its own participation and the target binding it
+   authorized for that hop.  Proofs are linked into a hash chain, are
+   validated against actor verification keys resolved through pre-
+   established trust, and optionally cross-reference sibling actor
+   receipts.  This document also defines a token request parameter for
+   conveying proofs at issuance, and metadata and introspection
+   parameters for advertising and consuming actor-proof support.</t>
+    </abstract>
+  </front>
+</reference>

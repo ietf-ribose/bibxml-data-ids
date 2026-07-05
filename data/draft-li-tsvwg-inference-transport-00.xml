@@ -1,0 +1,45 @@
+<reference anchor="I-D.li-tsvwg-inference-transport" target="https://datatracker.ietf.org/doc/html/draft-li-tsvwg-inference-transport-00">
+  <front>
+    <title>Transport Considerations for Large-Scale Distributed Inference Networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-tsvwg-inference-transport-00"/>
+    <author initials="Z." surname="Li" fullname="Zhiqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Wei Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="G." surname="Zhang" fullname="Guoying Zhang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="X." surname="Sun" fullname="Xun Sun">
+      <organization>Inesa</organization>
+    </author>
+    <author initials="C." surname="Zhao" fullname="Chunhao Zhao">
+      <organization>SAIA</organization>
+    </author>
+    <date day="04" month="July" year="2026"/>
+    <abstract>
+      <t>Large-scale distributed inference systems generate traffic patterns
+   that differ from both traditional data center workloads and
+   distributed training workloads.  Disaggregated prefill/decode serving
+   transfers key-value cache state between server pools, and expert-
+   parallel architectures generate all-to-all traffic among expert
+   groups.  These flows are typically carried over a small number of
+   RDMA connections, producing low-entropy traffic that is prone to
+   uneven link utilization under Equal-Cost Multipath (ECMP) forwarding.
+
+   This document specifies transport considerations for such networks,
+   covering path load awareness, path steering through ECMP entropy
+   variation, ordering tolerance at the receiver, and differentiated
+   reliability for data with different loss sensitivity.  The discussion
+   builds on existing IETF building blocks; this document does not
+   define new protocol elements.</t>
+    </abstract>
+  </front>
+</reference>

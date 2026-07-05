@@ -1,0 +1,40 @@
+<reference anchor="I-D.li-quic-qos-optimization" target="https://datatracker.ietf.org/doc/html/draft-li-quic-qos-optimization-00">
+  <front>
+    <title>Fine-Grained QoS Optimization for QUIC Based on Connection ID Priority Mapping</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-quic-qos-optimization-00"/>
+    <author initials="Z." surname="Li" fullname="Zhiqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Wei Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="G." surname="Zhang" fullname="Guoying Zhang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="X." surname="Sun" fullname="Xun Sun">
+      <organization>Inesa</organization>
+    </author>
+    <author initials="C." surname="Zhao" fullname="Chunhao Zhao">
+      <organization>SAIA</organization>
+    </author>
+    <date day="04" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines a fine-grained, dynamically adaptive QoS
+   mechanism for QUIC transport.  The mechanism encodes a priority
+   mapping table index in the QUIC Destination Connection ID (DCID),
+   enabling host NICs or user gateways to translate QUIC-layer service
+   priority information into network-layer QoS mechanisms (DSCP/ToS per
+   RFC 2474) and traffic engineering policies (SRv6 TE, MPLS TE, etc.)
+   for end-to-end QoS enforcement.  Stream IDs carry endpoint priority
+   information for local scheduling.  The mechanism supports host-side,
+   network-side, and coordinated deployment modes with no intrusion into
+   the host protocol stack.</t>
+    </abstract>
+  </front>
+</reference>

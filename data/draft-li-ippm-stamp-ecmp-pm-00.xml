@@ -1,0 +1,44 @@
+<reference anchor="I-D.li-ippm-stamp-ecmp-pm" target="https://datatracker.ietf.org/doc/html/draft-li-ippm-stamp-ecmp-pm-00">
+  <front>
+    <title>Procedures for ECMP-Aware Performance Measurement with STAMP</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-ippm-stamp-ecmp-pm-00"/>
+    <author initials="Z." surname="Li" fullname="Zhiqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Wei Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="G." surname="Zhang" fullname="Guoying Zhang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="X." surname="Sun" fullname="Xun Sun">
+      <organization>Inesa</organization>
+    </author>
+    <author initials="C." surname="Zhao" fullname="Chunhao Zhao">
+      <organization>SAIA</organization>
+    </author>
+    <date day="04" month="July" year="2026"/>
+    <abstract>
+      <t>This document specifies procedures for configuring Simple Two-Way
+   Active Measurement Protocol (STAMP) sessions so that test packets
+   traverse the same ECMP or LAG forwarding path as a specified
+   production flow.  In networks that use hash-based load distribution,
+   the forwarding path depends on a hash over packet header fields.
+   Standard STAMP test packets carry session-specific addresses and
+   ports that differ from production traffic, often selecting a
+   different forwarding path and yielding measurements that do not
+   represent the actual service quality of the production flow.  The
+   procedures in this document specify how the Session-Sender populates
+   test packet headers with values matching a designated production
+   flow.  The Session-Reflector identifies test packets by validating
+   the STAMP payload structure.  No changes to the STAMP packet formats
+   defined in RFC 8762 are required.</t>
+    </abstract>
+  </front>
+</reference>

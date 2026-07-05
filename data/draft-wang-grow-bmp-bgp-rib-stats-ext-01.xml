@@ -1,0 +1,37 @@
+<reference anchor="I-D.wang-grow-bmp-bgp-rib-stats-ext" target="https://datatracker.ietf.org/doc/html/draft-wang-grow-bmp-bgp-rib-stats-ext-01">
+  <front>
+    <title>BGP RIB Fine-Grained Filtering Statistics Extensions for BGP Monitoring Protocol (BMP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-wang-grow-bmp-bgp-rib-stats-ext-01"/>
+    <author initials="L." surname="Wang" fullname="Lili Wang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="N." surname="Geng" fullname="Nan Geng">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="L." surname="Li" fullname="Lei Li">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="S." surname="Zhuang" fullname="Shunwan Zhuang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date day="04" month="July" year="2026"/>
+    <abstract>
+      <t>The BGP Monitoring Protocol (BMP) defines mechanisms to monitor BGP
+   running status and routing information bases (RIBs).  [RFC9972]
+   extended BMP statistics reporting by introducing advanced BGP RIB
+   stat types.  However, with the rapid deployment of path-level
+   cryptographic security protocols (such as ASPA) and the complex
+   interactions between control plane and hardware forwarding resources,
+   network operators require granular, behavior-driven observability
+   into why routes are discarded, invalidated, or restricted at both the
+   ingress and egress boundaries.  This document updates the registry
+   established by [RFC7854] and extended by [RFC9972] by defining some
+   fine-grained BGP RIB monitoring statistics types covering hardware
+   resource exhaustion, next-hop resolution anomalies, structured route
+   leaks ([RFC7908]), and ingress/egress ASPA verification states.
+   Furthermore, it introduces a 4-bit control flag space within the Stat
+   Type TLV to enable dynamic differential rate monitoring and proactive
+   asynchronous trigger-driven telemetry.</t>
+    </abstract>
+  </front>
+</reference>

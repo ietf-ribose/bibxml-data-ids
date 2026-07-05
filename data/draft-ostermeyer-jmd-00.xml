@@ -1,0 +1,28 @@
+<reference anchor="I-D.ostermeyer-jmd" target="https://datatracker.ietf.org/doc/html/draft-ostermeyer-jmd-00">
+  <front>
+    <title>JMD: A Text-Based Structured Data Format for LLM-Driven Infrastructure</title>
+    <seriesInfo name="Internet-Draft" value="draft-ostermeyer-jmd-00"/>
+    <author initials="A." surname="Ostermeyer" fullname="Andreas Ostermeyer">
+      <organization>(individual)</organization>
+    </author>
+    <date day="05" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines JMD (JSON Markdown), a text-based structured
+   data format designed for use in LLM-driven infrastructure, including
+   tool-calling pipelines, MCP (Model Context Protocol) servers, REST
+   APIs consumed by LLM agents, and multi-agent workflows.  JMD encodes
+   the full JSON type system (RFC 8259) using a subset of Markdown
+   syntax -- headings for hierarchy, key: value lines for object fields,
+   bullet lists for array items, and blockquotes for multiline strings.
+   The format is line-oriented and streamable: every completed line is
+   an independent, parseable event.  JMD documents are in bijection with
+   JSON values, and the roundtrip JSON -&gt; JMD -&gt; JSON preserves the
+   value.
+
+   This document specifies the JMD grammar, the canonical parse result
+   (envelope), the four document modes (data, query, schema, delete),
+   the streaming event model, and the media type registration for
+   application/jmd.</t>
+    </abstract>
+  </front>
+</reference>

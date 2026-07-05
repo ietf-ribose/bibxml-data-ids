@@ -1,0 +1,22 @@
+<reference anchor="I-D.mcguinness-oauth-actor-receipts" target="https://datatracker.ietf.org/doc/html/draft-mcguinness-oauth-actor-receipts-00">
+  <front>
+    <title>OAuth Actor Receipts for Delegation Provenance</title>
+    <seriesInfo name="Internet-Draft" value="draft-mcguinness-oauth-actor-receipts-00"/>
+    <author initials="K." surname="McGuinness" fullname="Karl McGuinness">
+      <organization>Independent</organization>
+    </author>
+    <date day="04" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines OAuth Actor Receipts, an optional companion
+   provenance profile for delegated OAuth tokens that conform to the
+   OAuth Actor Profile for Delegation.  It introduces the actor_receipts
+   claim, a signed per-hop receipt chain that records which issuer added
+   each visible actor hop, optionally preserves the historical top-level
+   cnf value associated with that hop subject to deployment disclosure
+   policy, and links receipts together so recipients can validate prior-
+   hop provenance without relying solely on the current outer token
+   issuer.  This document also defines metadata and introspection
+   parameters for advertising and consuming actor-receipt support.</t>
+    </abstract>
+  </front>
+</reference>

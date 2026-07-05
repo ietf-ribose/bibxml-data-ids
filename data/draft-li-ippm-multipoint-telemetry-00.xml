@@ -1,0 +1,43 @@
+<reference anchor="I-D.li-ippm-multipoint-telemetry" target="https://datatracker.ietf.org/doc/html/draft-li-ippm-multipoint-telemetry-00">
+  <front>
+    <title>Multi-Point Telemetry Correlation for Network Measurement</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-ippm-multipoint-telemetry-00"/>
+    <author initials="Z." surname="Li" fullname="Zhiqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Wei Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="G." surname="Zhang" fullname="Guoying Zhang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="X." surname="Sun" fullname="Xun Sun">
+      <organization>Inesa</organization>
+    </author>
+    <author initials="C." surname="Zhao" fullname="Chunhao Zhao">
+      <organization>SAIA</organization>
+    </author>
+    <date day="04" month="July" year="2026"/>
+    <abstract>
+      <t>Network measurement and telemetry systems that collect data at
+   multiple points along a path or across multiple targets require a
+   means to correlate the collected data.  When each collection point
+   independently selects which packets to observe, the resulting data
+   sets may not overlap, preventing per-packet correlation of
+   measurements across points.
+
+   This document specifies how source-directed selection -- where a
+   single node determines which packets are subject to measurement and
+   signals this to other nodes -- achieves correlated data collection
+   across multiple points.  Two applications are described: IOAM Direct
+   Export for in-band network telemetry, and PTP Sequence ID range
+   assignment for multi-slave time synchronization.</t>
+    </abstract>
+  </front>
+</reference>

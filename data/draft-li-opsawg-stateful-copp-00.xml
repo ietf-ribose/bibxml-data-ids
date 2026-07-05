@@ -1,0 +1,41 @@
+<reference anchor="I-D.li-opsawg-stateful-copp" target="https://datatracker.ietf.org/doc/html/draft-li-opsawg-stateful-copp-00">
+  <front>
+    <title>Stateful Control Plane Policing</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-opsawg-stateful-copp-00"/>
+    <author initials="Z." surname="Li" fullname="Zhiqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Wei Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="G." surname="Zhang" fullname="Guoying Zhang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="X." surname="Sun" fullname="Xun Sun">
+      <organization>Inesa</organization>
+    </author>
+    <author initials="C." surname="Zhao" fullname="Chunhao Zhao">
+      <organization>SAIA</organization>
+    </author>
+    <date day="04" month="July" year="2026"/>
+    <abstract>
+      <t>Control Plane Policing (CoPP), as described in RFC 6192, classifies
+   control-plane-destined traffic using static packet header fields.
+   This static classification cannot distinguish legitimate protocol
+   traffic from attack traffic that matches the same header-based rules.
+
+   This document specifies Stateful CoPP, an operational practice in
+   which the router's runtime protocol state -- including configured
+   peer identities, session state, and expected ingress interfaces -- is
+   incorporated into CoPP classification.  Stateful CoPP allows
+   confirmed legitimate traffic to receive preferential access to
+   control plane CPU resources under attack conditions.</t>
+    </abstract>
+  </front>
+</reference>

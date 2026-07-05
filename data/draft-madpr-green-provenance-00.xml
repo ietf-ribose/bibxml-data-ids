@@ -1,0 +1,39 @@
+<reference anchor="I-D.madpr-green-provenance" target="https://datatracker.ietf.org/doc/html/draft-madpr-green-provenance-00">
+  <front>
+    <title>Provenance Traceability Augmentation for the GREEN Power and Energy YANG Module</title>
+    <seriesInfo name="Internet-Draft" value="draft-madpr-green-provenance-00"/>
+    <author initials="M. P." surname="Palmero" fullname="Marisol Palmero">
+      <organization>Independent</organization>
+    </author>
+    <author initials="D." surname="Lopez" fullname="Diego Lopez">
+      <organization>Telefonica</organization>
+    </author>
+    <author initials="A. M." surname="P&#xE9;rez" fullname="Ana M&#xE9;ndez P&#xE9;rez">
+      <organization>Telefonica</organization>
+    </author>
+    <author initials="P." surname="Andersson" fullname="Per Andersson">
+      <organization>Ionio Systems</organization>
+    </author>
+    <author initials="R." surname="Osterberg" fullname="Robin Osterberg">
+      <organization>Kodeta</organization>
+    </author>
+    <date day="05" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines a YANG module that augments the GREEN Power and
+   Energy YANG Module [PowerAndEnergy] to record the result of
+   provenance verification for each Energy Object.
+
+   The augmentation builds on the COSE-based signing mechanism defined
+   in [ProvenanceDraft].  For each Energy Object, it records whether the
+   most recent provenance signature was valid, which key was used to
+   sign it, and who is responsible for that key, whether the device
+   itself, the network controller acting on its behalf, or an external
+   authority such as a grid energy provider.
+
+   This allows operators and auditors to verify not just that energy
+   data is correct, but that it came from where it claims to have come
+   from, and to understand the level of trust that applies to each
+   source.</t>
+    </abstract>
+  </front>
+</reference>

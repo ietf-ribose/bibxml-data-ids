@@ -1,0 +1,50 @@
+<reference anchor="I-D.li-ippm-ioam-common-encap-procedures" target="https://datatracker.ietf.org/doc/html/draft-li-ippm-ioam-common-encap-procedures-00">
+  <front>
+    <title>Common Procedures for Encapsulating IOAM Data Fields in Transport Protocols</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-ippm-ioam-common-encap-procedures-00"/>
+    <author initials="Z." surname="Li" fullname="Zhiqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Wei Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="G." surname="Zhang" fullname="Guoying Zhang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="X." surname="Sun" fullname="Xun Sun">
+      <organization>Inesa</organization>
+    </author>
+    <author initials="C." surname="Zhao" fullname="Chunhao Zhao">
+      <organization>SAIA</organization>
+    </author>
+    <date day="04" month="July" year="2026"/>
+    <abstract>
+      <t>In Situ Operations, Administration, and Maintenance (IOAM) enables
+   on-path telemetry by inserting operational metadata into data packets
+   as they traverse a network path.  IOAM Data-Fields, as defined in RFC
+   9197, are designed to be independent of the encapsulating transport
+   protocol.  However, the procedures for inserting, updating, and
+   removing IOAM Data-Fields are currently specified separately for each
+   transport protocol (e.g., IPv6, NSH, GRE, Geneve), leading to
+   redundant specification effort and inconsistent implementation
+   behavior.
+
+   This document defines a set of common encapsulation procedures for
+   IOAM Data-Fields that are applicable across multiple transport
+   protocols.  The insertion point for IOAM Data-Fields is expressed as
+   a configurable byte offset from a well-defined reference position in
+   the encapsulating header, enabling a uniform insertion procedure that
+   does not require protocol-specific parsing logic.  The document
+   specifies the general steps for identifying the insertion point,
+   validating transport-layer constraints, performing the insertion of
+   IOAM Option-Types, and updating affected header fields to maintain
+   protocol compliance.</t>
+    </abstract>
+  </front>
+</reference>
