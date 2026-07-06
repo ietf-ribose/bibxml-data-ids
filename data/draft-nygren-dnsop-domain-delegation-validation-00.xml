@@ -1,0 +1,35 @@
+<reference anchor="I-D.nygren-dnsop-domain-delegation-validation" target="https://datatracker.ietf.org/doc/html/draft-nygren-dnsop-domain-delegation-validation-00">
+  <front>
+    <title>Domain Control Validation for DNS Delegations</title>
+    <seriesInfo name="Internet-Draft" value="draft-nygren-dnsop-domain-delegation-validation-00"/>
+    <author initials="E." surname="Nygren" fullname="Erik Nygren">
+      <organization>Akamai Technologies</organization>
+    </author>
+    <author initials="P." surname="Thomassen" fullname="Peter Thomassen">
+      <organization>deSEC</organization>
+    </author>
+    <author initials="S." surname="Huque" fullname="Shumon Huque">
+      <organization>Salesforce</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>The techniques specified in
+   [I-D.draft-ietf-dnsop-domain-verification-techniques] for using the
+   DNS to verify ownership or control of a domain in the Domain Name
+   System (DNS) rely on the domain already being properly delegated to a
+   DNS authority.  For the specific case where the Application Service
+   Provider is providing authoritative DNS services, the existing
+   approaches don't provide a way to bootstrap domain validation onto a
+   new Authoritative DNS Application Service provider.
+
+   This specification proposes a mechanism for "Domain Control
+   Validation" for cases where the User and DNS Administrator are
+   validating control over a domain to an Authoritative DNS Application
+   Service Provider and thus do not have the ability to add records
+   within the domain.  In this case, validation must be performed by the
+   User taking actions in the DNS Registrar or Parent Zone that
+   demonstrate control over the domain, such as by adding DNS NS records
+   as validation records.</t>
+    </abstract>
+  </front>
+</reference>

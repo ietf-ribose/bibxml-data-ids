@@ -1,0 +1,30 @@
+<reference anchor="I-D.kohbrok-mls-opportunistic-channels" target="https://datatracker.ietf.org/doc/html/draft-kohbrok-mls-opportunistic-channels-00">
+  <front>
+    <title>Opportunistic Channels</title>
+    <seriesInfo name="Internet-Draft" value="draft-kohbrok-mls-opportunistic-channels-00"/>
+    <author initials="K." surname="Kohbrok" fullname="Konrad Kohbrok">
+      <organization>Phoenix R&amp;D</organization>
+    </author>
+    <author initials="R." surname="Robert" fullname="Raphael Robert">
+      <organization>Phoenix R&amp;D</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines Opportunistic Channels: a way for two members
+   of a Messaging Layer Security (MLS) group to efficiently create and
+   operate an end-to-end encrypted 1-to-1 channel.  In contrast to a
+   full MLS group, the channel participants can't independently update
+   their key material.  Instead, participants opportunistically inject
+   key material exported from other groups.  As such, opportunistic
+   channels are more efficient than full MLS groups, but achieve lower
+   security guarantees.  Their use case is the transmission of lower-
+   security messages such as message delivery receipts.
+
+   To keep messaging in opportunistic channels efficient, this document
+   also defines MLS WireFormats that are equivalent to the MLS
+   PublicMessage and PrivateMessage formats, but omit signatures.  These
+   WireFormats are otherwise independent of opportunistic channels and
+   can be used in regular MLS groups.</t>
+    </abstract>
+  </front>
+</reference>

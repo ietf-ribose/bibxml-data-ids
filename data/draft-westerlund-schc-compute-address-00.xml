@@ -1,0 +1,29 @@
+<reference anchor="I-D.westerlund-schc-compute-address" target="https://datatracker.ietf.org/doc/html/draft-westerlund-schc-compute-address-00">
+  <front>
+    <title>SCHC Compute-Address Compression/Decompression Actions for Dynamically Assigned IP Addresses</title>
+    <seriesInfo name="Internet-Draft" value="draft-westerlund-schc-compute-address-00"/>
+    <author initials="M." surname="Westerlund" fullname="Magnus Westerlund">
+      <organization>Ericsson</organization>
+    </author>
+    <author initials="L." surname="Corneo" fullname="Lorenzo Corneo">
+      <organization>Ericsson</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines new Matching Operators (MOs) and Compression/
+   Decompression Actions (CDAs) for the Static Context Header
+   Compression and fragmentation (SCHC) framework defined in RFC 8724.
+   These extensions enable efficient compression of dynamically assigned
+   IP addresses, including IPv4 addresses assigned via DHCP, IPv6
+   prefixes learned through SLAAC or DHCPv6, IPv6 Interface Identifiers
+   (IIDs), and IPv6 temporary privacy addresses generated per RFC 8981.
+
+   The mechanism relies on both the compressor and decompressor sharing
+   knowledge of the set of addresses assigned to the device.  Addresses
+   are organized into deterministically sorted tables, allowing
+   compression to a small index value.  For temporary IPv6 addresses, a
+   synchronized generation algorithm enables compression to an epoch and
+   counter value.</t>
+    </abstract>
+  </front>
+</reference>

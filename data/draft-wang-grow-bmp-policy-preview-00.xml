@@ -1,0 +1,32 @@
+<reference anchor="I-D.wang-grow-bmp-policy-preview" target="https://datatracker.ietf.org/doc/html/draft-wang-grow-bmp-policy-preview-00">
+  <front>
+    <title>BGP Route Policy Pre-view and Intent Verification Using BGP Monitoring Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-wang-grow-bmp-policy-preview-00"/>
+    <author initials="L." surname="Wang" fullname="Lili Wang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="N." surname="Geng" fullname="Nan Geng">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="L." surname="Li" fullname="Lei Li">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="S." surname="Zhuang" fullname="Shunwan Zhuang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date day="05" month="July" year="2026"/>
+    <abstract>
+      <t>Deploying BGP route policies in live production networks carries
+   significant operational risks, often resulting in unintended route
+   leaks, suboptimal routing paths, or blackholes.  This document
+   proposes an extension to the BGP Monitoring Protocol (BMP) that
+   enables a BGP speaker to pre-view and dry-run a candidate route
+   policy within a localized control-plane sandbox.  The resulting post-
+   policy route changes (deltas) are streamed asynchronously to a
+   centralized controller via a new BMP message type.  This architecture
+   allows the controller to verify policy alignment with network
+   intents, subsequently triggering either an explicit commit or a
+   rollback before any forwarding plane changes take effect.</t>
+    </abstract>
+  </front>
+</reference>

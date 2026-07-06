@@ -1,0 +1,32 @@
+<reference anchor="I-D.zhao-grow-bgp-graceful-degradation" target="https://datatracker.ietf.org/doc/html/draft-zhao-grow-bgp-graceful-degradation-00">
+  <front>
+    <title>BGP Graceful Degradation Under Control Plane Memory Pressure</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhao-grow-bgp-graceful-degradation-00"/>
+    <author initials="J." surname="Zhao" fullname="Jing Zhao">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="R." surname="Pang" fullname="Ran Pang">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="G." surname="xing" fullname="Gao xing">
+      <organization>China Unicom</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>This document describes an operational framework for graceful
+   degradation of BGP under control-plane memory pressure.  When BGP
+   speakers experience rapid growth in routing state due to route
+   flapping, configuration errors, or anomalous route injection,
+   control-plane memory can become exhausted, leading to session resets,
+   routing process restarts, or device reboots.
+
+   The framework described in this document progressively reduces BGP
+   route admission and processing based on local resource conditions,
+   isolates non-critical neighbors or services when necessary, and
+   restores routing state in a controlled manner after recovery.  The
+   objective is to preserve basic device operation and reduce service
+   impact.  This document does not define any new BGP messages, path
+   attributes, capabilities, or protocol state machines.</t>
+    </abstract>
+  </front>
+</reference>

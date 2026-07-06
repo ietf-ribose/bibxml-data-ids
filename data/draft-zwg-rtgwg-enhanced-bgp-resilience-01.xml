@@ -1,0 +1,30 @@
+<reference anchor="I-D.zwg-rtgwg-enhanced-bgp-resilience" target="https://datatracker.ietf.org/doc/html/draft-zwg-rtgwg-enhanced-bgp-resilience-01">
+  <front>
+    <title>Enhanced BGP Resilience</title>
+    <seriesInfo name="Internet-Draft" value="draft-zwg-rtgwg-enhanced-bgp-resilience-01"/>
+    <author initials="S." surname="Zhuang" fullname="Shunwan Zhuang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="H." surname="Wang" fullname="Haibo Wang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>According to the base BGP specification, a BGP speaker that receives
+   an UPDATE message containing a malformed attribute is required to
+   reset the session over which the offending attribute was received.
+   RFC7606 revises the error handling procedures for a number of
+   existing attributes.  The use of the "treat-as-withdraw" and
+   "attribute discard" approaches significantly reduces the likelihood
+   of BGP sessions being reset when receiving malformed BGP update
+   messages, thereby greatly enhancing network stability.  However, in
+   practical applications, there are still numerous instances where BGP
+   session oscillations occur due to the receipt of malformed BGP update
+   messages, unrecognized attribute fields, or routing rules generated
+   by a certain BGP AFI/SAFI that affect the forwarding of BGP messages.
+
+   This document introduces some approaches to enhance the stability of
+   BGP sessions.</t>
+    </abstract>
+  </front>
+</reference>

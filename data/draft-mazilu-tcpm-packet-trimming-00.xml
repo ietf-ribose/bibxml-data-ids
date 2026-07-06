@@ -1,0 +1,25 @@
+<reference anchor="I-D.mazilu-tcpm-packet-trimming" target="https://datatracker.ietf.org/doc/html/draft-mazilu-tcpm-packet-trimming-00">
+  <front>
+    <title>TCP Packet Trimming Extension</title>
+    <seriesInfo name="Internet-Draft" value="draft-mazilu-tcpm-packet-trimming-00"/>
+    <author initials="F." surname="Mazilu" fullname="Flavius-Romeo Mazilu">
+      <organization>POLITEHNICA Bucharest</organization>
+    </author>
+    <author initials="V. I." surname="Bobaru" fullname="Valentin Ionut Bobaru">
+      <organization>POLITEHNICA Bucharest</organization>
+    </author>
+    <author initials="C." surname="Raiciu" fullname="Costin Raiciu">
+      <organization>POLITEHNICA Bucharest / Broadcom Inc.</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>This document specifies a TCP extension that enables TCP endpoints in
+   data center networks or similarly controlled administrative domains
+   to use packet trimming information when it is available.  When switch
+   buffers exceed a threshold, rather than silently dropping a packet,
+   the switch trims the payload and forwards the header.  This allows
+   the destination to issue a deterministic Negative Acknowledgment
+   (NACK), enabling faster, more deterministic loss recovery.</t>
+    </abstract>
+  </front>
+</reference>

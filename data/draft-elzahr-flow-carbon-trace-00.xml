@@ -1,0 +1,42 @@
+<reference anchor="I-D.elzahr-flow-carbon-trace" target="https://datatracker.ietf.org/doc/html/draft-elzahr-flow-carbon-trace-00">
+  <front>
+    <title>Flow-Level Carbon Emissions Tracing for Packet Networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-elzahr-flow-carbon-trace-00"/>
+    <author initials="" surname="El Zahr" fullname="Sawsan El Zahr">
+      <organization>University of Oxford</organization>
+    </author>
+    <author initials="E." surname="Schooler" fullname="Eve Schooler">
+      <organization>University of Oxford</organization>
+    </author>
+    <author initials="R." surname="Soul&#xE9;" fullname="Robert Soul&#xE9;">
+      <organization>Yale University</organization>
+    </author>
+    <author initials="N." surname="Zilberman" fullname="Noa Zilberman">
+      <organization>University of Oxford</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines a method to derive per-flow energy consumption
+   and associated carbon emissions without requiring inline power
+   instrumentation for network equipment.  Although energy consumption
+   is commonly monitored at the device, network, or facility level,
+   fine-grained attribution of energy consumption and carbon emissions
+   to individual traffic flows remains an open research problem.  The
+   central contribution is the formulation of a flow-level carbon
+   accounting model that transforms counter-based traffic measurements
+   into energy usage estimates and subsequently into carbon emissions
+   using time- and location-dependent carbon intensity data.
+
+   The specification defines a device power model, a flow-level energy
+   derivation, and idle-energy attribution methods for flows.  This
+   document further highlights how different definitions of carbon
+   attribution can lead to significant variability in attributed carbon
+   to flows, emphasizing the urgent need to standardize carbon
+   accounting definitions and methodologies.  In addition to the
+   modeling framework, the document defines mechanisms for telemetry
+   collection and deployment models for end-to-end flow tracing to
+   support operational use cases.  These elements complement the core
+   contribution by enabling implementation and observability.</t>
+    </abstract>
+  </front>
+</reference>

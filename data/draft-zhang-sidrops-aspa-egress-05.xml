@@ -1,0 +1,37 @@
+<reference anchor="I-D.zhang-sidrops-aspa-egress" target="https://datatracker.ietf.org/doc/html/draft-zhang-sidrops-aspa-egress-05">
+  <front>
+    <title>ASPA-based AS_PATH Verification for BGP Export</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhang-sidrops-aspa-egress-05"/>
+    <author initials="J." surname="Zhang" fullname="Jia Zhang">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author initials="Y." surname="Wang" fullname="Yangyang Wang">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="M." surname="Mat&#x11B;jka" fullname="Maria Mat&#x11B;jka">
+      <organization>CZ.NIC</organization>
+    </author>
+    <author initials="M." surname="Xu" fullname="Mingwei Xu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="K." surname="Sriram" fullname="Kotikalapudi Sriram">
+      <organization>USA National Institute of Standards and Technology</organization>
+    </author>
+    <author initials="N." surname="Geng" fullname="Nan Geng">
+      <organization>Huawei</organization>
+    </author>
+    <date day="05" month="July" year="2026"/>
+    <abstract>
+      <t>This document describes AS_PATH verification based on Autonomous
+   System Provider Authorization (ASPA) for egress eBGP speakers.  ASPA
+   is a Resource Public Key Infrastructure (RPKI) object that allows an
+   AS to register its transit provider ASes.  Performing ASPA-based
+   AS_PATH verification at egress can prevent inadvertent propagation of
+   route leaks to external peers, check for local misconfigurations, and
+   help detect potential ASPA registration errors.  This approach
+   complements ingress-side verification and BGP Roles/Only to Customer
+   (OTC); it also provides operational assurance for partial deployment
+   and for export-side configuration or registration problems.</t>
+    </abstract>
+  </front>
+</reference>

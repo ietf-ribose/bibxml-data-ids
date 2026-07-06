@@ -1,0 +1,38 @@
+<reference anchor="I-D.ietf-opsawg-collected-data-manifest" target="https://datatracker.ietf.org/doc/html/draft-ietf-opsawg-collected-data-manifest-12">
+  <front>
+    <title>A Data Manifest for Contextualized Telemetry Data</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-opsawg-collected-data-manifest-12"/>
+    <author initials="B." surname="Claise" fullname="Beno&#xEE;t Claise">
+      <organization>Everything OPS</organization>
+    </author>
+    <author initials="J." surname="Quilbeuf" fullname="Jean Quilbeuf">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="D." surname="Lopez" fullname="Diego Lopez">
+      <organization>Telefonica I+D</organization>
+    </author>
+    <author initials="I. D." surname="Martinez-Casanueva" fullname="Ignacio Dominguez Martinez-Casanueva">
+      <organization>Telefonica I+D</organization>
+    </author>
+    <author initials="T." surname="Graf" fullname="Thomas Graf">
+      <organization>Swisscom</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>Network platforms use Network Telemetry, such as YANG-Push, to
+   continuously stream information, including both counters and state
+   information.  This document describes the metadata that ensure that
+   the collected data can be interpreted correctly.  This document
+   specifies the Data Manifest, composed of two YANG data models (the
+   Platform Manifest and the non-normative Data Collection Manifest).
+   These YANG modules are specified at the network level (e.g., network
+   controllers) to provide a model that encompasses several network
+   platforms.  The Data Manifest must be streamed and stored along with
+   the data, up to the collection and analytics systems to keep the
+   collected data fully exploitable by the data scientists and relevant
+   tools.  Additionally, this document specifies an augmentation of the
+   YANG-Push model to include the actual collection period, in case it
+   differs from the configured collection period.</t>
+    </abstract>
+  </front>
+</reference>

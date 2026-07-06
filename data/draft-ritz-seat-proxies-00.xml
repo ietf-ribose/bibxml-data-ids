@@ -1,0 +1,31 @@
+<reference anchor="I-D.ritz-seat-proxies" target="https://datatracker.ietf.org/doc/html/draft-ritz-seat-proxies-00">
+  <front>
+    <title>Bridging Remote Attestation with Secure Channel Protocol Proxies</title>
+    <seriesInfo name="Internet-Draft" value="draft-ritz-seat-proxies-00"/>
+    <author initials="N." surname="Ritz" fullname="Nathanael Ritz">
+      <organization>Independent</organization>
+    </author>
+    <author initials="I." surname="Mihalcea" fullname="Ionu&#x21B; Mihalcea">
+      <organization>ARM</organization>
+    </author>
+    <author initials="H." surname="Tschofenig" fullname="Hannes Tschofenig">
+      <organization>University of the Bundeswehr Munich</organization>
+    </author>
+    <author initials="T." surname="Reddy.K" fullname="Tirumaleswar Reddy.K">
+      <organization>Nokia</organization>
+    </author>
+    <date day="05" month="July" year="2026"/>
+    <abstract>
+      <t>This document specifies a transport-layer mechanism to establish an
+   end-to-end cryptographic channel across a cooperative secure channel
+   protocol intermediary, such as a TLS-terminating proxy.
+
+   The mechanism enables Remote Attestation Evidence to remain bound to
+   the true end-to-end endpoints even when the initial secure channel
+   handshake is mediated by an intermediary.  It uses an ephemeral HPKE
+   challenge exchange, intra-handshake Evidence delivery, and an
+   attestation-bound key update to evict the intermediary from Layer 7
+   visibility before application data is exchanged.</t>
+    </abstract>
+  </front>
+</reference>

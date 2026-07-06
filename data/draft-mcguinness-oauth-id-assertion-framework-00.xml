@@ -1,0 +1,35 @@
+<reference anchor="I-D.mcguinness-oauth-id-assertion-framework" target="https://datatracker.ietf.org/doc/html/draft-mcguinness-oauth-id-assertion-framework-00">
+  <front>
+    <title>OAuth Identity Assertion Trust Framework</title>
+    <seriesInfo name="Internet-Draft" value="draft-mcguinness-oauth-id-assertion-framework-00"/>
+    <author initials="K." surname="McGuinness" fullname="Karl McGuinness">
+      <organization>Independent</organization>
+    </author>
+    <date day="05" month="July" year="2026"/>
+    <abstract>
+      <t>Issuer authentication alone does not prove an OAuth authorization
+   server's authority over the subject namespace its identity assertions
+   claim.  A federated authorization server can mint an identity
+   assertion naming any email domain; federation membership establishes
+   that the server is a recognized member of an ecosystem, not that the
+   server is entitled to assert about subjects in any particular
+   namespace.  Nothing in OAuth today lets a namespace owner declare
+   which authorization servers are authorized to assert identities in
+   its namespace.
+
+   This document defines an Identity Assertion Trust Framework with two
+   parts.  First, an Authority Delegation Model: an abstract pattern
+   (Authority Holder, Delegate, Delegation Artifact, Validator) with
+   independent trust-evaluation categories, a cross-category combination
+   rule, and a lookup-state taxonomy that profiles instantiate.  Second,
+   the Identity Assertion Issuer Trust Policy: a JSON policy document
+   that a Resource Authorization Server publishes to declare which trust
+   methods it requires of an Assertion Issuer, including issuer-
+   authentication methods (such as OpenID Federation) and subject-
+   namespace authorization methods defined by separate profiles.
+
+   The Domain-Authorized Issuer Trust Method is defined separately as
+   one subject-namespace authorization profile usable by this framework.</t>
+    </abstract>
+  </front>
+</reference>

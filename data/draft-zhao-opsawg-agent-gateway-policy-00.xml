@@ -1,0 +1,42 @@
+<reference anchor="I-D.zhao-opsawg-agent-gateway-policy" target="https://datatracker.ietf.org/doc/html/draft-zhao-opsawg-agent-gateway-policy-00">
+  <front>
+    <title>Agent Gateway Policy Control Model</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhao-opsawg-agent-gateway-policy-00"/>
+    <author initials="J." surname="Zhao" fullname="Jing Zhao">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="R." surname="Pang" fullname="Ran Pang">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="S." surname="Zhang" fullname="Shuai Zhang">
+      <organization>China Unicom</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines an operator-facing management and policy
+   control model for operator-managed Agent Gateways.  The model
+   controls and observes interactions mediated by an Agent Gateway; it
+   does not manage, govern, or modify the internal behavior or lifecycle
+   of an agent.
+
+   Agent-related identifiers, agent groups, tenants, task classes, and
+   service levels are used only as gateway-recognized policy matching
+   attributes.  Policies are enforced at the Agent Gateway and, when
+   validated gateway attachment bindings provide suitable selectors, at
+   associated network enforcement points.
+
+   The model is organized around four core policy classes: Interaction
+   Access Control, QoS and Flow Control, Invocation and Token Control,
+   and Path Selection.  The model also defines three supporting
+   management models: Subject and Attachment Binding, Applied Policy
+   State and Telemetry, and Policy Lifecycle and Failure Handling.
+
+   This document defines a YANG module for configuring and observing
+   Agent Gateway policy control state.  It does not define agent-runtime
+   governance, agent reasoning or planning, prompt or model-output
+   governance, global agent identity registration, DNS, service
+   discovery, or the semantics of existing ACL, QoS, routing, VPN,
+   traffic-engineering, or network-slice mechanisms.</t>
+    </abstract>
+  </front>
+</reference>

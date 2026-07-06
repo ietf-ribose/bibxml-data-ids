@@ -1,0 +1,43 @@
+<reference anchor="I-D.wang-tls-service-affinity" target="https://datatracker.ietf.org/doc/html/draft-wang-tls-service-affinity-04">
+  <front>
+    <title>Service Affinity Solution based on Transport Layer Security (TLS)</title>
+    <seriesInfo name="Internet-Draft" value="draft-wang-tls-service-affinity-04"/>
+    <author initials="W." surname="Wang" fullname="Wei Wang">
+      <organization>China Telecom</organization>
+    </author>
+    <author initials="A." surname="Wang" fullname="Aijun Wang">
+      <organization>China Telecom</organization>
+    </author>
+    <author initials="P." surname="&#x6C6A;&#x5B97;&#x658C;" fullname="&#x6C6A;&#x5B97;&#x658C;">
+      <organization>Beijing Infosec Technologies Co., LTD.</organization>
+    </author>
+    <author initials="M." surname="Sahni" fullname="Mohit Sahni">
+      <organization>Palo Alto Networks</organization>
+    </author>
+    <author initials="K." surname="Sheth" fullname="Ketul Sheth">
+      <organization>Palo Alto Networks</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>This draft proposes a service affinity solution between client and
+   server based on Transport Layer Security (TLS).  It defines a minimal
+   extension to TLS 1.3 by which a server instance can authorize a
+   client to resume an established session on a different instance of
+   the same service (for example, another node of a load-balanced
+   cluster) and request, in band, that the client do so.  The relocation
+   authorization is carried inside the server's own session ticket, so
+   it inherits the security properties of TLS 1.3 ticket-based
+   resumption; the relocation target is an opaque identifier resolved by
+   the application or control plane rather than an address carried in
+   TLS.
+
+   This document also introduces a Reliable Framing Layer that operates
+   above the TLS record layer to provide message framing, sequence
+   numbering, acknowledgment tracking, and automatic retransmission.
+   The Framing Layer ensures zero application data loss during TLS
+   session migration by buffering unacknowledged data frames and
+   retransmitting them to the new server endpoint after migration
+   completes.</t>
+    </abstract>
+  </front>
+</reference>

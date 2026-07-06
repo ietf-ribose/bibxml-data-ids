@@ -1,0 +1,29 @@
+<reference anchor="I-D.yu-idr-bgp-sr-policy-orf" target="https://datatracker.ietf.org/doc/html/draft-yu-idr-bgp-sr-policy-orf-00">
+  <front>
+    <title>On-Demand Distributing BGP SR Policy Using Outbound Route Filtering Capability</title>
+    <seriesInfo name="Internet-Draft" value="draft-yu-idr-bgp-sr-policy-orf-00"/>
+    <author initials="P." surname="Yu" fullname="Pingping Yu">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="S." surname="Zhuang" fullname="Shunwan Zhuang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="H." surname="Wang" fullname="Haibo Wang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>The BGP SR Policy address family defines a mechanism to distribute
+   Segment Routing (SR) policies from a centralized controller to head-
+   end routers.  However, pre-provisioning all candidate SR Policies
+   across massive-scale networks impose significant control-plane memory
+   and processing overhead on edge nodes.  This document specifies an
+   extension to the BGP Outbound Route Filtering (ORF) capability,
+   leveraging the framework defined in RFC 5291.  It introduces a new SR
+   Policy Tuple ORF type that allows a head-end router to precisely
+   request or subscribe to specific SR Policies based on a Color and
+   Endpoint tuple, enabling pure on-demand, pull-based policy
+   distribution.</t>
+    </abstract>
+  </front>
+</reference>

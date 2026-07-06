@@ -1,0 +1,34 @@
+<reference anchor="I-D.zhuang-idr-epe-rg-ixp" target="https://datatracker.ietf.org/doc/html/draft-zhuang-idr-epe-rg-ixp-00">
+  <front>
+    <title>BGP Egress Peer Engineering (EPE) SID Allocation and Extensions for IXP Route-Server Scenarios</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhuang-idr-epe-rg-ixp-00"/>
+    <author initials="S." surname="Zhuang" fullname="Shunwan Zhuang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="J." surname="Dong" fullname="Jie Dong">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="H." surname="Wang" fullname="Haibo Wang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="N." surname="Geng" fullname="Nan Geng">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>BGP Egress Peer Engineering (EPE) defines mechanisms to steer egress
+   traffic towards a specific border router, interface, or peer group
+   using Segment Routing (SR).  [RFC9086] specifies BGP-LS extensions to
+   advertise these EPE peer segments.  However, in Internet Exchange
+   Point (IXP) deployments where border routers peer with a centralized
+   Route-Server (RS), control plane peerings are completely decoupled
+   from data plane forwarding paths.
+
+   This document specifies the architecture, specific procedures, and
+   associated BGP-LS TLV application guidelines for allocating and
+   signaling EPE PeerNode and PeerSet SIDs on an egress border router
+   connected to an IXP Route-Server infrastructure, ensuring granular
+   and deterministic egress traffic engineering across IXP fabrics.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,27 @@
+<reference anchor="I-D.pan-transparent-ordered-bonding" target="https://datatracker.ietf.org/doc/html/draft-pan-transparent-ordered-bonding-00">
+  <front>
+    <title>Transparent Ordered Bonding for High-Capacity WAN Links</title>
+    <seriesInfo name="Internet-Draft" value="draft-pan-transparent-ordered-bonding-00"/>
+    <author initials="H." surname="&#x6F58;&#x660A;&#x5B87;" fullname="&#x6F58;&#x660A;&#x5B87;">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="R." surname="Li" fullname="Ruifeng Li">
+      <organization>China Mobile</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>This document describes a Transparent Ordered Bonding (TOB) mechanism
+   for high-capacity wide-area links that are physically composed of
+   multiple lower-rate member links.  Traditional flow-based load
+   balancing mechanisms can preserve packet ordering, but they cannot
+   fully utilize all member links for a single large traffic stream.
+
+   TOB introduces a bonding layer between two adjacent network nodes.
+   The bonding layer fragments ingress packets into cells, distributes
+   them across member links according to link status, and reassembles
+   them in strict order at the remote node.  This document specifies the
+   applicability, architecture, packet format, scheduling
+   considerations, and resequencing behavior of TOB.</t>
+    </abstract>
+  </front>
+</reference>

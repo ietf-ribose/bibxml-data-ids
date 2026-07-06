@@ -1,0 +1,27 @@
+<reference anchor="I-D.kohbrok-ipsecme-mls-gike" target="https://datatracker.ietf.org/doc/html/draft-kohbrok-ipsecme-mls-gike-00">
+  <front>
+    <title>MLS for IPsec Group Key Exchange</title>
+    <seriesInfo name="Internet-Draft" value="draft-kohbrok-ipsecme-mls-gike-00"/>
+    <author initials="K." surname="Kohbrok" fullname="Konrad Kohbrok">
+      <organization>Phoenix R&amp;D</organization>
+    </author>
+    <author initials="R." surname="Robert" fullname="Raphael Robert">
+      <organization>Phoenix R&amp;D</organization>
+    </author>
+    <author initials="V." surname="Smyslov" fullname="Valery Smyslov">
+      <organization>ELVIS-PLUS</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>This document describes a profile that uses the Messaging Layer
+   Security (MLS) protocol as the group key-management substrate for
+   Group Key Management using IKEv2 (G-IKEv2).  The intent is to
+   preserve the operational model of G-IKEv2, including IKEv2 transport,
+   GSA policy distribution, a central GCKS, and the IPsec ESP data
+   plane, while replacing GDOI-style group key distribution with an MLS
+   group.  The resulting design can be read as G-IKEv2 where MLS
+   produces the per-epoch group secret used to key the IPsec ESP Data-
+   Security SA.</t>
+    </abstract>
+  </front>
+</reference>

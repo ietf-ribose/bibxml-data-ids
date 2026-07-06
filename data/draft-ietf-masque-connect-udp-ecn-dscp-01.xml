@@ -1,0 +1,29 @@
+<reference anchor="I-D.ietf-masque-connect-udp-ecn-dscp" target="https://datatracker.ietf.org/doc/html/draft-ietf-masque-connect-udp-ecn-dscp-01">
+  <front>
+    <title>ECN and DSCP support for HTTPS's Connect-UDP</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-masque-connect-udp-ecn-dscp-01"/>
+    <author initials="M." surname="Westerlund" fullname="Magnus Westerlund">
+      <organization>Ericsson</organization>
+    </author>
+    <author initials="M." surname="Seemann" fullname="Marten Seemann">
+      <organization>Smallstep</organization>
+    </author>
+    <author initials="M." surname="K&#xFC;hlewind" fullname="Mirja K&#xFC;hlewind">
+      <organization>Ericsson</organization>
+    </author>
+    <author initials="L. M." surname="Ihlar" fullname="Marcus Ihlar">
+      <organization>Ericsson</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>HTTP's Extended Connect's Connect-UDP protocol enables a client to
+   proxy a UDP flow from the HTTP server towards a specified target IP
+   address and UDP port.  QUIC and Real-time transport protocol (RTP)
+   are examples of transport protocols that use UDP and support Explicit
+   Congestion Notification (ECN) and provide the necessary feedback.
+   This document specifies how ECN and DSCP can be supported through an
+   extension to the Connect-UDP protocol for HTTP without per-packet
+   byte overhead, solely using Context IDs.</t>
+    </abstract>
+  </front>
+</reference>

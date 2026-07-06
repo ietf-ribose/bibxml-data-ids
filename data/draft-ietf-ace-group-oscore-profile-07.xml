@@ -1,0 +1,34 @@
+<reference anchor="I-D.ietf-ace-group-oscore-profile" target="https://datatracker.ietf.org/doc/html/draft-ietf-ace-group-oscore-profile-07">
+  <front>
+    <title>The Group Object Security for Constrained RESTful Environments (Group OSCORE) Profile of the Authentication and Authorization for Constrained Environments (ACE) Framework</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ace-group-oscore-profile-07"/>
+    <author initials="M." surname="Tiloca" fullname="Marco Tiloca">
+      <organization>RISE AB</organization>
+    </author>
+    <author initials="R." surname="H&#xF6;glund" fullname="Rikard H&#xF6;glund">
+      <organization>RISE AB</organization>
+    </author>
+    <author initials="F." surname="Palombini" fullname="Francesca Palombini">
+      <organization>Ericsson AB</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>This document specifies a profile for the Authentication and
+   Authorization for Constrained Environments (ACE) framework.  The
+   profile uses Group Object Security for Constrained RESTful
+   Environments (Group OSCORE) to provide communication security between
+   a client and one or multiple resource servers that are members of an
+   OSCORE group.  The profile securely binds an OAuth 2.0 access token
+   to the public key of the client associated with the private key used
+   by that client in the OSCORE group.  The profile uses Group OSCORE to
+   achieve server authentication and proof of possession of the client's
+   private key.  Also, it provides proof of the client's membership to
+   the OSCORE group by binding the access token to information that
+   pertains to the Group OSCORE Security Context, thus allowing the
+   resource server(s) to verify the client's membership upon receiving
+   the access token.  Effectively, the profile enables fine-grained
+   access control paired with secure group communication, in accordance
+   with the Zero Trust principles.</t>
+    </abstract>
+  </front>
+</reference>

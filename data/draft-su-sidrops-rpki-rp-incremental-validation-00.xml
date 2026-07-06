@@ -1,0 +1,38 @@
+<reference anchor="I-D.su-sidrops-rpki-rp-incremental-validation" target="https://datatracker.ietf.org/doc/html/draft-su-sidrops-rpki-rp-incremental-validation-00">
+  <front>
+    <title>A Publication-Point-Based Incremental Validation Procedure for RPKI Relying Parties</title>
+    <seriesInfo name="Internet-Draft" value="draft-su-sidrops-rpki-rp-incremental-validation-00"/>
+    <author initials="Y." surname="Su" fullname="Yingying Su">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author initials="L." surname="Qin" fullname="Lancheng Qin">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author initials="D." surname="Li" fullname="Dan Li">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>RPKI Relying Parties commonly perform top-down validation of the RPKI
+   certificate tree after repository synchronization.  Existing
+   repository synchronization mechanisms can update the local repository
+   incrementally, avoiding a complete retrieval of all repository data.
+   However, after such an incremental repository update, an RP
+   implementation may still repeat full top-down validation over the
+   local repository.  It means that the RP starts from the trust anchors
+   and performs complete validation checks for all currently reachable
+   RPKI objects encountered during the traversal.  Repeating such
+   validation for objects whose validation inputs have not changed can
+   introduce unnecessary validation overhead.
+
+   This document specifies a publication-point-based incremental
+   validation procedure for RPKI RPs.  The procedure is intended to
+   reduce redundant validation work after incremental repository
+   synchronization, while preserving the same validation result as a
+   full top-down validation over the same repository snapshot, trust
+   anchor set, validation policy, and validation time.  This document
+   does not change the syntax or validation semantics of any RPKI
+   object.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,35 @@
+<reference anchor="I-D.many-bess-rfc9252-dual-sid" target="https://datatracker.ietf.org/doc/html/draft-many-bess-rfc9252-dual-sid-00">
+  <front>
+    <title>Dual MPLS and SRv6 Service Advertisement in the Absence of Transposition</title>
+    <seriesInfo name="Internet-Draft" value="draft-many-bess-rfc9252-dual-sid-00"/>
+    <author initials="S." surname="Sivabalan" fullname="Siva Sivabalan">
+      <organization>Ciena Corporation</organization>
+    </author>
+    <author initials="P. P. S." surname="Dhillon" fullname="Param Preet Singh Dhillon">
+      <organization>Ciena Corporation</organization>
+    </author>
+    <author initials="H." surname="Shah" fullname="Himanshu Shah">
+      <organization>Ciena Corporation</organization>
+    </author>
+    <author initials="K." surname="Patel" fullname="Keyur Patel">
+      <organization>Arrcus, Inc.</organization>
+    </author>
+    <author initials="J." surname="Whittaker" fullname="Jeremy Whittaker">
+      <organization>Verizon</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>RFC 9252 defines BGP signaling procedures for SRv6 services,
+   including the use of an MPLS Label field and transposition semantics.
+   However, when transposition is not used (i.e., TL = 0), RFC 9252 does
+   not explicitly define the interpretation of the MPLS Label field,
+   leading to ambiguity in control-plane signaling.
+
+   This document specifies a minimal, backward-compatible extension to
+   RFC 9252 that enables a single route to unambiguously advertise both
+   a valid MPLS Service Label and an SRv6 Service SID.  The extension
+   relies on existing MPLS label semantics, without introducing new
+   TLVs, attributes, or changes to the base encoding format.</t>
+    </abstract>
+  </front>
+</reference>

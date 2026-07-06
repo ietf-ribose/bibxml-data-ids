@@ -1,0 +1,25 @@
+<reference anchor="I-D.zhu-agent-registration-discovery" target="https://datatracker.ietf.org/doc/html/draft-zhu-agent-registration-discovery-00">
+  <front>
+    <title>Registration and Discovery Extension for Multi-Model Agents</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhu-agent-registration-discovery-00"/>
+    <author initials="" surname="Yidan" fullname="YIDAN ZHU">
+      <organization>China Mobile</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>Existing agent registration and discovery mechanisms assume that each
+   intelligent agent is backed by a single, static inference model.
+   However, in real-world deployments, agents increasingly incorporate
+   internal model routing mechanisms where multiple foundation models
+   are used dynamically within a single agent based on task complexity,
+   latency requirements, system load, and cost constraints.
+
+   Although such agents are exposed externally as single service
+   endpoints, their execution behavior is not static and may vary due to
+   internal model selection logic that is not visible to external
+   systems.  This leads to mismatches between registered metadata and
+   actual service behavior, reducing the effectiveness of discovery and
+   QoS-aware routing.</t>
+    </abstract>
+  </front>
+</reference>
