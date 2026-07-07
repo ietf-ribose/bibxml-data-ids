@@ -1,0 +1,36 @@
+<reference anchor="I-D.jot-bess-evpn-mcast-router-sync" target="https://datatracker.ietf.org/doc/html/draft-jot-bess-evpn-mcast-router-sync-00">
+  <front>
+    <title>Multicast Router State Synchronization in EVPN Networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-jot-bess-evpn-mcast-router-sync-00"/>
+    <author initials="J." surname="Rabadan" fullname="Jorge Rabadan">
+      <organization>Nokia</organization>
+    </author>
+    <author initials="O." surname="Dornon" fullname="Olivier Dornon">
+      <organization>Nokia</organization>
+    </author>
+    <author initials="T." surname="Kundu" fullname="Tanmoy Kundu">
+      <organization>Nokia</organization>
+    </author>
+    <author initials="N. D." surname="Elfassy" fullname="Nitsan Dolev Elfassy">
+      <organization>Ribbon</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>Ethernet VPN (EVPN) networks support multicast applications in which
+   multicast routers and multicast hosts are attached to the same
+   tenant.  Existing specifications define how Provider Edge (PE)
+   devices synchronize the Internet Group Management Protocol (IGMP) and
+   Multicast Listener Discovery (MLD) membership state of multihomed
+   multicast hosts, and how Optimized Inter-Subnet Multicast (OISM)
+   forwarding interacts with multicast routers via PIM EVPN Gateways.
+   However, none of the existing specifications addresses the
+   synchronization of the state associated with a multicast router (an
+   IGMP/MLD Querier or a Protocol Independent Multicast (PIM) router)
+   when that router is multihomed to a set of EVPN PEs.  This document
+   specifies a new EVPN route, the Multicast Router Discovery (MRD)
+   route, and the procedures to synchronize multicast router state
+   across the PEs of an Ethernet Segment, for routers attached to
+   multicast Broadcast Domains or to Layer 3 interfaces.</t>
+    </abstract>
+  </front>
+</reference>

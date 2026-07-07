@@ -1,0 +1,45 @@
+<reference anchor="I-D.filsfils-spring-path-tracing-srmpls" target="https://datatracker.ietf.org/doc/html/draft-filsfils-spring-path-tracing-srmpls-08">
+  <front>
+    <title>Path Tracing in SR-MPLS networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-filsfils-spring-path-tracing-srmpls-08"/>
+    <author initials="C." surname="Filsfils" fullname="Clarence Filsfils">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author initials="A." surname="Abdelsalam" fullname="Ahmed Abdelsalam">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author initials="P." surname="Camarillo" fullname="Pablo Camarillo">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author initials="I." surname="Meilik" fullname="Israel Meilik">
+      <organization>Broadcom</organization>
+    </author>
+    <author initials="M." surname="Valentine" fullname="Mike Valentine">
+      <organization>Goldman Sachs</organization>
+    </author>
+    <author initials="R." surname="Geib" fullname="Ruediger Geib">
+      <organization>Deutsche Telekom</organization>
+    </author>
+    <author initials="J." surname="Desmarais" fullname="Jonathan Desmarais">
+      <organization>Colt Technology Services</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>Path Tracing provides a record of the packet path as a sequence of
+   interface ids.  In addition, it provides a record of end-to-end
+   delay, per-hop delay, and load on each interface that forwards the
+   packet.
+
+   Path Tracing has the lowest MTU overhead compared to alternative
+   proposals such as [INT], [RFC9197], [I-D.song-opsawg-ifit-framework],
+   and [I-D.kumar-ippm-ifa].
+
+   Path Tracing supports fine grained timestamp.  It has been designed
+   for linerate hardware implementation in the base pipeline.
+
+   This document defines the Path Tracing specification for the SR-MPLS
+   dataplane.  The Path Tracing specification for the SRv6 dataplane is
+   defined in [I-D.filsfils-spring-path-tracing].</t>
+    </abstract>
+  </front>
+</reference>

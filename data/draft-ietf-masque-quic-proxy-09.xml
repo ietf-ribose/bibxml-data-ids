@@ -1,0 +1,24 @@
+<reference anchor="I-D.ietf-masque-quic-proxy" target="https://datatracker.ietf.org/doc/html/draft-ietf-masque-quic-proxy-09">
+  <front>
+    <title>QUIC-Aware Proxying Using HTTP</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-masque-quic-proxy-09"/>
+    <author initials="T." surname="Pauly" fullname="Tommy Pauly">
+      <organization>Apple Inc.</organization>
+    </author>
+    <author initials="E." surname="Rosenberg" fullname="Eric Rosenberg">
+      <organization>Apple Inc.</organization>
+    </author>
+    <author initials="D." surname="Schinazi" fullname="David Schinazi">
+      <organization>Google LLC</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>This document extends UDP Proxying over HTTP to add optimizations for
+   proxied QUIC connections.  Specifically, it allows a proxy to reuse
+   UDP 4-tuples for multiple proxied connections, and adds a mode of
+   proxying in which QUIC short header packets can be forwarded and
+   transformed through a HTTP/3 proxy rather than being fully re-
+   encapsulated and re-encrypted.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,29 @@
+<reference anchor="I-D.ietf-hpke-hpke" target="https://datatracker.ietf.org/doc/html/draft-ietf-hpke-hpke-04">
+  <front>
+    <title>Hybrid Public Key Encryption</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-hpke-hpke-04"/>
+    <author initials="R." surname="Barnes" fullname="Richard Barnes"/>
+    <author initials="K." surname="Bhargavan" fullname="Karthikeyan Bhargavan">
+      <organization>Inria</organization>
+    </author>
+    <author initials="B." surname="Lipp" fullname="Benjamin Lipp">
+      <organization>Rosenpass</organization>
+    </author>
+    <author initials="C. A." surname="Wood" fullname="Christopher A. Wood"/>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>This document describes a scheme for hybrid public key encryption
+   (HPKE).  This scheme provides a variant of public key encryption of
+   arbitrary-sized plaintexts for a recipient public key.  It also
+   includes a variant that authenticates possession of a pre-shared key.
+   HPKE works for any combination of an asymmetric Key Encapsulation
+   Mechanism (KEM), key derivation function (KDF), and authenticated
+   encryption with additional data (AEAD) encryption function.  This
+   document provides instantiations of the scheme using widely used and
+   efficient primitives, such as Elliptic Curve Diffie-Hellman (ECDH)
+   key agreement, HMAC-based key derivation function (HKDF), and SHA-2.
+
+   This document obsoletes RFC 9180.</t>
+    </abstract>
+  </front>
+</reference>

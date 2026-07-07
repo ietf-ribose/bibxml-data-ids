@@ -1,0 +1,26 @@
+<reference anchor="I-D.flechier-sidrops-pava" target="https://datatracker.ietf.org/doc/html/draft-flechier-sidrops-pava-02">
+  <front>
+    <title>PAVA: BGP AS_PATH Validation by Querying ASes about Their Relationships</title>
+    <seriesInfo name="Internet-Draft" value="draft-flechier-sidrops-pava-02"/>
+    <author initials="M." surname="Fl&#xE9;chier" fullname="Maxence Fl&#xE9;chier">
+      <organization>Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG</organization>
+    </author>
+    <author initials="M." surname="Heusse" fullname="Martin Heusse">
+      <organization>Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG</organization>
+    </author>
+    <author initials="A." surname="Duda" fullname="Andrzej Duda">
+      <organization>Univ. Grenoble Alpes, CNRS, Grenoble INP, LIG</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines PAth VAlidation (PAVA), a scheme for validating
+   the Border Gateway Protocol (BGP) AS_PATH field based on the AS
+   relationships.  Validation involves sending queries to the ASes along
+   the path and each query specifies information about the prefix and
+   the relevant path segment.  In this draft, for the decentralized
+   distribution system that ASes on a path need for distributing the
+   information, we propose to use the Domain Name System (DNS) and
+   DNSSEC.</t>
+    </abstract>
+  </front>
+</reference>

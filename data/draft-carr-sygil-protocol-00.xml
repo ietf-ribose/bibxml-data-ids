@@ -1,0 +1,26 @@
+<reference anchor="I-D.carr-sygil-protocol" target="https://datatracker.ietf.org/doc/html/draft-carr-sygil-protocol-00">
+  <front>
+    <title>The Sygil Protocol: A Cross-Domain Personal Data Schema and Query Grammar for AI Agents</title>
+    <seriesInfo name="Internet-Draft" value="draft-carr-sygil-protocol-00"/>
+    <author initials="E." surname="Carr" fullname="Evan Carr">
+      <organization>Sygil PBC</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>This document specifies the Sygil Protocol, an open schema and query
+   grammar for cross-domain personal data designed to make user data
+   interoperable across systems, vendors, and AI agents.  The protocol
+   defines a content-addressable record envelope, a reverse-DNS
+   namespace identifier scheme, a deterministic JSON canonicalization
+   rule, an optional vocabulary of proof objects for conveying
+   provenance and other trust evidence on the wire, a minimal query
+   grammar, and three adoption tiers from envelope-shaped data through
+   queryable surfaces to vault-certified runtimes.  The protocol is
+   runtime-neutral: it specifies what travels on the wire, not how
+   implementations store, encrypt, authorize, or audit records.  This
+   separation lets independent systems produce, consume, and exchange
+   Sygil-shaped data without depending on any specific vault
+   infrastructure.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,28 @@
+<reference anchor="I-D.kinnear-dnsop-globally-relevant" target="https://datatracker.ietf.org/doc/html/draft-kinnear-dnsop-globally-relevant-00">
+  <front>
+    <title>Globally Relevant HTTPS RRs</title>
+    <seriesInfo name="Internet-Draft" value="draft-kinnear-dnsop-globally-relevant-00"/>
+    <author initials="E." surname="Kinnear" fullname="Eric Kinnear">
+      <organization>Apple Inc.</organization>
+    </author>
+    <author initials="N." surname="Jaju" fullname="Nidhi Jaju">
+      <organization>Google</organization>
+    </author>
+    <author initials="I." surname="Swett" fullname="Ian Swett">
+      <organization>Google</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>DNS answers for SVCB and HTTPS resource records are typically treated
+   as scoped to the network on which they were obtained.  This requires
+   clients to re-resolve DNS when changing network attachments, adding
+   latency to connection establishment.  This document defines a new
+   SvcParamKey, "globally-relevant", for use in SVCB and HTTPS DNS
+   resource records as defined in [RFC9460].  When present, this boolean
+   flag indicates that the service binding parameters in the record are
+   valid regardless of the client's network attachment point.  Clients
+   that observe this flag can reuse cached SVCB and HTTPS records across
+   network changes, subject to normal TTL expiry.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,28 @@
+<reference anchor="I-D.gl-lsr-metric-normalize" target="https://datatracker.ietf.org/doc/html/draft-gl-lsr-metric-normalize-01">
+  <front>
+    <title>Metric Normalize for IGP Flex-algo</title>
+    <seriesInfo name="Internet-Draft" value="draft-gl-lsr-metric-normalize-01"/>
+    <author initials="L." surname="Gong" fullname="Liyan Gong">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="C." surname="Lin" fullname="Changwang Lin">
+      <organization>New H3C Technologies</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>When multiple links in a network have the same metric, they can
+   serve as ECMP equivalent links for load balancing during forwarding.
+   However, slight fluctuations in metric values can prevent the
+   formation of ECMP equivalent links, leading to the idle state of
+   suboptimal links and thus wasting bandwidth resources.
+
+   This document proposes a metric normalization method by advertising
+   metric normalization parameters corresponding to a specific Metric-
+   Type for Flexible Algorithm. During route calculation, slight
+   fluctuations across multiple links are adjusted according to these
+   normalization parameters, making the computed metric values more
+   consistent. This approach enables the formation of ECMP equivalent
+   links and promotes load sharing in the forwarding process.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,26 @@
+<reference anchor="I-D.nandakumar-moq-tempo" target="https://datatracker.ietf.org/doc/html/draft-nandakumar-moq-tempo-00">
+  <front>
+    <title>TEMPO: Timing Extension for Media Playout Orchestration over MoQ</title>
+    <seriesInfo name="Internet-Draft" value="draft-nandakumar-moq-tempo-00"/>
+    <author initials="S." surname="Nandakumar" fullname="Suhas Nandakumar">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="C. F." surname="Jennings" fullname="Cullen Fluffy Jennings">
+      <organization>Cisco</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines TEMPO (Timing Extension for Media Playout
+   Orchestration), a synchronized playout mechanism for media tracks
+   delivered over the Media over QUIC Transport (MoQT) protocol.  The
+   Original Publisher stamps each object with when it should be played
+   out and when it was sent.  Relays replace the send-time stamp with
+   their own clock as they forward, giving each subscriber a fresh
+   timing reference from its nearest relay.  Subscribers use these
+   timestamps to decide when to render each object, and report their
+   sync state directly to a coordination server (PlaySyncServer) that
+   can tell the media publisher to adjust timing when subscribers fall
+   behind.</t>
+    </abstract>
+  </front>
+</reference>

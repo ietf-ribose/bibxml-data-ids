@@ -1,0 +1,27 @@
+<reference anchor="I-D.ietf-moq-secure-objects" target="https://datatracker.ietf.org/doc/html/draft-ietf-moq-secure-objects-01">
+  <front>
+    <title>End-to-End Secure Objects for Media over QUIC Transport</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-moq-secure-objects-01"/>
+    <author initials="C. F." surname="Jennings" fullname="Cullen Fluffy Jennings">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="S." surname="Nandakumar" fullname="Suhas Nandakumar">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="R." surname="Barnes" fullname="Richard Barnes">
+      <organization>Cisco</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>This document specifies an end-to-end authenticated encryption scheme
+   for application objects transmitted via Media over QUIC (MoQ)
+   Transport.  The scheme enables original publishers that share a
+   symmetric key with end subscribers, to ensuring that MoQ relays are
+   unable to decrypt object contents.  Additionally, subscribers can
+   verify the integrity and authenticity of received objects, confirming
+   that the content has not been modified in transit.  Additionally it
+   allows MoQ parameters to be protected so the publisher can select if
+   they are readable and/or modifiable by relays.</t>
+    </abstract>
+  </front>
+</reference>

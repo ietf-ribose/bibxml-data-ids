@@ -1,0 +1,31 @@
+<reference anchor="I-D.kompella-teas-mcte" target="https://datatracker.ietf.org/doc/html/draft-kompella-teas-mcte-00">
+  <front>
+    <title>Multicast Traffic Engineering</title>
+    <seriesInfo name="Internet-Draft" value="draft-kompella-teas-mcte-00"/>
+    <author initials="K." surname="Kompella" fullname="Kireeti Kompella">
+      <organization>HPE</organization>
+    </author>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>Traffic Engineering (TE) offers a very rich toolkit for managing
+   traffic flows and the paths they take in a network.  A TE network can
+   have link attributes such as bandwidth, colors, risk groups and
+   alternate metrics.  A TE path can use these attributes to include or
+   avoid certain links, increase path diversity, manage bandwidth
+   reservations, improve service experience, and offer protection paths.
+   These benefits apply equally to unicast and multicast traffic.
+
+   This memo proposes multicast traffic-engineering (MCTE), allowing the
+   use of TE for multicast traffic.  MCTE is an alternative proposal to
+   point-to-multipoint TE specified in [RFC4875].  The approach in
+   [RFC4875] creates a separate "sub-LSP" from the source to each leaf,
+   resulting in a considerable amount of signaling and state in the
+   network.  MCTE, on the other hand, uses the junction approach
+   proposed in MPTE [I-D.kompella-teas-mpte] to create the multicast
+   tree with less signaling and state.  [RFC4875] proposes the use of
+   RSVP-TE for signaling and an MPLS data plane for carrying traffic.
+   MCTE allows the use of several control and data planes to signal
+   tunnels and carry traffic.</t>
+    </abstract>
+  </front>
+</reference>

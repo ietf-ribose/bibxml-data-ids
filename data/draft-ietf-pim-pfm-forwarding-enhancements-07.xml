@@ -1,0 +1,32 @@
+<reference anchor="I-D.ietf-pim-pfm-forwarding-enhancements" target="https://datatracker.ietf.org/doc/html/draft-ietf-pim-pfm-forwarding-enhancements-07">
+  <front>
+    <title>PIM Flooding Mechanism and Source Discovery Enhancements</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-pim-pfm-forwarding-enhancements-07"/>
+    <author initials="A." surname="Gopal" fullname="Ananya Gopal">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author initials="S." surname="Venaas" fullname="Stig Venaas">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author initials="F." surname="Meo" fullname="Francesco Meo"/>
+    <date day="06" month="July" year="2026"/>
+    <abstract>
+      <t>The Protocol Independent Multicast (PIM) Flooding Mechanism (PFM) is
+   an experimental extension that provides a generic hop-by-hop message
+   exchange framework for distributing multicast information among PIM
+   routers.  Existing PFM procedures enable efficient source discovery
+   without reliance on Rendezvous Points, shared trees, or initial data
+   registers.
+
+   This document specifies further experimental enhancements to PFM
+   forwarding behavior to improve efficiency and scalability.  In
+   particular, it introduces mechanisms to reduce redundant message
+   transmission over multiple parallel links and extends the encoding of
+   multicast information through additional Type-Length-Value (TLV)
+   structures and sub-TLVs to convey richer flow-related data.  These
+   enhancements optimize control-plane overhead while preserving
+   interoperability with existing PFM procedures, enabling more
+   efficient dissemination of multicast state in PIM networks.</t>
+    </abstract>
+  </front>
+</reference>
