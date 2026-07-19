@@ -1,0 +1,25 @@
+<reference anchor="I-D.miller-aeo" target="https://datatracker.ietf.org/doc/html/draft-miller-aeo-00">
+  <front>
+    <title>The AEO1 Discovery Mechanism: A DNS-Anchored, Signed Pointer to Owner-Attested Fact Catalogs for AI Answer Engines</title>
+    <seriesInfo name="Internet-Draft" value="draft-miller-aeo-00"/>
+    <author initials="G." surname="Miller" fullname="Garrett Miller">
+      <organization>Meadow Mountain AI LLC</organization>
+    </author>
+    <date day="18" month="July" year="2026"/>
+    <abstract>
+      <t>This document specifies AEO1 (Answer Engine Optimization, version 1),
+   a discovery mechanism that allows a domain owner to publish a
+   verifiable, machine-readable pointer to a structured, owner-attested
+   fact catalog for that domain.  AEO1 consists of three coordinated
+   surfaces: a DNS TXT record at the "_aeo" subdomain, a JSON document
+   at the well-known URI "/.well-known/aeo.json", and an optional HTML
+   link hint.  Records may carry an Ed25519 signature issued by an
+   issuing authority, enabling consuming agents such as AI answer
+   engines to distinguish verified, current, domain-authorized data from
+   unverified crawled content.  The design follows the DNS-authenticated
+   trust-anchor pattern established by SPF, DKIM, and DMARC.  This
+   document also requests provisional registration of the "aeo.json"
+   well-known URI suffix.</t>
+    </abstract>
+  </front>
+</reference>

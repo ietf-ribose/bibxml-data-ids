@@ -1,0 +1,26 @@
+<reference anchor="I-D.gao-opsawg-flowspec-ipfix" target="https://datatracker.ietf.org/doc/html/draft-gao-opsawg-flowspec-ipfix-00">
+  <front>
+    <title>Export of BGP FlowSpec Treatment Information in IPFIX</title>
+    <seriesInfo name="Internet-Draft" value="draft-gao-opsawg-flowspec-ipfix-00"/>
+    <author initials="Y." surname="Gao" fullname="Yujia Gao">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author initials="Y." surname="Cui" fullname="Yong Cui">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date day="19" month="July" year="2026"/>
+    <abstract>
+      <t>BGP Flow Specification (FlowSpec) is commonly used to distribute
+   traffic filtering and traffic treatment rules.  Operational
+   monitoring of FlowSpec deployments may require information from
+   multiple sources, including BGP control-plane telemetry, operational
+   state, and forwarding-plane observations.
+
+   This document defines IP Flow Information Export (IPFIX) Information
+   Elements that add FlowSpec context to IPFIX Flow Records.  The
+   exported information enables a Collector to correlate exported Flow
+   Records with a FlowSpec rule in the scope of an Observation Domain
+   and to identify the treatment class reported by the Exporter.</t>
+    </abstract>
+  </front>
+</reference>

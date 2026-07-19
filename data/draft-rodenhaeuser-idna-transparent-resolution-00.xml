@@ -1,0 +1,28 @@
+<reference anchor="I-D.rodenhaeuser-idna-transparent-resolution" target="https://datatracker.ietf.org/doc/html/draft-rodenhaeuser-idna-transparent-resolution-00">
+  <front>
+    <title>Transparent Handling of Internationalized Domain Names in Name Resolution APIs</title>
+    <seriesInfo name="Internet-Draft" value="draft-rodenhaeuser-idna-transparent-resolution-00"/>
+    <author initials="L." surname="Rodenh&#xE4;user" fullname="Luca Rodenh&#xE4;user"/>
+    <date day="18" month="July" year="2026"/>
+    <abstract>
+      <t>Applications are expected to convert internationalized domain names
+   to their ASCII-Compatible Encoding (A-label) form before invoking
+   name resolution APIs.  In practice this conversion is performed
+   inconsistently: different applications follow different IDNA
+   standards, use different libraries, and ship different versions of
+   the Unicode mapping tables, so that the same input string can resolve
+   to different registrable domain names depending on which software
+   component performs the conversion.
+
+   This document specifies that name resolution services accept Unicode
+   host names by default and perform the conversion to A-labels
+   internally, exactly once, at the point where a name is handed to a
+   specific resolution protocol.  The DNS wire format is unchanged: only
+   A-labels appear in queries to the public DNS.  The conversion
+   procedure is Unicode IDNA Compatibility Processing (UTS #46),
+   nontransitional, with a mapping-table floor of Unicode 15.1.  This
+   codifies the architectural recommendation of RFC 6055 and the
+   deployed practice of several major platforms.</t>
+    </abstract>
+  </front>
+</reference>

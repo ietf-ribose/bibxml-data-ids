@@ -1,0 +1,36 @@
+<reference anchor="I-D.he-lsr-srv6-mirror-sid-igp-encoding" target="https://datatracker.ietf.org/doc/html/draft-he-lsr-srv6-mirror-sid-igp-encoding-01">
+  <front>
+    <title>IGP Encoding for SRv6 Mirror SID in Egress Protection</title>
+    <seriesInfo name="Internet-Draft" value="draft-he-lsr-srv6-mirror-sid-igp-encoding-01"/>
+    <author initials="T." surname="He" fullname="Tao He">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="R." surname="Pang" fullname="Ran Pang">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="" surname="Ying" fullname="Liu Ying">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="Z." surname="Hu" fullname="Zhibo Hu">
+      <organization>Huawei</organization>
+    </author>
+    <date day="19" month="July" year="2026"/>
+    <abstract>
+      <t>This document specifies the IGP protocol extensions required to
+   support SRv6 path egress protection using the Mirror SID (End.M)
+   mechanism.  It reuses the existing SRv6 End SID sub-TLV defined in
+   RFC 9352 (IS-IS, Section 7.2) and RFC 9513 (OSPFv3, Section 8) with
+   the End.M endpoint behavior (74) to advertise the Mirror SID and the
+   set of protected locators, and defines a new Protected Locators
+   sub-(sub-)TLV.  enabling a backup egress node (protector) to signal
+   its capability to protect a primary egress node within a single link-
+   state IGP area.
+
+   This document is a companion to
+   [I-D.ietf-rtgwg-srv6-egress-protection], which specifies the overall
+   SRv6 path egress protection mechanism and the End.M behavior.  The
+   IGP encoding defined herein provides the signaling substrate for that
+   mechanism.</t>
+    </abstract>
+  </front>
+</reference>

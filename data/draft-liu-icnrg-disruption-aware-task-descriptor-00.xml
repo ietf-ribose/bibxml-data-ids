@@ -1,0 +1,34 @@
+<reference anchor="I-D.liu-icnrg-disruption-aware-task-descriptor" target="https://datatracker.ietf.org/doc/html/draft-liu-icnrg-disruption-aware-task-descriptor-00">
+  <front>
+    <title>Requirements for Disruption-Aware Compute-Task Descriptors in Heterogeneous Space-Terrestrial-Maritime Edge Networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-liu-icnrg-disruption-aware-task-descriptor-00"/>
+    <author initials="S." surname="Liu" fullname="Shuai Liu">
+      <organization>Nanjing University</organization>
+    </author>
+    <author initials="W." surname="Liu" fullname="Wenjun Liu">
+      <organization>Nanjing University</organization>
+    </author>
+    <date day="18" month="July" year="2026"/>
+    <abstract>
+      <t>Compute tasks in heterogeneous edge environments may traverse
+   terrestrial, maritime, airborne, and non-terrestrial domains before
+   an eligible execution site becomes reachable.  Conventional request
+   formats often assume an immediately selected endpoint and a
+   continuously available request-response path.  Those assumptions are
+   fragile when connectivity is intermittent, service instances move,
+   inputs are named and distributed, and duplicate delivery can occur.
+
+   This document describes a problem statement, a conceptual compute-
+   task descriptor, and requirements for carrying a portable task
+   description across disruption-prone edge networks.  The descriptor
+   separates the identity and semantics of a task from a particular
+   execution location.  It binds the requested service, named inputs,
+   relevant parameters, timing constraints, authorization policy, and
+   expected result properties while supporting store-carry-forward
+   operation, duplicate suppression, verifiable execution receipts, and
+   result provenance.  This document does not define a wire encoding,
+   task-placement algorithm, traffic-steering protocol, or execution
+   runtime.</t>
+    </abstract>
+  </front>
+</reference>

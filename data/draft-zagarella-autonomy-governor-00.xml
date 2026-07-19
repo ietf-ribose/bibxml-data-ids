@@ -1,0 +1,30 @@
+<reference anchor="I-D.zagarella-autonomy-governor" target="https://datatracker.ietf.org/doc/html/draft-zagarella-autonomy-governor-00">
+  <front>
+    <title>Pre-Action Risk-Graded Assurance for Agent Interactions</title>
+    <seriesInfo name="Internet-Draft" value="draft-zagarella-autonomy-governor-00"/>
+    <author initials="R. A." surname="Zagarella" fullname="Roberto Antonio Zagarella">
+      <organization>Violet Shores Pty Ltd</organization>
+    </author>
+    <date day="19" month="July" year="2026"/>
+    <abstract>
+      <t>Governance of autonomous agents today is largely expressed as
+   boundary enforcement: an action is permitted or blocked at the point
+   it is attempted, per a policy evaluated at that boundary.  As agents
+   span heterogeneous action types — authenticating a human, executing a
+   delegated task, selecting a computational resource — a single,
+   uniform way to express "how much assurance this action requires,
+   before it proceeds" is missing.
+
+   This document describes an interface for pre-action, risk-graded
+   assurance: a policy stage that, before an agent action proceeds,
+   derives an assurance requirement from a risk signal and expresses
+   that requirement in a domain-appropriate form, recording the decision
+   in an audit record and optionally binding it to a verified human
+   root.  It defines the interface and the audit-record fields, not any
+   particular risk-scoring method or control law.
+
+   This document is offered as input to the proposed AUDIT working
+   group's work on authorization state over time and action provenance.</t>
+    </abstract>
+  </front>
+</reference>

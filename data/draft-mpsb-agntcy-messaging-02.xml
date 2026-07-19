@@ -1,0 +1,45 @@
+<reference anchor="I-D.mpsb-agntcy-messaging" target="https://datatracker.ietf.org/doc/html/draft-mpsb-agntcy-messaging-02">
+  <front>
+    <title>An Overview of Messaging Systems and Their Applicability to Agentic AI</title>
+    <seriesInfo name="Internet-Draft" value="draft-mpsb-agntcy-messaging-02"/>
+    <author initials="L." surname="Muscariello" fullname="Luca Muscariello">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="M." surname="Papalini" fullname="Michele Papalini">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="M." surname="Sardara" fullname="Mauro Sardara">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="S." surname="Betts" fullname="Sam Betts">
+      <organization>Cisco</organization>
+    </author>
+    <date day="18" month="July" year="2026"/>
+    <abstract>
+      <t>Agentic AI systems require messaging infrastructure that supports
+   real-time collaboration, high-volume streaming, and dynamic group
+   coordination across distributed networks.  Traditional protocols like
+   AMQP [AMQP], MQTT [MQTT], and NATS [NATS] address some requirements
+   but fall short on security, particularly regarding post-compromise
+   protection and forward secrecy essential for autonomous agents
+   handling sensitive data.
+
+   This document analyzes six messaging protocols—AMQP, MQTT, NATS, AMQP
+   over WebSockets, Kafka, and AGNTCY SLIM—across dimensions critical
+   for GenAI agent systems: streaming performance, delivery guarantees,
+   security models, and operational complexity.  We examine how each
+   protocol's design decisions impact agentic AI deployments, from
+   lightweight edge computing scenarios to large-scale multi-
+   organizational collaborations.
+
+   AGNTCY SLIM emerges as a purpose-built solution, integrating Message
+   Layer Security (MLS) [RFC9420] with gRPC [gRPC] over HTTP/2 [RFC9113]
+   to provide end-to-end encryption with forward secrecy, efficient
+   streaming, and OAuth-based authentication [RFC6749].  Unlike
+   transport-layer security approaches, SLIM's MLS implementation
+   ensures secure communication even through untrusted intermediaries
+   while supporting dynamic group membership changes essential for
+   collaborative AI agents.</t>
+    </abstract>
+  </front>
+</reference>

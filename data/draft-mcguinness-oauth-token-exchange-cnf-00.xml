@@ -1,0 +1,20 @@
+<reference anchor="I-D.mcguinness-oauth-token-exchange-cnf" target="https://datatracker.ietf.org/doc/html/draft-mcguinness-oauth-token-exchange-cnf-00">
+  <front>
+    <title>Confirmation Response Parameter for OAuth 2.0 Token Exchange</title>
+    <seriesInfo name="Internet-Draft" value="draft-mcguinness-oauth-token-exchange-cnf-00"/>
+    <author initials="K." surname="McGuinness" fullname="Karl McGuinness">
+      <organization>Independent</organization>
+    </author>
+    <date day="18" month="July" year="2026"/>
+    <abstract>
+      <t>This specification defines a cnf response parameter for the OAuth 2.0
+   Token Exchange (RFC 8693) response.  The parameter carries the
+   confirmation method that the authorization server applied to the
+   issued token, enabling clients to verify that sender-constraint
+   binding (for example a DPoP key or mutual-TLS client certificate) was
+   performed without inspecting the issued token.  This is useful for
+   opaque tokens, encrypted tokens, or any other case where the client
+   cannot read the issued token's cnf claim directly.</t>
+    </abstract>
+  </front>
+</reference>

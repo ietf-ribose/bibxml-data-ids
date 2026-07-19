@@ -1,0 +1,36 @@
+<reference anchor="I-D.skyfire-oauth-using-kyapay-tokens" target="https://datatracker.ietf.org/doc/html/draft-skyfire-oauth-using-kyapay-tokens-00">
+  <front>
+    <title>Using KYAPay Tokens</title>
+    <seriesInfo name="Internet-Draft" value="draft-skyfire-oauth-using-kyapay-tokens-00"/>
+    <author initials="A." surname="Agarwal" fullname="Ankit Agarwal">
+      <organization>Skyfire Systems Inc.</organization>
+    </author>
+    <author initials="M. B." surname="Jones" fullname="Michael B. Jones">
+      <organization>Self-Issued Consulting</organization>
+    </author>
+    <author initials="" surname="Srinivasa" fullname="Srinivasa">
+      <organization>Akamai</organization>
+    </author>
+    <date day="19" month="July" year="2026"/>
+    <abstract>
+      <t>The KYAPay Token is a JSON Web Token (JWT) that carries verified
+   identity ("Know Your Agent", KYA) and payment (PAY) information for
+   requests made by software agents on behalf of human principals.  This
+   document describes how security intermediaries -- bot managers, fraud
+   managers, account-takeover (ATO) protection systems, and customer
+   identity and access management (CIAM) systems -- consume KYAPay
+   tokens to answer a question that traditional bot detection cannot:
+   "did a verified human authorize this agent?", rather than "is this a
+   human?".  It specifies how KYAPay tokens are carried in HTTP
+   requests, how they are validated (including in combination with
+   request-signing layers such as HTTP Message Signatures), and how the
+   verified, layered identity in a token is used to make access,
+   routing, fraud detection, account-lifecycle, and step-up decisions.
+   It defines the token-consuming "verifier" role that the KYAPay Token
+   leaves unspecified.  It is intentionally non-prescriptive about how
+   tokens are created, because agent architectures, agent-identity
+   technologies, and agent-communication protocols are diverse and still
+   emerging; the token itself is the interoperability contract.</t>
+    </abstract>
+  </front>
+</reference>

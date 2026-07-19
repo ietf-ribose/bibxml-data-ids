@@ -1,0 +1,34 @@
+<reference anchor="I-D.elkhatabi-verifiable-telemetry-ledgers" target="https://datatracker.ietf.org/doc/html/draft-elkhatabi-verifiable-telemetry-ledgers-08">
+  <front>
+    <title>Verifiable Telemetry Ledgers for Resource-Constrained Environments</title>
+    <seriesInfo name="Internet-Draft" value="draft-elkhatabi-verifiable-telemetry-ledgers-08"/>
+    <author initials="B." surname="El Khatabi" fullname="Bilal El Khatabi">
+      <organization>Independent</organization>
+    </author>
+    <date day="18" month="July" year="2026"/>
+    <abstract>
+      <t>This document profiles a verifiable-telemetry ledger for resource-
+   constrained deployments.  Its interoperability boundary begins with
+   exact canonical-record byte strings that an upstream system has
+   already produced.  The profile fixes admission and assignment of
+   those byte strings to serial-numbered segments, deterministic
+   commitment-tree calculation, a Concise Binary Object Representation
+   (CBOR) segment artifact, a verification manifest, three disclosure
+   classes, and binding of the segment-artifact digest to external
+   timestamp channels.  Transport framing, decryption, anti-replay
+   processing, payload interpretation, and source-telemetry-to-record
+   mapping are outside this profile.  Segment closure uses a deployment-
+   configured elapsed-time interval and does not depend on source or
+   gateway calendar dates.  RFC 3161 timestamp responses are the
+   mandatory-to-implement interoperable timestamp channel.
+   OpenTimestamps (OTS) and peer signatures are optional parallel
+   channels.
+
+   The profile enables independent recomputation and audit of disclosed
+   evidence from the admitted canonical-record bytes onward.  It does
+   not verify how source telemetry was authenticated, interpreted, or
+   mapped to those bytes, and it does not cover device onboarding, end-
+   to-end security of sensor values, or safety decisions.</t>
+    </abstract>
+  </front>
+</reference>

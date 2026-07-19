@@ -1,0 +1,36 @@
+<reference anchor="I-D.ietf-oauth-identity-chaining" target="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-identity-chaining-17">
+  <front>
+    <title>OAuth Identity and Authorization Chaining Across Domains</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-oauth-identity-chaining-17"/>
+    <author initials="A." surname="Schwenkschuster" fullname="Arndt Schwenkschuster">
+      <organization>Defakto Security</organization>
+    </author>
+    <author initials="P." surname="Kasselman" fullname="Pieter Kasselman">
+      <organization>Defakto Security</organization>
+    </author>
+    <author initials="K." surname="Burgin" fullname="Kelley Burgin">
+      <organization>MITRE</organization>
+    </author>
+    <author initials="M. J." surname="Jenkins" fullname="Michael J. Jenkins">
+      <organization>NSA-CCSS</organization>
+    </author>
+    <author initials="B." surname="Campbell" fullname="Brian Campbell">
+      <organization>Ping Identity</organization>
+    </author>
+    <author initials="A." surname="Parecki" fullname="Aaron Parecki">
+      <organization>Okta</organization>
+    </author>
+    <date day="19" month="July" year="2026"/>
+    <abstract>
+      <t>This specification describes a mechanism for preserving identity and
+   authorization information across trust domains that use the OAuth 2.0
+   Framework.  A JSON Web Token (JWT) authorization grant, obtained
+   through an intra-domain OAuth 2.0 Token Exchange, facilitates the
+   cross-domain acquisition of an access token.  The relevant identity
+   and authorization information is chained throughout the flow by being
+   conveyed in the respective artifacts exchanged at each step of the
+   process.  Chaining across multiple domains is achieved by using the
+   same protocol every time a trust domain boundary is crossed.</t>
+    </abstract>
+  </front>
+</reference>
