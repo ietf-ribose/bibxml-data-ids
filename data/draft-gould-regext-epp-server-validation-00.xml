@@ -1,0 +1,27 @@
+<reference anchor="I-D.gould-regext-epp-server-validation" target="https://datatracker.ietf.org/doc/html/draft-gould-regext-epp-server-validation-00">
+  <front>
+    <title>Server Validation Extension for the Extensible Provisioning Protocol (EPP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-gould-regext-epp-server-validation-00"/>
+    <author initials="J." surname="Gould" fullname="James Gould">
+      <organization>VeriSign, Inc.</organization>
+    </author>
+    <author initials="S." surname="Gould" fullname="Sandra Gould">
+      <organization>VeriSign, Inc.</organization>
+    </author>
+    <author initials="T." surname="Sutan-Tanon" fullname="Tanya Sutan-Tanon">
+      <organization>VeriSign, Inc.</organization>
+    </author>
+    <date day="19" month="July" year="2026"/>
+    <abstract>
+      <t>This document describes an Extensible Provisioning Protocol (EPP)
+   extension for providing the status of server validations.  Server
+   validations can be done for an extensible set of types, with examples
+   including validating the DNS resolution with the type "dns" and
+   validating the DNSSEC with the type "dnssec".  The validations can be
+   performed synchronously that will include the extension in the
+   response or asynchronously that will include the validation in a poll
+   message.  If validations are performed on a schedule, a change in the
+   status of a typed-validation will be included in a poll message.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,23 @@
+<reference anchor="I-D.kazuho-ptth-ptth" target="https://datatracker.ietf.org/doc/html/draft-kazuho-ptth-ptth-01">
+  <front>
+    <title>Protocol for Transposed Transactions over HTTP</title>
+    <seriesInfo name="Internet-Draft" value="draft-kazuho-ptth-ptth-01"/>
+    <author initials="K." surname="Oku" fullname="Kazuho Oku">
+      <organization>Fastly</organization>
+    </author>
+    <author initials="Y." surname="Rosomakho" fullname="Yaroslav Rosomakho">
+      <organization>Zscaler</organization>
+    </author>
+    <date day="20" month="July" year="2026"/>
+    <abstract>
+      <t>This document specifies the Protocol for Transposed Transactions over
+   HTTP (PTTH), an HTTP extension that allows a backend server to
+   establish an HTTP connection to a reverse proxy and transpose the
+   flow of HTTP requests.  The reverse proxy then sends requests to the
+   backend server over the resulting transposed channel.  This extension
+   lets backend servers behind restrictive firewalls accept HTTP traffic
+   through reverse proxies without changing firewall settings and with
+   minimal overhead.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,47 @@
+<reference anchor="I-D.raskar-agentic-web-federated-resolution" target="https://datatracker.ietf.org/doc/html/draft-raskar-agentic-web-federated-resolution-00">
+  <front>
+    <title>Federated Resolution for AI Agent Discovery Using AI Catalog and NandaIndex</title>
+    <seriesInfo name="Internet-Draft" value="draft-raskar-agentic-web-federated-resolution-00"/>
+    <author initials="R." surname="Raskar" fullname="Ramesh Raskar">
+      <organization>MIT</organization>
+    </author>
+    <author initials="S." surname="Sharaf" fullname="Samuel Sharaf">
+      <organization>ProjectNanda</organization>
+    </author>
+    <author initials="P." surname="Chari" fullname="Pradyumna Chari">
+      <organization>MIT</organization>
+    </author>
+    <date day="19" month="July" year="2026"/>
+    <abstract>
+      <t>Autonomous and semi-autonomous AI agents are published through
+   multiple discovery mechanisms, including AI Catalog, DNS-based
+   discovery, enterprise gateways, Agentic Resource Discovery (ARD)
+   services, platform registries, A2A Agent Cards, MCP server
+   descriptors, telecom directories, sovereign registries, and
+   vertical-specific systems. This diversity is useful, but it creates
+   discovery islands when a requester knows an identity but does not
+   know which discovery mechanism is authoritative for that identity.
+
+
+   This document defines a Federated Resolution Architecture that
+   separates identity resolution from capability discovery. Resolution
+   maps a stable subject identity to one or more discovery entry points.
+   Discovery then retrieves resources through the selected mechanism.
+   The architecture uses a conforming AI Catalog document as the
+   response envelope and defines an agent-resolution-target JSON object
+   for typed pointers to catalogs, DNS-AID organization indexes, ARD
+   services, gateways, registries, hosted descriptors, and other
+   resolution services.
+
+
+   NandaIndex is described as a federated implementation of this
+   architecture: a global switchboard of lightweight, authority-bound
+   pointers. Direct enterprise discovery remains direct when an
+   authoritative endpoint is already known. NandaIndex is used when the
+   discovery mechanism is unknown, when multiple mechanisms coexist, or
+   when small businesses, individuals, and emerging directories require
+   a stable identity-to-discovery mapping without operating a unified
+   enterprise stack.</t>
+    </abstract>
+  </front>
+</reference>

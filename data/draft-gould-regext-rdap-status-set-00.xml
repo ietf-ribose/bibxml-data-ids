@@ -1,0 +1,30 @@
+<reference anchor="I-D.gould-regext-rdap-status-set" target="https://datatracker.ietf.org/doc/html/draft-gould-regext-rdap-status-set-00">
+  <front>
+    <title>Registration Data Access Protocol (RDAP) Extension for Status Set</title>
+    <seriesInfo name="Internet-Draft" value="draft-gould-regext-rdap-status-set-00"/>
+    <author initials="J." surname="Gould" fullname="James Gould">
+      <organization>VeriSign, Inc.</organization>
+    </author>
+    <author initials="8. 7. 7. 7. 6. 7. 3. 7. 6. 8." surname="Garg" fullname="Poonam Garg">
+      <organization>VeriSign, Inc.</organization>
+    </author>
+    <author initials="M. S. M." surname="Khader" fullname="Mohammad Suhale Malang Khader">
+      <organization>VeriSign, Inc.</organization>
+    </author>
+    <date day="20" month="July" year="2026"/>
+    <abstract>
+      <t>This document describes an Registration Data Access Protocol (RDAP)
+   extension for including status sets assigned to RDAP object classes,
+   such as the Domain Object Class and the Nameserver Object Class in
+   [RFC9083].  There can be many overlapping reasons for each of the
+   "status" member values, such as implementing a lock service,
+   complying with a court order, or addressing domain abuse.  A status
+   set defines an object representing the reason for setting a "status"
+   value, so clients and servers can effectively manage the overlapping
+   reasons of individual "status" values using the status sets.  This
+   RDAP extension supports returning the assigned client and server
+   status sets with additional data members, such as the mapped "status"
+   values and when the status set was assigned.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,21 @@
+<reference anchor="I-D.aravind-oauth-decision-subject" target="https://datatracker.ietf.org/doc/html/draft-aravind-oauth-decision-subject-00">
+  <front>
+    <title>Decision-Subject Representation for Agent Authorization</title>
+    <seriesInfo name="Internet-Draft" value="draft-aravind-oauth-decision-subject-00"/>
+    <author initials="A. A." surname="Aravind" fullname="Anivar A Aravind">
+      <organization>Independent Researcher</organization>
+    </author>
+    <date day="19" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines dsub, an OPTIONAL, descriptive claim naming the
+   *decision subject*, the party an automated agent's action is taken
+   _upon_, as distinct from the acting agent (act) and the delegating
+   principal (sub).  Its purpose is *audit legibility*: letting a record
+   name the party a decision concerns, which is the precondition for
+   that record ever being made legible to them.  The claim is privacy-
+   minimizing by construction and is NOT an input to the authorization
+   decision; a Policy Decision Point MUST ignore it.  This document
+   defines representation only.</t>
+    </abstract>
+  </front>
+</reference>
