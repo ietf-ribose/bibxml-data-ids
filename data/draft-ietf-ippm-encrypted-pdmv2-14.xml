@@ -1,0 +1,44 @@
+<reference anchor="I-D.ietf-ippm-encrypted-pdmv2" target="https://datatracker.ietf.org/doc/html/draft-ietf-ippm-encrypted-pdmv2-14">
+  <front>
+    <title>IPv6 Performance and Diagnostic Metrics Version 2 (PDMv2) Destination Option</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ippm-encrypted-pdmv2-14"/>
+    <author initials="N." surname="Elkins" fullname="Nalini Elkins">
+      <organization>Inside Products, Inc.</organization>
+    </author>
+    <author initials="M." surname="ackermann" fullname="michael ackermann">
+      <organization>BCBS Michigan</organization>
+    </author>
+    <author initials="A." surname="Deshpande" fullname="Ameya Deshpande">
+      <organization>NITK Surathkal/Google</organization>
+    </author>
+    <author initials="T." surname="Pecorella" fullname="Tommaso Pecorella">
+      <organization>University of Florence</organization>
+    </author>
+    <author initials="A." surname="Rashid" fullname="Adnan Rashid">
+      <organization>Politecnico di Bari</organization>
+    </author>
+    <author initials="L." surname="Fedi" fullname="Lorenzo Fedi">
+      <organization>University of Florence</organization>
+    </author>
+    <date day="20" month="July" year="2026"/>
+    <abstract>
+      <t>RFC 8250 defines an IPv6 Destination Option that carries Performance
+   and Diagnostic Metrics (PDM) such as sequence numbers and timing
+   information.  While useful for measurement and troubleshooting,
+   clear-text PDM data may expose operational characteristics of
+   endpoints and networks.
+
+   This document defines PDMv2, a revised version of PDM that introduces
+   a registration-based security model.  Instead of specifying
+   cryptographic algorithms or inline key negotiation, PDMv2 relies on a
+   prior registration process to authenticate entities, authorize
+   participation, and establish shared secrets.  These secrets are then
+   used by endpoints and authorized analyzers to protect and interpret
+   PDMv2 data according to local policy.
+
+   This document specifies the PDMv2 semantics, header structure, and
+   operational model.  Cryptographic algorithms, key derivation
+   functions, and cipher negotiation are explicitly out of scope.</t>
+    </abstract>
+  </front>
+</reference>

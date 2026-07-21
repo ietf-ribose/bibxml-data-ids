@@ -1,0 +1,29 @@
+<reference anchor="I-D.praveen-fann-lq-telemetry-udp" target="https://datatracker.ietf.org/doc/html/draft-praveen-fann-lq-telemetry-udp-00">
+  <front>
+    <title>A UDP Transport Binding for Link Quality Telemetry in CLOS Data Center Fabrics</title>
+    <seriesInfo name="Internet-Draft" value="draft-praveen-fann-lq-telemetry-udp-00"/>
+    <author initials="S. P. K." surname="Pasalapudi" fullname="S. Praveen K. Pasalapudi">
+      <organization>Hewlett Packard Enterprise</organization>
+    </author>
+    <author initials="V. P." surname="Beeram" fullname="Vishnu Pavan Beeram">
+      <organization>Hewlett Packard Enterprise</organization>
+    </author>
+    <date day="21" month="July" year="2026"/>
+    <abstract>
+      <t>This document specifies a UDP transport binding for the Link Quality
+   Telemetry data model.  The binding disseminates YANG-modeled link
+   quality data between directly connected switches in multi-stage CLOS
+   (leaf-spine) data center fabrics using a compact, fixed-offset binary
+   encoding designed for forwarding-plane (ASIC) generation and
+   consumption, achieving sub-100 microsecond notification latency on
+   forwarding engines capable of data-plane UDP processing.  The encoded
+   payload can be carried natively on a dedicated UDP port or as a TLV
+   within the Router-Info advertisement mechanism; both carriages share
+   a byte-identical payload.
+
+   The data model, receiver processing rules, and requirements
+   applicable to all transport bindings are defined in a companion
+   document.</t>
+    </abstract>
+  </front>
+</reference>

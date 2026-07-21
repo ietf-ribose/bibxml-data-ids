@@ -1,0 +1,32 @@
+<reference anchor="I-D.ietf-roll-enrollment-priority" target="https://datatracker.ietf.org/doc/html/draft-ietf-roll-enrollment-priority-18">
+  <front>
+    <title>Controlling Network Enrollment in RPL networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-roll-enrollment-priority-18"/>
+    <author initials="M." surname="Richardson" fullname="Michael Richardson">
+      <organization>Sandelman Software Works</organization>
+    </author>
+    <author initials="R." surname="Jadhav" fullname="Rahul Jadhav">
+      <organization>Huawei Tech</organization>
+    </author>
+    <author initials="P." surname="Thubert" fullname="Pascal Thubert">
+      <organization>Independent</organization>
+    </author>
+    <author initials="K." surname="Iwanicki" fullname="Konrad Iwanicki">
+      <organization>University of Warsaw</organization>
+    </author>
+    <date day="21" month="July" year="2026"/>
+    <abstract>
+      <t>The Routing Protocol for Low-Power and Lossy Networks (RPL) manages
+   the routing topology but lacks a mechanism to globally regulate how
+   many new nodes, known as Pledges, can join a node in a 6TiSCH network
+   at any given time.  Currently, Join Proxies (6LowPAN Routers) make
+   local decisions about whether to facilitate a Pledge's enrollment
+   based only on their immediate resources.
+
+   This document introduces RPL extensions to ensure that enrollment
+   remains orderly, prevents localized congestion at specific Join
+   Proxies, and allows the network to stay within its operational
+   capacity limits.</t>
+    </abstract>
+  </front>
+</reference>

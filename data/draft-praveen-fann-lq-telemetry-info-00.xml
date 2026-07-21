@@ -1,0 +1,27 @@
+<reference anchor="I-D.praveen-fann-lq-telemetry-info" target="https://datatracker.ietf.org/doc/html/draft-praveen-fann-lq-telemetry-info-00">
+  <front>
+    <title>A YANG Data Model for Link Quality Telemetry in CLOS Data Center Fabrics</title>
+    <seriesInfo name="Internet-Draft" value="draft-praveen-fann-lq-telemetry-info-00"/>
+    <author initials="S. P. K." surname="Pasalapudi" fullname="S. Praveen K. Pasalapudi">
+      <organization>Hewlett Packard Enterprise</organization>
+    </author>
+    <author initials="V. P." surname="Beeram" fullname="Vishnu Pavan Beeram">
+      <organization>Hewlett Packard Enterprise</organization>
+    </author>
+    <date day="21" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines a YANG data model for real-time link quality
+   telemetry in multi-stage CLOS (leaf-spine) data center fabrics.  The
+   data model provides a vendor-agnostic representation of link
+   congestion state, enabling next-next-hop (NNH) path quality
+   visibility required for adaptive routing in AI/ML training networks.
+   The link quality advertisement is modeled as a YANG data structure,
+   making the model directly usable with any transport.
+
+   The data model is deliberately decoupled from any transport.  A
+   lightweight UDP transport binding for disseminating the modeled data
+   is specified in a companion document; additional transport bindings
+   may be specified in future documents.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,44 @@
+<reference anchor="I-D.zedongjia-v6ops-ipv6eh-measurement" target="https://datatracker.ietf.org/doc/html/draft-zedongjia-v6ops-ipv6eh-measurement-01">
+  <front>
+    <title>Observations on the Reachability and Evasion of Packets with IPv6 Extension Headers on the Internet</title>
+    <seriesInfo name="Internet-Draft" value="draft-zedongjia-v6ops-ipv6eh-measurement-01"/>
+    <author initials="L." surname="He" fullname="Lin He">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="Z." surname="Jia" fullname="Zedong Jia">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="L." surname="&#x76D6;&#x4E50;" fullname="&#x76D6;&#x4E50;">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="S." surname="Zhang" fullname="Shenglin Zhang">
+      <organization>Nankai University</organization>
+    </author>
+    <author initials="Y." surname="Liu" fullname="Ying Liu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date day="21" month="July" year="2026"/>
+    <abstract>
+      <t>IPv6 Extension Headers (EHs) are designed to provide protocol
+   flexibility and support for emerging features, while maintaining a
+   concise base header and efficient processing.  In practice, their
+   reachability is affected by middlebox handling along the path, and
+   their flexibility also introduces security considerations.
+
+   This document presents observations from a comprehensive, large-scale
+   measurement study of IPv6 Extension Header path traversal across more
+   than 23,000 autonomous systems.  Using a feedback-driven measurement
+   framework called 6Travel, the reachability of 11 common IPv6
+   Extension Headers is measured over ICMPv6, TCP, and UDP.  The
+   measurements indicate a change relative to earlier work: contrary to
+   past observations of heavy filtering, specific Extension Headers now
+   achieve reachability comparable to plain traffic.  Two distinct forms
+   of policy ossification are observed across industry categories,
+   together with widespread potential Extension-Header-based firewall
+   evasion signatures in nearly 5,000 autonomous systems, particularly
+   under TCP and UDP.  These signatures appear consistent with a
+   combination of implementation flaws and security misconfigurations,
+   spanning both on-path and host-side firewalls.</t>
+    </abstract>
+  </front>
+</reference>

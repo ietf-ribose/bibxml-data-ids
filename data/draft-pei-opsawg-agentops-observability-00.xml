@@ -1,0 +1,32 @@
+<reference anchor="I-D.pei-opsawg-agentops-observability" target="https://datatracker.ietf.org/doc/html/draft-pei-opsawg-agentops-observability-00">
+  <front>
+    <title>AgentOps Observability for Failure Detection and Attribution</title>
+    <seriesInfo name="Internet-Draft" value="draft-pei-opsawg-agentops-observability-00"/>
+    <author initials="C." surname="Pei" fullname="Changhua Pei">
+      <organization>CNIC, Chinese Academy of Sciences</organization>
+    </author>
+    <author initials="Z." surname="Wang" fullname="Zexin Wang">
+      <organization>CNIC, Chinese Academy of Sciences</organization>
+    </author>
+    <author initials="J." surname="Li" fullname="Jingjing Li">
+      <organization>CNIC,  Chinese Academy of Sciences</organization>
+    </author>
+    <date day="21" month="July" year="2026"/>
+    <abstract>
+      <t>Agentic systems execute tasks through long-running sequences of model
+   inference, planning, delegation, tool use, state updates,
+   verification, and recovery.  Conventional metrics, logs, and traces
+   can identify a failed request but often cannot determine whether a
+   failure is emerging, which actor introduced it, or which earlier
+   event was its root cause.  This document specifies an AgentOps
+   observability event model and processing requirements for
+   interoperable early failure detection and post-failure root-cause
+   attribution.  It defines common event, anomaly, assertion, and
+   diagnosis records; distinguishes causal origins from propagated
+   symptoms; and provides the evidence model required by separate
+   benchmarks of detection lead time, responsible-actor attribution, and
+   root-cause localization.  The model is transport-neutral and can be
+   carried by existing telemetry systems.</t>
+    </abstract>
+  </front>
+</reference>
