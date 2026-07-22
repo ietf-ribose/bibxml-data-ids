@@ -1,0 +1,30 @@
+<reference anchor="I-D.caini-dtn-quiccl" target="https://datatracker.ietf.org/doc/html/draft-caini-dtn-quiccl-01">
+  <front>
+    <title>Delay-Tolerant Networking QUIC Convergence Layer Protocol Version 1</title>
+    <seriesInfo name="Internet-Draft" value="draft-caini-dtn-quiccl-01"/>
+    <author initials="C." surname="Caini" fullname="Carlo Caini">
+      <organization>ARCES, University of Bologna</organization>
+    </author>
+    <author initials="T." surname="de Cola" fullname="Tomaso de Cola">
+      <organization>German Aerospace Center, DLR</organization>
+    </author>
+    <author initials="M." surname="Moffa" fullname="Mattia Moffa">
+      <organization>ARCES, University of Bologna</organization>
+    </author>
+    <date day="22" month="July" year="2026"/>
+    <abstract>
+      <t>This document describes a QUIC convergence layer (QUICCL) for Delay-
+   Tolerant Networking (DTN).  QUICCL uses BPv7 bundles encoded by the
+   Concise Binary Object Representation (CBOR) as its service data unit
+   being transported and makes use of either QUIC streams (RFC 9001) or
+   QUIC datagrams (RFC 9221) to transport such bundles.  QUICCL design
+   is largely based on TCPCLv4 specification (RFC9174), with three
+   significant differences.  First, as QUIC incorporates TLS security,
+   all security related parts of TCPCLv4 were dropped.  Second, QUICCL
+   provides two new transport services, notified and unreliable, in
+   addition to the reliable service; Third, in the reliable service, by
+   taking advantage of QUIC streams, four levels of priority are
+   offered.</t>
+    </abstract>
+  </front>
+</reference>

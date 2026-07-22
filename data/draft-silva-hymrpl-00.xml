@@ -1,0 +1,30 @@
+<reference anchor="I-D.silva-hymrpl" target="https://datatracker.ietf.org/doc/html/draft-silva-hymrpl-00">
+  <front>
+    <title>HyMRPL: Per-Node Hybrid Mode of Operation and Inter-DODAG Bridge Mechanism for RPL</title>
+    <seriesInfo name="Internet-Draft" value="draft-silva-hymrpl-00"/>
+    <author initials="C. C. B. D. S." surname="Filho" fullname="Cassius Clay Batista da Silva Filho">
+      <organization>Instituto Metropole Digital (IMD) - UFRN</organization>
+    </author>
+    <date day="21" month="July" year="2026"/>
+    <abstract>
+      <t>The Routing Protocol for Low-Power and Lossy Networks (RPL), defined
+   in RFC 6550, enforces a single Mode of Operation (MOP) across all
+   nodes within a DODAG.  This rigidity prevents heterogeneous devices
+   from independently selecting their forwarding behavior and creates
+   permanent isolation between DODAGs operating with different MOPs.
+
+   This document defines HyMRPL, a Hybrid Mode of Operation (MOP=6) that
+   enables per-node functional profiles within a single DODAG.  Nodes
+   independently adopt Class-S (storing-like) or Class-N (non-storing-
+   like) behavior without modifying RPL control message formats.
+   Additionally, this document specifies an Inter-DODAG Bridge mechanism
+   that uses MOP Extension (MOPex) signaling to interconnect DODAGs with
+   different MOPs through cross-DODAG route injection.
+
+   The mechanisms introduce zero additional control messages, maintain
+   full backward compatibility via the J-flag in extended options, and
+   have been validated with a functional implementation demonstrating
+   100% packet delivery ratio across MOP boundaries.</t>
+    </abstract>
+  </front>
+</reference>

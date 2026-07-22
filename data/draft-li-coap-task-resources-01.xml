@@ -1,0 +1,27 @@
+<reference anchor="I-D.li-coap-task-resources" target="https://datatracker.ietf.org/doc/html/draft-li-coap-task-resources-01">
+  <front>
+    <title>CoAP Extensions for Asynchronous Task Resources</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-coap-task-resources-01"/>
+    <author initials="L." surname="Li" fullname="Linzhe Li">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author initials="Y." surname="Cui" fullname="Yong Cui">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date day="21" month="July" year="2026"/>
+    <abstract>
+      <t>Many operations on constrained devices cannot complete within a
+   single CoAP request and response exchange.  Examples include firmware
+   installation, diagnostic procedures, commissioning, calibration, and
+   physical actuation.
+
+   This document defines a common lifecycle model for representing such
+   operations as addressable CoAP Task Resources.  It specifies task
+   creation, state monitoring, discovery, cancellation, terminal-state
+   retention, and eventual removal.  It also defines a four-part request
+   payload model, identified by the existing CoAP Content-Format Option,
+   for carrying resource operations together with task execution
+   controls.  No new CoAP Option is defined.</t>
+    </abstract>
+  </front>
+</reference>

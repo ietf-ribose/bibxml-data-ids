@@ -1,0 +1,34 @@
+<reference anchor="I-D.zhu-oauth-async-delegation" target="https://datatracker.ietf.org/doc/html/draft-zhu-oauth-async-delegation-02">
+  <front>
+    <title>Delegation Handle for Asynchronous OAuth 2.0 Token Exchange</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhu-oauth-async-delegation-02"/>
+    <author initials="L." surname="Zhu" fullname="Larry Zhu">
+      <organization>Atlassian</organization>
+    </author>
+    <author initials="Z." surname="Berg" fullname="Zate Berg">
+      <organization>Atlassian</organization>
+    </author>
+    <date day="21" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines a standardized continuation mechanism for
+   delegated OAuth 2.0 Token Exchange.  RFC 8693 permits an
+   authorization server to include an optional "refresh_token" in a
+   successful Token Exchange response, but does not specify issuance
+   policy, delegated authorization semantics, lifecycle, or security
+   properties for continuation credentials.  This specification fills
+   that gap for asynchronous and long-running delegated service
+   workflows by defining the Delegation Handle.
+
+   The Delegation Handle is a delegation-bound continuation credential
+   with a new token type identifier usable as the RFC 8693
+   "subject_token_type".  An acting service presents the handle as the
+   "subject_token" in a subsequent RFC 8693 Token Exchange request after
+   the original subject token is no longer available.  This
+   specification standardizes delegated continuation semantics,
+   preservation of subject and actor relationships, audience
+   confinement, scope monotonicity, actor binding, authorization re-
+   evaluation during continuation, token rotation, revocation, bounded
+   delegation lifetime, and interoperability between implementations.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,21 @@
+<reference anchor="I-D.linkova-6man-ununra" target="https://datatracker.ietf.org/doc/html/draft-linkova-6man-ununra-00">
+  <front>
+    <title>Unicast Unsolicited Router Advertisements for Propagating Network Configuration Updates</title>
+    <seriesInfo name="Internet-Draft" value="draft-linkova-6man-ununra-00"/>
+    <author initials="J." surname="Linkova" fullname="Jen Linkova"/>
+    <date day="22" month="July" year="2026"/>
+    <abstract>
+      <t>Multicast transmissions on Wi-Fi links are known to be unreliable,
+   making the propagation of critical network configuration changes via
+   multicast Router Advertisements (RAs) prone to failure or severe
+   delay.  Existing approaches to improve reliability, such as sending
+   multiple unsolicited multicast RAs, require fine-tuning timers and
+   packet counts that may not fit all deployment scenarios.
+
+   This document updates RFC 4861 by introducing an optimization: when a
+   router detects a configuration change that must be propagated to
+   hosts, it sends unicast Router Advertisements to every client
+   recently observed on that interface.</t>
+    </abstract>
+  </front>
+</reference>
