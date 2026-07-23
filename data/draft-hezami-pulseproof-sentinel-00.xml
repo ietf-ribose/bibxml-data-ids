@@ -1,0 +1,27 @@
+<reference anchor="I-D.hezami-pulseproof-sentinel" target="https://datatracker.ietf.org/doc/html/draft-hezami-pulseproof-sentinel-00">
+  <front>
+    <title>PulseProof Sentinel Protocol Specification</title>
+    <seriesInfo name="Internet-Draft" value="draft-hezami-pulseproof-sentinel-00"/>
+    <author initials="H." surname="Hezami" fullname="Hossein Hezami"/>
+    <date day="22" month="July" year="2026"/>
+    <abstract>
+      <t>This document specifies the PulseProof Sentinel Protocol (PPS), an
+   experimental, technology-agnostic protocol for time-bound asymmetric
+   authentication proofs.  PPS is not a new cryptographic primitive; it
+   profiles established mechanisms -- Ed25519 signatures, SHA-256
+   hashing, HKDF key derivation, and deterministic CBOR encoding --
+   into a compact, interoperable verification model suited to offline,
+   embedded, and non-browser environments where a full WebAuthn
+   ceremony is unavailable.
+
+   A PPS authentication event produces a Pulse: a signed statement
+   bound to a relying-party identifier, time epoch, monotonic counter,
+   expiration, and optional nonce, context, policy, and transaction
+   data.  Because the verifier stores only public keys, PPS removes the
+   shared-secret exposure problem inherent in TOTP.
+
+   PulseProof Sentinel extends the basic Pulse model with several
+   optional but interoperable security extensions:</t>
+    </abstract>
+  </front>
+</reference>

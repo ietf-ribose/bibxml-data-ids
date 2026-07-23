@@ -1,0 +1,29 @@
+<reference anchor="I-D.fane-opena2a-aap" target="https://datatracker.ietf.org/doc/html/draft-fane-opena2a-aap-01">
+  <front>
+    <title>OpenA2A Agent Authorization Protocol (AAP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-fane-opena2a-aap-01"/>
+    <author initials="A." surname="Fane" fullname="Abdel Fane">
+      <organization>OpenA2A</organization>
+    </author>
+    <date day="22" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines the OpenA2A Agent Authorization Protocol (AAP),
+   a protocol for authorization in AI agent systems.  AAP provides
+   mechanisms for agent identity assertion, scoped capability grants,
+   cross-agent delegation, behavioral attestation, cross-organizational
+   federation, and revocation propagation.  AAP is the authorization
+   complement to agent communication protocols such as A2A and the Model
+   Context Protocol, in the same way that OAuth 2.0 complements HTTP for
+   web applications.
+
+   AAP has two layers.  The token model, defined in this document,
+   specifies the AAP credentials and assertions: what they contain, how
+   they are signed, and how they are verified.  A companion broker and
+   resolution layer specifies how an agent obtains and exercises a grant
+   without the credential value ever entering the agent's reasoning
+   context.  This confinement property, that no secret, temporary
+   credential, or backend identifier reaches the agent or the model
+   behind it, is the primary design goal of the protocol.</t>
+    </abstract>
+  </front>
+</reference>

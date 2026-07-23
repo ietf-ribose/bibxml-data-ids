@@ -1,0 +1,23 @@
+<reference anchor="I-D.chueayen-attestation-receipts" target="https://datatracker.ietf.org/doc/html/draft-chueayen-attestation-receipts-00">
+  <front>
+    <title>Enforcement Attestation Receipts for AI Inference Decisions</title>
+    <seriesInfo name="Internet-Draft" value="draft-chueayen-attestation-receipts-00"/>
+    <author initials="A." surname="Chueayen" fullname="Anya Chueayen">
+      <organization>Aqta Technologies Limited</organization>
+    </author>
+    <date day="22" month="July" year="2026"/>
+    <abstract>
+      <t>This document specifies the on-the-wire format of an attestation
+   receipt produced by an AI enforcement gateway at the moment it
+   decides whether a large-language-model (LLM) call is permitted.  A
+   receipt binds that decision to a specific request under a published
+   Ed25519 public key, so that a party who does not trust the gateway
+   can still verify offline what was decided.  The format is
+   deliberately minimal, a fixed set of fields and a version-selected
+   signature suite, chosen for the smallest possible independent
+   verifier.  It is intended for settings in which an operator-
+   controlled log is not, on its own, sufficient evidence of the
+   enforcement decision.</t>
+    </abstract>
+  </front>
+</reference>
