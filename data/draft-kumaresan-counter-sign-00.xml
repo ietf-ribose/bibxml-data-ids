@@ -1,0 +1,27 @@
+<reference anchor="I-D.kumaresan-counter-sign" target="https://datatracker.ietf.org/doc/html/draft-kumaresan-counter-sign-00">
+  <front>
+    <title>counter-sign: An Open Protocol for Agent-to-Human Authorization</title>
+    <seriesInfo name="Internet-Draft" value="draft-kumaresan-counter-sign-00"/>
+    <author initials="H." surname="Kumaresan" fullname="Haridarman Kumaresan">
+      <organization>Countersign Labs</organization>
+    </author>
+    <date day="24" month="July" year="2026"/>
+    <abstract>
+      <t>Autonomous software agents can now take consequential actions on an
+   organization's behalf, such as moving money or changing production
+   systems.  Existing agent protocols standardize how an agent reaches
+   tools and how agents reach one another, but not how a specific action
+   is authorized by a human in a way that stays verifiable after the
+   fact.  This document describes counter-sign, an open protocol for
+   agent-to-human authorization.  An agent emits a signed Intent that
+   states the action it proposes to take.  One or more humans return
+   signed Countersignatures that authorize the action, each signed with
+   a key the coordinating service does not hold.  Every decision
+   produces a tamper-evident receipt that can be verified offline.  The
+   protocol defines the Intent and Countersignature objects, a per-
+   approver-key quorum model for separation of duty, an enrollment
+   registry that binds actors to keys, and a hash-chained receipt log.
+   Conformance test vectors accompany the specification.</t>
+    </abstract>
+  </front>
+</reference>

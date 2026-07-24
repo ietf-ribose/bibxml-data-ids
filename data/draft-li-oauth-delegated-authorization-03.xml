@@ -1,0 +1,31 @@
+<reference anchor="I-D.li-oauth-delegated-authorization" target="https://datatracker.ietf.org/doc/html/draft-li-oauth-delegated-authorization-03">
+  <front>
+    <title>OAuth 2.0 Delegated Authorization</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-oauth-delegated-authorization-03"/>
+    <author initials="L." surname="Ruochen" fullname="Li Ruochen">
+      <organization>Huawei Int. Pte Ltd</organization>
+    </author>
+    <author initials="W." surname="Wang" fullname="Haiguang Wang">
+      <organization>Huawei Int. Pte Ltd</organization>
+    </author>
+    <author initials="P. C." surname="Liu" fullname="Peter Chunchi Liu">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="T." surname="Li" fullname="Tieyan Li">
+      <organization>Huawei Int. Pte Ltd</organization>
+    </author>
+    <date day="24" month="July" year="2026"/>
+    <abstract>
+      <t>This specification defines Delegated Authorization Tokens, key-bound
+   tokens that enable an OAuth client to delegate a constrained subset
+   of its authorization to another client without contacting the
+   authorization server for each delegation.  An authorization server
+   issues the root token and binds it to a client key.  That client can
+   use the bound key either to prove possession when accessing a
+   protected resource or to sign a further token bound to a delegate
+   client's key.  Resource servers validate the ordered token chain, the
+   restrictions imposed at every delegation step, and a DPoP proof
+   signed by the key bound to the leaf token.</t>
+    </abstract>
+  </front>
+</reference>

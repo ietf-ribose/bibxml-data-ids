@@ -1,0 +1,32 @@
+<reference anchor="I-D.krickert-pipestream" target="https://datatracker.ietf.org/doc/html/draft-krickert-pipestream-03">
+  <front>
+    <title>PipeStream: A Recursive Entity Streaming Protocol for Distributed Processing over QUIC</title>
+    <seriesInfo name="Internet-Draft" value="draft-krickert-pipestream-03"/>
+    <author initials="K. E." surname="Rickert" fullname="Kristian E Rickert">
+      <organization>PipeStream AI</organization>
+    </author>
+    <date day="23" month="July" year="2026"/>
+    <abstract>
+      <t>This document specifies PipeStream, a recursive scatter-gather
+   streaming protocol for hierarchical task decomposition and
+   distributed processing over QUIC transport.  PipeStream enables the
+   decomposition (scattering) of complex, arbitrary workloads into
+   constituent sub-tasks, their transmission across distributed
+   processing nodes, and subsequent rehydration (gathering) at
+   destination endpoints.
+
+   While application-layer protocols like gRPC provide stream
+   multiplexing, PipeStream embeds a hierarchical state machine directly
+   into the protocol.  It employs a dual-stream architecture consisting
+   of a data stream for payload transmission and a control stream for
+   tracking completion status and maintaining distributed consistency.
+
+   PipeStream defines a generic 2-bit Data Layer field for entity
+   representation, leaving the concrete payload semantics to application
+   profiles.  To ensure consistency across parallel processing
+   pipelines, the protocol implements checkpoint blocking, guaranteeing
+   that all constituent parts of a decomposed workload are successfully
+   processed before rehydration operations commence.</t>
+    </abstract>
+  </front>
+</reference>

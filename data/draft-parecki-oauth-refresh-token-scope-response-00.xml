@@ -1,0 +1,19 @@
+<reference anchor="I-D.parecki-oauth-refresh-token-scope-response" target="https://datatracker.ietf.org/doc/html/draft-parecki-oauth-refresh-token-scope-response-00">
+  <front>
+    <title>OAuth 2.0 Refresh Token Scope</title>
+    <seriesInfo name="Internet-Draft" value="draft-parecki-oauth-refresh-token-scope-response-00"/>
+    <author initials="A." surname="Parecki" fullname="Aaron Parecki">
+      <organization>Okta</organization>
+    </author>
+    <date day="24" month="July" year="2026"/>
+    <abstract>
+      <t>This specification defines a new OAuth 2.0 token response parameter,
+   refresh_token_scope, that indicates the scope authorized for a
+   refresh token when it differs from the scope of the access token
+   issued alongside it.  This allows clients to discover that a refresh
+   token carries broader authorization than the initial access token,
+   enabling just-in-time requests for elevated access without requiring
+   a new authorization flow.</t>
+    </abstract>
+  </front>
+</reference>

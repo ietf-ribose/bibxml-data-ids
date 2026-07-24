@@ -1,0 +1,35 @@
+<reference anchor="I-D.ietf-rtgwg-srv6-egress-protection" target="https://datatracker.ietf.org/doc/html/draft-ietf-rtgwg-srv6-egress-protection-25">
+  <front>
+    <title>SRv6 Path Egress Protection</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-rtgwg-srv6-egress-protection-25"/>
+    <author initials="T." surname="He" fullname="Tao He">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="Z." surname="Hu" fullname="Zhibo Hu">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="H." surname="Chen" fullname="Huaimo Chen">
+      <organization>Futurewei</organization>
+    </author>
+    <author initials="M." surname="Toy" fullname="Mehmet Toy">
+      <organization>Verizon</organization>
+    </author>
+    <author initials="C." surname="Cao" fullname="Chang Cao">
+      <organization>China Unicom</organization>
+    </author>
+    <date day="23" month="July" year="2026"/>
+    <abstract>
+      <t>This document describes the mechanism and operational guidelines for
+   fast protecting the egress node and link of a Segment Routing for
+   IPv6 (SRv6) path.  Topology Independent Loop-Free Alternate (TI-LFA)
+   specifies fast protections for transit nodes and links of an SR path,
+   but does not present protections for the egress node.  The solution
+   uses a Mirror SID (End.M) behavior to steer traffic to a protector
+   egress upon failure of the primary egress.  The Interior Gateway
+   Protocol (IGP) (IS-IS/OSPFv3) extensions used to advertise the Mirror
+   SID and protected locators are specified in
+   [I-D.he-lsr-srv6-mirror-sid-igp-encoding]; they build on the IS-IS
+   and OSPFv3 SRv6 extensions defined in [RFC9352] and [RFC9513].</t>
+    </abstract>
+  </front>
+</reference>
