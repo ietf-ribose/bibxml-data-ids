@@ -1,0 +1,27 @@
+<reference anchor="I-D.laxsharma-pact" target="https://datatracker.ietf.org/doc/html/draft-laxsharma-pact-00">
+  <front>
+    <title>PACT: A Contract Layer for Autonomous Agent Commerce</title>
+    <seriesInfo name="Internet-Draft" value="draft-laxsharma-pact-00"/>
+    <author initials="L." surname="Sharma" fullname="Laxmikant Sharma">
+      <organization>Independent</organization>
+    </author>
+    <date day="27" month="July" year="2026"/>
+    <abstract>
+      <t>Existing agent interoperability protocols move tasks (A2A) and money
+   (x402, AP2) but provide no mechanism that binds work to payment to
+   proof of completion.  This document specifies PACT (Propose, Agree,
+   Complete, Trust), an application-layer contract protocol for commerce
+   between autonomous agents.  PACT defines (1) a sealed-bid second-
+   price task-award procedure; (2) the Verifiable Task Contract (VTC), a
+   signed JSON object binding parties, scope, price, verification
+   method, and liability; (3) escrowed, optimistically released
+   settlement with a fraud-proof challenge window; (4) graded
+   verification methods ranging from deterministic re-execution to zero-
+   knowledge proofs of inference and staked arbitration; and (5) co-
+   signed Work Attestations from which agent reputation is derived as a
+   byproduct of settlement.  PACT composes existing primitives:
+   Decentralized Identifiers, JSON Web Signatures, OAuth token-exchange
+   delegation chains, the x402 payment protocol, and AP2 mandates.</t>
+    </abstract>
+  </front>
+</reference>

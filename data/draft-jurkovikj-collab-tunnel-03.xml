@@ -1,0 +1,24 @@
+<reference anchor="I-D.jurkovikj-collab-tunnel" target="https://datatracker.ietf.org/doc/html/draft-jurkovikj-collab-tunnel-03">
+  <front>
+    <title>The Collaboration Content Transfer (TCT) Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-jurkovikj-collab-tunnel-03"/>
+    <author initials="A." surname="Jurkovikj" fullname="Antun Jurkovikj"/>
+    <date day="27" month="July" year="2026"/>
+    <abstract>
+      <t>This document specifies the Collaboration Content Transfer (TCT)
+   Protocol, an experimental HTTP profile for efficient delivery of
+   publisher-selected web content to automated clients.  TCT defines a
+   deterministic JSON representation at a machine-facing URL,
+   bidirectional discovery between human-facing and machine-facing
+   resources, JSON sitemaps containing representation-validator hints,
+   and conditional request behavior using ordinary strong ETags.
+
+   TCT preserves standard HTTP validator scope: an M-URL ETag identifies
+   the exact selected M-URL representation.  Optional Semantic
+   Validators can correlate the logical state of human-facing and
+   machine-facing representations, but are not required by TCT and do
+   not replace ordinary cache validators.  TCT does not define
+   authorization, licensing, content-use policy, or mutation semantics.</t>
+    </abstract>
+  </front>
+</reference>

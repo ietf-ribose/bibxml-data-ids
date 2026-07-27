@@ -1,0 +1,34 @@
+<reference anchor="I-D.pythia-bmwg-programmable-power-profiling" target="https://datatracker.ietf.org/doc/html/draft-pythia-bmwg-programmable-power-profiling-00">
+  <front>
+    <title>Power Consumption Profiling for Programmable Network Devices</title>
+    <seriesInfo name="Internet-Draft" value="draft-pythia-bmwg-programmable-power-profiling-00"/>
+    <author initials="X." surname="Chen" fullname="Xiang Chen">
+      <organization>Zhejiang University</organization>
+    </author>
+    <author initials="L." surname="Zhu" fullname="Longlong Zhu">
+      <organization>Zhejiang University</organization>
+    </author>
+    <author initials="L." surname="Zheng" fullname="Linying Zheng">
+      <organization>Zhejiang University</organization>
+    </author>
+    <date day="27" month="July" year="2026"/>
+    <abstract>
+      <t>A programmable network device can execute different packet-processing
+   programs on the same hardware.  Device-level power measurements show
+   the total input power but do not explain the power associated with a
+   program's parser, match-action tables, and stateful or stateless
+   actions.  Models designed for fixed-function switches do not directly
+   describe these program-dependent operations.
+
+   This document describes a power profiling methodology for
+   programmable network devices.  The methodology decomposes packet
+   processing into functional components, uses controlled calibration
+   programs to derive target-specific parameters, and estimates the
+   power of a data-plane program from its processing features and
+   traffic.  It also specifies validation and reporting requirements
+   that distinguish direct measurements from model-derived estimates.
+   The methodology is based on implementation experience with an ASIC
+   programmable switch and an FPGA-based programmable switch.</t>
+    </abstract>
+  </front>
+</reference>
