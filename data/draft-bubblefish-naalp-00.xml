@@ -1,0 +1,29 @@
+<reference anchor="I-D.bubblefish-naalp" target="https://datatracker.ietf.org/doc/html/draft-bubblefish-naalp-00">
+  <front>
+    <title>N-AALP: The Native Agentic Application Layer Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-bubblefish-naalp-00"/>
+    <author initials="S. E." surname="Sammartano" fullname="Shawn Edward Sammartano">
+      <organization>BubbleFish Technologies, Inc.</organization>
+    </author>
+    <date day="27" month="July" year="2026"/>
+    <abstract>
+      <t>The Native Agentic Application Layer Protocol (N-AALP) is an
+   application-layer object protocol for autonomous software agents.
+   Every N-AALP object is a deterministically encoded CBOR structure
+   signed with COSE, carrying under one signature its content identity,
+   its originating signer, a closed effect label that is an
+   authorization input rather than a hint, optional approval and audit
+   bindings, and its causal derivation.  Objects are transport-
+   independent: the identical signed object is carried, with identical
+   object-level guarantees, over the N-PAMP substrate, QUIC, WebSocket,
+   or HTTP.  N-AALP defines a frozen envelope, a post-quantum signature
+   profile (ML-DSA with an optional Ed25519 hybrid), a self-certifying
+   identity with key rotation, a single-use approval ledger, a hash-
+   chained audit and causal- ordering model with a federated higher
+   tier, native streaming with a single per-stream commitment, foreign-
+   protocol carriage by class, and twenty tiered channel surfaces.  This
+   document is an Independent Submission and does not represent IETF
+   consensus.</t>
+    </abstract>
+  </front>
+</reference>

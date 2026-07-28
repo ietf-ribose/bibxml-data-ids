@@ -1,0 +1,27 @@
+<reference anchor="I-D.dulaunoy-rifp" target="https://datatracker.ietf.org/doc/html/draft-dulaunoy-rifp-00">
+  <front>
+    <title>Radio Image Framing Protocol (RIFP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-dulaunoy-rifp-00"/>
+    <author initials="A." surname="Dulaunoy" fullname="Alexandre Dulaunoy">
+      <organization>Computer Incident Response Center Luxembourg</organization>
+    </author>
+    <date day="28" month="July" year="2026"/>
+    <abstract>
+      <t>This document specifies the Radio Image Framing Protocol (RIFP), a
+   compact, unidirectional object-transfer protocol intended for
+   transmitting images over low-rate radio links.  RIFP defines
+   independently synchronized frames, a versioned and extensible binary
+   header, fragmentation and reassembly rules, a JSON manifest, per-
+   frame CRC-32 protection, whole-object SHA-256 verification, and
+   registries for future frame types, flags, header extensions, media
+   encodings, and radio profiles.
+
+   RIFP is independent of a particular frequency allocation or
+   modulation.  This document also defines an initial continuous-phase
+   binary frequency-shift keying profile named rifp-cpfsk-4800.  The
+   profile can be used on frequencies where local regulation permits
+   such operation; 433.92 MHz is a common deployment example but is not
+   mandated by this specification.</t>
+    </abstract>
+  </front>
+</reference>

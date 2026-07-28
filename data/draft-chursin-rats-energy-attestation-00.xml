@@ -1,0 +1,26 @@
+<reference anchor="I-D.chursin-rats-energy-attestation" target="https://datatracker.ietf.org/doc/html/draft-chursin-rats-energy-attestation-00">
+  <front>
+    <title>Hardware-Rooted Attestation Tokens for Electricity Generation</title>
+    <seriesInfo name="Internet-Draft" value="draft-chursin-rats-energy-attestation-00"/>
+    <author initials="A." surname="Chursin" fullname="Aleksey Chursin">
+      <organization>Noethrion Foundation</organization>
+    </author>
+    <date day="27" month="July" year="2026"/>
+    <abstract>
+      <t>This document specifies an attestation token format and verification
+   protocol for hardware-rooted measurements of electricity generation.
+   The protocol enables a tamper-evident chain of custody from the
+   secure element at a metering device to a publicly verifiable
+   settlement layer, using ECDSA P-256 signatures generated inside a
+   certified secure element and carried in a COSE_Sign1 structure.  It
+   defines: (a) the CBOR-encoded attestation token, aligned with the
+   Entity Attestation Token format of RFC 9711 and the Remote
+   ATtestation procedureS (RATS) architecture of RFC 9334; (b) a Merkle-
+   aggregation and on-chain commitment scheme for scalable verification;
+   and (c) a registry mechanism for endorsing device public keys.  The
+   token is intended for use by relying parties, such as energy
+   producers, consumers, regulators, and standards bodies, that require
+   cryptographic provenance for clean-energy claims.</t>
+    </abstract>
+  </front>
+</reference>
