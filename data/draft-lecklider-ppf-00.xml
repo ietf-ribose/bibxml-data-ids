@@ -1,0 +1,23 @@
+<reference anchor="I-D.lecklider-ppf" target="https://datatracker.ietf.org/doc/html/draft-lecklider-ppf-00">
+  <front>
+    <title>Pingback Permitted From (PPF)</title>
+    <seriesInfo name="Internet-Draft" value="draft-lecklider-ppf-00"/>
+    <author initials="C." surname="Lecklider" fullname="Charles Lecklider">
+      <organization>Independent</organization>
+    </author>
+    <date day="28" month="July" year="2026"/>
+    <abstract>
+      <t>Pingback Permitted From (PPF) defines a DNS-based mechanism for
+   authorizing senders of linkback requests.  A domain owner publishes a
+   TXT record declaring which hosts are permitted to send linkbacks for
+   source URIs on that domain.  Receivers and linkback proxies can then
+   reject unauthorized linkbacks before fetching the claimed source URI.
+
+   PPF is intended for linkback protocols in which a sender claims that
+   one web resource links to another and the receiver would otherwise
+   fetch the claimed source resource to verify that claim.  PPF provides
+   sender authorization; it does not replace content verification,
+   moderation, or abuse filtering.</t>
+    </abstract>
+  </front>
+</reference>

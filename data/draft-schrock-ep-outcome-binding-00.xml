@@ -1,0 +1,27 @@
+<reference anchor="I-D.schrock-ep-outcome-binding" target="https://datatracker.ietf.org/doc/html/draft-schrock-ep-outcome-binding-00">
+  <front>
+    <title>Outcome Binding for Authorized Actions and Independently Observed Effects</title>
+    <seriesInfo name="Internet-Draft" value="draft-schrock-ep-outcome-binding-00"/>
+    <author initials="I." surname="Schrock" fullname="Iman Schrock">
+      <organization>EMILIA Protocol, Inc.</organization>
+    </author>
+    <date day="28" month="July" year="2026"/>
+    <abstract>
+      <t>Authorization proves what action was permitted; it does not prove
+   what happened after execution.  An executor-signed result improves
+   attribution but remains a claim by the party that acted.  This
+   document specifies a source-routed Outcome Binding profile.  Signed
+   predicted effects identify the source role and source class required
+   to evaluate each predicate.  Executors, systems of record, and
+   independent observers sign closed observation objects bound to the
+   same authorization, action digest, Canonical Action Identifier,
+   consumption nonce, operation, facility, and observation window.  A
+   deterministic verifier separates evidence availability from
+   comparison: missing or unauthenticated required sources yield an
+   indeterminate lifecycle state; authentic observations yield the
+   closed comparison result in_bounds, divergent, or incomparable.  The
+   profile improves consequence reconciliation without claiming physical
+   truth, sensor correctness, or legal finality.</t>
+    </abstract>
+  </front>
+</reference>
