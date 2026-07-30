@@ -1,0 +1,32 @@
+<reference anchor="I-D.ietf-netconf-udp-notif" target="https://datatracker.ietf.org/doc/html/draft-ietf-netconf-udp-notif-26">
+  <front>
+    <title>UDP-based Transport for Configured Subscriptions</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-netconf-udp-notif-26"/>
+    <author initials="A. H." surname="Feng" fullname="Alex Huang Feng">
+      <organization>Deutsche Telekom</organization>
+    </author>
+    <author initials="P." surname="Francois" fullname="Pierre Francois">
+      <organization>INSA-Lyon</organization>
+    </author>
+    <author initials="T." surname="Zhou" fullname="Tianran Zhou">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="T." surname="Graf" fullname="Thomas Graf">
+      <organization>Swisscom</organization>
+    </author>
+    <author initials="P." surname="Lucente" fullname="Paolo Lucente">
+      <organization>NTT</organization>
+    </author>
+    <date day="29" month="July" year="2026"/>
+    <abstract>
+      <t>This document describes a UDP-based transport for YANG notifications
+   to collect data from network nodes within a controlled environment.
+   A shim header is defined to facilitate the data streaming directly
+   from a publishing process on a network device to telemetry receivers.
+   Such a design enables higher frequency updates and less performance
+   overhead on publisher and receiver processes compared to already
+   established notification mechanisms.  A YANG data model is also
+   defined for management of the described UDP-based transport.</t>
+    </abstract>
+  </front>
+</reference>
