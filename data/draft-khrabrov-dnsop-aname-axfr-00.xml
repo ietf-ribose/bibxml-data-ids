@@ -1,0 +1,23 @@
+<reference anchor="I-D.khrabrov-dnsop-aname-axfr" target="https://datatracker.ietf.org/doc/html/draft-khrabrov-dnsop-aname-axfr-00">
+  <front>
+    <title>Address-specific DNS Aliases (ANAME) and Zone Transfer</title>
+    <seriesInfo name="Internet-Draft" value="draft-khrabrov-dnsop-aname-axfr-00"/>
+    <author initials="A." surname="Khrabrov" fullname="Alexy Khrabrov">
+      <organization>QueryGraph</organization>
+    </author>
+    <date day="30" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines the ANAME DNS resource record.  ANAME provides
+   name-to-name indirection for address queries while allowing other
+   resource record types to exist at the same owner name.  It is
+   therefore usable at a zone apex.
+
+   This document also defines authoritative processing, TTL and failure
+   behavior, DNSSEC considerations, and interoperable transport of ANAME
+   records in full and incremental zone transfers.  In particular, each
+   ANAME-capable authoritative server resolves the transferred target
+   independently.  This avoids treating transient, synthesized address
+   records as the portable source of zone data.</t>
+    </abstract>
+  </front>
+</reference>

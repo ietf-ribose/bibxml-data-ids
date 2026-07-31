@@ -1,0 +1,29 @@
+<reference anchor="I-D.liu-moq-feedback" target="https://datatracker.ietf.org/doc/html/draft-liu-moq-feedback-00">
+  <front>
+    <title>MoQ Feedback</title>
+    <seriesInfo name="Internet-Draft" value="draft-liu-moq-feedback-00"/>
+    <author initials="Y." surname="Liu" fullname="Yanmei Liu">
+      <organization>Alibaba Inc.</organization>
+    </author>
+    <author initials="M." surname="Jiang" fullname="Minghui Jiang">
+      <organization>Alibaba Inc.</organization>
+    </author>
+    <author initials="R." surname="Wu" fullname="Ronghua Wu">
+      <organization>Ant Group.</organization>
+    </author>
+    <date day="31" month="July" year="2026"/>
+    <abstract>
+      <t>This document defines an extension to Media over QUIC Transport
+   (MOQT) that enables MoQ receivers to report delivery quality
+   information for media Objects to senders.  The MoQ layer synthesizes
+   MMF feedback and local congestion control (CC) output to compute
+   control decisions such as bitrate, frame rate, and pacing, and inform
+   the CC algorithm module via a cross-layer control interface.  This
+   mechanism reuses the MOQT Track/Object data model without introducing
+   new control message types.  While QUIC ACK and reception timestamp
+   extensions continue to provide per-packet CC signals; this mechanism
+   adds per-Object media semantic feedback when the MMF extension is
+   negotiated and enabled.</t>
+    </abstract>
+  </front>
+</reference>
