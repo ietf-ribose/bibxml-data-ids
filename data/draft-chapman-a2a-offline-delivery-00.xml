@@ -1,0 +1,27 @@
+<reference anchor="I-D.chapman-a2a-offline-delivery" target="https://datatracker.ietf.org/doc/html/draft-chapman-a2a-offline-delivery-00">
+  <front>
+    <title>Offline Delivery and Reachability for Agent-to-Agent Messaging</title>
+    <seriesInfo name="Internet-Draft" value="draft-chapman-a2a-offline-delivery-00"/>
+    <author initials="L." surname="Chapman" fullname="Luke Chapman">
+      <organization>Qwixl</organization>
+    </author>
+    <date day="01" month="August" year="2026"/>
+    <abstract>
+      <t>Agent-to-agent protocols assume a live HTTP or streaming hop.  Many
+   deployments cannot keep every agent always reachable: devices sleep,
+   cost tiers duty-cycle backends, and operators park agents outside
+   business hours.  Senders need a machine-readable asleep signal, a
+   bounded expectation for store-and-forward, and validation rules so an
+   offline agent is not a spam sink and does not act on forged or
+   expired messages after wake.
+
+   This document profiles offline delivery and reachability for A2A-
+   style JSON-RPC messaging.  It defines abstract reachability modes, an
+   asleep refusal signal, queue bounds and distinct queue-full errors,
+   validate-on-dequeue requirements, and split delivery semantics
+   (durable persist versus notify).  It is independent of Messaging
+   Layer Security (MLS) grouping; deployments that also use [GOMLS] MAY
+   apply both profiles.</t>
+    </abstract>
+  </front>
+</reference>

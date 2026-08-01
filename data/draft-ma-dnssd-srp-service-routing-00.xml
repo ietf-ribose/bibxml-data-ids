@@ -1,0 +1,22 @@
+<reference anchor="I-D.ma-dnssd-srp-service-routing" target="https://datatracker.ietf.org/doc/html/draft-ma-dnssd-srp-service-routing-00">
+  <front>
+    <title>Service Type Routing for DNS-SD Service Registration Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-ma-dnssd-srp-service-routing-00"/>
+    <author initials="D." surname="Ma" fullname="Di Ma">
+      <organization>ZDNS</organization>
+    </author>
+    <date day="01" month="August" year="2026"/>
+    <abstract>
+      <t>This document defines the _str._dns-sd._udp (Service Type Routing)
+   metadata label, a backward-compatible extension for SRP registration.
+   This mechanism relaxes the original single-registration-domain
+   constraint, enabling clients to publish distinct service types to
+   independent target DNS zones and dedicated SRP registrar instances.
+   It supports fine-grained operational tuning, administrative isolation
+   of heterogeneous services.  This extension only modifies SRP
+   registration domain selection logic, fully preserves existing SRP
+   wire format, authentication, leasing and discovery behaviors, and
+   introduces no impact on DNS-SD service browsing operations.</t>
+    </abstract>
+  </front>
+</reference>
