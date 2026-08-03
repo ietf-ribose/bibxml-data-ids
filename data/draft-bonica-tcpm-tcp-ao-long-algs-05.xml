@@ -1,0 +1,36 @@
+<reference anchor="I-D.bonica-tcpm-tcp-ao-long-algs" target="https://datatracker.ietf.org/doc/html/draft-bonica-tcpm-tcp-ao-long-algs-05">
+  <front>
+    <title>Cryptographic Algorithms That Produce 256-bit MACs For Use With TCP-AO</title>
+    <seriesInfo name="Internet-Draft" value="draft-bonica-tcpm-tcp-ao-long-algs-05"/>
+    <author initials="R. P." surname="Bonica" fullname="Ron Bonica">
+      <organization>HPE</organization>
+    </author>
+    <author initials="T." surname="Li" fullname="Tony Li">
+      <organization>HPE</organization>
+    </author>
+    <author initials="P." surname="Chen" fullname="Ping Chen">
+      <organization>HPE</organization>
+    </author>
+    <author initials="R." surname="Thomas" fullname="Reji Thomas">
+      <organization>Arista Networks</organization>
+    </author>
+    <author initials="S. N." surname="Ammunje" fullname="Sujeet Nayak Ammunje">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author initials="A." surname="Banerjee" fullname="Ayan Banerjee">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date day="03" month="August" year="2026"/>
+    <abstract>
+      <t>RFC5926 creates a list of cryptographic algorithms that can be used
+   with TCP-AO.  This document expands that list, adding two Message
+   Authentication Code (MAC) algorithms, HMAC-SHA256 and KMAC256.  For
+   each MAC algorithm, a corresponding Key Derivation Function (KDF) is
+   also added.
+
+   The MAC algorithms described by this document produce 256-bit (i.e.,
+   32-byte) MACs.  When 32-byte MACs are encoded in TCP-AO, the TCP-AO
+   consumes 36 of the 40 bytes available for TCP options.</t>
+    </abstract>
+  </front>
+</reference>

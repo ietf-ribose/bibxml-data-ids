@@ -1,0 +1,37 @@
+<reference anchor="I-D.helixar-hdp-agentic-delegation" target="https://datatracker.ietf.org/doc/html/draft-helixar-hdp-agentic-delegation-01">
+  <front>
+    <title>Human Delegation Provenance Protocol (HDP): Cryptographic Chain-of-Custody for Agentic AI Systems</title>
+    <seriesInfo name="Internet-Draft" value="draft-helixar-hdp-agentic-delegation-01"/>
+    <author initials="A." surname="Dalugoda" fullname="Asiri Dalugoda">
+      <organization>Helixar Limited</organization>
+    </author>
+    <date day="03" month="August" year="2026"/>
+    <abstract>
+      <t>Agentic AI systems operate on behalf of human principals, often
+   delegating tasks through multi-step chains of AI agents.  There is
+   currently no standard mechanism to record who authorized an agent to
+   act, under what scope, and through what chain of delegation, in a way
+   that can be verified offline, without a central registry, and without
+   third-party trust anchors.
+
+   This document specifies the Human Delegation Provenance Protocol
+   (HDP) version 0.1, a lightweight token-based protocol that captures,
+   structures, cryptographically signs, and verifies human delegation
+   context in agentic AI systems.  An HDP token binds a human
+   authorization event to a session, records each agent's delegation
+   action as a signed hop in an append-only chain, and enables any
+   participant to verify the full provenance record using only the
+   issuer's Ed25519 public key and the current session identifier.
+   Verification is fully offline.  No registry lookup, no network call,
+   and no third-party trust anchor is required.
+
+   HDP's distinguishing contribution is a signed, tamper-evident record
+   of each agent's declared action at each hop, an execution audit trail
+   that complements, rather than replaces, capability-based delegation
+   formats such as UCAN and ZCAP-LD.  The underlying append-only,
+   offline-verifiable chain-of-custody mechanism is payload-agnostic;
+   human-authorized agentic delegation is the reference profile
+   specified in this document.</t>
+    </abstract>
+  </front>
+</reference>
