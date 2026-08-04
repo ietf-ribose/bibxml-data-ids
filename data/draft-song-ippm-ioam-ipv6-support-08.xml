@@ -1,0 +1,33 @@
+<reference anchor="I-D.song-ippm-ioam-ipv6-support" target="https://datatracker.ietf.org/doc/html/draft-song-ippm-ioam-ipv6-support-08">
+  <front>
+    <title>Supporting IOAM in IPv6</title>
+    <seriesInfo name="Internet-Draft" value="draft-song-ippm-ioam-ipv6-support-08"/>
+    <author initials="H." surname="Song" fullname="Haoyu Song">
+      <organization>Futurewei</organization>
+    </author>
+    <author initials="Z." surname="Li" fullname="Zhenbin Li">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="S." surname="Peng" fullname="Shuping Peng">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="J." surname="Guichard" fullname="Jim Guichard">
+      <organization>Futurewei</organization>
+    </author>
+    <date day="03" month="August" year="2026"/>
+    <abstract>
+      <t>IOAM pre-allocated trace option data fields can be encapsulated in
+   the IPv6 Hop-by-Hop (HbH) Options header as described in RFC 9486.
+   However, due to the potentially large size of the trace data and the
+   location of the HbH Options header in the IPv6 packet, this scheme
+   creates practical challenges for implementation, especially when
+   other extension headers, such as a routing header, are also present
+   and require on-path processing.  In addition to IOAM Direct Export
+   (DEX), this document proposes two alternative approaches to address
+   this challenge: separating the IOAM incremental trace data from the
+   IOAM instruction header, or applying the segment IOAM trace data
+   export scheme, depending on the network scenario and application
+   requirements.  We discuss the pros and cons of each approach.</t>
+    </abstract>
+  </front>
+</reference>

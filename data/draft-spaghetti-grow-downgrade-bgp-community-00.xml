@@ -1,0 +1,23 @@
+<reference anchor="I-D.spaghetti-grow-downgrade-bgp-community" target="https://datatracker.ietf.org/doc/html/draft-spaghetti-grow-downgrade-bgp-community-00">
+  <front>
+    <title>The DOWNGRADE BGP Community for Denial-of-Service Attack Mitigation</title>
+    <seriesInfo name="Internet-Draft" value="draft-spaghetti-grow-downgrade-bgp-community-00"/>
+    <author initials="J." surname="Snijders" fullname="Job Snijders">
+      <organization>BSD Software Development</organization>
+    </author>
+    <author initials="S." surname="Ytti" fullname="Saku Ytti">
+      <organization>NTT DATA</organization>
+    </author>
+    <date day="04" month="August" year="2026"/>
+    <abstract>
+      <t>This document outlines a method to mitigate Denial of Service (DoS)
+   attacks by using a well-known BGP community named "DOWNGRADE" as
+   signal to neighboring networks to treat traffic destined towards
+   "DOWNGRADE" tagged IP prefixes with low precedence.  The "downgrade"
+   strategy offers an appealing alternative to Remote Triggered
+   Blackhole (RTBH) filtering, because RTBH filtering completes the DoS
+   attack and hampers the defender's ability to monitor whether the
+   attack is still ongoing.</t>
+    </abstract>
+  </front>
+</reference>
