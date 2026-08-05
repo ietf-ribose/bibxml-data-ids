@@ -1,0 +1,33 @@
+<reference anchor="I-D.cz-bier-bgp-ls-bier-te-ext" target="https://datatracker.ietf.org/doc/html/draft-cz-bier-bgp-ls-bier-te-ext-07">
+  <front>
+    <title>BGP-LS extensions for BIER-TE</title>
+    <seriesInfo name="Internet-Draft" value="draft-cz-bier-bgp-ls-bier-te-ext-07"/>
+    <author initials="R." surname="Chen" fullname="Ran Chen">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author initials="Z." surname="Zhang" fullname="Zheng Zhang">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author initials="Y." surname="Liu" fullname="Yisong Liu">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="C." surname="Lin" fullname="Changwang Lin">
+      <organization>New H3C Technologies</organization>
+    </author>
+    <date day="04" month="August" year="2026"/>
+    <abstract>
+      <t>BIER-TE forwards and replicates packets based on a BitString in the
+   packet header, but every BitPosition of the BitString of a BIER-TE
+   packet indicates one or more adjacencies.
+
+   BGP Link-State (BGP-LS) enables the collection of various topology
+   informations from the network, and the topology informations are used
+   by the PCE to calculate the path and then propagate them onto the
+   BFRs(instead of having each node to calculate on its own) and that
+   can be for both inter-as and intra-as situations.
+
+   This document specifies extensions to the BGP Link-state address-
+   family in order to advertise BIER-TE informations.</t>
+    </abstract>
+  </front>
+</reference>

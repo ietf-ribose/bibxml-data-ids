@@ -1,0 +1,22 @@
+<reference anchor="I-D.hawkins-x402-dns-discovery" target="https://datatracker.ietf.org/doc/html/draft-hawkins-x402-dns-discovery-00">
+  <front>
+    <title>Discovering x402 Payment Capability via DNS and a Well-Known URI</title>
+    <seriesInfo name="Internet-Draft" value="draft-hawkins-x402-dns-discovery-00"/>
+    <author initials="W." surname="Hawkins" fullname="Walter Hawkins">
+      <organization>Independent</organization>
+    </author>
+    <date day="04" month="August" year="2026"/>
+    <abstract>
+      <t>x402 is an application-level protocol for internet-native payments
+   built on the HTTP 402 (Payment Required) status code.  This document
+   defines how a domain publishes its x402 payment capability out-of-
+   band, so that clients, autonomous agents, and indexers can discover
+   it without prior configuration or a central directory.  It specifies
+   a JSON capability manifest served at the well-known URI "/.well-
+   known/x402" and an optional DNS TXT record at the underscored node
+   name "_x402" that points to the manifest.  A consumer resolves a bare
+   domain name to verified x402 capability with at most one DNS query
+   and one HTTPS GET.</t>
+    </abstract>
+  </front>
+</reference>

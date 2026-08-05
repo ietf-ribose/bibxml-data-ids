@@ -1,0 +1,27 @@
+<reference anchor="I-D.ferro-schrock-memory-projection-record" target="https://datatracker.ietf.org/doc/html/draft-ferro-schrock-memory-projection-record-01">
+  <front>
+    <title>Signed Memory Projection Records for Verifiable AI Context Delivery</title>
+    <seriesInfo name="Internet-Draft" value="draft-ferro-schrock-memory-projection-record-01"/>
+    <author initials="A." surname="Ferro" fullname="Andrea Ferro">
+      <organization>ApertoMemory</organization>
+    </author>
+    <author initials="I." surname="Schrock" fullname="Iman Schrock">
+      <organization>EMILIA Protocol, Inc.</organization>
+    </author>
+    <date day="04" month="August" year="2026"/>
+    <abstract>
+      <t>Encrypted and signed memory objects can establish source integrity,
+   authorship, and read-time trust without establishing which exact
+   bytes a memory adapter selected and delivered to a downstream AI
+   system.  This document specifies a provider-neutral signed Memory
+   Projection Record.  The record commits to the recall request and
+   selection policy, the read-time keyring snapshot, the ordered source
+   objects and exact context fragments delivered, the complete
+   projection bytes, and summarized exclusions.  It deliberately does
+   not claim that a model received, used, or weighted the projection,
+   that an action was authorized, or that an outcome occurred.
+   ApertoMemory is one source profile; other memory formats can use the
+   same projection boundary.</t>
+    </abstract>
+  </front>
+</reference>
