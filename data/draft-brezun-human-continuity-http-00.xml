@@ -1,0 +1,31 @@
+<reference anchor="I-D.brezun-human-continuity-http" target="https://datatracker.ietf.org/doc/html/draft-brezun-human-continuity-http-00">
+  <front>
+    <title>Human Continuity for HTTP</title>
+    <seriesInfo name="Internet-Draft" value="draft-brezun-human-continuity-http-00"/>
+    <author initials="A." surname="br&#xE9;zun" fullname="aur&#xE9;lien br&#xE9;zun">
+      <organization>Tools for Humanity</organization>
+    </author>
+    <date day="05" month="August" year="2026"/>
+    <abstract>
+      <t>This document defines an HTTP extension for origins that need to
+   attribute repeated participation to the same verified unique human
+   within a declared continuity scope, without requiring a global human
+   identifier or replacing existing authentication.  Within a continuity
+   scope, the same human yields one verifier-local handle across all of
+   their accounts, devices, and agents and cannot present as two,
+   distinguishing the signal from authentication, which identifies a
+   credential a human may hold many of.  An origin server can publish
+   policy for client-presented unique-human artifacts, issue an explicit
+   challenge, and receive a client-presented artifact on a subsequent
+   request.
+
+   The framework is independent of any realm operator, credential
+   technology, proof system, or definition of humanness.  Companion
+   profiles define artifact syntax, issuance, verification, challenge
+   binding, replay behavior, holder binding, privacy properties, realm
+   metadata, and verifier output.  A conforming profile produces a
+   verifier-local continuity_handle scoped to a realm, attestation
+   audience, and purpose.  This version defines no initial profile.</t>
+    </abstract>
+  </front>
+</reference>

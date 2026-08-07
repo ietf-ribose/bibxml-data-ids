@@ -1,0 +1,25 @@
+<reference anchor="I-D.jabley-dnsop-no-longer-support-any" target="https://datatracker.ietf.org/doc/html/draft-jabley-dnsop-no-longer-support-any-00">
+  <front>
+    <title>Continuing to Reduce Support for ANY Queries in the DNS</title>
+    <seriesInfo name="Internet-Draft" value="draft-jabley-dnsop-no-longer-support-any-00"/>
+    <author initials="J." surname="Abley" fullname="Joe Abley">
+      <organization>Cloudflare</organization>
+    </author>
+    <author initials="B." surname="Haberman" fullname="Brian Haberman">
+      <organization>Fastly</organization>
+    </author>
+    <date day="06" month="August" year="2026"/>
+    <abstract>
+      <t>The DNS specification from its earliest day supported a special query
+   type (QTYPE) ANY.  The handling of queries with QTYPE=ANY is observed
+   to vary between implementations.  Queries with QTYPE=ANY are known to
+   facilitate amplification that can be abused and used by malicious
+   actors to attack third parties, and minimally-sized responses are
+   often constructed in order to mitigate those security risks.  While
+   queries with QTYPE=ANY can be used for troubleshooting in some cases,
+   the substantial inconsistency in how such queries are handled makes
+   them at best an unreliable signal.  This document continues a careful
+   and gradual process of dropping support for QTYPE=ANY from the DNS.</t>
+    </abstract>
+  </front>
+</reference>

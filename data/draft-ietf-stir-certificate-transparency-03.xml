@@ -1,0 +1,49 @@
+<reference anchor="I-D.ietf-stir-certificate-transparency" target="https://datatracker.ietf.org/doc/html/draft-ietf-stir-certificate-transparency-03">
+  <front>
+    <title>STI Certificate Transparency</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-stir-certificate-transparency-03"/>
+    <author initials="C." surname="Wendt" fullname="Chris Wendt">
+      <organization>Somos, Inc.</organization>
+    </author>
+    <author initials="R." surname="&#x15A;liwa" fullname="Robert &#x15A;liwa">
+      <organization>Somos, Inc.</organization>
+    </author>
+    <author initials="A." surname="Fenichel" fullname="Alec Fenichel">
+      <organization>TransNexus</organization>
+    </author>
+    <author initials="V. A." surname="Gaikwad" fullname="Vinit Anil Gaikwad">
+      <organization>Twilio</organization>
+    </author>
+    <date day="05" month="August" year="2026"/>
+    <abstract>
+      <t>This document describes a framework for the use of the Certificate
+   Transparency (CT) protocol for publicly logging the existence of
+   Secure Telephone Identity (STI) certificates as they are issued or
+   observed.  This allows any interested party that is part of the STI
+   ecosystem to audit STI certification authority (CA) activity and
+   audit both the issuance of suspect certificates and the certificate
+   logs themselves.  The intent is to establish a level of trust within
+   the STI ecosystem that relies on the verification of telephone
+   numbers.  This involves requiring and refusing to honor STI
+   certificates that are not listed in an established log.  This
+   effectively establishes the precedent that STI CAs must add all
+   issued certificates to the logs and thus establishes unique
+   association of STI certificates to an authorized provider or assignee
+   of a telephone number resource.  In the STI ecosystem, the primary
+   role of CT is to provide verifiable trust by detecting the
+   unauthorized issuance of duplicate telephone number level delegate
+   certificates or provider level certificates.  This provides a robust
+   auditable mechanism for the detection of unauthorized creation of
+   certificate credentials for illegitimate spoofing of telephone
+   numbers or service provider codes (SPC).
+
+   The framework borrows the log structure and API model from RFC6962 to
+   enable public auditing and verifiability of certificate issuance.
+   While the foundational mechanisms for log operation, Merkle Tree
+   construction, and Signed Certificate Timestamps (SCTs) are aligned
+   with RFC6962, this document contextualizes their application in the
+   STIR ecosystem, focusing on verifiable control over telephone number
+   or service provider code resources.</t>
+    </abstract>
+  </front>
+</reference>
