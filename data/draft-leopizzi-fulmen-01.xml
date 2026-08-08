@@ -1,0 +1,35 @@
+<reference anchor="I-D.leopizzi-fulmen" target="https://datatracker.ietf.org/doc/html/draft-leopizzi-fulmen-01">
+  <front>
+    <title>FULMEN 1.0: Event-Driven Bidirectional Client-Server Communication Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-leopizzi-fulmen-01"/>
+    <author initials="G." surname="Leopizzi" fullname="Giacomo Leopizzi">
+      <organization>Information Technology Institute, Riga Technical University</organization>
+    </author>
+    <author initials="J." surname="Grabis" fullname="J&#x101;nis Grabis (Janis Grabis)">
+      <organization>Information Technology Institute, Riga Technical University</organization>
+    </author>
+    <author initials="K." surname="&#x100;beln&#x12B;ca" fullname="Kaspars &#x100;beln&#x12B;ca (Kaspars Abelnica)">
+      <organization>Information Technology Institute, Riga Technical University</organization>
+    </author>
+    <author initials="S." surname="Martorelli" fullname="Simone Martorelli">
+      <organization>IBM</organization>
+    </author>
+    <date day="08" month="August" year="2026"/>
+    <abstract>
+      <t>This document specifies FULMEN version 1.0, an event-driven,
+   bidirectional client-server communication protocol with a binary wire
+   format.  Within a FULMEN connection, both the client and the server
+   can send events.  An event is a message frame identified by a
+   sequential identifier and addressed by a UTF-8 path used for routing
+   and dispatching; its sender can request an acknowledgment, a response
+   correlated to the event that carries a status code describing the
+   outcome of its processing.  Events and acknowledgments can carry a
+   binary payload, either inline within the frame or delivered
+   incrementally in chunks through a stream.  The protocol version in
+   use is negotiated during the connection handshake.  FULMEN also
+   defines an extension mechanism, based on typed data units attached to
+   protocol messages, through which additional functionality can be
+   introduced without changes to the wire format.</t>
+    </abstract>
+  </front>
+</reference>

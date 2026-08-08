@@ -1,0 +1,27 @@
+<reference anchor="I-D.schrock-ae-challenge" target="https://datatracker.ietf.org/doc/html/draft-schrock-ae-challenge-03">
+  <front>
+    <title>An Authorization Evidence Challenge for High-Risk Agent Actions</title>
+    <seriesInfo name="Internet-Draft" value="draft-schrock-ae-challenge-03"/>
+    <author initials="I." surname="Schrock" fullname="Iman Schrock">
+      <organization>EMILIA Protocol, Inc.</organization>
+    </author>
+    <date day="08" month="August" year="2026"/>
+    <abstract>
+      <t>When a relying party refuses a consequential agent action because
+   authorization evidence is missing, stale, or unverifiable, the agent
+   needs a machine-readable description of what remains necessary.  This
+   document defines a transport-neutral Authorization Evidence Challenge
+   data model bound to the relying party's exact action.  The challenge
+   identifies outstanding evidence requirements, freshness and status
+   constraints, acceptable presentation profiles, and retry state.  It
+   authorizes nothing, transfers no admission ownership, and provides no
+   promise that a later request will execute.
+
+   The document also defines an HTTP binding using 403 Forbidden and RFC
+   9457 Problem Details, and describes an informative gateway-handoff
+   profile for DMSC-style federation.  The gateway profile communicates
+   evidence requirements; it does not solve conserved admission or
+   double-admission across independently operated gateways.</t>
+    </abstract>
+  </front>
+</reference>
