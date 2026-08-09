@@ -1,0 +1,21 @@
+<reference anchor="I-D.chueayen-attestation-receipts" target="https://datatracker.ietf.org/doc/html/draft-chueayen-attestation-receipts-02">
+  <front>
+    <title>Enforcement Attestation Receipts for AI Inference Decisions</title>
+    <seriesInfo name="Internet-Draft" value="draft-chueayen-attestation-receipts-02"/>
+    <author initials="A." surname="Chueayen" fullname="Anya Chueayen">
+      <organization>Aqta Technologies Limited</organization>
+    </author>
+    <date day="08" month="August" year="2026"/>
+    <abstract>
+      <t>This document specifies a compact JSON attestation receipt for an AI
+   inference decision.  A receipt binds an outcome to a request hash
+   under a published Ed25519 public key, so a party that does not trust
+   the issuer's infrastructure can still verify offline what the
+   issuer's signing key attested was decided.  The format is
+   intentionally small and version-selected, so independent verifiers
+   stay easy to implement and audit.  It is intended for settings where
+   an operator-controlled log is not, on its own, sufficient evidence of
+   the decision.</t>
+    </abstract>
+  </front>
+</reference>
