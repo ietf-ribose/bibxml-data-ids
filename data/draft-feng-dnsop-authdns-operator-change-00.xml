@@ -1,0 +1,47 @@
+<reference anchor="I-D.feng-dnsop-authdns-operator-change" target="https://datatracker.ietf.org/doc/html/draft-feng-dnsop-authdns-operator-change-00">
+  <front>
+    <title>Operational Guidance for Authoritative DNS Operator Changes with Service Endpoint Migration for Registered Domain Names</title>
+    <seriesInfo name="Internet-Draft" value="draft-feng-dnsop-authdns-operator-change-00"/>
+    <author initials="Y." surname="Feng" fullname="Yuming Feng">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="Y." surname="Zhang" fullname="Yu Zhang">
+      <organization>Harbin Institute of Technology</organization>
+    </author>
+    <author initials="D." surname="Ma" fullname="Di Ma">
+      <organization>ZDNS</organization>
+    </author>
+    <author initials="W." surname="Zhang" fullname="Weizhe Zhang">
+      <organization>Harbin Institute of Technology</organization>
+    </author>
+    <author initials="R." surname="Yang" fullname="Rongwei Yang">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <date day="10" month="August" year="2026"/>
+    <abstract>
+      <t>A registered domain name can change its authoritative DNS operator
+   while the registrant also migrates service endpoints, such as web,
+   API, CDN, mail, or cloud-hosted services.  In this situation, service
+   RRsets such as A, AAAA, CNAME, MX, SRV, SVCB, and HTTPS RRsets can
+   change at the same time as the parent-side delegation changes.
+
+   The parent-side delegation change is not observed by all recursive
+   resolvers at the same instant.  During the transition, some resolvers
+   can continue to query the losing DNS operator while others query the
+   gaining DNS operator.  If the losing operator continues to serve
+   stale service RRsets, or if it stops serving the zone too early,
+   users can receive different answers depending on resolver cache state
+   and can experience intermittent service failure.
+
+   This document provides operational guidance for authoritative DNS
+   operator changes with service endpoint migration for registered
+   domain names.  It recommends a registrant-authorized change plan, a
+   consistency profile for in-scope service RRsets, synchronized
+   provisioning or a common source of truth, a hold period during which
+   the losing DNS operator continues to serve target or otherwise
+   equivalent data, and verification points that directly compare the
+   losing and gaining authoritative servers and classify observed states
+   as planned, service-risk, or unexpected-delegation conditions.</t>
+    </abstract>
+  </front>
+</reference>

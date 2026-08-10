@@ -1,0 +1,38 @@
+<reference anchor="I-D.schrock-ae-challenge" target="https://datatracker.ietf.org/doc/html/draft-schrock-ae-challenge-05">
+  <front>
+    <title>An Authorization Evidence Challenge for High-Risk Agent Actions</title>
+    <seriesInfo name="Internet-Draft" value="draft-schrock-ae-challenge-05"/>
+    <author initials="I." surname="Schrock" fullname="Iman Schrock">
+      <organization>EMILIA Protocol, Inc.</organization>
+    </author>
+    <date day="10" month="August" year="2026"/>
+    <abstract>
+      <t>When a relying party refuses a consequential agent action because
+   authorization evidence is missing, stale, or unverifiable, the agent
+   needs a machine-readable description of what remains necessary.  This
+   document defines a transport-neutral Authorization Evidence Challenge
+   data model bound to the relying party's exact action.  The challenge
+   identifies outstanding evidence requirements, freshness and status
+   constraints, acceptable presentation profiles, and retry state.  It
+   authorizes nothing, transfers no admission ownership, and provides no
+   promise that a later request will execute.
+
+   The document also defines an HTTP binding using 403 Forbidden and RFC
+   9457 Problem Details, and describes an informative gateway-handoff
+   profile for DMSC-style federation.  The gateway profile communicates
+   evidence requirements; it does not solve conserved admission or
+   double-admission across independently operated gateways.
+
+   A challenge can synchronize corrected retries and amplify load.  The
+   core therefore defines optional retry timing with per-challenge
+   jitter, and the HTTP binding maps its lower bound to Retry-After.
+   Retry timing controls presentation attempts only; it does not
+   authorize the action or make an uncertain action safe to repeat.
+
+   Single-use processing also places state on the refusal path.  The
+   core therefore requires bounded outstanding and replay state, fail-
+   closed behavior when state cannot be claimed, and retention of live
+   replay records until they are no longer security-relevant.</t>
+    </abstract>
+  </front>
+</reference>
