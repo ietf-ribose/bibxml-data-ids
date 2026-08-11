@@ -1,0 +1,21 @@
+<reference anchor="I-D.cmcc-tcp-sro" target="https://datatracker.ietf.org/doc/html/draft-cmcc-tcp-sro-00">
+  <front>
+    <title>The Session Recovery Option (SRO) for TCP</title>
+    <seriesInfo name="Internet-Draft" value="draft-cmcc-tcp-sro-00"/>
+    <author initials="Z." surname="Luo" fullname="Zhaoyu Luo">
+      <organization>CMCC</organization>
+    </author>
+    <date day="11" month="August" year="2026"/>
+    <abstract>
+      <t>This document defines the Session Recovery Option (SRO) for TCP.  SRO
+   improves the reliability of SNAT and LB services and simplifies the
+   implementation of elastically scaling SNAT/LB clusters.  SRO enables
+   a client and a server to exchange their identifiers during connection
+   establishment.  When a session needs to be recovered, an endpoint
+   conveys the identifier of the peer to the network node, which uses it
+   to locate the endpoint holding the session backup and recover the
+   session.  SRO is optional: endpoints that do not support it behave as
+   if the option did not exist.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,28 @@
+<reference anchor="I-D.gaikwad-llm-fault-detection-terminology" target="https://datatracker.ietf.org/doc/html/draft-gaikwad-llm-fault-detection-terminology-00">
+  <front>
+    <title>Benchmarking Terminology for Output Behavior Fault Detection in Large Language Model Serving Systems</title>
+    <seriesInfo name="Internet-Draft" value="draft-gaikwad-llm-fault-detection-terminology-00"/>
+    <author initials="M." surname="Gaikwad" fullname="Madhava Gaikwad">
+      <organization>Independent</organization>
+    </author>
+    <date day="11" month="August" year="2026"/>
+    <abstract>
+      <t>This document defines terminology for benchmarking the fault
+   detection capability of observability systems that monitor Large
+   Language Model (LLM) serving deployments.  It defines terms for
+   injectable output behavior fault classes, for the detection events
+   and latency intervals those faults produce, and for the coverage and
+   accuracy characteristics of the detector under test.
+
+   The System Under Test is the observability system, and not the
+   language model.  Faults are injected at a known time under controlled
+   conditions, which makes detection latency measurable in a way it is
+   not in production.
+
+   This document defines terminology only.  A companion document defines
+   the corresponding methodology.  This document specifies no test
+   procedures, no acceptance thresholds, and no service-level
+   objectives.</t>
+    </abstract>
+  </front>
+</reference>

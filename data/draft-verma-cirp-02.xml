@@ -1,0 +1,33 @@
+<reference anchor="I-D.verma-cirp" target="https://datatracker.ietf.org/doc/html/draft-verma-cirp-02">
+  <front>
+    <title>A Capability-Oriented Intent Routing Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-verma-cirp-02"/>
+    <author initials="S." surname="Verma" fullname="Saurabh Verma">
+      <organization>Independent</organization>
+    </author>
+    <date day="10" month="August" year="2026"/>
+    <abstract>
+      <t>This document specifies the Capability-Oriented Intent Routing
+   Protocol (CIRP), a capability-oriented protocol layer for routing
+   intent between cryptographically identified endpoints across
+   heterogeneous trust domains.  The protocol defines capability
+   identifiers with mandatory versioning, scoped discovery across five
+   visibility levels, ticket-based session authorization, negotiated
+   cryptographic suites including hybrid post-quantum key establishment,
+   encrypted peer-to-peer session establishment, and mutually attested
+   invocation receipts with hash-chained integrity.  Payload semantics
+   are opaque to the CIRP layer.
+
+   CIRP messages are carried by transport bindings.  The initial binding
+   is datagram-oriented and maps CIRP control-plane and session messages
+   onto UDP.  Other bindings, including QUIC/TLS-based bindings, may be
+   specified separately.
+
+   This revision clarifies the protocol architecture in response to
+   early review.  It distinguishes CIRP core semantics from transport
+   bindings, separates endpoint identity from reachability locators,
+   separates discovery from authorization, and introduces no wire-format
+   changes.</t>
+    </abstract>
+  </front>
+</reference>
