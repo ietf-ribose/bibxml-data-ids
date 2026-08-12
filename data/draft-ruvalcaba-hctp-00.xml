@@ -1,0 +1,25 @@
+<reference anchor="I-D.ruvalcaba-hctp" target="https://datatracker.ietf.org/doc/html/draft-ruvalcaba-hctp-00">
+  <front>
+    <title>The Hash-Chain Context Transfer Protocol (HCTP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ruvalcaba-hctp-00"/>
+    <author initials="C. X." surname="Ruvalcaba" fullname="Cristian Xavier Ruvalcaba">
+      <organization>Saluca LLC</organization>
+    </author>
+    <date day="11" month="August" year="2026"/>
+    <abstract>
+      <t>The Hash-Chain Context Transfer Protocol (HCTP) is a payload format
+   and synchronization protocol for incrementally transferring an
+   ordered, append-only sequence of conversational context between two
+   endpoints over a bandwidth-constrained channel.  Acknowledged history
+   is represented by a single fixed-size rolling hash commitment (the
+   "static root"); only not-yet-acknowledged context blocks (the
+   "dynamic window") are transmitted.  As a result, the per-message wire
+   overhead attributable to history is constant and independent of the
+   total number of previously acknowledged turns.  HCTP is transport-
+   agnostic and carries no confidentiality or peer authentication of its
+   own; it is intended to run over a secure transport.  This document
+   specifies the HCTP data model, wire format, rolling-root computation,
+   and synchronization state machine.</t>
+    </abstract>
+  </front>
+</reference>
