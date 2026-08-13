@@ -1,0 +1,26 @@
+<reference anchor="I-D.bradleyb-audit-decision-records" target="https://datatracker.ietf.org/doc/html/draft-bradleyb-audit-decision-records-00">
+  <front>
+    <title>Signed Decision Records for Agent Authorization: Disclosures, Entry Emission, and Ordering Evidence</title>
+    <seriesInfo name="Internet-Draft" value="draft-bradleyb-audit-decision-records-00"/>
+    <author initials="B." surname="B" fullname="Bradley B"/>
+    <date day="13" month="August" year="2026"/>
+    <abstract>
+      <t>Audit systems for autonomous agents commonly record the actions an
+   agent performed.  This makes the non-occurrence of a permitted action
+   unrepresentable: when nothing happens, there is no action to emit
+   anything.  This document describes an evidence model that records the
+   authorization decision rather than the action.  A decision exists
+   whether or not the action follows, so denials, expiries, and
+   commitments that were granted and never honoured remain
+   representable.
+
+   The document defines four disclosures that make a decision record
+   independently evaluable, an entry-emission rule for states a relying
+   party may need to reason about, and the evidentiary basis for claims
+   that a decision preceded its effect.  It distinguishes
+   correspondence, where two records agree about what happened, from
+   precedence, where the order of decision and effect is established,
+   and it requires records to state which of the two they carry.</t>
+    </abstract>
+  </front>
+</reference>
