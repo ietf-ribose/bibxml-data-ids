@@ -1,0 +1,35 @@
+<reference anchor="I-D.pq-sectunnel" target="https://datatracker.ietf.org/doc/html/draft-pq-sectunnel-00">
+  <front>
+    <title>PQ-SecTunnel Protocol Specification</title>
+    <seriesInfo name="Internet-Draft" value="draft-pq-sectunnel-00"/>
+    <author initials="K." surname="Fan" fullname="Kai Fan">
+      <organization>Xidian University</organization>
+    </author>
+    <author initials="R." surname="Su" fullname="Ruidan Su">
+      <organization>Xidian University</organization>
+    </author>
+    <author initials="Y." surname="Wang" fullname="Yi Wang">
+      <organization>Xidian University</organization>
+    </author>
+    <author initials="J." surname="Cheng" fullname="Jiaqing Cheng">
+      <organization>Xidian University</organization>
+    </author>
+    <date day="13" month="August" year="2026"/>
+    <abstract>
+      <t>This document specifies the PQ-SecTunnel protocol, a UDP-based
+   quantum-resistant IP tunnel derived from the WireGuard architecture.
+   Session keys are established by a three-message Noise_IKpsk1kem
+   handshake that replaces Diffie-Hellman with dual Key Encapsulation
+   Mechanism (KEM) operations (static and ephemeral).  Authentication is
+   implicit: peers prove possession of long-term KEM private keys
+   through interlocking encapsulations rather than signing the
+   transcript.  The protocol is organized as a multi-suite framework.
+   Implementations MAY select ML-KEM-512 or ML-KEM-768 independently for
+   the static and ephemeral KEM roles.  This document RECOMMENDS the
+   profile static=ML-KEM-512, ephemeral=ML-KEM-768, AEAD=SM4-GCM,
+   Hash=SM3 (denoted mlkem512-mlkem768-sm4gcm-sm3).  Other ML-KEM
+   combinations with the same AEAD/Hash, and additional KEM families
+   such as Aigis-enc (integration ongoing), are optional profiles.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,23 @@
+<reference anchor="I-D.ruvalcaba-nhe-mesh" target="https://datatracker.ietf.org/doc/html/draft-ruvalcaba-nhe-mesh-00">
+  <front>
+    <title>The NHE Mesh Protocol: Entity-to-Entity Messaging and Task Distribution</title>
+    <seriesInfo name="Internet-Draft" value="draft-ruvalcaba-nhe-mesh-00"/>
+    <author initials="C. X." surname="Ruvalcaba" fullname="Cristian Xavier Ruvalcaba">
+      <organization>Saluca LLC</organization>
+    </author>
+    <date day="13" month="August" year="2026"/>
+    <abstract>
+      <t>The NHE Mesh Protocol lets independently operated Non-Human Entities
+   (NHEs) exchange messages and distribute work without a central
+   coordinator.  It defines three things: a liveness/presence mechanism,
+   an addressed message envelope, and a task lifecycle (create, claim,
+   complete) that provides at-most-once assignment of a unit of work
+   across mutually distrusting peers.  Peers are named by their NHE
+   identity and authenticated through the NHE identity interface; the
+   Mesh Protocol carries the envelope and runs over a secure transport.
+   This is a skeleton (-00): the framing, message set, and state machine
+   are specified here, and the concrete on-the-wire encoding is deferred
+   to the next revision.</t>
+    </abstract>
+  </front>
+</reference>
