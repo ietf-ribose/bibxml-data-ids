@@ -1,0 +1,25 @@
+<reference anchor="I-D.sury-dnsop-rrsig-refused" target="https://datatracker.ietf.org/doc/html/draft-sury-dnsop-rrsig-refused-00">
+  <front>
+    <title>Refusing DNS Queries That Have QTYPE=RRSIG</title>
+    <seriesInfo name="Internet-Draft" value="draft-sury-dnsop-rrsig-refused-00"/>
+    <author initials="O." surname="Sur&#xFD;" fullname="Ond&#x159;ej Sur&#xFD;">
+      <organization>Internet Systems Consortium</organization>
+    </author>
+    <author initials="J." surname="V&#x10D;el&#xE1;k" fullname="Jan V&#x10D;el&#xE1;k">
+      <organization>Internet Systems Consortium</organization>
+    </author>
+    <author initials="P." surname="&#x160;pa&#x10D;ek" fullname="Petr &#x160;pa&#x10D;ek">
+      <organization>Internet Systems Consortium</organization>
+    </author>
+    <date day="14" month="August" year="2026"/>
+    <abstract>
+      <t>The Domain Name System (DNS) allows a query with QTYPE=RRSIG.  Such a
+   query has no useful answer.  RRSIG resource records are meaningful
+   only together with the resource records they cover, so a response can
+   carry no more than an arbitrary subset of the signatures present at
+   the query name.  This document specifies that DNS responders refuse
+   queries with QTYPE=RRSIG, and that DNS requestors do not send them.
+   It supplies the guidance that [RFC8482] left unspecified.</t>
+    </abstract>
+  </front>
+</reference>
