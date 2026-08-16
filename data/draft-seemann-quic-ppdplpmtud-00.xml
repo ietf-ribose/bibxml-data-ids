@@ -1,0 +1,22 @@
+<reference anchor="I-D.seemann-quic-ppdplpmtud" target="https://datatracker.ietf.org/doc/html/draft-seemann-quic-ppdplpmtud-00">
+  <front>
+    <title>Parallel Probing DPLPMTUD for QUIC</title>
+    <seriesInfo name="Internet-Draft" value="draft-seemann-quic-ppdplpmtud-00"/>
+    <author initials="M." surname="Seemann" fullname="Marten Seemann"/>
+    <author initials="L." surname="Eggert" fullname="Lars Eggert">
+      <organization>Mozilla</organization>
+    </author>
+    <date day="15" month="August" year="2026"/>
+    <abstract>
+      <t>QUIC endpoints commonly use 1200-byte datagrams during the handshake
+   and only start Path MTU Discovery afterward.  This means that just-
+   established QUIC connections cannot immediately use larger datagrams,
+   which is especially limiting for MASQUE protocols and for
+   WebTransport.  This document defines Parallel Probing DPLPMTUD
+   (PPDPLPMTUD), which probes several packet sizes early during the QUIC
+   handshake, so a larger discovered size is usable during later
+   handshake phases and especially after handshake completion.  The same
+   discovery process is also used for path migration.</t>
+    </abstract>
+  </front>
+</reference>
