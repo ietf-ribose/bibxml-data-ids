@@ -1,0 +1,35 @@
+<reference anchor="I-D.wallace-aipref-grant-binding" target="https://datatracker.ietf.org/doc/html/draft-wallace-aipref-grant-binding-02">
+  <front>
+    <title>A Verifiable-Credential Binding for AI Usage Preferences: Expressing Grants that Lift AIPREF Preferences</title>
+    <seriesInfo name="Internet-Draft" value="draft-wallace-aipref-grant-binding-02"/>
+    <author initials="" surname="wallace" fullname="wallace">
+      <organization>LicenseFoundry</organization>
+    </author>
+    <date day="18" month="August" year="2026"/>
+    <abstract>
+      <t>The AI Preferences (AIPREF) vocabulary lets those with rights in a
+   digital asset express preferences -- for example, that training of AI
+   models is disallowed -- about how automated systems process that
+   asset.  Such a preference expresses a reservation.  It does not, by
+   itself, provide a verifiable, revocable record of a specific grant
+   that lifts a preference for a specific party.
+
+   This document describes that gap and proposes a candidate mechanism:
+   a cryptographically signed, offline-verifiable credential that
+   expresses a grant referencing an AIPREF usage category and a specific
+   asset, that any party can verify without contacting the grantor, and
+   that the grantor can revoke.  It is intended as a starting point for
+   discussion, not as a finished specification.
+
+   The mechanism is preference-general.  Training is used throughout as
+   the worked example because it is the reservation most widely
+   discussed, but nothing in the construction is specific to it: the
+   credential binds whichever usage category was reserved to a named
+   party, and the same procedure applies to any other category the
+   vocabulary expresses.  What the mechanism establishes is that a grant
+   exists, is authentic, is unrevoked, and was in force at a stated
+   time.  It does not adjudicate whether the grantor had standing to
+   grant, and it is not an enforcement or access-control mechanism.</t>
+    </abstract>
+  </front>
+</reference>
