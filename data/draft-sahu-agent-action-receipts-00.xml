@@ -1,0 +1,26 @@
+<reference anchor="I-D.sahu-agent-action-receipts" target="https://datatracker.ietf.org/doc/html/draft-sahu-agent-action-receipts-00">
+  <front>
+    <title>Signed, Hash-Chained Action Receipts for AI Agents</title>
+    <seriesInfo name="Internet-Draft" value="draft-sahu-agent-action-receipts-00"/>
+    <author initials="N." surname="sahu" fullname="Nancy sahu">
+      <organization>kriya native</organization>
+    </author>
+    <date day="16" month="August" year="2026"/>
+    <abstract>
+      <t>This document specifies a format for action receipts: compact,
+   individually signed JSON records that state that a specific AI agent
+   attempted a specific action at a specific time, under a specific
+   policy decision, and what the outcome was.  Receipts are linked into
+   an append-only hash chain so that deletion, insertion, reordering, or
+   modification of any previously recorded receipt is detectable by a
+   verifier that holds only the records and the signer's public key.
+
+   The format is deliberately small and self-contained.  Verification
+   requires no network access, no service operated by the producer of
+   the receipts, and no state beyond the records themselves and a trust
+   anchor obtained out of band.  This document specifies the record
+   fields, the canonical byte sequence that is signed, the chain linkage
+   rule, the verification procedure, and test vectors.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,37 @@
+<reference anchor="I-D.qin-savnet-bicone-sav" target="https://datatracker.ietf.org/doc/html/draft-qin-savnet-bicone-sav-01">
+  <front>
+    <title>Bicone Source Address Validation</title>
+    <seriesInfo name="Internet-Draft" value="draft-qin-savnet-bicone-sav-01"/>
+    <author initials="L." surname="Qin" fullname="Lancheng Qin">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author initials="D." surname="Li" fullname="Dan Li">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="L." surname="Chen" fullname="Li Chen">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author initials="L." surname="Liu" fullname="Libin Liu">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <date day="17" month="August" year="2026"/>
+    <abstract>
+      <t>Source address validation (SAV) aims to detect source-spoofed traffic
+   while avoiding improper blocking of legitimate traffic.  Existing SAV
+   mechanisms commonly rely on ingress allowlist filters on interfaces
+   facing customer or lateral peer Autonomous Systems (ASes).  When such
+   an allowlist is incomplete, a source address not covered by the
+   allowlist cannot be conclusively identified as spoofed, because
+   legitimate source prefixes may be missing from the allowlist.  This
+   document describes Bicone SAV, which jointly uses an allowlist
+   derived from customer-cone information and a blocklist containing
+   prefixes that can be positively identified as inappropriate on the
+   corresponding ingress interface.  When the allowlist is incomplete,
+   packets matching the allowlist are permitted, packets matching the
+   blocklist are discarded, and packets matching neither list are
+   permitted with logging or other monitoring for subsequent analysis.
+   The blocklist can be constructed from provider-cone information and
+   augmented with denylist information derived from customer cones.</t>
+    </abstract>
+  </front>
+</reference>
