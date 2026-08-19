@@ -1,0 +1,26 @@
+<reference anchor="I-D.das-execution-finality-ai-interoperability" target="https://datatracker.ietf.org/doc/html/draft-das-execution-finality-ai-interoperability-00">
+  <front>
+    <title>Breaking the Apple-Siri EU DMA Deadlock Without Sacrificing Privacy or Security</title>
+    <seriesInfo name="Internet-Draft" value="draft-das-execution-finality-ai-interoperability-00"/>
+    <author initials="S." surname="Das" fullname="Sangam Das"/>
+    <date day="19" month="August" year="2026"/>
+    <abstract>
+      <t>The Apple-Siri interoperability debate under the EU Digital Markets Act
+exposes a difficult technical question: how can third-party AI assistants gain meaningful
+access to device functions without forcing the platform to surrender privacy, security, or control over consequential actions?     This paper proposes an execution-finality architecture in which an AI assistant may request an action, but the request itself has no power to make
+that action effective. Each consequential operation remains in a Non-Effective State
+until protected infrastructure validates the requester, resource, destination, user intent where required, freshness, revocation state, and policy conditions.     Only then is narrowly scoped, non-bearer execution authority created. At the Finality Sink - the first boundary where the
+action can become externally effective - the system independently verifies that the real
+operation still matches what was authorized. Any mismatch, replay, substitution, expiry,
+or revocation causes fail-closed denial. The key principle is simple: 
+   Interoperability should grant participation, not uncontrolled execution
+authority. 
+   This offers a possible technical path through the DMA deadlock: third-party
+assistants could participate meaningfully without requiring broad reusable
+permissions, while platforms retain strong privacy, security, revocation,
+anti-replay, and final-effect controls.  Execution-Finality Governance therefore
+reframes the problem from closed versus open to open participation with bounded,
+verifiable authority.</t>
+    </abstract>
+  </front>
+</reference>
