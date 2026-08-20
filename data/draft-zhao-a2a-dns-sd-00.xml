@@ -1,0 +1,21 @@
+<reference anchor="I-D.zhao-a2a-dns-sd" target="https://datatracker.ietf.org/doc/html/draft-zhao-a2a-dns-sd-00">
+  <front>
+    <title>DNS-Based Service Discovery for Agent2Agent (A2A) Protocol Agents</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhao-a2a-dns-sd-00"/>
+    <author initials="C." surname="&#x8D75;&#x660C;&#x5CFB;" fullname="&#x8D75;&#x660C;&#x5CFB;"/>
+    <date day="19" month="August" year="2026"/>
+    <abstract>
+      <t>The Agent2Agent (A2A) protocol defines how two agents communicate
+   once one knows the other's URL, and how an agent's self-description
+   (the Agent Card) is retrieved from a well-known URI at that URL.  It
+   does not define how agents on the same host or local network find
+   each other in the first place.  This document profiles DNS-Based
+   Service Discovery (DNS-SD) over Multicast DNS (mDNS) for that
+   purpose: it defines the "a2a" service type, the TXT record keys used
+   with it, the discovery procedure, and the security model under which
+   discovery results are treated as hints whose trust is established by
+   Agent Card verification, not by the discovery channel.  It also
+   requests IANA registration of the "a2a" service name.</t>
+    </abstract>
+  </front>
+</reference>

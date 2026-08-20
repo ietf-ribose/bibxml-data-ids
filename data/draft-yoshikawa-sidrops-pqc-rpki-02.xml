@@ -1,0 +1,29 @@
+<reference anchor="I-D.yoshikawa-sidrops-pqc-rpki" target="https://datatracker.ietf.org/doc/html/draft-yoshikawa-sidrops-pqc-rpki-02">
+  <front>
+    <title>Post-Quantum Signature Experiments and Migration Considerations for the Resource Public Key Infrastructure (RPKI)</title>
+    <seriesInfo name="Internet-Draft" value="draft-yoshikawa-sidrops-pqc-rpki-02"/>
+    <author initials="T." surname="Yoshikawa" fullname="Tomoki Yoshikawa">
+      <organization>Kyoto University</organization>
+    </author>
+    <author initials="L." surname="Velvindron" fullname="Loganaden Velvindron">
+      <organization>cyberstorm.mu</organization>
+    </author>
+    <date day="19" month="August" year="2026"/>
+    <abstract>
+      <t>This document reports experiments with post-quantum signature
+   algorithms and analyzes migration approaches for the Resource Public
+   Key Infrastructure (RPKI).  The experiments compare classical, post-
+   quantum, and composite signature candidates; generate and validate
+   RPKI-profiled certificate, CRL, manifest, and ROA test objects;
+   evaluate Parallel Publication and Mixed Tree migration as distinct
+   migration structures; and evaluate the effect of larger objects on
+   rsync, RRDP, and Erik Synchronization.  The results identify
+   implementation, interoperability, repository-distribution, and
+   operational questions that need to be resolved before a production
+   algorithm profile or transition procedure can be specified.  This
+   document is informational.  It does not update RFC 7935 or RFC 6916,
+   define a new RPKI algorithm profile, or authorize the use of the
+   evaluated algorithms or Mixed Tree migration in the production RPKI.</t>
+    </abstract>
+  </front>
+</reference>

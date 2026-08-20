@@ -1,0 +1,33 @@
+<reference anchor="I-D.saha-aadp" target="https://datatracker.ietf.org/doc/html/draft-saha-aadp-01">
+  <front>
+    <title>The Agent Action Decision Protocol (AADP): Per-Action Authorization for AI Agents</title>
+    <seriesInfo name="Internet-Draft" value="draft-saha-aadp-01"/>
+    <author initials="S." surname="Saha" fullname="Shamik Saha">
+      <organization>Independent</organization>
+    </author>
+    <date day="20" month="August" year="2026"/>
+    <abstract>
+      <t>The Agent Action Decision Protocol (AADP) separates per-action
+   authorization from an agent's identity and its standing capabilities,
+   and gives that authorization semantics that a stateless tool
+   permission or access grant cannot express: whether a specific
+   proposed action, with specific argument values, may be performed now,
+   given mutable state such as cumulative budgets, live reservations,
+   approval lifecycle, and a kill switch.  Existing agent-security work
+   concentrates on identity -- who an agent is, what credentials it
+   holds, and which tools it may reach; AADP addresses the complementary
+   decision, and composes with that work rather than replacing it.  This
+   document defines a two-phase wire contract between a Policy Decision
+   Point (PDP) that authorizes agent actions and the Policy Enforcement
+   Points (PEPs) that perform them: verdicts with machine-readable
+   reasons, obligations that fail closed, atomic budget reservation, an
+   approval lifecycle, idempotency behavior, evidence sufficient to re-
+   derive every verdict, and a set of evaluation invariants any
+   conformant decision point must observe -- including the rule that an
+   irreversible action is never executed autonomously.  The protocol is
+   transport-agnostic and is designed so that decision points and
+   enforcement points can be implemented independently, in different
+   languages, by different parties.</t>
+    </abstract>
+  </front>
+</reference>
