@@ -1,0 +1,29 @@
+<reference anchor="I-D.schrock-kintzele-grid-curtailment" target="https://datatracker.ietf.org/doc/html/draft-schrock-kintzele-grid-curtailment-00">
+  <front>
+    <title>GRACE: Evidence-Bound Grid Curtailment Admission, Observation, and Single-Use Settlement</title>
+    <seriesInfo name="Internet-Draft" value="draft-schrock-kintzele-grid-curtailment-00"/>
+    <author initials="I." surname="Schrock" fullname="Iman Schrock">
+      <organization>EMILIA Protocol, Inc.</organization>
+    </author>
+    <author initials="J." surname="Kintzele" fullname="Justin D. Kintzele">
+      <organization>J Diesel NY, LLC</organization>
+    </author>
+    <date day="21" month="August" year="2026"/>
+    <abstract>
+      <t>This document defines GRACE, an application profile for one bounded
+   grid.curtailment action.  The profile binds an exact action to a
+   finite participation envelope, distinct human approvals when
+   required, one-attempt executor admission, an authenticated actuator
+   acknowledgment, separately authenticated meter observations, an
+   Action State Signed Statement, and one-time admission to a settlement
+   effect.  Missing or ambiguous post-invocation evidence is preserved
+   as indeterminate and cannot authorize blind retry.
+
+   GRACE verifies signed inputs and deterministic computations.  It does
+   not establish physical meter truth, baseline correctness, tariff
+   eligibility, actual payment, complete mediation, or a physical grid
+   deployment.  An optional hybrid artifact-signature profile combines
+   Ed25519 with ML-DSA-65 and requires both signatures to verify.</t>
+    </abstract>
+  </front>
+</reference>
