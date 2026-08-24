@@ -1,0 +1,23 @@
+<reference anchor="I-D.dogru-scitt-disclosure-evidence" target="https://datatracker.ietf.org/doc/html/draft-dogru-scitt-disclosure-evidence-07">
+  <front>
+    <title>Transformation Evidence and Coverage Reconciliation for Auditable Data Disclosure</title>
+    <seriesInfo name="Internet-Draft" value="draft-dogru-scitt-disclosure-evidence-07"/>
+    <author initials="E. C." surname="Do&#x11F;ru" fullname="Emek Can Do&#x11F;ru (Emek Can Dogru)">
+      <organization>VERAX TEKNOLOJİ LİMİTED ŞİRKETİ</organization>
+    </author>
+    <date day="23" month="August" year="2026"/>
+    <abstract>
+      <t>Audit receipts record what a gateway wrote about an access.  They
+   omit how data changed and whether every access left a receipt.  This
+   document defines two evidence payloads for those gaps.
+   Transformation Evidence states which value classes were transformed,
+   and how, without carrying values.  Coverage Reconciliation compares
+   source activity counters with a receipt set over a window.  Each item
+   is matched, observed without a receipt, receipted without an
+   observation, excluded, or indeterminate.  The result is not a bare
+   pass.  Both payloads register as Signed Statements on a SCITT
+   Transparency Service.  This document defines no new receipt format,
+   transparency mechanism, or signature format.</t>
+    </abstract>
+  </front>
+</reference>

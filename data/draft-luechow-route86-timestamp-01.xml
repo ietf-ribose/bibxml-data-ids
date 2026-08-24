@@ -1,0 +1,23 @@
+<reference anchor="I-D.luechow-route86-timestamp" target="https://datatracker.ietf.org/doc/html/draft-luechow-route86-timestamp-01">
+  <front>
+    <title>Route86: A Compact Context-Dependent Timestamp Format</title>
+    <seriesInfo name="Internet-Draft" value="draft-luechow-route86-timestamp-01"/>
+    <author initials="T." surname="L&#xFC;chow" fullname="Thomas L&#xFC;chow">
+      <organization>Dorfzwockel</organization>
+    </author>
+    <date day="24" month="August" year="2026"/>
+    <abstract>
+      <t>This document specifies Route86, a compact textual timestamp format
+   for constrained message transports.  A Route86 value consists of a
+   three-character Base36 calendar-day component and a three-digit
+   decimal time-of-day component.  The canonical representation occupies
+   exactly six ASCII characters.
+
+   The calendar component is interpreted relative to an external
+   reference date.  The reference date itself encodes as AAA.  The time-
+   of-day component divides a fixed BMT day, defined here as UTC+01:00
+   without daylight-saving adjustment, into 1000 intervals of 86.4
+   seconds.</t>
+    </abstract>
+  </front>
+</reference>

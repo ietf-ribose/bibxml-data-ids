@@ -1,0 +1,26 @@
+<reference anchor="I-D.denis-ipcrypt" target="https://datatracker.ietf.org/doc/html/draft-denis-ipcrypt-14">
+  <front>
+    <title>Methods for IP Address Encryption and Obfuscation</title>
+    <seriesInfo name="Internet-Draft" value="draft-denis-ipcrypt-14"/>
+    <author initials="C." surname="Barber" fullname="Christopher Barber">
+      <organization>Trim</organization>
+    </author>
+    <author initials="F." surname="Denis" fullname="Frank Denis">
+      <organization>Fastly Inc.</organization>
+    </author>
+    <date day="24" month="August" year="2026"/>
+    <abstract>
+      <t>This document specifies secure, efficient methods for Internet
+   Protocol (IP) address encryption and obfuscation in privacy-
+   preserving storage, logging, and analytics.  Unlike truncation, which
+   destroys data irreversibly, these methods are reversible with the
+   encryption key while providing strong privacy guarantees.
+
+   Four modes are defined: ipcrypt-deterministic (format-preserving, IP-
+   address output), ipcrypt-pfx (prefix-preserving, native address
+   size), ipcrypt-nd and ipcrypt-ndx (non-deterministic with random
+   tweaks).  All support high-performance processing at network speeds
+   and produce interoperable results across implementations.</t>
+    </abstract>
+  </front>
+</reference>
