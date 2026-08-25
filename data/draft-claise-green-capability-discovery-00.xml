@@ -1,0 +1,28 @@
+<reference anchor="I-D.claise-green-capability-discovery" target="https://datatracker.ietf.org/doc/html/draft-claise-green-capability-discovery-00">
+  <front>
+    <title>Discovering the Power State Capabilities of Components</title>
+    <seriesInfo name="Internet-Draft" value="draft-claise-green-capability-discovery-00"/>
+    <author initials="B." surname="Claise" fullname="Beno&#xEE;t Claise">
+      <organization>Everything OPS &amp; Arrcus</organization>
+    </author>
+    <date day="25" month="August" year="2026"/>
+    <abstract>
+      <t>This document defines a YANG module that augments the system
+   capabilities model of RFC 9196 to allow a network element to
+   advertise, per hardware Component, the set of Power States that the
+   Component supports together with a static characterization of each
+   such state: the nominal Power the Component draws in that state.
+
+   This capability model complements the operational Power and Energy
+   data model defined in the GREEN Power and Energy YANG module, which
+   reports the current Power State and the measured Power of a
+   Component, but not which Power States are available or how much Power
+   each draws.  It is anchored to the hardware inventory of RFC 8348,
+   reuses the Power State identities of the GREEN Power and Energy
+   model, and, because it is static, may be provided at implementation
+   time as YANG instance data per RFC 9195 so that an Energy Management
+   System can learn a platform's Power State capabilities before the
+   equipment is deployed or even powered on.</t>
+    </abstract>
+  </front>
+</reference>
