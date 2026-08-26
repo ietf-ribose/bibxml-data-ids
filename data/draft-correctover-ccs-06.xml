@@ -1,0 +1,30 @@
+<reference anchor="I-D.correctover-ccs" target="https://datatracker.ietf.org/doc/html/draft-correctover-ccs-06">
+  <front>
+    <title>Correctover Conformance Shape (CCS): Runtime Verification for AI Agent Tool Calls</title>
+    <seriesInfo name="Internet-Draft" value="draft-correctover-ccs-06"/>
+    <author initials="G." surname="Wang" fullname="Guigui Wang">
+      <organization>Correctover</organization>
+    </author>
+    <date day="25" month="August" year="2026"/>
+    <abstract>
+      <t>This document defines the Correctover Conformance Shape (CCS), a
+   runtime verification framework for AI agent tool calls.  CCS
+   specifies seven verification dimensions (Structure, Schema, Latency,
+   Cost, Identity, Integrity, Security) that tool calls and results must
+   conform to at runtime.  The framework defines a receipt format with
+   Ed25519 signatures, three verdict values (allow, deny, escalate) and
+   four executor lifecycle states (confirmed, dispatched, indeterminate,
+   unknown), and normative requirements for implementations.
+
+   This revision promotes AEB and CAID to Normative References,
+   specifies the detached Ed25519 signature construction over RFC 8785
+   canonical JSON, clarifies receipt lifecycle and signing-algorithm
+   conformance, and documents two independent interoperable
+   implementations (Section 21).
+
+   Distribution of this memo is unlimited.  This Internet-Draft is
+   submitted in full conformance with the provisions of BCP 78 and
+   BCP 79.</t>
+    </abstract>
+  </front>
+</reference>

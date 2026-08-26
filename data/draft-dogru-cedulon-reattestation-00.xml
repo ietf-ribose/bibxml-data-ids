@@ -1,0 +1,26 @@
+<reference anchor="I-D.dogru-cedulon-reattestation" target="https://datatracker.ietf.org/doc/html/draft-dogru-cedulon-reattestation-00">
+  <front>
+    <title>Cedulon Re-Attestation: Carrying Spend Evidence Across Algorithm Retirement</title>
+    <seriesInfo name="Internet-Draft" value="draft-dogru-cedulon-reattestation-00"/>
+    <author initials="E. C." surname="Do&#x11F;ru" fullname="Emek Can Do&#x11F;ru">
+      <organization>VERAX TEKNOLOJI LIMITED SIRKETI</organization>
+    </author>
+    <date day="25" month="August" year="2026"/>
+    <abstract>
+      <t>Audit evidence is only useful for as long as it can be verified.
+   Cedulon produces COSE spend receipts and epoch checkpoints whose
+   signature algorithms will eventually be deprecated or broken; the
+   recent transition from polymorphic EdDSA to fully-specified Ed25519
+   algorithm identifiers shows that even identifiers change within a
+   decade.  This document proposes a re-attestation profile for Cedulon
+   evidence: a signed statement, produced while the original algorithm
+   is still trustworthy, that binds the original evidence bytes to a
+   successor algorithm and is registered in a SCITT transparency
+   service.  Chains of such statements allow a verifier decades later to
+   trust evidence whose original cipher has been retired.  Structures
+   are meant to outlive ciphers.  This is an extension proposal to the
+   Cedulon core document; its normative language is provisional and the
+   companion implementation does not implement it yet.</t>
+    </abstract>
+  </front>
+</reference>

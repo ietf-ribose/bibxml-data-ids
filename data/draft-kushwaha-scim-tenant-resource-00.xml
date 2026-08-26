@@ -1,0 +1,27 @@
+<reference anchor="I-D.kushwaha-scim-tenant-resource" target="https://datatracker.ietf.org/doc/html/draft-kushwaha-scim-tenant-resource-00">
+  <front>
+    <title>SCIM Extension for Tenant-Aware Identity Provisioning</title>
+    <seriesInfo name="Internet-Draft" value="draft-kushwaha-scim-tenant-resource-00"/>
+    <author initials="S." surname="Kushwaha" fullname="Saurabh Kushwaha">
+      <organization>Oracle</organization>
+    </author>
+    <date day="25" month="August" year="2026"/>
+    <abstract>
+      <t>This document defines a System for Cross-domain Identity Management
+   (SCIM) extension for tenant-aware identity provisioning.  The
+   extension introduces a "Tenant" resource type, tenant-membership
+   extensions for the "User" and "Group" resources, a lifecycle state
+   machine for tenants and memberships, tenant-scoped uniqueness
+   discovery, a normative tenant-context resolution rule built around
+   the highest-precedence authenticated indicator together with a stated
+   tenant-binding invariant, concurrency requirements for membership
+   mutation, tenant-aware filtering, and an OPTIONAL region-aware
+   metadata profile.  The extension is backward compatible with SCIM 2.0
+   and is intended for multi-tenant Software as a Service (SaaS), cloud
+   identity, business-to-business identity, identity governance, and
+   multi-region identity deployments.  Scoped role and entitlement
+   bindings are delegated to the SCIM Roles and Entitlements and
+   RoleAssignment work rather than redefined here.</t>
+    </abstract>
+  </front>
+</reference>
