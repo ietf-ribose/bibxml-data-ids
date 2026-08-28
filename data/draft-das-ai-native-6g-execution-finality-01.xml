@@ -1,0 +1,32 @@
+<reference anchor="I-D.das-ai-native-6g-execution-finality" target="https://datatracker.ietf.org/doc/html/draft-das-ai-native-6g-execution-finality-01">
+  <front>
+    <title>Execution-Finality for AI-Native 5G/6G and O-RAN</title>
+    <seriesInfo name="Internet-Draft" value="draft-das-ai-native-6g-execution-finality-01"/>
+    <author initials="S." surname="Das" fullname="Sangam Das">
+      <organization>Independent Inventor</organization>
+    </author>
+    <date day="26" month="August" year="2026"/>
+    <abstract>
+      <t>In programmable and AI-assisted mobile networks, successful
+   authentication of a network function or AI controller does not
+   establish authority for every routing, signaling, session, resource-
+   allocation, sensing, or subscriber-specific consequence that the
+   function can generate.
+
+   This document defines an informational execution-finality profile for
+   AI-native 5G, 5G-Advanced, IMT-2030/6G, O-RAN, and AI-RAN
+   environments.  A proposed network operation is represented as a
+   Network Candidate Act and remains in a Non-Effective State while a
+   Protected Enforcement Domain validates act-specific predicates.
+   Protected validation evidence is committed before, or atomically
+   with, release of scoped non-bearer finality authority.  A Network
+   Finality Sink at the enforcement boundary independently verifies that
+   authority immediately before live network state changes.
+
+   The governing rule is that network authentication is not network
+   finality, and computation is not authority.  This revision also
+   defines a JSON interoperability profile for Candidate Acts,
+   validation decisions, scoped authority, and sink verification.</t>
+    </abstract>
+  </front>
+</reference>

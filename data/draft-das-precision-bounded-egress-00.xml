@@ -1,0 +1,39 @@
+<reference anchor="I-D.das-precision-bounded-egress" target="https://datatracker.ietf.org/doc/html/draft-das-precision-bounded-egress-00">
+  <front>
+    <title>Precision-Bounded Location and Data-Egress Finality</title>
+    <seriesInfo name="Internet-Draft" value="draft-das-precision-bounded-egress-00"/>
+    <author initials="S." surname="Das" fullname="Sangam Das">
+      <organization>Independent Inventor</organization>
+    </author>
+    <date day="26" month="August" year="2026"/>
+    <abstract>
+      <t>Precise location is increasingly valuable inference material.  Modern
+   AI systems can correlate coordinates, timestamps, movement traces,
+   device observations, public maps, telemetry, and other ordinary data
+   to infer sensitive facilities, routines, relationships, or strategic
+   patterns even when no single record explicitly contains the inferred
+   fact.
+
+   This document defines a precision-bounded data-egress execution-
+   finality profile.  Local access to precise data is separated from
+   authority to disclose that data.  A proposed release is represented
+   as a Candidate Act and maintained in a Non-Effective State while a
+   Protected Enforcement Domain evaluates purpose, requesting
+   application or component, recipient, destination, jurisdiction,
+   required precision, policy and revocation state, cumulative
+   disclosure state, and intended egress sink.
+
+   The egress Finality Sink independently verifies scoped non-bearer
+   finality authority immediately before release.  The permitted result
+   may be exact data, a coarse or regional representation, a delayed or
+   randomized representation, or denial.  The core rule is: data access
+   is not data-export authority, and precise GPS access is not precise
+   GPS-release authority.
+
+   This revision also defines a concrete JSON-based interoperability
+   profile for Location Release Candidate Acts, precision-bounded policy
+   decisions, egress finality authority, and sink-side verification of
+   the actual outbound payload.</t>
+    </abstract>
+  </front>
+</reference>

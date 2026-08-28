@@ -1,0 +1,37 @@
+<reference anchor="I-D.das-ot-actuation-finality" target="https://datatracker.ietf.org/doc/html/draft-das-ot-actuation-finality-00">
+  <front>
+    <title>A Setpoint Write Is Not Actuation: Finality for ICS, Grid, and Robot Command</title>
+    <seriesInfo name="Internet-Draft" value="draft-das-ot-actuation-finality-00"/>
+    <author initials="S." surname="Das" fullname="Sangam Das">
+      <organization>Independent Inventor</organization>
+    </author>
+    <date day="26" month="August" year="2026"/>
+    <abstract>
+      <t>Industrial systems already know how to move a breaker, a valve, a
+   robot joint, or a turbine setpoint.  They do not know whether this
+   write — this tag, this value, this device, from this operator session
+   or this agent — is the write that was authorized to become motion.  A
+   signed OPC UA call, a valid DNP3 control, an IEC 61850 command, or an
+   MQTT publish onto the plant bus can all be protocol-correct while the
+   act is wrong.  The protocol authenticates a channel.  It does not
+   bind a Candidate Act at the actuation sink.
+
+   That gap is now an agent gap.  Copilots sit on historians and work-
+   order text.  They propose "explain this alarm" and then "set this
+   point."  If the gateway treats a well-formed write as authority,
+   reconstruction of plant state becomes physical consequence.  Past
+   incidents stole engineering workstations.  Present incidents steal
+   the jump host or the agent seat.  Future incidents let the model
+   format the command.
+
+   This document specifies an OT-side execution-finality profile.  A
+   write remains an Actuation Candidate Act. A Protected Enforcement
+   Domain binds principal, zone, device, tag, value envelope, mode
+   (local/remote, auto/manual), safety interlock state, policy epoch,
+   and intended actuation sink, then commits evidence before scoped non-
+   bearer authority is issued.  The sink that would actually drive I/O
+   verifies that authority against the live write and consumes it.  A
+   setpoint write is not actuation.</t>
+    </abstract>
+  </front>
+</reference>
