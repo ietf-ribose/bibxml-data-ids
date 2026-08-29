@@ -1,0 +1,42 @@
+<reference anchor="I-D.bonica-tcpm-extended-options" target="https://datatracker.ietf.org/doc/html/draft-bonica-tcpm-extended-options-05">
+  <front>
+    <title>An Upgraded TCP Session Type</title>
+    <seriesInfo name="Internet-Draft" value="draft-bonica-tcpm-extended-options-05"/>
+    <author initials="R. P." surname="Bonica" fullname="Ron Bonica">
+      <organization>HPE</organization>
+    </author>
+    <author initials="T." surname="Li" fullname="Tony Li">
+      <organization>HPE</organization>
+    </author>
+    <author initials="P." surname="Chen" fullname="Ping Chen">
+      <organization>HPE</organization>
+    </author>
+    <author initials="P." surname="Kumar" fullname="Prashant Kumar">
+      <organization>HPE</organization>
+    </author>
+    <author initials="R." surname="Thomas" fullname="Reji Thomas">
+      <organization>Arista Networks</organization>
+    </author>
+    <author initials="A. S." surname="Nayak" fullname="A Sujeet Nayak">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author initials="A." surname="Banerjee" fullname="Ayan Banerjee">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date day="29" month="August" year="2026"/>
+    <abstract>
+      <t>Currently, TCP maintains ordinary sessions (SES-O) in which ordinary
+   segments (SEG-O) are exchanged.  Each SEG-O can accommodate up to 40
+   octets of options.
+
+   In the future, applications may require more than 40 octets of
+   options.  For example, an application may use a 36-byte TCP
+   Authentication Option (TCP-AO), leaving insufficient space for other
+   required options.
+
+   Therefore, this document describes an experiment in which upgraded
+   sessions (SES-U) and upgraded segments (SEG-U) are introduced.  Each
+   SEG-U can accommodate up to 1,016 octets of Individual Options.</t>
+    </abstract>
+  </front>
+</reference>
