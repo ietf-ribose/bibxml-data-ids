@@ -1,0 +1,40 @@
+<reference anchor="I-D.luan-cats-catpts" target="https://datatracker.ietf.org/doc/html/draft-luan-cats-catpts-01">
+  <front>
+    <title>A Timescale-Aware Framework for Compute-Aware Task Placement and Traffic Steering in Heterogeneous Geo-Distributed Computing Networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-luan-cats-catpts-01"/>
+    <author initials="Q." surname="Li" fullname="Qing Li">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="Z." surname="Luan" fullname="Zeyu Luan">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="Z." surname="Fan" fullname="Zhuochen Fan">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="Y." surname="Jiang" fullname="Yong Jiang">
+      <organization>Tsinghua SIGS / Pengcheng Laboratory</organization>
+    </author>
+    <date day="28" month="August" year="2026"/>
+    <abstract>
+      <t>Geographically distributed compute-intensive services require
+   coordinated selection of execution sites and wide-area traffic paths.
+   Placement changes slowly because service relocation may involve model
+   loading, state migration, or execution-environment reconfiguration,
+   while traffic splitting can be changed more frequently.
+
+   This document evolves the CATPTS framework by defining a timescale-
+   aware control architecture for source-compute-destination services.
+   A slow-timescale placement function uses abstracted multipath and
+   failure information to select a compute site.  A fast-timescale
+   traffic function then refines the input and output traffic
+   allocations across candidate paths while holding placement fixed.
+
+   The framework also introduces scenario-based service-loss estimation
+   and an optional Conditional Value at Risk (CVaR) policy for limiting
+   tail loss caused by compute-site or network-link failures.  This
+   document specifies architectural principles, information
+   requirements, workflows, and operational considerations; it does not
+   specify protocol extensions or a mandatory optimization algorithm.</t>
+    </abstract>
+  </front>
+</reference>

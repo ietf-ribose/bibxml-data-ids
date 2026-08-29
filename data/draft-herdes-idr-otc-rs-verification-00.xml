@@ -1,0 +1,22 @@
+<reference anchor="I-D.herdes-idr-otc-rs-verification" target="https://datatracker.ietf.org/doc/html/draft-herdes-idr-otc-rs-verification-00">
+  <front>
+    <title>Strict Only to Customer (OTC) Verification on Route Server Sessions</title>
+    <seriesInfo name="Internet-Draft" value="draft-herdes-idr-otc-rs-verification-00"/>
+    <author initials="B." surname="Herdes" fullname="Bryton Herdes">
+      <organization>Cloudflare, Inc.</organization>
+    </author>
+    <author initials="A." surname="Azimov" fullname="Alexander Azimov">
+      <organization>Yandex</organization>
+    </author>
+    <date day="28" month="August" year="2026"/>
+    <abstract>
+      <t>RFC 9234 specifies how an AS receiving a route from a lateral Peer
+   can check if route was lekaed, but doesn't specify any checks for
+   routes received from Route Server (RS).  This makes quility of
+   filtering dependent on whether the RS implements RFC 9234.
+
+   This document updates RFC 9234 by adding complimentary ingress check
+   by RS-Client.</t>
+    </abstract>
+  </front>
+</reference>

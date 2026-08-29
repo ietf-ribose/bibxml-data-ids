@@ -1,0 +1,31 @@
+<reference anchor="I-D.das-agentic-tool-binding" target="https://datatracker.ietf.org/doc/html/draft-das-agentic-tool-binding-01">
+  <front>
+    <title>tool_use Is Not invoke(): Binding Execution-Finality to Claude, ChatGPT, and MCP</title>
+    <seriesInfo name="Internet-Draft" value="draft-das-agentic-tool-binding-01"/>
+    <author initials="S." surname="Das" fullname="Sangam Das">
+      <organization>Independent Inventor</organization>
+    </author>
+    <date day="28" month="August" year="2026"/>
+    <abstract>
+      <t>Frontier runtimes already standardized the dangerous moment.  Claude
+   emits a tool_use block.  ChatGPT emits tool_calls.  MCP emits tools/
+   call.  The host then invokes whatever name and arguments the model
+   printed.  Alignment, allowlists, and OAuth sit around that moment.
+   They do not sit on it.  If the block is treated as a capability,
+   prompt-injected mail, a poisoned retrieval, or a stolen enterprise
+   seat becomes an external act with a 200 from the tool.
+
+   This document does not invent another assistant API.  It binds the
+   Agent Candidate Act profile [I-D.das-agentic] onto the three
+   interfaces those labs and their customers already ship: Anthropic
+   tool_use / computer_use, OpenAI function calling and Responses tools,
+   and Model Context Protocol tools/call.  The model may emit the block.
+   The block remains non-effective.  A local enforcer builds the act,
+   binds the argument digest, and refuses invoke() until scoped
+   authority is verified and consumed at the dispatch sink.
+
+   The implementation target is a middleware function that a host loop
+   can call without changing the model vendor. tool_use is not invoke().</t>
+    </abstract>
+  </front>
+</reference>

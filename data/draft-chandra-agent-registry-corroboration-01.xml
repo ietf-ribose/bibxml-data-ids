@@ -1,0 +1,27 @@
+<reference anchor="I-D.chandra-agent-registry-corroboration" target="https://datatracker.ietf.org/doc/html/draft-chandra-agent-registry-corroboration-01">
+  <front>
+    <title>Multi-Source Corroboration for AI Agent Discovery</title>
+    <seriesInfo name="Internet-Draft" value="draft-chandra-agent-registry-corroboration-01"/>
+    <author initials="S." surname="Chandra" fullname="Sharath Chandra">
+      <organization>Stellarminds.ai</organization>
+    </author>
+    <date day="28" month="August" year="2026"/>
+    <abstract>
+      <t>AI agents are discovered and identified through independent sources,
+   including registries, name services, DID methods, and catalogs.  A
+   single source can misrepresent an agent by omission, withholding a
+   record it holds, or by equivocation, serving different answers to
+   different observers.  A signature on a served artifact does not, by
+   itself, defend against either behavior.  This document specifies a
+   corroboration procedure that classifies one source's claim about one
+   agent observed from one network vantage; reduces claims to comparable
+   views; diffs claims into findings with deterministic attribution;
+   distinguishes legitimate propagation delay from persistent
+   disagreement; and emits a signed Corroboration Record for every
+   sweep, including agreement, that other evidence formats can bind by
+   digest.  The procedure is source-, format-, and layer-agnostic;
+   requires neither cooperation from nor modification of any source; and
+   is verifiable from recorded bytes.</t>
+    </abstract>
+  </front>
+</reference>
