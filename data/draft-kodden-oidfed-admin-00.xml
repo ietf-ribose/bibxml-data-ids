@@ -1,0 +1,26 @@
+<reference anchor="I-D.kodden-oidfed-admin" target="https://datatracker.ietf.org/doc/html/draft-kodden-oidfed-admin-00">
+  <front>
+    <title>OpenID Federation Node Administration Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-kodden-oidfed-admin-00"/>
+    <author initials="H." surname="Kodden" fullname="Harry Kodden">
+      <organization>SURF</organization>
+    </author>
+    <date day="29" month="August" year="2026"/>
+    <abstract>
+      <t>This document specifies a compact HTTP application programming
+   interface for administering an OpenID Federation node.  The interface
+   manages the operator-controlled inputs from which a node produces the
+   Entity Configurations, Subordinate Statements, Trust Marks, and
+   Federation Entity Keys defined by OpenID Federation 1.1.  It does not
+   replace the public federation protocol.  It is the management plane
+   used by operators and control-plane software to configure what that
+   protocol publishes.
+
+   The design is document-oriented.  Operators read and write the same
+   JSON objects OpenID Federation already defines, rather than a large
+   set of per-claim endpoints.  Five resources cover node identity,
+   Federation Entity Keys, the node's Entity Configuration, Immediate
+   Subordinates, and Trust Mark issuance.</t>
+    </abstract>
+  </front>
+</reference>

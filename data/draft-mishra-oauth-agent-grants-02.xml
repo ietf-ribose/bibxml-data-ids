@@ -1,0 +1,23 @@
+<reference anchor="I-D.mishra-oauth-agent-grants" target="https://datatracker.ietf.org/doc/html/draft-mishra-oauth-agent-grants-02">
+  <front>
+    <title>OAuth Profile for Delegated AI Agent Authorization</title>
+    <seriesInfo name="Internet-Draft" value="draft-mishra-oauth-agent-grants-02"/>
+    <author initials="S." surname="Kumar" fullname="Sanjeev Kumar">
+      <organization>Orchestrum Technologies LLP</organization>
+    </author>
+    <date day="30" month="August" year="2026"/>
+    <abstract>
+      <t>AI agents increasingly invoke protected APIs on behalf of human
+   users.  This document defines an OAuth profile for identifying an
+   agent client instance, obtaining an authenticated user's consent,
+   issuing resource-bound and sender-constrained access tokens,
+   attenuating authority through OAuth Token Exchange, and rotating
+   refresh tokens safely.  The profile uses existing OAuth and JOSE
+   mechanisms wherever possible and defines no new JWT claims or OAuth
+   endpoints.  Operational facilities such as policy engines, audit
+   stores, budgets, event streams, and credential vaults are outside the
+   interoperable core.  Grantex is an incomplete reference
+   implementation and is not required for conformance.</t>
+    </abstract>
+  </front>
+</reference>

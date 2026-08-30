@@ -1,0 +1,25 @@
+<reference anchor="I-D.dikshit-netmod-comparability-scope-extension" target="https://datatracker.ietf.org/doc/html/draft-dikshit-netmod-comparability-scope-extension-00">
+  <front>
+    <title>A YANG Extension for Declaring the Comparability Scope of Operational State</title>
+    <seriesInfo name="Internet-Draft" value="draft-dikshit-netmod-comparability-scope-extension-00"/>
+    <author initials="D." surname="Dikshit" fullname="Saumya Dikshit">
+      <organization>Aruba Networks</organization>
+    </author>
+    <date day="29" month="August" year="2026"/>
+    <abstract>
+      <t>Several YANG modules currently in progress across multiple IETF
+   working groups define counters, gauges, and other measured values
+   that are exported from a network element and compared, summed, or
+   averaged by a remote collector, either against the same node's
+   history or against values from a different node. YANG (RFC 7950)
+   has no first-class, machine-checkable way to state the domain
+   within which two occurrences of such a value are comparable, so
+   this determination is currently made, inconsistently or not at
+   all, in prose. This document defines a YANG extension statement,
+   "csc:comparability-scope", a four-value scope lattice, and a
+   compatibility rule that lets a schema-aware tool statically detect
+   an illegal aggregation across incomparable scopes, without waiting
+   for it to happen at a collector.</t>
+    </abstract>
+  </front>
+</reference>
