@@ -1,0 +1,30 @@
+<reference anchor="I-D.abak-agent-control-delivery-evidence" target="https://datatracker.ietf.org/doc/html/draft-abak-agent-control-delivery-evidence-00">
+  <front>
+    <title>Evidence Requirements for Agent Control Delivery and Outcome Reconciliation</title>
+    <seriesInfo name="Internet-Draft" value="draft-abak-agent-control-delivery-evidence-00"/>
+    <author initials="A. T." surname="Abak" fullname="Ali Toygar Abak">
+      <organization>Independent Researcher</organization>
+    </author>
+    <date day="31" month="August" year="2026"/>
+    <abstract>
+      <t>Agent systems can issue stop, suspend, revoke, constrain, cancel, or
+   override instructions across system and administrative boundaries.  A
+   record that such a control was decided or dispatched does not
+   establish that the intended enforcement point received or applied it.
+   Conversely, the absence of an acknowledgement does not, by itself,
+   establish non-delivery.
+
+   This document defines format-independent evidence requirements for
+   preserving that distinction.  It separates issuer-side emission,
+   receiver-side observation, enforcement outcome, and observation of
+   the resulting control effect.  It also defines negative-observation
+   rules, per-instruction reconciliation states, and bounded-population
+   accounting so that missing, malformed, conflicting, and unmatched
+   records remain visible.
+
+   This document does not define a receipt format, wire protocol,
+   authorization system, policy language, transparency service, or audit
+   regime.</t>
+    </abstract>
+  </front>
+</reference>

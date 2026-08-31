@@ -1,0 +1,30 @@
+<reference anchor="I-D.li-cats-aisemantic-contract" target="https://datatracker.ietf.org/doc/html/draft-li-cats-aisemantic-contract-01">
+  <front>
+    <title>Semantic-Driven Traffic Shaping Contract for AI Networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-cats-aisemantic-contract-01"/>
+    <author initials="Q." surname="Li" fullname="Qing Li">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="T." surname="Gao" fullname="Teng Gao">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="Y." surname="Jiang" fullname="Yong Jiang">
+      <organization>Tsinghua Shenzhen International Graduate School &amp; Pengcheng Laboratory</organization>
+    </author>
+    <date day="30" month="August" year="2026"/>
+    <abstract>
+      <t>This document defines a "Semantic-Driven Shaping Contract".
+   Traditional network protocols treat AI training and inference traffic
+   as opaque byte streams, leading to highly inefficient scheduling.
+   This contract allows applications or distributed training frameworks
+   to explicitly pass "minimum necessary semantics" to the underlying
+   network.  In exchange, the network commits to executing fine-grained,
+   differentiated forwarding and resource allocation actions for tensor
+   flows with diverse semantics, based on predefined rules and global
+   real-time states.  This model significantly improves overall resource
+   utilization and task completion times in heterogeneous computing
+   networks, cross-domain intelligent computing centers, and integrated
+   training-inference scenarios.</t>
+    </abstract>
+  </front>
+</reference>

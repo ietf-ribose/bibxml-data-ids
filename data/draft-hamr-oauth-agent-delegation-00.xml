@@ -1,0 +1,24 @@
+<reference anchor="I-D.hamr-oauth-agent-delegation" target="https://datatracker.ietf.org/doc/html/draft-hamr-oauth-agent-delegation-00">
+  <front>
+    <title>An Attenuated Delegation Profile for Automated Agents</title>
+    <seriesInfo name="Internet-Draft" value="draft-hamr-oauth-agent-delegation-00"/>
+    <author initials="A." surname="Hassan" fullname="Amr Hassan">
+      <organization>Independent</organization>
+    </author>
+    <date day="31" month="August" year="2026"/>
+    <abstract>
+      <t>This document specifies a profile for delegating authorization to
+   automated agents across administrative domains.  It defines an HTTP
+   header field, Agent-Delegation, that carries a chain of attenuated
+   delegation links.  Each link narrows the scope, tightens or holds a
+   set of floor conditions, and shortens or holds the expiry of its
+   parent.  A verifier checks every link in the chain, not only the
+   last, and rejects the chain if any link violates attenuation.  The
+   profile is deliberately agnostic to the credential format and to the
+   nature of the entity that issues floor attestations; it specifies
+   required properties, not a specific encoding or a specific kind of
+   issuer.  It composes with, and does not replace, existing work on
+   agent credential provisioning and posture.</t>
+    </abstract>
+  </front>
+</reference>

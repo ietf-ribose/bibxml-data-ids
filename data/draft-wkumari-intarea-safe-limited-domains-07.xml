@@ -1,0 +1,42 @@
+<reference anchor="I-D.wkumari-intarea-safe-limited-domains" target="https://datatracker.ietf.org/doc/html/draft-wkumari-intarea-safe-limited-domains-07">
+  <front>
+    <title>Safe(r) Limited Domains</title>
+    <seriesInfo name="Internet-Draft" value="draft-wkumari-intarea-safe-limited-domains-07"/>
+    <author initials="W." surname="Kumari" fullname="Warren Kumari">
+      <organization>Google, LLC</organization>
+    </author>
+    <author initials="A." surname="Alston" fullname="Andrew Alston">
+      <organization>Alston Networks</organization>
+    </author>
+    <author initials="E." surname="Vyncke" fullname="&#xC9;ric Vyncke">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="S." surname="Krishnan" fullname="Suresh Krishnan">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="D. E." surname="Eastlake" fullname="Donald E. Eastlake 3rd">
+      <organization>Independent</organization>
+    </author>
+    <date day="30" month="August" year="2026"/>
+    <abstract>
+      <t>Documents describing protocols intended solely for use within
+   "limited domains" often rely on edge filtering at every boundary node
+   to prevent domain-internal traffic from leaking to the global
+   Internet (and vice versa).  Relying purely on administrative
+   filtering creates "fail-open" designs that are susceptible to
+   configuration errors, ACL bypass, and hardware table exhaustion.
+
+   This document describes design principles and concrete mechanisms
+   that allow limited-domain protocols to "fail-closed" by default.  By
+   leveraging Layer-2 encapsulation identifiers (such as dedicated or
+   extended EtherTypes), link-local address scoping, and / or Hop-Limit
+   boundaries, protocol designers can significantly reduce the
+   operational and security risks associated with limited domain
+   protocols.
+
+   These mechanisms are not applicable to all protocols intended for use
+   in a limited domain, but if implemented on certain classes of
+   protocols, can significantly reduce the risks.</t>
+    </abstract>
+  </front>
+</reference>
