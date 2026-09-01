@@ -1,0 +1,30 @@
+<reference anchor="I-D.sun-rats-composite-eat" target="https://datatracker.ietf.org/doc/html/draft-sun-rats-composite-eat-00">
+  <front>
+    <title>An EAT Profile for Composite Platform Attestation</title>
+    <seriesInfo name="Internet-Draft" value="draft-sun-rats-composite-eat-00"/>
+    <author initials="X." surname="Sun" fullname="Xiling Sun">
+      <organization>Microsoft</organization>
+    </author>
+    <author initials="R." surname="Krishnamurthy" fullname="Raghu Krishnamurthy">
+      <organization>NVIDIA</organization>
+    </author>
+    <author initials="R. G." surname="Mojarad" fullname="Roksana Golizadeh Mojarad">
+      <organization>Microsoft</organization>
+    </author>
+    <date day="31" month="August" year="2026"/>
+    <abstract>
+      <t>This document defines an Entity Attestation Token (EAT) profile for
+   composite platform attestation.  A Lead Attester, such as a platform
+   Root of Trust, produces a single signed composite EAT that carries
+   its own measurements and cryptographic digests committing to
+   detached, native evidence collected from peripheral sub-attesters.
+   The full sub-attester evidence -- Security Protocol and Data Model
+   (SPDM) signed measurements, device-emitted EATs, or SPDM-carried TCG
+   DICE Concise Evidence -- is conveyed verbatim as detached Claims-Sets
+   in a Detached EAT Bundle.  This yields a single, freshness-bound,
+   platform-scoped attestation artifact that a Verifier can appraise
+   against platform-composition endorsements, even when the evidence is
+   collected and conveyed by an untrusted mediator.</t>
+    </abstract>
+  </front>
+</reference>

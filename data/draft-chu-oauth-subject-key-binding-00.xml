@@ -1,0 +1,39 @@
+<reference anchor="I-D.chu-oauth-subject-key-binding" target="https://datatracker.ietf.org/doc/html/draft-chu-oauth-subject-key-binding-00">
+  <front>
+    <title>OAuth Subject Signing Key Binding for Resource Servers</title>
+    <seriesInfo name="Internet-Draft" value="draft-chu-oauth-subject-key-binding-00"/>
+    <author initials="C." surname="Chu" fullname="Cheng-Kang Chu">
+      <organization>Huawei International Pte. Ltd.</organization>
+    </author>
+    <author initials="L." surname="Ruochen" fullname="Li Ruochen">
+      <organization>Huawei International Pte. Ltd.</organization>
+    </author>
+    <author initials="W." surname="Wang" fullname="Haiguang Wang">
+      <organization>Huawei International Pte. Ltd.</organization>
+    </author>
+    <author initials="T." surname="Li" fullname="Tieyan Li">
+      <organization>Huawei International Pte. Ltd.</organization>
+    </author>
+    <date day="01" month="September" year="2026"/>
+    <abstract>
+      <t>Resource servers in OAuth deployments sometimes receive application-
+   layer authorization evidence that is digitally signed by the subject
+   represented by an access token.  Verification of such evidence
+   requires the resource server to obtain a trusted public signing key
+   that is bound to that subject.
+
+   This specification defines the subject_keys parameter, by which an
+   OAuth authorization server conveys one or more subject public signing
+   keys to a resource server.  The parameter can be carried as a claim
+   in a JWT access token or as a member of a token introspection
+   response.  The resulting key binding is scoped to the authorization
+   server, token subject, resource server audience, and token validity
+   context.
+
+   This specification does not define a public-key enrollment protocol
+   or the syntax and semantics of the application-layer authorization
+   evidence.  It also does not use the OAuth cnf claim, which identifies
+   a proof-of-possession key held by the presenter of a token.</t>
+    </abstract>
+  </front>
+</reference>
