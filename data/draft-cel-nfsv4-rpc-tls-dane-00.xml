@@ -1,0 +1,17 @@
+<reference anchor="I-D.cel-nfsv4-rpc-tls-dane" target="https://datatracker.ietf.org/doc/html/draft-cel-nfsv4-rpc-tls-dane-00">
+  <front>
+    <title>Using RPC-with-TLS with DNS-Based Authentication of Named Entities</title>
+    <seriesInfo name="Internet-Draft" value="draft-cel-nfsv4-rpc-tls-dane-00"/>
+    <author initials="C." surname="Lever" fullname="Chuck Lever"/>
+    <date day="01" month="September" year="2026"/>
+    <abstract>
+      <t>RPC-with-TLS assumes that DNS-Based Authentication of Named Entities
+   (DANE) is available on platforms where it is deployed, and recommends
+   that a client operating under an opportunistic security policy check
+   for a TLSA record before initiating an association, but does not say
+   how.  This document specifies the missing details, so that a TLSA
+   record authenticates an RPC server with no certification authority
+   trust anchor provisioned on the client.  It updates RFC 9289.</t>
+    </abstract>
+  </front>
+</reference>

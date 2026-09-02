@@ -1,0 +1,59 @@
+<reference anchor="I-D.das-execution-finality-ai-interoperability" target="https://datatracker.ietf.org/doc/html/draft-das-execution-finality-ai-interoperability-02">
+  <front>
+    <title>Secure and Privacy-Preserving AI Interoperability under Article 6(7) of the European Digital Markets Act: An Execution-Finality Architecture</title>
+    <seriesInfo name="Internet-Draft" value="draft-das-execution-finality-ai-interoperability-02"/>
+    <author initials="S." surname="Das" fullname="Sangam Das">
+      <organization>Independent Inventor</organization>
+    </author>
+    <date day="02" month="September" year="2026"/>
+    <abstract>
+      <t>This document presents a security- and privacy-preserving execution-
+   finality architecture for third-party AI interoperability under the
+   European Digital Markets Act (DMA).  It is designed to enable
+   meaningful participation by external AI assistants while keeping
+   consequential device actions under bounded, verifiable platform
+   control.
+
+   The architecture separates an AI-generated request from the authority
+   to make that request externally effective.  A requested operation
+   remains in a Non-Effective State until protected infrastructure
+   validates the requester, intended resource, destination, user
+   authorization or intent where required, purpose and scope, freshness,
+   revocation state, runtime conditions, and other applicable policy
+   predicates.
+
+   After successful validation, the system creates narrowly scoped, non-
+   bearer execution authority bound to the specific Candidate Act. At
+   the Finality Sink—the first boundary at which the operation can
+   become externally effective—the system independently verifies that
+   the actual operation still matches the validated act and that the
+   authority remains current and unused.
+
+   This design is intended to address major security risks associated
+   with AI interoperability, including prompt injection, compromised
+   assistant or cloud infrastructure, confused-deputy behavior, replay,
+   token theft or reuse, destination or parameter substitution, scope
+   escalation, stale authorization, alternate-path bypass, and
+   unauthorized consequential execution.
+
+   It also supports privacy protections by limiting access and
+   effectuation to the minimum act-specific scope, reducing dependence
+   on broad reusable permissions, preserving revocation and user-control
+   boundaries, and preventing data release or transmission when the
+   protected validation conditions are not satisfied.
+
+   The resulting model is open participation with bounded, verifiable
+   authority: third-party AI systems may interoperate with device
+   functions without receiving unrestricted final-effect authority,
+   while the platform retains protected enforcement over whether a
+   proposed action is permitted to become externally effective.
+
+   The length of this document is intentional.  It aims to work through
+   the major security- and privacy-related objections associated with
+   third-party AI interoperability at a technical level of detail
+   sufficient to show that they are addressed, rather than merely
+   asserted, and reviewers are welcome to engage with any section on its
+   own merits.</t>
+    </abstract>
+  </front>
+</reference>

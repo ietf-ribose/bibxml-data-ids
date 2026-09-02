@@ -1,0 +1,28 @@
+<reference anchor="I-D.mitchell-botcentral-card" target="https://datatracker.ietf.org/doc/html/draft-mitchell-botcentral-card-00">
+  <front>
+    <title>The BotCentral Card: An Owner-Proven Consent Record for Automated Web Clients</title>
+    <seriesInfo name="Internet-Draft" value="draft-mitchell-botcentral-card-00"/>
+    <author initials="R." surname="Mitchell" fullname="Rodney Mitchell">
+      <organization>BotCentral</organization>
+    </author>
+    <date day="01" month="September" year="2026"/>
+    <abstract>
+      <t>The Robots Exclusion Protocol (RFC 9309) lets a site say which
+   automated clients may fetch its content.  It cannot express purpose:
+   fetching a page to answer a person is not the same act as copying it
+   into a model training set or taking an action on the site.  It also
+   cannot prove who published the policy.
+
+   This document defines the BotCentral Card, a JSON record, one per
+   domain, that states which purposes the domain owner consents to
+   ("retrieve", "train", and "act" as separate answers), backed by a
+   proof of domain control placed either in a DNS TXT record or at the
+   well-known URI "/.well-known/botcentral.txt".  Cards are written to a
+   registry by authenticated publishers and read by any client over HTTP
+   or the Model Context Protocol.  Clients never write cards.  A card is
+   permission to be found; it is not a ranking and not a training grant.
+
+   This document also registers the "botcentral.txt" well-known URI.</t>
+    </abstract>
+  </front>
+</reference>
