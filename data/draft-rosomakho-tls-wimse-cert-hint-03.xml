@@ -1,0 +1,26 @@
+<reference anchor="I-D.rosomakho-tls-wimse-cert-hint" target="https://datatracker.ietf.org/doc/html/draft-rosomakho-tls-wimse-cert-hint-03">
+  <front>
+    <title>Workload Identifier Origin Hint for TLS ClientHello</title>
+    <seriesInfo name="Internet-Draft" value="draft-rosomakho-tls-wimse-cert-hint-03"/>
+    <author initials="Y." surname="Rosomakho" fullname="Yaroslav Rosomakho">
+      <organization>Zscaler</organization>
+    </author>
+    <author initials="J." surname="Hoyland" fullname="Jonathan Hoyland">
+      <organization>Cloudflare</organization>
+    </author>
+    <date day="02" month="September" year="2026"/>
+    <abstract>
+      <t>This document defines a TLS extension that allows clients to indicate
+   one or more workload identifier origins in the ClientHello message.
+   Each origin consists of a URI scheme and trust domain component,
+   representing the administrative domain and identifier namespace in
+   which the client operates.  These identifier origins serve as hints
+   to enable the server to determine whether client authentication is
+   required and which policies or trust anchors should apply.  This
+   mechanism improves efficiency in mutual TLS deployments while
+   minimising the exposure of sensitive identifier information.  To
+   protect confidentiality, this extension can be used in conjunction
+   with Encrypted Client Hello (ECH).</t>
+    </abstract>
+  </front>
+</reference>
