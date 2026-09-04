@@ -1,0 +1,22 @@
+<reference anchor="I-D.riedl-moq-ad-creative-signaling" target="https://datatracker.ietf.org/doc/html/draft-riedl-moq-ad-creative-signaling-00">
+  <front>
+    <title>Ad Creative Signaling over the MSF Event Timeline</title>
+    <seriesInfo name="Internet-Draft" value="draft-riedl-moq-ad-creative-signaling-00"/>
+    <author initials="S." surname="Riedl" fullname="Steven Riedl">
+      <organization>Paramount</organization>
+    </author>
+    <date day="03" month="September" year="2026"/>
+    <abstract>
+      <t>This document defines the carriage of ad creative signaling --
+   creative identity, tracking events, and measurement verification
+   metadata as specified by SVTA 2053-1 -- in records on a Media over
+   QUIC (MOQT) Streaming Format (MSF) Event Timeline track.  It
+   complements the carriage of SCTE-35 splice signaling over the same
+   mechanism: splice events describe where placement opportunities occur
+   on a media timeline, while the event class defined here describes the
+   creatives that fill them and how their playback is to be measured.
+   This binding is the MSF counterpart of the DASH and HLS carriage
+   bindings defined by SVTA 2053-1, which defines none for MOQT.</t>
+    </abstract>
+  </front>
+</reference>

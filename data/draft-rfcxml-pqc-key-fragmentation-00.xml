@@ -1,0 +1,37 @@
+<reference anchor="I-D.rfcxml-pqc-key-fragmentation" target="https://datatracker.ietf.org/doc/html/draft-rfcxml-pqc-key-fragmentation-00">
+  <front>
+    <title>Post-Quantum Cryptography Recommendations for Key Fragmentation in Low-Power Device Protocols</title>
+    <seriesInfo name="Internet-Draft" value="draft-rfcxml-pqc-key-fragmentation-00"/>
+    <author initials="R." surname="Trimananda" fullname="Rahmadi Trimananda">
+      <organization>Comcast</organization>
+    </author>
+    <author initials="G." surname="Kayas" fullname="Golam Kayas">
+      <organization>Comcast</organization>
+    </author>
+    <author initials="B." surname="Rashidi" fullname="Bahman Rashidi">
+      <organization>Comcast</organization>
+    </author>
+    <author initials="V." surname="Garg" fullname="Vaibhav Garg">
+      <organization>Comcast</organization>
+    </author>
+    <date day="04" month="September" year="2026"/>
+    <abstract>
+      <t>Cryptographic protocols deployed on low-power and constrained devices
+   increasingly need to accommodate the larger key sizes introduced by
+   modern and post-quantum cryptographic (PQC) algorithms.  Many
+   constrained network technologies (such as 6LoWPAN, SCHC, and similar
+   adaptation-layer protocols) use explicit fragmentation mechanisms to
+   transport messages that exceed link-layer frame sizes.  As a result,
+   cryptographic keying material and key-establishment messages may be
+   segmented across multiple fragments during transmission.
+
+   This document analyzes the security and operational implications of
+   such fragmentation.  It identifies common fragmentation patterns and
+   examines risks including fragment loss, reordering, duplication, and
+   partial exposure.  It further discusses fragment-level integrity,
+   replay resistance, and correct binding of fragments to cryptographic
+   session state.  This document does not define new cryptographic
+   algorithms or fragmentation mechanisms.</t>
+    </abstract>
+  </front>
+</reference>
