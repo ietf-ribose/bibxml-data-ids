@@ -1,0 +1,30 @@
+<reference anchor="I-D.dogru-cedulon-decision-profile" target="https://datatracker.ietf.org/doc/html/draft-dogru-cedulon-decision-profile-01">
+  <front>
+    <title>Cedulon Decision Profile: Reconciling an Agent's Decisions Against Its Effects</title>
+    <seriesInfo name="Internet-Draft" value="draft-dogru-cedulon-decision-profile-01"/>
+    <author initials="E. C." surname="Do&#x11F;ru" fullname="Emek Can Do&#x11F;ru">
+      <organization>VERAX TEKNOLOJI LIMITED SIRKETI</organization>
+    </author>
+    <date day="04" month="September" year="2026"/>
+    <abstract>
+      <t>The Cedulon core document reconciles an issuer's signed Spend
+   Receipts against an authenticated extract of a payment rail and
+   reports, over a declared population, that no settlement lacks a
+   receipt and no settled receipt is absent from the rail.  Money is the
+   special case that document implements.  This document defines a
+   second population on the same reconciler.  A Decision Record is
+   signed by the party that decided whether an agent may act; an Effect
+   Extract is an authenticated list of the effects that actually
+   occurred on a channel.  An allow must be matched by exactly one
+   effect whose content hash the record named; a refusal must be matched
+   by none.  The Decision Record claim set, the Effect Extract shape,
+   the points at which the reconciliation departs from the spend rules,
+   the finding codes, and one media type are defined.  This revision
+   binds the class of the allowed effect into the signed record, narrows
+   what the Decider's chain is claimed to control, and states the
+   boundary to three adjacent documents.  The text is provisional and
+   the companion implementation carries the profile prepared and
+   unpublished.</t>
+    </abstract>
+  </front>
+</reference>

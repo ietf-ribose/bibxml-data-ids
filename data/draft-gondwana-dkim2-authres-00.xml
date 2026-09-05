@@ -1,0 +1,19 @@
+<reference anchor="I-D.gondwana-dkim2-authres" target="https://datatracker.ietf.org/doc/html/draft-gondwana-dkim2-authres-00">
+  <front>
+    <title>Reporting DKIM2 Verification Results in Authentication-Results</title>
+    <seriesInfo name="Internet-Draft" value="draft-gondwana-dkim2-authres-00"/>
+    <author initials="B." surname="Gondwana" fullname="Bron Gondwana">
+      <organization>Fastmail Pty Ltd</organization>
+    </author>
+    <date day="05" month="September" year="2026"/>
+    <abstract>
+      <t>DomainKeys Identified Mail Signatures v2 (DKIM2) produces a
+   verification result for an email message.  This document defines how
+   that result is reported in the Authentication-Results header field,
+   registering the "dkim2" authentication method, the result values it
+   can take, and two properties which identify the signing domain and
+   the point in the chain at which verification failed.  Diagnostic
+   detail about each hop is carried in a human-readable comment.</t>
+    </abstract>
+  </front>
+</reference>
