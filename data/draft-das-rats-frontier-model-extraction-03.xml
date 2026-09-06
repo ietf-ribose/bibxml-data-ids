@@ -1,0 +1,50 @@
+<reference anchor="I-D.das-rats-frontier-model-extraction" target="https://datatracker.ietf.org/doc/html/draft-das-rats-frontier-model-extraction-03">
+  <front>
+    <title>Beyond Attestation: An Execution-Finality Architecture for Controlling Release and Limiting Unauthorized Extraction and Distillation of Sensitive Frontier AI Model Information</title>
+    <seriesInfo name="Internet-Draft" value="draft-das-rats-frontier-model-extraction-03"/>
+    <author initials="S." surname="Das" fullname="Sangam Das">
+      <organization>Independent Inventor</organization>
+    </author>
+    <date day="06" month="September" year="2026"/>
+    <abstract>
+      <t>Frontier and proprietary AI deployments may contain or expose model-
+   related information substantially richer than ordinary final-answer
+   text.  Depending on the deployment and interface, such Sensitive
+   Model Information (SMI) can include detailed probability information,
+   embeddings, cached intermediate state, hidden representations,
+   intermediate activations, diagnostic information, model-related
+   metadata, or other high-information artifacts.  Repeated unauthorized
+   or excessive release of such information can increase the efficiency
+   of model reconstruction, imitation, extraction, or distillation.
+
+   Authentication establishes who is requesting an operation.
+   Confidential computing and remote attestation can establish
+   properties of the environment in which computation occurs.  Neither
+   property alone determines whether a particular pending release of
+   particular model information, to a particular destination, under the
+   current extraction state and security epoch, remains authorized to
+   become externally usable.
+
+   This document describes an execution-finality architecture for that
+   remaining problem.  Sensitive information may be computed while
+   remaining a non-effective Candidate Release.  External release occurs
+   only after release-specific protected validation, evaluation of
+   rollback-resistant extraction state where required, atomic
+   reservation or consumption of bounded authority, and verification at
+   a controlled Finality Sink.  Release authority is bound to the
+   applicable Candidate Release or bounded release class rather than
+   operating as a generic transferable bearer credential.
+
+   The architecture does not claim universal prevention of model
+   extraction or distillation and does not restrict legitimately exposed
+   ordinary model output.  Its narrower objective is to make
+   unauthorized, excessive, replayed, rolled-back, or bypassed release
+   of protected model information technically harder to complete through
+   governed release paths.  RATS can complement this mechanism by
+   allowing a Verifier or Relying Party to obtain machine-verifiable
+   information about whether the expected release-control mechanism,
+   protected state, security epoch, and Finality Sink are present and
+   operating with the required assurance properties.</t>
+    </abstract>
+  </front>
+</reference>

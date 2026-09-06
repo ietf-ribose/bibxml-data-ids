@@ -1,0 +1,29 @@
+<reference anchor="I-D.elkhatabi-verifiable-telemetry-ledgers" target="https://datatracker.ietf.org/doc/html/draft-elkhatabi-verifiable-telemetry-ledgers-11">
+  <front>
+    <title>Verifiable Telemetry Ledgers</title>
+    <seriesInfo name="Internet-Draft" value="draft-elkhatabi-verifiable-telemetry-ledgers-11"/>
+    <author initials="B." surname="El Khatabi" fullname="Bilal El Khatabi">
+      <organization>Independent</organization>
+    </author>
+    <date day="06" month="September" year="2026"/>
+    <abstract>
+      <t>This document profiles a verifiable-telemetry ledger.  Its
+   interoperability boundary begins with exact canonical-record byte
+   strings that an upstream system has already produced.  The profile
+   fixes their admission into serial-numbered segments, deterministic
+   commitment-tree calculation, an authoritative segment artifact
+   encoded in Concise Binary Object Representation (CBOR), a producer
+   manifest, three disclosure classes, and binding of the artifact
+   digest through a required external timestamp channel.  Segment
+   closure uses a deployment-configured elapsed-time interval and does
+   not depend on calendar dates.
+
+   The profile enables independent recomputation and audit of disclosed
+   evidence from the admitted bytes onward.  Transport framing,
+   decryption, anti-replay processing, payload interpretation, and
+   source-telemetry-to-record mapping are outside it, as are device
+   onboarding, end-to-end security of sensor values, and safety
+   decisions.</t>
+    </abstract>
+  </front>
+</reference>
