@@ -1,0 +1,37 @@
+<reference anchor="I-D.sato-soos-peer" target="https://datatracker.ietf.org/doc/html/draft-sato-soos-peer-02">
+  <front>
+    <title>Cross-Principal Agent Communication -- PEER Transaction Record</title>
+    <seriesInfo name="Internet-Draft" value="draft-sato-soos-peer-02"/>
+    <author initials="" surname="Sato" fullname="Tom Sato">
+      <organization>MyAuberge K.K.</organization>
+    </author>
+    <date day="07" month="September" year="2026"/>
+    <abstract>
+      <t>When two independently-principaled AI agents transact with each
+   other, each operates under its own mandate root, its own Governed
+   Execution Context (GEC), and its own audit chain.  No shared kernel
+   exists to mediate the exchange.  Existing SOOS orchestration
+   primitives (MAD, SACR) govern sub-agent relationships within one
+   mandate tree; they do not address the peer case.
+
+   This document defines the PEER protocol: a problem statement and
+   architecture for cross-principal agent communication.  PEER
+   introduces the PEER Transaction Record (PTR) as a new first-class
+   SOOS primitive providing a jointly-derived correlation artifact
+   (ptxn_id) that links the two independent audit chains produced by a
+   cross-principal transaction -- without requiring a neutral third
+   party, shared kernel state, or cross-principal constitutional layer.
+
+   This document is a problem statement and architecture draft.  The PTR
+   field schema, the ptxn_id derivation, and the responding-GEC-
+   countersignature requirement are normative as of this revision.  Full
+   normative ALE-PEER event schemas, IANA registration templates, and a
+   dispute resolution procedure for conflicting GAR chains remain open
+   and are carried to a future revision.
+
+   Version -02 is an editorial revision with no normative content
+   changes: stale sibling-draft citations to CAP, HEM, and FAIP were
+   brought current.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,35 @@
+<reference anchor="I-D.dogru-cedulon" target="https://datatracker.ietf.org/doc/html/draft-dogru-cedulon-09">
+  <front>
+    <title>Cedulon: An Audit Layer for Agent-to-Agent Commerce</title>
+    <seriesInfo name="Internet-Draft" value="draft-dogru-cedulon-09"/>
+    <author initials="E. C." surname="Do&#x11F;ru" fullname="Emek Can Do&#x11F;ru">
+      <organization>VERAX TEKNOLOJI LIMITED SIRKETI</organization>
+    </author>
+    <date day="06" month="September" year="2026"/>
+    <abstract>
+      <t>This document defines the Cedulon Protocol, an audit layer for agent-
+   to-agent commerce.  Payment rails such as HTTP 402 flows (x402) and
+   mandate protocols (AP2) already move value, and a mandate protocol
+   can already refuse a spend before it happens.  What they do not, by
+   themselves, give a party that is neither payer nor rail operator is a
+   retrievable record of that decision and a signed spend receipt that
+   reconciles against an authenticated extract of the rail.  Cedulon
+   specifies a Trade Manifest (a signed offer before payment), a Policy
+   Decision Point with default deny, a Spend Receipt (a COSE/CWT claim
+   set issued after a gated payment), epoch checkpoints, and rail-
+   extract reconciliation.
+
+   The reconciliation shows that no settlement on the extract lacks a
+   receipt and no settled receipt is absent from the extract.  That
+   result is unconditional only when the verifier pins the rail key out
+   of band and names the account, rail and window under audit; otherwise
+   it is reported as conditional.  Checkpoints are profiled as SCITT
+   Signed Statements, and a checkpoint the presented chain omits is
+   reported by a witness that holds it.  No signed object is attested by
+   a key it carries itself, and the exact input to every hash-valued
+   field is stated, so that an independent verifier can be written from
+   the text alone.  Cedulon is not a competitor to x402 or AP2; it sits
+   above them.</t>
+    </abstract>
+  </front>
+</reference>

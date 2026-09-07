@@ -1,0 +1,30 @@
+<reference anchor="I-D.schrock-ep-quorum" target="https://datatracker.ietf.org/doc/html/draft-schrock-ep-quorum-04">
+  <front>
+    <title>Multi-Party Quorum Authorization for High-Risk Agent Actions (EP-QUORUM)</title>
+    <seriesInfo name="Internet-Draft" value="draft-schrock-ep-quorum-04"/>
+    <author initials="I." surname="Schrock" fullname="Iman Schrock">
+      <organization>EMILIA Protocol, Inc.</organization>
+    </author>
+    <date day="06" month="September" year="2026"/>
+    <abstract>
+      <t>This document defines a multi-party approval predicate over action-
+   bound human signoffs: valid signatures, admitted roles, distinct
+   approvers and keys, threshold, and an optional ordered trail.  The
+   relying party pins the governing policy and approver directory
+   independently.  Passing the predicate is approval evidence, not a
+   complete authorization decision, proof of execution, or proof of
+   unused authority.
+
+   This revision repairs the strong ordered profile.  A successor signs
+   a digest of the completed predecessor signoff, including its
+   signature, rather than a precomputable context.  The versioned
+   profile establishes causal dependence on a completed prior proof
+   under the cryptographic assumptions; it does not establish trusted
+   wall-clock time or human comprehension.  Legacy context-only chains
+   cannot satisfy it.  JavaScript, Python, and Go reference verifiers
+   share a corpus in one repository.  Agreement is a same-team
+   consistency check, not independent interoperability evidence or a
+   formal proof of the new construction.</t>
+    </abstract>
+  </front>
+</reference>
