@@ -1,0 +1,31 @@
+<reference anchor="I-D.saha-stage-receipts" target="https://datatracker.ietf.org/doc/html/draft-saha-stage-receipts-00">
+  <front>
+    <title>Stage Receipts: A Verifiable Record Format for Staged Pipelines</title>
+    <seriesInfo name="Internet-Draft" value="draft-saha-stage-receipts-00"/>
+    <author initials="S." surname="Saha" fullname="Shamik Saha">
+      <organization>Independent</organization>
+    </author>
+    <date day="08" month="September" year="2026"/>
+    <abstract>
+      <t>A staged pipeline -- a document-ingestion flow, a retrieval-augmented
+   generation chain, an agent workflow, a benchmark -- produces results
+   that are hard to reproduce, hard to diff between two runs, and hard
+   to localize when they go wrong.  This document defines the stage
+   receipt: a small, canonically serialized JSON record that each stage
+   of such a pipeline emits, describing exactly what went in, what came
+   out, under which pinned instrument, with which outcome, and linked by
+   digest to the receipt before it.  A chain of stage receipts lets a
+   developer reproduce a run, diff two runs to the first stage that
+   differs, and localize a fault to the stage where it entered; the same
+   chain lets an independent party, later and offline, establish what
+   the records assert without trusting whoever produced them.  The
+   document specifies the record, its canonical form, the chain
+   manifest, the coverage and emission declarations that make a chain
+   honest about its own edges, the anchoring declaration that separates
+   consistency from originality, and the behaviour required of a
+   conforming verifier.  Golden conformance vectors -- records that must
+   be accepted and records that must be refused, each with its reason --
+   are part of the specification.</t>
+    </abstract>
+  </front>
+</reference>

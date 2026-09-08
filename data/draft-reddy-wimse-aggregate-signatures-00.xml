@@ -1,0 +1,26 @@
+<reference anchor="I-D.reddy-wimse-aggregate-signatures" target="https://datatracker.ietf.org/doc/html/draft-reddy-wimse-aggregate-signatures-00">
+  <front>
+    <title>Aggregate Signatures for WIMSE Delegation-Chain Integrity</title>
+    <seriesInfo name="Internet-Draft" value="draft-reddy-wimse-aggregate-signatures-00"/>
+    <author initials="T." surname="Reddy.K" fullname="Tirumaleswar Reddy.K">
+      <organization>Nokia</organization>
+    </author>
+    <author initials="H." surname="Tschofenig" fullname="Hannes Tschofenig">
+      <organization>University of the Bundeswehr Munich</organization>
+    </author>
+    <date day="08" month="September" year="2026"/>
+    <abstract>
+      <t>This document profiles the WIMSE HTTP Message Signatures mechanism
+   ([I-D.ietf-wimse-http-signature]) to protect a request that passes
+   through a chain of workloads.  In the base mechanism each workload
+   signs independently: an intermediary can remove a signature
+   undetected, and the signatures accumulate on every hop.  This
+   document combines the workloads' signatures into one aggregate
+   signature.  Removal of a signature becomes detectable, and the
+   signature material no longer grows with the length of the chain, a
+   significant saving for post-quantum signature algorithms, whose
+   signatures are large.  The mechanism works with any aggregate
+   signature scheme.</t>
+    </abstract>
+  </front>
+</reference>
