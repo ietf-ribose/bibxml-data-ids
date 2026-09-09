@@ -1,0 +1,38 @@
+<reference anchor="I-D.gai-intarea-ip-tunnel-node-security" target="https://datatracker.ietf.org/doc/html/draft-gai-intarea-ip-tunnel-node-security-01">
+  <front>
+    <title>Security Requirements for IP Tunnel Nodes</title>
+    <seriesInfo name="Internet-Draft" value="draft-gai-intarea-ip-tunnel-node-security-01"/>
+    <author initials="L." surname="He" fullname="Lin He">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="L." surname="&#x76D6;&#x4E50;" fullname="&#x76D6;&#x4E50;">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="Z." surname="Jia" fullname="Zedong Jia">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="Y." surname="Liu" fullname="Ying Liu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date day="08" month="September" year="2026"/>
+    <abstract>
+      <t>IP tunnels conceal passenger-packet fields from devices on the
+   delivery path and create a new forwarding and policy boundary at
+   decapsulation.  If a tunnel node accepts delivery packets from an
+   unauthorized source, or if it forwards a decapsulated passenger
+   packet without applying the policy for the exposed packet and
+   forwarding domain, the node can enable source-address spoofing,
+   unauthorized transit, policy bypass, or resource-exhaustion attacks.
+
+   This document specifies generic security requirements for IP tunnel
+   ingress, egress, and relay nodes.  The requirements cover explicit
+   enablement, peer and passenger-packet authorization, source and
+   forwarding-scope validation, nested tunneling, IPv6 extension
+   headers, ICMP and Path MTU Discovery, resource controls, and
+   telemetry.  They apply to configured IP-in-IP, IPv6 tunneling, GRE,
+   and enabled IPv4/IPv6 transition mechanisms.  This document does not
+   define a new encapsulation or replace protocol-specific processing
+   rules.</t>
+    </abstract>
+  </front>
+</reference>
