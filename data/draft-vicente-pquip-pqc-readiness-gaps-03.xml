@@ -1,0 +1,29 @@
+<reference anchor="I-D.vicente-pquip-pqc-readiness-gaps" target="https://datatracker.ietf.org/doc/html/draft-vicente-pquip-pqc-readiness-gaps-03">
+  <front>
+    <title>PQC Readiness Observability Gaps in Networked Computing Environments</title>
+    <seriesInfo name="Internet-Draft" value="draft-vicente-pquip-pqc-readiness-gaps-03"/>
+    <author initials="B." surname="Vicente" fullname="Brian Vicente">
+      <organization>Sanctum SecOps LLC</organization>
+    </author>
+    <date day="11" month="September" year="2026"/>
+    <abstract>
+      <t>This document identifies observability gaps that prevent network
+   operators and security teams from determining the post-quantum
+   cryptography (PQC) readiness state of networked computing
+   environments.  PQC readiness requires knowing which cryptographic
+   algorithms are in use across the environment, which are vulnerable to
+   quantum attack, and which have been or are being migrated to NIST-
+   approved PQC algorithms.  Current network protocols and management
+   frameworks do not provide sufficient visibility to answer these
+   questions at scale.
+
+   This revision (-03) adds a Posture B IPR notice, differentiates from
+   adjacent Cryptography Bill of Materials (CBOM) work, and adds
+   machine-readable JSON evidence.  The gaps identified in this document
+   are observability gaps — the absence of machine-readable, network-
+   layer signals that enable automated PQC readiness assessment.  This
+   differs from CBOM, which focuses on software composition and supply-
+   chain inventory.</t>
+    </abstract>
+  </front>
+</reference>
