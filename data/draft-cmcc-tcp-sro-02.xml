@@ -1,0 +1,29 @@
+<reference anchor="I-D.cmcc-tcp-sro" target="https://datatracker.ietf.org/doc/html/draft-cmcc-tcp-sro-02">
+  <front>
+    <title>The Session Recovery (SR) Option for TCP</title>
+    <seriesInfo name="Internet-Draft" value="draft-cmcc-tcp-sro-02"/>
+    <author initials="Z." surname="Luo" fullname="Zhaoyu Luo">
+      <organization>CMCC</organization>
+    </author>
+    <author initials="H." surname="Yan" fullname="Haishuang Yan">
+      <organization>CMCC</organization>
+    </author>
+    <date day="14" month="September" year="2026"/>
+    <abstract>
+      <t>This document defines the Session Recovery (SR) option for TCP.  The
+   option lets the endpoints of a connection exchange identifiers:
+   during the handshake each endpoint carries its own identifier, and
+   designated segments afterwards carry the identifier of the peer.
+   This places the knowledge of which endpoint a connection belongs to
+   inside the TCP header, where network functions on the path - load
+   balancers, NAT gateways, firewalls - can read it without per-flow
+   state and without payload inspection.  The primary use is session
+   recovery in SNAT and load-balancing clusters; further uses include
+   reduced-state forwarding, connection-tracking recovery, and per-
+   backend telemetry.  The option is carried in the SYN, the SYN-ACK,
+   and retransmitted segments, or in every segment when so configured;
+   the default adds no overhead to normal data segments.  Endpoints that
+   do not support it behave as if the option did not exist.</t>
+    </abstract>
+  </front>
+</reference>
