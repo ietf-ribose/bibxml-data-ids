@@ -1,0 +1,27 @@
+<reference anchor="I-D.martin-ipv6-addr-selection-updates" target="https://datatracker.ietf.org/doc/html/draft-martin-ipv6-addr-selection-updates-00">
+  <front>
+    <title>Updates to IPv6 Default Address Selection</title>
+    <seriesInfo name="Internet-Draft" value="draft-martin-ipv6-addr-selection-updates-00"/>
+    <author initials="F." surname="Martin" fullname="Franck Martin">
+      <organization>Peachymango.org</organization>
+    </author>
+    <author initials="X." surname="Xiao" fullname="XiPeng Xiao">
+      <organization>Huawei Technologies Dusseldorf</organization>
+    </author>
+    <author initials="B. E." surname="Carpenter" fullname="Brian E. Carpenter">
+      <organization>University of Auckland</organization>
+    </author>
+    <date day="15" month="September" year="2026"/>
+    <abstract>
+      <t>This document updates RFC 6724 with three improvements to IPv6
+   destination address selection.  The updates allow recent IPv6
+   connection or service failures to influence IPv6/IPv4 ordering,
+   incorporate likely source/destination address pairs when sorting
+   candidates, and let ISP and enterprise operators preserve DNS load-
+   balancing order where Rule 9 would otherwise override it.  The
+   updates are intended to be implementable inside getaddrinfo() or an
+   equivalent system mechanism, without requiring changes to existing
+   application-facing socket APIs.</t>
+    </abstract>
+  </front>
+</reference>

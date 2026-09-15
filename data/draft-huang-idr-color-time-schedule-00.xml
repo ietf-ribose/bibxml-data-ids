@@ -1,0 +1,39 @@
+<reference anchor="I-D.huang-idr-color-time-schedule" target="https://datatracker.ietf.org/doc/html/draft-huang-idr-color-time-schedule-00">
+  <front>
+    <title>BGP Extension for Time-Scheduled Color based SR Policy Selection</title>
+    <seriesInfo name="Internet-Draft" value="draft-huang-idr-color-time-schedule-00"/>
+    <author initials="C." surname="Huang" fullname="Cancan Huang">
+      <organization>China Telecom</organization>
+    </author>
+    <author initials="Z." surname="Huang" fullname="Zhuojun Huang">
+      <organization>China Telecom</organization>
+    </author>
+    <date day="15" month="September" year="2026"/>
+    <abstract>
+      <t>Segment Routing (SR) Policy is identified by a tuple of Color and
+   Endpoint.  In BGP/MPLS IP VPN and EVPN services, the egress PE
+   attaches a Color Extended Community to the advertised VPN route so
+   that the ingress PE can steer the traffic into a corresponding SR
+   Policy.
+
+   In many deployment scenarios, the same customer may require different
+   Service Level Agreements (SLAs) during different time periods of a
+   day.  For example, a customer may require a high- bandwidth SLA
+   during the off-peak hours (e.g., 02:00-06:00) and a low-cost SLA
+   during the daytime.  Such time-variant SLA requirements imply that
+   the ingress PE should select different SR Policies (i.e., different
+   Colors) for the same VPN route at different times.
+
+   This document defines a new BGP Extended Community, called the
+   Schedule Extended Community, to be used together with the Color
+   Extended Community.  Two sub-types of the Schedule Extended Community
+   are defined: a Daily Schedule sub-type for recurring time-of-day
+   periods, and a Day Schedule sub-type for specific dates.  The
+   Schedule Extended Community carries the time period during which the
+   associated Color is valid.  Based on the current time and the
+   received Schedule Extended Communities, the ingress PE can
+   dynamically select the appropriate SR Policy for a VPN route, thereby
+   realizing time-scheduled SLA switching.</t>
+    </abstract>
+  </front>
+</reference>

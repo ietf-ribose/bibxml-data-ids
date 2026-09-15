@@ -1,0 +1,27 @@
+<reference anchor="I-D.schrock-agent-operation-continuity" target="https://datatracker.ietf.org/doc/html/draft-schrock-agent-operation-continuity-00">
+  <front>
+    <title>Agent Operation Continuity Across Executor Replacement</title>
+    <seriesInfo name="Internet-Draft" value="draft-schrock-agent-operation-continuity-00"/>
+    <author initials="I." surname="Schrock" fullname="Iman Schrock">
+      <organization>EMILIA Protocol, Inc.</organization>
+    </author>
+    <date day="15" month="September" year="2026"/>
+    <abstract>
+      <t>An agent executor can fail or be replaced after a consequential
+   provider request may have crossed an effect boundary but before the
+   outcome is known.  Native authorization, succession, evidence-
+   boundary, and bounded-capability mechanisms address parts of this
+   interval, but they do not by themselves define how a replacement
+   executor preserves the same provider operation and its unresolved
+   evidence.
+
+   This document defines a composition profile for one authoritative
+   coordination domain.  The profile preserves stable operation-
+   occurrence identity, immutable provider bindings, authority
+   accounting, uncertain evidence, and stale-executor fences across
+   replacement.  It defines no new receipt, identity, authority,
+   provider, or ledger-migration format, and it does not require any
+   particular evidence envelope.</t>
+    </abstract>
+  </front>
+</reference>
