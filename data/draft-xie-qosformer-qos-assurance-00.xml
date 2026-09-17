@@ -1,0 +1,35 @@
+<reference anchor="I-D.xie-qosformer-qos-assurance" target="https://datatracker.ietf.org/doc/html/draft-xie-qosformer-qos-assurance-00">
+  <front>
+    <title>QoSformer: A Framework for Learning-Based QoS Prediction and Policy Evaluation</title>
+    <seriesInfo name="Internet-Draft" value="draft-xie-qosformer-qos-assurance-00"/>
+    <author initials="X." surname="Xie" fullname="Xiaohui Xie">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="S." surname="Liu" fullname="Shengnan Liu">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="G." surname="Yi" fullname="Gang Yi">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="Y." surname="Cui" fullname="Yong Cui">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date day="17" month="September" year="2026"/>
+    <abstract>
+      <t>Network operators need to assess how changes to quality-of-service
+   (QoS) policies may affect individual traffic flows and shared network
+   resources.  Measurements describe observed behavior, but policy
+   evaluation also requires predictions under candidate configurations.
+   This document describes a framework that combines heterogeneous
+   network measurements and configuration data in a Multiple Flow
+   Snapshot (MFS), learns representations through masked reconstruction,
+   and uses a Transformer-based model called QoSformer to predict
+   throughput, delay, and resource utilization.  It describes offline
+   model preparation, online candidate evaluation, and feedback after
+   authorized policy changes.  A 5G core network use case illustrates
+   the mapping to analytics and policy-control functions.  The framework
+   is informational: it defines neither a new wire protocol nor
+   extensions to existing 3GPP interfaces.</t>
+    </abstract>
+  </front>
+</reference>
