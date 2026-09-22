@@ -1,0 +1,35 @@
+<reference anchor="I-D.geng-sidrops-regionalized-roa" target="https://datatracker.ietf.org/doc/html/draft-geng-sidrops-regionalized-roa-00">
+  <front>
+    <title>AS Hijacking Detection and Mitigation in the Presence of Regionalized ROAs</title>
+    <seriesInfo name="Internet-Draft" value="draft-geng-sidrops-regionalized-roa-00"/>
+    <author initials="N." surname="Geng" fullname="Nan Geng">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="S." surname="Zhuang" fullname="Shunwan Zhuang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="H." surname="Wang" fullname="Haibo Wang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="L." surname="Dai" fullname="Longfei Dai">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date day="20" month="September" year="2026"/>
+    <abstract>
+      <t>Resource Public Key Infrastructure (RPKI) Route Origin Validation
+   (ROV) verifies whether an Autonomous System (AS) is authorized to
+   originate a given IP prefix.  However, multi-national or
+   geographically dispersed ASes often hold IP prefix allocations from
+   different Regional Internet Registries (RIRs) or announce specific
+   prefixes only within designated geographic regions under a single
+   Origin AS.  An attacker located in a different region can maliciously
+   announce an authorized prefix under the same legitimate Origin AS,
+   effortlessly bypassing standard RPKI ROV.  This document defines the
+   concept of "Regionalized ROA" (R-ROA), specifies protocol
+   enhancements to convey regional scope metadata from Trust Anchors
+   down to routers via RPKI-Router protocol extensions, and outlines
+   enhanced validation procedures to detect and mitigate intra-AS cross-
+   regional route hijacking.</t>
+    </abstract>
+  </front>
+</reference>

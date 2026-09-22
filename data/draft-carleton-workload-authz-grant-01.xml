@@ -1,0 +1,40 @@
+<reference anchor="I-D.carleton-workload-authz-grant" target="https://datatracker.ietf.org/doc/html/draft-carleton-workload-authz-grant-01">
+  <front>
+    <title>Workload Authorization Grant</title>
+    <seriesInfo name="Internet-Draft" value="draft-carleton-workload-authz-grant-01"/>
+    <author initials="P." surname="Carleton" fullname="Paul Carleton">
+      <organization>Anthropic</organization>
+    </author>
+    <author initials="N." surname="Steele" fullname="Nick Steele">
+      <organization>OpenAI</organization>
+    </author>
+    <author initials="A." surname="Parecki" fullname="Aaron Parecki">
+      <organization>Okta</organization>
+    </author>
+    <author initials="A." surname="Schwenkschuster" fullname="Arndt Schwenkschuster">
+      <organization>Defakto Security</organization>
+    </author>
+    <author initials="B." surname="Campbell" fullname="Brian Campbell">
+      <organization>Ping Identity</organization>
+    </author>
+    <date day="22" month="September" year="2026"/>
+    <abstract>
+      <t>This document defines the Workload Authorization Grant (WAG), by
+   which a workload hosted on a platform -- an AI agent is the
+   motivating case -- obtains access tokens from a third party's OAuth
+   authorization server without requiring an administrator to perform a
+   per-workload provisioning step.  Each workload is identified by an
+   opaque identifier that is never reassigned.  The platform signs a JWT
+   authorization grant ([RFC7523]) that names one workload, and the
+   workload presents it at the token endpoint of an authorization server
+   that has been configured, once, to trust that platform.  The
+   authorization server does not reject a workload because it has not
+   seen it before.  The workload's access is determined by the
+   authorization server's own policy, which may consult claims the
+   platform asserts about the workload.  This document covers workloads
+   acting on their own behalf.  Access on behalf of a user or other
+   principal is out of scope, though the grant is intended to compose
+   with delegation mechanisms in which the workload is the actor.</t>
+    </abstract>
+  </front>
+</reference>

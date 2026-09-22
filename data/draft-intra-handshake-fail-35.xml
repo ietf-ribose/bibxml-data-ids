@@ -1,0 +1,76 @@
+<reference anchor="I-D.intra-handshake-fail" target="https://datatracker.ietf.org/doc/html/draft-intra-handshake-fail-35">
+  <front>
+    <title>Early Attestation Considered Harmful (CVE-2026-92701 of CVSS 9.1, CVE-2026-92702 of CVSS 9.1, CVE-2026-33697 of CVSS 7.5, and 24 other CVEs of up to expected CVSS 10.0 upcoming)</title>
+    <seriesInfo name="Internet-Draft" value="draft-intra-handshake-fail-35"/>
+    <author initials="M. U." surname="Sardar" fullname="Muhammad Usama Sardar">
+      <organization>TU Dresden, Germany</organization>
+    </author>
+    <author initials="V." surname="Dubeyko" fullname="Viacheslav Dubeyko">
+      <organization>CoreWeave</organization>
+    </author>
+    <author initials="J." surname="Jacquet" fullname="Jean-Marie Jacquet">
+      <organization>University of Namur, Belgium</organization>
+    </author>
+    <author initials="S." surname="Bu" fullname="Songbo Bu">
+      <organization>Shanghai Guan An Information Technology Co., Ltd., China</organization>
+    </author>
+    <author initials="C." surname="Huang" fullname="Chengxin Huang">
+      <organization>Independent</organization>
+    </author>
+    <author initials="H." surname="Song" fullname="Haowen Song">
+      <organization>Shanghai Guan An Information Technology Co., Ltd., China</organization>
+    </author>
+    <author initials="K." surname="Ercihan" fullname="Kaya Ercihan">
+      <organization>Switch, Zurich, Switzerland</organization>
+    </author>
+    <author initials="K. A." surname="K&#xFC;&#xE7;&#xFC;k" fullname="Dr Kubilay Ahmet K&#xFC;&#xE7;&#xFC;k">
+      <organization>DPhil Oxford University</organization>
+    </author>
+    <author initials="S." surname="Nikolaichuk" fullname="Serhii Nikolaichuk">
+      <organization>The Capital Index, Austin, Texas</organization>
+    </author>
+    <author initials="S." surname="Bellemare" fullname="Sylvain Bellemare">
+      <organization>Sureshot Labs, Japan</organization>
+    </author>
+    <author initials="E." surname="Willems" fullname="Eva Willems">
+      <organization>Independent, Netherlands</organization>
+    </author>
+    <author initials="J. D." surname="SAINTEN" fullname="Justin DESSENNES SAINTEN">
+      <organization>Independent Corporate Risk Consultant, Paris, France</organization>
+    </author>
+    <author initials="M." surname="Brighindi" fullname="Massimiliano Brighindi">
+      <organization>PHI-OMEGA, San Benedetto del Tronto, Italy</organization>
+    </author>
+    <author initials="M." surname="Quintyne-Collins" fullname="Mikerah Quintyne-Collins">
+      <organization>HashCloak Inc and Stoffel Labs Inc, Canada</organization>
+    </author>
+    <author initials="I." surname="Schrock" fullname="Iman Schrock">
+      <organization>EMILIA Protocol, Inc.</organization>
+    </author>
+    <date day="19" month="September" year="2026"/>
+    <abstract>
+      <t>The draft aims to provide technical details of [CVE-2026-33697],
+   [EUVD-2026-16488], [CVE-2026-92701], [EUVD-2026-83194],
+   [CVE-2026-92702], [EUVD-2026-83192] and several GitHub Security
+   Advisories (GHSAs) which provide substantial technical evidence of
+   how early attestation fails in practice, even _without physical
+   access_. Moreover, since continuous attestation is generally required
+   [CSA-eBPF] [MITRE-Continuous-Attestation], early attestation adds
+   *unnecessary complexity*. The results are backed by the research
+   [Intra-handshake.fail], [TLS-RA] and the artifacts
+   [Intra-handshake.fail-repo] in state-of-the-art formal analysis tool,
+   ProVerif, under Apache-2.0 license for reproducibility and review,
+   and have been acknowledged by the relevant stakeholders.  Currently,
+   there are *two CVEs of CVSS 7.5, one GHSA of 9.0-10.0, two GHSAs of
+   CVSS 9.1, two CVEs of CVSS 9.1, one GHSA of CVSS 7.8, seven GHSAs of
+   CVSS 7.4, and one GHSA of CVSS 6.3 published against the broader
+   early attestation covering all layers of the ecosystem up to the
+   application*. The research papers on these are currently either under
+   submission or being prepared for submission.  The artifacts of these
+   papers will be shared with the community under Apache-2.0 license for
+   reproducibility and review.  In our analysis, the remaining
+   implementations of early attestation -- Edgeless Systems Contrast and
+   Meta's AI -- remain vulnerable.</t>
+    </abstract>
+  </front>
+</reference>

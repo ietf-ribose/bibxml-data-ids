@@ -1,0 +1,33 @@
+<reference anchor="I-D.das-agentic-effectuation-boundary" target="https://datatracker.ietf.org/doc/html/draft-das-agentic-effectuation-boundary-00">
+  <front>
+    <title>When AI Agents Hold the Keys: Threat Model and Execution-Finality Requirements for Autonomous High-Consequence Systems</title>
+    <seriesInfo name="Internet-Draft" value="draft-das-agentic-effectuation-boundary-00"/>
+    <author initials="S." surname="Das" fullname="Sangam Das">
+      <organization>Independent Researcher</organization>
+    </author>
+    <date day="19" month="September" year="2026"/>
+    <abstract>
+      <t>AI agents are increasingly being delegated authority to invoke APIs,
+   move money, modify enterprise state, operate infrastructure, and
+   trigger physical actions.  Existing mechanisms for authentication,
+   authorization, proof-of-possession, attestation, request
+   preconditions, and authorization-context propagation are necessary
+   building blocks, but they do not by themselves establish a universal
+   invariant that the exact consequential act approved earlier is the
+   exact act permitted to become effective now.
+
+   This document defines a threat model for autonomous high-consequence
+   agents and identifies an effectuation-boundary gap: a request can be
+   correctly authenticated, correctly authorized, correctly attested,
+   and still be unsafe to execute because parameters, policy state,
+   external prerequisites, delegation state, lineage, or the execution
+   path changed after the earlier decision.  The document describes an
+   execution-finality architecture in which a proposed act remains non-
+   effective until a protected enforcement point verifies exact-act
+   binding, freshness, current policy state, anti-replay state, required
+   provenance, and path completeness immediately before effectuation,
+   with authority consumed in coordination with the consequential
+   commit.</t>
+    </abstract>
+  </front>
+</reference>

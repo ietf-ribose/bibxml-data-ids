@@ -1,0 +1,30 @@
+<reference anchor="I-D.ietf-lake-pqsuites" target="https://datatracker.ietf.org/doc/html/draft-ietf-lake-pqsuites-01">
+  <front>
+    <title>Quantum-Resistant Cipher Suites for LAKE</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-lake-pqsuites-01"/>
+    <author initials="G." surname="Selander" fullname="G&#xF6;ran Selander">
+      <organization>Ericsson</organization>
+    </author>
+    <author initials="J. P." surname="Mattsson" fullname="John Preu&#xDF; Mattsson">
+      <organization>Ericsson</organization>
+    </author>
+    <author initials="C." surname="Papon" fullname="PAPON Cl&#xE9;ment">
+      <organization>Limoges University</organization>
+    </author>
+    <date day="19" month="September" year="2026"/>
+    <abstract>
+      <t>The Lightweight Authenticated Key Exchange (LAKE) protocol, formerly
+   known as Ephemeral Diffie-Hellman over COSE (EDHOC), as originally
+   specified in RFC 9528, relies on Elliptic Curve Cryptography (ECC)
+   for key exchange and authentication.  This document specifies how the
+   LAKE protocol operates in a post-quantum setting by defining new
+   cipher suites using quantum-resistant algorithms, such as ML-DSA for
+   digital signatures and ML-KEM for key exchange.  This document also
+   updates RFC 9528 by changing the name of the protocol from EDHOC to
+   LAKE and updating the EDHOC Method Types and Cipher Suites registries
+   to add columns indicating, respectively, whether a method requires
+   and whether a cipher suite supports Diffie-Hellman or Non-Interactive
+   Key Exchange (NIKE) primitives.</t>
+    </abstract>
+  </front>
+</reference>

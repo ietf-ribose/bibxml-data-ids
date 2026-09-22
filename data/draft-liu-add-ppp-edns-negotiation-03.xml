@@ -1,0 +1,28 @@
+<reference anchor="I-D.liu-add-ppp-edns-negotiation" target="https://datatracker.ietf.org/doc/html/draft-liu-add-ppp-edns-negotiation-03">
+  <front>
+    <title>PPP IPCP Extensions for Encrypted DNS Server Negotiation</title>
+    <seriesInfo name="Internet-Draft" value="draft-liu-add-ppp-edns-negotiation-03"/>
+    <author initials="D." surname="Liu" fullname="Dongjie Liu">
+      <organization>Jinan University</organization>
+    </author>
+    <author initials="Z." surname="Yan" fullname="Zhiwei Yan">
+      <organization>CNNIC</organization>
+    </author>
+    <author initials="G." surname="Geng" fullname="Guanggang Geng">
+      <organization>Jinan University</organization>
+    </author>
+    <date day="19" month="September" year="2026"/>
+    <abstract>
+      <t>This document defines extensions to the Point-to-Point Protocol (PPP)
+   Internet Protocol Control Protocol (IPCP) for negotiating encrypted
+   DNS resolver configurations.  Two IPCP Configuration Options are
+   defined for primary and secondary encrypted DNS resolvers.  Each
+   option carries an Authentication Domain Name (ADN), an explicit list
+   of resolver IP addresses, and Service Parameters (SvcParams) using
+   the wire format defined by RFC 9460.  The design supports DNS over
+   TLS (DoT), DNS over HTTPS (DoH), and DNS over QUIC (DoQ), while
+   maintaining coexistence with the plaintext DNS configuration
+   mechanism defined by RFC 1877.</t>
+    </abstract>
+  </front>
+</reference>

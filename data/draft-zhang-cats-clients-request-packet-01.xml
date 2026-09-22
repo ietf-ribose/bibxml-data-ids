@@ -1,0 +1,39 @@
+<reference anchor="I-D.zhang-cats-clients-request-packet" target="https://datatracker.ietf.org/doc/html/draft-zhang-cats-clients-request-packet-01">
+  <front>
+    <title>Carriage of CATS Service Identification and Request Constraints</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhang-cats-clients-request-packet-01"/>
+    <author initials="B." surname="Zhang" fullname="Bin Zhang">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="Y." surname="Dai" fullname="Yina Dai">
+      <organization>Sun Yat-sen University</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="R." surname="Yang" fullname="Rongwei Yang">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <date day="20" month="September" year="2026"/>
+    <abstract>
+      <t>This document defines a common encoding for a CATS Service Identifier
+   (CS-ID) and optional client-supplied request constraints, and
+   specifies two ways to carry that encoding from a client to an ingress
+   CATS-Forwarder.  Mode A carries the encoding in an IPv6 Destination
+   Options or Hop-by-Hop Options header.  Mode B carries the same
+   encoding in an application-layer envelope whose position is
+   explicitly identified by an application, API, or transport mapping,
+   and which can operate over IPv4 or IPv6.
+
+   The document specifies how a service request is identified, either by
+   the destination address (e.g., a Virtual Placeholder Address (VPA),
+   an anycast address, or a dedicated service address), by an explicit
+   CS-ID, or by both together.  It defines the CS-ID, Network
+   Constraints, and Computing Constraints TLVs and their processing at
+   an ingress CATS-Forwarder, and describes how the extracted
+   information is provided to the CATS Path Selector (C-PS) for service
+   selection.  The mechanisms are intended for limited domains in which
+   clients and CATS nodes are provisioned to use the selected mode.</t>
+    </abstract>
+  </front>
+</reference>
