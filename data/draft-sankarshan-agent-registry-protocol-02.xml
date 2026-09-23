@@ -1,0 +1,32 @@
+<reference anchor="I-D.sankarshan-agent-registry-protocol" target="https://datatracker.ietf.org/doc/html/draft-sankarshan-agent-registry-protocol-02">
+  <front>
+    <title>Agent Registry Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-sankarshan-agent-registry-protocol-02"/>
+    <author initials="S." surname="Mukhopadhyay" fullname="Sankarshan Mukhopadhyay">
+      <organization>QBF Consulting LLP</organization>
+    </author>
+    <date day="22" month="September" year="2026"/>
+    <abstract>
+      <t>Software agents increasingly act on behalf of people and
+   organizations across administrative and security boundaries.
+   Existing discovery mechanisms can identify an endpoint or advertise a
+   capability, but they do not by themselves provide a common way to
+   resolve who operates an agent, the bounded authority under which it
+   acts, whether that authority is current, or what evidence supports a
+   reliance decision.
+
+   This document defines the Agent Registry Protocol (ARPA), an HTTP and
+   JSON protocol for publishing and resolving information about software
+   agents, their operational deployments, typed relationships, bounded
+   delegated authority, lifecycle status, and associated evidence.  ARPA
+   separates identification, authentication, authorization, assurance,
+   and lifecycle state.  Registration, successful authentication,
+   capability advertisement, or proof verification does not by itself
+   establish authority to perform an action.
+
+   The protocol is designed to support deterministic fail-safe behavior
+   when material authority information is revoked, suspended, expired,
+   stale, conflicting, unavailable, or unverifiable.</t>
+    </abstract>
+  </front>
+</reference>
