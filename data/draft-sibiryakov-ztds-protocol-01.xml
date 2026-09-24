@@ -1,0 +1,26 @@
+<reference anchor="I-D.sibiryakov-ztds-protocol" target="https://datatracker.ietf.org/doc/html/draft-sibiryakov-ztds-protocol-01">
+  <front>
+    <title>The Zero-Trust Data Sanitization (ZTDS) Protocol for Frontier Artificial Intelligence Ingestion</title>
+    <seriesInfo name="Internet-Draft" value="draft-sibiryakov-ztds-protocol-01"/>
+    <author initials="I." surname="Sibiryakov" fullname="Ilya Sibiryakov">
+      <organization>ZTDS AI Consortium</organization>
+    </author>
+    <date day="23" month="September" year="2026"/>
+    <abstract>
+      <t>This document specifies the Zero-Trust Data Sanitization (ZTDS)
+   protocol, an architectural framework and execution standard designed
+   to eliminate personally identifiable information (PII), protected
+   health information (PHI), payment card data, and corporate
+   credentials from unstructured text payloads prior to ingestion by
+   remote Large Language Models (LLMs) and autonomous AI agents.
+
+   ZTDS enforces strict in-memory execution within volatile Random
+   Access Memory (RAM), ephemeral surrogate tokenization, tab-isolated
+   session mapping, and mathematically verifiable zero network egress of
+   raw identifying data.  Reversible mapping is executed strictly on the
+   client or private host boundary, precluding intermediate cloud proxy
+   interception, prompt injection exfiltration, and persistent vector
+   database poisoning.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,36 @@
+<reference anchor="I-D.vandemeent-upip-process-integrity" target="https://datatracker.ietf.org/doc/html/draft-vandemeent-upip-process-integrity-02">
+  <front>
+    <title>UPIP: Universal Process Integrity Protocol with Task Capsules, Work Corridors, and Fork Tokens</title>
+    <seriesInfo name="Internet-Draft" value="draft-vandemeent-upip-process-integrity-02"/>
+    <author initials="J." surname="van de Meent" fullname="Jasper van de Meent">
+      <organization>Humotica</organization>
+    </author>
+    <author initials="R." surname="AI" fullname="Root AI">
+      <organization>Humotica</organization>
+    </author>
+    <date day="23" month="September" year="2026"/>
+    <abstract>
+      <t>This document defines UPIP (Universal Process Integrity Protocol), a
+   five-layer protocol for capturing, verifying, and reproducing
+   computational processes across machines, actors, and trust domains.
+   UPIP defines a cryptographic hash chain over five layers: STATE
+   (input), DEPS (dependencies), PROCESS (execution), RESULT (output),
+   and VERIFY (cross- machine proof).  The stack hash chains these
+   layers, ensuring that modification of any component is detectable.
+
+   This document also defines continuation artifacts: Task Capsules,
+   Work Corridors, and Fork Tokens.  A task capsule carries a bounded
+   process blueprint and evidence context.  A work corridor names a
+   bounded continuation window.  A fork token freezes the UPIP stack at
+   a specific point and transfers it to another actor with cryptographic
+   chain of custody.  The receiving actor can verify what was handed
+   off, validate capabilities, and continue the process with full
+   provenance.
+
+   UPIP integrates with TIBET [TIBET] for provenance tokens, JIS [JIS]
+   for actor identity, AINS [AINS] for discovery, and RVP [RVP] for
+   presence evidence.  UPIP is transport-agnostic with JSON as the
+   baseline serialization.</t>
+    </abstract>
+  </front>
+</reference>
