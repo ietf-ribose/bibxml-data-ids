@@ -1,0 +1,18 @@
+<reference anchor="I-D.lcurley-moq-mpegts" target="https://datatracker.ietf.org/doc/html/draft-lcurley-moq-mpegts-00">
+  <front>
+    <title>MoQ MPEG-TS Catalog Extension</title>
+    <seriesInfo name="Internet-Draft" value="draft-lcurley-moq-mpegts-00"/>
+    <author initials="L." surname="Curley" fullname="Luke Curley"/>
+    <date day="24" month="September" year="2026"/>
+    <abstract>
+      <t>This document defines the mpegts catalog section, which records what
+   demultiplexing an MPEG-2 Transport Stream [mpeg2] into a MoQ
+   broadcast would otherwise lose: each track's PID and PMT descriptors,
+   the program identity, the service information tables, and a carriage
+   record for every elementary stream the publisher did not decode.  It
+   is a root member of either the hang catalog [hang] or the MSF catalog
+   [msf], so a subscriber that ignores it still plays the broadcast and
+   one that reads it can rebuild the source multiplex.</t>
+    </abstract>
+  </front>
+</reference>

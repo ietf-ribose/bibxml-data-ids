@@ -1,0 +1,20 @@
+<reference anchor="I-D.lcurley-moq-solicit" target="https://datatracker.ietf.org/doc/html/draft-lcurley-moq-solicit-00">
+  <front>
+    <title>MoQ Solicit Extension</title>
+    <seriesInfo name="Internet-Draft" value="draft-lcurley-moq-solicit-00"/>
+    <author initials="L." surname="Curley" fullname="Luke Curley"/>
+    <date day="24" month="September" year="2026"/>
+    <abstract>
+      <t>This document defines an extension for MoQ Transport [moqt] that lets
+   an endpoint declare that advertisements to it must be solicited
+   first.  An endpoint that declares nothing receives unsolicited
+   PUBLISH_NAMESPACE, which is what a peer unaware of this extension
+   implicitly asks for.  An endpoint that will instead ask for what it
+   wants says so once during setup, and is spared the advertisements it
+   would otherwise have to ignore.  Because sending the option at all
+   identifies an endpoint that implements this extension, the
+   requirement is enforceable between two such endpoints rather than
+   merely advisory.</t>
+    </abstract>
+  </front>
+</reference>

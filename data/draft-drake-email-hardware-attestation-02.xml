@@ -1,0 +1,29 @@
+<reference anchor="I-D.drake-email-hardware-attestation" target="https://datatracker.ietf.org/doc/html/draft-drake-email-hardware-attestation-02">
+  <front>
+    <title>Hardware Attestation for Email Sender Verification</title>
+    <seriesInfo name="Internet-Draft" value="draft-drake-email-hardware-attestation-02"/>
+    <author initials="C." surname="Drake" fullname="Christopher Drake">
+      <organization>1id.com</organization>
+    </author>
+    <date day="25" month="September" year="2026"/>
+    <abstract>
+      <t>This document defines two email bindings for proving properties of an
+   automated sender using the durable identity and anchor architecture
+   of the Agent Identity Registry System (AIRS).  Mode 1 carries a
+   detached CMS signature made by a message-signing proof key.  It can
+   provide manufacturer-rooted hardware provenance, Registrar-backed
+   AIRS identity binding, or both.  Mode 2 carries a per-message SD-JWT
+   that allows a Registrar to assert selected properties without
+   requiring disclosure of the sender's canonical AIRS identifier.
+
+   The AIRS identity0 model, canonical aid identifier, trust tiers,
+   anchor semantics, enrollment rules, and Registrar trust boundary are
+   defined by [I-D.drake-agent-identity-problem-statement] and
+   [I-D.drake-agent-identity-registry].  Authoritative resolution of the
+   current Registrar/OAuth issuer is defined by
+   [I-D.drake-agent-identity-resolution].  This document does not
+   redefine those concepts; it defines how email messages bind to and
+   verify them.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,34 @@
+<reference anchor="I-D.mittal-est-coap-ca-certs" target="https://datatracker.ietf.org/doc/html/draft-mittal-est-coap-ca-certs-00">
+  <front>
+    <title>Manufacturer-Signed CA Certificate Distribution for EST and EST-coaps Deployments</title>
+    <seriesInfo name="Internet-Draft" value="draft-mittal-est-coap-ca-certs-00"/>
+    <author initials="N." surname="Mittal" fullname="Narinder Mittal">
+      <organization>Landis+Gyr</organization>
+    </author>
+    <author initials="C." surname="Hett" fullname="Chris Hett">
+      <organization>Landis+Gyr</organization>
+    </author>
+    <date day="25" month="September" year="2026"/>
+    <abstract>
+      <t>This document describes a manufacturer-assisted mechanism for
+   distributing operational certification authority (CA) certificates to
+   devices using Enrollment over Secure Transport (EST) or EST over
+   secure CoAP (EST-coaps).
+
+   The mechanism is intended for deployments in which a device is
+   manufactured before the operational PKI and EST server trust anchors
+   are known.  The device is provisioned during manufacturing with a
+   manufacturer trust anchor.  An operational CA certificate bundle is
+   subsequently signed by the manufacturer, or by a manufacturer-
+   authorized signing authority, and delivered through a manufacturer-
+   specific EST alias.
+
+   The device validates the signed bundle using its manufacturer trust
+   anchor before installing the contained CA certificates as operational
+   trust anchors.  This mechanism is limited to CA certificate bootstrap
+   and does not change EST enrollment semantics, proof-of-possession
+   requirements, certification authority policy, or authenticated EST
+   operation following bootstrap.</t>
+    </abstract>
+  </front>
+</reference>
