@@ -1,0 +1,25 @@
+<reference anchor="I-D.wang-jac" target="https://datatracker.ietf.org/doc/html/draft-wang-jac-03">
+  <front>
+    <title>JAC: Declared Dependency Graphs for JEP Events and Receipts</title>
+    <seriesInfo name="Internet-Draft" value="draft-wang-jac-03"/>
+    <author initials="Y." surname="wang" fullname="yuqiang wang"/>
+    <date day="26" month="September" year="2026"/>
+    <abstract>
+      <t>This document defines JAC-2, a minimal declared-dependency graph
+   profile for the Judgment Event Protocol (JEP) [JEP].
+
+   JAC-2 binds a signed JEP event to zero or more declared parent
+   dependencies through one critical JEP extension.  JEP Event Identity
+   is used for logical JEP event dependencies; Event Hash is used only
+   when an exact signed artifact must also be pinned.  Digest-addressed
+   receipt or external records can be linked without becoming JEP
+   events.
+
+   JAC-2 defines dependency-link structure, partial-fragment semantics,
+   cycle handling, chain validation checks, and non-inference
+   boundaries.  It does not determine factual causality, responsibility,
+   fault, authorization validity, workflow correctness, legal effect, or
+   regulatory compliance.</t>
+    </abstract>
+  </front>
+</reference>
