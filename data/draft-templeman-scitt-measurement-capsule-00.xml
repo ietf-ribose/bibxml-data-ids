@@ -1,0 +1,24 @@
+<reference anchor="I-D.templeman-scitt-measurement-capsule" target="https://datatracker.ietf.org/doc/html/draft-templeman-scitt-measurement-capsule-00">
+  <front>
+    <title>Declared-versus-Observed Measurement Capsules: A Profile for Third-Party Measurement Statements in SCITT</title>
+    <seriesInfo name="Internet-Draft" value="draft-templeman-scitt-measurement-capsule-00"/>
+    <author initials="N." surname="Templeman" fullname="Nicholas Templeman">
+      <organization>Council of AI (CSOAI Ltd)</organization>
+    </author>
+    <date day="26" month="September" year="2026"/>
+    <abstract>
+      <t>This document defines the measurement capsule: a small, deterministic
+   JSON record in which a party that is neither the subject of a claim
+   nor a participant in the action it concerns records what the subject
+   declared, what the measuring party observed, and the difference
+   between the two.  A capsule carries digests of its evidence, a
+   measurement state in which "could not be checked" is a first-class
+   outcome, and no decision, approval or authorisation.  Capsules are
+   identified by the SHA-256 of their JCS serialisation and batched
+   under an RFC 9162 Merkle Tree Hash.  The document describes their
+   registration as SCITT Signed Statements (RFC 9943), how they refer to
+   rather than restate receipts issued under other profiles, and one
+   implementation, including where it does not yet match this profile.</t>
+    </abstract>
+  </front>
+</reference>
