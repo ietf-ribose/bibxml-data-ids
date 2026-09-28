@@ -1,0 +1,30 @@
+<reference anchor="I-D.reddy-wimse-aggregate-signatures" target="https://datatracker.ietf.org/doc/html/draft-reddy-wimse-aggregate-signatures-01">
+  <front>
+    <title>Authenticated Provenance for WIMSE Delegation Chains</title>
+    <seriesInfo name="Internet-Draft" value="draft-reddy-wimse-aggregate-signatures-01"/>
+    <author initials="T." surname="Reddy.K" fullname="Tirumaleswar Reddy.K">
+      <organization>Nokia</organization>
+    </author>
+    <author initials="H." surname="Tschofenig" fullname="Hannes Tschofenig">
+      <organization>University of the Bundeswehr Munich</organization>
+    </author>
+    <author initials="Y." surname="Sheffer" fullname="Yaron Sheffer">
+      <organization>Intuit</organization>
+    </author>
+    <date day="28" month="September" year="2026"/>
+    <abstract>
+      <t>A request and its response, passing through a chain of workloads, may
+   need authenticated provenance: proof of which workloads participated
+   and whether each changed the message.  The base WIMSE HTTP Message
+   Signatures mechanism ([I-D.ietf-wimse-http-signature]) authenticates
+   one workload's message to its immediate recipient and does not
+   provide this across a chain.  This document establishes authenticated
+   provenance using per-hop digests of what each hop received and
+   forwarded; this alone detects an omitted hop that changed the
+   message.  An aggregate signature closes the remaining gap, a hop that
+   forwards the message unchanged, and keeps the signature close to the
+   size of one signature regardless of chain length.  The mechanism
+   works with any aggregate signature scheme.</t>
+    </abstract>
+  </front>
+</reference>

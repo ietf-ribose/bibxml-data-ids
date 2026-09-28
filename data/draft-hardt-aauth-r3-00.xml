@@ -1,0 +1,24 @@
+<reference anchor="I-D.hardt-aauth-r3" target="https://datatracker.ietf.org/doc/html/draft-hardt-aauth-r3-00">
+  <front>
+    <title>AAuth Rich Resource Requests (R3)</title>
+    <seriesInfo name="Internet-Draft" value="draft-hardt-aauth-r3-00"/>
+    <author initials="D." surname="Hardt" fullname="Dick Hardt">
+      <organization>Hellō</organization>
+    </author>
+    <date day="28" month="September" year="2026"/>
+    <abstract>
+      <t>This document defines AAuth Rich Resource Requests (R3), an extension
+   to the AAuth Protocol ([I-D.hardt-oauth-aauth-protocol]) that enables
+   structured, vocabulary-based authorization for resource access.
+   Resources publish R3 documents (content-addressed authorization
+   definitions) and advertise vocabularies describing their operations.
+   Agents request access using those vocabularies.  Auth tokens carry
+   granted operations in the same vocabulary format, enabling resources
+   to enforce authorization directly from the token.  Resources annotate
+   individual operations in their vocabulary with the credential each
+   requires, so an agent can plan before its first call.  R3 provides
+   human-displayable context for consent decisions and content-addressed
+   audit provenance via the r3_s256 hash in auth tokens.</t>
+    </abstract>
+  </front>
+</reference>

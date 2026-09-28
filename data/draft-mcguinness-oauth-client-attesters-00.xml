@@ -1,0 +1,22 @@
+<reference anchor="I-D.mcguinness-oauth-client-attesters" target="https://datatracker.ietf.org/doc/html/draft-mcguinness-oauth-client-attesters-00">
+  <front>
+    <title>OAuth 2.0 Client Attester Endorsement</title>
+    <seriesInfo name="Internet-Draft" value="draft-mcguinness-oauth-client-attesters-00"/>
+    <author initials="K." surname="McGuinness" fullname="Karl McGuinness">
+      <organization>Independent</organization>
+    </author>
+    <date day="28" month="September" year="2026"/>
+    <abstract>
+      <t>OAuth 2.0 Attestation-Based Client Authentication requires an
+   authorization server to trust the attester that makes statements
+   about a client instance, but does not define how a client identifies
+   the attesters authorized to attest for it.  This specification
+   defines a client metadata parameter, usable by registered clients and
+   in Client ID Metadata Documents, that names the endorsed attesters
+   and the locations of their verification keys.  It defines how an
+   authorization server validates endorsements and processes their
+   withdrawal while retaining control over whether to trust them.  It
+   introduces no new credential or client authentication method.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,32 @@
+<reference anchor="I-D.hdong-dnsop-ml-dsa-mtl-dnssec-sigtag-ext" target="https://datatracker.ietf.org/doc/html/draft-hdong-dnsop-ml-dsa-mtl-dnssec-sigtag-ext-00">
+  <front>
+    <title>Module-Lattice-Based Signatures with Merkle Tree Ladders (ML-DSA-MTL) for DNSSEC with SigTag Extension</title>
+    <seriesInfo name="Internet-Draft" value="draft-hdong-dnsop-ml-dsa-mtl-dnssec-sigtag-ext-00"/>
+    <author initials="H." surname="Dong" fullname="Hongying Dong">
+      <organization>Verisign Labs</organization>
+    </author>
+    <author initials="A." surname="Kaizer" fullname="Andrew Kaizer">
+      <organization>Verisign Labs</organization>
+    </author>
+    <author initials="J." surname="Harvey" fullname="Joe Harvey">
+      <organization>Verisign Labs</organization>
+    </author>
+    <author initials="B." surname="Kaliski" fullname="Burt Kaliski">
+      <organization>Verisign Labs</organization>
+    </author>
+    <author initials="S." surname="Sheth" fullname="Swapneel Sheth">
+      <organization>Verisign Labs</organization>
+    </author>
+    <date day="28" month="September" year="2026"/>
+    <abstract>
+      <t>This document describes a mechanism to reduce post-quantum
+   cryptographic (PQC) network transmission overhead when using Merkle
+   Tree Ladders (MTL) in DNS Security Extensions (DNSSEC).  This
+   document refers to this as SigTag and describes the use of EDNS(0) to
+   enable its use.  SigTag allows a client to indicate its knowledge of
+   a specific MTL ladder.  The DNS server can then use this signal to
+   determine if it can omit the full underlying signature in its
+   response, thereby reducing the message payload.</t>
+    </abstract>
+  </front>
+</reference>

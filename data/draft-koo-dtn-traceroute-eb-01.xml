@@ -1,0 +1,23 @@
+<reference anchor="I-D.koo-dtn-traceroute-eb" target="https://datatracker.ietf.org/doc/html/draft-koo-dtn-traceroute-eb-01">
+  <front>
+    <title>Traceroute Extension Block for Bundle Protocol Version 7</title>
+    <seriesInfo name="Internet-Draft" value="draft-koo-dtn-traceroute-eb-01"/>
+    <author initials="K. H." surname="Cheol" fullname="CHEOL HEA KOO">
+      <organization>Korea Aerospace Research Institute</organization>
+    </author>
+    <date day="27" month="September" year="2026"/>
+    <abstract>
+      <t>This document defines a Traceroute Extension Block (TREB) for Bundle
+   Protocol Version 7 (BPv7).  Each participating node along a bundle's
+   path appends a hop-record containing its Node ID, the next hop it
+   selected, the time of the recorded event, and link characteristics.
+   The same block, copied into bundle status reports, returns traceroute
+   data to the source.  The mechanism is opt-in and intended for
+   designated diagnostic bundles on scheduled, bandwidth-constrained
+   paths.  In delivery-report-only operation a single status report
+   returns the full recorded path and also records its own return path,
+   giving a round-trip trace.  Status report generation remains governed
+   by RFC 9171.</t>
+    </abstract>
+  </front>
+</reference>
