@@ -1,0 +1,35 @@
+<reference anchor="I-D.vandemeent-rvp-continuous-verification" target="https://datatracker.ietf.org/doc/html/draft-vandemeent-rvp-continuous-verification-03">
+  <front>
+    <title>RVP: Real-time Verification Protocol for Requirement-Bound Evidence</title>
+    <seriesInfo name="Internet-Draft" value="draft-vandemeent-rvp-continuous-verification-03"/>
+    <author initials="J." surname="van de Meent" fullname="Jasper van de Meent">
+      <organization>Humotica</organization>
+    </author>
+    <author initials="R." surname="AI" fullname="Root AI">
+      <organization>Humotica</organization>
+    </author>
+    <date day="29" month="September" year="2026"/>
+    <abstract>
+      <t>This document defines RVP, a protocol for asking a bounded
+   verification question, carrying that question through one of several
+   possible verification mechanisms, and producing evidence that is
+   bound to the exact question.  RVP separates five concerns that are
+   often collapsed: the consumer policy that decides whether evidence is
+   needed, the frozen evidence requirement, the lifecycle of the
+   question, the carrier that obtains a response, and the later act of
+   consuming the evidence.
+
+   RVP does not grant authority, establish admission, or replace account
+   authentication and session policy.  A successful result means only
+   that the presented evidence satisfied the referenced requirement for
+   the referenced question.  The consumer and target system remain
+   responsible for deciding what, if anything, may happen next.
+
+   The protocol supports local biometric checks, signed companion-device
+   responses, WebAuthn, authenticated-session evidence, recovery
+   standing, and future carriers without assigning ceremony semantics or
+   authority to those carriers.  It is transport-independent and can
+   operate locally without a central identity provider.</t>
+    </abstract>
+  </front>
+</reference>

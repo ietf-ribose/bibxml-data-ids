@@ -1,0 +1,28 @@
+<reference anchor="I-D.anandakrishnan-rats-ptv-agent-identity" target="https://datatracker.ietf.org/doc/html/draft-anandakrishnan-rats-ptv-agent-identity-01">
+  <front>
+    <title>The Prove-Transform-Verify (PTV) Protocol for Attested Agent Identity</title>
+    <seriesInfo name="Internet-Draft" value="draft-anandakrishnan-rats-ptv-agent-identity-01"/>
+    <author initials="A." surname="Damodaran" fullname="Anandakrishnan Damodaran">
+      <organization>Sovereign AI Stack</organization>
+    </author>
+    <date day="29" month="September" year="2026"/>
+    <abstract>
+      <t>This document describes the Prove-Transform-Verify (PTV) protocol for
+   hardware-anchored attestation of AI agent identity.  PTV enables an
+   agent to prove, at exercise time, that it is bound to an enrolled
+   attestation key and an authorized configuration, without exposing
+   model weights or inference inputs.
+
+   PTV is a thin request/response profile over the RATS architecture
+   (RFC 9334) and the Entity Attestation Token (RFC 9711).  It does not
+   replace workload identifiers such as SPIFFE or WIMSE.  It does not
+   attest behavioral continuity; behavioral continuity is a separate
+   requirement class that relying parties need to treat as such.
+
+   This revision is intended as Experimental.  It defines a common CBOR/
+   CDDL message set, four message types, a COSE-based message protection
+   rule, an informative EAT claim mapping, and a threat model that
+   separates identity binding integrity from behavioral continuity.</t>
+    </abstract>
+  </front>
+</reference>
