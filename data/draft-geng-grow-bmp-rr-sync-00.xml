@@ -1,0 +1,28 @@
+<reference anchor="I-D.geng-grow-bmp-rr-sync" target="https://datatracker.ietf.org/doc/html/draft-geng-grow-bmp-rr-sync-00">
+  <front>
+    <title>BMP Extension for Non-Disruptive RIB View Synchronization</title>
+    <seriesInfo name="Internet-Draft" value="draft-geng-grow-bmp-rr-sync-00"/>
+    <author initials="N." surname="Geng" fullname="Nan Geng">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="S." surname="Zhuang" fullname="Shunwan Zhuang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date day="30" month="September" year="2026"/>
+    <abstract>
+      <t>The BGP Monitoring Protocol (BMP) provides full visibility into BGP
+   Routing Information Base (RIB) state across routers and collectors.
+   However, transient network faults, process restarts, or buffer
+   overflows can cause data inconsistencies between the BMP sender's
+   authoritative RIB and the collector's stored view.  Existing recovery
+   requires tearing down BMP sessions or re-exporting all peers,
+   introducing severe operational disruption.
+
+   This document defines a new BMP message type, the BMP Route-Refresh
+   message.  It encapsulated standard BGP Route-Refresh and Enhanced
+   Route-Refresh semantics within BMP to enable fine-grained, non-
+   disruptive, and targeted per-peer or per-AFI/SAFI RIB view re-
+   synchronization.</t>
+    </abstract>
+  </front>
+</reference>

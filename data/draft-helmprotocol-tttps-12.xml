@@ -1,0 +1,28 @@
+<reference anchor="I-D.helmprotocol-tttps" target="https://datatracker.ietf.org/doc/html/draft-helmprotocol-tttps-12">
+  <front>
+    <title>The TLS TimeToken Secure Protocol (TTTPS)</title>
+    <seriesInfo name="Internet-Draft" value="draft-helmprotocol-tttps-12"/>
+    <author initials="D." surname="&#xC7A5;&#xB3D9;&#xD638;" fullname="&#xC7A5;&#xB3D9;&#xD638;">
+      <organization>Kenosian</organization>
+    </author>
+    <date day="30" month="September" year="2026"/>
+    <abstract>
+      <t>This document specifies TTTPS, an application-layer protocol for
+   evaluating temporal evidence before an application accepts an event
+   or performs a related state transition.  The protocol defines a fixed
+   180-byte Proof-of-Time Record v2 containing context, freshness,
+   integrity, issuer-authentication, and holder-authentication fields.
+
+   When TLS 1.3 transport binding is selected, a separate holder binding
+   proof is derived from TLS exporter output and holder key material.
+   The proof is sent with, but is not part of, the 180-byte record.  The
+   fixed-record GRG admission path is bounded with respect to peer count
+   under declared frame and correction limits.
+
+   TTTPS returns an explicit admission result before application state
+   mutation.  Confidence and propagation-aware profiles are optional.
+   This document does not define agent intent, audit record schemas, or
+   transparency-log operation.</t>
+    </abstract>
+  </front>
+</reference>
