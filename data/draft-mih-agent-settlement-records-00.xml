@@ -1,0 +1,29 @@
+<reference anchor="I-D.mih-agent-settlement-records" target="https://datatracker.ietf.org/doc/html/draft-mih-agent-settlement-records-00">
+  <front>
+    <title>Two-Party Settlement Records for Agent Payments</title>
+    <seriesInfo name="Internet-Draft" value="draft-mih-agent-settlement-records-00"/>
+    <author initials="S." surname="Mih" fullname="Steven Mih">
+      <organization>Action State Group, Inc.</organization>
+    </author>
+    <date day="01" month="October" year="2026"/>
+    <abstract>
+      <t>A payment between two agents is observed by two systems: the payer's
+   wallet or bank and the payee's.  Existing payment protocols record
+   one of those observations, signed by one party, and most record
+   nothing about what was delivered in exchange.  This document defines
+   two-party settlement records, carried as Agent Action Capsules, in
+   which payer and payee each seal, under their own key, only what their
+   own system observed.  A settlement is a set of up to four leg records
+   (terms, payer-observed, payee-observed, and delivered) that cite each
+   other by digest and join on a typed payment reference.  The state of
+   a settlement (one-sided, agreed, or mismatched) is derived by the
+   verifier from which legs are present and whether they agree; no
+   record asserts it.  Signed objects from existing payment protocols
+   are carried by digest and never re-signed.  Amounts are exact
+   integers with a decimal scale.  The document defines a registry of
+   payment reference types covering x402, Lightning, AP2, ACP, UCP, the
+   Payment HTTP authentication scheme, ISO 20022, and Open Payments, and
+   maps its states to ISO 20022 status codes.</t>
+    </abstract>
+  </front>
+</reference>
