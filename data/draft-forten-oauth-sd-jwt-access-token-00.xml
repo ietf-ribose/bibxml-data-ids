@@ -1,0 +1,19 @@
+<reference anchor="I-D.forten-oauth-sd-jwt-access-token" target="https://datatracker.ietf.org/doc/html/draft-forten-oauth-sd-jwt-access-token-00">
+  <front>
+    <title>Selective Disclosure for JWT Access Tokens Without Changing the Token</title>
+    <seriesInfo name="Internet-Draft" value="draft-forten-oauth-sd-jwt-access-token-00"/>
+    <author initials="S. F." surname="Lee" fullname="Su-hyeon Forten Lee"/>
+    <date day="03" month="October" year="2026"/>
+    <abstract>
+      <t>This document adds selective disclosure to JWT access tokens without
+   changing the form of the Authorization header or how the token is
+   validated.  The RFC 9068 token is sent as today, with some of its
+   claims selectively disclosable as defined by SD-JWT (RFC 9901); the
+   Disclosures and the optional Key Binding JWT travel in two new HTTP
+   fields.  A recipient that does not implement this profile ignores the
+   fields and processes the token as an ordinary JWT access token.  The
+   token itself then carries no selectively disclosable value, and the
+   holder chooses per request which values to reveal.</t>
+    </abstract>
+  </front>
+</reference>

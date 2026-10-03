@@ -1,0 +1,25 @@
+<reference anchor="I-D.palanisamy-scitt-aac-otel" target="https://datatracker.ietf.org/doc/html/draft-palanisamy-scitt-aac-otel-00">
+  <front>
+    <title>OpenTelemetry Correlation Extension for Agent Action Capsules</title>
+    <seriesInfo name="Internet-Draft" value="draft-palanisamy-scitt-aac-otel-00"/>
+    <author initials="G." surname="Palanisamy" fullname="Govindaraj Palanisamy">
+      <organization>Independent</organization>
+    </author>
+    <author initials="S." surname="Mih" fullname="Steven Mih">
+      <organization>Action State Group, Inc.</organization>
+    </author>
+    <date day="02" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines org.agentactioncapsule.otel, a namespaced
+   payload extension for the Agent Action Capsule profile.  The
+   extension carries OpenTelemetry trace and span context alongside a
+   sealed agent-action record so that the Capsule and the observability
+   spans describing the same action can be joined after the fact.  It
+   maps the OpenTelemetry Generative AI semantic conventions onto
+   Capsule fields where a mapping is well defined and states which
+   OpenTelemetry values MUST NOT enter a Capsule at all.  The extension
+   does not alter Capsule verification: a verifier that does not
+   implement it treats the block as informational.</t>
+    </abstract>
+  </front>
+</reference>
