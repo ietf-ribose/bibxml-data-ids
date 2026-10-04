@@ -1,0 +1,25 @@
+<reference anchor="I-D.janbjer-div" target="https://datatracker.ietf.org/doc/html/draft-janbjer-div-00">
+  <front>
+    <title>Deterministic Intent Verification (DIV) Protocol Specification</title>
+    <seriesInfo name="Internet-Draft" value="draft-janbjer-div-00"/>
+    <author initials="C." surname="Janbjer" fullname="Christian Janbjer">
+      <organization>Janbjer Technologies AB</organization>
+    </author>
+    <date day="04" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies Deterministic Intent Verification (DIV), a
+   transport-independent format for signed action approvals and their
+   offline verification.  A relying party reconstructs the signed
+   payload from its expected execution parameters, verifies witnesses
+   against locally selected trust anchors, and checks the signed
+   approval requirement against any locally configured approval policy.
+   The specification covers ordinary approvals, offline approvals,
+   delegation, agent authority, and platform hash-only intents.
+   Cryptographic verification is stateless; enforcing single-use
+   execution requires stateful nonce redemption.  A valid signature
+   establishes approval of the signed bytes under the selected trust
+   policy, not execution of the action or the approver's understanding
+   of it.</t>
+    </abstract>
+  </front>
+</reference>

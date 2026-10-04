@@ -1,0 +1,24 @@
+<reference anchor="I-D.janbjer-dewp" target="https://datatracker.ietf.org/doc/html/draft-janbjer-dewp-00">
+  <front>
+    <title>Deterministic Evidence &amp; Witness Protocol (DEWP) Specification</title>
+    <seriesInfo name="Internet-Draft" value="draft-janbjer-dewp-00"/>
+    <author initials="C." surname="Janbjer" fullname="Christian Janbjer">
+      <organization>Janbjer Technologies AB</organization>
+    </author>
+    <date day="04" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies the Deterministic Evidence and Witness
+   Protocol (DEWP), a format for tamper-evident audit commitments and
+   offline evidence verification.  It defines canonical event preimages,
+   domain-separated hashing, two-tier Merkle inclusion proofs, per-
+   tenant sequence checks, checkpoint continuity, and independently
+   verifiable anchor evidence.  Verifiers report content, commitment,
+   embedded-signature, and anchor verification separately.  Completeness
+   checks cover committed events within the evaluated range; they cannot
+   prove that an event was never withheld before commitment or that a
+   committed description accurately records a real-world action.  The
+   specification also defines a streaming format that the reference
+   implementations do not yet implement.</t>
+    </abstract>
+  </front>
+</reference>
