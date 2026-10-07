@@ -1,0 +1,33 @@
+<reference anchor="I-D.kott-numina-pair-binding" target="https://datatracker.ietf.org/doc/html/draft-kott-numina-pair-binding-00">
+  <front>
+    <title>An Evidence Preserving Companion Record for the fixed string numina.pair-binding.v1 / Ed25519: A design study of Ed25519; the universal pair binding model.</title>
+    <seriesInfo name="Internet-Draft" value="draft-kott-numina-pair-binding-00"/>
+    <author initials="S. J." surname="Kott" fullname="Samuel J. Kott">
+      <organization>SK Consulting LLC dba Numina Labs</organization>
+    </author>
+    <date day="07" month="October" year="2026"/>
+    <abstract>
+      <t>Software attribution may need to be clarified after release artifacts
+   and their cryptographic commitments have been fixed.  Editing those
+   artifacts would disturb the evidence that an attribution statement is
+   intended to describe.  This paper proposes a separately versioned
+   companion record that associates two unchanged source commitments
+   with explicit named attribution and an opaque reference to a private
+   genesis record.  The construction uses JSON Canonicalization Scheme
+   (JCS) bytes, an application-specific message prefix, and pure Ed25519
+   signatures.  Its verification model separates payload integrity,
+   signing authority, source equality, revision freshness, and private
+   reference resolution.  A Numina example preserves two existing
+   SHA-256 commitments and records an owner-defined person-to-alias map
+   without treating labels as proof of authorship or mathematical
+   derivation.  Historical records report reproduction of both
+   commitments.  A later byte comparison establishes equality of the
+   selected v155 inputs and hash profile, without establishing whole-
+   source equality or a deployed signed binding.  The contribution is a
+   proposed evidence-preservation and reporting discipline, rather than
+   a new cryptographic primitive.  A public-safe record would require
+   its own approved payload and signature.  Trust provisioning,
+   implementation tests, and public reproducibility remain open.</t>
+    </abstract>
+  </front>
+</reference>

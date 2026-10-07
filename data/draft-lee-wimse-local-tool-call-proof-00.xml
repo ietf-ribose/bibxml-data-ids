@@ -1,0 +1,37 @@
+<reference anchor="I-D.lee-wimse-local-tool-call-proof" target="https://datatracker.ietf.org/doc/html/draft-lee-wimse-local-tool-call-proof-00">
+  <front>
+    <title>Per-Call Proof for Local Tool Invocation by AI Agents</title>
+    <seriesInfo name="Internet-Draft" value="draft-lee-wimse-local-tool-call-proof-00"/>
+    <author initials="J." surname="Lee" fullname="Jaebin Lee">
+      <organization>SSenStone Inc.</organization>
+    </author>
+    <author initials="C." surname="Yoo" fullname="Chang-Hun Yoo">
+      <organization>SSenStone Inc.</organization>
+    </author>
+    <author initials="M." surname="Kim" fullname="MinGyu Kim">
+      <organization>SSenStone Inc.</organization>
+    </author>
+    <author initials="W." surname="Seo" fullname="WooYong Seo">
+      <organization>SSenStone Inc.</organization>
+    </author>
+    <date day="07" month="October" year="2026"/>
+    <abstract>
+      <t>AI agents increasingly act through local tool servers that run on the
+   same host and are reached over inter-process channels such as the
+   stdio transport of the Model Context Protocol (MCP).  These channels
+   are outside the scope of HTTP-based authorization: the tool server
+   cannot tell whether a given invocation passed any policy decision,
+   and reusable credentials typically sit in the agent's process memory.
+
+   This document defines a per-call proof for local tool invocation.  A
+   Call Authority that runs outside the agent process evaluates policy,
+   issues a short-lived, single-use proof bound to the exact tool name
+   and arguments through a canonical action digest, and verifies that
+   proof on behalf of the tool server.  The tool server rejects
+   invocations whose proof is missing or does not verify.  The proof
+   format is opaque to the agent and the tool server; concrete formats
+   are defined as evidence type profiles.  An MCP stdio binding is
+   provided.</t>
+    </abstract>
+  </front>
+</reference>
