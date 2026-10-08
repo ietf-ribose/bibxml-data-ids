@@ -1,0 +1,22 @@
+<reference anchor="I-D.jangra-scitt-digest-evidence" target="https://datatracker.ietf.org/doc/html/draft-jangra-scitt-digest-evidence-00">
+  <front>
+    <title>Digest-Only Evidence Logs: Completeness, Disclosure and Sampling over RFC 9162 Transparency Logs</title>
+    <seriesInfo name="Internet-Draft" value="draft-jangra-scitt-digest-evidence-00"/>
+    <author initials="A." surname="Jangra" fullname="Anil Jangra">
+      <organization>RiskRouter</organization>
+    </author>
+    <date day="08" month="October" year="2026"/>
+    <abstract>
+      <t>This document describes an evidence log that records only salted
+   digests of records held by their makers, as leaves of an RFC 9162
+   Merkle tree, and three constructions over it that answer questions a
+   single inclusion proof cannot: whether a set of records shown is
+   complete (completeness chains), what one field of a sealed record
+   said without revealing the others (selective disclosure), and whether
+   records were kept, checked on a sample nobody could choose (spot
+   checks).  It profiles SCITT registration so that the log keeps a
+   digest of each Signed Statement and never the statement.  It is
+   published as running code with test vectors.</t>
+    </abstract>
+  </front>
+</reference>

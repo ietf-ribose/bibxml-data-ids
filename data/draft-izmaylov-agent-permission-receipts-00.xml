@@ -1,0 +1,19 @@
+<reference anchor="I-D.izmaylov-agent-permission-receipts" target="https://datatracker.ietf.org/doc/html/draft-izmaylov-agent-permission-receipts-00">
+  <front>
+    <title>Signed Permissions and Action Receipts for Automated Agents</title>
+    <seriesInfo name="Internet-Draft" value="draft-izmaylov-agent-permission-receipts-00"/>
+    <author initials="P." surname="Izmaylov" fullname="Pavel Izmaylov"/>
+    <date day="07" month="October" year="2026"/>
+    <abstract>
+      <t>Automated agents, such as artificial intelligence (AI) agents, act
+   for people.  This document specifies records that let anyone check,
+   later and offline, what an agent was allowed to do and what it
+   recorded doing: a permission a person signs with a passkey, with
+   limits a machine can check; a receipt the agent signs for each
+   action, with Ed25519 and the post-quantum Module-Lattice-Based
+   Digital Signature Algorithm (ML-DSA-87); and a log whose tree head is
+   signed and time-stamped.  A verifier says whether each action stayed
+   within its permission, apart from whether the records are sound.</t>
+    </abstract>
+  </front>
+</reference>

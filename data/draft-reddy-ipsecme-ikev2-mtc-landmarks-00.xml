@@ -1,0 +1,25 @@
+<reference anchor="I-D.reddy-ipsecme-ikev2-mtc-landmarks" target="https://datatracker.ietf.org/doc/html/draft-reddy-ipsecme-ikev2-mtc-landmarks-00">
+  <front>
+    <title>Merkle Tree Certificates in the Internet Key Exchange Protocol Version 2 (IKEv2)</title>
+    <seriesInfo name="Internet-Draft" value="draft-reddy-ipsecme-ikev2-mtc-landmarks-00"/>
+    <author initials="T." surname="Reddy.K" fullname="Tirumaleswar Reddy.K">
+      <organization>Nokia</organization>
+    </author>
+    <author initials="V." surname="Smyslov" fullname="Valery Smyslov">
+      <organization>ELVIS-PLUS</organization>
+    </author>
+    <date day="08" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies the use of Merkle Tree Certificates (MTCs) in
+   the Internet Key Exchange Protocol Version 2 (IKEv2).  An IKE peer
+   sends an MTC in place of a directly-signed end-entity certificate and
+   its chain of Certification Authority (CA) certificates.  The MTC
+   carries an inclusion proof in place of CA signatures, which reduces
+   the size of the IKE_AUTH exchange, in particular with post-quantum
+   signature algorithms such as ML-DSA and SLH-DSA.  This document
+   defines a Certificate Encoding for the Certificate Request payload
+   that carries trust anchor identifiers.  An IKE peer uses these
+   identifiers to indicate the MTC CAs and landmarks it trusts.</t>
+    </abstract>
+  </front>
+</reference>

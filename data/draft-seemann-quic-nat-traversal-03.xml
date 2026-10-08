@@ -1,0 +1,20 @@
+<reference anchor="I-D.seemann-quic-nat-traversal" target="https://datatracker.ietf.org/doc/html/draft-seemann-quic-nat-traversal-03">
+  <front>
+    <title>Using QUIC to traverse NATs</title>
+    <seriesInfo name="Internet-Draft" value="draft-seemann-quic-nat-traversal-03"/>
+    <author initials="M." surname="Seemann" fullname="Marten Seemann"/>
+    <author initials="E." surname="Kinnear" fullname="Eric Kinnear">
+      <organization>Apple Inc.</organization>
+    </author>
+    <date day="08" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies a QUIC extension for traversing Network
+   Address Translators (NATs).  Endpoints use an existing proxied QUIC
+   connection to coordinate path validation attempts that create the NAT
+   bindings needed for a direct path and test its connectivity.
+   Application data can be exchanged over the proxied path while NAT
+   traversal is in progress.  Once a suitable direct path has been
+   validated, the connection can migrate to it.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,24 @@
+<reference anchor="I-D.litzki-sovp" target="https://datatracker.ietf.org/doc/html/draft-litzki-sovp-04">
+  <front>
+    <title>Sovereign Validation Protocol (SOVP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-litzki-sovp-04"/>
+    <author initials="T." surname="Litzki" fullname="Thorsten Litzki">
+      <organization>Litzki Systems LLC</organization>
+    </author>
+    <date day="07" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies the Sovereign Validation Protocol (SOVP), a
+   protocol for checking, before ingestion, that a signed identity
+   document was produced by the party that controls the Ed25519 key
+   published in DNS for a host.  A consumer retrieves a JSON document
+   from a well-known location on the host, canonicalizes it, and
+   verifies its signature against the key published in a DNS TXT record.
+   The protocol defines the signed scope, the retrieval and key
+   resolution rules, freshness checks, resource limits for unverified
+   input, and an optional extension that binds a document to a
+   deployment instance.  It does not establish legal identity, the
+   accuracy of content, or the configuration of the system that serves
+   the document.</t>
+    </abstract>
+  </front>
+</reference>
