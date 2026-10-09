@@ -1,0 +1,21 @@
+<reference anchor="I-D.mcguinness-oauth-actor-profile" target="https://datatracker.ietf.org/doc/html/draft-mcguinness-oauth-actor-profile-01">
+  <front>
+    <title>OAuth Actor Profile for Delegation</title>
+    <seriesInfo name="Internet-Draft" value="draft-mcguinness-oauth-actor-profile-01"/>
+    <author initials="K." surname="McGuinness" fullname="Karl McGuinness">
+      <organization>Independent</organization>
+    </author>
+    <date day="08" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines a common representation of delegated actors in
+   OAuth JSON Web Token (JWT) assertion grants, JWT access tokens, and
+   Transaction Tokens.  It profiles the act claim defined by OAuth 2.0
+   Token Exchange, requires issuer-scoped actor identifiers, and uses
+   the sub_profile claim to classify actor entity types.  It specifies
+   token processing, delegation-chain propagation, sender-constraint
+   handling, and discovery metadata, so that issuers and resource
+   servers in different trust domains interpret delegated actors
+   consistently.</t>
+    </abstract>
+  </front>
+</reference>

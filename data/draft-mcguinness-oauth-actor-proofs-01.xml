@@ -1,0 +1,20 @@
+<reference anchor="I-D.mcguinness-oauth-actor-proofs" target="https://datatracker.ietf.org/doc/html/draft-mcguinness-oauth-actor-proofs-01">
+  <front>
+    <title>OAuth Actor-Signed Hop Proofs</title>
+    <seriesInfo name="Internet-Draft" value="draft-mcguinness-oauth-actor-proofs-01"/>
+    <author initials="K." surname="McGuinness" fullname="Karl McGuinness">
+      <organization>Independent</organization>
+    </author>
+    <date day="09" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines OAuth Actor-Signed Hop Proofs, an optional
+   companion to the OAuth Actor Profile for Delegation.  Each proof is a
+   signed JSON Web Token (JWT) recording an actor's participation and
+   authorized target for one hop.  The actor_proofs claim carries a
+   hash-linked chain verified through trusted actor-key sources.  This
+   document specifies proof conveyance, validation, optional links to
+   Actor Receipts, metadata parameters, and introspection response
+   members.</t>
+    </abstract>
+  </front>
+</reference>

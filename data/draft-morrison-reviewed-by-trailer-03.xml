@@ -1,0 +1,31 @@
+<reference anchor="I-D.morrison-reviewed-by-trailer" target="https://datatracker.ietf.org/doc/html/draft-morrison-reviewed-by-trailer-03">
+  <front>
+    <title>Reviewed-By Trailer: Sovereign-Portable Peer-Review Attribution for Content-Hash-Bound Artefacts</title>
+    <seriesInfo name="Internet-Draft" value="draft-morrison-reviewed-by-trailer-03"/>
+    <author initials="B." surname="Morrison" fullname="Blake Morrison">
+      <organization>Alter Meridian Pty Ltd</organization>
+    </author>
+    <date day="08" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines a trailer grammar for sovereign-portable peer
+   review as an extension of the identity-attributed commit grammar of
+   draft-morrison-identity-attributed-commits.  The grammar introduces
+   one required trailer (Reviewed-By:) and three optional companion
+   trailers (Review-Stance:, Review-Of:, Witnessed-By:) that bind a
+   Sovereign-tier ~handle to a specific act of review over a specific
+   content artefact, cryptographically signed using the Ed25519
+   mechanism of that grammar.  The signature covers the reviewer's role,
+   the stance, and the review target together, so that changing any of
+   them after signing fails verification.  The mechanism applies to git
+   commits, document manifests, pre-prints, patent disclosures, and any
+   other content-addressable artefact.  A reviewer's signed reviews are
+   bound to the reviewer's sovereign handle, not to a publisher's
+   platform, and can be verified without the publisher.  For anonymous
+   peer review, the reviewer signs under a Sovereign handle whose
+   underlying party is concealed through out-of-band key custody; the
+   review act stays verifiable and the reviewer's identity is not
+   disclosed.  The grammar complements CRediT, ORCID, and DOI
+   attribution; it does not replace them.</t>
+    </abstract>
+  </front>
+</reference>
