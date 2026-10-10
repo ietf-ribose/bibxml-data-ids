@@ -1,0 +1,24 @@
+<reference anchor="I-D.gruszka-evaluation-receipt-mappings" target="https://datatracker.ietf.org/doc/html/draft-gruszka-evaluation-receipt-mappings-00">
+  <front>
+    <title>Citing Signed Evaluation Receipts from Existing Envelopes</title>
+    <seriesInfo name="Internet-Draft" value="draft-gruszka-evaluation-receipt-mappings-00"/>
+    <author initials="K." surname="Gruszka" fullname="Konrad Gruszka">
+      <organization>b7n0de</organization>
+    </author>
+    <date day="10" month="October" year="2026"/>
+    <abstract>
+      <t>A Signed Evaluation Receipt records one evaluation result as signed
+   payload bytes B.  This document describes how existing envelopes cite
+   such a receipt by the SHA-256 digest of B, and how a DSSE envelope
+   carries B with the receipt's own signature.  It fixes those bytes and
+   a matching rule, maps the parts of a receipt onto DSSE, the in-toto
+   Statement with the test-result predicate and the SLSA Verification
+   Summary Attestation, shows that the signature of a receipt is already
+   a valid DSSE signature, gives an example of a SCITT Signed Statement
+   that names a receipt only by its digest, declares the receipt digest
+   as an artifact type for typed digest references, and relates a
+   receipt to a pre-run criteria set written in PRML.  It defines no new
+   format and no new predicate.</t>
+    </abstract>
+  </front>
+</reference>

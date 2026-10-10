@@ -1,0 +1,40 @@
+<reference anchor="I-D.chen-lake-edhoc-aka" target="https://datatracker.ietf.org/doc/html/draft-chen-lake-edhoc-aka-03">
+  <front>
+    <title>EDHOC Authenticated with AKA</title>
+    <seriesInfo name="Internet-Draft" value="draft-chen-lake-edhoc-aka-03"/>
+    <author initials="M." surname="Chen" fullname="Meiling Chen">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="L." surname="Su" fullname="Li Su">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="X." surname="Song" fullname="Xueyan Song">
+      <organization>ZTE Corp.</organization>
+    </author>
+    <date day="10" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines an Authentication and Key Agreement (AKA)
+   authentication method for the Ephemeral Diffie-Hellman Over COSE
+   (EDHOC) key exchange protocol.  This method, named EDHOC-AKA, is
+   designed as a specific profile of the EDHOC Pre-Shared Key (PSK)
+   authentication method defined in [I-D.ietf-lake-edhoc-psk].
+
+   EDHOC-AKA enables a resource-constrained device (Initiator), which
+   has a mobile network subscription (e.g., a SIM/UICC), to establish a
+   secure, forward-secret session with an application server
+   (Responder).  It achieves this by embedding a 3GPP AKA challenge-
+   response exchange within the standard EDHOC message flow using
+   External Authorization Data (EAD) fields.  The EDHOC Responder acts
+   as a proxy, relaying AKA messages to the mobile core network.
+
+   Upon successful AKA authentication, a session-specific key is derived
+   and used as the Pre-Shared Key for the EDHOC-PSK protocol.  This
+   approach provides efficient, end-to-end authenticated session
+   establishment for scenarios like Non-Terrestrial Networks (NTN) or
+   massive IoT, while inheriting the security properties of EDHOC-PSK,
+   including mutual authentication, identity protection, and strong
+   forward secrecy.  It offers a highly integrated and byte-efficient
+   alternative to more generic frameworks like EAP.</t>
+    </abstract>
+  </front>
+</reference>

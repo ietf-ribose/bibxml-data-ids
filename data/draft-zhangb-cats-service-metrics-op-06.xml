@@ -1,0 +1,49 @@
+<reference anchor="I-D.zhangb-cats-service-metrics-op" target="https://datatracker.ietf.org/doc/html/draft-zhangb-cats-service-metrics-op-06">
+  <front>
+    <title>Computing Service Metrics Operation and Joint Service Selection under CATS</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhangb-cats-service-metrics-op-06"/>
+    <author initials="B." surname="Zhang" fullname="Bin Zhang">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="Y." surname="Dai" fullname="Yina Dai">
+      <organization>Sun Yat-sen University</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="G." surname="Zeng" fullname="Guanming Zeng">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="C." surname="Miao" fullname="Chuanyang Miao">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <date day="10" month="October" year="2026"/>
+    <abstract>
+      <t>Computing-Aware Traffic Steering (CATS) optimizes traffic forwarding
+   by considering both computing and networking metrics.  The CATS
+   Metrics framework provides a general metric hierarchy and operational
+   guidance for aggregation and normalization.  Some deployment
+   scenarios additionally require service-oriented metrics with explicit
+   semantics and units to be consumed directly for joint service-
+   instance and path selection.
+
+   This document defines an operational approach that does not rely on
+   the Level 1 or Level 2 normalized scores of the CATS Metrics
+   framework.  Instead, service sites report service-oriented metrics
+   with explicit semantics and units, such as Global Available Slots and
+   Computing Time, which are directly consumed by the C-PS for joint
+   service-instance and path selection.  The document clarifies how
+   these metrics are derived from basic resource information, service
+   reference information, and local policy.  It also specifies how the
+   C-PS combines the Computing Service Table with the Network Service
+   Table, and defines update-control and fallback mechanisms suitable
+   for large-scale deployments.
+
+   Within the unified CATS architecture, this service-oriented
+   operational approach complements the normalized-score approach.  The
+   two targeted scenarios are rapid deployment without offline metric-
+   function negotiation and fine-grained, requirement-aware joint
+   selection.</t>
+    </abstract>
+  </front>
+</reference>

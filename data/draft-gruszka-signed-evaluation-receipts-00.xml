@@ -1,0 +1,23 @@
+<reference anchor="I-D.gruszka-signed-evaluation-receipts" target="https://datatracker.ietf.org/doc/html/draft-gruszka-signed-evaluation-receipts-00">
+  <front>
+    <title>Signed Evaluation Receipts</title>
+    <seriesInfo name="Internet-Draft" value="draft-gruszka-signed-evaluation-receipts-00"/>
+    <author initials="K." surname="Gruszka" fullname="Konrad Gruszka">
+      <organization>b7n0de</organization>
+    </author>
+    <date day="10" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines a Signed Evaluation Receipt: one JSON object
+   that records one evaluation result, whether a stated threshold held
+   for a stated metric of a stated test suite, and signs it with Ed25519
+   over a domain-separated encoding of its canonical bytes.  A receipt
+   shows who signed the recorded bytes.  It does not show that the
+   recorded result is true.  A receipt does not prove registration with
+   a Transparency Service.  In SCITT, transparency additionally requires
+   registering a Signed Statement carrying the receipt or its digest
+   with a Transparency Service and verifying the resulting SCITT
+   Receipt.  Registration and verification of the resulting SCITT
+   Receipt are outside this document.</t>
+    </abstract>
+  </front>
+</reference>

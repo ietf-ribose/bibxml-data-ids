@@ -1,0 +1,27 @@
+<reference anchor="I-D.prakash-aip" target="https://datatracker.ietf.org/doc/html/draft-prakash-aip-02">
+  <front>
+    <title>Agent Identity Protocol (AIP): Verifiable Delegation for AI Agent Systems</title>
+    <seriesInfo name="Internet-Draft" value="draft-prakash-aip-02"/>
+    <author initials="S." surname="Prakash" fullname="Sunil Prakash">
+      <organization>Independent</organization>
+    </author>
+    <date day="10" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies the Agent Identity Protocol (AIP), which
+   conveys delegated authority along a chain of AI agents so that a
+   relying party can verify, from the token and the issuer's public key,
+   who granted the authority, through which agents it passed, and that
+   no hop widened what it received.  AIP addresses hops where no
+   authorization server is on the path, such as one agent subdelegating
+   to another.  It is intended to compose with the AI Identity
+   Management System (AIMS) framework, which covers hops where an
+   authorization server is present.  The document defines an encoding-
+   neutral delegation chain model with a single attenuation invariant, a
+   normative verification algorithm, and two encodings of the model: a
+   chain of JSON Web Tokens, in which each link names the key of the
+   next holder, and a Biscuit token with Datalog policy.  Bindings are
+   given for the Model Context Protocol (MCP), the Agent2Agent protocol
+   (A2A), and generic HTTP.</t>
+    </abstract>
+  </front>
+</reference>

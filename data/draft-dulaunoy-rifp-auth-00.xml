@@ -1,0 +1,20 @@
+<reference anchor="I-D.dulaunoy-rifp-auth" target="https://datatracker.ietf.org/doc/html/draft-dulaunoy-rifp-auth-00">
+  <front>
+    <title>Pre-Shared-Key Object Authentication for RIFP</title>
+    <seriesInfo name="Internet-Draft" value="draft-dulaunoy-rifp-auth-00"/>
+    <author initials="A." surname="Dulaunoy" fullname="Alexandre Dulaunoy">
+      <organization>Computer Incident Response Center Luxembourg</organization>
+    </author>
+    <date day="10" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines an optional object authentication extension for
+   the Radio Image Framing Protocol (RIFP).  A critical header TLV
+   authenticates the compact object descriptor using HMAC-SHA-256 and a
+   pre-shared key.  The descriptor binds the encoded image digest and
+   decoding parameters to a session and chunk count.  The extension uses
+   existing RIFP framing, fragmentation, retransmission and offline IQ
+   workflows.  It does not provide confidentiality, replay protection or
+   a public-key digital signature.</t>
+    </abstract>
+  </front>
+</reference>
