@@ -1,0 +1,31 @@
+<reference anchor="I-D.zehavi-oauth-authority-metadata" target="https://datatracker.ietf.org/doc/html/draft-zehavi-oauth-authority-metadata-00">
+  <front>
+    <title>OAuth 2.0 Authority Metadata</title>
+    <seriesInfo name="Internet-Draft" value="draft-zehavi-oauth-authority-metadata-00"/>
+    <author initials="Y." surname="Zehavi" fullname="Yaron Zehavi">
+      <organization>Raiffeisen Bank International</organization>
+    </author>
+    <date day="11" month="October" year="2026"/>
+    <abstract>
+      <t>OAuth metadata advertises supported scopes and authorization details
+   types, but advertised scope values and RAR type identifiers do not
+   themselves describe the *authority* associated with them.
+
+   This specification defines authority metadata extensions for OAuth
+   2.0 Protected Resource Metadata and OAuth 2.0 Authorization Server
+   Metadata.
+
+   A protected resource can describe the authority it associates with
+   scopes and Rich Authorization Requests (RAR) types, reusable access
+   requirement profiles, and relationships identifying lower-authority
+   alternatives.
+
+   An authorization server can publish a simpler description of its
+   local authority vocabulary.
+
+   This metadata can inform authentication and authorization decisions
+   before token issuance and exchange, as well as support authority
+   attenuation.</t>
+    </abstract>
+  </front>
+</reference>
