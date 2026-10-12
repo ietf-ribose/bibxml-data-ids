@@ -1,0 +1,27 @@
+<reference anchor="I-D.srivastava-learnlog" target="https://datatracker.ietf.org/doc/html/draft-srivastava-learnlog-01">
+  <front>
+    <title>learnlog: A Verifiable Event Log Format for Learning Software</title>
+    <seriesInfo name="Internet-Draft" value="draft-srivastava-learnlog-01"/>
+    <author initials="K." surname="Srivastava" fullname="Kumar Srivastava">
+      <organization>Quantum Learning Machines</organization>
+    </author>
+    <date day="12" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines learnlog, a log format for learning software.
+   A record holds typed events that describe what a learner did and what
+   other parties, human or software, did in response.  As AI
+   participates in learning and assessment, these records can preserve
+   the assistance and producing instruments needed to interpret a
+   performance.  The format does not establish independent learning or
+   the effectiveness of an intervention.  Entries are chained by hash,
+   and a producer can sign the chain.  A reader who trusts the signing
+   key can then detect changes to the entries under a signed head that
+   were made without that key.  Some changes remain undetectable, and
+   the security considerations list them.  An event can be redacted, and
+   the rest of the record still verifies.  The format defines files,
+   records, entries, events, and registries for event schemas.  Subject-
+   area event schemas and judgments about the applicability of research
+   are out of scope.</t>
+    </abstract>
+  </front>
+</reference>

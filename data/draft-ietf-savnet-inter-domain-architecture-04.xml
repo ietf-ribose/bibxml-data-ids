@@ -1,0 +1,38 @@
+<reference anchor="I-D.ietf-savnet-inter-domain-architecture" target="https://datatracker.ietf.org/doc/html/draft-ietf-savnet-inter-domain-architecture-04">
+  <front>
+    <title>Inter-domain Source Address Validation (SAVNET) Architecture</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-savnet-inter-domain-architecture-04"/>
+    <author initials="D." surname="Li" fullname="Dan Li">
+      <organization>Tsinghua University</organization>
+    </author>
+    <author initials="L." surname="Chen" fullname="Li Chen">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author initials="N." surname="Geng" fullname="Nan Geng">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="L." surname="Liu" fullname="Libin Liu">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author initials="L." surname="Qin" fullname="Lancheng Qin">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <date day="12" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies an architecture for inter-domain source
+   address validation (SAV).  The architecture provides a common
+   framework for collecting SAV-specific and SAV-related information
+   from multiple sources, determining the legitimate incoming directions
+   of source prefixes, and using this information to generate SAV table
+   for inter-domain SAV.  A SAV agent maintains the collected
+   information in a SAV Information Base (SIB), and the SAV Information
+   Base Manager (SIM) uses the available information to determine the
+   corresponding prefix and legitimate incoming-direction mappings and
+   generate or update the SAV table.  This document also defines the
+   architectural components and communication framework of inter-domain
+   SAV, and discusses deployment, operation, convergence, manageability,
+   security, and privacy considerations.  It does not define a specific
+   SAV protocol, protocol extension, or SAV table generation algorithm.</t>
+    </abstract>
+  </front>
+</reference>
