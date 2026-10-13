@@ -1,0 +1,27 @@
+<reference anchor="I-D.aklpdw-dnsop-zonemd-incremental" target="https://datatracker.ietf.org/doc/html/draft-aklpdw-dnsop-zonemd-incremental-00">
+  <front>
+    <title>The MERKLE3 Incremental Scheme for ZONEMD</title>
+    <seriesInfo name="Internet-Draft" value="draft-aklpdw-dnsop-zonemd-incremental-00"/>
+    <author initials="D." surname="Wessels" fullname="Duane Wessels">
+      <organization>Verisign</organization>
+    </author>
+    <author initials="L." surname="Peltan" fullname="Libor Peltan">
+      <organization>CZ.NIC</organization>
+    </author>
+    <author initials="A." surname="Khanna" fullname="Arya Khanna">
+      <organization>NLnet Labs</organization>
+    </author>
+    <date day="12" month="October" year="2026"/>
+    <abstract>
+      <t>The ZONEMD Resource Record affirms the integrity of whole DNS zones
+   and helps verify their authenticity.  It embeds a cryptographic hash
+   of the zone data, collated in a configurable way.  It is used as a
+   checksum for zone transfers between name servers.
+
+   [RFC8976] defined a single ZONEMD collation scheme, SIMPLE.  It is
+   sufficient for small and infrequently updated zones.  This document
+   introduces the MERKLE3 scheme, targeting large, dynamic zones.  It
+   uses a Merkle tree to enable parallelism and incremental computation.</t>
+    </abstract>
+  </front>
+</reference>

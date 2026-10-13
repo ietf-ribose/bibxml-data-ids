@@ -1,0 +1,23 @@
+<reference anchor="I-D.singh-psi-merkle" target="https://datatracker.ietf.org/doc/html/draft-singh-psi-merkle-01">
+  <front>
+    <title>PSI Merkle Commitment Profile (RFC6962-SHA256)</title>
+    <seriesInfo name="Internet-Draft" value="draft-singh-psi-merkle-01"/>
+    <author initials="K." surname="singh" fullname="kawaljeet singh">
+      <organization>APEX Infrastructure</organization>
+    </author>
+    <date day="13" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies the Merkle commitment profile used by Proof
+   of Stateful Integrity (PSI) receipts.  It adopts the Merkle Tree Hash
+   and inclusion proof of RFC 9162 without modification, fixes leaf
+   order, and defines how a receipt declares the profile and how a
+   verifier obtains and checks an inclusion proof.  A valid proof shows
+   only that a leaf was committed under a root; it says nothing about
+   the truth or lawfulness of the sealed content.
+
+   This revision replaces the lexicographic ordering and odd-leaf
+   duplication of revision 00, which were incompatible with RFC 9162,
+   and withdraws all anchoring claims other than OpenTimestamps.</t>
+    </abstract>
+  </front>
+</reference>

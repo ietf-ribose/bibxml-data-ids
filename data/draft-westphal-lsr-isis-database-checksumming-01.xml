@@ -1,0 +1,23 @@
+<reference anchor="I-D.westphal-lsr-isis-database-checksumming" target="https://datatracker.ietf.org/doc/html/draft-westphal-lsr-isis-database-checksumming-01">
+  <front>
+    <title>IS-IS Database Fingerprinting</title>
+    <seriesInfo name="Internet-Draft" value="draft-westphal-lsr-isis-database-checksumming-01"/>
+    <author initials="R." surname="Westphal" fullname="Renato Westphal">
+      <organization>NetDEF</organization>
+    </author>
+    <author initials="T." surname="Przygienda" fullname="Tony Przygienda">
+      <organization>HPE Juniper Networking</organization>
+    </author>
+    <date day="13" month="October" year="2026"/>
+    <abstract>
+      <t>In large IS-IS networks it is useful to quickly verify whether the
+   link-state databases on all routers have synchronized properly and to
+   derive a rough metric of flooding diffusion behavior.  This document
+   proposes a lightweight database fingerprinting mechanism for IS-IS
+   along with YANG model extensions providing easy access to such
+   information.  For fast verification against a peer, an optional TLV
+   carrying the database fingerprint is defined for inclusion in IIH and
+   CSNP PDUs.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,23 @@
+<reference anchor="I-D.singh-psi-agent" target="https://datatracker.ietf.org/doc/html/draft-singh-psi-agent-01">
+  <front>
+    <title>PSI Receipts for AI Agent Actions</title>
+    <seriesInfo name="Internet-Draft" value="draft-singh-psi-agent-01"/>
+    <author initials="K." surname="singh" fullname="kawaljeet singh">
+      <organization>APEX Infrastructure</organization>
+    </author>
+    <date day="13" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines a profile of Proof of Stateful Integrity (PSI)
+   for recording actions taken by software agents, including calls to
+   language models and tools.  The agent runtime computes a digest of
+   each action locally and seals only the digest, so later alteration or
+   omission of a recorded action is detectable.  A receipt shows that a
+   specific action record existed unchanged at a time; it does not show
+   that the action was correct, safe, authorised, or lawful, and it
+   allocates no liability.
+
+   This revision withdraws the liability-allocation language of revision
+   00 and aligns the Merkle commitment with draft-singh-psi-merkle-01.</t>
+    </abstract>
+  </front>
+</reference>

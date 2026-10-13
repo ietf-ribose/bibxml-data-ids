@@ -1,0 +1,26 @@
+<reference anchor="I-D.singh-psi" target="https://datatracker.ietf.org/doc/html/draft-singh-psi-02">
+  <front>
+    <title>Proof of Stateful Integrity (PSI): Signed, Merkle-Committed Receipts for Digital Records</title>
+    <seriesInfo name="Internet-Draft" value="draft-singh-psi-02"/>
+    <author initials="K." surname="singh" fullname="kawaljeet singh">
+      <organization>APEX Infrastructure</organization>
+    </author>
+    <date day="13" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies Proof of Stateful Integrity (PSI), a format
+   and procedure for issuing signed receipts over digital records.  A
+   PSI receipt binds the SHA-256 digest of a canonical JSON record to an
+   issuer signature, a monotonic sequence number, and a Merkle tree root
+   computed with the RFC 6962 hashing profile, and may reference an
+   external timestamp anchor.  Any party holding the record, the
+   receipt, and the issuer public key can verify the receipt offline.
+   PSI provides evidence of integrity, origin, and ordering only.  It
+   does not establish that a record is true, lawful, safe, or compliant
+   with any regulation.
+
+   This revision replaces revision 01.  It withdraws all claims of zero-
+   knowledge proofs, multi-party computation, and inclusion proofs,
+   which the reference implementation does not provide.</t>
+    </abstract>
+  </front>
+</reference>
