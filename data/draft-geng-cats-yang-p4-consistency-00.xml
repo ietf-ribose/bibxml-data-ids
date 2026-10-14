@@ -1,0 +1,32 @@
+<reference anchor="I-D.geng-cats-yang-p4-consistency" target="https://datatracker.ietf.org/doc/html/draft-geng-cats-yang-p4-consistency-00">
+  <front>
+    <title>YANG-to-P4 Configuration Mapping and Update Consistency</title>
+    <seriesInfo name="Internet-Draft" value="draft-geng-cats-yang-p4-consistency-00"/>
+    <author initials="G." surname="Yue" fullname="Geng Yue">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="Z." surname="Zhou" fullname="Zhipeng Zhou">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="G." surname="Xie" fullname="Guorui Xie">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="Q." surname="Li" fullname="Qing Li">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <date day="13" month="October" year="2026"/>
+    <abstract>
+      <t>A YANG configuration can express management intent, but its
+   acceptance does not establish that dependent entries in a
+   programmable forwarding pipeline have become effective consistently.
+   This document proposes an experimental mapping and update profile for
+   P4.  It describes a target-specific mapping contract, capability
+   validation, generation-based activation, preservation of existing
+   flow bindings, failure recovery, and operational reconciliation.  The
+   profile distinguishes configuration acceptance, verified activation,
+   and eventual convergence.  It defines neither a new packet
+   encapsulation nor a new YANG module, and does not assume a network-
+   wide atomic transaction.</t>
+    </abstract>
+  </front>
+</reference>

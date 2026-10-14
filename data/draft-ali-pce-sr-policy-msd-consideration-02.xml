@@ -1,0 +1,39 @@
+<reference anchor="I-D.ali-pce-sr-policy-msd-consideration" target="https://datatracker.ietf.org/doc/html/draft-ali-pce-sr-policy-msd-consideration-02">
+  <front>
+    <title>MSD Consideration in Path Computation Element Communication Protocol (PCEP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-ali-pce-sr-policy-msd-consideration-02"/>
+    <author initials="Z." surname="Ali" fullname="Zafar Ali">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author initials="Y." surname="Liu" fullname="Yao Liu">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <author initials="A." surname="Stone" fullname="Andrew Stone">
+      <organization>Nokia</organization>
+    </author>
+    <author initials="D." surname="Achaval" fullname="Diego Achaval">
+      <organization>Nokia</organization>
+    </author>
+    <author initials="S." surname="Sidor" fullname="Samuel Sidor">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <date day="14" month="October" year="2026"/>
+    <abstract>
+      <t>Segment Routing (SR) allows a node to steer a packet flow along any
+   path.  SR Policy is an ordered list of segments (i.e., instructions)
+   that represent a source-routed policy.  The packets steered into an
+   SR Policy carry an ordered list of segments associated with that SR
+   Policy.  An SR Policy can be instantiated SR-MPLS and SRv6 data
+   planes.
+
+   Maximum SID Depth (MSD) is first introduced for SR-MPLS to indicate
+   the number of SIDs supported by a node or a link on a node.  This
+   concept is further extended for SRv6 with more types of MSD.  MSD may
+   become one of the limitations that need to be considered when
+   computing an SR-TE path for PCE.
+
+   This draft specifies some MSD considerations PCE needs to take into
+   account when computing an SR-TE path.</t>
+    </abstract>
+  </front>
+</reference>

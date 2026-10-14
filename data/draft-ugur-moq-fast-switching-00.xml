@@ -1,0 +1,31 @@
+<reference anchor="I-D.ugur-moq-fast-switching" target="https://datatracker.ietf.org/doc/html/draft-ugur-moq-fast-switching-00">
+  <front>
+    <title>Subscriber-Side Multi-Variant Fast Track Switching for MOQT</title>
+    <seriesInfo name="Internet-Draft" value="draft-ugur-moq-fast-switching-00"/>
+    <author initials="D." surname="Ugur" fullname="Deniz Ugur">
+      <organization>Ozyegin University</organization>
+    </author>
+    <author initials="Z." surname="G&#xFC;rel" fullname="Zafer G&#xFC;rel">
+      <organization>Ozyegin University</organization>
+    </author>
+    <author initials="A. C." surname="Begen" fullname="Ali C. Begen">
+      <organization>Networked Media</organization>
+    </author>
+    <date day="13" month="October" year="2026"/>
+    <abstract>
+      <t>This document describes subscriber-side multi-variant fast track
+   switching (MVFTS), a technique that allows a MOQ Transport (MOQT)
+   subscriber to switch between tracks that are encoded at the same
+   bitrate but use different group of pictures (GoP) lengths, combining
+   the compression efficiency of a long GoP with the low switching delay
+   of a short GoP.  A publisher using this technique packages each
+   encoded bitrate as a ladder of tracks distinguished only by their
+   keyframe interval, numbers those tracks' Group IDs so that they share
+   a common alignment, and advertises the keyframe interval of each
+   track in a MOQT Streaming Format (MSF) catalog.  A subscriber uses
+   this information to compute the nearest valid switch point on any
+   track in scope and to perform the switch using the SWITCH_FROM
+   request parameter in soft mode.</t>
+    </abstract>
+  </front>
+</reference>
