@@ -1,0 +1,29 @@
+<reference anchor="I-D.ranjbar-regext-rdap-subordinate-referrals" target="https://datatracker.ietf.org/doc/html/draft-ranjbar-regext-rdap-subordinate-referrals-02">
+  <front>
+    <title>Referrals to Holder-Designated RDAP Services for Subordinate Resources</title>
+    <seriesInfo name="Internet-Draft" value="draft-ranjbar-regext-rdap-subordinate-referrals-02"/>
+    <author initials="K." surname="Ranjbar" fullname="Kaveh Ranjbar">
+      <organization>Whisper Security</organization>
+    </author>
+    <date day="15" month="October" year="2026"/>
+    <abstract>
+      <t>An RDAP query can be followed from the IANA bootstrap registries down
+   to the most specific object a registry operator holds, and no
+   further.  When the holder of a registered resource keeps registration
+   data for resources below it, such as names below a registered domain
+   or more-specific networks below an address allocation, and publishes
+   that data from an RDAP service of its own, a client has no in-band
+   way to find that service.  This document describes how a registry
+   operator refers clients to such a holder-designated service.  The
+   registry redirects lookups for subordinate resources to the holder's
+   service, so an unchanged client receives the most specific record as
+   it would from any other redirect.  On top of that, the covering
+   object can advertise the holder's service, so a client that cares can
+   discover the delegation and cross the authority boundary knowingly.
+   The document uses the object relations and the redirect controls of
+   draft-ietf-regext-rdap-referrals, and defines a family of "rdap-base"
+   link relations whose target is the base URL of an RDAP service rather
+   than an object.</t>
+    </abstract>
+  </front>
+</reference>

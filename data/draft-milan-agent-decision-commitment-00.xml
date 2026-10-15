@@ -1,0 +1,33 @@
+<reference anchor="I-D.milan-agent-decision-commitment" target="https://datatracker.ietf.org/doc/html/draft-milan-agent-decision-commitment-00">
+  <front>
+    <title>Agent Decision Commitments for Payments</title>
+    <seriesInfo name="Internet-Draft" value="draft-milan-agent-decision-commitment-00"/>
+    <author initials="F. H. D." surname="Milan" fullname="Fernando Henrique D. Milan"/>
+    <date day="14" month="October" year="2026"/>
+    <abstract>
+      <t>Software agents increasingly select and initiate payments on behalf
+   of people and organizations.  Existing agent payment protocols record
+   what a principal authorized and that value moved, but not what
+   information the agent relied on when it chose.  This document defines
+   the Agent Decision Commitment (ADC): a salted hash commitment to a
+   decision record that identifies the content the agent provided to the
+   model interface (after any agent-side transformation), the model
+   calls made, and the resulting answer and action.  The commitment is
+   carried as a single selectively disclosable claim in an existing
+   payment mandate or payment payload and is, by default, registered
+   with a transparency service before the payment is authorized.  The
+   decision record and its content remain with the holder and are
+   disclosed only to dispute participants, who can verify them against
+   the mandate and the transparency service and can inspect the content
+   the agent provided to the model.  This document defines the data
+   model, the commitment and anchoring procedures, a disclosure and
+   verification procedure that reports attestation levels rather than
+   verdicts, and bindings to three agent payment protocols and to
+   account-to-account credit transfers.  It also defines a witnessed
+   reciprocal exchange by which two parties' agents evidence what passed
+   between them: the receiver signs over the committed bytes,
+   independent witnesses fix the time of each step, a failure to answer
+   by a deadline is recorded, and arbiters resolve stalled exchanges.</t>
+    </abstract>
+  </front>
+</reference>

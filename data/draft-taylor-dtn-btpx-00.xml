@@ -1,0 +1,28 @@
+<reference anchor="I-D.taylor-dtn-btpx" target="https://datatracker.ietf.org/doc/html/draft-taylor-dtn-btpx-00">
+  <front>
+    <title>Bundle Transfer Protocol - Cross-Link</title>
+    <seriesInfo name="Internet-Draft" value="draft-taylor-dtn-btpx-00"/>
+    <author initials="R." surname="Taylor" fullname="Rick Taylor">
+      <organization>Aalyria Technologies</organization>
+    </author>
+    <date day="15" month="October" year="2026"/>
+    <abstract>
+      <t>The Bundle Transfer Protocol - Unidirectional (BTPU) provides for the
+   transfer of large binary objects, typically Bundle Protocol version 7
+   bundles, over a unidirectional, unreliable, frame-based link-layer
+   protocol, and by design includes no return path.
+
+   This document defines the Bundle Transfer Protocol - Cross-Link
+   (BTPX), an extension to BTPU for deployments where independent BTPU
+   channels exist in both directions between a pair of nodes.  It
+   defines how a Transfer or a Bundle Message on one channel is
+   referenced from another, and a first application of such references,
+   the Transfer Status Message, which allows a receiver to indicate to a
+   sender that continued transfer of an object is unnecessary, and why.
+
+   This document defines no segment-level acknowledgement or
+   retransmission semantics; such mechanisms are deferred to future
+   documents.</t>
+    </abstract>
+  </front>
+</reference>

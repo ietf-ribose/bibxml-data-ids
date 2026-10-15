@@ -1,0 +1,26 @@
+<reference anchor="I-D.watts-verification-promotion-boundaries" target="https://datatracker.ietf.org/doc/html/draft-watts-verification-promotion-boundaries-00">
+  <front>
+    <title>Verification Promotion Boundaries for Protocol Implementations</title>
+    <seriesInfo name="Internet-Draft" value="draft-watts-verification-promotion-boundaries-00"/>
+    <author initials="D." surname="Watts" fullname="Deont&#xE9; Watts">
+      <organization>GoodShyt Group Inc.</organization>
+    </author>
+    <date day="14" month="October" year="2026"/>
+    <abstract>
+      <t>Protocol implementations frequently combine specification checks,
+   deterministic test vectors, security testing, independent
+   reproduction, and release decisions.  A common failure mode is
+   evidence collapse: a result at one assurance level is silently
+   treated as sufficient for a stronger conclusion.
+
+   This document defines Verification Promotion Boundaries (VPB), a
+   machine-readable profile and state-transition procedure that
+   separates specification validation, local conformance, independent
+   reproduction, authorized security testing, and release eligibility.
+   VPB also defines dual-state handling for specification defects:
+   detecting a bad normative vector is negative evidence about the
+   tested subject but may be positive fault-detection evidence about
+   the verifier.  Unknown evidence never promotes.</t>
+    </abstract>
+  </front>
+</reference>

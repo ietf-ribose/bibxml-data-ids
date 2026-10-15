@@ -1,0 +1,29 @@
+<reference anchor="I-D.watts-gov-verification-promotion-boundaries" target="https://datatracker.ietf.org/doc/html/draft-watts-gov-verification-promotion-boundaries-00">
+  <front>
+    <title>Government-Oriented Verification Promotion Boundaries for Agentic Assurance Profiles</title>
+    <seriesInfo name="Internet-Draft" value="draft-watts-gov-verification-promotion-boundaries-00"/>
+    <author initials="D." surname="Watts" fullname="Deont&#xE9; Watts">
+      <organization>GoodShyt Group Inc.</organization>
+    </author>
+    <date day="14" month="October" year="2026"/>
+    <abstract>
+      <t>Government and critical-infrastructure relying parties require
+   explicit boundaries between successive assurance claims.  This
+   document defines Verification Promotion Boundaries (VPB) as a
+   protocol-neutral profile that prevents verification evidence obtained
+   at one stage from being silently promoted to a stronger claim.  The
+   stages are REGISTERED, SPEC_VALIDATED, LOCAL_CONFORMANT,
+   INDEPENDENTLY_REPRODUCED, SECURITY_TESTED, and RELEASE_ELIGIBLE.  A
+   local PASS does not imply independent reproduction; an independent
+   reproduction does not imply security testing; and no stage implies
+   endorsement by any standards body or government agency.  The profile
+   further distinguishes subject evidence (negative findings against the
+   tested artifact) from verifier evidence (positive findings that the
+   verification system correctly detected defects).  Arithmetic and
+   protocol preconditions, including on-curve validation before
+   metamorphic fixtures, are mandatory before any promotion.  This
+   document is intended for high-assurance government deployments and is
+   not a U.S.  Government standard.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,28 @@
+<reference anchor="I-D.mih-scitt-checkpointed-local-log" target="https://datatracker.ietf.org/doc/html/draft-mih-scitt-checkpointed-local-log-02">
+  <front>
+    <title>The Checkpointed Local Log (CLL)</title>
+    <seriesInfo name="Internet-Draft" value="draft-mih-scitt-checkpointed-local-log-02"/>
+    <author initials="S." surname="Mih" fullname="Steven Mih">
+      <organization>Action State Group</organization>
+    </author>
+    <date day="14" month="October" year="2026"/>
+    <abstract>
+      <t>Many systems emit individually signed records — receipts,
+   attestations, statements — and store them locally.  Each record
+   verifies on its own, but the collection proves nothing: records can
+   be deleted, reordered, or created after the fact without detection.
+   This document specifies the Checkpointed Local Log (CLL): a producer-
+   operated append-only log that is a Merkle Mountain Range as defined
+   by the COSE Receipts profile for Merkle Mountain Ranges, together
+   with a small signed checkpoint that commits to the log's entire
+   history.  A checkpoint carries the content of that profile's Receipt
+   of consistency — the accumulator and the consistency proof — inside a
+   SCITT Signed Statement, so it can be registered with one or more
+   independent Transparency Services without any change to them.  A CLL
+   upgrades a set of point receipts into a stream with provable order,
+   contemporaneity, and completeness, and states precisely what it does
+   not establish.  It defines no new proof format, no change to SCITT
+   Registration or Receipts, and no payload semantics.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,25 @@
+<reference anchor="I-D.ramadan-moq-fec" target="https://datatracker.ietf.org/doc/html/draft-ramadan-moq-fec-00">
+  <front>
+    <title>Forward Error Correction for Media over QUIC</title>
+    <seriesInfo name="Internet-Draft" value="draft-ramadan-moq-fec-00"/>
+    <author initials="O." surname="Ramadan" fullname="Omar Ramadan">
+      <organization>Blockcast</organization>
+    </author>
+    <date day="14" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies a mechanism for transmitting Forward Error
+   Correction (FEC) repair data alongside source media in Media over
+   QUIC (MoQ) sessions.  It defines catalog-based signaling of FEC
+   configuration -- including a derived RaptorQ Object Transmission
+   Information that requires no in-session messages -- conventions for
+   repair track naming, the format of repair objects, and the ISO/IEC
+   23008-1 block profile that fixes how source symbols and FEC blocks
+   are formed and identified.  RaptorQ (RFC 6330) is the mandatory-to-
+   implement and only fully specified FEC scheme; an algorithm registry
+   provides extension points for additional schemes.  FEC enables
+   receivers to recover from packet loss without retransmission latency.
+   This specification is designed for compatibility with ATSC 3.0
+   (A/331) and ARIB STD-B60 broadcast systems.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,26 @@
+<reference anchor="I-D.watts-verification-defect-quarantine" target="https://datatracker.ietf.org/doc/html/draft-watts-verification-defect-quarantine-00">
+  <front>
+    <title>Verification Defect Quarantine for Protocol Conformance Systems</title>
+    <seriesInfo name="Internet-Draft" value="draft-watts-verification-defect-quarantine-00"/>
+    <author initials="D." surname="Watts" fullname="Deont&#xE9; Watts">
+      <organization>GoodShyt Group Inc.</organization>
+    </author>
+    <date day="15" month="October" year="2026"/>
+    <abstract>
+      <t>Protocol conformance systems commonly treat a published test vector
+   as an oracle.  When the oracle itself is malformed, internally
+   inconsistent, ambiguous, or arithmetically false, an implementation
+   can be penalized for rejecting the defect or can be falsely promoted
+   for reproducing it.  This document defines Verification Defect
+   Quarantine (VDQ), a transport-neutral receipt and fail-closed state
+   model for separating the status of the tested subject from the
+   demonstrated fault-detection behavior of the verifier.  VDQ records
+   reproducible counterexamples, quarantines affected normative vectors
+   from assurance promotion, preserves INDETERMINATE when a defect
+   cannot yet be reproduced, and supports append-only supersession when
+   a specification is corrected.  VDQ does not amend an Internet-Draft
+   or RFC, does not replace the RFC Editor errata process, and does not
+   by itself establish implementation security.</t>
+    </abstract>
+  </front>
+</reference>
