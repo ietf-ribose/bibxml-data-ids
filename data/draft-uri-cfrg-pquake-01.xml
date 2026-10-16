@@ -1,0 +1,45 @@
+<reference anchor="I-D.uri-cfrg-pquake" target="https://datatracker.ietf.org/doc/html/draft-uri-cfrg-pquake-01">
+  <front>
+    <title>PQuAKE - Post-Quantum Authenticated Key Exchange</title>
+    <seriesInfo name="Internet-Draft" value="draft-uri-cfrg-pquake-01"/>
+    <author initials="U." surname="Blumenthal" fullname="Uri Blumenthal">
+      <organization>MIT</organization>
+    </author>
+    <author initials="B." surname="Luo" fullname="Brandon Luo">
+      <organization>MIT</organization>
+    </author>
+    <author initials="S." surname="O'Melia" fullname="Sean O'Melia">
+      <organization>MIT</organization>
+    </author>
+    <author initials="G." surname="Torres" fullname="Gabriel Torres">
+      <organization>MIT</organization>
+    </author>
+    <author initials="D. A." surname="Wilson" fullname="David A. Wilson">
+      <organization>MIT</organization>
+    </author>
+    <date day="16" month="October" year="2026"/>
+    <abstract>
+      <t>This document describes Post-Quantum Authenticated Key Exchange
+   (PQuAKE), a proposed construction for mutual authentication using an
+   ephemeral key-encapsulation mechanism (KEM) exchange, encapsulations
+   to certified long-term KEM keys, transcript binding, and explicit key
+   confirmation.  Its target use case is a constrained link where
+   avoiding online post-quantum handshake signatures may reduce
+   communication or computation.  An optional pre-shared secret is
+   intended to protect encrypted credentials against active outsiders.
+
+   The goal is to specify a compact reference construction and obtain
+   CFRG review of its security and applicability, with a view to a
+   favorable assessment and publication as an Informational RFC if the
+   review supports it.  The document presents the design rationale,
+   assumptions, security intuition, and conditions for safe use.  Formal
+   analyses reported for the closely related CAKE-HI construction are
+   relevant evidence; their applicability to this draft's precise
+   messages and algorithms remains to be established.  Protocol-specific
+   integration, performance comparisons, and unresolved specification
+   details are identified separately.  This individual proposal does not
+   represent CFRG consensus or a recommendation to an IETF working
+   group.</t>
+    </abstract>
+  </front>
+</reference>

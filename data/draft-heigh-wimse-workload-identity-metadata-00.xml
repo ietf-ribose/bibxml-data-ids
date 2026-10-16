@@ -1,0 +1,38 @@
+<reference anchor="I-D.heigh-wimse-workload-identity-metadata" target="https://datatracker.ietf.org/doc/html/draft-heigh-wimse-workload-identity-metadata-00">
+  <front>
+    <title>Workload Identity Metadata</title>
+    <seriesInfo name="Internet-Draft" value="draft-heigh-wimse-workload-identity-metadata-00"/>
+    <author initials="S. Z." surname="Heigh" fullname="Shlomo Zalman Heigh">
+      <organization>Palo Alto Networks</organization>
+    </author>
+    <author initials="J. A." surname="Salowey" fullname="Joseph A. Salowey">
+      <organization>Palo Alto Networks</organization>
+    </author>
+    <author initials="Y." surname="Rosomakho" fullname="Yaroslav Rosomakho">
+      <organization>Zscaler</organization>
+    </author>
+    <date day="16" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies metadata attributes associated with a
+   workload's identity that are used for auditing, authorization,
+   accounting, and other purposes.  It profiles existing claims for
+   group membership, roles, and entitlements, with delivery either in
+   JWT-based Workload Identity Credentials or through an authenticated
+   workload metadata endpoint.  The endpoint supports metadata retrieval
+   for workloads using JWT-based or X.509-based credentials and
+   disclosure according to the caller's authorization.  An optional JWT
+   claim or X.509 certificate extension identifies the metadata endpoint
+   for the credential's subject.
+
+   This document also defines the separation between identifier and
+   metadata.  It distinguishes workload attributes and durable principal
+   associations from per-request delegation and grants such as scopes,
+   and states the requirements that make the separation sound, including
+   identifier uniqueness.
+
+   The document applies to workloads generally, including services,
+   batch and continuous integration jobs, serverless functions, and AI
+   agents.  Agentic use cases are discussed separately.</t>
+    </abstract>
+  </front>
+</reference>

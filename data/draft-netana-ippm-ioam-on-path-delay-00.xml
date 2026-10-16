@@ -1,0 +1,37 @@
+<reference anchor="I-D.netana-ippm-ioam-on-path-delay" target="https://datatracker.ietf.org/doc/html/draft-netana-ippm-ioam-on-path-delay-00">
+  <front>
+    <title>IOAM Extensions for On-Path Delay Measurement</title>
+    <seriesInfo name="Internet-Draft" value="draft-netana-ippm-ioam-on-path-delay-00"/>
+    <author initials="A. H." surname="Feng" fullname="Alex Huang Feng">
+      <organization>Deutsche Telekom</organization>
+    </author>
+    <author initials="P." surname="Francois" fullname="Pierre Francois">
+      <organization>INSA-Lyon</organization>
+    </author>
+    <author initials="B." surname="Claise" fullname="Beno&#xEE;t Claise">
+      <organization>Everything OPS &amp; Arrcus</organization>
+    </author>
+    <author initials="T." surname="Graf" fullname="Thomas Graf">
+      <organization>Swisscom</organization>
+    </author>
+    <author initials="J." surname="Iurman" fullname="Justin Iurman">
+      <organization>6WIND</organization>
+    </author>
+    <date day="16" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines extensions to In Situ Operations,
+   Administration, and Maintenance (IOAM) that enable IOAM nodes to
+   compute on-path delay samples.  These samples are the basis for the
+   on-path delay statistics that can be exported using the IP Flow
+   Information Export (IPFIX) Information Elements defined in RFC 9951.
+
+   The document defines an On-Path Delay IOAM data field and extends the
+   IOAM Direct Export (DEX) Option-Type with a timestamp reference
+   inserted by the IOAM encapsulating node.  These extensions enable
+   transit and decapsulating nodes to compute and locally aggregate on-
+   path delay.  The resulting on-path delay can then be made available
+   by different mechanisms, for example IPFIX export or the YANG data
+   model for on-path telemetry.</t>
+    </abstract>
+  </front>
+</reference>

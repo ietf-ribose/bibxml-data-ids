@@ -1,0 +1,36 @@
+<reference anchor="I-D.lnehru-lisp-silenthost-detection" target="https://datatracker.ietf.org/doc/html/draft-lnehru-lisp-silenthost-detection-01">
+  <front>
+    <title>LISP Silent Host Discovery using the Mapping System</title>
+    <seriesInfo name="Internet-Draft" value="draft-lnehru-lisp-silenthost-detection-01"/>
+    <author initials="" surname="Bernhard" fullname="Bernhard">
+      <organization>BMW AG</organization>
+    </author>
+    <author initials="C. J." surname="Ukpe" fullname="Christian Jon Ukpe">
+      <organization>DNWS GmbH</organization>
+    </author>
+    <author initials="L." surname="Nehru" fullname="Loganathan Nehru">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author initials="M." surname="Portoles-Comeras" fullname="Marc Portoles-Comeras">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date day="15" month="October" year="2026"/>
+    <abstract>
+      <t>The on-demand discovery model of the Locator/ID Separation Protocol
+   (LISP) is ineffective for "silent hosts", endpoints that do not
+   initiate traffic.  This is a common challenge in environments like
+   manufacturing and IoT environments, where low-power devices
+   frequently go silent to conserve energy.  This document proposes a
+   mechanism to discover these hosts by using the LISP mapping system
+   itself. xTRs that are able to probe a given EID prefix register that
+   capability with the Map-Server.  When a Map-Request for an unknown
+   destination arrives at the Map-Server, it is forwarded and replicated
+   to all xTRs that have registered the covering EID prefix, initiating
+   a controlled, on-demand discovery process for that specific host.  In
+   traditional broadcast-based networks, operators are often unaware of
+   the existence of silent hosts and discovery of these hosts relies on
+   network flooding.This approach provides a scalable alternative to
+   network flooding for locating silent endpoints.</t>
+    </abstract>
+  </front>
+</reference>
