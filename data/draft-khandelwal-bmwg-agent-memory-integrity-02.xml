@@ -1,0 +1,31 @@
+<reference anchor="I-D.khandelwal-bmwg-agent-memory-integrity" target="https://datatracker.ietf.org/doc/html/draft-khandelwal-bmwg-agent-memory-integrity-02">
+  <front>
+    <title>A Benchmarking Method for the Integrity of AI Agent Memory at Rest</title>
+    <seriesInfo name="Internet-Draft" value="draft-khandelwal-bmwg-agent-memory-integrity-02"/>
+    <author initials="K." surname="Khandelwal" fullname="Yasha Khandelwal">
+      <organization>Tech4Biz Solutions</organization>
+    </author>
+    <date day="17" month="October" year="2026"/>
+    <abstract>
+      <t>AI agents increasingly persist memory across sessions and treat that
+   memory, on the next turn, as if it were their own prior experience.
+   This document defines a benchmarking method that measures whether an
+   agent's memory subsystem detects that its persisted memory has been
+   altered, removed, reordered, replayed, or forged at the storage
+   layer, and refuses to serve that memory or reports it before it is
+   served.  The method defines nine storage-level edits, three verdict
+   classes, a detection-point distinction between read time and audit
+   time, three control cases, and a scoring rule.  It is a laboratory
+   method for controlled, reproducible measurement, in the spirit of RFC
+   2544 and RFC 8239, and it is intended as a test method for the
+   "Protection of Memory Data Integrity" metric under discussion in the
+   Benchmarking Methodology Working Group.  This revision adds a ninth
+   edit, rollback of the whole store to an older genuine copy, which
+   separates an integrity head kept beside the records from one anchored
+   outside the store; reports the method's results as thirty-one rows on
+   released memory subsystems, eighteen of which claim tamper evidence;
+   and describes the machine-readable record in which a result set is
+   published so that an unrelated party can recompute it.</t>
+    </abstract>
+  </front>
+</reference>
