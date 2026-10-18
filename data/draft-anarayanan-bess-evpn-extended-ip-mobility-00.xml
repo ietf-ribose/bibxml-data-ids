@@ -1,0 +1,29 @@
+<reference anchor="I-D.anarayanan-bess-evpn-extended-ip-mobility" target="https://datatracker.ietf.org/doc/html/draft-anarayanan-bess-evpn-extended-ip-mobility-00">
+  <front>
+    <title>Extended IP mobility procedures for EVPN-IRB</title>
+    <seriesInfo name="Internet-Draft" value="draft-anarayanan-bess-evpn-extended-ip-mobility-00"/>
+    <author initials="A." surname="Narayanan" fullname="Anand Narayanan">
+      <organization>Arista Networks</organization>
+    </author>
+    <author initials="A." surname="Shashidhar" fullname="Akhil Shashidhar">
+      <organization>Arista Networks</organization>
+    </author>
+    <author initials="Q." surname="Yang" fullname="Qing Yang">
+      <organization>Arista Networks</organization>
+    </author>
+    <date day="17" month="October" year="2026"/>
+    <abstract>
+      <t>[RFC9721] introduces IP mobility procedures for EVPN-IRB that couple
+   IP and MAC mobility sequence numbers.  This coupling results in
+   excessive control plane churn when a single IP migrates among
+   multiple IP addresses associated with a single MAC address.  This
+   document proposes separating sequence number spaces for IP mobility
+   (MAC-IP routes) and MAC mobility (MAC-only routes), reducing BGP
+   updates from O(N) to O(1) when one IP moves among N IPs on a MAC,
+   while maintaining full compatibility with an implementation
+   conforming to the recommendations of [RFC9721].  Further, this
+   document proposes an upgrade path for deployments transitioning to IP
+   mobility as defined in [RFC9721] or this draft.</t>
+    </abstract>
+  </front>
+</reference>
