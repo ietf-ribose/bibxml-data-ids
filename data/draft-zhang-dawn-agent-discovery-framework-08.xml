@@ -1,0 +1,30 @@
+<reference anchor="I-D.zhang-dawn-agent-discovery-framework" target="https://datatracker.ietf.org/doc/html/draft-zhang-dawn-agent-discovery-framework-08">
+  <front>
+    <title>A Framework for Agent Discovery in DAWN</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhang-dawn-agent-discovery-framework-08"/>
+    <author initials="B." surname="Zhang" fullname="Bin Zhang">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="L." surname="Dunbar" fullname="Linda Dunbar">
+      <organization>Futurewei</organization>
+    </author>
+    <author initials="Y." surname="Yang" fullname="Yixuan Yang">
+      <organization>Sun Yat-sen University</organization>
+    </author>
+    <date day="18" month="October" year="2026"/>
+    <abstract>
+      <t>This document describes a two-layer reference architecture for
+   discovering the minimum public information needed to reach AI agents.
+   The Local Discovery Plane obtains discovery information within an
+   administrative domain through mDNS/DNS-SD or infrastructure-assisted
+   discovery.  The Federation Plane uses DNS as its baseline for cross-
+   domain discovery: Federation Gateways apply export policy, publish
+   permitted information in independently administered DNS zones, and
+   retrieve, validate, and cache remote information on demand.  The
+   framework also provides non-DNS mechanisms and mixed-mode deployments
+   on the Federation Plane which can complement the baseline with
+   proactive distribution, recipient-specific sharing, and directory
+   lookup.</t>
+    </abstract>
+  </front>
+</reference>

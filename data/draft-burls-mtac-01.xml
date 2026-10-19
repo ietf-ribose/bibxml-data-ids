@@ -1,0 +1,32 @@
+<reference anchor="I-D.burls-mtac" target="https://datatracker.ietf.org/doc/html/draft-burls-mtac-01">
+  <front>
+    <title>Merkle Tree Agent Certificates (MTAC): A Merkle Tree Certificates Profile for AI Agent Identity</title>
+    <seriesInfo name="Internet-Draft" value="draft-burls-mtac-01"/>
+    <author initials="R." surname="Burls" fullname="Reuben Burls">
+      <organization>Aelethion OU</organization>
+    </author>
+    <date day="19" month="October" year="2026"/>
+    <abstract>
+      <t>This document profiles Merkle Tree Certificates (MTC) for the
+   identity of AI agents.  An MTAC certificate is an MTC whose subject
+   is one AI agent instance, named by a workload identifier in a URI
+   subject alternative name, so that it is also a Workload Identity
+   Certificate.  It carries a mandatory non-critical extension naming
+   the sponsor the CA recorded as accountable for the agent, and two
+   optional ones: scopes declared for the agent at issuance, and the
+   model and configuration components the agent is issued for, each
+   graded by how the CA came to record it.
+
+   The document also defines an audit cosigner role and a procedure by
+   which an auditor, possibly without network access and possibly long
+   after issuance, can establish that a certificate was issued and
+   logged and what it declared.
+
+   An MTAC certificate identifies an agent.  It does not authorize the
+   agent to do anything, and it does not record what the agent did.
+   Records of agent actions can be expressed as signed statements in a
+   transparency service that refer to an MTAC certificate as the acting
+   party.</t>
+    </abstract>
+  </front>
+</reference>
