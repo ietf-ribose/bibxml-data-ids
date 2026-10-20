@@ -1,0 +1,27 @@
+<reference anchor="I-D.ousterhout-tsvwg-homa" target="https://datatracker.ietf.org/doc/html/draft-ousterhout-tsvwg-homa-00">
+  <front>
+    <title>Homa: An RPC Transport Protocol for Datacenters</title>
+    <seriesInfo name="Internet-Draft" value="draft-ousterhout-tsvwg-homa-00"/>
+    <author initials="J." surname="Ousterhout" fullname="John Ousterhout">
+      <organization>Stanford University</organization>
+    </author>
+    <author initials="T." surname="Velappan" fullname="Thiyagarajan Velappan">
+      <organization>Mastercard, Inc.</organization>
+    </author>
+    <author initials="S." surname="Bagby" fullname="Steven Bagby">
+      <organization>Mastercard, Inc.</organization>
+    </author>
+    <date day="20" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines the Homa transport protocol.  Homa provides
+   applications with a reliable and efficient mechanism for delivering
+   request and response messages for remote procedure calls (RPCs).  It
+   is intended for use within datacenters.  Homa uses messages,
+   receiver-issued grants, and packet priorities to support RPC
+   workloads.  Published evaluations report a reduction of more than 10x
+   in tail latency for short messages relative to TCP for specific
+   workloads and test conditions; this document does not claim a
+   performance improvement for all datacenter environments.</t>
+    </abstract>
+  </front>
+</reference>
