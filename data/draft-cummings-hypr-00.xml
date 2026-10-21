@@ -1,0 +1,28 @@
+<reference anchor="I-D.cummings-hypr" target="https://datatracker.ietf.org/doc/html/draft-cummings-hypr-00">
+  <front>
+    <title>HyPR: Hybrid Parity for Remote Resilience</title>
+    <seriesInfo name="Internet-Draft" value="draft-cummings-hypr-00"/>
+    <author initials="S. S." surname="Cummings" fullname="Samuel S. Cummings">
+      <organization>E2 LLC</organization>
+    </author>
+    <date day="21" month="October" year="2026"/>
+    <abstract>
+      <t>Local redundancy mechanisms such as RAID and software-defined parity
+   pools tolerate only a bounded number of correlated device losses,
+   while remote backup services typically require replication of the
+   full data set.  HyPR's remote storage requirement scales with the
+   parity-to-data ratio m/k rather than with the size of the protected
+   data, at the cost of not protecting against total loss of the local
+   copy.  This document specifies HyPR (Hybrid Parity for Remote
+   Resilience), a framework that treats remote storage, including
+   consumer-grade end-to-end-encrypted cloud services, as additional
+   failure-domain participants in an erasure-coded storage system.  HyPR
+   defines a content-chunked Remote Parity Fragment format, transport
+   requirements for backend-agnostic encrypted fragment delivery,
+   immutable and versioned vault semantics, a resumable reconstruction
+   protocol that produces signed rebuild receipts, and a boundary within
+   which machine-learned orchestration agents may advise but never
+   replace deterministic reconstruction.</t>
+    </abstract>
+  </front>
+</reference>

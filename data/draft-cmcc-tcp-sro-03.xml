@@ -1,0 +1,27 @@
+<reference anchor="I-D.cmcc-tcp-sro" target="https://datatracker.ietf.org/doc/html/draft-cmcc-tcp-sro-03">
+  <front>
+    <title>The Session Identifier Option (SIO)</title>
+    <seriesInfo name="Internet-Draft" value="draft-cmcc-tcp-sro-03"/>
+    <author initials="Z." surname="Luo" fullname="Zhaoyu Luo">
+      <organization>CMCC</organization>
+    </author>
+    <author initials="H." surname="Yan" fullname="Haishuang Yan">
+      <organization>CMCC</organization>
+    </author>
+    <date day="21" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines the Session Identifier Option (SIO), carried as
+   a TCP option for TCP connections and as a UDP option for UDP
+   datagrams.  The option lets the endpoints of a connection or flow
+   publish identifiers at the transport layer, where network functions
+   on the path - load balancers, NAT gateways, firewalls - can read them
+   without per-flow state and without payload inspection.  Network
+   functions of all kinds can benefit from it: session recovery in load-
+   balancing and NAT clusters, stateless forwarding, connection-tracking
+   recovery, and telemetry.  The option adds only a few octets, and only
+   to the packets that carry it; which packets carry it is a deployment
+   choice.  Endpoints that do not support it behave as if the option did
+   not exist.</t>
+    </abstract>
+  </front>
+</reference>
