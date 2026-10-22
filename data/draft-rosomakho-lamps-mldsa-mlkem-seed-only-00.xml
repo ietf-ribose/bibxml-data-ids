@@ -1,0 +1,25 @@
+<reference anchor="I-D.rosomakho-lamps-mldsa-mlkem-seed-only" target="https://datatracker.ietf.org/doc/html/draft-rosomakho-lamps-mldsa-mlkem-seed-only-00">
+  <front>
+    <title>Deprecating Expanded ML-DSA and ML-KEM Private Key Encodings</title>
+    <seriesInfo name="Internet-Draft" value="draft-rosomakho-lamps-mldsa-mlkem-seed-only-00"/>
+    <author initials="Y." surname="Rosomakho" fullname="Yaroslav Rosomakho">
+      <organization>Zscaler</organization>
+    </author>
+    <author initials="D." surname="Benjamin" fullname="David Benjamin">
+      <organization>Google LLC</organization>
+    </author>
+    <date day="21" month="October" year="2026"/>
+    <abstract>
+      <t>This document updates RFC 9881 and RFC 9935 to require the seed
+   representation when encoding Module-Lattice-Based Digital Signature
+   Algorithm (ML-DSA) and Module-Lattice-Based Key-Encapsulation
+   Mechanism (ML-KEM) private keys for interchange.  It deprecates the
+   expanded and combined representations, while permitting their
+   continued support for legacy imports.  These changes simplify
+   implementation and improve interoperability by aligning the private-
+   key representation with that used by JSON Object Signing and
+   Encryption (JOSE) and CBOR Object Signing and Encryption (COSE).
+   Internal private-key representations are unaffected.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,21 @@
+<reference anchor="I-D.kelley-webbotauth-sail" target="https://datatracker.ietf.org/doc/html/draft-kelley-webbotauth-sail-00">
+  <front>
+    <title>SAIL: Source Address Identity List</title>
+    <seriesInfo name="Internet-Draft" value="draft-kelley-webbotauth-sail-00"/>
+    <author initials="K." surname="Kelley" fullname="Kevin Kelley">
+      <organization>Anthropic</organization>
+    </author>
+    <date day="22" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines SAIL (Source Address Identity List), a metadata
+   format served at a well-known URI in which the operator of automated
+   HTTP clients publishes the IP prefixes its services send from,
+   together with two optional assertions: that a service sends from
+   nowhere else, and that nothing else of the operator's sends from a
+   given set of prefixes.  A site that receives a request claiming to be
+   one of those services can use that metadata to confirm the claim or,
+   under those assertions, to refute it.  The mechanism is intended to
+   complement reverse-DNS verification and HTTP Message Signatures.</t>
+    </abstract>
+  </front>
+</reference>

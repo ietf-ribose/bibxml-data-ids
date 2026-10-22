@@ -1,0 +1,23 @@
+<reference anchor="I-D.morrison-acts-for" target="https://datatracker.ietf.org/doc/html/draft-morrison-acts-for-00">
+  <front>
+    <title>Acts-For: Signing In to a Website with a ~handle, for a Person or an Agent Acting for One</title>
+    <seriesInfo name="Internet-Draft" value="draft-morrison-acts-for-00"/>
+    <author initials="B." surname="Morrison" fullname="Blake Morrison">
+      <organization>Alter Meridian Pty Ltd</organization>
+    </author>
+    <date day="21" month="October" year="2026"/>
+    <abstract>
+      <t>Acts-For lets a person sign in to any website with the ~handle they
+   already hold, and lets an AI agent sign in or register at that
+   website on the person's behalf.  Neither needs a username, a password
+   or an account per site.  A website joins by publishing one DNS
+   record.  A person signs in through a standard OpenID Connect
+   authorization code flow and the site receives a short-lived token
+   naming the person by a number unique to that site.  An agent obtains
+   a short-lived pass from the issuer over the Model Context Protocol
+   and presents it to the site.  The pass names the same per-site
+   number, the agent's own key and ~handle, and the limits the person
+   set.  The site checks it against a published key and calls nobody.</t>
+    </abstract>
+  </front>
+</reference>

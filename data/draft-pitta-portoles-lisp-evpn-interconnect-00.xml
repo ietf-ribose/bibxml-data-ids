@@ -1,0 +1,28 @@
+<reference anchor="I-D.pitta-portoles-lisp-evpn-interconnect" target="https://datatracker.ietf.org/doc/html/draft-pitta-portoles-lisp-evpn-interconnect-00">
+  <front>
+    <title>Decoupled Interconnection of LISP and EVPN VXLAN Domains</title>
+    <seriesInfo name="Internet-Draft" value="draft-pitta-portoles-lisp-evpn-interconnect-00"/>
+    <author initials="B." surname="Venkatachalapathy" fullname="Balaji Venkatachalapathy">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author initials="M." surname="Portoles-Comeras" fullname="Marc Portoles-Comeras">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date day="21" month="October" year="2026"/>
+    <abstract>
+      <t>This document describes decoupled Layer 2 and Layer 3 interconnection
+   services between a LISP-based VXLAN domain and a BGP EVPN-based VXLAN
+   domain.  The LISP-facing border and EVPN Gateway are implemented on
+   separate devices.  The Layer 2 service extends a bridge domain
+   through an Ethernet handoff, with independent MAC reachability and
+   broadcast, unknown-unicast, and multicast forwarding in each overlay.
+   The Layer 3 service uses tenant IP transit and prefix exchange
+   through an Interior Gateway Protocol (IGP) or eBGP, with ordinary
+   route redistribution at each border between the transit and its own
+   overlay control plane.  IP subnet layouts are deployment
+   considerations; they do not define the service.  Subnet-prefix
+   exchange and additional requirements for optional routed connectivity
+   within a common IP prefix are discussed.</t>
+    </abstract>
+  </front>
+</reference>

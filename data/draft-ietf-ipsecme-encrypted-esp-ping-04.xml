@@ -1,0 +1,45 @@
+<reference anchor="I-D.ietf-ipsecme-encrypted-esp-ping" target="https://datatracker.ietf.org/doc/html/draft-ietf-ipsecme-encrypted-esp-ping-04">
+  <front>
+    <title>ESP Echo Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-ipsecme-encrypted-esp-ping-04"/>
+    <author initials="A." surname="Antony" fullname="Antony Antony">
+      <organization>secunet Security Networks AG</organization>
+    </author>
+    <author initials="S." surname="Klassert" fullname="Steffen Klassert">
+      <organization>secunet Security Networks AG</organization>
+    </author>
+    <author initials="L." surname="Colitti" fullname="Lorenzo Colitti">
+      <organization>Google</organization>
+    </author>
+    <author initials="J." surname="Linkova" fullname="Jen Linkova">
+      <organization>Google</organization>
+    </author>
+    <author initials="M." surname="Richardson" fullname="Michael Richardson">
+      <organization>Sandelman Software Works</organization>
+    </author>
+    <author initials="N." surname="Harold" fullname="Nathan Harold">
+      <organization>Google</organization>
+    </author>
+    <date day="21" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines the ESP Echo Protocol, an extension to the ESP
+   AGGFRAG protocol [RFC9347] that provides an Echo Request and Echo
+   Reply mechanism for IP Security (IPsec) link diagnostics.  It enables
+   endpoints to assess end-to-end path reachability, and it defines
+   probe packets that can be used for path Maximum Transmission Unit
+   (MTU) discovery, using Encapsulating Security Payload (ESP) packets.
+
+   The protocol supports two modes of operation: an encrypted mode used
+   over established IPsec Security Associations (SAs), with an option to
+   specify a preferred reply path when multiple SAs exist between the
+   peers, and an unencrypted mode used outside the context of a
+   negotiated ESP SA.  In addition to bidirectional echo probing, the
+   protocol supports sending one-way ESP packets without eliciting a
+   reply, primarily for keepalives, NAT and firewall pinhole
+   maintenance, and unidirectional link diagnostics.
+
+   A peer can announce support for ESP Echo using a new IKEv2 Status
+   Notification ESP_ECHO_SUPPORTED.</t>
+    </abstract>
+  </front>
+</reference>
