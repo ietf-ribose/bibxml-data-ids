@@ -1,0 +1,22 @@
+<reference anchor="I-D.oga-musubi-settlement" target="https://datatracker.ietf.org/doc/html/draft-oga-musubi-settlement-02">
+  <front>
+    <title>MUSUBI Settlement: Recomputing Whether an Agent Acted Within a Signed Grant</title>
+    <seriesInfo name="Internet-Draft" value="draft-oga-musubi-settlement-02"/>
+    <author initials="T." surname="Oga" fullname="Toshikatsu Oga">
+      <organization>The HORIZONs Co., Ltd.</organization>
+    </author>
+    <date day="22" month="October" year="2026"/>
+    <abstract>
+      <t>MUSUBI settlement is a deterministic function that takes a contract
+   signed by two parties, a set of signed records of what an agent did
+   under that contract, and a view of Bitcoin block headers, and
+   computes whether the recorded acts stayed within the grant the
+   contract gives.  Anyone holding the same bytes can recompute the
+   result without trusting the party that produced it.  This document
+   specifies one well defined part of that function, settle core v0,
+   precisely enough that a second implementation can be written from the
+   text and the published test vectors alone.  Settlement is not runtime
+   enforcement and is not a judgement of liability.</t>
+    </abstract>
+  </front>
+</reference>

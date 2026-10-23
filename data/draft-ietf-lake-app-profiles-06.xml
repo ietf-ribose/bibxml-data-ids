@@ -1,0 +1,29 @@
+<reference anchor="I-D.ietf-lake-app-profiles" target="https://datatracker.ietf.org/doc/html/draft-ietf-lake-app-profiles-06">
+  <front>
+    <title>Coordinating the Use of Application Profiles for the Lightweight Authenticated Key Exchange (LAKE) Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-lake-app-profiles-06"/>
+    <author initials="M." surname="Tiloca" fullname="Marco Tiloca">
+      <organization>RISE AB</organization>
+    </author>
+    <author initials="R." surname="H&#xF6;glund" fullname="Rikard H&#xF6;glund">
+      <organization>RISE AB</organization>
+    </author>
+    <date day="22" month="October" year="2026"/>
+    <abstract>
+      <t>The Lightweight Authenticated Key Exchange (LAKE) protocol requires
+   certain parameters to be agreed out-of-band, in order to ensure its
+   successful completion.  To this end, application profiles specify the
+   intended use of LAKE to allow for the relevant processing and
+   verifications to be made.  In order to ensure the applicability of
+   such parameters and information beyond transport- or setup-specific
+   scenarios, this document defines a canonical, CBOR-based
+   representation that can be used to describe, distribute, and store
+   LAKE application profiles.  Furthermore, in order to facilitate
+   interoperability between LAKE implementations and support LAKE
+   extensibility for additional integrations, this document defines a
+   number of means to coordinate the use of LAKE application profiles.
+   Finally, this document defines a set of well-known LAKE application
+   profiles.</t>
+    </abstract>
+  </front>
+</reference>
