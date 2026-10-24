@@ -1,0 +1,33 @@
+<reference anchor="I-D.zzd-idr-flowspec-scheduling" target="https://datatracker.ietf.org/doc/html/draft-zzd-idr-flowspec-scheduling-05">
+  <front>
+    <title>BGP Flow Specification Extensions for Scheduling</title>
+    <seriesInfo name="Internet-Draft" value="draft-zzd-idr-flowspec-scheduling-05"/>
+    <author initials="L." surname="Zhang" fullname="Li Zhang">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="T." surname="Zhou" fullname="Tianran Zhou">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="Z." surname="Li" fullname="Zhenqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Dong" fullname="Jie Dong">
+      <organization>Huawei</organization>
+    </author>
+    <date day="23" month="October" year="2026"/>
+    <abstract>
+      <t>BGP Flow Specification allows conveying flow specifications and
+   associated traffic actions/rules to perform different actions based
+   on traffic characteristics.  Existing traffic filter rules and
+   actions in FSv2 remain effective perpetually; once delivered to the
+   headend, the rules and actions are permanent for traffic.  However,
+   some operators wish to perform different actions for specific flows
+   at specific time.
+
+   This document extends BGP FSv2 with a scheduling time component to
+   match the arrival time of packets.  Based on this component, the
+   headend can perform different actions for specific traffic at
+   different times.</t>
+    </abstract>
+  </front>
+</reference>

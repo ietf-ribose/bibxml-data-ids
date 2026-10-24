@@ -1,0 +1,28 @@
+<reference anchor="I-D.kamimura-scitt-vcp" target="https://datatracker.ietf.org/doc/html/draft-kamimura-scitt-vcp-04">
+  <front>
+    <title>A SCITT Profile for Verifiable Audit Trails in Algorithmic Trading: The VeritasChain Protocol (VCP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-kamimura-scitt-vcp-04"/>
+    <author initials="K." surname="Tokachi" fullname="TOKACHI KAMIMURA">
+      <organization>VeritasChain Standards Organization</organization>
+    </author>
+    <date day="24" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines a profile of the SCITT (Supply Chain Integrity,
+   Transparency, and Trust) architecture for creating tamper-evident
+   audit trails of AI-driven algorithmic trading decisions and
+   executions.  The VeritasChain Protocol (VCP) applies the SCITT
+   framework to address the specific requirements of financial markets,
+   including high-precision timestamps, considerations arising from
+   recordkeeping regimes such as the EU AI Act and MiFID II, and a
+   crypto-shredding mechanism intended to support erasure obligations
+   such as those under the GDPR.  This profile specifies how VCP events
+   are encoded as SCITT Signed Statements, registered with Transparency
+   Services, and verified using COSE Receipts.  It further defines SCITT
+   conformance profiles for interoperability and an ERASURE event type
+   that records crypto-shredding operations as append-only audit events.
+   The profile makes trading records auditable and attributable after
+   the fact; it does not prevent or block any trading activity, and it
+   does not warrant the correctness of any recorded decision.</t>
+    </abstract>
+  </front>
+</reference>

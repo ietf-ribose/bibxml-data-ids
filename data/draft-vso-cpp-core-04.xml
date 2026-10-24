@@ -1,0 +1,36 @@
+<reference anchor="I-D.vso-cpp-core" target="https://datatracker.ietf.org/doc/html/draft-vso-cpp-core-04">
+  <front>
+    <title>Capture Provenance Profile (CPP) Core</title>
+    <seriesInfo name="Internet-Draft" value="draft-vso-cpp-core-04"/>
+    <author initials="K." surname="Tokachi" fullname="TOKACHI KAMIMURA">
+      <organization>VeritasChain Co., Ltd.</organization>
+    </author>
+    <date day="24" month="October" year="2026"/>
+    <abstract>
+      <t>The Capture Provenance Profile (CPP) is an open specification for
+   cryptographically verifiable media capture provenance.  This document
+   defines the core data model, hashing conventions, Merkle tree
+   construction rules, RFC 3161 Time-Stamp Authority (TSA) anchoring
+   protocol, and offline verification procedures for CPP.
+
+   CPP enables capture devices to produce tamper-evident provenance
+   records that bind media content to external timestamps via trusted
+   third parties.  Unlike self-attestation models, CPP requires
+   independent timestamp verification through RFC 3161 TSA services,
+   providing externally verifiable proof of when media was captured.
+
+   CPP defines self-attested signer identity, hardware-backed key
+   requirements, chain context for partial submission detection, a
+   Completeness Invariant for omission detection, an OPTIONAL depth
+   analysis extension for screen detection, and an OPTIONAL Pre-Publish
+   Verification Extension.  It also defines interoperability mappings
+   with the C2PA specification.
+
+   This revision (-04) corrects the expansion of the profile name to
+   Capture Provenance Profile, records the release status of the CPP
+   specification series and the outstanding mapping to VAP v1.2, and
+   adds an Implementation Status section.  No hashing, tree
+   construction, anchoring or verification rule is changed.</t>
+    </abstract>
+  </front>
+</reference>
