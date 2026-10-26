@@ -1,0 +1,25 @@
+<reference anchor="I-D.bsvkey-dtn-custody-receipt-block" target="https://datatracker.ietf.org/doc/html/draft-bsvkey-dtn-custody-receipt-block-02">
+  <front>
+    <title>Signed Custody Receipts Carried in a Bundle Protocol Version 7 Extension Block</title>
+    <seriesInfo name="Internet-Draft" value="draft-bsvkey-dtn-custody-receipt-block-02"/>
+    <author initials="P. S." surname="Mamakos" fullname="Paul S. Mamakos">
+      <organization>Embryo Space Inc.</organization>
+    </author>
+    <date day="25" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines the Custody Receipt Block, a Bundle Protocol
+   Version 7 (BPv7) extension block that carries a chain of signed
+   custody receipts inside the bundle those receipts describe.  Each
+   node that chooses to act as a custodian appends one receipt stating
+   that it held the bundle, which node it received it from, and when it
+   received and forwarded it.  Nodes that do not implement the block
+   forward it unchanged and are never required to read the payload or to
+   sign anything.  A verifier holding the custodians' public keys can
+   check the chain after the fact and can report, rather than infer, any
+   part of the route for which no receipt exists.  The receipts are
+   evidence for accounting and dispute resolution between operators.
+   They are not Bundle Protocol administrative records and they do not
+   replace or modify custody transfer signalling.</t>
+    </abstract>
+  </front>
+</reference>

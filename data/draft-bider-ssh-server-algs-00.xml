@@ -1,0 +1,20 @@
+<reference anchor="I-D.bider-ssh-server-algs" target="https://datatracker.ietf.org/doc/html/draft-bider-ssh-server-algs-00">
+  <front>
+    <title>Server-Led Algorithm Preference in the Secure Shell (SSH) Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-bider-ssh-server-algs-00"/>
+    <author initials="D." surname="Bider" fullname="Denis Bider">
+      <organization>Bitvise Limited</organization>
+    </author>
+    <date day="25" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies an optional extension to Secure Shell (SSH)
+   algorithm negotiation.  A client and server can agree, through
+   indicators in their SSH_MSG_KEXINIT messages, to use the server's
+   algorithm preference order in place of the client's preference order.
+   Agreement for one key exchange round does not carry forward to
+   another round.  Agreement governs bilateral algorithm negotiations in
+   SSH_MSG_KEXINIT, as well as connection-wide extension mechanisms,
+   including SSH_MSG_EXT_INFO delayed compression.</t>
+    </abstract>
+  </front>
+</reference>

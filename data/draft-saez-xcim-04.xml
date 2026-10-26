@@ -1,0 +1,38 @@
+<reference anchor="I-D.saez-xcim" target="https://datatracker.ietf.org/doc/html/draft-saez-xcim-04">
+  <front>
+    <title>eXplicit Consent-Identified Mail (XCIM)</title>
+    <seriesInfo name="Internet-Draft" value="draft-saez-xcim-04"/>
+    <author initials="D." surname="Saez" fullname="Damian Saez">
+      <organization>We Are 14 Inc</organization>
+    </author>
+    <date day="26" month="October" year="2026"/>
+    <abstract>
+      <t>XCIM specifies evidence that a party controlling an email address
+   explicitly consented to receive defined types of communication from
+   an identified sender.  A trusted third-party Consent Attester
+   verifies address control, observes a separate affirmative decision,
+   and signs an attestation binding the recipient, sender, and agreed
+   types.  Blockchain anchoring provides immutable evidence of the
+   attestation under an admitted finality policy.  Authenticated
+   lifecycle events and fresh status distinguish the historical decision
+   from current consent.
+
+   XCIM concerns the consent relationship independently of individual
+   email messages.  It does not sign, inspect, classify, or authenticate
+   their content.  A receiving email service may use verified current
+   consent as a positive policy signal after independently establishing
+   the sender identity relevant to its query.  This document defines a
+   portable consent object format and verification contract, together
+   with requirements for separately admitted blockchain adapters.  It
+   does not select a universal blockchain network or claim operational
+   readiness.
+
+   An alternative shared revocation profile allows reusable original
+   grants and incremental withdrawal distribution.  It replaces repeated
+   individual positive-status statements with authenticated,
+   sufficiently recent synchronization evidence covering a sender epoch.
+   Endpoint design and data-flow optimization remain implementation
+   choices.</t>
+    </abstract>
+  </front>
+</reference>

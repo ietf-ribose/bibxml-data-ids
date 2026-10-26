@@ -1,0 +1,23 @@
+<reference anchor="I-D.yourtchenko-intarea-internet-checksum" target="https://datatracker.ietf.org/doc/html/draft-yourtchenko-intarea-internet-checksum-00">
+  <front>
+    <title>On Calculating and Updating the Internet Checksum</title>
+    <seriesInfo name="Internet-Draft" value="draft-yourtchenko-intarea-internet-checksum-00"/>
+    <author initials="A." surname="Yourtchenko" fullname="Andrew Yourtchenko">
+      <organization>Cisco</organization>
+    </author>
+    <date day="26" month="October" year="2026"/>
+    <abstract>
+      <t>Over the past four decades, the Internet checksum has been used by
+   many protocols: IPv4, TCP, UDP, and others.  The practical details
+   related to calculation and updates are scattered across different
+   RFCs.  Several protocols introduce special-case handling for +0 and
+   -0, thus making the term "Internet checksum" ambiguous.  This affects
+   any protocol implementation which modifies the data covered by any
+   variant of the Internet checksum.  This document provides the problem
+   statement and outlines the scope for potential future work to build a
+   consolidated source for the Internet checksum.  If there is interest
+   in such work, this document may be converted into that consolidated
+   specification.</t>
+    </abstract>
+  </front>
+</reference>

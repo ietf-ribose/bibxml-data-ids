@@ -1,0 +1,25 @@
+<reference anchor="I-D.oancea-avtcore-opus-ulpfec" target="https://datatracker.ietf.org/doc/html/draft-oancea-avtcore-opus-ulpfec-00">
+  <front>
+    <title>Guidelines for Combining Opus In-Band Forward Error Correction with the RTP Generic FEC (ULPFEC) Payload Format</title>
+    <seriesInfo name="Internet-Draft" value="draft-oancea-avtcore-opus-ulpfec-00"/>
+    <author initials="D." surname="Oancea" fullname="Dragos Oancea"/>
+    <date day="25" month="October" year="2026"/>
+    <abstract>
+      <t>The Opus codec can carry low-bitrate redundancy for the preceding
+   frame inside each packet ("in-band FEC").  The RTP payload format for
+   generic Forward Error Correction (RFC 5109, commonly called ULPFEC)
+   protects groups of RTP packets with XOR parity packets.  The two
+   mechanisms recover different loss patterns, have different delay and
+   overhead characteristics, and interact in ways that are not described
+   in either specification.
+
+   This document gives informational guidance on when the combination is
+   worthwhile, how a sender should configure each mechanism, how a
+   receiver should order recovery, how to signal the combination in SDP,
+   how middleboxes affect it, and how to keep the combined redundancy
+   consistent with congestion control.  It complements, and does not
+   change, the WebRTC FEC requirements in RFC 8854.  It defines no new
+   protocol elements.</t>
+    </abstract>
+  </front>
+</reference>

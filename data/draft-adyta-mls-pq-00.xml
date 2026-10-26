@@ -1,0 +1,41 @@
+<reference anchor="I-D.adyta-mls-pq" target="https://datatracker.ietf.org/doc/html/draft-adyta-mls-pq-00">
+  <front>
+    <title>A Hybrid Post-Quantum KEM for the Messaging Layer Security (MLS) Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-adyta-mls-pq-00"/>
+    <author initials="L." surname="Maia" fullname="Luis Maia">
+      <organization>Adyta, LDA</organization>
+    </author>
+    <author initials="M." surname="Santos" fullname="Marcelo Santos">
+      <organization>Adyta, LDA</organization>
+    </author>
+    <author initials="T." surname="Freitas" fullname="Tadeu Freitas">
+      <organization>Adyta, LDA</organization>
+    </author>
+    <date day="26" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies a hybrid classical/post-quantum Key
+   Encapsulation Mechanism (KEM) for use in the ratchet trees of the
+   Messaging Layer Security (MLS) protocol.  Each parent node of the
+   ratchet tree carries both a classical and a post-quantum public key,
+   and a direct path update encapsulates to both.  The combiner binds
+   both ciphertexts and both public keys, so that the derived node
+   secret is pseudorandom if at least one of the two KEMs remains IND-
+   CCA secure, including against an adversary that controls the keys and
+   ciphertexts of the broken KEM.
+
+   This document also specifies an optional asynchronous mode, in which
+   fresh post-quantum output is produced only on designated rotation
+   commits rather than on every commit.  Asynchronous mode trades a
+   bounded delay in post-quantum post-compromise recovery for a
+   reduction in post-quantum bandwidth proportional to the rotation
+   interval.  Forward secrecy within the rotation window is retained by
+   a one-way ratchet.
+
+   This document is independent of the MLS Combiner draft, which
+   achieves hybrid security by a different mechanism: running a pure
+   post-quantum and a traditional MLS session in parallel and injecting
+   a secret exported from the former into the latter as a pre-shared
+   key.</t>
+    </abstract>
+  </front>
+</reference>

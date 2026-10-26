@@ -1,0 +1,32 @@
+<reference anchor="I-D.liu-sshm-kem-userauth" target="https://datatracker.ietf.org/doc/html/draft-liu-sshm-kem-userauth-00">
+  <front>
+    <title>KEM-based User Authentication for SSH</title>
+    <seriesInfo name="Internet-Draft" value="draft-liu-sshm-kem-userauth-00"/>
+    <author initials="H." surname="&#x5218;&#x6CD3;&#x4F2F;" fullname="&#x5218;&#x6CD3;&#x4F2F;">
+      <organization>Institute of Information Engineering, Chinese Academy of Sciences</organization>
+    </author>
+    <author initials="Q." surname="Zhang" fullname="Qionglu Zhang">
+      <organization>Institute of Information Engineering, Chinese Academy of Sciences</organization>
+    </author>
+    <author initials="Z." surname="Li" fullname="Zhaoxuan Li">
+      <organization>Institute of Information Engineering, Chinese Academy of Sciences</organization>
+    </author>
+    <author initials="Y." surname="Su" fullname="Yufan Su">
+      <organization>North China Electric Power University</organization>
+    </author>
+    <author initials="X." surname="Lu" fullname="Xianhui Lu">
+      <organization>Institute of Information Engineering, Chinese Academy of Sciences</organization>
+    </author>
+    <date day="26" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies publickey-kem, a Key Encapsulation Mechanism
+   (KEM)-based user authentication method for the Secure Shell (SSH)
+   protocol.  The server encapsulates a fresh shared secret to an
+   authorized client public key.  The client demonstrates possession of
+   the corresponding private key by returning a session-bound
+   confirmation value.  The method does not modify SSH transport or
+   server host authentication.  Initial authentication algorithm
+   profiles using ML-KEM and HMAC-SHA256 are also specified.</t>
+    </abstract>
+  </front>
+</reference>
