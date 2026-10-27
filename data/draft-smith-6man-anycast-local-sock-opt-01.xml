@@ -1,0 +1,17 @@
+<reference anchor="I-D.smith-6man-anycast-local-sock-opt" target="https://datatracker.ietf.org/doc/html/draft-smith-6man-anycast-local-sock-opt-01">
+  <front>
+    <title>An IPV6_ANYCAST_LOCAL Socket Option</title>
+    <seriesInfo name="Internet-Draft" value="draft-smith-6man-anycast-local-sock-opt-01"/>
+    <author initials="M." surname="Smith" fullname="Mark Smith"/>
+    <date day="27" month="October" year="2026"/>
+    <abstract>
+      <t>IPv6 nodes will deliver packets destined to an anycast address to one
+   of their own local instances of the anycast address should they
+   exist.  There are cases where it could be useful for a node to ignore
+   its own anycast address instances and to submit packets towards this
+   anycast address to the network for delivery to another node holding
+   the anycast address.  This memo describes a Sockets API socket option
+   to specify this behaviour.</t>
+    </abstract>
+  </front>
+</reference>

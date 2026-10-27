@@ -1,0 +1,46 @@
+<reference anchor="I-D.xu-rtgwg-resilient-nexthop-group-yang" target="https://datatracker.ietf.org/doc/html/draft-xu-rtgwg-resilient-nexthop-group-yang-01">
+  <front>
+    <title>A YANG Data Model for Resilient Next-Hop Groups</title>
+    <seriesInfo name="Internet-Draft" value="draft-xu-rtgwg-resilient-nexthop-group-yang-01"/>
+    <author initials="B." surname="Xu" fullname="Bohua Xu">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="C." surname="Liu" fullname="Chang Liu">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="Y." surname="Zhou" fullname="Yu Zhou">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="C." surname="Wen" fullname="Chenyang Wen">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Wei Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="M." surname="Wu" fullname="Mingyu Wu">
+      <organization>Centec</organization>
+    </author>
+    <author initials="Y." surname="Yang" fullname="Yongtao Yang">
+      <organization>Centec</organization>
+    </author>
+    <date day="27" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines a YANG data model for configuring and observing
+   resilient next-hop groups.  A fixed bucket table separates flow
+   hashing from member selection.  The model augments the routing
+   management model with shared groups, static route bindings, weighted
+   bucket targets, restoration policies, and forwarding-confirmed
+   operational state.
+
+   The specification defines distinct quota and reference restoration
+   policies, consistent timer semantics, and an administrative rebalance
+   action protected by a state-generation precondition.  It standardizes
+   management behavior for this class of implementation; it does not
+   define a new routing protocol, hash algorithm, or transport ordering
+   guarantee.</t>
+    </abstract>
+  </front>
+</reference>

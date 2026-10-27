@@ -1,0 +1,26 @@
+<reference anchor="I-D.zhang-audit-record-limits" target="https://datatracker.ietf.org/doc/html/draft-zhang-audit-record-limits-00">
+  <front>
+    <title>What an Agent Audit Record Can and Cannot Establish</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhang-audit-record-limits-00"/>
+    <author initials="K." surname="Zhang" fullname="Kevin Zhang">
+      <organization>Tersign</organization>
+    </author>
+    <date day="27" month="October" year="2026"/>
+    <abstract>
+      <t>Agent audit records are signed, chained, counter-signed, timestamped,
+   and registered with transparency services.  Each mechanism
+   establishes a narrower fact than it is often taken to establish.
+   This document states, for any record format, protocol, or payment
+   method, what a check of an agent audit record can and cannot
+   establish about four properties: the independence of the entities
+   that signed or observed it, the completeness of a set of records, the
+   time at which a record or an action existed, and the result that a
+   verifier reports.  It defines independence by control rather than by
+   key or process separation, separates the independence of a signer
+   from the independence of an observation, states which commitments
+   cannot support a report that a set of records is complete, and
+   requires a verifier to report unauthenticated content as
+   unauthenticated.  It defines no record format, role, log, or service.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,32 @@
+<reference anchor="I-D.buraglio-6man-hcga" target="https://datatracker.ietf.org/doc/html/draft-buraglio-6man-hcga-00">
+  <front>
+    <title>Hierarchical Cryptographically Generated Addresses (HCGA)</title>
+    <seriesInfo name="Internet-Draft" value="draft-buraglio-6man-hcga-00"/>
+    <author initials="N." surname="Buraglio" fullname="Nick Buraglio">
+      <organization>Energy Sciences Network</organization>
+    </author>
+    <author initials="J." surname="Bailey" fullname="Josh Bailey">
+      <organization>Overly Specific Dynamics</organization>
+    </author>
+    <date day="27" month="October" year="2026"/>
+    <abstract>
+      <t>RFC 3972 defines Cryptographically Generated Addresses (CGA), in
+   which the Interface Identifier (IID) of an IPv6 address is derived
+   from a cryptographic public key.  The /64 subnet prefix is supplied
+   by network infrastructure and has no cryptographic relationship to
+   the key.  This document specifies Hierarchical CGA (HCGA), an
+   extension to RFC 3972 that also derives part of the upper 64 bits --
+   specifically the bits between the organizational prefix and the /64
+   boundary -- from the same public key.  The result is an address whose
+   full 128-bit value is a deterministic function of a public key
+   (typically hardware-bound), an operator-controlled aggregate prefix,
+   and two modifiers.  HCGA is a traceability component intended for use
+   within a larger accountability architecture that supplies key
+   attestation, parameter distribution, and source-address enforcement;
+   that architecture is not specified here.  The capability supports
+   workload network accountability in multi-tenant environments such as
+   Kubernetes clusters, where infrastructure-assigned prefixes provide
+   no per-instance cryptographic binding.</t>
+    </abstract>
+  </front>
+</reference>
