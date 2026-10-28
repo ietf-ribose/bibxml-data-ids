@@ -1,0 +1,38 @@
+<reference anchor="I-D.zhang-dnssec-wildcard-validation" target="https://datatracker.ietf.org/doc/html/draft-zhang-dnssec-wildcard-validation-02">
+  <front>
+    <title>Signer-Zone Containment for DNSSEC Wildcard Validation</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhang-dnssec-wildcard-validation-02"/>
+    <author initials="Q." surname="Zhang" fullname="Qifan Zhang">
+      <organization>Palo Alto Networks</organization>
+    </author>
+    <author initials="Z." surname="Shen" fullname="Zilin Shen">
+      <organization>Purdue University</organization>
+    </author>
+    <author initials="I." surname="Karim" fullname="Imtiaz Karim">
+      <organization>The University of Texas at Dallas</organization>
+    </author>
+    <author initials="E." surname="Bertino" fullname="Elisa Bertino">
+      <organization>Purdue University</organization>
+    </author>
+    <author initials="D." surname="Liu" fullname="Daiping Liu">
+      <organization>Palo Alto Networks</organization>
+    </author>
+    <author initials="Z." surname="Li" fullname="Zhou Li">
+      <organization>University of California, Irvine</organization>
+    </author>
+    <date day="27" month="October" year="2026"/>
+    <abstract>
+      <t>Validators for the DNS Security Extensions (DNSSEC) reconstruct the
+   original owner name of a signed resource record set (RRset) using the
+   RRSIG Labels field.  This document updates RFC 4035 to make explicit
+   how its existing signing-zone authority requirement applies to that
+   reconstructed owner, and updates RFC 8198 to preserve the
+   authenticated association between wildcard data, its original owner,
+   and its signing zone during cache reuse.  These clarifications
+   prevent cryptographically correct signatures from being treated as
+   authenticating wildcard sources outside the signing zone.  They do
+   not change DNS wildcard matching or synthesis rules, or DNS message
+   formats.</t>
+    </abstract>
+  </front>
+</reference>

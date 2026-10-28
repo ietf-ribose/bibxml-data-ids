@@ -1,0 +1,22 @@
+<reference anchor="I-D.coffey-jmap-undelete" target="https://datatracker.ietf.org/doc/html/draft-coffey-jmap-undelete-00">
+  <front>
+    <title>JMAP Undelete: Recovering Destroyed Objects</title>
+    <seriesInfo name="Internet-Draft" value="draft-coffey-jmap-undelete-00"/>
+    <author initials="J." surname="Coffey" fullname="John Coffey">
+      <organization>Coffey Labs LLC</organization>
+    </author>
+    <date day="27" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies an extension to the JSON Meta Application
+   Protocol (JMAP) that lets a client find and restore objects that were
+   permanently destroyed within a server-defined retention period.  It
+   defines a new capability, a DeletedItem data type that describes a
+   destroyed object of any supported data type, and a DeletedItem/
+   restore method that recreates it.  Rules are given for Email,
+   ContactCard, CalendarEvent, FileNode, and SieveScript objects.
+   Servers can already keep destroyed data for a time.  This extension
+   gives clients an interoperable way to show what can be recovered, for
+   how long, and to recover it.</t>
+    </abstract>
+  </front>
+</reference>

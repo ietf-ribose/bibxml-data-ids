@@ -1,0 +1,34 @@
+<reference anchor="I-D.wang-grow-bmp-attribute-sets-stats" target="https://datatracker.ietf.org/doc/html/draft-wang-grow-bmp-attribute-sets-stats-00">
+  <front>
+    <title>BMP Extension for BGP Path Attribute Sets and Statistics</title>
+    <seriesInfo name="Internet-Draft" value="draft-wang-grow-bmp-attribute-sets-stats-00"/>
+    <author initials="Z." surname="Wang" fullname="Zhiyuan Wang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="N." surname="Geng" fullname="Nan Geng">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="S." surname="Zhuang" fullname="Shunwan Zhuang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="H." surname="Wang" fullname="Haibo Wang">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date day="28" month="October" year="2026"/>
+    <abstract>
+      <t>The BGP Monitoring Protocol (BMP) specified in RFC 7854 requires a
+   monitored router to send full BGP Path Attributes for every Route
+   Monitoring message.  In networks with a large number of prefixes
+   sharing identical BGP Path Attributes, this requirement leads to
+   substantial transmission redundancy and protocol overhead.
+
+   This document specifies a decoupled architecture for BMP monitoring
+   that separates Path Attribute Set registration from NLRI volume
+   statistics.  Attribute updates are triggered immediately upon path
+   attribute changes, while NLRI count updates can be configured for
+   either event-driven (immediate) or periodic reporting modes, with
+   mandatory instant notification when an attribute set's reference
+   count drops to zero.</t>
+    </abstract>
+  </front>
+</reference>

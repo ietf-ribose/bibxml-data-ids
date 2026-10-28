@@ -1,0 +1,20 @@
+<reference anchor="I-D.mauch-bgp-nh-mtu" target="https://datatracker.ietf.org/doc/html/draft-mauch-bgp-nh-mtu-00">
+  <front>
+    <title>BGP Next Hop MTU Attribute</title>
+    <seriesInfo name="Internet-Draft" value="draft-mauch-bgp-nh-mtu-00"/>
+    <author initials="J." surname="Mauch" fullname="Jared Mauch">
+      <organization>Akamai</organization>
+    </author>
+    <date day="28" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines NEXT_HOP_MTU, an optional non-transitive BGP
+   path attribute (type code TBD).  It carries the IP MTU a speaker
+   promises is acceptable for an NLRI across one network boundary.  The
+   speaker that receives the NLRI across that boundary may attach the
+   attribute from the boundary interface MTU and advertise it on
+   internal and external sessions.  The intent is to communicate network
+   MTU capability so that devices can use that information to improve
+   the efficiency of their communications.</t>
+    </abstract>
+  </front>
+</reference>

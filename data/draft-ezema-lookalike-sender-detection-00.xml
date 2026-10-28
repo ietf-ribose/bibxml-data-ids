@@ -1,0 +1,25 @@
+<reference anchor="I-D.ezema-lookalike-sender-detection" target="https://datatracker.ietf.org/doc/html/draft-ezema-lookalike-sender-detection-00">
+  <front>
+    <title>Considerations for Detecting Look-Alike Sender Identities in Platform Messaging</title>
+    <seriesInfo name="Internet-Draft" value="draft-ezema-lookalike-sender-detection-00"/>
+    <author initials="S." surname="Ezema" fullname="Sochima Ezema">
+      <organization>Independent</organization>
+    </author>
+    <date day="27" month="October" year="2026"/>
+    <abstract>
+      <t>Users of consumer platforms -- job boards, marketplaces, education
+   and early-career services -- receive messages from other parties
+   inside the platform, where no enterprise mail gateway inspects them.
+   Attackers impersonate the platform's own brand and support staff, and
+   pose as recruiters or counterparties, using look-alike domains and
+   display names.  This document describes considerations for detecting
+   look-alike sender identities at the level of the individual message
+   and its sender, rather than at the domain-registration level.  It
+   records two concrete pitfalls observed in deployed libraries: Unicode
+   confusable "skeleton" equality alone does not catch all mixed-script
+   look-alikes, and several input validators accept host names
+   containing invisible format characters.  This document is
+   informational and specifies no protocol.</t>
+    </abstract>
+  </front>
+</reference>

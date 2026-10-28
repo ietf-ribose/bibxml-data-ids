@@ -1,0 +1,22 @@
+<reference anchor="I-D.degennaro-mta-hooks" target="https://datatracker.ietf.org/doc/html/draft-degennaro-mta-hooks-02">
+  <front>
+    <title>Mail Transfer Agent (MTA) Hooks: An HTTP-Based Protocol for External Mail Processing</title>
+    <seriesInfo name="Internet-Draft" value="draft-degennaro-mta-hooks-02"/>
+    <author initials="M." surname="De Gennaro" fullname="Mauro De Gennaro">
+      <organization>Stalwart Labs LLC</organization>
+    </author>
+    <date day="28" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies MTA Hooks, an HTTP-based protocol that lets
+   Mail Transfer Agents (MTAs) delegate message processing decisions to
+   external services.  The MTA sends a JSON or Concise Binary Object
+   Representation (CBOR) description of the SMTP session, envelope, and
+   message to a registered service at defined stages of reception and
+   delivery.  The service answers with a JSON Patch that changes the
+   description, and the MTA acts on the resulting state.  The same
+   mechanism covers filtering at SMTP time, routing before delivery, and
+   reacting to delivery outcomes, and the MTA controls exactly which
+   changes each service may make.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,28 @@
+<reference anchor="I-D.pospichal-idr-bgp-l2-quic" target="https://datatracker.ietf.org/doc/html/draft-pospichal-idr-bgp-l2-quic-00">
+  <front>
+    <title>Border Gateway Protocol over Layer 2 QUIC Transport (BoL2Q)</title>
+    <seriesInfo name="Internet-Draft" value="draft-pospichal-idr-bgp-l2-quic-00"/>
+    <author initials="Z." surname="Posp&#xED;chal" fullname="Zbyn&#x11B;k Posp&#xED;chal">
+      <organization>Quantcom, a.s.</organization>
+    </author>
+    <date day="27" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies BGP over Layer 2 QUIC (BoL2Q), a transport
+   for external and internal BGP sessions between speakers that share an
+   Ethernet segment, in which QUIC packets are carried directly in
+   Ethernet frames, identified by a dedicated EtherType, without IP or
+   UDP headers.  A BoL2Q session has no IP address and no transport
+   port, so it cannot be reached from beyond the link on which it runs,
+   and it requires no IP-layer configuration of any kind: a session is
+   defined by a local interface, the MAC address of the peer, the remote
+   Autonomous System number and a pre-shared key.  BoL2Q reuses QUIC
+   version 1 and TLS 1.3 unchanged, apart from the replacement of the
+   UDP/IP path by an Ethernet path.  Optionally, a "Link Next Hop"
+   capability allows routes to be installed with a router on the same
+   Ethernet segment as the next hop, identified either as the session
+   peer itself or by its MAC address.  This enables forwarding over
+   links that carry no interface addresses, including through route
+   reflectors and route servers.</t>
+    </abstract>
+  </front>
+</reference>
