@@ -1,0 +1,24 @@
+<reference anchor="I-D.ramadan-mboned-mcast-manifest" target="https://datatracker.ietf.org/doc/html/draft-ramadan-mboned-mcast-manifest-00">
+  <front>
+    <title>Signed Digest Manifests for Multicast Datagram Authentication</title>
+    <seriesInfo name="Internet-Draft" value="draft-ramadan-mboned-mcast-manifest-00"/>
+    <author initials="O." surname="Ramadan" fullname="Omar Ramadan">
+      <organization>Blockcast</organization>
+    </author>
+    <date day="29" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines a format for authenticating UDP datagrams
+   delivered over IP multicast without changing them.  The sender
+   computes a digest over every datagram of a flow, places the digests
+   of up to 37 datagrams in a fixed-layout record, signs the record with
+   Ed25519 under a prefix that names the flow, and sends it on a second
+   port of the same source and group immediately before the datagrams it
+   covers, followed by a byte-identical twin.  A receiver verifies one
+   signature per record, hashes each datagram once, and delivers a
+   datagram only after its digest matches an entry of a verified record;
+   it needs no return channel.  A well-known document supplies a flow's
+   keys and parameters.  A Media over QUIC profile and a browser profile
+   use the format.</t>
+    </abstract>
+  </front>
+</reference>

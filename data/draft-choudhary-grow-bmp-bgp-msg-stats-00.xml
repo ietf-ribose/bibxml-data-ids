@@ -1,0 +1,26 @@
+<reference anchor="I-D.choudhary-grow-bmp-bgp-msg-stats" target="https://datatracker.ietf.org/doc/html/draft-choudhary-grow-bmp-bgp-msg-stats-00">
+  <front>
+    <title>BGP Message Counters for BGP Monitoring Protocol (BMP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-choudhary-grow-bmp-bgp-msg-stats-00"/>
+    <author initials="A." surname="Choudhary" fullname="Aseem Choudhary">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author initials="N." surname="Prasad" fullname="Narasimha Prasad">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date day="29" month="October" year="2026"/>
+    <abstract>
+      <t>The BGP Monitoring Protocol (BMP) [RFC7854] Statistics Report
+   carries RIB occupancy, policy, and route-processing metrics.
+   Some existing types count UPDATE messages, but only as special
+   cases grouped by result (duplicates, loops, and errors).  No
+   statistic gives a total count of each BGP message type.
+   This document defines those totals as new BMP Statistics Types
+   (UPDATE, KEEPALIVE, NOTIFICATION, ROUTE-REFRESH, and all BGP
+   PDUs in each direction), states the operational use cases that
+   motivate them, and records explicit non-goals so that last-error
+   content, negotiated timer values, and implementation-specific
+   internals remain out of scope.</t>
+    </abstract>
+  </front>
+</reference>

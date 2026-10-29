@@ -1,0 +1,24 @@
+<reference anchor="I-D.sheffer-tls-pq-hsts" target="https://datatracker.ietf.org/doc/html/draft-sheffer-tls-pq-hsts-00">
+  <front>
+    <title>An HSTS-like Header for Secure PQ Migration</title>
+    <seriesInfo name="Internet-Draft" value="draft-sheffer-tls-pq-hsts-00"/>
+    <author initials="Y." surname="Sheffer" fullname="Yaron Sheffer">
+      <organization>Independent</organization>
+    </author>
+    <author initials="T." surname="Reddy.K" fullname="Tirumaleswar Reddy.K">
+      <organization>Nokia</organization>
+    </author>
+    <author initials="D." surname="Benjamin" fullname="David Benjamin">
+      <organization>Google LLC</organization>
+    </author>
+    <date day="29" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines an HTTP response header field, Require-PQ-Auth,
+   that instructs user agents to require a quantum-resistant certificate
+   chain in subsequent connections.  This is a short-term, opt-in
+   mechanism for HTTP origins to protect against legacy classical trust
+   anchors.  It will become unnecessary when UAs remove these trust
+   anchors.</t>
+    </abstract>
+  </front>
+</reference>

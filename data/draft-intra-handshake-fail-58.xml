@@ -1,0 +1,95 @@
+<reference anchor="I-D.intra-handshake-fail" target="https://datatracker.ietf.org/doc/html/draft-intra-handshake-fail-58">
+  <front>
+    <title>Early Attestation Considered Very Harmful (CVE-2026-100833, CVE-2026-100835,CVE-2026-108265, CVE-2026-108266, CVE-2026-108267, CVE-2026-108268, CVE-2026-108269, CVE-2026-92701, CVE-2026-92702, CVE-2026-108362, CVE-2026-33697, CVE-2026-108361 and others)</title>
+    <seriesInfo name="Internet-Draft" value="draft-intra-handshake-fail-58"/>
+    <author initials="M. U." surname="Sardar" fullname="Muhammad Usama Sardar">
+      <organization>Global Alliance for Genomics and Health</organization>
+    </author>
+    <author initials="V." surname="Dubeyko" fullname="Viacheslav Dubeyko">
+      <organization>CoreWeave</organization>
+    </author>
+    <author initials="J." surname="Jacquet" fullname="Jean-Marie Jacquet">
+      <organization>University of Namur</organization>
+    </author>
+    <author initials="S." surname="Bu" fullname="Songbo Bu">
+      <organization>Stevens Institute of Technology</organization>
+    </author>
+    <author initials="C." surname="Huang" fullname="Chengxin Huang">
+      <organization>Independent</organization>
+    </author>
+    <author initials="H." surname="Song" fullname="Haowen Song">
+      <organization>Shanghai Guan An Information Technology Co., Ltd.</organization>
+    </author>
+    <author initials="K." surname="Ercihan" fullname="Kaya Ercihan">
+      <organization>Switch</organization>
+    </author>
+    <author initials="K. A." surname="K&#xFC;&#xE7;&#xFC;k" fullname="Dr Kubilay Ahmet K&#xFC;&#xE7;&#xFC;k">
+      <organization>DPhil Oxford University</organization>
+    </author>
+    <author initials="S." surname="Bellemare" fullname="Sylvain Bellemare">
+      <organization>Sureshot Labs</organization>
+    </author>
+    <author initials="E." surname="Willems" fullname="Eva Willems">
+      <organization>Independent</organization>
+    </author>
+    <author initials="J. D." surname="SAINTEN" fullname="Justin DESSENNES SAINTEN">
+      <organization>Independent Corporate Risk Consultant</organization>
+    </author>
+    <author initials="M." surname="Brighindi" fullname="Massimiliano Brighindi">
+      <organization>PHI-OMEGA</organization>
+    </author>
+    <author initials="M." surname="Quintyne-Collins" fullname="Mikerah Quintyne-Collins">
+      <organization>HashCloak Inc and Stoffel Labs Inc</organization>
+    </author>
+    <author initials="I." surname="Schrock" fullname="Iman Schrock">
+      <organization>EMILIA Protocol, Inc.</organization>
+    </author>
+    <author initials="I." surname="Aboubakarov" fullname="Islam Aboubakarov">
+      <organization>Ecole Superieure Ingénieurs Léonard de Vinci Paris</organization>
+    </author>
+    <author initials="A." surname="Gul" fullname="Ammara Gul">
+      <organization>Birmingham City University</organization>
+    </author>
+    <author initials="V." surname="Malladi" fullname="Venkat Malladi">
+      <organization>Verily</organization>
+    </author>
+    <date day="28" month="October" year="2026"/>
+    <abstract>
+      <t>The draft aims to provide technical details of [CVE-2026-100833] of
+   CVSS 9.6, [CVE-2026-108265] of CVSS 9.1, [CVE-2026-108266] of CVSS
+   9.1, [CVE-2026-108267] of CVSS 9.1, [CVE-2026-108268] of CVSS 9.1,
+   [CVE-2026-108269] of CVSS 9.1, [CVE-2026-100835] of CVSS 9.1,
+   [CVE-2026-92701] of CVSS 9.1, [CVE-2026-92702] of CVSS 9.1,
+   [CVE-2026-108362] of CVSS 9.1, [CVE-2026-33697] of CVSS 7.5,
+   [CVE-2026-108361] of CVSS 7.2, and several GitHub Security Advisories
+   (GHSAs) in the process of getting CVE IDs, which provide substantial
+   technical evidence of how early attestation fails in practice, even
+   *without physical access* to the desired machine.  Moreover, since
+   continuous attestation is generally required [CSA-eBPF]
+   [MITRE-Continuous-Attestation], early attestation adds *unnecessary
+   complexity*. The results are backed by the research
+   [Intra-handshake.fail], [TLS-RA], [EarlyAttestationBleed] and the
+   artifacts [Intra-handshake.fail-repo] in state-of-the-art formal
+   analysis tool, ProVerif, under Apache-2.0 license for
+   reproducibility, extensibility, and review, and have been
+   acknowledged by the relevant stakeholders.  Currently, there are *one
+   CVE of CVSS 9.6, nine CVEs of CVSS 9.1, one CVE of CVSS 8.2, one CVE
+   of CVSS 7.5, one CVE of CVSS 7.2, and several GHSAs published
+   awaiting CVE IDs against the broader early attestation covering all
+   layers of the ecosystem up to the application*. The research papers
+   on these are currently either under submission or being prepared for
+   submission.  The artifacts of these papers will be shared with the
+   community under Apache-2.0 license for reproducibility,
+   extensibility, and review.  Based on our work, all except two
+   implementations of early attestation have been archived, withdrawn,
+   or moved to post-handshake attestation.  In our analysis
+   [Intra-handshake.fail-repo] and [ID-Crisis-repo], the remaining two
+   implementations of early attestation -- Edgeless Systems Contrast and
+   Meta's AI -- remain vulnerable.  We recommend users of these two
+   implementations to carefully evaluate their systems and understand
+   the risks.  If you are aware of any open-source implementation of
+   early attestation that is not yet covered in this draft, please let
+   us know to responsibly disclose the vulnerabilities to them.</t>
+    </abstract>
+  </front>
+</reference>
