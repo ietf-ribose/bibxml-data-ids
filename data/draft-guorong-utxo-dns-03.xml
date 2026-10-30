@@ -1,0 +1,23 @@
+<reference anchor="I-D.guorong-utxo-dns" target="https://datatracker.ietf.org/doc/html/draft-guorong-utxo-dns-03">
+  <front>
+    <title>UTXO6-DNS: Resolving Payment Endpoints via Private-use RRTYPE and Prefix Isolation</title>
+    <seriesInfo name="Internet-Draft" value="draft-guorong-utxo-dns-03"/>
+    <author initials="" surname="GuorongTian" fullname="GuorongTian">
+      <organization>CoCa Foundation</organization>
+    </author>
+    <date day="30" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies the _utxo application namespace for DNS.  It
+   defines how wallet clients and TEE (Trusted Execution Environment)
+   applications resolve verifiable payment endpoints and blockchain UTXO
+   (Unspent Transaction Output) references using DNS.
+
+   To avoid exacerbating public RRTYPE space congestion and DNS-layer
+   transparent parsing, this document utilizes the RFC 3597 Private-use
+   space (QTYPE 65400).  The DNS protocol does not parse the payload.
+   Application semantics are isolated strictly via the _utxo underscore
+   prefix in the owner name, while the RDATA consists of a purely opaque
+   CBOR-encoded byte stream.</t>
+    </abstract>
+  </front>
+</reference>

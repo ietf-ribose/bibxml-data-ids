@@ -1,0 +1,25 @@
+<reference anchor="I-D.reddy-wimse-oauth-dialog-binding" target="https://datatracker.ietf.org/doc/html/draft-reddy-wimse-oauth-dialog-binding-00">
+  <front>
+    <title>Binding Agent Dialogs to WIMSE and OAuth Credentials</title>
+    <seriesInfo name="Internet-Draft" value="draft-reddy-wimse-oauth-dialog-binding-00"/>
+    <author initials="T." surname="Reddy.K" fullname="Tirumaleswar Reddy.K">
+      <organization>Nokia</organization>
+    </author>
+    <author initials="Z." surname="Sarker" fullname="Zaheduzzaman Sarker">
+      <organization>Nokia</organization>
+    </author>
+    <date day="30" month="October" year="2026"/>
+    <abstract>
+      <t>AI agents and tools that take part in a dialog carry a dialog context
+   with each request and response.  This document specifies how the
+   dialog context is bound to WIMSE and OAuth credentials.  It extends
+   the WIMSE profile of HTTP Message Signatures, for requests and
+   responses, and the WIMSE Proof Token, for requests, to cover the
+   dialog context, records the dialog identifier in OAuth transaction
+   tokens, and describes how a new dialog at a trust boundary aligns
+   with OAuth identity chaining.  A receiver can then verify who sent a
+   request or response, which dialog it belongs to, and, for a request,
+   what it may do, and that the answers agree.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,38 @@
+<reference anchor="I-D.yang-rtgwg-ecn-threshold-policy" target="https://datatracker.ietf.org/doc/html/draft-yang-rtgwg-ecn-threshold-policy-00">
+  <front>
+    <title>A YANG Data Model for ECN Threshold Policies</title>
+    <seriesInfo name="Internet-Draft" value="draft-yang-rtgwg-ecn-threshold-policy-00"/>
+    <author initials="J." surname="Yang" fullname="Jin Yang">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Weiqiang Cheng">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="T." surname="Han" fullname="Tingting Han">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="Z." surname="Meng" fullname="Zongwei Meng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="Y." surname="Feng" fullname="Ying Feng">
+      <organization>Centec</organization>
+    </author>
+    <date day="30" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines administrative limits and operational state for
+   local ECN threshold adaptation on queues using a single byte-based
+   Random Early Detection (RED) profile.  It augments the QoS queue
+   template model with policy bounds and the interface model with
+   confirmed per-queue state.
+
+   The policy constrains both RED thresholds, preserves the configured
+   ramp width, and specifies quantization, input validity, transition,
+   and fallback behavior.  It does not select a learning algorithm,
+   modify ECN codepoints, reserve physical buffer capacity, or guarantee
+   congestion-control stability or lossless delivery.</t>
+    </abstract>
+  </front>
+</reference>

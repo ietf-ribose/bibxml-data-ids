@@ -1,0 +1,28 @@
+<reference anchor="I-D.rampertab-audit-agent-authority-history" target="https://datatracker.ietf.org/doc/html/draft-rampertab-audit-agent-authority-history-00">
+  <front>
+    <title>Replayable Authority Histories for Auditing Automated Agents</title>
+    <seriesInfo name="Internet-Draft" value="draft-rampertab-audit-agent-authority-history-00"/>
+    <author initials="R." surname="Rampertab" fullname="Ramesh Rampertab">
+      <organization>RAmEx Labs</organization>
+    </author>
+    <date day="29" month="October" year="2026"/>
+    <abstract>
+      <t>Software agents act on authority that changes while they run:
+   permissions are granted and revoked, running instances are replaced,
+   and some requests are refused.  Activity logs record what a system
+   reports it did, but they do not by themselves show what an agent was
+   allowed to do when it acted, and the operator can edit them.  This
+   document specifies a model for an authority history: an append-only,
+   signed record of who granted what to whom, which actions were
+   admitted, which requests were refused, and which unfinished duties
+   survive when one agent replaces another.  Given independently
+   authenticated owner keys and history identity, a verifier can replay
+   the history and recompute its recorded authorization decisions while
+   trusting neither the agent nor the operator.  The document states
+   what such a verifier can and cannot establish.  Optional profiles
+   cover external anchoring, federated operation, human-attested keys
+   and zero-knowledge disclosure.  An informative appendix describes one
+   encoding.</t>
+    </abstract>
+  </front>
+</reference>

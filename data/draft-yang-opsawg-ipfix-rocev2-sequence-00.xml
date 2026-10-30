@@ -1,0 +1,37 @@
+<reference anchor="I-D.yang-opsawg-ipfix-rocev2-sequence" target="https://datatracker.ietf.org/doc/html/draft-yang-opsawg-ipfix-rocev2-sequence-00">
+  <front>
+    <title>IPFIX Export of RoCEv2 Sequence Observations</title>
+    <seriesInfo name="Internet-Draft" value="draft-yang-opsawg-ipfix-rocev2-sequence-00"/>
+    <author initials="J." surname="Yang" fullname="Jin Yang">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Weiqiang Cheng">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="T." surname="Han" fullname="Tingting Han">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="L." surname="Wang" fullname="Li Wang">
+      <organization>Centec</organization>
+    </author>
+    <date day="30" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies an IP Flow Information Export (IPFIX)
+   metering and export profile for bounded Packet Sequence Number (PSN)
+   observations on provisioned RoCEv2 Reliable Connection SEND and RDMA
+   WRITE request streams.  It defines cumulative observations of
+   skipped, subsequently observed, expired, repeated, and unclassified
+   sequence positions, with explicit observation epochs and
+   qualification flags.
+
+   The profile requires complete observation of the provisioned stream
+   and defines no packet-loss estimator, retransmission detector, or
+   congestion-control action.  Twelve Information Elements describe the
+   observation state.  Existing RoCEv2 header Information Elements
+   identify the monitored stream.</t>
+    </abstract>
+  </front>
+</reference>

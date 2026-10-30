@@ -1,0 +1,34 @@
+<reference anchor="I-D.hood-independent-agtp" target="https://datatracker.ietf.org/doc/html/draft-hood-independent-agtp-10">
+  <front>
+    <title>Agent Transfer Protocol (AGTP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-hood-independent-agtp-10"/>
+    <author initials="C." surname="Hood" fullname="Chris Hood">
+      <organization>Nomotic, Inc.</organization>
+    </author>
+    <date day="30" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines the Agent Transfer Protocol (AGTP): a transfer
+   protocol for AI agent traffic.  AGTP carries agent identity,
+   authority, delegation, and attribution as protocol elements of every
+   exchange, on an eighteen-method floor of intent-named methods, over
+   TCP/TLS or QUIC on IANA-assigned port 4480 and the IANA-registered
+   agtp:// URI scheme.  The method vocabulary beyond the floor, the path
+   grammar, and the endpoint contract are specified in [AGTP-METHODS];
+   runtime negotiation of endpoints is specified in [AGTP-RCNS]; the
+   agent identity document in [AGTP-IDDOC]; transport bindings in
+   [AGTP-BINDINGS].  Version 10 adds per-request proof of possession, so
+   that a verified identity document and a live sender are bound by
+   signature; specifies the Delegation-Chain header with pre-
+   authorization semantics (per-hop scope attenuation checked at mint
+   and at verify, parent re-verification at each hop, depth and cycle
+   limits, and defined failure behavior); maps the delegation model onto
+   the WIMSE chain convention; resolves the 262 and 455 status codes by
+   obtainability; adds structured failure fields to the status code
+   model, states the protocol's position in the transfer-protocol
+   vocabulary throughout, and moves module material to companion
+   specifications so that this document carries the protocol and only
+   the protocol.  AGTP is designed to compose with existing agent
+   frameworks, which keep their own semantics and development paths.</t>
+    </abstract>
+  </front>
+</reference>

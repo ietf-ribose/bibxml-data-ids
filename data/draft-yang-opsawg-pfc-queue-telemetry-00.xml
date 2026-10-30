@@ -1,0 +1,35 @@
+<reference anchor="I-D.yang-opsawg-pfc-queue-telemetry" target="https://datatracker.ietf.org/doc/html/draft-yang-opsawg-pfc-queue-telemetry-00">
+  <front>
+    <title>A YANG Data Model for PFC Queue Telemetry</title>
+    <seriesInfo name="Internet-Draft" value="draft-yang-opsawg-pfc-queue-telemetry-00"/>
+    <author initials="J." surname="Yang" fullname="Jin Yang">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Weiqiang Cheng">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="T." surname="Han" fullname="Tingting Han">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="S." surname="Zhang" fullname="Siyuan Zhang">
+      <organization>Centec</organization>
+    </author>
+    <date day="30" month="October" year="2026"/>
+    <abstract>
+      <t>This document defines a YANG data model for completed, per-queue
+   observations of backlog and received Priority-based Flow Control
+   (PFC) gating.  Each record identifies a monotonic measurement
+   interval, queue mapping epoch, measurement method, and absolute error
+   bound.  The model makes repeated reads, missing coverage, and
+   weighted aggregation explicit.
+
+   The measured overlap does not identify the sole cause of queueing
+   delay and does not change PFC, packet scheduling, or ECN marking.
+   The module augments interface operational state and defines no
+   configuration or notification interface.</t>
+    </abstract>
+  </front>
+</reference>

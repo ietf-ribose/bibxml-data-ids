@@ -1,0 +1,24 @@
+<reference anchor="I-D.artamokhov-dawn-marketplace-discovery" target="https://datatracker.ietf.org/doc/html/draft-artamokhov-dawn-marketplace-discovery-00">
+  <front>
+    <title>A Discovery Document and Signed Catalogue for Capability Marketplaces</title>
+    <seriesInfo name="Internet-Draft" value="draft-artamokhov-dawn-marketplace-discovery-00"/>
+    <author initials="A." surname="Artamokhov" fullname="Aleksandr Artamokhov">
+      <organization>Independent</organization>
+    </author>
+    <date day="29" month="October" year="2026"/>
+    <abstract>
+      <t>Autonomous software agents obtain capabilities from services
+   catalogued by independently operated indexes.  For an agent, or
+   another index, to use such a catalogue it must first learn a small
+   set of public properties of the index: what it is called, which
+   protocol versions it speaks, where its catalogue is, and which key
+   signs that catalogue.  This document specifies a JSON discovery
+   document served at a well-known URI that carries exactly those
+   properties, and the requirements a signed catalogue referenced from
+   it has to meet so that a reader can verify it without trusting the
+   transport or the operator.  It specifies nothing about how indexes
+   find one another, exchange catalogues, or decide whom to trust; those
+   are the subject of a companion document.</t>
+    </abstract>
+  </front>
+</reference>

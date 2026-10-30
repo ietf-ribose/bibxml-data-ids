@@ -1,0 +1,33 @@
+<reference anchor="I-D.janzking-nmrg-telemetry-instrumentation" target="https://datatracker.ietf.org/doc/html/draft-janzking-nmrg-telemetry-instrumentation-02">
+  <front>
+    <title>Telemetry Methodologies for Analog Measurement Instrumentation</title>
+    <seriesInfo name="Internet-Draft" value="draft-janzking-nmrg-telemetry-instrumentation-02"/>
+    <author initials="C." surname="Janz" fullname="Christopher Janz">
+      <organization>Huawei Canada</organization>
+    </author>
+    <author initials="D." surname="King" fullname="Daniel King">
+      <organization>Lancaster University</organization>
+    </author>
+    <date day="30" month="October" year="2026"/>
+    <abstract>
+      <t>Evolution toward network operations automation requires systems
+   encompassing software-based analytics and decision-making.  Network-
+   based instrumentation provides crucial data for these components and
+   processes.  However, the proliferation of such instrumentation and
+   the need to migrate the data it generates from the physical network
+   to "off-the-network" software poses challenges.  In particular,
+   analog measurement instrumentation, which generates time-continuous
+   real-number data, may generate significant data volumes.
+
+   This document discusses methodologies for handling analog measurement
+   instrumentation data, informed by the requirements of network digital
+   twins and of automated fault diagnosis.  It proposes that
+   instrumentation report, for each measured quantity and each interval,
+   a summary that keeps the level, the rate of change, the departure
+   from a steady trend, the extremes over a stated short window and the
+   number of measurements taken.  Such summaries can be combined exactly
+   over any longer span, and they allow trends, brief events and stopped
+   measurements to be detected and reported as they occur.</t>
+    </abstract>
+  </front>
+</reference>

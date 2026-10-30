@@ -1,0 +1,35 @@
+<reference anchor="I-D.ietf-bess-evpn-dpath" target="https://datatracker.ietf.org/doc/html/draft-ietf-bess-evpn-dpath-05">
+  <front>
+    <title>Domain Path (D-PATH) for Ethernet VPN (EVPN) Interconnect Networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-bess-evpn-dpath-05"/>
+    <author initials="J." surname="Rabadan" fullname="Jorge Rabadan">
+      <organization>Nokia</organization>
+    </author>
+    <author initials="S." surname="Sathappan" fullname="Senthil Sathappan">
+      <organization>Nokia</organization>
+    </author>
+    <author initials="M." surname="Gautam" fullname="Mallika Gautam">
+      <organization>Nokia</organization>
+    </author>
+    <author initials="P." surname="Brissette" fullname="Patrice Brissette">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author initials="W." surname="Lin" fullname="Wen Lin">
+      <organization>Juniper</organization>
+    </author>
+    <date day="30" month="October" year="2026"/>
+    <abstract>
+      <t>The BGP Domain PATH (D-PATH) attribute is defined for Inter-Subnet
+   Forwarding (ISF) BGP Sub-Address Families that advertise IP prefixes
+   or MAC addresses.  D-PATH already applies to EVPN Route Type 2 when
+   used for ISF, to EVPN Route Type 5 (IP Prefix routes), and to IP-VPN
+   routes.  When used along with those routes, it identifies the
+   domain(s) through which the routes have passed and that information
+   can be used by the receiver BGP speakers to detect routing loops or
+   influence the BGP best path selection.  This document extends the use
+   of D-PATH to EVPN Route Type 2 when not used for ISF, to EVPN Route
+   Type 1 (Ethernet Auto-Discovery per-EVI) for EVPN VPWS, and to EVPN
+   Route Type 3 (Inclusive Multicast Ethernet Tag routes).</t>
+    </abstract>
+  </front>
+</reference>

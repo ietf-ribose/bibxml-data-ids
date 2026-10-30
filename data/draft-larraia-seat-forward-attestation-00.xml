@@ -1,0 +1,24 @@
+<reference anchor="I-D.larraia-seat-forward-attestation" target="https://datatracker.ietf.org/doc/html/draft-larraia-seat-forward-attestation-00">
+  <front>
+    <title>Binding Attestation to Forward TLS Connections</title>
+    <seriesInfo name="Internet-Draft" value="draft-larraia-seat-forward-attestation-00"/>
+    <author initials="E." surname="Larraia" fullname="Enrique Larraia">
+      <organization>Openchip &amp; Software Technologies S.L.</organization>
+    </author>
+    <author initials="A." surname="Tsukamoto" fullname="Akira Tsukamoto">
+      <organization>Openchip &amp; Software Technologies S.L.</organization>
+    </author>
+    <date day="30" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies a mechanism that allows a Relying Party to
+   perform post-handshake remote attestation of a peer over a dedicated
+   TLS connection and binds the resulting Attestation Credential to
+   subsequent, fresh TLS connections to the same attested Target
+   Environment, including connections to different server endpoints
+   hosted within it.
+
+   Forward Attested TLS decouples _when trust is established_ from _when
+   trust is exercised_.</t>
+    </abstract>
+  </front>
+</reference>

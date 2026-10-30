@@ -1,0 +1,27 @@
+<reference anchor="I-D.chandra-agent-registry-corroboration" target="https://datatracker.ietf.org/doc/html/draft-chandra-agent-registry-corroboration-02">
+  <front>
+    <title>Multi-Source Corroboration for AI Agent Discovery</title>
+    <seriesInfo name="Internet-Draft" value="draft-chandra-agent-registry-corroboration-02"/>
+    <author initials="S." surname="Chandra" fullname="Sharath Chandra">
+      <organization>Stellarminds.ai</organization>
+    </author>
+    <date day="30" month="October" year="2026"/>
+    <abstract>
+      <t>AI agent discovery depends on sources such as registries, name
+   services, DID methods, and catalogs.  A valid signature on an
+   artifact does not by itself show that a source has not withheld a
+   record, or served inconsistent records to different observers.  This
+   document specifies a source- and format-agnostic procedure for
+   corroborating independent observations of an agent.  It defines claim
+   classification, canonical views, deterministic disagreement findings,
+   multi-vantage equivocation detection, propagation-delay confirmation,
+   and signed Corroboration Records.  The procedure produces verifiable
+   evidence for every sweep, including agreement and insufficient-
+   observation results.  It composes with registry-assisted resolution
+   of known subjects: a registry's renewable subject-to-target binding
+   carries a sequence, and the procedure attributes a source serving a
+   superseded binding rather than comparing it, so propagation lag is
+   never reported as disagreement.</t>
+    </abstract>
+  </front>
+</reference>

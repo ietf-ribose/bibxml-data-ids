@@ -1,0 +1,27 @@
+<reference anchor="I-D.sidor-pce-multipath-metric" target="https://datatracker.ietf.org/doc/html/draft-sidor-pce-multipath-metric-00">
+  <front>
+    <title>Signaling Per-Path Metric in the Path Computation Element Communication Protocol (PCEP)</title>
+    <seriesInfo name="Internet-Draft" value="draft-sidor-pce-multipath-metric-00"/>
+    <author initials="S." surname="Sidor" fullname="Samuel Sidor">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author initials="Z." surname="Ali" fullname="Zafar Ali">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <date day="30" month="October" year="2026"/>
+    <abstract>
+      <t>The Path Computation Element Communication Protocol (PCEP) extensions
+   for signaling multipath information allow multiple forwarding paths
+   to be associated with a single PCEP Label Switched Path (LSP); for
+   Segment Routing (SR) Policy, these paths are the Segment Lists of a
+   Candidate Path.  However, the METRIC object remains encoded at the
+   LSP level, and per-path encoding of the METRIC object is explicitly
+   left out of scope.
+
+   This document extends PCEP to signal per-path (for SR Policy, per
+   Segment List) metric information by reusing the existing METRIC
+   object within the multipath constructs, and defines the associated
+   capability negotiation.</t>
+    </abstract>
+  </front>
+</reference>

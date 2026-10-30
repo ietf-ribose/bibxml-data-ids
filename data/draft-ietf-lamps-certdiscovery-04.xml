@@ -1,0 +1,38 @@
+<reference anchor="I-D.ietf-lamps-certdiscovery" target="https://datatracker.ietf.org/doc/html/draft-ietf-lamps-certdiscovery-04">
+  <front>
+    <title>A Mechanism for X.509 Certificate Discovery</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-lamps-certdiscovery-04"/>
+    <author initials="T." surname="Okubo" fullname="Tomofumi Okubo">
+      <organization>Penguin Securities Pte. Ltd.</organization>
+    </author>
+    <author initials="C." surname="Bonnell" fullname="Corey Bonnell">
+      <organization>TurboLight Solutions, LLC</organization>
+    </author>
+    <author initials="J." surname="Gray" fullname="John Gray">
+      <organization>Entrust</organization>
+    </author>
+    <author initials="M." surname="Ounsworth" fullname="Mike Ounsworth">
+      <organization>Entrust</organization>
+    </author>
+    <author initials="J." surname="Mandel" fullname="Joe Mandel">
+      <organization>AKAYLA, Inc.</organization>
+    </author>
+    <date day="29" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies a method to discover a referenced X.509
+   certificate associated with the current X.509 certificate.  This
+   enables efficient multi-certificate or fallback certificate handling
+   in protocols.  The objective is threefold: to enhance cryptographic
+   agility, improve operational availability, and accommodate multi-key/
+   certificate usage.  The proposed method aims to maximize
+   compatibility with existing systems and is designed to be legacy-
+   friendly, making it suitable for environments with a mix of legacy
+   and new implementations.  It includes mechanisms to provide a URI
+   from which the referenced X.509 certificate can be retrieved as well
+   as information about the target certificate's signature and public
+   key algorithm, empowering relying parties to make informed decisions
+   on whether to retrieve the Referenced Certificate, and a certificate
+   hash to ensure that the correct certificate was retrieved.</t>
+    </abstract>
+  </front>
+</reference>

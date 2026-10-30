@@ -1,0 +1,27 @@
+<reference anchor="I-D.gandhi-ippm-stamp-udp-lite" target="https://datatracker.ietf.org/doc/html/draft-gandhi-ippm-stamp-udp-lite-00">
+  <front>
+    <title>Simple Two-Way Active Measurement Protocol (STAMP) over UDP-Lite</title>
+    <seriesInfo name="Internet-Draft" value="draft-gandhi-ippm-stamp-udp-lite-00"/>
+    <author initials="R." surname="Gandhi" fullname="Rakesh Gandhi">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <date day="30" month="October" year="2026"/>
+    <abstract>
+      <t>This document specifies the Simple Two-Way Active Measurement
+   Protocol (STAMP) as defined in RFC 8762 and extended in RFC 8972,
+   over the Lightweight User Datagram Protocol (UDP-Lite) for IPv4 and
+   IPv6.  Partial checksum coverage accommodates timestamp insertion
+   after the checksum computation while protecting the integrity of
+   transport header and IP pseudo-header.
+
+   This document updates RFC 8762 to permit an explicitly selected UDP-
+   Lite transport with the existing UDP port number rules.
+
+   This document also updates RFC 8972 for transport-aware session
+   identification, payload length determination, UDP port number
+   reporting in the Location TLV, and replacing the use of the UDP
+   Length field for detecting optional STAMP TLVs.  STAMP payload
+   formats and existing UDP-based sessions are unchanged.</t>
+    </abstract>
+  </front>
+</reference>
