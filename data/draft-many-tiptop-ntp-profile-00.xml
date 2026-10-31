@@ -1,0 +1,21 @@
+<reference anchor="I-D.many-tiptop-ntp-profile" target="https://datatracker.ietf.org/doc/html/draft-many-tiptop-ntp-profile-00">
+  <front>
+    <title>NTP Profile for Deep Space</title>
+    <seriesInfo name="Internet-Draft" value="draft-many-tiptop-ntp-profile-00"/>
+    <author initials="M." surname="Blanchet" fullname="Marc Blanchet">
+      <organization>Viagenie</organization>
+    </author>
+    <date day="31" month="October" year="2026"/>
+    <abstract>
+      <t>Deep space communications involve long delays (e.g., Earth to Mars
+   one-way delay is 4-24 minutes) and intermittent communications,
+   because of orbital dynamics.  This document defines an NTP profile
+   for deep space.  NTP on-wire protocol is indifferent to path delays
+   and transfers time in a single round trip at any distance, but
+   diverges if delays in each direction is different.  Some algorithmic
+   constants and defaults such as distance threshold, dispersion bounds,
+   poll intervals and burst modes, need to be tailored to the deep space
+   scenario.  The use of secured NTP is also discussed.</t>
+    </abstract>
+  </front>
+</reference>

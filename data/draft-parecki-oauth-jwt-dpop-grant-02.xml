@@ -1,0 +1,18 @@
+<reference anchor="I-D.parecki-oauth-jwt-dpop-grant" target="https://datatracker.ietf.org/doc/html/draft-parecki-oauth-jwt-dpop-grant-02">
+  <front>
+    <title>OAuth 2.0 JWT Authorization Grant with DPoP Binding</title>
+    <seriesInfo name="Internet-Draft" value="draft-parecki-oauth-jwt-dpop-grant-02"/>
+    <author initials="A." surname="Parecki" fullname="Aaron Parecki">
+      <organization>Okta</organization>
+    </author>
+    <date day="30" month="October" year="2026"/>
+    <abstract>
+      <t>This specification defines a new OAuth 2.0 authorization grant type
+   for exchanging a JSON Web Token (JWT) assertion that is bound to a
+   key for an access token.  To use the assertion, the client must prove
+   possession of that key using the Demonstrating Proof of Possession
+   (DPoP) mechanism.  Unlike the JWT bearer grant, a stolen assertion
+   cannot be used by a party that does not hold the private key.</t>
+    </abstract>
+  </front>
+</reference>

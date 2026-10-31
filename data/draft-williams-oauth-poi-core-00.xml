@@ -1,0 +1,43 @@
+<reference anchor="I-D.williams-oauth-poi-core" target="https://datatracker.ietf.org/doc/html/draft-williams-oauth-poi-core-00">
+  <front>
+    <title>Cryptographic Proof-of-Intent (PoI) Core Protocol for Human-in-the-Loop (HITL) Step-Up Authorization</title>
+    <seriesInfo name="Internet-Draft" value="draft-williams-oauth-poi-core-00"/>
+    <author initials="P. C." surname="Williams" fullname="Paul Charles Williams">
+      <organization>Barefoot Coders, LLC</organization>
+    </author>
+    <date day="30" month="October" year="2026"/>
+    <abstract>
+      <t>Autonomous software agents and orchestrated workflows increasingly
+   invoke high-consequence operations on Resource Servers (such as
+   financial originations or clinical prescriptions) on behalf of human
+   users.  Existing bearer tokens and transport-level Proof-of-
+   Possession mechanisms cannot cryptographically distinguish between
+   parameters autonomously synthesized by an intermediary agent and
+   parameters explicitly reviewed, approved, or modified by an
+   authorized human.  Furthermore, redirect-based authorization flows
+   impose prohibitive user experience friction for high-frequency Human-
+   in-the-Loop (HITL) interactions.
+
+   This document specifies the Proof-of-Intent (PoI) Core Protocol, a
+   stateless, single-hop cryptographic framework building on JSON Web
+   Signature (JWS, RFC 7515), Proof-of-Possession Key Semantics for JWTs
+   (RFC 7800), JSON Web Token Best Current Practices (RFC 8725), JSON
+   Canonicalization Scheme (JCS, RFC 8785), OAuth 2.0 Rich Authorization
+   Requests (RAR, RFC 9396), OAuth 2.0 Step-Up Authentication Challenge
+   Protocol (RFC 9470), and W3C WebAuthn.  PoI Core defines: (1) short-
+   lived, client-generated Ephemeral Intent Keys certified at login and
+   rotated via Proof-of-Possession key chaining; (2) Resource Server-
+   signed Intent Challenge Objects binding canonical action parameters
+   to human-readable display facts; (3) multi-tier assurance
+   attestations spanning zero-friction session keys to hardware security
+   tokens; and (4) stateless verification and countersigned audit
+   receipts for single-hop APPROVE, REJECT, and within-authority
+   SUPERCEDE decisions.
+
+   Multi-hop chained escalations, asynchronous intent escrowing, and
+   concurrent multi-approver conflict resolution are specified in the
+   companion extension document, draft-williams-oauth-poi-chained-state-
+   00.</t>
+    </abstract>
+  </front>
+</reference>
