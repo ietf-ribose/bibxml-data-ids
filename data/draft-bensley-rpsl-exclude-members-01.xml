@@ -1,0 +1,22 @@
+<reference anchor="I-D.bensley-rpsl-exclude-members" target="https://datatracker.ietf.org/doc/html/draft-bensley-rpsl-exclude-members-01">
+  <front>
+    <title>Explicitly excluding objects from RPSL sets</title>
+    <seriesInfo name="Internet-Draft" value="draft-bensley-rpsl-exclude-members-01"/>
+    <author initials="J." surname="Bensley" fullname="James Bensley">
+      <organization>Inter.link GmbH</organization>
+    </author>
+    <author initials="S." surname="Romijn" fullname="Sasha Romijn">
+      <organization>Reliably Coded</organization>
+    </author>
+    <date day="31" month="October" year="2026"/>
+    <abstract>
+      <t>This document updates RFC 2622 and RFC 4012 by defining the excl-
+   members attribute on the as-set and route-set classes in the Routing
+   Policy Specification Language (RPSL).  A set that references another
+   set includes everything the referenced set contains, however deeply
+   nested.  RPSL currently has no way for the set owner to make an
+   exception.  The excl-members attribute lets a set owner exclude
+   specific members, including ones brought in by a referenced set.</t>
+    </abstract>
+  </front>
+</reference>

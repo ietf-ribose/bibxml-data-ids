@@ -1,0 +1,38 @@
+<reference anchor="I-D.wendt-stir-tn-domain-binding" target="https://datatracker.ietf.org/doc/html/draft-wendt-stir-tn-domain-binding-02">
+  <front>
+    <title>Binding a Domain Identifier to Telephone Number Authorization in STIR Certificates</title>
+    <seriesInfo name="Internet-Draft" value="draft-wendt-stir-tn-domain-binding-02"/>
+    <author initials="C." surname="Wendt" fullname="Chris Wendt">
+      <organization>Somos, Inc.</organization>
+    </author>
+    <date day="01" month="November" year="2026"/>
+    <abstract>
+      <t>This document defines a mechanism for binding a domain identifier to
+   telephone number authorization within a STIR certificate.  A
+   certificate produced under this mechanism carries, as a co-validated
+   pair, the telephone numbers or service provider codes a subject is
+   authorized for in a TNAuthList extension and a domain identifying the
+   subject in a SubjectAltName dNSName entry.  The binding is
+   established at issuance by requiring proof of domain control and
+   validation of a TNAuthList authority token within a single
+   certificate issuance, such that the resulting certificate attests
+   that the responsible authority for the TNAuthList entries and the
+   party controlling the domain both authorized the issuance.  The
+   mechanism applies to STIR certificates whose TNAuthList contains
+   telephone number entries, service provider code entries, or both,
+   allowing a domain to be bound to the right-to-use holder for a set of
+   numbers or to the provider identified by a service provider code.
+   This document defines the issuance conformance requirements and the
+   relying party verification rule that together make the binding
+   meaningful.  It does not define telephone number or service provider
+   code authorization or domain validation, both of which are specified
+   elsewhere and referenced here.  It also defines the STI declaration
+   record, a DNS record published at the bound domain in which the
+   holder of the telephone numbers declares how legitimate calls and
+   messages from them are originated and signed, so that a relying party
+   can recognize ones that are not, and the requirements that any
+   mechanism for discovering the domain bound to a telephone number must
+   meet.</t>
+    </abstract>
+  </front>
+</reference>
