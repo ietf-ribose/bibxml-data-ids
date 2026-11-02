@@ -1,0 +1,41 @@
+<reference anchor="I-D.madpr-green-provenance" target="https://datatracker.ietf.org/doc/html/draft-madpr-green-provenance-01">
+  <front>
+    <title>Provenance Traceability for the GREEN Controller YANG Model</title>
+    <seriesInfo name="Internet-Draft" value="draft-madpr-green-provenance-01"/>
+    <author initials="M. P." surname="Palmero" fullname="Marisol Palmero">
+      <organization>Independent</organization>
+    </author>
+    <author initials="D." surname="Lopez" fullname="Diego Lopez">
+      <organization>Telefonica</organization>
+    </author>
+    <author initials="A. M." surname="P&#xE9;rez" fullname="Ana M&#xE9;ndez P&#xE9;rez">
+      <organization>Telefonica</organization>
+    </author>
+    <author initials="P." surname="Andersson" fullname="Per Andersson">
+      <organization>Ionio Systems</organization>
+    </author>
+    <author initials="R." surname="Osterberg" fullname="Robin Osterberg">
+      <organization>Kodeta</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document defines a YANG module that augments the GREEN network
+   controller YANG model [GreenController] to record the result of
+   provenance verification for each Energy Object.
+
+   The augmentation builds on the COSE-based signing mechanism defined
+   in [ProvenanceDraft].  The controller verifies each signature it
+   receives against a key it trusts.  For each node or component, it
+   records whether the most recent signature was valid, which key was
+   used to sign it, and who is responsible for that key: the device
+   itself, the network controller acting on its behalf, or an external
+   authority such as a grid energy provider.  A signature that cannot be
+   verified, for example because the key is unknown or the signature is
+   missing, is recorded as a failure, with the reason.
+
+   This allows operators and auditors to check not just that energy data
+   is correct, but where it came from, and how much trust applies to
+   each source.</t>
+    </abstract>
+  </front>
+</reference>

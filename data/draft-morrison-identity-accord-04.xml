@@ -1,0 +1,34 @@
+<reference anchor="I-D.morrison-identity-accord" target="https://datatracker.ietf.org/doc/html/draft-morrison-identity-accord-04">
+  <front>
+    <title>Identity Accord Protocol: A Peer Ceremony for Bilateral Agreements Between Identity-Substrate-Bound Principals</title>
+    <seriesInfo name="Internet-Draft" value="draft-morrison-identity-accord-04"/>
+    <author initials="B." surname="Morrison" fullname="Blake Morrison">
+      <organization>Alter Meridian Pty Ltd</organization>
+    </author>
+    <author initials="C." surname="Whiteside" fullname="Christopher Whiteside">
+      <organization>Independent</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This memo specifies the Identity Accord Protocol, a peer ceremony by
+   which two principals, each represented by an organisational identity
+   substrate and acting under a recorded delegation from a legal entity,
+   execute a bilateral agreement as a portable, self-verifying COSE-
+   signed CBOR document.  The protocol composes DNS-based substrate
+   discovery, Ed25519 sovereign signatures, an append-only identity log,
+   and a tamper-evidence descriptor quorum into a single artefact that
+   is verifiable by any third party with access to the public DNS, the
+   parties' identity logs, and an on-chain anchor of the agreement's
+   content hash.  The protocol does not require a central registry, a
+   designated verifier, or any infrastructure operated by the authors;
+   verification succeeds when any reference deployment is offline.  The
+   canonical bilateral target is a mutual non-disclosure agreement, but
+   the wire format generalises to any bilateral consent envelope between
+   two legal entities each represented by an identity substrate.  The
+   memo also specifies an MCP tool surface, a pre-send enforcement gate
+   and a disclosure-ledger schema, all optional layers above the wire
+   format.  The memo is Informational; the underlying COSE and CBOR
+   formats are normative per RFC 9052 and RFC 8949.</t>
+    </abstract>
+  </front>
+</reference>

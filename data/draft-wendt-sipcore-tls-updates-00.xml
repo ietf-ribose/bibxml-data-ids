@@ -1,0 +1,21 @@
+<reference anchor="I-D.wendt-sipcore-tls-updates" target="https://datatracker.ietf.org/doc/html/draft-wendt-sipcore-tls-updates-00">
+  <front>
+    <title>TLS 1.3 and Certificate Identity for the Session Initiation Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-wendt-sipcore-tls-updates-00"/>
+    <author initials="C." surname="Wendt" fullname="Chris Wendt">
+      <organization>Somos, Inc.</organization>
+    </author>
+    <date day="01" month="November" year="2026"/>
+    <abstract>
+      <t>The specifications that define the use of TLS with the Session
+   Initiation Protocol (SIP) predate TLS 1.3 and the current guidance
+   for representing and verifying the identity of a service in a
+   certificate.  As a result, [RFC3261] states a mandatory cipher suite
+   that a TLS 1.3 implementation cannot offer, and the certificate
+   identity rules of [RFC5922] are no longer consistent with [RFC9525].
+   This document updates both, specifying a TLS version and cipher suite
+   baseline for SIP and revising the representation and matching of SIP
+   domain identities in certificates.</t>
+    </abstract>
+  </front>
+</reference>

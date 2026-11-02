@@ -1,0 +1,34 @@
+<reference anchor="I-D.liu-oauth-authorization-evidence" target="https://datatracker.ietf.org/doc/html/draft-liu-oauth-authorization-evidence-02">
+  <front>
+    <title>Authorization Evidence and Audit Trail for OAuth 2.0 Access Tokens</title>
+    <seriesInfo name="Internet-Draft" value="draft-liu-oauth-authorization-evidence-02"/>
+    <author initials="D." surname="Liu" fullname="Dapeng Liu">
+      <organization>Alibaba</organization>
+    </author>
+    <author initials="J." surname="Zhu" fullname="Judy Zhu">
+      <organization>Alibaba</organization>
+    </author>
+    <author initials="S." surname="Krishnan" fullname="Suresh Krishnan">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="A." surname="Parecki" fullname="Aaron Parecki">
+      <organization>Okta</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This specification defines an authorization details type for carrying
+   authorization evidence in OAuth 2.0 access tokens, using the enriched
+   response mechanism of Rich Authorization Requests.  When an
+   Authorization Server records an approval decision, it enriches the
+   authorization details with cryptographic proof of the decision and of
+   the structured disclosure on which the decision was based.  Evidence
+   is recorded for approved, narrowed, and declined decisions,
+   supporting accountability, compliance, and dispute resolution in
+   scenarios where autonomous agents act on behalf of users.  An
+   approval record that cannot be ended is not an accountable record, so
+   this specification defines the withdrawal mechanism alongside the
+   evidence itself.  Withdrawal is one of the four ways a governing
+   authorization ends, alongside completion, termination, and expiry.</t>
+    </abstract>
+  </front>
+</reference>

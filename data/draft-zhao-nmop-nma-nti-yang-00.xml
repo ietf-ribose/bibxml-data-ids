@@ -1,0 +1,40 @@
+<reference anchor="I-D.zhao-nmop-nma-nti-yang" target="https://datatracker.ietf.org/doc/html/draft-zhao-nmop-nma-nti-yang-00">
+  <front>
+    <title>Framework and YANG Data Model for the NMA Northbound Task Interface (NTI)</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhao-nmop-nma-nti-yang-00"/>
+    <author initials="" surname="XingZhao" fullname="XingZhao">
+      <organization>China Academy of Information and Communication Technology</organization>
+    </author>
+    <author initials="M." surname="Wang" fullname="Minxue Wang">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="D." surname="Ceccarelli" fullname="Daniele Ceccarelli">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="Y." surname="Xu" fullname="Yunbin Xu">
+      <organization>China Academy of Information and Communications Technology</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document describes a framework and a YANG data model for the
+   Northbound Task Interface (NTI) of a Network Management Agent (NMA).
+   The NTI is a logical northbound interface through which upper-layer
+   consumers, including OSS/BSS, orchestrators, management applications,
+   and other agents, can submit network management tasks to an NMA and
+   obtain task processing results.
+
+   This document specifies a YANG-based realization of the NTI,
+   including operational state data, RPC operations, and notifications
+   for capability discovery, intent submission, task lifecycle
+   management, execution plan exposure, confirmation handling, and
+   result reporting.  The model is intended to reuse existing IETF
+   network management models for domain-specific information.
+
+   The NTI does not mandate a dedicated communication protocol.  NETCONF
+   and RESTCONF can be used for the YANG-based realization, while A2A-
+   based mechanisms may also be used to realize NTI interactions.  This
+   document does not define or extend generic agent interaction
+   protocols.</t>
+    </abstract>
+  </front>
+</reference>

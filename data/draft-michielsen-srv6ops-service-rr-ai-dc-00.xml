@@ -1,0 +1,41 @@
+<reference anchor="I-D.michielsen-srv6ops-service-rr-ai-dc" target="https://datatracker.ietf.org/doc/html/draft-michielsen-srv6ops-service-rr-ai-dc-00">
+  <front>
+    <title>BGP Service-Route distribution in AI data centers</title>
+    <seriesInfo name="Internet-Draft" value="draft-michielsen-srv6ops-service-rr-ai-dc-00"/>
+    <author initials="K." surname="Michielsen" fullname="Kris Michielsen">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author initials="C." surname="Filsfils" fullname="Clarence Filsfils">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author initials="E." surname="Ruan" fullname="Eddie Ruan">
+      <organization>Alibaba Cloud</organization>
+    </author>
+    <author initials="Y." surname="Zhao" fullname="Yuqing Zhao">
+      <organization>Alibaba Cloud</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>AI clusters and hyperscale data centers can contain hundreds of leaf
+   switches and large numbers of service prefixes.  In a conventional
+   BGP leaf-spine design, each spine distributes routes for the service
+   prefixes originated by one leaf to all other leaves.  This leads to a
+   large number of received BGP route instances on the leaves and many
+   FIB entries for service prefixes on the spines.
+
+   This document describes an alternative deployment in which dedicated
+   eBGP speakers, referred to in this document as Service RRs,
+   distribute service routes.  The spines continue to distribute
+   infrastructure routes but do not carry service routes.  A Service RR
+   uses regular eBGP procedures while advertising service routes with
+   NEXT_HOP unchanged.  The leaves encapsulate the service traffic and
+   the spines forward the encapsulated service traffic using
+   infrastructure reachability.
+
+   The design improves control- and data-plane scaling by reducing the
+   number of service-route instances received by each leaf and removing
+   service-route state and processing from the spines.  This document
+   defines no new BGP extension.</t>
+    </abstract>
+  </front>
+</reference>

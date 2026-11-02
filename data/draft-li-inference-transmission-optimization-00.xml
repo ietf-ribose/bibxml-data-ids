@@ -1,0 +1,45 @@
+<reference anchor="I-D.li-inference-transmission-optimization" target="https://datatracker.ietf.org/doc/html/draft-li-inference-transmission-optimization-00">
+  <front>
+    <title>Receiver-Driven Credit Control (RDCC) for Many-to-One Traffic in Distributed Inference Networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-inference-transmission-optimization-00"/>
+    <author initials="Z." surname="Li" fullname="Zhiqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Wei Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="Y." surname="Zhao" fullname="Ying Zhao">
+      <organization>Centec</organization>
+    </author>
+    <author initials="C." surname="Zhao" fullname="Chunhao Zhao">
+      <organization>SAIA</organization>
+    </author>
+    <author initials="X." surname="Sun" fullname="Xun Sun">
+      <organization>Inesa</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>Expert-parallel and disaggregated (prefill/decode) inference
+   deployments generate many-to-one ("incast") traffic in which many
+   senders transmit to one receiver at the same time.  Mitigations based
+   on priority queues, enlarged switch buffers, and disabled Explicit
+   Congestion Notification (ECN) marking stop scaling when the
+   bandwidth-delay product of the network grows.  This document
+   specifies Receiver-Driven Credit Control (RDCC), a UDP-based
+   signaling protocol with which a receiver bounds the volume of data
+   that all senders may have in flight toward it.  RDCC defines a
+   receiver credit budget, a bounded unscheduled first window for short
+   messages, cumulative per-message and class-weighted credit grants,
+   sender backlog indications with suggested credit rates, and optional
+   congestion reports from on-path nodes.  RDCC operates within a
+   limited domain, complements the congestion control of the data
+   transport, and does not change the format of data packets.</t>
+    </abstract>
+  </front>
+</reference>

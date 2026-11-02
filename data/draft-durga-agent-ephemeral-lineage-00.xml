@@ -1,0 +1,23 @@
+<reference anchor="I-D.durga-agent-ephemeral-lineage" target="https://datatracker.ietf.org/doc/html/draft-durga-agent-ephemeral-lineage-00">
+  <front>
+    <title>Cryptographic Context Compaction Receipts, Sensitivity Label Inheritance, and Verifiable Right-to-Be-Forgotten Lineage for Agent Memory</title>
+    <seriesInfo name="Internet-Draft" value="draft-durga-agent-ephemeral-lineage-00"/>
+    <author initials="R. K." surname="Durga" fullname="Raghuvar Karthik Durga">
+      <organization>Microsoft Corporation</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>Long-running autonomous AI agents periodically summarize, compact,
+   and distill episodic interaction logs into persistent vector or graph
+   memory stores.  Lossy context compaction erases the cryptographic
+   provenance of which source documents contributed to a compacted
+   memory state, stripping enterprise sensitivity labels (DLP
+   classifications) and making regulatory data-erasure mandates (GDPR
+   Article 17 Right to Erasure / CCPA purge) impossible to verify.  This
+   document specifies the Ephemeral Context Compaction Receipt (ECCR)
+   protocol: a Merkle inclusion and label-ceiling receipt that preserves
+   deterministic sensitivity inheritance and cryptographic purge
+   verifiability across lossy memory compaction boundaries.</t>
+    </abstract>
+  </front>
+</reference>

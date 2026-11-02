@@ -1,0 +1,22 @@
+<reference anchor="I-D.ramadan-moq-fec-block-codes" target="https://datatracker.ietf.org/doc/html/draft-ramadan-moq-fec-block-codes-00">
+  <front>
+    <title>Block FEC Schemes for Media over QUIC: Reed-Solomon and RaptorQ</title>
+    <seriesInfo name="Internet-Draft" value="draft-ramadan-moq-fec-block-codes-00"/>
+    <author initials="O." surname="Ramadan" fullname="Omar Ramadan">
+      <organization>Blockcast</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies two block Forward Error Correction (FEC)
+   schemes for the FEC mechanism of Media over QUIC (MoQ): the
+   systematic Reed-Solomon erasure code over GF(2^8) of ISO/IEC
+   23008-10, which is mandatory to implement, and RaptorQ (RFC 6330),
+   which is optional.  For each scheme it gives the registered
+   identifier, the derivation of the decoder's parameters from the
+   instance's configuration and the Repair FEC Payload ID with no in-
+   session signaling, the bounds on block size and symbol size, the
+   decoding overhead, and how the scheme supports repair layers.  It
+   restates the Reed-Solomon code and gives test vectors for it.</t>
+    </abstract>
+  </front>
+</reference>

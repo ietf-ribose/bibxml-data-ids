@@ -1,0 +1,49 @@
+<reference anchor="I-D.li-rdma-kvcache-transfer-optimization" target="https://datatracker.ietf.org/doc/html/draft-li-rdma-kvcache-transfer-optimization-00">
+  <front>
+    <title>Key-Value (KV) Cache Block Transfer Protocol (KBTP) over RDMA: Block Load, Mapped Store, and Unmapped Store</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-rdma-kvcache-transfer-optimization-00"/>
+    <author initials="Z." surname="Li" fullname="Zhiqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Wei Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="Y." surname="Zhao" fullname="Ying Zhao">
+      <organization>Centec</organization>
+    </author>
+    <author initials="C." surname="Zhao" fullname="Chunhao Zhao">
+      <organization>SAIA</organization>
+    </author>
+    <author initials="X." surname="Sun" fullname="Xun Sun">
+      <organization>Inesa</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>Inference systems move key-value (KV) cache blocks between instances
+   and cache tiers over RDMA.  Existing practice forces a choice between
+   statically registered remote memory, which is fast but wastes memory,
+   and per-transfer remote procedure calls, which use memory well but
+   involve the target's CPU in every transfer.  This document specifies
+   the KV Cache Block Transfer Protocol (KBTP), an upper-layer protocol
+   over RDMA with three operations: Block Load, which places a stored
+   block into the initiator's memory; Block Mapped Store, which writes a
+   block into an already allocated block; and Block Unmapped Store,
+   which allocates a free block at the target and writes it in one
+   operation.  KBTP defines the request and completion messages, a block
+   table, and a free-block ring whose counters use masked atomic fetch-
+   and-add.  These structures are designed so that a target can execute
+   loads and stores within its RDMA network interface, and allocations
+   as well where the interface supports conditional execution, without
+   involving its CPU per operation, while remaining interoperable with
+   targets that process requests in software.  KBTP is bound to RDMAP
+   with the RDMA protocol extensions, and can also be used over
+   InfiniBand and RoCEv2.</t>
+    </abstract>
+  </front>
+</reference>

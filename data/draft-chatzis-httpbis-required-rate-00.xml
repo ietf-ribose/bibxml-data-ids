@@ -1,0 +1,26 @@
+<reference anchor="I-D.chatzis-httpbis-required-rate" target="https://datatracker.ietf.org/doc/html/draft-chatzis-httpbis-required-rate-00">
+  <front>
+    <title>The Required-Rate HTTP Priority Parameter</title>
+    <seriesInfo name="Internet-Draft" value="draft-chatzis-httpbis-required-rate-00"/>
+    <author initials="N." surname="Chatzis" fullname="Nikolaos Chatzis">
+      <organization>Meta</organization>
+    </author>
+    <author initials="S." surname="Jaiswal" fullname="Sharad Jaiswal">
+      <organization>Meta</organization>
+    </author>
+    <author initials="A." surname="Frindell" fullname="Alan Frindell">
+      <organization>Meta</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document defines the required-rate (r) priority parameter for
+   the Extensible Prioritization Scheme for HTTP (RFC 9218).  The
+   parameter allows a client to indicate a delivery rate above which
+   faster transfer of an HTTP response is not expected to provide
+   additional application benefit.  A server can use this signal to
+   rate-limit an individual response, allowing other eligible responses
+   to make progress without replacing the urgency and incremental
+   scheduling behavior defined by RFC 9218.</t>
+    </abstract>
+  </front>
+</reference>

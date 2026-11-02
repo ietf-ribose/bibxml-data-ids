@@ -1,0 +1,35 @@
+<reference anchor="I-D.abboud-dawn-locality-gradient" target="https://datatracker.ietf.org/doc/html/draft-abboud-dawn-locality-gradient-00">
+  <front>
+    <title>Locality in Agent Discovery</title>
+    <seriesInfo name="Internet-Draft" value="draft-abboud-dawn-locality-gradient-00"/>
+    <author initials="O." surname="Abboud" fullname="Osama Abboud">
+      <organization>Huawei Technologies Duesseldorf GmbH</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>The DAWN working group is defining how a client gets the Minimum
+   Public Discovery Information (MDI) about an AI resource before it
+   interacts with it.  The charter covers three settings: a local
+   network, an organization, and cooperating parties over the public
+   Internet.
+
+   One proposal for the minimum, the MDI draft, finds that it is the
+   same in all three settings.  This document points out that three
+   other things still change with locality: how much a client can learn
+   at or right after discovery, what the client can reasonably assume
+   from where it is looking, and how well it can check who published the
+   information.  The last one does not simply get better or worse from
+   local to remote.  Records under a party's domain can be validated
+   with DNSSEC, but local multicast advertisements cannot be
+   authenticated, and proxies and catalogs can be authenticated only as
+   themselves.
+
+   This is a discussion contribution.  It offers some points for the
+   architecture and MDI documents: how local detail relates to the MDI
+   minimum, whether a client should keep track of where a result came
+   from, what to do when local and remote results disagree, and how much
+   weight to give physical proximity as a sign of trust.  It proposes no
+   protocol.</t>
+    </abstract>
+  </front>
+</reference>

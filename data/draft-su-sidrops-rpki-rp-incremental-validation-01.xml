@@ -1,0 +1,41 @@
+<reference anchor="I-D.su-sidrops-rpki-rp-incremental-validation" target="https://datatracker.ietf.org/doc/html/draft-su-sidrops-rpki-rp-incremental-validation-01">
+  <front>
+    <title>Considerations for Incremental Validation in RPKI Relying Parties</title>
+    <seriesInfo name="Internet-Draft" value="draft-su-sidrops-rpki-rp-incremental-validation-01"/>
+    <author initials="Y." surname="Su" fullname="Yingying Su">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author initials="L." surname="Qin" fullname="Lancheng Qin">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author initials="Y." surname="Yu" fullname="Yirong Yu">
+      <organization>Zhongguancun Laboratory</organization>
+    </author>
+    <author initials="D." surname="Li" fullname="Dan Li">
+      <organization>Tsinghua University</organization>
+    </author>
+    <date day="01" month="November" year="2026"/>
+    <abstract>
+      <t>RPKI Relying Parties (RPs) synchronize repository data and validate
+   RPKI objects to produce validated payloads.  Incremental repository
+   synchronization can reduce data transfer, but it does not necessarily
+   reduce validation work.  After a repository update, an RP may repeat
+   parsing, cryptographic verification, and other validation processing
+   for objects whose relevant inputs have not changed.  This repeated
+   work can increase validation latency and resource consumption,
+   particularly as the RPKI data set grows and as future cryptographic
+   transitions, including a possible transition to post-quantum
+   cryptography (PQC), change processing costs.  This document describes
+   the operational problem and design space for incremental validation
+   in RPs and discusses general correctness and security considerations
+   for reusing previously computed validation state.  For the same
+   repository snapshot, trust anchor set, validation policy, validation
+   time, and applicable RPKI validation rules, incremental validation is
+   expected to produce the same validated payload output as full
+   validation.  This document does not specify a particular algorithm or
+   cache structure, modify RPKI object formats or repository
+   synchronization protocols, change existing validation semantics, or
+   require RPs to implement incremental validation.</t>
+    </abstract>
+  </front>
+</reference>

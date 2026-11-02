@@ -1,0 +1,38 @@
+<reference anchor="I-D.gundavelli-scone-wifi-applicability" target="https://datatracker.ietf.org/doc/html/draft-gundavelli-scone-wifi-applicability-01">
+  <front>
+    <title>SCONE Applicability for IEEE 802.11 Access Networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-gundavelli-scone-wifi-applicability-01"/>
+    <author initials="S." surname="Gundavelli" fullname="Sri Gundavelli">
+      <organization>Ameriband</organization>
+    </author>
+    <author initials="M." surname="Grayson" fullname="Mark Grayson">
+      <organization>Cisco Systems</organization>
+    </author>
+    <author initials="J." surname="Redmore" fullname="Joshua Redmore">
+      <organization>CableLabs</organization>
+    </author>
+    <author initials="J." surname="Padden" fullname="Joey Padden">
+      <organization>Nova Labs</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document describes the applicability of the Standard
+   Communication with Network Elements (SCONE) protocol to IEEE 802.11
+   based access networks.  SCONE defines a mechanism by which an on-path
+   network element can provide advisory downlink throughput guidance to
+   QUIC endpoints.  The SCONE protocol is access agnostic and does not
+   assume any specific access technology.
+
+   In IEEE 802.11 deployments, such constraints may be derived at access
+   points or controllers that combine policy awareness, with visibility
+   into access network conditions.  This document explains how existing
+   SCONE roles and throughput advice semantics apply in these
+   deployments without assuming any specific IEEE 802.11 MAC or PHY
+   behavior.
+
+   This document does not define new protocol extensions and does not
+   modify SCONE behavior.  Its purpose is to clarify deployment
+   considerations for IEEE 802.11 environments.</t>
+    </abstract>
+  </front>
+</reference>

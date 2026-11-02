@@ -1,0 +1,50 @@
+<reference anchor="I-D.mozleywilliams-dawn-dnsaid" target="https://datatracker.ietf.org/doc/html/draft-mozleywilliams-dawn-dnsaid-00">
+  <front>
+    <title>DNS for AI Discovery</title>
+    <seriesInfo name="Internet-Draft" value="draft-mozleywilliams-dawn-dnsaid-00"/>
+    <author initials="J." surname="Mozley" fullname="Jim Mozley">
+      <organization>Infoblox, Inc.</organization>
+    </author>
+    <author initials="N." surname="Williams" fullname="Nic Williams">
+      <organization>Infoblox, Inc.</organization>
+    </author>
+    <author initials="B." surname="Sarikaya" fullname="Behcet Sarikaya">
+      <organization>Unaffiliated</organization>
+    </author>
+    <author initials="R." surname="Schott" fullname="Roland Schott">
+      <organization>Deutsche Telekom</organization>
+    </author>
+    <author initials="J." surname="Damick" fullname="Jeffrey Damick">
+      <organization>Amazon</organization>
+    </author>
+    <author initials="S." surname="Courtney" fullname="Scott Courtney">
+      <organization>GoDaddy</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies DNS for AI Discovery (DNS-AID), a method for
+   publishing AI agents in the Domain Name System (DNS) so that other
+   agents can discover them.  It defines three discovery use cases,
+   ordered by increasing latency and computational cost.  In the known-
+   agent case, the requestor knows both the agent and its domain, and a
+   single DNS query returns connectivity information and key metadata.
+   In the known-organization case, the requestor knows the domain but
+   not which agent provides a required capability, and queries a well-
+   known organizational index to get connectivity information to enable
+   a capability search of a catalog, agent registry or database.  In the
+   known-capability case, the requestor knows only the required
+   capability and must rely on an external directory or search service.
+   This document addresses the known-agent and known-organization cases.
+   The known-capability case is out of scope, but search and cataloging
+   services can be built from the organizational index defined here.
+   Once a client has learned an organization’s agents, later
+   interactions can use the known-agent case, relying on a minimal,
+   cacheable record set that each organization controls.  DNS-AID uses
+   Service Binding (SVCB) records, optionally with DNS-Based Service
+   Discovery (DNS-SD) labels, DNSSEC, and DANE TLSA records.  This gives
+   agents direct connections that no third party mediates and works the
+   same way on public and private networks.  No new resource record
+   types, opcodes, or response codes are introduced.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,29 @@
+<reference anchor="I-D.schlesinger-mole-ec-act" target="https://datatracker.ietf.org/doc/html/draft-schlesinger-mole-ec-act-00">
+  <front>
+    <title>EC-ACT: Anonymous Credit Tokens</title>
+    <seriesInfo name="Internet-Draft" value="draft-schlesinger-mole-ec-act-00"/>
+    <author initials="S." surname="Schlesinger" fullname="Samuel Schlesinger">
+      <organization>Google LLC</organization>
+    </author>
+    <author initials="J." surname="Katz" fullname="Jonathan Katz">
+      <organization>Google LLC</organization>
+    </author>
+    <author initials="A. F." surname="Faz-Hernandez" fullname="Armando Faz-Hernandez">
+      <organization>Cloudflare, Inc.</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies EC-ACT, a keyed-verification anonymous
+   credential scheme with a hidden credit balance.  A Client spends a
+   public amount and receives a fresh Credential for the remaining
+   balance and a return amount chosen by the Moderator.  The Moderator
+   verifies each spend without learning the balance or linking it to
+   issuance or to other spends.
+
+   EC-ACT uses a pairing-free BBS-style signature and proofs over linear
+   relations.  This document defines its cryptographic operations,
+   encodings, and security requirements.  The MOLE protocols use EC-ACT
+   as a Credential scheme.</t>
+    </abstract>
+  </front>
+</reference>

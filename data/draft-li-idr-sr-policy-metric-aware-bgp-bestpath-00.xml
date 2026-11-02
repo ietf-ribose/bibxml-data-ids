@@ -1,0 +1,28 @@
+<reference anchor="I-D.li-idr-sr-policy-metric-aware-bgp-bestpath" target="https://datatracker.ietf.org/doc/html/draft-li-idr-sr-policy-metric-aware-bgp-bestpath-00">
+  <front>
+    <title>SR Policy Metric-Aware BGP Best Path Selection</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-idr-sr-policy-metric-aware-bgp-bestpath-00"/>
+    <author initials="Z." surname="Li" fullname="Zhenqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="L." surname="Song" fullname="Liyan Song">
+      <organization>China Mobile</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>When multiple BGP routes are available for a destination, the
+   interior cost used by the BGP best-path selection procedure may not
+   reflect the metric of the SR Policy associated with the actual
+   forwarding path.  This can result in the selection of a BGP route
+   that does not match the intended transport performance.
+
+   This document updates the BGP Phase 2 tie-breaking procedure to
+   enable locally configured SR Policy metric-aware best-path selection
+   using metrics specified in the BGP SR Policy metric extensions.This
+   document replaces [I-D.li-idr-sr-policy-metric], retaining and
+   refining its use case and BGP best-path selection enhancements.  The
+   BGP SR Policy extensions for carrying SR Policy metrics are merged in
+   [I-D.ietf-idr-sr-policy-metric] .</t>
+    </abstract>
+  </front>
+</reference>

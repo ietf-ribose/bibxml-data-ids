@@ -1,0 +1,31 @@
+<reference anchor="I-D.du-lsvr-area-scoped-bgp-spf" target="https://datatracker.ietf.org/doc/html/draft-du-lsvr-area-scoped-bgp-spf-00">
+  <front>
+    <title>Area-Scoped Link-State Distribution for BGP-LS-SPF</title>
+    <seriesInfo name="Internet-Draft" value="draft-du-lsvr-area-scoped-bgp-spf-00"/>
+    <author initials="P." surname="Du" fullname="Ping Du">
+      <organization>China Satellite Network Group Co., Ltd.</organization>
+    </author>
+    <author initials="X." surname="Min" fullname="Xiao Min">
+      <organization>ZTE</organization>
+    </author>
+    <author initials="F." surname="Yang" fullname="Feng Yang">
+      <organization>China Mobile</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>BGP Link-State Shortest Path First (BGP-LS-SPF) routing, defined in
+   RFC 9815, uses BGP to distribute link-state information and the SPF
+   algorithm to compute routes.  In large-scale networks with frequent
+   topology changes, distributing detailed link-state information across
+   the entire network may introduce significant control-plane overhead
+   and frequent route recomputation.
+
+   This document proposes an area-scoped routing mechanism for BGP-LS-
+   SPF.  The mechanism divides a network into multiple routing areas,
+   limits the distribution of detailed topology information, and
+   maintains inter-area reachability through boundary routers.  It aims
+   to improve routing scalability and stability while supporting
+   distributed route computation.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,25 @@
+<reference anchor="I-D.englishm-moq-content-stitching" target="https://datatracker.ietf.org/doc/html/draft-englishm-moq-content-stitching-00">
+  <front>
+    <title>Content Stitching for Media over QUIC</title>
+    <seriesInfo name="Internet-Draft" value="draft-englishm-moq-content-stitching-00"/>
+    <author initials="M." surname="English" fullname="Mike English">
+      <organization>Cloudflare</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>Media over QUIC Transport (MOQT) requires that an Object is always
+   the same bytes, no matter who asks for it or where it is retrieved
+   from.  That property is what makes MOQT content cacheable by relays.
+   It also means that when different subscribers need to receive
+   different content, the straightforward approach is to publish a
+   separate track for each of them, even when most of what those tracks
+   carry is the same.  This document describes content stitching:
+   building the tracks that subscribers receive out of Objects taken
+   from other tracks, so shared Objects can be cached once while each
+   audience still receives a track of its own.  It names the pieces
+   involved, describes how they fit together, works through some
+   examples, and draws a line between a stitcher and a relay.  It does
+   not define a format or mechanism for stitching.</t>
+    </abstract>
+  </front>
+</reference>

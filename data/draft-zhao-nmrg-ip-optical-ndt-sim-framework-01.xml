@@ -1,0 +1,38 @@
+<reference anchor="I-D.zhao-nmrg-ip-optical-ndt-sim-framework" target="https://datatracker.ietf.org/doc/html/draft-zhao-nmrg-ip-optical-ndt-sim-framework-01">
+  <front>
+    <title>A Lightweight Cross-Layer Simulation Framework for IP-Optical Network Digital Twins</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhao-nmrg-ip-optical-ndt-sim-framework-01"/>
+    <author initials="J." surname="Zhao" fullname="Jing Zhao">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="S." surname="Zhang" fullname="Shuai Zhang">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="R." surname="Pang" fullname="Ran Pang">
+      <organization>China Unicom</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document describes a lightweight, event-driven simulation
+   framework for IP-optical Network Digital Twins (NDTs).  The framework
+   investigates how optical and transport events propagate across
+   network layers and interact with IP-layer protection, routing
+   convergence, and traffic redistribution.
+
+   The framework integrates three capabilities into a unified simulation
+   process: dependency-aware event propagation, causal coordination of
+   IP and optical behaviors on a common simulation timeline, and
+   fidelity-aware evaluation of the resulting service impacts.  Cross-
+   layer dependency uncertainty and model limitations are explicitly
+   considered to avoid unsupported resilience conclusions.
+
+   The framework uses abstract optical and transport states rather than
+   continuous optical propagation models.  It reuses existing IETF
+   topology and management information where applicable and supports
+   reproducible what-if analysis, historical incident replay, and
+   protection-strategy comparison.  It does not define new network
+   protocols or YANG modules, and simulation results are not directly
+   applied to production networks.</t>
+    </abstract>
+  </front>
+</reference>

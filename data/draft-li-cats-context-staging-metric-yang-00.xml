@@ -1,0 +1,41 @@
+<reference anchor="I-D.li-cats-context-staging-metric-yang" target="https://datatracker.ietf.org/doc/html/draft-li-cats-context-staging-metric-yang-00">
+  <front>
+    <title>YANG Data Model and C-SMA Query Envelopes for Computing-Aware Traffic Steering (CATS) Service Context-Staging Metrics</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-cats-context-staging-metric-yang-00"/>
+    <author initials="Z." surname="Li" fullname="Zhiqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Wei Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="Y." surname="Zhao" fullname="Ying Zhao">
+      <organization>Centec</organization>
+    </author>
+    <author initials="C." surname="Zhao" fullname="Chunhao Zhao">
+      <organization>SAIA</organization>
+    </author>
+    <author initials="X." surname="Sun" fullname="Xun Sun">
+      <organization>Inesa</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies a Standards Track YANG 1.1 data model (ietf-
+   cats-context-staging-metrics) and an on-demand deterministic CBOR
+   query envelope for Computing-Aware Traffic Steering (CATS) service
+   context-staging latency metrics.  The specification defines three
+   explicit observation-endpoint boundaries (transport-submit, remote-
+   placement, and consumer-usable), enforces four-tuple snapshot view
+   consistency (producer-id, boot-id, view-id, snapshot-id) with clock-
+   uncertainty bounds, prohibits direct arithmetic addition of marginal
+   latency quantiles across stages, and provides a point-to-point C-SMA
+   to C-PS residency lookup envelope that avoids underlay routing
+   protocol flooding.</t>
+    </abstract>
+  </front>
+</reference>

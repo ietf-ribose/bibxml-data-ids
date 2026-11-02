@@ -1,0 +1,21 @@
+<reference anchor="I-D.clayton-dkim-canmodify" target="https://datatracker.ietf.org/doc/html/draft-clayton-dkim-canmodify-00">
+  <front>
+    <title>Permitted modifications to DKIM2 messages</title>
+    <seriesInfo name="Internet-Draft" value="draft-clayton-dkim-canmodify-00"/>
+    <author initials="R." surname="Clayton" fullname="Richard Clayton">
+      <organization>Yahoo</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>DomainKeys Identified Mail v2 (DKIM2) requires any modifications made
+   to email messages by intermediaries to be recorded in "recipes".
+   Some originators wish to request that only very limited modifications
+   be made to their messages so that the recipient of the message can
+   have some assurance that the modifications were benign.  This
+   document introduces the CanModify header field into which originator
+   requests may be placed.  It then sets out a small set of
+   modifications that are commonly applied by intermediaries and
+   assesses how benign they may actually be.</t>
+    </abstract>
+  </front>
+</reference>

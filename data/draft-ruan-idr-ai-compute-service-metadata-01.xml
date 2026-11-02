@@ -1,0 +1,24 @@
+<reference anchor="I-D.ruan-idr-ai-compute-service-metadata" target="https://datatracker.ietf.org/doc/html/draft-ruan-idr-ai-compute-service-metadata-01">
+  <front>
+    <title>BGP Extension for AI Compute Service Metadata</title>
+    <seriesInfo name="Internet-Draft" value="draft-ruan-idr-ai-compute-service-metadata-01"/>
+    <author initials="M." surname="Han" fullname="Mengyao Han">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="Z." surname="Ruan" fullname="Zheng Ruan">
+      <organization>China Unicom</organization>
+    </author>
+    <date day="01" month="November" year="2026"/>
+    <abstract>
+      <t>This document defines four AI inference-specific Sub-TLVs for the BGP
+   Edge Metadata Path Attribute specified in
+   [I-D.ietf-idr-5g-edge-service-metadata].  They advertise model
+   capabilities, aggregated inference latency, optional cost preference,
+   and selected long-lived KV cache prefix identifiers.  Authorized CATS
+   Path Selectors (C-PSes) and other policy decision functions may use
+   this information to select suitable service contact instances and
+   forwarding paths.  This document reuses the existing optional non-
+   transitive attribute.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,41 @@
+<reference anchor="I-D.li-detnet-preof-loss-matrix-yang" target="https://datatracker.ietf.org/doc/html/draft-li-detnet-preof-loss-matrix-yang-00">
+  <front>
+    <title>A YANG Data Model for Pre-Elimination Correlated Loss Matrix and Fate-Sharing OAM in Deterministic Networking (DetNet) PREOF</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-detnet-preof-loss-matrix-yang-00"/>
+    <author initials="Z." surname="Li" fullname="Zhiqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Wei Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="Y." surname="Zhao" fullname="Ying Zhao">
+      <organization>Centec</organization>
+    </author>
+    <author initials="C." surname="Zhao" fullname="Chunhao Zhao">
+      <organization>SAIA</organization>
+    </author>
+    <author initials="X." surname="Sun" fullname="Xun Sun">
+      <organization>Inesa</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies a Standards Track YANG 1.1 data model (ietf-
+   detnet-preof-loss-matrix) for reporting pre-elimination correlated
+   packet delivery and co-failure outcomes across Deterministic
+   Networking (DetNet) Packet Replication, Ordering, and Elimination
+   Functions (PREOF).  Against a closed source-declared packet
+   population, the model classifies each original sequence number across
+   paired replication branches into a 16-cell joint outcome matrix ({on-
+   time, late, missing, indeterminate} x {Branch A, Branch B}) and four
+   fate-sharing summary buckets (delivered-both, delivered-a-only,
+   delivered-b-only, lost-both), enabling operators to distinguish
+   masked single-branch drops from correlated dual-branch failures.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,32 @@
+<reference anchor="I-D.gu-nmrg-intent-translator" target="https://datatracker.ietf.org/doc/html/draft-gu-nmrg-intent-translator-04">
+  <front>
+    <title>An Agentic AI Framework for Hallucination Mitigation in Network Intent Translation</title>
+    <seriesInfo name="Internet-Draft" value="draft-gu-nmrg-intent-translator-04"/>
+    <author initials="M." surname="Gu" fullname="Mose Gu">
+      <organization>Department of Computer Science and Engineering</organization>
+    </author>
+    <author initials="J. P." surname="Jeong" fullname="Jaehoon Paul Jeong">
+      <organization>Department of Computer Science and Engineering</organization>
+    </author>
+    <author initials="K." surname="Shim" fullname="KiHyun Shim">
+      <organization>Department of Computer Science and Engineering</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document describes an agentic AI workflow for detecting and
+   mitigating structural and semantic errors, including hallucinated
+   policy content, when translating a natural-language network intent
+   into structured policies.  The workflow coordinates role-specialized
+   language-model functions with deterministic validation tools within a
+   predefined action space and a bounded retry budget.  Schema-
+   constrained generation limits structural defects, while cross-slot
+   checks and intent-faithfulness assessment identify a potentially
+   unsupported or inconsistent policy content.  Structured validation
+   traces guide targeted re-extraction and regeneration.  Unresolved
+   cases retain explicit failure status for downstream review.  This
+   document describes component interactions, validation outcomes, and
+   recovery behavior, and also presents a 3GPP TS 28.312-based
+   instantiation for mobile network management.</t>
+    </abstract>
+  </front>
+</reference>

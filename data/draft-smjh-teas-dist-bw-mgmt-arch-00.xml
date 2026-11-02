@@ -1,0 +1,40 @@
+<reference anchor="I-D.smjh-teas-dist-bw-mgmt-arch" target="https://datatracker.ietf.org/doc/html/draft-smjh-teas-dist-bw-mgmt-arch-00">
+  <front>
+    <title>An Architecture for Distributed Bandwidth Management Using TE Tunnels and Policies</title>
+    <seriesInfo name="Internet-Draft" value="draft-smjh-teas-dist-bw-mgmt-arch-00"/>
+    <author initials="S. M." surname="Arasu" fullname="Sadhana Mani Arasu">
+      <organization>HPE</organization>
+    </author>
+    <author initials="J. H. M." surname="K" fullname="Jai Hari M K">
+      <organization>HPE</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>Traffic Engineering (TE) deployments steer traffic over provisioned
+   TE constructs and associate bandwidth with them.  Examples include
+   point-to-point and point-to-multipoint (P2MP) Resource Reservation
+   Protocol - Traffic Engineering (RSVP-TE) tunnels, Segment Routing
+   (SR) Policies, and Multipath TE (MPTE) constructs that are
+   provisioned as directed acyclic graphs (DAGs).  As demand changes,
+   operators automatically resize the bandwidth allocated to each
+   construct based on measured traffic, a function commonly called auto-
+   bandwidth, but no common description of this practice exists across
+   TE technologies.
+
+   This document defines an architecture for distributed bandwidth
+   management, in which the originator of each TE construct evaluates
+   and adjusts its bandwidth without central coordination, and can
+   offload computation and bandwidth estimation to an external entity.
+   The architecture is independent of the forwarding plane and assumes a
+   signaling plane, such as RSVP-TE, that provides per-link bandwidth
+   accounting, admission control, and preemption.  It covers traffic
+   measurement, bandwidth estimation, adjustment, periodic and event-
+   driven evaluation, and the management of a service carried by
+   multiple concurrently usable tunnels (Container Tunnel management).
+   Technology-specific signaling, data models, path computation, and
+   estimation algorithms are outside its scope.
+
+   This document defines no new protocol extension or wire encoding.</t>
+    </abstract>
+  </front>
+</reference>

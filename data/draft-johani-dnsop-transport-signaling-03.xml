@@ -1,0 +1,39 @@
+<reference anchor="I-D.johani-dnsop-transport-signaling" target="https://datatracker.ietf.org/doc/html/draft-johani-dnsop-transport-signaling-03">
+  <front>
+    <title>Opportunistic Operator based SVCB transport signaling (OOTS)</title>
+    <seriesInfo name="Internet-Draft" value="draft-johani-dnsop-transport-signaling-03"/>
+    <author initials="J." surname="Stenstam" fullname="Johan Stenstam">
+      <organization>The Swedish Internet Foundation</organization>
+    </author>
+    <author initials="L." surname="Fernandez" fullname="Leon Fernandez">
+      <organization>The Swedish Internet Foundation</organization>
+    </author>
+    <author initials="E." surname="Bergstr&#xF6;m" fullname="Erik Bergstr&#xF6;m">
+      <organization>The Swedish Internet Foundation</organization>
+    </author>
+    <author initials="P." surname="Homburg" fullname="Philip Homburg">
+      <organization>NLnet Labs</organization>
+    </author>
+    <author initials="S." surname="Dickinson" fullname="Sara Dickinson">
+      <organization>Sinodun IT</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document proposes an Opportunistic Operator Transport Signaling
+   mechanism (OOTS) based on SVCB records, to enable operators of
+   authoritative DNS servers to signal their support for alternative
+   transport protocols (e.g., DNS over TLS (DoT) and DNS over QUIC
+   (DoQ)).  These SVCB records can contain a new (experimental) SVCB
+   "oots" key which contains fine grained information about the support
+   for specific transports.
+
+   Recursive resolvers can obtain these records either by requesting
+   they be included in the Additional section of authoritative DNS
+   responses (Passive mode) or by direct DNS queries (Probe mode).
+   Resolvers can then Opportunistically upgrade connections to the
+   authoritative to encrypted transports according to local policy,
+   thereby improving privacy, security, and performance for subsequent
+   interactions.</t>
+    </abstract>
+  </front>
+</reference>

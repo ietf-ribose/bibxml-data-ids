@@ -1,0 +1,47 @@
+<reference anchor="I-D.li-rdma-crem" target="https://datatracker.ietf.org/doc/html/draft-li-rdma-crem-00">
+  <front>
+    <title>Congestion-Aware Reliability Enhancement Mechanism (CREM) for RDMA over IP Networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-rdma-crem-00"/>
+    <author initials="Z." surname="Li" fullname="Zhiqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Wei Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="Y." surname="Zhao" fullname="Ying Zhao">
+      <organization>Centec</organization>
+    </author>
+    <author initials="C." surname="Zhao" fullname="Chunhao Zhao">
+      <organization>SAIA</organization>
+    </author>
+    <author initials="X." surname="Sun" fullname="Xun Sun">
+      <organization>Inesa</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>RDMA transports designed for lossless data center fabrics perform
+   poorly over long-distance, high bandwidth-delay product, or lossy IP
+   paths: go-back-N retransmission resends whole windows, selective
+   repeat costs at least a round trip per loss, and fixed forward
+   erasure correction wastes capacity when the path is clean.  This
+   document specifies the Congestion-Aware Reliability Enhancement
+   Mechanism (CREM), which protects datagram-based RDMA flows without
+   modifying their packets.  CREM adds a UDP-encapsulated repair channel
+   on which the sender transmits erasure-coded repair symbols computed
+   over blocks of RDMA packets, adapts the redundancy to measured loss
+   and to whether losses are caused by congestion, and recovers losses
+   that exceed the redundancy with a coded retransmission: a number of
+   repair symbols, computed only over the lost packets, that is smaller
+   than the number of lost packets.  Per-packet retransmission remains
+   as the final fallback.  Optional path reports from on-path nodes,
+   derived from Alternate Marking measurements or from the nodes' own
+   drops, inform the adaptation.</t>
+    </abstract>
+  </front>
+</reference>

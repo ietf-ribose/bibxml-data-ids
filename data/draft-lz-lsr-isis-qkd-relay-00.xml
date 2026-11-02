@@ -1,0 +1,31 @@
+<reference anchor="I-D.lz-lsr-isis-qkd-relay" target="https://datatracker.ietf.org/doc/html/draft-lz-lsr-isis-qkd-relay-00">
+  <front>
+    <title>Extensions to IS-IS for Advertising Quantum Key Distribution (QKD) Relay Information</title>
+    <seriesInfo name="Internet-Draft" value="draft-lz-lsr-isis-qkd-relay-00"/>
+    <author initials="L." surname="Zhang" fullname="Li Zhang">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="J." surname="Dong" fullname="Jie Dong">
+      <organization>Huawei</organization>
+    </author>
+    <author initials="" surname="zhangshiji" fullname="zhangshiji">
+      <organization>Huawei</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>Quantum Key Distribution (QKD) provides a method for generating
+   shared symmetric keys between two QKD systems.  Large-scale QKD
+   networks commonly use trusted relay nodes to deliver key material
+   across multiple QKD links.
+
+   to steer key-relay traffic through a sequence of trusted relay nodes.
+   A critical prerequisite for this approach is the ability of
+   collecting the QKD capability of the nodes and links in the network.
+
+   This document extends IS-IS by defining a new Application ID for QKD
+   relay information within the GENINFO TLV [RFC6823].  This extension
+   allows nodes to advertise their QKD relay informations and then
+   collected by the QKD controller for QKD relay path calculation.</t>
+    </abstract>
+  </front>
+</reference>

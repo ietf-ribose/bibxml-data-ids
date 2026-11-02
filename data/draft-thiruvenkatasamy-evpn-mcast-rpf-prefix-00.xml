@@ -1,0 +1,25 @@
+<reference anchor="I-D.thiruvenkatasamy-evpn-mcast-rpf-prefix" target="https://datatracker.ietf.org/doc/html/draft-thiruvenkatasamy-evpn-mcast-rpf-prefix-00">
+  <front>
+    <title>EVPN Multicast RPF Prefix Advertisement</title>
+    <seriesInfo name="Internet-Draft" value="draft-thiruvenkatasamy-evpn-mcast-rpf-prefix-00"/>
+    <author initials="K." surname="Thiruvenkatasamy" fullname="Kesavan Thiruvenkatasamy">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="Y." surname="Thallas" fullname="Yianni Thallas">
+      <organization>Cisco</organization>
+    </author>
+    <date day="01" month="November" year="2026"/>
+    <abstract>
+      <t>This document defines a new EVPN route type for advertising multicast
+   source-prefix reachability information within an EVPN network.  The
+   route enables Reverse Path Forwarding (RPF) resolution for multicast
+   traffic independently of the unicast routing topology, addressing the
+   operational requirement for non-congruent unicast and multicast
+   forwarding paths in tenant multicast deployments.  The proposed route
+   type allows an EVPN PE to advertise source-prefix reachability for
+   multicast RPF, learned through a multicast-specific routing protocol
+   (e.g., BGP using the Multicast Address Family) or configured locally
+   through policy or static multicast routes.</t>
+    </abstract>
+  </front>
+</reference>

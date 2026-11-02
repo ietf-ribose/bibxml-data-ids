@@ -1,0 +1,35 @@
+<reference anchor="I-D.zengin-moq-ssts-backpressure" target="https://datatracker.ietf.org/doc/html/draft-zengin-moq-ssts-backpressure-00">
+  <front>
+    <title>A Backpressure Algorithm for Sender-Side Track Switching in MOQ Transport</title>
+    <seriesInfo name="Internet-Draft" value="draft-zengin-moq-ssts-backpressure-00"/>
+    <author initials="A. F." surname="Zengin" fullname="Alperen Fatih Zengin">
+      <organization>Ozyegin University</organization>
+    </author>
+    <author initials="Z." surname="G&#xFC;rel" fullname="Zafer G&#xFC;rel">
+      <organization>Ozyegin University</organization>
+    </author>
+    <author initials="A. C." surname="Begen" fullname="Ali C. Begen">
+      <organization>Networked Media</organization>
+    </author>
+    <author initials="D." surname="Ugur" fullname="Deniz Ugur">
+      <organization>Ozyegin University</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>Sender-Side Track Switching (SSTS) lets a publisher forward one track
+   at a time out of a switching set, and leaves the choice of which
+   track to a pluggable algorithm.  The default algorithm divides a
+   bandwidth estimate between switching sets.  This document defines an
+   alternative algorithm that uses no bandwidth estimate at all.  It
+   monitors the number of open forwarding streams carrying the currently
+   active tier, steps rapidly through the switching set's ladder during
+   fast start, regulates steady-state upshifts dynamically according to
+   relative bitrate jumps and the subscriber's probing risk tolerance,
+   and reacts to mid-group congestion using intra-group monitoring and
+   retroactive stream supersede.  The signal is directly observable at
+   the publisher, requires no cooperation from the congestion
+   controller, and degrades toward the lowest quality under load rather
+   than toward none.</t>
+    </abstract>
+  </front>
+</reference>

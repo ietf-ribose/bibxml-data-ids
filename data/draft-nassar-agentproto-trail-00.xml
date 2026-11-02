@@ -1,0 +1,35 @@
+<reference anchor="I-D.nassar-agentproto-trail" target="https://datatracker.ietf.org/doc/html/draft-nassar-agentproto-trail-00">
+  <front>
+    <title>TRAIL: Tamper-evident Records for Agent Interactions and Liveness</title>
+    <seriesInfo name="Internet-Draft" value="draft-nassar-agentproto-trail-00"/>
+    <author initials="K." surname="Nassar" fullname="Kareem Nassar">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="S." surname="Nandakumar" fullname="Suhas Nandakumar">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="C. F." surname="Jennings" fullname="Cullen Fluffy Jennings">
+      <organization>Cisco</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>AI agents call other agents and tools across organizational
+   boundaries, but the records of what they did are kept by the
+   operators whose conduct the records describe, and the parties
+   overseeing them learn of problems only afterwards.  TRAIL makes this
+   communication auditable and revocable by parties other than the
+   operator.  An enforcement point outside the agent and its sandbox,
+   the edge, signs each call as a COSE Action Record, which the receiver
+   keeps, and appends it to a tamper-evident trail that witnesses
+   countersign.  Authorities read the trails and publish rules that the
+   edge enforces on every call: require approval, refuse an action, stop
+   an agent, or cap how many agents run across machines.  The edge lets
+   traffic through only while it holds current state from each authority
+   and a recent witness countersignature, so an authority that goes
+   silent, or a trail that nobody is witnessing, stops the agent.  TRAIL
+   defines bindings to HTTP and to Media over QUIC Transport (MOQT) that
+   produce the same evidence; over MOQT, holds reach edges as soon as
+   they are published.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,30 @@
+<reference anchor="I-D.ramadan-moq-fec-core" target="https://datatracker.ietf.org/doc/html/draft-ramadan-moq-fec-core-00">
+  <front>
+    <title>Forward Error Correction for Media over QUIC: Core Mechanism</title>
+    <seriesInfo name="Internet-Draft" value="draft-ramadan-moq-fec-core-00"/>
+    <author initials="O." surname="Ramadan" fullname="Omar Ramadan">
+      <organization>Blockcast</organization>
+    </author>
+    <author initials="M. E." surname="Fiuczynski" fullname="Marc E. Fiuczynski">
+      <organization>Rutgers University</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies how Forward Error Correction (FEC) repair
+   data is carried alongside source media in Media over QUIC (MoQ)
+   without naming a particular FEC code.  It states the properties that
+   an FEC scheme must have to be used with this mechanism, and defines
+   everything that does not depend on the scheme: how source objects
+   become source symbols, how source symbols are numbered and grouped
+   into blocks, two ways of carrying source symbols (as the source
+   track's own objects, or as a separate symbol track suited to datagram
+   delivery), repair tracks that receivers subscribe to independently
+   and in layers, the repair object format, repair Group IDs that make
+   repair fetchable by block, and equal and unequal protection driven
+   only by metadata that MoQ Transport exposes, so that FEC works when
+   payloads are encrypted end to end.  Relays need no FEC knowledge.
+   Specific FEC schemes, catalog bindings, packaging-specific profiles
+   and multicast delivery are left to companion documents.</t>
+    </abstract>
+  </front>
+</reference>

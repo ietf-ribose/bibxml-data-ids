@@ -1,0 +1,29 @@
+<reference anchor="I-D.asw-lsr-isis-ogid" target="https://datatracker.ietf.org/doc/html/draft-asw-lsr-isis-ogid-00">
+  <front>
+    <title>IS-IS Originating Generation Identifier (OGID) TLV</title>
+    <seriesInfo name="Internet-Draft" value="draft-asw-lsr-isis-ogid-00"/>
+    <author initials="S." surname="Hegde" fullname="Shraddha Hegde">
+      <organization>HPE</organization>
+    </author>
+    <author initials="W." surname="Britto" fullname="William Britto">
+      <organization>HPE</organization>
+    </author>
+    <author initials="T." surname="Przygienda" fullname="Tony Przygienda">
+      <organization>HPE</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document introduces a new top-level TLV in IS-IS, the
+   Originating Generation Identifier (OGID) TLV, which is carried in
+   every Link State PDU (LSP) fragment originated by a node.  The OGID
+   identifies the logical transaction to which a set of LSP fragment
+   updates belongs.  When accompanied by a Fragment Count greater than
+   one, it additionally allows a receiving node to determine when all
+   fragments participating in that transaction have been received.  This
+   enables receivers to process multi-fragment updates atomically,
+   avoiding the transient Link State Database (LSDB) inconsistencies
+   that can otherwise occur when logically related LSP fragment updates
+   are flooded and processed independently.</t>
+    </abstract>
+  </front>
+</reference>

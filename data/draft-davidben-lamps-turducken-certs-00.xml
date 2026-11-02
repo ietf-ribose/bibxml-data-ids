@@ -1,0 +1,29 @@
+<reference anchor="I-D.davidben-lamps-turducken-certs" target="https://datatracker.ietf.org/doc/html/draft-davidben-lamps-turducken-certs-00">
+  <front>
+    <title>Embedded Alternate Issuer Certificates</title>
+    <seriesInfo name="Internet-Draft" value="draft-davidben-lamps-turducken-certs-00"/>
+    <author initials="D." surname="Benjamin" fullname="David Benjamin">
+      <organization>Google LLC</organization>
+    </author>
+    <author initials="C." surname="Bonnell" fullname="Corey Bonnell">
+      <organization>TurboLight Solutions, LLC</organization>
+    </author>
+    <author initials="J." surname="Gray" fullname="John Gray">
+      <organization>Entrust</organization>
+    </author>
+    <author initials="M." surname="Ounsworth" fullname="Mike Ounsworth">
+      <organization>Cryptic Forest Software</organization>
+    </author>
+    <date day="01" month="November" year="2026"/>
+    <abstract>
+      <t>This document defines a mechanism to embed one or more alternate
+   certificates within a single outer certificate.  The outer
+   certificate remains parseable to a legacy relying party that is
+   unaware of this specification.  Each alternate certificate certifies
+   the same subject information, but with a different issuer.  This can
+   be used to help TLS on the Web transition securely to post-quantum
+   authentication, as well as other PKI transitions with similar
+   constraints.</t>
+    </abstract>
+  </front>
+</reference>

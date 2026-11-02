@@ -1,0 +1,46 @@
+<reference anchor="I-D.li-mlc-inference-acceleration" target="https://datatracker.ietf.org/doc/html/draft-li-mlc-inference-acceleration-00">
+  <front>
+    <title>Speculative Decoding Coordination Protocol (SDCP) for Distributed Inference with Multi-Level Caches</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-mlc-inference-acceleration-00"/>
+    <author initials="Z." surname="Li" fullname="Zhiqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Wei Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="Y." surname="Zhao" fullname="Ying Zhao">
+      <organization>Centec</organization>
+    </author>
+    <author initials="C." surname="Zhao" fullname="Chunhao Zhao">
+      <organization>SAIA</organization>
+    </author>
+    <author initials="X." surname="Sun" fullname="Xun Sun">
+      <organization>Inesa</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>Speculative decoding accelerates language model inference: a small
+   draft model proposes several tokens and the large target model
+   verifies them in one forward pass.  In large deployments, draft
+   models and the target model run on separate, independently scaled
+   instances that exchange state through a multi-level cache.  This
+   document specifies the Speculative Decoding Coordination Protocol
+   (SDCP), with which a router assigns requests to draft instances by
+   load, draft instances submit proposals that reference draft state in
+   the cache, and a verifier, the only party that commits output, checks
+   proposals under a registered acceptance rule, returns the accepted
+   tokens and the next-round speculation limit, and escalates
+   persistently rejected sessions to a reduced speculation length,
+   another draft model, or decoding by the target model itself depending
+   on its load.  SDCP defines a session contract, a committed-prefix
+   digest chain, CBOR messages carried over HTTP, idempotent rounds, and
+   epoch fencing for recovery.</t>
+    </abstract>
+  </front>
+</reference>

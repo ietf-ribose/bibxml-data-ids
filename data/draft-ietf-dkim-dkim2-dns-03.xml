@@ -1,0 +1,30 @@
+<reference anchor="I-D.ietf-dkim-dkim2-dns" target="https://datatracker.ietf.org/doc/html/draft-ietf-dkim-dkim2-dns-03">
+  <front>
+    <title>Domain Name Specification for DKIM1 and DKIM2</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dkim-dkim2-dns-03"/>
+    <author initials="W." surname="Chuang" fullname="Wei Chuang">
+      <organization>Google</organization>
+    </author>
+    <author initials="R." surname="Clayton" fullname="Richard Clayton">
+      <organization>Yahoo</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>DomainKeys Identified Mail (DKIM) permits the owner of a signing
+   domain to document that they have handled an email message by
+   associating their domain with the message.  One part of this involves
+   publishing a public key to a Domain Name System (DNS) record
+   associated with the domain.  Signing with the associated private key
+   establishes their connection to the message.  This document describes
+   how to find the relevant DNS record and how information is recorded
+   within it.
+
+   This document updates RFC 6376, which describes DKIM, by clarifying
+   the RSA public key format and by deprecating key record features that
+   have not turned out to be useful.  It also describes which parts of
+   the key record are relevant to DomainKeys Identified Mail v2 (DKIM2)
+   and describes a new Domain Policy Record for DKIM2 that can hold
+   domain-wide settings.</t>
+    </abstract>
+  </front>
+</reference>

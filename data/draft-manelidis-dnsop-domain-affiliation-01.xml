@@ -1,0 +1,27 @@
+<reference anchor="I-D.manelidis-dnsop-domain-affiliation" target="https://datatracker.ietf.org/doc/html/draft-manelidis-dnsop-domain-affiliation-01">
+  <front>
+    <title>Domain Affiliation Confirmation (DAC)</title>
+    <seriesInfo name="Internet-Draft" value="draft-manelidis-dnsop-domain-affiliation-01"/>
+    <author initials="D." surname="Manelidis" fullname="Dimitri Manelidis"/>
+    <author initials="F." surname="Ramos" fullname="Fabio Ramos"/>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>Security systems assess domain names one at a time.  A new domain of
+   an established organization therefore starts with no reputation, and
+   a legitimate domain that resembles another organization's name can be
+   reported as an impersonation.  This document defines Domain
+   Affiliation Confirmation (DAC), by which the operator of one domain,
+   the confirming domain, confirms that another domain, the affiliated
+   domain, is operated by it or under its authority.  The two domains
+   need not be related in the DNS hierarchy.  The affiliated domain
+   publishes a DNS record naming the confirming domain and a random
+   token; the confirming domain confirms that token, in the DNS or over
+   HTTPS, by naming the affiliated domain.  Verification takes at most
+   three DNS queries and one HTTPS request.  The confirming domain
+   publishes no list of its domains, and an affiliation is ended by
+   deleting one record.  The document also states what a confirmation
+   means to relying parties such as takedown services and reputation
+   systems.</t>
+    </abstract>
+  </front>
+</reference>

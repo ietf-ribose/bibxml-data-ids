@@ -1,0 +1,28 @@
+<reference anchor="I-D.sanketh-plants-mtc-architecture" target="https://datatracker.ietf.org/doc/html/draft-sanketh-plants-mtc-architecture-00">
+  <front>
+    <title>Merkle Tree Certificates Architecture</title>
+    <seriesInfo name="Internet-Draft" value="draft-sanketh-plants-mtc-architecture-00"/>
+    <author initials="S." surname="Menda" fullname="Sanketh Menda">
+      <organization>AWS</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>Merkle Tree Certificates (MTCs) make transparency logging part of
+   certificate issuance, enabling Internet-scale deployments of short-
+   lived certificates and large post-quantum signatures.  In exchange,
+   their security rests on the state, not just the keys, of the
+   certification authority, its cosigners, and relying parties' update
+   services.  This document describes the architecture for deploying
+   MTCs and defines the guarantees that a relying party can obtain when
+   it accepts one.  These cover who certified and who recorded the
+   certificate, agreement among relying parties on each log entry, the
+   enforcement of revoked ranges, and the validation of the relying
+   party's own configuration.  For each guarantee, we state which
+   parties must behave as specified and which keys and state they must
+   keep intact.  Our Recommendations are not needed to interoperate, but
+   they affect the guarantees a deployment achieves, especially against
+   adversaries able to compromise a certification authority, a cosigner,
+   or an update service.</t>
+    </abstract>
+  </front>
+</reference>

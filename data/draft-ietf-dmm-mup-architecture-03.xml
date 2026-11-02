@@ -1,0 +1,45 @@
+<reference anchor="I-D.ietf-dmm-mup-architecture" target="https://datatracker.ietf.org/doc/html/draft-ietf-dmm-mup-architecture-03">
+  <front>
+    <title>Mobile User Plane Architecture for Distributed Mobility Management</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-dmm-mup-architecture-03"/>
+    <author initials="S." surname="Matsushima" fullname="Satoru Matsushima">
+      <organization>SoftBank</organization>
+    </author>
+    <author initials="K." surname="Horiba" fullname="Katsuhiro Horiba"/>
+    <author initials="Y." surname="Kawakami" fullname="Yuya Kawakami">
+      <organization>SoftBank</organization>
+    </author>
+    <author initials="T." surname="Murakami" fullname="Tetsuya Murakami">
+      <organization>Arrcus, Inc.</organization>
+    </author>
+    <author initials="K." surname="Patel" fullname="Keyur Patel">
+      <organization>Arrcus, Inc.</organization>
+    </author>
+    <author initials="J." surname="Horn" fullname="Jakub Horn">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document defines the Mobile User Plane (MUP) architecture for
+   Distributed Mobility Management (DMM).  MUP meets the DMM
+   requirements in [RFC7333] in a routing fashion.  MUP provides a
+   normative mechanism that makes it possible to avoid traversing a
+   single user plane anchor far from the optimal route, by turning
+   mobile user plane session information into routing information and
+   integrating the user plane into the dataplane.
+
+   MUP is designed as a pluggable user plane part of existing mobile
+   service architectures, with auto-discovery.  Although the
+   architecture is dataplane-independent, this document describes SRv6
+   over IPv6 (SRv6 MUP), whose programmability and large address space
+   suit scalable mobile services.
+
+   This mechanism is specified in terms of the semantics of MUP segments
+   and of the routing information, how that information is distributed
+   among MUP PEs and the MUP Controller and resolved by a MUP PE, and
+   the behaviour required of them.  It does not define the wire encoding
+   of any routing protocol; such an encoding may be defined in other
+   documents.</t>
+    </abstract>
+  </front>
+</reference>

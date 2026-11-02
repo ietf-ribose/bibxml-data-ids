@@ -1,0 +1,39 @@
+<reference anchor="I-D.jennings-agentproto-mcp-over-moqt" target="https://datatracker.ietf.org/doc/html/draft-jennings-agentproto-mcp-over-moqt-01">
+  <front>
+    <title>Model Context Protocol and Agent Skills over Media over QUIC Transport</title>
+    <seriesInfo name="Internet-Draft" value="draft-jennings-agentproto-mcp-over-moqt-01"/>
+    <author initials="C. F." surname="Jennings" fullname="Cullen Fluffy Jennings">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="I." surname="Swett" fullname="Ian Swett">
+      <organization>Google</organization>
+    </author>
+    <author initials="J." surname="Rosenberg" fullname="Jonathan Rosenberg">
+      <organization>Five9</organization>
+    </author>
+    <author initials="S." surname="Nandakumar" fullname="Suhas Nandakumar">
+      <organization>Cisco</organization>
+    </author>
+    <date day="01" month="November" year="2026"/>
+    <abstract>
+      <t>This document defines how to use Media over QUIC Transport (MOQT) as
+   the underlying transport protocol for the Model Context Protocol
+   (MCP).  MCP enables integration between language model applications
+   and external data sources and tools.  MOQT provides publish-subscribe
+   delivery over QUIC and WebTransport with native prioritization, relay
+   caching, and multiplexing.
+
+   This specification maps MCP messages onto MOQT objects and tracks.
+   It covers MCP's tools, resources, prompts, multi round-trip requests,
+   and the Tasks extension, and it uses MOQT relays to cache content
+   that MCP marks as public across clients and to let a response outlive
+   the connection that carried its request.
+
+   The document also describes Agent Skills, composed instructions that
+   extend AI capabilities beyond atomic tool operations, using
+   progressive loading aligned with MOQT's object-based delivery.  The
+   same tracks can run standalone or inside a dialog of the Protocol for
+   Agent Communication Exchange (PACE).</t>
+    </abstract>
+  </front>
+</reference>

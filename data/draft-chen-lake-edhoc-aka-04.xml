@@ -1,0 +1,34 @@
+<reference anchor="I-D.chen-lake-edhoc-aka" target="https://datatracker.ietf.org/doc/html/draft-chen-lake-edhoc-aka-04">
+  <front>
+    <title>EDHOC Authenticated with AKA</title>
+    <seriesInfo name="Internet-Draft" value="draft-chen-lake-edhoc-aka-04"/>
+    <author initials="M." surname="Chen" fullname="Meiling Chen">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="L." surname="Su" fullname="Li Su">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="G." surname="WANG" fullname="Guilin WANG">
+      <organization>Huawei Int. Pte Ltd</organization>
+    </author>
+    <author initials="X." surname="Song" fullname="Xueyan Song"/>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document defines an Authentication and Key Agreement (AKA)
+   authentication method for the Ephemeral Diffie-Hellman Over COSE
+   (EDHOC) key exchange protocol.  This method, named EDHOC-AKA, is
+   designed as a specific profile of the EDHOC Pre-Shared Key (PSK)
+   authentication method defined in [I-D.ietf-lake-edhoc-psk].
+
+   EDHOC-AKA leverages the 3GPP AKA protocol to dynamically generate a
+   session-specific Pre-Shared Key, which is then used to run the EDHOC-
+   PSK protocol flow.  The AKA-specific parameters are transported
+   within the External Authorization Data (EAD) fields of the EDHOC
+   messages.  This approach provides efficient mobile communication
+   network access authentication for resource-constrained scenarios
+   (such as Non-Terrestrial Networks, NTN) while inheriting the security
+   properties of EDHOC-PSK, including mutual authentication, identity
+   protection, and forward secrecy.</t>
+    </abstract>
+  </front>
+</reference>

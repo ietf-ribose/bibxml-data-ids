@@ -1,0 +1,29 @@
+<reference anchor="I-D.zhao-pce-recovery-admission" target="https://datatracker.ietf.org/doc/html/draft-zhao-pce-recovery-admission-00">
+  <front>
+    <title>PCEP Extensions for Conditional Recovery Admission and Coordination</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhao-pce-recovery-admission-00"/>
+    <author initials="J." surname="Zhao" fullname="Jing Zhao">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="S." surname="Zhang" fullname="Shuai Zhang">
+      <organization>China Unicom</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>Following a disruptive event, multiple Path Computation Element
+   (PCE)-controlled Label Switched Paths (LSPs) may need to recover over
+   the same limited remaining resources.  Individually feasible paths do
+   not necessarily remain feasible when competing recovery updates are
+   activated concurrently.
+
+   This document proposes PCEP extensions to carry explicit conditional
+   recovery admission decisions, correlate their installation outcomes,
+   and reconcile their admission state after failures or PCEP session
+   loss.  Coordination is limited to consistent accounting of shared
+   recovery resources by one active stateful PCE.
+
+   The extension does not specify path computation algorithms, guarantee
+   end-to-end service performance, or replace local fast protection.</t>
+    </abstract>
+  </front>
+</reference>

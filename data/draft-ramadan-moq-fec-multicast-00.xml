@@ -1,0 +1,25 @@
+<reference anchor="I-D.ramadan-moq-fec-multicast" target="https://datatracker.ietf.org/doc/html/draft-ramadan-moq-fec-multicast-00">
+  <front>
+    <title>Forward Error Correction for Multicast Delivery of Media over QUIC</title>
+    <seriesInfo name="Internet-Draft" value="draft-ramadan-moq-fec-multicast-00"/>
+    <author initials="O." surname="Ramadan" fullname="Omar Ramadan">
+      <organization>Blockcast</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies how the Forward Error Correction (FEC)
+   mechanism for Media over QUIC (MoQ) is used when protected tracks are
+   delivered over multicast.  It defines repair-only multicast endpoints
+   and how a receiver adds and drops the repair layers they carry,
+   states which tracks a multicast endpoint carries in this revision,
+   specifies how a receiver treats blocks and symbols that a multicast
+   content-authentication profile has not admitted, and specifies the
+   receiver repair policy of a multicast or AMT leg: in-band FEC first,
+   then per-block unicast repair for the blocks that FEC did not
+   recover, with a budget and priorities derived from the catalog.  It
+   is independent of how multicast is carried, whether by Source-
+   Specific Multicast and Automatic Multicast Tunneling or by a
+   multicast QUIC channel.</t>
+    </abstract>
+  </front>
+</reference>

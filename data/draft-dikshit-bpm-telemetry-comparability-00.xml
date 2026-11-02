@@ -1,0 +1,33 @@
+<reference anchor="I-D.dikshit-bpm-telemetry-comparability" target="https://datatracker.ietf.org/doc/html/draft-dikshit-bpm-telemetry-comparability-00">
+  <front>
+    <title>Operational Telemetry Comparability for IP Performance Measurements</title>
+    <seriesInfo name="Internet-Draft" value="draft-dikshit-bpm-telemetry-comparability-00"/>
+    <author initials="D." surname="Dikshit" fullname="Saumya Dikshit">
+      <organization>HPE</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>Operational telemetry is often used to compare network performance
+   across observation points, traffic classes, service instances, paths,
+   devices, and time intervals.  The numeric value of a metric is not
+   sufficient for such comparison unless the observation context and the
+   comparability conditions are also known.
+
+   This document describes a common interoperability problem in
+   operational measurement systems: values such as delay, loss, ECN
+   marking, queue occupancy, packet counts, byte counts, and flow
+   correlation identifiers can be exported from different observation
+   points or under different aggregation rules while still appearing to
+   be directly comparable.  A collector or controller can therefore
+   combine values that do not describe the same measurement domain.
+
+   The document defines requirements for describing the observation
+   point, metric source, aggregation interval, traffic class, flow
+   scope, sampling rule, timestamp basis, freshness, and comparability
+   domain associated with operational telemetry used for IP performance
+   measurement.  The goal is to make operational measurement results
+   easier to compare without prescribing one measurement protocol, one
+   data model, or one congestion control mechanism.</t>
+    </abstract>
+  </front>
+</reference>

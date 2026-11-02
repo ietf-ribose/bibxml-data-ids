@@ -1,0 +1,44 @@
+<reference anchor="I-D.li-kvcache-efficient-transmission" target="https://datatracker.ietf.org/doc/html/draft-li-kvcache-efficient-transmission-00">
+  <front>
+    <title>Layer-Aligned Key-Value (KV) Cache Streaming over Media over QUIC Transport (MOQT)</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-kvcache-efficient-transmission-00"/>
+    <author initials="Z." surname="Li" fullname="Zhiqiang Li">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="J." surname="Wang" fullname="Junjie Wang">
+      <organization>Centec</organization>
+    </author>
+    <author initials="W." surname="Cheng" fullname="Wei Cheng">
+      <organization>Centec</organization>
+    </author>
+    <author initials="Y." surname="Zhao" fullname="Ying Zhao">
+      <organization>Centec</organization>
+    </author>
+    <author initials="C." surname="Zhao" fullname="Chunhao Zhao">
+      <organization>SAIA</organization>
+    </author>
+    <author initials="X." surname="Sun" fullname="Xun Sun">
+      <organization>Inesa</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>The key-value (KV) cache of a language model can be computed once and
+   reused by many inference instances, possibly at many sites.  Media
+   over QUIC Transport (MOQT) provides publish/subscribe delivery
+   through relays that cache objects without understanding their
+   content.  This document specifies KV Cache Streaming (KVCS), an
+   application of MOQT for delivering KV caches.  KVCS maps the identity
+   of a token prefix to a Track Namespace built from keyed identifiers
+   that do not reveal the prompt, carries the key and value tensors (or
+   a jointly encoded form) in separate Tracks, aligns each Group with
+   one model layer and each Object with one block of tokens, and defines
+   a self-describing object payload and a manifest track.  These choices
+   let consumers start using early layers while later layers are still
+   being produced, retrieve only the layers and token blocks they need,
+   and verify what they receive.</t>
+    </abstract>
+  </front>
+</reference>

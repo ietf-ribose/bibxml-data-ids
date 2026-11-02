@@ -1,0 +1,31 @@
+<reference anchor="I-D.mpsb-agntcy-slim" target="https://datatracker.ietf.org/doc/html/draft-mpsb-agntcy-slim-03">
+  <front>
+    <title>Secure Low-Latency Interactive Messaging (SLIM)</title>
+    <seriesInfo name="Internet-Draft" value="draft-mpsb-agntcy-slim-03"/>
+    <author initials="L." surname="Muscariello" fullname="Luca Muscariello">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="M." surname="Papalini" fullname="Michele Papalini">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="M." surname="Sardara" fullname="Mauro Sardara">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="S." surname="Betts" fullname="Sam Betts">
+      <organization>Cisco</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies the Secure Low-Latency Interactive Messaging
+   (SLIM), a protocol designed to support real-time interactive AI
+   applications at scale.  SLIM provides a name-routed messaging data
+   plane and session layer for agent protocols such as A2A and MCP.  The
+   data plane carries Protocol Buffers messages over streaming gRPC on
+   HTTP/2 or WebSocket, while the session layer provides point-to-point
+   and group communication, configurable reliable delivery, and optional
+   end-to-end encryption using MLS.  SLIM also defines link negotiation
+   between routing nodes and control messages for session establishment
+   and group membership.</t>
+    </abstract>
+  </front>
+</reference>

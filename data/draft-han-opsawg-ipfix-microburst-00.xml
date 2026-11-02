@@ -1,0 +1,37 @@
+<reference anchor="I-D.han-opsawg-ipfix-microburst" target="https://datatracker.ietf.org/doc/html/draft-han-opsawg-ipfix-microburst-00">
+  <front>
+    <title>Export of Microburst Information in IP Flow Information Export</title>
+    <seriesInfo name="Internet-Draft" value="draft-han-opsawg-ipfix-microburst-00"/>
+    <author initials="M." surname="Han" fullname="Mengyao Han">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="Z." surname="Ruan" fullname="Zheng Ruan">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="G." surname="xing" fullname="Gao xing">
+      <organization>China Unicom</organization>
+    </author>
+    <author initials="Q." surname="Xiong" fullname="Quan Xiong">
+      <organization>ZTE Corporation</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>A microburst is a phenomenon in which arriving traffic exceeds the
+   service capacity of an egress interface within a short period of
+   time, causing queue occupancy to rise rapidly.  It may result in
+   transient queuing and packet loss even when the average link
+   utilization is low, and is therefore difficult to detect through low-
+   frequency interface statistics.
+
+   This document defines a set of IPFIX Information Elements for
+   exporting aggregated microburst statistics per egress interface,
+   egress queue, and measurement window.  Network operators can use
+   these statistics to identify interfaces and queues where microbursts
+   occur frequently, and apply the results to capacity planning, QoS
+   optimization, and the remediation of critical links.
+
+   This document does not specify microburst detection algorithms,
+   threshold selection methods, or remediation policies.</t>
+    </abstract>
+  </front>
+</reference>
