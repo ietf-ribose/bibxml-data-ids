@@ -1,0 +1,32 @@
+<reference anchor="I-D.beeram-teas-rsvp-resource-notifications" target="https://datatracker.ietf.org/doc/html/draft-beeram-teas-rsvp-resource-notifications-00">
+  <front>
+    <title>RSVP-TE Resource Notifications</title>
+    <seriesInfo name="Internet-Draft" value="draft-beeram-teas-rsvp-resource-notifications-00"/>
+    <author initials="V. P." surname="Beeram" fullname="Vishnu Pavan Beeram">
+      <organization>HPE</organization>
+    </author>
+    <author initials="C." surname="Ramachandran" fullname="Chandra Ramachandran">
+      <organization>HPE</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>In scaled Resource Reservation Protocol - Traffic Engineering (RSVP-
+   TE) networks, a single network resource event (such as a link failure
+   or bandwidth reduction) can trigger a storm of PathErr messages, one
+   for each affected Label Switched Path (LSP).  This document
+   introduces RSVP Resource Notifications, a mechanism that reduces the
+   number of per-LSP error messages by sending summarized per-source
+   resource-level notifications in a new RSVP message, ResourceNotify.
+   This reduces the control-plane message load from O(LSPs) to
+   O(sources), significantly improving convergence in networks with a
+   large number of RSVP-TE LSPs.
+
+   The mechanism applies to LSPs whose source is reachable by the
+   transit node within the same domain, and uses a Resource Notification
+   Request Object carried in PATH messages.  Two types of resource
+   notifications are defined in this document: Resource Unavailable (for
+   link failures) and Resource Degraded (for bandwidth reduction
+   events).</t>
+    </abstract>
+  </front>
+</reference>

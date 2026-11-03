@@ -1,0 +1,22 @@
+<reference anchor="I-D.toomim-httpbis-braid-multiresponse" target="https://datatracker.ietf.org/doc/html/draft-toomim-httpbis-braid-multiresponse-00">
+  <front>
+    <title>Multiresponses for HTTP</title>
+    <seriesInfo name="Internet-Draft" value="draft-toomim-httpbis-braid-multiresponse-00"/>
+    <author initials="M." surname="Toomim" fullname="Michael Toomim">
+      <organization>Invisible College</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>Each HTTP request has only a single response.  This document defines
+   the 209 Multiresponse status code, whose content holds several
+   responses, and the application/http-history media type, which encodes
+   a sequence of responses to one resource over time.  With them, a
+   server can send a history of a resource, or a stream of its changes,
+   in one response, which caches can store piece by piece.
+
+   This document is one of the Braid-HTTP extensions, which work alone
+   or together; together they make HTTP a state synchronization
+   protocol.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,20 @@
+<reference anchor="I-D.ek-dtn-ipn-arpa" target="https://datatracker.ietf.org/doc/html/draft-ek-dtn-ipn-arpa-01">
+  <front>
+    <title>The ipn.arpa Zone and IPN DNS Operations</title>
+    <seriesInfo name="Internet-Draft" value="draft-ek-dtn-ipn-arpa-01"/>
+    <author initials="E." surname="Kline" fullname="Erik Kline">
+      <organization>Aalyria Technologies, LLC</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document requests the creation of ipn.arpa, an infrastructure
+   DNS namespace for the IPN node identifiers used by the Bundle
+   Protocol (BP).  Each Fully Qualified Node Number has a canonical name
+   of the form N.A.ipn.arpa, where A is the Allocator Identifier and N
+   is the Node Number.  A BP Agent can query directly beneath that name
+   for records specified by a convergence-layer discovery binding, such
+   as SRV or SVCB records.  The DNS records identify convergence-layer
+   endpoints advertised for reaching a destination, including relays.</t>
+    </abstract>
+  </front>
+</reference>

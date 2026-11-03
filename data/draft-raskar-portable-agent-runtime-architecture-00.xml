@@ -1,0 +1,30 @@
+<reference anchor="I-D.raskar-portable-agent-runtime-architecture" target="https://datatracker.ietf.org/doc/html/draft-raskar-portable-agent-runtime-architecture-00">
+  <front>
+    <title>Architecture for Portable AI Agent Workloads Across Internet Runtimes</title>
+    <seriesInfo name="Internet-Draft" value="draft-raskar-portable-agent-runtime-architecture-00"/>
+    <author initials="R." surname="Raskar" fullname="Ramesh Raskar">
+      <organization>MIT Media Lab</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>AI agent definitions are commonly coupled to a particular framework,
+   model provider, tool environment, or execution service.  This
+   coupling makes it difficult for an independently operated runtime to
+   determine whether it can interpret, place, authorize, and execute an
+   agent workload.
+
+   This document describes an architecture for portable AI agent
+   workloads across heterogeneous Internet runtimes.  It separates
+   authoring, packaging and distribution, and execution; identifies the
+   information a workload needs to declare at that boundary; and
+   distinguishes representation portability, execution portability, and
+   placement portability.  It also identifies research questions around
+   capability matching, workload placement, dependency distribution,
+   identity, authorization, state, and migration.
+
+   This document is architectural and research-oriented.  It does not
+   define a package wire format, universal agent language, runtime API,
+   discovery service, or new transport protocol.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,25 @@
+<reference anchor="I-D.pelov-rich-architecture" target="https://datatracker.ietf.org/doc/html/draft-pelov-rich-architecture-01">
+  <front>
+    <title>RICH: RESTful Interface for the Control-plane of Harnesses</title>
+    <seriesInfo name="Internet-Draft" value="draft-pelov-rich-architecture-01"/>
+    <author initials="A." surname="Pelov" fullname="Alexander Pelov">
+      <organization>IMT Atlantique</organization>
+    </author>
+    <date day="02" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies the RICH (RESTful Interface for the Control-
+   plane of Harnesses) architecture and information model.  RICH
+   provides a protocol-neutral governance, contract, qualification, and
+   binding layer for RPC-based agent capabilities.  It establishes a
+   REST-addressable control plane for managing capability lifecycles
+   while preserving native protocol execution in the data plane.  It
+   defines immutable capability and contract revisions, evidence
+   provenance, connector transformation classes, compiled binding
+   lockfiles, admission of bindings against an authorization, and
+   runtime validation rules designed to contain drift and prevent
+   confused deputy attacks in agentic systems.  RICH does not make model
+   behavior deterministic: it bounds what each admitted call can do, and
+   makes every step on the connector path checkable and refusable.</t>
+    </abstract>
+  </front>
+</reference>
