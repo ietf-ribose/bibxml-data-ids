@@ -1,0 +1,27 @@
+<reference anchor="I-D.jabley-dnsop-ordered-answer-section" target="https://datatracker.ietf.org/doc/html/draft-jabley-dnsop-ordered-answer-section-02">
+  <front>
+    <title>Ordering of RRSets in CNAME Responses in the DNS</title>
+    <seriesInfo name="Internet-Draft" value="draft-jabley-dnsop-ordered-answer-section-02"/>
+    <author initials="J." surname="Abley" fullname="Joe Abley">
+      <organization>Cloudflare</organization>
+    </author>
+    <author initials="S." surname="Neuteboom" fullname="Sebastiaan Neuteboom">
+      <organization>Cloudflare</organization>
+    </author>
+    <date day="05" month="November" year="2026"/>
+    <abstract>
+      <t>In the DNS, recursive resolvers receive queries and formulate
+   corresponding responses by reference to data obtained from
+   authoritative servers.  In the case where the query name (QNAME) and
+   class (QCLASS) in the query matches an owner name in the DNS where a
+   canonical name (CNAME) resource record is published, the response
+   includes both the CNAME record and the resource record set
+   corresponding to the request's query type (QTYPE) published at the
+   CNAME target.  The ordering of these two different RRSets has not
+   previously been clearly specified, but operational experience based
+   on real-world client implementations confirms that the order is
+   important.  This document updates RFC 1034 1035 to provide a clearer
+   specification, consistent with deployed implementations.</t>
+    </abstract>
+  </front>
+</reference>
