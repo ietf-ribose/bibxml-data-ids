@@ -1,0 +1,23 @@
+<reference anchor="I-D.dvojmoc-reception-forwarding-limits" target="https://datatracker.ietf.org/doc/html/draft-dvojmoc-reception-forwarding-limits-00">
+  <front>
+    <title>Depth and Fanout Bounding for Agent-to-Agent Discovery Forwarding</title>
+    <seriesInfo name="Internet-Draft" value="draft-dvojmoc-reception-forwarding-limits-00"/>
+    <author initials="V." surname="Dvojmo&#x10D;" fullname="Viljem Dvojmo&#x10D;"/>
+    <date day="15" month="November" year="2026"/>
+    <abstract>
+      <t>This document describes a mechanism, deployed in production as
+   part of the "AI Docking Port" discovery protocol, for bounding the
+   traffic cost of stateless agent-to-agent forwarding across a
+   network of independent nodes with no central registry.  When a
+   node forwards a request to its neighbors, and those neighbors may
+   forward again, request cost grows as fanout^depth; absent an
+   explicit bound this cost is paid by relaying operators rather than
+   the requester.  This document specifies two operator-controlled
+   limits, max_depth and max_fanout, published in a node's discovery
+   manifest, and the forwarding behavior they constrain.  It is
+   submitted for discussion as a possible contribution to ongoing
+   community work on agent discovery and invocation protocols,
+   including the W3C Community Group "AI Agent Protocol".</t>
+    </abstract>
+  </front>
+</reference>

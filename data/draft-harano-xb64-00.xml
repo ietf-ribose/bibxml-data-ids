@@ -1,0 +1,26 @@
+<reference anchor="I-D.harano-xb64" target="https://datatracker.ietf.org/doc/html/draft-harano-xb64-00">
+  <front>
+    <title>XB64: A Lightweight Reversible Obfuscation Encoding</title>
+    <seriesInfo name="Internet-Draft" value="draft-harano-xb64-00"/>
+    <author initials="T." surname="Harano" fullname="Takashi Harano"/>
+    <date day="15" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies XB64 (XORed Base64), a lightweight reversible
+   obfuscation encoding scheme for situations where immediate
+   readability of source data is undesirable but cryptographic
+   confidentiality is not required.
+
+   To provide a key-dependent yet fully reversible representation, XB64
+   applies repeating-key XOR to arbitrary octet sequences and encodes
+   the result as printable ASCII text using Base64 as specified in RFC
+   4648.  The resulting text itself preserves the source information,
+   allowing exact reconstruction with the same key without external data
+   lookup, while remaining suitable for human handling and exchange
+   through text-oriented systems.
+
+   By specifying a common encoding format for this level of obfuscation,
+   this document aims to enable interoperable use across different
+   applications, platforms, and implementations.</t>
+    </abstract>
+  </front>
+</reference>

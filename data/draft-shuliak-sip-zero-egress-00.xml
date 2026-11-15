@@ -1,0 +1,22 @@
+<reference anchor="I-D.shuliak-sip-zero-egress" target="https://datatracker.ietf.org/doc/html/draft-shuliak-sip-zero-egress-00">
+  <front>
+    <title>Shuliak Isolation Protocol (SIP-1): Stateless Format-Preserving Pseudonymization and AST Quarantine for Local AI Agent Transports</title>
+    <seriesInfo name="Internet-Draft" value="draft-shuliak-sip-zero-egress-00"/>
+    <author initials="D." surname="Shuliak" fullname="Dmitrii Shuliak">
+      <organization>SHULIAK CORP</organization>
+    </author>
+    <date day="15" month="November" year="2026"/>
+    <abstract>
+      <t>Autonomous AI agents and Model Context Protocol (MCP) servers
+   frequently execute over local standard input/output (stdio) pipes
+   outside enterprise network inspection perimeters.  Naive redaction of
+   sensitive credentials with static placeholders invalidates downstream
+   Luhn payment card and ISO-7064 IBAN schema validators, while raw
+   payload forwarding exposes regulated data.  This document specifies
+   the Shuliak Isolation Protocol (SIP-1), a deterministic, zero-egress
+   security layer combining stateless Format-Preserving Encryption
+   (FF1), Abstract Syntax Tree (AST) JSON-RPC payload quarantine, and
+   detached cryptographic schema locks.</t>
+    </abstract>
+  </front>
+</reference>

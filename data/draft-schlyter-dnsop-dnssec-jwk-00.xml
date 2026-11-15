@@ -1,0 +1,20 @@
+<reference anchor="I-D.schlyter-dnsop-dnssec-jwk" target="https://datatracker.ietf.org/doc/html/draft-schlyter-dnsop-dnssec-jwk-00">
+  <front>
+    <title>JSON Web Key (JWK) for DNSSEC</title>
+    <seriesInfo name="Internet-Draft" value="draft-schlyter-dnsop-dnssec-jwk-00"/>
+    <author initials="J." surname="Schlyter" fullname="Jakob Schlyter">
+      <organization>Kirei AB</organization>
+    </author>
+    <date day="15" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies how to represent DNSSEC public and private
+   keys as JSON Web Keys (JWK).  The cryptographic key material is
+   encoded using the existing JWK key types, and the DNS-specific
+   information needed to reconstruct the corresponding DNSKEY resource
+   record (owner name, algorithm, protocol and flags) is carried in a
+   new JWK parameter, "dnskey".  This gives DNSSEC signers, key
+   management systems and other tools a standardized, interoperable
+   format for exchanging and storing DNSSEC keys.</t>
+    </abstract>
+  </front>
+</reference>

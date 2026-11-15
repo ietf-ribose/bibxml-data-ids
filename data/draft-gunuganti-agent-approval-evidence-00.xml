@@ -1,0 +1,31 @@
+<reference anchor="I-D.gunuganti-agent-approval-evidence" target="https://datatracker.ietf.org/doc/html/draft-gunuganti-agent-approval-evidence-00">
+  <front>
+    <title>Owner-Approved Agent Spending with Sealed Evidence: The Approval-Evidence Object for Agent Action Protocols</title>
+    <seriesInfo name="Internet-Draft" value="draft-gunuganti-agent-approval-evidence-00"/>
+    <author initials="S. A." surname="Gunuganti" fullname="Sai Arun Gunuganti">
+      <organization>Sealgraf</organization>
+    </author>
+    <date day="15" month="November" year="2026"/>
+    <abstract>
+      <t>When a software agent acts for a person — in particular when it
+   spends the person's money — the approval at the centre of the
+   flow is, in current agent protocols, a statement by the agent
+   itself. The Personal Agent Protocol's Operations extension
+   states the consequence in its own security considerations: an
+   approval there does not prove that the user saw the terms or
+   approved them; it "works on trust". This document describes the
+   design of a running system that removes the trust step for the
+   approval half of the problem — an owner-set, machine-checkable
+   mandate; a deterministic check performed and recorded before any
+   spendable token exists; approval by the owner on a surface the
+   agent cannot operate or imitate; a single-use decision token
+   bound to the hash of the exact action approved; and a sealed,
+   owner-held receipt that grades its contents (approval PROVEN;
+   the performer's completion report, including payment facts,
+   REPORTED and PINNED) — and specifies an optional
+   approval-evidence object that agent action protocols can carry
+   so that a relying party can verify an approval mechanically
+   instead of trusting the agent's assertion.</t>
+    </abstract>
+  </front>
+</reference>

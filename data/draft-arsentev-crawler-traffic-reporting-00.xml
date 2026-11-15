@@ -1,0 +1,20 @@
+<reference anchor="I-D.arsentev-crawler-traffic-reporting" target="https://datatracker.ietf.org/doc/html/draft-arsentev-crawler-traffic-reporting-00">
+  <front>
+    <title>Reporting Crawler Traffic by Verification Level</title>
+    <seriesInfo name="Internet-Draft" value="draft-arsentev-crawler-traffic-reporting-00"/>
+    <author initials="E." surname="Arsentev" fullname="Evgenii Arsentev">
+      <organization>Independent</organization>
+    </author>
+    <date day="15" month="November" year="2026"/>
+    <abstract>
+      <t>The User-Agent header is written by the client.  It is a claim, not
+   an identity.  Reports of crawler and AI crawler traffic that count
+   requests by User-Agent token alone present claims as activity.  This
+   document defines four counts a crawler traffic report should give per
+   crawler token: declared, route-consistent, verified, and
+   unverifiable.  It states which verification check was possible at the
+   vantage point where the log was taken.  It also defines a small JSON
+   report object.</t>
+    </abstract>
+  </front>
+</reference>

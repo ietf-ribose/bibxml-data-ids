@@ -1,0 +1,24 @@
+<reference anchor="I-D.meunier-webbotauth-capacity-management" target="https://datatracker.ietf.org/doc/html/draft-meunier-webbotauth-capacity-management-00">
+  <front>
+    <title>PACE: Capability Management for Agents</title>
+    <seriesInfo name="Internet-Draft" value="draft-meunier-webbotauth-capacity-management-00"/>
+    <author initials="T." surname="Meunier" fullname="Thibault Meunier">
+      <organization>Cloudflare</organization>
+    </author>
+    <author initials="C. A." surname="Wood" fullname="Christopher A. Wood">
+      <organization>Cloudflare</organization>
+    </author>
+    <date day="15" month="November" year="2026"/>
+    <abstract>
+      <t>This document addresses the noisy neighbour problem without requiring
+   a stable client identifier at the origin.  Separately allocated
+   budgets let origins limit consumption beneath a shared platform
+   identity.  It describes PACE: a framework for managing budget
+   continuity across requests using a composition of the Web Bot Auth
+   with the Moderation of unLinkable Endorsements (MOLE) architecture
+   [MOLE-ARCH] and protocols [MOLE-PROTOCOLS].  This composition allows
+   for per-client capacity management in a way that allows origins to
+   serve clients above an otherwise constrained public baseline.</t>
+    </abstract>
+  </front>
+</reference>

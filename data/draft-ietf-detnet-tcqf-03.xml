@@ -1,0 +1,58 @@
+<reference anchor="I-D.ietf-detnet-tcqf" target="https://datatracker.ietf.org/doc/html/draft-ietf-detnet-tcqf-03">
+  <front>
+    <title>Deterministic Networking (DetNet) Data Plane - Tagged Cyclic Queuing and Forwarding (TCQF) for bounded latency with low jitter in large scale DetNets</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-detnet-tcqf-03"/>
+    <author initials="T. T." surname="Eckert" fullname="Toerless Eckert">
+      <organization>Futurewei Technologies USA</organization>
+    </author>
+    <author initials="Y." surname="Li" fullname="Yizhou Li">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="S." surname="Bryant" fullname="Stewart Bryant">
+      <organization>University of Surrey ICS</organization>
+    </author>
+    <author initials="A. G." surname="Malis" fullname="Andrew G. Malis">
+      <organization>Malis Consulting</organization>
+    </author>
+    <author initials="J." surname="Ryoo" fullname="Jeong-dong Ryoo">
+      <organization>ETRI</organization>
+    </author>
+    <author initials="P." surname="Liu" fullname="Peng Liu">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="G." surname="Li" fullname="Guangpeng Li">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="S." surname="Ren" fullname="Shoushou Ren">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <date day="15" month="November" year="2026"/>
+    <abstract>
+      <t>This memo specifies a forwarding method for bounded latency and
+   bounded jitter for Deterministic Networks.  It is a variant of the
+   IEEE TSN 802.1Q(ch) Cyclic Queuing and Forwarding (CQF) method,
+   called Tagged CQF (TCQF), in which the cycle number is indicated in
+   an existing or new packet header field, called the cycle tag.  This
+   tag allows more than two cycles to be used and replaces the cycle
+   mapping of CQF, which is based purely on the synchronized reception
+   clock.
+
+   Whereas CQF supports low end-to-end jitter across limited-scale
+   networks with link speeds mostly up to 10Gbps, TCQF supports the same
+   low end-to-end jitter across large-scale, wide-area networks with
+   high per-hop latency and jitter (which is not possible with CQF), and
+   enables high-speed hardware implementations above 10Gbps without
+   requiring more accurate clock synchronization.  Like CQF, TCQF
+   eliminates the need for per-DetNet-flow state on midpoint routers,
+   requiring only flow-agnostic cycle state.  Because it is specified as
+   a DetNet scheduling method, TCQF can be deployed not only as a sub-
+   network method, but also as part of a DetNet forwarder.
+
+   This memo standardizes TCQF as a mechanism independent of the tagging
+   method used.  It also specifies tagging via (1) the existing MPLS
+   packet Traffic Class (TC) field for MPLS packets, (2) the IP/IPv6
+   DSCP field for IP/IPv6 packets, and (3) a new TCQF Option header for
+   IPv6 packets.</t>
+    </abstract>
+  </front>
+</reference>

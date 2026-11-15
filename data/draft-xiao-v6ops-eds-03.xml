@@ -1,0 +1,27 @@
+<reference anchor="I-D.xiao-v6ops-eds" target="https://datatracker.ietf.org/doc/html/draft-xiao-v6ops-eds-03">
+  <front>
+    <title>Enhanced Dual Stack: Connection-Informed IPv6/IPv4 Selection</title>
+    <seriesInfo name="Internet-Draft" value="draft-xiao-v6ops-eds-03"/>
+    <author initials="X." surname="Xiao" fullname="XiPeng Xiao">
+      <organization>Huawei Technologies Dusseldorf</organization>
+    </author>
+    <date day="15" month="November" year="2026"/>
+    <abstract>
+      <t>This document describes Enhanced Dual Stack (EDS), a framework
+   intended to reduce the operational risk and upfront workload of
+   introducing IPv6 into existing IPv4 networks.  EDS provides a
+   connection-informed method for implementing RFC 6724 Rule 1, "Avoid
+   unusable destinations", by remembering recent TCP/QUIC connection-
+   establishment failures and avoiding repeated selection of affected
+   IPv6 destinations.  It also provides operational diagnostics so
+   administrators can identify and correct IPv6 problems.  EDS is
+   complementary to Happy Eyeballs and does not require connection
+   racing.  By starting with selected EDS-capable pioneer hosts,
+   performing practical validation, and expanding IPv6 gradually, EDS
+   can be deployed incrementally without requiring all hosts to support
+   EDS.  With EDS, enterprises' IPv6 introduction can change from a
+   heavy upfront validation process toward an incremental improvement
+   process.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,30 @@
+<reference anchor="I-D.singh-psi-agent" target="https://datatracker.ietf.org/doc/html/draft-singh-psi-agent-02">
+  <front>
+    <title>Binding Decisions and Settlements to Agent Action Records</title>
+    <seriesInfo name="Internet-Draft" value="draft-singh-psi-agent-02"/>
+    <author initials="K." surname="singh" fullname="kawaljeet singh">
+      <organization>APEX Infrastructure</organization>
+    </author>
+    <date day="15" month="November" year="2026"/>
+    <abstract>
+      <t>This document extends [I-D.psi-agent-01], which records what a
+   software agent did.  A record of an action does not show who said the
+   work was to be done, what the model asked to do, what a policy engine
+   permitted, or what was paid.
+
+   This document defines four statements -- a mandate, a proposal, a
+   decision, and a settlement -- and the rules that bind them to a chain
+   of action records under one run identifier.  Each statement is signed
+   by its own party with its own key.  A verifier that holds the
+   statements can test, offline and without trusting the agent, whether
+   the action chain is unbroken, whether the decision that permitted it
+   was signed by a key other than the one named as the acting key, and
+   whether the amount settled lay inside the limit the mandate declared.
+
+   A valid envelope shows that identified parties made these statements
+   and that the statements have not changed since they were sealed.  It
+   does not show that any statement was correct, sufficient, lawful, or
+   true, and it makes no legal representation of any kind.</t>
+    </abstract>
+  </front>
+</reference>

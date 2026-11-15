@@ -1,0 +1,24 @@
+<reference anchor="I-D.srivastava-agentproto-handoff-context" target="https://datatracker.ietf.org/doc/html/draft-srivastava-agentproto-handoff-context-02">
+  <front>
+    <title>Signed Handoff Context for Agentic Dialogs</title>
+    <seriesInfo name="Internet-Draft" value="draft-srivastava-agentproto-handoff-context-02"/>
+    <author initials="K." surname="Srivastava" fullname="Kumar Srivastava">
+      <organization>Quantum Learning Machines</organization>
+    </author>
+    <date day="15" month="November" year="2026"/>
+    <abstract>
+      <t>When one agent hands a task to another, the receiver needs to know
+   who handed it over, on whose behalf, through which earlier agents,
+   and which prior context the work depends on.  It needs to know the
+   handoff is fresh and meant for it, and the sender needs a clear
+   answer back.  This document defines a small, transport-neutral
+   handoff context: a signed offer, a signed status reply, and the chain
+   of earlier offers that led to the current one, in CDDL for JSON and
+   CBOR, with a lifecycle that maps to Agent2Agent task states.  Each
+   offer names the one before it by hash, so a dropped or reordered
+   intermediate hop is detectable when the chain is carried.  Prior
+   context is named by digest only.  The document is input to the
+   agentproto working group's use cases and dialog-context work.</t>
+    </abstract>
+  </front>
+</reference>

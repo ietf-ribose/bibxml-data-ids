@@ -1,0 +1,23 @@
+<reference anchor="I-D.kozuka-quic-stateless-punch" target="https://datatracker.ietf.org/doc/html/draft-kozuka-quic-stateless-punch-00">
+  <front>
+    <title>Stateless Server-Assisted Hole Punching for QUIC</title>
+    <seriesInfo name="Internet-Draft" value="draft-kozuka-quic-stateless-punch-00"/>
+    <author initials="M." surname="Kozuka" fullname="Masahiro Kozuka">
+      <organization>Okayama University</organization>
+    </author>
+    <date day="15" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies a QUIC extension that lets two endpoints
+   connected through a relay establish a direct path between them when
+   one or both are behind Network Address Translators (NATs).  The
+   client asks the server, over the existing connection, to send a
+   single small "punch" packet toward one of the client's address
+   candidates.  The server keeps no per-attempt state and does not
+   initiate validation of candidate paths.  After a short delay, the
+   client validates the direct path using ordinary client-initiated path
+   validation as defined in RFC 9000, or ordinary path creation as
+   defined in RFC 10069 when QUIC multipath is in use, and can then
+   migrate the connection to it.</t>
+    </abstract>
+  </front>
+</reference>
