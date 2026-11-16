@@ -1,0 +1,22 @@
+<reference anchor="I-D.kelley-rep-namespaces" target="https://datatracker.ietf.org/doc/html/draft-kelley-rep-namespaces-00">
+  <front>
+    <title>Namespaces for the Robots Exclusion Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-kelley-rep-namespaces-00"/>
+    <author initials="K." surname="Kelley" fullname="Kevin Kelley">
+      <organization>Anthropic</organization>
+    </author>
+    <date day="16" month="November" year="2026"/>
+    <abstract>
+      <t>This document updates RFC 9309, the Robots Exclusion Protocol, so
+   that a _selector_ (User-Agent: line) in a robots.txt group can carry
+   a _label_ that is optionally qualified by a _namespace_.  The product
+   tokens of that standard are described here as unqualified labels;
+   labels qualified by a namespace are written __&lt;namespace&gt;_&lt;label&gt;.
+   It reserves the sequence __ for that purpose, establishes a registry
+   of namespaces, and specifies how namespaced labels are matched.  It
+   also defines terminology for existing parts of robots.txt files.
+   Existing robots.txt files are interpreted as before, and deployed
+   parsers ignore namespaced labels.</t>
+    </abstract>
+  </front>
+</reference>

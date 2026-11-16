@@ -1,0 +1,27 @@
+<reference anchor="I-D.nandakumar-agentproto-pace-http" target="https://datatracker.ietf.org/doc/html/draft-nandakumar-agentproto-pace-http-00">
+  <front>
+    <title>PACE Binding over HTTP</title>
+    <seriesInfo name="Internet-Draft" value="draft-nandakumar-agentproto-pace-http-00"/>
+    <author initials="S." surname="Nandakumar" fullname="Suhas Nandakumar">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="C. F." surname="Jennings" fullname="Cullen Fluffy Jennings">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date day="16" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies how the dialog management of the Protocol for
+   Agent Communication Exchange (PACE) is carried over HTTP.  It maps
+   PACE control operations onto HTTP resources, methods, and an event
+   stream, and defines a header field that ties application requests to
+   a dialog.  The binding uses HTTP semantics only, so it works over
+   HTTP/1.1, HTTP/2, and HTTP/3.  Protocols that already run over HTTP,
+   such as A2A and MCP, join a dialog without changes to their
+   transports or messages.  An optional track resource carries dialog
+   content that no application protocol carries, such as authorization
+   checkpoints.  The document also describes where Oblivious HTTP can
+   hide a participant's network address from the dialog host, and how
+   the binding relates to A-SIP.</t>
+    </abstract>
+  </front>
+</reference>

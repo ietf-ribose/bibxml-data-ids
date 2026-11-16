@@ -1,0 +1,29 @@
+<reference anchor="I-D.rasmussen-acme-wif" target="https://datatracker.ietf.org/doc/html/draft-rasmussen-acme-wif-01">
+  <front>
+    <title>Workload Identity Tokens in Automated Certificate Management Environment (ACME) Orders</title>
+    <seriesInfo name="Internet-Draft" value="draft-rasmussen-acme-wif-01"/>
+    <author initials="S." surname="Rasmussen" fullname="Scott Rasmussen">
+      <organization>Independent</organization>
+    </author>
+    <date day="16" month="November" year="2026"/>
+    <abstract>
+      <t>Enterprises hold large certificate inventories, yet few of their
+   certificates are managed through ACME.  Many workloads, such as CI/CD
+   jobs, containers, virtual machines, cloud services and the automation
+   that manages appliances, cannot complete ACME's challenges.
+   Certification Authorities (CAs) and Certificate Lifecycle Management
+   (CLM) systems that serve them fall back to External Account Binding
+   (EAB) with long-lived shared secrets, or to proprietary APIs.
+
+   OpenID Connect (OIDC) provides a short-lived cryptographically
+   verified identity token to the workload.  This document lets an ACME
+   client send that token with each newOrder request.  The token can be
+   bound to the request's nonce and account key through its audience
+   claim, so identity providers need no changes.  The CA/CLM verifies
+   the token and, under its own policy, may pre-authorize the identifier
+   in the order, as RFC 8555 already allows.  This replaces the EAB
+   secret with a fresh, per-order proof of workload identity.  It does
+   not change how CAs validate control of identifiers.</t>
+    </abstract>
+  </front>
+</reference>

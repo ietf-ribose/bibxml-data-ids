@@ -1,0 +1,28 @@
+<reference anchor="I-D.luzhnov-ocx" target="https://datatracker.ietf.org/doc/html/draft-luzhnov-ocx-00">
+  <front>
+    <title>Orchestrator Conduct Exchange (OCX)</title>
+    <seriesInfo name="Internet-Draft" value="draft-luzhnov-ocx-00"/>
+    <author initials="S." surname="Luzhnov" fullname="Sergei Luzhnov">
+      <organization>Xonta</organization>
+    </author>
+    <date day="16" month="November" year="2026"/>
+    <abstract>
+      <t>AI agents increasingly act on behalf of people and organizations
+   through tools and through other agents.  The Model Context Protocol
+   (MCP) connects an agent to tools, and Agent-to-Agent (A2A) protocols
+   connect agents to each other.  Neither connects the parties that
+   answer for agents at runtime: their orchestrators.
+
+   This document specifies the Orchestrator Conduct Exchange (OCX), an
+   open, peer-to-peer protocol by which orchestrators exchange signed,
+   independently verifiable signals about agent conduct.  When an agent
+   misreports its actions to one orchestrator, that orchestrator can
+   send its peers a signed signal carrying proof within seconds.  Each
+   peer checks the proof itself rather than trusting the sender, and
+   decides on its own what limits to apply.  OCX has no central
+   authority.  A signal is information, not an order, and only evidence
+   that a receiver can verify cryptographically and mechanically may
+   drive an immediate reaction.</t>
+    </abstract>
+  </front>
+</reference>

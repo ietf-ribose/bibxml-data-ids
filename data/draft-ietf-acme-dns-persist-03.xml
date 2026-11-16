@@ -1,0 +1,27 @@
+<reference anchor="I-D.ietf-acme-dns-persist" target="https://datatracker.ietf.org/doc/html/draft-ietf-acme-dns-persist-03">
+  <front>
+    <title>Automated Certificate Management Environment (ACME) Challenge for Persistent DNS TXT Record Validation</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-acme-dns-persist-03"/>
+    <author initials="S." surname="Heurich" fullname="Shiloh Heurich">
+      <organization>Fastly</organization>
+    </author>
+    <author initials="H." surname="Birge-Lee" fullname="Henry Birge-Lee">
+      <organization>Crosslayer Labs, Inc.</organization>
+    </author>
+    <author initials="M." surname="Slaughter" fullname="Michael Slaughter">
+      <organization>Amazon Trust Services</organization>
+    </author>
+    <date day="15" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies "dns-persist-01", an Automated Certificate
+   Management Environment (ACME) challenge that verifies domain or IP
+   address control using a persistent DNS TXT record.  The record
+   identifies a certification authority (CA) and binds validation to an
+   ACME account.  It can be published before certificate requests and
+   reused without per-request DNS changes, including when different
+   parties perform DNS publication and ACME operation.  Use under a
+   certificate policy or trust program remains subject to that policy's
+   requirements.</t>
+    </abstract>
+  </front>
+</reference>

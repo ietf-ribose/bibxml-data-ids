@@ -1,0 +1,31 @@
+<reference anchor="I-D.ashcroft-approval-record" target="https://datatracker.ietf.org/doc/html/draft-ashcroft-approval-record-00">
+  <front>
+    <title>An Approval-Act Record for Standing Authorization Grants</title>
+    <seriesInfo name="Internet-Draft" value="draft-ashcroft-approval-record-00"/>
+    <author initials="J." surname="Ashcroft" fullname="Joshua Ashcroft">
+      <organization>Kipple Labs</organization>
+    </author>
+    <author initials="B." surname="Morrison" fullname="Blake Morrison">
+      <organization>Alter Meridian Pty Ltd</organization>
+    </author>
+    <author initials="N." surname="Mathews" fullname="Nick Mathews">
+      <organization>Agentic Verification Architecture</organization>
+    </author>
+    <date day="16" month="November" year="2026"/>
+    <abstract>
+      <t>A standing authorization grant is an artifact that outlives the event
+   that produced it.  Existing authentication-strength vocabulary (acr/
+   amr) describes authentication events and travels on tokens.  Nothing
+   carries a record of how a standing grant's approval was performed to
+   the party verifying the grant, possibly days later and with no human
+   present.  This document defines an approval-act record: evidence of
+   the approval ceremony, bound to the exact grant issuance approved,
+   and carried in-band with the grant it authorizes.  It defines one
+   initial evidence type (WebAuthn assertions over a hash of the
+   canonical grant), states precisely which of the record's claims a
+   verifier can recompute, which rest on vendor attestation, and which
+   remain attested by the operator, and provides a worked example with a
+   failure matrix.</t>
+    </abstract>
+  </front>
+</reference>

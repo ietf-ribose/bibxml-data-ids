@@ -1,0 +1,24 @@
+<reference anchor="I-D.nandakumar-oauth-actor-bound-token-exchange" target="https://datatracker.ietf.org/doc/html/draft-nandakumar-oauth-actor-bound-token-exchange-00">
+  <front>
+    <title>OAuth 2.0 Token Exchange with Actor-Bound Tokens</title>
+    <seriesInfo name="Internet-Draft" value="draft-nandakumar-oauth-actor-bound-token-exchange-00"/>
+    <author initials="S." surname="Nandakumar" fullname="Suhas Nandakumar">
+      <organization>Cisco</organization>
+    </author>
+    <author initials="C. F." surname="Jennings" fullname="Cullen Fluffy Jennings">
+      <organization>Cisco Systems</organization>
+    </author>
+    <date day="16" month="November" year="2026"/>
+    <abstract>
+      <t>In OAuth 2.0 Token Exchange, the client that sends the request
+   receives the token, and with DPoP the token is bound to the key that
+   signed the client's proof.  Agent systems often need one party to
+   obtain a token for another: an orchestrating agent that approves an
+   action obtains a token for the agent that will perform it.  This
+   document lets a token exchange client request that the issued token
+   be bound to the key of the actor named in the request, and requires
+   the actor to prove possession of that key, so that the token is
+   usable only by the actor and only with its consent.</t>
+    </abstract>
+  </front>
+</reference>

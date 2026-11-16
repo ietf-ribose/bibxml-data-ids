@@ -1,0 +1,19 @@
+<reference anchor="I-D.watts-scientific-data-record" target="https://datatracker.ietf.org/doc/html/draft-watts-scientific-data-record-00">
+  <front>
+    <title>A Provenance-Bounded Record Format for Scientific Data</title>
+    <seriesInfo name="Internet-Draft" value="draft-watts-scientific-data-record-00"/>
+    <author initials="D." surname="Watts" fullname="Deont&#xE9; Watts">
+      <organization>GoodShyt Group Inc.</organization>
+    </author>
+    <date day="16" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies a JSON record format for scientific data and
+   the claims derived from it.  Each record binds a claim to an
+   immutable source digest, a claim class, an evidence tier, a mandatory
+   falsifier, a set of typed check results, and a provenance trail.
+   Processing is fail-closed: a missing, unknown, or not-run check
+   blocks admissibility.  The format proves custody and unchanged bytes.
+   It does not certify that a claim is true.</t>
+    </abstract>
+  </front>
+</reference>
