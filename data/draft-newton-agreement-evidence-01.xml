@@ -1,0 +1,38 @@
+<reference anchor="I-D.newton-agreement-evidence" target="https://datatracker.ietf.org/doc/html/draft-newton-agreement-evidence-01">
+  <front>
+    <title>Agreement Evidence for Multi-Party Agent Negotiation</title>
+    <seriesInfo name="Internet-Draft" value="draft-newton-agreement-evidence-01"/>
+    <author initials="E." surname="Newton" fullname="Erik Newton"/>
+    <author initials="A." surname="Saraff" fullname="Avinash Saraff">
+      <organization>A2CN</organization>
+    </author>
+    <author initials="C." surname="Magorrian" fullname="Christian Magorrian">
+      <organization>A2CN</organization>
+    </author>
+    <date day="17" month="November" year="2026"/>
+    <abstract>
+      <t>Autonomous agents can exchange offers and signatures without
+   producing an artifact that records which parties reached which
+   outcome, over which binding values, and for how long that record may
+   be relied upon.  This document defines a protocol-neutral agreement
+   attestation primitive, the contract a protocol profile meets to
+   instantiate it, and two protocol profiles.  A verified attestation
+   establishes one thing: that a named set of parties jointly
+   countersigned a stated outcome over stated binding values, together
+   with behavioral counters each of them accepted.  It does not
+   establish that the outcome matches what a transcript says, that any
+   statement a party made is true, that the binding values are complete,
+   or that the parties are anonymous.  The format provides no member for
+   a negotiated price, quantity, date, or principal identity.  A
+   producer is obligated not to place those values in the free-text
+   members the format does provide, and a verifier cannot detect a
+   violation of that obligation, so the absence of term values from a
+   received object is a producer's obligation rather than a verified
+   property.
+
+   This document does not define identity, authority delegation,
+   payment, settlement, transport, boundary-decision receipts, or a
+   general evidence composition and sufficiency model.</t>
+    </abstract>
+  </front>
+</reference>

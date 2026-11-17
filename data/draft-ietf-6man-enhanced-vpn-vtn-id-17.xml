@@ -1,0 +1,37 @@
+<reference anchor="I-D.ietf-6man-enhanced-vpn-vtn-id" target="https://datatracker.ietf.org/doc/html/draft-ietf-6man-enhanced-vpn-vtn-id-17">
+  <front>
+    <title>Carrying Network Resource Context Information in IPv6 Extension Headers and its Applicability to Network Resource Partitions</title>
+    <seriesInfo name="Internet-Draft" value="draft-ietf-6man-enhanced-vpn-vtn-id-17"/>
+    <author initials="J." surname="Dong" fullname="Jie Dong">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="Z." surname="Li" fullname="Zhenbin Li">
+      <organization>Huawei Technologies</organization>
+    </author>
+    <author initials="C." surname="Xie" fullname="Chongfeng Xie">
+      <organization>China Telecom</organization>
+    </author>
+    <author initials="C." surname="Ma" fullname="Chenhao Ma">
+      <organization>China Telecom</organization>
+    </author>
+    <author initials="G. S." surname="Mishra" fullname="Gyan Mishra">
+      <organization>Verizon Inc.</organization>
+    </author>
+    <date day="17" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies a new IPv6 Hop-by-Hop option to carry Network
+   Resource related information in data packets.  The new option is
+   called the Network Resource (NR) Option.  It can be used to carry
+   general information about network resource semantics and functions.
+
+   A Network Resource Partition (NRP) is a subset of the network
+   resources and associated policies on each of a connected set of links
+   in an underlay network.  When forwarding packets within a specific
+   NRP, some fields in the data packet (these fields are called the NRP
+   Selector ID) are used to identify the NRP to which the packet belongs
+   so that NRP-specific processing can be performed on each node along
+   the forwarding path.  The Network Resource Option can be used to
+   carry the NRP Selector ID in IPv6 packets.</t>
+    </abstract>
+  </front>
+</reference>

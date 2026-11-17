@@ -1,0 +1,34 @@
+<reference anchor="I-D.vos-cfrg-pqpake" target="https://datatracker.ietf.org/doc/html/draft-vos-cfrg-pqpake-04">
+  <front>
+    <title>Hybrid Post-Quantum Password Authenticated Key Exchange</title>
+    <seriesInfo name="Internet-Draft" value="draft-vos-cfrg-pqpake-04"/>
+    <author initials="J." surname="Vos" fullname="Jelle Vos">
+      <organization>Apple, Inc.</organization>
+    </author>
+    <author initials="S." surname="Jarecki" fullname="Stanislaw Jarecki">
+      <organization>University of California, Irvine</organization>
+    </author>
+    <author initials="C. A." surname="Wood" fullname="Christopher A. Wood">
+      <organization>Cloudflare</organization>
+    </author>
+    <date day="17" month="November" year="2026"/>
+    <abstract>
+      <t>This document focuses on the problem of password authenticated key
+   exchange in a post-quantum setting, a gap for which there does not
+   exist any protocol suitable for deployment.  Given PAKE uses in
+   settings such as device pairing and client-server authentication,
+   this gap has real world security consequences.  This document
+   addresses this gap with four post-quantum password authenticated key
+   exchange (PAKE) protocols: OQUAKE, OQUAKE+, CPaceOQUAKE, and
+   CPaceOQUAKE+. OQUAKE and OQUAKE+ are standalone PAKEs that both offer
+   security against a quantum-capable attacker.  OQUAKE is a symmetric
+   PAKE, suitable for use cases where both parties share a view of the
+   password.  OQUAKE+ is an augmented version of OQUAKE suitable for
+   client-server settings where only one party (the client) knows the
+   password.  CPaceOQUAKE is a hybrid PAKE that runs a classical PAKE
+   (CPace) and OQUAKE sequentially, and CPaceOQUAKE+ is its augmented
+   version.  This document also provides recommended configurations for
+   each protocol.</t>
+    </abstract>
+  </front>
+</reference>

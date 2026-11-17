@@ -1,0 +1,28 @@
+<reference anchor="I-D.jags-spring-icmp-error-srv6-evpn" target="https://datatracker.ietf.org/doc/html/draft-jags-spring-icmp-error-srv6-evpn-00">
+  <front>
+    <title>ICMP Error Handling for EVPN-VPWS in SRv6 Networks</title>
+    <seriesInfo name="Internet-Draft" value="draft-jags-spring-icmp-error-srv6-evpn-00"/>
+    <author initials="J." surname="Rajamanickam" fullname="Jaganbabu Rajamanickam">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author initials="M." surname="Sankaranarayanan" fullname="Madhan Sankaranarayanan">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author initials="Z." surname="Ali" fullname="Zafar Ali">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <date day="17" month="November" year="2026"/>
+    <abstract>
+      <t>This document describes procedures for handling ICMP error messages
+   for Ethernet VPN Virtual Private Wire Service (EVPN-VPWS) in Segment
+   Routing over IPv6 (SRv6) networks.  It describes an ingress-PE
+   approach that associates a received ICMPv6 error with the EVPN
+   service, constructs eligible customer ICMP feedback, and uses local
+   End.DX2 disposition to apply the appropriate Ethernet and VLAN
+   treatment.  The discussion covers IPv4 and IPv6 customer traffic, the
+   handling of the different ICMP error classes, and the additional
+   procedures applicable to Packet Too Big messages and Path MTU
+   Discovery.</t>
+    </abstract>
+  </front>
+</reference>

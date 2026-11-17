@@ -1,0 +1,38 @@
+<reference anchor="I-D.john-scion-happy-eyeballs" target="https://datatracker.ietf.org/doc/html/draft-john-scion-happy-eyeballs-00">
+  <front>
+    <title>SCION in Happy Eyeballs Version 3</title>
+    <seriesInfo name="Internet-Draft" value="draft-john-scion-happy-eyeballs-00"/>
+    <author initials="T." surname="John" fullname="Tony John">
+      <organization>OVGU Magdeburg</organization>
+    </author>
+    <author initials="J." surname="van Bommel" fullname="Jelte van Bommel">
+      <organization>ETH Zurich</organization>
+    </author>
+    <author initials="T." surname="Z&#xE4;schke" fullname="Tilmann Z&#xE4;schke">
+      <organization>ETH Zurich</organization>
+    </author>
+    <author initials="L." surname="Schulz" fullname="Lars-Christian Schulz">
+      <organization>OVGU Magdeburg</organization>
+    </author>
+    <author initials="N." surname="Rustignoli" fullname="Nicola Rustignoli">
+      <organization>SCION Association</organization>
+    </author>
+    <date day="17" month="November" year="2026"/>
+    <abstract>
+      <t>SCION (Scalability, Control, and Isolation On Next-generation
+   networks) is a path-aware inter-domain network architecture in which
+   an endpoint chooses the path of its packets.  A service can publish
+   SCION addresses next to its IPv4 and IPv6 addresses in DNS Service
+   Binding (SVCB) and HTTPS records.  This document specifies how a
+   Happy Eyeballs Version 3 client uses these addresses.  SCION
+   addresses form a third address family, so that the client connects
+   over SCION where SCION works and over IP where it does not.  Because
+   one path can fail while others work, the client attempts a SCION
+   address on up to three paths that differ from each other (two by
+   default).  It starts these attempts a short delay apart (50
+   milliseconds by default), each as a separate connection, and uses the
+   first attempt that succeeds.  This document is Experimental.  It
+   states what is to be measured to confirm or change these defaults.</t>
+    </abstract>
+  </front>
+</reference>

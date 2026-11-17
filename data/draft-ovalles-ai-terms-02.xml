@@ -1,0 +1,26 @@
+<reference anchor="I-D.ovalles-ai-terms" target="https://datatracker.ietf.org/doc/html/draft-ovalles-ai-terms-02">
+  <front>
+    <title>AI Terms: Per-Use Terms, Payment and Receipts for Automated AI Access to Web Content</title>
+    <seriesInfo name="Internet-Draft" value="draft-ovalles-ai-terms-02"/>
+    <author initials="D." surname="Ovalles" fullname="Damien Ovalles">
+      <organization>AIPayGen</organization>
+    </author>
+    <date day="17" month="November" year="2026"/>
+    <abstract>
+      <t>This document defines AI Terms: a JSON document published at the
+   well-known URI /.well-known/ai-terms in which a website states, for
+   each of four uses of its content by automated AI systems (search,
+   answer, training and agent), whether the use is allowed, allowed for
+   a price, or not allowed.  It also defines an AI-Purpose request
+   header with which a client declares the use it intends, a way to
+   point to the terms from any HTTP response, how a quote for a paid
+   page can describe the page so that payment depends on that page being
+   delivered, and how a paid access produces a receipt that records the
+   use.  AI Terms is designed to sit alongside the Robots Exclusion
+   Protocol and the usage-preference vocabulary of the IETF AI
+   Preferences work, adding the pieces those leave out: price, a free
+   allowance, payment binding, a description of what is being bought,
+   purpose declaration by the client, and a record of licensed use.</t>
+    </abstract>
+  </front>
+</reference>

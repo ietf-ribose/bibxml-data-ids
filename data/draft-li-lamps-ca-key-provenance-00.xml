@@ -1,0 +1,21 @@
+<reference anchor="I-D.li-lamps-ca-key-provenance" target="https://datatracker.ietf.org/doc/html/draft-li-lamps-ca-key-provenance-00">
+  <front>
+    <title>Key Provenance Evidence for Certification Authority Keys</title>
+    <seriesInfo name="Internet-Draft" value="draft-li-lamps-ca-key-provenance-00"/>
+    <author initials="L." surname="Li" fullname="Leonard Li"/>
+    <date day="16" month="November" year="2026"/>
+    <abstract>
+      <t>Many cryptographic modules can sign a statement that they generated a
+   given key, using an attestation key that the module vendor certifies.
+   This document defines Key Provenance Evidence (KPE), which applies
+   this to the keys of certification authorities (CAs).  A KPE file
+   carries the public key of a CA together with the statements that
+   modules signed about it.  Anyone can then verify a chain of
+   signatures from the vendor's trust anchor to the public key in a CA
+   certificate, and so confirm that the private key was generated inside
+   a module.  The signed statements stay in the formats that module
+   vendors already use, which are listed in a new IANA registry.
+   Modules that are already deployed need no changes.</t>
+    </abstract>
+  </front>
+</reference>
