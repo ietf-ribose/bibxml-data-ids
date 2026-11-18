@@ -1,0 +1,28 @@
+<reference anchor="I-D.enger-httpbis-http4-wiqc" target="https://datatracker.ietf.org/doc/html/draft-enger-httpbis-http4-wiqc-00">
+  <front>
+    <title>HTTP/4: Mapping HTTP Semantics over the WIQC Decentralized Real-Time Torrent Transport Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-enger-httpbis-http4-wiqc-00"/>
+    <author initials="S." surname="Enger" fullname="Sebastian Enger">
+      <organization>Einzelunternehmen Sebastian Enger</organization>
+    </author>
+    <date day="18" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies HTTP/4, an application-layer mapping of HTTP
+   semantics over a decentralized, peer-to-peer real-time streaming
+   transport protocol named WIQC (Web-Integrated QUIC-derived Content-
+   swarming).  By design, the HTTP/4 protocol allows decentralized real-
+   time streaming via a torrent protocol called not QUIC but WIQC.
+   While HTTP/3 delegates stream multiplexing and congestion control to
+   unicast client-server QUIC connections, HTTP/4 extends these
+   capabilities to multipoint peer swarms.  WIQC integrates encrypted
+   UDP stream multiplexing with fine-grained cryptographic block
+   verification using SHA-256 Merkle hash trees, live sliding-window
+   chunk addressing, Unified Merkle Tree signatures for low-latency live
+   streams, mutual peer authentication without centralized certificate
+   authorities, and native UDP hole punching.  This specification
+   defines the wire framing, stream mapping, swarm discovery headers,
+   real-time object prioritization, and security properties required to
+   operate HTTP/4 natively across decentralized networks.</t>
+    </abstract>
+  </front>
+</reference>

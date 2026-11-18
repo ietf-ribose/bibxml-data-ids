@@ -1,0 +1,41 @@
+<reference anchor="I-D.zehavi-oauth-aud-bound-authz" target="https://datatracker.ietf.org/doc/html/draft-zehavi-oauth-aud-bound-authz-00">
+  <front>
+    <title>OAuth 2.0 Audience-Bound Client Authorization</title>
+    <seriesInfo name="Internet-Draft" value="draft-zehavi-oauth-aud-bound-authz-00"/>
+    <author initials="Y." surname="Zehavi" fullname="Yaron Zehavi">
+      <organization>Raiffeisen Bank International</organization>
+    </author>
+    <date day="18" month="November" year="2026"/>
+    <abstract>
+      <t>OAuth 2.0 access tokens are commonly audience-restricted to a
+   specific protected resource.  Several OAuth operations are performed
+   by a client on behalf of that protected resource and act on such a
+   token, including OAuth 2.0 Token Exchange [RFC8693], in which the
+   protected resource exchanges a received token to call downstream
+   services, and OAuth 2.0 Token Introspection [RFC7662], in which the
+   protected resource asks the authorization server about a received
+   token.
+
+   In each case, the authorization server needs to ensure that only a
+   client legitimately representing the token's audience can perform the
+   operation, to prevent misuse of the token by unauthorized parties.
+
+   This document defines a model in which authorization to perform such
+   operations is anchored in the audience of the token.  An
+   authorization server determines whether the requesting client is
+   associated with the protected resource identified by the token
+   audience, then applies the remaining authorization policy for the
+   requested operation.
+
+   This relationship can be established by authorization server local
+   policy, by validating a private_key_jwt client authentication
+   assertion using the protected resource's jwks_uri, or by using a new
+   OAuth 2.0 Protected Resource Metadata parameter that identifies the
+   OAuth clients representing the protected resource.
+
+   This document specifies how the model applies to token exchange and
+   to token introspection, and allows other specifications to apply it
+   to additional operations.</t>
+    </abstract>
+  </front>
+</reference>

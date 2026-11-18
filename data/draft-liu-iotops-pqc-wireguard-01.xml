@@ -1,0 +1,43 @@
+<reference anchor="I-D.liu-iotops-pqc-wireguard" target="https://datatracker.ietf.org/doc/html/draft-liu-iotops-pqc-wireguard-01">
+  <front>
+    <title>A Post-Quantum Bootstrap Profile for WireGuard</title>
+    <seriesInfo name="Internet-Draft" value="draft-liu-iotops-pqc-wireguard-01"/>
+    <author initials="P." surname="Liu" fullname="Penghui Liu">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="R." surname="Yang" fullname="Rongwei Yang">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="Y." surname="Zhang" fullname="Yu Zhang">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="X." surname="Zhong" fullname="Xiaoxiong Zhong">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="Y." surname="Gong" fullname="Yanjie  Gong">
+      <organization>Schneider Electric</organization>
+    </author>
+    <date day="18" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies a post-quantum bootstrap profile for
+   WireGuard.  A mutually authenticated ML-KEM-768 and ML-DSA exchange
+   derives a 32-octet preshared key (PSK), verifies key possession, and
+   binds it to configured endpoint identities and WireGuard public keys.
+   The resulting key is installed through the ordinary WireGuard
+   PresharedKey configuration field.
+
+   The profile defines canonical binary control records carried over
+   mutually authenticated TLS 1.3 on TCP, with explicit message lengths,
+   freshness, state transitions, and failure processing.  Bootstrap
+   carries the post-quantum contribution into the WireGuard PSK input;
+   it is therefore part of the post-quantum provisioning mechanism.  The
+   native WireGuard Noise handshake and transport packet format are
+   unchanged.
+
+   This Internet-Draft is a proposal for Standards Track publication.
+   It requests an ALPN protocol identifier for the bootstrap carrier.
+   The request is pending; this document does not assign a native
+   WireGuard packet type or a service port.</t>
+    </abstract>
+  </front>
+</reference>

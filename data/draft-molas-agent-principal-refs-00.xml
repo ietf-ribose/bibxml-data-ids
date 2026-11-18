@@ -1,0 +1,27 @@
+<reference anchor="I-D.molas-agent-principal-refs" target="https://datatracker.ietf.org/doc/html/draft-molas-agent-principal-refs-00">
+  <front>
+    <title>Accountable Principal References for Delegated Agent Requests: Properties and Evaluation</title>
+    <seriesInfo name="Internet-Draft" value="draft-molas-agent-principal-refs-00"/>
+    <author initials="M. M." surname="Carol" fullname="Marc Molas Carol">
+      <organization>MintID Foundation</organization>
+    </author>
+    <date day="18" month="November" year="2026"/>
+    <abstract>
+      <t>When a software agent makes a request on behalf of a person or an
+   organization, the party that receives it often needs to know that
+   someone answers for the request, without needing to know who.
+   Several specifications in progress carry some reference to the
+   principal behind an agent, and they make different choices about who
+   learns the principal's identity, when the reference can be linked
+   across services, who can resolve it, and how fast a withdrawn
+   principal stops being accepted.  This document states six properties
+   of such a principal reference in testable terms, maps each to
+   existing specifications that already provide part of it (OAuth 2.0
+   Token Exchange, the JWT profile for OAuth 2.0 access tokens, OAuth
+   identity chaining, Token Status List and Selective Disclosure for
+   JWTs), and gives a first-pass evaluation of five current drafts
+   against them.  It defines no token format, protocol or claim, and it
+   does not rank the drafts.</t>
+    </abstract>
+  </front>
+</reference>

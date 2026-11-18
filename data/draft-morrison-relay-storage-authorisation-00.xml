@@ -1,0 +1,31 @@
+<reference anchor="I-D.morrison-relay-storage-authorisation" target="https://datatracker.ietf.org/doc/html/draft-morrison-relay-storage-authorisation-00">
+  <front>
+    <title>Relay Storage Allowances That Expire at a Planned Contact</title>
+    <seriesInfo name="Internet-Draft" value="draft-morrison-relay-storage-authorisation-00"/>
+    <author initials="B." surname="Morrison" fullname="Blake Morrison">
+      <organization>Alter Meridian Pty Ltd</organization>
+    </author>
+    <date day="17" month="November" year="2026"/>
+    <abstract>
+      <t>The use case and requirements document for IP in deep space asks that
+   relays guard their buffers by authenticating and authorising the
+   traffic sources allowed to consume buffer space, and by accounting
+   for storage per source or traffic class.  This document gives that
+   requirement a mechanism.  A storage allowance is a signed object in
+   which a party with authority over a relay's storage states that a
+   named holder may keep up to a stated number of octets at each named
+   relay, until a planned contact between that relay and its next hop.
+   A relay checks an allowance from data it already holds, without
+   contacting the party that issued it.  It charges stored data to an
+   allowance by tagging the data in its own buffer and keeps no other
+   state for it.  No state is shared between relays, and at any instant
+   the storage held under one allowance is no more than the sum of its
+   rows.  An allowance ends at the first contact it lists that takes
+   place.  A missed contact moves the end to the next contact listed, up
+   to the last.  The document defines the allowance, its issuance and
+   delegation, enforcement at the relay, revocation, carriage in the
+   Bundle Protocol and over IP, and its use with signed custody receipts
+   for accounting.</t>
+    </abstract>
+  </front>
+</reference>

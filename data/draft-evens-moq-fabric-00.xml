@@ -1,0 +1,22 @@
+<reference anchor="I-D.evens-moq-fabric" target="https://datatracker.ietf.org/doc/html/draft-evens-moq-fabric-00">
+  <front>
+    <title>Media over QUIC Relay Fabric Protocol</title>
+    <seriesInfo name="Internet-Draft" value="draft-evens-moq-fabric-00"/>
+    <author initials="T." surname="Evens" fullname="Tim Evens">
+      <organization>Cisco</organization>
+    </author>
+    <date day="18" month="November" year="2026"/>
+    <abstract>
+      <t>This document defines moq-fabric, the relay fabric protocol used by
+   Media over QUIC ([MOQT]) relays to exchange node, announce, and
+   subscribe information and to forward objects between relays.  The
+   fabric is split into control peering and data peering.  Control
+   peering stays established and carries the information bases.  Data
+   peering carries objects and MAY be pre-established or opened on
+   demand.  The two functions MAY share one QUIC session or use separate
+   sessions.  A fabric session uses mutual TLS, together with an
+   OPTIONAL token for authentication and authorization, before the peers
+   exchange fabric state.</t>
+    </abstract>
+  </front>
+</reference>

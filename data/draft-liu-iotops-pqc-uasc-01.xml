@@ -1,0 +1,40 @@
+<reference anchor="I-D.liu-iotops-pqc-uasc" target="https://datatracker.ietf.org/doc/html/draft-liu-iotops-pqc-uasc-01">
+  <front>
+    <title>Post-Quantum Cryptographic Protection Profile for OPC UA Secure Conversation</title>
+    <seriesInfo name="Internet-Draft" value="draft-liu-iotops-pqc-uasc-01"/>
+    <author initials="P." surname="Liu" fullname="Penghui Liu">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="R." surname="Yang" fullname="Rongwei Yang">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="Y." surname="Zhang" fullname="Yu Zhang">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="X." surname="Zhong" fullname="Xiaoxiong Zhong">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="Y." surname="Gong" fullname="Yanjie  Gong">
+      <organization>Schneider Electric</organization>
+    </author>
+    <date day="18" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies a post-quantum cryptographic protection
+   profile for the OPC Unified Architecture Secure Conversation protocol
+   (OPC UA UASC) carried over the opc.tcp transport.  The profile uses
+   ML-KEM-768 for SecureChannel key establishment, ML-DSA for asymmetric
+   signatures, HKDF-SHA-256 for key derivation, and AES-256-GCM for
+   symmetric message protection.  It defines the profile identifiers,
+   nonce encoding, key schedule, authenticated-encryption inputs,
+   certificate and public-key binding requirements, token rollover
+   behavior, and conformance requirements.
+
+   This Internet-Draft is a proposal for Standards Track publication.
+   Permanent OPC UA SecurityPolicy and algorithm identifiers require
+   coordination with the OPC Foundation; the private identifiers
+   documented here remain provisional.  This document does not assign
+   official OPC UA identifiers or claim conformance with an OPC
+   Foundation specification.</t>
+    </abstract>
+  </front>
+</reference>

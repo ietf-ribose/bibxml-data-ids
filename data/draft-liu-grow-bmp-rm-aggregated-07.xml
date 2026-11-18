@@ -1,0 +1,37 @@
+<reference anchor="I-D.liu-grow-bmp-rm-aggregated" target="https://datatracker.ietf.org/doc/html/draft-liu-grow-bmp-rm-aggregated-07">
+  <front>
+    <title>Efficient BMP Route Monitoring Messages</title>
+    <seriesInfo name="Internet-Draft" value="draft-liu-grow-bmp-rm-aggregated-07"/>
+    <author initials="Y." surname="Liu" fullname="Yisong Liu">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="C." surname="Lin" fullname="Changwang Lin">
+      <organization>New H3C Technologies</organization>
+    </author>
+    <author initials="M. K." surname="Srivastava" fullname="Mukul Kumar Srivastava">
+      <organization>Hewlett Packard Enterprise</organization>
+    </author>
+    <author initials="N." surname="Prasad" fullname="Narasimha Prasad">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <author initials="D." surname="Patki" fullname="Dhananjay Patki">
+      <organization>Cisco Systems, Inc.</organization>
+    </author>
+    <date day="18" month="November" year="2026"/>
+    <abstract>
+      <t>This document proposes two complementary optimizations for the BGP
+   Monitoring Protocol (BMP) Route Monitoring message to significantly
+   reduce network overhead and improve monitoring efficiency.  The first
+   optimization defines an aggregated BMP Route Monitoring message based
+   on the Multi-Peer Header mechanism, which compresses multiple BMP
+   Route Monitoring messages into a single aggregated message by
+   leveraging BGP group packaging technology.  The second optimization
+   introduces a Common Update TLV that eliminates redundant transmission
+   of routes unchanged by inbound or outbound policies across different
+   RIB views.  These optimizations work together to reduce the number of
+   reported BMP messages, decrease bandwidth consumption, and improve
+   processing efficiency for both monitored routers and monitoring
+   stations.</t>
+    </abstract>
+  </front>
+</reference>

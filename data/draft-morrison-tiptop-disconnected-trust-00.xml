@@ -1,0 +1,26 @@
+<reference anchor="I-D.morrison-tiptop-disconnected-trust" target="https://datatracker.ietf.org/doc/html/draft-morrison-tiptop-disconnected-trust-00">
+  <front>
+    <title>A Disconnected Trust Model for Networks Without Continuous Connectivity</title>
+    <seriesInfo name="Internet-Draft" value="draft-morrison-tiptop-disconnected-trust-00"/>
+    <author initials="B." surname="Morrison" fullname="Blake Morrison">
+      <organization>Alter Meridian Pty Ltd</organization>
+    </author>
+    <date day="17" month="November" year="2026"/>
+    <abstract>
+      <t>The architecture document for IP in deep space says that security
+   designs must tolerate long validation delays and potentially operate
+   in a disconnected trust model, and it does not say what that model
+   is.  This document defines it.  A disconnected trust model is one in
+   which a node makes each trust decision from data it already holds or
+   is handed with the request, each item verifiable without asking a
+   third party, with a declared limit on how old each kind of held data
+   may be.  The document then asks what a node may do alone when it
+   cannot reach an authority, and lists the requirements any answer must
+   meet.  It leaves short credential lifetime, as the answer to
+   revocation without contact, with the documents that already give it.
+   On the direction of failure, it adds that an authority check that
+   cannot be evaluated fails closed on authority and never on safety.
+   It specifies no protocol and no mechanism.</t>
+    </abstract>
+  </front>
+</reference>

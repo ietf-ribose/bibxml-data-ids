@@ -1,0 +1,27 @@
+<reference anchor="I-D.morrison-did-alter-method" target="https://datatracker.ietf.org/doc/html/draft-morrison-did-alter-method-01">
+  <front>
+    <title>The did:alter Decentralized Identifier Method</title>
+    <seriesInfo name="Internet-Draft" value="draft-morrison-did-alter-method-01"/>
+    <author initials="B." surname="Morrison" fullname="Blake Morrison">
+      <organization>Alter Meridian Pty Ltd</organization>
+    </author>
+    <date day="17" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies the did:alter Decentralized Identifier
+   method.  A did:alter identifier names a ~handle together with the DNS
+   zone that publishes the handle's signed envelope, and it resolves to
+   a DID document by running the envelope recognition procedure of the
+   companion specification for discovering Model Context Protocol
+   servers through DNS TXT records, then expressing the verified
+   envelope's Ed25519 key as a verification method.  The identifier
+   agrees with the handle grammar of the alter URI scheme and with the
+   did:alter form already written by the identity-attributed commits
+   specification.  The method defines no record, cryptographic primitive
+   or registry of its own.  Its create, update and deactivate operations
+   publish, replace and revoke that envelope, and its read operation
+   verifies it.  The document also sets out what the method cannot yet
+   do, because the envelope record it reads carries no key history, and
+   revocation cannot presently be observed from DNS alone.</t>
+    </abstract>
+  </front>
+</reference>

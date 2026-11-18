@@ -1,0 +1,36 @@
+<reference anchor="I-D.cosme-audit-agent-traceability" target="https://datatracker.ietf.org/doc/html/draft-cosme-audit-agent-traceability-00">
+  <front>
+    <title>Delegation and Interaction Traceability for AI Agents: An Attestation and Registry Evidence Model</title>
+    <seriesInfo name="Internet-Draft" value="draft-cosme-audit-agent-traceability-00"/>
+    <author initials="C. F." surname="Cosme" fullname="Carlos Felipe Cosme">
+      <organization>Triple Optic Systems</organization>
+    </author>
+    <date day="18" month="November" year="2026"/>
+    <abstract>
+      <t>AI agents increasingly act through chains of delegation - user to agent,
+agent to subagent, subagent to tool - in which the party harmed by an
+action,
+or asked to trust its result, is rarely the party that operated the
+agent.
+This document describes requirements and an evidence model for
+delegation
+and interaction traceability in such chains. The model is built on two
+mechanisms for which measured, independently verifiable evidence exists:
+(a) an append-only, hash-chained exhibit registry in which each admitted
+action is recorded exactly once and counters reconcile against registry
+contents, and (b) per-action attestation published at kernel level with
+measured publication latencies in the sub-microsecond-to-microsecond
+range.
+The document defines a traceability record, states what a verifier can
+and
+cannot conclude from a set of such records, and identifies the points at
+
+which existing agent-protocol work - identity, authorisation, and
+transport -
+needs a common traceability layer. It defines no wire protocol of its
+own;
+it states the requirements a traceability mechanism must satisfy so that
+formats defined elsewhere can be evaluated against them.</t>
+    </abstract>
+  </front>
+</reference>

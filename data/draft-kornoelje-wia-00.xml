@@ -1,0 +1,28 @@
+<reference anchor="I-D.kornoelje-wia" target="https://datatracker.ietf.org/doc/html/draft-kornoelje-wia-00">
+  <front>
+    <title>Witnessed Integrity Attestations for Post-Incident System-State Verification</title>
+    <seriesInfo name="Internet-Draft" value="draft-kornoelje-wia-00"/>
+    <author initials="N. M." surname="Kornoelje" fullname="Nicholas Michael Kornoelje">
+      <organization>Independent Researcher</organization>
+    </author>
+    <date day="18" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies a Witness Attestation Record (WAR), a signed
+   and hash-linked record created by a witness after it accepts an
+   observation about a subject system.  Each record identifies the
+   subject, observation stream, checkpoint, observation time, evidence
+   commitment, witness-local sequence number, and reference to the
+   preceding record.  A verifier can validate the record signature,
+   reconstruct the supplied chain, evaluate the applicable policy, and
+   assess freshness against a trusted checkpoint or independently
+   retained chain head.
+
+   The component is designed to preserve a verifiable chronology of
+   observations and actions across vulnerability exposure, incident
+   investigation, remediation, and post-remediation verification.  It
+   complements evidence-generation and transparency systems.  It does
+   not itself establish that a measurement source is truthful, that a
+   host was uncompromised, or that every real-world event was observed.</t>
+    </abstract>
+  </front>
+</reference>

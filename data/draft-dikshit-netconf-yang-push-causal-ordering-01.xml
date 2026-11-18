@@ -1,0 +1,20 @@
+<reference anchor="I-D.dikshit-netconf-yang-push-causal-ordering" target="https://datatracker.ietf.org/doc/html/draft-dikshit-netconf-yang-push-causal-ordering-01">
+  <front>
+    <title>Comparable Sequence Numbers Across Publishers in YANG Datastore Telemetry</title>
+    <seriesInfo name="Internet-Draft" value="draft-dikshit-netconf-yang-push-causal-ordering-01"/>
+    <author initials="D." surname="Dikshit" fullname="Saumya Dikshit">
+      <organization>Aruba Networks</organization>
+    </author>
+    <date day="18" month="November" year="2026"/>
+    <abstract>
+      <t>In YANG Push version 2, each publisher numbers its own
+   notifications, and the numbers of two publishers are not
+   comparable. When data moves from one publisher to another, a
+   receiver cannot tell from the sequence numbers which update is
+   newer. This document proposes carrying a Hybrid Logical Clock
+   (HLC), a timestamp plus a small tie-breaking counter, in the
+   notification envelope. It gives one order across publishers with
+   constant state at the receiver and does not wrap in practice.</t>
+    </abstract>
+  </front>
+</reference>
