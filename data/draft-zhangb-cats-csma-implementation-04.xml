@@ -1,0 +1,32 @@
+<reference anchor="I-D.zhangb-cats-csma-implementation" target="https://datatracker.ietf.org/doc/html/draft-zhangb-cats-csma-implementation-04">
+  <front>
+    <title>CATS C-SMA Service-Metrics Snapshots and C-SMA-to-C-PS Transport Bindings</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhangb-cats-csma-implementation-04"/>
+    <author initials="B." surname="Zhang" fullname="Bin Zhang">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="Z." surname="Du" fullname="Zongpeng Du">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="Y." surname="Yang" fullname="Yixuan Yang">
+      <organization>Sun Yat-sen University</organization>
+    </author>
+    <author initials="B." surname="Shen" fullname="Bowen Shen">
+      <organization>Harbin Institute of Technology</organization>
+    </author>
+    <date day="18" month="November" year="2026"/>
+    <abstract>
+      <t>This document defines a service-metrics snapshot published by a CATS
+   Service Metric Agent (C-SMA) to a CATS Path Selector (C-PS).  The
+   snapshot conveys service-metric records and their observation window,
+   together with publication context supporting versioning and the FULL,
+   INVALIDATE, and WITHDRAW operations.
+
+   The document defines the snapshot contract and two transport modes
+   for the C-SMA-to-C-PS interface: Centralized Mode, using YANG-modeled
+   operational state delivered by gNMI, and Distribution Mode, proposing
+   a BGP-LS service-metadata mapping.  The BGP-LS mapping is
+   illustrative until its wire encoding and code points are specified.</t>
+    </abstract>
+  </front>
+</reference>

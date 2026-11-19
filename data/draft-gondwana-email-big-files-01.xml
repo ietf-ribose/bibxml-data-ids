@@ -1,0 +1,25 @@
+<reference anchor="I-D.gondwana-email-big-files" target="https://datatracker.ietf.org/doc/html/draft-gondwana-email-big-files-01">
+  <front>
+    <title>Linked Attachments in Email Messages</title>
+    <seriesInfo name="Internet-Draft" value="draft-gondwana-email-big-files-01"/>
+    <author initials="B." surname="Gondwana" fullname="Bron Gondwana">
+      <organization>Fastmail</organization>
+    </author>
+    <author initials="A." surname="Melnikov" fullname="Alexey Melnikov">
+      <organization>Isode Limited</organization>
+    </author>
+    <date day="19" month="November" year="2026"/>
+    <abstract>
+      <t>Message size limits mean that large files are sent by email as links
+   to a web server rather than as attachments.  A link loses the
+   properties that make an attachment useful: it can stop working, the
+   file behind it can change, it can't be scanned in transit, and it may
+   need a separate login.
+
+   This document defines the "Content-External" header field, which lets
+   receiving systems fetch, verify and keep a linked file, and then
+   treat it like any other attachment.  The field is on a body part with
+   a fallback link, which aware clients hide.</t>
+    </abstract>
+  </front>
+</reference>
