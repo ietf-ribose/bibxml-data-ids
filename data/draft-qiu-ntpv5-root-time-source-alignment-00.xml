@@ -1,0 +1,26 @@
+<reference anchor="I-D.qiu-ntpv5-root-time-source-alignment" target="https://datatracker.ietf.org/doc/html/draft-qiu-ntpv5-root-time-source-alignment-00">
+  <front>
+    <title>Root Time Source Alignment Signature and Transport Protocol for NTPv5</title>
+    <seriesInfo name="Internet-Draft" value="draft-qiu-ntpv5-root-time-source-alignment-00"/>
+    <author initials="Q." surname="Ximing" fullname="XIMING QIU">
+      <organization>Tianshu Shiyuan Technology Co., Ltd.</organization>
+    </author>
+    <date day="20" month="November" year="2026"/>
+    <abstract>
+      <t>This document defines an NTPv5 extension that turns a time value's
+   provenance from a _claim_ into _evidence_. A pre-trusted Root Time
+   Source attests that a given time service instance's clock has been
+   checked for alignment against a physical source; that instance then
+   signs the time value itself.  A client holding only the root public
+   key verifies both signatures offline, so it can tell a time value
+   that carries verifiable provenance apart from one that merely claims
+   it.
+
+   The extension deliberately does one thing and no more: it proves
+   _where a signed time value came from_. It does not adjust clocks, it
+   does not rate sources, and it has no revocation -- a signed proof is
+   unilateral, it exists once signed.  It is opt-in, uses two extension
+   fields, and touches nothing in the core protocol.</t>
+    </abstract>
+  </front>
+</reference>

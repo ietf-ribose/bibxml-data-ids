@@ -1,0 +1,37 @@
+<reference anchor="I-D.gu-nmrg-intent-translator" target="https://datatracker.ietf.org/doc/html/draft-gu-nmrg-intent-translator-07">
+  <front>
+    <title>An Intent Translator for Hallucination Mitigation in an Agentic AI Framework</title>
+    <seriesInfo name="Internet-Draft" value="draft-gu-nmrg-intent-translator-07"/>
+    <author initials="M." surname="Gu" fullname="Mose Gu">
+      <organization>Department of Computer Science and Engineering</organization>
+    </author>
+    <author initials="J. P." surname="Jeong" fullname="Jaehoon Paul Jeong">
+      <organization>Department of Computer Science and Engineering</organization>
+    </author>
+    <author initials="K." surname="Shim" fullname="KiHyun Shim">
+      <organization>Department of Computer Science and Engineering</organization>
+    </author>
+    <author initials="J." surname="Fran&#xE7;ois" fullname="J&#xE9;r&#xF4;me Fran&#xE7;ois">
+      <organization>Interdisciplinary Centre for Security, Reliability and Trust</organization>
+    </author>
+    <date day="19" month="November" year="2026"/>
+    <abstract>
+      <t>This document proposes an Intent Translator to mitigate hallucination
+   in the intent translation in an Agentic AI Framework.  This Intent
+   Translator has an agentic AI workflow for detecting and mitigating
+   structural and semantic errors, including hallucinated policy
+   content, when translating a natural-language network intent into a
+   structured policy.  The workflow coordinates role-specialized
+   language-model functions with deterministic validation tools within a
+   predefined action space and a bounded retry budget.  Schema-
+   constrained generation limits structural defects, while cross-slot
+   checks and intent-faithfulness assessment identify a potentially
+   unsupported or inconsistent policy content.  Structured validation
+   traces guide targeted re-extraction and regeneration.  Unresolved
+   cases retain explicit failure status for downstream review.  This
+   document describes component interactions in the Intent Translator,
+   validation outcomes, and recovery behavior.  It also presents a 3GPP
+   TS 28.312-based instantiation for mobile network management.</t>
+    </abstract>
+  </front>
+</reference>

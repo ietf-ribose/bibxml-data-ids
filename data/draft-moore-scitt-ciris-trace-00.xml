@@ -1,0 +1,29 @@
+<reference anchor="I-D.moore-scitt-ciris-trace" target="https://datatracker.ietf.org/doc/html/draft-moore-scitt-ciris-trace-00">
+  <front>
+    <title>Signed Reasoning Traces of CIRIS Agents</title>
+    <seriesInfo name="Internet-Draft" value="draft-moore-scitt-ciris-trace-00"/>
+    <author initials="E." surname="Moore" fullname="Eric Moore">
+      <organization>CIRIS L3C</organization>
+    </author>
+    <date day="20" month="November" year="2026"/>
+    <abstract>
+      <t>An AI agent that acts on a person's behalf reaches each action
+   through a sequence of steps: it gathers context, runs several
+   evaluations, selects an action, submits the selection to checks that
+   can veto it, and then acts.  Most of those steps are calls to
+   language models.
+
+   This document specifies the CIRIS reasoning trace: one signed record
+   per unit of agent work (a thought), sealed when the action is taken.
+   The trace lists every step and every model call in the order the
+   recording component received them, with scores, outcomes, sizes,
+   costs and durations, and, at higher disclosure levels, reasoning text
+   and the prompts and completions themselves.  It specifies three
+   disclosure levels, the exact bytes the agent's Ed25519 signature
+   covers, how a trace is carried as a row of the CIRIS Epistemic
+   Grammar (CEG), when a trace exists at all, and the checks a consumer
+   runs before relying on one.  It records where the published
+   specification and the shipping implementation disagree.</t>
+    </abstract>
+  </front>
+</reference>

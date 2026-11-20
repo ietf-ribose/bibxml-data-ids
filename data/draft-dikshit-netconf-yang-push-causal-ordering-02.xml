@@ -1,0 +1,25 @@
+<reference anchor="I-D.dikshit-netconf-yang-push-causal-ordering" target="https://datatracker.ietf.org/doc/html/draft-dikshit-netconf-yang-push-causal-ordering-02">
+  <front>
+    <title>Cross-Publisher Causal Ordering for YANG-Push Datastore Telemetry</title>
+    <seriesInfo name="Internet-Draft" value="draft-dikshit-netconf-yang-push-causal-ordering-02"/>
+    <author initials="D." surname="Dikshit" fullname="Saumya Dikshit">
+      <organization>Hewlett Packard Enterprise</organization>
+    </author>
+    <date day="20" month="November" year="2026"/>
+    <abstract>
+      <t>In YANG-Push version 2, each publisher numbers its own notifications,
+   and the numbers of two publishers are not comparable.  When a single
+   subscription is served by several publishers, for example on a multi-
+   line-card router or a disaggregated routing stack, a collector cannot
+   order updates across those publishers from the sequence numbers
+   alone.  This document defines an opt-in, coordination-free mechanism
+   that carries a Comparability Scope, a coarse Causal-Epoch, and a per-
+   publisher Local-Sequence-Number in the notification envelope.
+   Publishers stay lock-free on the export fast path, and a collector
+   reconstructs cross-publisher order within a bounded reordering
+   window.  A companion YANG module adds the subscription controls, the
+   envelope metadata, and the capability discovery.  The mechanism does
+   not require synchronized clocks across publishers.</t>
+    </abstract>
+  </front>
+</reference>

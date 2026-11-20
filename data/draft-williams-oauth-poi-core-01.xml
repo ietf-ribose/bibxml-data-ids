@@ -1,0 +1,29 @@
+<reference anchor="I-D.williams-oauth-poi-core" target="https://datatracker.ietf.org/doc/html/draft-williams-oauth-poi-core-01">
+  <front>
+    <title>Cryptographic Proof-of-Intent (PoI) Core Protocol for Human-in-the-Loop (HITL) Step-Up Authorization</title>
+    <seriesInfo name="Internet-Draft" value="draft-williams-oauth-poi-core-01"/>
+    <author initials="P. C." surname="Williams" fullname="Paul Charles Williams">
+      <organization>Barefoot Coders, LLC</organization>
+    </author>
+    <date day="20" month="November" year="2026"/>
+    <abstract>
+      <t>AI agents and workflow orchestrators call high-consequence APIs on
+   behalf of people.  Bearer tokens and transport-level proof-of-
+   possession show which client made a call.  They do not show that a
+   person approved the specific parameters of that call, and redirect-
+   based step-up is too slow for frequent approvals.
+
+   This document specifies the Proof-of-Intent (PoI) Core protocol.  A
+   Resource Server signs a challenge that binds the exact canonical
+   parameters (RFC 8785) to human-readable facts.  The person's client
+   answers with a signed decision (APPROVE, REJECT, or SUPERCEDE with
+   new parameters) using a session key certified by the Authorization
+   Server (RFC 7800) or a WebAuthn or PSEA authenticator.  The Resource
+   Server verifies the evidence without a call to the Authorization
+   Server, admits each approval once, and issues a signed receipt.
+
+   Multi-approver chains, escalation, and concurrency are specified in
+   draft-williams-oauth-poi-chained-state-00.</t>
+    </abstract>
+  </front>
+</reference>
