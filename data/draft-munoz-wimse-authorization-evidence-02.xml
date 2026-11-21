@@ -1,0 +1,29 @@
+<reference anchor="I-D.munoz-wimse-authorization-evidence" target="https://datatracker.ietf.org/doc/html/draft-munoz-wimse-authorization-evidence-02">
+  <front>
+    <title>Signed Authorization-Evidence Records for AI Agent Actions Using WIMSE Workload Identity</title>
+    <seriesInfo name="Internet-Draft" value="draft-munoz-wimse-authorization-evidence-02"/>
+    <author initials="C." surname="Munoz" fullname="Christian Munoz">
+      <organization>Keel API, Inc.</organization>
+    </author>
+    <date day="20" month="November" year="2026"/>
+    <abstract>
+      <t>This companion to the WIMSE AI Identity Management System (AIMS)
+   document specifies how an Issuer records a pre-execution
+   authorization decision for an AI agent using WIMSE workload identity.
+   The signed record, called a Permit, can bind the decision to a
+   canonical request body.  For a dispatched allow with a request-body
+   commitment, a paired Closure Record carries the recorded dispatch
+   digest.  The profile maps these and related records to the audit
+   requirements in Section 11 of AIMS and describes optional composition
+   with HTTP Message Signatures, OAuth access tokens and Shared Signals
+   Framework events.  The companion SCITT profile (draft-munoz-scitt-
+   permit-profile) specifies the Permit and Closure Record.
+
+   This revision also describes how WIMSE deployments compose with
+   authorization-lineage evidence defined by the companion SCITT
+   profile: workload identity, delegated subject context, runtime token
+   claims, and HTTP Message Signature coverage become Verifier inputs
+   for parent/child Permit relationships.</t>
+    </abstract>
+  </front>
+</reference>

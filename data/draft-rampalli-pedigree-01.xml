@@ -1,0 +1,34 @@
+<reference anchor="I-D.rampalli-pedigree" target="https://datatracker.ietf.org/doc/html/draft-rampalli-pedigree-01">
+  <front>
+    <title>PEDIGREE: Verifiable Delegation Identity for Agentic AI Systems</title>
+    <seriesInfo name="Internet-Draft" value="draft-rampalli-pedigree-01"/>
+    <author initials="K." surname="Rampalli" fullname="Karthik Rampalli">
+      <organization>Glyphzero, Inc.</organization>
+    </author>
+    <date day="20" month="November" year="2026"/>
+    <abstract>
+      <t>This document defines PEDIGREE (Per-Agent Delegation Identity with
+   Governance-Enforced Execution), a delegation token profile for AI
+   agents that operates above WIMSE workload credentials.  A PEDIGREE
+   chain names one principal at every hop, names the agent acting at
+   each hop, binds each child token to a digest of its parent's JWS
+   Signing Input, and grants authority as named resources with actions
+   that each hop can only narrow.  A separate invocation object, signed
+   by the leaf agent, names the one action, resource, and arguments
+   being requested, and the verifier evaluates exactly that.  A verifier
+   can check a chain offline when it holds every input the chain needs:
+   its trust anchors, its accepted ceilings, and any status answers that
+   are still within their time to live.
+
+   The linkage, principal, holder-binding, invocation, and status rules
+   follow mechanisms specified in other documents and are cited as such.
+   On that base, PEDIGREE defines four elements: an operator ceiling,
+   referenced by digest and evaluated together with each token's grants
+   at decision time; an optional Cedar mandate per token, with a
+   syntactic narrowing check and an optional proof artifact; signed
+   completion blocks, in which an agent reports an outcome under the key
+   its token binds; and consent identifiers carried in every token and
+   checked by every verifier against a configured consent status source.</t>
+    </abstract>
+  </front>
+</reference>
