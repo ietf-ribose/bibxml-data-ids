@@ -1,0 +1,27 @@
+<reference anchor="I-D.yetis-scitt-figure-receipts" target="https://datatracker.ietf.org/doc/html/draft-yetis-scitt-figure-receipts-00">
+  <front>
+    <title>Figure Statements: A SCITT Profile for Published Figures Given to AI Agents</title>
+    <seriesInfo name="Internet-Draft" value="draft-yetis-scitt-figure-receipts-00"/>
+    <author initials="Z." surname="Yeti&#x15F;" fullname="Ziya Yeti&#x15F;">
+      <organization>FinanceRateCalc</organization>
+    </author>
+    <date day="24" month="November" year="2026"/>
+    <abstract>
+      <t>Profiles of SCITT for AI agents record what an agent did: which tool
+   it called, under whose authority, and what bytes came back.  They
+   state, correctly, that they do not show whether those bytes were
+   true.  This document profiles the layer underneath: a Signed
+   Statement, issued by the publisher of a figure, that binds the figure
+   to its source, period and population, and that is superseded when the
+   publisher corrects the figure or when the original source prints a
+   different value in a later edition.  It also defines a short token
+   that travels with the figure through tool results and prose, so that
+   a later reader can find the statement and learn whether the figure is
+   still the one published.
+
+   The profile makes a narrow claim.  It shows that a figure is the one
+   a named publisher published, from a named source, and whether it has
+   changed since.  It does not show that the figure is correct.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,46 @@
+<reference anchor="I-D.liu-iotops-pqc-uasc" target="https://datatracker.ietf.org/doc/html/draft-liu-iotops-pqc-uasc-02">
+  <front>
+    <title>Post-Quantum SecureChannel Profiles and Lifecycle Operations for IoT Deployments Using OPC UA</title>
+    <seriesInfo name="Internet-Draft" value="draft-liu-iotops-pqc-uasc-02"/>
+    <author initials="P." surname="Liu" fullname="Penghui Liu">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="R." surname="Yang" fullname="Rongwei Yang">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="Y." surname="Zhang" fullname="Yu Zhang">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="X." surname="Zhong" fullname="Xiaoxiong Zhong">
+      <organization>Pengcheng Laboratory</organization>
+    </author>
+    <author initials="Y." surname="Gong" fullname="Yanjie  Gong">
+      <organization>Schneider Electric</organization>
+    </author>
+    <date day="24" month="November" year="2026"/>
+    <abstract>
+      <t>This document addresses post-quantum SecureChannel migration for
+   Internet of Things (IoT) deployments that already use OPC Unified
+   Architecture (OPC UA), including fleets of capable controllers and
+   industrial gateways with limited local user interfaces.  It describes
+   authorized application onboarding, credential and policy
+   provisioning, bounded key use, renewal, failure recovery, quarantine,
+   and retirement under existing device and application authorization.
+
+   A cryptographic protection profile for OPC UA Secure Conversation
+   (UASC) over opc.tcp uses ML-KEM-768, ML-DSA, HKDF-SHA-256, and AES-
+   256-GCM.  It specifies profile identifiers, nonce encoding, key
+   derivation, authenticated encryption, identity binding, sequence and
+   SecurityToken processing, per-key usage limits, and conformance
+   requirements supporting those operations.
+
+   This individual submission proposes Standards Track publication and
+   requests IOTOPS review of its IoT operational requirements.  The
+   appropriate venue for new protocol work requires separate
+   determination.  Permanent OPC UA SecurityPolicy and algorithm
+   identifiers require coordination with the OPC Foundation; the private
+   identifiers remain provisional and do not establish OPC Foundation
+   conformance.</t>
+    </abstract>
+  </front>
+</reference>

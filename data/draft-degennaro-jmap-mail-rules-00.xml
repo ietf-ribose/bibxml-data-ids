@@ -1,0 +1,28 @@
+<reference anchor="I-D.degennaro-jmap-mail-rules" target="https://datatracker.ietf.org/doc/html/draft-degennaro-jmap-mail-rules-00">
+  <front>
+    <title>JMAP Mail Rules</title>
+    <seriesInfo name="Internet-Draft" value="draft-degennaro-jmap-mail-rules-00"/>
+    <author initials="M." surname="De Gennaro" fullname="Mauro De Gennaro">
+      <organization>Stalwart Labs LLC</organization>
+    </author>
+    <author initials="H." surname="Happel" fullname="Hans-J&#xF6;rg Happel">
+      <organization>audriga</organization>
+    </author>
+    <date day="24" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies a data model for managing server-side mail
+   filtering rules with the JSON Meta Application Protocol (JMAP).  A
+   rule combines a set of conditions, such as the sender address or the
+   message subject, with a set of actions, such as filing the message
+   into a mailbox or forwarding it.  The model is designed to be
+   presented and edited through simple user interface components, and
+   every condition and action is defined in terms of an equivalent
+   construct of the Sieve mail filtering language, so that rules have
+   precise and interoperable semantics and servers that implement Sieve
+   can support this extension by translating rules into Sieve scripts.
+
+   This document also defines lists of safe and blocked senders and
+   describes how rules interact with the JMAP VacationResponse object.</t>
+    </abstract>
+  </front>
+</reference>
