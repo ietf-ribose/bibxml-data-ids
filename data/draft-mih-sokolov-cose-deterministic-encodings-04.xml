@@ -1,0 +1,28 @@
+<reference anchor="I-D.mih-sokolov-cose-deterministic-encodings" target="https://datatracker.ietf.org/doc/html/draft-mih-sokolov-cose-deterministic-encodings-04">
+  <front>
+    <title>Deterministic Encodings for COSE</title>
+    <seriesInfo name="Internet-Draft" value="draft-mih-sokolov-cose-deterministic-encodings-04"/>
+    <author initials="S." surname="Mih" fullname="Steven Mih">
+      <organization>Action State Group, Inc.</organization>
+    </author>
+    <author initials="A." surname="Sokolov" fullname="Anton Sokolov">
+      <organization>Tyche Institute</organization>
+    </author>
+    <date day="23" month="November" year="2026"/>
+    <abstract>
+      <t>A COSE Hash Envelope signs the digest of a preimage, not the preimage
+   itself.  A verifier that holds the content as a decoded value, such
+   as a CBOR data item, rather than the bytes that were hashed has to
+   encode the value again, and nothing in the Hash Envelope says how the
+   producer encoded it.  CBOR permits more than one encoding of the same
+   data item, so a digest mismatch cannot tell a modified value from a
+   value encoded another way.  This document defines a COSE Hash
+   Envelope protected-header parameter in which the producer states the
+   deterministic encoding it applied.  It defines one value, the integer
+   1, for the Core Deterministic Encoding Requirements of RFC 8949, and
+   no encoding of its own; an application profile can identify another
+   encoding by a URL.  A verifier ignores a value that does not identify
+   an encoding it implements.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,23 @@
+<reference anchor="I-D.dikshit-netmod-comparability-scope-extension" target="https://datatracker.ietf.org/doc/html/draft-dikshit-netmod-comparability-scope-extension-05">
+  <front>
+    <title>A YANG Extension for Declaring the Comparability Scope of Operational State</title>
+    <seriesInfo name="Internet-Draft" value="draft-dikshit-netmod-comparability-scope-extension-05"/>
+    <author initials="D." surname="Dikshit" fullname="Saumya Dikshit">
+      <organization>Hewlett Packard Enterprise</organization>
+    </author>
+    <date day="23" month="November" year="2026"/>
+    <abstract>
+      <t>A value exported from a YANG data tree is often unique only within
+   its parent, for example an entry numbered 0 under two different
+   parents.  Once the value is exported without the parent's key, a
+   collector cannot tell whether two such values refer to the same
+   thing, and no collector-side normalization can recover the missing
+   key.  YANG (RFC 7950) has no way to state this dependency in the
+   schema.  This document defines a YANG extension statement,
+   "csc:comparability-scope", a four-level scope lattice, a
+   compatibility rule, and an export rule, so that the key needed to
+   compare a value travels with it, and a schema-aware tool can detect
+   an invalid comparison before any data is exported.</t>
+    </abstract>
+  </front>
+</reference>

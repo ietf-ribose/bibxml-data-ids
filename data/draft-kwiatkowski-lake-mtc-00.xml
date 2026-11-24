@@ -1,0 +1,30 @@
+<reference anchor="I-D.kwiatkowski-lake-mtc" target="https://datatracker.ietf.org/doc/html/draft-kwiatkowski-lake-mtc-00">
+  <front>
+    <title>Merkle Tree Certificates for LAKE</title>
+    <seriesInfo name="Internet-Draft" value="draft-kwiatkowski-lake-mtc-00"/>
+    <author initials="K." surname="Kwiatkowski" fullname="Kris Kwiatkowski">
+      <organization>PQShield</organization>
+    </author>
+    <author initials="S." surname="Raza" fullname="Shahid Raza">
+      <organization>University of Glasgow</organization>
+    </author>
+    <date day="23" month="November" year="2026"/>
+    <abstract>
+      <t>Merkle Tree Certificates (MTC) replace the signature of a
+   Certification Authority (CA) with smaller inclusion proof against a
+   periodically published landmark.  The large sizes of post-quantum
+   (PQC) keys and signatures make conventional certificate chains costly
+   to validate on constrained devices, which have limited memory,
+   compute, and message-size budgets.  MTC's lightweight properties keep
+   certificate verification practical for such devices even when PQC
+   signature algorithms are used.
+
+   This document specifies how to carry MTC credentials in the
+   Lightweight Authenticated Key Exchange (LAKE) protocol [RFC9528]:
+   CBOR encodings of MTC certificates and landmarks, and a new External
+   Authorization Data (EAD) item that lets the two peers negotiate, per
+   message, between the compact landmark-relative form of a certificate
+   and its self-contained standalone form.</t>
+    </abstract>
+  </front>
+</reference>

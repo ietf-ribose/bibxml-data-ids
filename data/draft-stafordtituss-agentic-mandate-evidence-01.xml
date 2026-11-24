@@ -1,0 +1,29 @@
+<reference anchor="I-D.stafordtituss-agentic-mandate-evidence" target="https://datatracker.ietf.org/doc/html/draft-stafordtituss-agentic-mandate-evidence-01">
+  <front>
+    <title>Continuity Evaluation of Agent Delegation Records</title>
+    <seriesInfo name="Internet-Draft" value="draft-stafordtituss-agentic-mandate-evidence-01"/>
+    <author initials="S. T." surname="Selvaraj" fullname="Staford Titus Selvaraj">
+      <organization>Independent</organization>
+    </author>
+    <date day="23" month="November" year="2026"/>
+    <abstract>
+      <t>The AUDIT architecture defines records that capture the user's
+   intent, delegation, authorization state, and the actions that agents
+   take across trust boundaries.  Records alone don't answer the
+   question an auditor, an operator, or a relying party asks next: did
+   what was executed stay within the authority the user delegated?
+
+   This document defines a deterministic, three-valued evaluation over
+   such records.  The outcomes are preserved, violated, and unresolved.
+   A violated outcome names the invariant that was broken and the party
+   whose own signed record departed from authority first.  An unresolved
+   outcome names the evidence that is missing; missing evidence is never
+   treated as success.  The document also defines the claim model the
+   evaluation needs, the roles permitted to sign each record, a signed
+   statement of what a call did or did not execute, a portable verdict
+   record, a mapping onto the AUDIT record types, and interoperable test
+   vectors.  It is derived from the Agentic Mandate Evidence Protocol
+   (AMEP).</t>
+    </abstract>
+  </front>
+</reference>

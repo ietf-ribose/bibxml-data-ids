@@ -1,0 +1,41 @@
+<reference anchor="I-D.elkins-plants-enterprise-mtc-deployment" target="https://datatracker.ietf.org/doc/html/draft-elkins-plants-enterprise-mtc-deployment-02">
+  <front>
+    <title>Enterprise Deployment Considerations for Post-Quantum TLS Server Authentication in the Public Web PKI</title>
+    <seriesInfo name="Internet-Draft" value="draft-elkins-plants-enterprise-mtc-deployment-02"/>
+    <author initials="N." surname="Elkins" fullname="Nalini Elkins">
+      <organization>Outside the Stacks</organization>
+    </author>
+    <author initials="M." surname="ackermann" fullname="michael ackermann">
+      <organization>Blue Cross Blue Shield of Michigan</organization>
+    </author>
+    <date day="23" month="November" year="2026"/>
+    <abstract>
+      <t>The migration of TLS server authentication to post-quantum mechanisms
+   in the public Web PKI must fit the scale and complexity of enterprise
+   certificate management and TLS termination.  Public-facing services
+   may support tens of millions of customers using unmanaged browsers,
+   mobile applications, and other TLS clients, while authentication
+   infrastructure is distributed across business units, hosting
+   providers, cloud platforms, and CDNs.  Deployment readiness therefore
+   depends on cryptographic and protocol support as well as the ability
+   to introduce new authentication mechanisms without disrupting
+   customer access.
+
+   This document examines enterprise deployment considerations for
+   standalone Merkle Tree Certificates (MTCs) and conventional
+   standalone ML-DSA certificates on public websites accessed by
+   unmanaged clients.  It addresses certificate issuance, provisioning,
+   renewal, revocation, trust-anchor signaling, credential selection,
+   and interoperability across browsers, certificate-management systems,
+   and TLS termination platforms.
+
+   Drawing on initial browser and TLS client observations, the document
+   identifies deployment dependencies, proposes interoperability
+   questions for implementers, and discusses migration priorities and
+   operational readiness.  It does not define new certificate formats or
+   TLS mechanisms, assume that either certificate approach is easier to
+   deploy, or commit the authors to independently testing supplier
+   implementations.</t>
+    </abstract>
+  </front>
+</reference>

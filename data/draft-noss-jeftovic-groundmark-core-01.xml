@@ -1,0 +1,40 @@
+<reference anchor="I-D.noss-jeftovic-groundmark-core" target="https://datatracker.ietf.org/doc/html/draft-noss-jeftovic-groundmark-core-01">
+  <front>
+    <title>DNS-Anchored Identity Discovery for Autonomous Agents</title>
+    <seriesInfo name="Internet-Draft" value="draft-noss-jeftovic-groundmark-core-01"/>
+    <author initials="E." surname="noss" fullname="elliot noss">
+      <organization>Groundmark</organization>
+    </author>
+    <author initials="M. E." surname="Jeftovic" fullname="Mark E. Jeftovic">
+      <organization>easyDNS Technologies Inc.</organization>
+    </author>
+    <date day="23" month="November" year="2026"/>
+    <abstract>
+      <t>This document defines the core of Groundmark, a protocol for DNS-
+   anchored identity discovery and request authentication for autonomous
+   software agents.  Operators publish an agent's signing public key in
+   a DNS TXT record under a reserved label and, optionally, name the
+   agent's Identity Service Provider (IDSP) in a second record.  Agents
+   authenticate HTTP requests using HTTP Message Signatures (RFC 9421)
+   with a key identifier that resolves through DNS.  DNSSEC is required
+   for all Groundmark DNS lookups.  Successful core verification
+   establishes current-key provenance: control of the private key
+   corresponding to the DNSSEC-authenticated _agentid key used for the
+   request.  It does not establish legal identity, registrar identity
+   proofing, brand authorization, or continuity with an earlier key or
+   registrant.
+
+   When a relying party's policy requires more, the agent presents a
+   reference in a signature-covered header field, the relying party
+   confirms that the reference points at the IDSP named in the agent's
+   DNSSEC-validated zone, and it fetches a credential about the operator
+   from that IDSP directly.  No claim is published in DNS.  The
+   credential is a W3C Verifiable Credential secured as an SD-JWT; its
+   format, the IDSP's obligations, method disclosure and status are
+   defined in the companion Groundmark Protocol specification, which is
+   being developed in the Decentralized Identity Foundation.  This
+   version replaces both draft-noss-jeftovic-groundmark-core-00 and
+   draft-noss-jeftovic-groundmark-attestation-00.</t>
+    </abstract>
+  </front>
+</reference>

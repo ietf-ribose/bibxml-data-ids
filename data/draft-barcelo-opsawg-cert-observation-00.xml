@@ -1,0 +1,29 @@
+<reference anchor="I-D.barcelo-opsawg-cert-observation" target="https://datatracker.ietf.org/doc/html/draft-barcelo-opsawg-cert-observation-00">
+  <front>
+    <title>An Information Model and JSON Encoding for Certificate Observation Records</title>
+    <seriesInfo name="Internet-Draft" value="draft-barcelo-opsawg-cert-observation-00"/>
+    <author initials="G. G. B." surname="Soteras" fullname="Gabriel G. Barcel&#xF3; Soteras">
+      <organization>Parlament de les Illes Balears</organization>
+    </author>
+    <date day="23" month="November" year="2026"/>
+    <abstract>
+      <t>Operators need to know which X.509 certificates are installed where,
+   when they expire, and whether a renewed certificate has actually
+   reached the service that uses it.  This information is produced by
+   many different parties: network observers, local agents,
+   configuration management systems, and certificate issuers.  Each
+   currently uses its own format, and many endpoints cannot be reached
+   by a central monitoring system at all.
+
+   This document defines the Certificate Observation Record: a
+   transport-independent information model describing one certificate as
+   seen at one location by one reporter, together with a JSON encoding,
+   an HTTP-based exchange mechanism, and a file-based handoff.  The
+   record distinguishes the reporter from the subject it describes, so
+   that one system can report on behalf of endpoints that a collector
+   cannot reach, and it labels each record with the kind of evidence it
+   carries, so that a collector can detect when issuance, deployment and
+   actual service diverge.</t>
+    </abstract>
+  </front>
+</reference>
