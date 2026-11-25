@@ -1,0 +1,24 @@
+<reference anchor="I-D.morrison-identity-pronouns" target="https://datatracker.ietf.org/doc/html/draft-morrison-identity-pronouns-06">
+  <front>
+    <title>Identity Pronouns: A Client-Side Shorthand for ~handle References and the Rule That Keeps It Off the Wire</title>
+    <seriesInfo name="Internet-Draft" value="draft-morrison-identity-pronouns-06"/>
+    <author initials="B." surname="Morrison" fullname="Blake Morrison">
+      <organization>Alter Meridian Pty Ltd</organization>
+    </author>
+    <date day="25" month="November" year="2026"/>
+    <abstract>
+      <t>A client that lets a person type a short reference such as ~org in
+   place of a concrete ~handle has to replace the reference before
+   anything is sent.  This document states the one rule a receiver can
+   check, that a typed handle field in a payload crossing a trust
+   boundary never carries such a reference, and describes the client-
+   side resolution that makes the rule hold.  A reference of this kind
+   is called a pronoun.  The document defines one pronoun, ~org.  It
+   resolves to the organisation bound to the caller's current session.
+   Resolution is local to the client and uses no network exchange.  The
+   document is Informational.  It describes a convention that no second
+   party implements, and it makes no claim that the convention needs
+   standardising.</t>
+    </abstract>
+  </front>
+</reference>

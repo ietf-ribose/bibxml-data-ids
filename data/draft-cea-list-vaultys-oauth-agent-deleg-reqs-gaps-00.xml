@@ -1,0 +1,49 @@
+<reference anchor="I-D.cea-list-vaultys-oauth-agent-deleg-reqs-gaps" target="https://datatracker.ietf.org/doc/html/draft-cea-list-vaultys-oauth-agent-deleg-reqs-gaps-00">
+  <front>
+    <title>Delegation for Agentic AI in OAuth-Based Architectures: Requirements and Gap Analysis</title>
+    <seriesInfo name="Internet-Draft" value="draft-cea-list-vaultys-oauth-agent-deleg-reqs-gaps-00"/>
+    <author initials="R." surname="Abdallah" fullname="Rouwaida Abdallah">
+      <organization>Université Paris Saclay, CEA, LIST</organization>
+    </author>
+    <author initials="F." surname="Thoorens" fullname="Fran&#xE7;ois-Xavier Thoorens">
+      <organization>Vaultys</organization>
+    </author>
+    <author initials="W." surname="Boitier" fullname="William Boitier">
+      <organization>Université Paris Saclay, CEA, LIST</organization>
+    </author>
+    <author initials="J." surname="Williamson" fullname="Jean Williamson">
+      <organization>Vaultys</organization>
+    </author>
+    <author initials="S." surname="Souihi" fullname="Sami Souihi">
+      <organization>Université Paris Saclay, CEA, LIST</organization>
+    </author>
+    <date day="25" month="November" year="2026"/>
+    <abstract>
+      <t>The OAuth 2.0 authorization framework and its associated
+   specifications define mechanisms for delegating authority from a
+   resource owner to a client acting on its behalf.  These mechanisms
+   are designed mainly for a single-principal, single-hop model in which
+   a human authorizes a client at authorization time (the client
+   credentials grant, in which a client acts on its own behalf, is the
+   exception).  Agentic AI systems introduce a fundamentally different
+   operational context: autonomous software agents that execute multi-
+   hop delegation chains, propagate constrained authority across
+   organizational boundaries, and perform consequential actions without
+   continuous human involvement.  This document analyzes the normative
+   gaps between the requirements for secure delegation in Agentic AI
+   systems and the coverage provided by the existing published OAuth 2.0
+   RFC corpus.  Fifteen requirements decomposed into 111 sub-
+   requirements are evaluated against 41 mechanisms, including 18
+   published RFCs, 11 Internet-Drafts, and 12 informative prior-art and
+   non-IETF specifications.  The analysis identifies 48 sub-requirements
+   (43%) for which no published RFC provides normative coverage, and no
+   sub-requirement that remains unaddressed by every evaluated
+   mechanism; for 15 of these 48 gaps, no evaluated Internet-Draft is
+   credited with complete coverage.  This document does not define new
+   protocol mechanisms.  Its output defines the normative gaps that a
+   companion solution specification must address to extend the OAuth 2.0
+   framework to support secure, accountable, and interoperable
+   delegation in Agentic AI deployments.</t>
+    </abstract>
+  </front>
+</reference>

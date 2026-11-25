@@ -1,0 +1,43 @@
+<reference anchor="I-D.elekula-rats-pqc-attestation" target="https://datatracker.ietf.org/doc/html/draft-elekula-rats-pqc-attestation-01">
+  <front>
+    <title>Post-Quantum Cryptographic Considerations for RATS Evidence and Attestation Results</title>
+    <seriesInfo name="Internet-Draft" value="draft-elekula-rats-pqc-attestation-01"/>
+    <author initials="K. O. E." surname="&#xE0;" fullname="Kayode Oluwole Elekula &#xE0;"/>
+    <date day="25" month="November" year="2026"/>
+    <abstract>
+      <t>The Remote ATtestation procedureS (RATS) architecture defines
+   Evidence, Endorsements, Reference Values, and Attestation Results
+   as distinct conceptual artifacts used by Attesters, Verifiers,
+   Endorsers, and Relying Parties.  The transition to post-quantum
+   cryptography (PQC) raises questions about the protection,
+   validation, transport, transformation, and retention of these
+   artifacts.
+
+   This document examines post-quantum cryptographic considerations
+   across the lifecycle of RATS artifacts.  It distinguishes
+   post-quantum key establishment from artifact authentication and
+   considers the security properties that must be evaluated
+   independently: integrity, origin, signer authority, freshness,
+   session context, provenance, appraisal, and authorization.
+
+   The document introduces three analytical constructs: the
+   Artifact Protection Matrix, the Provenance Continuity Chain,
+   and the Cryptographic Transition Assessment.  These constructs
+   provide a structured way to identify artifact-specific
+   protection requirements, evaluate transformations, and preserve
+   the information needed for later cryptographic verification.
+
+   The analysis also addresses algorithm selection, cryptographic
+   agility, artifact size, bounded processing, transport
+   considerations, replay resistance, long-term verifiability,
+   interoperability, testing, and privacy.
+
+   This document does not define a new cryptographic algorithm,
+   RATS message, token format, transport protocol, TLS extension,
+   key-establishment mechanism, or appraisal-policy language.
+   It provides security analysis and implementation guidance
+   within the existing RATS architecture and established
+   cryptographic standards.</t>
+    </abstract>
+  </front>
+</reference>

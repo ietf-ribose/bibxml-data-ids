@@ -1,0 +1,23 @@
+<reference anchor="I-D.morrison-agent-channel-fan-out" target="https://datatracker.ietf.org/doc/html/draft-morrison-agent-channel-fan-out-05">
+  <front>
+    <title>An Agent-Channel Frame for Identity-Keyed Fan-Out Delivery to Concurrent Sessions</title>
+    <seriesInfo name="Internet-Draft" value="draft-morrison-agent-channel-fan-out-05"/>
+    <author initials="B." surname="Morrison" fullname="Blake Morrison">
+      <organization>Alter Meridian Pty Ltd</organization>
+    </author>
+    <date day="25" month="November" year="2026"/>
+    <abstract>
+      <t>This memo specifies a message envelope, a recipient-scope grammar and
+   a subscribe-filter grammar for delivering short structured messages
+   to the concurrent sessions of one identity.  A sender names a set of
+   recipients by identity shape, such as all sessions of one handle or
+   all sessions whose instrument identifier has a given prefix, and a
+   delivery server expands that set against live subscriptions at
+   delivery time.  Frames are emitted over a per-handle Server-Sent
+   Events stream.  The envelope carries a kind discriminator whose set
+   of values is open.  The memo defines three kinds, and other documents
+   may define more.  The memo specifies the wire elements only; frame
+   retention is out of scope.</t>
+    </abstract>
+  </front>
+</reference>

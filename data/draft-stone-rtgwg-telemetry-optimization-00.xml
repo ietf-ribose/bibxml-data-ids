@@ -1,0 +1,27 @@
+<reference anchor="I-D.stone-rtgwg-telemetry-optimization" target="https://datatracker.ietf.org/doc/html/draft-stone-rtgwg-telemetry-optimization-00">
+  <front>
+    <title>Telemetry-Driven Congestion Optimization</title>
+    <seriesInfo name="Internet-Draft" value="draft-stone-rtgwg-telemetry-optimization-00"/>
+    <author initials="A." surname="Stone" fullname="Andrew Stone">
+      <organization>Nokia</organization>
+    </author>
+    <date day="25" month="November" year="2026"/>
+    <abstract>
+      <t>This document describes Telemetry-Driven Congestion Optimization
+   (TDCO), a solution in which a centralized controller uses near-real-
+   time per-tunnel demand and per-interface traffic measurements to
+   prevent and alleviate link overload autonomously.  The controller
+   changes the paths of the tunnels under its control through existing
+   mechanisms such as the Path Computation Element Communication
+   Protocol (PCEP), BGP Segment Routing (SR) Policy, or NETCONF/YANG.
+   TDCO avoids placing Traffic Engineering (TE) tunnels where they would
+   cause overload and, when overload occurs, re-routes only as many TE
+   tunnels as are needed to relieve the overload onto paths with spare
+   capacity that meet their full TE constraints.
+
+   This document describes the solution and the safety properties needed
+   to operate it without operator approval of individual actions.  It
+   defines no protocol extensions.</t>
+    </abstract>
+  </front>
+</reference>

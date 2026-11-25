@@ -1,0 +1,21 @@
+<reference anchor="I-D.zhu-idr-bgp-ha" target="https://datatracker.ietf.org/doc/html/draft-zhu-idr-bgp-ha-00">
+  <front>
+    <title>Cross-Device High Availability for BGP Sessions Using BFD</title>
+    <seriesInfo name="Internet-Draft" value="draft-zhu-idr-bgp-ha-00"/>
+    <author initials="H." surname="Zhu" fullname="Hengbo Zhu"/>
+    <date day="24" month="November" year="2026"/>
+    <abstract>
+      <t>Some BGP deployments cannot rely on peers to negotiate Graceful
+   Restart.  An operator may instead want a standby routing instance on
+   a separate device to continue an existing BGP connection and its
+   associated Bidirectional Forwarding Detection (BFD) session after the
+   active device fails, without changes at the peer.  This document
+   describes the deployment problem, the conditions under which takeover
+   can be attempted, and how to verify continuity as observed by the
+   peer.  It does not specify a replication protocol, change BGP or BFD
+   on the wire, or claim lossless forwarding.  It provides operational
+   criteria that can be applied independently of how the underlying TCP
+   connection is preserved.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,21 @@
+<reference anchor="I-D.heilos-eulno-elp8" target="https://datatracker.ietf.org/doc/html/draft-heilos-eulno-elp8-00">
+  <front>
+    <title>The ELP8 Container Format for Geometric Wheel-8 Compression, Hash-Anchored Self-Alignment, and Multi-Gear Streaming</title>
+    <seriesInfo name="Internet-Draft" value="draft-heilos-eulno-elp8-00"/>
+    <author initials="R." surname="Heilos" fullname="Robin Heilos">
+      <organization>EULNO Project</organization>
+    </author>
+    <date day="25" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies the binary container format .elp8 (EULNO
+   Layered Protocol 8) for streaming data compression based on counter-
+   rotating modulo-8 wheel geometry, inward-mirror stream bisection, and
+   hash-anchored phase alignment.  Unlike conventional archive formats
+   that treat checksums solely as passive post-decompression checks,
+   .elp8 embeds an active Anchor Hash (SHA-256 or SHA-512) inside a
+   variable-tier header (56, 88, or 152 bytes) to deterministically seed
+   wheel sector alignment and enforce constant-time cryptographic self-
+   validation across arbitrary stream sizes up to 2^64 - 1 bytes.</t>
+    </abstract>
+  </front>
+</reference>

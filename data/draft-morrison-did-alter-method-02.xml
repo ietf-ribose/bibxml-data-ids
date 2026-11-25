@@ -1,0 +1,27 @@
+<reference anchor="I-D.morrison-did-alter-method" target="https://datatracker.ietf.org/doc/html/draft-morrison-did-alter-method-02">
+  <front>
+    <title>The did:alter Decentralized Identifier Method</title>
+    <seriesInfo name="Internet-Draft" value="draft-morrison-did-alter-method-02"/>
+    <author initials="B." surname="Morrison" fullname="Blake Morrison">
+      <organization>Alter Meridian Pty Ltd</organization>
+    </author>
+    <date day="25" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies two things two independent implementations
+   would have to agree on.  The first is the spelling of a Decentralized
+   Identifier that names a ~handle together with the DNS zone that
+   publishes the handle's signed envelope.  The second is the DID
+   document a resolver derives from that envelope, once the envelope has
+   passed DNSSEC validation and signature verification under the
+   companion specification for discovering Model Context Protocol
+   servers through DNS TXT records.  The method defines no record,
+   cryptographic primitive or registry of its own.  Resolution requires
+   DNSSEC.  The method is usable only for signed zones.  The envelope
+   record carries no key history, and revocation cannot presently be
+   observed from DNS alone, and the document says what a resolver can
+   and cannot conclude as a result.  No deployment exists.  The document
+   is Informational and is offered for review as an Independent
+   Submission.</t>
+    </abstract>
+  </front>
+</reference>

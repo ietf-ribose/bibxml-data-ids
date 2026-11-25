@@ -1,0 +1,25 @@
+<reference anchor="I-D.morrison-claim-currency" target="https://datatracker.ietf.org/doc/html/draft-morrison-claim-currency-02">
+  <front>
+    <title>Claim Currency: A Read-Time Currency Band for Claims Held in a Shared Append-Only Store</title>
+    <seriesInfo name="Internet-Draft" value="draft-morrison-claim-currency-02"/>
+    <author initials="B." surname="Morrison" fullname="Blake Morrison">
+      <organization>Alter Meridian Pty Ltd</organization>
+    </author>
+    <date day="25" month="November" year="2026"/>
+    <abstract>
+      <t>Software agents that read a shared, append-only store of claims can
+   cite an aged claim as though it were current, and can write new
+   claims grounded on it.  This memo defines the one element two parties
+   would have to agree on, the envelope a read returns for a claim.  It
+   carries the assertion, the time of its grounding observation, its
+   basis set, a three-state currency band (FRESH, AGING, STALE) derived
+   at read time and never stored, and the evidence from which the band
+   was derived.  A relying party can re-derive the band from that
+   evidence.  It also states the rules under which a reader may emit an
+   aged claim and under which a store must refuse a new claim that cites
+   an out-of-date basis.  The memo is an Informational problem statement
+   and description of one design.  It has no second implementer yet, and
+   it is offered for review as an Independent Submission.</t>
+    </abstract>
+  </front>
+</reference>

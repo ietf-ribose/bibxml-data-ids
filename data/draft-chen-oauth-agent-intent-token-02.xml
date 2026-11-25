@@ -1,0 +1,38 @@
+<reference anchor="I-D.chen-oauth-agent-intent-token" target="https://datatracker.ietf.org/doc/html/draft-chen-oauth-agent-intent-token-02">
+  <front>
+    <title>The Intent Token - A Credential for Delegated User Intent</title>
+    <seriesInfo name="Internet-Draft" value="draft-chen-oauth-agent-intent-token-02"/>
+    <author initials="M." surname="Chen" fullname="Meiling Chen">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="L." surname="Su" fullname="Li Su">
+      <organization>China Mobile</organization>
+    </author>
+    <author initials="P. C." surname="Liu" fullname="Peter Chunchi Liu">
+      <organization>Huawei</organization>
+    </author>
+    <date day="25" month="November" year="2026"/>
+    <abstract>
+      <t>Autonomous Artificial Intelligence (AI) agents translate high-level,
+   often ambiguous natural-language instructions from end users into
+   multi-step chains of downstream API invocations.  Traditional OAuth
+   2.0 authorization mechanisms bind access tokens to static, pre-
+   configured scopes or fine-grained resource parameters known at the
+   time of user consent, leaving a semantic gap when an agent
+   dynamically determines exact execution parameters at runtime.
+
+   This document specifies the Intent Token, a cryptographically signed,
+   sender-constrained JSON Web Token (JWT) profile that captures either
+   user-approved authorization bounds or host-attested user
+   instructions, together with an upper-bound authorization envelope and
+   optional step-up action triggers.  Rather than being presented
+   directly to Resource Servers, an Intent Token serves as a verifiable
+   input artifact at the Authorization Server or a dedicated Policy
+   Decision Point (PDP) — either exchanged via OAuth 2.0 Token Exchange
+   (RFC 8693) — optionally accompanied by a client-side Agent Delegation
+   Proof (ADP) — for short-lived, narrowly scoped downstream access
+   tokens, or submitted via Pushed Authorization Requests (RFC 9126) to
+   establish or advance a stateful authorization workflow.</t>
+    </abstract>
+  </front>
+</reference>

@@ -1,0 +1,26 @@
+<reference anchor="I-D.morrison-compute-location-gate" target="https://datatracker.ietf.org/doc/html/draft-morrison-compute-location-gate-06">
+  <front>
+    <title>The Compute-Location Gate: A Pre-Inference Exchange for Choosing Where an Identity Inference Computes</title>
+    <seriesInfo name="Internet-Draft" value="draft-morrison-compute-location-gate-06"/>
+    <author initials="B." surname="Morrison" fullname="Blake Morrison">
+      <organization>Alter Meridian Pty Ltd</organization>
+    </author>
+    <date day="25" month="November" year="2026"/>
+    <abstract>
+      <t>A service that derives statements about a person from signals the
+   person emits can compute them on its own servers or on the person's
+   device.  Today that choice is internal to each service, and a client
+   has no common way to ask where an inference will run before it runs.
+   This memo specifies a pre-inference exchange.  The client asserts a
+   provenance class for the input signal, one of active, passive
+   aggregate, or passive individual.  A fixed routing function maps the
+   class to a compute location, server-side or device-local.  The
+   service replies that the request is accepted, refused, or redirected,
+   and a refusal carries a typed reason, including that the person has
+   not consented to that class.  The memo specifies no proof that the
+   service computed where it says it did.  The only implementation is
+   the author's own, and it does not yet run the exchange with a client.
+   The memo is Informational.</t>
+    </abstract>
+  </front>
+</reference>

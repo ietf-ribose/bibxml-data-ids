@@ -1,0 +1,38 @@
+<reference anchor="I-D.hillier-chorale-protocol" target="https://datatracker.ietf.org/doc/html/draft-hillier-chorale-protocol-01">
+  <front>
+    <title>The Chorale Protocol: Interception-Resistant Packet Transmission with Topology-as-Secret Ordering, Cascade-Integrity Witnessing, Polyglot Cover Packets, Per-Packet Time-Lock Sealing, and Multi-Jurisdiction Substrate Diversity</title>
+    <seriesInfo name="Internet-Draft" value="draft-hillier-chorale-protocol-01"/>
+    <author initials="J." surname="Hillier" fullname="Joel Hillier">
+      <organization>Certisyn, Inc.</organization>
+    </author>
+    <date day="25" month="November" year="2026"/>
+    <abstract>
+      <t>This document specifies the Chorale Protocol, a secure packet
+   transmission system with active integrity assurance for settings that
+   require resistance to interception, traffic analysis, replay,
+   tampering and retrospective decryption by adversaries with quantum
+   capability.  Sessions are keyed by a hybrid handoff that combines
+   ECDH with ML-KEM-1024 under an HKDF-SHA-512 combiner, binds the
+   selected suite into a short authentication string, and is verified in
+   the Tamarin prover.  Chorale defines three confidentiality regimes,
+   computational, everlasting and information-theoretic, and states the
+   keying conditions under which each applies.  Every session reports
+   the regime its keying supports, and a conforming implementation
+   refuses to transmit a message whose required regime exceeds the
+   achievable one.  The protocol composes a per-session secret graph
+   topology that orders packets without transmitting ordering
+   information, cascade-integrity witnessing over the hidden topology,
+   cover packets carrying valid-looking witnesses for fictional
+   sessions, per-packet time-lock sealing over an RSA-group VDF or a
+   post-quantum sequential hash chain, multi-source physical-entropy pad
+   composition with sovereign jurisdictional separation, multi-substrate
+   flight with threshold reconstruction, hash-family negotiation across
+   SHA-256, SHA-512 and SHA3-512, and a tombstone ledger that makes pad
+   reuse structurally impossible at the receiver.  The protocol serves
+   intelligence agencies, central banks, treaty-bound corridors,
+   regulator-to-regulator communications and other settings that require
+   the strongest confidentiality and integrity properties currently
+   attainable.</t>
+    </abstract>
+  </front>
+</reference>
