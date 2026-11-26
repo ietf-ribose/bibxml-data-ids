@@ -1,0 +1,25 @@
+<reference anchor="I-D.he-idr-bgp-ls-sr-policy-diffserv" target="https://datatracker.ietf.org/doc/html/draft-he-idr-bgp-ls-sr-policy-diffserv-00">
+  <front>
+    <title>Advertisement of SR Policy DiffServ using BGP Link-State</title>
+    <seriesInfo name="Internet-Draft" value="draft-he-idr-bgp-ls-sr-policy-diffserv-00"/>
+    <author initials="X." surname="hexiaoming" fullname="hexiaoming">
+      <organization>China Telecom</organization>
+    </author>
+    <author initials="X." surname="Yuan" fullname="Xuejing Yuan">
+      <organization>China Telecom</organization>
+    </author>
+    <date day="26" month="November" year="2026"/>
+    <abstract>
+      <t>This document defines an extension to BGP Link-State (BGP-LS) for the
+   advertisement of the Differentiated Services (DiffServ) Per-Hop
+   Behavior (PHB) that is bound to a Segment Routing (SR) Policy
+   candidate path.  It introduces a new descriptor TLV carried in the SR
+   Policy Candidate Path NLRI defined in [RFC9857].  This TLV reports
+   the SR Policy candidate path to PHB binding that is actually
+   installed in the data plane by a headend node.  This document
+   complements the control-plane signaling which conveys the desired PHB
+   binding, by enabling the management or control plane to observe the
+   actual PHB binding.</t>
+    </abstract>
+  </front>
+</reference>

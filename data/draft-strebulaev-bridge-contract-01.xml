@@ -1,0 +1,25 @@
+<reference anchor="I-D.strebulaev-bridge-contract" target="https://datatracker.ietf.org/doc/html/draft-strebulaev-bridge-contract-01">
+  <front>
+    <title>Bridge Contract for Agent Session Governance</title>
+    <seriesInfo name="Internet-Draft" value="draft-strebulaev-bridge-contract-01"/>
+    <author initials="S." surname="Strebulaev" fullname="Sergei Strebulaev">
+      <organization>Independent Researcher</organization>
+    </author>
+    <date day="26" month="November" year="2026"/>
+    <abstract>
+      <t>Existing agent protocols define identity headers, audit records and
+   session resumption, but none defines what an intermediate bridge MUST
+   do when the client is detached and the agent keeps executing, or when
+   the human in the loop is unavailable.  This document defines the
+   Bridge Contract: a Session Identity Descriptor, Mandatory Governance
+   Events, a Resume Record that the bridge keeps for itself, and
+   Conformance Criteria.  Re-attach is a challenge-response in which the
+   client proves possession of a registered key over a single-use nonce
+   and the last event it saw.  The event log is hash-chained.  The
+   contract complements, and does not replace, the protocols it composes
+   with.  The evidence for the specification is in a companion preprint;
+   it comes from one author's implementations and is not independent
+   confirmation.</t>
+    </abstract>
+  </front>
+</reference>

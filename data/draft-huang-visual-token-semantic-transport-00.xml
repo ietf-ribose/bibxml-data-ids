@@ -1,0 +1,33 @@
+<reference anchor="I-D.huang-visual-token-semantic-transport" target="https://datatracker.ietf.org/doc/html/draft-huang-visual-token-semantic-transport-00">
+  <front>
+    <title>Token-Native Semantic Transport for Real-Time Video Agent Systems</title>
+    <seriesInfo name="Internet-Draft" value="draft-huang-visual-token-semantic-transport-00"/>
+    <author initials="S." surname="Huang" fullname="Shiyang Huang">
+      <organization>Chinese Academy of Sciences</organization>
+    </author>
+    <author initials="G." surname="&#x5415;&#x683C;&#x745E;" fullname="&#x5415;&#x683C;&#x745E;">
+      <organization>Chinese Academy of Sciences</organization>
+    </author>
+    <author initials="Q." surname="Wu" fullname="Qinghua Wu">
+      <organization>Chinese Academy of Sciences</organization>
+    </author>
+    <author initials="Z." surname="Li" fullname="Zhenyu Li">
+      <organization>Chinese Academy of Sciences</organization>
+    </author>
+    <date day="25" month="November" year="2026"/>
+    <abstract>
+      <t>This document describes a token-native semantic transport framework
+   for real-time video agent systems.  A client device extracts visual
+   tokens from captured video and transmits their compressed
+   representations to a server for inference.  The framework adopts an
+   autoencoder to reduce the dimensionality of visual tokens and
+   organizes the compressed tokens into independently entropy-coded
+   groups to support packet-level adaptation.  The client device adjusts
+   the number of visual tokens to transmit, both before and during each
+   frame's transmission, to adapt to changes in available network
+   bandwidth.  This document specifies the functional architecture and
+   requirements for token compression, packet-aware grouping, rate
+   adaptation, and server-side token reconstruction.</t>
+    </abstract>
+  </front>
+</reference>

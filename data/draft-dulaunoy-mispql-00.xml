@@ -1,0 +1,23 @@
+<reference anchor="I-D.dulaunoy-mispql" target="https://datatracker.ietf.org/doc/html/draft-dulaunoy-mispql-00">
+  <front>
+    <title>MispQL: A Query Language for Cyber Threat Intelligence</title>
+    <seriesInfo name="Internet-Draft" value="draft-dulaunoy-mispql-00"/>
+    <author initials="A." surname="Dulaunoy" fullname="Alexandre Dulaunoy">
+      <organization>Computer Incident Response Center Luxembourg</organization>
+    </author>
+    <author initials="A." surname="Iklody" fullname="Andras Iklody">
+      <organization>Computer Incident Response Center Luxembourg</organization>
+    </author>
+    <date day="26" month="November" year="2026"/>
+    <abstract>
+      <t>MispQL is a read-only, SQL-like query language for cyber threat
+   intelligence (CTI).  This document specifies its text syntax using
+   Augmented Backus-Naur Form (ABNF), its query semantics, and a JSON
+   representation for its Boolean filters.  A CTI platform can implement
+   MispQL over its own data model by describing the tables, fields,
+   types, and operators it supports.  A transport binding describes how
+   the Python MispQL client uses the complex-search interface in MISP
+   3.0.</t>
+    </abstract>
+  </front>
+</reference>
