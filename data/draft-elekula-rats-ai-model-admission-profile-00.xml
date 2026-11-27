@@ -1,0 +1,38 @@
+<reference anchor="I-D.elekula-rats-ai-model-admission-profile" target="https://datatracker.ietf.org/doc/html/draft-elekula-rats-ai-model-admission-profile-00">
+  <front>
+    <title>A RATS Profile for Attestation of AI Inference Model Admission and Runtime Binding</title>
+    <seriesInfo name="Internet-Draft" value="draft-elekula-rats-ai-model-admission-profile-00"/>
+    <author initials="K. O. E." surname="&#xE0;" fullname="Kayode Oluwole Elekula &#xE0;">
+      <organization>Independent</organization>
+    </author>
+    <date day="26" month="November" year="2026"/>
+    <abstract>
+      <t>AI inference environments dynamically load, transform, configure,
+   and execute model artifacts across heterogeneous software and
+   hardware trust domains.  Independent measurements of model artifacts
+   and inference runtimes do not establish that a particular model
+   representation was admitted into a particular runtime instance or
+   maintained within the execution environment.
+
+   This document specifies a Remote ATtestation procedureS (RATS)
+   profile for cryptographically protected evidence of AI inference
+   model admission and runtime binding.
+
+   The profile defines an information model and processing requirements
+   for identifying source model artifacts, recording transformation
+   provenance, measuring admitted model representations, identifying
+   inference-runtime instances, and establishing a protected association
+   between admitted representations and execution environments.
+
+   The profile builds on the RATS architecture, the Entity Attestation
+   Token (EAT), and the EAT measured-component information model.  It
+   defines requirements for model identity, transformation continuity,
+   admission events, runtime identity, evidence protection, freshness,
+   and verifier appraisal.
+
+   The resulting evidence enables a Verifier to evaluate whether an
+   identified model representation was admitted into an identified
+   inference-runtime instance within the declared attestation boundary.</t>
+    </abstract>
+  </front>
+</reference>
